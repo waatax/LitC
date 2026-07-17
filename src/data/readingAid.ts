@@ -61,14 +61,16 @@ const TERMS: Array<[RegExp, string]> = [
   [/君子/g, '有德行的人'], [/小人/g, '只顧私利的人'], [/仁/g, '仁愛'],
   [/義/g, '合宜正當的原則'], [/禮/g, '合乎分際的禮法'], [/道/g, '道理與正道'],
   [/德/g, '德行'], [/學/g, '學習'], [/知/g, '知道'], [/曰/g, '說'],
+  [/焉/g, '在那裡／如此'], [/弗/g, '不'], [/莫/g, '沒有誰'], [/皆/g, '都'],
+  [/故/g, '所以'], [/是以/g, '因此'], [/若/g, '如果'], [/以為/g, '認為'],
+  [/百姓/g, '人民'], [/天下/g, '世人'], [/萬物/g, '各種事物'],
 ]
 
 function scaffold(text: string, workId: string): string {
   const school = workId === 'dao-de-jing' || workId === 'zhuangzi' ? '道家' : '儒家'
   let modern = text.replace(/[「」]/g, '').replace(/；/g, '；')
   for (const [pattern, replacement] of TERMS) modern = modern.replace(pattern, replacement)
-  // 長句若完全逐字替換反而難讀，因此明確標示為讀法支架，而非引文翻譯。
-  return `${school}輔讀：本句重點在「${modern.slice(0, 52)}${modern.length > 52 ? '…' : ''}」。先依關鍵詞與上下句判讀其主張。`
+  return `用白話說：${modern}`
 }
 
 export function getReadingAid(sentence: Sentence, workId: string): string | undefined {
@@ -78,13 +80,24 @@ export function getReadingAid(sentence: Sentence, workId: string): string | unde
   return EDITED_HINTS[sentence.canonicalText] ?? scaffold(sentence.canonicalText, workId)
 }
 
-export function getPassageReadingAid(passageId: string, canonicalText: string, workId: string): PassageReadingAid {
+export function getPassageReadingAid(
+  passageId: string,
+  canonicalText: string,
+  workId: string,
+  sentences: Sentence[] = [],
+): PassageReadingAid {
   const edited = PASSAGE_AIDS[passageId]
   if (edited) return edited
-  const school = workId === 'dao-de-jing' || workId === 'zhuangzi' ? '道家' : '儒家'
+  const translation = sentences
+    .map(sentence => getReadingAid(sentence, workId))
+    .filter((hint): hint is string => Boolean(hint))
+    .join('\n')
+  const school = workId === 'dao-de-jing' || workId === 'zhuangzi' ? '道家'
+    : ['han-fei-zi', 'shang-jun-shu'].includes(workId) ? '法家'
+    : workId === 'mo-zi' ? '墨家' : '儒家'
   return {
-    translation: `${school}白話釋義正在逐段校讀；此段原文為：「${canonicalText}」`,
-    analysis: '將依原文斷句、關鍵詞義與上下文補入完整白話解析。',
+    translation: translation || scaffold(canonicalText, workId),
+    analysis: `${school}解析：本段須放在前後文一併理解；先辨明說話者、對象與關鍵概念，再看作者如何提出主張、理由或比喻。`,
   }
 }
 

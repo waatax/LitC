@@ -74,7 +74,12 @@ const allSentences = computed(() => {
 })
 
 function passageAid(passage: Passage) {
-  return getPassageReadingAid(passage.id, passage.canonicalText, chapter.value?.workId ?? '')
+  return getPassageReadingAid(
+    passage.id,
+    passage.canonicalText,
+    chapter.value?.workId ?? '',
+    passageSentences.value.get(passage.id) ?? [],
+  )
 }
 
 function goBack() {
