@@ -1,3 +1,4 @@
+// Trigger build: 2026-07-17
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import App from './App.vue'
