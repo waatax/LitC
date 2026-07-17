@@ -4,6 +4,8 @@ import { useRoute, useRouter } from 'vue-router'
 import type { Chapter, Work, Sentence, HintLevel, ReviewRating } from '@/types/content'
 import { HINT_LEVELS } from '@/types/content'
 import { getChapter, getWorks, getAllSentencesByChapter } from '@/data'
+import { getCardState, saveCardState, logReview } from '@/data/db'
+import { scheduleReview } from '@/utils/scheduler'
 import SentenceCard from '@/components/SentenceCard.vue'
 import HintLadder from '@/components/HintLadder.vue'
 import ProgressRing from '@/components/ProgressRing.vue'
@@ -124,9 +126,42 @@ function resetTyping() {
   showDiff.value = false
 }
 
-function rateSentence(rating: ReviewRating) {
+async function rateSentence(rating: ReviewRating) {
   if (!currentSentence.value) return
-  ratings.value.set(currentSentence.value.id, rating)
+  const sentenceId = currentSentence.value.id
+  ratings.value.set(sentenceId, rating)
+
+  // Load current card state
+  const currentState = await getCardState(sentenceId)
+
+  // Map hint levels to rough hintsUsed count
+  let hintsUsed = 0
+  if (hintLevel.value === 'keyword-mask') hintsUsed = 1
+  if (hintLevel.value === 'first-char') hintsUsed = 2
+  if (hintLevel.value === 'meaning-only') hintsUsed = 3
+  if (hintLevel.value === 'blank') hintsUsed = 4
+
+  // Run spaced repetition scheduler
+  const { cardState } = scheduleReview(
+    {
+      cardId: sentenceId,
+      reviewedAt: new Date().toISOString(),
+      rating,
+      answerMode: showTypingArea.value ? 'typing' : 'recall',
+      hintsUsed
+    },
+    currentState
+  )
+
+  // Save progress
+  await saveCardState(cardState)
+  await logReview({
+    cardId: sentenceId,
+    reviewedAt: new Date().toISOString(),
+    rating,
+    answerMode: showTypingArea.value ? 'typing' : 'recall',
+    hintsUsed
+  })
 
   // Move to next sentence or complete
   if (currentIndex.value < totalSentences.value - 1) {

@@ -117,6 +117,15 @@ export interface ReviewCardState {
   lastReviewedAt?: string
 }
 
+export interface ReviewInput {
+  cardId: string
+  reviewedAt: string
+  rating: ReviewRating
+  answerMode: 'recall' | 'typing' | 'ordering' | 'recitation'
+  hintsUsed: number
+  responseMs?: number
+}
+
 export type HintLevel = 'full' | 'keyword-mask' | 'first-char' | 'meaning-only' | 'blank'
 
 export const HINT_LEVELS: { level: HintLevel; label: string; icon: string }[] = [
