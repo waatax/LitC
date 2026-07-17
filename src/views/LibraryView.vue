@@ -38,6 +38,8 @@ const filterTabs: FilterOption[] = [
   { id: 'legalism', label: '法家' },
   { id: 'mohism', label: '墨家' },
   { id: 'syncretism', label: '儒釋道' },
+  { id: 'confucianism', label: '儒家' },
+  { id: 'literature', label: '文學' },
 ]
 
 const filteredWorks = computed(() => {

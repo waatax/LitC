@@ -11,6 +11,8 @@ const schoolMeta: Record<SchoolId, { name: string; badgeClass: string }> = {
   legalism: { name: '法家', badgeClass: 'badge-legal' },
   mohism:  { name: '墨家', badgeClass: 'badge-mohist' },
   syncretism: { name: '儒釋道', badgeClass: 'badge-syncretism' },
+  confucianism: { name: '儒家', badgeClass: 'badge-confucian' },
+  literature: { name: '文學', badgeClass: 'badge-literature' },
 }
 
 const meta = computed(() => {

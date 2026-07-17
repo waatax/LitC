@@ -28,6 +28,8 @@ const schools: SchoolDot[] = [
   { id: 'legalism', name: '法家', colorClass: 'dot-legal' },
   { id: 'mohism', name: '墨家', colorClass: 'dot-mohist' },
   { id: 'syncretism', name: '儒釋道', colorClass: 'dot-syncretism' },
+  { id: 'confucianism', name: '儒家', colorClass: 'dot-confucian' },
+  { id: 'literature', name: '文學', colorClass: 'dot-literature' },
 ]
 
 function isActive(to: string): boolean {
@@ -287,6 +289,16 @@ function navigate(to: string) {
 .dot-syncretism {
   background: var(--c-accent-syncretism);
   box-shadow: 0 0 6px rgba(212, 138, 155, 0.4);
+}
+
+.dot-confucian {
+  background: var(--c-accent-confucian);
+  box-shadow: 0 0 6px rgba(181, 141, 61, 0.4);
+}
+
+.dot-literature {
+  background: var(--c-accent-literature);
+  box-shadow: 0 0 6px rgba(74, 111, 165, 0.4);
 }
 
 .school-name {

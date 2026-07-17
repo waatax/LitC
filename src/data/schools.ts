@@ -25,4 +25,35 @@ export const schools: School[] = [
     icon: '🤝',
     workIds: ['mo-zi'],
   },
+  {
+    id: 'confucianism',
+    name: '儒家',
+    description: '崇尚禮樂仁義，主張修己安人、中庸之道，代表人物孔子、孟子。',
+    icon: '📜',
+    workIds: [
+      'lun-yu',
+      'meng-zi',
+      'yi-jing',
+      'shu-jing',
+      'shi-jing',
+      'li-ji',
+      'chun-qiu',
+      'da-xue',
+      'zhong-yong'
+    ],
+  },
+  {
+    id: 'syncretism',
+    name: '儒釋道',
+    description: '融合儒家盡性、佛家明心、道家清靜之智慧，為身心性命修養與處世之道。',
+    icon: '🌸',
+    workIds: ['cai-gen-tan'],
+  },
+  {
+    id: 'literature',
+    name: '文學',
+    description: '歷代經典散文與駢文，融會思想、情感與文字之美，為中國文學之冠冕。',
+    icon: '✒️',
+    workIds: ['gu-wen-guan-zhi'],
+  },
 ]

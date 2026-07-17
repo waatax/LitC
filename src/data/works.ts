@@ -1,6 +1,6 @@
 // ─────────────────────────────────────────────────
 // 經典文脈 ClassicFlow — 典籍內容資料庫
-// 自動生成於: 2026-07-17T05:27:18.814Z
+// 自動生成於: 2026-07-17T05:30:45.622Z
 // ─────────────────────────────────────────────────
 import type { Work, Chapter, Passage, Sentence } from '../types/content'
 
@@ -117,6 +117,123 @@ export const works: Work[] = [
       "cai-gen-tan_ch-5"
     ],
     "totalChars": 14071
+  },
+  {
+    "id": "da-xue",
+    "schoolId": "confucianism",
+    "title": "大學",
+    "genreStrategy": "argumentative",
+    "sourceNote": "朱熹《四書章句集注》，儒家修己治人之核心大綱。",
+    "chapterIds": [
+      "da-xue_ch-1"
+    ],
+    "totalChars": 205
+  },
+  {
+    "id": "zhong-yong",
+    "schoolId": "confucianism",
+    "title": "中庸",
+    "genreStrategy": "argumentative",
+    "sourceNote": "朱熹《四書章句集注》，儒家心法與中和哲學之源起。",
+    "chapterIds": [
+      "zhong-yong_ch-1"
+    ],
+    "totalChars": 109
+  },
+  {
+    "id": "lun-yu",
+    "schoolId": "confucianism",
+    "title": "論語",
+    "genreStrategy": "rhythmic",
+    "sourceNote": "記錄孔子及其弟子言行之儒家最核心經典。",
+    "chapterIds": [
+      "lun-yu_ch-1",
+      "lun-yu_ch-2"
+    ],
+    "totalChars": 188
+  },
+  {
+    "id": "meng-zi",
+    "schoolId": "confucianism",
+    "title": "孟子",
+    "genreStrategy": "argumentative",
+    "sourceNote": "記載孟軻之言論、政治主張與心性論。",
+    "chapterIds": [
+      "meng-zi_ch-1",
+      "meng-zi_ch-2"
+    ],
+    "totalChars": 244
+  },
+  {
+    "id": "yi-jing",
+    "schoolId": "confucianism",
+    "title": "易經",
+    "genreStrategy": "parallel",
+    "sourceNote": "儒家與道家共同之核心源頭，五經之首。",
+    "chapterIds": [
+      "yi-jing_ch-1"
+    ],
+    "totalChars": 43
+  },
+  {
+    "id": "shu-jing",
+    "schoolId": "confucianism",
+    "title": "尚書",
+    "genreStrategy": "narrative",
+    "sourceNote": "中國上古歷史文獻與政事記錄。",
+    "chapterIds": [
+      "shu-jing_ch-1"
+    ],
+    "totalChars": 58
+  },
+  {
+    "id": "shi-jing",
+    "schoolId": "confucianism",
+    "title": "詩經",
+    "genreStrategy": "parallel",
+    "sourceNote": "中國最早之詩歌總集，開創文學風雅傳統。",
+    "chapterIds": [
+      "shi-jing_ch-1",
+      "shi-jing_ch-2"
+    ],
+    "totalChars": 146
+  },
+  {
+    "id": "li-ji",
+    "schoolId": "confucianism",
+    "title": "禮記",
+    "genreStrategy": "argumentative",
+    "sourceNote": "記載儒家禮儀制度與社會哲學。",
+    "chapterIds": [
+      "li-ji_ch-1"
+    ],
+    "totalChars": 107
+  },
+  {
+    "id": "chun-qiu",
+    "schoolId": "confucianism",
+    "title": "春秋",
+    "genreStrategy": "narrative",
+    "sourceNote": "魯國之編年史，微言大義。",
+    "chapterIds": [
+      "chun-qiu_ch-1"
+    ],
+    "totalChars": 118
+  },
+  {
+    "id": "gu-wen-guan-zhi",
+    "schoolId": "literature",
+    "title": "古文觀止",
+    "genreStrategy": "parallel",
+    "sourceNote": "清代編選之歷代名篇散文精華，文學殿堂之階梯。",
+    "chapterIds": [
+      "gu-wen-guan-zhi_ch-1",
+      "gu-wen-guan-zhi_ch-2",
+      "gu-wen-guan-zhi_ch-3",
+      "gu-wen-guan-zhi_ch-4",
+      "gu-wen-guan-zhi_ch-5"
+    ],
+    "totalChars": 563
   }
 ];
 
@@ -1169,6 +1286,210 @@ export const chapters: Chapter[] = [
       "cai-gen-tan_ch-5_p-239",
       "cai-gen-tan_ch-5_p-240",
       "cai-gen-tan_ch-5_p-241"
+    ],
+    "tags": []
+  },
+  {
+    "id": "da-xue_ch-1",
+    "workId": "da-xue",
+    "order": 1,
+    "title": "經一章",
+    "difficulty": 2,
+    "estimatedMinutes": 2,
+    "passageIds": [
+      "da-xue_ch-1_p-1"
+    ],
+    "tags": []
+  },
+  {
+    "id": "zhong-yong_ch-1",
+    "workId": "zhong-yong",
+    "order": 1,
+    "title": "天命之謂性",
+    "difficulty": 2,
+    "estimatedMinutes": 1,
+    "passageIds": [
+      "zhong-yong_ch-1_p-1"
+    ],
+    "tags": []
+  },
+  {
+    "id": "lun-yu_ch-1",
+    "workId": "lun-yu",
+    "order": 1,
+    "title": "學而第一（節選）",
+    "difficulty": 2,
+    "estimatedMinutes": 1,
+    "passageIds": [
+      "lun-yu_ch-1_p-1"
+    ],
+    "tags": []
+  },
+  {
+    "id": "lun-yu_ch-2",
+    "workId": "lun-yu",
+    "order": 2,
+    "title": "為政第二（節選）",
+    "difficulty": 2,
+    "estimatedMinutes": 1,
+    "passageIds": [
+      "lun-yu_ch-2_p-1"
+    ],
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-1",
+    "workId": "meng-zi",
+    "order": 1,
+    "title": "梁惠王上（節選）",
+    "difficulty": 2,
+    "estimatedMinutes": 2,
+    "passageIds": [
+      "meng-zi_ch-1_p-1"
+    ],
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-2",
+    "workId": "meng-zi",
+    "order": 2,
+    "title": "四端之心",
+    "difficulty": 2,
+    "estimatedMinutes": 1,
+    "passageIds": [
+      "meng-zi_ch-2_p-1"
+    ],
+    "tags": []
+  },
+  {
+    "id": "yi-jing_ch-1",
+    "workId": "yi-jing",
+    "order": 1,
+    "title": "乾坤二卦《大象傳》",
+    "difficulty": 2,
+    "estimatedMinutes": 1,
+    "passageIds": [
+      "yi-jing_ch-1_p-1"
+    ],
+    "tags": []
+  },
+  {
+    "id": "shu-jing_ch-1",
+    "workId": "shu-jing",
+    "order": 1,
+    "title": "大禹謨（十六字心傳）",
+    "difficulty": 2,
+    "estimatedMinutes": 1,
+    "passageIds": [
+      "shu-jing_ch-1_p-1"
+    ],
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-1",
+    "workId": "shi-jing",
+    "order": 1,
+    "title": "國風·周南·關雎",
+    "difficulty": 2,
+    "estimatedMinutes": 1,
+    "passageIds": [
+      "shi-jing_ch-1_p-1"
+    ],
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-2",
+    "workId": "shi-jing",
+    "order": 2,
+    "title": "國風·秦風·蒹葭",
+    "difficulty": 2,
+    "estimatedMinutes": 1,
+    "passageIds": [
+      "shi-jing_ch-2_p-1"
+    ],
+    "tags": []
+  },
+  {
+    "id": "li-ji_ch-1",
+    "workId": "li-ji",
+    "order": 1,
+    "title": "禮運·大同篇",
+    "difficulty": 2,
+    "estimatedMinutes": 1,
+    "passageIds": [
+      "li-ji_ch-1_p-1"
+    ],
+    "tags": []
+  },
+  {
+    "id": "chun-qiu_ch-1",
+    "workId": "chun-qiu",
+    "order": 1,
+    "title": "曹劌論戰（左傳節選）",
+    "difficulty": 2,
+    "estimatedMinutes": 2,
+    "passageIds": [
+      "chun-qiu_ch-1_p-1"
+    ],
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-1",
+    "workId": "gu-wen-guan-zhi",
+    "order": 1,
+    "title": "桃花源記（陶淵明）",
+    "difficulty": 2,
+    "estimatedMinutes": 2,
+    "passageIds": [
+      "gu-wen-guan-zhi_ch-1_p-1"
+    ],
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-2",
+    "workId": "gu-wen-guan-zhi",
+    "order": 2,
+    "title": "陋室銘（劉輿錫）",
+    "difficulty": 2,
+    "estimatedMinutes": 1,
+    "passageIds": [
+      "gu-wen-guan-zhi_ch-2_p-1"
+    ],
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-3",
+    "workId": "gu-wen-guan-zhi",
+    "order": 3,
+    "title": "岳陽樓記（范仲淹）",
+    "difficulty": 2,
+    "estimatedMinutes": 2,
+    "passageIds": [
+      "gu-wen-guan-zhi_ch-3_p-1"
+    ],
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-4",
+    "workId": "gu-wen-guan-zhi",
+    "order": 4,
+    "title": "前赤壁賦（蘇軾）",
+    "difficulty": 2,
+    "estimatedMinutes": 1,
+    "passageIds": [
+      "gu-wen-guan-zhi_ch-4_p-1"
+    ],
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-5",
+    "workId": "gu-wen-guan-zhi",
+    "order": 5,
+    "title": "出師表（諸葛亮）",
+    "difficulty": 2,
+    "estimatedMinutes": 1,
+    "passageIds": [
+      "gu-wen-guan-zhi_ch-5_p-1"
     ],
     "tags": []
   }
@@ -9131,6 +9452,394 @@ export const passages: Passage[] = [
       {
         "label": "遂初堂本",
         "edition": "乾隆五十九年"
+      }
+    ]
+  },
+  {
+    "id": "da-xue_ch-1_p-1",
+    "chapterId": "da-xue_ch-1",
+    "order": 1,
+    "canonicalText": "大學之道，在明明德，在親民，在止於至善。知止而后有定，定而后能靜，靜而后能安，安而后能慮，慮而后能得。物有本末，事有終始，知所先後，則近道矣。古之欲明明德於天下者，先治其國；欲治其國者，先齊其家；欲齊其家者，先修其身；欲修其身者，先正其心；欲正其心者，先誠其意；欲誠其意者，先致其知；致知在格物。物格而后知至，知至而后意誠，意誠而后心正，心正而后身修，身修而后家齊，家齊而后國治，國治而后天下平。自天子以至於庶人，壹是皆以修身為本。其本亂而末治者否矣；其所厚者薄，而其所薄者厚，未之有也！",
+    "sentenceIds": [
+      "da-xue_ch-1_p-1_s-1",
+      "da-xue_ch-1_p-1_s-2",
+      "da-xue_ch-1_p-1_s-3",
+      "da-xue_ch-1_p-1_s-4",
+      "da-xue_ch-1_p-1_s-5",
+      "da-xue_ch-1_p-1_s-6",
+      "da-xue_ch-1_p-1_s-7",
+      "da-xue_ch-1_p-1_s-8",
+      "da-xue_ch-1_p-1_s-9",
+      "da-xue_ch-1_p-1_s-10",
+      "da-xue_ch-1_p-1_s-11",
+      "da-xue_ch-1_p-1_s-12",
+      "da-xue_ch-1_p-1_s-13",
+      "da-xue_ch-1_p-1_s-14"
+    ],
+    "sourceRefs": [
+      {
+        "label": "通行本",
+        "edition": "中哲會"
+      }
+    ]
+  },
+  {
+    "id": "zhong-yong_ch-1_p-1",
+    "chapterId": "zhong-yong_ch-1",
+    "order": 1,
+    "canonicalText": "天命之謂性，率性之謂道，修道之謂教。道也者，不可須臾離也，可離非道也。是故君子戒慎乎其所不睹，恐懼乎其所不聞。莫見乎隱，莫顯乎微，故君子慎其獨也。喜怒哀樂之未發，謂之中；發而皆中節，謂之和。中也者，天下之大本也；和也者，天下之達道也。致中和，天地位焉，萬物育焉。",
+    "sentenceIds": [
+      "zhong-yong_ch-1_p-1_s-1",
+      "zhong-yong_ch-1_p-1_s-2",
+      "zhong-yong_ch-1_p-1_s-3",
+      "zhong-yong_ch-1_p-1_s-4",
+      "zhong-yong_ch-1_p-1_s-5",
+      "zhong-yong_ch-1_p-1_s-6",
+      "zhong-yong_ch-1_p-1_s-7",
+      "zhong-yong_ch-1_p-1_s-8",
+      "zhong-yong_ch-1_p-1_s-9"
+    ],
+    "sourceRefs": [
+      {
+        "label": "通行本",
+        "edition": "中哲會"
+      }
+    ]
+  },
+  {
+    "id": "lun-yu_ch-1_p-1",
+    "chapterId": "lun-yu_ch-1",
+    "order": 1,
+    "canonicalText": "子曰：「學而時習之，不亦說乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？」曾子曰：「吾日三省吾身：為人謀而不忠乎？與朋友交而不信乎？傳不習乎？」子曰：「道千乘之國，敬事而信，節用而愛人，使民以時。」子曰：「弟子入則孝，出則弟，謹而信，汎愛眾，而親仁。行有餘力，則以學文。」",
+    "sentenceIds": [
+      "lun-yu_ch-1_p-1_s-1",
+      "lun-yu_ch-1_p-1_s-2",
+      "lun-yu_ch-1_p-1_s-3",
+      "lun-yu_ch-1_p-1_s-4",
+      "lun-yu_ch-1_p-1_s-5",
+      "lun-yu_ch-1_p-1_s-6",
+      "lun-yu_ch-1_p-1_s-7",
+      "lun-yu_ch-1_p-1_s-8",
+      "lun-yu_ch-1_p-1_s-9"
+    ],
+    "sourceRefs": [
+      {
+        "label": "通行本",
+        "edition": "中哲會"
+      }
+    ]
+  },
+  {
+    "id": "lun-yu_ch-2_p-1",
+    "chapterId": "lun-yu_ch-2",
+    "order": 1,
+    "canonicalText": "子曰：「吾十有五而志於學，三十而立，四十而不惑，五十而知天命，六十而耳順，七十而從心所欲，不逾矩。」子曰：「溫故而知新，可以為師矣。」子曰：「學而不思則罔，思而不學則殆。」子曰：「知之為知之，不知為不知，是知也。」",
+    "sentenceIds": [
+      "lun-yu_ch-2_p-1_s-1",
+      "lun-yu_ch-2_p-1_s-2",
+      "lun-yu_ch-2_p-1_s-3",
+      "lun-yu_ch-2_p-1_s-4"
+    ],
+    "sourceRefs": [
+      {
+        "label": "通行本",
+        "edition": "中哲會"
+      }
+    ]
+  },
+  {
+    "id": "meng-zi_ch-1_p-1",
+    "chapterId": "meng-zi_ch-1",
+    "order": 1,
+    "canonicalText": "孟子見梁惠王。王曰：「叟！不遠千里而來，亦將有以利吾國乎？」孟子對曰：「王！何必曰利？亦有仁義而已矣。王曰『何以利吾國』，大夫曰『何以利吾家』，士庶人曰『何以利吾身』，上下交征利而國危矣。萬乘之國，弒其君者，必千乘之家；千乘之國，弒其君者，必百乘之家。萬取千焉，千取百焉，不為不多矣。苟為後義而先利，不奪不饜。未有仁而遺其親者也，未有義而後其君者也。王亦曰仁義而已矣，何必曰利？」",
+    "sentenceIds": [
+      "meng-zi_ch-1_p-1_s-1",
+      "meng-zi_ch-1_p-1_s-2",
+      "meng-zi_ch-1_p-1_s-3",
+      "meng-zi_ch-1_p-1_s-4",
+      "meng-zi_ch-1_p-1_s-5",
+      "meng-zi_ch-1_p-1_s-6",
+      "meng-zi_ch-1_p-1_s-7",
+      "meng-zi_ch-1_p-1_s-8",
+      "meng-zi_ch-1_p-1_s-9",
+      "meng-zi_ch-1_p-1_s-10",
+      "meng-zi_ch-1_p-1_s-11",
+      "meng-zi_ch-1_p-1_s-12",
+      "meng-zi_ch-1_p-1_s-13"
+    ],
+    "sourceRefs": [
+      {
+        "label": "通行本",
+        "edition": "中哲會"
+      }
+    ]
+  },
+  {
+    "id": "meng-zi_ch-2_p-1",
+    "chapterId": "meng-zi_ch-2",
+    "order": 1,
+    "canonicalText": "孟子曰：「人皆有惻隱之心，羞惡之心，辭讓之心，是非之心。惻隱之心，仁之端也；羞惡之心，義之端也；辭讓之心，禮之端也；是非之心，智之端也。人之有是四端也，猶其有四體也。有是四端而自謂不能者，自賊者也；謂其君不能者，賊其君者也。」",
+    "sentenceIds": [
+      "meng-zi_ch-2_p-1_s-1",
+      "meng-zi_ch-2_p-1_s-2",
+      "meng-zi_ch-2_p-1_s-3",
+      "meng-zi_ch-2_p-1_s-4",
+      "meng-zi_ch-2_p-1_s-5",
+      "meng-zi_ch-2_p-1_s-6",
+      "meng-zi_ch-2_p-1_s-7",
+      "meng-zi_ch-2_p-1_s-8"
+    ],
+    "sourceRefs": [
+      {
+        "label": "通行本",
+        "edition": "中哲會"
+      }
+    ]
+  },
+  {
+    "id": "yi-jing_ch-1_p-1",
+    "chapterId": "yi-jing_ch-1",
+    "order": 1,
+    "canonicalText": "乾卦：元，亨，利，貞。大象傳曰：天行健，君子以自強不息。坤卦：元，亨，利，牝馬之貞。大象傳曰：地勢坤，君子以厚德載物。",
+    "sentenceIds": [
+      "yi-jing_ch-1_p-1_s-1",
+      "yi-jing_ch-1_p-1_s-2",
+      "yi-jing_ch-1_p-1_s-3",
+      "yi-jing_ch-1_p-1_s-4"
+    ],
+    "sourceRefs": [
+      {
+        "label": "通行本",
+        "edition": "中哲會"
+      }
+    ]
+  },
+  {
+    "id": "shu-jing_ch-1_p-1",
+    "chapterId": "shu-jing_ch-1",
+    "order": 1,
+    "canonicalText": "帝曰：「來，禹！降水儆予，成允成功，惟汝賢。克勤于邦，克儉于家，不自滿假，惟汝賢。人心惟危，道心惟微，惟精惟一，允執厥中。無稽之言勿聽，弗詢之謀勿庸。」",
+    "sentenceIds": [
+      "shu-jing_ch-1_p-1_s-1",
+      "shu-jing_ch-1_p-1_s-2",
+      "shu-jing_ch-1_p-1_s-3",
+      "shu-jing_ch-1_p-1_s-4",
+      "shu-jing_ch-1_p-1_s-5"
+    ],
+    "sourceRefs": [
+      {
+        "label": "通行本",
+        "edition": "中哲會"
+      }
+    ]
+  },
+  {
+    "id": "shi-jing_ch-1_p-1",
+    "chapterId": "shi-jing_ch-1",
+    "order": 1,
+    "canonicalText": "關關雎鳩，在河之洲。窈窕淑女，君子好逑。參差荇菜，左右流之。窈窕淑女，寤寐求之。求之不得，寤寐思服。悠哉悠哉，輾轉反側。參差荇菜，左右采之。窈窕淑女，琴瑟友之。參差荇菜，左右芼之。窈窕淑女，鐘鼓樂之。",
+    "sentenceIds": [
+      "shi-jing_ch-1_p-1_s-1",
+      "shi-jing_ch-1_p-1_s-2",
+      "shi-jing_ch-1_p-1_s-3",
+      "shi-jing_ch-1_p-1_s-4",
+      "shi-jing_ch-1_p-1_s-5",
+      "shi-jing_ch-1_p-1_s-6",
+      "shi-jing_ch-1_p-1_s-7",
+      "shi-jing_ch-1_p-1_s-8",
+      "shi-jing_ch-1_p-1_s-9",
+      "shi-jing_ch-1_p-1_s-10"
+    ],
+    "sourceRefs": [
+      {
+        "label": "通行本",
+        "edition": "中哲會"
+      }
+    ]
+  },
+  {
+    "id": "shi-jing_ch-2_p-1",
+    "chapterId": "shi-jing_ch-2",
+    "order": 1,
+    "canonicalText": "蒹葭蒼蒼，白露為霜。所謂伊人，在水一方。溯洄從之，道阻且長。溯游從之，宛在水中央。蒹葭淒淒，白露未晞。所謂伊人，在水之湄。溯洄從之，道阻且躋。溯游從之，宛在水中坻。",
+    "sentenceIds": [
+      "shi-jing_ch-2_p-1_s-1",
+      "shi-jing_ch-2_p-1_s-2",
+      "shi-jing_ch-2_p-1_s-3",
+      "shi-jing_ch-2_p-1_s-4",
+      "shi-jing_ch-2_p-1_s-5",
+      "shi-jing_ch-2_p-1_s-6",
+      "shi-jing_ch-2_p-1_s-7",
+      "shi-jing_ch-2_p-1_s-8"
+    ],
+    "sourceRefs": [
+      {
+        "label": "通行本",
+        "edition": "中哲會"
+      }
+    ]
+  },
+  {
+    "id": "li-ji_ch-1_p-1",
+    "chapterId": "li-ji_ch-1",
+    "order": 1,
+    "canonicalText": "大道之行也，天下為公：選賢與能，講信修睦。故人不獨親其親，不獨子其子；使老有所終，壯有所用，幼有所長，矜寡孤獨廢疾者皆有所養；男有分，女有歸。貨惡其棄於地也，不必藏於己；力惡其不出於身也，不必為己。是故謀閉而不興，盜竊亂賊而不作，故外戶而不閉。是謂大同。",
+    "sentenceIds": [
+      "li-ji_ch-1_p-1_s-1",
+      "li-ji_ch-1_p-1_s-2",
+      "li-ji_ch-1_p-1_s-3",
+      "li-ji_ch-1_p-1_s-4",
+      "li-ji_ch-1_p-1_s-5",
+      "li-ji_ch-1_p-1_s-6",
+      "li-ji_ch-1_p-1_s-7",
+      "li-ji_ch-1_p-1_s-8"
+    ],
+    "sourceRefs": [
+      {
+        "label": "通行本",
+        "edition": "中哲會"
+      }
+    ]
+  },
+  {
+    "id": "chun-qiu_ch-1_p-1",
+    "chapterId": "chun-qiu_ch-1",
+    "order": 1,
+    "canonicalText": "十年春，齊師伐我。公將戰。曹劌請見。其鄉人曰：「肉食者謀之，又何間焉？」劌曰：「肉食者鄙，未能遠謀。」乃入見。問：「何以戰？」公曰：「衣食所安，弗敢專也，必以分人。」對曰：「小惠未徧，民弗從也。」公曰：「犧牲玉帛，弗敢加也，必以信。」對曰：「小信未孚，神弗福也。」公曰：「小大之獄，雖不能察，必以情。」對曰：「忠之屬也。可以一戰。戰則請從。」",
+    "sentenceIds": [
+      "chun-qiu_ch-1_p-1_s-1",
+      "chun-qiu_ch-1_p-1_s-2",
+      "chun-qiu_ch-1_p-1_s-3",
+      "chun-qiu_ch-1_p-1_s-4",
+      "chun-qiu_ch-1_p-1_s-5",
+      "chun-qiu_ch-1_p-1_s-6",
+      "chun-qiu_ch-1_p-1_s-7",
+      "chun-qiu_ch-1_p-1_s-8",
+      "chun-qiu_ch-1_p-1_s-9",
+      "chun-qiu_ch-1_p-1_s-10",
+      "chun-qiu_ch-1_p-1_s-11",
+      "chun-qiu_ch-1_p-1_s-12",
+      "chun-qiu_ch-1_p-1_s-13",
+      "chun-qiu_ch-1_p-1_s-14",
+      "chun-qiu_ch-1_p-1_s-15"
+    ],
+    "sourceRefs": [
+      {
+        "label": "通行本",
+        "edition": "中哲會"
+      }
+    ]
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-1_p-1",
+    "chapterId": "gu-wen-guan-zhi_ch-1",
+    "order": 1,
+    "canonicalText": "晉太元中，武陵人捕魚為業。緣溪行，忘路之遠近。忽逢桃花林，夾岸數百步，中無雜樹，芳草鮮美，落英繽紛。漁人甚異之，復前行，欲窮其林。林盡水源，便得一山，山有小口，彷彿若有光。便捨船，從口入。初極狹，才通人。復行數十步，豁然開朗。土地平曠，屋舍儼然，有良田、美池、桑竹之屬。阡陌交通，雞犬相聞。其中往來種作，男女衣著，悉如外人。黃髮垂髫，並怡然自樂。",
+    "sentenceIds": [
+      "gu-wen-guan-zhi_ch-1_p-1_s-1",
+      "gu-wen-guan-zhi_ch-1_p-1_s-2",
+      "gu-wen-guan-zhi_ch-1_p-1_s-3",
+      "gu-wen-guan-zhi_ch-1_p-1_s-4",
+      "gu-wen-guan-zhi_ch-1_p-1_s-5",
+      "gu-wen-guan-zhi_ch-1_p-1_s-6",
+      "gu-wen-guan-zhi_ch-1_p-1_s-7",
+      "gu-wen-guan-zhi_ch-1_p-1_s-8",
+      "gu-wen-guan-zhi_ch-1_p-1_s-9",
+      "gu-wen-guan-zhi_ch-1_p-1_s-10",
+      "gu-wen-guan-zhi_ch-1_p-1_s-11",
+      "gu-wen-guan-zhi_ch-1_p-1_s-12"
+    ],
+    "sourceRefs": [
+      {
+        "label": "通行本",
+        "edition": "中哲會"
+      }
+    ]
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-2_p-1",
+    "chapterId": "gu-wen-guan-zhi_ch-2",
+    "order": 1,
+    "canonicalText": "山不在高，有仙則名。水不在深，有龍則靈。斯是陋室，惟吾德馨。苔痕上階綠，草色入簾青。談笑有鴻儒，往來無白丁。可以調素琴，閱金經。無絲竹之亂耳，無案牘之勞形。南陽諸葛廬，西蜀子雲亭。孔子云：「何陋之有？」",
+    "sentenceIds": [
+      "gu-wen-guan-zhi_ch-2_p-1_s-1",
+      "gu-wen-guan-zhi_ch-2_p-1_s-2",
+      "gu-wen-guan-zhi_ch-2_p-1_s-3",
+      "gu-wen-guan-zhi_ch-2_p-1_s-4",
+      "gu-wen-guan-zhi_ch-2_p-1_s-5",
+      "gu-wen-guan-zhi_ch-2_p-1_s-6",
+      "gu-wen-guan-zhi_ch-2_p-1_s-7",
+      "gu-wen-guan-zhi_ch-2_p-1_s-8",
+      "gu-wen-guan-zhi_ch-2_p-1_s-9"
+    ],
+    "sourceRefs": [
+      {
+        "label": "通行本",
+        "edition": "中哲會"
+      }
+    ]
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-3_p-1",
+    "chapterId": "gu-wen-guan-zhi_ch-3",
+    "order": 1,
+    "canonicalText": "慶曆四年春，滕子京謫守巴陵郡。越明年，政通人和，百廢具興。乃重修岳陽樓，增其舊制，刻唐賢今人詩賦於其上。屬予作文以記之。予觀夫巴陵勝狀，在洞庭一湖。銜遠山，吞長江，浩浩湯湯，橫無際涯；朝暉夕陰，氣象萬千。此則岳陽樓之大觀也，前人之述備矣。然則北通巫峽，南極瀟湘，遷客騷人，多會於此，覽物之情，得無異乎？",
+    "sentenceIds": [
+      "gu-wen-guan-zhi_ch-3_p-1_s-1",
+      "gu-wen-guan-zhi_ch-3_p-1_s-2",
+      "gu-wen-guan-zhi_ch-3_p-1_s-3",
+      "gu-wen-guan-zhi_ch-3_p-1_s-4",
+      "gu-wen-guan-zhi_ch-3_p-1_s-5",
+      "gu-wen-guan-zhi_ch-3_p-1_s-6",
+      "gu-wen-guan-zhi_ch-3_p-1_s-7",
+      "gu-wen-guan-zhi_ch-3_p-1_s-8",
+      "gu-wen-guan-zhi_ch-3_p-1_s-9"
+    ],
+    "sourceRefs": [
+      {
+        "label": "通行本",
+        "edition": "中哲會"
+      }
+    ]
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-4_p-1",
+    "chapterId": "gu-wen-guan-zhi_ch-4",
+    "order": 1,
+    "canonicalText": "壬戌之秋，七月既望，蘇子與客泛舟遊於赤壁之下。清風徐來，水波不興。舉酒屬客，誦明月之詩，歌窈窕之章。少焉，月出於東山之上，徘徊於斗牛之間。白露橫江，水光接天。縱一葦之所如，凌萬頃之茫然。浩浩乎如馮虛御風，而不知其所止；飄飄乎如遺世獨立，羽化而登仙。",
+    "sentenceIds": [
+      "gu-wen-guan-zhi_ch-4_p-1_s-1",
+      "gu-wen-guan-zhi_ch-4_p-1_s-2",
+      "gu-wen-guan-zhi_ch-4_p-1_s-3",
+      "gu-wen-guan-zhi_ch-4_p-1_s-4",
+      "gu-wen-guan-zhi_ch-4_p-1_s-5",
+      "gu-wen-guan-zhi_ch-4_p-1_s-6",
+      "gu-wen-guan-zhi_ch-4_p-1_s-7",
+      "gu-wen-guan-zhi_ch-4_p-1_s-8"
+    ],
+    "sourceRefs": [
+      {
+        "label": "通行本",
+        "edition": "中哲會"
+      }
+    ]
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-5_p-1",
+    "chapterId": "gu-wen-guan-zhi_ch-5",
+    "order": 1,
+    "canonicalText": "先帝創業未半而中道崩殂，今天下三分，益州疲弊，此誠危急存亡之秋也。然侍衛之臣不懈於內，忠志之士忘身於外者，蓋追先帝之殊遇，欲報之於陛下也。誠宜開張聖聽，以光先帝遺德，恢弘志士之氣，不宜妄自菲薄，引喻失義，以塞忠諫之路也。宮中府中，俱為一體；陟罰臧否，不宜異同。",
+    "sentenceIds": [
+      "gu-wen-guan-zhi_ch-5_p-1_s-1",
+      "gu-wen-guan-zhi_ch-5_p-1_s-2",
+      "gu-wen-guan-zhi_ch-5_p-1_s-3",
+      "gu-wen-guan-zhi_ch-5_p-1_s-4",
+      "gu-wen-guan-zhi_ch-5_p-1_s-5"
+    ],
+    "sourceRefs": [
+      {
+        "label": "通行本",
+        "edition": "中哲會"
       }
     ]
   }
@@ -71246,6 +71955,6497 @@ export const sentences: Sentence[] = [
       }
     ],
     "translationHint": "\"To leave food for the rat, and to refrain from lighting a lamp out of pity for the moth\"—this thought of ancient people is my own vital spark of life. To list this as merely an earthen or wooden body is already a mistake.",
+    "tags": []
+  },
+  {
+    "id": "da-xue_ch-1_p-1_s-1",
+    "passageId": "da-xue_ch-1_p-1",
+    "order": 1,
+    "canonicalText": "大學之道，在明明德，在親民，在止於至善。",
+    "chunks": [
+      {
+        "id": "da-xue_ch-1_p-1_s-1_c-1",
+        "sentenceId": "da-xue_ch-1_p-1_s-1",
+        "order": 1,
+        "text": "大學之道",
+        "cue": "大"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-1_c-2",
+        "sentenceId": "da-xue_ch-1_p-1_s-1",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-1_c-3",
+        "sentenceId": "da-xue_ch-1_p-1_s-1",
+        "order": 3,
+        "text": "在明明德",
+        "cue": "在"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-1_c-4",
+        "sentenceId": "da-xue_ch-1_p-1_s-1",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-1_c-5",
+        "sentenceId": "da-xue_ch-1_p-1_s-1",
+        "order": 5,
+        "text": "在親民，",
+        "cue": "在"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-1_c-6",
+        "sentenceId": "da-xue_ch-1_p-1_s-1",
+        "order": 6,
+        "text": "在止於至善",
+        "cue": "在"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-1_c-7",
+        "sentenceId": "da-xue_ch-1_p-1_s-1",
+        "order": 7,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Way of great learning consists in manifesting illustrious virtue, in loving the people, and in abiding in the highest good. Knowing where to abide leads to stability, stability to stillness, stillness to peace...",
+    "tags": []
+  },
+  {
+    "id": "da-xue_ch-1_p-1_s-2",
+    "passageId": "da-xue_ch-1_p-1",
+    "order": 2,
+    "canonicalText": "知止而后有定，定而后能靜，靜而后能安，安而后能慮，慮而后能得。",
+    "chunks": [
+      {
+        "id": "da-xue_ch-1_p-1_s-2_c-1",
+        "sentenceId": "da-xue_ch-1_p-1_s-2",
+        "order": 1,
+        "text": "知止而后有定",
+        "cue": "知"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-2_c-2",
+        "sentenceId": "da-xue_ch-1_p-1_s-2",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-2_c-3",
+        "sentenceId": "da-xue_ch-1_p-1_s-2",
+        "order": 3,
+        "text": "定而后能靜",
+        "cue": "定"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-2_c-4",
+        "sentenceId": "da-xue_ch-1_p-1_s-2",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-2_c-5",
+        "sentenceId": "da-xue_ch-1_p-1_s-2",
+        "order": 5,
+        "text": "靜而后能安",
+        "cue": "靜"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-2_c-6",
+        "sentenceId": "da-xue_ch-1_p-1_s-2",
+        "order": 6,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-2_c-7",
+        "sentenceId": "da-xue_ch-1_p-1_s-2",
+        "order": 7,
+        "text": "安而后能慮",
+        "cue": "安"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-2_c-8",
+        "sentenceId": "da-xue_ch-1_p-1_s-2",
+        "order": 8,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-2_c-9",
+        "sentenceId": "da-xue_ch-1_p-1_s-2",
+        "order": 9,
+        "text": "慮而后能得",
+        "cue": "慮"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-2_c-10",
+        "sentenceId": "da-xue_ch-1_p-1_s-2",
+        "order": 10,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Way of great learning consists in manifesting illustrious virtue, in loving the people, and in abiding in the highest good. Knowing where to abide leads to stability, stability to stillness, stillness to peace...",
+    "tags": []
+  },
+  {
+    "id": "da-xue_ch-1_p-1_s-3",
+    "passageId": "da-xue_ch-1_p-1",
+    "order": 3,
+    "canonicalText": "物有本末，事有終始，知所先後，則近道矣。",
+    "chunks": [
+      {
+        "id": "da-xue_ch-1_p-1_s-3_c-1",
+        "sentenceId": "da-xue_ch-1_p-1_s-3",
+        "order": 1,
+        "text": "物有本末",
+        "cue": "物"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-3_c-2",
+        "sentenceId": "da-xue_ch-1_p-1_s-3",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-3_c-3",
+        "sentenceId": "da-xue_ch-1_p-1_s-3",
+        "order": 3,
+        "text": "事有終始",
+        "cue": "事"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-3_c-4",
+        "sentenceId": "da-xue_ch-1_p-1_s-3",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-3_c-5",
+        "sentenceId": "da-xue_ch-1_p-1_s-3",
+        "order": 5,
+        "text": "知所先後",
+        "cue": "知"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-3_c-6",
+        "sentenceId": "da-xue_ch-1_p-1_s-3",
+        "order": 6,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-3_c-7",
+        "sentenceId": "da-xue_ch-1_p-1_s-3",
+        "order": 7,
+        "text": "則近道矣",
+        "cue": "則"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-3_c-8",
+        "sentenceId": "da-xue_ch-1_p-1_s-3",
+        "order": 8,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Way of great learning consists in manifesting illustrious virtue, in loving the people, and in abiding in the highest good. Knowing where to abide leads to stability, stability to stillness, stillness to peace...",
+    "tags": []
+  },
+  {
+    "id": "da-xue_ch-1_p-1_s-4",
+    "passageId": "da-xue_ch-1_p-1",
+    "order": 4,
+    "canonicalText": "古之欲明明德於天下者，先治其國；",
+    "chunks": [
+      {
+        "id": "da-xue_ch-1_p-1_s-4_c-1",
+        "sentenceId": "da-xue_ch-1_p-1_s-4",
+        "order": 1,
+        "text": "古之欲明明德於天下者",
+        "cue": "古"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-4_c-2",
+        "sentenceId": "da-xue_ch-1_p-1_s-4",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-4_c-3",
+        "sentenceId": "da-xue_ch-1_p-1_s-4",
+        "order": 3,
+        "text": "先治其國",
+        "cue": "先"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-4_c-4",
+        "sentenceId": "da-xue_ch-1_p-1_s-4",
+        "order": 4,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "The Way of great learning consists in manifesting illustrious virtue, in loving the people, and in abiding in the highest good. Knowing where to abide leads to stability, stability to stillness, stillness to peace...",
+    "tags": []
+  },
+  {
+    "id": "da-xue_ch-1_p-1_s-5",
+    "passageId": "da-xue_ch-1_p-1",
+    "order": 5,
+    "canonicalText": "欲治其國者，先齊其家；",
+    "chunks": [
+      {
+        "id": "da-xue_ch-1_p-1_s-5_c-1",
+        "sentenceId": "da-xue_ch-1_p-1_s-5",
+        "order": 1,
+        "text": "欲治其國者",
+        "cue": "欲"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-5_c-2",
+        "sentenceId": "da-xue_ch-1_p-1_s-5",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-5_c-3",
+        "sentenceId": "da-xue_ch-1_p-1_s-5",
+        "order": 3,
+        "text": "先齊其家",
+        "cue": "先"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-5_c-4",
+        "sentenceId": "da-xue_ch-1_p-1_s-5",
+        "order": 4,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "The Way of great learning consists in manifesting illustrious virtue, in loving the people, and in abiding in the highest good. Knowing where to abide leads to stability, stability to stillness, stillness to peace...",
+    "tags": []
+  },
+  {
+    "id": "da-xue_ch-1_p-1_s-6",
+    "passageId": "da-xue_ch-1_p-1",
+    "order": 6,
+    "canonicalText": "欲齊其家者，先修其身；",
+    "chunks": [
+      {
+        "id": "da-xue_ch-1_p-1_s-6_c-1",
+        "sentenceId": "da-xue_ch-1_p-1_s-6",
+        "order": 1,
+        "text": "欲齊其家者",
+        "cue": "欲"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-6_c-2",
+        "sentenceId": "da-xue_ch-1_p-1_s-6",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-6_c-3",
+        "sentenceId": "da-xue_ch-1_p-1_s-6",
+        "order": 3,
+        "text": "先修其身",
+        "cue": "先"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-6_c-4",
+        "sentenceId": "da-xue_ch-1_p-1_s-6",
+        "order": 4,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "The Way of great learning consists in manifesting illustrious virtue, in loving the people, and in abiding in the highest good. Knowing where to abide leads to stability, stability to stillness, stillness to peace...",
+    "tags": []
+  },
+  {
+    "id": "da-xue_ch-1_p-1_s-7",
+    "passageId": "da-xue_ch-1_p-1",
+    "order": 7,
+    "canonicalText": "欲修其身者，先正其心；",
+    "chunks": [
+      {
+        "id": "da-xue_ch-1_p-1_s-7_c-1",
+        "sentenceId": "da-xue_ch-1_p-1_s-7",
+        "order": 1,
+        "text": "欲修其身者",
+        "cue": "欲"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-7_c-2",
+        "sentenceId": "da-xue_ch-1_p-1_s-7",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-7_c-3",
+        "sentenceId": "da-xue_ch-1_p-1_s-7",
+        "order": 3,
+        "text": "先正其心",
+        "cue": "先"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-7_c-4",
+        "sentenceId": "da-xue_ch-1_p-1_s-7",
+        "order": 4,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "The Way of great learning consists in manifesting illustrious virtue, in loving the people, and in abiding in the highest good. Knowing where to abide leads to stability, stability to stillness, stillness to peace...",
+    "tags": []
+  },
+  {
+    "id": "da-xue_ch-1_p-1_s-8",
+    "passageId": "da-xue_ch-1_p-1",
+    "order": 8,
+    "canonicalText": "欲正其心者，先誠其意；",
+    "chunks": [
+      {
+        "id": "da-xue_ch-1_p-1_s-8_c-1",
+        "sentenceId": "da-xue_ch-1_p-1_s-8",
+        "order": 1,
+        "text": "欲正其心者",
+        "cue": "欲"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-8_c-2",
+        "sentenceId": "da-xue_ch-1_p-1_s-8",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-8_c-3",
+        "sentenceId": "da-xue_ch-1_p-1_s-8",
+        "order": 3,
+        "text": "先誠其意",
+        "cue": "先"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-8_c-4",
+        "sentenceId": "da-xue_ch-1_p-1_s-8",
+        "order": 4,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "The Way of great learning consists in manifesting illustrious virtue, in loving the people, and in abiding in the highest good. Knowing where to abide leads to stability, stability to stillness, stillness to peace...",
+    "tags": []
+  },
+  {
+    "id": "da-xue_ch-1_p-1_s-9",
+    "passageId": "da-xue_ch-1_p-1",
+    "order": 9,
+    "canonicalText": "欲誠其意者，先致其知；",
+    "chunks": [
+      {
+        "id": "da-xue_ch-1_p-1_s-9_c-1",
+        "sentenceId": "da-xue_ch-1_p-1_s-9",
+        "order": 1,
+        "text": "欲誠其意者",
+        "cue": "欲"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-9_c-2",
+        "sentenceId": "da-xue_ch-1_p-1_s-9",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-9_c-3",
+        "sentenceId": "da-xue_ch-1_p-1_s-9",
+        "order": 3,
+        "text": "先致其知",
+        "cue": "先"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-9_c-4",
+        "sentenceId": "da-xue_ch-1_p-1_s-9",
+        "order": 4,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "The Way of great learning consists in manifesting illustrious virtue, in loving the people, and in abiding in the highest good. Knowing where to abide leads to stability, stability to stillness, stillness to peace...",
+    "tags": []
+  },
+  {
+    "id": "da-xue_ch-1_p-1_s-10",
+    "passageId": "da-xue_ch-1_p-1",
+    "order": 10,
+    "canonicalText": "致知在格物。",
+    "chunks": [
+      {
+        "id": "da-xue_ch-1_p-1_s-10_c-1",
+        "sentenceId": "da-xue_ch-1_p-1_s-10",
+        "order": 1,
+        "text": "致知在格物",
+        "cue": "致"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-10_c-2",
+        "sentenceId": "da-xue_ch-1_p-1_s-10",
+        "order": 2,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Way of great learning consists in manifesting illustrious virtue, in loving the people, and in abiding in the highest good. Knowing where to abide leads to stability, stability to stillness, stillness to peace...",
+    "tags": []
+  },
+  {
+    "id": "da-xue_ch-1_p-1_s-11",
+    "passageId": "da-xue_ch-1_p-1",
+    "order": 11,
+    "canonicalText": "物格而后知至，知至而后意誠，意誠而后心正，心正而后身修，身修而后家齊，家齊而后國治，國治而后天下平。",
+    "chunks": [
+      {
+        "id": "da-xue_ch-1_p-1_s-11_c-1",
+        "sentenceId": "da-xue_ch-1_p-1_s-11",
+        "order": 1,
+        "text": "物格而后知至",
+        "cue": "物"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-11_c-2",
+        "sentenceId": "da-xue_ch-1_p-1_s-11",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-11_c-3",
+        "sentenceId": "da-xue_ch-1_p-1_s-11",
+        "order": 3,
+        "text": "知至而后意誠",
+        "cue": "知"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-11_c-4",
+        "sentenceId": "da-xue_ch-1_p-1_s-11",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-11_c-5",
+        "sentenceId": "da-xue_ch-1_p-1_s-11",
+        "order": 5,
+        "text": "意誠而后心正",
+        "cue": "意"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-11_c-6",
+        "sentenceId": "da-xue_ch-1_p-1_s-11",
+        "order": 6,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-11_c-7",
+        "sentenceId": "da-xue_ch-1_p-1_s-11",
+        "order": 7,
+        "text": "心正而后身修",
+        "cue": "心"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-11_c-8",
+        "sentenceId": "da-xue_ch-1_p-1_s-11",
+        "order": 8,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-11_c-9",
+        "sentenceId": "da-xue_ch-1_p-1_s-11",
+        "order": 9,
+        "text": "身修而后家齊",
+        "cue": "身"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-11_c-10",
+        "sentenceId": "da-xue_ch-1_p-1_s-11",
+        "order": 10,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-11_c-11",
+        "sentenceId": "da-xue_ch-1_p-1_s-11",
+        "order": 11,
+        "text": "家齊而后國治",
+        "cue": "家"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-11_c-12",
+        "sentenceId": "da-xue_ch-1_p-1_s-11",
+        "order": 12,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-11_c-13",
+        "sentenceId": "da-xue_ch-1_p-1_s-11",
+        "order": 13,
+        "text": "國治而后天下平",
+        "cue": "國"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-11_c-14",
+        "sentenceId": "da-xue_ch-1_p-1_s-11",
+        "order": 14,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Way of great learning consists in manifesting illustrious virtue, in loving the people, and in abiding in the highest good. Knowing where to abide leads to stability, stability to stillness, stillness to peace...",
+    "tags": []
+  },
+  {
+    "id": "da-xue_ch-1_p-1_s-12",
+    "passageId": "da-xue_ch-1_p-1",
+    "order": 12,
+    "canonicalText": "自天子以至於庶人，壹是皆以修身為本。",
+    "chunks": [
+      {
+        "id": "da-xue_ch-1_p-1_s-12_c-1",
+        "sentenceId": "da-xue_ch-1_p-1_s-12",
+        "order": 1,
+        "text": "自天子以至於庶人",
+        "cue": "自"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-12_c-2",
+        "sentenceId": "da-xue_ch-1_p-1_s-12",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-12_c-3",
+        "sentenceId": "da-xue_ch-1_p-1_s-12",
+        "order": 3,
+        "text": "壹是皆以修身為本",
+        "cue": "壹"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-12_c-4",
+        "sentenceId": "da-xue_ch-1_p-1_s-12",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Way of great learning consists in manifesting illustrious virtue, in loving the people, and in abiding in the highest good. Knowing where to abide leads to stability, stability to stillness, stillness to peace...",
+    "tags": []
+  },
+  {
+    "id": "da-xue_ch-1_p-1_s-13",
+    "passageId": "da-xue_ch-1_p-1",
+    "order": 13,
+    "canonicalText": "其本亂而末治者否矣；",
+    "chunks": [
+      {
+        "id": "da-xue_ch-1_p-1_s-13_c-1",
+        "sentenceId": "da-xue_ch-1_p-1_s-13",
+        "order": 1,
+        "text": "其本亂而末治者否矣",
+        "cue": "其"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-13_c-2",
+        "sentenceId": "da-xue_ch-1_p-1_s-13",
+        "order": 2,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "The Way of great learning consists in manifesting illustrious virtue, in loving the people, and in abiding in the highest good. Knowing where to abide leads to stability, stability to stillness, stillness to peace...",
+    "tags": []
+  },
+  {
+    "id": "da-xue_ch-1_p-1_s-14",
+    "passageId": "da-xue_ch-1_p-1",
+    "order": 14,
+    "canonicalText": "其所厚者薄，而其所薄者厚，未之有也！",
+    "chunks": [
+      {
+        "id": "da-xue_ch-1_p-1_s-14_c-1",
+        "sentenceId": "da-xue_ch-1_p-1_s-14",
+        "order": 1,
+        "text": "其所厚者薄",
+        "cue": "其"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-14_c-2",
+        "sentenceId": "da-xue_ch-1_p-1_s-14",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-14_c-3",
+        "sentenceId": "da-xue_ch-1_p-1_s-14",
+        "order": 3,
+        "text": "而其所薄者厚",
+        "cue": "而"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-14_c-4",
+        "sentenceId": "da-xue_ch-1_p-1_s-14",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-14_c-5",
+        "sentenceId": "da-xue_ch-1_p-1_s-14",
+        "order": 5,
+        "text": "未之有也",
+        "cue": "未"
+      },
+      {
+        "id": "da-xue_ch-1_p-1_s-14_c-6",
+        "sentenceId": "da-xue_ch-1_p-1_s-14",
+        "order": 6,
+        "text": "！",
+        "cue": "！"
+      }
+    ],
+    "translationHint": "The Way of great learning consists in manifesting illustrious virtue, in loving the people, and in abiding in the highest good. Knowing where to abide leads to stability, stability to stillness, stillness to peace...",
+    "tags": []
+  },
+  {
+    "id": "zhong-yong_ch-1_p-1_s-1",
+    "passageId": "zhong-yong_ch-1_p-1",
+    "order": 1,
+    "canonicalText": "天命之謂性，率性之謂道，修道之謂教。",
+    "chunks": [
+      {
+        "id": "zhong-yong_ch-1_p-1_s-1_c-1",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-1",
+        "order": 1,
+        "text": "天命之謂性",
+        "cue": "天"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-1_c-2",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-1",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-1_c-3",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-1",
+        "order": 3,
+        "text": "率性之謂道",
+        "cue": "率"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-1_c-4",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-1",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-1_c-5",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-1",
+        "order": 5,
+        "text": "修道之謂教",
+        "cue": "修"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-1_c-6",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-1",
+        "order": 6,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "What Heaven has conferred is called the nature; an accordance with this nature is called the Way; the cultivation of this Way is called instruction. The Way cannot be left for an instant...",
+    "tags": []
+  },
+  {
+    "id": "zhong-yong_ch-1_p-1_s-2",
+    "passageId": "zhong-yong_ch-1_p-1",
+    "order": 2,
+    "canonicalText": "道也者，不可須臾離也，可離非道也。",
+    "chunks": [
+      {
+        "id": "zhong-yong_ch-1_p-1_s-2_c-1",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-2",
+        "order": 1,
+        "text": "道也者，",
+        "cue": "道"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-2_c-2",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-2",
+        "order": 2,
+        "text": "不可須臾離也",
+        "cue": "不"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-2_c-3",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-2",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-2_c-4",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-2",
+        "order": 4,
+        "text": "可離非道也",
+        "cue": "可"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-2_c-5",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-2",
+        "order": 5,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "What Heaven has conferred is called the nature; an accordance with this nature is called the Way; the cultivation of this Way is called instruction. The Way cannot be left for an instant...",
+    "tags": []
+  },
+  {
+    "id": "zhong-yong_ch-1_p-1_s-3",
+    "passageId": "zhong-yong_ch-1_p-1",
+    "order": 3,
+    "canonicalText": "是故君子戒慎乎其所不睹，恐懼乎其所不聞。",
+    "chunks": [
+      {
+        "id": "zhong-yong_ch-1_p-1_s-3_c-1",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-3",
+        "order": 1,
+        "text": "是故君子戒",
+        "cue": "是"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-3_c-2",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-3",
+        "order": 2,
+        "text": "慎乎其所不睹",
+        "cue": "慎"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-3_c-3",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-3",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-3_c-4",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-3",
+        "order": 4,
+        "text": "恐懼乎其所不聞",
+        "cue": "恐"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-3_c-5",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-3",
+        "order": 5,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "What Heaven has conferred is called the nature; an accordance with this nature is called the Way; the cultivation of this Way is called instruction. The Way cannot be left for an instant...",
+    "tags": []
+  },
+  {
+    "id": "zhong-yong_ch-1_p-1_s-4",
+    "passageId": "zhong-yong_ch-1_p-1",
+    "order": 4,
+    "canonicalText": "莫見乎隱，莫顯乎微，故君子慎其獨也。",
+    "chunks": [
+      {
+        "id": "zhong-yong_ch-1_p-1_s-4_c-1",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-4",
+        "order": 1,
+        "text": "莫見乎隱",
+        "cue": "莫"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-4_c-2",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-4",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-4_c-3",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-4",
+        "order": 3,
+        "text": "莫顯乎微",
+        "cue": "莫"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-4_c-4",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-4",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-4_c-5",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-4",
+        "order": 5,
+        "text": "故君子慎其獨也",
+        "cue": "故"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-4_c-6",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-4",
+        "order": 6,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "What Heaven has conferred is called the nature; an accordance with this nature is called the Way; the cultivation of this Way is called instruction. The Way cannot be left for an instant...",
+    "tags": []
+  },
+  {
+    "id": "zhong-yong_ch-1_p-1_s-5",
+    "passageId": "zhong-yong_ch-1_p-1",
+    "order": 5,
+    "canonicalText": "喜怒哀樂之未發，謂之中；",
+    "chunks": [
+      {
+        "id": "zhong-yong_ch-1_p-1_s-5_c-1",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-5",
+        "order": 1,
+        "text": "喜怒哀樂之未發",
+        "cue": "喜"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-5_c-2",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-5",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-5_c-3",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-5",
+        "order": 3,
+        "text": "謂之中；",
+        "cue": "謂"
+      }
+    ],
+    "translationHint": "What Heaven has conferred is called the nature; an accordance with this nature is called the Way; the cultivation of this Way is called instruction. The Way cannot be left for an instant...",
+    "tags": []
+  },
+  {
+    "id": "zhong-yong_ch-1_p-1_s-6",
+    "passageId": "zhong-yong_ch-1_p-1",
+    "order": 6,
+    "canonicalText": "發而皆中節，謂之和。",
+    "chunks": [
+      {
+        "id": "zhong-yong_ch-1_p-1_s-6_c-1",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-6",
+        "order": 1,
+        "text": "發而皆中節",
+        "cue": "發"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-6_c-2",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-6",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-6_c-3",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-6",
+        "order": 3,
+        "text": "謂之和。",
+        "cue": "謂"
+      }
+    ],
+    "translationHint": "What Heaven has conferred is called the nature; an accordance with this nature is called the Way; the cultivation of this Way is called instruction. The Way cannot be left for an instant...",
+    "tags": []
+  },
+  {
+    "id": "zhong-yong_ch-1_p-1_s-7",
+    "passageId": "zhong-yong_ch-1_p-1",
+    "order": 7,
+    "canonicalText": "中也者，天下之大本也；",
+    "chunks": [
+      {
+        "id": "zhong-yong_ch-1_p-1_s-7_c-1",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-7",
+        "order": 1,
+        "text": "中也者，",
+        "cue": "中"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-7_c-2",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-7",
+        "order": 2,
+        "text": "天下之大本也",
+        "cue": "天"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-7_c-3",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-7",
+        "order": 3,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "What Heaven has conferred is called the nature; an accordance with this nature is called the Way; the cultivation of this Way is called instruction. The Way cannot be left for an instant...",
+    "tags": []
+  },
+  {
+    "id": "zhong-yong_ch-1_p-1_s-8",
+    "passageId": "zhong-yong_ch-1_p-1",
+    "order": 8,
+    "canonicalText": "和也者，天下之達道也。",
+    "chunks": [
+      {
+        "id": "zhong-yong_ch-1_p-1_s-8_c-1",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-8",
+        "order": 1,
+        "text": "和也者，",
+        "cue": "和"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-8_c-2",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-8",
+        "order": 2,
+        "text": "天下之達道也",
+        "cue": "天"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-8_c-3",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-8",
+        "order": 3,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "What Heaven has conferred is called the nature; an accordance with this nature is called the Way; the cultivation of this Way is called instruction. The Way cannot be left for an instant...",
+    "tags": []
+  },
+  {
+    "id": "zhong-yong_ch-1_p-1_s-9",
+    "passageId": "zhong-yong_ch-1_p-1",
+    "order": 9,
+    "canonicalText": "致中和，天地位焉，萬物育焉。",
+    "chunks": [
+      {
+        "id": "zhong-yong_ch-1_p-1_s-9_c-1",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-9",
+        "order": 1,
+        "text": "致中和，",
+        "cue": "致"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-9_c-2",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-9",
+        "order": 2,
+        "text": "天地位焉",
+        "cue": "天"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-9_c-3",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-9",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-9_c-4",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-9",
+        "order": 4,
+        "text": "萬物育焉",
+        "cue": "萬"
+      },
+      {
+        "id": "zhong-yong_ch-1_p-1_s-9_c-5",
+        "sentenceId": "zhong-yong_ch-1_p-1_s-9",
+        "order": 5,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "What Heaven has conferred is called the nature; an accordance with this nature is called the Way; the cultivation of this Way is called instruction. The Way cannot be left for an instant...",
+    "tags": []
+  },
+  {
+    "id": "lun-yu_ch-1_p-1_s-1",
+    "passageId": "lun-yu_ch-1_p-1",
+    "order": 1,
+    "canonicalText": "子曰：「學而時習之，不亦說乎？",
+    "chunks": [
+      {
+        "id": "lun-yu_ch-1_p-1_s-1_c-1",
+        "sentenceId": "lun-yu_ch-1_p-1_s-1",
+        "order": 1,
+        "text": "子曰：",
+        "cue": "子"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-1_c-2",
+        "sentenceId": "lun-yu_ch-1_p-1_s-1",
+        "order": 2,
+        "text": "「學而時習之",
+        "cue": "「"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-1_c-3",
+        "sentenceId": "lun-yu_ch-1_p-1_s-1",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-1_c-4",
+        "sentenceId": "lun-yu_ch-1_p-1_s-1",
+        "order": 4,
+        "text": "不亦說乎",
+        "cue": "不"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-1_c-5",
+        "sentenceId": "lun-yu_ch-1_p-1_s-1",
+        "order": 5,
+        "text": "？",
+        "cue": "？"
+      }
+    ],
+    "translationHint": "The Master said: \"Is it not a pleasure to learn and repeat it at times? Is it not delightful to have friends coming from afar?...\" Zengzi said: \"I examine myself three times daily...\"",
+    "tags": []
+  },
+  {
+    "id": "lun-yu_ch-1_p-1_s-2",
+    "passageId": "lun-yu_ch-1_p-1",
+    "order": 2,
+    "canonicalText": "有朋自遠方來，不亦樂乎？",
+    "chunks": [
+      {
+        "id": "lun-yu_ch-1_p-1_s-2_c-1",
+        "sentenceId": "lun-yu_ch-1_p-1_s-2",
+        "order": 1,
+        "text": "有朋自遠方來",
+        "cue": "有"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-2_c-2",
+        "sentenceId": "lun-yu_ch-1_p-1_s-2",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-2_c-3",
+        "sentenceId": "lun-yu_ch-1_p-1_s-2",
+        "order": 3,
+        "text": "不亦樂乎",
+        "cue": "不"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-2_c-4",
+        "sentenceId": "lun-yu_ch-1_p-1_s-2",
+        "order": 4,
+        "text": "？",
+        "cue": "？"
+      }
+    ],
+    "translationHint": "The Master said: \"Is it not a pleasure to learn and repeat it at times? Is it not delightful to have friends coming from afar?...\" Zengzi said: \"I examine myself three times daily...\"",
+    "tags": []
+  },
+  {
+    "id": "lun-yu_ch-1_p-1_s-3",
+    "passageId": "lun-yu_ch-1_p-1",
+    "order": 3,
+    "canonicalText": "人不知而不慍，不亦君子乎？",
+    "chunks": [
+      {
+        "id": "lun-yu_ch-1_p-1_s-3_c-1",
+        "sentenceId": "lun-yu_ch-1_p-1_s-3",
+        "order": 1,
+        "text": "人不知而不慍",
+        "cue": "人"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-3_c-2",
+        "sentenceId": "lun-yu_ch-1_p-1_s-3",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-3_c-3",
+        "sentenceId": "lun-yu_ch-1_p-1_s-3",
+        "order": 3,
+        "text": "不亦君子乎",
+        "cue": "不"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-3_c-4",
+        "sentenceId": "lun-yu_ch-1_p-1_s-3",
+        "order": 4,
+        "text": "？",
+        "cue": "？"
+      }
+    ],
+    "translationHint": "The Master said: \"Is it not a pleasure to learn and repeat it at times? Is it not delightful to have friends coming from afar?...\" Zengzi said: \"I examine myself three times daily...\"",
+    "tags": []
+  },
+  {
+    "id": "lun-yu_ch-1_p-1_s-4",
+    "passageId": "lun-yu_ch-1_p-1",
+    "order": 4,
+    "canonicalText": "」曾子曰：「吾日三省吾身：為人謀而不忠乎？",
+    "chunks": [
+      {
+        "id": "lun-yu_ch-1_p-1_s-4_c-1",
+        "sentenceId": "lun-yu_ch-1_p-1_s-4",
+        "order": 1,
+        "text": "」曾子曰",
+        "cue": "」"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-4_c-2",
+        "sentenceId": "lun-yu_ch-1_p-1_s-4",
+        "order": 2,
+        "text": "：",
+        "cue": "："
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-4_c-3",
+        "sentenceId": "lun-yu_ch-1_p-1_s-4",
+        "order": 3,
+        "text": "「吾日三省吾身",
+        "cue": "「"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-4_c-4",
+        "sentenceId": "lun-yu_ch-1_p-1_s-4",
+        "order": 4,
+        "text": "：",
+        "cue": "："
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-4_c-5",
+        "sentenceId": "lun-yu_ch-1_p-1_s-4",
+        "order": 5,
+        "text": "為人謀而不忠乎",
+        "cue": "為"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-4_c-6",
+        "sentenceId": "lun-yu_ch-1_p-1_s-4",
+        "order": 6,
+        "text": "？",
+        "cue": "？"
+      }
+    ],
+    "translationHint": "The Master said: \"Is it not a pleasure to learn and repeat it at times? Is it not delightful to have friends coming from afar?...\" Zengzi said: \"I examine myself three times daily...\"",
+    "tags": []
+  },
+  {
+    "id": "lun-yu_ch-1_p-1_s-5",
+    "passageId": "lun-yu_ch-1_p-1",
+    "order": 5,
+    "canonicalText": "與朋友交而不信乎？",
+    "chunks": [
+      {
+        "id": "lun-yu_ch-1_p-1_s-5_c-1",
+        "sentenceId": "lun-yu_ch-1_p-1_s-5",
+        "order": 1,
+        "text": "與朋友交而不信乎",
+        "cue": "與"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-5_c-2",
+        "sentenceId": "lun-yu_ch-1_p-1_s-5",
+        "order": 2,
+        "text": "？",
+        "cue": "？"
+      }
+    ],
+    "translationHint": "The Master said: \"Is it not a pleasure to learn and repeat it at times? Is it not delightful to have friends coming from afar?...\" Zengzi said: \"I examine myself three times daily...\"",
+    "tags": []
+  },
+  {
+    "id": "lun-yu_ch-1_p-1_s-6",
+    "passageId": "lun-yu_ch-1_p-1",
+    "order": 6,
+    "canonicalText": "傳不習乎？",
+    "chunks": [
+      {
+        "id": "lun-yu_ch-1_p-1_s-6_c-1",
+        "sentenceId": "lun-yu_ch-1_p-1_s-6",
+        "order": 1,
+        "text": "傳不習乎",
+        "cue": "傳"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-6_c-2",
+        "sentenceId": "lun-yu_ch-1_p-1_s-6",
+        "order": 2,
+        "text": "？",
+        "cue": "？"
+      }
+    ],
+    "translationHint": "The Master said: \"Is it not a pleasure to learn and repeat it at times? Is it not delightful to have friends coming from afar?...\" Zengzi said: \"I examine myself three times daily...\"",
+    "tags": []
+  },
+  {
+    "id": "lun-yu_ch-1_p-1_s-7",
+    "passageId": "lun-yu_ch-1_p-1",
+    "order": 7,
+    "canonicalText": "」子曰：「道千乘之國，敬事而信，節用而愛人，使民以時。",
+    "chunks": [
+      {
+        "id": "lun-yu_ch-1_p-1_s-7_c-1",
+        "sentenceId": "lun-yu_ch-1_p-1_s-7",
+        "order": 1,
+        "text": "」子曰：",
+        "cue": "」"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-7_c-2",
+        "sentenceId": "lun-yu_ch-1_p-1_s-7",
+        "order": 2,
+        "text": "「道千乘之國",
+        "cue": "「"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-7_c-3",
+        "sentenceId": "lun-yu_ch-1_p-1_s-7",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-7_c-4",
+        "sentenceId": "lun-yu_ch-1_p-1_s-7",
+        "order": 4,
+        "text": "敬事而信",
+        "cue": "敬"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-7_c-5",
+        "sentenceId": "lun-yu_ch-1_p-1_s-7",
+        "order": 5,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-7_c-6",
+        "sentenceId": "lun-yu_ch-1_p-1_s-7",
+        "order": 6,
+        "text": "節用而愛人",
+        "cue": "節"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-7_c-7",
+        "sentenceId": "lun-yu_ch-1_p-1_s-7",
+        "order": 7,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-7_c-8",
+        "sentenceId": "lun-yu_ch-1_p-1_s-7",
+        "order": 8,
+        "text": "使民以時",
+        "cue": "使"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-7_c-9",
+        "sentenceId": "lun-yu_ch-1_p-1_s-7",
+        "order": 9,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Master said: \"Is it not a pleasure to learn and repeat it at times? Is it not delightful to have friends coming from afar?...\" Zengzi said: \"I examine myself three times daily...\"",
+    "tags": []
+  },
+  {
+    "id": "lun-yu_ch-1_p-1_s-8",
+    "passageId": "lun-yu_ch-1_p-1",
+    "order": 8,
+    "canonicalText": "」子曰：「弟子入則孝，出則弟，謹而信，汎愛眾，而親仁。",
+    "chunks": [
+      {
+        "id": "lun-yu_ch-1_p-1_s-8_c-1",
+        "sentenceId": "lun-yu_ch-1_p-1_s-8",
+        "order": 1,
+        "text": "」子曰：",
+        "cue": "」"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-8_c-2",
+        "sentenceId": "lun-yu_ch-1_p-1_s-8",
+        "order": 2,
+        "text": "「弟子入則孝",
+        "cue": "「"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-8_c-3",
+        "sentenceId": "lun-yu_ch-1_p-1_s-8",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-8_c-4",
+        "sentenceId": "lun-yu_ch-1_p-1_s-8",
+        "order": 4,
+        "text": "出則弟，",
+        "cue": "出"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-8_c-5",
+        "sentenceId": "lun-yu_ch-1_p-1_s-8",
+        "order": 5,
+        "text": "謹而信，",
+        "cue": "謹"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-8_c-6",
+        "sentenceId": "lun-yu_ch-1_p-1_s-8",
+        "order": 6,
+        "text": "汎愛眾，",
+        "cue": "汎"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-8_c-7",
+        "sentenceId": "lun-yu_ch-1_p-1_s-8",
+        "order": 7,
+        "text": "而親仁。",
+        "cue": "而"
+      }
+    ],
+    "translationHint": "The Master said: \"Is it not a pleasure to learn and repeat it at times? Is it not delightful to have friends coming from afar?...\" Zengzi said: \"I examine myself three times daily...\"",
+    "tags": []
+  },
+  {
+    "id": "lun-yu_ch-1_p-1_s-9",
+    "passageId": "lun-yu_ch-1_p-1",
+    "order": 9,
+    "canonicalText": "行有餘力，則以學文。",
+    "chunks": [
+      {
+        "id": "lun-yu_ch-1_p-1_s-9_c-1",
+        "sentenceId": "lun-yu_ch-1_p-1_s-9",
+        "order": 1,
+        "text": "行有餘力",
+        "cue": "行"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-9_c-2",
+        "sentenceId": "lun-yu_ch-1_p-1_s-9",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-9_c-3",
+        "sentenceId": "lun-yu_ch-1_p-1_s-9",
+        "order": 3,
+        "text": "則以學文",
+        "cue": "則"
+      },
+      {
+        "id": "lun-yu_ch-1_p-1_s-9_c-4",
+        "sentenceId": "lun-yu_ch-1_p-1_s-9",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Master said: \"Is it not a pleasure to learn and repeat it at times? Is it not delightful to have friends coming from afar?...\" Zengzi said: \"I examine myself three times daily...\"",
+    "tags": []
+  },
+  {
+    "id": "lun-yu_ch-2_p-1_s-1",
+    "passageId": "lun-yu_ch-2_p-1",
+    "order": 1,
+    "canonicalText": "子曰：「吾十有五而志於學，三十而立，四十而不惑，五十而知天命，六十而耳順，七十而從心所欲，不逾矩。",
+    "chunks": [
+      {
+        "id": "lun-yu_ch-2_p-1_s-1_c-1",
+        "sentenceId": "lun-yu_ch-2_p-1_s-1",
+        "order": 1,
+        "text": "子曰：",
+        "cue": "子"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-1_c-2",
+        "sentenceId": "lun-yu_ch-2_p-1_s-1",
+        "order": 2,
+        "text": "「吾十有五而志於學",
+        "cue": "「"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-1_c-3",
+        "sentenceId": "lun-yu_ch-2_p-1_s-1",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-1_c-4",
+        "sentenceId": "lun-yu_ch-2_p-1_s-1",
+        "order": 4,
+        "text": "三十而立",
+        "cue": "三"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-1_c-5",
+        "sentenceId": "lun-yu_ch-2_p-1_s-1",
+        "order": 5,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-1_c-6",
+        "sentenceId": "lun-yu_ch-2_p-1_s-1",
+        "order": 6,
+        "text": "四十而不惑",
+        "cue": "四"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-1_c-7",
+        "sentenceId": "lun-yu_ch-2_p-1_s-1",
+        "order": 7,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-1_c-8",
+        "sentenceId": "lun-yu_ch-2_p-1_s-1",
+        "order": 8,
+        "text": "五十而知天命",
+        "cue": "五"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-1_c-9",
+        "sentenceId": "lun-yu_ch-2_p-1_s-1",
+        "order": 9,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-1_c-10",
+        "sentenceId": "lun-yu_ch-2_p-1_s-1",
+        "order": 10,
+        "text": "六十而耳順",
+        "cue": "六"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-1_c-11",
+        "sentenceId": "lun-yu_ch-2_p-1_s-1",
+        "order": 11,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-1_c-12",
+        "sentenceId": "lun-yu_ch-2_p-1_s-1",
+        "order": 12,
+        "text": "七十而從心所欲",
+        "cue": "七"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-1_c-13",
+        "sentenceId": "lun-yu_ch-2_p-1_s-1",
+        "order": 13,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-1_c-14",
+        "sentenceId": "lun-yu_ch-2_p-1_s-1",
+        "order": 14,
+        "text": "不逾矩。",
+        "cue": "不"
+      }
+    ],
+    "translationHint": "The Master said: \"At fifteen, I bent my mind to learning. At thirty, I stood firm...\" The Master said: \"If a man keeps cherishing his old knowledge, so as continually to be acquiring new...\"",
+    "tags": []
+  },
+  {
+    "id": "lun-yu_ch-2_p-1_s-2",
+    "passageId": "lun-yu_ch-2_p-1",
+    "order": 2,
+    "canonicalText": "」子曰：「溫故而知新，可以為師矣。",
+    "chunks": [
+      {
+        "id": "lun-yu_ch-2_p-1_s-2_c-1",
+        "sentenceId": "lun-yu_ch-2_p-1_s-2",
+        "order": 1,
+        "text": "」子曰：",
+        "cue": "」"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-2_c-2",
+        "sentenceId": "lun-yu_ch-2_p-1_s-2",
+        "order": 2,
+        "text": "「溫故而知新",
+        "cue": "「"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-2_c-3",
+        "sentenceId": "lun-yu_ch-2_p-1_s-2",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-2_c-4",
+        "sentenceId": "lun-yu_ch-2_p-1_s-2",
+        "order": 4,
+        "text": "可以為師矣",
+        "cue": "可"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-2_c-5",
+        "sentenceId": "lun-yu_ch-2_p-1_s-2",
+        "order": 5,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Master said: \"At fifteen, I bent my mind to learning. At thirty, I stood firm...\" The Master said: \"If a man keeps cherishing his old knowledge, so as continually to be acquiring new...\"",
+    "tags": []
+  },
+  {
+    "id": "lun-yu_ch-2_p-1_s-3",
+    "passageId": "lun-yu_ch-2_p-1",
+    "order": 3,
+    "canonicalText": "」子曰：「學而不思則罔，思而不學則殆。",
+    "chunks": [
+      {
+        "id": "lun-yu_ch-2_p-1_s-3_c-1",
+        "sentenceId": "lun-yu_ch-2_p-1_s-3",
+        "order": 1,
+        "text": "」子曰：",
+        "cue": "」"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-3_c-2",
+        "sentenceId": "lun-yu_ch-2_p-1_s-3",
+        "order": 2,
+        "text": "「學而不思則罔",
+        "cue": "「"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-3_c-3",
+        "sentenceId": "lun-yu_ch-2_p-1_s-3",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-3_c-4",
+        "sentenceId": "lun-yu_ch-2_p-1_s-3",
+        "order": 4,
+        "text": "思而不學則殆",
+        "cue": "思"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-3_c-5",
+        "sentenceId": "lun-yu_ch-2_p-1_s-3",
+        "order": 5,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Master said: \"At fifteen, I bent my mind to learning. At thirty, I stood firm...\" The Master said: \"If a man keeps cherishing his old knowledge, so as continually to be acquiring new...\"",
+    "tags": []
+  },
+  {
+    "id": "lun-yu_ch-2_p-1_s-4",
+    "passageId": "lun-yu_ch-2_p-1",
+    "order": 4,
+    "canonicalText": "」子曰：「知之為知之，不知為不知，是知也。",
+    "chunks": [
+      {
+        "id": "lun-yu_ch-2_p-1_s-4_c-1",
+        "sentenceId": "lun-yu_ch-2_p-1_s-4",
+        "order": 1,
+        "text": "」子曰：",
+        "cue": "」"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-4_c-2",
+        "sentenceId": "lun-yu_ch-2_p-1_s-4",
+        "order": 2,
+        "text": "「知之為知之",
+        "cue": "「"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-4_c-3",
+        "sentenceId": "lun-yu_ch-2_p-1_s-4",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-4_c-4",
+        "sentenceId": "lun-yu_ch-2_p-1_s-4",
+        "order": 4,
+        "text": "不知為不知",
+        "cue": "不"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-4_c-5",
+        "sentenceId": "lun-yu_ch-2_p-1_s-4",
+        "order": 5,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "lun-yu_ch-2_p-1_s-4_c-6",
+        "sentenceId": "lun-yu_ch-2_p-1_s-4",
+        "order": 6,
+        "text": "是知也。",
+        "cue": "是"
+      }
+    ],
+    "translationHint": "The Master said: \"At fifteen, I bent my mind to learning. At thirty, I stood firm...\" The Master said: \"If a man keeps cherishing his old knowledge, so as continually to be acquiring new...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-1_p-1_s-1",
+    "passageId": "meng-zi_ch-1_p-1",
+    "order": 1,
+    "canonicalText": "孟子見梁惠王。",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-1_p-1_s-1_c-1",
+        "sentenceId": "meng-zi_ch-1_p-1_s-1",
+        "order": 1,
+        "text": "孟子見梁惠王",
+        "cue": "孟"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-1_c-2",
+        "sentenceId": "meng-zi_ch-1_p-1_s-1",
+        "order": 2,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Mencius went to see King Hui of Liang. The King said: \"Venerable sir, since you have not counted a thousand li too far to come, I suppose you have something to profit my kingdom?...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-1_p-1_s-2",
+    "passageId": "meng-zi_ch-1_p-1",
+    "order": 2,
+    "canonicalText": "王曰：「叟！",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-1_p-1_s-2_c-1",
+        "sentenceId": "meng-zi_ch-1_p-1_s-2",
+        "order": 1,
+        "text": "王曰：",
+        "cue": "王"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-2_c-2",
+        "sentenceId": "meng-zi_ch-1_p-1_s-2",
+        "order": 2,
+        "text": "「叟！",
+        "cue": "「"
+      }
+    ],
+    "translationHint": "Mencius went to see King Hui of Liang. The King said: \"Venerable sir, since you have not counted a thousand li too far to come, I suppose you have something to profit my kingdom?...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-1_p-1_s-3",
+    "passageId": "meng-zi_ch-1_p-1",
+    "order": 3,
+    "canonicalText": "不遠千里而來，亦將有以利吾國乎？",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-1_p-1_s-3_c-1",
+        "sentenceId": "meng-zi_ch-1_p-1_s-3",
+        "order": 1,
+        "text": "不遠千里而來",
+        "cue": "不"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-3_c-2",
+        "sentenceId": "meng-zi_ch-1_p-1_s-3",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-3_c-3",
+        "sentenceId": "meng-zi_ch-1_p-1_s-3",
+        "order": 3,
+        "text": "亦將有以利吾國乎",
+        "cue": "亦"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-3_c-4",
+        "sentenceId": "meng-zi_ch-1_p-1_s-3",
+        "order": 4,
+        "text": "？",
+        "cue": "？"
+      }
+    ],
+    "translationHint": "Mencius went to see King Hui of Liang. The King said: \"Venerable sir, since you have not counted a thousand li too far to come, I suppose you have something to profit my kingdom?...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-1_p-1_s-4",
+    "passageId": "meng-zi_ch-1_p-1",
+    "order": 4,
+    "canonicalText": "」孟子對曰：「王！",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-1_p-1_s-4_c-1",
+        "sentenceId": "meng-zi_ch-1_p-1_s-4",
+        "order": 1,
+        "text": "」孟子對曰",
+        "cue": "」"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-4_c-2",
+        "sentenceId": "meng-zi_ch-1_p-1_s-4",
+        "order": 2,
+        "text": "：",
+        "cue": "："
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-4_c-3",
+        "sentenceId": "meng-zi_ch-1_p-1_s-4",
+        "order": 3,
+        "text": "「王！",
+        "cue": "「"
+      }
+    ],
+    "translationHint": "Mencius went to see King Hui of Liang. The King said: \"Venerable sir, since you have not counted a thousand li too far to come, I suppose you have something to profit my kingdom?...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-1_p-1_s-5",
+    "passageId": "meng-zi_ch-1_p-1",
+    "order": 5,
+    "canonicalText": "何必曰利？",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-1_p-1_s-5_c-1",
+        "sentenceId": "meng-zi_ch-1_p-1_s-5",
+        "order": 1,
+        "text": "何必曰利",
+        "cue": "何"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-5_c-2",
+        "sentenceId": "meng-zi_ch-1_p-1_s-5",
+        "order": 2,
+        "text": "？",
+        "cue": "？"
+      }
+    ],
+    "translationHint": "Mencius went to see King Hui of Liang. The King said: \"Venerable sir, since you have not counted a thousand li too far to come, I suppose you have something to profit my kingdom?...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-1_p-1_s-6",
+    "passageId": "meng-zi_ch-1_p-1",
+    "order": 6,
+    "canonicalText": "亦有仁義而已矣。",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-1_p-1_s-6_c-1",
+        "sentenceId": "meng-zi_ch-1_p-1_s-6",
+        "order": 1,
+        "text": "亦有仁義而已矣",
+        "cue": "亦"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-6_c-2",
+        "sentenceId": "meng-zi_ch-1_p-1_s-6",
+        "order": 2,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Mencius went to see King Hui of Liang. The King said: \"Venerable sir, since you have not counted a thousand li too far to come, I suppose you have something to profit my kingdom?...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-1_p-1_s-7",
+    "passageId": "meng-zi_ch-1_p-1",
+    "order": 7,
+    "canonicalText": "王曰『何以利吾國』，大夫曰『何以利吾家』，士庶人曰『何以利吾身』，上下交征利而國危矣。",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-1_p-1_s-7_c-1",
+        "sentenceId": "meng-zi_ch-1_p-1_s-7",
+        "order": 1,
+        "text": "王曰『何以利吾國』",
+        "cue": "王"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-7_c-2",
+        "sentenceId": "meng-zi_ch-1_p-1_s-7",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-7_c-3",
+        "sentenceId": "meng-zi_ch-1_p-1_s-7",
+        "order": 3,
+        "text": "大夫曰『何以利吾家』",
+        "cue": "大"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-7_c-4",
+        "sentenceId": "meng-zi_ch-1_p-1_s-7",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-7_c-5",
+        "sentenceId": "meng-zi_ch-1_p-1_s-7",
+        "order": 5,
+        "text": "士庶人曰『",
+        "cue": "士"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-7_c-6",
+        "sentenceId": "meng-zi_ch-1_p-1_s-7",
+        "order": 6,
+        "text": "何以利吾身』",
+        "cue": "何"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-7_c-7",
+        "sentenceId": "meng-zi_ch-1_p-1_s-7",
+        "order": 7,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-7_c-8",
+        "sentenceId": "meng-zi_ch-1_p-1_s-7",
+        "order": 8,
+        "text": "上下交征利而國危矣",
+        "cue": "上"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-7_c-9",
+        "sentenceId": "meng-zi_ch-1_p-1_s-7",
+        "order": 9,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Mencius went to see King Hui of Liang. The King said: \"Venerable sir, since you have not counted a thousand li too far to come, I suppose you have something to profit my kingdom?...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-1_p-1_s-8",
+    "passageId": "meng-zi_ch-1_p-1",
+    "order": 8,
+    "canonicalText": "萬乘之國，弒其君者，必千乘之家；",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-1_p-1_s-8_c-1",
+        "sentenceId": "meng-zi_ch-1_p-1_s-8",
+        "order": 1,
+        "text": "萬乘之國",
+        "cue": "萬"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-8_c-2",
+        "sentenceId": "meng-zi_ch-1_p-1_s-8",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-8_c-3",
+        "sentenceId": "meng-zi_ch-1_p-1_s-8",
+        "order": 3,
+        "text": "弒其君者",
+        "cue": "弒"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-8_c-4",
+        "sentenceId": "meng-zi_ch-1_p-1_s-8",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-8_c-5",
+        "sentenceId": "meng-zi_ch-1_p-1_s-8",
+        "order": 5,
+        "text": "必千乘之家",
+        "cue": "必"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-8_c-6",
+        "sentenceId": "meng-zi_ch-1_p-1_s-8",
+        "order": 6,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "Mencius went to see King Hui of Liang. The King said: \"Venerable sir, since you have not counted a thousand li too far to come, I suppose you have something to profit my kingdom?...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-1_p-1_s-9",
+    "passageId": "meng-zi_ch-1_p-1",
+    "order": 9,
+    "canonicalText": "千乘之國，弒其君者，必百乘之家。",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-1_p-1_s-9_c-1",
+        "sentenceId": "meng-zi_ch-1_p-1_s-9",
+        "order": 1,
+        "text": "千乘之國",
+        "cue": "千"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-9_c-2",
+        "sentenceId": "meng-zi_ch-1_p-1_s-9",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-9_c-3",
+        "sentenceId": "meng-zi_ch-1_p-1_s-9",
+        "order": 3,
+        "text": "弒其君者",
+        "cue": "弒"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-9_c-4",
+        "sentenceId": "meng-zi_ch-1_p-1_s-9",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-9_c-5",
+        "sentenceId": "meng-zi_ch-1_p-1_s-9",
+        "order": 5,
+        "text": "必百乘之家",
+        "cue": "必"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-9_c-6",
+        "sentenceId": "meng-zi_ch-1_p-1_s-9",
+        "order": 6,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Mencius went to see King Hui of Liang. The King said: \"Venerable sir, since you have not counted a thousand li too far to come, I suppose you have something to profit my kingdom?...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-1_p-1_s-10",
+    "passageId": "meng-zi_ch-1_p-1",
+    "order": 10,
+    "canonicalText": "萬取千焉，千取百焉，不為不多矣。",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-1_p-1_s-10_c-1",
+        "sentenceId": "meng-zi_ch-1_p-1_s-10",
+        "order": 1,
+        "text": "萬取千焉",
+        "cue": "萬"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-10_c-2",
+        "sentenceId": "meng-zi_ch-1_p-1_s-10",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-10_c-3",
+        "sentenceId": "meng-zi_ch-1_p-1_s-10",
+        "order": 3,
+        "text": "千取百焉",
+        "cue": "千"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-10_c-4",
+        "sentenceId": "meng-zi_ch-1_p-1_s-10",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-10_c-5",
+        "sentenceId": "meng-zi_ch-1_p-1_s-10",
+        "order": 5,
+        "text": "不為不多矣",
+        "cue": "不"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-10_c-6",
+        "sentenceId": "meng-zi_ch-1_p-1_s-10",
+        "order": 6,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Mencius went to see King Hui of Liang. The King said: \"Venerable sir, since you have not counted a thousand li too far to come, I suppose you have something to profit my kingdom?...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-1_p-1_s-11",
+    "passageId": "meng-zi_ch-1_p-1",
+    "order": 11,
+    "canonicalText": "苟為後義而先利，不奪不饜。",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-1_p-1_s-11_c-1",
+        "sentenceId": "meng-zi_ch-1_p-1_s-11",
+        "order": 1,
+        "text": "苟為後義而先利",
+        "cue": "苟"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-11_c-2",
+        "sentenceId": "meng-zi_ch-1_p-1_s-11",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-11_c-3",
+        "sentenceId": "meng-zi_ch-1_p-1_s-11",
+        "order": 3,
+        "text": "不奪不饜",
+        "cue": "不"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-11_c-4",
+        "sentenceId": "meng-zi_ch-1_p-1_s-11",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Mencius went to see King Hui of Liang. The King said: \"Venerable sir, since you have not counted a thousand li too far to come, I suppose you have something to profit my kingdom?...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-1_p-1_s-12",
+    "passageId": "meng-zi_ch-1_p-1",
+    "order": 12,
+    "canonicalText": "未有仁而遺其親者也，未有義而後其君者也。",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-1_p-1_s-12_c-1",
+        "sentenceId": "meng-zi_ch-1_p-1_s-12",
+        "order": 1,
+        "text": "未有仁而遺其親者也",
+        "cue": "未"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-12_c-2",
+        "sentenceId": "meng-zi_ch-1_p-1_s-12",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-12_c-3",
+        "sentenceId": "meng-zi_ch-1_p-1_s-12",
+        "order": 3,
+        "text": "未有義而後其君者也",
+        "cue": "未"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-12_c-4",
+        "sentenceId": "meng-zi_ch-1_p-1_s-12",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Mencius went to see King Hui of Liang. The King said: \"Venerable sir, since you have not counted a thousand li too far to come, I suppose you have something to profit my kingdom?...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-1_p-1_s-13",
+    "passageId": "meng-zi_ch-1_p-1",
+    "order": 13,
+    "canonicalText": "王亦曰仁義而已矣，何必曰利？",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-1_p-1_s-13_c-1",
+        "sentenceId": "meng-zi_ch-1_p-1_s-13",
+        "order": 1,
+        "text": "王亦曰仁義而已矣",
+        "cue": "王"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-13_c-2",
+        "sentenceId": "meng-zi_ch-1_p-1_s-13",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-13_c-3",
+        "sentenceId": "meng-zi_ch-1_p-1_s-13",
+        "order": 3,
+        "text": "何必曰利",
+        "cue": "何"
+      },
+      {
+        "id": "meng-zi_ch-1_p-1_s-13_c-4",
+        "sentenceId": "meng-zi_ch-1_p-1_s-13",
+        "order": 4,
+        "text": "？",
+        "cue": "？"
+      }
+    ],
+    "translationHint": "Mencius went to see King Hui of Liang. The King said: \"Venerable sir, since you have not counted a thousand li too far to come, I suppose you have something to profit my kingdom?...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-2_p-1_s-1",
+    "passageId": "meng-zi_ch-2_p-1",
+    "order": 1,
+    "canonicalText": "孟子曰：「人皆有惻隱之心，羞惡之心，辭讓之心，是非之心。",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-2_p-1_s-1_c-1",
+        "sentenceId": "meng-zi_ch-2_p-1_s-1",
+        "order": 1,
+        "text": "孟子曰：",
+        "cue": "孟"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-1_c-2",
+        "sentenceId": "meng-zi_ch-2_p-1_s-1",
+        "order": 2,
+        "text": "「人皆有惻隱之心",
+        "cue": "「"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-1_c-3",
+        "sentenceId": "meng-zi_ch-2_p-1_s-1",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-1_c-4",
+        "sentenceId": "meng-zi_ch-2_p-1_s-1",
+        "order": 4,
+        "text": "羞惡之心",
+        "cue": "羞"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-1_c-5",
+        "sentenceId": "meng-zi_ch-2_p-1_s-1",
+        "order": 5,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-1_c-6",
+        "sentenceId": "meng-zi_ch-2_p-1_s-1",
+        "order": 6,
+        "text": "辭讓之心",
+        "cue": "辭"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-1_c-7",
+        "sentenceId": "meng-zi_ch-2_p-1_s-1",
+        "order": 7,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-1_c-8",
+        "sentenceId": "meng-zi_ch-2_p-1_s-1",
+        "order": 8,
+        "text": "是非之心",
+        "cue": "是"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-1_c-9",
+        "sentenceId": "meng-zi_ch-2_p-1_s-1",
+        "order": 9,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Mencius said: \"All men have a mind which cannot bear to see the sufferings of others. The feeling of commiseration is the principle of benevolence...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-2_p-1_s-2",
+    "passageId": "meng-zi_ch-2_p-1",
+    "order": 2,
+    "canonicalText": "惻隱之心，仁之端也；",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-2_p-1_s-2_c-1",
+        "sentenceId": "meng-zi_ch-2_p-1_s-2",
+        "order": 1,
+        "text": "惻隱之心",
+        "cue": "惻"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-2_c-2",
+        "sentenceId": "meng-zi_ch-2_p-1_s-2",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-2_c-3",
+        "sentenceId": "meng-zi_ch-2_p-1_s-2",
+        "order": 3,
+        "text": "仁之端也",
+        "cue": "仁"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-2_c-4",
+        "sentenceId": "meng-zi_ch-2_p-1_s-2",
+        "order": 4,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "Mencius said: \"All men have a mind which cannot bear to see the sufferings of others. The feeling of commiseration is the principle of benevolence...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-2_p-1_s-3",
+    "passageId": "meng-zi_ch-2_p-1",
+    "order": 3,
+    "canonicalText": "羞惡之心，義之端也；",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-2_p-1_s-3_c-1",
+        "sentenceId": "meng-zi_ch-2_p-1_s-3",
+        "order": 1,
+        "text": "羞惡之心",
+        "cue": "羞"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-3_c-2",
+        "sentenceId": "meng-zi_ch-2_p-1_s-3",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-3_c-3",
+        "sentenceId": "meng-zi_ch-2_p-1_s-3",
+        "order": 3,
+        "text": "義之端也",
+        "cue": "義"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-3_c-4",
+        "sentenceId": "meng-zi_ch-2_p-1_s-3",
+        "order": 4,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "Mencius said: \"All men have a mind which cannot bear to see the sufferings of others. The feeling of commiseration is the principle of benevolence...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-2_p-1_s-4",
+    "passageId": "meng-zi_ch-2_p-1",
+    "order": 4,
+    "canonicalText": "辭讓之心，禮之端也；",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-2_p-1_s-4_c-1",
+        "sentenceId": "meng-zi_ch-2_p-1_s-4",
+        "order": 1,
+        "text": "辭讓之心",
+        "cue": "辭"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-4_c-2",
+        "sentenceId": "meng-zi_ch-2_p-1_s-4",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-4_c-3",
+        "sentenceId": "meng-zi_ch-2_p-1_s-4",
+        "order": 3,
+        "text": "禮之端也",
+        "cue": "禮"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-4_c-4",
+        "sentenceId": "meng-zi_ch-2_p-1_s-4",
+        "order": 4,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "Mencius said: \"All men have a mind which cannot bear to see the sufferings of others. The feeling of commiseration is the principle of benevolence...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-2_p-1_s-5",
+    "passageId": "meng-zi_ch-2_p-1",
+    "order": 5,
+    "canonicalText": "是非之心，智之端也。",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-2_p-1_s-5_c-1",
+        "sentenceId": "meng-zi_ch-2_p-1_s-5",
+        "order": 1,
+        "text": "是非之心",
+        "cue": "是"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-5_c-2",
+        "sentenceId": "meng-zi_ch-2_p-1_s-5",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-5_c-3",
+        "sentenceId": "meng-zi_ch-2_p-1_s-5",
+        "order": 3,
+        "text": "智之端也",
+        "cue": "智"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-5_c-4",
+        "sentenceId": "meng-zi_ch-2_p-1_s-5",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Mencius said: \"All men have a mind which cannot bear to see the sufferings of others. The feeling of commiseration is the principle of benevolence...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-2_p-1_s-6",
+    "passageId": "meng-zi_ch-2_p-1",
+    "order": 6,
+    "canonicalText": "人之有是四端也，猶其有四體也。",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-2_p-1_s-6_c-1",
+        "sentenceId": "meng-zi_ch-2_p-1_s-6",
+        "order": 1,
+        "text": "人之有是四端也",
+        "cue": "人"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-6_c-2",
+        "sentenceId": "meng-zi_ch-2_p-1_s-6",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-6_c-3",
+        "sentenceId": "meng-zi_ch-2_p-1_s-6",
+        "order": 3,
+        "text": "猶其有四體也",
+        "cue": "猶"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-6_c-4",
+        "sentenceId": "meng-zi_ch-2_p-1_s-6",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Mencius said: \"All men have a mind which cannot bear to see the sufferings of others. The feeling of commiseration is the principle of benevolence...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-2_p-1_s-7",
+    "passageId": "meng-zi_ch-2_p-1",
+    "order": 7,
+    "canonicalText": "有是四端而自謂不能者，自賊者也；",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-2_p-1_s-7_c-1",
+        "sentenceId": "meng-zi_ch-2_p-1_s-7",
+        "order": 1,
+        "text": "有是四端而自謂不能者",
+        "cue": "有"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-7_c-2",
+        "sentenceId": "meng-zi_ch-2_p-1_s-7",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-7_c-3",
+        "sentenceId": "meng-zi_ch-2_p-1_s-7",
+        "order": 3,
+        "text": "自賊者也",
+        "cue": "自"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-7_c-4",
+        "sentenceId": "meng-zi_ch-2_p-1_s-7",
+        "order": 4,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "Mencius said: \"All men have a mind which cannot bear to see the sufferings of others. The feeling of commiseration is the principle of benevolence...\"",
+    "tags": []
+  },
+  {
+    "id": "meng-zi_ch-2_p-1_s-8",
+    "passageId": "meng-zi_ch-2_p-1",
+    "order": 8,
+    "canonicalText": "謂其君不能者，賊其君者也。",
+    "chunks": [
+      {
+        "id": "meng-zi_ch-2_p-1_s-8_c-1",
+        "sentenceId": "meng-zi_ch-2_p-1_s-8",
+        "order": 1,
+        "text": "謂其君不能者",
+        "cue": "謂"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-8_c-2",
+        "sentenceId": "meng-zi_ch-2_p-1_s-8",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-8_c-3",
+        "sentenceId": "meng-zi_ch-2_p-1_s-8",
+        "order": 3,
+        "text": "賊其君者也",
+        "cue": "賊"
+      },
+      {
+        "id": "meng-zi_ch-2_p-1_s-8_c-4",
+        "sentenceId": "meng-zi_ch-2_p-1_s-8",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Mencius said: \"All men have a mind which cannot bear to see the sufferings of others. The feeling of commiseration is the principle of benevolence...\"",
+    "tags": []
+  },
+  {
+    "id": "yi-jing_ch-1_p-1_s-1",
+    "passageId": "yi-jing_ch-1_p-1",
+    "order": 1,
+    "canonicalText": "乾卦：元，亨，利，貞。",
+    "chunks": [
+      {
+        "id": "yi-jing_ch-1_p-1_s-1_c-1",
+        "sentenceId": "yi-jing_ch-1_p-1_s-1",
+        "order": 1,
+        "text": "乾卦：",
+        "cue": "乾"
+      },
+      {
+        "id": "yi-jing_ch-1_p-1_s-1_c-2",
+        "sentenceId": "yi-jing_ch-1_p-1_s-1",
+        "order": 2,
+        "text": "元，",
+        "cue": "元"
+      },
+      {
+        "id": "yi-jing_ch-1_p-1_s-1_c-3",
+        "sentenceId": "yi-jing_ch-1_p-1_s-1",
+        "order": 3,
+        "text": "亨，",
+        "cue": "亨"
+      },
+      {
+        "id": "yi-jing_ch-1_p-1_s-1_c-4",
+        "sentenceId": "yi-jing_ch-1_p-1_s-1",
+        "order": 4,
+        "text": "利，",
+        "cue": "利"
+      },
+      {
+        "id": "yi-jing_ch-1_p-1_s-1_c-5",
+        "sentenceId": "yi-jing_ch-1_p-1_s-1",
+        "order": 5,
+        "text": "貞。",
+        "cue": "貞"
+      }
+    ],
+    "translationHint": "The Qian Hexagram represents Heaven... The Xiang Zhuan says: \"As Heaven moves with strength, the gentleman strengthens himself untiringly.\" The Kun Hexagram represents Earth... \"As Earth is receptive, the gentleman supports all things with virtue.\"",
+    "tags": []
+  },
+  {
+    "id": "yi-jing_ch-1_p-1_s-2",
+    "passageId": "yi-jing_ch-1_p-1",
+    "order": 2,
+    "canonicalText": "大象傳曰：天行健，君子以自強不息。",
+    "chunks": [
+      {
+        "id": "yi-jing_ch-1_p-1_s-2_c-1",
+        "sentenceId": "yi-jing_ch-1_p-1_s-2",
+        "order": 1,
+        "text": "大象傳曰",
+        "cue": "大"
+      },
+      {
+        "id": "yi-jing_ch-1_p-1_s-2_c-2",
+        "sentenceId": "yi-jing_ch-1_p-1_s-2",
+        "order": 2,
+        "text": "：",
+        "cue": "："
+      },
+      {
+        "id": "yi-jing_ch-1_p-1_s-2_c-3",
+        "sentenceId": "yi-jing_ch-1_p-1_s-2",
+        "order": 3,
+        "text": "天行健，",
+        "cue": "天"
+      },
+      {
+        "id": "yi-jing_ch-1_p-1_s-2_c-4",
+        "sentenceId": "yi-jing_ch-1_p-1_s-2",
+        "order": 4,
+        "text": "君子以自強不息",
+        "cue": "君"
+      },
+      {
+        "id": "yi-jing_ch-1_p-1_s-2_c-5",
+        "sentenceId": "yi-jing_ch-1_p-1_s-2",
+        "order": 5,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Qian Hexagram represents Heaven... The Xiang Zhuan says: \"As Heaven moves with strength, the gentleman strengthens himself untiringly.\" The Kun Hexagram represents Earth... \"As Earth is receptive, the gentleman supports all things with virtue.\"",
+    "tags": []
+  },
+  {
+    "id": "yi-jing_ch-1_p-1_s-3",
+    "passageId": "yi-jing_ch-1_p-1",
+    "order": 3,
+    "canonicalText": "坤卦：元，亨，利，牝馬之貞。",
+    "chunks": [
+      {
+        "id": "yi-jing_ch-1_p-1_s-3_c-1",
+        "sentenceId": "yi-jing_ch-1_p-1_s-3",
+        "order": 1,
+        "text": "坤卦：",
+        "cue": "坤"
+      },
+      {
+        "id": "yi-jing_ch-1_p-1_s-3_c-2",
+        "sentenceId": "yi-jing_ch-1_p-1_s-3",
+        "order": 2,
+        "text": "元，",
+        "cue": "元"
+      },
+      {
+        "id": "yi-jing_ch-1_p-1_s-3_c-3",
+        "sentenceId": "yi-jing_ch-1_p-1_s-3",
+        "order": 3,
+        "text": "亨，",
+        "cue": "亨"
+      },
+      {
+        "id": "yi-jing_ch-1_p-1_s-3_c-4",
+        "sentenceId": "yi-jing_ch-1_p-1_s-3",
+        "order": 4,
+        "text": "利，",
+        "cue": "利"
+      },
+      {
+        "id": "yi-jing_ch-1_p-1_s-3_c-5",
+        "sentenceId": "yi-jing_ch-1_p-1_s-3",
+        "order": 5,
+        "text": "牝馬之貞",
+        "cue": "牝"
+      },
+      {
+        "id": "yi-jing_ch-1_p-1_s-3_c-6",
+        "sentenceId": "yi-jing_ch-1_p-1_s-3",
+        "order": 6,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Qian Hexagram represents Heaven... The Xiang Zhuan says: \"As Heaven moves with strength, the gentleman strengthens himself untiringly.\" The Kun Hexagram represents Earth... \"As Earth is receptive, the gentleman supports all things with virtue.\"",
+    "tags": []
+  },
+  {
+    "id": "yi-jing_ch-1_p-1_s-4",
+    "passageId": "yi-jing_ch-1_p-1",
+    "order": 4,
+    "canonicalText": "大象傳曰：地勢坤，君子以厚德載物。",
+    "chunks": [
+      {
+        "id": "yi-jing_ch-1_p-1_s-4_c-1",
+        "sentenceId": "yi-jing_ch-1_p-1_s-4",
+        "order": 1,
+        "text": "大象傳曰",
+        "cue": "大"
+      },
+      {
+        "id": "yi-jing_ch-1_p-1_s-4_c-2",
+        "sentenceId": "yi-jing_ch-1_p-1_s-4",
+        "order": 2,
+        "text": "：",
+        "cue": "："
+      },
+      {
+        "id": "yi-jing_ch-1_p-1_s-4_c-3",
+        "sentenceId": "yi-jing_ch-1_p-1_s-4",
+        "order": 3,
+        "text": "地勢坤，",
+        "cue": "地"
+      },
+      {
+        "id": "yi-jing_ch-1_p-1_s-4_c-4",
+        "sentenceId": "yi-jing_ch-1_p-1_s-4",
+        "order": 4,
+        "text": "君子以厚德載物",
+        "cue": "君"
+      },
+      {
+        "id": "yi-jing_ch-1_p-1_s-4_c-5",
+        "sentenceId": "yi-jing_ch-1_p-1_s-4",
+        "order": 5,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Qian Hexagram represents Heaven... The Xiang Zhuan says: \"As Heaven moves with strength, the gentleman strengthens himself untiringly.\" The Kun Hexagram represents Earth... \"As Earth is receptive, the gentleman supports all things with virtue.\"",
+    "tags": []
+  },
+  {
+    "id": "shu-jing_ch-1_p-1_s-1",
+    "passageId": "shu-jing_ch-1_p-1",
+    "order": 1,
+    "canonicalText": "帝曰：「來，禹！",
+    "chunks": [
+      {
+        "id": "shu-jing_ch-1_p-1_s-1_c-1",
+        "sentenceId": "shu-jing_ch-1_p-1_s-1",
+        "order": 1,
+        "text": "帝曰：",
+        "cue": "帝"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-1_c-2",
+        "sentenceId": "shu-jing_ch-1_p-1_s-1",
+        "order": 2,
+        "text": "「來，",
+        "cue": "「"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-1_c-3",
+        "sentenceId": "shu-jing_ch-1_p-1_s-1",
+        "order": 3,
+        "text": "禹！",
+        "cue": "禹"
+      }
+    ],
+    "translationHint": "The Emperor said: \"Come, Yu. The great floods alerted us, and you achieved success... The mind of man is restless, prone to err; its affinity for the right way is small. Be discriminating, be undivided, that you may sincerely hold fast the Mean.\"",
+    "tags": []
+  },
+  {
+    "id": "shu-jing_ch-1_p-1_s-2",
+    "passageId": "shu-jing_ch-1_p-1",
+    "order": 2,
+    "canonicalText": "降水儆予，成允成功，惟汝賢。",
+    "chunks": [
+      {
+        "id": "shu-jing_ch-1_p-1_s-2_c-1",
+        "sentenceId": "shu-jing_ch-1_p-1_s-2",
+        "order": 1,
+        "text": "降水儆予",
+        "cue": "降"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-2_c-2",
+        "sentenceId": "shu-jing_ch-1_p-1_s-2",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-2_c-3",
+        "sentenceId": "shu-jing_ch-1_p-1_s-2",
+        "order": 3,
+        "text": "成允成功",
+        "cue": "成"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-2_c-4",
+        "sentenceId": "shu-jing_ch-1_p-1_s-2",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-2_c-5",
+        "sentenceId": "shu-jing_ch-1_p-1_s-2",
+        "order": 5,
+        "text": "惟汝賢。",
+        "cue": "惟"
+      }
+    ],
+    "translationHint": "The Emperor said: \"Come, Yu. The great floods alerted us, and you achieved success... The mind of man is restless, prone to err; its affinity for the right way is small. Be discriminating, be undivided, that you may sincerely hold fast the Mean.\"",
+    "tags": []
+  },
+  {
+    "id": "shu-jing_ch-1_p-1_s-3",
+    "passageId": "shu-jing_ch-1_p-1",
+    "order": 3,
+    "canonicalText": "克勤于邦，克儉于家，不自滿假，惟汝賢。",
+    "chunks": [
+      {
+        "id": "shu-jing_ch-1_p-1_s-3_c-1",
+        "sentenceId": "shu-jing_ch-1_p-1_s-3",
+        "order": 1,
+        "text": "克勤于邦",
+        "cue": "克"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-3_c-2",
+        "sentenceId": "shu-jing_ch-1_p-1_s-3",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-3_c-3",
+        "sentenceId": "shu-jing_ch-1_p-1_s-3",
+        "order": 3,
+        "text": "克儉于家",
+        "cue": "克"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-3_c-4",
+        "sentenceId": "shu-jing_ch-1_p-1_s-3",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-3_c-5",
+        "sentenceId": "shu-jing_ch-1_p-1_s-3",
+        "order": 5,
+        "text": "不自滿假",
+        "cue": "不"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-3_c-6",
+        "sentenceId": "shu-jing_ch-1_p-1_s-3",
+        "order": 6,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-3_c-7",
+        "sentenceId": "shu-jing_ch-1_p-1_s-3",
+        "order": 7,
+        "text": "惟汝賢。",
+        "cue": "惟"
+      }
+    ],
+    "translationHint": "The Emperor said: \"Come, Yu. The great floods alerted us, and you achieved success... The mind of man is restless, prone to err; its affinity for the right way is small. Be discriminating, be undivided, that you may sincerely hold fast the Mean.\"",
+    "tags": []
+  },
+  {
+    "id": "shu-jing_ch-1_p-1_s-4",
+    "passageId": "shu-jing_ch-1_p-1",
+    "order": 4,
+    "canonicalText": "人心惟危，道心惟微，惟精惟一，允執厥中。",
+    "chunks": [
+      {
+        "id": "shu-jing_ch-1_p-1_s-4_c-1",
+        "sentenceId": "shu-jing_ch-1_p-1_s-4",
+        "order": 1,
+        "text": "人心惟危",
+        "cue": "人"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-4_c-2",
+        "sentenceId": "shu-jing_ch-1_p-1_s-4",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-4_c-3",
+        "sentenceId": "shu-jing_ch-1_p-1_s-4",
+        "order": 3,
+        "text": "道心惟微",
+        "cue": "道"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-4_c-4",
+        "sentenceId": "shu-jing_ch-1_p-1_s-4",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-4_c-5",
+        "sentenceId": "shu-jing_ch-1_p-1_s-4",
+        "order": 5,
+        "text": "惟精惟一",
+        "cue": "惟"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-4_c-6",
+        "sentenceId": "shu-jing_ch-1_p-1_s-4",
+        "order": 6,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-4_c-7",
+        "sentenceId": "shu-jing_ch-1_p-1_s-4",
+        "order": 7,
+        "text": "允執厥中",
+        "cue": "允"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-4_c-8",
+        "sentenceId": "shu-jing_ch-1_p-1_s-4",
+        "order": 8,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Emperor said: \"Come, Yu. The great floods alerted us, and you achieved success... The mind of man is restless, prone to err; its affinity for the right way is small. Be discriminating, be undivided, that you may sincerely hold fast the Mean.\"",
+    "tags": []
+  },
+  {
+    "id": "shu-jing_ch-1_p-1_s-5",
+    "passageId": "shu-jing_ch-1_p-1",
+    "order": 5,
+    "canonicalText": "無稽之言勿聽，弗詢之謀勿庸。",
+    "chunks": [
+      {
+        "id": "shu-jing_ch-1_p-1_s-5_c-1",
+        "sentenceId": "shu-jing_ch-1_p-1_s-5",
+        "order": 1,
+        "text": "無稽之言勿聽",
+        "cue": "無"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-5_c-2",
+        "sentenceId": "shu-jing_ch-1_p-1_s-5",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-5_c-3",
+        "sentenceId": "shu-jing_ch-1_p-1_s-5",
+        "order": 3,
+        "text": "弗詢之謀勿庸",
+        "cue": "弗"
+      },
+      {
+        "id": "shu-jing_ch-1_p-1_s-5_c-4",
+        "sentenceId": "shu-jing_ch-1_p-1_s-5",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Emperor said: \"Come, Yu. The great floods alerted us, and you achieved success... The mind of man is restless, prone to err; its affinity for the right way is small. Be discriminating, be undivided, that you may sincerely hold fast the Mean.\"",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-1_p-1_s-1",
+    "passageId": "shi-jing_ch-1_p-1",
+    "order": 1,
+    "canonicalText": "關關雎鳩，在河之洲。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-1_p-1_s-1_c-1",
+        "sentenceId": "shi-jing_ch-1_p-1_s-1",
+        "order": 1,
+        "text": "關關雎鳩",
+        "cue": "關"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-1_c-2",
+        "sentenceId": "shi-jing_ch-1_p-1_s-1",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-1_c-3",
+        "sentenceId": "shi-jing_ch-1_p-1_s-1",
+        "order": 3,
+        "text": "在河之洲",
+        "cue": "在"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-1_c-4",
+        "sentenceId": "shi-jing_ch-1_p-1_s-1",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Guan guan go the ospreys, on the islet in the river. The gentle, graceful girl is a good mate for the gentleman. Uneven water-lilies, float left and right...",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-1_p-1_s-2",
+    "passageId": "shi-jing_ch-1_p-1",
+    "order": 2,
+    "canonicalText": "窈窕淑女，君子好逑。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-1_p-1_s-2_c-1",
+        "sentenceId": "shi-jing_ch-1_p-1_s-2",
+        "order": 1,
+        "text": "窈窕淑女",
+        "cue": "窈"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-2_c-2",
+        "sentenceId": "shi-jing_ch-1_p-1_s-2",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-2_c-3",
+        "sentenceId": "shi-jing_ch-1_p-1_s-2",
+        "order": 3,
+        "text": "君子好逑",
+        "cue": "君"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-2_c-4",
+        "sentenceId": "shi-jing_ch-1_p-1_s-2",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Guan guan go the ospreys, on the islet in the river. The gentle, graceful girl is a good mate for the gentleman. Uneven water-lilies, float left and right...",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-1_p-1_s-3",
+    "passageId": "shi-jing_ch-1_p-1",
+    "order": 3,
+    "canonicalText": "參差荇菜，左右流之。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-1_p-1_s-3_c-1",
+        "sentenceId": "shi-jing_ch-1_p-1_s-3",
+        "order": 1,
+        "text": "參差荇菜",
+        "cue": "參"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-3_c-2",
+        "sentenceId": "shi-jing_ch-1_p-1_s-3",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-3_c-3",
+        "sentenceId": "shi-jing_ch-1_p-1_s-3",
+        "order": 3,
+        "text": "左右流之",
+        "cue": "左"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-3_c-4",
+        "sentenceId": "shi-jing_ch-1_p-1_s-3",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Guan guan go the ospreys, on the islet in the river. The gentle, graceful girl is a good mate for the gentleman. Uneven water-lilies, float left and right...",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-1_p-1_s-4",
+    "passageId": "shi-jing_ch-1_p-1",
+    "order": 4,
+    "canonicalText": "窈窕淑女，寤寐求之。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-1_p-1_s-4_c-1",
+        "sentenceId": "shi-jing_ch-1_p-1_s-4",
+        "order": 1,
+        "text": "窈窕淑女",
+        "cue": "窈"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-4_c-2",
+        "sentenceId": "shi-jing_ch-1_p-1_s-4",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-4_c-3",
+        "sentenceId": "shi-jing_ch-1_p-1_s-4",
+        "order": 3,
+        "text": "寤寐求之",
+        "cue": "寤"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-4_c-4",
+        "sentenceId": "shi-jing_ch-1_p-1_s-4",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Guan guan go the ospreys, on the islet in the river. The gentle, graceful girl is a good mate for the gentleman. Uneven water-lilies, float left and right...",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-1_p-1_s-5",
+    "passageId": "shi-jing_ch-1_p-1",
+    "order": 5,
+    "canonicalText": "求之不得，寤寐思服。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-1_p-1_s-5_c-1",
+        "sentenceId": "shi-jing_ch-1_p-1_s-5",
+        "order": 1,
+        "text": "求之不得",
+        "cue": "求"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-5_c-2",
+        "sentenceId": "shi-jing_ch-1_p-1_s-5",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-5_c-3",
+        "sentenceId": "shi-jing_ch-1_p-1_s-5",
+        "order": 3,
+        "text": "寤寐思服",
+        "cue": "寤"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-5_c-4",
+        "sentenceId": "shi-jing_ch-1_p-1_s-5",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Guan guan go the ospreys, on the islet in the river. The gentle, graceful girl is a good mate for the gentleman. Uneven water-lilies, float left and right...",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-1_p-1_s-6",
+    "passageId": "shi-jing_ch-1_p-1",
+    "order": 6,
+    "canonicalText": "悠哉悠哉，輾轉反側。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-1_p-1_s-6_c-1",
+        "sentenceId": "shi-jing_ch-1_p-1_s-6",
+        "order": 1,
+        "text": "悠哉悠哉",
+        "cue": "悠"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-6_c-2",
+        "sentenceId": "shi-jing_ch-1_p-1_s-6",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-6_c-3",
+        "sentenceId": "shi-jing_ch-1_p-1_s-6",
+        "order": 3,
+        "text": "輾轉反側",
+        "cue": "輾"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-6_c-4",
+        "sentenceId": "shi-jing_ch-1_p-1_s-6",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Guan guan go the ospreys, on the islet in the river. The gentle, graceful girl is a good mate for the gentleman. Uneven water-lilies, float left and right...",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-1_p-1_s-7",
+    "passageId": "shi-jing_ch-1_p-1",
+    "order": 7,
+    "canonicalText": "參差荇菜，左右采之。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-1_p-1_s-7_c-1",
+        "sentenceId": "shi-jing_ch-1_p-1_s-7",
+        "order": 1,
+        "text": "參差荇菜",
+        "cue": "參"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-7_c-2",
+        "sentenceId": "shi-jing_ch-1_p-1_s-7",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-7_c-3",
+        "sentenceId": "shi-jing_ch-1_p-1_s-7",
+        "order": 3,
+        "text": "左右采之",
+        "cue": "左"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-7_c-4",
+        "sentenceId": "shi-jing_ch-1_p-1_s-7",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Guan guan go the ospreys, on the islet in the river. The gentle, graceful girl is a good mate for the gentleman. Uneven water-lilies, float left and right...",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-1_p-1_s-8",
+    "passageId": "shi-jing_ch-1_p-1",
+    "order": 8,
+    "canonicalText": "窈窕淑女，琴瑟友之。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-1_p-1_s-8_c-1",
+        "sentenceId": "shi-jing_ch-1_p-1_s-8",
+        "order": 1,
+        "text": "窈窕淑女",
+        "cue": "窈"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-8_c-2",
+        "sentenceId": "shi-jing_ch-1_p-1_s-8",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-8_c-3",
+        "sentenceId": "shi-jing_ch-1_p-1_s-8",
+        "order": 3,
+        "text": "琴瑟友之",
+        "cue": "琴"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-8_c-4",
+        "sentenceId": "shi-jing_ch-1_p-1_s-8",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Guan guan go the ospreys, on the islet in the river. The gentle, graceful girl is a good mate for the gentleman. Uneven water-lilies, float left and right...",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-1_p-1_s-9",
+    "passageId": "shi-jing_ch-1_p-1",
+    "order": 9,
+    "canonicalText": "參差荇菜，左右芼之。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-1_p-1_s-9_c-1",
+        "sentenceId": "shi-jing_ch-1_p-1_s-9",
+        "order": 1,
+        "text": "參差荇菜",
+        "cue": "參"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-9_c-2",
+        "sentenceId": "shi-jing_ch-1_p-1_s-9",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-9_c-3",
+        "sentenceId": "shi-jing_ch-1_p-1_s-9",
+        "order": 3,
+        "text": "左右芼之",
+        "cue": "左"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-9_c-4",
+        "sentenceId": "shi-jing_ch-1_p-1_s-9",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Guan guan go the ospreys, on the islet in the river. The gentle, graceful girl is a good mate for the gentleman. Uneven water-lilies, float left and right...",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-1_p-1_s-10",
+    "passageId": "shi-jing_ch-1_p-1",
+    "order": 10,
+    "canonicalText": "窈窕淑女，鐘鼓樂之。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-1_p-1_s-10_c-1",
+        "sentenceId": "shi-jing_ch-1_p-1_s-10",
+        "order": 1,
+        "text": "窈窕淑女",
+        "cue": "窈"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-10_c-2",
+        "sentenceId": "shi-jing_ch-1_p-1_s-10",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-10_c-3",
+        "sentenceId": "shi-jing_ch-1_p-1_s-10",
+        "order": 3,
+        "text": "鐘鼓樂之",
+        "cue": "鐘"
+      },
+      {
+        "id": "shi-jing_ch-1_p-1_s-10_c-4",
+        "sentenceId": "shi-jing_ch-1_p-1_s-10",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "Guan guan go the ospreys, on the islet in the river. The gentle, graceful girl is a good mate for the gentleman. Uneven water-lilies, float left and right...",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-2_p-1_s-1",
+    "passageId": "shi-jing_ch-2_p-1",
+    "order": 1,
+    "canonicalText": "蒹葭蒼蒼，白露為霜。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-2_p-1_s-1_c-1",
+        "sentenceId": "shi-jing_ch-2_p-1_s-1",
+        "order": 1,
+        "text": "蒹葭蒼蒼",
+        "cue": "蒹"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-1_c-2",
+        "sentenceId": "shi-jing_ch-2_p-1_s-1",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-1_c-3",
+        "sentenceId": "shi-jing_ch-2_p-1_s-1",
+        "order": 3,
+        "text": "白露為霜",
+        "cue": "白"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-1_c-4",
+        "sentenceId": "shi-jing_ch-2_p-1_s-1",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The reeds are luxuriant and green, the white dew is turned into frost. The one I long for is on the other side of the water...",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-2_p-1_s-2",
+    "passageId": "shi-jing_ch-2_p-1",
+    "order": 2,
+    "canonicalText": "所謂伊人，在水一方。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-2_p-1_s-2_c-1",
+        "sentenceId": "shi-jing_ch-2_p-1_s-2",
+        "order": 1,
+        "text": "所謂伊人",
+        "cue": "所"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-2_c-2",
+        "sentenceId": "shi-jing_ch-2_p-1_s-2",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-2_c-3",
+        "sentenceId": "shi-jing_ch-2_p-1_s-2",
+        "order": 3,
+        "text": "在水一方",
+        "cue": "在"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-2_c-4",
+        "sentenceId": "shi-jing_ch-2_p-1_s-2",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The reeds are luxuriant and green, the white dew is turned into frost. The one I long for is on the other side of the water...",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-2_p-1_s-3",
+    "passageId": "shi-jing_ch-2_p-1",
+    "order": 3,
+    "canonicalText": "溯洄從之，道阻且長。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-2_p-1_s-3_c-1",
+        "sentenceId": "shi-jing_ch-2_p-1_s-3",
+        "order": 1,
+        "text": "溯洄從之",
+        "cue": "溯"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-3_c-2",
+        "sentenceId": "shi-jing_ch-2_p-1_s-3",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-3_c-3",
+        "sentenceId": "shi-jing_ch-2_p-1_s-3",
+        "order": 3,
+        "text": "道阻且長",
+        "cue": "道"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-3_c-4",
+        "sentenceId": "shi-jing_ch-2_p-1_s-3",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The reeds are luxuriant and green, the white dew is turned into frost. The one I long for is on the other side of the water...",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-2_p-1_s-4",
+    "passageId": "shi-jing_ch-2_p-1",
+    "order": 4,
+    "canonicalText": "溯游從之，宛在水中央。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-2_p-1_s-4_c-1",
+        "sentenceId": "shi-jing_ch-2_p-1_s-4",
+        "order": 1,
+        "text": "溯游從之",
+        "cue": "溯"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-4_c-2",
+        "sentenceId": "shi-jing_ch-2_p-1_s-4",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-4_c-3",
+        "sentenceId": "shi-jing_ch-2_p-1_s-4",
+        "order": 3,
+        "text": "宛在水中央",
+        "cue": "宛"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-4_c-4",
+        "sentenceId": "shi-jing_ch-2_p-1_s-4",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The reeds are luxuriant and green, the white dew is turned into frost. The one I long for is on the other side of the water...",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-2_p-1_s-5",
+    "passageId": "shi-jing_ch-2_p-1",
+    "order": 5,
+    "canonicalText": "蒹葭淒淒，白露未晞。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-2_p-1_s-5_c-1",
+        "sentenceId": "shi-jing_ch-2_p-1_s-5",
+        "order": 1,
+        "text": "蒹葭淒淒",
+        "cue": "蒹"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-5_c-2",
+        "sentenceId": "shi-jing_ch-2_p-1_s-5",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-5_c-3",
+        "sentenceId": "shi-jing_ch-2_p-1_s-5",
+        "order": 3,
+        "text": "白露未晞",
+        "cue": "白"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-5_c-4",
+        "sentenceId": "shi-jing_ch-2_p-1_s-5",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The reeds are luxuriant and green, the white dew is turned into frost. The one I long for is on the other side of the water...",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-2_p-1_s-6",
+    "passageId": "shi-jing_ch-2_p-1",
+    "order": 6,
+    "canonicalText": "所謂伊人，在水之湄。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-2_p-1_s-6_c-1",
+        "sentenceId": "shi-jing_ch-2_p-1_s-6",
+        "order": 1,
+        "text": "所謂伊人",
+        "cue": "所"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-6_c-2",
+        "sentenceId": "shi-jing_ch-2_p-1_s-6",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-6_c-3",
+        "sentenceId": "shi-jing_ch-2_p-1_s-6",
+        "order": 3,
+        "text": "在水之湄",
+        "cue": "在"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-6_c-4",
+        "sentenceId": "shi-jing_ch-2_p-1_s-6",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The reeds are luxuriant and green, the white dew is turned into frost. The one I long for is on the other side of the water...",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-2_p-1_s-7",
+    "passageId": "shi-jing_ch-2_p-1",
+    "order": 7,
+    "canonicalText": "溯洄從之，道阻且躋。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-2_p-1_s-7_c-1",
+        "sentenceId": "shi-jing_ch-2_p-1_s-7",
+        "order": 1,
+        "text": "溯洄從之",
+        "cue": "溯"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-7_c-2",
+        "sentenceId": "shi-jing_ch-2_p-1_s-7",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-7_c-3",
+        "sentenceId": "shi-jing_ch-2_p-1_s-7",
+        "order": 3,
+        "text": "道阻且躋",
+        "cue": "道"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-7_c-4",
+        "sentenceId": "shi-jing_ch-2_p-1_s-7",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The reeds are luxuriant and green, the white dew is turned into frost. The one I long for is on the other side of the water...",
+    "tags": []
+  },
+  {
+    "id": "shi-jing_ch-2_p-1_s-8",
+    "passageId": "shi-jing_ch-2_p-1",
+    "order": 8,
+    "canonicalText": "溯游從之，宛在水中坻。",
+    "chunks": [
+      {
+        "id": "shi-jing_ch-2_p-1_s-8_c-1",
+        "sentenceId": "shi-jing_ch-2_p-1_s-8",
+        "order": 1,
+        "text": "溯游從之",
+        "cue": "溯"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-8_c-2",
+        "sentenceId": "shi-jing_ch-2_p-1_s-8",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-8_c-3",
+        "sentenceId": "shi-jing_ch-2_p-1_s-8",
+        "order": 3,
+        "text": "宛在水中坻",
+        "cue": "宛"
+      },
+      {
+        "id": "shi-jing_ch-2_p-1_s-8_c-4",
+        "sentenceId": "shi-jing_ch-2_p-1_s-8",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The reeds are luxuriant and green, the white dew is turned into frost. The one I long for is on the other side of the water...",
+    "tags": []
+  },
+  {
+    "id": "li-ji_ch-1_p-1_s-1",
+    "passageId": "li-ji_ch-1_p-1",
+    "order": 1,
+    "canonicalText": "大道之行也，天下為公：選賢與能，講信修睦。",
+    "chunks": [
+      {
+        "id": "li-ji_ch-1_p-1_s-1_c-1",
+        "sentenceId": "li-ji_ch-1_p-1_s-1",
+        "order": 1,
+        "text": "大道之行也",
+        "cue": "大"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-1_c-2",
+        "sentenceId": "li-ji_ch-1_p-1_s-1",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-1_c-3",
+        "sentenceId": "li-ji_ch-1_p-1_s-1",
+        "order": 3,
+        "text": "天下為公",
+        "cue": "天"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-1_c-4",
+        "sentenceId": "li-ji_ch-1_p-1_s-1",
+        "order": 4,
+        "text": "：",
+        "cue": "："
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-1_c-5",
+        "sentenceId": "li-ji_ch-1_p-1_s-1",
+        "order": 5,
+        "text": "選賢與能",
+        "cue": "選"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-1_c-6",
+        "sentenceId": "li-ji_ch-1_p-1_s-1",
+        "order": 6,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-1_c-7",
+        "sentenceId": "li-ji_ch-1_p-1_s-1",
+        "order": 7,
+        "text": "講信修睦",
+        "cue": "講"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-1_c-8",
+        "sentenceId": "li-ji_ch-1_p-1_s-1",
+        "order": 8,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "When the Great Way prevailed, the world was shared by all. Sages and capable men were chosen... Thus men did not only love their own parents, nor only nurture their own children...",
+    "tags": []
+  },
+  {
+    "id": "li-ji_ch-1_p-1_s-2",
+    "passageId": "li-ji_ch-1_p-1",
+    "order": 2,
+    "canonicalText": "故人不獨親其親，不獨子其子；",
+    "chunks": [
+      {
+        "id": "li-ji_ch-1_p-1_s-2_c-1",
+        "sentenceId": "li-ji_ch-1_p-1_s-2",
+        "order": 1,
+        "text": "故人不獨親其親",
+        "cue": "故"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-2_c-2",
+        "sentenceId": "li-ji_ch-1_p-1_s-2",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-2_c-3",
+        "sentenceId": "li-ji_ch-1_p-1_s-2",
+        "order": 3,
+        "text": "不獨子其子",
+        "cue": "不"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-2_c-4",
+        "sentenceId": "li-ji_ch-1_p-1_s-2",
+        "order": 4,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "When the Great Way prevailed, the world was shared by all. Sages and capable men were chosen... Thus men did not only love their own parents, nor only nurture their own children...",
+    "tags": []
+  },
+  {
+    "id": "li-ji_ch-1_p-1_s-3",
+    "passageId": "li-ji_ch-1_p-1",
+    "order": 3,
+    "canonicalText": "使老有所終，壯有所用，幼有所長，矜寡孤獨廢疾者皆有所養；",
+    "chunks": [
+      {
+        "id": "li-ji_ch-1_p-1_s-3_c-1",
+        "sentenceId": "li-ji_ch-1_p-1_s-3",
+        "order": 1,
+        "text": "使老有所終",
+        "cue": "使"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-3_c-2",
+        "sentenceId": "li-ji_ch-1_p-1_s-3",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-3_c-3",
+        "sentenceId": "li-ji_ch-1_p-1_s-3",
+        "order": 3,
+        "text": "壯有所用",
+        "cue": "壯"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-3_c-4",
+        "sentenceId": "li-ji_ch-1_p-1_s-3",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-3_c-5",
+        "sentenceId": "li-ji_ch-1_p-1_s-3",
+        "order": 5,
+        "text": "幼有所長",
+        "cue": "幼"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-3_c-6",
+        "sentenceId": "li-ji_ch-1_p-1_s-3",
+        "order": 6,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-3_c-7",
+        "sentenceId": "li-ji_ch-1_p-1_s-3",
+        "order": 7,
+        "text": "矜寡孤獨廢",
+        "cue": "矜"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-3_c-8",
+        "sentenceId": "li-ji_ch-1_p-1_s-3",
+        "order": 8,
+        "text": "疾者皆有所養",
+        "cue": "疾"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-3_c-9",
+        "sentenceId": "li-ji_ch-1_p-1_s-3",
+        "order": 9,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "When the Great Way prevailed, the world was shared by all. Sages and capable men were chosen... Thus men did not only love their own parents, nor only nurture their own children...",
+    "tags": []
+  },
+  {
+    "id": "li-ji_ch-1_p-1_s-4",
+    "passageId": "li-ji_ch-1_p-1",
+    "order": 4,
+    "canonicalText": "男有分，女有歸。",
+    "chunks": [
+      {
+        "id": "li-ji_ch-1_p-1_s-4_c-1",
+        "sentenceId": "li-ji_ch-1_p-1_s-4",
+        "order": 1,
+        "text": "男有分，",
+        "cue": "男"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-4_c-2",
+        "sentenceId": "li-ji_ch-1_p-1_s-4",
+        "order": 2,
+        "text": "女有歸。",
+        "cue": "女"
+      }
+    ],
+    "translationHint": "When the Great Way prevailed, the world was shared by all. Sages and capable men were chosen... Thus men did not only love their own parents, nor only nurture their own children...",
+    "tags": []
+  },
+  {
+    "id": "li-ji_ch-1_p-1_s-5",
+    "passageId": "li-ji_ch-1_p-1",
+    "order": 5,
+    "canonicalText": "貨惡其棄於地也，不必藏於己；",
+    "chunks": [
+      {
+        "id": "li-ji_ch-1_p-1_s-5_c-1",
+        "sentenceId": "li-ji_ch-1_p-1_s-5",
+        "order": 1,
+        "text": "貨惡其棄於地也",
+        "cue": "貨"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-5_c-2",
+        "sentenceId": "li-ji_ch-1_p-1_s-5",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-5_c-3",
+        "sentenceId": "li-ji_ch-1_p-1_s-5",
+        "order": 3,
+        "text": "不必藏於己",
+        "cue": "不"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-5_c-4",
+        "sentenceId": "li-ji_ch-1_p-1_s-5",
+        "order": 4,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "When the Great Way prevailed, the world was shared by all. Sages and capable men were chosen... Thus men did not only love their own parents, nor only nurture their own children...",
+    "tags": []
+  },
+  {
+    "id": "li-ji_ch-1_p-1_s-6",
+    "passageId": "li-ji_ch-1_p-1",
+    "order": 6,
+    "canonicalText": "力惡其不出於身也，不必為己。",
+    "chunks": [
+      {
+        "id": "li-ji_ch-1_p-1_s-6_c-1",
+        "sentenceId": "li-ji_ch-1_p-1_s-6",
+        "order": 1,
+        "text": "力惡其不出於身也",
+        "cue": "力"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-6_c-2",
+        "sentenceId": "li-ji_ch-1_p-1_s-6",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-6_c-3",
+        "sentenceId": "li-ji_ch-1_p-1_s-6",
+        "order": 3,
+        "text": "不必為己",
+        "cue": "不"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-6_c-4",
+        "sentenceId": "li-ji_ch-1_p-1_s-6",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "When the Great Way prevailed, the world was shared by all. Sages and capable men were chosen... Thus men did not only love their own parents, nor only nurture their own children...",
+    "tags": []
+  },
+  {
+    "id": "li-ji_ch-1_p-1_s-7",
+    "passageId": "li-ji_ch-1_p-1",
+    "order": 7,
+    "canonicalText": "是故謀閉而不興，盜竊亂賊而不作，故外戶而不閉。",
+    "chunks": [
+      {
+        "id": "li-ji_ch-1_p-1_s-7_c-1",
+        "sentenceId": "li-ji_ch-1_p-1_s-7",
+        "order": 1,
+        "text": "是故謀閉而不興",
+        "cue": "是"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-7_c-2",
+        "sentenceId": "li-ji_ch-1_p-1_s-7",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-7_c-3",
+        "sentenceId": "li-ji_ch-1_p-1_s-7",
+        "order": 3,
+        "text": "盜竊亂賊而不作",
+        "cue": "盜"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-7_c-4",
+        "sentenceId": "li-ji_ch-1_p-1_s-7",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-7_c-5",
+        "sentenceId": "li-ji_ch-1_p-1_s-7",
+        "order": 5,
+        "text": "故外戶而不閉",
+        "cue": "故"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-7_c-6",
+        "sentenceId": "li-ji_ch-1_p-1_s-7",
+        "order": 6,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "When the Great Way prevailed, the world was shared by all. Sages and capable men were chosen... Thus men did not only love their own parents, nor only nurture their own children...",
+    "tags": []
+  },
+  {
+    "id": "li-ji_ch-1_p-1_s-8",
+    "passageId": "li-ji_ch-1_p-1",
+    "order": 8,
+    "canonicalText": "是謂大同。",
+    "chunks": [
+      {
+        "id": "li-ji_ch-1_p-1_s-8_c-1",
+        "sentenceId": "li-ji_ch-1_p-1_s-8",
+        "order": 1,
+        "text": "是謂大同",
+        "cue": "是"
+      },
+      {
+        "id": "li-ji_ch-1_p-1_s-8_c-2",
+        "sentenceId": "li-ji_ch-1_p-1_s-8",
+        "order": 2,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "When the Great Way prevailed, the world was shared by all. Sages and capable men were chosen... Thus men did not only love their own parents, nor only nurture their own children...",
+    "tags": []
+  },
+  {
+    "id": "chun-qiu_ch-1_p-1_s-1",
+    "passageId": "chun-qiu_ch-1_p-1",
+    "order": 1,
+    "canonicalText": "十年春，齊師伐我。",
+    "chunks": [
+      {
+        "id": "chun-qiu_ch-1_p-1_s-1_c-1",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-1",
+        "order": 1,
+        "text": "十年春，",
+        "cue": "十"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-1_c-2",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-1",
+        "order": 2,
+        "text": "齊師伐我",
+        "cue": "齊"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-1_c-3",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-1",
+        "order": 3,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the spring of the tenth year, the Qi army invaded us. The Duke was about to battle. Cao Gui requested an audience. His townsman said: \"The meat-eaters will plan it, why interfere?\"...",
+    "tags": []
+  },
+  {
+    "id": "chun-qiu_ch-1_p-1_s-2",
+    "passageId": "chun-qiu_ch-1_p-1",
+    "order": 2,
+    "canonicalText": "公將戰。",
+    "chunks": [
+      {
+        "id": "chun-qiu_ch-1_p-1_s-2_c-1",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-2",
+        "order": 1,
+        "text": "公將戰。",
+        "cue": "公"
+      }
+    ],
+    "translationHint": "In the spring of the tenth year, the Qi army invaded us. The Duke was about to battle. Cao Gui requested an audience. His townsman said: \"The meat-eaters will plan it, why interfere?\"...",
+    "tags": []
+  },
+  {
+    "id": "chun-qiu_ch-1_p-1_s-3",
+    "passageId": "chun-qiu_ch-1_p-1",
+    "order": 3,
+    "canonicalText": "曹劌請見。",
+    "chunks": [
+      {
+        "id": "chun-qiu_ch-1_p-1_s-3_c-1",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-3",
+        "order": 1,
+        "text": "曹劌請見",
+        "cue": "曹"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-3_c-2",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-3",
+        "order": 2,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the spring of the tenth year, the Qi army invaded us. The Duke was about to battle. Cao Gui requested an audience. His townsman said: \"The meat-eaters will plan it, why interfere?\"...",
+    "tags": []
+  },
+  {
+    "id": "chun-qiu_ch-1_p-1_s-4",
+    "passageId": "chun-qiu_ch-1_p-1",
+    "order": 4,
+    "canonicalText": "其鄉人曰：「肉食者謀之，又何間焉？",
+    "chunks": [
+      {
+        "id": "chun-qiu_ch-1_p-1_s-4_c-1",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-4",
+        "order": 1,
+        "text": "其鄉人曰",
+        "cue": "其"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-4_c-2",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-4",
+        "order": 2,
+        "text": "：",
+        "cue": "："
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-4_c-3",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-4",
+        "order": 3,
+        "text": "「肉食者謀之",
+        "cue": "「"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-4_c-4",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-4",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-4_c-5",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-4",
+        "order": 5,
+        "text": "又何間焉",
+        "cue": "又"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-4_c-6",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-4",
+        "order": 6,
+        "text": "？",
+        "cue": "？"
+      }
+    ],
+    "translationHint": "In the spring of the tenth year, the Qi army invaded us. The Duke was about to battle. Cao Gui requested an audience. His townsman said: \"The meat-eaters will plan it, why interfere?\"...",
+    "tags": []
+  },
+  {
+    "id": "chun-qiu_ch-1_p-1_s-5",
+    "passageId": "chun-qiu_ch-1_p-1",
+    "order": 5,
+    "canonicalText": "」劌曰：「肉食者鄙，未能遠謀。",
+    "chunks": [
+      {
+        "id": "chun-qiu_ch-1_p-1_s-5_c-1",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-5",
+        "order": 1,
+        "text": "」劌曰：",
+        "cue": "」"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-5_c-2",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-5",
+        "order": 2,
+        "text": "「肉食者鄙",
+        "cue": "「"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-5_c-3",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-5",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-5_c-4",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-5",
+        "order": 4,
+        "text": "未能遠謀",
+        "cue": "未"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-5_c-5",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-5",
+        "order": 5,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the spring of the tenth year, the Qi army invaded us. The Duke was about to battle. Cao Gui requested an audience. His townsman said: \"The meat-eaters will plan it, why interfere?\"...",
+    "tags": []
+  },
+  {
+    "id": "chun-qiu_ch-1_p-1_s-6",
+    "passageId": "chun-qiu_ch-1_p-1",
+    "order": 6,
+    "canonicalText": "」乃入見。",
+    "chunks": [
+      {
+        "id": "chun-qiu_ch-1_p-1_s-6_c-1",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-6",
+        "order": 1,
+        "text": "」乃入見",
+        "cue": "」"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-6_c-2",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-6",
+        "order": 2,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the spring of the tenth year, the Qi army invaded us. The Duke was about to battle. Cao Gui requested an audience. His townsman said: \"The meat-eaters will plan it, why interfere?\"...",
+    "tags": []
+  },
+  {
+    "id": "chun-qiu_ch-1_p-1_s-7",
+    "passageId": "chun-qiu_ch-1_p-1",
+    "order": 7,
+    "canonicalText": "問：「何以戰？",
+    "chunks": [
+      {
+        "id": "chun-qiu_ch-1_p-1_s-7_c-1",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-7",
+        "order": 1,
+        "text": "問：",
+        "cue": "問"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-7_c-2",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-7",
+        "order": 2,
+        "text": "「何以戰",
+        "cue": "「"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-7_c-3",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-7",
+        "order": 3,
+        "text": "？",
+        "cue": "？"
+      }
+    ],
+    "translationHint": "In the spring of the tenth year, the Qi army invaded us. The Duke was about to battle. Cao Gui requested an audience. His townsman said: \"The meat-eaters will plan it, why interfere?\"...",
+    "tags": []
+  },
+  {
+    "id": "chun-qiu_ch-1_p-1_s-8",
+    "passageId": "chun-qiu_ch-1_p-1",
+    "order": 8,
+    "canonicalText": "」公曰：「衣食所安，弗敢專也，必以分人。",
+    "chunks": [
+      {
+        "id": "chun-qiu_ch-1_p-1_s-8_c-1",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-8",
+        "order": 1,
+        "text": "」公曰：",
+        "cue": "」"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-8_c-2",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-8",
+        "order": 2,
+        "text": "「衣食所安",
+        "cue": "「"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-8_c-3",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-8",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-8_c-4",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-8",
+        "order": 4,
+        "text": "弗敢專也",
+        "cue": "弗"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-8_c-5",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-8",
+        "order": 5,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-8_c-6",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-8",
+        "order": 6,
+        "text": "必以分人",
+        "cue": "必"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-8_c-7",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-8",
+        "order": 7,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the spring of the tenth year, the Qi army invaded us. The Duke was about to battle. Cao Gui requested an audience. His townsman said: \"The meat-eaters will plan it, why interfere?\"...",
+    "tags": []
+  },
+  {
+    "id": "chun-qiu_ch-1_p-1_s-9",
+    "passageId": "chun-qiu_ch-1_p-1",
+    "order": 9,
+    "canonicalText": "」對曰：「小惠未徧，民弗從也。",
+    "chunks": [
+      {
+        "id": "chun-qiu_ch-1_p-1_s-9_c-1",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-9",
+        "order": 1,
+        "text": "」對曰：",
+        "cue": "」"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-9_c-2",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-9",
+        "order": 2,
+        "text": "「小惠未徧",
+        "cue": "「"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-9_c-3",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-9",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-9_c-4",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-9",
+        "order": 4,
+        "text": "民弗從也",
+        "cue": "民"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-9_c-5",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-9",
+        "order": 5,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the spring of the tenth year, the Qi army invaded us. The Duke was about to battle. Cao Gui requested an audience. His townsman said: \"The meat-eaters will plan it, why interfere?\"...",
+    "tags": []
+  },
+  {
+    "id": "chun-qiu_ch-1_p-1_s-10",
+    "passageId": "chun-qiu_ch-1_p-1",
+    "order": 10,
+    "canonicalText": "」公曰：「犧牲玉帛，弗敢加也，必以信。",
+    "chunks": [
+      {
+        "id": "chun-qiu_ch-1_p-1_s-10_c-1",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-10",
+        "order": 1,
+        "text": "」公曰：",
+        "cue": "」"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-10_c-2",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-10",
+        "order": 2,
+        "text": "「犧牲玉帛",
+        "cue": "「"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-10_c-3",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-10",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-10_c-4",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-10",
+        "order": 4,
+        "text": "弗敢加也",
+        "cue": "弗"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-10_c-5",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-10",
+        "order": 5,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-10_c-6",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-10",
+        "order": 6,
+        "text": "必以信。",
+        "cue": "必"
+      }
+    ],
+    "translationHint": "In the spring of the tenth year, the Qi army invaded us. The Duke was about to battle. Cao Gui requested an audience. His townsman said: \"The meat-eaters will plan it, why interfere?\"...",
+    "tags": []
+  },
+  {
+    "id": "chun-qiu_ch-1_p-1_s-11",
+    "passageId": "chun-qiu_ch-1_p-1",
+    "order": 11,
+    "canonicalText": "」對曰：「小信未孚，神弗福也。",
+    "chunks": [
+      {
+        "id": "chun-qiu_ch-1_p-1_s-11_c-1",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-11",
+        "order": 1,
+        "text": "」對曰：",
+        "cue": "」"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-11_c-2",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-11",
+        "order": 2,
+        "text": "「小信未孚",
+        "cue": "「"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-11_c-3",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-11",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-11_c-4",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-11",
+        "order": 4,
+        "text": "神弗福也",
+        "cue": "神"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-11_c-5",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-11",
+        "order": 5,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the spring of the tenth year, the Qi army invaded us. The Duke was about to battle. Cao Gui requested an audience. His townsman said: \"The meat-eaters will plan it, why interfere?\"...",
+    "tags": []
+  },
+  {
+    "id": "chun-qiu_ch-1_p-1_s-12",
+    "passageId": "chun-qiu_ch-1_p-1",
+    "order": 12,
+    "canonicalText": "」公曰：「小大之獄，雖不能察，必以情。",
+    "chunks": [
+      {
+        "id": "chun-qiu_ch-1_p-1_s-12_c-1",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-12",
+        "order": 1,
+        "text": "」公曰：",
+        "cue": "」"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-12_c-2",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-12",
+        "order": 2,
+        "text": "「小大之獄",
+        "cue": "「"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-12_c-3",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-12",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-12_c-4",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-12",
+        "order": 4,
+        "text": "雖不能察",
+        "cue": "雖"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-12_c-5",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-12",
+        "order": 5,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-12_c-6",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-12",
+        "order": 6,
+        "text": "必以情。",
+        "cue": "必"
+      }
+    ],
+    "translationHint": "In the spring of the tenth year, the Qi army invaded us. The Duke was about to battle. Cao Gui requested an audience. His townsman said: \"The meat-eaters will plan it, why interfere?\"...",
+    "tags": []
+  },
+  {
+    "id": "chun-qiu_ch-1_p-1_s-13",
+    "passageId": "chun-qiu_ch-1_p-1",
+    "order": 13,
+    "canonicalText": "」對曰：「忠之屬也。",
+    "chunks": [
+      {
+        "id": "chun-qiu_ch-1_p-1_s-13_c-1",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-13",
+        "order": 1,
+        "text": "」對曰：",
+        "cue": "」"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-13_c-2",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-13",
+        "order": 2,
+        "text": "「忠之屬也",
+        "cue": "「"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-13_c-3",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-13",
+        "order": 3,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the spring of the tenth year, the Qi army invaded us. The Duke was about to battle. Cao Gui requested an audience. His townsman said: \"The meat-eaters will plan it, why interfere?\"...",
+    "tags": []
+  },
+  {
+    "id": "chun-qiu_ch-1_p-1_s-14",
+    "passageId": "chun-qiu_ch-1_p-1",
+    "order": 14,
+    "canonicalText": "可以一戰。",
+    "chunks": [
+      {
+        "id": "chun-qiu_ch-1_p-1_s-14_c-1",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-14",
+        "order": 1,
+        "text": "可以一戰",
+        "cue": "可"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-14_c-2",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-14",
+        "order": 2,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the spring of the tenth year, the Qi army invaded us. The Duke was about to battle. Cao Gui requested an audience. His townsman said: \"The meat-eaters will plan it, why interfere?\"...",
+    "tags": []
+  },
+  {
+    "id": "chun-qiu_ch-1_p-1_s-15",
+    "passageId": "chun-qiu_ch-1_p-1",
+    "order": 15,
+    "canonicalText": "戰則請從。",
+    "chunks": [
+      {
+        "id": "chun-qiu_ch-1_p-1_s-15_c-1",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-15",
+        "order": 1,
+        "text": "戰則請從",
+        "cue": "戰"
+      },
+      {
+        "id": "chun-qiu_ch-1_p-1_s-15_c-2",
+        "sentenceId": "chun-qiu_ch-1_p-1_s-15",
+        "order": 2,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the spring of the tenth year, the Qi army invaded us. The Duke was about to battle. Cao Gui requested an audience. His townsman said: \"The meat-eaters will plan it, why interfere?\"...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-1_p-1_s-1",
+    "passageId": "gu-wen-guan-zhi_ch-1_p-1",
+    "order": 1,
+    "canonicalText": "晉太元中，武陵人捕魚為業。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-1_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-1",
+        "order": 1,
+        "text": "晉太元中",
+        "cue": "晉"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-1_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-1",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-1_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-1",
+        "order": 3,
+        "text": "武陵人捕魚為業",
+        "cue": "武"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-1_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-1",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "During the Taiyuan era of the Jin dynasty, a man from Wuling earned his living by fishing. He followed a stream, forgetting how far he had gone. Suddenly he came upon a peach blossom forest...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-1_p-1_s-2",
+    "passageId": "gu-wen-guan-zhi_ch-1_p-1",
+    "order": 2,
+    "canonicalText": "緣溪行，忘路之遠近。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-2_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-2",
+        "order": 1,
+        "text": "緣溪行，",
+        "cue": "緣"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-2_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-2",
+        "order": 2,
+        "text": "忘路之遠近",
+        "cue": "忘"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-2_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-2",
+        "order": 3,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "During the Taiyuan era of the Jin dynasty, a man from Wuling earned his living by fishing. He followed a stream, forgetting how far he had gone. Suddenly he came upon a peach blossom forest...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-1_p-1_s-3",
+    "passageId": "gu-wen-guan-zhi_ch-1_p-1",
+    "order": 3,
+    "canonicalText": "忽逢桃花林，夾岸數百步，中無雜樹，芳草鮮美，落英繽紛。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-3_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-3",
+        "order": 1,
+        "text": "忽逢桃花林",
+        "cue": "忽"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-3_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-3",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-3_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-3",
+        "order": 3,
+        "text": "夾岸數百步",
+        "cue": "夾"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-3_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-3",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-3_c-5",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-3",
+        "order": 5,
+        "text": "中無雜樹",
+        "cue": "中"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-3_c-6",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-3",
+        "order": 6,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-3_c-7",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-3",
+        "order": 7,
+        "text": "芳草鮮美",
+        "cue": "芳"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-3_c-8",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-3",
+        "order": 8,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-3_c-9",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-3",
+        "order": 9,
+        "text": "落英繽紛",
+        "cue": "落"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-3_c-10",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-3",
+        "order": 10,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "During the Taiyuan era of the Jin dynasty, a man from Wuling earned his living by fishing. He followed a stream, forgetting how far he had gone. Suddenly he came upon a peach blossom forest...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-1_p-1_s-4",
+    "passageId": "gu-wen-guan-zhi_ch-1_p-1",
+    "order": 4,
+    "canonicalText": "漁人甚異之，復前行，欲窮其林。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-4_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-4",
+        "order": 1,
+        "text": "漁人甚異之",
+        "cue": "漁"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-4_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-4",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-4_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-4",
+        "order": 3,
+        "text": "復前行，",
+        "cue": "復"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-4_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-4",
+        "order": 4,
+        "text": "欲窮其林",
+        "cue": "欲"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-4_c-5",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-4",
+        "order": 5,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "During the Taiyuan era of the Jin dynasty, a man from Wuling earned his living by fishing. He followed a stream, forgetting how far he had gone. Suddenly he came upon a peach blossom forest...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-1_p-1_s-5",
+    "passageId": "gu-wen-guan-zhi_ch-1_p-1",
+    "order": 5,
+    "canonicalText": "林盡水源，便得一山，山有小口，彷彿若有光。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-5_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-5",
+        "order": 1,
+        "text": "林盡水源",
+        "cue": "林"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-5_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-5",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-5_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-5",
+        "order": 3,
+        "text": "便得一山",
+        "cue": "便"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-5_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-5",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-5_c-5",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-5",
+        "order": 5,
+        "text": "山有小口",
+        "cue": "山"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-5_c-6",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-5",
+        "order": 6,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-5_c-7",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-5",
+        "order": 7,
+        "text": "彷彿若有光",
+        "cue": "彷"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-5_c-8",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-5",
+        "order": 8,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "During the Taiyuan era of the Jin dynasty, a man from Wuling earned his living by fishing. He followed a stream, forgetting how far he had gone. Suddenly he came upon a peach blossom forest...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-1_p-1_s-6",
+    "passageId": "gu-wen-guan-zhi_ch-1_p-1",
+    "order": 6,
+    "canonicalText": "便捨船，從口入。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-6_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-6",
+        "order": 1,
+        "text": "便捨船，",
+        "cue": "便"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-6_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-6",
+        "order": 2,
+        "text": "從口入。",
+        "cue": "從"
+      }
+    ],
+    "translationHint": "During the Taiyuan era of the Jin dynasty, a man from Wuling earned his living by fishing. He followed a stream, forgetting how far he had gone. Suddenly he came upon a peach blossom forest...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-1_p-1_s-7",
+    "passageId": "gu-wen-guan-zhi_ch-1_p-1",
+    "order": 7,
+    "canonicalText": "初極狹，才通人。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-7_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-7",
+        "order": 1,
+        "text": "初極狹，",
+        "cue": "初"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-7_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-7",
+        "order": 2,
+        "text": "才通人。",
+        "cue": "才"
+      }
+    ],
+    "translationHint": "During the Taiyuan era of the Jin dynasty, a man from Wuling earned his living by fishing. He followed a stream, forgetting how far he had gone. Suddenly he came upon a peach blossom forest...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-1_p-1_s-8",
+    "passageId": "gu-wen-guan-zhi_ch-1_p-1",
+    "order": 8,
+    "canonicalText": "復行數十步，豁然開朗。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-8_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-8",
+        "order": 1,
+        "text": "復行數十步",
+        "cue": "復"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-8_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-8",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-8_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-8",
+        "order": 3,
+        "text": "豁然開朗",
+        "cue": "豁"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-8_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-8",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "During the Taiyuan era of the Jin dynasty, a man from Wuling earned his living by fishing. He followed a stream, forgetting how far he had gone. Suddenly he came upon a peach blossom forest...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-1_p-1_s-9",
+    "passageId": "gu-wen-guan-zhi_ch-1_p-1",
+    "order": 9,
+    "canonicalText": "土地平曠，屋舍儼然，有良田、美池、桑竹之屬。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-9_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-9",
+        "order": 1,
+        "text": "土地平曠",
+        "cue": "土"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-9_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-9",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-9_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-9",
+        "order": 3,
+        "text": "屋舍儼然",
+        "cue": "屋"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-9_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-9",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-9_c-5",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-9",
+        "order": 5,
+        "text": "有良田、",
+        "cue": "有"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-9_c-6",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-9",
+        "order": 6,
+        "text": "美池、",
+        "cue": "美"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-9_c-7",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-9",
+        "order": 7,
+        "text": "桑竹之屬",
+        "cue": "桑"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-9_c-8",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-9",
+        "order": 8,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "During the Taiyuan era of the Jin dynasty, a man from Wuling earned his living by fishing. He followed a stream, forgetting how far he had gone. Suddenly he came upon a peach blossom forest...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-1_p-1_s-10",
+    "passageId": "gu-wen-guan-zhi_ch-1_p-1",
+    "order": 10,
+    "canonicalText": "阡陌交通，雞犬相聞。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-10_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-10",
+        "order": 1,
+        "text": "阡陌交通",
+        "cue": "阡"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-10_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-10",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-10_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-10",
+        "order": 3,
+        "text": "雞犬相聞",
+        "cue": "雞"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-10_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-10",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "During the Taiyuan era of the Jin dynasty, a man from Wuling earned his living by fishing. He followed a stream, forgetting how far he had gone. Suddenly he came upon a peach blossom forest...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-1_p-1_s-11",
+    "passageId": "gu-wen-guan-zhi_ch-1_p-1",
+    "order": 11,
+    "canonicalText": "其中往來種作，男女衣著，悉如外人。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-11_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-11",
+        "order": 1,
+        "text": "其中往來種作",
+        "cue": "其"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-11_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-11",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-11_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-11",
+        "order": 3,
+        "text": "男女衣著",
+        "cue": "男"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-11_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-11",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-11_c-5",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-11",
+        "order": 5,
+        "text": "悉如外人",
+        "cue": "悉"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-11_c-6",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-11",
+        "order": 6,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "During the Taiyuan era of the Jin dynasty, a man from Wuling earned his living by fishing. He followed a stream, forgetting how far he had gone. Suddenly he came upon a peach blossom forest...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-1_p-1_s-12",
+    "passageId": "gu-wen-guan-zhi_ch-1_p-1",
+    "order": 12,
+    "canonicalText": "黃髮垂髫，並怡然自樂。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-12_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-12",
+        "order": 1,
+        "text": "黃髮垂髫",
+        "cue": "黃"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-12_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-12",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-12_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-12",
+        "order": 3,
+        "text": "並怡然自樂",
+        "cue": "並"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-1_p-1_s-12_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-1_p-1_s-12",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "During the Taiyuan era of the Jin dynasty, a man from Wuling earned his living by fishing. He followed a stream, forgetting how far he had gone. Suddenly he came upon a peach blossom forest...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-2_p-1_s-1",
+    "passageId": "gu-wen-guan-zhi_ch-2_p-1",
+    "order": 1,
+    "canonicalText": "山不在高，有仙則名。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-1_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-1",
+        "order": 1,
+        "text": "山不在高",
+        "cue": "山"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-1_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-1",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-1_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-1",
+        "order": 3,
+        "text": "有仙則名",
+        "cue": "有"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-1_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-1",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "A mountain need not be high, it is famous if an immortal dwells there. Water need not be deep, it is sacred if a dragon is present. This is a humble room, but my virtue makes it fragrant...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-2_p-1_s-2",
+    "passageId": "gu-wen-guan-zhi_ch-2_p-1",
+    "order": 2,
+    "canonicalText": "水不在深，有龍則靈。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-2_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-2",
+        "order": 1,
+        "text": "水不在深",
+        "cue": "水"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-2_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-2",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-2_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-2",
+        "order": 3,
+        "text": "有龍則靈",
+        "cue": "有"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-2_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-2",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "A mountain need not be high, it is famous if an immortal dwells there. Water need not be deep, it is sacred if a dragon is present. This is a humble room, but my virtue makes it fragrant...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-2_p-1_s-3",
+    "passageId": "gu-wen-guan-zhi_ch-2_p-1",
+    "order": 3,
+    "canonicalText": "斯是陋室，惟吾德馨。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-3_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-3",
+        "order": 1,
+        "text": "斯是陋室",
+        "cue": "斯"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-3_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-3",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-3_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-3",
+        "order": 3,
+        "text": "惟吾德馨",
+        "cue": "惟"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-3_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-3",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "A mountain need not be high, it is famous if an immortal dwells there. Water need not be deep, it is sacred if a dragon is present. This is a humble room, but my virtue makes it fragrant...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-2_p-1_s-4",
+    "passageId": "gu-wen-guan-zhi_ch-2_p-1",
+    "order": 4,
+    "canonicalText": "苔痕上階綠，草色入簾青。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-4_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-4",
+        "order": 1,
+        "text": "苔痕上階綠",
+        "cue": "苔"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-4_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-4",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-4_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-4",
+        "order": 3,
+        "text": "草色入簾青",
+        "cue": "草"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-4_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-4",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "A mountain need not be high, it is famous if an immortal dwells there. Water need not be deep, it is sacred if a dragon is present. This is a humble room, but my virtue makes it fragrant...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-2_p-1_s-5",
+    "passageId": "gu-wen-guan-zhi_ch-2_p-1",
+    "order": 5,
+    "canonicalText": "談笑有鴻儒，往來無白丁。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-5_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-5",
+        "order": 1,
+        "text": "談笑有鴻儒",
+        "cue": "談"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-5_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-5",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-5_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-5",
+        "order": 3,
+        "text": "往來無白丁",
+        "cue": "往"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-5_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-5",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "A mountain need not be high, it is famous if an immortal dwells there. Water need not be deep, it is sacred if a dragon is present. This is a humble room, but my virtue makes it fragrant...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-2_p-1_s-6",
+    "passageId": "gu-wen-guan-zhi_ch-2_p-1",
+    "order": 6,
+    "canonicalText": "可以調素琴，閱金經。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-6_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-6",
+        "order": 1,
+        "text": "可以調素琴",
+        "cue": "可"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-6_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-6",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-6_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-6",
+        "order": 3,
+        "text": "閱金經。",
+        "cue": "閱"
+      }
+    ],
+    "translationHint": "A mountain need not be high, it is famous if an immortal dwells there. Water need not be deep, it is sacred if a dragon is present. This is a humble room, but my virtue makes it fragrant...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-2_p-1_s-7",
+    "passageId": "gu-wen-guan-zhi_ch-2_p-1",
+    "order": 7,
+    "canonicalText": "無絲竹之亂耳，無案牘之勞形。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-7_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-7",
+        "order": 1,
+        "text": "無絲竹之亂耳",
+        "cue": "無"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-7_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-7",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-7_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-7",
+        "order": 3,
+        "text": "無案牘之勞形",
+        "cue": "無"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-7_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-7",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "A mountain need not be high, it is famous if an immortal dwells there. Water need not be deep, it is sacred if a dragon is present. This is a humble room, but my virtue makes it fragrant...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-2_p-1_s-8",
+    "passageId": "gu-wen-guan-zhi_ch-2_p-1",
+    "order": 8,
+    "canonicalText": "南陽諸葛廬，西蜀子雲亭。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-8_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-8",
+        "order": 1,
+        "text": "南陽諸葛廬",
+        "cue": "南"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-8_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-8",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-8_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-8",
+        "order": 3,
+        "text": "西蜀子雲亭",
+        "cue": "西"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-8_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-8",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "A mountain need not be high, it is famous if an immortal dwells there. Water need not be deep, it is sacred if a dragon is present. This is a humble room, but my virtue makes it fragrant...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-2_p-1_s-9",
+    "passageId": "gu-wen-guan-zhi_ch-2_p-1",
+    "order": 9,
+    "canonicalText": "孔子云：「何陋之有？",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-9_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-9",
+        "order": 1,
+        "text": "孔子云：",
+        "cue": "孔"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-9_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-9",
+        "order": 2,
+        "text": "「何陋之有",
+        "cue": "「"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-2_p-1_s-9_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-2_p-1_s-9",
+        "order": 3,
+        "text": "？",
+        "cue": "？"
+      }
+    ],
+    "translationHint": "A mountain need not be high, it is famous if an immortal dwells there. Water need not be deep, it is sacred if a dragon is present. This is a humble room, but my virtue makes it fragrant...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-3_p-1_s-1",
+    "passageId": "gu-wen-guan-zhi_ch-3_p-1",
+    "order": 1,
+    "canonicalText": "慶曆四年春，滕子京謫守巴陵郡。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-1_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-1",
+        "order": 1,
+        "text": "慶曆四年春",
+        "cue": "慶"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-1_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-1",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-1_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-1",
+        "order": 3,
+        "text": "滕子京謫守巴陵郡",
+        "cue": "滕"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-1_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-1",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the spring of the fourth year of Qingli, Teng Zijing was banished to guard Baling Prefecture. In the following year, the administration flourished and the people lived in harmony...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-3_p-1_s-2",
+    "passageId": "gu-wen-guan-zhi_ch-3_p-1",
+    "order": 2,
+    "canonicalText": "越明年，政通人和，百廢具興。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-2_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-2",
+        "order": 1,
+        "text": "越明年，",
+        "cue": "越"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-2_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-2",
+        "order": 2,
+        "text": "政通人和",
+        "cue": "政"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-2_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-2",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-2_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-2",
+        "order": 4,
+        "text": "百廢具興",
+        "cue": "百"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-2_c-5",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-2",
+        "order": 5,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the spring of the fourth year of Qingli, Teng Zijing was banished to guard Baling Prefecture. In the following year, the administration flourished and the people lived in harmony...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-3_p-1_s-3",
+    "passageId": "gu-wen-guan-zhi_ch-3_p-1",
+    "order": 3,
+    "canonicalText": "乃重修岳陽樓，增其舊制，刻唐賢今人詩賦於其上。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-3_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-3",
+        "order": 1,
+        "text": "乃重修岳陽樓",
+        "cue": "乃"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-3_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-3",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-3_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-3",
+        "order": 3,
+        "text": "增其舊制",
+        "cue": "增"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-3_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-3",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-3_c-5",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-3",
+        "order": 5,
+        "text": "刻唐賢今人詩賦於其上",
+        "cue": "刻"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-3_c-6",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-3",
+        "order": 6,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the spring of the fourth year of Qingli, Teng Zijing was banished to guard Baling Prefecture. In the following year, the administration flourished and the people lived in harmony...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-3_p-1_s-4",
+    "passageId": "gu-wen-guan-zhi_ch-3_p-1",
+    "order": 4,
+    "canonicalText": "屬予作文以記之。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-4_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-4",
+        "order": 1,
+        "text": "屬予作文以記之",
+        "cue": "屬"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-4_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-4",
+        "order": 2,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the spring of the fourth year of Qingli, Teng Zijing was banished to guard Baling Prefecture. In the following year, the administration flourished and the people lived in harmony...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-3_p-1_s-5",
+    "passageId": "gu-wen-guan-zhi_ch-3_p-1",
+    "order": 5,
+    "canonicalText": "予觀夫巴陵勝狀，在洞庭一湖。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-5_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-5",
+        "order": 1,
+        "text": "予觀夫巴陵勝狀",
+        "cue": "予"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-5_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-5",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-5_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-5",
+        "order": 3,
+        "text": "在洞庭一湖",
+        "cue": "在"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-5_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-5",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the spring of the fourth year of Qingli, Teng Zijing was banished to guard Baling Prefecture. In the following year, the administration flourished and the people lived in harmony...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-3_p-1_s-6",
+    "passageId": "gu-wen-guan-zhi_ch-3_p-1",
+    "order": 6,
+    "canonicalText": "銜遠山，吞長江，浩浩湯湯，橫無際涯；",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-6_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-6",
+        "order": 1,
+        "text": "銜遠山，",
+        "cue": "銜"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-6_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-6",
+        "order": 2,
+        "text": "吞長江，",
+        "cue": "吞"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-6_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-6",
+        "order": 3,
+        "text": "浩浩湯湯",
+        "cue": "浩"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-6_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-6",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-6_c-5",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-6",
+        "order": 5,
+        "text": "橫無際涯",
+        "cue": "橫"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-6_c-6",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-6",
+        "order": 6,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "In the spring of the fourth year of Qingli, Teng Zijing was banished to guard Baling Prefecture. In the following year, the administration flourished and the people lived in harmony...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-3_p-1_s-7",
+    "passageId": "gu-wen-guan-zhi_ch-3_p-1",
+    "order": 7,
+    "canonicalText": "朝暉夕陰，氣象萬千。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-7_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-7",
+        "order": 1,
+        "text": "朝暉夕陰",
+        "cue": "朝"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-7_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-7",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-7_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-7",
+        "order": 3,
+        "text": "氣象萬千",
+        "cue": "氣"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-7_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-7",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the spring of the fourth year of Qingli, Teng Zijing was banished to guard Baling Prefecture. In the following year, the administration flourished and the people lived in harmony...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-3_p-1_s-8",
+    "passageId": "gu-wen-guan-zhi_ch-3_p-1",
+    "order": 8,
+    "canonicalText": "此則岳陽樓之大觀也，前人之述備矣。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-8_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-8",
+        "order": 1,
+        "text": "此則岳陽樓之大觀也",
+        "cue": "此"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-8_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-8",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-8_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-8",
+        "order": 3,
+        "text": "前人之述備矣",
+        "cue": "前"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-8_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-8",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the spring of the fourth year of Qingli, Teng Zijing was banished to guard Baling Prefecture. In the following year, the administration flourished and the people lived in harmony...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-3_p-1_s-9",
+    "passageId": "gu-wen-guan-zhi_ch-3_p-1",
+    "order": 9,
+    "canonicalText": "然則北通巫峽，南極瀟湘，遷客騷人，多會於此，覽物之情，得無異乎？",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-9_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-9",
+        "order": 1,
+        "text": "然則北通巫峽",
+        "cue": "然"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-9_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-9",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-9_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-9",
+        "order": 3,
+        "text": "南極瀟湘",
+        "cue": "南"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-9_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-9",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-9_c-5",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-9",
+        "order": 5,
+        "text": "遷客騷人",
+        "cue": "遷"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-9_c-6",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-9",
+        "order": 6,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-9_c-7",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-9",
+        "order": 7,
+        "text": "多會於此",
+        "cue": "多"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-9_c-8",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-9",
+        "order": 8,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-9_c-9",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-9",
+        "order": 9,
+        "text": "覽物之情",
+        "cue": "覽"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-9_c-10",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-9",
+        "order": 10,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-9_c-11",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-9",
+        "order": 11,
+        "text": "得無異乎",
+        "cue": "得"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-3_p-1_s-9_c-12",
+        "sentenceId": "gu-wen-guan-zhi_ch-3_p-1_s-9",
+        "order": 12,
+        "text": "？",
+        "cue": "？"
+      }
+    ],
+    "translationHint": "In the spring of the fourth year of Qingli, Teng Zijing was banished to guard Baling Prefecture. In the following year, the administration flourished and the people lived in harmony...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-4_p-1_s-1",
+    "passageId": "gu-wen-guan-zhi_ch-4_p-1",
+    "order": 1,
+    "canonicalText": "壬戌之秋，七月既望，蘇子與客泛舟遊於赤壁之下。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-1_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-1",
+        "order": 1,
+        "text": "壬戌之秋",
+        "cue": "壬"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-1_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-1",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-1_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-1",
+        "order": 3,
+        "text": "七月既望",
+        "cue": "七"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-1_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-1",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-1_c-5",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-1",
+        "order": 5,
+        "text": "蘇子與客泛舟",
+        "cue": "蘇"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-1_c-6",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-1",
+        "order": 6,
+        "text": "遊於赤壁之下",
+        "cue": "遊"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-1_c-7",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-1",
+        "order": 7,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the autumn of the year Renxu, on the day after the full moon in the seventh month, Master Su and his guests sailed on a boat beneath the Red Cliff. A gentle breeze blew, and the water was quiet...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-4_p-1_s-2",
+    "passageId": "gu-wen-guan-zhi_ch-4_p-1",
+    "order": 2,
+    "canonicalText": "清風徐來，水波不興。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-2_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-2",
+        "order": 1,
+        "text": "清風徐來",
+        "cue": "清"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-2_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-2",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-2_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-2",
+        "order": 3,
+        "text": "水波不興",
+        "cue": "水"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-2_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-2",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the autumn of the year Renxu, on the day after the full moon in the seventh month, Master Su and his guests sailed on a boat beneath the Red Cliff. A gentle breeze blew, and the water was quiet...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-4_p-1_s-3",
+    "passageId": "gu-wen-guan-zhi_ch-4_p-1",
+    "order": 3,
+    "canonicalText": "舉酒屬客，誦明月之詩，歌窈窕之章。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-3_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-3",
+        "order": 1,
+        "text": "舉酒屬客",
+        "cue": "舉"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-3_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-3",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-3_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-3",
+        "order": 3,
+        "text": "誦明月之詩",
+        "cue": "誦"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-3_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-3",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-3_c-5",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-3",
+        "order": 5,
+        "text": "歌窈窕之章",
+        "cue": "歌"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-3_c-6",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-3",
+        "order": 6,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the autumn of the year Renxu, on the day after the full moon in the seventh month, Master Su and his guests sailed on a boat beneath the Red Cliff. A gentle breeze blew, and the water was quiet...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-4_p-1_s-4",
+    "passageId": "gu-wen-guan-zhi_ch-4_p-1",
+    "order": 4,
+    "canonicalText": "少焉，月出於東山之上，徘徊於斗牛之間。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-4_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-4",
+        "order": 1,
+        "text": "少焉，",
+        "cue": "少"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-4_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-4",
+        "order": 2,
+        "text": "月出於東山之上",
+        "cue": "月"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-4_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-4",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-4_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-4",
+        "order": 4,
+        "text": "徘徊於斗牛之間",
+        "cue": "徘"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-4_c-5",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-4",
+        "order": 5,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the autumn of the year Renxu, on the day after the full moon in the seventh month, Master Su and his guests sailed on a boat beneath the Red Cliff. A gentle breeze blew, and the water was quiet...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-4_p-1_s-5",
+    "passageId": "gu-wen-guan-zhi_ch-4_p-1",
+    "order": 5,
+    "canonicalText": "白露橫江，水光接天。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-5_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-5",
+        "order": 1,
+        "text": "白露橫江",
+        "cue": "白"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-5_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-5",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-5_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-5",
+        "order": 3,
+        "text": "水光接天",
+        "cue": "水"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-5_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-5",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the autumn of the year Renxu, on the day after the full moon in the seventh month, Master Su and his guests sailed on a boat beneath the Red Cliff. A gentle breeze blew, and the water was quiet...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-4_p-1_s-6",
+    "passageId": "gu-wen-guan-zhi_ch-4_p-1",
+    "order": 6,
+    "canonicalText": "縱一葦之所如，凌萬頃之茫然。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-6_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-6",
+        "order": 1,
+        "text": "縱一葦之所如",
+        "cue": "縱"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-6_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-6",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-6_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-6",
+        "order": 3,
+        "text": "凌萬頃之茫然",
+        "cue": "凌"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-6_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-6",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the autumn of the year Renxu, on the day after the full moon in the seventh month, Master Su and his guests sailed on a boat beneath the Red Cliff. A gentle breeze blew, and the water was quiet...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-4_p-1_s-7",
+    "passageId": "gu-wen-guan-zhi_ch-4_p-1",
+    "order": 7,
+    "canonicalText": "浩浩乎如馮虛御風，而不知其所止；",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-7_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-7",
+        "order": 1,
+        "text": "浩浩乎如馮虛御風",
+        "cue": "浩"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-7_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-7",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-7_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-7",
+        "order": 3,
+        "text": "而不知其所止",
+        "cue": "而"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-7_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-7",
+        "order": 4,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "In the autumn of the year Renxu, on the day after the full moon in the seventh month, Master Su and his guests sailed on a boat beneath the Red Cliff. A gentle breeze blew, and the water was quiet...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-4_p-1_s-8",
+    "passageId": "gu-wen-guan-zhi_ch-4_p-1",
+    "order": 8,
+    "canonicalText": "飄飄乎如遺世獨立，羽化而登仙。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-8_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-8",
+        "order": 1,
+        "text": "飄飄乎如遺世獨立",
+        "cue": "飄"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-8_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-8",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-8_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-8",
+        "order": 3,
+        "text": "羽化而登仙",
+        "cue": "羽"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-4_p-1_s-8_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-4_p-1_s-8",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "In the autumn of the year Renxu, on the day after the full moon in the seventh month, Master Su and his guests sailed on a boat beneath the Red Cliff. A gentle breeze blew, and the water was quiet...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-5_p-1_s-1",
+    "passageId": "gu-wen-guan-zhi_ch-5_p-1",
+    "order": 1,
+    "canonicalText": "先帝創業未半而中道崩殂，今天下三分，益州疲弊，此誠危急存亡之秋也。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-1_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-1",
+        "order": 1,
+        "text": "先帝創業未",
+        "cue": "先"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-1_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-1",
+        "order": 2,
+        "text": "半而中道崩殂",
+        "cue": "半"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-1_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-1",
+        "order": 3,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-1_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-1",
+        "order": 4,
+        "text": "今天下三分",
+        "cue": "今"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-1_c-5",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-1",
+        "order": 5,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-1_c-6",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-1",
+        "order": 6,
+        "text": "益州疲弊",
+        "cue": "益"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-1_c-7",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-1",
+        "order": 7,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-1_c-8",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-1",
+        "order": 8,
+        "text": "此誠危急存亡之秋也",
+        "cue": "此"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-1_c-9",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-1",
+        "order": 9,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Late Emperor had not completed half of his great task when he passed away. Today the world is divided into three, and Yizhou is exhausted. This is indeed a critical moment of life and death...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-5_p-1_s-2",
+    "passageId": "gu-wen-guan-zhi_ch-5_p-1",
+    "order": 2,
+    "canonicalText": "然侍衛之臣不懈於內，忠志之士忘身於外者，蓋追先帝之殊遇，欲報之於陛下也。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-2_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-2",
+        "order": 1,
+        "text": "然侍衛之臣不懈於內",
+        "cue": "然"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-2_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-2",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-2_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-2",
+        "order": 3,
+        "text": "忠志之士忘身於外者",
+        "cue": "忠"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-2_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-2",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-2_c-5",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-2",
+        "order": 5,
+        "text": "蓋追先帝之殊遇",
+        "cue": "蓋"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-2_c-6",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-2",
+        "order": 6,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-2_c-7",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-2",
+        "order": 7,
+        "text": "欲報之於陛下也",
+        "cue": "欲"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-2_c-8",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-2",
+        "order": 8,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Late Emperor had not completed half of his great task when he passed away. Today the world is divided into three, and Yizhou is exhausted. This is indeed a critical moment of life and death...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-5_p-1_s-3",
+    "passageId": "gu-wen-guan-zhi_ch-5_p-1",
+    "order": 3,
+    "canonicalText": "誠宜開張聖聽，以光先帝遺德，恢弘志士之氣，不宜妄自菲薄，引喻失義，以塞忠諫之路也。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-3_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-3",
+        "order": 1,
+        "text": "誠宜開張聖聽",
+        "cue": "誠"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-3_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-3",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-3_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-3",
+        "order": 3,
+        "text": "以光先帝遺德",
+        "cue": "以"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-3_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-3",
+        "order": 4,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-3_c-5",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-3",
+        "order": 5,
+        "text": "恢弘志士之氣",
+        "cue": "恢"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-3_c-6",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-3",
+        "order": 6,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-3_c-7",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-3",
+        "order": 7,
+        "text": "不宜妄自菲薄",
+        "cue": "不"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-3_c-8",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-3",
+        "order": 8,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-3_c-9",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-3",
+        "order": 9,
+        "text": "引喻失義",
+        "cue": "引"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-3_c-10",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-3",
+        "order": 10,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-3_c-11",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-3",
+        "order": 11,
+        "text": "以塞忠諫之路也",
+        "cue": "以"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-3_c-12",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-3",
+        "order": 12,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Late Emperor had not completed half of his great task when he passed away. Today the world is divided into three, and Yizhou is exhausted. This is indeed a critical moment of life and death...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-5_p-1_s-4",
+    "passageId": "gu-wen-guan-zhi_ch-5_p-1",
+    "order": 4,
+    "canonicalText": "宮中府中，俱為一體；",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-4_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-4",
+        "order": 1,
+        "text": "宮中府中",
+        "cue": "宮"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-4_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-4",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-4_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-4",
+        "order": 3,
+        "text": "俱為一體",
+        "cue": "俱"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-4_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-4",
+        "order": 4,
+        "text": "；",
+        "cue": "；"
+      }
+    ],
+    "translationHint": "The Late Emperor had not completed half of his great task when he passed away. Today the world is divided into three, and Yizhou is exhausted. This is indeed a critical moment of life and death...",
+    "tags": []
+  },
+  {
+    "id": "gu-wen-guan-zhi_ch-5_p-1_s-5",
+    "passageId": "gu-wen-guan-zhi_ch-5_p-1",
+    "order": 5,
+    "canonicalText": "陟罰臧否，不宜異同。",
+    "chunks": [
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-5_c-1",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-5",
+        "order": 1,
+        "text": "陟罰臧否",
+        "cue": "陟"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-5_c-2",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-5",
+        "order": 2,
+        "text": "，",
+        "cue": "，"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-5_c-3",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-5",
+        "order": 3,
+        "text": "不宜異同",
+        "cue": "不"
+      },
+      {
+        "id": "gu-wen-guan-zhi_ch-5_p-1_s-5_c-4",
+        "sentenceId": "gu-wen-guan-zhi_ch-5_p-1_s-5",
+        "order": 4,
+        "text": "。",
+        "cue": "。"
+      }
+    ],
+    "translationHint": "The Late Emperor had not completed half of his great task when he passed away. Today the world is divided into three, and Yizhou is exhausted. This is indeed a critical moment of life and death...",
     "tags": []
   }
 ];
