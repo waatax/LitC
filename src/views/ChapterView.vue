@@ -86,6 +86,24 @@ function goToMemorize() {
     router.push(`/memorize/${chapter.value.id}`)
   }
 }
+
+const prevChapter = computed(() => {
+  if (!work.value || !chapter.value) return null
+  const idx = work.value.chapterIds.indexOf(chapter.value.id)
+  if (idx > 0) {
+    return getChapter(work.value.chapterIds[idx - 1]) ?? null
+  }
+  return null
+})
+
+const nextChapter = computed(() => {
+  if (!work.value || !chapter.value) return null
+  const idx = work.value.chapterIds.indexOf(chapter.value.id)
+  if (idx !== -1 && idx < work.value.chapterIds.length - 1) {
+    return getChapter(work.value.chapterIds[idx + 1]) ?? null
+  }
+  return null
+})
 </script>
 
 <template>
@@ -166,6 +184,29 @@ function goToMemorize() {
             <p>尚無句級資料</p>
           </div>
         </div>
+      </div>
+
+      <!-- Chapter Navigation -->
+      <div v-if="prevChapter || nextChapter" class="chapter-navigation">
+        <button
+          v-if="prevChapter"
+          class="btn btn-ghost nav-btn prev-btn"
+          @click="router.push(`/chapter/${prevChapter.id}`)"
+        >
+          <span>← 上一章</span>
+          <span class="nav-title">{{ prevChapter.title }}</span>
+        </button>
+        <div v-else class="nav-placeholder"></div>
+
+        <button
+          v-if="nextChapter"
+          class="btn btn-ghost nav-btn next-btn"
+          @click="router.push(`/chapter/${nextChapter.id}`)"
+        >
+          <span>下一章 →</span>
+          <span class="nav-title">{{ nextChapter.title }}</span>
+        </button>
+        <div v-else class="nav-placeholder"></div>
       </div>
 
       <!-- Actions -->
@@ -376,6 +417,46 @@ function goToMemorize() {
   padding: var(--sp-12);
   color: var(--c-text-muted);
   font-size: var(--fs-sm);
+}
+
+/* ── Chapter Navigation ── */
+.chapter-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--sp-4);
+  margin-top: var(--sp-8);
+  margin-bottom: var(--sp-8);
+  padding: var(--sp-4) 0;
+  border-top: 1px dashed var(--c-border-subtle);
+  border-bottom: 1px dashed var(--c-border-subtle);
+  animation: fadeInUp var(--duration-slow) var(--ease-out) 250ms both;
+}
+
+.nav-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: var(--sp-2) var(--sp-4);
+  border-radius: var(--radius-md);
+  min-width: 140px;
+}
+
+.next-btn {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.nav-title {
+  font-size: var(--fs-xs);
+  color: var(--c-text-muted);
+  font-weight: var(--fw-normal);
+  margin-top: var(--sp-1);
+}
+
+.nav-placeholder {
+  flex: 1;
 }
 
 /* ── Actions ── */

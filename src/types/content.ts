@@ -6,7 +6,7 @@
 export type GenreStrategy = 'rhythmic' | 'narrative' | 'argumentative' | 'parallel'
 
 /** 學派 ID */
-export type SchoolId = 'daoism' | 'legalism' | 'mohism' | 'syncretism' | 'confucianism' | 'literature'
+export type SchoolId = 'daoism' | 'legalism' | 'mohism' | 'confucianism' | 'literature'
 
 /** 複習評級 */
 export type ReviewRating = 'again' | 'hard' | 'good' | 'easy'

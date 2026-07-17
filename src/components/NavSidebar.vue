@@ -27,7 +27,6 @@ const schools: SchoolDot[] = [
   { id: 'daoism', name: '道家', colorClass: 'dot-dao' },
   { id: 'legalism', name: '法家', colorClass: 'dot-legal' },
   { id: 'mohism', name: '墨家', colorClass: 'dot-mohist' },
-  { id: 'syncretism', name: '儒釋道', colorClass: 'dot-syncretism' },
   { id: 'confucianism', name: '儒家', colorClass: 'dot-confucian' },
   { id: 'literature', name: '文學', colorClass: 'dot-literature' },
 ]
