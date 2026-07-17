@@ -1,6 +1,6 @@
 // ─────────────────────────────────────────────────
 // 經典文脈 ClassicFlow — 典籍內容資料庫
-// 自動生成於: 2026-07-17T05:30:45.622Z
+// 自動生成於: 2026-07-17T05:35:45.362Z
 // ─────────────────────────────────────────────────
 import type { Work, Chapter, Passage, Sentence } from '../types/content'
 
@@ -102,21 +102,6 @@ export const works: Work[] = [
       "mo-zi_ch-7"
     ],
     "totalChars": 1835
-  },
-  {
-    "id": "cai-gen-tan",
-    "schoolId": "syncretism",
-    "title": "菜根譚",
-    "genreStrategy": "rhythmic",
-    "sourceNote": "乾隆五十九年遂初堂刻本，洪應明著。",
-    "chapterIds": [
-      "cai-gen-tan_ch-1",
-      "cai-gen-tan_ch-2",
-      "cai-gen-tan_ch-3",
-      "cai-gen-tan_ch-4",
-      "cai-gen-tan_ch-5"
-    ],
-    "totalChars": 14071
   },
   {
     "id": "da-xue",
@@ -234,6 +219,21 @@ export const works: Work[] = [
       "gu-wen-guan-zhi_ch-5"
     ],
     "totalChars": 563
+  },
+  {
+    "id": "cai-gen-tan",
+    "schoolId": "literature",
+    "title": "菜根譚",
+    "genreStrategy": "rhythmic",
+    "sourceNote": "乾隆五十九年遂初堂刻本，洪應明著。",
+    "chapterIds": [
+      "cai-gen-tan_ch-1",
+      "cai-gen-tan_ch-2",
+      "cai-gen-tan_ch-3",
+      "cai-gen-tan_ch-4",
+      "cai-gen-tan_ch-5"
+    ],
+    "totalChars": 14019
   }
 ];
 
