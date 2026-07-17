@@ -65,7 +65,7 @@ function splitChunks(sentenceText, sentenceId) {
   }
 
   return finalChunks.map((text, idx) => ({
-    id: `${sentenceId}/c-${idx + 1}`,
+    id: `${sentenceId}_c-${idx + 1}`,
     sentenceId,
     order: idx + 1,
     text,
@@ -82,13 +82,13 @@ function flushPassage() {
   if (!rawText || !currentChapter) return;
 
   currentPassageIndex++;
-  const passageId = `${currentChapter.id}/p-${currentPassageIndex}`;
+  const passageId = `${currentChapter.id}_p-${currentPassageIndex}`;
   
   const sentenceTexts = splitSentences(rawText);
   const sentenceIds = [];
 
   sentenceTexts.forEach((sText, sIdx) => {
-    const sentenceId = `${passageId}/s-${sIdx + 1}`;
+    const sentenceId = `${passageId}_s-${sIdx + 1}`;
     sentenceIds.push(sentenceId);
 
     const sentenceChunks = splitChunks(sText, sentenceId);
@@ -194,7 +194,7 @@ for (let line of lines) {
     flushPassage();
     const title = line.replace('### ', '').trim();
     currentChapterIndex++;
-    const chapterId = `${currentWorkId}/ch-${currentChapterIndex}`;
+    const chapterId = `${currentWorkId}_ch-${currentChapterIndex}`;
     
     let genreStrategyOverride = undefined;
     if (currentWorkId === 'mo-zi' && title.includes('公輸')) {

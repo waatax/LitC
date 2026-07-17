@@ -102,9 +102,9 @@ async function startReview() {
   
   // Get first due card and extract its chapterId
   const firstDueId = dueIds[0]
-  const parts = firstDueId.split('/')
+  const parts = firstDueId.split('_')
   if (parts.length >= 2) {
-    const chapterId = `${parts[0]}/${parts[1]}`
+    const chapterId = `${parts[0]}_${parts[1]}`
     router.push(`/memorize/${chapterId}`)
   }
 }
