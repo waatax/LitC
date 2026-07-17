@@ -30,6 +30,7 @@
   --c-accent-dao:    #5b8a72;
   --c-accent-legal:  #8b5e5e;
   --c-accent-mohist: #5e6e8b;
+  --c-accent-syncretism: #d48a9b;
 
   --c-success:       #4a8b6e;
   --c-warning:       #b89444;
@@ -286,6 +287,11 @@ a:hover {
   background: rgba(94,110,139,0.15);
   color: var(--c-accent-mohist);
   border: 1px solid rgba(94,110,139,0.25);
+}
+.badge-syncretism {
+  background: rgba(212,138,155,0.15);
+  color: var(--c-accent-syncretism);
+  border: 1px solid rgba(212,138,155,0.25);
 }
 
 /* ── Utility: Dividers ───────────────────────────── */

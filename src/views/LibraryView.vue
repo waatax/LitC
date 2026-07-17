@@ -37,6 +37,7 @@ const filterTabs: FilterOption[] = [
   { id: 'daoism', label: '道家' },
   { id: 'legalism', label: '法家' },
   { id: 'mohism', label: '墨家' },
+  { id: 'syncretism', label: '儒釋道' },
 ]
 
 const filteredWorks = computed(() => {

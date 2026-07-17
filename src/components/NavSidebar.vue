@@ -27,6 +27,7 @@ const schools: SchoolDot[] = [
   { id: 'daoism', name: '道家', colorClass: 'dot-dao' },
   { id: 'legalism', name: '法家', colorClass: 'dot-legal' },
   { id: 'mohism', name: '墨家', colorClass: 'dot-mohist' },
+  { id: 'syncretism', name: '儒釋道', colorClass: 'dot-syncretism' },
 ]
 
 function isActive(to: string): boolean {
@@ -281,6 +282,11 @@ function navigate(to: string) {
 .dot-mohist {
   background: var(--c-accent-mohist);
   box-shadow: 0 0 6px rgba(94, 110, 139, 0.4);
+}
+
+.dot-syncretism {
+  background: var(--c-accent-syncretism);
+  box-shadow: 0 0 6px rgba(212, 138, 155, 0.4);
 }
 
 .school-name {
