@@ -3,6 +3,7 @@ import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import type { Chapter, Work, Passage, Sentence } from '@/types/content'
 import { getChapter, getPassagesByChapter, getSentencesByPassage, getWorks } from '@/data'
+import { getReadingAid } from '@/data/readingAid'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 
 const route = useRoute()
@@ -95,6 +96,10 @@ function goBack() {
 const fullText = computed(() => {
   return passages.value.map(p => p.canonicalText).join('\n\n')
 })
+
+function whiteText(sentence: Sentence): string {
+  return getReadingAid(sentence, chapter.value?.workId ?? '') ?? '此句白話釋義正在整理。'
+}
 </script>
 
 <template>
@@ -201,8 +206,8 @@ const fullText = computed(() => {
                 <div class="understand-order">{{ si + 1 }}</div>
                 <div class="understand-body">
                   <p class="classical-text understand-text">{{ sentence.canonicalText }}</p>
-                  <p v-if="sentence.translationHint" class="understand-hint">
-                    💡 {{ sentence.translationHint }}
+                  <p class="understand-hint">
+                    白話釋義：{{ whiteText(sentence) }}
                   </p>
                 </div>
               </div>
@@ -232,7 +237,7 @@ const fullText = computed(() => {
                     class="segment-chunk"
                   >{{ chunk.text }}</span>
                 </div>
-                <p v-if="sentence.translationHint" class="segment-hint">{{ sentence.translationHint }}</p>
+                <p class="segment-hint">白話釋義：{{ whiteText(sentence) }}</p>
               </div>
               <div v-if="allSentences.length === 0" class="no-data">
                 尚無分段資料

@@ -3,6 +3,7 @@
 // ─────────────────────────────────────────────────
 import { schools } from './schools'
 import { works, chapters, passages, sentences } from './works'
+import { getReadingAid } from './readingAid'
 import type { School, Work, Chapter, Passage, Sentence, SchoolId } from '../types/content'
 
 export function getSchools(): School[] {
@@ -30,11 +31,15 @@ export function getPassagesByChapter(chapterId: string): Passage[] {
 }
 
 export function getSentencesByPassage(passageId: string): Sentence[] {
-  return sentences.filter(s => s.passageId === passageId)
+  const passage = passages.find(p => p.id === passageId)
+  const chapter = passage ? chapters.find(c => c.id === passage.chapterId) : undefined
+  return sentences
+    .filter(s => s.passageId === passageId)
+    .map(sentence => chapter
+      ? { ...sentence, translationHint: getReadingAid(sentence, chapter.workId) }
+      : sentence)
 }
 
 export function getAllSentencesByChapter(chapterId: string): Sentence[] {
-  const chapterPassages = getPassagesByChapter(chapterId)
-  const passageIds = chapterPassages.map(p => p.id)
-  return sentences.filter(s => passageIds.includes(s.passageId))
+  return getPassagesByChapter(chapterId).flatMap(passage => getSentencesByPassage(passage.id))
 }

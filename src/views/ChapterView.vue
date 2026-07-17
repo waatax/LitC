@@ -4,6 +4,7 @@ import { useRoute, useRouter } from 'vue-router'
 import type { Chapter, Work, Passage, Sentence } from '@/types/content'
 import { GENRE_STRATEGY_META } from '@/types/content'
 import { getChapter, getPassagesByChapter, getSentencesByPassage, getWorks } from '@/data'
+import { getReadingAid, READING_AID_SOURCES } from '@/data/readingAid'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 
 const route = useRoute()
@@ -15,7 +16,8 @@ const passages = ref<Passage[]>([])
 const passageSentences = ref<Map<string, Sentence[]>>(new Map())
 
 type ReadingMode = 'clean' | 'assisted'
-const readingMode = ref<ReadingMode>('clean')
+// 典籍庫開啟章節時，優先呈現原文／白話對照；使用者仍可切回純原文。
+const readingMode = ref<ReadingMode>('assisted')
 
 const mounted = ref(false)
 
@@ -70,6 +72,10 @@ const allSentences = computed(() => {
   }
   return result
 })
+
+function whiteText(sentence: Sentence): string {
+  return getReadingAid(sentence, chapter.value?.workId ?? '') ?? '此句白話釋義正在整理。'
+}
 
 function goBack() {
   router.push('/library')
@@ -176,13 +182,18 @@ const nextChapter = computed(() => {
             class="sentence-row"
           >
             <p class="sentence-original classical-text">{{ sentence.canonicalText }}</p>
-            <p v-if="sentence.translationHint" class="sentence-hint">
-              💡 {{ sentence.translationHint }}
+            <p class="sentence-hint">
+              <span class="translation-label">白話釋義</span>
+              {{ whiteText(sentence) }}
             </p>
           </div>
           <div v-if="allSentences.length === 0" class="no-data">
             <p>尚無句級資料</p>
           </div>
+          <p class="reading-aid-source">
+            輔讀校讀參考：
+            <a v-for="(source, index) in READING_AID_SOURCES" :key="source.url" :href="source.url" target="_blank" rel="noopener noreferrer">{{ source.label }}{{ index < READING_AID_SOURCES.length - 1 ? '、' : '' }}</a>
+          </p>
         </div>
       </div>
 
@@ -240,6 +251,17 @@ const nextChapter = computed(() => {
 
 .chapter-view.is-mounted {
   opacity: 1;
+}
+
+.translation-label {
+  display: inline-block;
+  margin-right: var(--sp-2);
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-semibold);
+  color: var(--c-gold-light);
+  background: rgba(201, 169, 110, 0.14);
 }
 
 /* ── Back Button ── */
