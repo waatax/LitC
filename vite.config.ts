@@ -9,4 +9,8 @@ export default defineConfig({
       '@': '/src',
     },
   },
+  build: {
+    target: 'es2020',
+    cssCodeSplit: true,
+  }
 })
