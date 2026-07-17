@@ -1,5 +1,18 @@
 import type { Sentence } from '../types/content'
 
+export interface PassageReadingAid {
+  translation: string
+  analysis: string
+}
+
+// 章節輔讀採「一段原文對一段白話」；避免把語意相連的分句拆成零散提示。
+const PASSAGE_AIDS: Record<string, PassageReadingAid> = {
+  'dao-de-jing_ch-1_p-1': {
+    translation: '能夠用言語說清楚的「道」，不是永恆常在的道；能夠用名稱完全界定的「名」，不是永恆不變的名。無名是天地開始時的狀態；有名則是萬物生長、顯現形體後的根源。常保無私無欲，能體會道無形無相的奧妙；帶著探求的意欲，則能觀察道在具體事物中所呈現的邊界與軌跡。無與有名稱不同，卻同出於道，同樣深奧玄妙；層層深入這種玄妙，便是通往萬物奧祕的門戶。',
+    analysis: '「道」不是一個可以被概念完全框住的物件；老子以「無／有」說明同一根源的兩種觀看方式。無欲不是排斥一切行動，而是暫時放下私心與成見，以體會事物未分化時的根本；有欲則是從具體現象觀察道的作用。「玄之又玄」提醒人不要把一次理解當作終點。',
+  },
+}
+
 /**
  * 白話輔讀的編輯原則：這不是逐字機器翻譯，而是讓背誦者先掌握句意。
  * 優先採用已校讀的名句；其餘句子保留原句並提供可讀的語法／詞義支架。
@@ -47,6 +60,16 @@ export function getReadingAid(sentence: Sentence, workId: string): string | unde
   if (workId !== 'dao-de-jing' && workId !== 'zhuangzi' &&
       !['da-xue', 'zhong-yong', 'lun-yu', 'meng-zi', 'yi-jing', 'shu-jing', 'shi-jing', 'li-ji', 'chun-qiu'].includes(workId)) return sentence.translationHint
   return EDITED_HINTS[sentence.canonicalText] ?? scaffold(sentence.canonicalText, workId)
+}
+
+export function getPassageReadingAid(passageId: string, canonicalText: string, workId: string): PassageReadingAid {
+  const edited = PASSAGE_AIDS[passageId]
+  if (edited) return edited
+  const school = workId === 'dao-de-jing' || workId === 'zhuangzi' ? '道家' : '儒家'
+  return {
+    translation: `${school}白話釋義正在逐段校讀；此段原文為：「${canonicalText}」`,
+    analysis: '將依原文斷句、關鍵詞義與上下文補入完整白話解析。',
+  }
 }
 
 export const READING_AID_SOURCES = [

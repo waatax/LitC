@@ -4,7 +4,7 @@ import { useRoute, useRouter } from 'vue-router'
 import type { Chapter, Work, Passage, Sentence } from '@/types/content'
 import { GENRE_STRATEGY_META } from '@/types/content'
 import { getChapter, getPassagesByChapter, getSentencesByPassage, getWorks } from '@/data'
-import { getReadingAid, READING_AID_SOURCES } from '@/data/readingAid'
+import { getPassageReadingAid, READING_AID_SOURCES } from '@/data/readingAid'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 
 const route = useRoute()
@@ -73,8 +73,8 @@ const allSentences = computed(() => {
   return result
 })
 
-function whiteText(sentence: Sentence): string {
-  return getReadingAid(sentence, chapter.value?.workId ?? '') ?? '此句白話釋義正在整理。'
+function passageAid(passage: Passage) {
+  return getPassageReadingAid(passage.id, passage.canonicalText, chapter.value?.workId ?? '')
 }
 
 function goBack() {
@@ -176,16 +176,10 @@ const nextChapter = computed(() => {
 
         <!-- Assisted Mode -->
         <div v-if="readingMode === 'assisted'" class="assisted-mode">
-          <div
-            v-for="sentence in allSentences"
-            :key="sentence.id"
-            class="sentence-row"
-          >
-            <p class="sentence-original classical-text">{{ sentence.canonicalText }}</p>
-            <p class="sentence-hint">
-              <span class="translation-label">白話釋義</span>
-              {{ whiteText(sentence) }}
-            </p>
+          <div v-for="passage in passages" :key="passage.id" class="sentence-row">
+            <p class="sentence-original classical-text">{{ passage.canonicalText }}</p>
+            <p class="sentence-hint"><span class="translation-label">白話文</span>{{ passageAid(passage).translation }}</p>
+            <p class="sentence-hint"><span class="translation-label">解析</span>{{ passageAid(passage).analysis }}</p>
           </div>
           <div v-if="allSentences.length === 0" class="no-data">
             <p>尚無句級資料</p>
