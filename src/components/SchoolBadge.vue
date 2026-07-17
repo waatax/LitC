@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import type { SchoolId } from '@/types/content'
 
 const props = defineProps<{
@@ -11,7 +12,9 @@ const schoolMeta: Record<SchoolId, { name: string; badgeClass: string }> = {
   mohism:  { name: '墨家', badgeClass: 'badge-mohist' },
 }
 
-const meta = schoolMeta[props.schoolId]
+const meta = computed(() => {
+  return schoolMeta[props.schoolId] || { name: '未知', badgeClass: '' }
+})
 </script>
 
 <template>

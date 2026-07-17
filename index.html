@@ -10,6 +10,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+    <script>
+      window.onerror = function(msg, url, line, col, error) {
+        var errDiv = document.createElement('div');
+        errDiv.style.position = 'fixed';
+        errDiv.style.top = '0';
+        errDiv.style.left = '0';
+        errDiv.style.width = '100%';
+        errDiv.style.backgroundColor = '#8b4a4a';
+        errDiv.style.color = '#fff';
+        errDiv.style.padding = '20px';
+        errDiv.style.zIndex = '99999';
+        errDiv.style.fontFamily = 'monospace';
+        errDiv.style.whiteSpace = 'pre-wrap';
+        errDiv.innerHTML = '<h2>Uncaught Error:</h2>' + msg + '<br>at ' + url + ':' + line + ':' + col + (error && error.stack ? '<br><br>Stack:<br>' + error.stack : '');
+        document.body.appendChild(errDiv);
+        return false;
+      };
+      window.onunhandledrejection = function(event) {
+        var errDiv = document.createElement('div');
+        errDiv.style.position = 'fixed';
+        errDiv.style.top = '0';
+        errDiv.style.left = '0';
+        errDiv.style.width = '100%';
+        errDiv.style.backgroundColor = '#8b4a4a';
+        errDiv.style.color = '#fff';
+        errDiv.style.padding = '20px';
+        errDiv.style.zIndex = '99999';
+        errDiv.style.fontFamily = 'monospace';
+        errDiv.style.whiteSpace = 'pre-wrap';
+        errDiv.innerHTML = '<h2>Unhandled Promise Rejection:</h2>' + event.reason + (event.reason && event.reason.stack ? '<br><br>Stack:<br>' + event.reason.stack : '');
+        document.body.appendChild(errDiv);
+      };
+    </script>
   </head>
   <body>
     <div id="app"></div>
