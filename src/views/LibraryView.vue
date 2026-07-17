@@ -1,12 +1,13 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
-import { useRouter } from 'vue-router'
+import { ref, computed, onMounted, watch } from 'vue'
+import { useRouter, useRoute } from 'vue-router'
 import type { Work, SchoolId, School, Chapter } from '@/types/content'
 import { GENRE_STRATEGY_META } from '@/types/content'
 import { getSchools, getWorks, getWorksBySchool, getChapters } from '@/data'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 
 const router = useRouter()
+const route = useRoute()
 const mounted = ref(false)
 
 type FilterTab = 'all' | SchoolId
@@ -19,12 +20,27 @@ const allSchools = ref<School[]>([])
 const allWorks = ref<Work[]>([])
 const workChapters = ref<Map<string, Chapter[]>>(new Map())
 
+function checkQueryFilter() {
+  const schoolParam = route.query.school as string
+  if (schoolParam) {
+    if (schoolParam === 'all' || ['daoism', 'legalism', 'mohism', 'confucianism', 'literature'].includes(schoolParam)) {
+      activeFilter.value = schoolParam as FilterTab
+      expandedWorkId.value = null
+    }
+  }
+}
+
 onMounted(() => {
   allSchools.value = getSchools()
   allWorks.value = getWorks()
+  checkQueryFilter()
   requestAnimationFrame(() => {
     mounted.value = true
   })
+})
+
+watch(() => route.query.school, () => {
+  checkQueryFilter()
 })
 
 interface FilterOption {

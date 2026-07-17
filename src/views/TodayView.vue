@@ -112,6 +112,10 @@ async function startReview() {
 function goToLibrary() {
   router.push('/library')
 }
+
+function goToSchool(schoolId: string) {
+  router.push({ path: '/library', query: { school: schoolId } })
+}
 </script>
 
 <template>
@@ -121,7 +125,17 @@ function goToLibrary() {
       <div class="hero-bg"></div>
       <div class="hero-content">
         <h1 class="hero-title">經典文脈</h1>
-        <p class="hero-subtitle">先秦諸子 · 深度記憶</p>
+        <div class="hero-schools">
+          <a class="hero-school-link link-dao" @click="goToSchool('daoism')">道家</a>
+          <span class="school-sep">·</span>
+          <a class="hero-school-link link-legal" @click="goToSchool('legalism')">法家</a>
+          <span class="school-sep">·</span>
+          <a class="hero-school-link link-mohist" @click="goToSchool('mohism')">墨家</a>
+          <span class="school-sep">·</span>
+          <a class="hero-school-link link-confucian" @click="goToSchool('confucianism')">儒家</a>
+          <span class="school-sep">·</span>
+          <a class="hero-school-link link-literature" @click="goToSchool('literature')">文學</a>
+        </div>
         <div class="hero-accent"></div>
       </div>
     </section>
@@ -251,11 +265,41 @@ function goToLibrary() {
   margin-bottom: var(--sp-3);
 }
 
-.hero-subtitle {
+.hero-schools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--sp-3);
   font-family: var(--font-serif);
-  font-size: var(--fs-lg);
+  font-size: var(--fs-xl);
+  margin-top: var(--sp-2);
+}
+
+.hero-school-link {
+  cursor: pointer;
   color: var(--c-text-muted);
-  letter-spacing: 0.3em;
+  transition: all var(--duration-normal) var(--ease-out);
+  text-decoration: none;
+  font-weight: var(--fw-medium);
+  letter-spacing: 0.05em;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+}
+
+.hero-school-link:hover {
+  transform: translateY(-2px);
+  text-shadow: 0 0 8px currentColor;
+}
+
+.link-dao:hover { color: var(--c-accent-dao); }
+.link-legal:hover { color: var(--c-accent-legal); }
+.link-mohist:hover { color: var(--c-accent-mohist); }
+.link-confucian:hover { color: var(--c-accent-confucian); }
+.link-literature:hover { color: var(--c-accent-literature); }
+
+.school-sep {
+  color: var(--c-text-muted);
+  opacity: 0.3;
 }
 
 .hero-accent {
