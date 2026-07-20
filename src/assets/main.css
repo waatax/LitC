@@ -37,6 +37,8 @@
   --c-accent-syncretism: #d48a9b;
   --c-accent-confucian: #b58d3d;
   --c-accent-literature: #4a6fa5;
+  --c-accent-military:   #a64b4b;
+  --c-accent-histories:  #8a6e5b;
 
   --c-success:       #4a8b6e;
   --c-warning:       #b89444;
@@ -311,6 +313,16 @@ a:hover {
   background: rgba(74,111,165,0.12);
   color: var(--c-accent-literature);
   border: 1px solid rgba(74,111,165,0.25);
+}
+.badge-military {
+  background: rgba(166,75,75,0.12);
+  color: var(--c-accent-military);
+  border: 1px solid rgba(166,75,75,0.25);
+}
+.badge-histories {
+  background: rgba(138,110,91,0.12);
+  color: var(--c-accent-histories);
+  border: 1px solid rgba(138,110,91,0.25);
 }
 
 /* ── Utility: Dividers ───────────────────────────── */

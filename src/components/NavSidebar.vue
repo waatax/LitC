@@ -418,6 +418,16 @@ onMounted(() => {
   box-shadow: 0 0 6px rgba(74, 111, 165, 0.4);
 }
 
+.dot-military {
+  background: var(--c-accent-military);
+  box-shadow: 0 0 6px rgba(166, 75, 75, 0.4);
+}
+
+.dot-histories {
+  background: var(--c-accent-histories);
+  box-shadow: 0 0 6px rgba(138, 110, 91, 0.4);
+}
+
 .school-name {
   font-family: var(--font-sans);
   font-size: var(--fs-sm);

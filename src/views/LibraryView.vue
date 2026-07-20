@@ -38,7 +38,7 @@ function checkQueryFilter() {
   }
 
   if (schoolParam) {
-    if (schoolParam === 'all' || ['daoism', 'legalism', 'mohism', 'confucianism', 'literature'].includes(schoolParam)) {
+    if (schoolParam === 'all' || ['daoism', 'legalism', 'mohism', 'confucianism', 'literature', 'military', 'histories'].includes(schoolParam)) {
       activeFilter.value = schoolParam as FilterTab
       expandedWorkId.value = null
     }
@@ -69,6 +69,8 @@ const filterTabs: FilterOption[] = [
   { id: 'legalism', label: '法家' },
   { id: 'mohism', label: '墨家' },
   { id: 'confucianism', label: '儒家' },
+  { id: 'military', label: '兵家' },
+  { id: 'histories', label: '史書' },
   { id: 'literature', label: '文學' },
 ]
 
