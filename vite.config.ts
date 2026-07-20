@@ -12,5 +12,18 @@ export default defineConfig({
   build: {
     target: 'es2020',
     cssCodeSplit: true,
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('src/data/works.ts') || id.includes('src/data/works')) {
+            return 'works-corpus'
+          }
+          if (id.includes('node_modules')) {
+            return 'vendor'
+          }
+        }
+      }
+    }
   }
 })
+
