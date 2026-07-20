@@ -5,6 +5,9 @@ import type { Chapter, Work, Passage, Sentence } from '@/types/content'
 import { getChapter, getPassagesByChapter, getSentencesByPassage, getWorks } from '@/data'
 import { getReadingAid } from '@/data/readingAid'
 import SchoolBadge from '@/components/SchoolBadge.vue'
+import RedSeal from '@/components/RedSeal.vue'
+
+const isVertical = ref(false)
 
 const route = useRoute()
 const router = useRouter()
@@ -113,6 +116,14 @@ function whiteText(sentence: Sentence): string {
         {{ chapter.title }}
       </div>
       <div class="top-bar-spacer"></div>
+      <button
+        v-if="['read', 'understand', 'segment'].includes(currentStep.key)"
+        class="btn btn-ghost btn-sm layout-toggle-btn"
+        @click="isVertical = !isVertical"
+        style="margin-left: 8px;"
+      >
+        {{ isVertical ? '🔤 橫書' : '📜 直書' }}
+      </button>
     </div>
 
     <!-- Progress Bar -->
@@ -181,7 +192,16 @@ function whiteText(sentence: Sentence): string {
               <h2>通讀全文</h2>
             </div>
             <div class="read-card glass-card">
-              <div class="classical-text-lg read-text">
+              <div v-if="isVertical" class="vertical-container">
+                <div class="vertical-text-flow">
+                  <p
+                    v-for="passage in passages"
+                    :key="passage.id"
+                    class="passage-text"
+                  >{{ passage.canonicalText }}</p>
+                </div>
+              </div>
+              <div v-else class="classical-text-lg read-text">
                 <p
                   v-for="passage in passages"
                   :key="passage.id"
@@ -198,19 +218,40 @@ function whiteText(sentence: Sentence): string {
               <h2>逐句理解</h2>
             </div>
             <div class="understand-list">
-              <div
-                v-for="(sentence, si) in allSentences"
-                :key="sentence.id"
-                class="understand-item glass-card"
-              >
-                <div class="understand-order">{{ si + 1 }}</div>
-                <div class="understand-body">
-                  <p class="classical-text understand-text">{{ sentence.canonicalText }}</p>
-                  <p class="understand-hint">
-                    白話釋義：{{ whiteText(sentence) }}
-                  </p>
+              <div v-if="isVertical" class="vertical-container" style="height: 480px;">
+                <div class="vertical-assisted-list">
+                  <div
+                    v-for="(sentence, si) in allSentences"
+                    :key="sentence.id"
+                    class="vertical-passage-box"
+                  >
+                    <div class="vertical-orig-wrapper">
+                      <span class="understand-order" style="display: block; margin-bottom: 8px;">{{ si + 1 }}.</span>
+                      <p class="classical-text vertical-original-text">{{ sentence.canonicalText }}</p>
+                    </div>
+                    <div class="horizontal-explanation">
+                      <p class="understand-hint">
+                        <span class="translation-label">白話</span>{{ whiteText(sentence) }}
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
+              <template v-else>
+                <div
+                  v-for="(sentence, si) in allSentences"
+                  :key="sentence.id"
+                  class="understand-item glass-card"
+                >
+                  <div class="understand-order">{{ si + 1 }}</div>
+                  <div class="understand-body">
+                    <p class="classical-text understand-text">{{ sentence.canonicalText }}</p>
+                    <p class="understand-hint">
+                      白話釋義：{{ whiteText(sentence) }}
+                    </p>
+                  </div>
+                </div>
+              </template>
               <div v-if="allSentences.length === 0" class="no-data">
                 尚無句級資料
               </div>
@@ -225,20 +266,44 @@ function whiteText(sentence: Sentence): string {
             </div>
             <p class="step-desc">觀察每句的語塊結構，為背誦做準備。</p>
             <div class="segment-list">
-              <div
-                v-for="sentence in allSentences"
-                :key="sentence.id"
-                class="segment-item glass-card"
-              >
-                <div class="segment-chunks">
-                  <span
-                    v-for="chunk in sentence.chunks"
-                    :key="chunk.id"
-                    class="segment-chunk"
-                  >{{ chunk.text }}</span>
+              <div v-if="isVertical" class="vertical-container" style="height: 480px;">
+                <div class="vertical-assisted-list">
+                  <div
+                    v-for="sentence in allSentences"
+                    :key="sentence.id"
+                    class="vertical-passage-box"
+                  >
+                    <div class="vertical-orig-wrapper" style="display: flex; flex-direction: row; gap: var(--sp-2);">
+                      <span
+                        v-for="chunk in sentence.chunks"
+                        :key="chunk.id"
+                        class="segment-chunk-vertical"
+                      >{{ chunk.text }}</span>
+                    </div>
+                    <div class="horizontal-explanation">
+                      <p class="segment-hint">
+                        <span class="translation-label">白話</span>{{ whiteText(sentence) }}
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <p class="segment-hint">白話釋義：{{ whiteText(sentence) }}</p>
               </div>
+              <template v-else>
+                <div
+                  v-for="sentence in allSentences"
+                  :key="sentence.id"
+                  class="segment-item glass-card"
+                >
+                  <div class="segment-chunks">
+                    <span
+                      v-for="chunk in sentence.chunks"
+                      :key="chunk.id"
+                      class="segment-chunk"
+                    >{{ chunk.text }}</span>
+                  </div>
+                  <p class="segment-hint">白話釋義：{{ whiteText(sentence) }}</p>
+                </div>
+              </template>
               <div v-if="allSentences.length === 0" class="no-data">
                 尚無分段資料
               </div>
@@ -711,5 +776,107 @@ function whiteText(sentence: Sentence): string {
   .read-card {
     padding: var(--sp-5);
   }
+}
+
+/* ── Vertical Layout for LearnView steps ── */
+.layout-toggle-btn {
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  padding: var(--sp-1.5) var(--sp-3);
+  height: auto;
+}
+
+.vertical-assisted-list {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: var(--sp-8);
+  height: 100%;
+  padding: var(--sp-2) 0;
+}
+
+.vertical-passage-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-left: 1px dashed var(--c-border-accent);
+  padding-left: var(--sp-6);
+  align-items: center;
+}
+
+.vertical-passage-box:last-child {
+  border-left: none;
+}
+
+.vertical-orig-wrapper {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  flex: 1;
+  font-family: var(--font-serif);
+  font-size: var(--fs-xl);
+  line-height: 2.2;
+  letter-spacing: 0.15em;
+  background-image: repeating-linear-gradient(
+    to left,
+    transparent,
+    transparent 39px,
+    var(--c-wusilan-line) 39px,
+    var(--c-wusilan-line) 40px
+  );
+  background-size: 40px 100%;
+  padding-left: var(--sp-2);
+  white-space: nowrap;
+  color: var(--c-text-primary);
+}
+
+.vertical-original-text {
+  margin: 0;
+  padding: 0;
+  line-height: 2.2 !important;
+  font-size: var(--fs-2xl);
+}
+
+.horizontal-explanation {
+  writing-mode: horizontal-tb;
+  width: 280px;
+  margin-top: var(--sp-4);
+  font-size: var(--fs-sm);
+  opacity: 0.95;
+  background: var(--c-bg-card);
+  padding: var(--sp-4);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--c-border-accent);
+}
+
+.horizontal-explanation .understand-hint,
+.horizontal-explanation .segment-hint {
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: var(--c-text-secondary);
+}
+
+.translation-label {
+  font-size: 10px;
+  background: var(--c-gold-glow);
+  color: var(--c-gold);
+  border: 1px solid var(--c-border-accent);
+  padding: 1px 4px;
+  border-radius: 3px;
+  margin-right: 6px;
+  display: inline-block;
+}
+
+.segment-chunk-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: var(--font-serif);
+  font-size: var(--fs-lg);
+  letter-spacing: 0.05em;
+  padding: var(--sp-3) var(--sp-1.5);
+  background: rgba(201, 169, 110, 0.06);
+  border: 1px dashed var(--c-border-accent);
+  border-radius: var(--radius-sm);
+  color: var(--c-text-primary);
+  display: inline-block;
+  line-height: 1.3;
 }
 </style>

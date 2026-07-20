@@ -32,13 +32,29 @@ export async function getCardState(sentenceId: string): Promise<ReviewCardState>
   }
 }
 
+let dbWritePromiseChain = Promise.resolve()
+
+export function queueDbWrite<T>(writeOp: () => Promise<T>): Promise<T> {
+  return new Promise((resolve, reject) => {
+    dbWritePromiseChain = dbWritePromiseChain.then(async () => {
+      try {
+        const res = await writeOp()
+        resolve(res)
+      } catch (err) {
+        reject(err)
+      }
+    })
+  })
+}
+
 export async function saveCardState(state: ReviewCardState): Promise<void> {
-  await db.cards.put(state)
+  return queueDbWrite(() => db.cards.put(state).then(() => {}))
 }
 
 export async function logReview(review: ReviewInput): Promise<void> {
-  await db.reviews.add(review)
+  return queueDbWrite(() => db.reviews.add(review).then(() => {}))
 }
+
 
 export async function getAllCardStates(): Promise<ReviewCardState[]> {
   return await db.cards.toArray()

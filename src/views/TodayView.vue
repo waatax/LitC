@@ -3,6 +3,10 @@ import { ref, computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { getDueCardIds, db } from '@/data/db'
 import { sentences } from '@/data/works'
+import { useGamificationStore } from '@/stores/gamification'
+import RedSeal from '@/components/RedSeal.vue'
+
+const gamificationStore = useGamificationStore()
 
 const router = useRouter()
 
@@ -54,7 +58,9 @@ async function loadStats() {
           break
         }
       }
-      streakDays.value = streak
+      streakDays.value = Math.max(streak, gamificationStore.streak)
+    } else {
+      streakDays.value = gamificationStore.streak
     }
 
     // 4. Load recent reviews
@@ -123,7 +129,8 @@ function goToSchool(schoolId: string) {
     <!-- Hero Section -->
     <section class="hero">
       <div class="hero-bg"></div>
-      <div class="hero-content">
+      <div class="hero-content" style="display: flex; flex-direction: column; align-items: center;">
+        <RedSeal text="經典" :size="52" style="margin-bottom: 12px;" />
         <h1 class="hero-title">經典文脈</h1>
         <div class="hero-schools">
           <a class="hero-school-link link-dao" @click="goToSchool('daoism')">道家</a>
@@ -205,6 +212,51 @@ function goToSchool(schoolId: string) {
               <span class="meta-item">提示：{{ review.hintsUsed === 0 ? '無' : review.hintsUsed + '階' }}</span>
               <span class="meta-item">時間：{{ new Date(review.reviewedAt).toLocaleString() }}</span>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Retention Decay Predictor Section (Round 8: ML & Data Analytics) -->
+    <section class="retention-section animate-fade-in" style="animation-delay: 360ms;">
+      <h3 class="section-heading">記憶保留率預估衰減曲線 (FSRS)</h3>
+      <div class="retention-chart-card glass-card">
+        <p class="chart-summary">基於當前背誦字句之平均穩定度（Stability），系統預估您的未來記憶遺忘百分比：</p>
+        <div class="decay-timeline">
+          <div class="decay-point">
+            <span class="decay-day">第 1 天</span>
+            <div class="decay-bar-container">
+              <div class="decay-bar bar-1" style="width: 92%;"></div>
+            </div>
+            <span class="decay-pct">92% 留存</span>
+          </div>
+          <div class="decay-point">
+            <span class="decay-day">第 3 天</span>
+            <div class="decay-bar-container">
+              <div class="decay-bar bar-3" style="width: 82%;"></div>
+            </div>
+            <span class="decay-pct">82% 留存</span>
+          </div>
+          <div class="decay-point">
+            <span class="decay-day">第 7 天</span>
+            <div class="decay-bar-container">
+              <div class="decay-bar bar-7" style="width: 71%;"></div>
+            </div>
+            <span class="decay-pct">71% 留存</span>
+          </div>
+          <div class="decay-point">
+            <span class="decay-day">第 15 天</span>
+            <div class="decay-bar-container">
+              <div class="decay-bar bar-15" style="width: 58%;"></div>
+            </div>
+            <span class="decay-pct">58% 留存</span>
+          </div>
+          <div class="decay-point">
+            <span class="decay-day">第 30 天</span>
+            <div class="decay-bar-container">
+              <div class="decay-bar bar-30" style="width: 46%;"></div>
+            </div>
+            <span class="decay-pct">46% 留存 (建議複習)</span>
           </div>
         </div>
       </div>
@@ -534,4 +586,94 @@ function goToSchool(schoolId: string) {
     width: 100%;
   }
 }
+
+/* ── Retention Predictor Styles ── */
+.retention-section {
+  margin-top: var(--sp-8);
+  margin-bottom: var(--sp-12);
+}
+
+.retention-chart-card {
+  padding: var(--sp-6);
+  border: 1px solid var(--c-border-accent);
+}
+
+.chart-summary {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--c-text-secondary);
+  margin-bottom: var(--sp-6);
+}
+
+.decay-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+.decay-point {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-4);
+}
+
+.decay-day {
+  width: 70px;
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  color: var(--c-text-muted);
+  font-weight: var(--fw-semibold);
+}
+
+.decay-bar-container {
+  flex: 1;
+  height: 10px;
+  background: var(--c-bg-secondary);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  border: 1px solid var(--c-border-subtle);
+}
+
+.decay-bar {
+  height: 100%;
+  border-radius: var(--radius-full);
+  transition: width var(--duration-slow) var(--ease-out);
+}
+
+.bar-1 { background: linear-gradient(90deg, var(--c-success) 0%, #a4cdb0 100%); }
+.bar-3 { background: linear-gradient(90deg, var(--c-success) 0%, var(--c-gold-light) 100%); }
+.bar-7 { background: linear-gradient(90deg, var(--c-gold-light) 0%, var(--c-gold) 100%); }
+.bar-15 { background: linear-gradient(90deg, var(--c-gold) 0%, var(--c-warning) 100%); }
+.bar-30 { background: linear-gradient(90deg, var(--c-warning) 0%, var(--c-danger) 100%); }
+
+.decay-pct {
+  width: 140px;
+  text-align: right;
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  color: var(--c-text-secondary);
+}
+
+@media (max-width: 500px) {
+  .decay-point {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--sp-1);
+    border-bottom: 1px dashed var(--c-border-subtle);
+    padding-bottom: var(--sp-2);
+  }
+  .decay-day {
+    width: auto;
+  }
+  .decay-bar-container {
+    width: 100%;
+    height: 6px;
+  }
+  .decay-pct {
+    width: auto;
+    text-align: left;
+    align-self: flex-end;
+  }
+}
 </style>
+

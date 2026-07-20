@@ -18,6 +18,7 @@ const passageSentences = ref<Map<string, Sentence[]>>(new Map())
 type ReadingMode = 'clean' | 'assisted'
 // 典籍庫開啟章節時，優先呈現原文／白話對照；使用者仍可切回純原文。
 const readingMode = ref<ReadingMode>('assisted')
+const isVertical = ref(false)
 
 const mounted = ref(false)
 
@@ -145,29 +146,48 @@ const nextChapter = computed(() => {
         </div>
       </header>
 
-      <!-- Reading Mode Tabs -->
-      <div class="mode-tabs">
+      <!-- Reading Mode Tabs & Vertical Toggle -->
+      <div class="reading-controls-bar">
+        <div class="mode-tabs">
+          <button
+            class="mode-tab"
+            :class="{ 'is-active': readingMode === 'clean' }"
+            @click="readingMode = 'clean'"
+          >
+            📖 淨讀
+          </button>
+          <button
+            class="mode-tab"
+            :class="{ 'is-active': readingMode === 'assisted' }"
+            @click="readingMode = 'assisted'"
+          >
+            💬 輔讀
+          </button>
+        </div>
+
         <button
-          class="mode-tab"
-          :class="{ 'is-active': readingMode === 'clean' }"
-          @click="readingMode = 'clean'"
+          class="btn btn-ghost layout-toggle-btn"
+          @click="isVertical = !isVertical"
+          :title="isVertical ? '切換為橫排' : '切換為直排'"
         >
-          📖 淨讀
-        </button>
-        <button
-          class="mode-tab"
-          :class="{ 'is-active': readingMode === 'assisted' }"
-          @click="readingMode = 'assisted'"
-        >
-          💬 輔讀
+          {{ isVertical ? '🔤 橫書' : '📜 直書' }}
         </button>
       </div>
 
       <!-- Reading Content -->
-      <div class="reading-content">
+      <div class="reading-content" :class="{ 'is-vertical-layout': isVertical }">
         <!-- Clean Mode -->
         <div v-if="readingMode === 'clean'" class="clean-mode">
-          <div class="text-body classical-text-lg">
+          <div v-if="isVertical" class="vertical-container">
+            <div class="vertical-text-flow">
+              <p
+                v-for="passage in passages"
+                :key="passage.id"
+                class="passage-text"
+              >{{ passage.canonicalText }}</p>
+            </div>
+          </div>
+          <div v-else class="text-body classical-text-lg">
             <p
               v-for="passage in passages"
               :key="passage.id"
@@ -181,7 +201,20 @@ const nextChapter = computed(() => {
 
         <!-- Assisted Mode -->
         <div v-if="readingMode === 'assisted'" class="assisted-mode">
-          <div v-for="passage in passages" :key="passage.id" class="sentence-row">
+          <div v-if="isVertical" class="vertical-container" style="height: 520px;">
+            <div class="vertical-assisted-list">
+              <div v-for="passage in passages" :key="passage.id" class="vertical-passage-box">
+                <div class="vertical-orig-wrapper">
+                  <p class="sentence-original classical-text-lg vertical-original-text">{{ passage.canonicalText }}</p>
+                </div>
+                <div class="horizontal-explanation">
+                  <p class="sentence-hint"><span class="translation-label">白話</span>{{ passageAid(passage).translation }}</p>
+                  <p class="sentence-hint"><span class="translation-label">解析</span>{{ passageAid(passage).analysis }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div v-else v-for="passage in passages" :key="passage.id" class="sentence-row">
             <p class="sentence-original classical-text">{{ passage.canonicalText }}</p>
             <p class="sentence-hint"><span class="translation-label">白話文</span>{{ passageAid(passage).translation }}</p>
             <p class="sentence-hint"><span class="translation-label">解析</span>{{ passageAid(passage).analysis }}</p>
@@ -528,5 +561,110 @@ const nextChapter = computed(() => {
   .action-btn {
     width: 100%;
   }
+}
+
+/* ── Reading Controls Bar ── */
+.reading-controls-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--sp-6);
+  border-bottom: 1px solid var(--c-border-subtle);
+  padding-bottom: var(--sp-3);
+  animation: fadeInUp var(--duration-slow) var(--ease-out) 100ms both;
+}
+
+.reading-controls-bar .mode-tabs {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.layout-toggle-btn {
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  padding: var(--sp-1.5) var(--sp-3);
+  height: auto;
+}
+
+/* ── Vertical Assisted Layout ── */
+.vertical-assisted-list {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: var(--sp-8);
+  height: 100%;
+  padding: var(--sp-2) 0;
+}
+
+.vertical-passage-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-left: 1px dashed var(--c-border-accent);
+  padding-left: var(--sp-6);
+}
+
+.vertical-passage-box:last-child {
+  border-left: none;
+}
+
+.vertical-orig-wrapper {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  flex: 1;
+  font-family: var(--font-serif);
+  font-size: var(--fs-xl);
+  line-height: 2.2;
+  letter-spacing: 0.15em;
+  background-image: repeating-linear-gradient(
+    to left,
+    transparent,
+    transparent 39px,
+    var(--c-wusilan-line) 39px,
+    var(--c-wusilan-line) 40px
+  );
+  background-size: 40px 100%;
+  padding-left: var(--sp-2);
+  white-space: nowrap;
+  color: var(--c-text-primary);
+}
+
+.vertical-original-text {
+  margin: 0;
+  padding: 0;
+  line-height: 2.2 !important;
+  font-size: var(--fs-2xl);
+}
+
+.horizontal-explanation {
+  writing-mode: horizontal-tb;
+  width: 280px;
+  margin-top: var(--sp-4);
+  font-size: var(--fs-sm);
+  opacity: 0.95;
+  background: var(--c-bg-card);
+  padding: var(--sp-4);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--c-border-accent);
+}
+
+.horizontal-explanation .sentence-hint {
+  margin-bottom: var(--sp-3) !important;
+  line-height: 1.5;
+  color: var(--c-text-secondary);
+}
+
+.horizontal-explanation .sentence-hint:last-child {
+  margin-bottom: 0 !important;
+}
+
+.horizontal-explanation .translation-label {
+  font-size: 11px;
+  background: var(--c-gold-glow);
+  color: var(--c-gold);
+  border: 1px solid var(--c-border-accent);
+  padding: 1px 4px;
+  border-radius: 3px;
+  margin-right: 6px;
+  display: inline-block;
 }
 </style>

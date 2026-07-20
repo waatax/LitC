@@ -16,32 +16,47 @@ const activeFilter = ref<FilterTab>('all')
 const expandedWorkId = ref<string | null>(null)
 
 // Load data
-const allSchools = ref<School[]>([])
-const allWorks = ref<Work[]>([])
+const allSchools = ref<School[]>(getSchools())
+const allWorks = ref<Work[]>(getWorks())
 const workChapters = ref<Map<string, Chapter[]>>(new Map())
 
 function checkQueryFilter() {
   const schoolParam = route.query.school as string
+  const workParam = route.query.work as string
+  
+  if (workParam) {
+    const work = allWorks.value.find(w => w.id === workParam)
+    if (work) {
+      activeFilter.value = work.schoolId as FilterTab
+      expandedWorkId.value = work.id
+      // Lazy load chapters
+      if (!workChapters.value.has(work.id)) {
+        workChapters.value.set(work.id, getChapters(work.id))
+      }
+      return
+    }
+  }
+
   if (schoolParam) {
     if (schoolParam === 'all' || ['daoism', 'legalism', 'mohism', 'confucianism', 'literature'].includes(schoolParam)) {
       activeFilter.value = schoolParam as FilterTab
       expandedWorkId.value = null
     }
+  } else {
+    activeFilter.value = 'all'
+    expandedWorkId.value = null
   }
 }
 
 onMounted(() => {
-  allSchools.value = getSchools()
-  allWorks.value = getWorks()
-  checkQueryFilter()
   requestAnimationFrame(() => {
     mounted.value = true
   })
 })
 
-watch(() => route.query.school, () => {
+watch(() => route.fullPath, () => {
   checkQueryFilter()
-})
+}, { immediate: true })
 
 interface FilterOption {
   id: FilterTab

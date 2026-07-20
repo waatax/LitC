@@ -20,13 +20,22 @@ export function scheduleReview(
   let nextStability = currentCard.stability
   let nextDifficulty = currentCard.difficulty
 
+  // Calibrate rating based on typing accuracy:
+  // If the user's typing diff accuracy is below 80%, force a downgrade of 'easy'/'good' to 'hard'.
+  let rating = input.rating
+  if (input.answerMode === 'typing' && input.diffAccuracy !== undefined && input.diffAccuracy < 80) {
+    if (rating === 'easy' || rating === 'good') {
+      rating = 'hard'
+    }
+  }
+
   // Determine learning state transition
   let scheduleState: 'learning' | 'review' | 'relearning' = 'learning'
   let nextMastery: MasteryState = 'learning'
 
   if (currentCard.reviewCount === 0) {
     // First review
-    switch (input.rating) {
+    switch (rating) {
       case 'again':
         nextStability = 0.05 // ~1.2 hours
         nextDifficulty = 6
@@ -56,7 +65,7 @@ export function scheduleReview(
     // Subsequent review
     scheduleState = currentCard.mastery === 'stable' ? 'review' : 'learning'
 
-    switch (input.rating) {
+    switch (rating) {
       case 'again':
         nextStability = 0.1 // ~2.4 hours
         nextDifficulty = Math.min(10, currentCard.difficulty + 1.0)
@@ -86,18 +95,38 @@ export function scheduleReview(
     }
   }
 
-  // Adjust stability for hints used
-  if (input.hintsUsed > 0 && input.rating !== 'again') {
-    // Punish hint usage by dividing stability by (1 + 0.5 * hintsUsed)
-    nextStability = Math.max(0.1, nextStability / (1 + 0.5 * input.hintsUsed))
+  // Adjust stability for hints used (Hint Penalty Matrix)
+  // hintsUsed values map to:
+  // 0: blank (no hint used) -> multiplier 1.0 (no penalty)
+  // 1: meaning-only -> multiplier 0.8
+  // 2: first-char -> multiplier 0.6
+  // 3: keyword-mask -> multiplier 0.4
+  // 4: full -> multiplier 0.1
+  if (rating !== 'again') {
+    let multiplier = 1.0
+    if (input.hintsUsed === 1) {
+      multiplier = 0.8
+    } else if (input.hintsUsed === 2) {
+      multiplier = 0.6
+    } else if (input.hintsUsed === 3) {
+      multiplier = 0.4
+    } else if (input.hintsUsed === 4) {
+      multiplier = 0.1
+    }
+    nextStability = Math.max(0.05, nextStability * multiplier)
   }
 
-  // Cap stability between 0.05 and 365 days
-  nextStability = Math.min(365, Math.max(0.05, nextStability))
+  // Cap stability between 0.05 and 365 days, preventing NaN
+  nextStability = Math.min(365, Math.max(0.05, nextStability || 0.1))
 
-  // Calculate next due date
+  // Calculate next due date, ensuring it is at least 1 minute in the future relative to current wall time
   const msInADay = 24 * 60 * 60 * 1000
-  const nextDueDate = new Date(now.getTime() + nextStability * msInADay)
+  let targetTime = now.getTime() + nextStability * msInADay
+  const currentTime = Date.now()
+  if (targetTime <= currentTime) {
+    targetTime = currentTime + 60000 // at least 1 minute in the future
+  }
+  const nextDueDate = new Date(targetTime)
 
   const cardState: ReviewCardState = {
     sentenceId: input.cardId,
@@ -116,6 +145,7 @@ export function scheduleReview(
     predictedRetention: 0.9,
     state: scheduleState
   }
+
 
   return { cardState, schedule }
 }

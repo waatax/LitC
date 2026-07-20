@@ -59,6 +59,13 @@ export interface Passage {
   sourceRefs: SourceReference[]
 }
 
+export interface StructuredTranslation {
+  translation: string        // 現代漢語意譯
+  wordGlossary?: string      // 關鍵字詞釋義
+  philosophicalNote?: string // 思想哲理/章旨析理
+  writingApplication?: string// 寫作與修辭應用引導
+}
+
 // ── Layer 5: Sentence ────────────────────────────
 
 export interface Sentence {
@@ -68,6 +75,7 @@ export interface Sentence {
   canonicalText: string
   chunks: Chunk[]        // inline for convenience
   translationHint?: string
+  structuredTranslation?: StructuredTranslation
   allowedVariants?: AllowedVariant[]
   tags: string[]
 }
@@ -124,6 +132,7 @@ export interface ReviewInput {
   answerMode: 'recall' | 'typing' | 'ordering' | 'recitation'
   hintsUsed: number
   responseMs?: number
+  diffAccuracy?: number // Added for objective accuracy calibration
 }
 
 export type HintLevel = 'full' | 'keyword-mask' | 'first-char' | 'meaning-only' | 'blank'
