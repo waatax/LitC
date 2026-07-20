@@ -126,7 +126,7 @@ async function run() {
       id: chapterId,
       workId,
       order: chNum,
-      title: `第${chNum}章`,
+      title: `第${chNum}段`,
       difficulty: 2,
       estimatedMinutes: Math.max(1, Math.round(pureText.length / 100)),
       passageIds: [passageId],

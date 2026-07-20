@@ -48,4 +48,17 @@ router.afterEach((to) => {
     : '經典文脈 ClassicFlow'
 })
 
+// Handle dynamic import failures (e.g. chunk loading errors after new deployments)
+router.onError((error) => {
+  if (
+    error.message.includes('Failed to fetch dynamically imported module') ||
+    error.message.includes('Failed to fetch') ||
+    /loading chunk/i.test(error.message)
+  ) {
+    console.warn('Dynamic import failed, reloading page to fetch latest version...', error)
+    window.location.reload()
+  }
+})
+
 export default router
+

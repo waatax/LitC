@@ -10,4 +10,21 @@ const app = createApp(App)
 app.use(createPinia())
 app.use(router)
 
+// Catch global unhandled promise rejections for failed dynamic imports
+window.addEventListener('unhandledrejection', (event) => {
+  if (event.reason) {
+    const msg = event.reason.message || ''
+    if (
+      msg.includes('Failed to fetch dynamically imported module') ||
+      msg.includes('Failed to fetch') ||
+      /loading chunk/i.test(msg)
+    ) {
+      event.preventDefault()
+      console.warn('Unhandled rejection from failed dynamic import, reloading...', event.reason)
+      window.location.reload()
+    }
+  }
+})
+
 app.mount('#app')
+

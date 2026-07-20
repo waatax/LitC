@@ -18,7 +18,7 @@ function run() {
   // 2. Format Dao De Jing chapters to Markdown
   let markdownText = '## 一、《道德經》全本\n\n';
   rawDaoDeJing.forEach((ch) => {
-    markdownText += `### 第${ch.chapterNum}章\n\n${ch.text}\n\n`;
+    markdownText += `### 第${ch.chapterNum}段\n\n${ch.text}\n\n`;
   });
 
   // 3. Replace the section in the document
