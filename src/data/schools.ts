@@ -7,9 +7,9 @@ export const schools: School[] = [
   {
     id: 'daoism',
     name: '道家',
-    description: '以「道」為核心，主張自然無為、柔弱勝剛強，代表人物老子、莊子。',
+    description: '以「道」為核心，主張自然無為、柔弱勝剛強，代表人物老子、莊子、列子。',
     icon: '☯️',
-    workIds: ['dao-de-jing', 'zhuangzi'],
+    workIds: ['dao-de-jing', 'zhuangzi', 'liezi'],
   },
   {
     id: 'legalism',
