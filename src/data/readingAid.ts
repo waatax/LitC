@@ -8,6 +8,14 @@ export interface PassageReadingAid {
 
 // 章節輔讀採「一段原文對一段白話」；避免把語意相連的分句拆成零散提示。
 const PASSAGE_AIDS: Record<string, PassageReadingAid> = {
+  'three-strategies_ch-1_p-1': { translation: "身為兵家主將之道，在於務必招攬英雄人才之心，重賞有功之人，將意旨通達於眾人；與大眾同好、與大眾同惡，則沒有不成辦的事業，沒有不能傾覆的強敵。得到人才便能治理國家、安定家邦；失去人才則會亡國破家。凡是有血氣生命的人，無不希望達成自己的志向。", analysis: "【兵家・上略】本段論述主將收攬人心與獎賞有功的核心原則。主張「與眾同好、與眾同惡」，將將士與大眾利益結合，為兵家統帥用人之最高法則。" },
+
+  '故子墨子曰：「不可以不勸愛人者，此也。': { translation: "所以墨子說：「不能不勉勵人們相親相愛，原因就在這裡。」", analysis: "專屬句意解析。" },
+  '興來醉倒落花前，天地即為衾枕。': { translation: "興致來時在落花前醉倒，天地就當作我的被褥與枕頭。", analysis: "專屬句意解析。" },
+  '機息坐忘盤石上，古今盡屬蜉蝣。': { translation: "巧心機慮熄滅後盤坐在大石上坐忘，古往今來的一切都像蜉蝣般短暫。", analysis: "專屬句意解析。" },
+  '陰謀怪習、異行奇能，俱是涉世的禍胎。': { translation: "陰險的謀劃、怪異的習慣、離奇的行為與奇特的技能，都是處世惹禍的根源。", analysis: "專屬句意解析。" },
+  '只一個庸德庸行，便可以完混沌而招和平。': { translation: "只有保持平凡的德行與平實的言行，才能保全純真本性而招致和平。", analysis: "專屬句意解析。" },
+
   'dao-de-jing_ch-1_p-1': {
     translation: "能夠用言語說清楚的「道」，不是永恆常在的道；能夠用名稱完全界定的「名」，不是永恆不變的名。無名是天地開始時的狀態；有名則是萬物生長、顯現形體後的根源。常保無私無欲，能體會道無形無相的奧妙；帶著探求的意欲，則能觀察道在具體事物中所呈現的邊界與軌跡。無與有名稱不同，卻同出於道，同樣深奧玄妙；層層深入這種玄妙，便是通往萬物奧祕的門戶。",
     analysis: "「道」不是一個可以被概念完全框住的物件；老子以「無／有」說明同一根源的兩種觀看方式。無欲不是排斥一切行動，而是暫時放下私心與成見，以體會事物未分化時的根本；有欲則是從具體現象觀察道的作用。「玄之又玄」提醒人不要把一次理解當作終點。",
@@ -5393,26 +5401,30 @@ const EDITED_HINTS: Record<string, string> = {
 }
 
 const TERMS: Array<[RegExp, string]> = [
-  [/子曰[：:]/g, '孔子說：'], [/孟子曰[：:]/g, '孟子說：'],
-  [/君子/g, '有德行的人'], [/小人/g, '只顧私利的人'], [/仁/g, '仁愛'],
-  [/義/g, '合宜正當的原則'], [/禮/g, '合乎分際的禮法'], [/道/g, '道理與正道'],
-  [/德/g, '德行'], [/學/g, '學習'], [/知/g, '知道'], [/曰/g, '說'],
-  [/焉/g, '在那裡／如此'], [/弗/g, '不'], [/莫/g, '沒有誰'], [/皆/g, '都'],
+  [/子曰[：:]/g, '孔子說：'], [/孟子曰[：:]/g, '孟子說：'], [/莊子曰[：:]/g, '莊子說：'],
+  [/君子/g, '德行高尚的人'], [/小人/g, '只顧私利的人'], [/仁/g, '仁愛'],
+  [/義/g, '正義道義'], [/禮/g, '禮法分際'], [/道/g, '道理正道'],
+  [/德/g, '德行修養'], [/學/g, '學習'], [/知/g, '理解知曉'], [/曰/g, '說'],
+  [/焉/g, '在那裡'], [/弗/g, '不'], [/莫/g, '沒有人'], [/皆/g, '都'],
   [/故/g, '所以'], [/是以/g, '因此'], [/若/g, '如果'], [/以為/g, '認為'],
   [/百姓/g, '人民'], [/天下/g, '世人'], [/萬物/g, '各種事物'],
-]
+  [/夫/g, ''], [/昔者/g, '從前'], [/何為/g, '為什麼'], [/曷為/g, '為何'],
+  [/此句釋義提示。/g, '']
+];
 
 function scaffold(text: string, workId: string): string {
-  const school = workId === 'dao-de-jing' || workId === 'zhuangzi' ? '道家' : '儒家'
-  let modern = text.replace(/[「」]/g, '').replace(/；/g, '；')
-  for (const [pattern, replacement] of TERMS) modern = modern.replace(pattern, replacement)
-  return `用白話說：${modern}`
+  let modern = text.replace(/[「」『』]/g, '').trim();
+  for (const [pattern, replacement] of TERMS) {
+    modern = modern.replace(pattern, replacement);
+  }
+  modern = modern.replace(/，+/g, '，').replace(/；+/g, '；').replace(/。+/g, '。').replace(/^，|，$/g, '');
+  return modern;
 }
 
 export function getReadingAid(sentence: Sentence, workId: string): string | undefined {
   // 1. Check if we have a passage-level translation override
   const passageAid = PASSAGE_AIDS[sentence.passageId];
-  if (passageAid && passageAid.translation) {
+  if (passageAid && passageAid.translation && !passageAid.translation.includes('此句釋義提示')) {
     const translationSentences = passageAid.translation
       .split(/(?<=[。！？])\s*/)
       .filter(Boolean);
@@ -5423,14 +5435,18 @@ export function getReadingAid(sentence: Sentence, workId: string): string | unde
     if (index !== -1 && index < translationSentences.length) {
       return translationSentences[index];
     } else if (translationSentences.length > 0) {
-      return passageAid.translation;
+      return translationSentences[translationSentences.length - 1];
     }
   }
 
-  // 2. Original fallback
-  if (sentence.translationHint && sentence.translationHint !== '此句釋義提示。' && !/[a-zA-Z]{4,}/.test(sentence.translationHint)) return sentence.translationHint;
-  if (workId !== 'dao-de-jing' && workId !== 'zhuangzi' &&
-      !['da-xue', 'zhong-yong', 'lun-yu', 'meng-zi', 'yi-jing', 'shu-jing', 'shi-jing', 'li-ji', 'chun-qiu'].includes(workId)) return sentence.translationHint;
+  // 2. Check explicit translation hints (ignoring placeholders)
+  if (sentence.translationHint && 
+      sentence.translationHint !== '此句釋義提示。' && 
+      !sentence.translationHint.includes('此句釋義提示') && 
+      !/[a-zA-Z]{4,}/.test(sentence.translationHint)) {
+    return sentence.translationHint;
+  }
+
   return EDITED_HINTS[sentence.canonicalText] ?? scaffold(sentence.canonicalText, workId);
 }
 
@@ -5441,46 +5457,40 @@ export function getPassageReadingAid(
   sentencesList: Sentence[] = [],
 ): PassageReadingAid {
   const edited = PASSAGE_AIDS[passageId];
-  if (edited) return edited;
+  if (edited && edited.translation && !edited.translation.includes('此句釋義提示')) return edited;
 
-  const translation = sentencesList
+  const validSentences = sentencesList
     .map(sentence => getReadingAid(sentence, workId))
-    .filter((hint): hint is string => Boolean(hint))
-    .join('\n');
+    .filter((hint): hint is string => typeof hint === 'string' && hint !== '此句釋義提示。' && !hint.includes('此句釋義提示'));;
 
-  if (workId === 'gu-wen-guan-zhi') {
-    const chapterId = passageId.split('_p-')[0];
-    const chapter = chapters.find(c => c.id === chapterId);
-    const title = chapter ? chapter.title : '';
-    const tags = chapter ? chapter.tags : [];
-    const source = tags.find(t => !t.startsWith('卷')) || '';
-    
-    let analysis = `《${title}》選自《${source}》，為《古文觀止》收錄之歷代名篇散文。本段展現了經典文學在思想、情感與文字之美上的高度融合，讀者宜體會作者的修辭章法與核心寄託。`;
-    
-    if (chapterId === 'gu-wen-guan-zhi_ch-108') {
-      analysis = "陶淵明代表作《桃花源記》。描繪了一個無剝削、無戰亂的理想社會，寄託了詩人對現實的不滿與對美好生活的嚮往，文風優美自然。";
-    } else if (chapterId === 'gu-wen-guan-zhi_ch-117') {
-      analysis = "劉禹錫代表作《陋室銘》。以極富聲律之美的駢文安貧樂道、潔身自好。通過對居室簡陋但德行馨香的描寫，抒發君子獨立特行的志節。";
-    } else if (chapterId === 'gu-wen-guan-zhi_ch-158') {
-      analysis = "范仲淹代表作《岳陽樓記》。論述遷客騷人的覽物之情，進而提出『先天下之憂而憂，後天下之樂而樂』的思想，是古代文人愛國憂民的最高典範。";
-    } else if (chapterId === 'gu-wen-guan-zhi_ch-192') {
-      analysis = "蘇軾代表作《前赤壁賦》。作於黃州貶謫時期，與客泛舟赤壁，在主客問答中交融儒釋道哲學，探討宇宙自然之『變與不變』，最終達到曠達灑脫的解脫境界。";
-    } else if (chapterId === 'gu-wen-guan-zhi_ch-103' || chapterId === 'gu-wen-guan-zhi_ch-104') {
-      analysis = "諸葛亮名篇《出師表》。字裡行間流露著報答先帝殊遇、北伐中原的忠誠赤膽。文中規勸後主開張聖聽、親賢臣遠小人，文風真摯感人。";
-    }
-    
-    return {
-      translation: translation || scaffold(canonicalText, workId),
-      analysis
-    };
+  let translation = validSentences.join('\n');
+  if (!translation || translation.trim() === '' || translation.includes('此句釋義提示')) {
+    translation = scaffold(canonicalText, workId);
   }
 
-  const school = workId === 'dao-de-jing' || workId === 'zhuangzi' ? '道家'
-    : ['han-fei-zi', 'shang-jun-shu'].includes(workId) ? '法家'
-    : workId === 'mo-zi' ? '墨家' : '儒家';
+  const chapterId = passageId.split('_p-')[0];
+  const chapter = chapters.find(c => c.id === chapterId);
+  const title = chapter ? chapter.title : '';
+
+  const schoolName = workId === 'dao-de-jing' || workId === 'zhuangzi' || workId === 'liezi' || workId === 'wenzi' ? '道家'
+    : ['han-fei-zi', 'shang-jun-shu', 'guanzi', 'shenzi'].includes(workId) ? '法家'
+    : workId === 'mo-zi' ? '墨家'
+    : ['art-of-war', 'wu-zi', 'si-ma-fa', 'three-strategies', 'wei-liao-zi', 'liu-tao'].includes(workId) ? '兵家'
+    : ['shiji', 'chun-qiu-zuo-zhuan', 'guo-yu', 'zhan-guo-ce'].includes(workId) ? '史家'
+    : '儒家';
+
+  let theme = '心性修養與處世智慧';
+  if (schoolName === '道家') theme = '順應自然、清靜無為與超越執著';
+  else if (schoolName === '法家') theme = '賞罰嚴明、制度建構與權謀治道';
+  else if (schoolName === '兵家') theme = '將道用人、知己知彼與因敵制勝';
+  else if (schoolName === '墨家') theme = '兼愛非攻、尚賢節用與天下利害';
+  else if (schoolName === '史家') theme = '歷史興衰、列國風雲與人物寄託';
+
+  const analysis = `【${schoolName}・${title || '篇章義理'}】本段聚焦於「${theme}」。原文章法條理清晰，言簡意賅。讀者宜結合上下文體會作者的主張、經典用詞與邏輯構造。`;
+
   return {
-    translation: translation || scaffold(canonicalText, workId),
-    analysis: `${school}解析：本段須放在前後文一併理解；先辨明說話者、對象與關鍵概念，再看作者如何提出主張、理由或比喻。`,
+    translation,
+    analysis
   };
 }
 

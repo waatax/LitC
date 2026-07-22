@@ -1,0 +1,512 @@
+{
+  "summary": {
+    "totalWorks": 50,
+    "totalChapters": 588,
+    "totalPassages": 3823,
+    "totalSentences": 28454,
+    "totalTranslatedSentences": 10,
+    "overallTranslationCoveragePct": "0.0"
+  },
+  "works": [
+    {
+      "id": "dao-de-jing",
+      "title": "道德經",
+      "schoolId": "daoism",
+      "chaptersCount": 81,
+      "sentencesCount": 573,
+      "totalChars": 5285,
+      "translatedSents": 2,
+      "transCoveragePct": "0.3"
+    },
+    {
+      "id": "zhuangzi",
+      "title": "莊子",
+      "schoolId": "daoism",
+      "chaptersCount": 9,
+      "sentencesCount": 129,
+      "totalChars": 1644,
+      "translatedSents": 1,
+      "transCoveragePct": "0.8"
+    },
+    {
+      "id": "han-fei-zi",
+      "title": "韓非子",
+      "schoolId": "legalism",
+      "chaptersCount": 8,
+      "sentencesCount": 81,
+      "totalChars": 1311,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "shang-jun-shu",
+      "title": "商君書",
+      "schoolId": "legalism",
+      "chaptersCount": 3,
+      "sentencesCount": 44,
+      "totalChars": 583,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "mo-zi",
+      "title": "墨子",
+      "schoolId": "mohism",
+      "chaptersCount": 7,
+      "sentencesCount": 139,
+      "totalChars": 1784,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "da-xue",
+      "title": "大學",
+      "schoolId": "confucianism",
+      "chaptersCount": 11,
+      "sentencesCount": 146,
+      "totalChars": 1809,
+      "translatedSents": 1,
+      "transCoveragePct": "0.7"
+    },
+    {
+      "id": "zhong-yong",
+      "title": "中庸",
+      "schoolId": "confucianism",
+      "chaptersCount": 33,
+      "sentencesCount": 309,
+      "totalChars": 3568,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "lun-yu",
+      "title": "論語",
+      "schoolId": "confucianism",
+      "chaptersCount": 20,
+      "sentencesCount": 2254,
+      "totalChars": 15905,
+      "translatedSents": 4,
+      "transCoveragePct": "0.2"
+    },
+    {
+      "id": "meng-zi",
+      "title": "孟子",
+      "schoolId": "confucianism",
+      "chaptersCount": 14,
+      "sentencesCount": 3464,
+      "totalChars": 35638,
+      "translatedSents": 2,
+      "transCoveragePct": "0.1"
+    },
+    {
+      "id": "yi-jing",
+      "title": "易經",
+      "schoolId": "confucianism",
+      "chaptersCount": 64,
+      "sentencesCount": 128,
+      "totalChars": 1989,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "shu-jing",
+      "title": "尚書",
+      "schoolId": "confucianism",
+      "chaptersCount": 1,
+      "sentencesCount": 5,
+      "totalChars": 58,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "shi-jing",
+      "title": "詩經",
+      "schoolId": "confucianism",
+      "chaptersCount": 2,
+      "sentencesCount": 18,
+      "totalChars": 146,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "li-ji",
+      "title": "禮記",
+      "schoolId": "confucianism",
+      "chaptersCount": 1,
+      "sentencesCount": 8,
+      "totalChars": 107,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "chun-qiu",
+      "title": "春秋",
+      "schoolId": "confucianism",
+      "chaptersCount": 1,
+      "sentencesCount": 15,
+      "totalChars": 118,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "gu-wen-guan-zhi",
+      "title": "古文觀止",
+      "schoolId": "literature",
+      "chaptersCount": 222,
+      "sentencesCount": 6527,
+      "totalChars": 105853,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "cai-gen-tan",
+      "title": "菜根譚",
+      "schoolId": "literature",
+      "chaptersCount": 5,
+      "sentencesCount": 896,
+      "totalChars": 14019,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "liezi",
+      "title": "列子",
+      "schoolId": "daoism",
+      "chaptersCount": 8,
+      "sentencesCount": 2411,
+      "totalChars": 30749,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "shen-bu-hai",
+      "title": "申不害",
+      "schoolId": "legalism",
+      "chaptersCount": 1,
+      "sentencesCount": 80,
+      "totalChars": 988,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "shenzi",
+      "title": "慎子",
+      "schoolId": "legalism",
+      "chaptersCount": 8,
+      "sentencesCount": 281,
+      "totalChars": 4227,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "jian-zhu-ke-shu",
+      "title": "諫逐客書",
+      "schoolId": "legalism",
+      "chaptersCount": 1,
+      "sentencesCount": 38,
+      "totalChars": 842,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "guanzi",
+      "title": "管子",
+      "schoolId": "legalism",
+      "chaptersCount": 4,
+      "sentencesCount": 458,
+      "totalChars": 5728,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "art-of-war",
+      "title": "孫子兵法",
+      "schoolId": "military",
+      "chaptersCount": 13,
+      "sentencesCount": 388,
+      "totalChars": 6034,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "wu-zi",
+      "title": "吳子",
+      "schoolId": "military",
+      "chaptersCount": 6,
+      "sentencesCount": 318,
+      "totalChars": 4723,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "si-ma-fa",
+      "title": "司馬法",
+      "schoolId": "military",
+      "chaptersCount": 1,
+      "sentencesCount": 342,
+      "totalChars": 3417,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "three-strategies",
+      "title": "三略",
+      "schoolId": "military",
+      "chaptersCount": 1,
+      "sentencesCount": 330,
+      "totalChars": 3810,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "wei-liao-zi",
+      "title": "尉繚子",
+      "schoolId": "military",
+      "chaptersCount": 5,
+      "sentencesCount": 170,
+      "totalChars": 2849,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "liu-tao",
+      "title": "六韜",
+      "schoolId": "military",
+      "chaptersCount": 4,
+      "sentencesCount": 119,
+      "totalChars": 1298,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "shiji",
+      "title": "史記",
+      "schoolId": "histories",
+      "chaptersCount": 2,
+      "sentencesCount": 544,
+      "totalChars": 6853,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "chun-qiu-zuo-zhuan",
+      "title": "春秋左傳",
+      "schoolId": "histories",
+      "chaptersCount": 2,
+      "sentencesCount": 955,
+      "totalChars": 11061,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "zhan-guo-ce",
+      "title": "戰國策",
+      "schoolId": "histories",
+      "chaptersCount": 1,
+      "sentencesCount": 194,
+      "totalChars": 2945,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "yan-tie-lun",
+      "title": "鹽鐵論",
+      "schoolId": "histories",
+      "chaptersCount": 4,
+      "sentencesCount": 238,
+      "totalChars": 4143,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "yandanzi",
+      "title": "燕丹子",
+      "schoolId": "histories",
+      "chaptersCount": 1,
+      "sentencesCount": 192,
+      "totalChars": 2721,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "xijing-zaji",
+      "title": "西京雜記",
+      "schoolId": "histories",
+      "chaptersCount": 2,
+      "sentencesCount": 256,
+      "totalChars": 4529,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "lost-book-of-zhou",
+      "title": "逸周書",
+      "schoolId": "histories",
+      "chaptersCount": 2,
+      "sentencesCount": 32,
+      "totalChars": 1655,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "guo-yu",
+      "title": "國語",
+      "schoolId": "histories",
+      "chaptersCount": 2,
+      "sentencesCount": 507,
+      "totalChars": 7982,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "yanzi-chun-qiu",
+      "title": "晏子春秋",
+      "schoolId": "histories",
+      "chaptersCount": 0,
+      "sentencesCount": 0,
+      "totalChars": 0,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "wu-yue-chun-qiu",
+      "title": "吳越春秋",
+      "schoolId": "histories",
+      "chaptersCount": 2,
+      "sentencesCount": 115,
+      "totalChars": 1795,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "yue-jue-shu",
+      "title": "越絕書",
+      "schoolId": "histories",
+      "chaptersCount": 2,
+      "sentencesCount": 149,
+      "totalChars": 2263,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "lie-nv-zhuan",
+      "title": "列女傳",
+      "schoolId": "histories",
+      "chaptersCount": 1,
+      "sentencesCount": 30,
+      "totalChars": 425,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "guliang-zhuan",
+      "title": "春秋穀梁傳",
+      "schoolId": "histories",
+      "chaptersCount": 1,
+      "sentencesCount": 74,
+      "totalChars": 636,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "gongyang-zhuan",
+      "title": "春秋公羊傳",
+      "schoolId": "histories",
+      "chaptersCount": 1,
+      "sentencesCount": 106,
+      "totalChars": 665,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "han-shu",
+      "title": "漢書",
+      "schoolId": "histories",
+      "chaptersCount": 1,
+      "sentencesCount": 923,
+      "totalChars": 13677,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "hou-han-shu",
+      "title": "後漢書",
+      "schoolId": "histories",
+      "chaptersCount": 1,
+      "sentencesCount": 411,
+      "totalChars": 6641,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "qian-han-ji",
+      "title": "前漢紀",
+      "schoolId": "histories",
+      "chaptersCount": 2,
+      "sentencesCount": 1048,
+      "totalChars": 5506,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "dong-guan-han-ji",
+      "title": "東觀漢記",
+      "schoolId": "histories",
+      "chaptersCount": 2,
+      "sentencesCount": 658,
+      "totalChars": 11688,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "zhushu-jinian",
+      "title": "竹書紀年",
+      "schoolId": "histories",
+      "chaptersCount": 2,
+      "sentencesCount": 15,
+      "totalChars": 124,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "mutianzi-zhuan",
+      "title": "穆天子傳",
+      "schoolId": "histories",
+      "chaptersCount": 2,
+      "sentencesCount": 171,
+      "totalChars": 2170,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "gu-san-fen",
+      "title": "古三墳",
+      "schoolId": "histories",
+      "chaptersCount": 2,
+      "sentencesCount": 92,
+      "totalChars": 1939,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "wenzi",
+      "title": "文子",
+      "schoolId": "daoism",
+      "chaptersCount": 10,
+      "sentencesCount": 1124,
+      "totalChars": 39186,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    },
+    {
+      "id": "wenshi-zhenjing",
+      "title": "文始真經",
+      "schoolId": "daoism",
+      "chaptersCount": 9,
+      "sentencesCount": 949,
+      "totalChars": 11201,
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
+    }
+  ]
+}
