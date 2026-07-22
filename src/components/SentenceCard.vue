@@ -517,7 +517,7 @@ const chunkGroups = computed<ChunkGroup[]>(() => {
   border: 1px solid var(--c-border-accent);
   padding: 2px var(--sp-2);
   font-family: var(--font-sans);
-  font-size: 10px;
+  font-size: 0.625rem;
   color: var(--c-text-muted);
   cursor: pointer;
   border-radius: var(--radius-sm);
@@ -558,7 +558,7 @@ const chunkGroups = computed<ChunkGroup[]>(() => {
 
 .pinyin-rt {
   font-family: var(--font-sans);
-  font-size: 11px;
+  font-size: 0.6875rem;
   color: var(--c-gold);
   letter-spacing: 0;
   user-select: none;

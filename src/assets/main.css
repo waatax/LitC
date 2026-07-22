@@ -130,6 +130,19 @@ html {
   scroll-behavior: smooth;
 }
 
+html[data-font-size='small'] { font-size: 14px; }
+html[data-font-size='medium'] { font-size: 16px; }
+html[data-font-size='large'] { font-size: 18px; }
+
+html,
+body,
+.sidebar,
+.mobile-tab-bar {
+  transition: color var(--duration-normal) var(--ease-out),
+              background-color var(--duration-normal) var(--ease-out),
+              border-color var(--duration-normal) var(--ease-out);
+}
+
 body {
   font-family: var(--font-sans);
   font-size: var(--fs-base);
@@ -473,6 +486,7 @@ a:hover {
 @media (max-width: 1024px) {
   .app-main {
     margin-left: var(--sidebar-collapsed);
+    padding-inline: clamp(var(--sp-5), 4vw, var(--sp-8));
   }
 }
 
@@ -489,6 +503,7 @@ a:hover {
   .app-main {
     margin-left: 0;
     padding: var(--sp-4);
+    padding-top: var(--sp-20);
     padding-bottom: calc(var(--sp-16) + env(safe-area-inset-bottom, 0px));
   }
 
@@ -517,7 +532,8 @@ a:hover {
 /* ── Chinese Literature & Aesthetics Themes ─────────── */
 
 /* 1. Charcoal Ink Theme (徽墨乾坤 - Default Dark) */
-html.theme-charcoal {
+html.theme-charcoal,
+html.theme-dark {
   --c-bg-deep:       #06060b;
   --c-bg-primary:    #0c0c14;
   --c-bg-secondary:  #12121e;
@@ -541,7 +557,9 @@ html.theme-charcoal {
 }
 
 /* 2. Xuan Paper Theme (寒江雪宣 - Warm Light) */
-html.theme-xuan, html.light-theme {
+html.theme-xuan,
+html.theme-light,
+html.light-theme {
   --c-bg-deep:       #f4efe6;
   --c-bg-primary:    #faf6ee;
   --c-bg-secondary:  #e9e4d9;
@@ -713,4 +731,3 @@ textarea:focus-visible,
   border: none;
   margin: var(--sp-6) 0;
 }
-

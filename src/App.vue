@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import NavSidebar from '@/components/NavSidebar.vue'
 import InkCanvas from '@/components/InkCanvas.vue'
+import DisplayControls from '@/components/DisplayControls.vue'
 </script>
 
 <template>
   <div class="app-layout">
     <InkCanvas />
     <NavSidebar />
+    <DisplayControls />
     <main class="app-main">
       <div class="app-main-content">
         <router-view v-slot="{ Component, route }">
@@ -22,4 +24,3 @@ import InkCanvas from '@/components/InkCanvas.vue'
 <style scoped>
 /* App-level layout handled by main.css (.app-layout, .app-main) */
 </style>
-

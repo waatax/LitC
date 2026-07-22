@@ -1503,7 +1503,7 @@ const summaryStats = computed(() => {
 
 .toast-label {
   font-family: var(--font-sans);
-  font-size: 10px;
+  font-size: 0.625rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--c-gold);
@@ -1661,4 +1661,3 @@ const summaryStats = computed(() => {
   margin-bottom: 0;
 }
 </style>
-

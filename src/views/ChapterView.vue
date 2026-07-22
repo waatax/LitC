@@ -658,7 +658,7 @@ const nextChapter = computed(() => {
 }
 
 .horizontal-explanation .translation-label {
-  font-size: 11px;
+  font-size: 0.6875rem;
   background: var(--c-gold-glow);
   color: var(--c-gold);
   border: 1px solid var(--c-border-accent);

@@ -855,7 +855,7 @@ function whiteText(sentence: Sentence): string {
 }
 
 .translation-label {
-  font-size: 10px;
+  font-size: 0.625rem;
   background: var(--c-gold-glow);
   color: var(--c-gold);
   border: 1px solid var(--c-border-accent);

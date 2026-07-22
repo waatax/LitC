@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import { computed, ref, onMounted } from 'vue'
+import { computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { getWorks } from '@/data'
 import RedSeal from '@/components/RedSeal.vue'
 
 const route = useRoute()
@@ -26,10 +25,13 @@ interface SchoolDot {
 }
 
 const schools: SchoolDot[] = [
+  { id: 'all', name: '全部', colorClass: 'dot-all' },
   { id: 'daoism', name: '道家', colorClass: 'dot-dao' },
   { id: 'legalism', name: '法家', colorClass: 'dot-legal' },
   { id: 'mohism', name: '墨家', colorClass: 'dot-mohist' },
   { id: 'confucianism', name: '儒家', colorClass: 'dot-confucian' },
+  { id: 'military', name: '兵家', colorClass: 'dot-military' },
+  { id: 'histories', name: '史書', colorClass: 'dot-histories' },
   { id: 'literature', name: '文學', colorClass: 'dot-literature' },
 ]
 
@@ -46,70 +48,12 @@ function goToSchool(schoolId: string) {
   router.push({ path: '/library', query: { school: schoolId } })
 }
 
-// ── School Works Sub-list ──
-const allWorksList = getWorks()
-
-function getSchoolWorks(schoolId: string) {
-  return allWorksList.filter(w => w.schoolId === schoolId)
+function isSchoolActive(schoolId: string): boolean {
+  if (route.path !== '/library') return false
+  const currentSchool = route.query.school || 'all'
+  return currentSchool === schoolId
 }
 
-function goToWork(workId: string) {
-  router.push({ path: '/library', query: { work: workId } })
-}
-
-// ── Theme Management (4 Classical Themes) ──
-type ThemeId = 'charcoal' | 'xuan' | 'celadon' | 'cinnabar'
-
-interface ThemeInfo {
-  id: ThemeId
-  label: string
-  icon: string
-  isLight: boolean
-}
-
-const themes: ThemeInfo[] = [
-  { id: 'charcoal', label: '徽墨', icon: '🌑', isLight: false },
-  { id: 'xuan', label: '雪宣', icon: '📜', isLight: true },
-  { id: 'celadon', label: '青瓷', icon: '🍵', isLight: true },
-  { id: 'cinnabar', label: '硃砂', icon: '🏮', isLight: false }
-]
-
-const currentTheme = ref<ThemeId>('charcoal')
-
-function setTheme(themeId: ThemeId) {
-  currentTheme.value = themeId
-  
-  // Remove all theme-related classes
-  document.documentElement.classList.remove('theme-charcoal', 'theme-xuan', 'theme-celadon', 'theme-cinnabar', 'light-theme')
-  
-  // Add active theme class
-  document.documentElement.classList.add(`theme-${themeId}`)
-  
-  // Support standard light-theme triggers if light
-  const theme = themes.find(t => t.id === themeId)
-  if (theme?.isLight) {
-    document.documentElement.classList.add('light-theme')
-  }
-  
-  localStorage.setItem('theme', themeId)
-}
-
-function cycleTheme() {
-  const currentIndex = themes.findIndex(t => t.id === currentTheme.value)
-  const nextIndex = (currentIndex + 1) % themes.length
-  setTheme(themes[nextIndex].id)
-}
-
-onMounted(() => {
-  const savedTheme = localStorage.getItem('theme') as ThemeId
-  if (savedTheme && ['charcoal', 'xuan', 'celadon', 'cinnabar'].includes(savedTheme)) {
-    setTheme(savedTheme)
-  } else {
-    // Check if system has light theme or fallback to charcoal
-    const isSystemLight = window.matchMedia('(prefers-color-scheme: light)').matches
-    setTheme(isSystemLight ? 'xuan' : 'charcoal')
-  }
-})
 </script>
 
 <template>
@@ -152,22 +96,12 @@ onMounted(() => {
           >
             <button
               class="school-item"
+              :class="{ 'is-active-school': isSchoolActive(school.id) }"
               @click="goToSchool(school.id)"
             >
               <span class="school-dot" :class="school.colorClass"></span>
               <span class="school-name">{{ school.name }}</span>
             </button>
-            <div class="school-works-list">
-              <button
-                v-for="work in getSchoolWorks(school.id)"
-                :key="work.id"
-                class="work-sub-item"
-                :class="{ 'is-active-work': route.query.work === work.id }"
-                @click="goToWork(work.id)"
-              >
-                {{ work.title }}
-              </button>
-            </div>
           </div>
         </div>
       </div>
@@ -178,13 +112,6 @@ onMounted(() => {
           <span class="footer-text">ClassicFlow</span>
           <span class="footer-version">v0.1</span>
         </div>
-        <button 
-          class="theme-toggle-btn" 
-          @click="cycleTheme" 
-          :title="`目前主題：${themes.find(t => t.id === currentTheme)?.label}。點擊切換`"
-        >
-          <span style="font-size: 1.15rem;">{{ themes.find(t => t.id === currentTheme)?.icon }}</span>
-        </button>
       </div>
     </div>
   </aside>
@@ -200,10 +127,6 @@ onMounted(() => {
     >
       <span class="tab-icon">{{ item.icon }}</span>
       <span class="tab-label">{{ item.label }}</span>
-    </button>
-    <button class="tab-item theme-toggle-tab" @click="cycleTheme">
-      <span class="tab-icon">{{ themes.find(t => t.id === currentTheme)?.icon }}</span>
-      <span class="tab-label">{{ themes.find(t => t.id === currentTheme)?.label }}</span>
     </button>
   </nav>
 </template>
@@ -388,6 +311,11 @@ onMounted(() => {
   flex-shrink: 0;
 }
 
+.dot-all {
+  background: var(--c-gold);
+  box-shadow: 0 0 6px rgba(201, 169, 110, 0.4);
+}
+
 .dot-dao {
   background: var(--c-accent-dao);
   box-shadow: 0 0 6px rgba(91, 138, 114, 0.4);
@@ -435,39 +363,11 @@ onMounted(() => {
   transition: color var(--duration-fast) var(--ease-out);
 }
 
-/* ── Works Sub-list ── */
-.school-works-list {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  padding-left: 28px;
-  margin-top: 2px;
-  margin-bottom: var(--sp-1);
+.school-item.is-active-school {
+  background: var(--c-gold-glow);
 }
 
-.work-sub-item {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: var(--sp-1) var(--sp-2);
-  font-family: var(--font-sans);
-  font-size: var(--fs-xs);
-  color: var(--c-text-secondary);
-  text-align: left;
-  border-radius: var(--radius-sm);
-  transition: all var(--duration-fast) var(--ease-out);
-  outline: none;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.work-sub-item:hover {
-  background: var(--c-bg-card);
-  color: var(--c-text-primary);
-}
-
-.work-sub-item.is-active-work {
+.school-item.is-active-school .school-name {
   color: var(--c-gold);
   font-weight: var(--fw-medium);
 }
@@ -582,7 +482,6 @@ onMounted(() => {
   .nav-label,
   .section-title,
   .school-name,
-  .school-works-list,
   .sidebar-footer {
     display: none;
   }
