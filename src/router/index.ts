@@ -16,6 +16,12 @@ const router = createRouter({
       meta: { title: '典籍庫' },
     },
     {
+      path: '/wenhai',
+      name: 'wenhai',
+      component: () => import('@/views/WenhaiView.vue'),
+      meta: { title: '文海' },
+    },
+    {
       path: '/chapter/:id',
       name: 'chapter',
       component: () => import('@/views/ChapterView.vue'),
@@ -67,4 +73,3 @@ router.onError((error) => {
 })
 
 export default router
-

@@ -15,6 +15,7 @@ interface NavItem {
 const navItems: NavItem[] = [
   { icon: '📅', label: '今日', to: '/' },
   { icon: '📚', label: '典籍庫', to: '/library' },
+  { icon: '🌊', label: '文海', to: '/wenhai' },
   { icon: '📊', label: '進度', to: '/progress' },
 ]
 
