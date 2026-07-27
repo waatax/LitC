@@ -1,8 +1,6 @@
-// ─────────────────────────────────────────────────
-// 經典文脈 ClassicFlow — 全站全內文搜尋引擎
-// ─────────────────────────────────────────────────
 import { works, chapters, passages, sentences } from '@/data/works'
 import { getWorkDescription } from '@/data/workDescriptions'
+import { getPassageReadingAid } from '@/data/readingAid'
 import { schools } from '@/data/schools'
 import type { SchoolId } from '@/types/content'
 
@@ -18,7 +16,7 @@ export interface SearchResult {
   chapterTitle?: string
   schoolId: SchoolId
   schoolName: string
-  matchField: string // e.g. '原文', '譯文', '關鍵字', '哲思解析', '書名', '篇名', '導讀'
+  matchField: string
   matchedText: string
   snippet: string
   targetSentenceId?: string
@@ -26,358 +24,136 @@ export interface SearchResult {
 
 export interface SearchOptions {
   schoolFilter?: SchoolId | 'all'
-  typeFilter?: 'all' | 'sentence' | 'translation' | 'work' | 'chapter'
+  typeFilter?: 'all' | SearchResultType
   limit?: number
 }
 
-// 簡易常態化繁簡轉換對照表 (涵蓋古籍常見簡繁差異)
-const SIMPLIFIED_TO_TRADITIONAL_MAP: Record<string, string> = {
-  '经': '經', '论': '論', '语': '語', '学': '學', '孟': '孟', '庄': '莊', '孙': '孫',
-  '法': '法', '墨': '墨', '韩': '韓', '非': '非', '战': '戰', '国': '國', '策': '策',
-  '史': '史', '记': '記', '左': '左', '传': '傳', '书': '書', '礼': '禮', '易': '易',
-  '诗': '詩', '无': '無', '为': '為', '爱': '愛', '兼': '兼', '德': '德', '道': '道',
-  '义': '義', '仁': '仁', '智': '智', '信': '信', '圣': '聖', '人': '人', '君': '君',
-  '子': '子', '兵': '兵', '势': '勢', '谋': '謀', '攻': '攻', '胜': '勝', '阴': '陰',
-  '阳': '陽', '天': '天', '地': '地', '万': '萬', '物': '物', '修': '修', '身': '身',
-  '齐': '齊', '家': '家', '治': '治', '平': '平', '乐': '樂', '气': '氣',
-  '视': '視', '听': '聽', '言': '言', '动': '動', '尽': '盡', '诚': '誠', '明': '明'
+const S2T: Record<string, string> = {
+  学: '學', 国: '國', 书: '書', 经: '經', 传: '傳', 论: '論', 语: '語', 礼: '禮', 乐: '樂',
+  道: '道', 德: '德', 无: '無', 为: '為', 义: '義', 仁: '仁', 爱: '愛', 众: '眾', 万: '萬',
+  东: '東', 西: '西', 后: '後', 汉: '漢', 战: '戰', 争: '爭', 军: '軍', 将: '將', 兵: '兵',
+  说: '說', 问: '問', 闻: '聞', 见: '見', 知: '知', 时: '時', 来: '來', 处: '處', 长: '長',
+  发: '發', 兴: '興', 与: '與', 于: '於', 里: '裡', 这: '這', 个: '個', 们: '們', 进: '進',
+  实: '實', 应: '應', 历: '歷', 观: '觀', 关: '關', 系: '係', 体: '體', 现: '現', 权: '權',
+  势: '勢', 赏: '賞', 罚: '罰', 治: '治', 乱: '亂', 圣: '聖', 君: '君', 师: '師', 庙: '廟',
+  诗: '詩', 记: '記', 孙: '孫', 庄: '莊', 墨: '墨', 韩: '韓', 刘: '劉', 马: '馬', 门: '門',
+  风: '風', 云: '雲', 龙: '龍', 鸟: '鳥', 鱼: '魚', 水: '水', 天: '天', 地: '地', 人: '人'
 }
 
-/** 繁簡體與標點符號正規化 */
 export function normalizeSearchText(text: string): string {
+  return Array.from((text || '').normalize('NFKC').toLowerCase())
+    .map(char => S2T[char] || char)
+    .join('')
+    .replace(/[\p{P}\p{S}\s]/gu, '')
+}
+
+function schoolName(id: SchoolId): string {
+  return schools.find(school => school.id === id)?.name || id
+}
+
+export function highlightSnippet(text: string, rawQuery: string, maxLen = 90): string {
   if (!text) return ''
-  let result = text.toLowerCase()
-  // 繁簡對應轉換
-  let converted = ''
-  for (const char of result) {
-    converted += SIMPLIFIED_TO_TRADITIONAL_MAP[char] || char
-  }
-  // 移除常見標點符號
-  return converted.replace(/[「」『』""''\s,.\!?，。！？；：、\(\)（）—–\-]/g, '')
-}
-
-/** 取得學派名稱 */
-function getSchoolName(schoolId: SchoolId): string {
-  const school = schools.find(s => s.id === schoolId)
-  return school ? school.name : schoolId
-}
-
-/** 生成包含加亮高亮與前後上下文的 Snippet */
-export function highlightSnippet(text: string, rawQuery: string, maxLen = 60): string {
-  if (!text) return ''
-  const normText = normalizeSearchText(text)
-  const normQuery = normalizeSearchText(rawQuery)
-
-  if (!normQuery) return text.slice(0, maxLen)
-
-  const matchIdx = normText.indexOf(normQuery)
-  if (matchIdx === -1) {
-    // 回退原始比對
-    const rawIdx = text.toLowerCase().indexOf(rawQuery.toLowerCase())
-    if (rawIdx === -1) return text.slice(0, maxLen)
-    const start = Math.max(0, rawIdx - 15)
-    const end = Math.min(text.length, start + maxLen)
-    return (start > 0 ? '...' : '') + text.slice(start, end) + (end < text.length ? '...' : '')
-  }
-
-  // 以正規化字符對應找大約起止點
-  const start = Math.max(0, matchIdx - 15)
-  const end = Math.min(text.length, matchIdx + normQuery.length + 35)
-  
-  const prefix = start > 0 ? '...' : ''
-  const suffix = end < text.length ? '...' : ''
-  return prefix + text.slice(start, end) + suffix
-}
-
-// 建立索引快取
-interface WorkIndexItem {
-  workId: string
-  title: string
-  subtitle?: string
-  schoolId: SchoolId
-  author?: string
-  period?: string
-  intro?: string
-  normTitle: string
-  normSubtitle: string
-  normIntro: string
-}
-
-interface ChapterIndexItem {
-  chapterId: string
-  workId: string
-  workTitle: string
-  title: string
-  schoolId: SchoolId
-  normTitle: string
-}
-
-interface SentenceIndexItem {
-  sentenceId: string
-  passageId: string
-  chapterId: string
-  workId: string
-  workTitle: string
-  chapterTitle: string
-  schoolId: SchoolId
-  canonicalText: string
-  normCanonical: string
-  translation?: string
-  normTranslation?: string
-  wordGlossary?: string
-  normGlossary?: string
-  philosophicalNote?: string
-  normNote?: string
-  writingApplication?: string
-  normWriting?: string
-}
-
-let isIndexed = false
-const indexedWorks: WorkIndexItem[] = []
-const indexedChapters: ChapterIndexItem[] = []
-const indexedSentences: SentenceIndexItem[] = []
-
-function buildIndex() {
-  if (isIndexed) return
-  
-  // 1. Index Works
-  for (const w of works) {
-    const desc = getWorkDescription(w.id)
-    indexedWorks.push({
-      workId: w.id,
-      title: w.title,
-      subtitle: w.subtitle,
-      schoolId: w.schoolId,
-      author: desc?.author,
-      period: desc?.period,
-      intro: desc?.introduction,
-      normTitle: normalizeSearchText(w.title),
-      normSubtitle: normalizeSearchText(w.subtitle || ''),
-      normIntro: normalizeSearchText(desc?.introduction || ''),
-    })
-  }
-
-  // 2. Index Chapters
-  const workMap = new Map(works.map(w => [w.id, w]))
-  for (const c of chapters) {
-    const parentWork = workMap.get(c.workId)
-    indexedChapters.push({
-      chapterId: c.id,
-      workId: c.workId,
-      workTitle: parentWork?.title || '',
-      title: c.title,
-      schoolId: parentWork?.schoolId || 'daoism',
-      normTitle: normalizeSearchText(c.title),
-    })
-  }
-
-  // 3. Index Sentences & Passages
-  const chapterMap = new Map(chapters.map(c => [c.id, c]))
-  for (const s of sentences) {
-    // 找出所屬 passage -> chapter -> work
-    const passage = passages.find(p => p.id === s.passageId)
-    if (!passage) continue
-    const chapter = chapterMap.get(passage.chapterId)
-    if (!chapter) continue
-    const work = workMap.get(chapter.workId)
-    if (!work) continue
-
-    const translation = s.structuredTranslation?.translation || s.translationHint || ''
-    const wordGlossary = s.structuredTranslation?.wordGlossary || ''
-    const philosophicalNote = s.structuredTranslation?.philosophicalNote || ''
-    const writingApplication = s.structuredTranslation?.writingApplication || ''
-
-    indexedSentences.push({
-      sentenceId: s.id,
-      passageId: s.passageId,
-      chapterId: chapter.id,
-      workId: work.id,
-      workTitle: work.title,
-      chapterTitle: chapter.title,
-      schoolId: work.schoolId,
-      canonicalText: s.canonicalText,
-      normCanonical: normalizeSearchText(s.canonicalText),
-      translation,
-      normTranslation: normalizeSearchText(translation),
-      wordGlossary,
-      normGlossary: normalizeSearchText(wordGlossary),
-      philosophicalNote,
-      normNote: normalizeSearchText(philosophicalNote),
-      writingApplication,
-      normWriting: normalizeSearchText(writingApplication),
-    })
-  }
-
-  isIndexed = true
-}
-
-/** 主搜尋函式 */
-export function searchContent(rawQuery: string, options: SearchOptions = {}): SearchResult[] {
   const query = rawQuery.trim()
-  if (!query) return []
-  
-  buildIndex()
+  const direct = text.toLowerCase().indexOf(query.toLowerCase())
+  const normalizedQuery = normalizeSearchText(query)
+  const approximate = normalizeSearchText(text).indexOf(normalizedQuery)
+  const index = direct >= 0 ? direct : approximate
+  if (index < 0) return text.length > maxLen ? `${text.slice(0, maxLen)}…` : text
+  const start = Math.max(0, index - 24)
+  const end = Math.min(text.length, Math.max(index + query.length + 42, start + maxLen))
+  return `${start ? '…' : ''}${text.slice(start, end)}${end < text.length ? '…' : ''}`
+}
 
-  const normQ = normalizeSearchText(query)
-  if (!normQ) return []
+type IndexedItem = Omit<SearchResult, 'score' | 'snippet'> & { normalized: string; baseScore: number }
+let index: IndexedItem[] | undefined
 
-  const { schoolFilter = 'all', typeFilter = 'all', limit = 100 } = options
-  const results: SearchResult[] = []
-
-  // 1. Search Works
-  if (typeFilter === 'all' || typeFilter === 'work') {
-    for (const item of indexedWorks) {
-      if (schoolFilter !== 'all' && item.schoolId !== schoolFilter) continue
-
-      let score = 0
-      let matchField = ''
-      let matchedText = ''
-
-      if (item.normTitle === normQ) {
-        score = 100
-        matchField = '典籍名稱(完全匹配)'
-        matchedText = item.title
-      } else if (item.normTitle.includes(normQ)) {
-        score = 85
-        matchField = '典籍名稱'
-        matchedText = item.title
-      } else if (item.normSubtitle.includes(normQ)) {
-        score = 75
-        matchField = '典籍別名'
-        matchedText = item.subtitle || ''
-      } else if (item.normIntro.includes(normQ)) {
-        score = 50
-        matchField = '典籍導讀'
-        matchedText = item.intro || ''
-      }
-
-      if (score > 0) {
-        results.push({
-          id: `work_${item.workId}`,
-          type: 'work',
-          score,
-          workId: item.workId,
-          workTitle: item.title,
-          schoolId: item.schoolId,
-          schoolName: getSchoolName(item.schoolId),
-          matchField,
-          matchedText,
-          snippet: highlightSnippet(matchedText, query),
-        })
-      }
-    }
+function buildIndex(): IndexedItem[] {
+  if (index) return index
+  const result: IndexedItem[] = []
+  const workById = new Map(works.map(work => [work.id, work]))
+  const chapterById = new Map(chapters.map(chapter => [chapter.id, chapter]))
+  const passageById = new Map(passages.map(passage => [passage.id, passage]))
+  const sentencesByPassage = new Map<string, typeof sentences>()
+  for (const sentence of sentences) {
+    const list = sentencesByPassage.get(sentence.passageId) || []
+    list.push(sentence)
+    sentencesByPassage.set(sentence.passageId, list)
+  }
+  const add = (item: Omit<IndexedItem, 'normalized'>) => {
+    const normalized = normalizeSearchText(item.matchedText)
+    if (normalized) result.push({ ...item, normalized })
   }
 
-  // 2. Search Chapters
-  if (typeFilter === 'all' || typeFilter === 'chapter') {
-    for (const item of indexedChapters) {
-      if (schoolFilter !== 'all' && item.schoolId !== schoolFilter) continue
-
-      let score = 0
-      if (item.normTitle === normQ) {
-        score = 90
-      } else if (item.normTitle.includes(normQ)) {
-        score = 70
-      }
-
-      if (score > 0) {
-        results.push({
-          id: `chapter_${item.chapterId}`,
-          type: 'chapter',
-          score,
-          workId: item.workId,
-          workTitle: item.workTitle,
-          chapterId: item.chapterId,
-          chapterTitle: item.title,
-          schoolId: item.schoolId,
-          schoolName: getSchoolName(item.schoolId),
-          matchField: '篇章名稱',
-          matchedText: item.title,
-          snippet: highlightSnippet(item.title, query),
-        })
-      }
-    }
+  for (const work of works) {
+    const description = getWorkDescription(work.id)
+    const common = { workId: work.id, workTitle: work.title, schoolId: work.schoolId, schoolName: schoolName(work.schoolId) }
+    add({ ...common, id: `work-title-${work.id}`, type: 'work', matchField: '典籍', matchedText: [work.title, work.subtitle].filter(Boolean).join('｜'), baseScore: 100 })
+    if (description) add({ ...common, id: `work-intro-${work.id}`, type: 'work', matchField: '典籍介紹', matchedText: [description.author, description.period, description.introduction, description.significance, ...description.keyAllusions].filter(Boolean).join('；'), baseScore: 64 })
   }
 
-  // 3. Search Sentences & Annotations
-  if (typeFilter === 'all' || typeFilter === 'sentence' || typeFilter === 'translation') {
-    for (const item of indexedSentences) {
-      if (schoolFilter !== 'all' && item.schoolId !== schoolFilter) continue
-
-      let maxScore = 0
-      let matchField = ''
-      let matchedText = ''
-      let resType: SearchResultType = 'sentence'
-
-      // 原文完全匹配
-      if (item.normCanonical === normQ) {
-        maxScore = 95
-        matchField = '名句原文'
-        matchedText = item.canonicalText
-        resType = 'sentence'
-      } 
-      // 原文包含
-      else if (item.normCanonical.includes(normQ)) {
-        maxScore = 80
-        matchField = '名句原文'
-        matchedText = item.canonicalText
-        resType = 'sentence'
-      }
-
-      // 白話譯文包含
-      if (item.normTranslation && item.normTranslation.includes(normQ)) {
-        const trScore = 65
-        if (trScore > maxScore && (typeFilter === 'all' || typeFilter === 'translation')) {
-          maxScore = trScore
-          matchField = '白話譯文'
-          matchedText = item.translation || ''
-          resType = 'translation'
-        }
-      }
-
-      // 關鍵字釋義 / 哲思 / 寫作應用包含
-      if (item.normGlossary && item.normGlossary.includes(normQ)) {
-        const glScore = 55
-        if (glScore > maxScore && (typeFilter === 'all' || typeFilter === 'translation')) {
-          maxScore = glScore
-          matchField = '字詞釋義'
-          matchedText = item.wordGlossary || ''
-          resType = 'translation'
-        }
-      }
-
-      if (item.normNote && item.normNote.includes(normQ)) {
-        const ntScore = 50
-        if (ntScore > maxScore && (typeFilter === 'all' || typeFilter === 'translation')) {
-          maxScore = ntScore
-          matchField = '思想哲理'
-          matchedText = item.philosophicalNote || ''
-          resType = 'translation'
-        }
-      }
-
-      if (maxScore > 0) {
-        results.push({
-          id: `sentence_${item.sentenceId}`,
-          type: resType,
-          score: maxScore,
-          workId: item.workId,
-          workTitle: item.workTitle,
-          chapterId: item.chapterId,
-          chapterTitle: item.chapterTitle,
-          schoolId: item.schoolId,
-          schoolName: getSchoolName(item.schoolId),
-          matchField,
-          matchedText,
-          snippet: highlightSnippet(matchedText, query),
-          targetSentenceId: item.sentenceId,
-        })
-      }
-    }
+  for (const chapter of chapters) {
+    const work = workById.get(chapter.workId)
+    if (!work) continue
+    add({ id: `chapter-${chapter.id}`, type: 'chapter', workId: work.id, workTitle: work.title, chapterId: chapter.id, chapterTitle: chapter.title, schoolId: work.schoolId, schoolName: schoolName(work.schoolId), matchField: '篇章', matchedText: [chapter.title, ...chapter.tags].join('；'), baseScore: 88 })
   }
 
-  // 按 Score 排序降序
-  results.sort((a, b) => b.score - a.score)
+  for (const passage of passages) {
+    const chapter = chapterById.get(passage.chapterId)
+    const work = chapter && workById.get(chapter.workId)
+    if (!chapter || !work) continue
+    const passageSentences = sentencesByPassage.get(passage.id) || []
+    const aid = getPassageReadingAid(passage.id, passage.canonicalText, work.id, passageSentences)
+    const common = { workId: work.id, workTitle: work.title, chapterId: chapter.id, chapterTitle: chapter.title, schoolId: work.schoolId, schoolName: schoolName(work.schoolId), targetSentenceId: passageSentences[0]?.id }
+    add({ ...common, id: `passage-original-${passage.id}`, type: 'sentence', matchField: '原文', matchedText: passage.canonicalText, baseScore: 82 })
+    add({ ...common, id: `passage-translation-${passage.id}`, type: 'translation', matchField: '白話文', matchedText: aid.translation, baseScore: 70 })
+    add({ ...common, id: `passage-analysis-${passage.id}`, type: 'translation', matchField: '解析', matchedText: aid.analysis, baseScore: 66 })
+  }
 
-  return results.slice(0, limit)
+  for (const sentence of sentences) {
+    const passage = passageById.get(sentence.passageId)
+    const chapter = passage && chapterById.get(passage.chapterId)
+    const work = chapter && workById.get(chapter.workId)
+    if (!chapter || !work) continue
+    const common = { workId: work.id, workTitle: work.title, chapterId: chapter.id, chapterTitle: chapter.title, schoolId: work.schoolId, schoolName: schoolName(work.schoolId), targetSentenceId: sentence.id }
+    add({ ...common, id: `sentence-${sentence.id}`, type: 'sentence', matchField: '原文句', matchedText: sentence.canonicalText, baseScore: 84 })
+    const structured = sentence.structuredTranslation
+    if (structured) {
+      add({ ...common, id: `sentence-aid-${sentence.id}`, type: 'translation', matchField: '逐句註解', matchedText: [structured.translation, structured.wordGlossary, structured.philosophicalNote, structured.writingApplication].filter(Boolean).join('\n'), baseScore: 62 })
+    }
+  }
+  index = result
+  return result
+}
+
+export function getSearchIndexStats() {
+  const items = buildIndex()
+  return {
+    total: items.length,
+    works: new Set(items.map(item => item.workId)).size,
+    chapters: new Set(items.map(item => item.chapterId).filter(Boolean)).size,
+    originalPassages: items.filter(item => item.id.startsWith('passage-original-')).length,
+    passageTranslations: items.filter(item => item.id.startsWith('passage-translation-')).length,
+    passageAnalyses: items.filter(item => item.id.startsWith('passage-analysis-')).length,
+    sentences: items.filter(item => item.id.startsWith('sentence-') && item.type === 'sentence').length,
+  }
+}
+
+export function searchContent(rawQuery: string, options: SearchOptions = {}): SearchResult[] {
+  const normalizedQuery = normalizeSearchText(rawQuery)
+  if (!normalizedQuery) return []
+  const tokens = rawQuery.trim().split(/\s+/).map(normalizeSearchText).filter(Boolean)
+  const { schoolFilter = 'all', typeFilter = 'all', limit = Number.POSITIVE_INFINITY } = options
+  return buildIndex()
+    .filter(item => (schoolFilter === 'all' || item.schoolId === schoolFilter) && (typeFilter === 'all' || item.type === typeFilter))
+    .map(item => {
+      const exact = item.normalized === normalizedQuery
+      const contiguous = item.normalized.includes(normalizedQuery)
+      const tokenMatch = tokens.length > 1 && tokens.every(token => item.normalized.includes(token))
+      if (!exact && !contiguous && !tokenMatch) return undefined
+      const score = item.baseScore + (exact ? 30 : contiguous ? 15 : 5) - Math.min(item.matchedText.length / 500, 8)
+      return { ...item, score, snippet: highlightSnippet(item.matchedText, rawQuery) }
+    })
+    .filter((item): item is SearchResult & { baseScore: number; normalized: string } => Boolean(item))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
 }

@@ -38,8 +38,8 @@ const schools: { id: SchoolId | 'all'; name: string }[] = [
 
 const typeTabs: { id: 'all' | 'sentence' | 'translation' | 'work' | 'chapter'; label: string }[] = [
   { id: 'all', label: '全部內容' },
-  { id: 'sentence', label: '名句原文' },
-  { id: 'translation', label: '譯文與解讀' },
+  { id: 'sentence', label: '原文全文' },
+  { id: 'translation', label: '白話文與解析' },
   { id: 'work', label: '典籍書名' },
   { id: 'chapter', label: '篇章標題' },
 ]

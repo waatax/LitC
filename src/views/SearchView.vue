@@ -30,8 +30,8 @@ const schools: { id: SchoolId | 'all'; name: string }[] = [
 
 const typeTabs: { id: 'all' | 'sentence' | 'translation' | 'work' | 'chapter'; label: string }[] = [
   { id: 'all', label: '全部內容' },
-  { id: 'sentence', label: '名句原文' },
-  { id: 'translation', label: '譯文解讀' },
+  { id: 'sentence', label: '原文全文' },
+  { id: 'translation', label: '白話文與解析' },
   { id: 'work', label: '典籍' },
   { id: 'chapter', label: '篇章' },
 ]
@@ -45,7 +45,6 @@ function executeSearch() {
   allResults.value = searchContent(query.value, {
     schoolFilter: activeSchool.value,
     typeFilter: activeType.value,
-    limit: 300,
   })
   currentPage.value = 1
 }
@@ -132,7 +131,7 @@ watch(() => route.query, () => {
           v-model="query"
           type="text"
           class="search-input"
-          placeholder="搜尋典籍名稱、篇名、句中關鍵字、白話意譯..."
+          placeholder="搜尋典籍、篇章、原文、白話文、詞義與深度解析..."
         />
         <button type="submit" class="search-btn">搜尋</button>
       </form>
@@ -175,7 +174,7 @@ watch(() => route.query, () => {
       <div v-if="!query.trim()" class="empty-state">
         <div class="empty-icon">📖</div>
         <h3>輸入關鍵字探索經典文脈</h3>
-        <p>支援經典名句（如「上善若水」）、白話釋義與思想導讀全內文檢索。</p>
+        <p>支援全部原文、白話文、詞義註解、思想解析與典籍介紹的全庫檢索。</p>
       </div>
 
       <!-- No match state -->
