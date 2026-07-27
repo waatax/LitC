@@ -3,7 +3,7 @@ import { ref, computed, onMounted, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import type { Work, SchoolId, School, Chapter } from '@/types/content'
 import { GENRE_STRATEGY_META } from '@/types/content'
-import { getSchools, getWorks, getWorksBySchool, getChapters } from '@/data'
+import { getSchools, getWorks, getWorksBySchool, getChapters, getWorkDescription } from '@/data'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 
 const router = useRouter()
@@ -114,14 +114,23 @@ function difficultyDots(level: number): string {
 function countChapters(work: Work): number {
   return work.chapterIds.length
 }
+
+function triggerSearch() {
+  window.dispatchEvent(new CustomEvent('open-search-modal'))
+}
 </script>
 
 <template>
   <div class="library-view" :class="{ 'is-mounted': mounted }">
     <!-- Page Header -->
-    <header class="page-header">
-      <h1 class="page-title">典籍庫</h1>
-      <p class="page-desc">先秦經典文本，按學派分類</p>
+    <header class="page-header" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+      <div>
+        <h1 class="page-title">典籍庫</h1>
+        <p class="page-desc">先秦經典文本，按學派分類</p>
+      </div>
+      <button class="btn btn-ghost" style="border: 1px solid var(--c-border-gold-glow, rgba(201, 169, 110, 0.3)); border-radius: 20px; padding: 6px 16px; font-size: 0.875rem;" @click="triggerSearch">
+        🔍 搜尋全站文庫 (Ctrl+K)
+      </button>
     </header>
 
     <!-- Filter Tabs -->
@@ -170,6 +179,21 @@ function countChapters(work: Work): number {
         <Transition name="expand">
           <div v-if="expandedWorkId === work.id" class="chapters-list">
             <div class="chapters-divider"></div>
+            
+            <!-- Work Description Preview -->
+            <div v-if="getWorkDescription(work.id)" class="work-intro-preview">
+              <div class="intro-preview-header">
+                <span class="preview-author">👤 {{ getWorkDescription(work.id)?.author }}</span>
+                <span class="preview-period">⏳ {{ getWorkDescription(work.id)?.period }}</span>
+              </div>
+              <p class="intro-preview-text">{{ getWorkDescription(work.id)?.introduction }}</p>
+              <div class="intro-preview-allusions">
+                <span class="allusion-label">名句典故：</span>
+                <span v-for="allusion in getWorkDescription(work.id)?.keyAllusions.slice(0, 2)" :key="allusion" class="allusion-chip">
+                  {{ allusion.split('：')[0] }}
+                </span>
+              </div>
+            </div>
             <div
               v-for="chapter in getWorkChapters(work.id)"
               :key="chapter.id"
@@ -537,5 +561,57 @@ function countChapters(work: Work): number {
   .chapter-difficulty {
     display: none;
   }
+}
+
+/* ── Work Intro Preview Card ── */
+.work-intro-preview {
+  background: rgba(212, 175, 55, 0.04);
+  border: 1px solid var(--c-border-accent);
+  border-radius: var(--radius-md);
+  padding: var(--sp-4);
+  margin-bottom: var(--sp-4);
+}
+
+.intro-preview-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-4);
+  font-size: var(--fs-xs);
+  color: var(--c-gold);
+  font-weight: 600;
+  margin-bottom: var(--sp-2);
+}
+
+.intro-preview-text {
+  font-size: var(--fs-xs);
+  line-height: 1.6;
+  color: var(--c-text-secondary);
+  margin: 0 0 var(--sp-3) 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.intro-preview-allusions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  font-size: var(--fs-xs);
+}
+
+.allusion-label {
+  color: var(--c-text-muted);
+  font-size: var(--fs-xs);
+}
+
+.allusion-chip {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--c-border-subtle);
+  padding: 1px 6px;
+  border-radius: 4px;
+  color: var(--c-text-primary);
+  font-size: 0.75rem;
 }
 </style>

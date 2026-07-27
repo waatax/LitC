@@ -54,6 +54,13 @@ function isSchoolActive(schoolId: string): boolean {
   return currentSchool === schoolId
 }
 
+const emit = defineEmits<{
+  (e: 'open-search'): void
+}>()
+
+function triggerSearch() {
+  emit('open-search')
+}
 </script>
 
 <template>
@@ -66,6 +73,13 @@ function isSchoolActive(schoolId: string): boolean {
         <span class="logo-text">經典文脈</span>
         <span class="logo-icon">經</span>
       </div>
+
+      <!-- Quick Search Button -->
+      <button class="search-trigger-btn" @click="triggerSearch">
+        <span class="search-trigger-icon">🔍</span>
+        <span class="search-trigger-text">搜尋全站...</span>
+        <kbd class="search-trigger-kbd">Ctrl K</kbd>
+      </button>
 
       <div class="divider sidebar-divider"></div>
 
@@ -128,6 +142,10 @@ function isSchoolActive(schoolId: string): boolean {
       <span class="tab-icon">{{ item.icon }}</span>
       <span class="tab-label">{{ item.label }}</span>
     </button>
+    <button class="tab-item" @click="triggerSearch">
+      <span class="tab-icon">🔍</span>
+      <span class="tab-label">搜尋</span>
+    </button>
   </nav>
 </template>
 
@@ -165,6 +183,47 @@ function isSchoolActive(schoolId: string): boolean {
 
 .sidebar-logo:hover {
   background: var(--c-bg-card);
+}
+
+/* ── Search Trigger Button ── */
+.search-trigger-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2, 8px);
+  margin-top: var(--sp-3, 12px);
+  padding: var(--sp-2, 8px) var(--sp-3, 12px);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--c-border-subtle, rgba(255, 255, 255, 0.1));
+  border-radius: var(--radius-md, 8px);
+  cursor: pointer;
+  width: 100%;
+  transition: all var(--duration-fast) var(--ease-out);
+}
+
+.search-trigger-btn:hover {
+  background: var(--c-bg-card, rgba(201, 169, 110, 0.1));
+  border-color: rgba(201, 169, 110, 0.3);
+}
+
+.search-trigger-icon {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.search-trigger-text {
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs, 0.8125rem);
+  color: var(--c-text-muted);
+  flex: 1;
+  text-align: left;
+}
+
+.search-trigger-kbd {
+  font-size: 0.6875rem;
+  padding: 1px 4px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 3px;
+  color: var(--c-text-muted);
 }
 
 .logo-text {

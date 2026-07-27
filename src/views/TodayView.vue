@@ -122,6 +122,10 @@ function goToLibrary() {
 function goToSchool(schoolId: string) {
   router.push({ path: '/library', query: { school: schoolId } })
 }
+
+function triggerSearch() {
+  window.dispatchEvent(new CustomEvent('open-search-modal'))
+}
 </script>
 
 <template>
@@ -143,6 +147,14 @@ function goToSchool(schoolId: string) {
           <span class="school-sep">·</span>
           <a class="hero-school-link link-literature" @click="goToSchool('literature')">文學</a>
         </div>
+
+        <!-- Hero Search Bar -->
+        <div class="hero-search-box" @click="triggerSearch">
+          <span class="search-icon">🔍</span>
+          <span class="search-placeholder-text">搜尋全站典籍、原文名句、白話譯文、哲思導讀...</span>
+          <kbd class="search-kbd">Ctrl K</kbd>
+        </div>
+
         <div class="hero-accent"></div>
       </div>
     </section>
@@ -172,6 +184,10 @@ function goToSchool(schoolId: string) {
         <button class="btn btn-primary action-btn" :disabled="dueCount === 0" @click="startReview">
           <span>🔄</span>
           <span>開始複習</span>
+        </button>
+        <button class="btn btn-ghost action-btn" @click="triggerSearch">
+          <span>🔍</span>
+          <span>搜尋全站文庫</span>
         </button>
         <button class="btn btn-ghost action-btn" @click="goToLibrary">
           <span>📚</span>
@@ -325,6 +341,58 @@ function goToSchool(schoolId: string) {
   font-family: var(--font-serif);
   font-size: var(--fs-xl);
   margin-top: var(--sp-2);
+}
+
+/* ── Hero Search Box ── */
+.hero-search-box {
+  margin-top: var(--sp-6, 24px);
+  width: 92%;
+  max-width: 540px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  background: var(--c-bg-card, rgba(28, 31, 43, 0.8));
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--c-border-gold-glow, rgba(201, 169, 110, 0.35));
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3), 0 0 20px rgba(201, 169, 110, 0.15);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hero-search-box:hover {
+  background: rgba(35, 39, 54, 0.95);
+  border-color: var(--c-gold, #c9a96e);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4), 0 0 30px rgba(201, 169, 110, 0.3);
+  transform: translateY(-2px);
+}
+
+.hero-search-box .search-icon {
+  font-size: 1.125rem;
+  opacity: 0.85;
+}
+
+.search-placeholder-text {
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  color: var(--c-text-muted, #9ca3af);
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+.search-kbd {
+  font-size: 0.75rem;
+  padding: 2px 7px;
+  background: rgba(201, 169, 110, 0.15);
+  border-radius: 4px;
+  color: var(--c-gold, #c9a96e);
+  border: 1px solid rgba(201, 169, 110, 0.3);
+  font-weight: 500;
 }
 
 .hero-school-link {

@@ -3,7 +3,7 @@ import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import type { Chapter, Work, Passage, Sentence } from '@/types/content'
 import { GENRE_STRATEGY_META } from '@/types/content'
-import { getChapter, getPassagesByChapter, getSentencesByPassage, getWorks } from '@/data'
+import { getChapter, getPassagesByChapter, getSentencesByPassage, getWorks, getWorkDescription } from '@/data'
 import { getPassageReadingAid, READING_AID_SOURCES } from '@/data/readingAid'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 
@@ -14,6 +14,12 @@ const chapter = ref<Chapter | null>(null)
 const work = ref<Work | null>(null)
 const passages = ref<Passage[]>([])
 const passageSentences = ref<Map<string, Sentence[]>>(new Map())
+const showWorkGuide = ref(false)
+
+const workDesc = computed(() => {
+  if (!work.value) return null
+  return getWorkDescription(work.value.id) ?? null
+})
 
 type ReadingMode = 'clean' | 'assisted'
 // 典籍庫開啟章節時，優先呈現原文／白話對照；使用者仍可切回純原文。
@@ -42,6 +48,39 @@ function loadChapter() {
     sentenceMap.set(passage.id, getSentencesByPassage(passage.id))
   }
   passageSentences.value = sentenceMap
+
+  checkTargetHighlight()
+}
+
+const highlightQuery = computed(() => (route.query.highlight as string) || '')
+
+function renderPassageWithHighlight(text: string): string {
+  if (!highlightQuery.value.trim()) return text
+  const q = highlightQuery.value.trim()
+  const regex = new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi')
+  return text.replace(regex, '<mark class="search-highlight-mark">$1</mark>')
+}
+
+function checkTargetHighlight() {
+  const queryText = highlightQuery.value
+  const sentenceId = (route.query.sentenceId as string) || ''
+
+  if (!queryText && !sentenceId) return
+
+  requestAnimationFrame(() => {
+    setTimeout(() => {
+      let targetEl: HTMLElement | null = null
+      if (sentenceId) {
+        targetEl = document.querySelector(`[data-sentence-id="${sentenceId}"]`)
+      }
+      if (!targetEl && queryText) {
+        targetEl = document.querySelector('.search-highlight-mark')
+      }
+      if (targetEl) {
+        targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' })
+      }
+    }, 250)
+  })
 }
 
 onMounted(() => {
@@ -51,7 +90,7 @@ onMounted(() => {
   })
 })
 
-watch(() => route.params.id, () => {
+watch(() => [route.params.id, route.query.highlight], () => {
   loadChapter()
 })
 
@@ -140,11 +179,58 @@ const nextChapter = computed(() => {
           <span v-if="genreMeta" class="badge genre-badge">
             {{ genreMeta.icon }} {{ genreMeta.label }}
           </span>
-          <span class="meta-detail">難度 {{ chapter.difficulty }}/5</span>
           <span class="meta-sep">·</span>
           <span class="meta-detail">約 {{ chapter.estimatedMinutes }} 分鐘</span>
         </div>
       </header>
+
+      <!-- Work Deep Research Guide Card -->
+      <div v-if="workDesc" class="work-guide-card glass-card">
+        <div class="work-guide-header" @click="showWorkGuide = !showWorkGuide">
+          <div class="work-guide-title">
+            <span class="guide-icon">📚</span>
+            <span>【典籍深度導讀】《{{ workDesc.title }}》考據與名篇解讀</span>
+          </div>
+          <button class="btn btn-ghost guide-toggle-btn">
+            {{ showWorkGuide ? '收起導讀 ▲' : '展開導讀 ▼' }}
+          </button>
+        </div>
+        
+        <div v-if="showWorkGuide" class="work-guide-body">
+          <div class="guide-grid">
+            <div class="guide-item">
+              <span class="guide-label">成書時間：</span>
+              <span class="guide-val">{{ workDesc.period }}</span>
+            </div>
+            <div class="guide-item">
+              <span class="guide-label">作者/輯者：</span>
+              <span class="guide-val">{{ workDesc.author }}</span>
+            </div>
+          </div>
+          <div class="guide-section">
+            <span class="guide-label">經典導讀與學術源流：</span>
+            <p class="guide-text">{{ workDesc.introduction }}</p>
+          </div>
+          <div class="guide-section">
+            <span class="guide-label">代表典故與名句：</span>
+            <ul class="guide-allusions">
+              <li v-for="allusion in workDesc.keyAllusions" :key="allusion">{{ allusion }}</li>
+            </ul>
+          </div>
+          <div class="guide-section">
+            <span class="guide-label">歷史與學術價值：</span>
+            <p class="guide-text">{{ workDesc.significance }}</p>
+          </div>
+          <div class="guide-sources">
+            <span class="guide-label">考據與三源引用：</span>
+            <span v-for="(src, idx) in workDesc.sources" :key="src.label" class="source-tag">
+              <a v-if="src.url" :href="src.url" target="_blank" rel="noopener noreferrer">{{ src.label }}</a>
+              <span v-else>{{ src.label }}</span>
+              <span v-if="idx < workDesc.sources.length - 1" class="src-sep">·</span>
+            </span>
+          </div>
+        </div>
+      </div>
 
       <!-- Reading Mode Tabs & Vertical Toggle -->
       <div class="reading-controls-bar">
@@ -183,16 +269,20 @@ const nextChapter = computed(() => {
               <p
                 v-for="passage in passages"
                 :key="passage.id"
+                :id="'passage-' + passage.id"
                 class="passage-text"
-              >{{ passage.canonicalText }}</p>
+                v-html="renderPassageWithHighlight(passage.canonicalText)"
+              ></p>
             </div>
           </div>
           <div v-else class="text-body classical-text-lg">
             <p
               v-for="passage in passages"
               :key="passage.id"
+              :id="'passage-' + passage.id"
               class="passage-text"
-            >{{ passage.canonicalText }}</p>
+              v-html="renderPassageWithHighlight(passage.canonicalText)"
+            ></p>
           </div>
           <div v-if="work.sourceNote" class="source-note">
             {{ work.sourceNote }}
@@ -203,9 +293,9 @@ const nextChapter = computed(() => {
         <div v-if="readingMode === 'assisted'" class="assisted-mode">
           <div v-if="isVertical" class="vertical-container" style="height: 520px;">
             <div class="vertical-assisted-list">
-              <div v-for="passage in passages" :key="passage.id" class="vertical-passage-box">
+              <div v-for="passage in passages" :key="passage.id" :id="'passage-' + passage.id" class="vertical-passage-box">
                 <div class="vertical-orig-wrapper">
-                  <p class="sentence-original classical-text-lg vertical-original-text">{{ passage.canonicalText }}</p>
+                  <p class="sentence-original classical-text-lg vertical-original-text" v-html="renderPassageWithHighlight(passage.canonicalText)"></p>
                 </div>
                 <div class="horizontal-explanation">
                   <p class="sentence-hint"><span class="translation-label">白話</span>{{ passageAid(passage).translation }}</p>
@@ -214,8 +304,8 @@ const nextChapter = computed(() => {
               </div>
             </div>
           </div>
-          <div v-else v-for="passage in passages" :key="passage.id" class="sentence-row">
-            <p class="sentence-original classical-text">{{ passage.canonicalText }}</p>
+          <div v-else v-for="passage in passages" :key="passage.id" :id="'passage-' + passage.id" class="sentence-row">
+            <p class="sentence-original classical-text" v-html="renderPassageWithHighlight(passage.canonicalText)"></p>
             <p class="sentence-hint"><span class="translation-label">白話文</span>{{ passageAid(passage).translation }}</p>
             <p class="sentence-hint"><span class="translation-label">解析</span>{{ passageAid(passage).analysis }}</p>
           </div>
@@ -666,5 +756,127 @@ const nextChapter = computed(() => {
   border-radius: 3px;
   margin-right: 6px;
   display: inline-block;
+}
+
+/* ── Work Guide Card ── */
+.work-guide-card {
+  margin-bottom: var(--sp-6);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--c-border-accent);
+  overflow: hidden;
+  background: var(--c-bg-card);
+  transition: all var(--transition-base);
+}
+
+.work-guide-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--sp-4) var(--sp-5);
+  cursor: pointer;
+  background: rgba(212, 175, 55, 0.05);
+}
+
+.work-guide-title {
+  font-weight: 600;
+  font-size: var(--fs-md);
+  color: var(--c-gold);
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
+.guide-toggle-btn {
+  font-size: var(--fs-xs);
+  color: var(--c-text-muted);
+}
+
+.work-guide-body {
+  padding: var(--sp-5);
+  border-top: 1px solid var(--c-border-subtle);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+.guide-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--sp-3);
+  background: rgba(0, 0, 0, 0.15);
+  padding: var(--sp-3) var(--sp-4);
+  border-radius: var(--radius-md);
+}
+
+.guide-item {
+  font-size: var(--fs-sm);
+}
+
+.guide-label {
+  font-weight: 600;
+  color: var(--c-gold);
+  font-size: var(--fs-sm);
+}
+
+.guide-val {
+  color: var(--c-text-primary);
+}
+
+.guide-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-1);
+}
+
+.guide-text {
+  font-size: var(--fs-sm);
+  line-height: 1.7;
+  color: var(--c-text-secondary);
+  margin: 0;
+}
+
+.guide-allusions {
+  margin: 0;
+  padding-left: var(--sp-5);
+  font-size: var(--fs-sm);
+  line-height: 1.7;
+  color: var(--c-text-secondary);
+}
+
+.guide-sources {
+  font-size: var(--fs-xs);
+  color: var(--c-text-muted);
+  border-top: 1px dashed var(--c-border-subtle);
+  padding-top: var(--sp-3);
+}
+
+.source-tag a {
+  color: var(--c-gold);
+  text-decoration: underline;
+}
+
+.src-sep {
+  margin: 0 var(--sp-2);
+}
+
+:deep(.search-highlight-mark) {
+  background: rgba(201, 169, 110, 0.45);
+  color: #fff;
+  padding: 0 4px;
+  border-radius: 4px;
+  font-weight: bold;
+  box-shadow: 0 0 12px rgba(201, 169, 110, 0.6);
+  animation: search-mark-pulse 2s ease-in-out infinite;
+}
+
+@keyframes search-mark-pulse {
+  0%, 100% {
+    background: rgba(201, 169, 110, 0.45);
+    box-shadow: 0 0 10px rgba(201, 169, 110, 0.5);
+  }
+  50% {
+    background: rgba(230, 190, 120, 0.85);
+    box-shadow: 0 0 20px rgba(230, 190, 120, 0.9);
+  }
 }
 </style>

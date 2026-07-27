@@ -5,7 +5,11 @@ import { schools } from './schools'
 import { works, chapters, passages, sentences } from './works'
 import { getReadingAid } from './readingAid'
 import { STRUCTURED_ANNOTATIONS } from './structuredAnnotations'
-import type { School, Work, Chapter, Passage, Sentence, SchoolId, StructuredTranslation } from '../types/content'
+import { WORK_DESCRIPTIONS, getWorkDescription } from './workDescriptions'
+import type { School, Work, Chapter, Passage, Sentence, SchoolId, StructuredTranslation, WorkDescription } from '../types/content'
+
+export { WORK_DESCRIPTIONS, getWorkDescription }
+export type { WorkDescription }
 
 export function getSchools(): School[] {
   return schools

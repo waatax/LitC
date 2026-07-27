@@ -33,6 +33,12 @@ const router = createRouter({
       component: () => import('@/views/MemorizeView.vue'),
       meta: { title: '背誦' },
     },
+    {
+      path: '/search',
+      name: 'search',
+      component: () => import('@/views/SearchView.vue'),
+      meta: { title: '檢索' },
+    },
   ],
   scrollBehavior(_to, _from, savedPosition) {
     if (savedPosition) return savedPosition

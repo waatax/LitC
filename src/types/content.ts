@@ -21,7 +21,18 @@ export interface School {
   workIds: string[]
 }
 
-// ── Layer 2: Work ────────────────────────────────
+export interface WorkDescription {
+  workId: string
+  title: string
+  subtitle?: string
+  schoolName: string
+  period: string
+  author: string
+  keyAllusions: string[]
+  significance: string
+  introduction: string
+  sources: { label: string; url?: string }[]
+}
 
 export interface Work {
   id: string
