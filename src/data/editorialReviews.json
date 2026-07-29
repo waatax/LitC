@@ -9773,6 +9773,71 @@
       ],
       "reviewedAt": "2026-07-29",
       "notes": "逐句校譯並核對鮑彪注；原文仍待紙本校勘記逐字驗證。"
+    },
+    {
+      "passageId": "zhan-guo-ce_ch-3_p-1",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/zhan-guo-ce/qin-yi/zh",
+        "https://zh.wikisource.org/zh-hant/戰國策_(鮑彪注,_四庫全書本)/全覽",
+        "何建章《戰國策注釋》秦策一"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "白話與解析已重審；原文史事及版本仍待進一步紙本校勘。"
+    },
+    {
+      "passageId": "zhan-guo-ce_ch-3_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/zhan-guo-ce/qin-yi/zh",
+        "https://zh.wikisource.org/zh-hant/戰國策_(鮑彪注,_四庫全書本)/全覽",
+        "何建章《戰國策注釋》秦策一"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依鮑彪注四庫本逐字改正轉錄訛字，並同步重建逐句資料。"
+    },
+    {
+      "passageId": "zhan-guo-ce_ch-3_p-3",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/zhan-guo-ce/qin-yi/zh",
+        "https://zh.wikisource.org/zh-hant/戰國策_(鮑彪注,_四庫全書本)/全覽",
+        "何建章《戰國策注釋》秦策一"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依鮑彪注四庫本逐字改正轉錄訛字，並同步重建逐句資料。"
+    },
+    {
+      "passageId": "zhan-guo-ce_ch-3_p-4",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/zhan-guo-ce/qin-yi/zh",
+        "https://zh.wikisource.org/zh-hant/戰國策_(鮑彪注,_四庫全書本)/全覽",
+        "何建章《戰國策注釋》秦策一"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依鮑彪注四庫本逐字改正轉錄訛字，並同步重建逐句資料。"
+    },
+    {
+      "passageId": "zhan-guo-ce_ch-3_p-5",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/zhan-guo-ce/qin-yi/zh",
+        "https://zh.wikisource.org/zh-hant/戰國策_(鮑彪注,_四庫全書本)/全覽",
+        "何建章《戰國策注釋》秦策一"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依鮑彪注四庫本逐字改正轉錄訛字，並同步重建逐句資料。"
     }
   ]
 }
