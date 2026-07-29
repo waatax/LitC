@@ -13791,6 +13791,81 @@
       ],
       "reviewedAt": "2026-07-29",
       "notes": "依通行本與校注本交叉核對，重寫繁體白話與解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-14_p-1",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/universal-love-i/zh",
+        "https://ctext.org/mozi-jiangu/juan-si/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%85%BC%E6%84%9B%E4%B8%8A",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷四〈兼愛上〉；吳毓江《墨子校注》卷四〈兼愛上〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐字對校《墨子》通行本、《墨子閒詁》與《墨子校注》，重寫繁體白話及章法解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-14_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/universal-love-i/zh",
+        "https://ctext.org/mozi-jiangu/juan-si/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%85%BC%E6%84%9B%E4%B8%8A",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷四〈兼愛上〉；吳毓江《墨子校注》卷四〈兼愛上〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐字對校《墨子》通行本、《墨子閒詁》與《墨子校注》，重寫繁體白話及章法解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-14_p-3",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/universal-love-i/zh",
+        "https://ctext.org/mozi-jiangu/juan-si/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%85%BC%E6%84%9B%E4%B8%8A",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷四〈兼愛上〉；吳毓江《墨子校注》卷四〈兼愛上〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐字對校《墨子》通行本、《墨子閒詁》與《墨子校注》，重寫繁體白話及章法解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-14_p-4",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/universal-love-i/zh",
+        "https://ctext.org/mozi-jiangu/juan-si/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%85%BC%E6%84%9B%E4%B8%8A",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷四〈兼愛上〉；吳毓江《墨子校注》卷四〈兼愛上〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐字對校；「亡有」與「亡／有亡」為版本異文，本庫保留《四部叢刊》系統通行讀法，解析並列古本語序。"
+    },
+    {
+      "passageId": "mo-zi_ch-14_p-5",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/universal-love-i/zh",
+        "https://ctext.org/mozi-jiangu/juan-si/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%85%BC%E6%84%9B%E4%B8%8A",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷四〈兼愛上〉；吳毓江《墨子校注》卷四〈兼愛上〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐字對校；修復末句右引號被拆成獨立句的資料結構錯誤，正文未改。"
     }
   ]
 }
