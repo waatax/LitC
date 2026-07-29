@@ -42,8 +42,10 @@ const mechanicalTranslationPatterns = [
 ];
 const genericAnalysisPatterns = [
   /\u672c\u6bb5\u51fa\u81ea.*\u6df1\u5165\u8ad6\u8ff0/u,
+  /\u672c\u6bb5\u51fa\u81ea.*\u63a2\u7d22.*\u4e4b\u9053/u,
   /\u7d93\u6587\u6838\u5fc3\u53e5/u,
   /\u8ad6\u8ff0\u5c64\u6b21\u5206\u660e/u,
+  /\u601d\u60f3[\uff0f/]\u4fee\u8fad[\uff0f/]\u7bc7\u7ae0/u,
 ];
 
 const rows = [];

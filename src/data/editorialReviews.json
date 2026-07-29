@@ -1,5 +1,47 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-07-29",
-  "reviews": []
+  "reviews": [
+    {
+      "passageId": "wenzi_ch-1_p-1",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": ["https://ctext.org/wenzi/dao-yuan/zhs", "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf"],
+      "reviewedAt": "2026-07-29",
+      "notes": "白話與解析逐句重審；原文異文仍待王利器《文子疏義》或影印底本校合。"
+    },
+    {
+      "passageId": "wenzi_ch-1_p-2",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": ["https://ctext.org/wenzi/dao-yuan/zhs", "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf"],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-1_p-3",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": ["https://ctext.org/wenzi/dao-yuan/zhs", "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf"],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-1_p-4",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": ["https://ctext.org/wenzi/dao-yuan/zhs", "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf"],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-1_p-5",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": ["https://ctext.org/wenzi/dao-yuan/zhs", "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf"],
+      "reviewedAt": "2026-07-29"
+    }
+  ]
 }
