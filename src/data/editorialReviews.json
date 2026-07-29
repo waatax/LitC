@@ -14372,6 +14372,54 @@
       ],
       "reviewedAt": "2026-07-29",
       "notes": "校正「士君子」；傅子、諍／爭、享／序、援／授等校讀列入解析而不強改底本。"
+    },
+    {
+      "passageId": "mo-zi_ch-20_p-1",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/economy-of-expenditures-i/zh",
+        "https://ctext.org/mozi-jiangu/jie-yong-shang/zh",
+        "https://zh.wikisource.org/zh-hant/墨子/節用上",
+        "https://zh.wikisource.org/wiki/墨子閒詁/卷六",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷六〈節用上〉；吳毓江《墨子校注》卷六〈節用上〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "四處「芊䱉」有「則止」「鮮且」等校說，證據未定；保留底本並依「加用」原則譯解。"
+    },
+    {
+      "passageId": "mo-zi_ch-20_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/economy-of-expenditures-i/zh",
+        "https://ctext.org/mozi-jiangu/jie-yong-shang/zh",
+        "https://zh.wikisource.org/zh-hant/墨子/節用上",
+        "https://zh.wikisource.org/wiki/墨子閒詁/卷六",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷六〈節用上〉；吳毓江《墨子校注》卷六〈節用上〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "校「于民」為「於民」；「次」之校讀未定，正文保留並按人民自行選擇疏解。"
+    },
+    {
+      "passageId": "mo-zi_ch-20_p-3",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/economy-of-expenditures-i/zh",
+        "https://ctext.org/mozi-jiangu/jie-yong-shang/zh",
+        "https://zh.wikisource.org/zh-hant/墨子/節用上",
+        "https://zh.wikisource.org/wiki/墨子閒詁/卷六",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷六〈節用上〉；吳毓江《墨子校注》卷六〈節用上〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "據今本與句義校「令」為「今」、補「此」及結語「行」；疑文「侵就伏橐」保留。"
     }
   ]
 }
