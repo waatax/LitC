@@ -8,7 +8,7 @@ const convertBounded = (text) => {
   const protectedTerms = [
     '羣后', '群后', '高后', '皇后', '后土', '后稷', '后羿',
     '蒙蔽', '欺蒙', '私占', '獨占', '私欲', '嚴萬里', '里社', '里有書社', '鄉里', '尸襲',
-    '盜跖', '使跖可信', '定制', '群臣', '坐床', '局限',
+    '盜跖', '使跖可信', '定制', '群臣', '坐床', '局限', '考核', '才可',
   ]
   const placeholders = new Map()
   protectedTerms.forEach((term, index) => {
