@@ -3918,6 +3918,110 @@
         "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf"
       ],
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-12_p-1",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/attack-by-fire/zh",
+        "https://zh.wikisource.org/zh-hant/十一家注孫子/火攻篇"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-12_p-2",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/attack-by-fire/zh",
+        "https://zh.wikisource.org/zh-hant/十一家注孫子/火攻篇"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-12_p-3",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/attack-by-fire/zh",
+        "https://zh.wikisource.org/zh-hant/十一家注孫子/火攻篇"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-13_p-1",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/use-of-spies/zh",
+        "https://zh.wikisource.org/zh-hant/十一家注孫子/用間篇"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-13_p-2",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/use-of-spies/zh",
+        "https://zh.wikisource.org/zh-hant/十一家注孫子/用間篇"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-13_p-3",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/use-of-spies/zh",
+        "https://zh.wikisource.org/zh-hant/十一家注孫子/用間篇"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-13_p-4",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/use-of-spies/zh",
+        "https://zh.wikisource.org/zh-hant/十一家注孫子/用間篇"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-13_p-5",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/use-of-spies/zh",
+        "https://zh.wikisource.org/zh-hant/十一家注孫子/用間篇"
+      ],
+      "reviewedAt": "2026-07-29"
     }
   ]
 }
