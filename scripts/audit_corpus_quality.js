@@ -14,7 +14,7 @@ const [works, chapters, passages] = datasets;
 if (!works || !chapters || !passages) throw new Error('Unable to decode corpus datasets.');
 
 const aids = new Map();
-const aidPattern = /'([^']+)'\s*:\s*\{\s*translation:\s*"((?:\\.|[^"\\])*)",\s*analysis:\s*"((?:\\.|[^"\\])*)"\s*\}/gs;
+const aidPattern = /'([^']+)'\s*:\s*\{\s*["']?translation["']?\s*:\s*"((?:\\.|[^"\\])*)",\s*["']?analysis["']?\s*:\s*"((?:\\.|[^"\\])*)"\s*\}/gs;
 for (const match of aidSource.matchAll(aidPattern)) {
   aids.set(match[1], {
     translation: JSON.parse(`"${match[2]}"`),
