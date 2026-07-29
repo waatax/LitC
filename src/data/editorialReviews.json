@@ -12936,6 +12936,51 @@
       ],
       "reviewedAt": "2026-07-29",
       "notes": "依《墨子》通行本、《墨子閒詁》、《墨子校注》及《羣書治要》相關節文交叉核對；白話與解析均以繁體中文重寫。"
+    },
+    {
+      "passageId": "mo-zi_ch-7_p-1",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/threefold-argument/zh",
+        "https://ctext.org/mozi-jiangu/san-bian/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E4%B8%89%E8%BE%AF",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "以《正統道藏》系統通行本文、《墨子閒詁》與《墨子校注》交叉核對；白話與解析以繁體中文重新撰寫。"
+    },
+    {
+      "passageId": "mo-zi_ch-7_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/threefold-argument/zh",
+        "https://ctext.org/mozi-jiangu/san-bian/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E4%B8%89%E8%BE%AF",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "以《正統道藏》系統通行本文、《墨子閒詁》與《墨子校注》交叉核對；白話與解析以繁體中文重新撰寫。"
+    },
+    {
+      "passageId": "mo-zi_ch-7_p-3",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/threefold-argument/zh",
+        "https://ctext.org/mozi-jiangu/san-bian/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E4%B8%89%E8%BE%AF",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "原文依通行校本；「多寡之」「因為無智」存在舊本訛誤，解析中明列孫詒讓「多者寡之」「固為無智」校說，不逕以推校字改動正文。"
     }
   ]
 }
