@@ -37,6 +37,8 @@ function convertBounded(text) {
     '核算', '只看', '欲望', '吃了', '給父母吃', '給君主吃', '凶禍', '吉凶',
     '數以萬里', '數千里', '數百里', '三百里', '三里的', '七里的',
     '廣衍數於萬，不勝而辟',
+    '免攻伐并兼', '禹征三苗', '征三苗', '三處「于」', '于／於',
+    '疲困', '只說',
     '游者愛佼', '「凶」', '凶、餽', '凶饑', '凶歉', '凶年', '凶荒', '征討', '《群書治要》',
   ]
   const placeholders = new Map()
@@ -74,7 +76,7 @@ if (fs.existsSync(editorialReviewPath)) {
   const before = fs.readFileSync(editorialReviewPath, 'utf8')
   const data = JSON.parse(before)
   const convertValue = (value) => {
-    if (typeof value === 'string') return toTraditional(value)
+    if (typeof value === 'string') return convertBounded(value)
     if (Array.isArray(value)) return value.map(convertValue)
     if (value && typeof value === 'object') {
       return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, convertValue(item)]))

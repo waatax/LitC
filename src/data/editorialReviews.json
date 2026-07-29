@@ -14276,6 +14276,102 @@
       ],
       "reviewedAt": "2026-07-29",
       "notes": "校正「趙氏夕；亡」為「趙氏夕亡」；其餘疑文保留底本並在解析交代。"
+    },
+    {
+      "passageId": "mo-zi_ch-19_p-1",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/condemnation-of-offensive-war-iii/zh",
+        "https://ctext.org/mozi-jiangu/fei-gong-xia/zh",
+        "https://zh.wikisource.org/zh-hant/墨子/非攻下",
+        "https://zh.wikisource.org/wiki/墨子閒詁/卷五",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷五〈非攻下〉；吳毓江《墨子校注》卷五〈非攻下〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "三利標準與盲者辨色譬喻已交叉核對；「免攻伐并兼」屬疑文，依底本保留。"
+    },
+    {
+      "passageId": "mo-zi_ch-19_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/condemnation-of-offensive-war-iii/zh",
+        "https://ctext.org/mozi-jiangu/fei-gong-xia/zh",
+        "https://zh.wikisource.org/zh-hant/墨子/非攻下",
+        "https://zh.wikisource.org/wiki/墨子閒詁/卷五",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷五〈非攻下〉；吳毓江《墨子校注》卷五〈非攻下〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "據今本及上下義校「周生」為「害生」；其餘軍令、祭祀字句依底本。"
+    },
+    {
+      "passageId": "mo-zi_ch-19_p-3",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/condemnation-of-offensive-war-iii/zh",
+        "https://ctext.org/mozi-jiangu/fei-gong-xia/zh",
+        "https://zh.wikisource.org/zh-hant/墨子/非攻下",
+        "https://zh.wikisource.org/wiki/墨子閒詁/卷五",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷五〈非攻下〉；吳毓江《墨子校注》卷五〈非攻下〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "據今本校正「卒不和」「糧食不繼」「廝役」三處；其餘訛疑不擅改。"
+    },
+    {
+      "passageId": "mo-zi_ch-19_p-4",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/condemnation-of-offensive-war-iii/zh",
+        "https://ctext.org/mozi-jiangu/fei-gong-xia/zh",
+        "https://zh.wikisource.org/zh-hant/墨子/非攻下",
+        "https://zh.wikisource.org/wiki/墨子閒詁/卷五",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷五〈非攻下〉；吳毓江《墨子校注》卷五〈非攻下〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "校正誥命、于／於、克有夏、反商作周等可互證訛脫；神異名物異讀保留並註明。"
+    },
+    {
+      "passageId": "mo-zi_ch-19_p-5",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/condemnation-of-offensive-war-iii/zh",
+        "https://ctext.org/mozi-jiangu/fei-gong-xia/zh",
+        "https://zh.wikisource.org/zh-hant/墨子/非攻下",
+        "https://zh.wikisource.org/wiki/墨子閒詁/卷五",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷五〈非攻下〉；吳毓江《墨子校注》卷五〈非攻下〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "據建國語境及今本校正熊麗「始封」、雎山與誤入引號；醫藥譬喻已核。"
+    },
+    {
+      "passageId": "mo-zi_ch-19_p-6",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/condemnation-of-offensive-war-iii/zh",
+        "https://ctext.org/mozi-jiangu/fei-gong-xia/zh",
+        "https://zh.wikisource.org/zh-hant/墨子/非攻下",
+        "https://zh.wikisource.org/wiki/墨子閒詁/卷五",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷五〈非攻下〉；吳毓江《墨子校注》卷五〈非攻下〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "校正「士君子」；傅子、諍／爭、享／序、援／授等校讀列入解析而不強改底本。"
     }
   ]
 }
