@@ -14166,6 +14166,36 @@
       ],
       "reviewedAt": "2026-07-29",
       "notes": "逐字對校《四部叢刊》系統本、《墨子閒詁》《墨子校注》及繁體通行本，重寫白話與解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-17_p-1",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/condemnation-of-offensive-war-i/zh",
+        "https://ctext.org/mozi-jiangu/fei-gong-shang/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E9%9D%9E%E6%94%BB%E4%B8%8A",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷五〈非攻上〉；吳毓江《墨子校注》卷五〈非攻上〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐字對校；正文與《四部叢刊》系統底本相合，篇首增句及「知非／知而非」等異文保留於校勘紀錄，不擅改底本。"
+    },
+    {
+      "passageId": "mo-zi_ch-17_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/condemnation-of-offensive-war-i/zh",
+        "https://ctext.org/mozi-jiangu/fei-gong-shang/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E9%9D%9E%E6%94%BB%E4%B8%8A",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷五〈非攻上〉；吳毓江《墨子校注》卷五〈非攻上〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐字對校；正文與《四部叢刊》系統底本相合，篇首增句及「知非／知而非」等異文保留於校勘紀錄，不擅改底本。"
     }
   ]
 }
