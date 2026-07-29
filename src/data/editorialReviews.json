@@ -14724,6 +14724,118 @@
       ],
       "reviewedAt": "2026-07-29",
       "notes": "原文對校兩種電子文本與兩種校注；白話及解析逐段重寫。"
+    },
+    {
+      "passageId": "mo-zi_ch-26_p-1",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/will-of-heaven-i/zh",
+        "https://ctext.org/mozi-jiangu/tian-zhi-shang/zh",
+        "https://ctext.org/text.pl?if=gb&node=11014",
+        "https://zh.wikisource.org/zh-hant/墨子/天志上",
+        "孫詒讓《墨子閒詁》卷七〈天志上第二十六〉",
+        "吳毓江《墨子校注》卷七〈天志上〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "核對「焉而晏日」舊文及孫詒讓訓釋；白話保留其光天化日、無所逃避之義。"
+    },
+    {
+      "passageId": "mo-zi_ch-26_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/will-of-heaven-i/zh",
+        "https://ctext.org/mozi-jiangu/tian-zhi-shang/zh",
+        "https://ctext.org/text.pl?if=gb&node=11014",
+        "https://zh.wikisource.org/zh-hant/墨子/天志上",
+        "孫詒讓《墨子閒詁》卷七〈天志上第二十六〉",
+        "吳毓江《墨子校注》卷七〈天志上〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "核對生、富、治三組平行論證，重寫白話及思想解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-26_p-3",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/will-of-heaven-i/zh",
+        "https://ctext.org/mozi-jiangu/tian-zhi-shang/zh",
+        "https://ctext.org/text.pl?if=gb&node=11014",
+        "https://zh.wikisource.org/zh-hant/墨子/天志上",
+        "孫詒讓《墨子閒詁》卷七〈天志上第二十六〉",
+        "吳毓江《墨子校注》卷七〈天志上〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "核對「次己」即己／恣己兩說及天治理天子的階序論證。"
+    },
+    {
+      "passageId": "mo-zi_ch-26_p-4",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/will-of-heaven-i/zh",
+        "https://ctext.org/mozi-jiangu/tian-zhi-shang/zh",
+        "https://ctext.org/text.pl?if=gb&node=11014",
+        "https://zh.wikisource.org/zh-hant/墨子/天志上",
+        "孫詒讓《墨子閒詁》卷七〈天志上第二十六〉",
+        "吳毓江《墨子校注》卷七〈天志上〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "核對窮貴、詬天、兼相愛交相利等詞義及聖暴王對舉。"
+    },
+    {
+      "passageId": "mo-zi_ch-26_p-5",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/will-of-heaven-i/zh",
+        "https://ctext.org/mozi-jiangu/tian-zhi-shang/zh",
+        "https://ctext.org/text.pl?if=gb&node=11014",
+        "https://zh.wikisource.org/zh-hant/墨子/天志上",
+        "孫詒讓《墨子閒詁》卷七〈天志上第二十六〉",
+        "吳毓江《墨子校注》卷七〈天志上〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "核對「兼而食焉」「天有邑人」及殺不辜受不祥兩條論證。"
+    },
+    {
+      "passageId": "mo-zi_ch-26_p-6",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/will-of-heaven-i/zh",
+        "https://ctext.org/mozi-jiangu/tian-zhi-shang/zh",
+        "https://ctext.org/text.pl?if=gb&node=11014",
+        "https://zh.wikisource.org/zh-hant/墨子/天志上",
+        "孫詒讓《墨子閒詁》卷七〈天志上第二十六〉",
+        "吳毓江《墨子校注》卷七〈天志上〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "核對義政／力政及「猶倖馳也」疑難句，解析中明示異讀。"
+    },
+    {
+      "passageId": "mo-zi_ch-26_p-7",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/will-of-heaven-i/zh",
+        "https://ctext.org/mozi-jiangu/tian-zhi-shang/zh",
+        "https://ctext.org/text.pl?if=gb&node=11014",
+        "https://zh.wikisource.org/zh-hant/墨子/天志上",
+        "孫詒讓《墨子閒詁》卷七〈天志上第二十六〉",
+        "吳毓江《墨子校注》卷七〈天志上〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "核對規矩譬喻與「中者是也」的判準義。"
     }
   ]
 }
