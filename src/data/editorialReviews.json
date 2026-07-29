@@ -462,6 +462,66 @@
         "https://chinese.nchu.edu.tw/files/users/189/44-1.pdf"
       ],
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-3_p-8",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/jiu-shou/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-3_p-9",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/jiu-shou/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-3_p-40",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/jiu-shou/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-3_p-45",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/jiu-shou/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-3_p-47",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/jiu-shou/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
     }
   ]
 }
