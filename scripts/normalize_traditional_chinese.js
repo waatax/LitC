@@ -33,6 +33,7 @@ function convertBounded(text) {
     '田里', '命令才行', '政事才有常規', '只是', '才是', '雖跖', '萬里土地',
     '了解', '公布', '群鴨', '鴨群', '愈治愈亂', '才不會',
     '只靠', '只採納', '只照', '只積', '只燒', '只顯耀',
+    '范吉射', '干辛', '段干木',
   ]
   const placeholders = new Map()
   protectedTerms.forEach((term, index) => {
