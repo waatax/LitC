@@ -12632,6 +12632,86 @@
       ],
       "reviewedAt": "2026-07-29",
       "notes": "「創作比周」「所堪」均有校釋分歧；未逕改正文，白話依上下文最低限度疏通。"
+    },
+    {
+      "passageId": "mo-zi_ch-4_p-1",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/on-the-necessity-of-standards/zh",
+        "https://ctext.org/mozi-jiangu/fa-yi/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E6%B3%95%E5%84%80",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》；張純一《墨子集解》",
+        "教育部《教育百科》「法天」「天明」條"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "原文稱「五者」而列項疑有脫文；保留底本，解析記錄孫詒讓疑脫「平以水」說。"
+    },
+    {
+      "passageId": "mo-zi_ch-4_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/on-the-necessity-of-standards/zh",
+        "https://ctext.org/mozi-jiangu/fa-yi/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E6%B3%95%E5%84%80",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》；張純一《墨子集解》",
+        "教育部《教育百科》「法天」「天明」條"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "「法其學」依上下文譯為效法所從學的師者／學術傳授者，不逕改正文。"
+    },
+    {
+      "passageId": "mo-zi_ch-4_p-3",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/on-the-necessity-of-standards/zh",
+        "https://ctext.org/mozi-jiangu/fa-yi/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E6%B3%95%E5%84%80",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》；張純一《墨子集解》",
+        "教育部《教育百科》「法天」「天明」條"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "已對讀中國哲學書電子化計劃、《墨子閒詁》《墨子校注》及維基文庫；繁體白話與解析逐段人工校訂。"
+    },
+    {
+      "passageId": "mo-zi_ch-4_p-4",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/on-the-necessity-of-standards/zh",
+        "https://ctext.org/mozi-jiangu/fa-yi/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E6%B3%95%E5%84%80",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》；張純一《墨子集解》",
+        "教育部《教育百科》「法天」「天明」條"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "已對讀中國哲學書電子化計劃、《墨子閒詁》《墨子校注》及維基文庫；繁體白話與解析逐段人工校訂。"
+    },
+    {
+      "passageId": "mo-zi_ch-4_p-5",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/on-the-necessity-of-standards/zh",
+        "https://ctext.org/mozi-jiangu/fa-yi/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E6%B3%95%E5%84%80",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》；張純一《墨子集解》",
+        "教育部《教育百科》「法天」「天明」條"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "已對讀中國哲學書電子化計劃、《墨子閒詁》《墨子校注》及維基文庫；繁體白話與解析逐段人工校訂。"
     }
   ]
 }
