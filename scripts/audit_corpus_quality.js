@@ -24,6 +24,7 @@ for (const match of aidSource.matchAll(aidPattern)) {
 
 const chapterToWork = new Map(chapters.map((chapter) => [chapter.id, chapter.workId]));
 const workById = new Map(works.map((work) => [work.id, work]));
+const passageById = new Map(passages.map((passage) => [passage.id, passage]));
 const analysisOwners = new Map();
 for (const passage of passages) {
   const analysis = aids.get(passage.id)?.analysis?.replace(/\s+/g, ' ').trim();
@@ -48,6 +49,18 @@ const genericAnalysisPatterns = [
   /\u601d\u60f3[\uff0f/]\u4fee\u8fad[\uff0f/]\u7bc7\u7ae0/u,
 ];
 
+function isDocumentedParallelDuplicate(passageId, owners) {
+  const normalizedCanonical = (passageById.get(passageId)?.canonicalText || '').replace(/\s+/g, ' ').trim();
+  if (!normalizedCanonical) return false;
+  return owners.some((otherId) => {
+    if (otherId === passageId) return false;
+    const otherCanonical = (passageById.get(otherId)?.canonicalText || '').replace(/\s+/g, ' ').trim();
+    if (otherCanonical !== normalizedCanonical) return false;
+    return editorialReviews.get(passageId)?.parallelPassageId === otherId
+      || editorialReviews.get(otherId)?.parallelPassageId === passageId;
+  });
+}
+
 const rows = [];
 for (const passage of passages) {
   const workId = chapterToWork.get(passage.chapterId);
@@ -68,7 +81,8 @@ for (const passage of passages) {
   if (!analysis.trim()) issues.push('missing_analysis');
   if (badTextPatterns.some((pattern) => pattern.test(analysis))) issues.push('analysis_encoding_risk');
   if (genericAnalysisPatterns.filter((pattern) => pattern.test(analysis)).length >= 2) issues.push('generic_analysis_risk');
-  if ((analysisOwners.get(analysis.replace(/\s+/g, ' ').trim()) || []).length > 1) issues.push('duplicate_analysis');
+  const duplicateOwners = analysisOwners.get(analysis.replace(/\s+/g, ' ').trim()) || [];
+  if (duplicateOwners.length > 1 && !isDocumentedParallelDuplicate(passage.id, duplicateOwners)) issues.push('duplicate_analysis');
   if (editorialReview?.canonicalText !== 'verified') issues.push('canonical_not_editorially_verified');
   if (editorialReview?.translation !== 'verified') issues.push('translation_not_editorially_verified');
   if (editorialReview?.analysis !== 'verified') issues.push('analysis_not_editorially_verified');
@@ -116,7 +130,7 @@ const issueTotals = {};
 for (const row of rows) for (const issue of row.issues) issueTotals[issue] = (issueTotals[issue] || 0) + 1;
 const report = {
   generatedAt: new Date().toISOString(),
-  policyVersion: 1,
+  policyVersion: 2,
   totals: {
     works: works.length,
     chapters: chapters.length,
