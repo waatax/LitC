@@ -5833,6 +5833,78 @@
         "https://upload.wikimedia.org/wikipedia/commons/5/5f/WUL-ro13_00059_文始真經.pdf"
       ],
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenshi-zhenjing_ch-8_p-1",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenshi-zhenjing/ba-chou/zh",
+        "https://ctext.org/wiki.pl?chapter=753927&if=zh",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5f/WUL-ro13_00059_文始真經.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenshi-zhenjing_ch-8_p-2",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenshi-zhenjing/ba-chou/zh",
+        "https://ctext.org/wiki.pl?chapter=753927&if=zh",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5f/WUL-ro13_00059_文始真經.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenshi-zhenjing_ch-8_p-3",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenshi-zhenjing/ba-chou/zh",
+        "https://ctext.org/wiki.pl?chapter=753927&if=zh",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5f/WUL-ro13_00059_文始真經.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenshi-zhenjing_ch-8_p-4",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenshi-zhenjing/ba-chou/zh",
+        "https://ctext.org/wiki.pl?chapter=753927&if=zh",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5f/WUL-ro13_00059_文始真經.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenshi-zhenjing_ch-8_p-5",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenshi-zhenjing/ba-chou/zh",
+        "https://ctext.org/wiki.pl?chapter=753927&if=zh",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5f/WUL-ro13_00059_文始真經.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenshi-zhenjing_ch-8_p-6",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenshi-zhenjing/ba-chou/zh",
+        "https://ctext.org/wiki.pl?chapter=753927&if=zh",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5f/WUL-ro13_00059_文始真經.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
     }
   ]
 }
