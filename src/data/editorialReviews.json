@@ -11693,6 +11693,104 @@
       ],
       "reviewedAt": "2026-07-29",
       "notes": "逐句核對《漢魏叢書》本、維基文庫卷四及嚴萬里系統校本；依異本與上下文校正明顯形訛，段落、逐句、分塊已同步，校改及理由記入解析。"
+    },
+    {
+      "passageId": "shang-jun-shu_ch-18_p-1",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/shang-jun-shu/policies/zh",
+        "https://zh.wikisource.org/wiki/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E5%9B%9B",
+        "https://taiwanebook.ncl.edu.tw/zh-tw/book/NCL-A008475/reader",
+        "嚴萬里校《商君書》、朱師轍《商君書解詁定本》、王時潤《商君書集解》、高亨《商君書注譯》、蔣禮鴻《商君書錐指》、尤銳（Yuri Pines）《The Book of Lord Shang》及相關軍事思想研究"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐句核對傳世卷四、數位校本與主要校釋；疑難異文不逕改原文，於解析中標明歧義。白話與解析均以繁體中文人工重寫。"
+    },
+    {
+      "passageId": "shang-jun-shu_ch-18_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/shang-jun-shu/policies/zh",
+        "https://zh.wikisource.org/wiki/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E5%9B%9B",
+        "https://taiwanebook.ncl.edu.tw/zh-tw/book/NCL-A008475/reader",
+        "嚴萬里校《商君書》、朱師轍《商君書解詁定本》、王時潤《商君書集解》、高亨《商君書注譯》、蔣禮鴻《商君書錐指》、尤銳（Yuri Pines）《The Book of Lord Shang》及相關軍事思想研究"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐句核對傳世卷四、數位校本與主要校釋；疑難異文不逕改原文，於解析中標明歧義。白話與解析均以繁體中文人工重寫。"
+    },
+    {
+      "passageId": "shang-jun-shu_ch-18_p-3",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/shang-jun-shu/policies/zh",
+        "https://zh.wikisource.org/wiki/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E5%9B%9B",
+        "https://taiwanebook.ncl.edu.tw/zh-tw/book/NCL-A008475/reader",
+        "嚴萬里校《商君書》、朱師轍《商君書解詁定本》、王時潤《商君書集解》、高亨《商君書注譯》、蔣禮鴻《商君書錐指》、尤銳（Yuri Pines）《The Book of Lord Shang》及相關軍事思想研究"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐句核對傳世卷四、數位校本與主要校釋；疑難異文不逕改原文，於解析中標明歧義。白話與解析均以繁體中文人工重寫。"
+    },
+    {
+      "passageId": "shang-jun-shu_ch-18_p-4",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/shang-jun-shu/policies/zh",
+        "https://zh.wikisource.org/wiki/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E5%9B%9B",
+        "https://taiwanebook.ncl.edu.tw/zh-tw/book/NCL-A008475/reader",
+        "嚴萬里校《商君書》、朱師轍《商君書解詁定本》、王時潤《商君書集解》、高亨《商君書注譯》、蔣禮鴻《商君書錐指》、尤銳（Yuri Pines）《The Book of Lord Shang》及相關軍事思想研究"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐句核對傳世卷四、數位校本與主要校釋；疑難異文不逕改原文，於解析中標明歧義。白話與解析均以繁體中文人工重寫。"
+    },
+    {
+      "passageId": "shang-jun-shu_ch-18_p-5",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/shang-jun-shu/policies/zh",
+        "https://zh.wikisource.org/wiki/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E5%9B%9B",
+        "https://taiwanebook.ncl.edu.tw/zh-tw/book/NCL-A008475/reader",
+        "嚴萬里校《商君書》、朱師轍《商君書解詁定本》、王時潤《商君書集解》、高亨《商君書注譯》、蔣禮鴻《商君書錐指》、尤銳（Yuri Pines）《The Book of Lord Shang》及相關軍事思想研究"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐句核對傳世卷四、數位校本與主要校釋；疑難異文不逕改原文，於解析中標明歧義。白話與解析均以繁體中文人工重寫。"
+    },
+    {
+      "passageId": "shang-jun-shu_ch-18_p-6",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/shang-jun-shu/policies/zh",
+        "https://zh.wikisource.org/wiki/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E5%9B%9B",
+        "https://taiwanebook.ncl.edu.tw/zh-tw/book/NCL-A008475/reader",
+        "嚴萬里校《商君書》、朱師轍《商君書解詁定本》、王時潤《商君書集解》、高亨《商君書注譯》、蔣禮鴻《商君書錐指》、尤銳（Yuri Pines）《The Book of Lord Shang》及相關軍事思想研究"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐句核對傳世卷四、數位校本與主要校釋；疑難異文不逕改原文，於解析中標明歧義。白話與解析均以繁體中文人工重寫。"
+    },
+    {
+      "passageId": "shang-jun-shu_ch-18_p-7",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/shang-jun-shu/policies/zh",
+        "https://zh.wikisource.org/wiki/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E5%9B%9B",
+        "https://taiwanebook.ncl.edu.tw/zh-tw/book/NCL-A008475/reader",
+        "嚴萬里校《商君書》、朱師轍《商君書解詁定本》、王時潤《商君書集解》、高亨《商君書注譯》、蔣禮鴻《商君書錐指》、尤銳（Yuri Pines）《The Book of Lord Shang》及相關軍事思想研究"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐句核對傳世卷四、數位校本與主要校釋；疑難異文不逕改原文，於解析中標明歧義。白話與解析均以繁體中文人工重寫。"
     }
   ]
 }
