@@ -1653,6 +1653,71 @@
         "https://chinese.nchu.edu.tw/files/users/189/44-1.pdf"
       ],
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-3_p-18",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/jiu-shou/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf",
+        "https://chinese.nchu.edu.tw/files/users/189/44-1.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-3_p-19",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/jiu-shou/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf",
+        "https://chinese.nchu.edu.tw/files/users/189/44-1.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-3_p-20",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/jiu-shou/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf",
+        "https://chinese.nchu.edu.tw/files/users/189/44-1.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-3_p-21",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/jiu-shou/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf",
+        "https://chinese.nchu.edu.tw/files/users/189/44-1.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-3_p-22",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/jiu-shou/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf",
+        "https://chinese.nchu.edu.tw/files/users/189/44-1.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
     }
   ]
 }
