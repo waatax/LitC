@@ -5,7 +5,10 @@ import OpenCC from 'opencc-js'
 const root = process.cwd()
 const toTraditional = OpenCC.ConverterFactory(...OpenCC.Locale.from.cn)
 const convertBounded = (text) => {
-  const protectedTerms = ['羣后', '群后', '高后', '皇后', '后土', '后稷', '后羿']
+  const protectedTerms = [
+    '羣后', '群后', '高后', '皇后', '后土', '后稷', '后羿',
+    '蒙蔽', '私占', '獨占', '私欲', '嚴萬里',
+  ]
   const placeholders = new Map()
   protectedTerms.forEach((term, index) => {
     const placeholder = `__LITC_CLASSICAL_${index}__`

@@ -11385,6 +11385,62 @@
       ],
       "reviewedAt": "2026-07-29",
       "notes": "核對底本、卷本與校注；“靳”按嚴限解釋；對無當之管、以法去法、一空及六蝨／十二者計數不整等傳文問題明確保留說明。"
+    },
+    {
+      "passageId": "shang-jun-shu_ch-14_p-1",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/shang-jun-shu/cultivation-of-the-right-standard/zh",
+        "https://zh.wikisource.org/zh/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%B8%89",
+        "https://zh.wikisource.org/zh/%E7%BE%A3%E6%9B%B8%E6%B2%BB%E8%A6%81/%E5%8D%B7%E4%B8%89%E5%8D%81%E5%85%AD",
+        "嚴萬里校《商君書》、朱師轍《商君書解詁定本》、高亨《商君書注譯》、蔣禮鴻《商君書錐指》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐句核對電子底本、卷三異本及《羣書治要》節文；“利者，武也”依高亨等校釋及上下文改作“刑者，武也”，異文已寫入解析與來源紀錄。"
+    },
+    {
+      "passageId": "shang-jun-shu_ch-14_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/shang-jun-shu/cultivation-of-the-right-standard/zh",
+        "https://zh.wikisource.org/zh/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%B8%89",
+        "https://zh.wikisource.org/zh/%E7%BE%A3%E6%9B%B8%E6%B2%BB%E8%A6%81/%E5%8D%B7%E4%B8%89%E5%8D%81%E5%85%AD",
+        "嚴萬里校《商君書》、朱師轍《商君書解詁定本》、高亨《商君書注譯》、蔣禮鴻《商君書錐指》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐句核對電子底本、維基文庫卷三及嚴萬里、朱師轍、高亨、蔣禮鴻諸校釋；白話與解析按本段專有詞義重新撰寫。"
+    },
+    {
+      "passageId": "shang-jun-shu_ch-14_p-3",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/shang-jun-shu/cultivation-of-the-right-standard/zh",
+        "https://zh.wikisource.org/zh/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%B8%89",
+        "https://zh.wikisource.org/zh/%E7%BE%A3%E6%9B%B8%E6%B2%BB%E8%A6%81/%E5%8D%B7%E4%B8%89%E5%8D%81%E5%85%AD",
+        "嚴萬里校《商君書》、朱師轍《商君書解詁定本》、高亨《商君書注譯》、蔣禮鴻《商君書錐指》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐句核對電子底本、維基文庫卷三及嚴萬里、朱師轍、高亨、蔣禮鴻諸校釋；白話與解析按本段專有詞義重新撰寫。"
+    },
+    {
+      "passageId": "shang-jun-shu_ch-14_p-4",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/shang-jun-shu/cultivation-of-the-right-standard/zh",
+        "https://zh.wikisource.org/zh/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%B8%89",
+        "https://zh.wikisource.org/zh/%E7%BE%A3%E6%9B%B8%E6%B2%BB%E8%A6%81/%E5%8D%B7%E4%B8%89%E5%8D%81%E5%85%AD",
+        "嚴萬里校《商君書》、朱師轍《商君書解詁定本》、高亨《商君書注譯》、蔣禮鴻《商君書錐指》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐句核對電子底本、維基文庫卷三及嚴萬里、朱師轍、高亨、蔣禮鴻諸校釋；白話與解析按本段專有詞義重新撰寫。"
     }
   ]
 }
