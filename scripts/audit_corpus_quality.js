@@ -4,6 +4,9 @@ import path from 'path';
 const root = process.cwd();
 const worksSource = fs.readFileSync(path.join(root, 'src/data/works.ts'), 'utf8');
 const aidSource = fs.readFileSync(path.join(root, 'src/data/readingAid.ts'), 'utf8');
+const editorialReviewPath = path.join(root, 'src/data/editorialReviews.json');
+const editorialReviewData = JSON.parse(fs.readFileSync(editorialReviewPath, 'utf8'));
+const editorialReviews = new Map(editorialReviewData.reviews.map((review) => [review.passageId, review]));
 const datasets = [...worksSource.matchAll(/JSON\.parse\(decodeURIComponent\("([^"]+)"\)\)/g)]
   .map((match) => JSON.parse(decodeURIComponent(match[1])));
 const [works, chapters, passages] = datasets;
@@ -48,6 +51,7 @@ for (const passage of passages) {
   const workId = chapterToWork.get(passage.chapterId);
   const work = workById.get(workId);
   const aid = aids.get(passage.id);
+  const editorialReview = editorialReviews.get(passage.id);
   const issues = [];
   const canonicalText = passage.canonicalText || '';
   const translation = aid?.translation || '';
@@ -63,6 +67,10 @@ for (const passage of passages) {
   if (badTextPatterns.some((pattern) => pattern.test(analysis))) issues.push('analysis_encoding_risk');
   if (genericAnalysisPatterns.filter((pattern) => pattern.test(analysis)).length >= 2) issues.push('generic_analysis_risk');
   if ((analysisOwners.get(analysis.replace(/\s+/g, ' ').trim()) || []).length > 1) issues.push('duplicate_analysis');
+  if (editorialReview?.canonicalText !== 'verified') issues.push('canonical_not_editorially_verified');
+  if (editorialReview?.translation !== 'verified') issues.push('translation_not_editorially_verified');
+  if (editorialReview?.analysis !== 'verified') issues.push('analysis_not_editorially_verified');
+  if (editorialReview && (!editorialReview.sources || editorialReview.sources.length < 2)) issues.push('insufficient_review_sources');
 
   rows.push({
     passageId: passage.id,
@@ -80,6 +88,10 @@ for (const passage of passages) {
       missing_source_ref: 30,
       generic_analysis_risk: 25,
       duplicate_analysis: 20,
+      canonical_not_editorially_verified: 15,
+      translation_not_editorially_verified: 15,
+      analysis_not_editorially_verified: 15,
+      insufficient_review_sources: 15,
     }[issue] || 0), 0),
   });
 }
