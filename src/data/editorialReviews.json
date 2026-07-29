@@ -13866,6 +13866,126 @@
       ],
       "reviewedAt": "2026-07-29",
       "notes": "逐字對校；修復末句右引號被拆成獨立句的資料結構錯誤，正文未改。"
+    },
+    {
+      "passageId": "mo-zi_ch-15_p-1",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/universal-love-ii/zh",
+        "https://ctext.org/mozi-jiangu/juan-si/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%85%BC%E6%84%9B%E4%B8%AD",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷四〈兼愛中〉；吳毓江《墨子校注》卷四〈兼愛中〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐字對校通行本、《墨子閒詁》與《墨子校注》，重寫繁體白話及解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-15_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/universal-love-ii/zh",
+        "https://ctext.org/mozi-jiangu/juan-si/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%85%BC%E6%84%9B%E4%B8%AD",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷四〈兼愛中〉；吳毓江《墨子校注》卷四〈兼愛中〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐字對校並補回確證脫文「眾必劫寡」。"
+    },
+    {
+      "passageId": "mo-zi_ch-15_p-3",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/universal-love-ii/zh",
+        "https://ctext.org/mozi-jiangu/juan-si/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%85%BC%E6%84%9B%E4%B8%AD",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷四〈兼愛中〉；吳毓江《墨子校注》卷四〈兼愛中〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐字對校通行本、《墨子閒詁》與《墨子校注》，重寫繁體白話及解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-15_p-4",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/universal-love-ii/zh",
+        "https://ctext.org/mozi-jiangu/juan-si/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%85%BC%E6%84%9B%E4%B8%AD",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷四〈兼愛中〉；吳毓江《墨子校注》卷四〈兼愛中〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐字對校；移除誤混入的上一段文字，補齊引號。"
+    },
+    {
+      "passageId": "mo-zi_ch-15_p-5",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/universal-love-ii/zh",
+        "https://ctext.org/mozi-jiangu/juan-si/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%85%BC%E6%84%9B%E4%B8%AD",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷四〈兼愛中〉；吳毓江《墨子校注》卷四〈兼愛中〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐字對校；刪除「士聞鼓音」前確證衍字「曰」；肱／脅息等異文保留底本並注記。"
+    },
+    {
+      "passageId": "mo-zi_ch-15_p-6",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/universal-love-ii/zh",
+        "https://ctext.org/mozi-jiangu/juan-si/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%85%BC%E6%84%9B%E4%B8%AD",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷四〈兼愛中〉；吳毓江《墨子校注》卷四〈兼愛中〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐字對校通行本、《墨子閒詁》與《墨子校注》，重寫繁體白話及解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-15_p-7",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/universal-love-ii/zh",
+        "https://ctext.org/mozi-jiangu/juan-si/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%85%BC%E6%84%9B%E4%B8%AD",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷四〈兼愛中〉；吳毓江《墨子校注》卷四〈兼愛中〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐字對校；治水地名與泰山祝辭異文繁多，保留底本，在解析記錄主要校說。"
+    },
+    {
+      "passageId": "mo-zi_ch-15_p-8",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/universal-love-ii/zh",
+        "https://ctext.org/mozi-jiangu/juan-si/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%85%BC%E6%84%9B%E4%B8%AD",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷四〈兼愛中〉；吳毓江《墨子校注》卷四〈兼愛中〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "逐字對校通行本、《墨子閒詁》與《墨子校注》，重寫繁體白話及解析。"
     }
   ]
 }
