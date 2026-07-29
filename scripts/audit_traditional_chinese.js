@@ -13,6 +13,7 @@ const convertBounded = (text) => {
     '了解', '公布', '群鴨', '鴨群', '愈治愈亂', '才不會',
     '只靠', '只採納', '只照', '只積', '只燒', '只顯耀',
     '范吉射', '干辛', '段干木',
+    '游者愛佼', '「凶」', '凶、餽', '凶饑', '凶歉', '凶年', '凶荒', '征討', '《群書治要》',
   ]
   const placeholders = new Map()
   protectedTerms.forEach((term, index) => {
