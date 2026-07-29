@@ -14196,6 +14196,86 @@
       ],
       "reviewedAt": "2026-07-29",
       "notes": "逐字對校；正文與《四部叢刊》系統底本相合，篇首增句及「知非／知而非」等異文保留於校勘紀錄，不擅改底本。"
+    },
+    {
+      "passageId": "mo-zi_ch-18_p-1",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/condemnation-of-offensive-war-ii/zh",
+        "https://ctext.org/mozi-jiangu/fei-gong-zhong/zh",
+        "https://zh.wikisource.org/zh-hant/墨子/非攻中",
+        "https://zh.wikisource.org/wiki/墨子閒詁/卷五",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷五〈非攻中〉；吳毓江《墨子校注》卷五〈非攻中〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依《四部叢刊》及《墨子閒詁》系統保留篇首「謀而不得」段次；一般今本移置後文，屬版本差異。"
+    },
+    {
+      "passageId": "mo-zi_ch-18_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/condemnation-of-offensive-war-ii/zh",
+        "https://ctext.org/mozi-jiangu/fei-gong-zhong/zh",
+        "https://zh.wikisource.org/zh-hant/墨子/非攻中",
+        "https://zh.wikisource.org/wiki/墨子閒詁/卷五",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷五〈非攻中〉；吳毓江《墨子校注》卷五〈非攻中〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "軍用品一節古本多訛脫，保留底本「撥劫」「靡壞腑爛」等字，白話按上下文審慎疏通。"
+    },
+    {
+      "passageId": "mo-zi_ch-18_p-3",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/condemnation-of-offensive-war-ii/zh",
+        "https://ctext.org/mozi-jiangu/fei-gong-zhong/zh",
+        "https://zh.wikisource.org/zh-hant/墨子/非攻中",
+        "https://zh.wikisource.org/wiki/墨子閒詁/卷五",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷五〈非攻中〉；吳毓江《墨子校注》卷五〈非攻中〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "底本作「士民」，今本另作「王民」；依底本保留並在解析說明。"
+    },
+    {
+      "passageId": "mo-zi_ch-18_p-4",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/condemnation-of-offensive-war-ii/zh",
+        "https://ctext.org/mozi-jiangu/fei-gong-zhong/zh",
+        "https://zh.wikisource.org/zh-hant/墨子/非攻中",
+        "https://zh.wikisource.org/wiki/墨子閒詁/卷五",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷五〈非攻中〉；吳毓江《墨子校注》卷五〈非攻中〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "「故當攻戰而不可為也」及「且不一著何」均有訛疑；未以推測改正文，並記錄今本異文。"
+    },
+    {
+      "passageId": "mo-zi_ch-18_p-5",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/condemnation-of-offensive-war-ii/zh",
+        "https://ctext.org/mozi-jiangu/fei-gong-zhong/zh",
+        "https://zh.wikisource.org/zh-hant/墨子/非攻中",
+        "https://zh.wikisource.org/wiki/墨子閒詁/卷五",
+        "https://ctext.org/library.pl?if=gb&res=112767",
+        "孫詒讓《墨子閒詁》卷五〈非攻中〉；吳毓江《墨子校注》卷五〈非攻中〉"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "校正「趙氏夕；亡」為「趙氏夕亡」；其餘疑文保留底本並在解析交代。"
     }
   ]
 }
