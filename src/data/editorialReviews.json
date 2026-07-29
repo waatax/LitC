@@ -3526,6 +3526,146 @@
         "https://ctext.org/art-of-war/weak-points-and-strong/zh"
       ],
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-7_p-1",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.chineseclassic.com/content/1777",
+        "https://tcmb.culture.tw/zh-tw/detail?id=20130813000029&indexCode=BOCH_CountryCulture_61",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/maneuvering/zh"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-7_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.chineseclassic.com/content/1777",
+        "https://tcmb.culture.tw/zh-tw/detail?id=20130813000029&indexCode=BOCH_CountryCulture_61",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/maneuvering/zh"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-7_p-3",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.chineseclassic.com/content/1777",
+        "https://tcmb.culture.tw/zh-tw/detail?id=20130813000029&indexCode=BOCH_CountryCulture_61",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/maneuvering/zh"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-7_p-4",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.chineseclassic.com/content/1777",
+        "https://tcmb.culture.tw/zh-tw/detail?id=20130813000029&indexCode=BOCH_CountryCulture_61",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/maneuvering/zh"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-7_p-5",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.chineseclassic.com/content/1777",
+        "https://tcmb.culture.tw/zh-tw/detail?id=20130813000029&indexCode=BOCH_CountryCulture_61",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/maneuvering/zh"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-7_p-6",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.chineseclassic.com/content/1777",
+        "https://tcmb.culture.tw/zh-tw/detail?id=20130813000029&indexCode=BOCH_CountryCulture_61",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/maneuvering/zh"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-8_p-1",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.chineseclassic.com/content/1777",
+        "https://tcmb.culture.tw/zh-tw/detail?id=20130813000029&indexCode=BOCH_CountryCulture_61",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/variation-in-tactics/zh"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-8_p-2",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.chineseclassic.com/content/1777",
+        "https://tcmb.culture.tw/zh-tw/detail?id=20130813000029&indexCode=BOCH_CountryCulture_61",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/variation-in-tactics/zh"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-8_p-3",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.chineseclassic.com/content/1777",
+        "https://tcmb.culture.tw/zh-tw/detail?id=20130813000029&indexCode=BOCH_CountryCulture_61",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/variation-in-tactics/zh"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "art-of-war_ch-8_p-4",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/art-of-war/zh",
+        "https://www.chineseclassic.com/content/1777",
+        "https://tcmb.culture.tw/zh-tw/detail?id=20130813000029&indexCode=BOCH_CountryCulture_61",
+        "https://www.leeyuri.org/Daxi-8T-YinZhu.pdf",
+        "https://ctext.org/art-of-war/variation-in-tactics/zh"
+      ],
+      "reviewedAt": "2026-07-29"
     }
   ]
 }
