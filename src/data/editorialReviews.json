@@ -3042,6 +3042,32 @@
         "https://chinese.nchu.edu.tw/files/users/189/44-1.pdf"
       ],
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-1_p-6",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/dao-yuan/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf",
+        "https://chinese.nchu.edu.tw/files/users/189/44-1.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-6_p-4",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/shang-de/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf",
+        "https://chinese.nchu.edu.tw/files/users/189/44-1.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
     }
   ]
 }
