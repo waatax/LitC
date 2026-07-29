@@ -2978,6 +2978,32 @@
       ],
       "parallelPassageId": "wenzi_ch-3_p-65",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-7_p-21",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/xia-de/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf",
+        "https://chinese.nchu.edu.tw/files/users/189/44-1.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-12_p-7",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/shang-li/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf",
+        "https://chinese.nchu.edu.tw/files/users/189/44-1.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
     }
   ]
 }
