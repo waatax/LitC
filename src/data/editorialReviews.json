@@ -13206,6 +13206,96 @@
       ],
       "reviewedAt": "2026-07-29",
       "notes": "校正「所僧」為「所憎」；「傾者民之死也」語意與校讀仍有爭議，保留底本。"
+    },
+    {
+      "passageId": "mo-zi_ch-10_p-1",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/exaltation-of-the-virtuous-iii/zh",
+        "https://ctext.org/mozi-jiangu/shang-xian-xia/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%B0%9A%E8%B3%A2%E4%B8%8B",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依通行本、《墨子閒詁》與《墨子校注》交叉核對，重寫繁體白話與解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-10_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/exaltation-of-the-virtuous-iii/zh",
+        "https://ctext.org/mozi-jiangu/shang-xian-xia/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%B0%9A%E8%B3%A2%E4%B8%8B",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依通行本與校注本修復確證誤字、跨段錯黏及重複文字，並重建句子索引。"
+    },
+    {
+      "passageId": "mo-zi_ch-10_p-3",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/exaltation-of-the-virtuous-iii/zh",
+        "https://ctext.org/mozi-jiangu/shang-xian-xia/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%B0%9A%E8%B3%A2%E4%B8%8B",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依通行本、《墨子閒詁》與《墨子校注》交叉核對，重寫繁體白話與解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-10_p-4",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/exaltation-of-the-virtuous-iii/zh",
+        "https://ctext.org/mozi-jiangu/shang-xian-xia/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%B0%9A%E8%B3%A2%E4%B8%8B",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依通行本、《墨子閒詁》與《墨子校注》交叉核對，重寫繁體白話與解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-10_p-5",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/exaltation-of-the-virtuous-iii/zh",
+        "https://ctext.org/mozi-jiangu/shang-xian-xia/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%B0%9A%E8%B3%A2%E4%B8%8B",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依通行本與校注本修復確證誤字、跨段錯黏及重複文字，並重建句子索引。"
+    },
+    {
+      "passageId": "mo-zi_ch-10_p-6",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/exaltation-of-the-virtuous-iii/zh",
+        "https://ctext.org/mozi-jiangu/shang-xian-xia/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%B0%9A%E8%B3%A2%E4%B8%8B",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依通行本與校注本修復確證誤字、跨段錯黏及重複文字，並重建句子索引。"
     }
   ]
 }
