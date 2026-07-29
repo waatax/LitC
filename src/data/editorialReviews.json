@@ -12727,7 +12727,7 @@
         "孫詒讓《墨子閒詁》；吳毓江《墨子校注》；張純一《墨子集解》"
       ],
       "reviewedAt": "2026-07-29",
-      "notes": "「游者愛佼」有「憂交」「養交」等異文；保留底本，解析記錄對讀結果。"
+      "notes": "「遊者愛佼」有「憂交」「養交」等異文；保留底本，解析記錄對讀結果。"
     },
     {
       "passageId": "mo-zi_ch-5_p-2",
@@ -12743,7 +12743,7 @@
         "孫詒讓《墨子閒詁》；吳毓江《墨子校注》；張純一《墨子集解》"
       ],
       "reviewedAt": "2026-07-29",
-      "notes": "已對讀中國哲學書電子化計劃、《墨子閒詁》《墨子校注》《群書治要》及維基文庫；繁體白話與解析逐段人工校訂。"
+      "notes": "已對讀中國哲學書電子化計劃、《墨子閒詁》《墨子校注》《羣書治要》及維基文庫；繁體白話與解析逐段人工校訂。"
     },
     {
       "passageId": "mo-zi_ch-5_p-3",
@@ -12775,7 +12775,7 @@
         "孫詒讓《墨子閒詁》；吳毓江《墨子校注》；張純一《墨子集解》"
       ],
       "reviewedAt": "2026-07-29",
-      "notes": "已對讀中國哲學書電子化計劃、《墨子閒詁》《墨子校注》《群書治要》及維基文庫；繁體白話與解析逐段人工校訂。"
+      "notes": "已對讀中國哲學書電子化計劃、《墨子閒詁》《墨子校注》《羣書治要》及維基文庫；繁體白話與解析逐段人工校訂。"
     },
     {
       "passageId": "mo-zi_ch-5_p-5",
@@ -12792,6 +12792,150 @@
       ],
       "reviewedAt": "2026-07-29",
       "notes": "補回「脩其城郭……苦於厚作斂於百姓」脫文，恢復必要公費與苛斂的完整對比。"
+    },
+    {
+      "passageId": "mo-zi_ch-6_p-1",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/indulgence-in-excess/zh",
+        "https://ctext.org/mozi-jiangu/ci-guo/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E8%BE%AD%E9%81%8E",
+        "https://ctext.org/text.pl?if=zh&node=418094",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "交叉比對傳本，移除誤混入的《七患》文字，重建逐句索引；白話與解析依校定繁體本文重寫。"
+    },
+    {
+      "passageId": "mo-zi_ch-6_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/indulgence-in-excess/zh",
+        "https://ctext.org/mozi-jiangu/ci-guo/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E8%BE%AD%E9%81%8E",
+        "https://ctext.org/text.pl?if=zh&node=418094",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依《墨子》通行本、《墨子閒詁》、《墨子校注》及《羣書治要》相關節文交叉核對；白話與解析均以繁體中文重寫。"
+    },
+    {
+      "passageId": "mo-zi_ch-6_p-3",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/indulgence-in-excess/zh",
+        "https://ctext.org/mozi-jiangu/ci-guo/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E8%BE%AD%E9%81%8E",
+        "https://ctext.org/text.pl?if=zh&node=418094",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "交叉比對傳本，移除誤混入的《七患》文字，重建逐句索引；白話與解析依校定繁體本文重寫。"
+    },
+    {
+      "passageId": "mo-zi_ch-6_p-4",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/indulgence-in-excess/zh",
+        "https://ctext.org/mozi-jiangu/ci-guo/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E8%BE%AD%E9%81%8E",
+        "https://ctext.org/text.pl?if=zh&node=418094",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依《墨子》通行本、《墨子閒詁》、《墨子校注》及《羣書治要》相關節文交叉核對；白話與解析均以繁體中文重寫。"
+    },
+    {
+      "passageId": "mo-zi_ch-6_p-5",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/indulgence-in-excess/zh",
+        "https://ctext.org/mozi-jiangu/ci-guo/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E8%BE%AD%E9%81%8E",
+        "https://ctext.org/text.pl?if=zh&node=418094",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依《墨子》通行本、《墨子閒詁》、《墨子校注》及《羣書治要》相關節文交叉核對；白話與解析均以繁體中文重寫。"
+    },
+    {
+      "passageId": "mo-zi_ch-6_p-6",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/indulgence-in-excess/zh",
+        "https://ctext.org/mozi-jiangu/ci-guo/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E8%BE%AD%E9%81%8E",
+        "https://ctext.org/text.pl?if=zh&node=418094",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依《墨子》通行本、《墨子閒詁》、《墨子校注》及《羣書治要》相關節文交叉核對；白話與解析均以繁體中文重寫。"
+    },
+    {
+      "passageId": "mo-zi_ch-6_p-7",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/indulgence-in-excess/zh",
+        "https://ctext.org/mozi-jiangu/ci-guo/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E8%BE%AD%E9%81%8E",
+        "https://ctext.org/text.pl?if=zh&node=418094",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依《墨子》通行本、《墨子閒詁》、《墨子校注》及《羣書治要》相關節文交叉核對；白話與解析均以繁體中文重寫。"
+    },
+    {
+      "passageId": "mo-zi_ch-6_p-8",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/indulgence-in-excess/zh",
+        "https://ctext.org/mozi-jiangu/ci-guo/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E8%BE%AD%E9%81%8E",
+        "https://ctext.org/text.pl?if=zh&node=418094",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依《墨子》通行本、《墨子閒詁》、《墨子校注》及《羣書治要》相關節文交叉核對；白話與解析均以繁體中文重寫。"
+    },
+    {
+      "passageId": "mo-zi_ch-6_p-9",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/indulgence-in-excess/zh",
+        "https://ctext.org/mozi-jiangu/ci-guo/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E8%BE%AD%E9%81%8E",
+        "https://ctext.org/text.pl?if=zh&node=418094",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依《墨子》通行本、《墨子閒詁》、《墨子校注》及《羣書治要》相關節文交叉核對；白話與解析均以繁體中文重寫。"
     }
   ]
 }
