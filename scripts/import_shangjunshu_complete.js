@@ -37,7 +37,10 @@ function extractPassages(html, title) {
   for (const [, row] of html.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi)) {
     const cell = row.match(/<td[^>]*class="ctext"[^>]*>[\s\S]*?<div id="comm\d+"><\/div>([\s\S]*?)<\/td>/i);
     if (!cell) continue;
-    const text = decodeHtml(cell[1]);
+    const body = cell[1]
+      .replace(/<p[^>]*class="refs"[^>]*>[\s\S]*?<\/p>/gi, '')
+      .replace(/<sup\b[^>]*>[\s\S]*?<\/sup>/gi, '');
+    const text = decodeHtml(body).replace(/([。！？；：])\1+/g, '$1');
     if (text && /[\u3400-\u9fff]/u.test(text)) texts.push(text);
   }
   if (!texts.length) throw new Error(`${title}: no passages found`);
