@@ -15564,6 +15564,132 @@
       ],
       "reviewedAt": "2026-07-29",
       "notes": "結論所禁依上下文指王公奢侈樂制；同時保留原文政策立場確屬強硬的事實。"
+    },
+    {
+      "passageId": "mo-zi_ch-35_p-1",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/anti-fatalism-i/zh",
+        "https://ctext.org/mozi-jiangu/fei-ming-shang/zh",
+        "https://zh.wikisource.org/zh-hant/墨子閒詁/卷九",
+        "孫詒讓《墨子閒詁》卷九〈非命上〉",
+        "吳毓江《墨子校注》〈非命上〉",
+        "張書豪〈試探《墨子・非命》三篇的論證系譜：以「三表法」為核心的考察〉，《淡江中文學報》第47期",
+        "陳一弘〈墨子「非命」之旨趣及其意義〉，《漢學研究》第25卷第1期",
+        "Chris Fraser, “Mohism,” Stanford Encyclopedia of Philosophy"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "「命」限定為努力無益的強宿命論；「駔」依校注作阻遏百姓從事。"
+    },
+    {
+      "passageId": "mo-zi_ch-35_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/anti-fatalism-i/zh",
+        "https://ctext.org/mozi-jiangu/fei-ming-shang/zh",
+        "https://zh.wikisource.org/zh-hant/墨子閒詁/卷九",
+        "孫詒讓《墨子閒詁》卷九〈非命上〉",
+        "吳毓江《墨子校注》〈非命上〉",
+        "張書豪〈試探《墨子・非命》三篇的論證系譜：以「三表法」為核心的考察〉，《淡江中文學報》第47期",
+        "陳一弘〈墨子「非命」之旨趣及其意義〉，《漢學研究》第25卷第1期",
+        "Chris Fraser, “Mohism,” Stanford Encyclopedia of Philosophy"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "三表為本、原、用；「廢」多校「發」，譯作施行於刑政。"
+    },
+    {
+      "passageId": "mo-zi_ch-35_p-3",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/anti-fatalism-i/zh",
+        "https://ctext.org/mozi-jiangu/fei-ming-shang/zh",
+        "https://zh.wikisource.org/zh-hant/墨子閒詁/卷九",
+        "孫詒讓《墨子閒詁》卷九〈非命上〉",
+        "吳毓江《墨子校注》〈非命上〉",
+        "張書豪〈試探《墨子・非命》三篇的論證系譜：以「三表法」為核心的考察〉，《淡江中文學報》第47期",
+        "陳一弘〈墨子「非命」之旨趣及其意義〉，《漢學研究》第25卷第1期",
+        "Chris Fraser, “Mohism,” Stanford Encyclopedia of Philosophy"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "核對桀湯、紂武對舉；論證反駁治亂完全命定，不擴張為人力萬能。"
+    },
+    {
+      "passageId": "mo-zi_ch-35_p-4",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/anti-fatalism-i/zh",
+        "https://ctext.org/mozi-jiangu/fei-ming-shang/zh",
+        "https://zh.wikisource.org/zh-hant/墨子閒詁/卷九",
+        "孫詒讓《墨子閒詁》卷九〈非命上〉",
+        "吳毓江《墨子校注》〈非命上〉",
+        "張書豪〈試探《墨子・非命》三篇的論證系譜：以「三表法」為核心的考察〉，《淡江中文學報》第47期",
+        "陳一弘〈墨子「非命」之旨趣及其意義〉，《漢學研究》第25卷第1期",
+        "Chris Fraser, “Mohism,” Stanford Encyclopedia of Philosophy"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "「鹽」校「盡」、「五者」校「三者」；湯文王段依平行文疏通錯簡與脫字。"
+    },
+    {
+      "passageId": "mo-zi_ch-35_p-5",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/anti-fatalism-i/zh",
+        "https://ctext.org/mozi-jiangu/fei-ming-shang/zh",
+        "https://zh.wikisource.org/zh-hant/墨子閒詁/卷九",
+        "孫詒讓《墨子閒詁》卷九〈非命上〉",
+        "吳毓江《墨子校注》〈非命上〉",
+        "張書豪〈試探《墨子・非命》三篇的論證系譜：以「三表法」為核心的考察〉，《淡江中文學報》第47期",
+        "陳一弘〈墨子「非命」之旨趣及其意義〉，《漢學研究》第25卷第1期",
+        "Chris Fraser, “Mohism,” Stanford Encyclopedia of Philosophy"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "前後行為鏡像對舉，重點為宿命論破壞賞罰與責任的因果連結。"
+    },
+    {
+      "passageId": "mo-zi_ch-35_p-6",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/anti-fatalism-i/zh",
+        "https://ctext.org/mozi-jiangu/fei-ming-shang/zh",
+        "https://zh.wikisource.org/zh-hant/墨子閒詁/卷九",
+        "孫詒讓《墨子閒詁》卷九〈非命上〉",
+        "吳毓江《墨子校注》〈非命上〉",
+        "張書豪〈試探《墨子・非命》三篇的論證系譜：以「三表法」為核心的考察〉，《淡江中文學報》第47期",
+        "陳一弘〈墨子「非命」之旨趣及其意義〉，《漢學研究》第25卷第1期",
+        "Chris Fraser, “Mohism,” Stanford Encyclopedia of Philosophy"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "《仲虺之告》《太誓》引文訛脫甚多，依孫注及篇內義譯；宗教主張與可觀察後果分層。"
+    },
+    {
+      "passageId": "mo-zi_ch-35_p-7",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/anti-fatalism-i/zh",
+        "https://ctext.org/mozi-jiangu/fei-ming-shang/zh",
+        "https://zh.wikisource.org/zh-hant/墨子閒詁/卷九",
+        "孫詒讓《墨子閒詁》卷九〈非命上〉",
+        "吳毓江《墨子校注》〈非命上〉",
+        "張書豪〈試探《墨子・非命》三篇的論證系譜：以「三表法」為核心的考察〉，《淡江中文學報》第47期",
+        "陳一弘〈墨子「非命」之旨趣及其意義〉，《漢學研究》第25卷第1期",
+        "Chris Fraser, “Mohism,” Stanford Encyclopedia of Philosophy"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "結論限定反對「執有命者之言」，不誤寫成保證努力必然成功。"
     }
   ]
 }
