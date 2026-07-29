@@ -882,6 +882,66 @@
         "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf"
       ],
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-8_p-4",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/zi-ran/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf",
+        "https://chinese.nchu.edu.tw/files/users/189/44-1.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-8_p-5",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/zi-ran/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf",
+        "https://chinese.nchu.edu.tw/files/users/189/44-1.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-8_p-8",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/zi-ran/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf",
+        "https://chinese.nchu.edu.tw/files/users/189/44-1.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-8_p-9",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/zi-ran/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf",
+        "https://chinese.nchu.edu.tw/files/users/189/44-1.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-8_p-10",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/zi-ran/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf",
+        "https://chinese.nchu.edu.tw/files/users/189/44-1.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
     }
   ]
 }
