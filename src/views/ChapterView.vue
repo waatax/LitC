@@ -28,6 +28,10 @@ const isVertical = ref(false)
 
 const mounted = ref(false)
 
+const isLostChapter = computed(() => {
+  return chapter.value?.tags?.includes('亡佚') && passages.value.length === 0
+})
+
 function loadChapter() {
   const chapterId = route.params.id as string
   if (!chapterId) return
@@ -174,6 +178,7 @@ const nextChapter = computed(() => {
           <span class="breadcrumb-chapter">{{ chapter.title }}</span>
         </div>
         <h1 class="chapter-title">{{ chapter.title }}</h1>
+        <p v-if="chapter.subtitle" class="chapter-subtitle">{{ chapter.subtitle }}</p>
         <div class="chapter-meta">
           <SchoolBadge :school-id="work.schoolId" />
           <span v-if="genreMeta" class="badge genre-badge">
@@ -183,6 +188,11 @@ const nextChapter = computed(() => {
           <span class="meta-detail">約 {{ chapter.estimatedMinutes }} 分鐘</span>
         </div>
       </header>
+
+      <aside v-if="isLostChapter" class="lost-chapter-notice glass-card" aria-label="亡佚篇章說明">
+        <strong>今本亡佚，僅存篇名</strong>
+        <p>本篇在傳世《墨子》的篇次中有目而無正文，並非網站載入失敗。文庫保留篇位，以呈現全書原有編次。</p>
+      </aside>
 
       <!-- Work Deep Research Guide Card -->
       <div v-if="workDesc" class="work-guide-card glass-card">
@@ -396,6 +406,24 @@ const nextChapter = computed(() => {
 .chapter-header {
   margin-bottom: var(--sp-8);
   animation: fadeInUp var(--duration-slow) var(--ease-out) both;
+}
+
+.chapter-subtitle {
+  margin-top: var(--sp-2);
+  color: var(--c-text-muted);
+  font-size: var(--fs-base);
+}
+
+.lost-chapter-notice {
+  margin-bottom: var(--sp-8);
+  padding: var(--sp-5);
+  border-left: 3px solid var(--c-gold);
+}
+
+.lost-chapter-notice p {
+  margin: var(--sp-2) 0 0;
+  color: var(--c-text-muted);
+  line-height: 1.8;
 }
 
 .breadcrumb {

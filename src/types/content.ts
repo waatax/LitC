@@ -52,6 +52,7 @@ export interface Chapter {
   workId: string
   order: number
   title: string
+  subtitle?: string
   genreStrategyOverride?: GenreStrategy
   difficulty: 1 | 2 | 3 | 4 | 5
   estimatedMinutes: number
