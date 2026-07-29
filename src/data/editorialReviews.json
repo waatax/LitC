@@ -6360,6 +6360,110 @@
         "https://upload.wikimedia.org/wikipedia/commons/5/5f/WUL-ro13_00059_文始真經.pdf"
       ],
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "yi-jing_ch-1_p-1",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/book-of-changes/zh",
+        "https://zh.wikisource.org/wiki/周易正義",
+        "https://moodle3.ntnu.edu.tw/pluginfile.php/1419601/mod_resource/content/1/周易正義.pdf",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/SSID-12101138_周易註疏_卷3.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "yi-jing_ch-2_p-1",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/book-of-changes/zh",
+        "https://zh.wikisource.org/wiki/周易正義",
+        "https://moodle3.ntnu.edu.tw/pluginfile.php/1419601/mod_resource/content/1/周易正義.pdf",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/SSID-12101138_周易註疏_卷3.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "yi-jing_ch-3_p-1",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/book-of-changes/zh",
+        "https://zh.wikisource.org/wiki/周易正義",
+        "https://moodle3.ntnu.edu.tw/pluginfile.php/1419601/mod_resource/content/1/周易正義.pdf",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/SSID-12101138_周易註疏_卷3.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "yi-jing_ch-4_p-1",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/book-of-changes/zh",
+        "https://zh.wikisource.org/wiki/周易正義",
+        "https://moodle3.ntnu.edu.tw/pluginfile.php/1419601/mod_resource/content/1/周易正義.pdf",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/SSID-12101138_周易註疏_卷3.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "yi-jing_ch-5_p-1",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/book-of-changes/zh",
+        "https://zh.wikisource.org/wiki/周易正義",
+        "https://moodle3.ntnu.edu.tw/pluginfile.php/1419601/mod_resource/content/1/周易正義.pdf",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/SSID-12101138_周易註疏_卷3.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "yi-jing_ch-6_p-1",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/book-of-changes/zh",
+        "https://zh.wikisource.org/wiki/周易正義",
+        "https://moodle3.ntnu.edu.tw/pluginfile.php/1419601/mod_resource/content/1/周易正義.pdf",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/SSID-12101138_周易註疏_卷3.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "yi-jing_ch-7_p-1",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/book-of-changes/zh",
+        "https://zh.wikisource.org/wiki/周易正義",
+        "https://moodle3.ntnu.edu.tw/pluginfile.php/1419601/mod_resource/content/1/周易正義.pdf",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/SSID-12101138_周易註疏_卷3.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "yi-jing_ch-8_p-1",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/book-of-changes/zh",
+        "https://zh.wikisource.org/wiki/周易正義",
+        "https://moodle3.ntnu.edu.tw/pluginfile.php/1419601/mod_resource/content/1/周易正義.pdf",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/SSID-12101138_周易註疏_卷3.pdf"
+      ],
+      "reviewedAt": "2026-07-29"
     }
   ]
 }
