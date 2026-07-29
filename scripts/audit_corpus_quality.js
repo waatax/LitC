@@ -21,6 +21,13 @@ for (const match of aidSource.matchAll(aidPattern)) {
     analysis: JSON.parse(`"${match[3]}"`),
   });
 }
+const singleQuotedAidPattern = /'([^']+)'\s*:\s*\{\s*["']?translation["']?\s*:\s*'((?:\\.|[^'\\])*)',\s*["']?analysis["']?\s*:\s*'((?:\\.|[^'\\])*)'\s*,?\s*\}/gs;
+for (const match of aidSource.matchAll(singleQuotedAidPattern)) {
+  aids.set(match[1], {
+    translation: match[2].replace(/\\'/g, "'").replace(/\\\\/g, '\\'),
+    analysis: match[3].replace(/\\'/g, "'").replace(/\\\\/g, '\\'),
+  });
+}
 
 const chapterToWork = new Map(chapters.map((chapter) => [chapter.id, chapter.workId]));
 const workById = new Map(works.map((work) => [work.id, work]));
