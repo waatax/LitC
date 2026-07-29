@@ -11281,6 +11281,45 @@
       ],
       "reviewedAt": "2026-07-29",
       "notes": "核对《战法》《立本》底本与校注；分别处理邑斗／寇战、政食众客、庙算、偝险，以及葺巧诈与兵生于治等关键词；疑难断句在解析中明示。"
+    },
+    {
+      "passageId": "shang-jun-shu_ch-12_p-1",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/shang-jun-shu/defense/zh",
+        "https://zh.wikisource.org/wiki/商君書/卷三",
+        "嚴萬里校《商君書》、朱師轍《商君書解詁定本》、蔣禮鴻《商君書錐指》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "核对底本、卷本与校注；将死人之力解释为无生命城防工事，并完整保留壮男、壮女、老弱三军的战斗、工程、供应及隔离编制。"
+    },
+    {
+      "passageId": "shang-jun-shu_ch-12_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/shang-jun-shu/defense/zh",
+        "https://zh.wikisource.org/wiki/商君書/卷三",
+        "嚴萬里校《商君書》、朱師轍《商君書解詁定本》、蔣禮鴻《商君書錐指》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "核对底本、卷本与校注；将死人之力解释为无生命城防工事，并完整保留壮男、壮女、老弱三军的战斗、工程、供应及隔离编制。"
+    },
+    {
+      "passageId": "shang-jun-shu_ch-12_p-3",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/shang-jun-shu/defense/zh",
+        "https://zh.wikisource.org/wiki/商君書/卷三",
+        "嚴萬里校《商君書》、朱師轍《商君書解詁定本》、蔣禮鴻《商君書錐指》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "核对底本、卷本与校注；将死人之力解释为无生命城防工事，并完整保留壮男、壮女、老弱三军的战斗、工程、供应及隔离编制。"
     }
   ]
 }
