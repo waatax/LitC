@@ -13626,6 +13626,171 @@
       ],
       "reviewedAt": "2026-07-29",
       "notes": "依通行本與校注本交叉核對；疑詞保留底本，白話解析以繁體重寫。"
+    },
+    {
+      "passageId": "mo-zi_ch-13_p-1",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/identification-with-the-superior-iii/zh",
+        "https://ctext.org/mozi-jiangu/shang-tong-xia/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%B0%9A%E5%90%8C%E4%B8%8B",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依校本修復確證脫誤並重建句子索引。"
+    },
+    {
+      "passageId": "mo-zi_ch-13_p-2",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/identification-with-the-superior-iii/zh",
+        "https://ctext.org/mozi-jiangu/shang-tong-xia/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%B0%9A%E5%90%8C%E4%B8%8B",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依校本修復確證脫誤並重建句子索引。"
+    },
+    {
+      "passageId": "mo-zi_ch-13_p-3",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/identification-with-the-superior-iii/zh",
+        "https://ctext.org/mozi-jiangu/shang-tong-xia/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%B0%9A%E5%90%8C%E4%B8%8B",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依通行本與校注本交叉核對，重寫繁體白話與解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-13_p-4",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/identification-with-the-superior-iii/zh",
+        "https://ctext.org/mozi-jiangu/shang-tong-xia/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%B0%9A%E5%90%8C%E4%B8%8B",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "傳本文句殘訛且校說未定，保留通行底本，在解析中列主要推校。"
+    },
+    {
+      "passageId": "mo-zi_ch-13_p-5",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/identification-with-the-superior-iii/zh",
+        "https://ctext.org/mozi-jiangu/shang-tong-xia/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%B0%9A%E5%90%8C%E4%B8%8B",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依通行本與校注本交叉核對，重寫繁體白話與解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-13_p-6",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/identification-with-the-superior-iii/zh",
+        "https://ctext.org/mozi-jiangu/shang-tong-xia/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%B0%9A%E5%90%8C%E4%B8%8B",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依通行本與校注本交叉核對，重寫繁體白話與解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-13_p-7",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/identification-with-the-superior-iii/zh",
+        "https://ctext.org/mozi-jiangu/shang-tong-xia/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%B0%9A%E5%90%8C%E4%B8%8B",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依通行本與校注本交叉核對，重寫繁體白話與解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-13_p-8",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/identification-with-the-superior-iii/zh",
+        "https://ctext.org/mozi-jiangu/shang-tong-xia/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%B0%9A%E5%90%8C%E4%B8%8B",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依通行本與校注本交叉核對，重寫繁體白話與解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-13_p-9",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/identification-with-the-superior-iii/zh",
+        "https://ctext.org/mozi-jiangu/shang-tong-xia/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%B0%9A%E5%90%8C%E4%B8%8B",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依通行本與校注本交叉核對，重寫繁體白話與解析。"
+    },
+    {
+      "passageId": "mo-zi_ch-13_p-10",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/identification-with-the-superior-iii/zh",
+        "https://ctext.org/mozi-jiangu/shang-tong-xia/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%B0%9A%E5%90%8C%E4%B8%8B",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "傳本文句殘訛且校說未定，保留通行底本，在解析中列主要推校。"
+    },
+    {
+      "passageId": "mo-zi_ch-13_p-11",
+      "canonicalText": "verified",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/mozi/identification-with-the-superior-iii/zh",
+        "https://ctext.org/mozi-jiangu/shang-tong-xia/zh",
+        "https://zh.wikisource.org/zh-hant/%E5%A2%A8%E5%AD%90/%E5%B0%9A%E5%90%8C%E4%B8%8B",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/SSID-13362508_%E5%A2%A8%E5%AD%90%E6%A0%A1%E6%B3%A8_1.pdf",
+        "孫詒讓《墨子閒詁》；吳毓江《墨子校注》"
+      ],
+      "reviewedAt": "2026-07-29",
+      "notes": "依通行本與校注本交叉核對，重寫繁體白話與解析。"
     }
   ]
 }
