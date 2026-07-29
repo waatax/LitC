@@ -2306,6 +2306,76 @@
       ],
       "parallelPassageId": "wenzi_ch-3_p-17",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-4_p-4",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/fu-yan/zh",
+        "https://ctext.org/wenzi/jiu-shou/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf"
+      ],
+      "parallelPassageId": "wenzi_ch-3_p-18",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-4_p-5",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/fu-yan/zh",
+        "https://ctext.org/wenzi/jiu-shou/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf"
+      ],
+      "parallelPassageId": "wenzi_ch-3_p-19",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-4_p-6",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/fu-yan/zh",
+        "https://ctext.org/wenzi/jiu-shou/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf"
+      ],
+      "parallelPassageId": "wenzi_ch-3_p-20",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-4_p-7",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/fu-yan/zh",
+        "https://ctext.org/wenzi/jiu-shou/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf"
+      ],
+      "parallelPassageId": "wenzi_ch-3_p-21",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "passageId": "wenzi_ch-4_p-8",
+      "canonicalText": "pending",
+      "translation": "verified",
+      "analysis": "verified",
+      "sources": [
+        "https://ctext.org/wenzi/fu-yan/zh",
+        "https://ctext.org/wenzi/jiu-shou/zh",
+        "https://ctext.org/dao-de-jing/zh",
+        "https://www.xuanxuecenter.com/files/wen_zi_tong_xuan_zhen_jing.pdf"
+      ],
+      "parallelPassageId": "wenzi_ch-3_p-22",
+      "reviewedAt": "2026-07-29"
     }
   ]
 }
