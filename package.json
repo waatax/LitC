@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "audit:corpus": "node scripts/audit_corpus_quality.js",
+    "audit:completeness": "node scripts/verify_translation_completeness_v2.js"
   },
   "dependencies": {
     "dexie": "^4.4.4",
