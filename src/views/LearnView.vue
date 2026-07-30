@@ -6,6 +6,7 @@ import { getChapter, getPassagesByChapter, getSentencesByPassage, getWorks } fro
 import { getReadingAid } from '@/data/readingAid'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import RedSeal from '@/components/RedSeal.vue'
+import ClassicalTextLookup from '@/components/ClassicalTextLookup.vue'
 
 const isVertical = ref(false)
 
@@ -198,7 +199,7 @@ function whiteText(sentence: Sentence): string {
                     v-for="passage in passages"
                     :key="passage.id"
                     class="passage-text"
-                  >{{ passage.canonicalText }}</p>
+                  ><ClassicalTextLookup :text="passage.canonicalText" /></p>
                 </div>
               </div>
               <div v-else class="classical-text-lg read-text">
@@ -206,7 +207,7 @@ function whiteText(sentence: Sentence): string {
                   v-for="passage in passages"
                   :key="passage.id"
                   class="read-paragraph"
-                >{{ passage.canonicalText }}</p>
+                ><ClassicalTextLookup :text="passage.canonicalText" /></p>
               </div>
             </div>
           </div>
@@ -227,7 +228,7 @@ function whiteText(sentence: Sentence): string {
                   >
                     <div class="vertical-orig-wrapper">
                       <span class="understand-order" style="display: block; margin-bottom: 8px;">{{ si + 1 }}.</span>
-                      <p class="classical-text vertical-original-text">{{ sentence.canonicalText }}</p>
+                      <p class="classical-text vertical-original-text"><ClassicalTextLookup :text="sentence.canonicalText" /></p>
                     </div>
                     <div class="horizontal-explanation">
                       <p class="understand-hint">
@@ -245,7 +246,7 @@ function whiteText(sentence: Sentence): string {
                 >
                   <div class="understand-order">{{ si + 1 }}</div>
                   <div class="understand-body">
-                    <p class="classical-text understand-text">{{ sentence.canonicalText }}</p>
+                    <p class="classical-text understand-text"><ClassicalTextLookup :text="sentence.canonicalText" /></p>
                     <p class="understand-hint">
                       白話釋義：{{ whiteText(sentence) }}
                     </p>

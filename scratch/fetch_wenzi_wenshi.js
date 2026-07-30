@@ -1,7 +1,16 @@
 import fs from 'fs';
 
 const worksToScrape = [
-  { id: 'wenzi', schoolId: 'daoism', title: '文子', tocUrl: 'https://ctext.org/wenzi/zh' },
+  {
+    id: 'wenzi', schoolId: 'daoism', title: '文子', tocUrl: 'https://ctext.org/wenzi/zh',
+    chapterLinks: [
+      ['道原', 'dao-yuan'], ['精誠', 'jing-cheng'], ['九守', 'jiu-shou'],
+      ['符言', 'fu-yan'], ['道德', 'dao-de'], ['上德', 'shang-de'],
+      // CText routes the seventh received chapter under the variant heading 「微明」.
+      ['策明', 'wei-ming'], ['自然', 'zi-ran'], ['下德', 'xia-de'],
+      ['上仁', 'shang-ren'], ['上義', 'shang-yi'], ['上禮', 'shang-li'],
+    ].map(([title, slug]) => ({ title, url: `https://ctext.org/wenzi/${slug}/zh` }))
+  },
   { id: 'wenshi-zhenjing', schoolId: 'daoism', title: '文始真經', tocUrl: 'https://ctext.org/wenshi-zhenjing/zh' }
 ];
 
@@ -63,10 +72,10 @@ async function scrape() {
         console.log(`- Page is TOC. Parsing chapter sub-links...`);
         const regex = /<a[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g;
         let match;
-        const subLinks = [];
+        const subLinks = work.chapterLinks ? [...work.chapterLinks] : [];
         const seenHrefs = new Set();
 
-        while ((match = regex.exec(html)) !== null) {
+        while (!work.chapterLinks && (match = regex.exec(html)) !== null) {
           const href = match[1];
           const title = match[2].replace(/<[^>]+>/g, '').trim();
           

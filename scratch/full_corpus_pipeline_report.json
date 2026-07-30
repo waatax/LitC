@@ -1,0 +1,264 @@
+{
+  "totalWorks": 50,
+  "totalChapters": 590,
+  "totalPassages": 3830,
+  "validTranslations": 3830,
+  "bespokeTranslations": 3794,
+  "bespokeAnnotations": 3830,
+  "genericAnnotations": 0,
+  "completedWorksCount": 50,
+  "pendingWorksCount": 0,
+  "completedWorks": [
+    {
+      "id": "dao-de-jing",
+      "title": "道德經",
+      "passages": 81
+    },
+    {
+      "id": "zhuangzi",
+      "title": "莊子",
+      "passages": 24
+    },
+    {
+      "id": "han-fei-zi",
+      "title": "韓非子",
+      "passages": 17
+    },
+    {
+      "id": "shang-jun-shu",
+      "title": "商君書",
+      "passages": 9
+    },
+    {
+      "id": "mo-zi",
+      "title": "墨子",
+      "passages": 26
+    },
+    {
+      "id": "da-xue",
+      "title": "大學",
+      "passages": 12
+    },
+    {
+      "id": "zhong-yong",
+      "title": "中庸",
+      "passages": 33
+    },
+    {
+      "id": "lun-yu",
+      "title": "論語",
+      "passages": 502
+    },
+    {
+      "id": "meng-zi",
+      "title": "孟子",
+      "passages": 261
+    },
+    {
+      "id": "yi-jing",
+      "title": "易經",
+      "passages": 64
+    },
+    {
+      "id": "shu-jing",
+      "title": "尚書",
+      "passages": 1
+    },
+    {
+      "id": "shi-jing",
+      "title": "詩經",
+      "passages": 2
+    },
+    {
+      "id": "li-ji",
+      "title": "禮記",
+      "passages": 1
+    },
+    {
+      "id": "chun-qiu",
+      "title": "春秋",
+      "passages": 1
+    },
+    {
+      "id": "gu-wen-guan-zhi",
+      "title": "古文觀止",
+      "passages": 424
+    },
+    {
+      "id": "cai-gen-tan",
+      "title": "菜根譚",
+      "passages": 365
+    },
+    {
+      "id": "liezi",
+      "title": "列子",
+      "passages": 144
+    },
+    {
+      "id": "shen-bu-hai",
+      "title": "申不害",
+      "passages": 28
+    },
+    {
+      "id": "shenzi",
+      "title": "慎子",
+      "passages": 67
+    },
+    {
+      "id": "jian-zhu-ke-shu",
+      "title": "諫逐客書",
+      "passages": 6
+    },
+    {
+      "id": "guanzi",
+      "title": "管子",
+      "passages": 52
+    },
+    {
+      "id": "art-of-war",
+      "title": "孫子兵法",
+      "passages": 70
+    },
+    {
+      "id": "wu-zi",
+      "title": "吳子",
+      "passages": 42
+    },
+    {
+      "id": "si-ma-fa",
+      "title": "司馬法",
+      "passages": 68
+    },
+    {
+      "id": "three-strategies",
+      "title": "三略",
+      "passages": 65
+    },
+    {
+      "id": "wei-liao-zi",
+      "title": "尉繚子",
+      "passages": 48
+    },
+    {
+      "id": "liu-tao",
+      "title": "六韜",
+      "passages": 10
+    },
+    {
+      "id": "shiji",
+      "title": "史記",
+      "passages": 64
+    },
+    {
+      "id": "chun-qiu-zuo-zhuan",
+      "title": "春秋左傳",
+      "passages": 357
+    },
+    {
+      "id": "zhan-guo-ce",
+      "title": "戰國策",
+      "passages": 29
+    },
+    {
+      "id": "yan-tie-lun",
+      "title": "鹽鐵論",
+      "passages": 30
+    },
+    {
+      "id": "yandanzi",
+      "title": "燕丹子",
+      "passages": 11
+    },
+    {
+      "id": "xijing-zaji",
+      "title": "西京雜記",
+      "passages": 61
+    },
+    {
+      "id": "lost-book-of-zhou",
+      "title": "逸周書",
+      "passages": 2
+    },
+    {
+      "id": "guo-yu",
+      "title": "國語",
+      "passages": 59
+    },
+    {
+      "id": "yanzi-chun-qiu",
+      "title": "晏子春秋",
+      "passages": 5
+    },
+    {
+      "id": "wu-yue-chun-qiu",
+      "title": "吳越春秋",
+      "passages": 23
+    },
+    {
+      "id": "yue-jue-shu",
+      "title": "越絕書",
+      "passages": 16
+    },
+    {
+      "id": "lie-nv-zhuan",
+      "title": "列女傳",
+      "passages": 4
+    },
+    {
+      "id": "guliang-zhuan",
+      "title": "春秋穀梁傳",
+      "passages": 6
+    },
+    {
+      "id": "gongyang-zhuan",
+      "title": "春秋公羊傳",
+      "passages": 7
+    },
+    {
+      "id": "han-shu",
+      "title": "漢書",
+      "passages": 126
+    },
+    {
+      "id": "hou-han-shu",
+      "title": "後漢書",
+      "passages": 147
+    },
+    {
+      "id": "qian-han-ji",
+      "title": "前漢紀",
+      "passages": 6
+    },
+    {
+      "id": "dong-guan-han-ji",
+      "title": "東觀漢記",
+      "passages": 30
+    },
+    {
+      "id": "zhushu-jinian",
+      "title": "竹書紀年",
+      "passages": 11
+    },
+    {
+      "id": "mutianzi-zhuan",
+      "title": "穆天子傳",
+      "passages": 17
+    },
+    {
+      "id": "gu-san-fen",
+      "title": "古三墳",
+      "passages": 31
+    },
+    {
+      "id": "wenzi",
+      "title": "文子",
+      "passages": 191
+    },
+    {
+      "id": "wenshi-zhenjing",
+      "title": "文始真經",
+      "passages": 174
+    }
+  ],
+  "pendingWorks": []
+}

@@ -1,0 +1,257 @@
+{
+  "totalPassages": 3950,
+  "genuinePassages": 3836,
+  "templatePassages": 114,
+  "workStats": {
+    "zhuangzi": {
+      "total": 24,
+      "template": 0,
+      "genuine": 24
+    },
+    "han-fei-zi": {
+      "total": 17,
+      "template": 0,
+      "genuine": 17
+    },
+    "shang-jun-shu": {
+      "total": 9,
+      "template": 0,
+      "genuine": 9
+    },
+    "mo-zi": {
+      "total": 26,
+      "template": 0,
+      "genuine": 26
+    },
+    "cai-gen-tan": {
+      "total": 365,
+      "template": 0,
+      "genuine": 365
+    },
+    "shu-jing": {
+      "total": 1,
+      "template": 0,
+      "genuine": 1
+    },
+    "shi-jing": {
+      "total": 2,
+      "template": 0,
+      "genuine": 2
+    },
+    "li-ji": {
+      "total": 1,
+      "template": 0,
+      "genuine": 1
+    },
+    "chun-qiu": {
+      "total": 1,
+      "template": 0,
+      "genuine": 1
+    },
+    "da-xue": {
+      "total": 12,
+      "template": 0,
+      "genuine": 12
+    },
+    "zhong-yong": {
+      "total": 33,
+      "template": 0,
+      "genuine": 33
+    },
+    "lun-yu": {
+      "total": 502,
+      "template": 0,
+      "genuine": 502
+    },
+    "meng-zi": {
+      "total": 261,
+      "template": 0,
+      "genuine": 261
+    },
+    "gu-wen-guan-zhi": {
+      "total": 424,
+      "template": 27,
+      "genuine": 397
+    },
+    "yi-jing": {
+      "total": 64,
+      "template": 0,
+      "genuine": 64
+    },
+    "liezi": {
+      "total": 144,
+      "template": 0,
+      "genuine": 144
+    },
+    "shen-bu-hai": {
+      "total": 28,
+      "template": 0,
+      "genuine": 28
+    },
+    "shenzi": {
+      "total": 67,
+      "template": 0,
+      "genuine": 67
+    },
+    "jian-zhu-ke-shu": {
+      "total": 6,
+      "template": 0,
+      "genuine": 6
+    },
+    "guanzi": {
+      "total": 52,
+      "template": 0,
+      "genuine": 52
+    },
+    "art-of-war": {
+      "total": 70,
+      "template": 0,
+      "genuine": 70
+    },
+    "wu-zi": {
+      "total": 42,
+      "template": 0,
+      "genuine": 42
+    },
+    "si-ma-fa": {
+      "total": 68,
+      "template": 2,
+      "genuine": 66
+    },
+    "three-strategies": {
+      "total": 65,
+      "template": 0,
+      "genuine": 65
+    },
+    "wei-liao-zi": {
+      "total": 48,
+      "template": 0,
+      "genuine": 48
+    },
+    "liu-tao": {
+      "total": 10,
+      "template": 0,
+      "genuine": 10
+    },
+    "shiji": {
+      "total": 64,
+      "template": 2,
+      "genuine": 62
+    },
+    "chun-qiu-zuo-zhuan": {
+      "total": 357,
+      "template": 8,
+      "genuine": 349
+    },
+    "zhan-guo-ce": {
+      "total": 29,
+      "template": 2,
+      "genuine": 27
+    },
+    "yan-tie-lun": {
+      "total": 30,
+      "template": 30,
+      "genuine": 0
+    },
+    "yandanzi": {
+      "total": 11,
+      "template": 0,
+      "genuine": 11
+    },
+    "xijing-zaji": {
+      "total": 61,
+      "template": 0,
+      "genuine": 61
+    },
+    "lost-book-of-zhou": {
+      "total": 71,
+      "template": 2,
+      "genuine": 69
+    },
+    "guo-yu": {
+      "total": 59,
+      "template": 0,
+      "genuine": 59
+    },
+    "wu-yue-chun-qiu": {
+      "total": 23,
+      "template": 0,
+      "genuine": 23
+    },
+    "yue-jue-shu": {
+      "total": 16,
+      "template": 0,
+      "genuine": 16
+    },
+    "lie-nv-zhuan": {
+      "total": 4,
+      "template": 4,
+      "genuine": 0
+    },
+    "guliang-zhuan": {
+      "total": 6,
+      "template": 6,
+      "genuine": 0
+    },
+    "gongyang-zhuan": {
+      "total": 7,
+      "template": 7,
+      "genuine": 0
+    },
+    "han-shu": {
+      "total": 126,
+      "template": 0,
+      "genuine": 126
+    },
+    "hou-han-shu": {
+      "total": 147,
+      "template": 0,
+      "genuine": 147
+    },
+    "qian-han-ji": {
+      "total": 6,
+      "template": 4,
+      "genuine": 2
+    },
+    "dong-guan-han-ji": {
+      "total": 30,
+      "template": 4,
+      "genuine": 26
+    },
+    "zhushu-jinian": {
+      "total": 11,
+      "template": 0,
+      "genuine": 11
+    },
+    "mutianzi-zhuan": {
+      "total": 17,
+      "template": 0,
+      "genuine": 17
+    },
+    "gu-san-fen": {
+      "total": 31,
+      "template": 3,
+      "genuine": 28
+    },
+    "dao-de-jing": {
+      "total": 81,
+      "template": 0,
+      "genuine": 81
+    },
+    "wenshi-zhenjing": {
+      "total": 174,
+      "template": 0,
+      "genuine": 174
+    },
+    "yanzi-chun-qiu": {
+      "total": 5,
+      "template": 5,
+      "genuine": 0
+    },
+    "wenzi": {
+      "total": 242,
+      "template": 8,
+      "genuine": 234
+    }
+  }
+}

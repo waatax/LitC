@@ -6,6 +6,7 @@ import { GENRE_STRATEGY_META } from '@/types/content'
 import { getChapter, getPassagesByChapter, getSentencesByPassage, getWorks, getWorkDescription } from '@/data'
 import { getPassageReadingAid, READING_AID_SOURCES } from '@/data/readingAid'
 import SchoolBadge from '@/components/SchoolBadge.vue'
+import ClassicalTextLookup from '@/components/ClassicalTextLookup.vue'
 
 const route = useRoute()
 const router = useRouter()
@@ -57,13 +58,6 @@ function loadChapter() {
 }
 
 const highlightQuery = computed(() => (route.query.highlight as string) || '')
-
-function renderPassageWithHighlight(text: string): string {
-  if (!highlightQuery.value.trim()) return text
-  const q = highlightQuery.value.trim()
-  const regex = new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi')
-  return text.replace(regex, '<mark class="search-highlight-mark">$1</mark>')
-}
 
 function checkTargetHighlight() {
   const queryText = highlightQuery.value
@@ -269,6 +263,7 @@ const nextChapter = computed(() => {
           {{ isVertical ? '🔤 橫書' : '📜 直書' }}
         </button>
       </div>
+      <p class="dictionary-tip">提示：點擊原文中的任一漢字，可查看注音、讀音與辭典解釋。</p>
 
       <!-- Reading Content -->
       <div class="reading-content" :class="{ 'is-vertical-layout': isVertical }">
@@ -281,8 +276,7 @@ const nextChapter = computed(() => {
                 :key="passage.id"
                 :id="'passage-' + passage.id"
                 class="passage-text"
-                v-html="renderPassageWithHighlight(passage.canonicalText)"
-              ></p>
+              ><ClassicalTextLookup :text="passage.canonicalText" :highlight="highlightQuery" /></p>
             </div>
           </div>
           <div v-else class="text-body classical-text-lg">
@@ -291,8 +285,7 @@ const nextChapter = computed(() => {
               :key="passage.id"
               :id="'passage-' + passage.id"
               class="passage-text"
-              v-html="renderPassageWithHighlight(passage.canonicalText)"
-            ></p>
+            ><ClassicalTextLookup :text="passage.canonicalText" :highlight="highlightQuery" /></p>
           </div>
           <div v-if="work.sourceNote" class="source-note">
             {{ work.sourceNote }}
@@ -305,7 +298,7 @@ const nextChapter = computed(() => {
             <div class="vertical-assisted-list">
               <div v-for="passage in passages" :key="passage.id" :id="'passage-' + passage.id" class="vertical-passage-box">
                 <div class="vertical-orig-wrapper">
-                  <p class="sentence-original classical-text-lg vertical-original-text" v-html="renderPassageWithHighlight(passage.canonicalText)"></p>
+                  <p class="sentence-original classical-text-lg vertical-original-text"><ClassicalTextLookup :text="passage.canonicalText" :highlight="highlightQuery" /></p>
                 </div>
                 <div class="horizontal-explanation">
                   <p class="sentence-hint"><span class="translation-label">白話</span>{{ passageAid(passage).translation }}</p>
@@ -315,7 +308,7 @@ const nextChapter = computed(() => {
             </div>
           </div>
           <div v-else v-for="passage in passages" :key="passage.id" :id="'passage-' + passage.id" class="sentence-row">
-            <p class="sentence-original classical-text" v-html="renderPassageWithHighlight(passage.canonicalText)"></p>
+            <p class="sentence-original classical-text"><ClassicalTextLookup :text="passage.canonicalText" :highlight="highlightQuery" /></p>
             <p class="sentence-hint"><span class="translation-label">白話文</span>{{ passageAid(passage).translation }}</p>
             <p class="sentence-hint"><span class="translation-label">解析</span>{{ passageAid(passage).analysis }}</p>
           </div>
@@ -520,6 +513,13 @@ const nextChapter = computed(() => {
 .reading-content {
   margin-bottom: var(--sp-10);
   animation: fadeInUp var(--duration-slow) var(--ease-out) 200ms both;
+}
+
+.dictionary-tip {
+  margin: calc(-1 * var(--sp-3)) 0 var(--sp-5);
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  color: var(--c-text-muted);
 }
 
 /* Clean Mode */

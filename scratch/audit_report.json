@@ -1,10 +1,10 @@
 {
   "summary": {
     "totalWorks": 50,
-    "totalChapters": 588,
-    "totalPassages": 3823,
-    "totalSentences": 28454,
-    "totalTranslatedSentences": 10,
+    "totalChapters": 590,
+    "totalPassages": 3828,
+    "totalSentences": 28474,
+    "totalTranslatedSentences": 0,
     "overallTranslationCoveragePct": "0.0"
   },
   "works": [
@@ -15,8 +15,8 @@
       "chaptersCount": 81,
       "sentencesCount": 573,
       "totalChars": 5285,
-      "translatedSents": 2,
-      "transCoveragePct": "0.3"
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
     },
     {
       "id": "zhuangzi",
@@ -25,8 +25,8 @@
       "chaptersCount": 9,
       "sentencesCount": 129,
       "totalChars": 1644,
-      "translatedSents": 1,
-      "transCoveragePct": "0.8"
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
     },
     {
       "id": "han-fei-zi",
@@ -65,8 +65,8 @@
       "chaptersCount": 11,
       "sentencesCount": 146,
       "totalChars": 1809,
-      "translatedSents": 1,
-      "transCoveragePct": "0.7"
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
     },
     {
       "id": "zhong-yong",
@@ -85,8 +85,8 @@
       "chaptersCount": 20,
       "sentencesCount": 2254,
       "totalChars": 15905,
-      "translatedSents": 4,
-      "transCoveragePct": "0.2"
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
     },
     {
       "id": "meng-zi",
@@ -95,8 +95,8 @@
       "chaptersCount": 14,
       "sentencesCount": 3464,
       "totalChars": 35638,
-      "translatedSents": 2,
-      "transCoveragePct": "0.1"
+      "translatedSents": 0,
+      "transCoveragePct": "0.0"
     },
     {
       "id": "yi-jing",
@@ -362,9 +362,9 @@
       "id": "yanzi-chun-qiu",
       "title": "晏子春秋",
       "schoolId": "histories",
-      "chaptersCount": 0,
-      "sentencesCount": 0,
-      "totalChars": 0,
+      "chaptersCount": 2,
+      "sentencesCount": 20,
+      "totalChars": 328,
       "translatedSents": 0,
       "transCoveragePct": "0.0"
     },
