@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
     <script>
       window.onerror = function(msg, url, line, col, error) {
+        if (url && (url.indexOf('chrome-extension://') !== -1 || url.indexOf('moz-extension://') !== -1)) {
+          return true;
+        }
         var errDiv = document.createElement('div');
         errDiv.style.position = 'fixed';
         errDiv.style.top = '0';
@@ -28,6 +31,21 @@
         return false;
       };
       window.onunhandledrejection = function(event) {
+        var reason = event.reason || '';
+        var msg = typeof reason === 'string' ? reason : (reason.message || String(reason));
+        var stack = (reason && reason.stack) ? reason.stack : '';
+
+        // Suppress browser extension unhandled rejections (e.g., MetaMask inpage.js)
+        if (
+          msg.indexOf('MetaMask') !== -1 ||
+          msg.indexOf('Failed to connect') !== -1 ||
+          stack.indexOf('chrome-extension://') !== -1 ||
+          stack.indexOf('moz-extension://') !== -1
+        ) {
+          event.preventDefault();
+          return;
+        }
+
         var errDiv = document.createElement('div');
         errDiv.style.position = 'fixed';
         errDiv.style.top = '0';
@@ -39,7 +57,7 @@
         errDiv.style.zIndex = '99999';
         errDiv.style.fontFamily = 'monospace';
         errDiv.style.whiteSpace = 'pre-wrap';
-        errDiv.innerHTML = '<h2>Unhandled Promise Rejection:</h2>' + event.reason + (event.reason && event.reason.stack ? '<br><br>Stack:<br>' + event.reason.stack : '');
+        errDiv.innerHTML = '<h2>Unhandled Promise Rejection:</h2>' + msg + (stack ? '<br><br>Stack:<br>' + stack : '');
         document.body.appendChild(errDiv);
       };
     </script>

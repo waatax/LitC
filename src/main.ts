@@ -10,10 +10,23 @@ const app = createApp(App)
 app.use(createPinia())
 app.use(router)
 
-// Catch global unhandled promise rejections for failed dynamic imports
+// Catch global unhandled promise rejections
 window.addEventListener('unhandledrejection', (event) => {
   if (event.reason) {
-    const msg = event.reason.message || ''
+    const msg = typeof event.reason === 'string' ? event.reason : (event.reason?.message || String(event.reason))
+    const stack = event.reason?.stack || ''
+
+    // Suppress third-party browser extension unhandled rejections (e.g. MetaMask inpage.js)
+    if (
+      msg.includes('Failed to connect to MetaMask') ||
+      stack.includes('chrome-extension://') ||
+      stack.includes('moz-extension://')
+    ) {
+      event.preventDefault()
+      console.warn('[Extension Notice] Suppressed unhandled rejection from browser extension:', event.reason)
+      return
+    }
+
     if (
       msg.includes('Failed to fetch dynamically imported module') ||
       msg.includes('Failed to fetch') ||
