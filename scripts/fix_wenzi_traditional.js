@@ -1,0 +1,1 @@
+import fs from 'fs'; const p='./src/data/readingAid.ts'; let t=fs.readFileSync(p,'utf8'); t=t.replaceAll('名尸','名屍').replaceAll('欲尸名','欲屍名').replaceAll('即舍公','即捨公'); fs.writeFileSync(p,t,'utf8'); console.log('fixed Wen Zi traditional forms');

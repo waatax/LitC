@@ -1,0 +1,1 @@
+import fs from 'fs'; const p='./src/data/readingAid.ts'; let t=fs.readFileSync(p,'utf8'); t=t.replaceAll('台彼','臺彼').replaceAll('而后','而後'); fs.writeFileSync(p,t,'utf8'); console.log('fixed Mozi traditional forms');

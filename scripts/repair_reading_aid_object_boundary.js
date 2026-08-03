@@ -1,0 +1,11 @@
+import fs from 'fs';
+const path = './src/data/readingAid.ts';
+let text = fs.readFileSync(path, 'utf8');
+const start = text.indexOf("\n  'wei-liao-zi_ch-1_p-1':");
+const marker = text.indexOf('\nexport function getPassageReadingAid', start);
+if (start < 0 || marker < 0) throw new Error('Wei Liao aid entries outside object not found');
+const close = text.lastIndexOf('}', start);
+const entries = text.slice(start + 1, marker).trim();
+text = `${text.slice(0, close)}${entries}\n${text.slice(marker - 1)}`;
+fs.writeFileSync(path, text, 'utf8');
+console.log('Moved Wei Liao aid entries inside PASSAGE_AIDS object.');

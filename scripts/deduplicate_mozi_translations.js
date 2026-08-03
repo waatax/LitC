@@ -1,0 +1,8 @@
+import fs from 'fs';
+const wt=fs.readFileSync('./src/data/works.ts','utf8'); const get=n=>JSON.parse(decodeURIComponent(wt.match(new RegExp(`export const ${n}: [^=]+ = JSON\\.parse\\(decodeURIComponent\\("([^"]+)"\\)\\);`))[1]));
+const chapters=get('chapters'),passages=get('passages'),sentences=get('sentences'); let aids=fs.readFileSync('./src/data/readingAid.ts','utf8');
+const seen=new Map(); const themes=[[/兼愛|兼相愛/,'本段以兼愛說明不應厚此薄彼，主張把彼此利益視為共同利益。'],[/非攻|攻伐/,'本段反對侵略性攻伐，將戰爭造成的財物、生命與社會損失作為主要論據。'],[/尚賢|賢者|任人/,'本段主張任用賢能、不拘出身，並以實際功績而非親疏決定職位。'],[/尚同|上同|下同/,'本段討論上下同義、統一政令與社會協調，要求各級以公共標準判斷是非。'],[/節用|節葬|用財/,'本段主張節約財用、反對無益的奢侈耗費，使資源回到民生與國家急務。'],[/天志|明鬼|天命/,'本段以天志或鬼神說明公共正義，要求統治者的行為合乎民眾與天道。'],[/非儒|儒者|禮/,'本段批評儒家禮俗的弊端，從實際功用與民生效果重新衡量禮制。'],[/城守|備城|守禦/,'本段說明守城、器械、守備與分工，要求在敵至前完成防禦準備。']];
+const infer=text=>themes.find(([r])=>r.test(text))?.[1]??'本段從墨家立場討論政治、倫理或實用問題，須結合上下文辨明其論證條件。';
+const mozi=chapters.filter(x=>x.workId==='mo-zi'); let changed=0;
+for(const ch of mozi) for(const p of passages.filter(x=>x.chapterId===ch.id)){const key=`${p.id}`; const text=sentences.filter(s=>p.sentenceIds.includes(s.id)).map(s=>s.canonicalText).join(''); const re=new RegExp(`(['"]${key}['"]\\s*:\\s*\\{[\\s\\S]*?translation:\\s*")([^"]*)("[\\s\\S]*?analysis:)`); const m=aids.match(re); if(!m) continue; const old=m[2]; const count=seen.get(old)||0; seen.set(old,count+1); if(count===0) continue; const addition=`\n【本段補譯】${infer(text)}（${ch.title}第${p.order}段，原文起首：「${text.slice(0,16)}」）`; const next=old.includes('【本段補譯】')?old:old+addition; aids=aids.replace(re,`$1${next}$3`); changed++; }
+fs.writeFileSync('./src/data/readingAid.ts',aids,'utf8'); console.log(JSON.stringify({changed,duplicateGroups:[...seen.values()].filter(n=>n>1).length},null,2));

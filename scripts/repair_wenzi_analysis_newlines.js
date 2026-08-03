@@ -1,0 +1,1 @@
+import fs from 'fs'; const p='./src/data/readingAid.ts'; let t=fs.readFileSync(p,'utf8'); const re=/analysis: "([^"\r\n]*)\r?\n(【段落定位】[^\r\n]*)"/g; let n=0; t=t.replace(re,(_,a,b)=>{n++;return `analysis: "${a}\\n${b}"`}); fs.writeFileSync(p,t,'utf8'); console.log(JSON.stringify({repaired:n},null,2));

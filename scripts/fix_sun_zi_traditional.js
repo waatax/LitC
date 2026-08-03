@@ -1,0 +1,1 @@
+import fs from 'fs'; const p='./src/data/readingAid.ts'; let t=fs.readFileSync(p,'utf8'); for(const [a,b] of [['于','於'],['挂','掛'],['凶','兇']]) t=t.replaceAll(a,b); fs.writeFileSync(p,t,'utf8'); console.log('fixed Sun Zi traditional forms');

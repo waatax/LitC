@@ -1,0 +1,1 @@
+import fs from 'fs'; const p='./src/data/works.ts'; let t=fs.readFileSync(p,'utf8'); const before=(t.match(/\"\)\)\);/g)||[]).length; t=t.replaceAll('\")));','\"));'); fs.writeFileSync(p,t,'utf8'); console.log(JSON.stringify({fixed:before},null,2));

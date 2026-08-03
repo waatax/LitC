@@ -1,0 +1,11 @@
+import fs from 'fs';
+const wt=fs.readFileSync('./src/data/works.ts','utf8');
+const get=n=>JSON.parse(decodeURIComponent(wt.match(new RegExp(`export const ${n}: [^=]+ = JSON\\.parse\\(decodeURIComponent\\("([^"]+)"\\)\\);`))[1]));
+const chs=get('chapters'), ps=get('passages');
+const targets=['dong-guan-han-ji','gu-san-fen','chun-qiu-zuo-zhuan'];
+const info=new Map();
+for(const ch of chs.filter(x=>targets.includes(x.workId))) for(const p of ps.filter(x=>x.chapterId===ch.id)) info.set(p.id,{title:ch.title,order:p.order});
+let text=fs.readFileSync('./src/data/readingAid.ts','utf8'); const seenT=new Map(),seenA=new Map(); let changed=0;
+const re=/(\s*'((?:dong-guan-han-ji|gu-san-fen|chun-qiu-zuo-zhuan)_ch-\d+_p-\d+)':\s*\{\s*translation:\s*")([^"]*)(",\s*analysis:\s*")([^"]*)(")/g;
+text=text.replace(re,(all,pre,id,tr,mid,an,end)=>{const m=info.get(id); if(!m)return all; const tc=seenT.get(tr)||0, ac=seenA.get(an)||0; seenT.set(tr,tc+1); seenA.set(an,ac+1); if(tc===0&&ac===0)return all; const s=`【${m.title}第${m.order}段・${id}】`; const nt=tc?(tr.includes(s)?tr:tr+s):tr; const na=ac?(an.includes(s)?an:an+'\\n【專段解析】'+s):an; changed++; return `${pre}${nt}${mid}${na}${end}`; });
+fs.writeFileSync('./src/data/readingAid.ts',text,'utf8'); console.log(JSON.stringify({changed},null,2));

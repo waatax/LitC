@@ -116,4 +116,6 @@ fs.writeFileSync(path.join(root, 'scratch/corpus_verification_report.json'), JSO
   workSummary
 }, null, 2), 'utf8');
 
+if (duplicateTranslations.length) console.log('DUPLICATES', JSON.stringify(duplicateTranslations));
+
 console.log('\n詳細核驗報告已儲存至 scratch/corpus_verification_report.json');

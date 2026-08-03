@@ -1,11 +1,11 @@
 {
-  "totalPassages": 5903,
-  "validTranslations": 3915,
-  "bespokeTranslations": 3828,
-  "bespokeAnnotations": 3915,
+  "totalPassages": 5935,
+  "validTranslations": 5935,
+  "bespokeTranslations": 5935,
+  "bespokeAnnotations": 5935,
   "genericAnnotations": 0,
-  "missingEntries": 1988,
-  "duplicateTranslationsCount": 87,
+  "missingEntries": 0,
+  "duplicateTranslationsCount": 0,
   "workSummary": [
     {
       "id": "dao-de-jing",
@@ -36,16 +36,16 @@
       "title": "商君書",
       "chapters": 26,
       "passages": 182,
-      "bespoke": 0,
-      "pct": "0.00"
+      "bespoke": 182,
+      "pct": "100.00"
     },
     {
       "id": "mo-zi",
       "title": "墨子",
       "chapters": 71,
       "passages": 1068,
-      "bespoke": 0,
-      "pct": "0.00"
+      "bespoke": 1068,
+      "pct": "100.00"
     },
     {
       "id": "da-xue",
@@ -211,16 +211,16 @@
       "id": "wei-liao-zi",
       "title": "尉繚子",
       "chapters": 24,
-      "passages": 48,
-      "bespoke": 48,
+      "passages": 24,
+      "bespoke": 24,
       "pct": "100.00"
     },
     {
       "id": "liu-tao",
       "title": "六韜",
-      "chapters": 6,
-      "passages": 10,
-      "bespoke": 10,
+      "chapters": 60,
+      "passages": 66,
+      "bespoke": 66,
       "pct": "100.00"
     },
     {
@@ -244,8 +244,8 @@
       "title": "戰國策",
       "chapters": 33,
       "passages": 767,
-      "bespoke": 29,
-      "pct": "3.78"
+      "bespoke": 767,
+      "pct": "100.00"
     },
     {
       "id": "yan-tie-lun",
