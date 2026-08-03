@@ -1,747 +1,147 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { getDueCardIds, db } from '@/data/db'
-import { sentences } from '@/data/works'
 import { useGamificationStore } from '@/stores/gamification'
-import RedSeal from '@/components/RedSeal.vue'
-
-const gamificationStore = useGamificationStore()
 
 const router = useRouter()
-
-function getSentenceText(id: string): string {
-  const s = sentences.find(s => s.id === id)
-  return s ? s.canonicalText : '未知句子'
-}
-
+const gamification = useGamificationStore()
 const mounted = ref(false)
-const dueCount = ref(0)
-const learnedToday = ref(0)
-const streakDays = ref(0)
-const recentReviews = ref<any[]>([])
+const selectedAnswer = ref<number | null>(null)
+const checked = ref(false)
+const completed = ref(false)
+const savedStreak = ref(3)
 
-async function loadStats() {
-  try {
-    // 1. Get due count
-    const dueIds = await getDueCardIds()
-    dueCount.value = dueIds.length
-
-    // 2. Get reviews completed today (since midnight local time)
-    const startOfToday = new Date()
-    startOfToday.setHours(0, 0, 0, 0)
-    const todayIso = startOfToday.toISOString()
-
-    learnedToday.value = await db.reviews
-      .where('reviewedAt')
-      .aboveOrEqual(todayIso)
-      .count()
-
-    // 3. Compute consecutive active days streak
-    const allReviews = await db.reviews.orderBy('reviewedAt').toArray()
-    if (allReviews.length > 0) {
-      const dates = allReviews.map(r => r.reviewedAt.split('T')[0])
-      const uniqueDates = Array.from(new Set(dates)).sort()
-      
-      let streak = 0
-      let lastDate = new Date()
-      // Subtract 1 day loop to check backwards
-      for (let i = uniqueDates.length - 1; i >= 0; i--) {
-        const d = new Date(uniqueDates[i])
-        const diffTime = Math.abs(lastDate.getTime() - d.getTime())
-        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24))
-
-        if (diffDays <= 1) {
-          streak++
-          lastDate = d
-        } else {
-          break
-        }
-      }
-      streakDays.value = Math.max(streak, gamificationStore.streak)
-    } else {
-      streakDays.value = gamificationStore.streak
-    }
-
-    // 4. Load recent reviews
-    recentReviews.value = await db.reviews
-      .orderBy('reviewedAt')
-      .reverse()
-      .limit(5)
-      .toArray()
-  } catch (e) {
-    console.error('Failed to load DB stats in TodayView:', e)
-  }
+const question = {
+  prompt: '陶淵明寫「芳草鮮美，落英繽紛」，最主要想營造什麼感受？',
+  options: ['戰爭後的荒涼', '桃花林的美麗與神祕', '漁人迷路的恐懼', '村民生活的忙碌'],
+  answer: 1,
 }
 
-onMounted(async () => {
-  await loadStats()
-  requestAnimationFrame(() => {
-    mounted.value = true
-  })
+const isCorrect = computed(() => checked.value && selectedAnswer.value === question.answer)
+const progress = computed(() => completed.value ? 100 : checked.value ? 75 : selectedAnswer.value !== null ? 55 : 32)
+
+onMounted(() => {
+  savedStreak.value = Number(localStorage.getItem('litc-streak') || gamification.streak || 3)
+  completed.value = localStorage.getItem('litc-today-complete') === new Date().toDateString()
+  requestAnimationFrame(() => { mounted.value = true })
 })
 
-const stats = computed(() => [
-  {
-    icon: '🔄',
-    value: dueCount.value.toString(),
-    label: '到期複習',
-    gradient: 'linear-gradient(135deg, rgba(201,169,110,0.12), rgba(201,169,110,0.04))',
-  },
-  {
-    icon: '📖',
-    value: learnedToday.value.toString(),
-    label: '今日已學',
-    gradient: 'linear-gradient(135deg, rgba(91,138,114,0.12), rgba(91,138,114,0.04))',
-  },
-  {
-    icon: '🔥',
-    value: streakDays.value.toString(),
-    label: '連續天數',
-    gradient: 'linear-gradient(135deg, rgba(139,94,94,0.12), rgba(139,94,94,0.04))',
-  },
-])
-
-async function startReview() {
-  const dueIds = await getDueCardIds()
-  if (dueIds.length === 0) return
-  
-  // Get first due card and extract its chapterId
-  const firstDueId = dueIds[0]
-  const parts = firstDueId.split('_')
-  if (parts.length >= 2) {
-    const chapterId = `${parts[0]}_${parts[1]}`
-    router.push(`/memorize/${chapterId}`)
-  }
+function chooseAnswer(index: number) {
+  if (checked.value) return
+  selectedAnswer.value = index
 }
 
-function goToLibrary() {
+function checkAnswer() {
+  if (selectedAnswer.value === null) return
+  checked.value = true
+}
+
+function finishMission() {
+  completed.value = true
+  localStorage.setItem('litc-today-complete', new Date().toDateString())
+  localStorage.setItem('litc-streak', String(savedStreak.value))
+  gamification.addExp(isCorrect.value ? 20 : 10)
+}
+
+function resetQuiz() {
+  selectedAnswer.value = null
+  checked.value = false
+}
+
+function goToText() {
   router.push('/library')
-}
-
-function goToSchool(schoolId: string) {
-  router.push({ path: '/library', query: { school: schoolId } })
-}
-
-function triggerSearch() {
-  window.dispatchEvent(new CustomEvent('open-search-modal'))
 }
 </script>
 
 <template>
-  <div class="today-view" :class="{ 'is-mounted': mounted }">
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="hero-bg"></div>
-      <div class="hero-content" style="display: flex; flex-direction: column; align-items: center;">
-        <RedSeal text="經典" :size="52" style="margin-bottom: 12px;" />
-        <h1 class="hero-title">經典文脈</h1>
-        <div class="hero-schools">
-          <a class="hero-school-link link-dao" @click="goToSchool('daoism')">道家</a>
-          <span class="school-sep">·</span>
-          <a class="hero-school-link link-legal" @click="goToSchool('legalism')">法家</a>
-          <span class="school-sep">·</span>
-          <a class="hero-school-link link-mohist" @click="goToSchool('mohism')">墨家</a>
-          <span class="school-sep">·</span>
-          <a class="hero-school-link link-confucian" @click="goToSchool('confucianism')">儒家</a>
-          <span class="school-sep">·</span>
-          <a class="hero-school-link link-literature" @click="goToSchool('literature')">文學</a>
-        </div>
+  <div class="today" :class="{ ready: mounted }">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">八月三日・今日文學任務</p>
+        <h1>嗨，今天讀一小段，<br><em>遇見一個新世界。</em></h1>
+      </div>
+      <div class="streak" aria-label="連續學習天數">
+        <span class="flame">火</span>
+        <div><strong>{{ savedStreak }}</strong><small>天連續學習</small></div>
+      </div>
+    </header>
 
-        <!-- Hero Search Bar -->
-        <div class="hero-search-box" @click="triggerSearch">
-          <span class="search-icon">🔍</span>
-          <span class="search-placeholder-text">搜尋全站典籍、原文名句、白話譯文、哲思導讀...</span>
-          <kbd class="search-kbd">Ctrl K</kbd>
+    <section class="mission-card">
+      <div class="mission-head">
+        <div>
+          <span class="chapter-tag">七年級推薦・約 6 分鐘</span>
+          <h2>桃花源記：如果有一個理想世界</h2>
+          <p>跟著武陵漁人走進桃花林，看看陶淵明把什麼願望藏在故事裡。</p>
         </div>
+        <div class="mission-orbit" aria-hidden="true"><span>桃</span></div>
+      </div>
 
-        <div class="hero-accent"></div>
+      <div class="journey" aria-label="今日任務進度">
+        <div class="progress-track"><i :style="{ width: `${progress}%` }"></i></div>
+        <div class="steps">
+          <span class="done"><b>1</b>進入情境</span>
+          <span :class="{ done: selectedAnswer !== null }"><b>2</b>讀懂名句</span>
+          <span :class="{ done: checked }"><b>3</b>挑戰一題</span>
+          <span :class="{ done: completed }"><b>4</b>收下心得</span>
+        </div>
+      </div>
+
+      <div v-if="!completed" class="learning-grid">
+        <article class="reading-panel">
+          <div class="panel-label"><span>先讀這一句</span><button @click="goToText">讀完整篇 →</button></div>
+          <blockquote>忽逢桃花林，夾岸數百步，中無雜樹，芳草鮮美，落英繽紛。</blockquote>
+          <div class="translation">
+            <span class="lightbulb">解</span>
+            <p><strong>用白話說：</strong>忽然遇見一片桃花林，兩岸綿延數百步，沒有其他樹木；芳草清新美麗，花瓣紛紛飄落。</p>
+          </div>
+          <details>
+            <summary>為什麼「忽逢」很重要？</summary>
+            <p>「忽然遇見」讓桃花林像意外開啟的祕密入口，也替後面的理想世界留下神祕感。</p>
+          </details>
+        </article>
+
+        <article class="quiz-panel">
+          <div class="quiz-top"><span class="quiz-pill">理解挑戰</span><span>1 題</span></div>
+          <h3>{{ question.prompt }}</h3>
+          <div class="answers" role="radiogroup" aria-label="選擇答案">
+            <button v-for="(option, index) in question.options" :key="option"
+              :class="{ selected: selectedAnswer === index, correct: checked && index === question.answer, wrong: checked && selectedAnswer === index && index !== question.answer }"
+              :disabled="checked" role="radio" :aria-checked="selectedAnswer === index" @click="chooseAnswer(index)">
+              <span>{{ ['A','B','C','D'][index] }}</span>{{ option }}
+            </button>
+          </div>
+          <button v-if="!checked" class="primary" :disabled="selectedAnswer === null" @click="checkAnswer">確認答案</button>
+          <div v-else class="feedback" :class="{ success: isCorrect }">
+            <strong>{{ isCorrect ? '答對了！你讀出了文字的氣氛。' : '差一點，答案是 B。' }}</strong>
+            <p>「鮮美、繽紛」描寫明亮又不尋常的景色，既美麗，也讓人想知道桃林深處藏著什麼。</p>
+            <button v-if="isCorrect" class="primary" @click="finishMission">收下 20 點文學力</button>
+            <button v-else class="primary" @click="resetQuiz">帶著提示再試一次</button>
+          </div>
+        </article>
+      </div>
+
+      <div v-else class="complete-state">
+        <div class="seal">成</div>
+        <p class="eyebrow">今日任務完成</p>
+        <h2>你讀懂的不只是一片桃花林</h2>
+        <p>陶淵明用美景打開理想世界的入口。當現實不夠美好，文學讓人先想像「世界還能是什麼樣子」。</p>
+        <div class="reward-row"><span>+20 文學力</span><span>連續 {{ savedStreak }} 天</span><span>解鎖：桃源初探</span></div>
+        <button class="primary" @click="goToText">繼續讀《桃花源記》</button>
       </div>
     </section>
 
-    <!-- Stats Cards -->
-    <section class="stats-section">
-      <div class="stats-grid stagger-children">
-        <div
-          v-for="stat in stats"
-          :key="stat.label"
-          class="stat-card glass-card"
-          :style="{ background: stat.gradient }"
-        >
-          <span class="stat-icon">{{ stat.icon }}</span>
-          <div class="stat-body">
-            <span class="stat-value">{{ stat.value }}<span class="stat-unit">{{ stat.label.slice(-1) }}</span></span>
-            <span class="stat-label">{{ stat.label.slice(0, -1) }}</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Quick Actions -->
-    <section class="actions-section">
-      <h3 class="section-heading">快速開始</h3>
-      <div class="actions-row">
-        <button class="btn btn-primary action-btn" :disabled="dueCount === 0" @click="startReview">
-          <span>🔄</span>
-          <span>開始複習</span>
-        </button>
-        <button class="btn btn-ghost action-btn" @click="triggerSearch">
-          <span>🔍</span>
-          <span>搜尋全站文庫</span>
-        </button>
-        <button class="btn btn-ghost action-btn" @click="goToLibrary">
-          <span>📚</span>
-          <span>瀏覽典籍庫</span>
-        </button>
-      </div>
-    </section>
-
-    <!-- Recent Activity -->
-    <section class="activity-section animate-fade-in" style="animation-delay: 240ms;">
-      <h3 class="section-heading">近期活動</h3>
-      
-      <div v-if="recentReviews.length === 0" class="activity-empty glass-card">
-        <div class="empty-icon">🌿</div>
-        <p class="empty-title">尚未開始學習</p>
-        <p class="empty-text">從典籍庫選擇一篇經典，開啟你的記憶之旅</p>
-        <button class="btn btn-ghost empty-btn" @click="goToLibrary">
-          前往典籍庫 →
-        </button>
-      </div>
-
-      <div v-else class="activity-list stagger-children">
-        <div 
-          v-for="review in recentReviews" 
-          :key="review.id" 
-          class="activity-item glass-card"
-        >
-          <div class="activity-status" :class="'status-' + review.rating">
-            <span v-if="review.rating === 'again'">🔄 再來</span>
-            <span v-else-if="review.rating === 'hard'">😰 困難</span>
-            <span v-else-if="review.rating === 'good'">👍 良好</span>
-            <span v-else-if="review.rating === 'easy'">✨ 簡單</span>
-          </div>
-          <div class="activity-body">
-            <p class="activity-text classical-text">{{ getSentenceText(review.cardId) }}</p>
-            <div class="activity-meta">
-              <span class="meta-item">模式：{{ review.answerMode === 'typing' ? '📝 默寫' : '🧠 回想' }}</span>
-              <span class="meta-item">提示：{{ review.hintsUsed === 0 ? '無' : review.hintsUsed + '階' }}</span>
-              <span class="meta-item">時間：{{ new Date(review.reviewedAt).toLocaleString() }}</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Retention Decay Predictor Section (Round 8: ML & Data Analytics) -->
-    <section class="retention-section animate-fade-in" style="animation-delay: 360ms;">
-      <h3 class="section-heading">記憶保留率預估衰減曲線 (FSRS)</h3>
-      <div class="retention-chart-card glass-card">
-        <p class="chart-summary">基於當前背誦字句之平均穩定度（Stability），系統預估您的未來記憶遺忘百分比：</p>
-        <div class="decay-timeline">
-          <div class="decay-point">
-            <span class="decay-day">第 1 天</span>
-            <div class="decay-bar-container">
-              <div class="decay-bar bar-1" style="width: 92%;"></div>
-            </div>
-            <span class="decay-pct">92% 留存</span>
-          </div>
-          <div class="decay-point">
-            <span class="decay-day">第 3 天</span>
-            <div class="decay-bar-container">
-              <div class="decay-bar bar-3" style="width: 82%;"></div>
-            </div>
-            <span class="decay-pct">82% 留存</span>
-          </div>
-          <div class="decay-point">
-            <span class="decay-day">第 7 天</span>
-            <div class="decay-bar-container">
-              <div class="decay-bar bar-7" style="width: 71%;"></div>
-            </div>
-            <span class="decay-pct">71% 留存</span>
-          </div>
-          <div class="decay-point">
-            <span class="decay-day">第 15 天</span>
-            <div class="decay-bar-container">
-              <div class="decay-bar bar-15" style="width: 58%;"></div>
-            </div>
-            <span class="decay-pct">58% 留存</span>
-          </div>
-          <div class="decay-point">
-            <span class="decay-day">第 30 天</span>
-            <div class="decay-bar-container">
-              <div class="decay-bar bar-30" style="width: 46%;"></div>
-            </div>
-            <span class="decay-pct">46% 留存 (建議複習)</span>
-          </div>
-        </div>
+    <section class="explore">
+      <div class="section-title"><div><p class="eyebrow">依照今天的心情</p><h2>下一站，想去哪個世界？</h2></div><button @click="goToText">探索全部經典</button></div>
+      <div class="worlds">
+        <button @click="router.push({ path: '/library', query: { school: 'confucianism' } })"><span class="world-icon peach">仁</span><small>想學待人處事</small><strong>走進《論語》</strong><i>12 分鐘・入門</i></button>
+        <button @click="router.push({ path: '/library', query: { school: 'daoism' } })"><span class="world-icon moon">道</span><small>最近有點壓力</small><strong>聽莊子說自由</strong><i>8 分鐘・輕鬆</i></button>
+        <button @click="router.push({ path: '/library', query: { school: 'military' } })"><span class="world-icon mountain">謀</span><small>想練策略思考</small><strong>挑戰《孫子兵法》</strong><i>10 分鐘・挑戰</i></button>
       </div>
     </section>
   </div>
 </template>
 
 <style scoped>
-.today-view {
-  opacity: 0;
-  transition: opacity var(--duration-slow) var(--ease-out);
-}
-
-.today-view.is-mounted {
-  opacity: 1;
-}
-
-/* ── Hero ── */
-.hero {
-  position: relative;
-  text-align: center;
-  padding: var(--sp-16) 0 var(--sp-12);
-  margin-bottom: var(--sp-8);
-  overflow: hidden;
-}
-
-.hero-bg {
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(
-    ellipse at 50% 0%,
-    rgba(201, 169, 110, 0.08) 0%,
-    transparent 70%
-  );
-  pointer-events: none;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 1;
-  animation: fadeInUp var(--duration-slow) var(--ease-out) both;
-}
-
-.hero-title {
-  font-family: var(--font-serif);
-  font-size: var(--fs-hero);
-  font-weight: var(--fw-bold);
-  background: linear-gradient(
-    135deg,
-    var(--c-gold-light) 0%,
-    var(--c-gold) 40%,
-    var(--c-gold-dark) 100%
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: 0.15em;
-  margin-bottom: var(--sp-3);
-}
-
-.hero-schools {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: var(--sp-3);
-  font-family: var(--font-serif);
-  font-size: var(--fs-xl);
-  margin-top: var(--sp-2);
-}
-
-/* ── Hero Search Box ── */
-.hero-search-box {
-  margin-top: var(--sp-6, 24px);
-  width: 92%;
-  max-width: 540px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px 20px;
-  background: var(--c-bg-card, rgba(28, 31, 43, 0.8));
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid var(--c-border-gold-glow, rgba(201, 169, 110, 0.35));
-  border-radius: 30px;
-  cursor: pointer;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3), 0 0 20px rgba(201, 169, 110, 0.15);
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.hero-search-box:hover {
-  background: rgba(35, 39, 54, 0.95);
-  border-color: var(--c-gold, #c9a96e);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4), 0 0 30px rgba(201, 169, 110, 0.3);
-  transform: translateY(-2px);
-}
-
-.hero-search-box .search-icon {
-  font-size: 1.125rem;
-  opacity: 0.85;
-}
-
-.search-placeholder-text {
-  font-family: var(--font-sans);
-  font-size: 0.9375rem;
-  color: var(--c-text-muted, #9ca3af);
-  flex: 1;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-align: left;
-}
-
-.search-kbd {
-  font-size: 0.75rem;
-  padding: 2px 7px;
-  background: rgba(201, 169, 110, 0.15);
-  border-radius: 4px;
-  color: var(--c-gold, #c9a96e);
-  border: 1px solid rgba(201, 169, 110, 0.3);
-  font-weight: 500;
-}
-
-.hero-school-link {
-  cursor: pointer;
-  color: var(--c-text-muted);
-  transition: all var(--duration-normal) var(--ease-out);
-  text-decoration: none;
-  font-weight: var(--fw-medium);
-  letter-spacing: 0.05em;
-  padding: 2px 6px;
-  border-radius: var(--radius-sm);
-}
-
-.hero-school-link:hover {
-  transform: translateY(-2px);
-  text-shadow: 0 0 8px currentColor;
-}
-
-.link-dao:hover { color: var(--c-accent-dao); }
-.link-legal:hover { color: var(--c-accent-legal); }
-.link-mohist:hover { color: var(--c-accent-mohist); }
-.link-confucian:hover { color: var(--c-accent-confucian); }
-.link-literature:hover { color: var(--c-accent-literature); }
-
-.school-sep {
-  color: var(--c-text-muted);
-  opacity: 0.3;
-}
-
-.hero-accent {
-  width: 60px;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--c-gold), transparent);
-  margin: var(--sp-6) auto 0;
-}
-
-/* ── Stats ── */
-.stats-section {
-  margin-bottom: var(--sp-10);
-}
-
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--sp-4);
-}
-
-.stat-card {
-  padding: var(--sp-5) var(--sp-4);
-  display: flex;
-  align-items: center;
-  gap: var(--sp-4);
-  cursor: default;
-}
-
-.stat-icon {
-  font-size: var(--fs-3xl);
-  flex-shrink: 0;
-}
-
-.stat-body {
-  display: flex;
-  flex-direction: column;
-}
-
-.stat-value {
-  font-family: var(--font-serif);
-  font-size: var(--fs-3xl);
-  font-weight: var(--fw-bold);
-  color: var(--c-text-primary);
-  line-height: 1;
-}
-
-.stat-unit {
-  font-size: var(--fs-sm);
-  font-weight: var(--fw-normal);
-  color: var(--c-text-muted);
-  margin-left: var(--sp-1);
-}
-
-.stat-label {
-  font-family: var(--font-sans);
-  font-size: var(--fs-sm);
-  color: var(--c-text-secondary);
-  margin-top: var(--sp-1);
-}
-
-/* ── Actions ── */
-.actions-section {
-  margin-bottom: var(--sp-10);
-  animation: fadeInUp var(--duration-slow) var(--ease-out) 200ms both;
-}
-
-.section-heading {
-  font-family: var(--font-serif);
-  font-size: var(--fs-xl);
-  color: var(--c-text-primary);
-  margin-bottom: var(--sp-4);
-  letter-spacing: 0.05em;
-}
-
-.actions-row {
-  display: flex;
-  gap: var(--sp-4);
-  flex-wrap: wrap;
-}
-
-.action-btn {
-  padding: var(--sp-4) var(--sp-8);
-  font-size: var(--fs-base);
-}
-
-.action-btn:disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
-  transform: none !important;
-  filter: none !important;
-}
-
-/* ── Activity ── */
-.activity-section {
-  animation: fadeInUp var(--duration-slow) var(--ease-out) 350ms both;
-}
-
-.activity-empty {
-  padding: var(--sp-12) var(--sp-8);
-  text-align: center;
-  cursor: default;
-}
-
-.activity-empty:hover {
-  transform: none;
-}
-
-.empty-icon {
-  font-size: 2.5rem;
-  margin-bottom: var(--sp-4);
-  animation: breathe 4s ease-in-out infinite;
-}
-
-@keyframes breathe {
-  0%, 100% { opacity: 0.5; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.05); }
-}
-
-.empty-title {
-  font-family: var(--font-serif);
-  font-size: var(--fs-xl);
-  color: var(--c-text-primary);
-  margin-bottom: var(--sp-2);
-}
-
-.empty-text {
-  font-family: var(--font-sans);
-  font-size: var(--fs-sm);
-  color: var(--c-text-muted);
-  margin-bottom: var(--sp-6);
-  max-width: 360px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.empty-btn {
-  margin: 0 auto;
-}
-
-/* ── Activity List ── */
-.activity-list {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-4);
-}
-
-.activity-item {
-  display: flex;
-  flex-direction: column;
-  padding: var(--sp-5);
-  border-left: 4px solid var(--c-border);
-  gap: var(--sp-3);
-}
-
-.activity-status {
-  align-self: flex-start;
-  font-size: var(--fs-xs);
-  font-weight: var(--fw-semibold);
-  padding: var(--sp-1) var(--sp-3);
-  border-radius: var(--radius-full);
-}
-
-.status-again {
-  background: rgba(139, 94, 94, 0.15);
-  color: #ff8888;
-  border: 1px solid rgba(139, 94, 94, 0.3);
-}
-
-.status-hard {
-  background: rgba(184, 148, 68, 0.15);
-  color: #ffcc66;
-  border: 1px solid rgba(184, 148, 68, 0.3);
-}
-
-.status-good {
-  background: rgba(74, 139, 110, 0.15);
-  color: #88ff88;
-  border: 1px solid rgba(74, 139, 110, 0.3);
-}
-
-.status-easy {
-  background: rgba(201, 169, 110, 0.15);
-  color: #ffeeb8;
-  border: 1px solid rgba(201, 169, 110, 0.3);
-}
-
-.activity-body {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-2);
-}
-
-.activity-text {
-  font-size: var(--fs-lg) !important;
-  color: var(--c-text-primary);
-  margin: 0;
-}
-
-.activity-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--sp-4);
-  font-size: var(--fs-xs);
-  color: var(--c-text-muted);
-}
-
-.meta-item {
-  display: inline-flex;
-  align-items: center;
-}
-
-/* ── Responsive ── */
-@media (max-width: 768px) {
-  .hero {
-    padding: var(--sp-10) 0 var(--sp-8);
-  }
-
-  .stats-grid {
-    grid-template-columns: 1fr;
-    gap: var(--sp-3);
-  }
-
-  .stat-card {
-    padding: var(--sp-4);
-  }
-
-  .actions-row {
-    flex-direction: column;
-  }
-
-  .action-btn {
-    width: 100%;
-  }
-}
-
-/* ── Retention Predictor Styles ── */
-.retention-section {
-  margin-top: var(--sp-8);
-  margin-bottom: var(--sp-12);
-}
-
-.retention-chart-card {
-  padding: var(--sp-6);
-  border: 1px solid var(--c-border-accent);
-}
-
-.chart-summary {
-  font-family: var(--font-sans);
-  font-size: var(--fs-sm);
-  color: var(--c-text-secondary);
-  margin-bottom: var(--sp-6);
-}
-
-.decay-timeline {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-4);
-}
-
-.decay-point {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-4);
-}
-
-.decay-day {
-  width: 70px;
-  font-family: var(--font-sans);
-  font-size: var(--fs-xs);
-  color: var(--c-text-muted);
-  font-weight: var(--fw-semibold);
-}
-
-.decay-bar-container {
-  flex: 1;
-  height: 10px;
-  background: var(--c-bg-secondary);
-  border-radius: var(--radius-full);
-  overflow: hidden;
-  border: 1px solid var(--c-border-subtle);
-}
-
-.decay-bar {
-  height: 100%;
-  border-radius: var(--radius-full);
-  transition: width var(--duration-slow) var(--ease-out);
-}
-
-.bar-1 { background: linear-gradient(90deg, var(--c-success) 0%, #a4cdb0 100%); }
-.bar-3 { background: linear-gradient(90deg, var(--c-success) 0%, var(--c-gold-light) 100%); }
-.bar-7 { background: linear-gradient(90deg, var(--c-gold-light) 0%, var(--c-gold) 100%); }
-.bar-15 { background: linear-gradient(90deg, var(--c-gold) 0%, var(--c-warning) 100%); }
-.bar-30 { background: linear-gradient(90deg, var(--c-warning) 0%, var(--c-danger) 100%); }
-
-.decay-pct {
-  width: 140px;
-  text-align: right;
-  font-family: var(--font-sans);
-  font-size: var(--fs-xs);
-  color: var(--c-text-secondary);
-}
-
-@media (max-width: 500px) {
-  .decay-point {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--sp-1);
-    border-bottom: 1px dashed var(--c-border-subtle);
-    padding-bottom: var(--sp-2);
-  }
-  .decay-day {
-    width: auto;
-  }
-  .decay-bar-container {
-    width: 100%;
-    height: 6px;
-  }
-  .decay-pct {
-    width: auto;
-    text-align: left;
-    align-self: flex-end;
-  }
-}
+.today{opacity:0;transform:translateY(10px);transition:.45s ease;max-width:1120px;margin:0 auto;padding-bottom:64px}.today.ready{opacity:1;transform:none}.topbar{display:flex;justify-content:space-between;align-items:flex-start;padding:26px 0 28px}.eyebrow{margin:0 0 8px;color:#ae774d;font:700 12px/1.4 var(--font-sans);letter-spacing:.16em;text-transform:uppercase}.topbar h1{font-size:clamp(30px,4vw,48px);line-height:1.22;margin:0;color:var(--c-text-primary);letter-spacing:.02em}.topbar h1 em{font-style:normal;color:#b9674d}.streak{display:flex;align-items:center;gap:10px;background:rgba(174,119,77,.09);border:1px solid rgba(174,119,77,.24);border-radius:18px;padding:11px 16px}.flame{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:#c86f4d;color:white;font:700 13px var(--font-serif)}.streak strong{display:block;font-size:20px;line-height:1}.streak small{color:var(--c-text-muted);font-size:11px}.mission-card{border:1px solid rgba(174,119,77,.22);border-radius:28px;background:linear-gradient(145deg,rgba(255,250,242,.07),rgba(174,119,77,.035));box-shadow:0 24px 70px rgba(21,14,10,.13);overflow:hidden}.mission-head{padding:32px 38px 25px;display:flex;justify-content:space-between;gap:24px;align-items:center;border-bottom:1px solid rgba(174,119,77,.15)}.chapter-tag,.quiz-pill{display:inline-flex;border-radius:999px;padding:6px 11px;background:rgba(185,103,77,.12);color:#bd765e;font:700 12px var(--font-sans)}.mission-head h2{font-size:clamp(24px,3vw,34px);margin:12px 0 8px}.mission-head p{color:var(--c-text-secondary);margin:0}.mission-orbit{width:92px;height:92px;border:1px solid rgba(185,103,77,.25);border-radius:50%;display:grid;place-items:center;position:relative;flex:none}.mission-orbit:before,.mission-orbit:after{content:"";position:absolute;border-radius:50%;border:1px dashed rgba(185,103,77,.2);inset:8px;transform:rotate(25deg)}.mission-orbit span{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:#b8674d;color:#fff;font:700 25px var(--font-serif);box-shadow:0 8px 25px rgba(185,103,77,.25)}.journey{padding:20px 38px}.progress-track{height:6px;border-radius:10px;background:rgba(174,119,77,.12);overflow:hidden}.progress-track i{display:block;height:100%;background:linear-gradient(90deg,#b9674d,#d5a25d);transition:width .5s ease}.steps{display:flex;justify-content:space-between;margin-top:12px;color:var(--c-text-muted);font-size:12px}.steps span{display:flex;align-items:center;gap:6px}.steps b{width:21px;height:21px;display:grid;place-items:center;border-radius:50%;border:1px solid var(--c-border);font-size:10px}.steps .done{color:var(--c-text-primary)}.steps .done b{background:#b9674d;color:white;border-color:#b9674d}.learning-grid{display:grid;grid-template-columns:1.05fr .95fr;border-top:1px solid rgba(174,119,77,.15)}.reading-panel,.quiz-panel{padding:34px 38px}.reading-panel{border-right:1px solid rgba(174,119,77,.15)}.panel-label,.quiz-top,.section-title{display:flex;align-items:center;justify-content:space-between;color:var(--c-text-muted);font-size:12px}.panel-label button,.section-title button{border:0;background:none;color:#b9674d;cursor:pointer}.reading-panel blockquote{font:500 clamp(22px,2.5vw,29px)/1.85 var(--font-serif);letter-spacing:.08em;margin:26px 0;padding-left:20px;border-left:3px solid #b9674d;color:var(--c-text-primary)}.translation{display:flex;gap:12px;background:rgba(174,119,77,.07);padding:15px;border-radius:14px}.translation p{font-size:14px;line-height:1.8;margin:0;color:var(--c-text-secondary)}.lightbulb{display:grid;place-items:center;width:29px;height:29px;border-radius:50%;background:#d5a25d;color:#332516;flex:none;font-weight:800}details{margin-top:18px;border-top:1px dashed var(--c-border);padding-top:15px;color:var(--c-text-secondary);font-size:14px}summary{color:#b9674d;cursor:pointer;font-weight:700}.quiz-panel h3{font:600 21px/1.55 var(--font-serif);margin:22px 0}.answers{display:grid;gap:10px}.answers button{display:flex;align-items:center;text-align:left;gap:12px;padding:12px 14px;border-radius:12px;border:1px solid var(--c-border);background:rgba(255,255,255,.025);color:var(--c-text-secondary);cursor:pointer;transition:.2s}.answers button:hover:not(:disabled),.answers button.selected{border-color:#b9674d;background:rgba(185,103,77,.09);color:var(--c-text-primary)}.answers button span{display:grid;place-items:center;width:27px;height:27px;border-radius:8px;background:rgba(174,119,77,.11);font-weight:800}.answers button.correct{border-color:#5b8a72;background:rgba(91,138,114,.13)}.answers button.wrong{border-color:#b85e55;background:rgba(184,94,85,.1)}.primary{width:100%;margin-top:18px;border:0;border-radius:12px;padding:13px 18px;background:#b9674d;color:white;font-weight:800;cursor:pointer;box-shadow:0 8px 22px rgba(185,103,77,.22)}.primary:disabled{opacity:.4;cursor:not-allowed}.feedback{margin-top:16px;padding:14px;border-radius:14px;background:rgba(184,94,85,.09);color:var(--c-text-secondary)}.feedback.success{background:rgba(91,138,114,.1)}.feedback strong{color:var(--c-text-primary)}.feedback p{font-size:13px;line-height:1.7;margin:6px 0 0}.complete-state{text-align:center;padding:50px 30px;border-top:1px solid rgba(174,119,77,.15)}.complete-state>p:not(.eyebrow){max-width:630px;margin:10px auto 22px;color:var(--c-text-secondary);line-height:1.8}.seal{margin:0 auto 17px;width:68px;height:68px;display:grid;place-items:center;border:3px double #b9674d;color:#b9674d;font:700 32px var(--font-serif);transform:rotate(-5deg)}.reward-row{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}.reward-row span{padding:7px 12px;border-radius:99px;background:rgba(91,138,114,.11);color:#6ea286;font-size:12px}.complete-state .primary{width:auto;padding-inline:30px}.explore{margin-top:46px}.section-title h2{margin:0;font-size:25px}.worlds{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}.worlds button{text-align:left;padding:22px;border:1px solid var(--c-border);border-radius:18px;background:var(--c-bg-card);color:var(--c-text-primary);cursor:pointer;transition:.2s}.worlds button:hover{transform:translateY(-3px);border-color:rgba(185,103,77,.4)}.world-icon{display:grid;place-items:center;width:44px;height:44px;border-radius:14px;margin-bottom:22px;color:white;font:700 18px var(--font-serif)}.peach{background:#b9674d}.moon{background:#527b72}.mountain{background:#6c6888}.worlds small,.worlds strong,.worlds i{display:block}.worlds small{color:var(--c-text-muted)}.worlds strong{font:600 19px var(--font-serif);margin:5px 0 14px}.worlds i{font-style:normal;color:var(--c-text-muted);font-size:11px}
+@media(max-width:850px){.learning-grid{grid-template-columns:1fr}.reading-panel{border-right:0;border-bottom:1px solid rgba(174,119,77,.15)}.worlds{grid-template-columns:1fr}.topbar{align-items:center}.mission-head{padding:25px}.mission-orbit{display:none}.reading-panel,.quiz-panel{padding:26px}.steps span{font-size:0}.steps span b{font-size:10px}.steps span:after{content:""}}@media(max-width:560px){.topbar{display:block}.streak{margin-top:18px;width:max-content}.mission-card{border-radius:20px}.journey{padding:18px 24px}.reading-panel blockquote{font-size:20px}.section-title{align-items:flex-end}.section-title button{max-width:90px}}
 </style>
-
