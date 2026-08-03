@@ -1,4 +1,4 @@
-﻿# 先秦諸子經典文言文選編
+# 先秦諸子經典文言文選編
 
 > **內容範圍**：道家《道德經》《莊子》、法家《韓非子》《商君書》、墨家《墨子》之核心篇章選錄。  
 > **文字系統**：繁體中文。  
@@ -12,7 +12,7 @@
 
 1. [道家](#一道家)
    - [《道德經》全本](#一道德經全本)
-   - [《莊子》選篇](#二莊子選篇)
+   - [《莊子》全本](#二莊子全本)
    - [《列子》全本](#三列子全本)
    - [《文子》全本](#四文子全本)
    - [《文始真經》全本](#五文始真經全本)
@@ -387,109 +387,12785 @@
 
 信言不美，美言不信。善者不辯，辯者不善。知者不博，博者不知。聖人不積，既以為人己愈有，既以與人己愈多。天之道，利而不害；聖人之道，為而不爭。
 
-## 二、《莊子》選篇
+## 二、《莊子》全本
 
-> 《莊子》通行本共三十三篇，分為內篇七、外篇十五、雜篇十一。下列以內篇及通行名段為主。
+### KR5c0126_001.txt
 
-### 內篇・逍遙遊
+ZHUANG 1.1.1; Guo Qingfan 4; Wang Shumin 6; Fang Yong 4; Chen Guying:3北冥有魚，其名為鯤。鯤之大，不知其幾千里也。化而為鳥，其名為鵬。鵬之背，不知其幾千里也；怒而飛，其翼若垂天之雲。是鳥也，海運則將徙於南冥。南冥者，天池也。
 
-北冥有魚，其名為鯤。鯤之大，不知其幾千里也；化而為鳥，其名為鵬。  
-鵬之背，不知其幾千里也；怒而飛，其翼若垂天之雲。  
-是鳥也，海運則將徙於南冥。南冥者，天池也。
+ZHUANG 1.1.2; Guo Qingfan 4; Wang Shumin 6; Fang Yong 4; Chen Guying:3齊諧者，志怪者也。曰：「鵬之徙於南冥也，水擊三千里，摶扶搖而上者九萬里，去以六月息者也。」野馬也，塵埃也，生物之以息相吹也。
 
-《齊諧》者，志怪者也。《諧》之言曰：「鵬之徙於南冥也，水擊三千里，摶扶搖而上者九萬里，去以六月息者也。」  
-野馬也，塵埃也，生物之以息相吹也。天之蒼蒼，其正色邪？其遠而無所至極邪？其視下也，亦若是則已矣。
+ZHUANG 1.1.3; Guo Qingfan 4; Wang Shumin 6; Fang Yong 5; Chen Guying:3天之蒼蒼，其正色邪？其遠而無所至極邪？其視下也，亦若是則已矣。
 
-小知不及大知，小年不及大年。奚以知其然也？  
-朝菌不知晦朔，蟪蛄不知春秋，此小年也。  
-楚之南有冥靈者，以五百歲為春，五百歲為秋；上古有大椿者，以八千歲為春，八千歲為秋；而彭祖乃今以久特聞，眾人匹之，不亦悲乎！
+ZHUANG 1.1.4; Guo Qingfan 5; Wang Shumin 8; Fang Yong 5; Chen Guying 5且夫水之積也不厚，則負大舟也無力。覆杯水於坳堂之上，則芥為之舟；置杯焉則膠，水淺而舟大也。風之積也不厚，則其負大翼也無力。故九萬里，則風斯在下矣，而後乃今培風；背負青天，而莫之夭閼者，而後乃今將圖南。
 
-若夫乘天地之正，而御六氣之辯，以遊無窮者，彼且惡乎待哉！  
-故曰：至人無己，神人無功，聖人無名。
+ZHUANG 1.1.5; Guo Qingfan 9; Wang Shumin 10; Fang Yong 5; Chen Guying 7蜩與學鳩笑之曰：「我決起而飛，槍榆枋，時則不至，而控於地而已矣，奚以之九萬里而南為？」適莽蒼者，三湌而反，腹猶果然；適百里者，宿舂糧；適千里者，三月聚糧。之二蟲又何知！
 
-惠子謂莊子曰：「吾有大樹，人謂之樗。其大本擁腫而不中繩墨，其小枝卷曲而不中規矩，立之塗，匠者不顧。今子之言，大而無用，眾所同去也。」  
-莊子曰：「子獨不見狸狌乎？卑身而伏，以候敖者；東西跳梁，不辟高下；中於機辟，死於罔罟。今夫斄牛，其大若垂天之雲；此能為大矣，而不能執鼠。今子有大樹，患其無用，何不樹之於無何有之鄉、廣莫之野，彷徨乎無為其側，逍遙乎寢臥其下？不夭斤斧，物無害者，無所可用，安所困苦哉！」
+ZHUANG 1.1.6; Guo Qingfan 9; Wang Shumin 12; Fang Yong 5; Chen Guying 10小知不及大知，小年不及大年。奚以知其然也？朝菌不知晦朔，蟪蛄不知春秋，此小年也。
 
-### 內篇・齊物論
+ZHUANG 1.1.7; Guo Qingfan 9; Wang Shumin 12; Fang Yong 5; Chen Guying10楚之南有冥靈者，以五百歲為春，五百歲為秋；上古有大椿者，以八千歲為春，八千歲為秋。而彭祖乃今以久特聞，眾人匹之，不亦悲乎！
 
-南郭子綦隱几而坐，仰天而噓，荅焉似喪其耦。  
-顏成子游立侍乎前，曰：「何居乎？形固可使如槁木，而心固可使如死灰乎？今之隱几者，非昔之隱几者也。」  
-子綦曰：「偃，不亦善乎而問之也！今者吾喪我，汝知之乎？」
+ZHUANG 1.1.8; Guo Qingfan 14; Wang Shumin 15; Fang Yong 5; Chen Guying 11湯之問棘也是已。窮髮之北有冥海者，天池也。有魚焉，其廣數千里，未有知其脩者，其名為鯤。有鳥焉，其名為鵬，背若泰山，翼若垂天之雲，
 
-夫言非吹也，言者有言，其所言者特未定也。  
-果有言邪？其未嘗有言邪？其以為異於鷇音，亦有辯乎？其無辯乎？  
-道惡乎隱而有真偽？言惡乎隱而有是非？道惡乎往而不存？言惡乎存而不可？  
-道隱於小成，言隱於榮華。故有儒、墨之是非，以是其所非，而非其所是。
+ZHUANG 1.1.9; Guo Qingfan 14; Wang Shumin 15; Fang Yong 5; Chen Guying 11摶扶搖羊角而上者九萬里，絕雲氣，負青天，然後圖南，且適南冥也。
 
-物無非彼，物無非是。自彼則不見，自知則知之。  
-故曰：彼出於是，是亦因彼。彼是方生之說也。  
-雖然，方生方死，方死方生；方可方不可，方不可方可。  
-因是因非，因非因是。是以聖人不由，而照之於天，亦因是也。
+ZHUANG 1.1.10; Guo Qingfan 14; Wang Shumin 15; Fang Yong 5; Chen Guying11斥鴳笑之曰：「彼且奚適也？我騰躍而上，不過數仞而下，翱翔蓬蒿之間，此亦飛之至也。而彼且奚適也？」此小大之辯也。
 
-昔者莊周夢為胡蝶，栩栩然胡蝶也，自喻適志與，不知周也。  
-俄然覺，則蘧蘧然周也。  
-不知周之夢為胡蝶與？胡蝶之夢為周與？周與胡蝶，則必有分矣。此之謂物化。
+ZHUANG 1.1.11; Guo Qingfan 16; Wang Shumin 17; Fang Yong 5; Chen Guying 14故夫知效一官，行比一鄉，德合一君，而徵一國者，其自視也亦若此矣。而宋榮子猶然笑之。且舉世而譽之而不加勸，舉世而非之而不加沮，
 
-### 內篇・養生主
+ZHUANG 1.1.12; Guo Qingfan 17; Wang Shumin 17; Fang Yong 6; Chen Guying 14定乎內外之分，辯乎榮辱之竟斯已矣。彼其於世未數數然也。雖然，猶有未樹也。夫列子御風而行，泠然善也，旬有五日而後反。
 
-吾生也有涯，而知也無涯。以有涯隨無涯，殆已；已而為知者，殆而已矣。  
-為善無近名，為惡無近刑。緣督以為經，可以保身，可以全生，可以養親，可以盡年。
+ZHUANG 1.1.13; Guo Qingfan 17; Wang Shumin 17; Fang Yong 6; Chen Guying 14彼於致福者，未數數然也。此雖免乎行，猶有所待者也。若夫乘天地之正，而御六氣之辯，以遊無窮者，彼且惡乎待哉！故曰：至人無己，神人無功，聖人無名。
 
-庖丁為文惠君解牛，手之所觸，肩之所倚，足之所履，膝之所踦，砉然嚮然，奏刀騞然，莫不中音。合於《桑林》之舞，乃中《經首》之會。  
-文惠君曰：「譆，善哉！技蓋至此乎？」  
-庖丁釋刀對曰：「臣之所好者道也，進乎技矣。始臣之解牛之時，所見無非牛者；三年之後，未嘗見全牛也。方今之時，臣以神遇而不以目視，官知止而神欲行。依乎天理，批大郤，導大窾，因其固然。技經肯綮之未嘗，而況大軱乎！」
+ZHUANG 1.2.1; Guo Qingfan 22; Wang Shumin 21; Fang Yong 18; Chen Guying 18堯讓天下於許由，曰：「日月出矣，而爝火不息，其於光也，不亦難乎！時雨降矣，而猶浸灌，其於澤也，不亦勞乎！
 
-「良庖歲更刀，割也；族庖月更刀，折也。今臣之刀十九年矣，所解數千牛矣，而刀刃若新發於硎。彼節者有間，而刀刃者無厚；以無厚入有間，恢恢乎其於遊刃必有餘地矣。是以十九年而刀刃若新發於硎。」
+ZHUANG 1.2.2; Guo Qingfan 22; Wang Shumin 21; Fang Yong 18; Chen Guying 18夫子立而天下治，而我猶尸之，吾自視缺然。請致天下。」
 
-文惠君曰：「善哉！吾聞庖丁之言，得養生焉。」
+ZHUANG 1.2.3; Guo Qingfan 24; Wang Shumin 22; Fang Yong 18; Chen Guying 18許由曰：「子治天下，天下既已治也。而我猶代子，吾將為名乎？名者，實之賓也。吾將為賓乎？
 
-### 內篇・人間世
+ZHUANG 1.2.4; Guo Qingfan 24; Wang Shumin 22; Fang Yong 18; Chen Guying 18鷦鷯巢於深林，不過一枝；偃鼠飲河，不過滿腹。歸休乎君，予無所用天下為！庖人雖不治庖，尸祝不越樽俎而代之矣。」
 
-仲尼曰：「天下有大戒二：其一命也，其一義也。子之愛親，命也，不可解於心；臣之事君，義也，無適而非君也，無所逃於天地之間。是之謂大戒。」
+ZHUANG 1.2.5; Guo Qingfan 26; Wang Shumin 22; Fang Yong 20; Chen Guying 21肩吾問於連叔曰：「吾聞言於接輿，大而無當，往而不反。吾驚怖其言，猶河漢而無極也；大有逕庭，不近人情焉。」
 
-且夫乘物以遊心，託不得已以養中，至矣。何作為報也？莫若為致命。此其難者。
+ZHUANG 1.2.6; Guo Qingfan 26; Wang Shumin 24; Fang Yong 20; Chen Guying 21連叔曰：「其言謂何哉？」
 
-### 內篇・德充符
+ZHUANG 1.2.7; Guo Qingfan 28; Wang Shumin 24; Fang Yong 20; Chen Guying 21曰：「藐姑射之山，有神人居焉，肌膚若冰雪，淖約若處子。不食五穀，吸風飲露。乘雲氣，御飛龍，而遊乎四海之外。其神凝，使物不疵癘而年穀熟，吾以是狂而不信也。」
 
-申徒嘉曰：「先生之門，固有執政焉如此哉？子而說子之執政而後人者也？聞之曰：鑑明則塵垢不止，止則不明也。久與賢人處則無過。」
+ZHUANG 1.2.8; Guo Qingfan 30; Wang Shumin 27; Fang Yong 20; Chen Guying 21連叔曰：「然。」瞽者無以與乎文章之觀，聾者無以與乎鍾鼓之聲。豈唯形骸有聾瞽哉？夫知亦有之。是其言也，猶時女也。之人也，之德也，將旁礴萬物以為一，
 
-仲尼曰：「死生亦大矣，而不得與之變；雖天地覆墜，亦將不與之遺。審乎無假而不與物遷，命物之化而守其宗也。」
+ZHUANG 1.2.9; Guo Qingfan 30; Wang Shumin 27; Fang Yong 20; Chen Guying 21世蘄乎亂，孰弊弊焉以天下為事！之人也，物莫之傷，大浸稽天而不溺，大旱金石流土山焦而不熱。是其塵垢粃穅，將猶陶鑄堯舜者也，孰肯以物為事！
 
-### 內篇・大宗師
+ZHUANG 1.2.10; Guo Qingfan 31; Wang Shumin 30; Fang Yong 20; Chen Guying 25「宋人資章甫而適諸越，越人斷髮文身，無所用之。堯治天下之民，平海內之政，往見四子藐姑射之山，汾水之陽，窅然喪其天下焉。」
 
-知天之所為，知人之所為者，至矣。  
-知天之所為者，天而生也；知人之所為者，以其知之所知，以養其知之所不知，終其天年而不中道夭者，是知之盛也。
+ZHUANG 1.3.1; Guo Qingfan 36; Wang Shumin 32; Fang Yong 24; Chen Guying 26惠子謂莊子曰：「魏王貽我大瓠之種，我樹之成而實五石，以盛水漿，其堅不能自舉也。剖之以為瓢，則瓠落無所容。非不呺然大也，吾為其無用而掊之。」
 
-古之真人，不知說生，不知惡死；其出不訢，其入不距；翛然而往，翛然而來而已矣。  
-不忘其所始，不求其所終；受而喜之，忘而復之。  
-是之謂不以心捐道，不以人助天。是之謂真人。
+ZHUANG 1.3.2; Guo Qingfan 37; Wang Shumin 33; Fang Yong 24; Chen Guying 27莊子曰：「夫子固拙於用大矣。宋人有善為不龜手之藥者，世世以洴澼絖為事。客聞之，請買其方百金。
 
-泉涸，魚相與處於陸，相呴以濕，相濡以沫，不如相忘於江湖。  
-與其譽堯而非桀也，不如兩忘而化其道。
+ZHUANG 1.3.3; Guo Qingfan 37; Wang Shumin 33; Fang Yong 24; Chen Guying 27聚族而謀曰：「『我世世為洴澼絖，不過數金；今一朝而鬻技百金，請與之。』客得之，以說吳王。越有難，吳王使之將，
 
-### 內篇・應帝王
+ZHUANG 1.3.4; Guo Qingfan 37; Wang Shumin 33; Fang Yong 24; Chen Guying:27冬與越人水戰，大敗越人，裂地而封之。能不龜手，一也；或以封，或不免於洴澼絖，則所用之異也。
 
-南海之帝為儵，北海之帝為忽，中央之帝為渾沌。  
-儵與忽時相與遇於渾沌之地，渾沌待之甚善。  
-儵與忽謀報渾沌之德，曰：「人皆有七竅，以視聽食息，此獨無有，嘗試鑿之。」  
-日鑿一竅，七日而渾沌死。
+ZHUANG 1.3.5; Guo Qingfan 37; Wang Shumin 33; Fang Yong 24; Chen Guying 27今子有五石之瓠，何不慮以為大樽而浮乎江湖，而憂其瓠落無所容？則夫子猶有蓬之心也夫！」
 
-### 外篇・秋水
+ZHUANG 1.3.6; Guo Qingfan 39; Wang Shumin 35; Fang Yong 24; Chen Guying 29惠子謂莊子曰：「吾有大樹，人謂之樗。其大本擁腫而不中繩墨，其小枝卷曲而不中規矩，立之塗，匠者不顧。今子之言，大而無用，眾所同去也。」
 
-秋水時至，百川灌河；涇流之大，兩涘渚崖之間，不辯牛馬。  
-於是焉河伯欣然自喜，以天下之美為盡在己。  
-順流而東行，至於北海，東面而視，不見水端。  
-於是焉河伯始旋其面目，望洋向若而歎曰：「野語有之曰：『聞道百，以為莫己若者。』我之謂也。」
+ZHUANG 1.3.7; Guo Qingfan 39; Wang Shumin 37; Fang Yong 24; Chen Guying 29莊子曰：「子獨不見狸狌乎？卑身而伏，以候敖者；東西跳梁，不避高下；中於機辟，死於罔罟。
 
-井蛙不可以語於海者，拘於虛也；夏蟲不可以語於冰者，篤於時也；曲士不可以語於道者，束於教也。
+ZHUANG 1.3.8; Guo Qingfan 39; Wang Shumin 37; Fang Yong 24; Chen Guying 29今夫斄牛，其大若垂天之雲。此能為大矣，而不能執鼠。今子有大樹，患其無用，何不樹之於無何有之鄉，廣莫之野，彷徨乎無為其側，逍遙乎寢臥其下。不夭斤斧，物無害者，無所可用，安所困苦哉！」
 
-### 外篇・山木
+### KR5c0126_002.txt
 
-莊子行於山中，見大木枝葉盛茂，伐木者止其旁而不取也。  
-問其故，曰：「無所可用。」  
-莊子曰：「此木以不材得終其天年。」
+ZHUANG 2.1.1; Guo Qingfan 43; Wang Shumin 40; Fang Yong 34; Chen Guying 33; A.C. Graham 1981: 48南郭子綦隱几而坐，仰天而噓，嗒焉似喪其耦。顏成子游立侍乎前，曰：「何居乎？形固可使如槁木，而心固可使如死灰乎？今之隱几者，非昔之隱几者也。」
+
+ZHUANG 2.1.2; Guo Qingfan 45; Wang Shumin 40; Fang Yong 34; Chen Guying 33; Graham 1981: 48子綦曰：「偃，不亦善乎，而問之也！今者吾喪我，汝知之乎？女聞人籟而未聞地籟，女聞地籟而未聞天籟夫！」
+
+ZHUANG 2.1.3; Guo Qingfan 45; Wang Shumin 42; Fang Yong 34; Chen Guying 33; Graham 1981: 48子游曰：「敢問其方。」
+
+ZHUANG 2.1.4; Guo Qingfan 45; Wang Shumin 42; Fang Yong 34; Chen Guying 33; Graham 1981: 48子綦曰：「夫大塊噫氣，其名為風。是唯无作，作則萬竅怒呺。而獨不聞之翏翏乎？山林之畏佳，大木百圍之竅穴，
+
+ZHUANG 2.1.5; Guo Qingfan 46; Wang Shumin 42; Fang Yong 34; Chen Guying 33; Graham 1981: 48f似鼻，似口，似耳，似枅，似圈，似臼，似洼者，似污者；
+
+ZHUANG 2.1.5; Guo Qingfan 46; Wang Shumin 42; Fang Yong 34; Chen Guying 33; Graham 1981: 49激者，謞者，叱者，吸者，叫者，譹者，宎者，咬者，
+
+ZHUANG 2.1.6; Guo Qingfan 46; Wang Shumin 42; Fang Yong 34; Chen Guying 33; A.C. Graham 1981: 49前者唱于而隨者唱喁。泠風則小和，飄風則大和，厲風濟則眾竅為虛。而獨不見之調調，之刀刀乎？」<pb:KR5c0126_CHANT_002-2a>
+
+ZHUANG 2.1.7; Guo Qingfan 46; Wang Shumin 48; Fang Yong 34; Chen Guying 33; A.C. Graham 1981: 49子游曰：「地籟則眾竅是已，人籟則比竹是已。敢問天籟。」
+
+ZHUANG 2.1.8; Guo Qingfan 46; Wang Shumin 48; Fang Yong 34; Chen Guying 34; A.C. Graham 1981: 49子綦曰：「夫吹萬不同，而使其自己也，咸其自取，怒者其誰邪！」<pb:KR5c0126_CHANT_002-3a>
+
+ZHUANG 2.2.1; Guo Qingfan 51; Wang Shumin 48; Fang Yong 41; Chen Guying 41; A.C. Graham 1981: 50大知閑閑，小知閒閒；大言炎炎，小言詹詹。其寐也魂交，其覺也形開，與接為構，日以心鬭。縵者，窖者，密者。
+
+ZHUANG 2.2.2; Guo Qingfan 51; Wang Shumin 48; Fang Yong 41; Chen Guying 41; A.C. Graham 1981: 50小恐惴惴，大恐縵縵。其發若機栝，其司是非之謂也；其留如詛盟，其守勝之謂也；其殺如秋冬，以言其日消也；其溺之所為之，不可使復之也；其厭也如緘，以言其老洫也；近死之心，莫使復陽也。
+
+ZHUANG 2.2.4; Guo Qingfan 51; Wang Shumin 48; Fang Yong 41; Chen Guying 41; A.C. Graham 1981: 50喜、怒、哀、樂、慮、嘆、變、慹、姚、佚、啟、態；樂出虛，蒸成菌。日夜相代乎前，而莫知其所萌。已乎，已乎！旦暮得此，其所由以生乎！<pb:KR5c0126_CHANT_002-4a>
+
+ZHUANG 2.2.5; Guo Qingfan 55; Wang Shumin 52; Fang Yong 45; Chen Guying 46; A.C. Graham 1981: 51非彼無我，非我無所取。是亦近矣，而不知其所為使。若有真宰，而特不得其眹。可行己信，而不見其形，有情而無形。
+
+ZHUANG 2.2.6; Guo Qingfan 55; Wang Shumin 52; Fang Yong 45; Chen Guying 46; A.C. Graham 1981: 51百骸，九竅，六藏，賅而存焉，吾誰與為親？汝皆說之乎？其有私焉？如是皆有為臣妾乎？其臣妾不足以相治乎？其遞相為君臣乎？其有真君存焉？
+
+ZHUANG 2.2.7; Guo Qingfan 56; Wang Shumin 52; Fang Yong 45; Chen Guying 46; A.C. Graham 1981: 51如求得其情與不得，無益損乎其真。一受其成形，不亡以待盡。與物相刃相靡，其行盡如馳，而莫之能止，不亦悲乎！終身役役而不見其成功，苶然疲役而不知其所歸，可不哀邪！
+
+ZHUANG 2.2.8; Guo Qingfan 56; Wang Shumin 52; Fang Yong 45; Chen Guying 46; A.C. Graham 1981: 5人謂之不死，奚益！其形化，其心與之然，可不謂大哀乎？人之生也，固若是芒乎？其我獨芒，而人亦有不芒者乎？<pb:KR5c0126_CHANT_002-5a>
+
+ZHUANG 2.3.1; Guo Qingfan 63; Wang Shumin 56; Fang Yong 48; Chen Guying 49; A.C. Graham 1981: 51夫隨其成心而師之，誰獨且無師乎？奚必知代而心自取者有之？愚者與有焉。未成乎心而有是非，是今日適越而昔至也。是以無有為有。
+
+ZHUANG 2.3.2; Guo Qingfan 63; Wang Shumin 56; Fang Yong 48; Chen Guying 49; A.C. Graham 1981: 51無有為有，雖有神禹，且不能知，吾獨且柰何哉！
+
+ZHUANG 2.3.3; Guo Qingfan 63; Wang Shumin 56; Fang Yong 49; Chen Guying 49; A.C. Graham 1981: 52夫言非吹也，言者有言，其所言者特未定也。果有言邪？其未嘗有言邪？其以為異於鷇音，亦有辯乎，其無辯乎？
+
+ZHUANG 2.3.4; Guo Qingfan 63; Wang Shumin 56; Fang Yong 49; Chen Guying 50; A.C. Graham 1981: 52道惡乎隱而有真偽？言惡乎隱而有是非？道惡乎往而不存？言惡乎存而不可？
+
+ZHUANG 2.3.5; Guo Qingfan 63; Wang Shumin 56; Fang Yong 49; Chen Guying 50; A.C. Graham 1981: 52道隱於小成，言隱於榮華。故有儒墨之是非，以是其所非而非其所是。欲是其所非而非其所是，則莫若以明。
+
+ZHUANG 2.3.6; Guo Qingfan 66; Wang Shumin 58; Fang Yong 50; Chen Guying:54; A.C. Graham 1981: 52物無非彼，物無非是。自彼則不見，自喻則知之。故曰彼出於是，是亦因彼。彼是方生之說也，
+
+ZHUANG 2.3.7; Guo Qingfan 66; Wang Shumin 58; Fang Yong 50; Chen Guying:54; A.C. Graham 1981: 52雖然，方生方死，方死方生；方可方不可，方不可方可；因是因非，因非因是。是以聖人不由，而照之于天，亦因是也。是亦彼也，彼亦是也。
+
+ZHUANG 2.3.8; Guo Qingfan 66; Wang Shumin 58; Fang Yong 50; Chen Guying:54; A.C. Graham 1981: 53彼亦一是非，此亦一是非。果且有彼是乎哉？果且無彼是乎哉？彼是莫得其偶，謂之道樞。樞始得其環中，以應無窮。是亦一無窮，非亦一無窮也。故曰莫若以明。
+
+ZHUANG 2.4.1; Guo Qingfan 66; Wang Shumin 58; Fang Yong 54; Chen Guying:59; A.C. Graham 1981: 53以指喻指之非指，不若以非指喻指之非指也；以馬喻馬之非馬，不若以非馬喻馬之非馬也。天地一指也，萬物一馬也。<pb:KR5c0126_CHANT_002-7a>
+
+ZHUANG 2.4.2; Guo Qingfan 69; Wang Shumin 61; Fang Yong 54; Chen Guying:61 ; A.C. Graham 1981: 53道行之而成，物謂之而然。惡乎然？然於然。惡乎不然？不然於不然。物固有所然，物固有所可。無物不然，無物不可。可乎可，不可乎不可。不可乎不可，而可乎可。
+
+ZHUANG 2.4.3; Guo Qingfan 70; Wang Shumin 61; Fang Yong 54; Chen Guying:61; A.C. Graham 1981: 53故為是舉莛與楹，厲與西施，恢恑憰怪，道通為一。其分也，成也；其成也，毀也。凡物無成與毀，復通為一。
+
+ZHUANG 2.4.4; Guo Qingfan 70; Wang Shumin 61; Fang Yong 54; Chen Guying:62; A.C. Graham 1981: 53唯達者知通為一，為是不用而寓諸庸。庸也者，用也；用也者，通也；通也者，得也；適得而幾矣。
+
+ZHUANG 2.4.5; Guo Qingfan 70; Wang Shumin 61; Fang Yong 54; Chen Guying:62; A.C. Graham 1981: 54因是已。已而不知其然，謂之道。勞神明為一而不知其同也，謂之朝三。何謂朝三？
+
+ZHUANG 2.4.6; Guo Qingfan 70; Wang Shumin 61; Fang Yong 54; Chen Guying:62曰狙公賦芧，曰：「朝三而莫四。」眾狙皆怒。曰：「然則朝四而莫三。」眾狙皆悅。名實未虧而喜怒為用，亦因是也。是以聖人和之以是非而休乎天鈞，是之謂兩行。
+
+ZHUANG 2.4.7; Guo Qingfan 74; Wang Shumin 66; Fang Yong 59; Chen Guying:66; A.C. Graham 1981: 54古之人，其知有所至矣。惡乎至？有以為未始有物者，至矣，盡矣，不可以加矣。其次以為有物矣，而未始有封也。
+
+ZHUANG 2.4.8; Guo Qingfan 74; Wang Shumin 66; Fang Yong 59; Chen Guying:66; A.C. Graham 1981: 54其次以為有封焉，而未始有是非也。是非之彰也，道之所以虧也。道之所以虧，愛之所以成。果且有成與虧乎哉？果且無成與虧乎哉？有成與虧，故昭氏之鼓琴也；無成與虧，
+
+ZHUANG 2.4.9; Guo Qingfan 74; Wang Shumin 66; Fang Yong 59; Chen Guying:66故昭氏之不鼓琴也。昭文之鼓琴也，師曠之枝策也，惠子之據梧也，三子之知幾乎，皆其盛者也，故載之末年。唯其好之也，以異於彼，其好之也，欲以明之。
+
+ZHUANG 2.4.10; Guo Qingfan 75; Wang Shumin 66; Fang Yong 59; Chen Guying:66彼非所明而明之，故以堅白之昧終。而其子又以文之綸終，終身無成。若是而可謂成乎？雖我亦成也。若是而不可謂成乎？物與我無成也。
+
+ZHUANG 2.4.11; Guo Qingfan 75; Wang Shumin 66; Fang Yong 59; Chen Guying:66是故滑疑之耀，聖人之所圖也。為是不用而寓諸庸，此之謂以明。
+
+ZHUANG 2.5.1; Guo Qingfan 79; Wang Shumin 70; Fang Yong 63; Chen Guying:71今且有言於此，不知其與是類乎？其與是不類乎？類與不類，相與為類，則與彼無以異矣。雖然，請嘗言之。
+
+ZHUANG 2.5.2; Guo Qingfan 79; Wang Shumin 70; Fang Yong 63; Chen Guying:71有始也者，有未始有始也者，有未始有夫未始有始也者。有有也者，有無也者，有未始有無也者，有未始有夫未始有無也者。
+
+ZHUANG 2.5.3; Guo Qingfan 79; Wang Shumin 70; Fang Yong 63; Chen Guying:71俄而有無矣，而未知有無之果孰有孰無也。今我則已有謂矣，而未知吾所謂之其果有謂乎，其果無謂乎？天下莫大於秋豪之末，而大山為小；莫壽乎殤子，而彭祖為夭。
+
+ZHUANG 2.5.4; Guo Qingfan 79; Wang Shumin 70; Fang Yong 64; Chen Guying:71天地與我並生，而萬物與我為一。既已為一矣，且得有言乎？既已謂之一矣，且得無言乎？一與言為二，二與一為三。
+
+ZHUANG 2.5.5; Guo Qingfan 79; Wang Shumin 70; Fang Yong 64; Chen Guying:71自此以往，巧歷不能得，而況其凡乎！故自無適有以至於三，而況自有適有乎！無適焉，因是已。
+
+ZHUANG 2.5.6; Guo Qingfan i3; Wang Shumin 72; Fang Yong 64; Chen Guying:74夫道未始有封，言未始有常，為是而有畛也，請言其畛：有左，有右，，有論，有議，有分，有辯，有競，有爭，此之謂八德。
+
+ZHUANG 2.5.7; Guo Qingfan i3; Wang Shumin 72; Fang Yong 64; Chen Guying:74六合之外，聖人存而不論；六合之內，聖人論而不議。《春秋》經世，先王之志，聖人議而不辯。故分也者，有不分也；辯也者，有不辯也。曰：何也？
+
+ZHUANG 2.5.8; Guo Qingfan i3; Wang Shumin 72; Fang Yong 64; Chen Guying:74聖人懷之，眾人辯之以相示也。故曰：辯也者，有不見也。夫大道不稱，大辯不言，大仁不仁，大廉不嗛，大勇不忮。
+
+ZHUANG 2.5.9; Guo Qingfan i3; Wang Shumin 72; Fang Yong 64; Chen Guying:74道昭而不道，言辯而不及，仁常而不周，廉清而不信，勇忮而不成。五者园而幾向方矣，故知止其所不知，至矣。孰知不言之辯，不道之道？
+
+ZHUANG 2.5.10; Guo Qingfan i3; Wang Shumin 72; Fang Yong 64; Chen Guying:74若有能知，此之謂天府。注焉而不滿，酌焉而不竭，而不知其所由來，此之謂葆光。
+
+ZHUANG 2.6.1; Guo Qingfan i3; Wang Shumin 78; Fang Yong 71; Chen Guying:78故昔者堯問於舜曰：「我欲伐宗、膾、胥敖，南面而不釋然。其故何也？」舜曰：「夫三子者，猶存乎蓬艾之間。若不釋然，何哉？昔者十日並出，萬物皆照，而況德之進乎日者乎！」<pb:KR5c0126_CHANT_002-12a>
+
+ZHUANG 2.6.3; Guo Qingfan 91; Wang Shumin 78; Fang Yong 72; Chen Guying:80齧缺問乎王倪曰：「子知物之所同是乎？」曰：「吾惡乎知之！」「子知子之所不知邪？」曰：「吾惡乎知之！」「然則物無知邪？」曰：「吾惡乎知之！」
+
+ZHUANG 2.6.9; Guo Qingfan 92; Wang Shumin 79; Fang Yong 72; Chen Guying:80雖然，嘗試言之。庸詎知吾所謂知之非不知邪？庸詎知吾所謂不知之非知邪？
+
+ZHUANG 2.6.10; Guo Qingfan 93; Wang Shumin 79; Fang Yong 72; Chen Guying:80且吾嘗試問乎女：「民溼寢則腰疾偏死，鰌然乎哉？木處則惴慄恂懼，猨猴然乎哉？三者孰知正處？民食芻豢，麋鹿食薦，蝍且甘帶，鴟鴉耆鼠，四者孰知正味？
+
+ZHUANG 2.6.11; Guo Qingfan 93; Wang Shumin 79; Fang Yong 72; Chen Guying:80猨猵狙以為雌，麋與鹿交，鰌與魚游。毛嬙、麗姬，人之所美也；魚見之深入，鳥見之高飛，麋鹿見之決驟。四者孰知天下之正色哉？
+
+ZHUANG 2.6.12; Guo Qingfan 93; Wang Shumin 79; Fang Yong 72; Chen Guying:80自我觀之，仁義之端，是非之塗，樊然殽亂，吾惡能知其辯！<pb:KR5c0126_CHANT_002-13a>
+
+ZHUANG 2.6.13; Guo Qingfan 96; Wang Shumin 80; Fang Yong 72; Chen Guying:80齧缺曰：「子不知利害，則至人固不知利害乎？」
+
+ZHUANG 2.6.14; Guo Qingfan 96; Wang Shumin 80; Fang Yong 72; Chen Guying:i1王倪曰：「至人神矣！大澤焚而不能熱，河漢沍而不能寒，疾雷破山、風振海而不能驚。若然者，乘雲氣，騎日月，而遊乎四海之外。死生无變於己，而況利害之端乎！」<pb:KR5c0126_CHANT_002-14a>
+
+ZHUANG 2.6.15; Guo Qingfan 97; Wang Shumin 85; Fang Yong 76; Chen Guying:i4瞿鵲子問乎長梧子曰：「吾聞諸夫子，聖人不從事於務，不就利，不違害，不喜求，不緣道；无謂有謂，有謂无謂，而遊乎塵垢之外。夫子以為孟浪之言，而我以為妙道之行也。吾子以為奚若？」<pb:KR5c0126_CHANT_002-15a>
+
+ZHUANG 2.6.16; Guo Qingfan 99; Wang Shumin 86; Fang Yong 76; Chen Guying:i4長梧子曰：「是黃帝之所聽熒也，而丘也何足以知之！且女亦大早計，見卵而求時夜，見彈而求鴞炙。
+
+ZHUANG 2.6.17; Guo Qingfan 100; Wang Shumin 87; Fang Yong 76; Chen Guying:85予嘗為女妄言之，女以妄聽之，奚？旁日月，挾宇宙？為其脗合，置其滑涽，以隸相尊。
+
+ZHUANG 2.6.18; Guo Qingfan 100; Wang Shumin 87; Fang Yong 76; Chen Guying:85眾人役役，聖人愚芚，參萬歲而一成純。萬物盡然，而以是相蘊。
+
+ZHUANG 2.6.19; Guo Qingfan 103; Wang Shumin 87; Fang Yong 76; Chen Guying:85予惡乎知說生之非惑邪！予惡乎知惡死之非弱喪而不知歸者邪！麗之姬，艾封人之子也。晉國之始得之也，涕泣沾襟；及其至於王所，與王同筐床，食芻豢，而後悔其泣也。予惡乎知夫死者不悔其始之蘄生乎！<pb:KR5c0126_CHANT_002-16a>
+
+ZHUANG 2.6.20; Guo Qingfan 104; Wang Shumin 87; Fang Yong 76; Chen Guying:85「夢飲酒者，旦而哭泣；夢哭泣者，旦而田獵。方其夢也，不知其夢也。夢之中又占其夢焉，覺而後知其夢也。且有大覺而後知此其大夢也，
+
+ZHUANG 2.6.21; Guo Qingfan 104; Wang Shumin 87; Fang Yong 76; Chen Guying:85而愚者自以為覺，竊竊然知之。君乎，牧乎，固哉！
+
+ZHUANG 2.6.22; Guo Qingfan 104; Wang Shumin 87; Fang Yong 76; Chen Guying:85丘也與女，皆夢也；予謂女夢，亦夢也。是其言也，其名為弔詭。萬世之後而一遇大聖，知其解者，是旦暮遇之也。
+
+ZHUANG 2.6.23; Guo Qingfan 107; Wang Shumin 91; Fang Yong i1; Chen Guying:88「既使我與若辯矣，若勝我，我不若勝，若果是也，我果非也邪？我勝若，若不吾勝，我果是也，而果非也邪？
+
+ZHUANG 2.6.24; Guo Qingfan 107; Wang Shumin 91; Fang Yong i1; Chen Guying:88其或是也，其或非也邪？其俱是也，其俱非也邪？我與若不能相知也，則人固受其黮闇。吾誰使正之？
+
+ZHUANG 2.6.25; Guo Qingfan 107; Wang Shumin 91; Fang Yong i1; Chen Guying:88使同乎若者正之？既與若同矣，惡能正之！使同乎我者正之？既同乎我矣，惡能正之！使異乎我與若者正之？既異乎我與若矣，惡能正之！使同乎我與若者正之？既同乎我與若矣，惡能正之！
+
+ZHUANG 2.6.26; Guo Qingfan 107; Wang Shumin 91; Fang Yong i1; Chen Guying:88然則我與若與人俱不能相知也，而待彼也邪？
+
+ZHUANG 2.6.21; Guo Qingfan 108; Wang Shumin 91; Fang Yong i1; Chen Guying:88化聲之相待，若其不相待。和之以天倪，因之以曼衍，所以窮年也。何謂和之以天倪？曰：「是不是，然不然。是若果是也，則是之異乎不是也亦無辯；然若果然也，則然之異乎不然也亦無辯，
+
+ZHUANG 2.6.22; Guo Qingfan 108; Wang Shumin 91; Fang Yong i1; Chen Guying:88所以窮年也。忘年忘義，振於無竟，故寓諸無竟。」<pb:KR5c0126_CHANT_002-18a>
+
+ZHUANG 2.7.1; Guo Qingfan 110; Wang Shumin 93; Fang Yong i3; Chen Guying:91罔兩問景曰：「曩子行，今子止；曩子坐，今子起；何其無特操與？」
+
+ZHUANG 2.7.2; Guo Qingfan 110; Wang Shumin 93; Fang Yong i3; Chen Guying:91景曰：「吾有待而然者邪？吾所待又有待而然者邪？吾待蛇蚹蜩翼邪？惡識所以然！惡識所以不然！」<pb:KR5c0126_CHANT_002-19a>
+
+ZHUANG 2.7.3; Guo Qingfan 112; Wang Shumin 95; Fang Yong i4; Chen Guying:92昔者莊周夢為胡蝶，栩栩然胡蝶也，自喻適志與！不知周也。俄然覺，則蘧蘧然周也。不知周之夢為胡蝶與，胡蝶之夢為周與？周與胡蝶，則必有分矣。此之謂物化。
+
+### KR5c0126_003.txt
+
+ZHUANG 3.1.1; Guo Qingfan 115; Wang Shumin 99; Fang Yong 92; Chen Guying 94吾生也有涯，而知也无涯。以有涯隨无涯，殆已；已而為知者，殆而已矣。為善无近名，為惡无近刑。緣督以為經，可以保身，可以全生，可以養親，可以盡年。
+
+ZHUANG 3.2.1; Guo Qingfan 117; Wang Shumin 102; Fang Yong 93; Chen Guying 95庖丁為文惠君解牛，手之所觸，肩之所倚，足之所履，膝之所踦，砉然嚮然，奏刀騞然，莫不中音。
+
+ZHUANG 3.2.2; Guo Qingfan 117; Wang Shumin 102; Fang Yong 93; Chen Guying 95合於《桑林》之舞，乃中《經首》之會。文惠君曰：「譆，善哉！技蓋至此乎？」<pb:KR5c0126_CHANT_003-3a>
+
+ZHUANG 3.2.3; Guo Qingfan 119; Wang Shumin 105; Fang Yong 93; Chen Guying 96庖丁釋刀對曰：「臣之所好者道也，進乎技矣。始臣之解牛之時，所見无非牛者。三年之後，未嘗見全牛也。方今之時，臣以神遇而不以目視，
+
+ZHUANG 3.2.4; Guo Qingfan 119; Wang Shumin 105; Fang Yong 93; Chen Guying 96官知止而神欲行。依乎天理，批大郤，導大窾，因其固然。技經肯綮之未嘗，而況大軱乎！
+
+ZHUANG 3.2.5; Guo Qingfan 119; Wang Shumin 105; Fang Yong 93; Chen Guying 96良庖歲更刀，割也；族庖月更刀，折也。今臣之刀十九年矣，所解數千牛矣，而刀刃若新發於硎。彼節者有間，而刀刃者无厚；以无厚入有間，恢恢乎其於遊刃必有餘地矣，
+
+ZHUANG 3.2.6; Guo Qingfan 119; Wang Shumin 105; Fang Yong 94; Chen Guying 96是以十九年而刀刃若新發於硎。雖然，每至於族，吾見其難為，怵然為戒，視為止，行為遲。
+
+ZHUANG 3.2.7; Guo Qingfan 119; Wang Shumin 105; Fang Yong 94; Chen Guying 96動刀甚微，謋然已解，如土委地。提刀而立，為之四顧，為之躊躇滿志，善刀而藏之。」文惠君曰：「善哉！吾聞庖丁之言，得養生焉。」<pb:KR5c0126_CHANT_003-4a>
+
+ZHUANG 3.3.1; Guo Qingfan 124; Wang Shumin 109; Fang Yong 99; Chen Guying 100公文軒見右師而驚曰：「是何人也？惡乎介也？天與，其人與？」曰：「天也，非人也。天之生是使獨也，人之貌有與也。以是知其天也，非人也。
+
+ZHUANG 3.3.2; Guo Qingfan 126; Wang Shumin 109; Fang Yong 99; Chen Guying 101澤雉十步一啄，百步一飲，不蘄畜乎樊中。神雖王，不善也。」<pb:KR5c0126_CHANT_003-5a>
+
+ZHUANG 3.3.3; Guo Qingfan 127; Wang Shumin 111; Fang Yong 100; Chen Guying 101老聃死，秦失弔之，三號而出。弟子曰：「非夫子之友邪？」曰：「然。」「然則弔焉若此，可乎？」曰：「然。
+
+ZHUANG 3.3.4; Guo Qingfan 128; Wang Shumin 111; Fang Yong 100; Chen Guying 103始也吾以為其人也，而今非也。向吾入而弔焉，有老者哭之，如哭其子；少者哭之，如哭其母。彼其所以會之，必有不蘄言而言，不蘄哭而哭者。
+
+ZHUANG 3.3.5; Guo Qingfan 128; Wang Shumin 111; Fang Yong 101; Chen Guying 103是遁天倍情，忘其所受，古者謂之遁天之刑。適來，夫子時也；適去，夫子順也。安時而處順，哀樂不能入也，古者謂是帝之縣解。」指窮於為薪，火傳也，不知其盡也。
+
+### KR5c0126_004.txt
+
+ZHUANG 4.1.1; Guo Qingfan 131; Wang Shumin 117; Fang Yong 109; Chen Guying 107顏回見仲尼，請行。
+
+ZHUANG 4.1.2; Guo Qingfan 132; Wang Shumin 117; Fang Yong 109; Chen Guying 107曰：「奚之？」
+
+ZHUANG 4.1.3; Guo Qingfan 132; Wang Shumin 117; Fang Yong 109; Chen Guying 107曰：「將之衛。」
+
+ZHUANG 4.1.4; Guo Qingfan 132; Wang Shumin 117; Fang Yong 109; Chen Guying 107曰：「奚為焉？」
+
+ZHUANG 4.1.5; Guo Qingfan 132; Wang Shumin 117; Fang Yong 109; Chen Guying 107曰：「回聞衛君，其年壯，其行獨；輕用其國，而不見其過；輕用民死，死者以國量乎澤若蕉，民其无如矣。
+
+ZHUANG 4.1.6; Guo Qingfan 132; Wang Shumin 117; Fang Yong 109; Chen Guying 107回嘗聞之夫子曰：『治國去之，亂國就之，醫門多疾。』願以所聞思其則，庶幾其國有瘳乎！」<pb:KR5c0126_CHANT_004-2a>
+
+ZHUANG 4.1.7; Guo Qingfan 134; Wang Shumin 119; Fang Yong 109; Chen Guying 107仲尼曰：「譆！若殆往而刑耳！
+
+ZHUANG 4.1.8; Guo Qingfan 134; Wang Shumin 119; Fang Yong 109; Chen Guying 108夫道不欲雜，雜則多，多則擾，擾則憂，憂而不救。古之至人，先存諸己而後存諸人。所存於己者未定，何暇至於暴人之所行！
+
+ZHUANG 4.1.9; Guo Qingfan 135; Wang Shumin 119; Fang Yong 109; Chen Guying 108且若亦知夫德之所蕩而知之所為出乎哉？德蕩乎名，知出乎爭。名也者，相軋也；知也者，爭之器也。二者凶器，非所以盡行也。
+
+ZHUANG 4.1.10; Guo Qingfan 136; Wang Shumin 119; Fang Yong 109; Chen Guying 108且德厚信矼，未達人氣，名聞不爭，未達人心。而彊以仁義繩墨之言術暴人之前者，是以人惡有其美也，命之曰菑人。
+
+ZHUANG 4.1.11; Guo Qingfan 136; Wang Shumin 119; Fang Yong 109; Chen Guying 108菑人者，人必反菑之，且苟為悅賢而惡不肖，惡用而求有以異？若唯无詔，王公必將乘人而鬭其捷。
+
+ZHUANG 4.1.12; Guo Qingfan 136; Wang Shumin 119; Fang Yong 109; Chen Guying 108而目將熒之，而色將平之，口將營之，容將形之，心且成之。是以火救火，以水救水，名之曰益多。順始无窮，若殆以不信厚言，必死於暴人之前矣！
+
+ZHUANG 4.1.13; Guo Qingfan 139; Wang Shumin 124; Fang Yong 109; Chen Guying 108且昔者桀殺關龍逢，紂殺王子比干，是皆脩其身以傴拊人之民，以下拂其上者也，故其君因其脩以擠之。是好名者也。
+
+ZHUANG 4.1.14; Guo Qingfan 139; Wang Shumin 124; Fang Yong 109; Chen Guying 108昔者堯攻叢枝、胥敖，禹攻有扈，國為虛厲，身為刑戮，其用兵不止，其求實无已。是皆求名實者也，而獨不聞之乎？名實者，聖人之所不能勝也，而況若乎！
+
+ZHUANG 4.1.15; Guo Qingfan 141; Wang Shumin 124; Fang Yong 110; Chen Guying 108雖然，若必有以也，嘗以語我來！」<pb:KR5c0126_CHANT_004-3a>
+
+ZHUANG 4.1.16; Guo Qingfan 141; Wang Shumin 124; Fang Yong 110; Chen Guying 113顏回曰：「端而虛，勉而一，則可乎？」
+
+ZHUANG 4.1.17; Guo Qingfan 141; Wang Shumin 126; Fang Yong 110; Chen Guying 113曰：「惡！惡可！夫以陽為充孔揚，采色不定，常人之所不違，因案人之所感，以求容與其心。
+
+ZHUANG 4.1.18; Guo Qingfan 141; Wang Shumin 126; Fang Yong 110; Chen Guying 113名之曰日漸之德不成，而況大德乎！將執而不化，外合而內不訾，其庸詎可乎！」<pb:KR5c0126_CHANT_004-4a>
+
+ZHUANG 4.1.19; Guo Qingfan 143; Wang Shumin 126; Fang Yong 110; Chen Guying 113「然則我內直而外曲，成而上比。內直者，與天為徒。與天為徒者，知天子之與己皆天之所子，而獨以己言蘄乎而人善之，蘄乎而人不善之邪？
+
+ZHUANG 4.1.20; Guo Qingfan 143; Wang Shumin 126; Fang Yong 110; Chen Guying 113若然者，人謂之童子，是之謂與天為徒。外曲者，與人（之）為徒也。擎跽曲拳，人臣之禮也，人皆為之，吾敢不為邪！
+
+ZHUANG 4.1.21; Guo Qingfan 143; Wang Shumin 126; Fang Yong 110; Chen Guying 113為人之所為者，人亦无疵焉，是之謂與人為徒。成而上比者，與古為徒。其言雖教，讁之實也。古之有也，非吾有也。
+
+ZHUANG 4.1.22; Guo Qingfan 143; Wang Shumin 126; Fang Yong 110; Chen Guying 113若然者，雖直不為病，是之謂與古為徒。若是則可乎？」<pb:KR5c0126_CHANT_004-5a>
+
+ZHUANG 4.1.23; Guo Qingfan 145; Wang Shumin 126; Fang Yong 110; Chen Guying 114仲尼曰：「惡！惡可！大多政，法而不諜，雖固亦无罪。雖然，止是耳矣，夫胡可以及化！猶師心者也。」
+
+ZHUANG 4.1.24; Guo Qingfan 146; Wang Shumin 130; Fang Yong 110; Chen Guying 116顏回曰：「吾无以進矣，敢問其方。」
+
+ZHUANG 4.1.25; Guo Qingfan 146; Wang Shumin 130; Fang Yong 110; Chen Guying 116仲尼曰：「齋，吾將語若！有而為之，其易邪？易之者，暭天不宜。」
+
+ZHUANG 4.1.26; Guo Qingfan 146; Wang Shumin 130; Fang Yong 110; Chen Guying 116顏回曰：「回之家貧，唯不飲酒不茹葷者數月矣。若此，則可以為齋乎？」曰：「是祭祀之齋，非心齋也。」<pb:KR5c0126_CHANT_004-6a>
+
+ZHUANG 4.1.28; Guo Qingfan 147; Wang Shumin 130; Fang Yong 110; Chen Guying 117回曰：「敢問心齋？」
+
+ZHUANG 4.1.29; Guo Qingfan 147; Wang Shumin 130; Fang Yong 110; Chen Guying 117仲尼曰：「若一汝志，无聽之以耳而聽之以心，无聽之以心而聽之以氣！聽止於耳，心止於符。氣也者，虛而待物者也。唯道集虛。虛者，心齋也。」
+
+ZHUANG 4.1.30; Guo Qingfan 148; Wang Shumin 130; Fang Yong 111; Chen Guying 117顏回曰：「回之未始得使，實自回也；得使之也，未始有回也；可謂虛乎？」
+
+ZHUANG 4.1.31; Guo Qingfan 148; Wang Shumin 130; Fang Yong 111; Chen Guying 117夫子曰：「盡矣。吾語若！若能入遊其樊而无感其名，入則鳴，不入則止。无門无毒，一宅而寓於不得已，則幾矣。
+
+ZHUANG 4.1.32; Guo Qingfan 150; Wang Shumin 134; Fang Yong 111; Chen Guying 117絕迹易，无行地難。為人使易以偽，為天使難以偽。聞以有翼飛者矣，未聞以无翼飛者也；聞以有知知者矣，未聞以无知知者也。瞻彼闋者，虛室生白，
+
+ZHUANG 4.1.33; Guo Qingfan 150; Wang Shumin 134; Fang Yong 111; Chen Guying 117吉祥止矣。夫且不止，是之謂坐馳。夫徇耳目內通而外於心知，鬼神將來舍，而況人乎！是萬物之所化也，禹舜之所紐也，伏戲几蘧之所行終，而況散焉者乎！」<pb:KR5c0126_CHANT_004-7a>
+
+ZHUANG 4.2.1; Guo Qingfan 152; Wang Shumin 136; Fang Yong 122; Chen Guying 123葉公子高將使於齊，問於仲尼曰：「王使諸梁也甚重，齊之待使者，蓋將甚敬而不急。匹夫猶未可動也，而況諸侯乎！
+
+ZHUANG 4.2.2; Guo Qingfan 152; Wang Shumin 136; Fang Yong 122; Chen Guying 123吾甚慄之。子嘗語諸梁也曰：『凡事若小若大，寡有不道以成懽。事若不成，則必有人道之患；事若成，則必有陰陽之患。若成若不成而後无患者，唯有德者能之。』
+
+ZHUANG 4.2.3; Guo Qingfan 153; Wang Shumin 136; Fang Yong 122; Chen Guying 123吾食也執粗而不臧，爨无欲清之人。今吾朝受命而夕飲冰，我其內熱與！吾未至乎事之情，而既有陰陽之患矣；事若不成，必有人道之患。是兩也，為人臣者不足以任之，子其有以語我來！」<pb:KR5c0126_CHANT_004-8a>
+
+ZHUANG 4.2.4; Guo Qingfan 155; Wang Shumin 138; Fang Yong 122; Chen Guying 123仲尼曰：「天下有大戒二：其一，命也；其一，義也。子之愛親，命也，不可解於心；臣之事君，義也，
+
+ZHUANG 4.2.5; Guo Qingfan 155; Wang Shumin 138; Fang Yong 122; Chen Guying 123无適而非君也，无所逃於天地之間。是之謂大戒。是以夫事其親者，不擇地而安之，孝之至也；夫事其君者，不擇事而安之，忠之盛也；
+
+ZHUANG 4.2.6; Guo Qingfan 155; Wang Shumin 138; Fang Yong 123; Chen Guying 123自事其心者，哀樂不易施乎前，知其不可柰何而安之若命，德之至也。為人臣子者，固有所不得已。行事之情而忘其身，何暇至於悅生而惡死！夫子其行可矣！
+
+ZHUANG 4.2.7; Guo Qingfan 157; Wang Shumin 138; Fang Yong 123; Chen Guying 123丘請復以所聞：凡交近則必相靡以信，遠則必忠之以言，言必或傳之。夫傳兩喜兩怒之言，天下之難者也。夫兩喜必多溢美之言，兩怒必多溢惡之言。
+
+ZHUANG 4.2.8; Guo Qingfan 157; Wang Shumin 138; Fang Yong 123; Chen Guying 123凡溢之類妄，妄則其信之也莫，莫則傳言者殃。故《法言》曰：『傳其常情，无傳其溢言，則幾乎全。』
+
+ZHUANG 4.2.9; Guo Qingfan 158; Wang Shumin 141; Fang Yong 123; Chen Guying 123且以巧鬭力者，始乎陽，常卒乎陰，泰至則多奇巧；以禮飲酒者，始乎治，常卒乎亂，泰至則多奇樂。凡事亦然。始乎諒，常卒乎鄙；其作始也簡，其將畢也必巨。
+
+ZHUANG 4.2.10; Guo Qingfan 160; Wang Shumin 141; Fang Yong 123; Chen Guying 123〔夫言者，風波也；行者，實喪也。風波易以動，實喪易以危。故忿設无由，巧言偏辭。獸死不擇音，氣息茀然，於是並生心厲。
+
+ZHUANG 4.2.11; Guo Qingfan 160; Wang Shumin 141; Fang Yong 123; Chen Guying 123剋核太至，則必有不肖之心應之，而不知其然也。苟為不知其然也，孰知其所終！故《法言》曰：『无遷令，无勸成，
+
+ZHUANG 4.2.12; Guo Qingfan 160; Wang Shumin 141; Fang Yong 123; Chen Guying 123過度益也。』遷令勸成殆事，美成在久，惡成不及改，可不慎與！且夫乘物以遊心，託不得已以養中，至矣。何作為報也！莫若為致命。此其難者。」<pb:KR5c0126_CHANT_004-9a>
+
+ZHUANG 4.3.1; Guo Qingfan 164; Wang Shumin 145; Fang Yong 128; Chen Guying 128顏闔將傅衛靈公大子，而問於蘧伯玉曰：「有人於此，其德天殺。與之為无方，則危吾國；與之為有方，則危吾身。
+
+ZHUANG 4.3.2; Guo Qingfan 164; Wang Shumin 145; Fang Yong 128; Chen Guying 128其知適足以知人之過，而不知其所以過。若然者，吾柰之何？」<pb:KR5c0126_CHANT_004-10a>
+
+ZHUANG 4.3.3; Guo Qingfan 165; Wang Shumin 146; Fang Yong 128; Chen Guying 128蘧伯玉曰：「善哉問乎！戒之，慎之，正女身哉！形莫若就，心莫若和。雖然，之二者有患。
+
+ZHUANG 4.3.4; Guo Qingfan 165; Wang Shumin 146; Fang Yong 128; Chen Guying 128就不欲入，和不欲出。形就而入，且為顛為滅，為崩為蹶。心和而出，且為聲為名，為妖為孽。
+
+ZHUANG 4.3.5; Guo Qingfan 165; Wang Shumin 146; Fang Yong 128; Chen Guying 128彼且為嬰兒，亦與之為嬰兒；彼且為无町畦，亦與之為无町畦；彼且為无崖，亦與之為无崖。達之，入於无疵。
+
+ZHUANG 4.3.6; Guo Qingfan 167; Wang Shumin 148; Fang Yong 128; Chen Guying 129汝不知夫螳蜋乎？怒其臂以當車轍，不知其不勝任也，是其才之美者也。戒之，慎之！積伐而美者以犯之，幾矣。
+
+ZHUANG 4.3.7; Guo Qingfan 167; Wang Shumin 148; Fang Yong 128; Chen Guying 129汝不知夫養虎者乎？不敢以生物與之，為其殺之之怒也；不敢以全物與之，為其決之之怒也；時其飢飽，達其怒心。虎之與人異類而媚養己者，順也；故其殺者，逆也。
+
+ZHUANG 4.3.8 Guo Qingfan 168; Wang Shumin 148; Fang Yong 128; Chen Guying 129夫愛馬者，以筐盛矢，以蜄盛溺。適有蚊䖟僕緣，而拊之不時，則缺銜毀首碎胸。意有所至而愛有所亡，可不慎邪！」<pb:KR5c0126_CHANT_004-11a>
+
+ZHUANG 4.4.1 Guo Qingfan 170; Wang Shumin 150; Fang Yong 131; Chen Guying 131匠石之齊，至乎曲轅，見櫟社樹。其大蔽數千牛，絜之百圍，其高臨山十仞而後有枝，其可以為舟者旁十數。觀者如巿，匠伯不顧，遂行不輟。
+
+ZHUANG 4.4.2 Guo Qingfan 171; Wang Shumin 150; Fang Yong 131; Chen Guying 132弟子厭觀之，走及匠石，曰：「自吾執斧斤以隨夫子，未嘗見材如此其美也。先生不肯視，行不輟，何邪？」
+
+ZHUANG 4.4.3 Guo Qingfan 171; Wang Shumin 150; Fang Yong 131; Chen Guying 132曰：「已矣，勿言之矣！散木也，以為舟則沈，以為棺槨則速腐，以為器則速毀，以為門戶則液樠，以為柱則蠹。是不材之木也，无所可用，故能若是之壽。」<pb:KR5c0126_CHANT_004-12a>
+
+ZHUANG 4.4.4 Guo Qingfan 171; Wang Shumin 151; Fang Yong 132; Chen Guying 132匠石歸，櫟社見夢曰：「女將惡乎比予哉？若將比予於文木邪？夫柤梨橘柚，果蓏之屬，實熟則剝，剝則辱；
+
+ZHUANG 4.4.5 Guo Qingfan 171; Wang Shumin 151; Fang Yong 132; Chen Guying 132大枝折，小枝泄。此以其能苦其生者也，故不終其天年而中道夭，自掊擊於世俗者也。物莫不若是。且予求无所可用久矣，
+
+ZHUANG 4.4.6 Guo Qingfan 171; Wang Shumin 151; Fang Yong 132; Chen Guying 132幾死，乃今得之，為予大用。使予也而有用，且得有此大也邪？且也若與予也皆物也，柰何哉其相物也？而幾死之散人，又惡知散木！」<pb:KR5c0126_CHANT_004-13a>
+
+ZHUANG 4.4.7 Guo Qingfan 174; Wang Shumin 155; Fang Yong 132; Chen Guying 132匠石覺而診其夢。弟子曰：「趣取无用，則為社何邪？」
+
+ZHUANG 4.4.8 Guo Qingfan 174; Wang Shumin 155; Fang Yong 132; Chen Guying 132曰：「密！若无言！彼亦直寄焉，以為不知己者詬厲也。不為社者，且幾有翦乎！且也彼其所保與眾異，而以義譽之，不亦遠乎！」<pb:KR5c0126_CHANT_004-14a>
+
+ZHUANG 4.5.1 Guo Qingfan 176; Wang Shumin 158; Fang Yong 135; Chen Guying 135南伯子綦遊乎商之丘，見大木焉有異，結駟千乘，將隱芘其所藾。子綦曰：「此何木也哉？此必有異材夫！」仰而視其細枝，則拳曲而不可以為棟梁；俯而視其大根，則軸解而不可以為棺槨；
+
+ZHUANG 4.5.2 Guo Qingfan 176; Wang Shumin 158; Fang Yong 135; Chen Guying 135咶其葉，則口爛而為傷；嗅之，則使人狂酲，三日而不已。
+
+ZHUANG 4.5.3 Guo Qingfan 177; Wang Shumin 158; Fang Yong 135; Chen Guying 135子綦曰：「此果不材之木也，以至於此其大也。嗟乎神人，以此不材！」<pb:KR5c0126_CHANT_004-15a>
+
+ZHUANG 4.5.4 Guo Qingfan 177; Wang Shumin 158; Fang Yong 135; Chen Guying 135宋有荊氏者，宜楸柏桑。其拱把而上者，求狙猴之杙者斬之；三圍四圍，求高名之麗者斬之；七圍八圍，貴人富商之家求禪傍者斬之。
+
+ZHUANG 4.5.5 Guo Qingfan 177; Wang Shumin 158; Fang Yong 135; Chen Guying 135故未終其天年，而中道之夭於斧斤，此材之患也。故解之以牛之白顙者與豚之亢鼻者，與人有痔病者不可以適河。此皆巫祝以知之矣，所以為不祥也。此乃神人之所以為大祥也。
+
+ZHUANG 4.6.1 Guo Qingfan 180; Wang Shumin 163; Fang Yong 138; Chen Guying 138支離䟽者，頤隱於齊，肩高於頂，會撮指天，五管在上，兩髀為脅。挫鍼治繲，足以餬口；鼓筴播精，足以食十人。
+
+ZHUANG 4.6.2 Guo Qingfan 180; Wang Shumin 163; Fang Yong 138; Chen Guying 138上徵武士，則支離攘臂於其間；上有大役，則支離以有常疾不受功；上與病者粟，則受三鍾與十束薪。夫支離其形者，猶足以養其身，終其天年，又況支離其德者乎！<pb:KR5c0126_CHANT_004-17a>
+
+ZHUANG 4.7.1 Guo Qingfan 1i3; Wang Shumin 167; Fang Yong 139; Chen Guying 141孔子適楚，楚狂接輿遊其門曰：「鳳兮鳳兮，何如德之衰也！來世不可待，往世不可追也。天下有道，聖人成焉；天下无道，聖人生焉。
+
+ZHUANG 4.7.2 Guo Qingfan 1i3; Wang Shumin 167; Fang Yong 139; Chen Guying 141方今之時，僅免刑焉。福輕乎羽，莫之知載；禍重乎地，莫之知避。已乎已乎，臨人以德！
+
+ZHUANG 4.7.3 Guo Qingfan 1i3; Wang Shumin 167; Fang Yong 139; Chen Guying 141殆乎殆乎，畫地而趨！迷陽迷陽，无傷吾行！郤曲郤曲，无傷吾足！」<pb:KR5c0126_CHANT_004-18a>
+
+ZHUANG 4.7.4 Guo Qingfan 186; Wang Shumin 167; Fang Yong 140; Chen Guying 142山木自寇也，膏火自煎也。桂可食，故伐之；漆可用，故割之。人皆知有用之用，而莫知无用之用也。
+
+### KR5c0126_005.txt
+
+ZHUANG 5.1.1 Guo Qingfan 187; Wang Shumin 171; Fang Yong 147; Chen Guying 144魯有兀者王駘，從之遊者與仲尼相若。常季問於仲尼曰：「王駘，兀者也，從之遊者與夫子中分魯。立不教，坐不議，虛而往，實而歸。
+
+ZHUANG 5.1.2 Guo Qingfan 187; Wang Shumin 171; Fang Yong 147; Chen Guying 144固有不言之教，无形而心成者邪？是何人也？」仲尼曰：「夫子，聖人也，丘也直後而未往耳。丘將以為師，而況不若丘者乎！
+
+ZHUANG 5.1.3 Guo Qingfan 188; Wang Shumin 171; Fang Yong 147; Chen Guying 144奚假魯國！丘將引天下而與從之。」<pb:KR5c0126_CHANT_005-2a>常季曰：「彼兀者也，而王先生，其與庸亦遠矣。若然者，其用心也獨若之何？」
+
+ZHUANG 5.1.4 Guo Qingfan 189; Wang Shumin 171; Fang Yong 147; Chen Guying 144仲尼曰：「死生亦大矣，而不得與之變；雖天地覆墜，亦將不與之遺。審乎无假而不與物遷，命物之化，而守其宗也。」
+
+ZHUANG 5.1.5 Guo Qingfan 190; Wang Shumin 174; Fang Yong 148; Chen Guying 145常季曰：「何謂也？」仲尼曰：「自其異者視之，肝膽楚越也；自其同者視之，萬物皆一也。夫若然者，且不知耳目之所宜，而遊心乎德之和；
+
+ZHUANG 5.1.6 Guo Qingfan 192; Wang Shumin 174; Fang Yong 148; Chen Guying 145物視其所一而不見其所喪，視喪其足猶遺土也。」<pb:KR5c0126_CHANT_005-3a>常季曰：「彼為己，以其知得其心，以其心得其常心，物何為最之哉？」仲尼曰：「人莫鑑於流水而鑑於止水，
+
+ZHUANG 5.1.7 Guo Qingfan 193; Wang Shumin 174; Fang Yong 148; Chen Guying 145唯止能止眾止。受命於地，唯松柏獨也在冬夏青青；受命於天，唯舜獨也正，幸能正生，以正眾生。夫保始之徵，不懼之實。
+
+ZHUANG 5.1.8 Guo Qingfan 193; Wang Shumin 174; Fang Yong 148; Chen Guying 145勇士一人，雄入於九軍。將求名而能自要者，而猶若是，而況官天地，府萬物，直寓六骸，象耳目，一知之所知，而心未嘗死者乎！彼且擇日而登假，人則從是也。彼且何肯以物為事乎！」<pb:KR5c0126_CHANT_005-4a>
+
+ZHUANG 5.2.1 Guo Qingfan 196; Wang Shumin 177; Fang Yong 153; Chen Guying 150申徒嘉，兀者也，而與鄭子產同師於伯昏无人。子產謂申徒嘉曰：「我先出則子止，子先出則我止。」其明日，又與合堂同席而坐。子產謂申徒嘉曰：「我先出則子止，子先出則我止。
+
+ZHUANG 5.2.2 Guo Qingfan 196; Wang Shumin 177; Fang Yong 153; Chen Guying 150今我將出，子可以止乎，其未邪？且子見執政而不違，子齊執政乎？」申徒嘉曰：「先生之門，固有執政焉如此哉？子而說子之執政而後人者也？
+
+ZHUANG 5.2.3 Guo Qingfan 197; Wang Shumin 177; Fang Yong 153; Chen Guying 150聞之曰：『鑑明則塵垢不止，止則不明也。久與賢人處則无過。』今子之所取大者，先生也，而猶出言若是，不亦過乎！」<pb:KR5c0126_CHANT_005-5a>
+
+ZHUANG 5.2.4 Guo Qingfan 198; Wang Shumin 1i1; Fang Yong 153; Chen Guying 150子產曰：「子既若是矣，猶與堯爭善，計子之德，足以自反邪？」申徒嘉曰：「自狀其過以不當亡者眾，不狀其過以不當存者寡。
+
+ZHUANG 5.2.5 Guo Qingfan 199; Wang Shumin 1i1; Fang Yong 153; Chen Guying 150知不可柰何而安之若命，唯有德者能之。遊於羿之彀中。中央者，中地也；然而不中者，命也。人以其全足笑吾不全足者眾矣，我怫然而怒；而適先生之所，則廢然而反。
+
+ZHUANG 5.2.6 Guo Qingfan 199; Wang Shumin 1i1; Fang Yong 153; Chen Guying 150不知先生之洗我以善邪？吾與夫子遊十九年矣，而未嘗知吾兀者也。今子與我遊於形骸之內，而子索我於形骸之外，不亦過乎！」子產蹴然改容更貌曰：「子无乃稱！」<pb:KR5c0126_CHANT_005-6a>
+
+ZHUANG 5.3.1 Guo Qingfan 202; Wang Shumin 1i4; Fang Yong 155; Chen Guying 153魯有兀者叔山无趾，踵見仲尼。仲尼曰：「子不謹，前既犯患若是矣。雖今來，何及矣！」
+
+ZHUANG 5.3.2 Guo Qingfan 202; Wang Shumin 1i4; Fang Yong 156; Chen Guying 153无趾曰：「吾唯不知務而輕用吾身，吾是以亡足。今吾來也，猶有尊足者存，吾是以務全之也。夫天无不覆，地无不載，吾以夫子為天地，安知夫子之猶若是也！」
+
+ZHUANG 5.3.3 Guo Qingfan 203; Wang Shumin 1i4; Fang Yong 156; Chen Guying 153孔子曰：「丘則陋矣。夫子胡不入乎，請講以所聞！」无趾出。孔子曰：「弟子勉之！
+
+ZHUANG 5.3.4 Guo Qingfan 203; Wang Shumin 1i4; Fang Yong 156; Chen Guying 153夫无趾，兀者也，猶務學以復補前行之惡，而況全德之人乎！」<pb:KR5c0126_CHANT_005-7a>无趾語老聃曰：「孔丘之於至人，其未邪？彼何賓賓以學子為？
+
+ZHUANG 5.3.5 Guo Qingfan 204; Wang Shumin 1i4; Fang Yong 156; Chen Guying 153彼且蘄以諔詭幻怪之名聞，不知至人之以是為己桎梏邪？」老聃曰：「胡不直使彼以死生為一條，以可不可為一貫者，解其桎梏，其可乎？」无趾曰：「天刑之，安可解！」<pb:KR5c0126_CHANT_005-8a>
+
+ZHUANG 5.4.1 Guo Qingfan 206; Wang Shumin 187; Fang Yong 157; Chen Guying 156魯哀公問於仲尼曰：「衛有惡人焉，曰哀駘它。丈夫與之處者，思而不能去也。婦人見之，請於父母曰『與為人妻寧為夫子妾』者，十數而未止也。未嘗有聞其唱者也，常和人而已矣。
+
+ZHUANG 5.4.2 Guo Qingfan 206; Wang Shumin 187; Fang Yong 157; Chen Guying 156无君人之位以濟乎人之死，无聚祿以望人之腹。又以惡駭天下，和而不唱，知不出乎四域，且而雌雄合乎前。
+
+ZHUANG 5.4.3 Guo Qingfan 206; Wang Shumin 187; Fang Yong 158; Chen Guying 156是必有異乎人者也。寡人召而觀之，果以惡駭天下。與寡人處，不至以月數，而寡人有意乎其為人也；不至乎期年，而寡人信之。國无宰，寡人傳國焉。
+
+ZHUANG 5.4.4 Guo Qingfan 206; Wang Shumin 187; Fang Yong 158; Chen Guying 156悶然而後應，氾若而辭。寡人醜乎，卒授之國。无幾何也，去寡人而行，寡人卹焉，若有亡也，若无與樂是國也。是何人者也？」<pb:KR5c0126_CHANT_005-9a>
+
+ZHUANG 5.4.5 Guo Qingfan 209; Wang Shumin 190; Fang Yong 158; Chen Guying 156仲尼曰：「丘也嘗使於楚矣，適見㹠子食於其死母者，少焉眴若皆棄之而走。不見已焉爾，不得類焉爾。所愛其母者，非愛其形也，愛使其形者也。
+
+ZHUANG 5.4.6 Guo Qingfan 209; Wang Shumin 190; Fang Yong 158; Chen Guying 156戰而死者，其人之葬也不以翣資；刖者之屨，无為愛之；皆无其本矣。為天子之諸御，不爪翦，不穿耳；
+
+ZHUANG 5.4.7 Guo Qingfan 210; Wang Shumin 190; Fang Yong 158; Chen Guying 156取妻者止於外，不得復使。形全猶足以為爾，而況全德之人乎！今哀駘它未言而信，无功而親，使人授己國，唯恐其不受也，是必才全而德不形者也。」<pb:KR5c0126_CHANT_005-10a>
+
+ZHUANG 5.4.8 Guo Qingfan 212; Wang Shumin 190; Fang Yong 158; Chen Guying 157哀公曰：「何謂才全？」仲尼曰：「死生存亡，窮達貧富，賢與不肖毀譽，飢渴寒暑，是事之變，命之行也；日夜相代乎前，而知不能規乎其始者也。
+
+ZHUANG 5.4.9 Guo Qingfan 212; Wang Shumin 190; Fang Yong 158; Chen Guying 157故不足以滑和，不可入於靈府。使之和豫，通而不失於兌；使日夜无郤而與物為春，是接而生時乎心者也。是之謂才全。」<pb:KR5c0126_CHANT_005-11a>
+
+ZHUANG 5.4.10 Guo Qingfan 214; Wang Shumin 190; Fang Yong 158; Chen Guying 157「何謂德不形？」曰：「平者，水停之盛也。其可以為法也，內保之而外不蕩也。德者，成和之脩也。德不形者，物不能離也。」<pb:KR5c0126_CHANT_005-12a>
+
+ZHUANG 5.4.11 Guo Qingfan 216; Wang Shumin 190; Fang Yong 158; Chen Guying 157哀公異日以告閔子曰：「始也吾以南面而君天下，執民之紀而憂其死，吾自以為至通矣。今吾聞至人之言，恐吾无其實，輕用吾身而亡吾國。吾與孔丘，非君臣也，德友而已矣。」<pb:KR5c0126_CHANT_005-13a>
+
+ZHUANG 5.5.1 Guo Qingfan 216; Wang Shumin 197; Fang Yong 163; Chen Guying 162闉跂支離无脤說衛靈公，靈公說之；而視全人，其脰肩肩。甕盎大癭說齊桓公，桓公說之；而視全人，其脰肩肩。故德有所長而形有所忘，人不忘其所忘而忘其所不忘，此謂誠忘。
+
+ZHUANG 5.5.2 Guo Qingfan 217; Wang Shumin 197; Fang Yong 163; Chen Guying 162故聖人有所遊，而知為孽，約為膠，德為接，工為商。
+
+ZHUANG 5.5.3 Guo Qingfan 217; Wang Shumin 197; Fang Yong 163; Chen Guying 162聖人不謀，惡用知？不斲，惡用膠？无喪，惡用德？不貨，惡用商？四者，天鬻也。
+
+ZHUANG 5.5.4 Guo Qingfan 217; Wang Shumin 197; Fang Yong 163; Chen Guying 162天鬻也者，天食也。既受食於天，又惡用人！有人之形，无人之情。有人之形，故群於人，
+
+ZHUANG 5.5.5 Guo Qingfan 217; Wang Shumin 197; Fang Yong 163; Chen Guying 163无人之情，故是非不得於身。眇乎小哉，所以屬於人也！謷乎大哉，獨成其天！<pb:KR5c0126_CHANT_005-14a>
+
+ZHUANG 5.6.1 Guo Qingfan 220; Wang Shumin 200; Fang Yong 165; Chen Guying 164惠子謂莊子曰：「人故无情乎？」
+
+ZHUANG 5.6.2 Guo Qingfan 220; Wang Shumin 200; Fang Yong 165; Chen Guying 164莊子曰：「然。」
+
+ZHUANG 5.6.3 Guo Qingfan 220; Wang Shumin 200; Fang Yong 165; Chen Guying 164惠子曰：「人而无情，何以謂之人？」
+
+ZHUANG 5.6.4 Guo Qingfan 221; Wang Shumin 200; Fang Yong 165; Chen Guying 165莊子曰：「道與之貌，天與之形，惡得不謂之人？」
+
+ZHUANG 5.6.5 Guo Qingfan 221; Wang Shumin 200; Fang Yong 165; Chen Guying 165惠子曰：「既謂之人，惡得无情？」
+
+ZHUANG 5.6.6 Guo Qingfan 221; Wang Shumin 200; Fang Yong 165; Chen Guying 165莊子曰：「是非吾所謂情也。吾所謂无情者，言人之不以好惡內傷其身，常因自然而不益生也。」
+
+ZHUANG 5.6.7 Guo Qingfan 222; Wang Shumin 200; Fang Yong 165; Chen Guying 165惠子曰：「不益生，何以有其身？」
+
+ZHUANG 5.6.8 Guo Qingfan 222; Wang Shumin 200; Fang Yong 165; Chen Guying 165莊子曰：「道與之貌，天與之形，无以好惡內傷其身。今子外乎子之神，勞乎子之精，倚樹而吟，據槁梧而瞑。天選子之形，子以堅白鳴！」
+
+### KR5c0126_006.txt
+
+ZHUANG 6.1.1 Guo Qingfan 224; Wang Shumin 205; Fang Yong 172; Chen Guying 168知天之所為，知人之所為者，至矣。知天之所為者，天而生也；知人之所為者，以其知之所知以養其知之所不知，終其天年而不中道夭者，是知之盛也。
+
+ZHUANG 6.1.2 Guo Qingfan 225; Wang Shumin 205; Fang Yong 172; Chen Guying 168雖然，有患。夫知有所待而後當，其所待者特未定也。庸詎知吾所謂天之非人乎？所謂人之非天乎？
+
+ZHUANG 6.1.3 Guo Qingfan 226; Wang Shumin 205; Fang Yong 172; Chen Guying 168且有真人而後有真知。何謂真人？古之真人，不逆寡，不雄成，不謨士。若然者，過而弗悔，當而不自得也。
+
+ZHUANG 6.1.4 Guo Qingfan 226; Wang Shumin 205; Fang Yong 172; Chen Guying 169若然者，登高不慄，入水不濡，入火不熱。是知之能登假於道也若此。
+
+ZHUANG 6.1.5 Guo Qingfan 229; Wang Shumin 205; Fang Yong 172; Chen Guying 169古之真人，其寢不夢，其覺无憂，其食不甘，其息深深。真人之息以踵，眾人之息以喉。屈服者，其嗌言若哇。其耆欲深者，其天機淺。
+
+ZHUANG 6.1.6 Guo Qingfan 229; Wang Shumin 209; Fang Yong 172; Chen Guying 169古之真人，不知說生，不知惡死；其出不訢，其入不距；翛然而往，翛然而來而已矣。不志其所始，不求其所終；
+
+ZHUANG 6.1.7 Guo Qingfan 229; Wang Shumin 209; Fang Yong 172; Chen Guying 169受而喜之，忘而復之，是之謂不以心捐道，不以人助天。是之謂真人。
+
+ZHUANG 6.1.8 Guo Qingfan 230; Wang Shumin 209; Fang Yong 172; Chen Guying 169若然者，其心忘，其容寂，其顙頯；淒然似秋，煖然似春，喜怒通四時，與物有宜而莫知其極。
+
+ZHUANG 6.1.9 Guo Qingfan 232; Wang Shumin 209; Fang Yong 172; Chen Guying 169故聖人之用兵也，亡國而不失人心；利澤施乎萬世，不為愛人。故樂通物，非聖人也；有親，非仁也；天時，非賢也；
+
+ZHUANG 6.1.10 Guo Qingfan 232; Wang Shumin 209; Fang Yong 172; Chen Guying 169利害不通，非君子也；徇名失己，非士也；亡身不真，非役人也。
+
+ZHUANG 6.1.11 Guo Qingfan 232; Wang Shumin 209; Fang Yong 173; Chen Guying 169若狐不偕、務光、伯夷、叔齊、箕子、胥餘、紀他、申徒狄，是役人之役，適人之適，而不自適其適者也。
+
+ZHUANG 6.1.12 Guo Qingfan 232; Wang Shumin 215; Fang Yong 173; Chen Guying 169古之真人，其狀義而不朋，若不足而不承；與乎其觚而不堅也，張乎其虛而不華也；邴邴乎其似喜乎！崔乎其不得已乎！滀乎進我色也，與乎止我德也；
+
+ZHUANG 6.1.13 Guo Qingfan 232; Wang Shumin 215; Fang Yong 173; Chen Guying 170厲乎其似世乎！謷乎其未可制也；連乎其似好閉也，悗乎忘其言也。以刑為體，以禮為翼，以知為時，以德為循。
+
+ZHUANG 6.1.14 Guo Qingfan 232; Wang Shumin 215; Fang Yong 173; Chen Guying 170以刑為體者，綽乎其殺也；以禮為翼者，所以行於世也；以知為時者，不得已於事也；以德為循者，言其與有足者至於丘也；而人真以為勤行者也。
+
+ZHUANG 6.1.15 Guo Qingfan 232; Wang Shumin 215; Fang Yong 173; Chen Guying 170故其好之也一，其弗好之也一。其一也一，其不一也一。其一與天為徒，其不一與人為徒。天與人不相勝也，是之謂真人。
+
+ZHUANG 6.2.1 Guo Qingfan 241; Wang Shumin 223; Fang Yong 1i1; Chen Guying 177死生，命也，其有夜旦之常，天也。人之有所不得與，皆物之情也。彼特以天為父而身猶愛之，而況其卓乎！人特以有君為愈乎己，而身猶死之，而況其真乎！
+
+ZHUANG 6.2.2 Guo Qingfan 242; Wang Shumin 223; Fang Yong 1i2; Chen Guying 178泉涸，魚相與處於陸，相呴以濕，相濡以沫，不如相忘於江湖。與其譽堯而非桀也，不如兩忘而化其道。
+
+ZHUANG 6.2.3 Guo Qingfan 242; Wang Shumin 223; Fang Yong 1i2; Chen Guying 178夫大塊載我以形，勞我以生，佚我以老，息我以死。故善吾生者，乃所以善吾死也。
+
+ZHUANG 6.2.4 Guo Qingfan 243; Wang Shumin 223; Fang Yong 1i2; Chen Guying 178夫藏舟於壑，藏山於澤，謂之固矣。然而夜半有力者負之而走，昧者不知也。藏小大有宜，猶有所遯。
+
+ZHUANG 6.2.5 Guo Qingfan 243; Wang Shumin 223; Fang Yong 1i2; Chen Guying 178若夫藏天下於天下而不得所遯，是恆物之大情也。特犯人之形而猶喜之。若人之形者，萬化而未始有極也，其為樂可勝計邪！故聖人將遊於物之所不得遯而皆存。
+
+ZHUANG 6.2.6 Guo Qingfan 244; Wang Shumin 223; Fang Yong 1i2; Chen Guying 178善夭善老，善始善終，人猶效之，又況萬物之所係，而一化之所待乎！<pb:KR5c0126_CHANT_006-5a>
+
+ZHUANG 6.3.1 Guo Qingfan 246; Wang Shumin 230; Fang Yong 185; Chen Guying 1i1夫道，有情有信，无為无形；可傳而不可受，可得而不可見；自本自根，未有天地，自古以固存；神鬼神帝，生天生地；
+
+ZHUANG 6.3.2 Guo Qingfan 247; Wang Shumin 230; Fang Yong 185; Chen Guying 1i1在太極之先而不為高，在六極之下而不為深，先天地生而不為久，長於上古而不為老。狶韋氏得之，以挈天地；伏戲得之，以襲氣母；
+
+ZHUANG 6.3.3 Guo Qingfan 247; Wang Shumin 230; Fang Yong 185; Chen Guying 1i1維斗得之，終古不忒；日月得之，終古不息；堪坏得之，以襲崑崙；馮夷得之，以遊大川；肩吾得之，以處大山；
+
+ZHUANG 6.3.4 Guo Qingfan 247; Wang Shumin 230; Fang Yong 185; Chen Guying 1i1黃帝得之，以登雲天；顓頊得之，以處玄宮；禺強得之，立乎北極；西王母得之，坐乎少廣，莫知其始，莫知其終；
+
+ZHUANG 6.3.5 Guo Qingfan 247; Wang Shumin 230; Fang Yong 185; Chen Guying 1i1彭祖得之，上及有虞，下及五伯；傅說得之，以相武丁，奄有天下，乘東維，騎箕尾，而比於列星。
+
+ZHUANG 6.4.1 Guo Qingfan 251; Wang Shumin 237; Fang Yong 189; Chen Guying 1i3南伯子葵問乎女偊曰：「子之年長矣，而色若孺子，何也？」曰：「吾聞道矣。」南伯子葵曰：「道可得學邪？」
+
+ZHUANG 6.4.2 Guo Qingfan 252; Wang Shumin 237; Fang Yong 189; Chen Guying 1i4曰：「惡！惡可！子非其人也。夫卜梁倚有聖人之才而无聖人之道，我有聖人之道而无聖人之才，吾欲以教之，庶幾其果為聖人乎！
+
+ZHUANG 6.4.3 Guo Qingfan 252; Wang Shumin 237; Fang Yong 189; Chen Guying 1i4不然，以聖人之道告聖人之才，亦易矣。吾猶守而告之，參日而後能外天下；已外天下矣，吾又守之，七日而後能外物；已外物矣，吾又守之，九日而後能外生；
+
+ZHUANG 6.4.4 Guo Qingfan 252; Wang Shumin 237; Fang Yong 189; Chen Guying 1i4已外生矣，而後能朝徹；朝徹，而後能見獨；見獨，而後能无古今；
+
+ZHUANG 6.4.5 Guo Qingfan 252; Wang Shumin 237; Fang Yong 189; Chen Guying 1i4无古今，而後能入於不死不生。殺生者不死，生生者不生。其為物，无不將也，无不迎也；无不毀也，无不成也。其名為攖寧。攖寧也者，攖而後成者也。」<pb:KR5c0126_CHANT_006-7a>
+
+ZHUANG 6.4.6 Guo Qingfan 256; Wang Shumin 240; Fang Yong 190; Chen Guying 1i4南伯子葵曰：「子獨惡乎聞之？」曰：「聞諸副墨之子，副墨之子聞諸洛誦之孫，洛誦之孫聞之瞻明，瞻明聞之聶許，聶許聞之需役，需役聞之於謳，於謳聞之玄冥，玄冥聞之參寥，參寥聞之疑始。」<pb:KR5c0126_CHANT_006-8a>
+
+ZHUANG 6.5.1 Guo Qingfan 258; Wang Shumin 241; Fang Yong 193; Chen Guying 188子祀、子輿、子犁、子來四人相與語曰：「孰能以无為首，以生為脊，以死為尻，孰知死生存亡之一體者，吾與之友矣。」四人相視而笑，莫逆於心，遂相與為友。
+
+ZHUANG 6.5.2 Guo Qingfan 258; Wang Shumin 241; Fang Yong 193; Chen Guying 189俄而子輿有病，子祀往問之。曰：「偉哉夫造物者，將以予為此拘拘也！曲僂發背，上有五管，頤隱於齊，肩高於頂，句贅指天。」陰陽之氣有沴，
+
+ZHUANG 6.5.3 Guo Qingfan 258; Wang Shumin 241; Fang Yong 193; Chen Guying 189其心間而无事，跰𨇤而鑑于井，曰：「嗟乎！夫造物者又將以予為此拘拘也！」子祀曰：「女惡之乎？」
+
+ZHUANG 6.5.4 Guo Qingfan 260; Wang Shumin 241; Fang Yong 193; Chen Guying 189曰：「亡，予何惡！浸假而化予之左臂以為雞，予因以求時夜；浸假而化予之右臂以為彈，予因以求鴞炙；
+
+ZHUANG 6.5.5 Guo Qingfan 260; Wang Shumin 241; Fang Yong 193; Chen Guying 189浸假而化予之尻以為輪，以神為馬，予因而乘之，豈更駕哉！且夫得者，時也；失者，順也；安時而處順，哀樂不能入也。
+
+ZHUANG 6.5.6 Guo Qingfan 260; Wang Shumin 241; Fang Yong 193; Chen Guying 189此古之所謂縣解也，而不能自解者，物有結之。且夫物不勝天久矣，吾又何惡焉！」<pb:KR5c0126_CHANT_006-10a>
+
+ZHUANG 6.5.7 Guo Qingfan 261; Wang Shumin 246; Fang Yong 193; Chen Guying 189俄而子來有病，喘喘然將死，其妻子環而泣之，犁往問之，曰：「叱！避！无怛化！」倚其戶與之語曰：
+
+ZHUANG 6.5.8 Guo Qingfan 261; Wang Shumin 246; Fang Yong 194; Chen Guying 189「偉哉造化！又將奚以汝為，將奚以汝適？以汝為鼠肝乎？以汝為蟲臂乎？」子來曰：「父母於子，東西南北，唯命之從。陰陽於人，不翅於父母；彼近吾死而我不聽，我則悍矣，彼何罪焉！
+
+ZHUANG 6.5.9 Guo Qingfan 262; Wang Shumin 246; Fang Yong 194; Chen Guying 189夫大塊載我以形，勞我以生，佚我以老，息我以死。故善吾生者，乃所以善吾死也。今大冶鑄金，金踊躍曰『我且必為鏌鋣』，大冶必以為不祥之金。
+
+ZHUANG 6.5.10 Guo Qingfan 262; Wang Shumin 246; Fang Yong 194; Chen Guying 189今一犯人之形，而曰『人耳人耳』，夫造化者必以為不祥之人。今一以天地為大鑪，以造化為大冶，惡乎往而不可哉！」成然寐，蘧然覺。
+
+ZHUANG 6.6.1 Guo Qingfan 264; Wang Shumin 250; Fang Yong 197; Chen Guying 193子桑戶、孟子反、子琴張三人相與友，曰：「孰能相與於无相與，相為於无相為？孰能登天遊霧，撓挑无極；相忘以生，无所終窮？」三人相視而笑，莫逆於心，遂相與友。
+
+ZHUANG 6.6.2 Guo Qingfan 266; Wang Shumin 250; Fang Yong 197; Chen Guying 193莫然有間，而子桑戶死，未葬。孔子聞之，使子貢往待事焉。或編曲，或鼓琴，
+
+ZHUANG 6.6.3 Guo Qingfan 266; Wang Shumin 250; Fang Yong 197; Chen Guying 193相和而歌曰：「嗟來桑戶乎！嗟來桑戶乎！而已反其真，而我猶為人猗！」子貢趨而進曰：「敢問臨尸而歌，禮乎？」
+
+ZHUANG 6.6.4 Guo Qingfan 267; Wang Shumin 250; Fang Yong 197; Chen Guying 193二人相視而笑曰：「是惡知禮意！」<pb:KR5c0126_CHANT_006-12a>子貢反，以告孔子，曰：「彼何人者邪？脩行无有，而外其形骸，臨尸而歌，顏色不變，无以命之。彼何人者邪？」<pb:KR5c0126_CHANT_006-13a>
+
+ZHUANG 6.6.5 Guo Qingfan 267; Wang Shumin 250; Fang Yong 197; Chen Guying 193孔子曰：「彼，遊方之外者也；而丘，遊方之內者也。外內不相及，而丘使女往弔之，丘則陋矣。彼方且與造物者為人，而遊乎天地之一氣。
+
+ZHUANG 6.6.6 Guo Qingfan 268; Wang Shumin 250; Fang Yong 197; Chen Guying 193彼以生為附贅縣疣，以死為決𤴯潰癰，夫若然者，又惡知死生先後之所在！假於異物，託於同體；忘其肝膽，遺其耳目；反覆終始，不知端倪；
+
+ZHUANG 6.6.7 Guo Qingfan 268; Wang Shumin 250; Fang Yong 197; Chen Guying 193芒然彷徨乎塵垢之外，逍遙乎无為之業。彼又惡能憒憒然為世俗之禮，以觀眾人之耳目哉！」<pb:KR5c0126_CHANT_006-14a>
+
+ZHUANG 6.6.8 Guo Qingfan 271; Wang Shumin 256; Fang Yong 197; Chen Guying 194子貢曰：「然則夫子何方之依？」曰：「丘，天之戮民也。雖然，吾與汝共之。」子貢曰：「敢問其方。」
+
+ZHUANG 6.6.9 Guo Qingfan 272; Wang Shumin 256; Fang Yong 197; Chen Guying 194孔子曰：「魚相造乎水，人相造乎道。相造乎水者，穿池而養給；相造乎道者，无事而生定。故曰，魚相忘乎江湖，人相忘乎道術。」子貢曰：「敢問畸人。」
+
+ZHUANG 6.6.10 Guo Qingfan 273; Wang Shumin 256; Fang Yong 197; Chen Guying 194曰：「畸人者，畸於人而侔於天。故曰：天之小人，人之君子；人之君子，天之小人也。」<pb:KR5c0126_CHANT_006-15a>
+
+ZHUANG 6.7.1 Guo Qingfan 274; Wang Shumin 258; Fang Yong 201; Chen Guying 199顏回問仲尼曰：「孟孫才，其母死，哭泣无涕，中心不慼，居喪不哀。无是三者，以善喪蓋魯國。固有无其實而得其名者乎？回壹怪之。」<pb:KR5c0126_CHANT_006-16a>
+
+ZHUANG 6.7.2 Guo Qingfan 274; Wang Shumin 258; Fang Yong 201; Chen Guying 199仲尼曰：「夫孟孫氏盡之矣，進於知矣。唯簡之而不得，夫已有所簡矣。孟孫氏不知所以生，不知所以死；
+
+ZHUANG 6.7.3 Guo Qingfan 274; Wang Shumin 258; Fang Yong 202; Chen Guying 199不知就先，不知就後；若化為物，以待其所不知之化已乎！且方將化，惡知不化哉？方將不化，惡知已化哉？
+
+ZHUANG 6.7.4 Guo Qingfan 275; Wang Shumin 258; Fang Yong 202; Chen Guying 199吾特與汝，其夢未始覺者邪！且彼有駭形而无損心，有旦宅而无情死。孟孫氏特覺，人哭亦哭，是自其所以乃。
+
+ZHUANG 6.7.5 Guo Qingfan 275; Wang Shumin 258; Fang Yong 202; Chen Guying 199且也相與吾之耳矣，庸詎知吾所謂吾之乎？且汝夢為鳥而厲乎天，夢為魚而沒於淵。不識今之言者，其覺者乎，其夢者乎？
+
+ZHUANG 6.7.6 Guo Qingfan 275; Wang Shumin 258; Fang Yong 202; Chen Guying 199造適不及笑，獻笑不及排，安排而去化，乃入於寥天一。」<pb:KR5c0126_CHANT_006-17a>
+
+ZHUANG 6.8.1 Guo Qingfan 278; Wang Shumin 258; Fang Yong 204; Chen Guying 202意而子見許由。許由曰：「堯何以資汝？」意而子曰：「堯謂我：『汝必躬服仁義而明言是非。』」許由曰：「而奚來為軹？
+
+ZHUANG 6.8.2 Guo Qingfan 279; Wang Shumin 258; Fang Yong 204; Chen Guying 202夫堯既已黥汝以仁義，而劓汝以是非矣，汝將何以遊夫遙蕩恣睢轉徙之塗乎？」意而子曰：「雖然，吾願遊於其藩。」許由曰：「不然。
+
+ZHUANG 6.8.3 Guo Qingfan 280; Wang Shumin 258; Fang Yong 204; Chen Guying 202夫盲者无以與乎眉目顏色之好，瞽者无以與乎青黃黼黻之觀。」意而子曰：「夫无莊之失其美，據梁之失其力，黃帝之亡其知，皆在鑪捶之間耳。
+
+ZHUANG 6.8.4 Guo Qingfan 280; Wang Shumin 258; Fang Yong 204; Chen Guying 202庸詎知夫造物者之不息我黥而補我劓，使我乘成以隨先生邪？」許由曰：「噫！未可知也。我為汝言其大略。
+
+ZHUANG 6.8.5 Guo Qingfan 2i1; Wang Shumin 258; Fang Yong 204; Chen Guying 202吾師乎！吾師乎！𩐋萬物而不為義，澤及萬世而不為仁，長於上古而不為老，覆載天地刻彫眾形而不為巧，此所遊已。」<pb:KR5c0126_CHANT_006-18a>
+
+ZHUANG 6.9.1 Guo Qingfan 2i2; Wang Shumin 268; Fang Yong 206; Chen Guying 205顏回曰：「回益矣。」仲尼曰：「何謂也？」曰：「回忘禮樂矣。」曰：「可矣，猶未也。」
+
+ZHUANG 6.9.2 Guo Qingfan 2i3; Wang Shumin 268; Fang Yong 206; Chen Guying 205它日，復見，曰：「回益矣。」曰：「何謂也？」曰：「回忘仁義矣。」曰：「可矣，猶未也。」它日，復見，曰：「回益矣。」曰：「何謂也？」曰：「回坐忘矣。」
+
+ZHUANG 6.9.3 Guo Qingfan 2i4; Wang Shumin 268; Fang Yong 206; Chen Guying 205仲尼蹴然曰：「何謂坐忘？」顏回曰：「墮枝體，黜聰明，離形去知，同於大通，此謂坐忘。」
+
+ZHUANG 6.9.4 Guo Qingfan 2i4; Wang Shumin 268; Fang Yong 206; Chen Guying 205仲尼曰：「同則无好也，化則无常也。而果其賢乎！丘也請從而後也。」<pb:KR5c0126_CHANT_006-19a>
+
+ZHUANG 6.10.1 Guo Qingfan 285; Wang Shumin 271; Fang Yong 208; Chen Guying 208子輿與子桑友，而霖雨十日。子輿曰：「子桑殆病矣！」裹飯而往食之。至子桑之門，則若歌若哭，鼓琴曰：
+
+ZHUANG 6.10.2 Guo Qingfan 286; Wang Shumin 271; Fang Yong 208; Chen Guying 208「父邪！母邪！天乎！人乎！」有不任其聲而趨舉其詩焉。子輿入，曰：「子之歌詩，何故若是？」
+
+ZHUANG 6.10.3 Guo Qingfan 286; Wang Shumin 271; Fang Yong 208; Chen Guying 208曰：「吾思夫使我至此極者而弗得也。父母豈欲吾貧哉？天无私覆，地无私載，天地豈私貧我哉？求其為之者而不得也。然而至此極者，命也夫！」
+
+### KR5c0126_007.txt
+
+ZHUANG 7.1.1 Guo Qingfan 287; Wang Shumin 275; Fang Yong 212; Chen Guying 211齧缺問於王倪，四問而四不知。齧缺因躍而大喜，行以告蒲衣子。蒲衣子曰：「而乃今知之乎？有虞氏不及泰氏。
+
+ZHUANG 7.1.2 Guo Qingfan 287; Wang Shumin 275; Fang Yong 212; Chen Guying 211有虞氏，其猶藏仁以要人；亦得人矣，而未始出於非人。泰氏，其臥徐徐，其覺于于；一以己為馬，一以己為牛；其知情信，其德甚真，而未始入於非人。」<pb:KR5c0126_CHANT_007-2a>
+
+ZHUANG 7.2.1 Guo Qingfan 289; Wang Shumin 278; Fang Yong 214; Chen Guying 213肩吾見狂接輿。狂接輿曰：「日中始何以語女？」肩吾曰：「告我君人者以己出經式義度，人孰敢不聽而化諸！」
+
+ZHUANG 7.2.2 Guo Qingfan 290; Wang Shumin 278; Fang Yong 214; Chen Guying 213接輿曰：「是欺德也；其於治天下也，猶涉海鑿河而使蚊負山也。夫聖人之治也，治外乎？
+
+ZHUANG 7.2.3 Guo Qingfan 291; Wang Shumin 278; Fang Yong 214; Chen Guying 213正而後行，確乎能其事者而已矣。且鳥高飛以避矰弋之害，鼷鼠深穴乎神丘之下以避熏鑿之患，而曾二蟲之无知！」<pb:KR5c0126_CHANT_007-3a>
+
+ZHUANG 7.3.1 Guo Qingfan 292; Wang Shumin 2i1; Fang Yong 216; Chen Guying 215天根遊於殷陽，至蓼水之上，適遭无名人而問焉，曰：「請問為天下。」无名人曰：「去！汝鄙人也，何問之不豫也！予方將與造物者為人，
+
+ZHUANG 7.3.2 Guo Qingfan 293; Wang Shumin 2i1; Fang Yong 216; Chen Guying 215厭，則又乘夫莽眇之鳥，以出六極之外，而遊无何有之鄉，以處壙埌之野。汝又何暇以治天下感予之心為？」又復問。
+
+ZHUANG 7.3.3 Guo Qingfan 292; Wang Shumin 2i1; Fang Yong 216; Chen Guying 215无名人曰：「汝遊心於淡，合氣於漠，順物自然而无容私焉，而天下治矣。」<pb:KR5c0126_CHANT_007-4a>
+
+ZHUANG 7.4.1 Guo Qingfan 295; Wang Shumin 2i4; Fang Yong 217; Chen Guying 217陽子居見老聃，曰：「有人於此，嚮疾彊梁，物徹䟽明，學道不勌。如是者，可比明王乎？」
+
+ZHUANG 7.4.2 Guo Qingfan 296; Wang Shumin 2i4; Fang Yong 217; Chen Guying 217老聃曰：「是於聖人也，胥易技係，勞形怵心者也。且也虎豹之文來田，猨狙之便執斄之狗來藉。如是者，可比明王乎？」
+
+ZHUANG 7.4.3 Guo Qingfan 296; Wang Shumin 2i4; Fang Yong 217; Chen Guying 217陽子居蹴然曰：「敢問明王之治。」老聃曰：「明王之治，功蓋天下而似不自己，
+
+ZHUANG 7.4.4 Guo Qingfan 296; Wang Shumin 2i4; Fang Yong 217; Chen Guying 217化貸萬物而民弗恃；有莫舉名，使物自喜；立乎不測，而遊於无有者也。」<pb:KR5c0126_CHANT_007-5a>
+
+ZHUANG 7.5.1 Guo Qingfan 297; Wang Shumin 288; Fang Yong 219; Chen Guying 220鄭有神巫曰季咸，知人之死生存亡，禍福壽夭，期以歲月旬日，若神。鄭人見之，皆棄而走。
+
+ZHUANG 7.5.2 Guo Qingfan 297; Wang Shumin 288; Fang Yong 219; Chen Guying 220列子見之而心醉，歸，以告壺子，曰：「始吾以夫子之道為至矣，則又有至焉者矣。」壺子曰：「吾與汝既其文，未既其實，而固得道與？眾雌而无雄，而又奚卵焉！
+
+ZHUANG 7.5.3 Guo Qingfan 299; Wang Shumin 288; Fang Yong 219; Chen Guying 220而以道與世亢，必信，夫故使人得而相汝。嘗試與來，以予示之。」<pb:KR5c0126_CHANT_007-6a>明日，列子與之見壺子。出而謂列子曰：「嘻！子之先生死矣！弗活矣！不以旬數矣！吾見怪焉，見濕灰焉。」
+
+ZHUANG 7.5.4 Guo Qingfan 299; Wang Shumin 288; Fang Yong 219; Chen Guying 220列子入，泣涕沾襟以告壺子。壺子曰：「鄉吾示之以地文，萌乎不震不止。是殆見吾杜德機也。嘗又與來。」<pb:KR5c0126_CHANT_007-7a>
+
+ZHUANG 7.5.5 Guo Qingfan 300; Wang Shumin 294; Fang Yong 220; Chen Guying 220明日，又與之見壺子。出而謂列子曰：「幸矣子之先生遇我也！有瘳矣，全然有生矣！吾見其杜權矣。」列子入，以告壺子。
+
+ZHUANG 7.5.6 Guo Qingfan 301; Wang Shumin 294; Fang Yong 220; Chen Guying 220壺子曰：「鄉吾示之以天壤，名實不入，而機發於踵。是殆見吾善者機也。嘗又與來。」<pb:KR5c0126_CHANT_007-8a>
+
+ZHUANG 7.5.7 Guo Qingfan 302; Wang Shumin 294; Fang Yong 220; Chen Guying 221明日，又與之見壺子。出而謂列子曰：「子之先生不齊，吾无得而相焉。試齊，且復相之。」
+
+ZHUANG 7.5.8 Guo Qingfan 302; Wang Shumin 294; Fang Yong 220; Chen Guying 220列子入，以告壺子。壺子曰：「鄉吾示之以太沖莫勝。是殆見吾衡氣機也。鯢桓之審為淵，止水之審為淵，流水之審為淵。淵有九名，此處三焉。嘗又與來。」<pb:KR5c0126_CHANT_007-9a>
+
+ZHUANG 7.5.9 Guo Qingfan 304; Wang Shumin 294; Fang Yong 220; Chen Guying 221明日，又與之見壺子。立未定，自失而走。
+
+ZHUANG 7.5.10 Guo Qingfan 304; Wang Shumin 294; Fang Yong 220; Chen Guying 221壺子曰：「追之！」列子追之不及。反，以報壺子曰：「已滅矣，已失矣，吾弗及已。」壺子曰：「曏吾示之以未始出吾宗。
+
+ZHUANG 7.5.11 Guo Qingfan 304; Wang Shumin 294; Fang Yong 220; Chen Guying 221吾與之虛而委蛇，不知其誰何，因以為弟靡，因以為波流，故逃也。」<pb:KR5c0126_CHANT_007-10a>
+
+ZHUANG 7.5.12 Guo Qingfan 306; Wang Shumin 300; Fang Yong 220; Chen Guying 221然後列子自以為未始學而歸，三年不出。為其妻爨，食豕如食人。於事无與親，雕琢復朴，塊然獨以其形立。紛而封戎，一以是終。
+
+ZHUANG 7.6.1 Guo Qingfan 307; Wang Shumin 300; Fang Yong 224; Chen Guying 227无為名尸，无為謀府；无為事任，无為知主。體盡无窮，而遊无眹；
+
+ZHUANG 7.6.2 Guo Qingfan 307; Wang Shumin 300; Fang Yong 224; Chen Guying 227盡其所受乎天，而无見得，亦虛而已。至人之用心若鏡，不將不迎，應而不藏，故能勝物而不傷。
+
+ZHUANG 7.6.3 Guo Qingfan 309; Wang Shumin 303; Fang Yong 224; Chen Guying 228南海之帝為儵，北海之帝為忽，中央之帝為渾沌。儵與忽時相與遇於渾沌之地，渾沌待之甚善。
+
+ZHUANG 7.6.4 Guo Qingfan 309; Wang Shumin 303; Fang Yong 224; Chen Guying 228儵與忽謀報渾沌之德，曰：「人皆有七竅以視聽食息，此獨无有，嘗試鑿之。」日鑿一竅，七日而渾沌死。
+
+### KR5c0126_008.txt
+
+ZHUANG 8.1.1 Guo Qingfan 311; Wang Shumin 308; Fang Yong 233; Chen Guying 231駢拇枝指，出乎性哉！而侈於德。附贅縣疣，出乎形哉！而侈於性。多方乎仁義而用之者，列於五藏哉！而非道德之正也。
+
+ZHUANG 8.1.2 Guo Qingfan 314; Wang Shumin 308; Fang Yong 233; Chen Guying 231是故駢於足者，連无用之肉也；枝於手者，樹无用之指也；多方駢枝於五藏之情者，淫僻於仁義之行，而多方於聰明之用也。
+
+ZHUANG 8.1.3 Guo Qingfan 314; Wang Shumin 308; Fang Yong 234; Chen Guying 232是故駢於明者，亂五色，淫文章，青黃黼黻之煌煌非乎？而離朱是已。多於聰者，亂五聲，淫六律，金石絲竹黃鍾大呂之聲非乎？
+
+ZHUANG 8.1.4 Guo Qingfan 314; Wang Shumin 308; Fang Yong 234; Chen Guying 232而師曠是已。枝於仁者，擢德塞性以收名聲，使天下簧鼓以奉不及之法非乎？而曾史是已。
+
+ZHUANG 8.1.5 Guo Qingfan 314; Wang Shumin 308; Fang Yong 234; Chen Guying 232駢於辯者，纍瓦結繩竄句，遊心於堅白同異之間，而敝跬譽无用之言非乎？而楊墨是已。故此皆多駢旁枝之道，非天下之至正也。
+
+ZHUANG 8.1.6 Guo Qingfan 317; Wang Shumin 313; Fang Yong 237; Chen Guying 235彼正正者，不失其性命之情。故合者不為駢，而枝者不為跂；長者不為有餘，短者不為不足。是故鳧脛雖短，續之則憂；鶴脛雖長，斷之則悲。
+
+ZHUANG 8.1.7 Guo Qingfan 317; Wang Shumin 313; Fang Yong 237; Chen Guying 235故性長非所斷，性短非所續，无所去憂也。意仁義其非人情乎！彼仁人何其多憂也？<pb:KR5c0126_CHANT_008-4a>
+
+ZHUANG 8.1.8 Guo Qingfan 318; Wang Shumin 313; Fang Yong 237; Chen Guying 235且夫駢於拇者，決之則泣；枝於手者，齕之則啼。二者，或有餘於數，或不足於數，其於憂一也。
+
+ZHUANG 8.1.9 Guo Qingfan 318; Wang Shumin 313; Fang Yong 237; Chen Guying 235今世之仁人，蒿目而憂世之患；不仁之人，決性命之情而饕貴富。故意仁義其非人情乎！自三代以下者，天下何其囂囂也？<pb:KR5c0126_CHANT_008-5a>
+
+ZHUANG 8.2.1 Guo Qingfan 321; Wang Shumin 313; Fang Yong 237; Chen Guying 237且夫待鉤繩規矩而正者，是削其性也；待纆索膠漆而固者，是侵其德也；屈折禮樂，呴俞仁義，以慰天下之心者，此失其常然也。
+
+ZHUANG 8.2.2 Guo Qingfan 321; Wang Shumin 313; Fang Yong 237; Chen Guying 238天下有常然。常然者，曲者不以鉤，直者不以繩，圓者不以規，方者不以矩，附離不以膠漆，約束不以纆索。故天下誘然皆生而不知其所以生，同焉皆得而不知其所以得。
+
+ZHUANG 8.2.3 Guo Qingfan 321; Wang Shumin 313; Fang Yong 237; Chen Guying 238故古今不二，不可虧也。則仁義又奚連連如膠漆纆索，而遊乎道德之間為哉，使天下惑也！<pb:KR5c0126_CHANT_008-6a>
+
+ZHUANG 8.2.4 Guo Qingfan 323; Wang Shumin 319; Fang Yong 238; Chen Guying 239夫小惑易方，大惑易性。何以知其然邪？自虞氏招仁義以撓天下也，天下莫不奔命於仁義，是非以仁義易其性與？
+
+ZHUANG 8.2.5 Guo Qingfan 323; Wang Shumin 319; Fang Yong 238; Chen Guying 239故嘗試論之，自三代以下者，天下莫不以物易其性矣。小人則以身殉利，士則以身殉名，大夫則以身殉家，聖人則以身殉天下。故此數子者，事業不同，名聲異號，其於傷性以身為殉，一也。
+
+ZHUANG 8.2.6 Guo Qingfan 323; Wang Shumin 319; Fang Yong 238; Chen Guying 239臧與穀，二人相與牧羊而俱亡其羊。問臧奚事，則挾筴讀書；問穀奚事，則博塞以遊。二人者，事業不同，其於亡羊均也。伯夷死名於首陽之下，盜跖死利於東陵之上，二人者，所死不同，其於殘生傷性均也，奚必伯夷之是而盜跖之非乎！
+
+ZHUANG 8.2.7 Guo Qingfan 323; Wang Shumin 319; Fang Yong 238; Chen Guying 239天下盡殉也。彼其所殉仁義也，則俗謂之君子；其所殉貨財也，則俗謂之小人。
+
+ZHUANG 8.2.8 Guo Qingfan 323; Wang Shumin 319; Fang Yong 238; Chen Guying 239其殉一也，則有君子焉，有小人焉；若其殘生損性，則盜跖亦伯夷已，又惡取君子小人於其間哉！<pb:KR5c0126_CHANT_008-7a>
+
+ZHUANG 8.2.9 Guo Qingfan 327; Wang Shumin 324; Fang Yong 243; Chen Guying 242且夫屬其性乎仁義者，雖通如曾史，非吾所謂臧也；屬其性於五味，雖通如俞兒，非吾所謂臧也；屬其性乎五聲，雖通如師曠，非吾所謂聰也；屬其性乎五色，雖通如離朱，非吾所謂明也。吾所謂臧，非仁義之謂也，臧於其德而已矣；吾所謂臧者，非所謂仁義之謂也，任其性命之情而已矣；
+
+ZHUANG 8.2.11 Guo Qingfan 327; Wang Shumin 324; Fang Yong 243; Chen Guying 242吾所謂聰者，非謂其聞彼也，自聞而已矣；吾所謂明者，非謂其見彼也，自見而已矣。夫不自見而見彼，不自得而得彼者，是得人之得而不自得其得者也，適人之適而不自適其適者也。
+
+ZHUANG 8.2.12 Guo Qingfan 327; Wang Shumin 324; Fang Yong 243; Chen Guying 242夫適人之適而不自適其適，雖盜跖與伯夷，是同為淫僻也。余愧乎道德，是以上不敢為仁義之操，而下不敢為淫僻之行也。
+
+### KR5c0126_009.txt
+
+ZHUANG 9.1.1 Guo Qingfan 330; Wang Shumin 329; Fang Yong 248; Chen Guying 244馬，蹄可以踐霜雪，毛可以禦風寒，齕草飲水，翹足而陸，此馬之真性也。雖有義臺路寢，无所用之。
+
+ZHUANG 9.1.2 Guo Qingfan 330; Wang Shumin 329; Fang Yong 248; Chen Guying 244及至伯樂，曰：「我善治馬。」燒之，剔之，刻之，雒之，連之以羈馽，編之以皁棧，馬之死者十二三矣；
+
+ZHUANG 9.1.3 Guo Qingfan 330; Wang Shumin 329; Fang Yong 248; Chen Guying 244飢之，渴之，馳之，驟之，整之，齊之，前有橛飾之患，而後有鞭筴之威，而馬之死者已過半矣。
+
+ZHUANG 9.1.4 Guo Qingfan 330; Wang Shumin 329; Fang Yong 248; Chen Guying 244陶者曰：「我善治埴，圓者中規，方者中矩。」匠人曰：「我善治木，曲者中鉤，直者應繩。」夫埴木之性，豈欲中規矩鉤繩哉？然且世世稱之曰：「伯樂善治馬，而陶匠善治埴木。」此亦治天下者之過也。
+
+ZHUANG 9.1.5 Guo Qingfan 334; Wang Shumin 329; Fang Yong 248; Chen Guying 246吾意善治天下者不然。彼民有常性，織而衣，耕而食，是謂同德；一而不黨，命曰天放。
+
+ZHUANG 9.1.6 Guo Qingfan 334; Wang Shumin 335; Fang Yong 248; Chen Guying 246故至德之世，其行填填，其視顛顛。當是時也，山无蹊隧，澤无舟梁；萬物群生，連屬其鄉；禽獸成群，草木遂長。
+
+ZHUANG 9.1.7 Guo Qingfan 334; Wang Shumin 335; Fang Yong 248; Chen Guying 246是故禽獸可係羈而遊，鳥鵲之巢可攀援而闚。夫至德之世，同與禽獸居，族與萬物並，惡乎知君子小人哉！
+
+ZHUANG 9.1.8 Guo Qingfan 336; Wang Shumin 335; Fang Yong 248; Chen Guying 246同乎无知，其德不離；同乎无欲，是謂素樸；素樸而民性得矣。及至聖人，蹩躠為仁，踶跂為義，而天下始疑矣；澶漫為樂，摘僻為禮，而天下始分矣。
+
+ZHUANG 9.1.9 Guo Qingfan 336; Wang Shumin 335; Fang Yong 248; Chen Guying 247故純樸不殘，孰為犧樽！白玉不毀，孰為珪璋！道德不廢，安取仁義！
+
+ZHUANG 9.1.10 Guo Qingfan 336; Wang Shumin 335; Fang Yong 248; Chen Guying 247性情不離，安用禮樂！五色不亂，孰為文采！五聲不亂，孰應六律！夫殘樸以為器，工匠之罪也；毀道德以為仁義，聖人之過也。
+
+ZHUANG 9.2.1 Guo Qingfan 339; Wang Shumin 340; Fang Yong 248; Chen Guying 249夫馬，陸居則食草飲水，喜則交頸相靡，怒則分背相踶。馬知已此矣。
+
+ZHUANG 9.2.2 Guo Qingfan 339; Wang Shumin 340; Fang Yong 249; Chen Guying 249夫加之以衡扼，齊之以月題，而馬知介倪闉扼鷙曼詭銜竊轡。故馬之知而能至盜者，伯樂之罪也。
+
+ZHUANG 9.2.3 Guo Qingfan 341; Wang Shumin 340; Fang Yong 249; Chen Guying 249夫赫胥氏之時，民居不知所為，行不知所之，含哺而熙，鼓腹而遊，民能以此矣。及至聖人，屈折禮樂以匡天下之形，
+
+ZHUANG 9.2.4 Guo Qingfan 341; Wang Shumin 340; Fang Yong 249; Chen Guying 249縣跂仁義以慰天下之心，而民乃始踶跂好知，爭歸於利，不可止也。此亦聖人之過也。
+
+### KR5c0126_010.txt
+
+ZHUANG 10.1.1 Guo Qingfan 342; Wang Shumin 345; Fang Yong 258; Chen Guying 252將為胠篋探囊發匱之盜而為守備，則必攝緘縢，固扃鐍，此世俗之所謂知也。
+
+ZHUANG 10.1.2 Guo Qingfan 342; Wang Shumin 345; Fang Yong 258; Chen Guying 252然而巨盜至，則負匱揭篋擔囊而趨，唯恐緘縢扃鐍之不固也。然則鄉之所謂知者，不乃為大盜積者也？<pb:KR5c0126_CHANT_010-2a>
+
+ZHUANG 10.1.3 Guo Qingfan 343; Wang Shumin 345; Fang Yong 260; Chen Guying 253故嘗試論之，世俗所謂知者，有不為大盜積者乎？所謂聖者，有不為大盜守者乎？何以知其然邪？
+
+ZHUANG 10.1.4 Guo Qingfan 343; Wang Shumin 345; Fang Yong 260; Chen Guying 253昔者齊國鄰邑相望，雞狗之音相聞，罔罟之所布，耒耨之所刺，方二千餘里。闔四竟之內，所以立宗廟社稷，治邑屋州閭鄉曲者，曷嘗不法聖人哉！
+
+ZHUANG 10.1.5 Guo Qingfan 343; Wang Shumin 345; Fang Yong 260; Chen Guying 253然而田成子一旦殺齊君而盜其國。所盜者豈獨其國邪？并與其聖知之法而盜之。故田成子有乎盜賊之名，而身處堯舜之安；小國不敢非，大國不敢誅，十二世有齊國。則是不乃竊齊國，并與其聖知之法以守其盜賊之身乎？<pb:KR5c0126_CHANT_010-3a>
+
+ZHUANG 10.1.7 Guo Qingfan 346; Wang Shumin 349; Fang Yong 260; Chen Guying 255嘗試論之，世俗之所謂至知者，有不為大盜積者乎？所謂至聖者，有不為大盜守者乎？何以知其然邪？昔者龍逢斬，比干剖，萇弘胣，子胥靡，故四子之賢而身不免乎戮。
+
+ZHUANG 10.1.8 Guo Qingfan 346; Wang Shumin 349; Fang Yong 260; Chen Guying 255故跖之徒問於跖曰：「盜亦有道乎？」跖曰：「何適而无有道邪！」
+
+ZHUANG 10.1.9 Guo Qingfan 346; Wang Shumin 349; Fang Yong 260; Chen Guying 256夫妄意室中之藏，聖也；入先，勇也；出後，義也；知可否，知也；分均，仁也。五者不備而能成大盜者，天下未之有也。
+
+ZHUANG 10.1.10 Guo Qingfan 346; Wang Shumin 349; Fang Yong 260; Chen Guying 256由是觀之，善人不得聖人之道不立，跖不得聖人之道不行；天下之善人少而不善人多，則聖人之利天下也少而害天下也多。
+
+ZHUANG 10.1.11 Guo Qingfan 346; Wang Shumin 349; Fang Yong 260; Chen Guying 256故曰，脣竭則齒寒，魯酒薄而邯鄲圍，聖人生而大盜起。掊擊聖人，縱舍盜賊，而天下始治矣。
+
+ZHUANG 10.1.12 Guo Qingfan 346; Wang Shumin 349; Fang Yong 260; Chen Guying 256夫川竭而谷虛，丘夷而淵實。聖人已死，則大盜不起，天下平而无故矣。
+
+ZHUANG 10.1.13 Guo Qingfan 350; Wang Shumin 354; Fang Yong 260; Chen Guying 256聖人不死，大盜不止。雖重聖人而治天下，則是重利盜跖也。為之斗斛以量之，則并與斗斛而竊之；為之權衡以稱之，則并與權衡而竊之；
+
+ZHUANG 10.1.14 Guo Qingfan 350; Wang Shumin 354; Fang Yong 261; Chen Guying 256為之符璽以信之，則并與符璽而竊之；為之仁義以矯之，則并與仁義而竊之。何以知其然邪？彼竊鉤者誅，竊國者為諸侯，諸侯之門而仁義存焉，則是非竊仁義聖知邪？
+
+ZHUANG 10.1.15 Guo Qingfan 350; Wang Shumin 354; Fang Yong 261; Chen Guying 256故逐於大盜，揭諸侯，竊仁義并斗斛權衡符璽之利者，雖有軒冕之賞弗能勸，斧鉞之威弗能禁。此重利盜跖而使不可禁者，是乃聖人之過也。
+
+ZHUANG 10.1.16 Guo Qingfan 353; Wang Shumin 356; Fang Yong 261; Chen Guying 259故曰：「魚不可脫於淵，國之利器不可以示人。」彼聖人者，天下之利器也，非所以明天下也。故絕聖棄知，大盜乃止；擿玉毀珠，小盜不起；焚符破璽，而民朴鄙；掊斗折衡，而民不爭；
+
+ZHUANG 10.1.17 Guo Qingfan 353; Wang Shumin 356; Fang Yong 261; Chen Guying 259殫殘天下之聖法，而民始可與論議。擢亂六律，鑠絕竽瑟，塞瞽曠之耳，而天下始人含其聰矣；滅文章，散五采，膠離朱之目，而天下始人含其明矣；
+
+ZHUANG 10.1.18 Guo Qingfan 353; Wang Shumin 356; Fang Yong 261; Chen Guying 259毀絕鉤繩而棄規矩，攦工倕之指，而天下始人含其巧矣。故曰：「大巧若拙。」
+
+ZHUANG 10.1.19 Guo Qingfan 353; Wang Shumin 356; Fang Yong 261; Chen Guying 260削曾史之行，鉗楊墨之口，攘棄仁義，而天下之德始玄同矣。彼人含其明，則天下不鑠矣；人含其聰，則天下不累矣；
+
+ZHUANG 10.1.20 Guo Qingfan 353; Wang Shumin 356; Fang Yong 261; Chen Guying 260人含其知，則天下不惑矣；人含其德，則天下不僻矣。彼曾、史、楊、墨、師曠、工倕、離朱者，皆外立其德而以爚亂天下者也，法之所无用也。
+
+ZHUANG 10.2.1 Guo Qingfan 357; Wang Shumin 360; Fang Yong 267; Chen Guying 262子獨不知至德之世乎？昔者容成氏、大庭氏、伯皇氏、中央氏、栗陸氏、驪畜氏、軒轅氏、赫胥氏、尊盧氏、祝融氏、伏戲氏、神農氏，當是時也，民結繩而用之，
+
+ZHUANG 10.2.2 Guo Qingfan 357; Wang Shumin 360; Fang Yong 267; Chen Guying 262甘其食，美其服，樂其俗，安其居，鄰國相望，雞狗之音相聞，民至老死而不相往來。
+
+ZHUANG 10.2.3 Guo Qingfan 357; Wang Shumin 360; Fang Yong 267; Chen Guying 262若此之時，則至治已。今遂至使民延頸舉踵曰：「某所有賢者。」贏糧而趣之，
+
+ZHUANG 10.2.4 Guo Qingfan 357; Wang Shumin 360; Fang Yong 267; Chen Guying 262則內棄其親而外去其主之事，足跡接乎諸侯之境，車軌結乎千里之外。則是上好知之過也。
+
+ZHUANG 10.2.5 Guo Qingfan 359; Wang Shumin 362; Fang Yong 267; Chen Guying 263上誠好知而无道，則天下大亂矣。何以知其然邪？
+
+ZHUANG 10.2.6 Guo Qingfan 359; Wang Shumin 362; Fang Yong 267; Chen Guying 263夫弓弩畢弋機變之知多，則鳥亂於上矣；鉤餌網罟罾笱之知多，則魚亂於水矣；削格羅落罝罘之知多，則獸亂於澤矣；知詐漸毒頡滑堅白解垢同異之變多，則俗惑於辯矣。
+
+ZHUANG 10.2.7 Guo Qingfan 359; Wang Shumin 362; Fang Yong 267; Chen Guying 263故天下每每大亂，罪在於好知。故天下皆知求其所不知而莫知求其所已知者，皆知非其所不善而莫知非其所已善者，是以大亂。故上悖日月之明，下爍山川之精，中墮四時之施；
+
+ZHUANG 10.2.8 Guo Qingfan 359; Wang Shumin 362; Fang Yong 268; Chen Guying 263惴耎之蟲，肖翹之物，莫不失其性。甚矣夫好知之亂天下也！
+
+ZHUANG 10.2.9 Guo Qingfan 359; Wang Shumin 362; Fang Yong 268; Chen Guying 263自三代以下者是已，舍夫種種之民，而悅夫役役之佞，釋夫恬淡无為而悅夫啍啍之意，啍啍已亂天下矣！
+
+### KR5c0126_011.txt
+
+ZHUANG 11.1.1 Guo Qingfan 364; Wang Shumin 371; Fang Yong 274; Chen Guying 268聞在宥天下，不聞治天下也。在之也者，恐天下之淫其性也；宥之也者，恐天下之遷其德也。天下不淫其性，不遷其德，有治天下者哉！
+
+ZHUANG 11.1.2 Guo Qingfan 364; Wang Shumin 371; Fang Yong 274; Chen Guying 268昔堯之治天下也，使天下欣欣焉人樂其性，是不恬也；桀之治天下也，使天下瘁瘁焉人苦其性，是不愉也。夫不恬不愉，非德也。非德也而可長久者，天下无之。
+
+ZHUANG 11.1.3 Guo Qingfan 365; Wang Shumin 371; Fang Yong 274; Chen Guying 268人大喜邪？毗於陽；大怒邪？毗於陰。陰陽并毗，四時不至，寒暑之和不成，其反傷人之形乎！
+
+ZHUANG 11.1.4 Guo Qingfan 365; Wang Shumin 371; Fang Yong 274; Chen Guying 268使人喜怒失位，居處无常，思慮不自得，中道不成章，於是乎天下始喬詰卓鷙，而後有盜跖曾史之行。
+
+ZHUANG 11.1.5 Guo Qingfan 365; Wang Shumin 371; Fang Yong 274; Chen Guying 268故舉天下以賞其善者不足，舉天下以罰其惡者不給，故天下之大不足以賞罰。自三代以下者，匈匈焉終以賞罰為事，彼何暇安其性命之情哉！<pb:KR5c0126_CHANT_011-3a>
+
+ZHUANG 11.1.6 Guo Qingfan 367; Wang Shumin 375; Fang Yong 274; Chen Guying 271而且說明邪？是淫於色也；說聰邪？是淫於聲也；說仁邪？是亂於德也；說義邪？是悖於理也；
+
+ZHUANG 11.1.7 Guo Qingfan 367; Wang Shumin 375; Fang Yong 274; Chen Guying 271說禮邪？是相於技也；說樂邪？是相於淫也；說聖邪？是相於藝也；說知邪？是相於疵也。
+
+ZHUANG 11.1.8 Guo Qingfan 367; Wang Shumin 375; Fang Yong 274; Chen Guying 271天下將安其性命之情，之八者，存可也，亡可也；
+
+ZHUANG 11.1.9 Guo Qingfan 367; Wang Shumin 375; Fang Yong 274; Chen Guying 271天下將不安其性命之情，之八者，乃始臠卷傖囊而亂天下也。而天下乃始尊之惜之，甚矣天下之惑也！
+
+ZHUANG 11.1.10 Guo Qingfan 367; Wang Shumin 375; Fang Yong 274; Chen Guying 271豈直過也而去之邪！乃齊戒以言之，跪坐以進之，鼓歌以儛之，吾若是何哉！<pb:KR5c0126_CHANT_011-4a>
+
+ZHUANG 11.1.11 Guo Qingfan 369; Wang Shumin 375; Fang Yong 275; Chen Guying 271故君子不得已而臨莅天下，莫若无為。无為也而後安其性命之情。故貴以身於為天下，則可以託天下；
+
+ZHUANG 11.1.12 Guo Qingfan 369; Wang Shumin 375; Fang Yong 275; Chen Guying 271愛以身於為天下，則可以寄天下。故君子苟能无解其五藏，无擢其聰明；尸居而龍見，淵默而雷聲，
+
+ZHUANG 11.1.13 Guo Qingfan 369; Wang Shumin 375; Fang Yong 275; Chen Guying 271神動而天隨，從容无為而萬物炊累焉。吾又何暇治天下哉！<pb:KR5c0126_CHANT_011-5a>
+
+ZHUANG 11.2.1 Guo Qingfan 371; Wang Shumin 379; Fang Yong 279; Chen Guying 273崔瞿問於老聃曰：「不治天下，安臧人心？」老聃曰：「汝慎无攖人心。人心排下而進上，上下囚殺，
+
+ZHUANG 11.2.2 Guo Qingfan 371; Wang Shumin 379; Fang Yong 279; Chen Guying 273淖約柔乎剛彊。廉劌彫琢，其熱焦火，其寒凝冰。其疾俛仰之間，而再撫四海之外，
+
+ZHUANG 11.2.3 Guo Qingfan 371; Wang Shumin 379; Fang Yong 279; Chen Guying 273其居也淵而靜，其動也縣而天。僨驕而不可係者，其唯人心乎！」<pb:KR5c0126_CHANT_011-6a>
+
+ZHUANG 11.2.4 Guo Qingfan 373; Wang Shumin 379; Fang Yong 279; Chen Guying 273昔者黃帝始以仁義攖人之心，堯舜於是乎股无胈，脛无毛，以養天下之形，愁其五藏以為仁義，矜其血氣以規法度。
+
+ZHUANG 11.2.5 Guo Qingfan 373; Wang Shumin 379; Fang Yong 279; Chen Guying 273然猶有不勝也，堯於是放讙兜於崇山，投三苗於三峗，流共工於幽都，此不勝天下也。
+
+ZHUANG 11.2.6 Guo Qingfan 373; Wang Shumin 379; Fang Yong 279; Chen Guying 273夫施及三王而天下大駭矣。下有桀跖，上有曾史，而儒墨畢起。於是乎喜怒相疑，愚知相欺，善否相非，誕信相譏，而天下衰矣；
+
+ZHUANG 11.2.7 Guo Qingfan 373; Wang Shumin 379; Fang Yong 279; Chen Guying 274大德不同，而性命爛漫矣；天下好知，而百姓求竭矣。於是乎釿鋸制焉，繩墨殺焉，椎鑿決焉。天下脊脊大亂，罪在攖人心。
+
+ZHUANG 11.2.8 Guo Qingfan 373; Wang Shumin 379; Fang Yong 279; Chen Guying 274故賢者伏處大山嵁巖之下，而萬乘之君憂慄乎廟堂之上。
+
+ZHUANG 11.2.9 Guo Qingfan 377; Wang Shumin 385; Fang Yong 279; Chen Guying 274今世殊死者相枕也，桁楊者相推也，刑戮者相望也，而儒墨乃始離跂攘臂乎桎梏之間。意，甚矣哉！其无愧而不知恥也甚矣！
+
+ZHUANG 11.2.10 Guo Qingfan 377; Wang Shumin 385; Fang Yong 279; Chen Guying 274吾未知聖知之不為桁楊椄槢也，仁義之不為桎梏鑿枘也，焉知曾史之不為桀跖嚆矢也！故曰：「絕聖棄知，而天下大治。」<pb:KR5c0126_CHANT_011-8a>
+
+ZHUANG 11.3.1 Guo Qingfan 379; Wang Shumin 387; Fang Yong 2i4; Chen Guying 278黃帝立為天子十九年，令行天下，聞廣成子在於空同之上，故往見之，曰：「我聞吾子達於至道，
+
+ZHUANG 11.3.2 Guo Qingfan 379; Wang Shumin 387; Fang Yong 2i4; Chen Guying 278敢問至道之精。吾欲取天地之精，以佐五穀，以養民人，吾又欲官陰陽，以遂群生，為之柰何？」
+
+ZHUANG 11.3.3 Guo Qingfan 380; Wang Shumin 387; Fang Yong 2i4; Chen Guying 278廣成子曰：「而所欲問者，物之質也；而所欲官者，物之殘也。自而治天下，雲氣不待族而雨，草木不待黃而落，日月之光益以荒矣。而佞人之心翦翦者，又奚足以語至道！」<pb:KR5c0126_CHANT_011-9a>
+
+ZHUANG 11.3.4 Guo Qingfan 3i1; Wang Shumin 389; Fang Yong 2i4; Chen Guying 279黃帝退，捐天下，築特室，席白茅，間居三月，復往邀之。廣成子南首而臥，黃帝順下風膝行而進，
+
+ZHUANG 11.3.5 Guo Qingfan 3i1; Wang Shumin 389; Fang Yong 2i4; Chen Guying 279再拜稽首而問曰：「聞吾子達於至道，敢問，治身柰何而可以長久？」廣成子蹶然而起，曰：「善哉問乎！來！吾語女至道。至道之精，窈窈冥冥；至道之極，昏昏默默。
+
+ZHUANG 11.3.6 Guo Qingfan 3i1; Wang Shumin 389; Fang Yong 2i4; Chen Guying 279无視无聽，抱神以靜，形將自正。必靜必清，无勞女形，无搖女精，乃可以長生。
+
+ZHUANG 11.3.7 Guo Qingfan 3i1; Wang Shumin 389; Fang Yong 2i4; Chen Guying 279目无所見，耳无所聞，心无所知，女神將守形，形乃長生。慎女內，閉女外，多知為敗。
+
+ZHUANG 11.3.8 Guo Qingfan 3i1; Wang Shumin 389; Fang Yong 2i4; Chen Guying 279我為女遂於大明之上矣，至彼至陽之原也；為女入於窈冥之門矣，至彼至陰之原也。天地有官，陰陽有藏，慎守女身，物將自壯。
+
+ZHUANG 11.3.9 Guo Qingfan 3i1; Wang Shumin 389; Fang Yong 2i4; Chen Guying 279我守其一以處其和，故我脩身千二百歲矣，吾形未常衰。」黃帝再拜稽首曰：「廣成子之謂天矣！」<pb:KR5c0126_CHANT_011-10a>
+
+ZHUANG 11.3.10 Guo Qingfan 3i3; Wang Shumin 392; Fang Yong 2i4; Chen Guying 279廣成子曰：「來！余語女。彼其物无窮，而人皆以為有終；彼其物无測，而人皆以為有極。得吾道者，上為皇而下為王；
+
+ZHUANG 11.3.11 Guo Qingfan 3i3; Wang Shumin 392; Fang Yong 2i4; Chen Guying 279失吾道者，上見光而下為土。今夫百昌皆生於土而反於土，故余將去女，入无窮之門，以遊无極之野。
+
+ZHUANG 11.3.12 Guo Qingfan 3i4; Wang Shumin 392; Fang Yong 285; Chen Guying 279吾與日月參光，吾與天地為常。當我，緡乎！遠我，昏乎！人其盡死，而我獨存乎！」<pb:KR5c0126_CHANT_011-11a>
+
+ZHUANG 11.4.1 Guo Qingfan 385; Wang Shumin 394; Fang Yong 288; Chen Guying 2i3雲將東遊，過扶搖之枝，而適遭鴻蒙。鴻蒙方將拊脾雀躍而遊。
+
+ZHUANG 11.4.2 Guo Qingfan 385; Wang Shumin 394; Fang Yong 288; Chen Guying 2i3雲將見之，倘然止，贄然立，曰：「叟何人邪？叟何為此？」鴻蒙拊脾雀躍不輟，對雲將曰：「遊！」
+
+ZHUANG 11.4.3 Guo Qingfan 386; Wang Shumin 394; Fang Yong 288; Chen Guying 2i3雲將曰：「朕願有問也。」鴻蒙仰而視雲將曰：「吁！」雲將曰：「天氣不和，地氣鬱結，六氣不調，四時不節。今我願合六氣之精以育群生，為之柰何？」
+
+ZHUANG 11.4.4 Guo Qingfan 386; Wang Shumin 394; Fang Yong 288; Chen Guying 2i3鴻蒙拊脾雀躍掉頭曰：「吾弗知！吾弗知！」雲將不得問。
+
+ZHUANG 11.4.5 Guo Qingfan 387; Wang Shumin 394; Fang Yong 288; Chen Guying 2i3又三年，東遊，過有宋之野而適遭鴻蒙。雲將大喜，行趨而進曰：「天忘朕邪？天忘朕邪？」再拜稽首，願聞於鴻蒙。
+
+ZHUANG 11.4.6 Guo Qingfan 388; Wang Shumin 396; Fang Yong 288; Chen Guying 2i3鴻蒙曰：「浮遊，不知所求；猖狂，不知所往；遊者鞅掌，以觀无妄。朕又何知！」
+
+ZHUANG 11.4.7 Guo Qingfan 388; Wang Shumin 396; Fang Yong 288; Chen Guying 2i3雲將曰：「朕也自以為猖狂，而民隨予所往；朕也不得已於民，今則民之放也。願聞一言。」
+
+ZHUANG 11.4.8 Guo Qingfan 389; Wang Shumin 396; Fang Yong 288; Chen Guying 2i4鴻蒙曰：「亂天之經，逆物之情，玄天弗成；解獸之群，而鳥皆夜鳴；災及草木，禍及止蟲。意，治人之過也！」
+
+ZHUANG 11.4.9 Guo Qingfan 389; Wang Shumin 396; Fang Yong 289; Chen Guying 2i4雲將曰：「然則吾柰何？」鴻蒙曰：「意，毒哉！僊僊乎歸矣。」
+
+ZHUANG 11.4.10 Guo Qingfan 390; Wang Shumin 396; Fang Yong 289; Chen Guying 2i4雲將曰：「吾遇天難，願聞一言。」鴻蒙曰：「意！心養。汝徒處无為，而物自化。
+
+ZHUANG 11.4.11 Guo Qingfan 390; Wang Shumin 396; Fang Yong 289; Chen Guying 2i4墮爾形體，吐爾聰明，倫與物忘；大同乎涬溟，解心釋神，莫然无魂。萬物云云，各復其根，各復其根而不知；
+
+ZHUANG 11.4.12 Guo Qingfan 390; Wang Shumin 396; Fang Yong 289; Chen Guying 2i4渾渾沌沌，終身不離；若彼知之，乃是離之。无問其名，无闚其情，物故自生。」
+
+ZHUANG 11.4.13 Guo Qingfan 390; Wang Shumin 396; Fang Yong 289; Chen Guying 2i4雲將曰：「天降朕以德，示朕以默；躬身求之，乃今也得。」再拜稽首，起辭而行。
+
+ZHUANG 11.5.1 Guo Qingfan 392; Wang Shumin 402; Fang Yong 293; Chen Guying 288世俗之人，皆喜人之同乎己，而惡人之異於己也。同於己而欲之，異於己而不欲者，以出乎眾為心也。夫以出乎眾為心者，曷常出乎眾哉！
+
+ZHUANG 11.5.2 Guo Qingfan 392; Wang Shumin 402; Fang Yong 293; Chen Guying 288因眾以寧所聞，不如眾技眾矣。而欲為人之國者，此攬乎三王之利而不見其患者也。此以人之國僥倖也，幾何僥倖而不喪人之國乎！
+
+ZHUANG 11.5.3 Guo Qingfan 392; Wang Shumin 402; Fang Yong 293; Chen Guying 288其存人之國也，无萬分之一；而喪人之國也，一不成而萬有餘喪矣。悲夫，有土者之不知也！
+
+ZHUANG 11.5.4 Guo Qingfan 394; Wang Shumin 402; Fang Yong 293; Chen Guying 288夫有土者，有大物也。有大物者，不可以物；物而不物，故能物物。明乎物物者之非物也，豈獨治天下百姓而已哉！
+
+ZHUANG 11.5.5 Guo Qingfan 394; Wang Shumin 402; Fang Yong 293; Chen Guying 288出入六合，遊乎九州，獨往獨來，是謂獨有。獨有之人，是之謂至貴。
+
+ZHUANG 11.5.6 Guo Qingfan 395; Wang Shumin 405; Fang Yong 293; Chen Guying 290大人之教，若形之於影，聲之於嚮。有問而應之，盡其所懷，為天下配。處乎无嚮，行乎无方。挈汝適復之撓撓，以遊无端；
+
+ZHUANG 11.5.7 Guo Qingfan 395; Wang Shumin 405; Fang Yong 293; Chen Guying 288出入无旁，與日无始；頌論形軀，合乎大同，大同而无己。无已，惡乎得有有！
+
+ZHUANG 11.5.8 Guo Qingfan 395; Wang Shumin 405; Fang Yong 293; Chen Guying 288覩有者，昔之君子；覩无者，天地之友。
+
+ZHUANG 11.5.9 Guo Qingfan 398; Wang Shumin 407; Fang Yong 296; Chen Guying 288賤而不可不任者，物也；卑而不可不因者，民也；匿而不可不為者，事也；麤而不可不陳者，法也；
+
+ZHUANG 11.5.10 Guo Qingfan 398; Wang Shumin 407; Fang Yong 296; Chen Guying 288遠而不可不居者，義也；親而不可不廣者，仁也；節而不可不積者，禮也；中而不可不高者，德也；一而不可不易者，道也；神而不可不為者，天也。
+
+ZHUANG 11.5.11 Guo Qingfan 398; Wang Shumin 407; Fang Yong 296; Chen Guying 288故聖人觀於天而不助，成於德而不累，出於道而不謀，會於仁而不恃，
+
+ZHUANG 11.5.12 Guo Qingfan 398; Wang Shumin 407; Fang Yong 297; Chen Guying 288薄於義而不積，應於禮而不諱，接於事而不辭，齊於法而不亂，恃於民而不輕，因於物而不去。
+
+ZHUANG 11.5.13 Guo Qingfan 398; Wang Shumin 407; Fang Yong 297; Chen Guying 288物者莫足為也，而不可不為。不明於天者，不純於德；不通於道者，无自而可；不明於道者，悲夫！
+
+ZHUANG 11.5.14 Guo Qingfan 401; Wang Shumin 408; Fang Yong 297; Chen Guying 288何謂道？有天道，有人道。无為而尊者，天道也；有為而累者，人道也。
+
+ZHUANG 11.5.15 Guo Qingfan 401; Wang Shumin 408; Fang Yong 297; Chen Guying 288主者，天道也；臣者，人道也。天道之與人道也，相去遠矣，不可不察也。
+
+### KR5c0126_012.txt
+
+ZHUANG 12.1.1 Guo Qingfan 403; Wang Shumin 413; Fang Yong 303; Chen Guying 295天地雖大，其化均也；萬物雖多，其治一也；人卒雖眾，其主君也。君原於德而成於天，
+
+ZHUANG 12.1.2 Guo Qingfan 403; Wang Shumin 413; Fang Yong 303; Chen Guying 295故曰：「玄古之君天下，无為也，天德而已矣。」
+
+ZHUANG 12.1.3 Guo Qingfan 404; Wang Shumin 413; Fang Yong 303; Chen Guying 295以道觀言而天下之君正，以道觀分而君臣之義明，以道觀能而天下之官治，以道汎觀而萬物之應備。
+
+ZHUANG 12.1.4 Guo Qingfan 404; Wang Shumin 413; Fang Yong 303; Chen Guying 295故通於天地者，德也；行於萬物者，道也；上治人者，事也；能有所藝者，技也。
+
+ZHUANG 12.1.5 Guo Qingfan 404; Wang Shumin 413; Fang Yong 303; Chen Guying 295技兼於事，事兼於義，義兼於德，德兼於道，道兼於天。故曰：「古之畜天下者，无欲而天下足，无為而萬物化，淵靜而百姓定。」
+
+ZHUANG 12.1.6 Guo Qingfan 404; Wang Shumin 413; Fang Yong 303; Chen Guying 295《記》曰：「通於一而萬事畢。无心得而鬼神服。」<pb:KR5c0126_CHANT_012-2a>
+
+ZHUANG 12.2.1 Guo Qingfan 406; Wang Shumin 413; Fang Yong 303; Chen Guying 297夫子曰：「夫道覆載天地，化生萬物者也，洋洋乎大哉！君子不可以不刳心焉。无為為之之謂天，无為言之之謂德，愛人利物之謂仁，不同同之之謂大，行不崖異之謂寬，有萬不同之謂富。故執德之謂紀，德成之謂立，循於道之謂備，不以物挫志之謂完。
+
+ZHUANG 12.2.2 Guo Qingfan 406; Wang Shumin 413; Fang Yong 303; Chen Guying 298君子明於此十者，則韜乎其事心之大也，沛乎其為萬物逝也。
+
+ZHUANG 12.2.3 Guo Qingfan 406; Wang Shumin 413; Fang Yong 303; Chen Guying 298若然者，藏金於山，藏珠於淵，不利貨財，不近貴富；不樂壽，不哀夭：不榮通，不醜窮；
+
+ZHUANG 12.2.4 Guo Qingfan 406; Wang Shumin 413; Fang Yong 303; Chen Guying 298不拘一世之利以為己私分，不以王天下為己處顯。顯則明，萬物一府，死生同狀。」<pb:KR5c0126_CHANT_012-3a>
+
+ZHUANG 12.3.1 Guo Qingfan 411; Wang Shumin 421; Fang Yong 303; Chen Guying 299夫子曰：「夫道，淵乎其居也，漻乎其清也。金石不得，无以鳴。故金石有聲，不考不鳴。萬物孰能定之！
+
+ZHUANG 12.3.2 Guo Qingfan 411; Wang Shumin 421; Fang Yong 303; Chen Guying 300夫王德之人，素逝而恥通於事，立之本原而知通於神。故其德廣，其心之出，有物採之。
+
+ZHUANG 12.3.3 Guo Qingfan 411; Wang Shumin 421; Fang Yong 303; Chen Guying 300故形非道不生，生非德不明。存形窮生，立德明道，非王德者邪！蕩蕩乎！忽然出，勃然動，而萬物從之乎！此謂王德之人。
+
+ZHUANG 12.3.4 Guo Qingfan 411; Wang Shumin 421; Fang Yong 303; Chen Guying 300視乎冥冥，聽乎无聲。冥冥之中，獨見曉焉；无聲之中，獨聞和焉。
+
+ZHUANG 12.3.5 Guo Qingfan 411; Wang Shumin 421; Fang Yong 303; Chen Guying 300故深之又深而能物焉，神之又神而能精焉；故其與萬物接也，至无而供其求，時騁而要其宿，大小長短脩遠，各有其具。」
+
+ZHUANG 12.4.1 Guo Qingfan 414; Wang Shumin 424; Fang Yong 311; Chen Guying 302黃帝遊乎赤水之北，登乎崑崙之丘而南望，還歸，遺其玄珠。使知索之而不得，使離朱索之而不得，使喫詬索之而不得也。乃使象罔，象罔得之。
+
+ZHUANG 12.4.2 Guo Qingfan 414; Wang Shumin 424; Fang Yong 311; Chen Guying 302黃帝曰：「異哉！象罔乃可以得之乎？」<pb:KR5c0126_CHANT_012-5a>
+
+ZHUANG 12.5.1 Guo Qingfan 415; Wang Shumin 426; Fang Yong 312; Chen Guying 303堯之師曰許由，許由之師曰齧缺，齧缺之師曰王倪，王倪之師曰被衣。
+
+ZHUANG 12.5.2 Guo Qingfan 416; Wang Shumin 426; Fang Yong 312; Chen Guying 303堯問於許由曰：「齧缺可以配天乎？吾藉王倪以要之。」
+
+ZHUANG 12.5.3 Guo Qingfan 416; Wang Shumin 426; Fang Yong 312; Chen Guying 303許由曰：「殆哉圾乎天下！齧缺之為人也，聰明叡知，給數以敏，其性過人，而又乃以人受天。彼審乎禁過，而不知過之所由生。
+
+ZHUANG 12.5.4 Guo Qingfan 416; Wang Shumin 426; Fang Yong 312; Chen Guying 303與之配天乎？彼且乘人而无天，方且本身而異形，方且尊知而火馳，
+
+ZHUANG 12.5.5 Guo Qingfan 416; Wang Shumin 426; Fang Yong 312; Chen Guying 303方且為緒使，方且為物絯，方且四顧而物應，方且應眾宜，方且與物化而未始有恆。夫何足以配天乎？
+
+ZHUANG 12.5.6 Guo Qingfan 416; Wang Shumin 426; Fang Yong 312; Chen Guying 304雖然，有族有祖，可以為眾父，而不可以為眾父父。治，亂之率也，北面之禍也，南面之賊也。」<pb:KR5c0126_CHANT_012-6a>
+
+ZHUANG 12.6.1 Guo Qingfan 420; Wang Shumin 430; Fang Yong 314; Chen Guying 306堯觀乎華。華封人曰：「嘻，聖人！請祝聖人，使聖人壽。」
+
+ZHUANG 12.6.2 Guo Qingfan 420; Wang Shumin 430; Fang Yong 314; Chen Guying 306堯曰：「辭。」「使聖人富。」堯曰：「辭。」「使聖人多男子。」堯曰：「辭。」
+
+ZHUANG 12.6.3 Guo Qingfan 420; Wang Shumin 430; Fang Yong 314; Chen Guying 306封人曰：「壽、富、多男子，人之所欲也。女獨不欲，何邪？」
+
+ZHUANG 12.6.4 Guo Qingfan 420; Wang Shumin 430; Fang Yong 314; Chen Guying 306堯曰：「多男子則多懼，富則多事，壽則多辱。是三者，非所以養德也，故辭。」<pb:KR5c0126_CHANT_012-7a>
+
+ZHUANG 12.6.5 Guo Qingfan 421; Wang Shumin 430; Fang Yong 315; Chen Guying 306封人曰：「始也我以女為聖人邪，今然君子也。天生萬民，必授之職。多男子而授之職，則何懼之有！富而使人分之，則何事之有！
+
+ZHUANG 12.6.6 Guo Qingfan 421; Wang Shumin 430; Fang Yong 315; Chen Guying 306夫聖人，鶉居而鷇食，鳥行而无彰；天下有道，則與物皆昌；天下无道，則脩德就間；千歲厭世，去而上僊；乘彼白雲，至于帝鄉；
+
+ZHUANG 12.6.7 Guo Qingfan 421; Wang Shumin 430; Fang Yong 315; Chen Guying 306三患莫至，身常无殃；則何辱之有！」
+
+ZHUANG 12.6.8Guo Qingfan 422; Wang Shumin 430; Fang Yong 315; Chen Guying 306封人去之。堯隨之，曰：「請問。」
+
+ZHUANG 12.6.9 Guo Qingfan 422; Wang Shumin 430; Fang Yong 315; Chen Guying 306封人曰：「退已！」<pb:KR5c0126_CHANT_012-8a>
+
+ZHUANG 12.7.1 Guo Qingfan 423; Wang Shumin 432; Fang Yong 316; Chen Guying 308堯治天下，伯成子高立為諸侯。堯授舜，舜授禹，伯成子高辭為諸侯而耕。禹往見之，則耕在野。
+
+ZHUANG 12.7.2 Guo Qingfan 423; Wang Shumin 432; Fang Yong 316; Chen Guying 308禹趨就下風，立而問焉，曰：「昔堯治天下，吾子立為諸侯。堯授舜，舜授予，而吾子辭為諸侯而耕，敢問其故何也？」
+
+ZHUANG 12.7.3 Guo Qingfan 423; Wang Shumin 432; Fang Yong 316; Chen Guying 308子高曰：「昔堯治天下，不賞而民勸，不罰而民畏。今子賞罰而民且不仁，德自此衰，刑自此立，後世之亂自此始矣。夫子闔行邪？无落吾事！」俋俋乎耕而不顧。
+
+ZHUANG 12.8.1 Guo Qingfan 424; Wang Shumin 432; Fang Yong 317; Chen Guying 308泰初有无，无有无名；一之所起，有一而未形。物得以生，謂之德；未形者有分，且然无間，謂之命；
+
+ZHUANG 12.8.2 Guo Qingfan 424; Wang Shumin 432; Fang Yong 317; Chen Guying 308留動而生物，物成生理，謂之形；形體保神，各有儀則，謂之性。性脩反德，德至同於初。
+
+ZHUANG 12.8.3 Guo Qingfan 424; Wang Shumin 432; Fang Yong 318; Chen Guying 308同乃虛，虛乃大。合喙鳴；喙鳴合，與天地為合。其合緡緡，若愚若昏，是謂玄德，同乎大順。
+
+ZHUANG 12.9.1 Guo Qingfan 427; Wang Shumin 437; Fang Yong 320; Chen Guying 312夫子問于老聃曰：「有人治道若相放，可不可，然不然。辯者有言曰，『離堅白若縣㝢。』若是則可謂聖人乎？」
+
+ZHUANG 12.9.2 Guo Qingfan 427; Wang Shumin 437; Fang Yong 320; Chen Guying 312老聃曰：「是胥易技係勞形怵心者也。執留之狗成累，猨狙之便自山林來。丘，予告若，而所不能聞與而所不能言。
+
+ZHUANG 12.9.3 Guo Qingfan 427; Wang Shumin 437; Fang Yong 320; Chen Guying 312凡有首有趾无心无耳者眾，有形者與无形无狀而皆存者盡无。其動，止也；其死，生也；其廢，起也。此又非其所以也。有治在人，
+
+ZHUANG 12.9.4 Guo Qingfan 428; Wang Shumin 437; Fang Yong 320; Chen Guying 312忘乎物，忘乎天，其名為忘己。忘己之人，是之謂入於天。」<pb:KR5c0126_CHANT_012-11a>
+
+ZHUANG 12.10.1 Guo Qingfan 430; Wang Shumin 441; Fang Yong 322; Chen Guying 314將閭葂見季徹曰：「魯君謂葂也曰：『請受教。』辭不獲命，既已告矣，未知中否，請嘗薦之。吾謂魯君曰：
+
+ZHUANG 12.10.2 Guo Qingfan 430; Wang Shumin 441; Fang Yong 323; Chen Guying 314『必服恭儉，拔出公忠之屬而无阿私，民孰敢不輯！』」
+
+ZHUANG 12.10.3 Guo Qingfan 430; Wang Shumin 441; Fang Yong 322; Chen Guying 315季徹局局然笑曰：「若夫子之言，於帝王之德，猶螳蜋之怒臂以當車軼，則必不勝任矣。
+
+ZHUANG 12.10.4 Guo Qingfan 430; Wang Shumin 441; Fang Yong 323; Chen Guying 315且若是，則其自為遽，危其觀臺，多物將往，投迹者眾。」<pb:KR5c0126_CHANT_012-12a>
+
+ZHUANG 12.10.5 Guo Qingfan 431; Wang Shumin 441; Fang Yong 323; Chen Guying 315將閭葂覤覤然驚曰：「葂也汒若於夫子之所言矣。雖然，願先生之言其風也。」
+
+ZHUANG 12.10.6 Guo Qingfan 432; Wang Shumin 441; Fang Yong 323; Chen Guying 315季徹曰：「大聖之治天下也，搖蕩民心，使之成教易俗，舉滅其賊心而皆進其獨志，若性之自為，而民不知其所由然。
+
+ZHUANG 12.10.7 Guo Qingfan 432; Wang Shumin 441; Fang Yong 323; Chen Guying 315若然者，豈兄堯舜之教民，溟涬然弟之哉？欲同乎德而心居矣。」<pb:KR5c0126_CHANT_012-13a>
+
+ZHUANG 12.11.1 Guo Qingfan 433; Wang Shumin 444; Fang Yong 325; Chen Guying 318子貢南遊於楚，反於晉，過漢陰，見一丈人方將為圃畦，鑿隧而入井，抱甕而出灌，搰搰然用力甚多而見功寡。
+
+ZHUANG 12.11.2 Guo Qingfan 433; Wang Shumin 444; Fang Yong 325; Chen Guying 318子貢曰：「有械於此，一日浸百畦，用力甚寡而見功多，夫子不欲乎？」
+
+ZHUANG 12.11.3 Guo Qingfan 433; Wang Shumin 444; Fang Yong 325; Chen Guying 318為圃者卬而視之曰：「柰何？」曰：「鑿木為機，後重前輕，挈水若抽，數如泆湯，其名為槔。」
+
+ZHUANG 12.11.4 Guo Qingfan 433; Wang Shumin 444; Fang Yong 325; Chen Guying 318為圃者忿然作色而笑曰：「吾聞之吾師，有機械者必有機事，有機事者必有機心。機心存於胸中，則純白不備，純白不備，則神生不定；
+
+ZHUANG 12.11.5 Guo Qingfan 433; Wang Shumin 444; Fang Yong 326; Chen Guying 318神生不定者，道之所不載也。吾非不知，羞而不為也。」<pb:KR5c0126_CHANT_012-14a>
+
+ZHUANG 12.11.6 Guo Qingfan 434; Wang Shumin 444; Fang Yong 326; Chen Guying 318子貢瞞然慚，俯而不對。
+
+ZHUANG 12.11.7 Guo Qingfan 435; Wang Shumin 445; Fang Yong 326; Chen Guying 318有間，為圃者曰：「子奚為者邪？」
+
+ZHUANG 12.11.8 Guo Qingfan 435; Wang Shumin 445; Fang Yong 325; Chen Guying 318曰：「孔丘之徒也。」
+
+ZHUANG 12.11.9 Guo Qingfan 435; Wang Shumin 445; Fang Yong 326; Chen Guying 318為圃者曰：「子非夫博學以擬聖，於于以蓋眾，獨弦哀歌以賣名聲於天下者乎？汝方將忘汝神氣，墮汝形骸，而庶幾乎！而身之不能治，而何暇治天下乎！子往矣，无乏吾事！」
+
+ZHUANG 12.11.10 Guo Qingfan 436; Wang Shumin 445; Fang Yong 326; Chen Guying 319子貢卑陬失色，頊頊然不自得，行三十里而後愈。
+
+ZHUANG 12.11.11 Guo Qingfan 436; Wang Shumin 450; Fang Yong 326; Chen Guying 319其弟子曰：「向之人何為者邪？夫子何故見之變容失色，終日不自反邪？」
+
+ZHUANG 12.11.12 Guo Qingfan 436; Wang Shumin 450; Fang Yong 326; Chen Guying 319曰：「始吾夫子以為天下一人耳，不知復有夫人也。吾聞之夫子，事求可，功求成。用力少，見功多者，聖人之道。
+
+ZHUANG 12.11.13 Guo Qingfan 436; Wang Shumin 450; Fang Yong 326; Chen Guying 319今徒不然。執道者德全，德全者形全，形全者神全。神全者，聖人之道也。託生與民並行而不知其所之，
+
+ZHUANG 12.11.14 Guo Qingfan 436; Wang Shumin 450; Fang Yong 326; Chen Guying 319汒乎淳備哉！功利機巧必忘夫人之心。若夫人者，非其志不之，非其心不為。雖以天下譽之，得其所謂，謷然不顧；以天下非之，失其所謂，儻然不受。
+
+ZHUANG 12.11.15 Guo Qingfan 436; Wang Shumin 450; Fang Yong 326; Chen Guying 319天下之非譽，无益損焉，是謂全德之人哉！我之謂風波之民。」<pb:KR5c0126_CHANT_012-16a>
+
+ZHUANG 12.11.16 Guo Qingfan 438; Wang Shumin 450; Fang Yong 326; Chen Guying 319反於魯，以告孔子。孔子曰：「彼假脩渾沌氏之術者也；識其一，而不知其二；治其內，而不治其外。
+
+ZHUANG 12.11.17 Guo Qingfan 438; Wang Shumin 450; Fang Yong 326; Chen Guying 319夫明白入素，无為復朴，體性抱神，以遊世俗之間者，汝將固驚邪？且渾沌氏之術，予與汝何足以識之哉！」<pb:KR5c0126_CHANT_012-17a>
+
+ZHUANG 12.12.1 Guo Qingfan 439; Wang Shumin 453; Fang Yong 330; Chen Guying 323諄芒將東之大壑，適遇苑風於東海之濱。苑風曰：「子將奚之？」
+
+ZHUANG 12.12.2 Guo Qingfan 439; Wang Shumin 453; Fang Yong 330; Chen Guying 323曰：「將之大壑。」
+
+ZHUANG 12.12.3 Guo Qingfan 439; Wang Shumin 453; Fang Yong 330; Chen Guying 323曰：「奚為焉？」
+
+ZHUANG 12.12.4 Guo Qingfan 440; Wang Shumin 453; Fang Yong 330; Chen Guying 323曰：「夫大壑之為物也，注焉而不滿，酌焉而不竭；吾將遊焉。」
+
+ZHUANG 12.12.5 Guo Qingfan 440; Wang Shumin 453; Fang Yong 330; Chen Guying 323苑風曰：「夫子无意于橫目之民乎？願聞聖治。」
+
+ZHUANG 12.12.6 Guo Qingfan 440; Wang Shumin 453; Fang Yong 330; Chen Guying 323諄芒曰：「聖治乎？官施而不失其宜，拔舉而不失其能，畢見其情事而行其所為，行言自為而天下化，手撓顧指，四方之民莫不俱至，此之謂聖治。」<pb:KR5c0126_CHANT_012-18a>
+
+ZHUANG 12.12.7 Guo Qingfan 440; Wang Shumin 453; Fang Yong 330; Chen Guying 323「願聞德人。」
+
+ZHUANG 12.12.8 Guo Qingfan 441; Wang Shumin 455; Fang Yong 330; Chen Guying 324曰：「德人者，居无思，行无慮，不藏是非美惡。四海之內共利之之謂悅，共給之之為安；
+
+ZHUANG 12.12.9 Guo Qingfan 441; Wang Shumin 455; Fang Yong 330; Chen Guying 324怊乎若嬰兒之失其母也，儻乎若行而失其道也。財用有餘而不知其所自來，飲食取足而不知其所從，此謂德人之容。」<pb:KR5c0126_CHANT_012-19a>
+
+ZHUANG 12.12.10 Guo Qingfan 442; Wang Shumin 456; Fang Yong 330; Chen Guying 324「願聞神人。」
+
+ZHUANG 12.12.11 Guo Qingfan 442; Wang Shumin 456; Fang Yong 330; Chen Guying 324曰：「上神乘光，與形滅亡，此謂照曠。致命盡情，天地樂而萬事銷亡，萬物復情，此之謂混冥。」<pb:KR5c0126_CHANT_012-20a>
+
+ZHUANG 12.13.1 Guo Qingfan 443; Wang Shumin 457; Fang Yong 332; Chen Guying 326門无鬼與赤張滿稽觀於武王之師。赤張滿稽曰：「不及有虞氏乎！故離此患也。」
+
+ZHUANG 12.13.2 Guo Qingfan 444; Wang Shumin 457; Fang Yong 332; Chen Guying 326門无鬼曰：「天下均治而有虞氏治之邪？其亂而後治之與？」<pb:KR5c0126_CHANT_012-21a>
+
+ZHUANG 12.13.3 Guo Qingfan 444; Wang Shumin 458; Fang Yong 332; Chen Guying 326赤張滿稽曰：「天下均治之為願，而何計以有虞氏為！有虞氏之藥瘍也，禿而施髢，病而求醫。孝子操藥以脩慈父，其色燋然，聖人羞之。
+
+ZHUANG 12.13.4 Guo Qingfan 445; Wang Shumin 458; Fang Yong 332; Chen Guying 327至德之世，不尚賢，不使能；上如標校，民如野鹿；端正而不知以為義，相愛而不知以為仁，實而不知以為忠，當而不知以為信，蠢動而相使，不以為賜。是故行而無迹，事而無傳。」<pb:KR5c0126_CHANT_012-22a>
+
+ZHUANG 12.14.1 Guo Qingfan 447; Wang Shumin 459; Fang Yong 334; Chen Guying 328孝子不諛其親，忠臣不諂其君，臣子之盛也。親之所言而然，所行而善，則世俗謂之不肖子；君之所言而然，所行而善，則世俗謂之不肖臣。而未知此其必然邪？
+
+ZHUANG 12.14.2 Guo Qingfan 447; Wang Shumin 459; Fang Yong 335; Chen Guying 328世俗之所謂然而然之，所謂善而善之，則不謂之道諛之人也。然則俗故嚴於親而尊於君邪？謂己道人，則勃然作色；謂己諛人，則怫然作色。而終身道人也，終身諛人也，
+
+ZHUANG 12.14.3 Guo Qingfan 447; Wang Shumin 459; Fang Yong 335; Chen Guying 329合譬飾辭聚眾也，是終始本末不相坐。垂衣裳，設采色，動容貌，以媚一世，而不自謂道諛，
+
+ZHUANG 12.14.4 Guo Qingfan 447; Wang Shumin 459; Fang Yong 335; Chen Guying 329與夫人之為徒，通是非，而不自謂眾人，愚之至也。知其愚者，非大愚也；知其惑者，非大惑也。
+
+ZHUANG 12.14.5 Guo Qingfan 447; Wang Shumin 459; Fang Yong 335; Chen Guying 329大惑者，終身不解；大愚者，終身不靈。三人行而一人惑，所適者猶可致也，惑者少也；二人惑則勞而不至，惑者勝也。
+
+ZHUANG 12.14.6 Guo Qingfan 447; Wang Shumin 459; Fang Yong 335; Chen Guying 329而今也以天下惑，予雖有祈嚮，不可得也。不亦悲乎！<pb:KR5c0126_CHANT_012-23a>
+
+ZHUANG 12.14.7 Guo Qingfan 450; Wang Shumin 462; Fang Yong 335; Chen Guying 329大聲不入於里耳，《折楊》、《皇荂》，則嗑然而笑。是故高言不上於眾人之心，至言不出，俗言勝也。以二缶鍾惑，而所適不得矣。而今也以天下惑，予雖有祈嚮，其庸可得邪！
+
+ZHUANG 12.14.8 Guo Qingfan 450; Wang Shumin 462; Fang Yong 335; Chen Guying 329知其不可得也而強之，又一惑也，故莫若釋之而不推。不推，誰其比憂！厲之人夜半生其子，遽取火而視之，汲汲然唯恐其似己也。
+
+ZHUANG 12.15.1 Guo Qingfan 453; Wang Shumin 464; Fang Yong 338; Chen Guying 332百年之木，破為犧樽，青黃而文之，其斷在溝中。比犧樽於溝中之斷，則美惡有間矣，其於失性一也。跖與曾史，行義有間矣，然其失性均也。
+
+ZHUANG 12.15.2 Guo Qingfan 453; Wang Shumin 464; Fang Yong 338; Chen Guying 332且夫失性有五：一曰五色亂目，使目不明；二曰五聲亂耳，使耳不聰；三曰五臭薰鼻，困惾中顙；四曰五味濁口，使口厲爽；五曰趣舍滑心，使性飛揚。
+
+ZHUANG 12.15.3 Guo Qingfan 453; Wang Shumin 464; Fang Yong 338; Chen Guying 332此五者，皆生之害也。而楊墨乃始離跂自以為得，非吾所謂得也。夫得者困，可以為得乎？
+
+ZHUANG 12.15.4 Guo Qingfan 453; Wang Shumin 464; Fang Yong 338; Chen Guying 332則鳩鴞之在於籠也，亦可以為得矣。且夫趣舍聲色以柴其內，皮弁鷸冠搢笏紳脩以約其外，
+
+ZHUANG 12.15.5 Guo Qingfan 453; Wang Shumin 464; Fang Yong 338; Chen Guying 332內支盈於柴柵，外重纆繳，睆睆然在纆繳之中而自以為得，則是罪人交臂歷指，而虎豹在於囊檻，亦可以為得矣。
+
+### KR5c0126_013.txt
+
+ZHUANG 13.1.1 Guo Qingfan 457; Wang Shumin 471; Fang Yong 345; Chen Guying 336天道運而无所積，故萬物成；帝道運而无所積，故天下歸；聖道運而无所積，故海內服。
+
+ZHUANG 13.1.2 Guo Qingfan 457; Wang Shumin 471; Fang Yong 345; Chen Guying 337明於天，通於聖，六通四辟於帝王之德者，其自為也，昧然无不靜者矣。聖人之靜也，非曰靜也善，故靜也；萬物无足以鐃心者，故靜也。
+
+ZHUANG 13.1.3 Guo Qingfan 457; Wang Shumin 471; Fang Yong 345; Chen Guying 337水靜則明燭鬚眉，平中准，大匠取法焉。水靜猶明，而況精神！聖人之心靜乎！天地之鑒也，萬物之鏡也。
+
+ZHUANG 13.1.4 Guo Qingfan 457; Wang Shumin 471; Fang Yong 345; Chen Guying 337夫虛靜恬淡寂漠无為者，天地之平而道德之至，故帝王聖人休焉。休則虛，虛則實，實者倫矣。
+
+ZHUANG 13.1.5 Guo Qingfan 457; Wang Shumin 471; Fang Yong 345; Chen Guying 337虛則靜，靜則動，動則得矣。靜則无為，无為也則任事者責矣。无為則俞俞，俞俞者憂患不能處，年壽長矣。
+
+ZHUANG 13.1.6 Guo Qingfan 457; Wang Shumin 471; Fang Yong 345; Chen Guying 337夫虛靜恬淡寂漠无為者，萬物之本也。明此以南鄉，堯之為君也；明此以北面，舜之為臣也。以此處上，帝王天子之德也；以此處下，玄聖素王之道也。
+
+ZHUANG 13.1.7 Guo Qingfan 457; Wang Shumin 471; Fang Yong 345; Chen Guying 337以此退居而間游江海，山林之士服；以此進為而撫世，則功大名顯而天下一也。靜而聖，動而王，无為也而尊，樸素而天下莫能與之爭美。
+
+ZHUANG 13.2.1 Guo Qingfan 458; Wang Shumin 471; Fang Yong 345; Chen Guying 340夫明白於天地之德者，此之謂大本大宗，與天和者也；所以均調天下，與人和者也。與人和者，謂之人樂；與天和者，謂之天樂。
+
+ZHUANG 13.2.2 Guo Qingfan 462; Wang Shumin 475; Fang Yong 345; Chen Guying 340莊子曰：「吾師乎！吾師乎！𩐋萬物而不為戾，澤及萬世而不為仁，長於上古而不為壽，覆載天地刻彫眾形而不為巧，此之謂天樂。
+
+ZHUANG 13.2.3 Guo Qingfan 462; Wang Shumin 475; Fang Yong 345; Chen Guying 340故曰：『知天樂者，其生也天行，其死也物化。靜而與陰同德，動而與陽同波。』
+
+ZHUANG 13.2.4 Guo Qingfan 462; Wang Shumin 475; Fang Yong 345; Chen Guying 340故知天樂者，无天怨，无人非，无物累，无鬼責。故曰：『其動也天，其靜也地，
+
+ZHUANG 13.2.5 Guo Qingfan 462; Wang Shumin 475; Fang Yong 345; Chen Guying 340一心定而王天下；其鬼不祟，其魂不疲，一心定而萬物服。』言以虛靜推於天地，通於萬物，此之謂天樂。
+
+ZHUANG 13.2.6 Guo Qingfan 463; Wang Shumin 475; Fang Yong 345; Chen Guying 340天樂者，聖人之心，以畜天下也。」<pb:KR5c0126_CHANT_013-3a>
+
+ZHUANG 13.2.7 Guo Qingfan 465; Wang Shumin 476; Fang Yong 346; Chen Guying 340夫帝王之德，以天地為宗，以道德為主，以无為為常。无為也，則用天下而有餘；有為也，則為天下用而不足。故古之人貴夫无為也。
+
+ZHUANG 13.2.8 Guo Qingfan 465; Wang Shumin 476; Fang Yong 346; Chen Guying 340上无為也，下亦无為也，是下與上同德，下與上同德則不臣；下有為也，上亦有為也，是上與下同道，上與下同道則不主。
+
+ZHUANG 13.2.9 Guo Qingfan 465; Wang Shumin 476; Fang Yong 346; Chen Guying 340上必无為而用天下，下必有為為天下用，此不易之道也。
+
+ZHUANG 13.2.10 Guo Qingfan 465; Wang Shumin 476; Fang Yong 346; Chen Guying 340故古之王天下者，知雖落天地，不自慮也；辯雖彫萬物，不自說也；能雖窮海內，不自為也。
+
+ZHUANG 13.2.11 Guo Qingfan 465; Wang Shumin 476; Fang Yong 346; Chen Guying 340天不產而萬物化，地不長而萬物育，帝王无為而天下功。故曰莫神於天，莫富於地，莫大於帝王。
+
+ZHUANG 13.2.12 Guo Qingfan 465; Wang Shumin 476; Fang Yong 346; Chen Guying 340故曰帝王之德配天地。此乘天地，馳萬物，而用人群之道也。
+
+ZHUANG 13.2.13 Guo Qingfan 467; Wang Shumin 479; Fang Yong 346; Chen Guying 340本在於上，末在於下；要在於主，詳在於臣。三軍五兵之運，德之末也；賞罰利害，五刑之辟，教之末也；
+
+ZHUANG 13.2.14 Guo Qingfan 468; Wang Shumin 479; Fang Yong 346; Chen Guying 340禮法度數，刑名比詳，治之末也；鐘鼓之音，羽旄之容，樂之末也；哭泣衰絰，隆殺之服，哀之末也。此五末者，須精神之運，心術之動，然後從之者也。
+
+ZHUANG 13.2.15 Guo Qingfan 469; Wang Shumin 479; Fang Yong 346; Chen Guying 340末學者，古人有之，而非所以先也。君先而臣從，父先而子從，兄先而弟從，長先而少從，男先而女從，夫先而婦從。
+
+ZHUANG 13.2.16 Guo Qingfan 469; Wang Shumin 479; Fang Yong 346; Chen Guying 340夫尊卑先後，天地之行也，故聖人取象焉。天尊地卑，神明之位也；春夏先，秋冬後，四時之序也。
+
+ZHUANG 13.2.17 Guo Qingfan 469; Wang Shumin 479; Fang Yong 346; Chen Guying 340萬物化作，萌區有狀；盛衰之殺，變化之流也。夫天地至神，而有尊卑先後之序，而況人道乎！
+
+ZHUANG 13.2.18 Guo Qingfan 469; Wang Shumin 479; Fang Yong 347; Chen Guying 340宗廟尚親，朝廷尚尊，鄉黨尚齒，行事尚賢，大道之序也。語道而非其序者，非其道也；語道而非其道者，安取道哉！
+
+ZHUANG 13.2.19 Guo Qingfan 471; Wang Shumin 4i2; Fang Yong 347; Chen Guying 340是故古之明大道者，先明天而道德次之，道德已明而仁義次之，仁義已明而分守次之，分守已明而形名次之，形名已明而因任次之，
+
+ZHUANG 13.2.20 Guo Qingfan 471; Wang Shumin 4i2; Fang Yong 347; Chen Guying 340因任已明而原省次之，原省已明而是非次之，是非已明而賞罰次之。
+
+ZHUANG 13.2.21 Guo Qingfan 471; Wang Shumin 4i2; Fang Yong 347; Chen Guying 340賞罰已明而愚知處宜，貴賤履位；仁賢不肖襲情，必分其能，必由其名。
+
+ZHUANG 13.2.22 Guo Qingfan 471; Wang Shumin 4i2; Fang Yong 347; Chen Guying 340以此事上，以此畜下，以此治物，以此脩身，知謀不用，必歸其天，此之謂太平，治之至也。
+
+ZHUANG 13.2.23 Guo Qingfan 473; Wang Shumin 4i2; Fang Yong 347; Chen Guying 340故《書》曰：「有形有名。」形名者，古人有之，而非所以先也。古之語大道者，五變而形名可舉，九變而賞罰可言也。
+
+ZHUANG 13.2.24 Guo Qingfan 473; Wang Shumin 4i2; Fang Yong 347; Chen Guying 340驟而語形名，不知其本也；驟而語賞罰，不知其始也。倒道而言，迕道而說者，人之所治也，安能治人！
+
+ZHUANG 13.2.25 Guo Qingfan 473; Wang Shumin 4i2; Fang Yong 347; Chen Guying 340驟而語形名賞罰，此有知治之具，非知治之道；可用於天下，不足以用天下；此之謂辯士，一曲之人也。
+
+ZHUANG 13.2.26 Guo Qingfan 473; Wang Shumin 4i2; Fang Yong 347; Chen Guying 340禮法數度，刑名比詳，古人有之，此下之所以事上，非上之所以畜下也。
+
+ZHUANG 13.3.1 Guo Qingfan 475; Wang Shumin 485; Fang Yong 355; Chen Guying 344昔者舜問於堯曰：「天王之用心何如？」
+
+ZHUANG 13.3.2 Guo Qingfan 475; Wang Shumin 485; Fang Yong 355; Chen Guying 344堯曰：「吾不敖无告，不廢窮民，苦死者，嘉孺子而哀婦人。此吾所以用心已。」
+
+ZHUANG 13.3.3 Guo Qingfan 475; Wang Shumin 485; Fang Yong 355; Chen Guying 344（舜曰：「美則美矣，而未大也。」
+
+ZHUANG 13.3.4 Guo Qingfan 475; Wang Shumin 485; Fang Yong 355; Chen Guying 344堯曰：「然則何如？」
+
+ZHUANG 13.3.5 Guo Qingfan 476; Wang Shumin 485; Fang Yong 355; Chen Guying 345舜曰：「天德而出寧，日月照而四時行，若晝夜之有經，雲行而雨施矣。」
+
+ZHUANG 13.3.6 Guo Qingfan 476; Wang Shumin 485; Fang Yong 355; Chen Guying 345堯曰：「膠膠擾擾乎！子，天之合也；我，人之合也。」
+
+ZHUANG 13.3.7 Guo Qingfan 476; Wang Shumin 485; Fang Yong 355; Chen Guying 345夫天地者，古之所大也，而黃帝堯舜之所共美也。故古之王天下者，奚為哉？天地而已矣。
+
+ZHUANG 13.4.1 Guo Qingfan 477; Wang Shumin 487; Fang Yong 357; Chen Guying 346孔子西藏書於周室。子路謀曰：「由聞周之徵藏史有老聃者，免而歸居，夫子欲藏書，則試往因焉。」
+
+ZHUANG 13.4.2 Guo Qingfan 477; Wang Shumin 487; Fang Yong 357; Chen Guying 346孔子曰：「善。」
+
+ZHUANG 13.4.3 Guo Qingfan 477; Wang Shumin 487; Fang Yong 357; Chen Guying 346往見老聃，而老聃不許，於是繙十二經以說。
+
+ZHUANG 13.4.4 Guo Qingfan 478; Wang Shumin 487; Fang Yong 357; Chen Guying 347老聃中其說，曰：「大謾，願聞其要。」
+
+ZHUANG 13.4.5 Guo Qingfan 478; Wang Shumin 487; Fang Yong 357; Chen Guying 347孔子曰：「要在仁義。」<pb:KR5c0126_CHANT_013-10a>
+
+ZHUANG 13.4.6 Guo Qingfan 478; Wang Shumin 487; Fang Yong 357; Chen Guying 347老聃曰：「請問：仁義，人之性邪？」
+
+ZHUANG 13.4.7 Guo Qingfan 478; Wang Shumin 487; Fang Yong 357; Chen Guying 347孔子曰：「然。君子不仁則不成，不義則不生。仁義，真人之性也，又將奚為矣？」<pb:KR5c0126_CHANT_013-11a>
+
+ZHUANG 13.4.8 Guo Qingfan 478; Wang Shumin 487; Fang Yong 357; Chen Guying 347老聃曰：「請問：何謂仁義？」
+
+ZHUANG 13.4.9 Guo Qingfan 479; Wang Shumin 487; Fang Yong 357; Chen Guying 347孔子曰：「中心物愷，兼愛无私，此仁義之情也。」
+
+ZHUANG 13.4.10 Guo Qingfan 479; Wang Shumin 487; Fang Yong 357; Chen Guying 347老聃曰：「意，幾乎後言！夫兼愛，不亦迂乎！无私焉，乃私也。夫子若欲使天下无失其牧乎？
+
+ZHUANG 13.4.11 Guo Qingfan 479; Wang Shumin 487; Fang Yong 357; Chen Guying 347則天地固有常矣，日月固有明矣，星辰固有列矣，禽獸固有群矣，樹木固有立矣。夫子亦放德而行，循道而趨，已至矣；又何偈偈乎揭仁義，若擊鼓而求亡子焉？意，夫子亂人之性也！」<pb:KR5c0126_CHANT_013-12a>
+
+ZHUANG 13.5.1 Guo Qingfan 4i1; Wang Shumin 491; Fang Yong 360; Chen Guying 350士成綺見老子而問曰：「吾聞夫子聖人也，吾固不辭遠道而來願見，百舍重趼而不敢息。今吾觀子，非聖人也。
+
+ZHUANG 13.5.2 Guo Qingfan 4i1; Wang Shumin 491; Fang Yong 360; Chen Guying 350鼠壤有餘蔬，而棄妹，不仁也，生熟不盡於前，而積歛无崖。」
+
+ZHUANG 13.5.3 Guo Qingfan 4i2; Wang Shumin 491; Fang Yong 360; Chen Guying 350老子漠然不應。
+
+ZHUANG 13.5.4 Guo Qingfan 4i2; Wang Shumin 491; Fang Yong 360; Chen Guying 350士成綺明日復見，曰：「昔者吾有刺於子，今吾心正郤矣，何故也？」
+
+ZHUANG 13.5.5 Guo Qingfan 4i2; Wang Shumin 491; Fang Yong 360; Chen Guying 350老子曰：「夫巧知神聖之人，吾自以為脫焉。昔者子呼我牛也而謂之牛，呼我馬也而謂之馬。
+
+ZHUANG 13.5.6 Guo Qingfan 4i2; Wang Shumin 491; Fang Yong 360; Chen Guying 350苟有其實，人與之名而弗受，再受其殃。吾服也恆服，吾非以服有服。」
+
+ZHUANG 13.5.7 Guo Qingfan 4i4; Wang Shumin 491; Fang Yong 360; Chen Guying 350士成綺鴈行避影，履行遂進而問：「脩身若何？」
+
+ZHUANG 13.5.8 Guo Qingfan 4i4; Wang Shumin 491; Fang Yong 360; Chen Guying 350老子曰：「而容崖然，而目衝然，而顙頯然，而口闞然，而狀義然，似繫馬而止也。動而持，發也機，
+
+ZHUANG 13.5.9 Guo Qingfan 4i4; Wang Shumin 491; Fang Yong 360; Chen Guying 350察而審，知巧而覩於泰，凡以為不信。邊竟有人焉，其名為竊。」<pb:KR5c0126_CHANT_013-14a>
+
+ZHUANG 13.6.1 Guo Qingfan 486; Wang Shumin 495; Fang Yong 363; Chen Guying 354老子曰：「夫道，於大不終，於小不遺，故萬物備。廣廣乎其无不容也，淵淵乎其不可測也。形德仁義，神之末也，非至人孰能定之！
+
+ZHUANG 13.6.2 Guo Qingfan 486; Wang Shumin 495; Fang Yong 363; Chen Guying 354夫至人有世，不亦大乎！而不足以為之累。天下奮柄而不與之偕，審乎无假而不與利遷，極物之真，能守其本，
+
+ZHUANG 13.6.3 Guo Qingfan 486; Wang Shumin 495; Fang Yong 363; Chen Guying 354故外天地，遺萬物，而神未嘗有所困也。通乎道，合乎德，退仁義，賓禮樂，至人之心有所定矣。」<pb:KR5c0126_CHANT_013-15a>
+
+ZHUANG 13.7.1 Guo Qingfan 488; Wang Shumin 498; Fang Yong 365; Chen Guying 356世之所貴道者書也，書不過語，語有貴也。語之所貴者意也，意有所隨。意之所隨者，不可以言傳也，
+
+ZHUANG 13.7.2 Guo Qingfan 488; Wang Shumin 498; Fang Yong 366; Chen Guying 356而世因貴言傳書。世雖貴之哉！猶不足貴也，為其貴非其貴也。故視而可見者，形與色也；聽而可聞者，名與聲也。
+
+ZHUANG 13.7.3 Guo Qingfan 488; Wang Shumin 498; Fang Yong 366; Chen Guying 356悲夫，世人以形色名聲為足以得彼之情！夫形色名聲果不足以得彼之情，則知者不言，言者不知，而世豈識之哉！<pb:KR5c0126_CHANT_013-16a>
+
+ZHUANG 13.8.1 Guo Qingfan 490; Wang Shumin 498; Fang Yong 366; Chen Guying 357桓公讀書於堂上。輪扁斲輪於堂下，釋椎鑿而上，問桓公曰：“「敢問，公之所讀為何言邪？」
+
+ZHUANG 13.8.2 Guo Qingfan 490; Wang Shumin 498; Fang Yong 366; Chen Guying 357公曰：「聖人之言也。」
+
+ZHUANG 13.8.3 Guo Qingfan 490; Wang Shumin 498; Fang Yong 366; Chen Guying 357曰：「聖人在乎？」
+
+ZHUANG 13.8.4 Guo Qingfan 490; Wang Shumin 498; Fang Yong 366; Chen Guying 357公曰：「已死矣。」
+
+ZHUANG 13.8.5 Guo Qingfan 490; Wang Shumin 498; Fang Yong 366; Chen Guying 357曰：「然則君之所讀者，古人之糟魄已夫！」
+
+ZHUANG 13.8.6 Guo Qingfan 491; Wang Shumin 498; Fang Yong 366; Chen Guying 358桓公曰：「寡人讀書，輪人安得議乎！有說則可，无說則死。」<pb:KR5c0126_CHANT_013-17a>
+
+ZHUANG 13.8.7 Guo Qingfan 491; Wang Shumin 498; Fang Yong 366; Chen Guying 358輪扁曰：「臣也以臣之事觀之。斲輪，徐則甘而不固，疾則苦而不入。不徐不疾，得之於手，而應於心，
+
+ZHUANG 13.8.8 Guo Qingfan 491; Wang Shumin 498; Fang Yong 366; Chen Guying 358口不能言，有數存焉於其間。臣不能以喻臣之子，臣之子亦不能受之於臣，是以行年七十而老斲輪。古之人與其不可傳也死矣，然則君之所讀者，古人之糟魄已夫！」
+
+### KR5c0126_014.txt
+
+ZHUANG 14.1.1 Guo Qingfan 493; Wang Shumin 505; Fang Yong 372; Chen Guying 360「天其運乎？地其處乎？日月其爭於所乎？孰主張是？孰維綱是？孰居无事推而行是？
+
+ZHUANG 14.1.2 Guo Qingfan 493; Wang Shumin 505; Fang Yong 373; Chen Guying 360意者其有機緘而不得已邪？意者其運轉而不能自止邪？雲者為雨乎？雨者為雲乎？孰隆施是？
+
+ZHUANG 14.1.3 Guo Qingfan 493; Wang Shumin 505; Fang Yong 373; Chen Guying 360孰居无事淫樂而勸是？風起北方，一西一東，有上彷徨，孰噓吸是？孰居无事而披拂是？敢問何故？」
+
+ZHUANG 14.1.4 Guo Qingfan 496; Wang Shumin 505; Fang Yong 373; Chen Guying 361巫咸祒曰：「來！吾語女。天有六極五常，帝王順之則治，逆之則凶。
+
+ZHUANG 14.1.5 Guo Qingfan 496; Wang Shumin 505; Fang Yong 373; Chen Guying 361九洛之事，治成德備，監照下土，天下載之，此謂上皇。」<pb:KR5c0126_CHANT_014-2a>
+
+ZHUANG 14.2.1 Guo Qingfan 497; Wang Shumin 505; Fang Yong 375; Chen Guying 363商大宰蕩問仁於莊子。莊子曰：「虎狼，仁也。」
+
+ZHUANG 14.2.2 Guo Qingfan 497; Wang Shumin 509; Fang Yong 375; Chen Guying 363曰：「何謂也？」
+
+ZHUANG 14.2.3 Guo Qingfan 497; Wang Shumin 509; Fang Yong 375; Chen Guying 363莊子曰：「父子相親，何為不仁？」
+
+ZHUANG 14.2.4 Guo Qingfan 498; Wang Shumin 509; Fang Yong 376; Chen Guying 363曰：「請問至仁。」
+
+ZHUANG 14.2.5 Guo Qingfan 498; Wang Shumin 509; Fang Yong 376; Chen Guying 363莊子曰：「至仁无親。」
+
+ZHUANG 14.2.6 Guo Qingfan 498; Wang Shumin 509; Fang Yong 376; Chen Guying 363大宰曰：「蕩聞之，无親則不愛，不愛則不孝。謂至仁不孝，可乎？」<pb:KR5c0126_CHANT_014-3a>
+
+ZHUANG 14.2.7 Guo Qingfan 498; Wang Shumin 509; Fang Yong 376; Chen Guying 363莊子曰：「不然。夫至仁尚矣，孝固不足以言之。此非過孝之言也，不及孝之言也。夫南行者至於郢，北面而不見冥山，是何也？則去之遠也。
+
+ZHUANG 14.2.8 Guo Qingfan 498; Wang Shumin 509; Fang Yong 376; Chen Guying 363故曰：以敬孝易，以愛孝難；以愛孝易，而忘親難；忘親易，使親忘我難；使親忘我易，兼忘天下難；兼忘天下易，使天下兼忘我難。
+
+ZHUANG 14.2.9 Guo Qingfan 499; Wang Shumin 509; Fang Yong 376; Chen Guying 363夫德遺堯舜而不為也，利澤施於萬世，天下莫知也，
+
+ZHUANG 14.2.10 Guo Qingfan 499; Wang Shumin 509; Fang Yong 376; Chen Guying 363豈直太息而言仁孝乎哉！夫孝悌仁義，忠信貞廉，此皆自勉以役其德者也，不足多也。
+
+ZHUANG 14.2.11 Guo Qingfan 499; Wang Shumin 509; Fang Yong 376; Chen Guying 363故曰：『至貴，國爵并焉；至富，國財并焉；至願，名譽并焉。』是以道不渝。」<pb:KR5c0126_CHANT_014-4a>
+
+ZHUANG 14.3.1 Guo Qingfan 501; Wang Shumin 512; Fang Yong 379; Chen Guying 366北門成問於黃帝曰：「帝張咸池之樂於洞庭之野，吾始聞之而懼，復聞之而怠，卒聞之而惑；蕩蕩默默，乃不自得。」
+
+ZHUANG 14.3.2 Guo Qingfan 502; Wang Shumin 512; Fang Yong 379; Chen Guying 366帝曰：「女殆其然哉！吾奏之以人，徵之以天，行之以禮義，建之以太清。夫至樂者，先應之以人事，順之以天理，（行之以五德，應之以自然，然後調理四時，太和萬物。
+
+ZHUANG 14.3.3 Guo Qingfan 502; Wang Shumin 512; Fang Yong 379; Chen Guying 366四時迭起，萬物循生；一盛一衰，文武倫經；一清一濁，陰陽調和，流光其聲；蟄蟲始作，吾驚之以雷霆；
+
+ZHUANG 14.3.4 Guo Qingfan 502; Wang Shumin 512; Fang Yong 379; Chen Guying 366其卒无尾，其始无首；一死一生，一僨一起；所常无窮，而一不可待。女故懼也。
+
+ZHUANG 14.3.5 Guo Qingfan 504; Wang Shumin 515; Fang Yong 379; Chen Guying 367「吾又奏之以陰陽之和，燭之以日月之明；其聲能短能長，能柔能剛；變化齊一，不主故常；在谷滿谷，在阬滿阬；塗郤守神，以物為量。
+
+ZHUANG 14.3.6 Guo Qingfan 504; Wang Shumin 515; Fang Yong 379; Chen Guying 367其聲揮綽，其名高明。是故鬼神守其幽，日月星辰行其紀。
+
+ZHUANG 14.3.7 Guo Qingfan 504; Wang Shumin 515; Fang Yong 380; Chen Guying 367吾止之於有窮，流之於无止。予欲慮之而不能知也，望之而不能見也，逐之而不能及也；
+
+ZHUANG 14.3.8 Guo Qingfan 504; Wang Shumin 515; Fang Yong 380; Chen Guying 367儻然立於四虛之道，倚於槁梧而吟。目知窮乎所欲見，力屈乎所欲逐，吾既不及已夫！形充空虛，乃至委蛇。女委蛇，故怠。
+
+ZHUANG 14.3.9 Guo Qingfan 507; Wang Shumin 518; Fang Yong 380; Chen Guying 367「吾又奏之以无怠之聲，調之以自然之命，故若混逐叢生，林樂而无形；布揮而不曳，幽昏而无聲。
+
+ZHUANG 14.3.10 Guo Qingfan 507; Wang Shumin 518; Fang Yong 380; Chen Guying 367動於无方，居於窈冥；或謂之死，或謂之生；或謂之實，或謂之榮；行流散徙，不主常聲。
+
+ZHUANG 14.3.11 Guo Qingfan 507; Wang Shumin 518; Fang Yong 380; Chen Guying 367世疑之，稽於聖人。聖也者，達於情而遂於命也。天機不張而五官皆備，此之謂天樂，
+
+ZHUANG 14.3.12 Guo Qingfan 507; Wang Shumin 518; Fang Yong 380; Chen Guying 367无言而心說。故有焱氏為之頌曰：『聽之不聞其聲，視之不見其形，充滿天地，苞裹六極。』女欲聽之而无接焉，而故惑也。
+
+ZHUANG 14.3.13 Guo Qingfan 510; Wang Shumin 518; Fang Yong 380; Chen Guying 367樂也者，始於懼，懼故祟；吾又次之以怠，怠故遁；卒之於惑，惑故愚；愚故道，道可載而與之俱也。」<pb:KR5c0126_CHANT_014-7a>
+
+ZHUANG 14.4.1 Guo Qingfan 511; Wang Shumin 521; Fang Yong 388; Chen Guying 372孔子西遊於衛。顏淵問師金曰：「以夫子之行為奚如？」
+
+ZHUANG 14.4.2 Guo Qingfan 511; Wang Shumin 521; Fang Yong 388; Chen Guying 372師金曰：「惜乎，而夫子其窮哉！」
+
+ZHUANG 14.4.3 Guo Qingfan 511; Wang Shumin 521; Fang Yong 388; Chen Guying 372顏淵曰：「何也？」
+
+ZHUANG 14.4.4 Guo Qingfan 511; Wang Shumin 521; Fang Yong 388; Chen Guying 372師金曰：「夫芻狗之未陳也，盛以篋衍，巾以文繡，尸祝齊戒以將迎之。及其已陳也，行者踐其首脊，蘇者取而爨之而已；
+
+ZHUANG 14.4.5 Guo Qingfan 512; Wang Shumin 521; Fang Yong 389; Chen Guying 373將復取而盛以篋衍，巾以文繡，遊居寢臥其下，彼不得夢，必且數眯焉。
+
+ZHUANG 14.4.6 Guo Qingfan 512; Wang Shumin 521; Fang Yong 389; Chen Guying 373今而夫子，亦取先王已陳芻狗，取弟子遊居寢臥其下。故伐樹於宋，削迹於衛，窮於商周，是非其夢邪？
+
+ZHUANG 14.4.7 Guo Qingfan 512; Wang Shumin 521; Fang Yong 389; Chen Guying 373圍於陳蔡之間，七日不火食，死生相與鄰，是非其眯邪？
+
+ZHUANG 14.4.8 Guo Qingfan 513; Wang Shumin 521; Fang Yong 389; Chen Guying 373夫水行莫如用舟，而陸行莫如用車。以舟之可行於水也而求推之於陸，則沒世不行尋常。古今非水陸與？周魯非舟車與？
+
+ZHUANG 14.4.9 Guo Qingfan 513; Wang Shumin 521; Fang Yong 389; Chen Guying 373今蘄行周於魯，是猶推舟於陸也，勞而无功，身必有殃。彼未知夫无方之傳，應物而不窮者也。
+
+ZHUANG 14.4.10 Guo Qingfan 514; Wang Shumin 524; Fang Yong 389; Chen Guying 373「且子獨不見夫桔槔者乎？引之則俯，舍之則仰。彼，人之所引，非引人也，故俯仰而不得罪於人。
+
+ZHUANG 14.4.11 Guo Qingfan 514; Wang Shumin 524; Fang Yong 389; Chen Guying 373故夫三皇五帝之禮義法度，不矜於同而矜於治。故譬三皇五帝之禮義法度，其猶柤棃橘柚邪！其味相反，而皆可於口。
+
+ZHUANG 14.4.12 Guo Qingfan 515; Wang Shumin 524; Fang Yong 389; Chen Guying 373故禮義法度者，應時而變者也。今取猨狙而衣以周公之服，彼必齕齧挽裂，盡去而後慊。觀古今之異，猶猨狙之異乎周公也。
+
+ZHUANG 14.4.13 Guo Qingfan 515; Wang Shumin 524; Fang Yong 389; Chen Guying 373故西施病心而矉其里，其里之醜人見而美之，歸亦捧心而矉其里。其里之富人見之，堅閉門而不出，貧人見之，挈妻子而去之走。
+
+ZHUANG 14.4.14 Guo Qingfan 515; Wang Shumin 524; Fang Yong 389; Chen Guying 373彼知美矉而不知矉之所以美。惜乎，而夫子其窮哉！」<pb:KR5c0126_CHANT_014-9a>
+
+ZHUANG 14.5.1 Guo Qingfan 516; Wang Shumin 528; Fang Yong 392; Chen Guying 377孔子行年五十有一而不聞道，乃南之沛見老聃。
+
+ZHUANG 14.5.2 Guo Qingfan 516; Wang Shumin 528; Fang Yong 392; Chen Guying 377老聃曰：「子來乎？吾聞子，北方之賢者也，子亦得道乎？」孔子曰：「未得也。」
+
+ZHUANG 14.5.3 Guo Qingfan 516; Wang Shumin 528; Fang Yong 393; Chen Guying 377老子曰：「子惡乎求之哉？」
+
+ZHUANG 14.5.4 Guo Qingfan 517; Wang Shumin 528; Fang Yong 393; Chen Guying 378曰：「吾求之於度數，五年而未得也。」
+
+ZHUANG 14.5.5 Guo Qingfan 517; Wang Shumin 528; Fang Yong 393; Chen Guying 378老子曰：「子又惡乎求之哉？」
+
+ZHUANG 14.5.6 Guo Qingfan 517; Wang Shumin 528; Fang Yong 393; Chen Guying 378曰：「吾求之於陰陽，十有二年而未得。」<pb:KR5c0126_CHANT_014-10a>
+
+ZHUANG 14.5.7 Guo Qingfan 517; Wang Shumin 528; Fang Yong 393; Chen Guying 378老子曰：「然。使道而可獻，則人莫不獻之於其君；使道而可進，則人莫不進之於其親；使道而可以告人，則人莫不告其兄弟；使道而可以與人，則人莫不與其子孫。
+
+ZHUANG 14.5.8 Guo Qingfan 517; Wang Shumin 528; Fang Yong 393; Chen Guying 378然而不可者，无他也，中无主而不止，外无匹而不行。由中出者，不受於外，聖人不出；由外入者，无主於中，聖人不隱。
+
+ZHUANG 14.5.9 Guo Qingfan 517; Wang Shumin 528; Fang Yong 393; Chen Guying 378名，公器也，不可多取。仁義，先王之蘧廬也，止可以一宿，而不可久處，覯而多責。
+
+ZHUANG 14.5.10 Guo Qingfan 519; Wang Shumin 530; Fang Yong 393; Chen Guying 378「古之至人，假道於仁，託宿於義，以遊逍遙之虛，食於苟簡之田，立於不貸之圃。逍遙，无為也；苟簡，易養也；不貸，无出也。古者謂是采真之遊。
+
+ZHUANG 14.5.11 Guo Qingfan 521; Wang Shumin 530; Fang Yong 393; Chen Guying 378以富為是者，不能讓祿；以顯為是者，不能讓名；親權者，不能與人柄。操之則慄，舍之則悲，而一无所鑒，以闚其所不休者，是天之戮民也。
+
+ZHUANG 14.5.12 Guo Qingfan 521; Wang Shumin 530; Fang Yong 393; Chen Guying 378怨恩取與諫教生殺，八者，正之器也，唯循大變无所湮者為能用之。
+
+ZHUANG 14.5.13 Guo Qingfan 521; Wang Shumin 530; Fang Yong 393; Chen Guying 378故曰：正者，正也。其心以為不然者，天門弗開矣。」<pb:KR5c0126_CHANT_014-12a>
+
+ZHUANG 14.6.1 Guo Qingfan 522; Wang Shumin 533; Fang Yong 397; Chen Guying 3i1孔子見老聃而語仁義。老聃曰：「夫播穅眯目，則天地四方易位矣；蚊虻噆膚，則通昔不寐矣。夫仁義憯然乃憤吾心，亂莫大焉。
+
+ZHUANG 14.6.2 Guo Qingfan 522; Wang Shumin 533; Fang Yong 397; Chen Guying 3i2吾子使天下无失其朴，吾子亦放風而動，揔德而立矣，又奚傑傑然揭仁義若負建鼓而求亡子者邪？夫鵠不日浴而白，烏不日黔而黑。
+
+ZHUANG 14.6.3 Guo Qingfan 522; Wang Shumin 533; Fang Yong 397; Chen Guying 3i2黑白之朴，不足以為辯；名譽之觀，不足以為廣。泉涸，魚相與處於陸，相吻以濕，相濡以沫，不若相忘於江湖！」<pb:KR5c0126_CHANT_014-13a>
+
+ZHUANG 14.6.4 Guo Qingfan 524; Wang Shumin 536; Fang Yong 397; Chen Guying 3i2孔子見老聃歸，三日不談。弟子問曰：「夫子見老聃，亦將何規哉？」
+
+ZHUANG 14.6.5 Guo Qingfan 525; Wang Shumin 536; Fang Yong 397; Chen Guying 3i2孔子曰：「吾乃今於是乎見龍！龍，合而成體，散而成章，乘乎雲氣而養乎陰陽。予口張而不能嗋，舌舉而不能訒，予又何規老聃哉！」
+
+ZHUANG 14.6.6 Guo Qingfan 525; Wang Shumin 536; Fang Yong 397; Chen Guying 3i2子貢曰：「然則人固有尸居而龍見，雷聲而淵默，發動如天地者乎？賜亦可得而觀乎？」
+
+ZHUANG 14.6.7 Guo Qingfan 526; Wang Shumin 536; Fang Yong 397; Chen Guying 3i2遂以孔子聲見老聃，老聃方將倨堂而應，微曰：「予年運而往矣，子將何以戒我乎？」
+
+ZHUANG 14.6.8 Guo Qingfan 526; Wang Shumin 536; Fang Yong 397; Chen Guying 3i2子貢曰：「夫三王五帝之治天下不同，其係聲名一也。而先生獨以為非聖人，如何哉？」
+
+ZHUANG 14.6.9 Guo Qingfan 526; Wang Shumin 536; Fang Yong 397; Chen Guying 3i2老聃曰：「小子少進！子何以謂不同？」
+
+ZHUANG 14.6.10 Guo Qingfan 527; Wang Shumin 537; Fang Yong 397; Chen Guying 3i2對曰：「堯授舜，舜授禹，禹用力而湯用兵，文王順紂而不敢逆，武王逆紂而不肯順，故曰不同。」<pb:KR5c0126_CHANT_014-14a>
+
+ZHUANG 14.6.11 Guo Qingfan 527; Wang Shumin 541; Fang Yong 397; Chen Guying 3i2老聃曰：「小子少進！余語女三王五帝之治天下。黃帝之治天下，使民心一，民有其親死不哭而民不非也。
+
+ZHUANG 14.6.12 Guo Qingfan 527; Wang Shumin 541; Fang Yong 397; Chen Guying 3i3堯之治天下，使民心親，民有為其親殺其殺，而民不非也。舜之治天下，使民心競，民孕婦十月生子，子生五月而能言，不至乎孩而始誰，
+
+ZHUANG 14.6.13 Guo Qingfan 527; Wang Shumin 541; Fang Yong 397; Chen Guying 3i3則人始有夭矣。禹之治天下，使民心變，人有心而兵有順，殺盜非殺，人自為種而天下耳，是以天下大駭，儒墨皆起。其作始有倫，而今乎婦女，何言哉！
+
+ZHUANG 14.6.14 Guo Qingfan 527; Wang Shumin 541; Fang Yong 397; Chen Guying 3i3余語女，三皇五帝之治天下，名曰治之，而亂莫甚焉。
+
+ZHUANG 14.6.15 Guo Qingfan 527; Wang Shumin 541; Fang Yong 397; Chen Guying 3i3三皇之知，上悖日月之明，下睽山川之精，中墮四時之施。其知憯於𧓽蠆之尾，鮮規之獸，莫得安其性命之情者，而猶自以為聖人，不可恥乎，其无恥也？」
+
+ZHUANG 14.6.16 Guo Qingfan 531; Wang Shumin 541; Fang Yong 397; Chen Guying 3i3子貢蹴蹴然立不安。
+
+ZHUANG 14.7.1 Guo Qingfan 531; Wang Shumin 546; Fang Yong 403; Chen Guying 389孔子謂老聃曰：「丘治《詩》、《書》、《禮》、《樂》、《易》、《春秋》六經，自以為久矣，孰知其故矣；
+
+ZHUANG 14.7.2 Guo Qingfan 531; Wang Shumin 546; Fang Yong 403; Chen Guying 389以奸者七十二君，論先王之道而明周召之迹，一君无所鉤用。甚矣夫！人之難說也，道之難明邪！」<pb:KR5c0126_CHANT_014-16a>
+
+ZHUANG 14.7.3 Guo Qingfan 532; Wang Shumin 546; Fang Yong 403; Chen Guying 389老子曰：「幸矣，子之不遇治世之君也！夫《六經》，先王之陳迹也，豈其所以迹哉！今子之所言，猶迹也。夫迹，履之所出，而迹豈履哉！
+
+ZHUANG 14.7.4 Guo Qingfan 532; Wang Shumin 546; Fang Yong 403; Chen Guying 389夫白鶂之相視，眸子不運而風化；蟲，雄鳴於上風，雌應於下風而化；
+
+ZHUANG 14.7.5 Guo Qingfan 532; Wang Shumin 546; Fang Yong 403; Chen Guying 389類自為雌雄，故風化。性不可易，命不可變，時不可止，道不可壅。苟得於道，无自而不可；失焉者，无自而可。」<pb:KR5c0126_CHANT_014-17a>
+
+ZHUANG 14.7.6 Guo Qingfan 533; Wang Shumin 547; Fang Yong 403; Chen Guying 389孔子不出三月，復見曰：「丘得之矣。烏鵲孺，魚傅沫，細要者化，有弟而兄啼。久矣夫丘不與化為人！不與化為人，安能化人！」
+
+ZHUANG 14.7.7 Guo Qingfan 534; Wang Shumin 547; Fang Yong 404; Chen Guying 389老子曰：「可。丘得之矣！」
+
+### KR5c0126_015.txt
+
+ZHUANG 15.1.1 Guo Qingfan 535; Wang Shumin 551; Fang Yong 411; Chen Guying 393刻意尚行，離世異俗，高論怨誹，為亢而已矣；此山谷之士，非世之人，枯槁赴淵者之所好也。
+
+ZHUANG 15.1.2 Guo Qingfan 535; Wang Shumin 551; Fang Yong 411; Chen Guying 393語仁義忠信，恭儉推讓，為脩而已矣；此平世之士，教誨之人，遊居學者之所好也。語大功，立大名，禮君臣，正上下，為治而已矣，此朝廷之士，尊主彊國之人，致功并兼者之所好也。
+
+ZHUANG 15.1.3 Guo Qingfan 535; Wang Shumin 551; Fang Yong 411; Chen Guying 393就藪澤，處間曠，釣魚閒處，無為而已矣；此江海之士，避世之人，間暇者之所好也。
+
+ZHUANG 15.1.4 Guo Qingfan 535; Wang Shumin 551; Fang Yong 411; Chen Guying 393吹呴呼吸，吐故納新，熊經鳥申，為壽而已矣；此道引之士，養形之人，彭祖壽考者之所好也。
+
+ZHUANG 15.1.5 Guo Qingfan 537; Wang Shumin 552; Fang Yong 411; Chen Guying 393若夫不刻意而高，無仁義而脩，無功名而治，無江海而閒，不道引而壽，無不忘也，無不有也，澹然無極而眾美從之。此天地之道，聖人之德也。
+
+ZHUANG 15.2.1 Guo Qingfan 538; Wang Shumin 556; Fang Yong 411; Chen Guying 396故曰：夫恬惔寂漠虛無無為，此天地之平而道德之質也。故曰：聖人休焉，休則平易矣，平易則恬惔矣。平易恬惔，則憂患不能入，邪氣不能襲，故其德全而神不虧。
+
+ZHUANG 15.2.2 Guo Qingfan 539; Wang Shumin 556; Fang Yong 411; Chen Guying 396故曰：聖人之生也天行，其死也物化；靜而與陰同德，動而與陽同波；不為福先，不為禍始；感而後應，迫而後動，不得已而後起。
+
+ZHUANG 15.2.3 Guo Qingfan 539; Wang Shumin 556; Fang Yong 411; Chen Guying 396去知與故，循天之理。故無天災，無物累，無人非，無鬼責。其生若浮，其死若休。
+
+ZHUANG 15.2.4 Guo Qingfan 539; Wang Shumin 556; Fang Yong 411; Chen Guying 396不思慮，不豫謀。光矣而不耀，信矣而不期。其寢不夢，其覺無憂。其神純粹，其魂不罷。虛無恬惔，乃合天德。
+
+ZHUANG 15.2.5 Guo Qingfan 542; Wang Shumin 560; Fang Yong 411; Chen Guying 396故曰：悲樂者，德之邪；喜怒者，道之過；好惡者，德之失。
+
+ZHUANG 15.2.6 Guo Qingfan 542; Wang Shumin 560; Fang Yong 411; Chen Guying 396故心不憂樂，德之至也；一而不變，靜之至也；无所於忤，虛之至也；不與物交，淡之至也；无所於逆，粹之至也。故曰：形勞而不休則弊，精用而不已則勞，勞則竭。
+
+ZHUANG 15.2.7 Guo Qingfan 544; Wang Shumin 560; Fang Yong 411; (Chen Guying 396)水之性，不雜則清，莫動則平；鬱閉而不流，亦不能清；天德之象也。故曰：純粹而不雜，靜一而不變，淡而无為，動而以天行，此養神之道也。
+
+ZHUANG 15.2.8 Guo Qingfan 544; Wang Shumin 560; Fang Yong 412; (Chen Guying 396)夫有干越之劍者，柙而藏之，不敢用也，寶之至也。精神四達並流，无所不極，上際於天，下蟠於地，化育萬物，不可為象，其名為同帝。
+
+ZHUANG 15.2.9 Guo Qingfan 546; Wang Shumin 560; Fang Yong 412; (Chen Guying 396)純素之道，唯神是守；守而勿失，與神為一；一之精通，合于天倫。野語有之曰：「眾人重利，廉士重名，賢士尚志，聖人貴精。」
+
+ZHUANG 15.2.10 Guo Qingfan 546; Wang Shumin 560; Fang Yong 412; (Chen Guying 396)故素也者，謂其無所與雜也；純也者，謂其不虧其神也。能體純素，謂之真人。
+
+### KR5c0126_016.txt
+
+ZHUANG 16.1.1 Guo Qingfan 547; Wang Shumin 565; Fang Yong 420; Chen Guying 402繕性於俗，俗學以求復其初；滑欲於俗，思以求致其明；謂之蔽蒙之民。
+
+ZHUANG 16.1.2 Guo Qingfan 548; Wang Shumin 565; Fang Yong 420; Chen Guying 402古之治道者，以恬養知；生而无以知為也，謂之以知養恬。知與恬交相養，而和理出其性。
+
+ZHUANG 16.1.3 Guo Qingfan 548; Wang Shumin 565; Fang Yong 421; Chen Guying 402夫德，和也；道，理也。德无不容，仁也；道无不理，義也；義明而物親，忠也；中純實而反乎情，樂也；信行容體而順乎文，禮也。
+
+ZHUANG 16.1.4 Guo Qingfan 548; Wang Shumin 565; Fang Yong 421; Chen Guying 402禮樂徧行，則天下亂矣。彼正而蒙己德，德則不冒，冒則物必失其性也。
+
+ZHUANG 16.2.1 Guo Qingfan 550; Wang Shumin 569; Fang Yong 421; Chen Guying 404古之人，在混芒之中，與一世而得澹漠焉。當是時也，陰陽和靜，鬼神不擾，四時得節，萬物不傷，群生不夭，
+
+ZHUANG 16.2.2 Guo Qingfan 550; Wang Shumin 569; Fang Yong 421; Chen Guying 404人雖有知，无所用之，此之謂至一。當是時也，莫之為而常自然。
+
+ZHUANG 16.2.3 Guo Qingfan 551; Wang Shumin 569; Fang Yong 421; Chen Guying 404逮德下衰，及燧人伏戲始為天下，是故順而不一。德又下衰，及神農、黃帝始為天下，是故安而不順。
+
+ZHUANG 16.2.4 Guo Qingfan 551; Wang Shumin 569; Fang Yong 421; Chen Guying 404德又下衰，及唐虞始為天下，興治化之流，𣻏淳散朴，離道以善，險德以行，然後去性而從於心。心與心識知而不足以定天下，
+
+ZHUANG 16.2.5 Guo Qingfan 551; Wang Shumin 569; Fang Yong 421; Chen Guying 404然後附之以文，益之以博。文滅質，博溺心，然後民始惑亂，无以反其性情而復其初。
+
+ZHUANG 16.2.6 Guo Qingfan 554; Wang Shumin 573; Fang Yong 421; Chen Guying 405由是觀之，世喪道矣，道喪世矣。世與道交相喪也，道之人何由興乎世，世亦何由興乎道哉！道无以興乎世，世无以興乎道，雖聖人不在山林之中，其德隱矣。隱故不自隱。
+
+ZHUANG 16.2.7 Guo Qingfan 555; Wang Shumin 573; Fang Yong 421; Chen Guying 405古之所謂隱士者，非伏其身而弗見也，非閉其言而不出也，非藏其知而不發也，
+
+ZHUANG 16.2.8 Guo Qingfan 555; Wang Shumin 573; Fang Yong 421; Chen Guying 405時命大謬也。當時命而大行乎天下，則反一無迹；不當時命而大窮乎天下，則深根寧極而待；此存身之道也。
+
+ZHUANG 16.3.1 Guo Qingfan 556; Wang Shumin 573; Fang Yong 421; Chen Guying 407古之存身者，不以辯飾知，不以知窮天下，不以知窮德，危然處其所而反其性，己又何為哉！道固不小行，德固不小識。
+
+ZHUANG 16.3.2 Guo Qingfan 556; Wang Shumin 573; Fang Yong 421; Chen Guying 408小識傷德，小行傷道。故曰：正己而已矣。樂全之謂得志。
+
+ZHUANG 16.3.3 Guo Qingfan 556; Wang Shumin 573; Fang Yong 422; Chen Guying 408古之所謂得志者，非軒冕之謂也，謂其无以益其樂而已矣。今之所謂得志者，軒冕之謂也。軒冕在身，非性命也，
+
+ZHUANG 16.3.4 Guo Qingfan 556; Wang Shumin 573; Fang Yong 422; Chen Guying 408物之儻來，寄也。寄之，其來不可圉，其去不可止。故不為軒冕肆志，不為窮約趨俗，其樂彼與此同，故无憂而已矣。
+
+ZHUANG 16.3.5 Guo Qingfan 556; Wang Shumin 573; Fang Yong 422; Chen Guying 408今寄去則不樂，由是觀之，雖樂，未嘗不荒也。故曰：喪己於物，失性於俗者，謂之倒置之民。
+
+### KR5c0126_017.txt
+
+ZHUANG 17.1.1 Guo Qingfan 561; Wang Shumin 5i1; Fang Yong 433; Chen Guying 411秋水時至，百川灌河，涇流之大，兩涘渚崖之間，不辯牛馬。於是焉河伯欣然自喜，以天下之美為盡在己。順流而東行，至於北海，東面而視，不見水端，
+
+ZHUANG 17.1.2 Guo Qingfan 561; Wang Shumin 5i1; Fang Yong 433; Chen Guying 411於是焉河伯始旋其面目，望洋向若而歎曰：「野語有之曰：『聞道百，以為莫己若』者，我之謂也。
+
+ZHUANG 17.1.3 Guo Qingfan 561; Wang Shumin 5i1; Fang Yong 433; Chen Guying 411且夫我嘗聞少仲尼之聞而輕伯夷之義者，始吾弗信；今我睹子之難窮也，吾非至於子之門則殆矣，吾長見笑於大方之家。」<pb:KR5c0126_CHANT_017-2a>
+
+ZHUANG 17.1.4 Guo Qingfan 563; Wang Shumin 5i4; Fang Yong 433; Chen Guying 411北海若曰：「井鼃不可以語於海者，拘於虛也；夏蟲不可以語於冰者，篤於時也；曲士不可以語於道者，束於教也。
+
+ZHUANG 17.1.5 Guo Qingfan 563; Wang Shumin 5i4; Fang Yong 433; Chen Guying 411今爾出於崖涘，觀於大海，乃知爾醜，爾將可與語大理矣。天下之水，莫大於海，萬川歸之，不知何時止而不盈；尾閭泄之，不知何時已而不虛；
+
+ZHUANG 17.1.6 Guo Qingfan 563; Wang Shumin 5i4; Fang Yong 433; Chen Guying 411春秋不變，水旱不知。此其過江河之流，不可為量數。而吾未嘗以此自多者，自以比形於天地而受氣於陰陽，吾在於天地之間，猶小石小木之在大山也，方存乎見少，又奚以自多！
+
+ZHUANG 17.1.7 Guo Qingfan 563; Wang Shumin 5i4; Fang Yong 434; Chen Guying 411計四海之在天地之間也，不似礨空之在大澤乎？計中國之在海內，不似稊米之在太倉乎？號物之數謂之萬，人處一焉；
+
+ZHUANG 17.1.8 Guo Qingfan 564; Wang Shumin 5i4; Fang Yong 434; Chen Guying 411人卒九州，穀食之所生，舟車之所通，人處一焉；此其比萬物也，不似豪末之在於馬體乎？
+
+ZHUANG 17.1.9 Guo Qingfan 564; Wang Shumin 5i4; Fang Yong 434; Chen Guying 412五帝之所連，三王之所爭，仁人之所憂，任士之所勞，盡此矣。伯夷辭之以為名，仲尼語之以為博，此其自多也，不似爾向之自多於水乎？」<pb:KR5c0126_CHANT_017-3a>
+
+ZHUANG 17.1.10 Guo Qingfan 568; Wang Shumin 591; Fang Yong 434; Chen Guying 416河伯曰：「然則吾大天地而小豪末，可乎？」
+
+ZHUANG 17.1.11 Guo Qingfan 568; Wang Shumin 591; Fang Yong 434; Chen Guying 416北海若曰：「否。量夫物，无窮，時无止，分无常，終始无故。是故大知觀於遠近，故小而不寡，大而不多，知量无窮；
+
+ZHUANG 17.1.12 Guo Qingfan 568; Wang Shumin 591; Fang Yong 434; Chen Guying 416證曏今故，故遙而不悶，掇而不跂，知時无止；察乎盈虛，故得而不喜，失而不憂，知分之无常也；明乎坦塗，故生而不說，死而不禍，知終始之不可故也。
+
+ZHUANG 17.1.13 Guo Qingfan 568; Wang Shumin 591; Fang Yong 434; Chen Guying 416計人之所知，不若其所不知；其生之時，不若未生之時；以其至小求窮其至大之域，是故迷亂而不能自得也。由此觀之，又何以知豪末之足以定至細之倪！又何以知天地之足以窮至大之域！」<pb:KR5c0126_CHANT_017-4a>
+
+ZHUANG 17.1.14 Guo Qingfan 572; Wang Shumin 593; Fang Yong 434; Chen Guying 418河伯曰：「世之議者皆曰：『至精无形，至大不可圍。』是信情乎？」
+
+ZHUANG 17.1.15 Guo Qingfan 572; Wang Shumin 593; Fang Yong 434; Chen Guying 418北海若曰：「夫自細視大者不盡，自大視細者不明。夫精，小之微也；垺，大之殷也；故異便。
+
+ZHUANG 17.1.16 Guo Qingfan 572; Wang Shumin 593; Fang Yong 434; Chen Guying 418此勢之有也。夫精粗者，期於有形者也；无形者，數之所不能分也；不可圍者，數之所不能窮也。可以言論者，物之粗也；可以意致者，物之精也；
+
+ZHUANG 17.1.17 Guo Qingfan 572; Wang Shumin 593; Fang Yong 434; Chen Guying 418言之所不能論，意之所不能察致者，不期精粗焉。
+
+ZHUANG 17.1.18 Guo Qingfan 574; Wang Shumin 593; Fang Yong 435; Chen Guying 418是故大人之行，不出乎害人，不多仁恩；動不為利，不賤門隸；貨財弗爭，不多辭讓；事焉不借人，不多食乎力，不賤貪汙；
+
+ZHUANG 17.1.19 Guo Qingfan 574; Wang Shumin 593; Fang Yong 435; Chen Guying 418行殊乎俗，不多辟異；為在從眾，不賤佞諂；世之爵祿不足以為勸，戮恥不足以為辱；知是非之不可為分，細大之不可為倪。聞曰：『道人不聞，至德不得，大人无己。』約分之至也。」<pb:KR5c0126_CHANT_017-5a>
+
+ZHUANG 17.1.20 Guo Qingfan 577; Wang Shumin 597; Fang Yong 435; Chen Guying 420河伯曰：「若物之外，若物之內，惡至而倪貴賤？惡至而倪小大？」
+
+ZHUANG 17.1.21 Guo Qingfan 577; Wang Shumin 597; Fang Yong 435; Chen Guying 420北海若曰：「以道觀之，物无貴賤；以物觀之，自貴而相賤；以俗觀之，貴賤不在己。以差觀之，因其所大而大之，則萬物莫不大；因其所小而小之，則萬物莫不小；
+
+ZHUANG 17.1.22 Guo Qingfan 577; Wang Shumin 597; Fang Yong 435; Chen Guying 420知天地之為稊米也，知豪末之為丘山也，則差數覩矣。以功觀之，因其所有而有之，則萬物莫不有；因其所无而无之，則萬物莫不无；知東西之相反而不可以相无，則功分定矣。
+
+ZHUANG 17.1.23 Guo Qingfan 578; Wang Shumin 597; Fang Yong 435; Chen Guying 421以趣觀之，因其所然而然之，則萬物莫不然；因其所非而非之，則萬物莫不非；知堯桀之自然而相非，則趣操覩矣。
+
+ZHUANG 17.1.24 Guo Qingfan 580; Wang Shumin 600; Fang Yong 435; Chen Guying 421「昔者堯舜讓而帝，之噲讓而絕；湯武爭而王，白公爭而滅。由此觀之，爭讓之禮，堯桀之行，貴賤有時，未可以為常也。
+
+ZHUANG 17.1.25 Guo Qingfan 580; Wang Shumin 600; Fang Yong 435; Chen Guying 421梁麗可以衝城，而不可以窒穴，言殊器也；騏驥驊騮，一日而馳千里，捕鼠不如狸狌，言殊技也；鴟鵂夜撮蚤，察豪末，晝出瞋目而不見丘山，言殊性也。
+
+ZHUANG 17.1.26 Guo Qingfan 580; Wang Shumin 600; Fang Yong 435; Chen Guying 421故曰：蓋師是而无非，師治而无亂乎？是未明天地之理，萬物之情者也。是猶師天而无地，師陰而无陽，其不可行明矣。然且語而不舍，非愚則誣也。
+
+ZHUANG 17.1.27 Guo Qingfan 580; Wang Shumin 600; Fang Yong 436; Chen Guying 421帝王殊禪，三代殊繼。差其時，逆其俗者，謂之篡之夫；當其時，順其俗者，謂之義之徒。默默乎河伯！女惡知貴賤之門，小大之家！」<pb:KR5c0126_CHANT_017-7a>
+
+ZHUANG 17.1.28 Guo Qingfan 5i4; Wang Shumin 605; Fang Yong 436; Chen Guying 424河伯曰：「然則我何為乎，何不為乎？吾辭受趣舍，吾終柰何？」
+
+ZHUANG 17.1.29 Guo Qingfan 5i4; Wang Shumin 605; Fang Yong 436; Chen Guying 424北海若曰：「以道觀之，何貴何賤，是謂反衍；无拘而志，與道大蹇。何少何多，是謂謝施；
+
+ZHUANG 17.1.30 Guo Qingfan 5i4; Wang Shumin 605; Fang Yong 436; Chen Guying 424无一而行，與道參差。嚴嚴乎若國之有君，其无私德；繇繇乎若祭之有社，其无私福；泛泛乎（其）若四方之无窮，其无所畛域。兼懷萬物，其孰承翼？是謂无方。
+
+ZHUANG 17.1.31 Guo Qingfan 5i4; Wang Shumin 605; Fang Yong 436; Chen Guying 424萬物一齊，孰短孰長？道无終始，物有死生，不恃其成；一虛一滿，不位乎其形。年不可舉，時不可止；消息盈虛，終則有始。是所以語大義之方，論萬物之理也。
+
+ZHUANG 17.1.32 Guo Qingfan 5i4; Wang Shumin 605; Fang Yong 436; Chen Guying 424物之生也，若驟若馳，无動而不變，无時而不移。何為乎，何不為乎？夫固將自化！」<pb:KR5c0126_CHANT_017-8a>
+
+ZHUANG 17.1.33 Guo Qingfan 588; Wang Shumin 610; Fang Yong 436; Chen Guying 427河伯曰：「然則何貴於道邪？」
+
+ZHUANG 17.1.34 Guo Qingfan 588; Wang Shumin 610; Fang Yong 436; Chen Guying 427北海若曰：「知道者必達於理，達於理者必明於權，明於權者不以物害己。至德者，火弗能熱，水弗能溺，寒暑弗能害，禽獸弗能賊。
+
+ZHUANG 17.1.35 Guo Qingfan 588; Wang Shumin 610; Fang Yong 436; Chen Guying 427非謂其薄之也，言察乎安危，寧於禍福，謹於去就，莫之能害也。故曰：天在內，人在外，德在乎天。
+
+ZHUANG 17.1.36 Guo Qingfan 588; Wang Shumin 610; Fang Yong 436; Chen Guying 427知夫人之行，本乎天，位乎得；蹢䠱而屈伸，反要而語極。」
+
+ZHUANG 17.1.37 Guo Qingfan 590; Wang Shumin 610; Fang Yong 437; Chen Guying 428曰：「何謂天，何謂人？」
+
+ZHUANG 17.1.38 Guo Qingfan 590; Wang Shumin 610; Fang Yong 437; Chen Guying 428北海若曰：「牛馬四足，是謂天；落馬首，穿牛鼻，是謂人。故曰：无以人滅天，无以故滅命，无以得殉名。謹守而勿失，是謂反其真。」<pb:KR5c0126_CHANT_017-9a>
+
+ZHUANG 17.2.1 Guo Qingfan 591; Wang Shumin 613; Fang Yong 449; Chen Guying 430夔憐蚿，蚿憐蛇，蛇憐風，風憐目，目憐心。
+
+ZHUANG 17.2.2 Guo Qingfan 592; Wang Shumin 613; Fang Yong 449; Chen Guying 430夔謂蚿曰：「吾以一足趻踔而行，予无如矣。今子之使萬足，獨柰何？」
+
+ZHUANG 17.2.3 Guo Qingfan 593; Wang Shumin 613; Fang Yong 449; Chen Guying 430蚿曰：「不然。子不見夫唾者乎？噴則大者如珠，小者如霧，雜而下者不可勝數也。今予動吾天機，而不知其所以然。」
+
+ZHUANG 17.2.4 Guo Qingfan 593; Wang Shumin 613; Fang Yong 449; Chen Guying 430蚿謂蛇曰：「吾以眾足行，而不及子之无足，何也？」
+
+ZHUANG 17.2.5 Guo Qingfan 593; Wang Shumin 613; Fang Yong 449; Chen Guying 430蛇曰：「夫天機之所動，何可易邪？吾安用足哉！」<pb:KR5c0126_CHANT_017-10a>
+
+ZHUANG 17.2.6 Guo Qingfan 594; Wang Shumin 614; Fang Yong 449; Chen Guying 430蛇謂風曰：「予動吾脊脅而行，則有似也。今子蓬蓬然起於北海，蓬蓬然入於南海，而似无有，何也？」
+
+ZHUANG 17.2.7 Guo Qingfan 594; Wang Shumin 614; Fang Yong 450; Chen Guying 430風曰：「然。予蓬蓬然起於北海而入於南海也，然而指我則勝我，鰌我亦勝我。雖然，夫折大木，蜚大屋者，唯我能也，故以眾小不勝為大勝也。為大勝者，唯聖人能之。」<pb:KR5c0126_CHANT_017-11a>
+
+ZHUANG 17.3.1 Guo Qingfan 595; Wang Shumin 617; Fang Yong 451; Chen Guying 432孔子遊於匡，宋人圍之數匝，而弦歌不惙，子路入見，曰：「何夫子之娛也？」
+
+ZHUANG 17.3.2 Guo Qingfan 596; Wang Shumin 618; Fang Yong 451; Chen Guying 432孔子曰：「來！吾語女。我諱窮久矣，而不免，命也；求通久矣，而不得，時也。當堯、舜而天下无窮人，非知得也；
+
+ZHUANG 17.3.3 Guo Qingfan 596; Wang Shumin 618; Fang Yong 451; Chen Guying 432當桀、紂而天下无通人，非知失也；時勢適然。夫水行不避蛟龍者，漁父之勇也；陸行不避兕虎者，獵夫之勇也；
+
+ZHUANG 17.3.4 Guo Qingfan 596; Wang Shumin 618; Fang Yong 451; Chen Guying 432白刃交於前，視死若生者，烈士之勇也；知窮之有命，知通之有時，臨大難而不懼者，聖人之勇也。由處矣，吾命有所制矣。」
+
+ZHUANG 17.3.5 Guo Qingfan 597; Wang Shumin 618; Fang Yong 451; Chen Guying 433无幾何，將甲者進，辭曰：「以為陽虎也，故圍之。今非也，請辭而退。」<pb:KR5c0126_CHANT_017-12a>
+
+ZHUANG 17.4.1 Guo Qingfan 597; Wang Shumin 620; Fang Yong 452; Chen Guying 435公孫龍問於魏牟曰：「龍少學先王之道，長而明仁義之行；合同異，離堅白；然不然，可不可；困百家之知，窮眾口之辯；
+
+ZHUANG 17.4.2 Guo Qingfan 597; Wang Shumin 620; Fang Yong 453; Chen Guying 435吾自以為至達已。今吾聞莊子之言，汒焉異之。不知論之不及與，知之弗若與？今吾无所開吾喙，敢問其方。」<pb:KR5c0126_CHANT_017-13a>
+
+ZHUANG 17.4.3 Guo Qingfan 598; Wang Shumin 620; Fang Yong 453; Chen Guying 435公子牟隱机大息，仰天而笑曰：「子獨不聞夫埳井之鼃乎？謂東海之鱉曰：『吾樂與！吾跳梁乎井幹之上，入休乎缺甃之崖；赴水則接掖持頤，蹶泥則沒足滅跗；
+
+ZHUANG 17.4.4 Guo Qingfan 598; Wang Shumin 620; Fang Yong 453; Chen Guying 435還虷蟹與科斗，莫吾能若也。且夫擅一壑之水，而跨跱埳井之樂，此亦至矣，夫子奚不時來入觀乎！』東海之鱉左足未入，而右膝已縶矣。
+
+ZHUANG 17.4.5 Guo Qingfan 598; Wang Shumin 620; Fang Yong 453; Chen Guying 435於是逡巡而卻，告之曰：『夫海千里之遠，不足以舉其大；千仞之高，不足以極其深。禹之時十年九潦，而水弗為加益；湯之時八年七旱，而崖不為加損。
+
+ZHUANG 17.4.6 Guo Qingfan 598; Wang Shumin 620; Fang Yong 453; Chen Guying 435夫不為頃久推移，不以多少進退者，此亦東海之大樂也。』於是埳井之鼃聞之，適適然驚，規規然自失也。
+
+ZHUANG 17.4.7 Guo Qingfan 601; Wang Shumin 627; Fang Yong 453; Chen Guying 435「且夫知不知是非之竟，而猶欲觀於莊子之言，是猶使蚊負山，商蚷馳河也，必不勝任矣。且夫知不知論極妙之言而自適一時之利者，是非埳井之鼃與？
+
+ZHUANG 17.4.8 Guo Qingfan 601; Wang Shumin 627; Fang Yong 453; Chen Guying 435且彼方跐黃泉而登大皇，无南无北，奭然四解，淪於不測；无東无西，始於玄冥，反於大通。子乃規規然而求之以察，索之以辯，是直用管闚天，用錐指地也，不亦小乎！子往矣！
+
+ZHUANG 17.4.9 Guo Qingfan 601; Wang Shumin 627; Fang Yong 453; Chen Guying 435且子獨不聞夫壽陵餘子之學行於邯鄲與？未得國能，又失其故行矣，直匍匐而歸耳。今子不去，將忘子之故，失子之業。」
+
+ZHUANG 17.4.10 Guo Qingfan 603; Wang Shumin 628; Fang Yong 453; Chen Guying 436公孫龍口呿而不合，舌舉而不下，乃逸而走。
+
+ZHUANG 17.5.1 Guo Qingfan 603; Wang Shumin 631; Fang Yong 456; Chen Guying 441莊子釣於濮水，楚王使大夫二人往先焉，曰：「願以竟內累矣！」
+
+ZHUANG 17.5.2 Guo Qingfan 604; Wang Shumin 631; Fang Yong 457; Chen Guying 441莊子持竿不顧，曰：「吾聞楚有神龜，死已三千歲矣，王巾笥而藏之廟堂之上。此龜者，寧其死為留骨而貴乎？寧其生而曳尾於塗中乎？」
+
+ZHUANG 17.5.3 Guo Qingfan 604; Wang Shumin 631; Fang Yong 457; Chen Guying 441二大夫曰：「寧生而曳尾塗中。」
+
+ZHUANG 17.5.4 Guo Qingfan 604; Wang Shumin 631; Fang Yong 457; Chen Guying 441莊子曰：「往矣！吾將曳尾於塗中。」<pb:KR5c0126_CHANT_017-16a>
+
+ZHUANG 17.6.1 Guo Qingfan 605; Wang Shumin 633; Fang Yong 457; Chen Guying 442惠子相梁，莊子往見之。或謂惠子曰：「莊子來，欲代子相。」於是惠子恐，搜於國中三日三夜。
+
+ZHUANG 17.6.2 Guo Qingfan 605; Wang Shumin 633; Fang Yong 457; Chen Guying 442莊子往見之，曰：「南方有鳥，其名鵷鶵，子知之乎？夫鵷鶵，發於南海而飛於北海，非梧桐不止，非練實不食，非醴泉不飲。
+
+ZHUANG 17.6.3 Guo Qingfan 605; Wang Shumin 633; Fang Yong 457; Chen Guying 442於是鴟得腐鼠，鵷鶵過之，仰而視曰：『嚇！』今子欲以子之梁國而嚇我邪？」<pb:KR5c0126_CHANT_017-17a>
+
+ZHUANG 17.7.1 Guo Qingfan 606; Wang Shumin 636; Fang Yong 458; Chen Guying 443莊子與惠子遊於濠梁之上。莊子曰：「儵魚出游從容，是魚樂也。」
+
+ZHUANG 17.7.2 Guo Qingfan 606; Wang Shumin 636; Fang Yong 458; Chen Guying 443惠子曰：“「子非魚，安知魚之樂？」
+
+ZHUANG 17.7.3 Guo Qingfan 607; Wang Shumin 636; Fang Yong 458; Chen Guying 443莊子曰：「子非我，安知我不知魚之樂？」
+
+ZHUANG 17.7.4 Guo Qingfan 607; Wang Shumin 636; Fang Yong 458; Chen Guying 443惠子曰：「我非子，固不知子矣；子固非魚也，子之不知魚之樂，全矣。」
+
+ZHUANG 17.7.5 Guo Qingfan 607; Wang Shumin 636; Fang Yong 458; Chen Guying 443莊子曰：「請循其本，子曰『女安知魚樂』云者，既已知吾知之而問我，我知之濠上也。」
+
+### KR5c0126_018.txt
+
+ZHUANG 18.1.1 Guo Qingfan 608; Wang Shumin 639; Fang Yong 464; Chen Guying 446天下有至樂无有哉？有可以活身者无有哉？今奚為奚據？奚避奚處？奚就奚去？奚樂奚惡？
+
+ZHUANG 18.1.2 Guo Qingfan 609; Wang Shumin 639; Fang Yong 464; Chen Guying 446夫天下之所尊者，富貴壽善也；所樂者，身安厚味美服好色音聲也；所下者，貧賤夭惡也；所苦者，身不得安逸，口不得厚味，形不得美服，目不得好色，耳不得音聲；
+
+ZHUANG 18.1.3 Guo Qingfan 609; Wang Shumin 639; Fang Yong 464; Chen Guying 446若不得者，則大憂以懼。其為形也亦愚哉！<pb:KR5c0126_CHANT_018-2a>
+
+ZHUANG 18.1.4 Guo Qingfan 609; Wang Shumin 639; Fang Yong 464; Chen Guying 446夫富者，苦身疾作，多積財而不得盡用，其為形也亦外矣。夫貴者，夜以繼日，思慮善否，其為形也亦䟽矣。人之生也，與憂俱生，壽者惽惽，久憂不死，何之苦也！其為形也亦遠矣。
+
+ZHUANG 18.1.5 Guo Qingfan 609; Wang Shumin 639; Fang Yong 464; Chen Guying 446列士為天下見善矣，未足以活身。吾未知善之誠善邪，誠不善邪？
+
+ZHUANG 18.1.6 Guo Qingfan 610; Wang Shumin 639; Fang Yong 464; Chen Guying 446若以為善矣，不足活身；以為不善矣，足以活人。故曰：「忠諫不聽，蹲循勿爭。」故夫子胥爭之以殘其形，不爭，名亦不成。誠有善无有哉？<pb:KR5c0126_CHANT_018-3a>
+
+ZHUANG 18.1.7 Guo Qingfan 611; Wang Shumin 642; Fang Yong 464; Chen Guying 446今俗之所為與其所樂，吾又未知樂之果樂邪，果不樂邪？吾觀夫俗之所樂，舉群趣者，誙誙然如將不得已，而皆曰樂者，吾未之樂也，亦未之不樂也。
+
+ZHUANG 18.1.8果有樂无有哉？吾以无為誠樂矣，又俗之所大苦也。故曰：「至樂无樂，至譽无譽。」<pb:KR5c0126_CHANT_018-4a>
+
+ZHUANG 18.1.9 Guo Qingfan 612; Wang Shumin 642; Fang Yong 464; Chen Guying 446天下是非果未可定也。雖然，无為可以定是非。至樂活身，唯无為幾存。請嘗試言之。天无為以之清，地无為以之寧，故兩无為相合，萬物皆化生。
+
+ZHUANG 18.1.10 Guo Qingfan 612; Wang Shumin 642; Fang Yong 464; Chen Guying 446芒乎芴乎，而无從出乎！芴乎芒乎，而无有象乎！萬物職職，皆從无為殖。故曰：天地无為也，而无不為也，人也孰能得无為哉！<pb:KR5c0126_CHANT_018-5a>
+
+ZHUANG 18.2.1 Guo Qingfan 614; Wang Shumin 645; Fang Yong 468; Chen Guying 450莊子妻死，惠子弔之，莊子則方箕踞鼓盆而歌。
+
+ZHUANG 18.2.2 Guo Qingfan 614; Wang Shumin 645; Fang Yong 468; Chen Guying 450惠子曰：「與人居，長子老身，死不哭亦足矣，又鼓盆而歌，不亦甚乎！」
+
+ZHUANG 18.2.3 Guo Qingfan 614; Wang Shumin 645; Fang Yong 468; Chen Guying 450莊子曰：「不然。是其始死也，我獨何能无概然！察其始而本无生，非徒无生也而本无形，非徒无形也而本无氣。
+
+ZHUANG 18.2.4 Guo Qingfan 615; Wang Shumin 645; Fang Yong 468; Chen Guying 450雜乎芒芴之間，變而有氣，氣變而有形，形變而有生，今又變而之死，是相與為春秋冬夏四時行也。人且偃然寢於巨室，而我噭噭然隨而哭之，自以為不通乎命，故止也。」<pb:KR5c0126_CHANT_018-6a>
+
+ZHUANG 18.3.1 Guo Qingfan 615; Wang Shumin 647; Fang Yong 469; Chen Guying 452支離叔與滑介叔觀於冥伯之丘，崑崙之虛，黃帝之所休。俄而柳生其左肘，其意蹶蹶然惡之。
+
+ZHUANG 18.3.2 Guo Qingfan 616; Wang Shumin 647; Fang Yong 469; Chen Guying 452支離叔曰：「子惡之乎？」滑介叔曰：「亡，予何惡！生者，假借也；假之而生生者，塵垢也。死生為晝夜。且吾與子觀化而化及我，我又何惡焉！」<pb:KR5c0126_CHANT_018-7a>
+
+ZHUANG 18.4.1 Guo Qingfan 617; Wang Shumin 649; Fang Yong 471; Chen Guying 453莊子之楚，見空髑髏，髐然有形，撽以馬捶，因而問之，曰：「夫子貪生失理，而為此乎？將子有亡國之事，斧鉞之誅，而為此乎？
+
+ZHUANG 18.4.2 Guo Qingfan 617; Wang Shumin 649; Fang Yong 471; Chen Guying 454將子有不善之行，愧遺父母妻子之醜，而為此乎？將子有凍餒之患，而為此乎？將子之春秋故及此乎？」
+
+ZHUANG 18.4.3 Guo Qingfan 618; Wang Shumin 649; Fang Yong 471; Chen Guying 454於是語卒，援髑髏，枕而臥。夜半，髑髏見夢曰：「子之談者似辯士，諸子所言，皆生人之累也，死則无此矣。子欲聞死之說乎？」
+
+ZHUANG 18.4.4 Guo Qingfan 618; Wang Shumin 649; Fang Yong 471; Chen Guying 454莊子曰：「然。」
+
+ZHUANG 18.4.5 Guo Qingfan 619; Wang Shumin 649; Fang Yong 471; Chen Guying 454髑髏曰：「死，无君於上，无臣於下；亦无四時之事，從然以天地為春秋，雖南面王樂，不能過也。」
+
+ZHUANG 18.4.6 Guo Qingfan 619; Wang Shumin 649; Fang Yong 471; Chen Guying 454莊子不信，曰：「吾使司命復生子形，為子骨肉肌膚，反子父母妻子閭里知識，子欲之乎？」
+
+ZHUANG 18.4.7 Guo Qingfan 619; Wang Shumin 649; Fang Yong 471; Chen Guying 454髑髏深矉蹙頞曰：「吾安能棄南面王樂，而復為人間之勞乎！」<pb:KR5c0126_CHANT_018-8a>
+
+ZHUANG 18.5.1 Guo Qingfan 620; Wang Shumin 652; Fang Yong 473; Chen Guying 456顏淵東之齊，孔子有憂色。子貢下席而問曰：「小子敢問，回東之齊，夫子有憂色，何邪？」<pb:KR5c0126_CHANT_018-9a>
+
+ZHUANG 18.5.2 Guo Qingfan 620; Wang Shumin 652; Fang Yong 473; Chen Guying 456孔子曰：「善哉女問！昔者管子有言，丘甚善之，曰：『褚小者不可以懷大，綆短者不可以汲深。』夫若是者，以為命有所成，而形有所適也，
+
+ZHUANG 18.5.3 Guo Qingfan 620; Wang Shumin 652; Fang Yong 473; Chen Guying 456夫不可損益。吾恐回與齊侯言堯舜黃帝之道，而重以燧人神農之言。彼將內求於己而不得，不得則惑，人惑則死。
+
+ZHUANG 18.5.4 Guo Qingfan 621; Wang Shumin 652; Fang Yong 473; Chen Guying 456且女獨不聞邪？昔者海鳥止於魯郊，魯侯御而觴之于廟，奏《九韶》以為樂，具太牢以為膳。鳥乃眩視憂悲，不敢食一臠，不敢飲一杯，三日而死。
+
+ZHUANG 18.5.5 Guo Qingfan 621; Wang Shumin 652; Fang Yong 473; Chen Guying 456此以己養養鳥也，非以鳥養養鳥也。夫以鳥養養鳥者，宜栖之深林，遊之壇陸，浮之江湖，食之鰌䱔，隨行列而止，委蛇而處。彼唯人言之惡聞，奚以夫譊譊為乎！
+
+ZHUANG 18.5.6 Guo Qingfan 621; Wang Shumin 652; Fang Yong 473; Chen Guying 456《咸池》、《九韶》之樂，張之洞庭之野，鳥聞之而飛，獸聞之而走，魚聞之而下入，人卒聞之，相與還而觀之。魚處水而生，人處水而死，
+
+ZHUANG 18.5.7 Guo Qingfan 621; Wang Shumin 652; Fang Yong 473; Chen Guying 456彼必相與異其好惡，故異也。故先聖不一其能，不同其事。名止於實，義設於適，是之謂條達而福持。」<pb:KR5c0126_CHANT_018-10a>
+
+ZHUANG 18.6.1 Guo Qingfan 623; Wang Shumin 652; Fang Yong 476; Chen Guying 459列子行食於道從，見百歲髑髏，攓蓬而指之曰：「唯予與女知而未嘗死，未嘗生也。若果養乎？予果歡乎？」
+
+ZHUANG 18.7.1 Guo Qingfan 624; Wang Shumin 657; Fang Yong 476; Chen Guying 460種有幾？得水則為㡭，得水土之際則為鼃蠙之衣，生於陵屯則為陵舄，陵舄得鬱棲則為烏足，烏足之根為蠐螬，其葉為胡蝶。胡蝶胥也化而為蟲，生於竈下，其狀若脫，其名為鴝掇。
+
+ZHUANG 18.7.2 Guo Qingfan 625; Wang Shumin 657; Fang Yong 476; Chen Guying 460鴝掇千日為鳥，其名為乾餘骨。乾餘骨之沫為斯彌，斯彌為食醯。頤輅生乎食醯，黃軦生乎九猷，瞀芮生乎腐蠸。羊奚比乎不筍，久竹生青寧；
+
+ZHUANG 18.7.3 Guo Qingfan 625; Wang Shumin 657; Fang Yong 476; Chen Guying 460青寧生程，程生馬，馬生人，人又反入於機。萬物皆出於機，皆入於機。
+
+### KR5c0126_019.txt
+
+ZHUANG 19.1.1 Guo Qingfan 630; Wang Shumin 667; Fang Yong 485; Chen Guying 465達生之情者，不務生之所无以為；達命之情者，不務知之所无奈何。養形必先之以物，物有餘而形不養者有之矣；
+
+ZHUANG 19.1.2 Guo Qingfan 630; Wang Shumin 667; Fang Yong 485; Chen Guying 465有生必先无離形，形不離而生亡者有之矣。生之來不能卻，其去不能止。悲夫！世之人以為養形足以存生；
+
+ZHUANG 19.1.3 Guo Qingfan 630; Wang Shumin 667; Fang Yong 485; Chen Guying 465而養形果不足以存生，則世奚足為哉！雖不足為而不可不為者，其為不免矣。
+
+ZHUANG 19.1.4 Guo Qingfan 632; Wang Shumin 667; Fang Yong 485; Chen Guying 465夫欲免為形者，莫如棄世。棄世則无累，无累則正平，正平則與彼更生，更生則幾矣。
+
+ZHUANG 19.1.5 Guo Qingfan 632; Wang Shumin 667; Fang Yong 485; Chen Guying 465事奚足棄而生奚足遺？棄事則形不勞，遺生則精不虧。夫形全精復，與天為一。
+
+ZHUANG 19.1.6 Guo Qingfan 632; Wang Shumin 667; Fang Yong 485; Chen Guying 465天地者，萬物之父母也，合則成體，散則成始。形精不虧，是謂能移；精而又精，反以相天。
+
+ZHUANG 19.2.1 Guo Qingfan 633; Wang Shumin 670; Fang Yong 487; Chen Guying 467子列子問關尹曰：「至人潛行不窒，蹈火不熱，行乎萬物之上而不慄。請問何以至於此？」
+
+ZHUANG 19.2.2 Guo Qingfan 634; Wang Shumin 670; Fang Yong 487; Chen Guying 468關尹曰：「是純氣之守也，非知巧果敢之列。居，予語汝！凡有貌象聲色者，皆物也，物何以相遠？夫奚足以至乎先？是色而已。
+
+ZHUANG 19.2.3 Guo Qingfan 634; Wang Shumin 670; Fang Yong 487; Chen Guying 468則物之造乎不形而止乎无所化，夫得是而窮之者，物焉得而止焉！彼將處乎不淫之度，而藏乎无端之紀，遊乎萬物之所終始，壹其性，養其氣，合其德，以通乎物之所造。
+
+ZHUANG 19.2.4 Guo Qingfan 634; Wang Shumin 670; Fang Yong 487; Chen Guying 468夫若是者，其天守全，其神无郤，物奚自入焉！<pb:KR5c0126_CHANT_019-4a>
+
+ZHUANG 19.2.5 Guo Qingfan 636; Wang Shumin 674; Fang Yong 487; Chen Guying 468「夫醉者之墜車，雖疾不死。骨節與人同而犯害與人異，其神全也，乘亦不知也，墜亦不知也，死生驚懼不入乎其胸中，是故遌物而不慴。
+
+ZHUANG 19.2.6 Guo Qingfan 636; Wang Shumin 674; Fang Yong 488; Chen Guying 468彼得全於酒而猶若是，而況得全於天乎？聖人藏於天，故莫之能傷也。
+
+ZHUANG 19.2.7 Guo Qingfan 636; Wang Shumin 674; Fang Yong 488; Chen Guying 468復讎者不折鏌干，雖有忮心者不怨飄瓦，是以天下平均。故无攻戰之亂，无殺戮之刑者，由此道也。
+
+ZHUANG 19.2.8 Guo Qingfan 638; Wang Shumin 674; Fang Yong 488; Chen Guying 468不開人之天，而開天之天，開天者德生，開人者賊生。不厭其天，不忽於人，民幾乎以其真！」<pb:KR5c0126_CHANT_019-5a>
+
+ZHUANG 19.3.1 Guo Qingfan 639; Wang Shumin 677; Fang Yong 492; Chen Guying 471仲尼適楚，出於林中，見痀僂者承蜩，猶掇之也。
+
+ZHUANG 19.3.2 Guo Qingfan 639; Wang Shumin 677; Fang Yong 492; Chen Guying 471仲尼曰：「子巧乎！有道邪？」
+
+ZHUANG 19.3.3 Guo Qingfan 640; Wang Shumin 677; Fang Yong 492; Chen Guying 471曰：「我有道也。五六月累丸二而不墜，則失者錙銖；累三而不墜，則失者十一；累五而不墜，猶掇之也。
+
+ZHUANG 19.3.4 Guo Qingfan 640; Wang Shumin 677; Fang Yong 492; Chen Guying 471吾處身也，若橛株拘；吾執臂也，若槁木之枝；雖天地之大，萬物之多，而唯蜩翼之知。吾不反不側，不以萬物易蜩之翼，何為而不得！」
+
+ZHUANG 19.3.5 Guo Qingfan 641; Wang Shumin 677; Fang Yong 492; Chen Guying 472孔子顧謂弟子曰：「用志不分，乃凝於神，其痀僂丈人之謂乎！」<pb:KR5c0126_CHANT_019-6a>
+
+ZHUANG 19.4.1 Guo Qingfan 641; Wang Shumin 6i1; Fang Yong 494; Chen Guying 473顏淵問仲尼曰：「吾嘗濟乎觴深之淵，津人操舟若神。吾問焉，曰：『操舟可學邪？』曰：『可。善游者數能。
+
+ZHUANG 19.4.2 Guo Qingfan 641; Wang Shumin 6i1; Fang Yong 494; Chen Guying 473若乃夫沒人，則未嘗見舟而便操之也。』吾問焉而不吾告，敢問何謂也？」
+
+ZHUANG 19.4.3 Guo Qingfan 642; Wang Shumin 6i1; Fang Yong 494; Chen Guying 473仲尼曰：「善游者數能，忘水也。若乃夫沒人之未嘗見舟而便操之也，彼視淵若陵，視舟之覆猶其車卻也。覆卻萬方陳乎前而不得入其舍，惡往而不暇！
+
+ZHUANG 19.4.4 Guo Qingfan 642; Wang Shumin 6i1; Fang Yong 494; Chen Guying 473以瓦注者巧，以鉤注者憚，以黃金注者殙。其巧一也，而有所矜，則重外也。凡外重者內拙。」<pb:KR5c0126_CHANT_019-7a>
+
+ZHUANG 19.5.1 Guo Qingfan 644; Wang Shumin 685; Fang Yong 496; Chen Guying 475田開之見周威公。威公曰：「吾聞祝腎學生，吾子與祝腎遊，亦何聞焉？」
+
+ZHUANG 19.5.2 Guo Qingfan 645; Wang Shumin 685; Fang Yong 496; Chen Guying 475田開之曰：「開之操拔篲以侍門庭，亦何聞於夫子！」
+
+ZHUANG 19.5.3 Guo Qingfan 645; Wang Shumin 686; Fang Yong 496; Chen Guying 475威公曰：「田子无讓，寡人願聞之。」
+
+ZHUANG 19.5.4 Guo Qingfan 645; Wang Shumin 686; Fang Yong 496; Chen Guying 476開之曰：「聞之夫子曰：『善養生者，若牧羊然，視其後者而鞭之。』」
+
+ZHUANG 19.5.5 Guo Qingfan 645; Wang Shumin 686; Fang Yong 496; Chen Guying 476威公曰：「何謂也？」<pb:KR5c0126_CHANT_019-8a>
+
+ZHUANG 19.5.6 Guo Qingfan 646; Wang Shumin 686; Fang Yong 496; Chen Guying 476田開之曰：「魯有單豹者，巖居而水飲，不與民共利，行年七十而猶有嬰兒之色；不幸遇餓虎，餓虎殺而食之。有張毅者，高門縣薄，无不走也，
+
+ZHUANG 19.5.7 Guo Qingfan 646; Wang Shumin 686; Fang Yong 496; Chen Guying 476行年四十而有內熱之病以死。豹養其內而虎食其外，毅養其外而病攻其內，此二子者，皆不鞭其後者也。」<pb:KR5c0126_CHANT_019-9a>
+
+ZHUANG 19.5.8 Guo Qingfan 647; Wang Shumin 686; Fang Yong 496; Chen Guying 476仲尼曰：「无入而藏，无出而陽，柴立其中央。三者若得，其名必極。夫畏塗者，十殺一人，則父子兄弟相戒也，必盛卒徒而後敢出焉，不亦知乎！
+
+ZHUANG 19.5.9 Guo Qingfan 647; Wang Shumin 686; Fang Yong 496; Chen Guying 476人之所取畏者，衽席之上，飲食之閒；而不知為之戒者，過也。」<pb:KR5c0126_CHANT_019-10a>
+
+ZHUANG 19.6.1 Guo Qingfan 648; Wang Shumin 690; Fang Yong 499; Chen Guying 479祝宗人玄端以臨牢筴，說彘曰：「汝奚惡死？吾將三月豢汝，十日戒，三日齊，藉白茅，加汝肩尻乎彫俎之上，則汝為之乎？」
+
+ZHUANG 19.6.2 Guo Qingfan 648; Wang Shumin 690; Fang Yong 499; Chen Guying 479為彘謀，曰：不如食以穅糟而錯之牢筴之中，自為謀，則苟生有軒冕之尊，死得於腞楯之上、聚僂之中則為之。為彘謀則去之，自為謀則取之，所異彘者何也？<pb:KR5c0126_CHANT_019-11a>
+
+ZHUANG 19.7.1 Guo Qingfan 650; Wang Shumin 693; Fang Yong 500; Chen Guying 4i1桓公田於澤，管仲御，見鬼焉。公撫管仲之手曰：「仲父何見？」對曰：「臣无所見。」
+
+ZHUANG 19.7.2 Guo Qingfan 650; Wang Shumin 693; Fang Yong 500; Chen Guying 4i1公反，誒詒為病，數日不出。齊士有皇子告敖者，曰：
+
+ZHUANG 19.7.3 Guo Qingfan 650; Wang Shumin 693; Fang Yong 500; Chen Guying 4i1「公則自傷，鬼惡能傷公！夫忿滀之氣，散而不反，則為不足；上而不下，則使人善怒；下而不上，則使人善忘；不上不下，中身當心，則為病。」<pb:KR5c0126_CHANT_019-12a>
+
+ZHUANG 19.7.4 Guo Qingfan 652; Wang Shumin 694; Fang Yong 501; Chen Guying 4i1桓公曰：「然則有鬼乎？」
+
+ZHUANG 19.7.5 Guo Qingfan 652; Wang Shumin 694; Fang Yong 501; Chen Guying 4i1曰：「有。沈有履，竈有髻。戶內之煩壤，雷霆處之；東北方之下者，倍阿鮭蠪躍之；西北方之下者，則泆陽處之。
+
+ZHUANG 19.7.6 Guo Qingfan 652; Wang Shumin 694; Fang Yong 501; Chen Guying 4i1水有罔象，丘有崒，山有夔，野有彷徨，澤有委蛇。」
+
+ZHUANG 19.7.7 Guo Qingfan 653; Wang Shumin 694; Fang Yong 501; Chen Guying 4i1公曰：「請問，委蛇之狀何如？」
+
+ZHUANG 19.7.8 Guo Qingfan 654; Wang Shumin 694; Fang Yong 501; Chen Guying 4i1皇子曰：「委蛇，其大如轂，其長如轅，紫衣而朱冠。其為物也，惡聞雷車之聲，則捧其首而立。見之者殆乎霸。」
+
+ZHUANG 19.7.9 Guo Qingfan 654; Wang Shumin 694; Fang Yong 501; Chen Guying 4i1桓公辴然而笑曰：「此寡人之所見者也。」於是正衣冠與之坐，不終日而不知病之去也。
+
+ZHUANG 19.8.1 Guo Qingfan 654; Wang Shumin 700; Fang Yong 503; Chen Guying 485紀渻子為王養鬭雞，
+
+ZHUANG 19.8.2 Guo Qingfan 655; Wang Shumin 700; Fang Yong 503; Chen Guying 485十日而問：「雞已乎？」曰：「未也，方虛憍而恃氣。」
+
+ZHUANG 19.8.3 Guo Qingfan 655; Wang Shumin 700; Fang Yong 503; Chen Guying 485十日又問，曰：「未也。猶應嚮景。」
+
+ZHUANG 19.8.4 Guo Qingfan 655; Wang Shumin 700; Fang Yong 503; Chen Guying 485十日又問，曰：「未也。猶疾視而盛氣。」
+
+ZHUANG 19.8.5 Guo Qingfan 655; Wang Shumin 700; Fang Yong 503; Chen Guying 485十日又問，曰：「幾矣。雞雖有鳴者，已无變矣，望之似木雞矣，其德全矣，異雞无敢應者，反走矣。」<pb:KR5c0126_CHANT_019-14a>
+
+ZHUANG 19.9.1 Guo Qingfan 656; Wang Shumin 702; Fang Yong 504; Chen Guying 486孔子觀於呂梁，縣水三十仞，流沫四十里，黿鼉魚鼈之所不能游也。見一丈夫游之，以為有苦而欲死也，使弟子並流而拯之。數百步而出，被髮行歌而游於塘下。
+
+ZHUANG 19.9.2 Guo Qingfan 656; Wang Shumin 702; Fang Yong 504; Chen Guying 486孔子從而問焉，曰：「吾以子為鬼，察子則人也。請問，蹈水有道乎？」
+
+ZHUANG 19.9.3 Guo Qingfan 657; Wang Shumin 702; Fang Yong 504; Chen Guying 487曰：「亡，吾无道。吾始乎故，長乎性，成乎命。與齊俱入，與汩偕出，從水之道而不為私焉。此吾所以蹈之也。」
+
+ZHUANG 19.9.4 Guo Qingfan 658; Wang Shumin 702; Fang Yong 504; Chen Guying 487孔子曰：「何謂始乎故，長乎性，成乎命？」
+
+ZHUANG 19.9.5 Guo Qingfan 658; Wang Shumin 702; Fang Yong 504; Chen Guying 487曰：「吾生於陵而安於陵，故也；長於水而安於水，性也；不知吾所以然而然，命也。」<pb:KR5c0126_CHANT_019-15a>
+
+ZHUANG 19.10.1 Guo Qingfan 658; Wang Shumin 706; Fang Yong 506; Chen Guying 489梓慶削木為鐻，鐻成，見者驚猶鬼神。魯侯見而問焉，曰：「子何術以為焉？」
+
+ZHUANG 19.10.2 Guo Qingfan 658; Wang Shumin 707; Fang Yong 506; Chen Guying 489對曰：「臣工人，何術之有！雖然，有一焉。臣將為鐻，未嘗敢以耗氣也，必齊以靜心。齊三日，而不敢懷慶賞爵祿；
+
+ZHUANG 19.10.3 Guo Qingfan 658; Wang Shumin 707; Fang Yong 506; Chen Guying 489齊五日，不敢懷非譽巧拙；齊七日，輒然忘吾有四枝形體也。當是時也，无公朝，其巧專而外滑消；然後入山林，觀天性；
+
+ZHUANG 19.10.4 Guo Qingfan 659; Wang Shumin 707; Fang Yong 506; Chen Guying 489形軀至矣，然後成見鐻，然後加手焉；不然則已。則以天合天，器之所以疑神者，其是與！」<pb:KR5c0126_CHANT_019-16a>
+
+ZHUANG 19.11.1 Guo Qingfan 660; Wang Shumin 709; Fang Yong 508; Chen Guying 491東野稷以御見莊公，進退中繩，左右旋中規。莊公以為文弗過也，使之鉤百而反。
+
+ZHUANG 19.11.2 Guo Qingfan 661; Wang Shumin 709; Fang Yong 508; Chen Guying 491顏闔遇之，入見曰：「稷之馬將敗。」公密而不應。
+
+ZHUANG 19.11.3 Guo Qingfan 661; Wang Shumin 709; Fang Yong 508; Chen Guying 491少焉，果敗而反。公曰：「子何以知之？」
+
+ZHUANG 19.11.4 Guo Qingfan 661; Wang Shumin 709; Fang Yong 508; Chen Guying 491曰：「其馬力竭矣，而猶求焉，故曰敗。」<pb:KR5c0126_CHANT_019-17a>
+
+ZHUANG 19.12.1 Guo Qingfan 662; Wang Shumin 711; Fang Yong 509; Chen Guying 491工倕旋而蓋規矩，指與物化而不以心稽，故其靈臺一而不桎。
+
+ZHUANG 19.12.2 Guo Qingfan 662; Wang Shumin 711; Fang Yong 509; Chen Guying 491忘足，屨之適也；忘要，帶之適也；知忘是非，心之適也；不內變，不外從，事會之適也。始乎適而未嘗不適者，忘適之適也。
+
+ZHUANG 19.13.1 Guo Qingfan 663; Wang Shumin 714; Fang Yong 510; Chen Guying 494有孫休者，踵門而詫子扁慶子曰：「休居鄉不見謂不脩，臨難不見謂不勇；然而田原不遇歲，事君不遇世，賓於鄉里，逐於州部，則胡罪乎天哉？休惡遇此命也？」
+
+ZHUANG 19.13.2 Guo Qingfan 663; Wang Shumin 714; Fang Yong 510; Chen Guying 494扁子曰：「子獨不聞夫至人之自行邪？忘其肝膽，遺其耳目，芒然彷徨乎塵垢之外，逍遙乎无事之業，是謂為而不恃，長而不宰。
+
+ZHUANG 19.13.3 Guo Qingfan 663; Wang Shumin 714; Fang Yong 511; Chen Guying 494今汝飾知以驚愚，脩身以明汙，昭昭乎若揭日月而行也。汝得全而形軀，具而九竅，无中道夭於聾盲跛蹇而比於人數，亦幸矣，又何暇乎天之怨哉！子往矣！」
+
+ZHUANG 19.13.4 Guo Qingfan 665; Wang Shumin 714; Fang Yong 511; Chen Guying 494孫子出。扁子入，坐有閒，仰天而歎。弟子問曰：「先生何為歎乎？」<pb:KR5c0126_CHANT_019-19a>
+
+ZHUANG 19.13.5 Guo Qingfan 665; Wang Shumin 714; Fang Yong 511; Chen Guying 495扁子曰：「向者休來，吾告之以至人之德，吾恐其驚而遂至於惑也。」
+
+ZHUANG 19.13.6 Guo Qingfan 665; Wang Shumin 714; Fang Yong 511; Chen Guying 495弟子曰：「不然。孫子之所言是邪？先生之所言非邪？非固不能惑是。孫子所言非邪？先生所言是邪？彼固惑而來矣，又奚罪焉！」<pb:KR5c0126_CHANT_019-20a>
+
+ZHUANG 19.13.7 Guo Qingfan 665; Wang Shumin 714; Fang Yong 511; Chen Guying 495扁子曰：「不然。昔者有鳥止於魯郊，魯君悅之，為具太牢以饗之，奏九韶以樂之，鳥乃始憂悲眩視，不敢飲食。此之謂以己養養鳥也。
+
+ZHUANG 19.13.8 Guo Qingfan 666; Wang Shumin 714; Fang Yong 511; Chen Guying 495若夫以鳥養養鳥者，宜棲之深林，浮之江湖，食之以委蛇，則平陸而已矣。今休，款啟寡聞之民也，吾告以至人之德，譬之若載鼷以車馬，樂鴳以鍾鼓也。彼又惡能无驚乎哉！」
+
+### KR5c0126_020.txt
+
+ZHUANG 20.1.1 Guo Qingfan 667; Wang Shumin 719; Fang Yong 519; Chen Guying 498莊子行於山中，見大木，枝葉盛茂，伐木者止其旁而不取也。問其故，曰：「无所可用。」莊子曰：「此木以不材得終其天年。」
+
+ZHUANG 20.1.2 Guo Qingfan 667; Wang Shumin 719; Fang Yong 519; Chen Guying 498夫子出於山，舍於故人之家。故人喜，命豎子殺鴈而烹之。豎子請曰：「其一能鳴，其一不能鳴，請奚殺？」主人曰：「殺不能鳴者。」
+
+ZHUANG 20.1.3 Guo Qingfan 668; Wang Shumin 719; Fang Yong 519; Chen Guying 498明日，弟子問於莊子曰：「昨日山中之木，以不材得終其天年；今主人之鴈，以不材死；先生將何處？」<pb:KR5c0126_CHANT_020-2a>
+
+ZHUANG 20.1.4 Guo Qingfan 668; Wang Shumin 719; Fang Yong 519; Chen Guying 498莊子笑曰：「周將處夫材與不材之閒。材與不材之閒，似之而非也，故未免乎累。若夫乘道德而浮遊則不然。无譽无訾，一龍一蛇，與時俱化，而无肯專為；
+
+ZHUANG 20.1.5 Guo Qingfan 668; Wang Shumin 719; Fang Yong 519; Chen Guying 498一上一下，以和為量，浮遊乎萬物之祖；物物而不物於物，則胡可得而累邪！此神農黃帝之法則也。
+
+ZHUANG 20.1.6 Guo Qingfan 668; Wang Shumin 719; Fang Yong 519; Chen Guying 498若夫萬物之情，人倫之傳，則不然。合則離，成則毀；廉則挫，尊則議，
+
+ZHUANG 20.1.7 Guo Qingfan 668; Wang Shumin 719; Fang Yong 519; Chen Guying 498有為則虧，賢則謀，不肖則欺，胡可得而必乎哉！悲夫！弟子志之，其唯道德之鄉乎！」<pb:KR5c0126_CHANT_020-3a>
+
+ZHUANG 20.2.1 Guo Qingfan 670; Wang Shumin 726; Fang Yong 522; Chen Guying 501巿南宜僚見魯侯，魯侯有憂色。巿南子曰：「君有憂色，何也？」
+
+ZHUANG 20.2.2 Guo Qingfan 671; Wang Shumin 726; Fang Yong 522; Chen Guying 501魯侯曰：「吾學先王之道，脩先君之業；吾敬鬼尊賢，親而行之，无須臾離居；然不免於患，吾是以憂。」<pb:KR5c0126_CHANT_020-4a>
+
+ZHUANG 20.2.3 Guo Qingfan 671; Wang Shumin 726; Fang Yong 522; Chen Guying 501巿南子曰：「君之除患之術淺矣！夫豐狐文豹，棲於山林，伏於巖穴，靜也；夜行晝居，戒也；
+
+ZHUANG 20.2.4 Guo Qingfan 671; Wang Shumin 726; Fang Yong 522; Chen Guying 502雖飢渴隱約，猶且胥䟽於江湖之上而求食焉，定也；然且不免於罔羅機辟之患。是何罪之有哉？其皮為之災也。今魯國獨非君之皮邪？吾願君刳形去皮，洒心去欲，而遊於无人之野。
+
+ZHUANG 20.2.5 Guo Qingfan 671; Wang Shumin 726; Fang Yong 522; Chen Guying 502南越有邑焉，名為建德之國。其民愚而朴，少私而寡欲；知作而不知藏，與而不求其報；不知義之所適，不知禮之所將；
+
+ZHUANG 20.2.6 Guo Qingfan 671; Wang Shumin 726; Fang Yong 522; Chen Guying 502猖狂妄行，乃蹈乎大方；其生可樂，其死可葬。吾願君去國捐俗，與道相輔而行。」<pb:KR5c0126_CHANT_020-5a>
+
+ZHUANG 20.2.7 Guo Qingfan 674; Wang Shumin 730; Fang Yong 523; Chen Guying 502君曰：「彼其道遠而險，又有江山，我无舟車，奈何？」
+
+ZHUANG 20.2.8 Guo Qingfan 674; Wang Shumin 730; Fang Yong 523; Chen Guying 502巿南子曰：「君无形倨，无留居，以為君車。」君曰：「彼其道幽遠而无人，吾誰與為鄰？吾无糧，我无食，安得而至焉？」<pb:KR5c0126_CHANT_020-6a>
+
+ZHUANG 20.2.9 Guo Qingfan 674; Wang Shumin 730; Fang Yong 523; Chen Guying 502巿南子曰：「少君之費，寡君之欲，雖无糧而乃足。君其涉於江而浮於海，望之而不見其崖，愈往而不知其所窮。送君者皆自崖而反，君自此遠矣！
+
+ZHUANG 20.2.10 Guo Qingfan 674; Wang Shumin 730; Fang Yong 523; Chen Guying 502故有人者累，見有於人者憂。故堯非有人，非見有於人也。吾願去君之累，除君之憂，而獨與道遊於大莫之國。
+
+ZHUANG 20.2.11 Guo Qingfan 675; Wang Shumin 730; Fang Yong 523; Chen Guying 502方舟而濟於河，有虛船來觸舟，雖有惼心之人不怒；
+
+ZHUANG 20.2.12 Guo Qingfan 675; Wang Shumin 730; Fang Yong 523; Chen Guying 502有一人在其上，則呼張歙之；一呼而不聞，再呼而不聞，於是三呼邪，則必以惡聲隨之。向也不怒而今也怒，向也虛而今也實。人能虛己以遊世，其孰能害之！」<pb:KR5c0126_CHANT_020-7a>
+
+ZHUANG 20.3.1 Guo Qingfan 676; Wang Shumin 733; Fang Yong 528; Chen Guying 506北宮奢為衛靈公賦斂以為鍾，為壇乎郭門之外，三月而成上下之縣。
+
+ZHUANG 20.3.2 Guo Qingfan 676; Wang Shumin 733; Fang Yong 528; Chen Guying 506王子慶忌見而問焉，曰：「子何術之設？」
+
+ZHUANG 20.3.3 Guo Qingfan 676; Wang Shumin 734; Fang Yong 528; Chen Guying 506奢曰：「一之閒，无敢設也。奢聞之，『既彫既琢，復歸於朴。』侗乎其无識，儻乎其怠疑；
+
+ZHUANG 20.3.4 Guo Qingfan 676; Wang Shumin 734; Fang Yong 528; Chen Guying 506萃乎芒乎，其送往而迎來；來者勿禁，往者勿止；從其彊梁，隨其曲傅，因其自窮，故朝夕賦斂而豪毛不挫，而況有大塗者乎！」<pb:KR5c0126_CHANT_020-8a>
+
+ZHUANG 20.4.1 Guo Qingfan 679; Wang Shumin 737; Fang Yong 530; Chen Guying 508孔子圍於陳蔡之閒，七日不火食。
+
+ZHUANG 20.4.2 Guo Qingfan 680; Wang Shumin 737; Fang Yong 530; Chen Guying 508太公任往弔之曰：「子幾死乎？」曰：「然。」
+
+ZHUANG 20.4.3 Guo Qingfan 680; Wang Shumin 737; Fang Yong 530; Chen Guying 508「子惡死乎？」曰：「然。」
+
+ZHUANG 20.4.4 Guo Qingfan 680; Wang Shumin 737; Fang Yong 531; Chen Guying 509任曰：「予嘗言不死之道。東海有鳥焉，其名曰意怠。其為鳥也，翂翂翐翐，而似无能；引援而飛，迫脅而棲；
+
+ZHUANG 20.4.5 Guo Qingfan 680; Wang Shumin 737; Fang Yong 531; Chen Guying 509進不敢為前，退不敢為後；食不敢先嘗，必取其緒。是故其行列不斥，而外人卒不得害，是以免於患。直木先伐，甘井先竭。
+
+ZHUANG 20.4.6 Guo Qingfan 680; Wang Shumin 737; Fang Yong 531; Chen Guying 509子其意者飾知以驚愚，脩身以明汙，昭昭乎如揭日月而行，故不免也。昔吾聞之大成之人曰：
+
+ZHUANG 20.4.7 Guo Qingfan 680; Wang Shumin 737; Fang Yong 531; Chen Guying 509『自伐者无功，功成者墮，名成者虧。』孰能去功與名而還與眾人！道流而不明，居得行而不名處；純純常常，乃比於狂；削迹捐勢，不為功名；
+
+ZHUANG 20.4.8 Guo Qingfan 680; Wang Shumin 737; Fang Yong 531; Chen Guying 509是故无責於人，人亦无責焉。至人不聞，子何喜哉？」
+
+ZHUANG 20.4.9 Guo Qingfan 6i3; Wang Shumin 737; Fang Yong 531; Chen Guying 509孔子曰：「善哉！」辭其交遊，去其弟子，逃於大澤；衣裘褐，食杼栗；入獸不亂群，入鳥不亂行。鳥獸不惡，而況人乎！<pb:KR5c0126_CHANT_020-9a>
+
+ZHUANG 20.5.1 Guo Qingfan 6i4; Wang Shumin 743; Fang Yong 534; Chen Guying 512孔子問子桑雩曰：「吾再逐於魯，伐樹於宋，削迹於衛，窮於商周，圍於陳蔡之閒。吾犯此數患，親交益䟽，徒友益散，何與？」<pb:KR5c0126_CHANT_020-10a>
+
+ZHUANG 20.5.2 Guo Qingfan 685; Wang Shumin 743; Fang Yong 534; Chen Guying 512子桑雩曰：「子獨不聞假人之亡與？林回棄千金之璧，負赤子而趨。或曰：『為其布與？赤子之布寡矣；為其累與？赤子之累多矣；棄千金之璧，負赤子而趨，何也？』
+
+ZHUANG 20.5.3 Guo Qingfan 685; Wang Shumin 743; Fang Yong 534; Chen Guying 512林回曰：『彼以利合，此以天屬也。』夫以利合者，迫窮禍患害相棄也；以天屬者，迫窮禍患害相收也。夫相收之與相棄亦遠矣。
+
+ZHUANG 20.5.4 Guo Qingfan 685; Wang Shumin 743; Fang Yong 534; Chen Guying 512且君子之交淡若水，小人之交甘若醴；君子淡以親，小人甘以絕。彼无故以合者，則无故以離。」<pb:KR5c0126_CHANT_020-11a>
+
+ZHUANG 20.5.5 Guo Qingfan 686; Wang Shumin 743; Fang Yong 534; Chen Guying 512孔子曰：「敬聞命矣！」徐行翔佯而歸，絕學捐書，弟子无挹於前，其愛益加進。
+
+ZHUANG 20.5.6 Guo Qingfan 686; Wang Shumin 743; Fang Yong 534; Chen Guying 512異日，桑雩又曰：「舜之將死，真泠禹曰：『汝戒之哉！形莫若緣，情莫若率。
+
+ZHUANG 20.5.7 Guo Qingfan 686; Wang Shumin 743; Fang Yong 534; Chen Guying 512緣則不離，率則不勞；不離不勞，則不求文以待形；不求文以待形，固不待物。』」<pb:KR5c0126_CHANT_020-12a>
+
+ZHUANG 20.6.1 Guo Qingfan 687; Wang Shumin 748; Fang Yong 537; Chen Guying 515莊子衣大布而補之，正緳係履而過魏王。魏王曰：「何先生之憊邪？」
+
+ZHUANG 20.6.2 Guo Qingfan 688; Wang Shumin 748; Fang Yong 537; Chen Guying 515莊子曰：「貧也，非憊也。士有道德不能行，憊也；衣弊履穿，貧也，非憊也；此所謂非遭時也。
+
+ZHUANG 20.6.3 Guo Qingfan 688; Wang Shumin 748; Fang Yong 537; Chen Guying 515王獨不見夫騰猿乎？其得柟梓豫章也，攬蔓其枝而王長其閒，雖羿、蓬蒙不能睥睨也。
+
+ZHUANG 20.6.4 Guo Qingfan 688; Wang Shumin 748; Fang Yong 537; Chen Guying 516及其得柘棘枳枸之閒也，危行側視，振動悼慄，此筋骨非有加急而不柔也，處勢不便，未足以逞其能也。
+
+ZHUANG 20.6.5 Guo Qingfan 688; Wang Shumin 748; Fang Yong 537; Chen Guying 516今處昏上亂相之閒，而欲无憊，奚可得邪？此比干之見剖心徵也夫！」<pb:KR5c0126_CHANT_020-13a>
+
+ZHUANG 20.7.1 Guo Qingfan 690; Wang Shumin 752; Fang Yong 539; Chen Guying 517孔子窮於陳蔡之閒，七日不火食，左據槁木，右擊槁枝，而歌焱氏之風，有其具而无其數，有其聲而无宮角，木聲與人聲，犁然有當於人之心。
+
+ZHUANG 20.7.2 Guo Qingfan 690; Wang Shumin 752; Fang Yong 539; Chen Guying 518顏回端拱還目而窺之。仲尼恐其廣己而造大也，愛己而造哀也，曰：「回，无受天損易，无受人益難。无始而非卒也，人與天一也。夫今之歌者其誰乎？」<pb:KR5c0126_CHANT_020-14a>
+
+ZHUANG 20.7.3 Guo Qingfan 691; Wang Shumin 752; Fang Yong 539; Chen Guying 518回曰：「敢問无受天損易。」
+
+ZHUANG 20.7.4 Guo Qingfan 691; Wang Shumin 752; Fang Yong 539; Chen Guying 518仲尼曰：「飢渴寒暑，窮桎不行，天地之行也，運物之泄也，言與之偕逝之謂也。為人臣者，不敢去之。執臣之道而猶若是，而況乎所以待天乎！」<pb:KR5c0126_CHANT_020-15a>
+
+ZHUANG 20.7.5 Guo Qingfan 692; Wang Shumin 755; Fang Yong 539; Chen Guying 518「何謂无受人益難？」
+
+ZHUANG 20.7.6 Guo Qingfan 692; Wang Shumin 755; Fang Yong 539; Chen Guying 518仲尼曰：「始用四達，爵祿並至而不窮，物之所利，乃非己也，吾命有在外者也。君子不為盜，賢人不為竊。吾若取之，何哉！
+
+ZHUANG 20.7.7 Guo Qingfan 692; Wang Shumin 755; Fang Yong 540; Chen Guying 518故曰：鳥莫知於鷾鴯，目之所不宜處，不給視，雖落其實，棄之而走。其畏人也，而襲諸人閒，社稷存焉爾。」<pb:KR5c0126_CHANT_020-16a>
+
+ZHUANG 20.7.8 Guo Qingfan 692; Wang Shumin 755; Fang Yong 540; Chen Guying 518「何謂无始而非卒？」
+
+ZHUANG 20.7.9 Guo Qingfan 694; Wang Shumin 755; Fang Yong 540; Chen Guying 518仲尼曰：「化其萬物而不知其禪之者，焉知其所終？焉知其所始？正而待之而已耳。」
+
+ZHUANG 20.7.9 Guo Qingfan 694; Wang Shumin 755; Fang Yong 540; Chen Guying 518「何謂人與天一邪？」
+
+ZHUANG 20.7.10 Guo Qingfan 694; Wang Shumin 755; Fang Yong 540; Chen Guying 518仲尼曰：「有人，天也；有天，亦天也。人之不能有天，性也，聖人晏然體逝而終矣！」<pb:KR5c0126_CHANT_020-17a>
+
+ZHUANG 20.8.1 Guo Qingfan 695; Wang Shumin 758; Fang Yong 543; Chen Guying 522莊周遊乎雕陵之樊，覩一異鵲自南方來者，翼廣七尺，目大運寸，感周之顙而集於栗林。
+
+ZHUANG 20.8.2 Guo Qingfan 695; Wang Shumin 758; Fang Yong 544; Chen Guying 523莊周曰：「此何鳥哉，翼殷不逝，目大不覩？」蹇裳躩步，執彈而留之。覩一蟬，方得美蔭而忘其身；
+
+ZHUANG 20.8.3 Guo Qingfan 695; Wang Shumin 758; Fang Yong 544; Chen Guying 523螳蜋執翳而搏之，見得而忘其形；異鵲從而利之，見利而忘其真。
+
+ZHUANG 20.8.4 Guo Qingfan 695; Wang Shumin 758; Fang Yong 544; Chen Guying 523莊周怵然曰：「噫！物固相累，二類相召也！」捐彈而反走，虞人逐而誶之。
+
+ZHUANG 20.8.5 Guo Qingfan 697; Wang Shumin 758; Fang Yong 544; Chen Guying 523莊周反入，三月不庭。藺且從而問之：「夫子何為頃閒甚不庭乎？」
+
+ZHUANG 20.8.6 Guo Qingfan 698; Wang Shumin 758; Fang Yong 544; Chen Guying 523莊周曰：「吾守形而忘身，觀於濁水而迷於清淵。且吾聞諸夫子曰：『入其俗，從其俗。』
+
+ZHUANG 20.8.7 Guo Qingfan 698; Wang Shumin 758; Fang Yong 544; Chen Guying 523今吾遊於雕陵而忘吾身，異鵲感吾顙，遊於栗林而忘真，栗林虞人以吾為戮，吾所以不庭也。」<pb:KR5c0126_CHANT_020-18a>
+
+ZHUANG 20.9.1 Guo Qingfan 698; Wang Shumin 764; Fang Yong 547; Chen Guying 526陽子之宋，宿於逆旅。逆旅人有妾二人，其一人美，其一人惡，惡者貴而美者賤。陽子問其故，逆旅小子對曰：「其美者自美，吾不知其美也；其惡者自惡，吾不知其惡也。」
+
+ZHUANG 20.9.2 Guo Qingfan 700; Wang Shumin 764; Fang Yong 547; Chen Guying 526陽子曰：「弟子記之！行賢而去自賢之行，安往而不愛哉！」
+
+### KR5c0126_021.txt
+
+ZHUANG 21.1.1 Guo Qingfan 701; Wang Shumin 767; Fang Yong 553; Chen Guying 529田子方侍坐於魏文侯，數稱谿工。
+
+ZHUANG 21.1.2 Guo Qingfan 701; Wang Shumin 767; Fang Yong 553; Chen Guying 529文侯曰：「谿工，子之師邪？」
+
+ZHUANG 21.1.3 Guo Qingfan 701; Wang Shumin 767; Fang Yong 553; Chen Guying 529子方曰：「非也，无擇之里人也；稱道數當，故无擇稱之。」
+
+ZHUANG 21.1.4 Guo Qingfan 702; Wang Shumin 767; Fang Yong 553; Chen Guying 529文侯曰：「然則子无師邪？」
+
+ZHUANG 21.1.5 Guo Qingfan 702; Wang Shumin 767; Fang Yong 553; Chen Guying 529子方曰：「有。」
+
+ZHUANG 21.1.6 Guo Qingfan 702; Wang Shumin 767; Fang Yong 553; Chen Guying 529曰：「子之師誰邪？」
+
+ZHUANG 21.1.7 Guo Qingfan 702; Wang Shumin 767; Fang Yong 553; Chen Guying 529子方曰：「東郭順子。」
+
+ZHUANG 21.1.8 Guo Qingfan 702; Wang Shumin 767; Fang Yong 553; Chen Guying 529文侯曰：「然則夫子何故未嘗稱之？」
+
+ZHUANG 21.1.9 Guo Qingfan 702; Wang Shumin 767; Fang Yong 553; Chen Guying 529子方曰：「其為人也真，人貌而天，虛緣而葆真，清而容物。物无道，正容以悟之，使人之意也消。无擇何足以稱之！」<pb:KR5c0126_CHANT_021-2a>
+
+ZHUANG 21.1.10 Guo Qingfan 703; Wang Shumin 767; Fang Yong 553; Chen Guying 529子方出，文侯儻然終日不言，召前立臣而語之曰：「遠矣，全德之君子！
+
+ZHUANG 21.1.11 Guo Qingfan 703; Wang Shumin 767; Fang Yong 553; Chen Guying 529始吾以聖知之言仁義之行為至矣，吾聞子方之師，吾形解而不欲動，口鉗而不欲言。吾所學者真土梗耳，夫魏真為我累耳！」<pb:KR5c0126_CHANT_021-3a>
+
+ZHUANG 21.2.1 Guo Qingfan 704; Wang Shumin 771; Fang Yong 556; Chen Guying 532溫伯雪子適齊，舍於魯。魯人有請見之者，溫伯雪子曰：「不可。吾聞中國之君子，明乎禮義而陋於知人心，吾不欲見也。」
+
+ZHUANG 21.2.2 Guo Qingfan 705; Wang Shumin 771; Fang Yong 556; Chen Guying 532至於齊，反舍於魯，是人也又請見。溫伯雪子曰：「往也蘄見我，今也又蘄見我，是必有以振我也。」<pb:KR5c0126_CHANT_021-4a>
+
+ZHUANG 21.2.3 Guo Qingfan 705; Wang Shumin 771; Fang Yong 556; Chen Guying 532出而見客，入而歎。明日見客，又入而歎。其僕曰：「每見之客也，必入而歎，何邪？」
+
+ZHUANG 21.2.4 Guo Qingfan 705; Wang Shumin 771; Fang Yong 556; Chen Guying 532曰：「吾固告子矣：『中國之君子，明乎禮義而陋乎知人心。』昔之見我者，進退一成規，一成矩，從容一若龍，一若虎，其諫我也似子，其道我也似父，是以歎也。」
+
+ZHUANG 21.2.5 Guo Qingfan 706; Wang Shumin 771; Fang Yong 556; Chen Guying 533仲尼見之而不言。子路曰：「吾子欲見溫伯雪子久矣，見之而不言，何邪？」
+
+ZHUANG 21.2.6 Guo Qingfan 706; Wang Shumin 771; Fang Yong 556; Chen Guying 533仲尼曰：「若夫人者，目擊而道存矣，亦不可以容聲矣。」<pb:KR5c0126_CHANT_021-5a>
+
+ZHUANG 21.3.1 Guo Qingfan 706; Wang Shumin 774; Fang Yong 558; Chen Guying 533顏淵問於仲尼曰：「夫子步亦步，夫子趨亦趨，夫子馳亦馳；夫子奔逸絕塵，而回瞠若乎後矣！」
+
+ZHUANG 21.3.2 Guo Qingfan 706; Wang Shumin 774; Fang Yong 558; Chen Guying 533夫子曰：「回，何謂邪？」
+
+ZHUANG 21.3.3 Guo Qingfan 706; Wang Shumin 774; Fang Yong 558; Chen Guying 533曰：「夫子步亦步也者，夫子言亦言也，夫子趨亦趨也者，夫子辯亦辯也，
+
+ZHUANG 21.3.4 Guo Qingfan 706; Wang Shumin 774; Fang Yong 558; Chen Guying 533夫子馳亦馳也者，夫子言道，回亦言道也；及奔逸絕塵，而回瞠若乎後也者，夫子不言而信，不比而周，无器而民滔乎前，而不知所以然而已矣。」<pb:KR5c0126_CHANT_021-6a>
+
+ZHUANG 21.3.5 Guo Qingfan 707; Wang Shumin 774; Fang Yong 558; Chen Guying 533仲尼曰：「惡！可不察與！夫哀莫大於心死，而人死亦次之。日出東方而入於西極，萬物莫不比方，
+
+ZHUANG 21.3.6 Guo Qingfan 707; Wang Shumin 774; Fang Yong 558; Chen Guying 534有目有趾者，待是而後成功，是出則存，是入則亡。萬物亦然，有待也而死，有待也而生。
+
+ZHUANG 21.3.7 Guo Qingfan 707; Wang Shumin 774; Fang Yong 558; Chen Guying 534吾一受其成形，而不化以待盡，效物而動，日夜无隙，而不知其所終；薰然其成形，知命不能規乎其前，丘以是日徂。
+
+ZHUANG 21.3.8 Guo Qingfan 709; Wang Shumin 774; Fang Yong 558; Chen Guying 534吾終身與汝交一臂而失之可不哀與！汝殆著乎吾所以著也。彼已盡矣，而汝求之以為有，是求馬於唐肆也。吾服汝也甚忘，汝服吾也亦甚忘。
+
+ZHUANG 21.3.9 Guo Qingfan 709; Wang Shumin 774; Fang Yong 558; Chen Guying 534雖然，汝奚患焉！雖忘乎故吾，猶有不忘者存。」<pb:KR5c0126_CHANT_021-7a>
+
+ZHUANG 21.4.1 Guo Qingfan 711; Wang Shumin 779; Fang Yong 563; Chen Guying 538孔子見老聃，老聃新沐，方將被髮而乾，慹然似非人。孔子便而待之，少焉見，曰：「丘也眩與，其信然與？向者先生形體掘若槁木，似遺物離人而立於獨也。」
+
+ZHUANG 21.4.2 Guo Qingfan 712; Wang Shumin 779; Fang Yong 563; Chen Guying 539老聃曰：「吾遊於物之初。」
+
+ZHUANG 21.4.3 Guo Qingfan 712; Wang Shumin 779; Fang Yong 563; Chen Guying 539孔子曰：「何謂邪？」
+
+ZHUANG 21.4.4 Guo Qingfan 712; Wang Shumin 779; Fang Yong 563; Chen Guying 539曰：「心困焉而不能知，口辟焉而不能言，嘗為汝議乎其將。至陰肅肅，至陽赫赫；肅肅出乎天，赫赫發乎地；兩者交通成和而物生焉，
+
+ZHUANG 21.4.5 Guo Qingfan 712; Wang Shumin 779; Fang Yong 563; Chen Guying 539或為之紀而莫見其形。消息滿虛，一晦一明，日改月化，日有所為，而莫見其功。
+
+ZHUANG 21.4.6 Guo Qingfan 712; Wang Shumin 779; Fang Yong 563; Chen Guying 539生有所乎萌，死有所乎歸，始終相反乎无端而莫知乎其所窮。非是也，且孰為之宗！」<pb:KR5c0126_CHANT_021-8a>
+
+ZHUANG 21.4.7 Guo Qingfan 714; Wang Shumin 7i2; Fang Yong 563; Chen Guying 539孔子曰：「請問遊是。」
+
+ZHUANG 21.4.8 Guo Qingfan 714; Wang Shumin 7i2; Fang Yong 563; Chen Guying 539老聃曰：「夫得是，至美至樂也，得至美而遊乎至樂，謂之至人。」
+
+ZHUANG 21.4.9 Guo Qingfan 714; Wang Shumin 7i2; Fang Yong 563; Chen Guying 539孔子曰：「願聞其方。」
+
+ZHUANG 21.4.10 Guo Qingfan 714; Wang Shumin 7i2; Fang Yong 563; Chen Guying 539曰：「草食之獸不疾易藪，水生之蟲不疾易水，行小變而不失其大常也，喜怒哀樂不入於胸次。夫天下也者，萬物之所一也。
+
+ZHUANG 21.4.11 Guo Qingfan 714; Wang Shumin 7i2; Fang Yong 563; Chen Guying 539得其所一而同焉，則四支百體將為塵垢，而死生終始將為晝夜而莫之能滑，而況得喪禍福之所介乎！
+
+ZHUANG 21.4.12 Guo Qingfan 714; Wang Shumin 7i2; Fang Yong 563; Chen Guying 539棄隸者若棄泥塗，知身貴於隸也，貴在於我而不失於變。且萬化而未始有極也，夫孰足以患心！已為道者解乎此。」<pb:KR5c0126_CHANT_021-9a>
+
+ZHUANG 21.4.13 Guo Qingfan 716; Wang Shumin 7i3; Fang Yong 563; Chen Guying 540孔子曰：「夫子德配天地，而猶假至言以脩心，古之君子，孰能脫焉？」
+
+ZHUANG 21.4.14 Guo Qingfan 716; Wang Shumin 7i3; Fang Yong 563; Chen Guying 540老聃曰：「不然。夫水之於汋也，无為而才自然矣。至人之於德也，不脩而物不能離焉，若天之自高，地之自厚，日月之自明，夫何脩焉！」
+
+ZHUANG 21.4.15 Guo Qingfan 716; Wang Shumin 7i3; Fang Yong 564; Chen Guying 540孔子出，以告顏回曰：「丘之於道也，其猶醯雞與！微夫子之發吾覆也，吾不知天地之大全也。」<pb:KR5c0126_CHANT_021-10a>
+
+ZHUANG 21.5.1 Guo Qingfan 717; Wang Shumin 786; Fang Yong 568; Chen Guying 543莊子見魯哀公，哀公曰：「魯多儒士，少為先生方者。」
+
+ZHUANG 21.5.2 Guo Qingfan 717; Wang Shumin 786; Fang Yong 568; Chen Guying 543莊子曰：「魯少儒。」
+
+ZHUANG 21.5.3 Guo Qingfan 717; Wang Shumin 786; Fang Yong 568; Chen Guying 543哀公曰：「舉魯國而儒服，何謂少乎？」
+
+ZHUANG 21.5.4 Guo Qingfan 718; Wang Shumin 786; Fang Yong 568; Chen Guying 543莊子曰：「周聞之，儒者冠圜冠者，知天時；履句屨者，知地形；緩佩玦者，事至而斷。
+
+ZHUANG 21.5.5 Guo Qingfan 718; Wang Shumin 786; Fang Yong 568; Chen Guying 544君子有其道者，未必為其服也；為其服者，未必知其道也。公固以為不然，何不號於國中曰：『无此道而為此服者，其罪死！』」<pb:KR5c0126_CHANT_021-11a>
+
+ZHUANG 21.5.6 Guo Qingfan 718; Wang Shumin 786; Fang Yong 568; Chen Guying 544於是哀公號之五日，而魯國无敢儒服者，獨有一丈夫，儒服而立乎公門。公即召而問以國事，千轉萬變而不窮。
+
+ZHUANG 21.5.7 Guo Qingfan 718; Wang Shumin 786; Fang Yong 568; Chen Guying 544莊子曰：「以魯國而儒者一人耳，可謂多乎？」
+
+ZHUANG 21.6.1 Guo Qingfan 719; Wang Shumin 786; Fang Yong 570; Chen Guying 545百里奚爵祿不入於心，故飯牛而牛肥，使秦穆公忘其賤，與之政也。有虞氏死生不入於心，故足以動人。
+
+ZHUANG 21.7.1 Guo Qingfan 719; Wang Shumin 786; Fang Yong 570; Chen Guying 546宋元君將畫圖，眾史皆至，受揖而立；舐筆和墨，在外者半。有一史後至者，儃儃然不趨，
+
+ZHUANG 21.7.2 Guo Qingfan 719; Wang Shumin 786; Fang Yong 570; Chen Guying 546受揖不立，因之舍。公使人視之，則解衣槃礴臝。君曰：「可矣，是真畫者也。」<pb:KR5c0126_CHANT_021-12a>
+
+ZHUANG 21.8.1 Guo Qingfan 720; Wang Shumin 789; Fang Yong 572; Chen Guying 547文王觀於臧，見一丈夫釣，而其釣莫釣；非持其釣有釣者也，常釣也。
+
+ZHUANG 21.8.2 Guo Qingfan 720; Wang Shumin 789; Fang Yong 572; Chen Guying 547文王欲舉而授之政，而恐大臣父兄之弗安也；欲終而釋之，而不忍百姓之无天也。於是旦而屬之夫夫曰：
+
+ZHUANG 21.8.3 Guo Qingfan 720; Wang Shumin 789; Fang Yong 572; Chen Guying 547「昔者寡人夢見良人，黑色而髯，乘駁馬而偏朱蹄，號曰：『寓而政於臧丈人，庶幾乎民有瘳乎！』」
+
+ZHUANG 21.8.4 Guo Qingfan 721; Wang Shumin 790; Fang Yong 572; Chen Guying 547諸大夫蹴然曰：「先君命王也。」
+
+ZHUANG 21.8.5 Guo Qingfan 721; Wang Shumin 790; Fang Yong 572; Chen Guying 547文王曰：「然則卜之。」
+
+ZHUANG 21.8.6 Guo Qingfan 722; Wang Shumin 790; Fang Yong 572; Chen Guying 547諸大夫曰：「先君之命，王其无它，又何卜焉！」
+
+ZHUANG 21.8.7 Guo Qingfan 722; Wang Shumin 790; Fang Yong 572; Chen Guying 548遂迎臧丈人而授之政。典法无更，偏令无出。三年，文王觀於國，則列士壞植散群，長官者不成德，斔斛不敢入於四境。
+
+ZHUANG 21.8.8 Guo Qingfan 722; Wang Shumin 790; Fang Yong 572; Chen Guying 548列士壞植散群，則尚同也；長官者不成德，則同務也；斔斛不敢入於四境，則諸侯无二心也。
+
+ZHUANG 21.8.9 Guo Qingfan 723; Wang Shumin 790; Fang Yong 572; Chen Guying 548文王於是焉以為大師，北面而問曰：「政可以及天下乎？」臧丈人昧然而不應，泛然而辭，朝令而夜遁，終身无聞。
+
+ZHUANG 21.8.10 Guo Qingfan 723; Wang Shumin 790; Fang Yong 572; Chen Guying 548顏淵問於仲尼曰：「文王其猶未邪？又何以夢為乎？」
+
+ZHUANG 21.8.11 Guo Qingfan 723; Wang Shumin 790; Fang Yong 572; Chen Guying 548仲尼曰：「默，汝无言！夫文王盡之也，而又何論刺焉！彼直以循斯須也。」<pb:KR5c0126_CHANT_021-14a>
+
+ZHUANG 21.9.1 Guo Qingfan 724; Wang Shumin 795; Fang Yong 576; Chen Guying 551列御寇為伯昏无人射，引之盈貫，措杯水其肘上，發之，適矢復沓，方矢復寓。當是時，猶象人也。
+
+ZHUANG 21.9.2 Guo Qingfan 725; Wang Shumin 795; Fang Yong 576; Chen Guying 551伯昏无人曰：「是射之射，非不射之射也。嘗與汝登高山，履佹石，臨百仞之淵，若能射乎？」
+
+ZHUANG 21.9.3 Guo Qingfan 725; Wang Shumin 795; Fang Yong 576; Chen Guying 551於是无人遂登高山，履危石，臨百仞之淵，背逡巡，足二分垂在外，揖御寇而進之御寇伏地，汗流至踵。
+
+ZHUANG 21.9.4 Guo Qingfan 725; Wang Shumin 795; Fang Yong 576; Chen Guying 551伯昏无人曰：「夫至人者，上闚青天，下潛黃泉，揮斥八極，神氣不變。今汝怵然有恂目之志，爾於中也殆矣夫！」<pb:KR5c0126_CHANT_021-15a>
+
+ZHUANG 21.10.1 Guo Qingfan 726; Wang Shumin 798; Fang Yong 578; Chen Guying 553肩吾問於孫叔敖曰：「子三為令尹而不榮華，三去之而无憂色。吾始也疑子，今視子之鼻閒栩栩然，子之用心獨奈何？」
+
+ZHUANG 21.10.2 Guo Qingfan 726; Wang Shumin 798; Fang Yong 578; Chen Guying 553孫叔敖曰：「吾何以過人哉！吾以其來不可卻也，其去不可止也，吾以為得失之非我也，而无憂色而已矣。我何以過人哉！且不知其在彼乎，其在我乎？
+
+ZHUANG 21.10.3 Guo Qingfan 726; Wang Shumin 798; Fang Yong 578; Chen Guying 553其在彼邪？亡乎我；在我邪？亡乎彼。方將躊躇，方將四顧，何暇至乎人貴人賤哉！」<pb:KR5c0126_CHANT_021-16a>
+
+ZHUANG 21.10.4 Guo Qingfan 727; Wang Shumin 798; Fang Yong 578; Chen Guying 553仲尼聞之曰：「古之真人，知者不得說，美人不得濫，盜人不得刦，伏戲黃帝不得友。
+
+ZHUANG 21.10.5 Guo Qingfan 727; Wang Shumin 798; Fang Yong 578; Chen Guying 553死生亦大矣，而无變乎己，況爵祿乎！若然者，其神經乎大山而无介，入乎淵泉而不濡，處卑細而不憊，充滿天地而不窕，既以與人己愈有。」<pb:KR5c0126_CHANT_021-17a>
+
+ZHUANG 21.11.1 Guo Qingfan 728; Wang Shumin 802; Fang Yong 580; Chen Guying 555楚王與凡君坐，少焉，楚王左右曰凡亡者三。凡君曰：「凡之亡也，不足以喪吾存。夫『凡之亡不足以喪吾存』，則楚之存不足以存存。由是觀之，則凡未始亡，而楚未始存也。」
+
+### KR5c0126_022.txt
+
+ZHUANG 22.1.1 Guo Qingfan 729; Wang Shumin 805; Fang Yong 585; Chen Guying 558知北遊於玄水之上，登隱弅之丘，而適遭无為謂焉。知謂无為謂曰：「予欲有問乎若：
+
+ZHUANG 22.1.2 Guo Qingfan 729; Wang Shumin 805; Fang Yong 585; Chen Guying 558何思何慮則知道？何處何服則安道？何從何道則得道？」三問而无為謂不荅也，非不荅，不知荅也。
+
+ZHUANG 22.1.3 Guo Qingfan 730; Wang Shumin 805; Fang Yong 586; Chen Guying 558知不得問，反於白水之南，登狐闋之上，而睹狂屈焉。知以之言也問乎狂屈。
+
+ZHUANG 22.1.4 Guo Qingfan 730; Wang Shumin 805; Fang Yong 586; Chen Guying 558狂屈曰：「唉！予知之，將語若。」中欲言而忘其所欲言。
+
+ZHUANG 22.1.5 Guo Qingfan 731; Wang Shumin 805; Fang Yong 586; Chen Guying 558知不得問，反於帝宮，見黃帝而問焉。黃帝曰：「无思无慮始知道，无處无服始安道，无從无道始得道。」<pb:KR5c0126_CHANT_022-2a>
+
+ZHUANG 22.1.6 Guo Qingfan 731; Wang Shumin 805; Fang Yong 586; Chen Guying 558知問黃帝曰：「我與若知之，彼與彼不知也，其孰是邪？」
+
+ZHUANG 22.1.7 Guo Qingfan 731; Wang Shumin 805; Fang Yong 586; Chen Guying 558黃帝曰：「彼无為謂真是也，狂屈似之；我與汝終不近也。夫知者不言，言者不知，故聖人行不言之教。道不可致，德不可至。仁可為也，義可虧也，禮相偽也。
+
+ZHUANG 22.1.8 Guo Qingfan 731; Wang Shumin 805; Fang Yong 586; Chen Guying 558故曰：『失道而後德，失德而後仁，失仁而後義，失義而後禮。禮者，道之華而亂之首也。』
+
+ZHUANG 22.1.9 Guo Qingfan 731; Wang Shumin 805; Fang Yong 586; Chen Guying 558故曰：『為道者日損，損之又損之以至於无為，无為而无不為也。』今已為物也，欲復歸根，不亦難乎！其易也，其唯大人乎！
+
+ZHUANG 22.1.10 Guo Qingfan 733; Wang Shumin 809; Fang Yong 586; Chen Guying 558生也死之徒，死也生之始，孰知其紀！人之生，氣之聚也；聚則為生，散則為死。若死生為徒，吾又何患！
+
+ZHUANG 22.1.11 Guo Qingfan 733; Wang Shumin 809; Fang Yong 586; Chen Guying 559故萬物一也，是其所美者為神奇，其所惡者為臭腐；臭腐復化為神奇，神奇復化為臭腐。故曰：『通天下一氣耳。』聖人故貴一。」<pb:KR5c0126_CHANT_022-3a>
+
+ZHUANG 22.1.12 Guo Qingfan 734; Wang Shumin 809; Fang Yong 586; Chen Guying 559知謂黃帝曰：「吾問无為謂，无為謂不應我，非不我應，不知應我也。
+
+ZHUANG 22.1.13 Guo Qingfan 734; Wang Shumin 809; Fang Yong 586; Chen Guying 559吾問狂屈，狂屈中欲告我而不我告，非不我告，中欲告而忘之也。今予問乎若，若知之，奚故不近？」
+
+ZHUANG 22.1.14 Guo Qingfan 734; Wang Shumin 809; Fang Yong 586; Chen Guying 559黃帝曰：「彼其真是也，以其不知也；此其似之也，以其忘之也；予與若終不近也，以其知之也。」
+
+ZHUANG 22.1.15 Guo Qingfan 734; Wang Shumin 809; Fang Yong 586; Chen Guying 559狂屈聞之，以黃帝為知言。
+
+ZHUANG 22.2.1 Guo Qingfan 735; Wang Shumin i11; Fang Yong 590; Chen Guying 563天地有大美而不言，四時有明法而不議，萬物有成理而不說。聖人者，原天地之美而達萬物之理，是故至人无為，大聖不作，觀於天地之謂也。
+
+ZHUANG 22.2.2 Guo Qingfan 735; Wang Shumin i11; Fang Yong 590; Chen Guying 563今彼神明至精，與彼百化，物已死生方圓，莫知其根也，扁然而萬物自古以固存。六合為巨，未離其內；秋豪為小，待之成體。
+
+ZHUANG 22.2.3 Guo Qingfan 735; Wang Shumin i11; Fang Yong 590; Chen Guying 563天下莫不沈浮，終身不故；陰陽四時運行，各得其序。惛然若亡而存，油然不形而神，萬物畜而不知。此之謂本根，可以觀於天矣。
+
+ZHUANG 22.3.1 Guo Qingfan 737; Wang Shumin i13; Fang Yong 593; Chen Guying 566齧缺問道乎被衣，被衣曰：「若正汝形，一汝視，天和將至；攝汝知，一汝度，神將來舍。德將為汝美，道將為汝居，汝瞳焉如新生之犢而无求其故！」
+
+ZHUANG 22.3.2 Guo Qingfan 738; Wang Shumin i13; Fang Yong 593; Chen Guying 566言未卒，齧缺睡寐。被衣大悅，行歌而去之，曰：「形若槁骸，心若死灰，真其實知，不以故自持。媒媒晦晦，无心而不可與謀。彼何人哉！」<pb:KR5c0126_CHANT_022-6a>
+
+ZHUANG 22.4.1 Guo Qingfan 739; Wang Shumin i13; Fang Yong 595; Chen Guying 567舜問乎丞曰：「道可得而有乎？」
+
+ZHUANG 22.4.2 Guo Qingfan 739; Wang Shumin i16; Fang Yong 595; Chen Guying 567曰：「汝身非汝有也，汝何得有夫道？」
+
+ZHUANG 22.4.3 Guo Qingfan 739; Wang Shumin i16; Fang Yong 595; Chen Guying 567舜曰：「吾身非吾有也，孰有之哉？」
+
+ZHUANG 22.4.4 Guo Qingfan 739; Wang Shumin i16; Fang Yong 595; Chen Guying 567曰：「是天地之委形也；生非汝有，是天地之委和也；性命非汝有，是天地之委順也；孫子非汝有，是天地之委蛻也。
+
+ZHUANG 22.4.5 Guo Qingfan 739; Wang Shumin i16; Fang Yong 595; Chen Guying 567故行不知所往，處不知所持，食不知所味。天地之彊陽氣也，又胡可得而有邪！」<pb:KR5c0126_CHANT_022-7a>
+
+ZHUANG 22.5.1 Guo Qingfan 741; Wang Shumin i18; Fang Yong 596; Chen Guying 569孔子問於老聃曰：「今日晏閒，敢問至道。」
+
+ZHUANG 22.5.2 Guo Qingfan 741; Wang Shumin i18; Fang Yong 596; Chen Guying 569老聃曰：「汝齋戒，䟽𤅢而心，澡雪而精神，掊擊而知！夫道，窅然難言哉！將為汝言其崖略。
+
+ZHUANG 22.5.3 Guo Qingfan 741; Wang Shumin i18; Fang Yong 596; Chen Guying 569夫昭昭生於冥冥，有倫生於无形，精神生於道，形本生於精，而萬物以形相生，故九竅者胎生，八竅者卵生。其來无迹，其往无崖，
+
+ZHUANG 22.5.4 Guo Qingfan 741; Wang Shumin i18; Fang Yong 596; Chen Guying 569无門无房，四達之皇皇也。邀於此者，四肢彊，思慮恂達，耳目聰明，其用心不勞，其應物无方。
+
+ZHUANG 22.5.5 Guo Qingfan 741; Wang Shumin i18; Fang Yong 596; Chen Guying 569天不得不高，地不得不廣，日月不得不行，萬物不得不昌，此其道與！<pb:KR5c0126_CHANT_022-8a>
+
+ZHUANG 22.5.6 Guo Qingfan 743; Wang Shumin i18; Fang Yong 596; Chen Guying 569「且夫『博之不必知，辯之不必慧』，聖人以斷之矣。若夫益之而不加益，損之而不加損者，聖人之所保也。
+
+ZHUANG 22.5.7 Guo Qingfan 743; Wang Shumin i18; Fang Yong 596; Chen Guying 569淵淵乎其若海，魏魏乎其終則復始也，運量萬物而不匱。則君子之道，彼其外與！萬物皆往資焉而不匱，此其道與！<pb:KR5c0126_CHANT_022-9a>
+
+ZHUANG 22.5.8 Guo Qingfan 744; Wang Shumin i22; Fang Yong 597; Chen Guying 569「中國有人焉，非陰非陽，處於天地之閒，直且為人，將反於宗。
+
+ZHUANG 22.5.9 Guo Qingfan 744; Wang Shumin i22; Fang Yong 597; Chen Guying 569自本觀之，生者，喑醷物也。雖有壽夭，相去幾何？須臾之說也。奚足以為堯桀之是非！
+
+ZHUANG 22.5.10 Guo Qingfan 744; Wang Shumin i22; Fang Yong 597; Chen Guying 569果蓏有理，人倫雖難，所以相齒。聖人遭之而不違，過之而不守。調而應之，德也；偶而應之，道也；帝之所興，王之所起也。
+
+ZHUANG 22.5.11 Guo Qingfan 746; Wang Shumin i23; Fang Yong 597; Chen Guying 570「人生天地之閒，若白駒之過郤，忽然而已。注然勃然，莫不出焉；油然漻然，莫不入焉。已化而生，又化而死，
+
+ZHUANG 22.5.12 Guo Qingfan 746; Wang Shumin i23; Fang Yong 597; Chen Guying 570生物哀之，人類悲之。解其天弢，墮其天袠，紛乎宛乎，魂魄將往，乃身從之，乃大歸乎！
+
+ZHUANG 22.5.13 Guo Qingfan 746; Wang Shumin i23; Fang Yong 597; Chen Guying 570不形之形，形之不形，是人之所同知也，非將至之所務也，此眾人之所同論也。彼至則不論，論則不至。明見无值，辯不若默。
+
+ZHUANG 22.5.14 Guo Qingfan 746; Wang Shumin i23; Fang Yong 597; Chen Guying 570道不可聞，聞不若塞。此之謂大得。」<pb:KR5c0126_CHANT_022-11a>
+
+ZHUANG 22.6.1 Guo Qingfan 749; Wang Shumin i28; Fang Yong 603; Chen Guying 574東郭子問於莊子曰：「所謂道，惡乎在？」
+
+ZHUANG 22.6.2 Guo Qingfan 749; Wang Shumin i28; Fang Yong 603; Chen Guying 574莊子曰：「无所不在。」
+
+ZHUANG 22.6.3 Guo Qingfan 749; Wang Shumin i28; Fang Yong 603; Chen Guying 574東郭子曰：「期而後可。」
+
+ZHUANG 22.6.4 Guo Qingfan 750; Wang Shumin i28; Fang Yong 603; Chen Guying 574莊子曰：「在螻蟻。」
+
+ZHUANG 22.6.5 Guo Qingfan 750; Wang Shumin i28; Fang Yong 603; Chen Guying 574曰：「何其下邪？」
+
+ZHUANG 22.6.6 Guo Qingfan 750; Wang Shumin i28; Fang Yong 603; Chen Guying 574曰：「在稊稗。」
+
+ZHUANG 22.6.7 Guo Qingfan 750; Wang Shumin i28; Fang Yong 603; Chen Guying 574曰：「何其愈下邪？」
+
+ZHUANG 22.6.8 Guo Qingfan 750; Wang Shumin i28; Fang Yong 603; Chen Guying 575曰：「在瓦甓。」
+
+ZHUANG 22.6.9 Guo Qingfan 750; Wang Shumin i28; Fang Yong 603; Chen Guying 575曰：「何其愈甚邪？」
+
+ZHUANG 22.6.10 Guo Qingfan 750; Wang Shumin i28; Fang Yong 603; Chen Guying 575曰：「在屎溺。」<pb:KR5c0126_CHANT_022-12a>
+
+ZHUANG 22.6.11 Guo Qingfan 750; Wang Shumin i28; Fang Yong 603; Chen Guying 575東郭子不應。莊子曰：「夫子之問也，固不及質。正獲之問於監巿履狶也，每下愈況。汝唯莫必，无乎逃物。
+
+ZHUANG 22.6.12 Guo Qingfan 750; Wang Shumin i28; Fang Yong 603; Chen Guying 575至道若是，大言亦然。周徧咸三者，異名同實，其指一也。
+
+ZHUANG 22.6.13 Guo Qingfan 752; Wang Shumin i28; Fang Yong 603; Chen Guying 575嘗相與遊乎无何有之宮，同合而論，无所終窮乎！嘗相與无為乎！澹而靜乎！漠而清乎！調而閒乎！寥已吾志，无往焉而不知其所至。去而來不知其所止，
+
+ZHUANG 22.6.14 Guo Qingfan 752; Wang Shumin i28; Fang Yong 603; Chen Guying 575吾已往來焉而不知其所終，彷徨乎馮閎，大知入焉而不知其所窮。物物者與物无際，而物有際者，所謂物際者也；
+
+ZHUANG 22.6.15 Guo Qingfan 752; Wang Shumin i28; Fang Yong 603; Chen Guying 575不際之際，際之不際者也。謂盈虛衰殺，彼為盈虛非盈虛，彼為衰殺非衰殺，彼為本末非本末，彼為積散非積散也。」<pb:KR5c0126_CHANT_022-13a>
+
+ZHUANG 22.7.1 Guo Qingfan 754; Wang Shumin i33; Fang Yong 607; Chen Guying 578妸荷甘與神農同學於老龍吉。神農隱几闔戶晝暝，妸荷甘日中奓戶而入曰：「老龍死矣！」
+
+ZHUANG 22.7.2 Guo Qingfan 754; Wang Shumin i33; Fang Yong 607; Chen Guying 578神農隱几擁杖而起，嚗然放杖而笑，曰：「天知予僻陋慢訑，故棄予而死。已矣夫子！无所發予之狂言而死矣夫！」
+
+ZHUANG 22.7.3 Guo Qingfan 755; Wang Shumin i33; Fang Yong 607; Chen Guying 578弇堈弔聞之，曰：「夫體道者，天下之君子所繫焉。今於道，秋豪之端萬分未得處一焉，而猶知藏其狂言而死，又況夫體道者乎！
+
+ZHUANG 22.7.4 Guo Qingfan 755; Wang Shumin i33; Fang Yong 607; Chen Guying 578視之无形，聽之无聲，於人之論者，謂之冥冥，所以論道，而非道也。」<pb:KR5c0126_CHANT_022-14a>
+
+ZHUANG 22.8.1 Guo Qingfan 756; Wang Shumin i36; Fang Yong 608; Chen Guying 580於是泰清問乎无窮曰：「子知道乎？」
+
+ZHUANG 22.8.2 Guo Qingfan 756; Wang Shumin i36; Fang Yong 608; Chen Guying 580无窮曰：「吾不知。」
+
+ZHUANG 22.8.3 Guo Qingfan 756; Wang Shumin i36; Fang Yong 609; Chen Guying 580又問乎无為。无為曰：「吾知道。」
+
+ZHUANG 22.8.4 Guo Qingfan 756; Wang Shumin i37; Fang Yong 609; Chen Guying 580曰：「子之知道，亦有數乎？」曰：「有。」
+
+ZHUANG 22.8.5 Guo Qingfan 756; Wang Shumin i37; Fang Yong 609; Chen Guying 580曰：「其數若何？」
+
+ZHUANG 22.8.6 Guo Qingfan 757; Wang Shumin i37; Fang Yong 609; Chen Guying 580无為曰：「吾知道之可以貴，可以賤，可以約，可以散，此吾所以知道之數也。」
+
+ZHUANG 22.8.7 Guo Qingfan 757; Wang Shumin i37; Fang Yong 609; Chen Guying 580泰清以之言也問乎无始曰：「若是，則无窮之弗知與无為之知，孰是而孰非乎？」
+
+ZHUANG 22.8.8 Guo Qingfan 757; Wang Shumin i37; Fang Yong 609; Chen Guying 580无始曰：「不知深矣，知之淺矣；弗知內矣，知之外矣。」<pb:KR5c0126_CHANT_022-15a>
+
+ZHUANG 22.8.9 Guo Qingfan 757; Wang Shumin i37; Fang Yong 609; Chen Guying 580於是泰清中而歎曰：「弗知乃知乎！知乃不知乎！孰知不知之知，
+
+ZHUANG 22.8.10 Guo Qingfan 757; Wang Shumin i37; Fang Yong 609; Chen Guying 580知之不知乎？」无始曰：「道不可聞，聞而非也；道不可見，見而非也；道不可言，言而非也。知形形之不形乎！道不當名。」
+
+ZHUANG 22.8.11 Guo Qingfan 758; Wang Shumin i37; Fang Yong 609; Chen Guying 5i1无始曰：「有問道而應之者，不知道也。雖問道者，亦未聞道。道无問，問无應。无問問之，是問窮也；无應應之，是无內也。
+
+ZHUANG 22.8.12 Guo Qingfan 758; Wang Shumin i37; Fang Yong 609; Chen Guying 5i1以无內待問窮，若是者，外不觀乎宇宙，內不知乎大初，是以不過乎崑崙，不遊乎大虛。」<pb:KR5c0126_CHANT_022-16a>
+
+ZHUANG 22.9.1 Guo Qingfan 759; Wang Shumin i39; Fang Yong 610; Chen Guying 5i2光曜問乎无有曰：「夫子有乎？其无有乎？」
+
+ZHUANG 22.9.2 Guo Qingfan 759; Wang Shumin i39; Fang Yong 610; Chen Guying 5i2無有弗應也，光曜不得問，而孰視其狀貌，窅然空然，終日視之而不見，聽之而不聞，搏之而不得也。
+
+ZHUANG 22.9.3 Guo Qingfan 760; Wang Shumin i39; Fang Yong 611; Chen Guying 5i2光曜曰：「至矣！其孰能至此乎！予能有无矣，而未能无无也；及為无有矣，何從至此哉！」<pb:KR5c0126_CHANT_022-17a>
+
+ZHUANG 22.10.1 Guo Qingfan 760; Wang Shumin i41; Fang Yong 611; Chen Guying 5i4大馬之捶鉤者，年八十矣，而不失豪芒。大馬曰：「子巧與？有道與？」
+
+ZHUANG 22.10.2 Guo Qingfan 761; Wang Shumin i41; Fang Yong 612; Chen Guying 5i4曰：「臣有守也。臣之年二十而好捶鉤，於物无視也，非鉤无察也。是用之者，假不用者也以長得其用，而況乎无不用者乎！物孰不資焉！」<pb:KR5c0126_CHANT_022-18a>
+
+ZHUANG 22.11.1 Guo Qingfan 762; Wang Shumin i43; Fang Yong 613; Chen Guying 585冉求問於仲尼曰：「未有天地可知邪？」
+
+ZHUANG 22.11.2 Guo Qingfan 762; Wang Shumin i43; Fang Yong 613; Chen Guying 585仲尼曰：「可，古猶今也。」
+
+ZHUANG 22.11.3 Guo Qingfan 762; Wang Shumin i43; Fang Yong 613; Chen Guying 585冉求失問而退，明日復見，曰：「昔者吾問『未有天地可知乎？』夫子曰：『可，古猶今也。』昔日吾昭然，今日吾昧然，敢問何謂也？」
+
+ZHUANG 22.11.4 Guo Qingfan 762; Wang Shumin i43; Fang Yong 613; Chen Guying 585仲尼曰：「昔之昭然也，神者先受之；今之昧然也，且又為不神者求邪？无古无今，无始无終。未有子孫而有子孫，可乎？」<pb:KR5c0126_CHANT_022-19a>
+
+ZHUANG 22.11.5 Guo Qingfan 762; Wang Shumin i44; Fang Yong 613; Chen Guying 585冉求未對。仲尼曰：「已矣，未應矣！不以生生死，不以死死生。死生有待邪？皆有所一體。
+
+ZHUANG 22.11.6 Guo Qingfan 762; Wang Shumin i44; Fang Yong 613; Chen Guying 585有先天地生者物邪？物物者非物。物出不得先物也，猶其有物也。猶其有物也，无已。聖人之愛人也終无已者，亦乃取於是者也。」<pb:KR5c0126_CHANT_022-20a>
+
+ZHUANG 22.12.1 Guo Qingfan 765; Wang Shumin i47; Fang Yong 615; Chen Guying 588顏淵問乎仲尼曰：「回嘗聞諸夫子曰：『无有所將，无有所迎。』回敢問其遊。」
+
+ZHUANG 22.12.2 Guo Qingfan 765; Wang Shumin i47; Fang Yong 615; Chen Guying 588仲尼曰：「古之人，外化而內不化；今之人，內化而外不化。與物化者，一不化者也。安化安不化，安與之相靡，必與之莫多。
+
+ZHUANG 22.12.3 Guo Qingfan 765; Wang Shumin i47; Fang Yong 615; Chen Guying 588狶韋氏之囿，黃帝之圃，有虞氏之宮，湯武之室。君子之人，若儒墨者師，故以是非相𩐋也，而況今之人乎！
+
+ZHUANG 22.12.4 Guo Qingfan 765; Wang Shumin i47; Fang Yong 615; Chen Guying 588聖人處物不傷物。不傷物者，物亦不能傷也。唯无所傷者，為能與人相將迎。山林與！皋壤與！使我欣欣然而樂與！
+
+ZHUANG 22.12.5 Guo Qingfan 765; Wang Shumin i47; Fang Yong 615; Chen Guying 588樂未畢也，哀又繼之。哀樂之來，吾不能禦，其去弗能止。悲夫，世人直為物逆旅耳！
+
+ZHUANG 22.12.6 Guo Qingfan 765; Wang Shumin i47; Fang Yong 615; Chen Guying 588夫知遇而不知所不遇，知能能而不能所不能。无知无能者，固人之所不免也。夫務免乎人之所不免者，豈不亦悲哉！至言去言，至為去為。齊知之所知，則淺矣。」
+
+### KR5c0126_023.txt
+
+ZHUANG 23.1.1 Guo Qingfan 769; Wang Shumin 855; Fang Yong 623; Chen Guying 592老聃之役有庚桑楚者，偏得老聃之道，以北居畏壘之山，其臣之畫然知者去之，其妾之挈然仁者遠之；擁腫之與居，鞅掌之為使。
+
+ZHUANG 23.1.2 Guo Qingfan 769; Wang Shumin 855; Fang Yong 623; Chen Guying 592居三年，畏壘大壤。畏壘之民相與言曰：「庚桑子之始來，吾洒然異之。今吾日計之而不足，歲計之而有餘。庶幾其聖人乎！子胡不相與尸而祝之，社而稷之乎？」<pb:KR5c0126_CHANT_023-2a>
+
+ZHUANG 23.1.3 Guo Qingfan 771; Wang Shumin 856; Fang Yong 624; Chen Guying 592庚桑子聞之，南面而不釋然。弟子異之。庚桑子曰：「弟子何異於予？夫春氣發而百草生，正得秋而萬寶成。夫春與秋，豈无得而然哉？天道已行矣。
+
+ZHUANG 23.1.4 Guo Qingfan 771; Wang Shumin 856; Fang Yong 624; Chen Guying 592吾聞至人，尸居環堵之室，而百姓猖狂不知所如往。今以畏壘之細民而竊竊焉欲俎豆予于賢人之閒，我其杓之人邪！吾是以不釋於老聃之言。」<pb:KR5c0126_CHANT_023-3a>
+
+ZHUANG 23.1.5 Guo Qingfan 772; Wang Shumin 861; Fang Yong 624; Chen Guying 592弟子曰：「不然。夫尋常之溝，巨魚无所還其體，而鯢鰌為之制；步仞之丘陵，巨獸无所隱其軀，而㜸狐為之祥。
+
+ZHUANG 23.1.6 Guo Qingfan 772; Wang Shumin 861; Fang Yong 624; Chen Guying 592且夫尊賢授能，先善與利，自古堯舜以然，而況畏壘之民乎！夫子亦聽矣！」<pb:KR5c0126_CHANT_023-4a>
+
+ZHUANG 23.1.7 Guo Qingfan 773; Wang Shumin 861; Fang Yong 624; Chen Guying 592庚桑子曰：「小子來！夫函車之獸，介而離山，則不免于罔罟之患；吞舟之魚，碭而失水，則蟻能苦之。
+
+ZHUANG 23.1.8 Guo Qingfan 773; Wang Shumin 861; Fang Yong 624; Chen Guying 592故鳥獸不厭高，魚鼈不厭深。夫全其形生之人，藏其身也，不厭深眇而已矣。
+
+ZHUANG 23.1.9 Guo Qingfan 774; Wang Shumin 861; Fang Yong 624; Chen Guying 593且夫二子者，又何足以稱楊哉！是其於辯也，將妄鑿垣牆而殖蓬蒿也。簡髮而櫛，數米而炊，竊竊乎又何足以濟世哉！
+
+ZHUANG 23.1.10 Guo Qingfan 774; Wang Shumin 861; Fang Yong 624; Chen Guying 593舉賢則民相軋，任知則民相盜。之數物者，不足以厚民。民之於利甚勤，子有殺父，臣有殺君，正晝為盜，日中穴阫。
+
+ZHUANG 23.1.11 Guo Qingfan 774; Wang Shumin 861; Fang Yong 624; Chen Guying 593吾語汝，大亂之本，必生于堯舜之閒，其末存乎千世之後。千世之後，其必有人與人相食者也！」<pb:KR5c0126_CHANT_023-5a>
+
+ZHUANG 23.2.1 Guo Qingfan 777; Wang Shumin 869; Fang Yong 624; Chen Guying 597南榮趎蹴然正坐曰：「若趎之年者已長矣，將惡乎託業以及此言邪？」
+
+ZHUANG 23.2.2 Guo Qingfan 777; Wang Shumin 869; Fang Yong 624; Chen Guying 597庚桑子曰：「全汝形，抱汝生，无使汝思慮營營。若此三年，則可以及此言也。」
+
+ZHUANG 23.2.3 Guo Qingfan 778; Wang Shumin 869; Fang Yong 625; Chen Guying 597南榮趎曰：「目之與形，吾不知其異也，而盲者不能自見；耳之與形，吾不知其異也，而聾者不能自聞；心之與形，吾不知其異也，而狂者不能自得。
+
+ZHUANG 23.2.4 Guo Qingfan 778; Wang Shumin 869; Fang Yong 625; Chen Guying 597形之與形亦辟矣，而物或閒之邪，欲相求而不能相得？今謂趎曰：『全汝形，抱汝生，勿使汝思慮營營。』趎勉聞道達耳矣！」<pb:KR5c0126_CHANT_023-6a>
+
+ZHUANG 23.2.5 Guo Qingfan 779; Wang Shumin 869; Fang Yong 625; Chen Guying 598庚桑子曰：「辭盡矣。曰奔蜂不能化藿蠋，越雞不能伏鵠卵，魯雞固能矣。雞之與雞，其德非不同也，有能與不能者，其才固有巨小也。今吾才小，不足以化子。子胡不南見老子！」
+
+ZHUANG 23.2.6 Guo Qingfan 780; Wang Shumin 869; Fang Yong 625; Chen Guying 598南榮趎贏糧，七日七夜至老子之所。
+
+ZHUANG 23.2.7 Guo Qingfan 780; Wang Shumin 869; Fang Yong 625; Chen Guying 598老子曰：「子自楚之所來乎？」南榮趎曰：「唯。」
+
+ZHUANG 23.2.8 Guo Qingfan 780; Wang Shumin 869; Fang Yong 625; Chen Guying 598老子曰：「子何與人偕來之眾也？」南榮趎懼然顧其後。
+
+ZHUANG 23.2.9 Guo Qingfan 7i1; Wang Shumin 869; Fang Yong 625; Chen Guying 598老子曰：「子不知吾所謂乎？」
+
+ZHUANG 23.2.10 Guo Qingfan 7i1; Wang Shumin 869; Fang Yong 625; Chen Guying 598南榮趎俯而慚，仰而歎曰：「今者吾忘吾荅，因失吾問。」
+
+ZHUANG 23.2.11 Guo Qingfan 7i1; Wang Shumin 869; Fang Yong 625; Chen Guying 598老子曰：「何謂也？」<pb:KR5c0126_CHANT_023-7a>
+
+ZHUANG 23.2.12 Guo Qingfan 7i1; Wang Shumin 869; Fang Yong 625; Chen Guying 598南榮趎曰：「不知乎？人謂我朱愚。知乎？反愁我軀。不仁則害人，仁則反愁我身；不義則傷彼，義則反愁我己。
+
+ZHUANG 23.2.13 Guo Qingfan 7i2; Wang Shumin 869; Fang Yong 625; Chen Guying 598我安逃此而可？此三言者，趎之所患也，願因楚而問之。」
+
+ZHUANG 23.2.14 Guo Qingfan 7i2; Wang Shumin 869; Fang Yong 625; Chen Guying 598老子曰：「向吾見若眉睫之閒，吾因以得汝矣，今汝又言而信之。若規規然若喪父母，揭竿而求諸海也。汝亡人哉，惘惘乎！汝欲反汝情性而无由入，可憐哉！」<pb:KR5c0126_CHANT_023-8a>
+
+ZHUANG 23.2.15 Guo Qingfan 7i3; Wang Shumin 876; Fang Yong 625; Chen Guying 599南榮趎請入就舍，召其所好，去其所惡，十日息愁，復見老子。
+
+ZHUANG 23.2.16 Guo Qingfan 7i3; Wang Shumin 876; Fang Yong 625; Chen Guying 599老子曰：「汝自洒濯，孰哉鬱鬱乎！然而其中津津乎猶有惡也。夫外韄者不可繁而捉，將內揵；內韄者不可繆而捉，將外揵。外內韄者，道德不能持，而況放道而行者乎！」<pb:KR5c0126_CHANT_023-9a>
+
+ZHUANG 23.2.17 Guo Qingfan 785; Wang Shumin 876; Fang Yong 626; Chen Guying 599南榮趎曰：「里人有病，里人問之，病者能言其病，然其病病者猶未病也。若趎之聞大道，譬猶飲藥以加病也，趎願聞衛生之經而已矣。」
+
+ZHUANG 23.2.18 Guo Qingfan 785; Wang Shumin 876; Fang Yong 626; Chen Guying 599老子曰：「衛生之經，能抱一乎？能勿失乎？能无卜筮而知吉凶乎？能止乎？能已乎？能舍諸人而求諸己乎？能翛然乎？能侗然乎？能兒子乎？
+
+ZHUANG 23.2.19 Guo Qingfan 785; Wang Shumin 876; Fang Yong 626; Chen Guying 599兒子終日嗥而嗌不嗄，和之至也；終日握而手不掜，共其德也；終日視而目不瞚，偏不在外也。
+
+ZHUANG 23.2.20 Guo Qingfan 785; Wang Shumin 876; Fang Yong 626; Chen Guying 599行不知所之，居不知所為，與物委蛇，而同其波。是衛生之經已。」<pb:KR5c0126_CHANT_023-10a>
+
+ZHUANG 23.2.21 Guo Qingfan 789; Wang Shumin 876; Fang Yong 625; Chen Guying 599南榮趎曰：「然則是至人之德已乎？」
+
+ZHUANG 23.2.22 Guo Qingfan 789; Wang Shumin 877; Fang Yong 625; Chen Guying 599曰：「非也。是乃所謂冰解凍釋者，能乎？夫至人者，相與交食乎地而交樂乎天，不以人物利害相攖，
+
+ZHUANG 23.2.23 Guo Qingfan 789; Wang Shumin 877; Fang Yong 625; Chen Guying 599不相與為怪，不相與為謀，不相與為事，翛然而往，侗然而來。是謂衛生之經已。」
+
+ZHUANG 23.2.24 Guo Qingfan 790; Wang Shumin 877; Fang Yong 625; Chen Guying 599曰：「然則是至乎？」
+
+ZHUANG 23.2.25 Guo Qingfan 790; Wang Shumin 877; Fang Yong 625; Chen Guying 600曰：「未也。吾固告汝曰：『能兒子乎？』兒子動不知所為，行不知所之，身槁木之枝而心若死灰。若是者，禍亦不至，福亦不來。禍福无有，惡有人災也！」<pb:KR5c0126_CHANT_023-11a>
+
+ZHUANG 23.3.1 Guo Qingfan 791; Wang Shumin 885; Fang Yong 636; Chen Guying 605宇泰定者，發乎天光。發乎天光者，人見其人，人有脩者，乃今有恆；有恆者，人舍之，天助之。
+
+ZHUANG 23.3.2 Guo Qingfan 791; Wang Shumin 885; Fang Yong 636; Chen Guying 605人之所舍，謂之天民；天之所助，謂之天子。
+
+ZHUANG 23.4.1 Guo Qingfan 792; Wang Shumin 885; Fang Yong 636; Chen Guying 606學者，學其所不能學也；行者，行其所不能行也；辯者，辯其所不能辯也。知止乎其所不能知，至矣；若有不即是者，天鈞敗之。
+
+ZHUANG 23.5.1 Guo Qingfan 792; Wang Shumin 885; Fang Yong 636; Chen Guying 607備物以將形，藏不虞以生心，敬中以達彼，若是而萬惡至者，皆天也，而非人也，不足以滑成，不可內於靈臺。靈臺者有持，而不知其所持，而不可持者也。
+
+ZHUANG 23.5.2Guo Qingfan 794; Wang Shumin 886; Fang Yong 636; Chen Guying 607不見其誠己而發，每發而不當，業入而不舍，每更為失。為不善乎顯明之中者，人得而誅之；為不善乎幽間之中者，鬼得而誅之。明乎人，明乎鬼者，然後能獨行。
+
+ZHUANG 23.5.3Guo Qingfan 795; Wang Shumin 886; Fang Yong 636; Chen Guying 607劵內者，行乎无名；劵外者，志乎期費。行乎无名者，唯庸有光；志乎期費者，唯賈人也，人見其跂，猶之魁然。
+
+ZHUANG 23.5.4Guo Qingfan 795; Wang Shumin 886; Fang Yong 636; Chen Guying 607與物窮者，物入焉；與物且者，其身之不能容，焉能容人！不能容人者无親，无親者盡人。兵莫憯于志，鏌鎁為下；寇莫大於陰陽，无所逃於天地之閒。非陰陽賊之，心則使之也。
+
+ZHUANG 23.6.1Guo Qingfan 798; Wang Shumin 894; Fang Yong 640; Chen Guying 611道通，其分也成也，其成也毀也。所以惡乎分者，其分也以備；所以惡乎備者，其有也以備。
+
+ZHUANG 23.6.2Guo Qingfan 798; Wang Shumin 894; Fang Yong 640; Chen Guying 611故出而不反，見其鬼；出而得，是謂得死。滅而有實，鬼之一也。以有形者象无形者而定矣。
+
+ZHUANG 23.6.3Guo Qingfan 800; Wang Shumin 894; Fang Yong 640; Chen Guying 611出无本，入无竅。所出而无竅者有實，有實而无乎處，有長而无乎本剽，。有實而无乎處者，宇也。
+
+ZHUANG 23.6.4Guo Qingfan 800; Wang Shumin 894; Fang Yong 640; Chen Guying 611有長而无本剽者，宙也。有乎生，有乎死，有乎出，有乎入，入出而无見其形，是謂天門。天門者，无有也，
+
+ZHUANG 23.6.5Guo Qingfan 800; Wang Shumin 894; Fang Yong 640; Chen Guying 611萬物出乎无有。有不能以有為有，必出乎无有，而无有一无有。聖人藏乎是。
+
+ZHUANG 23.7.1Guo Qingfan 802; Wang Shumin 894; Fang Yong 643; Chen Guying 613古之人，其知有所至矣。惡乎至？有以為未始有物者，至矣，盡矣，弗可以加矣。其次以為有物矣，將以生為喪也，以死為反也，是以分已。
+
+ZHUANG 23.7.2Guo Qingfan 802; Wang Shumin 894; Fang Yong 643; Chen Guying 613其次曰始无有，既而有生，生俄而死；以无有為首，以生為體，以死為尻；孰知有无死生之一守者，吾與之為友。
+
+ZHUANG 23.7.3Guo Qingfan 802; Wang Shumin 894; Fang Yong 643; Chen Guying 613是三者雖異，公族也，昭景也，著戴也，甲氏也，著封也，非一也。
+
+ZHUANG 23.7.4 Guo Qingfan 805; Wang Shumin 901; Fang Yong 643; Chen Guying 613有生，黬也，披然曰移是。嘗言移是，非所言也。雖然，不可知者也。
+
+ZHUANG 23.7.5 Guo Qingfan 805; Wang Shumin 901; Fang Yong 643; Chen Guying 613臘者之有膍胲，可散而不可散也；觀室者周於寢廟，又適其偃焉，為是舉移是。
+
+ZHUANG 23.7.6 Guo Qingfan 807; Wang Shumin 901; Fang Yong 643; Chen Guying 613請嘗言移是。是以生為本，以知為師，因以乘是非；果有名實，因以己為質；使人以為己節，因以死償節。
+
+ZHUANG 23.7.7 Guo Qingfan 807; Wang Shumin 901; Fang Yong 643; Chen Guying 613若然者，以用為知，以不用為愚，以徹為名，以窮為辱。移是，今之人也，是蜩與鷽鳩同於同也。
+
+ZHUANG 23.8.1 Guo Qingfan 808; Wang Shumin 905; Fang Yong 646; Chen Guying 617蹍市人之足，則辭以放驁，兄則以嫗，大親則已矣。故曰：至禮有不人，至義不物，至知不謀，至仁无親，至信辟金。
+
+ZHUANG 23.9.1 Guo Qingfan i10; Wang Shumin 905; Fang Yong 647; Chen Guying 618徹志之勃，解心之謬，去德之累，達道之塞。貴、富、顯、嚴、名、利六者，勃志也。容、動、色、理、氣、意六者，謬心也。惡、欲、喜、怒、哀、樂六者，累德也。去、就、取、與、知、能六者，塞道也。
+
+ZHUANG 23.9.2 Guo Qingfan i10; Wang Shumin 905; Fang Yong 647; Chen Guying 618此四六者不盪胸中則正，正則靜，靜則明，明則虛，虛則无為而无不為也。
+
+ZHUANG 23.9.3 Guo Qingfan i10; Wang Shumin 905; Fang Yong 647; Chen Guying 618道者，德之欽也；生者，德之光也；性者，生之質也。性之動，謂之為；為之偽，謂之失。
+
+ZHUANG 23.9.4 Guo Qingfan i10; Wang Shumin 905; Fang Yong 647; Chen Guying 618知者，接也；知者，謨也；知者之所不知，猶睨也。動以不得已之謂德，動無非我之謂治，名相反而實相順也。
+
+ZHUANG 23.10.1 Guo Qingfan i13; Wang Shumin 911; Fang Yong 649; Chen Guying 619羿工乎中微而拙乎使人无己譽。聖人工乎天而拙乎人。夫工乎天而俍乎人者，唯全人能之。唯蟲能蟲，唯蟲能天。全人惡天？惡人之天？而況吾天乎人乎！
+
+ZHUANG 23.11.1 Guo Qingfan i14; Wang Shumin 911; Fang Yong 650; Chen Guying 621一雀適羿，羿必得之，威也；以天下為之籠，則雀无所逃。是故湯以庖人籠伊尹，秦穆公以五羊之皮籠百里奚。是故非以其所好籠之而可得者，无有也。
+
+ZHUANG 23.12.1 Guo Qingfan i15; Wang Shumin 911; Fang Yong 651; Chen Guying 621介者拸畫，外非譽也；胥靡登高而不懼，遺死生也。夫復謵不餽而忘人，忘人，因以為天人矣。故敬之而不喜，侮之而不怒者，唯同乎天和者為然。
+
+ZHUANG 23.12.2 Guo Qingfan i15; Wang Shumin 911; Fang Yong 651; Chen Guying 621出怒不怒，則怒出於不怒矣；出為无為，則為出於无為矣。欲靜則平氣，欲神則順心，有為也。欲當則緣於不得已，不得已之類，聖人之道。
+
+### KR5c0126_024.txt
+
+ZHUANG 24.1.1 Guo Qingfan i18; Wang Shumin 917; Fang Yong 657; Chen Guying 625徐无鬼因女商見魏武侯，武侯勞之曰：「先生病矣！苦於山林之勞，故乃肯見於寡人。」
+
+ZHUANG 24.1.2 Guo Qingfan i18; Wang Shumin 917; Fang Yong 657; Chen Guying 625徐无鬼曰：「我則勞於君，君有何勞於我！君將盈嗜欲，長好惡，則性命之情病矣；君將黜嗜欲，掔好惡，則耳目病矣。我將勞君，君有何勞於我！」武侯超然不對。
+
+ZHUANG 24.1.3 Guo Qingfan i19; Wang Shumin 917; Fang Yong 657; Chen Guying 625少焉，徐无鬼曰：「嘗語君，吾相狗也。下之質執飽而止，是狸德也；
+
+ZHUANG 24.1.4 Guo Qingfan i19; Wang Shumin 917; Fang Yong 657; Chen Guying 625中之質若視日，上之質若亡其一。吾相狗，又不若吾相馬也。吾相馬，直者中繩，曲者中鉤，方者中矩，圓者中規，是國馬也，而未若天下馬也。
+
+ZHUANG 24.1.5 Guo Qingfan i19; Wang Shumin 917; Fang Yong 657; Chen Guying 626天下馬有成材，若䘏若失，若喪其一，若是者，超軼絕塵，不知其所。」
+
+ZHUANG 24.1.6 Guo Qingfan i21; Wang Shumin 921; Fang Yong 657; Chen Guying 626武侯大悅而笑。徐无鬼出，女商曰：「先生獨何以說吾君乎？吾所以說吾君者，橫說之則以《詩》、《書》、《禮》、《樂》，從說之則以《金板》、《六弢》，
+
+ZHUANG 24.1.7 Guo Qingfan i21; Wang Shumin 921; Fang Yong 657; Chen Guying 626奉事而大有功者不可為數，而吾君未嘗啟齒。今先生何以說吾君，使吾君悅若此乎？」
+
+ZHUANG 24.1.8 Guo Qingfan i22; Wang Shumin 921; Fang Yong 657; Chen Guying 626徐无鬼曰：「吾直告之吾相狗馬耳。」
+
+ZHUANG 24.1.9 Guo Qingfan i22; Wang Shumin 921; Fang Yong 657; Chen Guying 626女商曰：「若是乎？」
+
+ZHUANG 24.1.10 Guo Qingfan i22; Wang Shumin 921; Fang Yong 657; Chen Guying 626曰：「子不聞夫越之流人乎？去國數日，見其所知而喜；去國旬月，見所嘗見於國中者喜；及期年也，見似人者而喜矣；不亦去人滋久，思人滋深乎？
+
+ZHUANG 24.1.11 Guo Qingfan i22; Wang Shumin 921; Fang Yong 657; Chen Guying 626夫逃虛空者，藜藋柱乎鼪鼬之逕，踉位其空，聞人足音跫然而喜矣，有況乎昆弟親戚之謦欬其側者乎！久矣夫莫以真人之言謦欬吾君之側乎！」<pb:KR5c0126_CHANT_024-4a>
+
+ZHUANG 24.2.1 Guo Qingfan i24; Wang Shumin 926; Fang Yong 661; Chen Guying 630徐无鬼見武侯，武侯曰：「先生居山林，食芧栗，厭葱韭，以賓寡人，久矣夫！今老邪？其欲干酒肉之味邪？其寡人亦有社稷之福邪？」
+
+ZHUANG 24.2.2 Guo Qingfan i25; Wang Shumin 926; Fang Yong 661; Chen Guying 630徐无鬼曰：「无鬼生於貧賤，未嘗敢飲食君之酒肉，將來勞君也。」
+
+ZHUANG 24.2.3 Guo Qingfan i25; Wang Shumin 926; Fang Yong 661; Chen Guying 630君曰：「何哉，奚勞寡人？」
+
+ZHUANG 24.2.4 Guo Qingfan i25; Wang Shumin 926; Fang Yong 661; Chen Guying 630曰：「勞君之神與形。」
+
+ZHUANG 24.2.5 Guo Qingfan i25; Wang Shumin 926; Fang Yong 661; Chen Guying 630武侯曰：「何謂邪？」
+
+ZHUANG 24.2.6 Guo Qingfan i26; Wang Shumin 926; Fang Yong 661; Chen Guying 630徐无鬼曰：「天地之養也一，登高不可以為長，居下不可以為短。君獨為萬乘之主，以苦一國之民，以養耳目鼻口，
+
+ZHUANG 24.2.7 Guo Qingfan i26; Wang Shumin 926; Fang Yong 661; Chen Guying 630夫神者不自許也。夫神者，好和而惡姦；夫姦，病也，故勞之。唯君所病之，何也？」<pb:KR5c0126_CHANT_024-5a>
+
+ZHUANG 24.2.8 Guo Qingfan i27; Wang Shumin 926; Fang Yong 661; Chen Guying 630武侯曰：「欲見先生久矣。吾欲愛民而為義偃兵，其可乎？」
+
+ZHUANG 24.2.9 Guo Qingfan i27; Wang Shumin 926; Fang Yong 661; Chen Guying 630徐无鬼曰：「不可。愛民，害民之始也；為義偃兵，造兵之本也；君自此為之，則殆不成。
+
+ZHUANG 24.2.10 Guo Qingfan i27; Wang Shumin 926; Fang Yong 661; Chen Guying 630凡成美，惡器也；君雖為仁義，幾且偽哉！形固造形，成固有伐，變固外戰。君亦必无盛鶴列於麗譙之閒，无徒驥於錙壇之宮，
+
+ZHUANG 24.2.11 Guo Qingfan i27; Wang Shumin 926; Fang Yong 662; Chen Guying 630无藏逆於得，无以巧勝人，无以謀勝人，无以戰勝人。夫殺人之士民，兼人之土地，以養吾私與吾神者，其戰不知孰善？勝之惡乎在？
+
+ZHUANG 24.2.12 Guo Qingfan i27; Wang Shumin 926; Fang Yong 662; Chen Guying 631君若勿已矣，脩胸中之誠，以應天地之情而勿攖。夫民死已脫矣，君將惡乎用夫偃兵哉！」<pb:KR5c0126_CHANT_024-6a>
+
+ZHUANG 24.3.1 Guo Qingfan i30; Wang Shumin 931; Fang Yong 664; Chen Guying 633黃帝將見大隗乎具茨之山，方明為御，昌㝢驂乘，張若謵朋前馬，昆閽滑稽後車；至於襄城之野，七聖皆迷，无所問塗。
+
+ZHUANG 24.3.2 Guo Qingfan i31; Wang Shumin 931; Fang Yong 664; Chen Guying 633適遇牧馬童子，問塗焉，曰：「若知具茨之山乎？」曰：「然。」
+
+ZHUANG 24.3.3 Guo Qingfan i31; Wang Shumin 931; Fang Yong 664; Chen Guying 633「若知大隗之所存乎？」曰：「然。」<pb:KR5c0126_CHANT_024-7a>
+
+ZHUANG 24.3.4 Guo Qingfan i32; Wang Shumin 931; Fang Yong 664; Chen Guying 633黃帝曰：「異哉小童！非徒知具茨之山，又知大隗之所存。請問為天下。」
+
+ZHUANG 24.3.5 Guo Qingfan i32; Wang Shumin 932; Fang Yong 664; Chen Guying 633小童曰：「夫為天下者，亦若此而已矣，又奚事焉！予少而自遊於六合之內，予適有瞀病，有長者教予曰：『若乘日之車而遊於襄城之野。』今予病少痊，
+
+ZHUANG 24.3.6 Guo Qingfan i32; Wang Shumin 932; Fang Yong 664; Chen Guying 633予又且復遊於六合之外。夫為天下亦若此而已。予又奚事焉！」<pb:KR5c0126_CHANT_024-8a>
+
+ZHUANG 24.3.7 Guo Qingfan i33; Wang Shumin 932; Fang Yong 665; Chen Guying 633黃帝曰：「夫為天下者，則誠非吾子之事。雖然，請問為天下。」
+
+ZHUANG 24.3.8 Guo Qingfan i33; Wang Shumin 932; Fang Yong 665; Chen Guying 634小童辭。黃帝又問。小童曰：「夫為天下者，亦奚以異乎牧馬者哉！亦去其害馬者而已矣！」
+
+ZHUANG 24.3.9 Guo Qingfan i33; Wang Shumin 932; Fang Yong 665; Chen Guying 633黃帝再拜稽首，稱天師而退。
+
+ZHUANG 24.4.1 Guo Qingfan i34; Wang Shumin 936; Fang Yong 666; Chen Guying 635知士无思慮之變則不樂，辯士无談說之序則不樂，察士无淩誶之事則不樂，皆囿於物者也。
+
+ZHUANG 24.4.2 Guo Qingfan i34; Wang Shumin 936; Fang Yong 666; Chen Guying 635招世之士興朝，中民之士榮官，筋力之士矜難，勇敢之士奮患，兵革之士樂戰，枯槁之士宿名，法律之士廣治，禮教之士敬容，仁義之士貴際。
+
+ZHUANG 24.4.3 Guo Qingfan i34; Wang Shumin 936; Fang Yong 666; Chen Guying 635農夫无草萊之事則不比，商賈无巿井之事則不比。庶人有旦暮之業則勸，百工有器械之巧則壯。錢財不積則貪者憂，權勢不尤則夸者悲。
+
+ZHUANG 24.4.4 Guo Qingfan i35; Wang Shumin 936; Fang Yong 666; Chen Guying 635勢物之徒樂變，遭時有所用，不能无為也。此皆順比於歲，不物於易者也，馳其形性，潛之萬物，終身不反，悲夫！<pb:KR5c0126_CHANT_024-10a>
+
+ZHUANG 24.5.1 Guo Qingfan i38; Wang Shumin 942 ; Fang Yong 669; Chen Guying 638莊子曰：「射者非前期而中，謂之善射，天下皆羿也，可乎？」
+
+ZHUANG 24.5.2 Guo Qingfan i38; Wang Shumin 942 ; Fang Yong 669; Chen Guying 638惠子曰：「可。」
+
+ZHUANG 24.5.3 Guo Qingfan i38; Wang Shumin 942 ; Fang Yong 669; Chen Guying 638莊子曰：「天下非有公是也，而各是其所是，天下皆堯也，可乎？」
+
+ZHUANG 24.5.4 Guo Qingfan i38; Wang Shumin 942 ; Fang Yong 669; Chen Guying 638惠子曰：「可。」<pb:KR5c0126_CHANT_024-11a>
+
+ZHUANG 24.5.5 Guo Qingfan i38; Wang Shumin 942 ; Fang Yong 669; Chen Guying 638莊子曰：「然則儒、墨、楊、秉四，與夫子為五，果孰是邪？或者若魯遽者邪？其弟子曰：『我得夫子之道矣，吾能冬爨鼎而夏造冰矣。』
+
+ZHUANG 24.5.6 Guo Qingfan i38; Wang Shumin 942 ; Fang Yong 669; Chen Guying 638魯遽曰：『是直以陽召陽，以陰召陰，非吾所謂道也。吾示子乎吾道。』於是為之調瑟，廢一於堂，廢一於室，鼓宮宮動，鼓角角動，音律同矣。
+
+ZHUANG 24.5.7夫或改調一弦，於五音无當也，鼓之，二十五弦皆動，未始異於聲，而音之君已形也。且若是者邪？」
+
+ZHUANG 24.5.8 Guo Qingfan i40; Wang Shumin 942 ; Fang Yong 669; Chen Guying 638惠子曰：「今夫儒、墨、楊、秉，且方與我以辯，相拂以辭，相鎮以聲，而未始吾非也，則矣若矣？」<pb:KR5c0126_CHANT_024-12a>
+
+ZHUANG 24.5.9 Guo Qingfan i40; Wang Shumin 942 ; Fang Yong 669; Chen Guying 638莊子曰：「齊人蹢子於宋者，其命閽也不以完，其求鈃鍾也以束縛，其求唐子也而未始出域，有遺類矣！夫楚人寄而蹢閽者，夜半於无人之時而與舟人鬭，未始離於岑而足以造於怨也。」<pb:KR5c0126_CHANT_024-13a>
+
+ZHUANG 24.6.1 Guo Qingfan i43; Wang Shumin 948 ; Fang Yong 672; Chen Guying 641莊子送葬，過惠子之墓，顧謂從者曰：「郢人堊漫其鼻端若蠅翼，使匠石斲之。匠石運斤成風，聽而斲之，盡堊而鼻不傷，郢人立不失容。
+
+ZHUANG 24.6.2 Guo Qingfan i43; Wang Shumin 948 ; Fang Yong 672; Chen Guying 641宋元君聞之，召匠石曰：『嘗試為寡人為之。』匠石曰：『臣則嘗能斲之。雖然，臣之質死久矣。』自夫子之死也，吾无以為質矣，吾无與言之矣。」<pb:KR5c0126_CHANT_024-14a>
+
+ZHUANG 24.7.1 Guo Qingfan i44; Wang Shumin 951 ; Fang Yong 673; Chen Guying 642管仲有病，桓公往問之，曰：「仲父之病病矣，不可諱云，至於大病，則寡人惡乎屬國而可？」
+
+ZHUANG 24.7.2 Guo Qingfan i44; Wang Shumin 951 ; Fang Yong 673; Chen Guying 642管仲曰：「公誰欲與？」
+
+ZHUANG 24.7.3 Guo Qingfan i45; Wang Shumin 951 ; Fang Yong 673; Chen Guying 642公曰：「鮑叔牙。」
+
+ZHUANG 24.7.4 Guo Qingfan i45; Wang Shumin 951 ; Fang Yong 673; Chen Guying 642曰：「不可。其為人絜廉善士也，其於不己若者不比之，又一聞人之過，終身不忘。使之治國，上且鉤乎君，下且逆乎民。其得罪於君也，將弗久矣！」<pb:KR5c0126_CHANT_024-15a>
+
+ZHUANG 24.7.5 Guo Qingfan i45; Wang Shumin 951 ; Fang Yong 673; Chen Guying 643公曰：「然則孰可？」
+
+ZHUANG 24.7.6 Guo Qingfan i45; Wang Shumin 951 ; Fang Yong 673; Chen Guying 643對曰：「勿已，則隰朋可。其為人也，上忘而下畔，愧不若黃帝，而哀不己若者。
+
+ZHUANG 24.7.7 Guo Qingfan i45; Wang Shumin 951 ; Fang Yong 674; Chen Guying 643以德分人謂之聖，以財分人謂之賢。以賢臨人，未有得人者也；以賢下人，未有不得人者也。其於國有不聞也，其於家有不見也。勿已，則隰朋可。」<pb:KR5c0126_CHANT_024-16a>
+
+ZHUANG 24.8.1 Guo Qingfan i46; Wang Shumin 955 ; Fang Yong 675; Chen Guying 645吳王浮于江，登乎狙之山。眾狙見之，恂然棄而走，逃於深蓁。有一狙焉，委蛇攫搔，見巧乎王。王射之，敏給搏捷矢。王命相者趨射之，狙執死。
+
+ZHUANG 24.8.2 Guo Qingfan i47; Wang Shumin 955 ; Fang Yong 675; Chen Guying 645王顧謂其友顏不疑曰：「之狙也，伐其巧恃其便以敖予，以至此殛也！戒之哉！嗟乎，无以汝色驕人哉！」顏不疑歸而師董梧以鋤其色，去樂辭顯，三年而國人稱之。
+
+ZHUANG 24.9.1 Guo Qingfan i48; Wang Shumin 960 ; Fang Yong 677; Chen Guying 646南伯子綦隱几而坐，仰天而噓。顏成子入見曰：「夫子，物之尤也。形固可使若槁骸，心固可使若死灰乎？」
+
+ZHUANG 24.9.2 Guo Qingfan i48; Wang Shumin 960 ; Fang Yong 677; Chen Guying 646曰：「吾嘗居山穴之口矣。當是時也，田禾一覩我，而齊國之眾三賀之。我必先之，彼故知之；我必賣之，彼故鬻之。若我而不有之，彼惡得而知之？
+
+ZHUANG 24.9.3 Guo Qingfan i49; Wang Shumin 960 ; Fang Yong 677; Chen Guying 646若我而不賣之，彼惡得而鬻之？嗟乎！我悲人之自喪者，吾又悲夫悲人者，吾又悲夫悲人之悲者，其後而日遠矣。」<pb:KR5c0126_CHANT_024-18a>
+
+ZHUANG 24.10.1 Guo Qingfan 850; Wang Shumin 962 ; Fang Yong 678; Chen Guying 648仲尼之楚，楚王觴之，孫叔敖執爵而立，巿南宜僚受酒而祭曰：「古之人乎！於此言已。」
+
+ZHUANG 24.10.2 Guo Qingfan 850; Wang Shumin 962 ; Fang Yong 678; Chen Guying 648曰：「丘也聞不言之言矣，未之嘗言，於此乎言之。巿南宜僚弄丸而兩家之難解，孫叔敖甘寢秉羽而郢人投兵。丘願有喙三尺。」<pb:KR5c0126_CHANT_024-19a>
+
+ZHUANG 24.10.3 Guo Qingfan 852; Wang Shumin 962 ; Fang Yong 679; Chen Guying 648彼之謂不道之道，此之謂不言之辯，故德總乎道之所一。而言休乎知之所不知，至矣。道之所一者，德不能同也；知之所不能知者，辯不能舉也；名若儒墨而凶矣。
+
+ZHUANG 24.10.4 Guo Qingfan 852; Wang Shumin 962 ; Fang Yong 679; Chen Guying 648故海不辭東流，大之至也；聖人并包天地，澤及天下，而不知其誰氏。是故生无爵，死无謚，實不聚，名不立，此之謂大人。
+
+ZHUANG 24.10.5 Guo Qingfan 852; Wang Shumin 962 ; Fang Yong 679; Chen Guying 648狗不以善吠為良，人不以善言為賢，而況為大乎！夫為大不足以為大，而況為德乎！夫大備矣，莫若天地；然奚求焉，而大備矣。知大備者，无求无失，无棄，不以物易己也。
+
+ZHUANG 24.10.6 Guo Qingfan 852; Wang Shumin 962 ; Fang Yong 679; Chen Guying 648反己而不窮，循古而不摩，大人之誠。
+
+ZHUANG 24.11.1 Guo Qingfan 856; Wang Shumin 968 ; Fang Yong 6i2; Chen Guying 651子綦有八子，陳諸前，召九方歅曰：「為我相吾子，孰為祥？」
+
+ZHUANG 24.11.2 Guo Qingfan 856; Wang Shumin 968 ; Fang Yong 6i2; Chen Guying 651九方歅曰：「梱也為祥。」
+
+ZHUANG 24.11.3 Guo Qingfan 856; Wang Shumin 968 ; Fang Yong 6i2; Chen Guying 651子綦瞿然喜曰：「奚若？」曰：「梱也將與國君同食以終其身。」
+
+ZHUANG 24.11.4 Guo Qingfan 857; Wang Shumin 968 ; Fang Yong 6i2; Chen Guying 651子綦索然出涕曰：「吾子何為以至於是極也！」
+
+ZHUANG 24.11.5 Guo Qingfan 857; Wang Shumin 968 ; Fang Yong 6i2; Chen Guying 651九方歅曰：「夫與國君同食，澤及三族，而況父母乎！今夫子聞之而泣，是禦福也。子則祥矣，父則不祥。」<pb:KR5c0126_CHANT_024-21a>
+
+ZHUANG 24.11.6 Guo Qingfan 857; Wang Shumin 969 ; Fang Yong 6i2; Chen Guying 652子綦曰：「歅，汝何足以識之，而梱祥邪？盡於酒肉，入於鼻口矣，而何足以知其所自來？吾未嘗為牧而牂生於奧，未嘗好田而鶉生於宎，若勿怪，何邪？
+
+ZHUANG 24.11.7 Guo Qingfan 857; Wang Shumin 969 ; Fang Yong 6i3; Chen Guying 652吾所與吾子遊者，遊於天地。吾與之邀樂於天，吾與之邀食於地；吾不與之為事，不與之為𢜮，不與之為怪；
+
+ZHUANG 24.11.8 Guo Qingfan 858; Wang Shumin 969 ; Fang Yong 6i3; Chen Guying 652吾與之乘天地之誠而不以物與之相攖，吾與之一委蛇而不與之為事所宜。今也然有世俗之償焉！凡有怪徵者，必有怪行，殆乎，非我與吾子之罪，幾天與之也！吾是以泣也。」
+
+ZHUANG 24.11.9 Guo Qingfan 858; Wang Shumin 969 ; Fang Yong 6i3; Chen Guying 652无幾何而使梱之於燕，盜得之於道，全而鬻之則難，不若刖之則易，於是乎刖而鬻之於齊，適當渠公之街，然身食肉而終。
+
+ZHUANG 24.12.1 Guo Qingfan 860; Wang Shumin 973 ; Fang Yong 685; Chen Guying 654齧缺遇許由，曰：「子將奚之？」
+
+ZHUANG 24.12.2 Guo Qingfan 861; Wang Shumin 973 ; Fang Yong 685; Chen Guying 654曰：「將逃堯。」
+
+ZHUANG 24.12.3 Guo Qingfan 861; Wang Shumin 973 ; Fang Yong 685; Chen Guying 654曰：「奚謂邪？」
+
+ZHUANG 24.12.4 Guo Qingfan 861; Wang Shumin 973 ; Fang Yong 685; Chen Guying 654曰：「夫堯，畜畜然仁，吾恐其為天下笑。後世其人與人相食與！夫民，不難聚也；愛之則親，利之則至，譽之則勸，致其所惡則散。
+
+ZHUANG 24.12.5 Guo Qingfan 861; Wang Shumin 973 ; Fang Yong 685; Chen Guying 654愛利出乎仁義，捐仁義者寡，利仁義者眾。夫仁義之行，唯且无誠，且假夫禽貪者器。是以一人之斷制（利）天下，譬之猶一覕也。夫堯知賢人之利天下也，而不知其賊天下也，夫唯外乎賢者知之矣。」<pb:KR5c0126_CHANT_024-23a>
+
+ZHUANG 24.13.1 Guo Qingfan 863; Wang Shumin 976 ; Fang Yong 686; Chen Guying 654有暖姝者，有濡需者，有卷婁者。
+
+ZHUANG 24.13.2 Guo Qingfan 863; Wang Shumin 976 ; Fang Yong 686; Chen Guying 654所謂暖姝者，學一先生之言，則暖暖姝姝而私自悅也，自以為足矣，而未知未始有物也，是以謂暖姝者也。
+
+ZHUANG 24.13.3 Guo Qingfan 863; Wang Shumin 976 ; Fang Yong 686; Chen Guying 654濡需者，豕蝨是也，擇䟽鬣自以為廣宮大囿，奎蹄曲隈，乳閒股腳，自以為安室利處，
+
+ZHUANG 24.13.4 Guo Qingfan 863; Wang Shumin 976 ; Fang Yong 686; Chen Guying 654不知屠者之一旦鼓臂布草操煙火，而己與豕俱焦也。此以域進，此以域退，此其所謂濡需者也。
+
+ZHUANG 24.13.5 Guo Qingfan 864; Wang Shumin 977 ; Fang Yong 686; Chen Guying 654卷婁者，舜也。羊肉不慕蟻，蟻慕羊肉，羊肉羶也。舜有羶行，百姓悅之，故三徙成都，至鄧之墟而十有萬家。
+
+ZHUANG 24.13.6 Guo Qingfan 864; Wang Shumin 977 ; Fang Yong 686; Chen Guying 654堯聞舜之賢，舉之童土之地，曰冀得其來之澤。舜舉乎童土之地，年齒長矣，聰明衰矣，而不得休歸，所謂卷婁者也。
+
+ZHUANG 24.13.7 Guo Qingfan 865; Wang Shumin 977 ; Fang Yong 687; Chen Guying 654是以神人惡眾至，眾至則不比，不比則不利也。故无所甚親，无所甚踈，抱德煬和以順天下，此謂真人。於蟻棄知，於魚得計，於羊棄意。
+
+ZHUANG 24.14.1 Guo Qingfan 866; Wang Shumin 9i1 ; Fang Yong 690; Chen Guying 660以目視目，以耳聽耳，以心復心。若然者，其平也繩，其變也循。古之真人，以天待人，不以人入天。古之真人，得之也生，失之也死；得之也死，失之也生。
+
+ZHUANG 24.14.2 Guo Qingfan 868; Wang Shumin 9i1 ; Fang Yong 690; Chen Guying 660藥也，其實菫也，桔梗也，雞壅也，豕零也，是時為帝者也，何可勝言！
+
+ZHUANG 24.14.3 Guo Qingfan 868; Wang Shumin 9i1 ; Fang Yong 690; Chen Guying 660句踐也，以甲楯三千棲於會稽。唯種也能知亡之所以存，唯種也不知其身之所以愁。故曰：鴟目有所適，鶴脛有所節，解之也悲。
+
+ZHUANG 24.14.4 Guo Qingfan 869; Wang Shumin 9i1 ; Fang Yong 690; Chen Guying 660故曰：風之過河也有損焉，日之過河也有損焉。請只風與日相與守河，而河以為未始其攖也，恃源而往者也。故水之守土也審，影之守人也審，物之守物也審。
+
+ZHUANG 24.14.5 Guo Qingfan 870; Wang Shumin 9i1 ; Fang Yong 690; Chen Guying 660故目之於明也殆，耳之於聰也殆，心之於殉也殆。凡能其於府也殆，殆之成也不給改。禍之長也茲萃，其反也緣功，其果也待久。而人以為己寶，不亦悲乎！故有亡國戮民无已，不知問是也。
+
+ZHUANG 24.15.1 Guo Qingfan 871; Wang Shumin 988 ; Fang Yong 690; Chen Guying 663故足之於地也踐，雖踐，恃其所不蹍而後善博也；人之知也少，雖少，恃其所不知而後知天之所謂也。
+
+ZHUANG 24.15.2 Guo Qingfan 871; Wang Shumin 988 ; Fang Yong 690; Chen Guying 663知大一，知大陰，知大目，知大均，知大方，知大信，知大定，至矣。
+
+ZHUANG 24.15.3 Guo Qingfan 871; Wang Shumin 988 ; Fang Yong 690; Chen Guying 663大一通之，大陰解之，大目視之，大均緣之，大方體之，大信稽之，大定持之。
+
+ZHUANG 24.15.4 Guo Qingfan 871; Wang Shumin 989 ; Fang Yong 690; Chen Guying 663盡有天，循有照，冥有樞，始有彼。則其解之也似不解之者，其知之也似不知之也，不知而後知之。其問之也，不可以有崖，而不可以无崖。
+
+ZHUANG 24.15.5 Guo Qingfan 871; Wang Shumin 989 ; Fang Yong 690; Chen Guying 663頡滑有實，古今不代，而不可以虧，則可不謂有大揚搉乎！闔不亦問是已，奚惑然為！以不惑解惑，復於不惑，是尚大不惑。
+
+### KR5c0126_025.txt
+
+ZHUANG 25.1.1 Guo Qingfan 876; Wang Shumin 997 ; Fang Yong 699; Chen Guying 668則陽遊於楚，夷節言之於王，王未之見，夷節歸。
+
+ZHUANG 25.1.2 Guo Qingfan 876; Wang Shumin 997 ; Fang Yong 699; Chen Guying 668彭陽見王果曰：「夫子何不譚我於王？」
+
+ZHUANG 25.1.3 Guo Qingfan 877; Wang Shumin 997 ; Fang Yong 699; Chen Guying 668王果曰：「我不若公閱休。」
+
+ZHUANG 25.1.4 Guo Qingfan 877; Wang Shumin 997 ; Fang Yong 699; Chen Guying 668彭陽曰：「公閱休奚為者邪？」曰：「冬則擉鼈于江，夏則休乎山樊。有過而問者，曰：『此予宅也。』夫夷節已不能，而況我乎！吾又不若夷節。
+
+ZHUANG 25.1.5 Guo Qingfan 877; Wang Shumin 997 ; Fang Yong 699; Chen Guying 668夫夷節之為人也，无德而有知，不自許，以之神其交固，顛冥乎富貴之地，非相助以德，相助消也。夫凍者假兼衣於春，暍者反冷風
+
+ZHUANG 25.1.6 Guo Qingfan 877; Wang Shumin 997 ; Fang Yong 699; Chen Guying 668乎冬。夫楚王之為人也，形尊而嚴；其於罪也，无赦如虎；非夫佞人正德，其孰能橈焉！
+
+ZHUANG 25.1.7 Guo Qingfan 878; Wang Shumin 998 ; Fang Yong 699; Chen Guying 668故聖人，其窮也使家人忘其貧，其達也使王公忘爵祿而化卑。其於物也，與之為娛矣；其於人也，樂物之通而保己焉；
+
+ZHUANG 25.1.8 Guo Qingfan 878; Wang Shumin 998 ; Fang Yong 699; Chen Guying 668故或不言而飲人以和，與人並立而使人化。父子之宜，彼其乎歸居，而一閒其所施。其於人心者若是其遠也。故曰待公閱休。」<pb:KR5c0126_CHANT_025-2a>
+
+ZHUANG 25.2.1 Guo Qingfan 880; Wang Shumin 1002 ; Fang Yong 703; Chen Guying 672聖人達綢繆，周盡一體矣，而不知其然，性也。復命搖作而以天為師，人則從而命之也。憂乎知而所行恆无幾時，其有止也若之何！
+
+ZHUANG 25.2.2 Guo Qingfan 8i2; Wang Shumin 1002 ; Fang Yong 703; Chen Guying 672生而美者，人與之鑑，不告則不知其美於人也。若知之，若不知之，若聞之，若不聞之，其可喜也終无已，人之好之亦无已，性也。
+
+ZHUANG 25.2.3 Guo Qingfan 8i2; Wang Shumin 1002 ; Fang Yong 703; Chen Guying 672聖人之愛人也，人與之名，不告則不知其愛人也。若知之，若不知之，若聞之，若不聞之，其愛人也終无已，人之安之亦无已，性也。
+
+ZHUANG 25.3.1 Guo Qingfan 8i3; Wang Shumin 1002 ; Fang Yong 703; Chen Guying 673舊國舊都，望之暢然；雖使丘陵草木之緡，入之者十九，猶之暢然。況見見聞聞者也，以十仞之臺縣眾閒者也！<pb:KR5c0126_CHANT_025-3a>
+
+ZHUANG 25.3.2 Guo Qingfan 885; Wang Shumin 1005 ; Fang Yong 703; Chen Guying 673冉相氏得其環中以隨成，與物无終无始，无幾无時。日與物化者，一不化者也，闔嘗舍之！夫師天而不得師天，與物皆殉，其以為事也若之何？夫聖人未始有天，未始有人，未始有始，未始有物，與世偕行而不替，所行之備而不洫，其合之也若之何？
+
+ZHUANG 25.3.4 Guo Qingfan 885; Wang Shumin 1005 ; Fang Yong 703; Chen Guying 673湯得其司御門尹登恆為之傅之，從師而不囿；得其隨成，為之司其名；之名嬴法，得其兩見。仲尼之盡慮，為之傅之。容成氏曰：「除日无歲，无內无外。」<pb:KR5c0126_CHANT_025-4a>
+
+ZHUANG 25.4.1 Guo Qingfan 888; Wang Shumin 1010 ; Fang Yong 708; Chen Guying 677魏瑩與田侯牟約，田侯牟背之。魏瑩怒，將使人刺之。
+
+ZHUANG 25.4.2 Guo Qingfan 889; Wang Shumin 1010 ; Fang Yong 708; Chen Guying 677犀首聞而恥之，曰：「君為萬乘之君也，而以匹夫從讎！衍請受甲二十萬，為君攻之，虜其人民，係其牛馬，使其君內熱發於背。燃後拔其國。忌也出走，然後抶其背，折其脊。」<pb:KR5c0126_CHANT_025-5a>
+
+ZHUANG 25.4.3 Guo Qingfan 890; Wang Shumin 1010 ; Fang Yong 708; Chen Guying 677季子聞而恥之，曰：「築十仞之城，城者既十仞矣，則又壞之，此胥靡之所苦也。今兵不起七年矣，此王之基也。衍亂人，不可聽也。」<pb:KR5c0126_CHANT_025-6a>
+
+ZHUANG 25.4.4 Guo Qingfan 890; Wang Shumin 1010 ; Fang Yong 708; Chen Guying 677華子聞而醜之，曰：「善言伐齊者，亂人也；善言勿伐者，亦亂人也；謂伐之與不伐亂人也者，又亂人也。」<pb:KR5c0126_CHANT_025-7a>
+
+ZHUANG 25.4.5 Guo Qingfan 891; Wang Shumin 1010 ; Fang Yong 708; Chen Guying 677君曰：「然則若何？」
+
+ZHUANG 25.4.6 Guo Qingfan 891; Wang Shumin 1010 ; Fang Yong 708; Chen Guying 677曰：「君求其道而已矣！」
+
+ZHUANG 25.4.7 Guo Qingfan 891; Wang Shumin 1010 ; Fang Yong 708; Chen Guying 677惠子聞之而見戴晉人。戴晉人曰：「有所謂蝸者，君知之乎？」
+
+ZHUANG 25.4.8 Guo Qingfan 891; Wang Shumin 1010 ; Fang Yong 708; Chen Guying 677曰：「然。」「有國於蝸之左角者曰觸氏，有國於蝸之右角者曰蠻氏，時相與爭地而戰，伏尸數萬，逐北旬有五日而後反。」
+
+ZHUANG 25.4.9 Guo Qingfan 892; Wang Shumin 1010 ; Fang Yong 708; Chen Guying 678君曰：「噫！其虛言與？」
+
+ZHUANG 25.4.10 Guo Qingfan 892; Wang Shumin 1010 ; Fang Yong 708; Chen Guying 678曰：「臣請為君實之。君以意在四方上下有窮乎？」
+
+ZHUANG 25.4.11 Guo Qingfan 892; Wang Shumin 1010 ; Fang Yong 708; Chen Guying 678君曰：「无窮。」
+
+ZHUANG 25.4.12 Guo Qingfan 892; Wang Shumin 1010 ; Fang Yong 708; Chen Guying 678曰：「知遊心於无窮，而反在通達之國，若存若亡乎？」
+
+ZHUANG 25.4.13 Guo Qingfan 893; Wang Shumin 1010 ; Fang Yong 708; Chen Guying 678君曰：「然。」
+
+ZHUANG 25.4.14 Guo Qingfan 893; Wang Shumin 1010 ; Fang Yong 708; Chen Guying 678曰：「通達之中有魏，於魏中有梁，於梁中有王。王與蠻氏，有辯乎？」
+
+ZHUANG 25.4.15 Guo Qingfan 893; Wang Shumin 1010 ; Fang Yong 708; Chen Guying 678君曰：「无辯。」
+
+ZHUANG 25.4.16 Guo Qingfan 893; Wang Shumin 1010 ; Fang Yong 709; Chen Guying 678客出而君惝然若有亡也。
+
+ZHUANG 25.4.17 Guo Qingfan 894; Wang Shumin 1010 ; Fang Yong 709; Chen Guying 678客出，惠子見。君曰：「客，大人也，聖人不足以當之。」
+
+ZHUANG 25.4.18 Guo Qingfan 894; Wang Shumin 1010 ; Fang Yong 709; Chen Guying 678惠子曰：「夫吹管也，猶有嗃也；吹劍首者，吷而已矣。堯舜，人之所譽也；道堯舜於戴晉人之前，譬猶一吷也。」<pb:KR5c0126_CHANT_025-8a>
+
+ZHUANG 25.5.1 Guo Qingfan 894; Wang Shumin 1015 ; Fang Yong 712; Chen Guying 6i1孔子之楚，舍於蟻丘之漿。其鄰有夫妻臣妾登極者，子路曰：「是稯稯何為者邪？」
+
+ZHUANG 25.5.2 Guo Qingfan 895; Wang Shumin 1015 ; Fang Yong 713; Chen Guying 6i1仲尼曰：「是聖人僕也。是自埋於民，自藏於畔。其聲銷，其志无窮，其口雖言，其心未嘗言，方且與世違而心不屑與之俱。是陸沈者也，是其巿南宜僚邪？」
+
+ZHUANG 25.5.3 Guo Qingfan 895; Wang Shumin 1015 ; Fang Yong 713; Chen Guying 6i1子路請往召之。
+
+ZHUANG 25.5.4 Guo Qingfan 896; Wang Shumin 1015 ; Fang Yong 713; Chen Guying 6i1孔子曰：「已矣！彼知丘之著於己也，知丘之適楚也，以丘為必使楚王之召己也，彼且以丘為佞人也。夫若然者，其於佞人也羞聞其言，而況親見其身乎！而何以為存？」
+
+ZHUANG 25.5.5 Guo Qingfan 896; Wang Shumin 1015 ; Fang Yong 713; Chen Guying 6i1子路往視之，其室虛矣。
+
+ZHUANG 25.6.1 Guo Qingfan 897; Wang Shumin 1018 ; Fang Yong 713; Chen Guying 6i3長梧封人問子牢曰：「君為政焉勿鹵莽，治民焉勿滅裂。昔予為禾，耕而鹵莽之，則其實亦鹵莽而報予；芸而滅裂之，其實亦滅裂而報予。予來年變齊，深其耕而熟耰之，其禾蘩以滋，予終年厭飱。」
+
+ZHUANG 25.6.2 Guo Qingfan 899; Wang Shumin 1018 ; Fang Yong 714; Chen Guying 6i3莊子聞之曰：「今人之治其形，理其心，多有似封人之所謂，遁其天，離其性，滅其情，亡其神，以眾為。
+
+ZHUANG 25.6.3 Guo Qingfan 899; Wang Shumin 1018 ; Fang Yong 714; Chen Guying 6i3故鹵莽其性者，欲惡之孽，為性萑葦蒹葭，始萌以扶吾形，尋擢吾性；並潰漏發，不擇所出，漂疽疥癰，內熱溲膏是也。」<pb:KR5c0126_CHANT_025-11a>
+
+ZHUANG 25.7.1 Guo Qingfan 900; Wang Shumin 1022 ; Fang Yong 715; Chen Guying 685柏矩學於老聃，曰：「請之天下遊。」
+
+ZHUANG 25.7.2 Guo Qingfan 900; Wang Shumin 1022 ; Fang Yong 715; Chen Guying 685老聃曰：「已矣！天下猶是也。」
+
+ZHUANG 25.7.3 Guo Qingfan 901; Wang Shumin 1022 ; Fang Yong 715; Chen Guying 685又請之，老聃曰：「汝將何始？」
+
+ZHUANG 25.7.4 Guo Qingfan 901; Wang Shumin 1022 ; Fang Yong 715; Chen Guying 685曰：「始於齊。」<pb:KR5c0126_CHANT_025-12a>
+
+ZHUANG 25.7.5 Guo Qingfan 901; Wang Shumin 1022 ; Fang Yong 716; Chen Guying 686至齊，見辜人焉，推而強之，解朝服而幕之，號天而哭之曰：「子乎子乎！天下有大菑，子獨先離之，曰莫為盜！莫為殺人！
+
+ZHUANG 25.7.6 Guo Qingfan 901; Wang Shumin 1022 ; Fang Yong 716; Chen Guying 686榮辱立，然後覩所病；貨財聚，然後覩所爭。今立人之所病，聚人之所爭，窮困人之身使无休時，欲无至此，得乎！
+
+ZHUANG 25.7.7 Guo Qingfan 902; Wang Shumin 1022 ; Fang Yong 716; Chen Guying 686古之君人者，以得為在民，以失為在己；以正為在民，以枉為在己；故一物有失其形者，退而自責。
+
+ZHUANG 25.7.8 Guo Qingfan 902; Wang Shumin 1022 ; Fang Yong 716; Chen Guying 686今則不然。匿為物而過不識，大為難而罪不敢，重為任而罰不勝，遠其塗而誅不至。民知力竭，則以偽繼之，日出多偽，士民安取不偽！
+
+ZHUANG 25.7.9 Guo Qingfan 902; Wang Shumin 1022 ; Fang Yong 716; Chen Guying 686夫力不足則偽，知不足則欺，財不足則盜。盜竊之行，於誰責而可乎？」<pb:KR5c0126_CHANT_025-13a>
+
+ZHUANG 25.8.1 Guo Qingfan 905; Wang Shumin 1026 ; Fang Yong 718; Chen Guying 688蘧伯玉行年六十而六十化，未嘗不始於是之而卒詘之以非也，未知今之所謂是之非五十九非也。萬物有乎生而莫見其根，有乎出而莫見其門。
+
+ZHUANG 25.8.2 Guo Qingfan 905; Wang Shumin 1026 ; Fang Yong 718; Chen Guying 688人皆尊其知之所知而莫知恃其知之所不知而後知，可不謂大疑乎！已乎已乎！且无所逃。此所謂然與，然乎？<pb:KR5c0126_CHANT_025-14a>
+
+ZHUANG 25.9.1 Guo Qingfan 905; Wang Shumin 1028 ; Fang Yong 719; Chen Guying 689仲尼問於太史大弢、伯常蹇、狶韋曰：「夫衛靈公飲酒湛樂，不聽國家之政；田獵畢弋，不應諸侯之際；其所以為靈公者何邪？」
+
+ZHUANG 25.9.2 Guo Qingfan 907; Wang Shumin 1028 ; Fang Yong 719; Chen Guying 689大弢曰：「是因是也。」
+
+ZHUANG 25.9.3 Guo Qingfan 907; Wang Shumin 1028 ; Fang Yong 719; Chen Guying 689伯常騫曰：「夫靈公有妻三人，同濫而浴。史鰌奉御而進所，搏幣而扶翼。其慢若彼之甚也，見賢人若此其肅也，是其所以為靈公也。」
+
+ZHUANG 25.9.4 Guo Qingfan 908; Wang Shumin 1028 ; Fang Yong 720; Chen Guying 689狶韋曰：「夫靈公也死，卜葬於故墓不吉，卜葬於沙丘而吉。掘之數仞，得石槨焉，洗而視之，有銘焉，
+
+ZHUANG 25.9.5 Guo Qingfan 908; Wang Shumin 1028 ; Fang Yong 720; Chen Guying 689曰：『不馮其子，靈公奪而埋之。』夫靈公之為靈也久矣，之二人何足以識之！」<pb:KR5c0126_CHANT_025-15a>
+
+ZHUANG 25.9.6 Guo Qingfan 909; Wang Shumin 1028 ; Fang Yong 721; Chen Guying 689少知問於太公調曰：「何謂丘里之言？」
+
+ZHUANG 25.10.1 Guo Qingfan 909; Wang Shumin 1031 ; Fang Yong 721; Chen Guying 692太公調曰：「丘里者，合十姓百名而以為風俗也，合異以為同，散同以為異。今指馬之百體而不得馬，而馬係於前者，立其百體而謂之馬也。
+
+ZHUANG 25.10.2 Guo Qingfan 909; Wang Shumin 1031 ; Fang Yong 722; Chen Guying 692是故丘山積卑而為高，江河合水而為大，大人合并而為公。是以自外入者，有主而不執；由中出者，有匹而不距。
+
+ZHUANG 25.10.3 Guo Qingfan 909; Wang Shumin 1031 ; Fang Yong 722; Chen Guying 692四時殊氣，天不賜，故歲成；五官殊職，君不私，故國治；文武殊能大人不賜，故德備；萬物殊理，道不私，故无名。
+
+ZHUANG 25.10.4 Guo Qingfan 909; Wang Shumin 1031 ; Fang Yong 722; Chen Guying 692无名故无為，无為而无不為。時有終始，世有變化。禍福淳淳，至有所拂者而有所宜；
+
+ZHUANG 25.10.5 Guo Qingfan 910; Wang Shumin 1031 ; Fang Yong 722; Chen Guying 692自殉殊面，有所正者有所差。比于大澤，百材皆度；觀乎大山，木石同壇。此之謂丘里之言。」<pb:KR5c0126_CHANT_025-16a>
+
+ZHUANG 25.10.6 Guo Qingfan 913; Wang Shumin 1031 ; Fang Yong 722; Chen Guying 692少知曰：「然則謂之道，足乎？」
+
+ZHUANG 25.10.7 Guo Qingfan 913; Wang Shumin 1031 ; Fang Yong 722; Chen Guying 693太公調曰：「不然。今計物之數，不止於萬，而期曰萬物者，以數之多者號而讀之也。是故天地者，形之大者也；陰陽者，氣之大者也；道者為之公。
+
+ZHUANG 25.10.8 Guo Qingfan 913; Wang Shumin 1031 ; Fang Yong 722; Chen Guying 693因其大以號而讀之則可也，已有之矣，乃將得比哉！則若以斯辯，譬猶狗馬，其不及遠矣。」<pb:KR5c0126_CHANT_025-17a>
+
+ZHUANG 25.11.1 Guo Qingfan 914; Wang Shumin 1031 ; Fang Yong 722; Chen Guying 696少知曰：「四方之內，六合之裏，萬物之所生惡起？」<pb:KR5c0126_CHANT_025-18a>
+
+ZHUANG 25.11.2 Guo Qingfan 914; Wang Shumin 1031 ; Fang Yong 722; Chen Guying 696太公調曰：「陰陽相照相蓋相治，四時相代相生相殺，欲惡去就於是橋起，雌雄片合於是庸有。安危相易，禍福相生，緩急相摩，聚散以成。
+
+ZHUANG 25.11.3 Guo Qingfan 914; Wang Shumin 1031 ; Fang Yong 722; Chen Guying 696此名實之可紀，精之可志也。隨序之相理，橋運之相使，窮則反，終則始。此物之所有，言之所盡，知之所至，極物而已。覩道之人，不隨其所廢，不原其所起，此議之所止。」<pb:KR5c0126_CHANT_025-19a>
+
+ZHUANG 25.11.4 Guo Qingfan 916; Wang Shumin 1031 ; Fang Yong 722; Chen Guying 696少知曰：「季真之莫為，接子之或使，二家之議，孰正於其情，孰徧於其理？」
+
+ZHUANG 25.11.5 Guo Qingfan 916; Wang Shumin 1031 ; Fang Yong 723; Chen Guying 696太公調曰：「雞鳴狗吠，是人之所知；雖有大知，不能以言讀其所自化，又不能以意測其所將為。
+
+ZHUANG 25.11.6 Guo Qingfan 916; Wang Shumin 1031 ; Fang Yong 723; Chen Guying 697斯而析之，精至於无倫，大至於不可圍，或之使，莫之為，未免於物而終以為過。或使則實，莫為則虛。有名有實，是物之居；无名无實，在物之虛。
+
+ZHUANG 25.11.7 Guo Qingfan 917; Wang Shumin 1031 ; Fang Yong 723; Chen Guying 696可言可意，言而愈䟽。未生不可忌，已死不可阻。死生非遠也，理不可覩。或之使，莫之為，疑之所假。吾觀之本，其往无窮；
+
+ZHUANG 25.11.8 Guo Qingfan 917; Wang Shumin 1031 ; Fang Yong 723; Chen Guying 696吾求之末，其來无止。无窮无止，言之无也，與物同理；或使莫為，言之本也，與物終始。
+
+ZHUANG 25.11.9 Guo Qingfan 917; Wang Shumin 1031 ; Fang Yong 723; Chen Guying 696道不可有，有不可无，道之為名，所假而行。或使莫為，在物一曲，夫胡為於大方？言而足，則終日言而盡道；言而不足，則終日言而盡物。
+
+ZHUANG 25.11.10 Guo Qingfan 917; Wang Shumin 1031 ; Fang Yong 723; Chen Guying 696道物之極，言默不足以載；非言非默，議有所極。」
+
+### KR5c0126_026.txt
+
+ZHUANG 26.1.1 Guo Qingfan 920; Wang Shumin 1043 ; Fang Yong 734; Chen Guying 702外物不可必，故龍逢誅，比干戮，箕子狂，惡來死，桀紂亡。人主莫不欲其臣之忠，而忠未必信，故伍員流于江，萇弘死于蜀，藏其血三年而化為碧。
+
+ZHUANG 26.1.2 Guo Qingfan 920; Wang Shumin 1043 ; Fang Yong 734; Chen Guying 702人親莫不欲其子之孝，而孝未必愛，故孝己憂而曾參悲。木與木相摩則然，金與火相守則流。
+
+ZHUANG 26.1.3 Guo Qingfan 920; Wang Shumin 1043 ; Fang Yong 735; Chen Guying 702陰陽錯行，則天地大絯，於是乎有雷有霆，水中有火，乃焚大槐。有甚憂兩陷而无所逃，
+
+ZHUANG 26.1.4 Guo Qingfan 920; Wang Shumin 1043 ; Fang Yong 735; Chen Guying 702螴蜳不得成，心若縣於天地之閒，慰暋沈屯，利害相摩，生火甚多，眾人焚和，月固不勝火，於是乎有僓然而道盡。
+
+ZHUANG 26.2.1 Guo Qingfan 924; Wang Shumin 1049 ; Fang Yong 737; Chen Guying 704莊周家貧，故往貸粟於監河侯。監河侯曰：「諾。我將得邑金，將貸子三百金，可乎？」
+
+ZHUANG 26.2.2 Guo Qingfan 924; Wang Shumin 1049 ; Fang Yong 737; Chen Guying 704莊周忿然作色曰：「周昨來，有中道而呼者。周顧視，車轍中有鮒魚焉。周問之曰：『鮒魚來，子何為者邪？』對曰：『我，東海之波臣也。君豈有升斗之水而活我哉？』
+
+ZHUANG 26.2.3 Guo Qingfan 924; Wang Shumin 1049 ; Fang Yong 737; Chen Guying 704周曰：『諾。我且南遊吳越之王，激西江之水而迎子，可乎？』鮒魚忿然作色曰：『吾失我常與，我无所處。吾得斗升之水然活耳，君乃言此，曾不如早索我於枯魚之肆！』」<pb:KR5c0126_CHANT_026-3a>
+
+ZHUANG 26.3.1 Guo Qingfan 925; Wang Shumin 1052 ; Fang Yong 739; Chen Guying 706任公子為大鉤巨緇，五十犗以為餌，蹲乎會稽，投竿東海，旦旦而釣，期年不得魚。已而大魚食之，牽巨鉤錎沒而下，騖揚而奮鬐，白波若山，海水震蕩，
+
+ZHUANG 26.3.2 Guo Qingfan 925; Wang Shumin 1052 ; Fang Yong 739; Chen Guying 707聲侔鬼神，憚赫千里。任公子得若魚，離而腊之，自制河以東，蒼梧已北，莫不厭若魚者。
+
+ZHUANG 26.3.3 Guo Qingfan 925; Wang Shumin 1052 ; Fang Yong 739; Chen Guying 707已而後世輇才諷說之徒，皆驚而相告也。夫揭竿累，趨灌瀆，守鯢鮒，其於得大魚難矣，飾小說以干縣令，其於大達亦遠矣，
+
+ZHUANG 26.3.4 Guo Qingfan 925; Wang Shumin 1052 ; Fang Yong 739; Chen Guying 707是以未嘗聞任氏之風俗，其不可與經於世亦遠矣。
+
+ZHUANG 26.4.1 Guo Qingfan 927; Wang Shumin 1058 ; Fang Yong 741; Chen Guying 709儒以《詩》、《禮》發冢。大儒臚傳曰：「東方作矣，事之何若？」
+
+ZHUANG 26.4.2 Guo Qingfan 927; Wang Shumin 1058 ; Fang Yong 741; Chen Guying 709小儒曰：「未解裙襦，口中有珠。《詩》固有之曰：『青青之麥，生於陵陂。生不布施，死何含珠為！』接其鬢，擪其顪，儒以金椎控其頤，徐別其頰，无傷口中珠！」<pb:KR5c0126_CHANT_026-5a>
+
+ZHUANG 26.5.1 Guo Qingfan 928; Wang Shumin 1060 ; Fang Yong 742; Chen Guying 710老萊子之弟子出薪，遇仲尼，反以告，曰：「有人於彼，脩上而趨下，末僂而後耳，視若營四海，不知其誰氏之子。」
+
+ZHUANG 26.5.2 Guo Qingfan 929; Wang Shumin 1060 ; Fang Yong 742; Chen Guying 710老萊子曰：「是丘也。召而來。」
+
+ZHUANG 26.5.3 Guo Qingfan 929; Wang Shumin 1060 ; Fang Yong 742; Chen Guying 711仲尼至。曰：「丘！去汝躬矜與汝容知，斯為君子矣。」
+
+ZHUANG 26.5.4 Guo Qingfan 929; Wang Shumin 1060 ; Fang Yong 743; Chen Guying 711仲尼揖而退，蹙然改容而問曰：「業可得進乎？」<pb:KR5c0126_CHANT_026-6a>
+
+ZHUANG 26.5.5 Guo Qingfan 930 ; Wang Shumin 1060 ; Fang Yong 743; Chen Guying 711老萊子曰：「夫不忍一世之傷而驁萬世之患，抑固窶邪，亡其略弗及邪？惠以歡為驁，終身之醜，中民之行進焉耳，相引以名，相結以隱。與其譽堯而非桀，不如兩忘而閉其所譽。
+
+ZHUANG 26.5.6 Guo Qingfan 930; Wang Shumin 1060 ; Fang Yong 743; Chen Guying 711反无非傷也，動无非邪也。聖人躊躇以興事，以每成功。奈何哉其載焉終矜爾！」<pb:KR5c0126_CHANT_026-7a>
+
+ZHUANG 26.6.1 Guo Qingfan 933; Wang Shumin 1066 ; Fang Yong 746; Chen Guying 714宋元君夜半而夢人被髮闚阿門，曰：「予自宰路之淵，予為清江使河伯之所，漁者余且得予。」
+
+ZHUANG 26.6.2 Guo Qingfan 933; Wang Shumin 1066 ; Fang Yong 746; Chen Guying 714元君覺，使人占之，曰：「此神龜也。」
+
+ZHUANG 26.6.3 Guo Qingfan 933; Wang Shumin 1066 ; Fang Yong 746; Chen Guying 714君曰：「漁者有余且乎？」
+
+ZHUANG 26.6.4 Guo Qingfan 933; Wang Shumin 1066 ; Fang Yong 746; Chen Guying 714左右曰：「有。」
+
+ZHUANG 26.6.6 Guo Qingfan 934; Wang Shumin 1066 ; Fang Yong 746; Chen Guying 715君曰：「令余且會朝。」明日，余且朝。君曰：「漁何得？」
+
+ZHUANG 26.6.7 Guo Qingfan 934; Wang Shumin 1066 ; Fang Yong 746; Chen Guying 715對曰：「且之網得白龜焉，其圓五尺。」
+
+ZHUANG 26.6.8 Guo Qingfan 934; Wang Shumin 1066 ; Fang Yong 746; Chen Guying 715君曰：「獻若之龜。」<pb:KR5c0126_CHANT_026-8a>
+
+ZHUANG 26.6.9 Guo Qingfan 934; Wang Shumin 1066 ; Fang Yong 746; Chen Guying 715龜至，君再欲殺之，再欲活之，心疑，卜之，曰：「殺龜以卜吉。」乃刳龜，七十二鑽而无遺筴。
+
+ZHUANG 26.6.10 Guo Qingfan 934; Wang Shumin 1066 ; Fang Yong 746; Chen Guying 715仲尼曰：「神（龜）能見夢於元君，而不能避余且之網；知能七十二鑽而无遺筴，不能避刳腸之患。如是，則知有所困，神有所不及也。雖有至知，萬人謀之。
+
+ZHUANG 26.6.11 Guo Qingfan 934; Wang Shumin 1066 ; Fang Yong 746; Chen Guying 715魚不畏網而畏鵜鶦。去小知而大知明，去善而自善矣。嬰兒生无石師而能言，與能言者處也。」<pb:KR5c0126_CHANT_026-9a>
+
+ZHUANG 26.7.1 Guo Qingfan 936; Wang Shumin 1071 ; Fang Yong 748; Chen Guying 717惠子謂莊子曰：「子言无用。」
+
+ZHUANG 26.7.2 Guo Qingfan 936; Wang Shumin 1071 ; Fang Yong 748; Chen Guying 717莊子曰：「知无用而始可與言用矣。夫地非不廣且大也，人之所用容足耳。然則廁足而墊之致黃泉，人尚有用乎？」
+
+ZHUANG 26.7.3 Guo Qingfan 936; Wang Shumin 1071 ; Fang Yong 748; Chen Guying 717惠子曰：「无用。」莊子曰：「然則无用之為用也亦明矣。」<pb:KR5c0126_CHANT_026-10a>
+
+ZHUANG 26.8.1 Guo Qingfan 936; Wang Shumin 1073; Fang Yong 749; Chen Guying 718莊子曰：「人有能遊，且得不遊乎？人而不能遊，且得遊乎？夫流遁之志，決絕之行，噫其非至知厚德之任與！」
+
+ZHUANG 26.8.2 Guo Qingfan 936; Wang Shumin 1073; Fang Yong 749; Chen Guying 718覆墜而不反，火馳而不顧，雖相與為君臣，時也，易世而无以相賤。故曰至人不留行焉。
+
+ZHUANG 26.8.3 Guo Qingfan 938; Wang Shumin 1073; Fang Yong 749; Chen Guying 718夫尊古而卑今，學者之流也。且以狶韋氏之流觀今之世，夫孰能不波！唯至人乃能遊於世而不僻，順人而不失己。彼教不學，承意不彼。
+
+ZHUANG 26.9.1 Guo Qingfan 939; Wang Shumin 1076; Fang Yong 749; Chen Guying 720目徹為明，耳徹為聰，鼻徹為顫，口徹為甘，心徹為知，知徹為德。凡道不欲壅，壅則哽，哽而不止則跈，跈則眾害生。
+
+ZHUANG 26.9.2 Guo Qingfan 939; Wang Shumin 1076; Fang Yong 749; Chen Guying 720物之有知者恃息，其不殷，非天之罪。天之穿之，日夜无降，人則顧塞其竇。胞有重閬，心有天遊。室无空虛，則婦姑勃谿；心无天遊，則六鑿相攘。
+
+ZHUANG 26.10.1 Guo Qingfan 942; Wang Shumin 1076; Fang Yong 749; Chen Guying 722大林丘山之善於人也，亦神者不勝。德溢乎名，名溢乎暴，謀稽乎誸，知出乎爭，柴生乎守，官事果乎眾宜。春雨日時，草木怒生，銚鎒於是乎始脩，草木之到植者過半而不知其然。
+
+ZHUANG 26.11.1 Guo Qingfan 943; Wang Shumin 10i2; Fang Yong 749; Chen Guying 723「靜然可以補病，眥搣可以休老，寧可以止遽。雖然，若是，勞者之務也，非佚者之所未嘗過而問焉。聖人之所以駴天下，神人未嘗過而問焉；
+
+ZHUANG 26.11.2 Guo Qingfan 943; Wang Shumin 10i2; Fang Yong 750; Chen Guying 723賢人所以駴世，聖人未嘗過而問焉；君子所以駴國，賢人未嘗過而問焉；小人所以合時，君子未嘗過而問焉。
+
+ZHUANG 26.12.1 Guo Qingfan 943; Wang Shumin 10i2; Fang Yong 750; Chen Guying 724演門有親死者，以善毀爵為官師，其黨人毀而死者半。
+
+ZHUANG 26.12.2 Guo Qingfan 944; Wang Shumin 10i2; Fang Yong 750; Chen Guying 724堯與許由天下，許由逃之；湯與務光，務光怒之，紀他聞之，帥弟子而踆於窾水，諸侯弔之，三年，申徒狄因以踣河。
+
+ZHUANG 26.13.1 Guo Qingfan 944; Wang Shumin 10i2; Fang Yong 750; Chen Guying 725荃者所以在魚，得魚而忘荃；蹄者所以在兔，得兔而忘蹄；言者所以在意，得意而忘言。吾安得夫忘言之人而與之言哉！」
+
+### KR5c0126_027.txt
+
+ZHUANG 27.1.1 Guo Qingfan 947; Wang Shumin 1089; Fang Yong 761; Chen Guying 727寓言十九，重言十七，巵言日出，和以天倪。
+
+ZHUANG 27.1.2 Guo Qingfan 948; Wang Shumin 1089; Fang Yong 761; Chen Guying 727寓言十九，藉外論之。親父不為其子媒。親父譽之，不若非其父者也；非吾罪也，人之罪也。與己同則應，不與己同則反；同於己為是之，異於己為非之。
+
+ZHUANG 27.1.3 Guo Qingfan 949; Wang Shumin 1089; Fang Yong 761; Chen Guying 728重言十七，所以已言也，是為耆艾。年先矣，而无經緯本末以期年耆者，是非先也。人而无以先人，无人道也；人而无人道，是之謂陳人。
+
+ZHUANG 27.1.4 Guo Qingfan 949; Wang Shumin 1089; Fang Yong 761; Chen Guying 728巵言日出，和以天倪，因以曼衍，所以窮年。不言則齊，齊與言不齊，言與齊不齊也，故曰言无言。
+
+ZHUANG 27.1.5 Guo Qingfan 949; Wang Shumin 1089; Fang Yong 761; Chen Guying 728言无言，終身言，未嘗不言；終身不言，未嘗不言。有自也而可，有自也而不可；有自也而然，有自也而不然。
+
+ZHUANG 27.1.6 Guo Qingfan 949; Wang Shumin 1089; Fang Yong 761; Chen Guying 728惡乎然？然於然。惡乎不然？不然於不然。惡乎可？可於可。惡乎不可？不可於不可。物固有所然，物固有所可，无物不然，无物不可。
+
+ZHUANG 27.1.7 Guo Qingfan 950; Wang Shumin 1089; Fang Yong 761; Chen Guying 728非巵言日出，和以天倪，孰得其久！萬物皆種也，以不同形相禪，始卒若環，莫得其倫，是謂天均。天均者，天倪也。
+
+ZHUANG 27.2.1 Guo Qingfan 952; Wang Shumin 1095; Fang Yong 765; Chen Guying 732莊子謂惠子曰：「孔子行年六十而六十化，始時所是，卒而非之，未知今之所謂是之非五十九非也。」
+
+ZHUANG 27.2.2 Guo Qingfan 953; Wang Shumin 1095; Fang Yong 765; Chen Guying 732惠子曰：「孔子勤志服知也。」
+
+ZHUANG 27.2.3 Guo Qingfan 953; Wang Shumin 1095; Fang Yong 765; Chen Guying 732莊子曰：「孔子謝之矣，而其未之嘗言？孔子云：『夫受才乎大本，復靈以生。』鳴而當律，言而當法，利義陳乎前，而好惡是非直服人之口而已矣。
+
+ZHUANG 27.2.4使人乃以心服，而不敢蘁立，定天下之定。已乎已乎！吾且不得及彼乎！」<pb:KR5c0126_CHANT_027-4a>
+
+ZHUANG 27.3.1 Guo Qingfan 954; Wang Shumin 1099; Fang Yong 766; Chen Guying 734曾子再仕而心再化，曰：「吾及親仕，三釜而心樂；後仕，三千鍾不洎，吾心悲。」
+
+ZHUANG 27.3.2 Guo Qingfan 955; Wang Shumin 1099; Fang Yong 766; Chen Guying 734弟子問于仲尼曰：「若參者，可謂无所縣其罪乎？」
+
+ZHUANG 27.3.3 Guo Qingfan 955; Wang Shumin 1099; Fang Yong 766; Chen Guying 734曰：「既已縣矣。夫无所縣者，可以有哀乎？彼視三釜三千鍾，如觀雀蚊虻相過乎前也。」<pb:KR5c0126_CHANT_027-5a>
+
+ZHUANG 27.4.1 Guo Qingfan 956; Wang Shumin 1102; Fang Yong 768; Chen Guying 735顏成子游謂東郭子綦曰：「自吾聞子之言，一年而野，二年而從，三年而通，四年而物，五年而來，六年而鬼入，七年而天成，八年而不知死，不知生，九年而大妙。
+
+ZHUANG 27.5.1 Guo Qingfan 958; Wang Shumin 1102; Fang Yong 768; Chen Guying 737生有為，死也。勸公，以其死也，有自也；而生陽也，无自也。
+
+ZHUANG 27.5.2 Guo Qingfan 958; Wang Shumin 1102; Fang Yong 768; Chen Guying 737而果然乎？惡乎其所適？惡乎其所不適？天有歷數，地有人據，吾惡乎求之？莫知其所終，若之何其无命也？莫知其所始，若之何其有命也？有以相應也，若之何其无鬼邪？无以相應也，若之何其有鬼邪？」<pb:KR5c0126_CHANT_027-6a>
+
+ZHUANG 27.6.1 Guo Qingfan 959; Wang Shumin 1106; Fang Yong 770; Chen Guying 738眾罔兩問於影曰：「若向也俯而今也仰，向也括而今也被髮，向也坐而今也起，向也行而今也止，何也？」
+
+ZHUANG 27.6.2 Guo Qingfan 960; Wang Shumin 1106; Fang Yong 770; Chen Guying 738影曰：「叟叟也，奚稍問也！予有而不知其所以。予，蜩甲也，蛇蛻也，似之而非也。火與日，吾屯也；陰與夜，吾代也。
+
+ZHUANG 27.6.3 Guo Qingfan 960; Wang Shumin 1106; Fang Yong 770; Chen Guying 738彼吾所以有待邪？而況乎无待者乎！彼來則我與之來，彼往則我與之往，彼強陽則我與之強陽。強陽者又何以有問乎！」<pb:KR5c0126_CHANT_027-7a>
+
+ZHUANG 27.7.1 Guo Qingfan 962; Wang Shumin 1109; Fang Yong 772; Chen Guying 740陽子居南之沛，老聃西遊於秦，邀於郊，至於梁而遇老子。老子中道仰天而歎曰：「始以汝為可教，今不可也。」
+
+ZHUANG 27.7.2 Guo Qingfan 962; Wang Shumin 1109; Fang Yong 772; Chen Guying 741陽子居不荅。至舍，進盥漱巾櫛，脫屨戶外，膝行而前曰：「向者弟子欲請夫子，夫子行不閒，是以不敢。今閒矣，請問其過。」
+
+ZHUANG 27.7.3 Guo Qingfan 963; Wang Shumin 1109; Fang Yong 772; Chen Guying 741老子曰：「而睢睢，而盱盱，而誰與居？大白若辱，盛德若不足。」
+
+ZHUANG 27.7.4 Guo Qingfan 963; Wang Shumin 1109; Fang Yong 772; Chen Guying 741陽子居蹴然變容曰：「敬聞命矣！」其往也，舍者迎將，其家公執席，妻執巾櫛，舍者避席，煬者避竈。其反也，舍者與之爭席矣。
+
+### KR5c0126_028.txt
+
+ZHUANG 28.1.1 Guo Qingfan 965; Wang Shumin 1117; Fang Yong 778; Chen Guying 744堯以天下讓許由，許由不受。又讓於子州支父，子州支父曰：「以我為天子，猶之可也。
+
+ZHUANG 28.1.2 Guo Qingfan 965; Wang Shumin 1117; Fang Yong 778; Chen Guying 744雖然，我適有幽憂之病，方且治之，未暇治天下也。」夫天下至重也，而不以害其生，又況他物乎！唯无以天下為者，可以託天下也。
+
+ZHUANG 28.1.3 Guo Qingfan 966; Wang Shumin 1118; Fang Yong 778; Chen Guying 744舜讓天下於子州支伯。子州支伯曰：「予適有幽憂之病，方且治之，未暇治天下也。」故天下大器也，而不以易生，此有道者之所以異乎俗者也。
+
+ZHUANG 28.1.4 Guo Qingfan 966; Wang Shumin 1118; Fang Yong 778; Chen Guying 744舜以天下讓善卷，善卷曰：「余立於宇宙之中，冬日衣皮毛，夏日衣葛絺；春耕種，形足以勞動；秋收斂，身足以休食；
+
+ZHUANG 28.1.5 Guo Qingfan 967; Wang Shumin 1118; Fang Yong 778; Chen Guying 744日出而作，日入而息，逍遙於天地之閒而心意自得。吾何以天下為哉！悲夫，子之不知余也！」遂不受。於是去而入深山，莫知其處。
+
+ZHUANG 28.1.6 Guo Qingfan 967; Wang Shumin 1118; Fang Yong 778; Chen Guying 745舜以天下讓其友石戶之農，石戶之農曰：「捲捲乎后之為人，葆力之士也！」以舜之德為未至也，於是夫負妻戴，攜子以入於海，終身不反也。
+
+ZHUANG 28.2.1 Guo Qingfan 967; Wang Shumin 1120; Fang Yong 779; Chen Guying 746大王亶父居邠，狄人攻之；事之以皮帛而不受，事之以犬馬而不受，事之以珠玉而不受，
+
+ZHUANG 28.2.2 Guo Qingfan 967; Wang Shumin 1120; Fang Yong 779; Chen Guying 747狄人之所求者土地也。大王亶父曰：「與人之兄居而殺其弟，與人之父居而殺其子，吾不忍也。子皆勉居矣！
+
+ZHUANG 28.2.3 Guo Qingfan 967; Wang Shumin 1120; Fang Yong 779; Chen Guying 747為吾臣與為狄人臣奚以異！且吾聞之，不以所用養害所養。」因杖筴而去之。民相連而從之，遂成國於岐山之下。
+
+ZHUANG 28.2.4 Guo Qingfan 967; Wang Shumin 1120; Fang Yong 779; Chen Guying 747夫大王亶父，可謂能尊生矣。能尊生者，雖貴富不以養傷身，雖貧賤不以利累形。今世之人居高官尊爵者，皆重失之，見利輕亡其身，豈不惑哉！<pb:KR5c0126_CHANT_028-6a>
+
+ZHUANG 28.3.1 Guo Qingfan 968; Wang Shumin 1124; Fang Yong 7i1; Chen Guying 748越人三世弒其君，王子搜患之，逃乎丹穴。而越國无君，求王子搜不得，從之丹穴。王子搜不肯出，越人薰之以艾。乘以玉輿。
+
+ZHUANG 28.3.2 Guo Qingfan 968; Wang Shumin 1124; Fang Yong 7i1; Chen Guying 748王子搜援綏登車，仰天而呼曰：「君乎君乎！獨不可以舍我乎！」王子搜非惡為君也，惡為君之患也。若王子搜者，可謂不以國傷生矣，此固越人之所欲得為君也。
+
+ZHUANG 28.4.1 Guo Qingfan 969; Wang Shumin 1126; Fang Yong 7i2; Chen Guying 749韓魏相與爭侵地。子華子見昭僖侯，昭僖侯有憂色。子華子曰：「今使天下書銘於君之前，書之言曰：『左手攫之則右手廢，右手攫之則左手廢，然而攫之者必有天下。』君能攫之乎？」
+
+ZHUANG 28.4.2 Guo Qingfan 970; Wang Shumin 1126; Fang Yong 7i2; Chen Guying 749昭僖侯曰：「寡人不攫也。」<pb:KR5c0126_CHANT_028-8a>
+
+ZHUANG 28.4.3 Guo Qingfan 970; Wang Shumin 1126; Fang Yong 7i2; Chen Guying 749子華子曰：「甚善！自是觀之，兩臂重於天下也，身亦重於兩臂。韓之輕於天下亦遠矣，今之所爭者，其輕於韓又遠。君固愁身傷生以憂戚不得也！」
+
+ZHUANG 28.4.4 Guo Qingfan 970; Wang Shumin 1126; Fang Yong 7i2; Chen Guying 750僖侯曰：「善哉！教寡人者眾矣，未嘗得聞此言也。」子華子可謂知輕重矣。
+
+ZHUANG 28.5.1 Guo Qingfan 971; Wang Shumin 1128; Fang Yong 7i3; Chen Guying 751魯君聞顏闔得道之人也，使人以幣先焉。顏闔守陋閭，苴布之衣而自飯牛。魯君之使者至，顏闔自對之。使者曰：「此顏闔之家與？」顏闔對曰：「此闔之家也。」
+
+ZHUANG 28.5.2 Guo Qingfan 971; Wang Shumin 1128; Fang Yong 7i3; Chen Guying 751使者致幣，顏闔對曰：「恐聽者謬而遺使者罪，不若審之。」使者還反審之，復來求之，則不得已。故若顏闔者，非惡富貴也，由重生惡之也。
+
+ZHUANG 28.5.3 Guo Qingfan 971; Wang Shumin 1128; Fang Yong 7i3; Chen Guying 751故曰：「道之真以治身，其緒餘以為國家，其土苴以治天下。」由此觀之，帝王之功，聖人之餘事也，非所以完身養生也。
+
+ZHUANG 28.5.4 Guo Qingfan 971; Wang Shumin 1128; Fang Yong 7i3; Chen Guying 751今世俗之君子，多危身棄生以殉物，豈不悲哉！
+
+ZHUANG 28.5.5 Guo Qingfan 972; Wang Shumin 1128; Fang Yong 7i4; Chen Guying 751凡聖人之動作也，必察其所以之與其所以為。今且有人於此，以隨侯之珠彈千仞之雀，世必笑之。是何也？則其所用者重而所要者輕也。夫生者，豈特隨侯珠之重哉！<pb:KR5c0126_CHANT_028-11a>
+
+ZHUANG 28.6.1 Guo Qingfan 972; Wang Shumin 1133; Fang Yong 7i4; Chen Guying 753子列子窮，容貌有飢色。客有言之於鄭子陽者曰：「列御寇，蓋有道之士也，居君之國而窮，君无乃為不好士乎？」鄭子陽即令官遺之粟。子列子出見使者，再拜而辭。
+
+ZHUANG 28.6.2 Guo Qingfan 973; Wang Shumin 1133; Fang Yong 7i4; Chen Guying 753使者去，子列子入，其妻望之而拊心曰：「妾聞為有道者之妻子，皆得佚樂，今有飢色。君過而遺先生食，先生不受，豈不命邪！」
+
+ZHUANG 28.6.3 Guo Qingfan 973; Wang Shumin 1133; Fang Yong 7i4; Chen Guying 754子列子笑謂之曰：「君非自知我也。以人之言而遺我粟，至其罪我也又且以人之言，此吾所以不受也。」其卒，民果作難而殺子陽。
+
+ZHUANG 28.7.1 Guo Qingfan 974; Wang Shumin 1136; Fang Yong 786; Chen Guying 755楚昭王失國，屠羊說走而從於昭王。昭王反國，將賞從者，及屠羊說。屠羊說曰：「大王失國，說失屠羊；大王反國，說亦反屠羊。臣之爵祿已復矣，又何賞之有！」
+
+ZHUANG 28.7.2 Guo Qingfan 974; Wang Shumin 1136; Fang Yong 786; Chen Guying 755王曰：「強之！」
+
+ZHUANG 28.7.3 Guo Qingfan 974; Wang Shumin 1136; Fang Yong 786; Chen Guying 755屠羊說曰：「大王失國，非臣之罪，故不敢伏其誅；大王反國，非臣之功，故不敢當其賞。」王曰：「見之！」<pb:KR5c0126_CHANT_028-13a>
+
+ZHUANG 28.7.4 Guo Qingfan 974; Wang Shumin 1136; Fang Yong 786; Chen Guying 755屠羊說曰：「楚國之法，必有重賞大功而後得見，今臣之知不足以存國而勇不足以死寇。
+
+ZHUANG 28.7.5 Guo Qingfan 974; Wang Shumin 1136; Fang Yong 786; Chen Guying 755吳軍入郢，說畏難而避寇，非故隨大王也。今大王欲廢法毀約而見說，此非臣之所以聞於天下也。」
+
+ZHUANG 28.7.6 Guo Qingfan 975; Wang Shumin 1136; Fang Yong 786; Chen Guying 755王謂司馬子綦曰：「屠羊說居處卑賤而陳義甚高，子其為我延之以三旌之位。」
+
+ZHUANG 28.8.1 Guo Qingfan 975; Wang Shumin 1136; Fang Yong 788; Chen Guying 757屠羊說曰：「夫三旌之位，吾知其貴於屠羊之肆也；萬鍾之祿，吾知其富於屠羊之利也；然豈可以貪爵祿而使吾君有妄施之名乎！說不敢當，願復反吾屠羊之肆。」遂不受也。
+
+ZHUANG 28.8.2 Guo Qingfan 976; Wang Shumin 1138; Fang Yong 788; Chen Guying 757原憲居魯，環堵之室，茨以生草；蓬戶不完，桑以為樞；而甕牗二室，褐以為塞；上漏下濕，匡坐而弦歌。
+
+ZHUANG 28.8.3 Guo Qingfan 976; Wang Shumin 1138; Fang Yong 788; Chen Guying 757子貢乘大馬，中紺而表素，軒車不容巷，往見原憲。原憲華冠縱履，杖藜而應門。
+
+ZHUANG 28.8.4 Guo Qingfan 976; Wang Shumin 1139; Fang Yong 788; Chen Guying 758子貢曰：「嘻！先生何病？」
+
+ZHUANG 28.8.5 Guo Qingfan 976; Wang Shumin 1138; Fang Yong 788; Chen Guying 758原憲應之曰：「憲聞之，无財之謂貧，學而不能行之謂病。今憲貧也，非病也。」
+
+ZHUANG 28.8.6 Guo Qingfan 976; Wang Shumin 1139; Fang Yong 788; Chen Guying 758子貢逡巡而有愧色。原憲笑曰：「夫希世而行，比周而友，學以為人，教以為己，仁義之慝，輿馬之飾，憲不忍為也。」<pb:KR5c0126_CHANT_028-15a>
+
+ZHUANG 28.9.1 Guo Qingfan 977; Wang Shumin 1143; Fang Yong 790; Chen Guying 760曾子居衛，縕袍无表，顏色腫噲，手足胼胝。三日不舉火，十年不製衣，正冠而纓絕，捉衿而肘見，納屨而踵決。曳縰而歌《商頌》，聲滿天地，若出金石。
+
+ZHUANG 28.9.2 Guo Qingfan 977; Wang Shumin 1143; Fang Yong 790; Chen Guying 760天子不得臣，諸侯不得友。故養志者忘形，養形者忘利，致道者忘心矣。
+
+ZHUANG 28.10.1 Guo Qingfan 978; Wang Shumin 1145; Fang Yong 791; Chen Guying 761孔子謂顏回曰：「回，來！家貧居卑，胡不仕乎？」
+
+ZHUANG 28.10.2 Guo Qingfan 978; Wang Shumin 1145; Fang Yong 791; Chen Guying 761顏回對曰：「不願仕。回有郭外之田五十畝，足以給飦粥；郭內之田十畝，足以為絲麻；鼓琴足以自娛，所學夫子之道者足以自樂也。回不願仕。」
+
+ZHUANG 28.10.3 Guo Qingfan 978; Wang Shumin 1145; Fang Yong 792; Chen Guying 762孔子愀然變容曰：「善哉，回之意！丘聞之，『知足者不以利自累也，審自得者失之而不懼，行脩於內者无位而不怍。』丘誦之久矣，今於回而後見之，是丘之得也。」<pb:KR5c0126_CHANT_028-17a>
+
+ZHUANG 28.11.1 Guo Qingfan 979; Wang Shumin 1148; Fang Yong 792; Chen Guying 762中山公子牟謂瞻子曰：「身在江海之上，心居魏闕之下，奈何？」
+
+ZHUANG 28.1148瞻子曰：「重生。重生則輕利。」
+
+ZHUANG 28.11.3 Guo Qingfan 979; Wang Shumin 1148; Fang Yong 792; Chen Guying 762中山公子牟曰：「雖知之，未能自勝也。」
+
+ZHUANG 28.11.4 Guo Qingfan 980; Wang Shumin 1148; Fang Yong 792; Chen Guying 762瞻子曰：「不能自勝則從，神无惡乎？不能自勝而強不從者，此之謂重傷。重傷之人，无壽類矣。」
+
+ZHUANG 28.11.5 Guo Qingfan 980; Wang Shumin 1148; Fang Yong 792; Chen Guying 762魏牟，萬乘之公子也，其隱巖穴也，難為於布衣之士；雖未至乎道，可謂有其意矣。
+
+ZHUANG 28.12.1 Guo Qingfan 9i1; Wang Shumin 1151; Fang Yong 794; Chen Guying 764孔子窮於陳蔡之閒，七日不火食，藜羹不糝，顏色甚憊，而弦歌於室。顏回擇菜於外，子路、子貢相與言曰：
+
+ZHUANG 28.12.2 Guo Qingfan 9i1; Wang Shumin 1151; Fang Yong 794; Chen Guying 764「夫子再逐於魯，削迹於衛，伐樹於宋，窮於商周，圍於陳蔡，殺夫子者无罪，藉夫子者无禁。弦歌鼓琴，未嘗絕音，君子之无恥也若此乎？」
+
+ZHUANG 28.12.3 Guo Qingfan 9i2; Wang Shumin 1151; Fang Yong 794; Chen Guying 764顏回无以應，入告孔子。孔子推琴喟然而歎曰：「由與賜，細人也。召而來，吾語之。」<pb:KR5c0126_CHANT_028-19a>
+
+ZHUANG 28.12.4 Guo Qingfan 9i2; Wang Shumin 1152; Fang Yong 794; Chen Guying 764子路、子貢入。子路曰：「如此者，可謂窮矣！」孔子曰：「是何言也！君子通於道之謂通，窮於道之謂窮。
+
+ZHUANG 28.12.5 Guo Qingfan 9i2; Wang Shumin 1152; Fang Yong 794; Chen Guying 765今丘抱仁義之道以遭亂世之患，其何窮之為！故內省而不疚於道，臨難而不失其德，大寒既至，霜雪既降，吾是以知松柏之茂也。昔桓公得之莒，文公得之曹，越王得之會稽，陳蔡之隘，於丘其幸乎！」<pb:KR5c0126_CHANT_028-20a>
+
+ZHUANG 28.12.6 Guo Qingfan 9i2; Wang Shumin 1152; Fang Yong 795; Chen Guying 765孔子列然反琴而弦歌，子路扢然執干而舞。子貢曰：「吾不知天之高也，地之下也。」
+
+ZHUANG 28.12.7 Guo Qingfan 9i3; Wang Shumin 1152; Fang Yong 795; Chen Guying 765古之得道者，窮亦樂，通亦樂。所樂非窮通也，道得於此，則窮通一也，為寒暑風雨之序矣。故許由娛於潁陽，而共伯得乎丘首。
+
+ZHUANG 28.13.1 Guo Qingfan 9i4; Wang Shumin 1159; Fang Yong 797; Chen Guying 768舜以天下讓其友北人无擇，北人无擇曰：「異哉后之為人也，居於畎畝之中而遊堯之門！不若是而已，又欲以其辱行漫我。吾羞見之。」因自投清泠之淵。
+
+ZHUANG 28.14.1 Guo Qingfan 985; Wang Shumin 1161; Fang Yong 798; Chen Guying 769湯將伐桀，因卞隨而謀，卞隨曰：「非吾事也。」
+
+ZHUANG 28.14.2 Guo Qingfan 985; Wang Shumin 1161; Fang Yong 798; Chen Guying 769湯曰：「孰可？」
+
+ZHUANG 28.14.3 Guo Qingfan 985; Wang Shumin 1161; Fang Yong 798; Chen Guying 769曰：「吾不知也。」
+
+ZHUANG 28.14.4 Guo Qingfan 985; Wang Shumin 1161; Fang Yong 798; Chen Guying 769湯又因務光而謀，務光曰：「非吾事也。」
+
+ZHUANG 28.14.5 Guo Qingfan 985; Wang Shumin 1161; Fang Yong 798; Chen Guying 769湯曰：「孰可？」
+
+ZHUANG 28.14.6 Guo Qingfan 985; Wang Shumin 1161; Fang Yong 798; Chen Guying 769曰：「吾不知也。」
+
+ZHUANG 28.14.7 Guo Qingfan 985; Wang Shumin 1161; Fang Yong 798; Chen Guying 769湯曰：「伊尹何如？」
+
+ZHUANG 28.14.8 Guo Qingfan 985; Wang Shumin 1161; Fang Yong 798; Chen Guying 769曰：「強力忍垢，吾不知其他也。」<pb:KR5c0126_CHANT_028-23a>
+
+ZHUANG 28.14.9 Guo Qingfan 986; Wang Shumin 1161; Fang Yong 798; Chen Guying 769湯遂與伊尹謀伐桀，剋之，以讓卞隨。卞隨辭曰：「后之伐桀也謀乎我，必以我為賊也；
+
+ZHUANG 28.14.10 Guo Qingfan 986; Wang Shumin 1161; Fang Yong 798; Chen Guying 769勝桀而讓我，必以我為貪也。吾生乎亂世，而无道之人再來漫我以其辱行，吾不忍數聞也。」乃自投椆水而死。
+
+ZHUANG 28.14.11 Guo Qingfan 986; Wang Shumin 1161; Fang Yong 798; Chen Guying 769湯又讓務光曰：「知者謀之，武者遂之，仁者居之，古之道也。吾子胡不立乎？」
+
+ZHUANG 28.14.12 Guo Qingfan 986; Wang Shumin 1161; Fang Yong 798; Chen Guying 769務光辭曰：「廢上，非義也；殺民，非仁也；人犯其難，我享其利，非廉也。
+
+ZHUANG 28.14.13 Guo Qingfan 986; Wang Shumin 1161; Fang Yong 798; Chen Guying 769吾聞之曰：『非其義者，不受其祿，无道之世，不踐其土。』況尊我乎！吾不忍久見也。」乃負石而自沈於廬水。
+
+ZHUANG 28.15.1 Guo Qingfan 986; Wang Shumin 1164; Fang Yong 800; Chen Guying 771昔周之興，有士二人處於孤竹，曰伯夷、叔齊。二人相謂曰：「吾聞西方有人，似有道者，試往觀焉。」
+
+ZHUANG 28.15.2 Guo Qingfan 986; Wang Shumin 1164; Fang Yong 800; Chen Guying 771至於岐陽則文王已歿矣，武王聞之，使叔旦往見之，與盟曰：「加富二等，就官一列。」血牲而埋之。
+
+ZHUANG 28.15.3 Guo Qingfan 988; Wang Shumin 1164; Fang Yong 800; Chen Guying 771二人相視而笑曰：「嘻，異哉！此非吾所謂道也。昔者神農之有天下也，時祀盡敬而不祈喜；其於人也，忠信盡治而无求焉。
+
+ZHUANG 28.15.4 Guo Qingfan 988; Wang Shumin 1164; Fang Yong 800; Chen Guying 771樂與政為政，樂與治為治，不以人之壞自成也，不以人之卑自高也，不以遭時自利也。
+
+ZHUANG 28.15.5 Guo Qingfan 988; Wang Shumin 1164; Fang Yong 800; Chen Guying 772今周見殷之亂而遽為政與治，上謀而下行貨，阻兵而保威，割牲而盟以為信，揚行以悅眾，殺伐以要利，是推亂以易暴也。
+
+ZHUANG 28.15.6 Guo Qingfan 988; Wang Shumin 1164; Fang Yong 800; Chen Guying 772吾聞古之士，遭治世不避其任，遇亂世不為苟存。今天下闇，周德衰，其並乎周以塗吾身也，不如避之以絜吾行。」
+
+ZHUANG 28.15.7 Guo Qingfan 988; Wang Shumin 1164; Fang Yong 800; Chen Guying 772二子北至於首陽之山，遂餓而死焉。若伯夷、叔齊者，其於富貴也，苟可得已，則必不賴。高節戾行，獨樂其志，不事於世，此二士之節也。
+
+### KR5c0126_029.txt
+
+ZHUANG 29.1.1 Guo Qingfan 990; Wang Shumin 1171; Fang Yong 808; Chen Guying 776孔子與柳下季為友，柳下季之弟名曰盜跖。盜跖從卒九千人，橫行天下，侵暴諸侯，穴室樞戶，驅人牛馬，取人婦女，貪得忘親，不顧父母兄弟，不祭先祖。
+
+ZHUANG 29.1.2 Guo Qingfan 990; Wang Shumin 1171; Fang Yong 808; Chen Guying 776所過之邑，大國守城，小國入保，萬民苦之。
+
+ZHUANG 29.1.3 Guo Qingfan 991; Wang Shumin 1171; Fang Yong 808; Chen Guying 776孔子謂柳下季曰：「夫為人父者，必能詔其子；為人兄者，必能教其弟。若父不能詔其子，兄不能教其弟，則无貴父子兄弟之親矣。
+
+ZHUANG 29.1.4 Guo Qingfan 991; Wang Shumin 1171; Fang Yong 808; Chen Guying 776今先生，世之才士也，弟為盜跖，為天下害，而弗能教也，丘竊為先生羞之。丘請為先生往說之。」<pb:KR5c0126_CHANT_029-3a>
+
+ZHUANG 29.1.5 Guo Qingfan 991; Wang Shumin 1171; Fang Yong 808; Chen Guying 776柳下季曰：「先生言為人父者必能詔其子，為人兄者必能教其弟，若子不聽父之詔，弟不受兄之教，雖今先生之辯，將奈之何哉！
+
+ZHUANG 29.1.6 Guo Qingfan 991; Wang Shumin 1171; Fang Yong 808; Chen Guying 776且跖之為人也，心如涌泉，意如飄風，強足以距敵，辯足以飾非，順其心則喜，逆其心則怒，易辱人以言。先生必无往。」
+
+ZHUANG 29.1.7 Guo Qingfan 991; Wang Shumin 1171; Fang Yong 808; Chen Guying 776孔子不聽，顏回為馭，子貢為右，往見盜跖。盜跖乃方休卒徒太山之陽，膾人肝而餔之。
+
+ZHUANG 29.1.8 Guo Qingfan 991; Wang Shumin 1174; Fang Yong 808; Chen Guying 776孔子下車而前，見謁者曰：「魯人孔丘，聞將軍高義，敬再拜謁者。」謁者入通，
+
+ZHUANG 29.1.9 Guo Qingfan 991; Wang Shumin 1174; Fang Yong 808; Chen Guying 776盜跖聞之大怒，目如明星，髮上指冠，
+
+ZHUANG 29.1.10 Guo Qingfan 992; Wang Shumin 1174; Fang Yong 808; Chen Guying 777曰：「此夫魯國之巧偽人孔丘非邪？為我告之：『爾作言造語，妄稱文武，冠枝木之冠，帶死牛之脅，多辭謬說，不耕而食，不織而衣，
+
+ZHUANG 29.1.11 Guo Qingfan 992; Wang Shumin 1174; Fang Yong 808; Chen Guying 777搖脣鼓舌，擅生是非，以迷天下之主，使天下學士不反其本，妄作孝悌而儌倖於封侯富貴者也。子之罪大極重，疾走歸！不然，我將以子肝益晝餔之膳！』」<pb:KR5c0126_CHANT_029-5a>
+
+ZHUANG 29.1.12 Guo Qingfan 992; Wang Shumin 1174; Fang Yong 809; Chen Guying 777孔子復通曰：「丘得幸於季，願望履幕下。」
+
+ZHUANG 29.1.13 Guo Qingfan 993; Wang Shumin 1174; Fang Yong 809; Chen Guying 777謁者復通，盜跖曰：「使來前！」
+
+ZHUANG 29.1.14 Guo Qingfan 993; Wang Shumin 1174; Fang Yong 809; Chen Guying 777孔子趨而進，避席反走，再拜盜跖。盜跖大怒，兩展其足，案劍瞋目，聲如乳虎，曰：「丘來前！若所言，順吾意則生，逆吾心則死。」<pb:KR5c0126_CHANT_029-6a>
+
+ZHUANG 29.1.15 Guo Qingfan 993; Wang Shumin 1175; Fang Yong 809; Chen Guying 777; tr. CH孔子曰：「丘聞之，凡天下有三德，生而長大，美好无雙，少長貴賤見而皆悅之，此上德也；知維天地，能辯諸物，此中德也；勇悍果敢，聚眾率兵，此下德也。
+
+ZHUANG 29.1.16 Guo Qingfan 993; Wang Shumin 1175; Fang Yong 809; Chen Guying 777凡人有此一德者，足以南面稱孤矣。今將軍兼此三者，身長八尺二寸，面目有光，脣如激丹，齒如齊貝，音中黃鍾，而名曰盜跖，
+
+ZHUANG 29.1.17 Guo Qingfan 993; Wang Shumin 1175; Fang Yong 809; Chen Guying 777丘竊為將軍恥不取焉。將軍有意聽臣，臣請南使吳越，北使齊魯，東使宋衛，西使晉楚，使為將軍造大城數百里，立數十萬戶之邑，尊將軍為諸侯，
+
+ZHUANG 29.1.18 Guo Qingfan 993; Wang Shumin 1175; Fang Yong 809; Chen Guying 777與天下更始，罷兵休卒，收養昆弟，共祭先祖。此聖人才士之行，而天下之願也。」<pb:KR5c0126_CHANT_029-7a>
+
+ZHUANG 29.1179盜跖大怒，曰：「丘來前！夫可規以利而可諫以言者，皆愚陋恆民之謂耳。今長大美好，人見而悅之者，此吾父母之遺德也。丘雖不吾譽，吾獨不自知邪？
+
+ZHUANG 29.1.20 Guo Qingfan 994; Wang Shumin 1179; Fang Yong 809; Chen Guying 778且吾聞之，好面譽人者，亦好背而毀之。今丘告我以大城眾民，是欲規我以利而恆民畜我也，安可長久也！城之大者，莫大乎天下矣。
+
+ZHUANG 29.1.21 Guo Qingfan 994; Wang Shumin 1179; Fang Yong 809; Chen Guying 778堯舜有天下，子孫无置錐之地；湯武立為天子，而後世絕滅；非以其利大故邪？<pb:KR5c0126_CHANT_029-8a>
+
+ZHUANG 29.1.22 Guo Qingfan 994; Wang Shumin 1179; Fang Yong 809; Chen Guying 778「且吾聞之，古者禽獸多而人民少，於是民皆巢居以避之，晝拾橡栗，暮栖木上，故命之曰有巢氏之民。
+
+ZHUANG 29.1.23 Guo Qingfan 995; Wang Shumin 1179; Fang Yong 809; Chen Guying 778古者民不知衣服，夏多積薪，冬則煬之，故命之曰知生之民。神農之世，臥則居居，起則于于，民知其母，不知其父，與麋鹿共處，
+
+ZHUANG 29.1.24 Guo Qingfan 995; Wang Shumin 1179; Fang Yong i10; Chen Guying 778耕而食，織而衣，无有相害之心，此至德之隆也。然而黃帝不能致德，與蚩尤戰於涿鹿之野，流血百里。
+
+ZHUANG 29.1.25 Guo Qingfan 995; Wang Shumin 1179; Fang Yong i10; Chen Guying 778堯舜作，立群臣，湯放其主，武王殺紂。自是之後，以強陵弱，以眾暴寡。湯武以來，皆亂人之徒也。
+
+ZHUANG 29.1.26 Guo Qingfan 996; Wang Shumin 11i2; Fang Yong i10; Chen Guying 778「今子脩文、武之道，掌天下之辯，以教後世，縫衣淺帶，矯言偽行，以迷惑天下之主，而欲求富貴焉，盜莫大於子。天下何故不謂子為盜丘，而乃謂我為盜跖？
+
+ZHUANG 29.1.27 Guo Qingfan 996; Wang Shumin 11i2; Fang Yong i10; Chen Guying 778子以甘辭說子路而使從之，使子路去其危冠，解其長劍，而受教於子，天下皆曰孔丘能止暴禁非。其卒之也，子路欲殺衛君而事不成，身菹於衛東門之上，是子教之不至也。
+
+ZHUANG 29.1.28 Guo Qingfan 997; Wang Shumin 11i2; Fang Yong i10; Chen Guying 778子自謂才士聖人邪？則再逐於魯，削跡於衛，窮於齊，圍於陳蔡，不容身於天下。子教子路菹此患，上无以為身，下无以為人，子之道豈足貴邪？<pb:KR5c0126_CHANT_029-10a>
+
+ZHUANG 29.1.29 Guo Qingfan 997; Wang Shumin 11i2; Fang Yong i10; Chen Guying 778「世之所高，莫若黃帝，黃帝尚不能全德，而戰涿鹿之野，流血百里。堯不慈，舜不孝，禹偏枯，湯放其主，武王伐紂，文王拘羑里。
+
+ZHUANG 29.1.30 Guo Qingfan 997; Wang Shumin 11i2; Fang Yong i10; Chen Guying 779此六子者，世之所高也，孰論之，皆以利惑其真而強反其情性，其行乃甚可羞也。
+
+ZHUANG 29.1.31 Guo Qingfan 998; Wang Shumin 1186; Fang Yong i10; Chen Guying 779「世之所謂賢士，莫若伯夷、叔齊。伯夷、叔齊辭孤竹之君，而餓死於首陽之山，骨肉不葬。鮑焦飾行非世，抱木而死。申徒狄諫而不聽，負石自投於河，為魚鼈所食。
+
+ZHUANG 29.1.32 Guo Qingfan 998; Wang Shumin 1186; Fang Yong i10; Chen Guying 779介子推至忠也，自割其股以食文公，文公後背之，子推怒而去，拘木而燔死。尾生與女子期於梁下，女子不來，水至不去，抱梁柱而死。
+
+ZHUANG 29.1.33 Guo Qingfan 998; Wang Shumin 1186; Fang Yong i10; Chen Guying 779此六子者，无異於磔犬流豕操瓢而乞者，皆離名輕死，不念本養壽命者也。
+
+ZHUANG 29.1.34 Guo Qingfan 999; Wang Shumin 1186; Fang Yong i10; Chen Guying 779「世之所謂忠臣者，莫若王子比干、伍子胥。子胥沈江，比干剖心，此二子者，世謂忠臣也，然卒為天下笑。自上觀之，至于子胥、比干，皆不足貴也。
+
+ZHUANG 29.1.35 Guo Qingfan 999; Wang Shumin 1186; Fang Yong i11; Chen Guying 779丘之所以說我者，若告我以鬼事，則我不能知也；若告我以人事者，不過此矣，皆吾所聞知也。」
+
+ZHUANG 29.1.36 Guo Qingfan 1000; Wang Shumin 1186; Fang Yong i11; Chen Guying 779「今吾告子以人之情，目欲視色，耳欲聽聲，口欲察味，志氣欲盈。人上壽百歲，中壽八十，下壽六十，
+
+ZHUANG 29.1.37 Guo Qingfan 1000; Wang Shumin 1186; Fang Yong i11; Chen Guying 779除病瘐死喪憂患，其中開口而笑者，一月之中不過四五日而已矣。天與地无窮，人死者有時，操有時之具而託於无窮之閒，勿然无異騏驥之馳過隙也。不能悅其志意，養其壽命者，皆非通道者也。
+
+ZHUANG 29.1.38 Guo Qingfan 1000; Wang Shumin 1187; Fang Yong i11; Chen Guying 780丘之所言，皆吾之所棄也，亟去走歸，无復言之！子之道，狂狂伋伋，詐巧虛偽事也，非可以全真也，奚足論哉！」<pb:KR5c0126_CHANT_029-14a>
+
+ZHUANG 29.1.39 Guo Qingfan 1001; Wang Shumin 1193; Fang Yong i11; Chen Guying 780孔子再拜趨走，出門上車，執轡三失，目芒然无見，色若死灰，據軾低頭，不能出氣。歸到魯東門外，適遇柳下季。柳下季曰：「今者闕然數日不見，車馬有行色，得微往見跖邪？」
+
+ZHUANG 29.1.40 Guo Qingfan 1001; Wang Shumin 1193; Fang Yong i11; Chen Guying 780孔子仰天而歎曰：「然。」
+
+ZHUANG 29.1.41 Guo Qingfan 1001; Wang Shumin 1193; Fang Yong i11; Chen Guying 780柳下季曰：「跖得无逆汝意若前乎？」
+
+ZHUANG 29.1.42 Guo Qingfan 1001; Wang Shumin 1193; Fang Yong i11; Chen Guying 780孔子曰：「然。丘所謂无病而自灸也，疾走料虎頭，編虎須，幾不免虎口哉！」<pb:KR5c0126_CHANT_029-15a>
+
+ZHUANG 29.2.1 Guo Qingfan 1002; Wang Shumin 1194; Fang Yong i18; Chen Guying 790子張問於滿苟得曰：「盍不為行？无行則不信，不信則不任，不任則不利。故觀之名，計之利，而義真是也。若棄名利，反之於心，則夫士之為行，不可一日不為乎！」
+
+ZHUANG 29.2.2 Guo Qingfan 1002; Wang Shumin 1194; Fang Yong i18; Chen Guying 790滿苟得曰：「无恥者富，多信者顯。夫名利之大者，幾在无恥而信。故觀之名，計之利，而信真是也。若棄名利，反之於心，則夫士之為行，抱其天乎！」<pb:KR5c0126_CHANT_029-16a>
+
+ZHUANG 29.2.3 Guo Qingfan 1003; Wang Shumin 1194; Fang Yong i18; Chen Guying 790子張曰：「昔者桀紂貴為天子，富有天下，今謂臧聚曰：『汝行如桀紂。』則有怍色有不服之心者，小人所賤也。仲尼、墨翟窮為匹夫，
+
+ZHUANG 29.2.4 Guo Qingfan 1003; Wang Shumin 1194; Fang Yong i18; Chen Guying 790今謂宰相曰：『子行如仲尼、墨翟。』則變容易色稱不足者，士誠貴也。故勢為天子，未必貴也；窮為匹夫，未必賤也；貴賤之分，在行之美惡。」
+
+ZHUANG 29.2.5 Guo Qingfan 1003; Wang Shumin 1195; Fang Yong i18; Chen Guying 790滿苟得曰：「小盜者拘，大盜者為諸侯，諸侯之門，仁義存焉。昔者桓公小白殺兄入嫂而管仲為臣，
+
+ZHUANG 29.2.6 Guo Qingfan 1003; Wang Shumin 1195; Fang Yong i18; Chen Guying 791田成子常殺君竊國而孔子受幣。論則賤之，行則下之，則是言行之情悖戰於胸中也，不亦拂乎！故《書》曰：『孰惡孰美？成者為首，不成者為尾。』」<pb:KR5c0126_CHANT_029-17a>
+
+ZHUANG 29.2.7 Guo Qingfan 1004; Wang Shumin 1198; Fang Yong i18; Chen Guying 791子張曰：「子不為行，即將䟽戚无倫，貴賤无義，長幼无序；五紀六位，將何以為別乎？」
+
+ZHUANG 29.2.8 Guo Qingfan 1005; Wang Shumin 1198; Fang Yong i18; Chen Guying 791滿苟得曰：「堯殺長子，舜流母弟，䟽戚有倫乎？湯放桀，武王殺紂，貴賤有義乎？王季為適，周公殺兄，長幼有序乎？
+
+ZHUANG 29.2.9 Guo Qingfan 1005; Wang Shumin 1198; Fang Yong i18; Chen Guying 791儒者偽辭，墨者兼愛，五紀六位，將有別乎？
+
+ZHUANG 29.2.10 Guo Qingfan 1005; Wang Shumin 1198; Fang Yong i18; Chen Guying 791且子正為名，我正為利。名利之實，不順於理，不監於道。吾日與子訟於无約曰：
+
+ZHUANG 29.2.11 Guo Qingfan 1005; Wang Shumin 1198; Fang Yong i18; Chen Guying 791『小人殉財，君子殉名。其所以變其情，易其性，則異矣；乃至於棄其所為而殉其所不為，則一也。』
+
+ZHUANG 29.2.12 Guo Qingfan 1005; Wang Shumin 1198; Fang Yong i19; Chen Guying 791故曰：无為小人，反殉而天；无為君子，從天之理。若枉若直，相而天極；面觀四方，與時消息。
+
+ZHUANG 29.2.13 Guo Qingfan 1006; Wang Shumin 1198; Fang Yong i19; Chen Guying 791若是若非，執而圓機；獨成而意，與道俳佪。无轉而行，无成而義，將失而所為。无赴而富，无殉而成，將棄而天。
+
+ZHUANG 29.2.14 Guo Qingfan 1007; Wang Shumin 1199; Fang Yong i19; Chen Guying 791比干剖心，子胥抉眼，忠之禍也；直躬證父，尾生溺死，信之患也；鮑子立乾，申子自埋，廉之害也；孔子不見母，匡子不見父，義之失也。
+
+ZHUANG 29.2.15 Guo Qingfan 1007; Wang Shumin 1199; Fang Yong i19; Chen Guying 791此上世之所傳，下世之所語，以為士者正其言，必其行，故服其殃，離其患也。」<pb:KR5c0126_CHANT_029-18a>
+
+ZHUANG 29.3.1 Guo Qingfan 1008; Wang Shumin 1205; Fang Yong i23; Chen Guying 797无足問於知和曰：「人卒未有不興名就利者。彼富則人歸之，歸則下之，下則貴之。夫見下貴者，所以長生安體樂意之道也。
+
+ZHUANG 29.3.2 Guo Qingfan 1008; Wang Shumin 1205; Fang Yong i23; Chen Guying 797今子獨无意焉，知不足邪，意知而力不能行邪，故推正不忘邪？」
+
+ZHUANG 29.3.3 Guo Qingfan 1009; Wang Shumin 1205; Fang Yong i23; Chen Guying 797知和曰：「今夫此人以為與己同時而生，同鄉而處者，以為夫絕俗過世之士焉；是專无主正，所以覽古今之時，是非之分也，與俗化。世去至重，棄至尊，以為其所為也；此其所以論長生安體樂意之道，不亦遠乎！
+
+ZHUANG 29.3.4 Guo Qingfan 1009; Wang Shumin 1205; Fang Yong i24; Chen Guying 797慘怛之疾，恬愉之安，不監於體；怵惕之恐，欣懽之喜，不監於心；
+
+ZHUANG 29.3.5 Guo Qingfan 1009; Wang Shumin 1205; Fang Yong i24; Chen Guying 797知為為而不知所以為，是以貴為天子，富有天下，而不免於患也。」<pb:KR5c0126_CHANT_029-19a>
+
+ZHUANG 29.3.6 Guo Qingfan 1010; Wang Shumin 1205; Fang Yong i24; Chen Guying 797无足曰：「夫富之於人，无所不利，窮美究勢，至人之所不得逮，賢人之所不能及，
+
+ZHUANG 29.3.7 Guo Qingfan 1010; Wang Shumin 1205; Fang Yong i24; Chen Guying 797俠人之勇力而以為威強，秉人之知謀以為明察，因人之德以為賢良，非享國而嚴若君父。
+
+ZHUANG 29.3.8 Guo Qingfan 1010; Wang Shumin 1205; Fang Yong i24; Chen Guying 797且夫聲色滋味權勢之於人，心不待學而樂之，體不待象而安之。夫欲惡避就，固不待師，此人之性也。天下雖非我，孰能辭之！」
+
+ZHUANG 29.3.9 Guo Qingfan 1011; Wang Shumin 1207; Fang Yong i24; Chen Guying 798知和曰：「知者之為，故動以百姓，不違其度，是以足而不爭，无以為故不求。不足故求之，爭四處而不自以為貪；
+
+ZHUANG 29.3.10 Guo Qingfan 1011; Wang Shumin 1207; Fang Yong i24; Chen Guying 798有餘故辭之，棄天下而不自以為廉。廉貪之實，非以迫外也，反監之度。勢為天子而不以貴驕人，富有天下而不以財戲人。
+
+ZHUANG 29.3.11 Guo Qingfan 1011; Wang Shumin 1207; Fang Yong i24; Chen Guying 798計其患，慮其反，以為害於性，故辭而不受也，非以要名譽也。堯舜為帝而雍，非仁天下也，不以美害生也；善卷許由得帝而不受，非虛辭讓也，不以事害己。
+
+ZHUANG 29.3.12 Guo Qingfan 1011; Wang Shumin 1207; Fang Yong i24; Chen Guying 798此皆就其利，辭其害，而天下稱賢焉，則可以有之，彼非以興名譽也。」<pb:KR5c0126_CHANT_029-20a>
+
+ZHUANG 29.3.13 Guo Qingfan 1012; Wang Shumin 1207; Fang Yong i24; Chen Guying 798无足曰：「必持其名，苦體絕甘，約養以持生，則亦久病長阨而不死者也。」
+
+ZHUANG 29.3.14 Guo Qingfan 1012; Wang Shumin 1207; Fang Yong i24; Chen Guying 798知和曰：「平為福，有餘為害者，物莫不然，而財其甚者也。今富人，耳營鍾鼓管籥之聲，口嗛於芻豢醪醴之味，以感其意，遺忘其業，可謂亂矣；
+
+ZHUANG 29.3.15 Guo Qingfan 1012; Wang Shumin 1207; Fang Yong i24; Chen Guying 798侅溺於馮氣，若負重行而上阪也，可謂苦矣；貪財而取慰，貪權而取竭，靜居則溺，體澤則馮，可謂疾矣；
+
+ZHUANG 29.3.16 Guo Qingfan 1012; Wang Shumin 1207; Fang Yong i24; Chen Guying 798為欲富就利，故滿若堵耳而不知避，且馮而不舍，可謂辱矣；財積而无用，服膺而不舍，滿心戚醮，求益而不止，可謂憂矣；
+
+ZHUANG 29.3.17 Guo Qingfan 1012; Wang Shumin 1207; Fang Yong i25; Chen Guying 798內則疑刦請之賊，外則畏寇盜之害，內周樓䟽，外不敢獨行，可謂畏矣。此六者，天下之至害也，皆遺忘而不知察，
+
+ZHUANG 29.3.18 Guo Qingfan 1012; Wang Shumin 1207; Fang Yong i25; Chen Guying 798及其患至，求盡性竭財，單以反一日之无故而不可得也。故觀之名則不見，求之利則不得，繚意絕體而爭此，不亦惑乎！」
+
+### KR5c0126_030.txt
+
+ZHUANG 30.1.1 Guo Qingfan 1016; Wang Shumin 1215; Fang Yong i33; Chen Guying 806昔趙文王喜劍，劍士夾門而客三千餘人，日夜相擊於前，死傷者歲百餘人，好之不厭。如是三年，國衰，諸侯謀之。
+
+ZHUANG 30.1.2 Guo Qingfan 1016; Wang Shumin 1215; Fang Yong i33; Chen Guying 806太子悝患之，募左右曰：「孰能說王之意止劍士者，賜之千金。」左右曰：「莊子當能。」<pb:KR5c0126_CHANT_030-2a>
+
+ZHUANG 30.1.3 Guo Qingfan 1017; Wang Shumin 1215; Fang Yong i33; Chen Guying 806太子乃使人以千金奉莊子。莊子弗受，與使者俱往見太子曰：「太子何以教周，賜周千金？」
+
+ZHUANG 30.1.4 Guo Qingfan 1017; Wang Shumin 1215; Fang Yong i33; Chen Guying 806太子曰：「聞夫子明聖，謹奉千金以幣從車。夫子弗受，悝尚何敢言！」
+
+ZHUANG 30.1.5 Guo Qingfan 1017; Wang Shumin 1215; Fang Yong i33; Chen Guying 806莊子曰：「聞太子所欲用周者，欲絕王之喜好也。使臣上說大王而逆王意，下不當太子，則身刑而死，周尚安所事金乎？使臣上說大王，下當太子，趙國何求而不得也！」<pb:KR5c0126_CHANT_030-3a>
+
+ZHUANG 30.1.6 Guo Qingfan 1017; Wang Shumin 1216; Fang Yong i33; Chen Guying 806太子曰：「然。吾王所見，唯劍士也。」
+
+ZHUANG 30.1.7 Guo Qingfan 1017; Wang Shumin 1216; Fang Yong i33; Chen Guying 806莊子曰：「諾。周善為劍。」
+
+ZHUANG 30.1.8 Guo Qingfan 1017; Wang Shumin 1216; Fang Yong i33; Chen Guying 806太子曰：「然。吾王所見劍士，皆蓬頭突鬢垂冠，曼胡之纓，短後之衣，瞋目而語難王乃悅之。今夫子必儒服而見王，事必大逆。」
+
+ZHUANG 30.1.9 Guo Qingfan 1018; Wang Shumin 1216; Fang Yong i33; Chen Guying 807莊子曰：「請治劍服。」治劍服三日，乃見太子。太子乃與見王，王脫白刃待之。
+
+ZHUANG 30.1.10 Guo Qingfan 1018; Wang Shumin 1216; Fang Yong i33; Chen Guying 807莊子入殿門不趨，見王不拜。王曰：「子欲何以教寡人，使太子先？」
+
+ZHUANG 30.1.11 Guo Qingfan 1018; Wang Shumin 1216; Fang Yong i33; Chen Guying 807曰：「臣聞大王喜劍，故以劍見王。」
+
+ZHUANG 30.1.12 Guo Qingfan 1018; Wang Shumin 1216; Fang Yong i33; Chen Guying 807王曰：「子之劍何能禁制？」
+
+ZHUANG 30.1.13 Guo Qingfan 1018; Wang Shumin 1216; Fang Yong i33; Chen Guying 807曰：「臣之劍，十步殺一人，千里不留行。」
+
+ZHUANG 30.1.14 Guo Qingfan 1018; Wang Shumin 1216; Fang Yong i33; Chen Guying 807王大悅之，曰：「天下无敵矣！」
+
+ZHUANG 30.1.15 Guo Qingfan 1019; Wang Shumin 1216; Fang Yong i34; Chen Guying 807莊子曰：「夫為劍者，示之以虛，開之以利，後之以發，先之以至。願得試之。」
+
+ZHUANG 30.1.16 Guo Qingfan 1019; Wang Shumin 1216; Fang Yong i34; Chen Guying 807王曰：「夫子休，就舍。待命令設戲請夫子。」<pb:KR5c0126_CHANT_030-4a>
+
+ZHUANG 30.1.17 Guo Qingfan 1019; Wang Shumin 1220; Fang Yong i34; Chen Guying 807王乃校劍士七日，死傷者六十餘人，得五六人，使奉劍於殿下，乃召莊子。王曰：「今日試使士敦劍。」
+
+ZHUANG 30.1.18 Guo Qingfan 1019; Wang Shumin 1220; Fang Yong i34; Chen Guying 807莊子曰：「望之久矣。」
+
+ZHUANG 30.1.19 Guo Qingfan 1020; Wang Shumin 1220; Fang Yong i34; Chen Guying 807王曰：「夫子所御杖，長短何如？」
+
+ZHUANG 30.1.20 Guo Qingfan 1020; Wang Shumin 1220; Fang Yong i34; Chen Guying 807曰：「臣之所奉皆可。然臣有三劍，唯王所用，請先言而後試。」
+
+ZHUANG 30.1.21 Guo Qingfan 1020; Wang Shumin 1220; Fang Yong i34; Chen Guying 807王曰：「願聞三劍。」
+
+ZHUANG 30.1.22 Guo Qingfan 1020; Wang Shumin 1220; Fang Yong i34; Chen Guying 807曰：「有天子劍，有諸侯劍，有庶人劍。」
+
+ZHUANG 30.2.1 Guo Qingfan 1020; Wang Shumin 1220; Fang Yong i34; Chen Guying i11王曰：「天子之劍何如？」曰：「天子之劍，以燕谿石城為鋒，齊岱為鍔，晉衛為脊，周宋為鐔，韓魏為鋏；
+
+ZHUANG 30.2.2 Guo Qingfan 1020; Wang Shumin 1220; Fang Yong i34; Chen Guying i12包以四夷，裹以四時；繞以渤海，帶以常山；制以五行，論以刑德；開以陰陽，持以春夏，行以秋冬。
+
+ZHUANG 30.2.3 Guo Qingfan 1020; Wang Shumin 1220; Fang Yong i34; Chen Guying i12此劍，直之无前，舉之无上，案之无下，運之无旁，上決浮雲，下絕地紀。此劍一用，匡諸侯，天下服矣。此天子之劍也。」<pb:KR5c0126_CHANT_030-5a>
+
+ZHUANG 30.2.4 Guo Qingfan 1021; Wang Shumin 1221; Fang Yong i34; Chen Guying i12文王芒然自失，曰：「諸侯之劍何如？」
+
+ZHUANG 30.2.5 Guo Qingfan 1022; Wang Shumin 1221; Fang Yong i34; Chen Guying i12曰：「諸侯之劍，以知勇士為鋒，以清廉士為鍔，以賢良士為脊，以忠聖士為鐔，以豪桀士為鋏。
+
+ZHUANG 30.2.5 Guo Qingfan 1022; Wang Shumin 1221; Fang Yong i34; Chen Guying i12此劍，直之亦无前，舉之亦无上，案之亦无下，運之亦无旁；上法圓天以順三光，下法方地以順四時，中和民意以安四鄉。
+
+ZHUANG 30.2.6 Guo Qingfan 1022; Wang Shumin 1221; Fang Yong i34; Chen Guying i12此劍一用，如雷霆之震也，四封之內，无不賓服而聽從君命者矣。此諸侯之劍也。」<pb:KR5c0126_CHANT_030-6a>
+
+ZHUANG 30.2.7 Guo Qingfan 1022; Wang Shumin 1221; Fang Yong i34; Chen Guying i12王曰：「庶人之劍何如？」
+
+ZHUANG 30.2.8 Guo Qingfan 1022; Wang Shumin 1221; Fang Yong i34; Chen Guying i12曰：「庶人之劍，蓬頭突鬢垂冠，曼胡之纓，短後之衣，瞋目而語難。相擊於前，
+
+ZHUANG 30.2.9 Guo Qingfan 1022; Wang Shumin 1221; Fang Yong i35; Chen Guying i12上斬頸領，下決肝肺。此庶人之劍，无異於鬭雞，一旦命已絕矣，无所用於國事。今大王有天子之位而好庶人之劍，臣竊為大王薄之。」
+
+ZHUANG 30.2.10 Guo Qingfan 1022; Wang Shumin 1221; Fang Yong i35; Chen Guying i12王乃牽而上殿。宰人上食，王三環之。莊子曰：「大王安坐定氣，劍事已畢奏矣。」
+
+ZHUANG 30.2.11 Guo Qingfan 1023; Wang Shumin 1221; Fang Yong i35; Chen Guying i12於是文王不出宮三月，劍士皆服斃其處也。
+
+### KR5c0126_031.txt
+
+ZHUANG 31.1.1 Guo Qingfan 1022; Wang Shumin 1229; Fang Yong i41; Chen Guying i15孔子遊乎緇帷之林，休坐乎杏壇之上。弟子讀書，孔子弦歌鼓琴，奏曲未半。有漁父者，下船而來，
+
+ZHUANG 31.1.2 Guo Qingfan 1022; Wang Shumin 1229; Fang Yong i41; Chen Guying i15鬢眉交白，被髮揄袂，行原以上，距陸而止，左手據膝，右手持頤以聽。曲終而招子貢、子路，二人俱對。
+
+ZHUANG 31.1.3 Guo Qingfan 1024; Wang Shumin 1229; Fang Yong i41; Chen Guying i15客指孔子曰：「彼何為者也？」
+
+ZHUANG 31.1.4 Guo Qingfan 1024; Wang Shumin 1229; Fang Yong i41; Chen Guying i15子路對曰：「魯之君子也。」
+
+ZHUANG 31.1.5 Guo Qingfan 1024; Wang Shumin 1229; Fang Yong i41; Chen Guying i15客問其族。子路對曰：「族孔氏。」
+
+ZHUANG 31.1.6 Guo Qingfan 1024; Wang Shumin 1229; Fang Yong i41; Chen Guying i16客曰：「孔氏者何治也？」
+
+ZHUANG 31.1.7 Guo Qingfan 1025; Wang Shumin 1229; Fang Yong i41; Chen Guying i16子路未應，子貢對曰：「孔氏者，性服忠信，身行仁義，飾禮樂，選人倫，上以忠於世主，下以化於齊民，將以利天下。此孔氏之所治也。」
+
+ZHUANG 31.1.8 Guo Qingfan 1025; Wang Shumin 1230; Fang Yong i41; Chen Guying i16又問曰：「有土之君與？」
+
+ZHUANG 31.1.9 Guo Qingfan 1025; Wang Shumin 1230; Fang Yong i41; Chen Guying i16子貢曰：「非也。」
+
+ZHUANG 31.1.10 Guo Qingfan 1025; Wang Shumin 1230; Fang Yong i41; Chen Guying i16「侯王之佐與？」
+
+ZHUANG 31.1.11 Guo Qingfan 1025; Wang Shumin 1230; Fang Yong i41; Chen Guying i16子貢曰：「非也。」
+
+ZHUANG 31.1.12 Guo Qingfan 1025; Wang Shumin 1230; Fang Yong i41; Chen Guying i16客乃笑而還，行言曰：「仁則仁矣，恐不免其身；苦心勞形以危其真。嗚呼，遠哉其分於道也！」<pb:KR5c0126_CHANT_031-2a>
+
+ZHUANG 31.1.13 Guo Qingfan 1026; Wang Shumin 1230; Fang Yong i41; Chen Guying i16子貢還，報孔子。孔子推琴而起曰：「其聖人與！」乃下求之，至於澤畔，方將杖挐而引其船，顧見孔子，還鄉而立。孔子反走，再拜而進。
+
+ZHUANG 31.1.14 Guo Qingfan 1026; Wang Shumin 1230; Fang Yong i41; Chen Guying i16客曰：「子將何求？」
+
+ZHUANG 31.1.15 Guo Qingfan 1026; Wang Shumin 1230; Fang Yong i41; Chen Guying i16孔子曰：「曩者先生有緒言而去，丘不肖，未知所謂，竊待於下風，幸聞咳唾之音以卒相丘也！」
+
+ZHUANG 31.1.16 Guo Qingfan 1027; Wang Shumin 1230; Fang Yong i41; Chen Guying i16客曰：「嘻！甚矣子之好學也！」
+
+ZHUANG 31.1.17 Guo Qingfan 1027; Wang Shumin 1230; Fang Yong i41; Chen Guying i16孔子再拜而起曰：「丘少而脩學，以至於今，六十九歲矣，无所得聞至教，敢不虛心！」<pb:KR5c0126_CHANT_031-3a>
+
+ZHUANG 31.1.18 Guo Qingfan 1027; Wang Shumin 1234; Fang Yong i42; Chen Guying i17客曰：「同類相從，同聲相應，固天之理也。吾請釋吾之所有而經子之所以。子之所以者，人事也。天子諸侯大夫庶人，此四者自正，治之美也，四者離位而亂莫大焉。
+
+ZHUANG 31.1.19 Guo Qingfan 1027; Wang Shumin 1234; Fang Yong i42; Chen Guying i17官治其職，人處其事，乃无所陵。故田荒室露，衣食不足，徵賦不屬，妻妾不和，長少无序，庶人之憂也；
+
+ZHUANG 31.1.20 Guo Qingfan 1027; Wang Shumin 1234; Fang Yong i42; Chen Guying i17能不勝任，官事不治，行不清白，群下荒怠，功美不有，爵祿不持，大夫之憂也；
+
+ZHUANG 31.1.21 Guo Qingfan 1027; Wang Shumin 1234; Fang Yong i42; Chen Guying i17廷无忠臣，國家昏亂，工技不巧，貢職不美，春秋後倫，不順天子，諸侯之憂也；
+
+ZHUANG 31.1.22 Guo Qingfan 1027; Wang Shumin 1234; Fang Yong i42; Chen Guying i17陰陽不和，寒暑不時，以傷庶物，諸侯暴亂，擅相攘伐，以殘民人，禮樂不節，財用窮匱，人倫不飭，百姓淫亂，天子有司之憂也。
+
+ZHUANG 31.1.23 Guo Qingfan 1027; Wang Shumin 1234; Fang Yong i42; Chen Guying i17今子既上无君侯有司之勢，而下无大臣職事之官，而擅飾禮樂，選人倫，以化齊民，不泰多事乎！」<pb:KR5c0126_CHANT_031-4a>
+
+ZHUANG 31.1.24 Guo Qingfan 1029; Wang Shumin 1234; Fang Yong i42; Chen Guying i17「且人有八疵，事有四患，不可不察也。非其事而事之，謂之揔；莫之顧而進之，謂之佞；希意導言，謂之諂；不擇是非而言，謂之諛；好言人之惡，謂之讒；
+
+ZHUANG 31.1.25 Guo Qingfan 1029; Wang Shumin 1234; Fang Yong i42; Chen Guying i17析交離親，謂之賊；稱譽詐偽以敗惡人，謂之慝；
+
+ZHUANG 31.1.26 Guo Qingfan 1029; Wang Shumin 1234; Fang Yong i42; Chen Guying i17不擇善否，兩容顏適，偷拔其所欲，謂之險。此八疵者，外以亂人，內以傷身，君子不友，明君不臣。
+
+ZHUANG 31.1.27 Guo Qingfan 1029; Wang Shumin 1234; Fang Yong i42; Chen Guying i17所謂四患者：好經大事，變更易常，以挂功名，謂之叨；專知擅事，侵人自用，謂之貪；
+
+ZHUANG 31.1.28 Guo Qingfan 1029; Wang Shumin 1234; Fang Yong i42; Chen Guying i17見過不更，聞諫愈甚，謂之很；人同於己則可，不同於己，則雖善不善，謂之矜。此四患也。能去八疵，无行四患，而始可教已。」<pb:KR5c0126_CHANT_031-5a>
+
+ZHUANG 31.2.1 Guo Qingfan 1031; Wang Shumin 1239; Fang Yong i42; Chen Guying i23孔子愀然而歎，再拜而起曰：「丘再逐於魯，削迹於衛，伐樹於宋，圍於陳蔡。丘不知所失，而離此四謗者何也？」
+
+ZHUANG 31.2.2 Guo Qingfan 1031; Wang Shumin 1239; Fang Yong i43; Chen Guying i23客悽然變容曰：「甚矣子之難悟也！人有畏影惡迹而去之走者，舉足愈數而迹愈多，走愈疾而影不離（身），自以為尚遲，疾走不休，絕力而死。
+
+ZHUANG 31.2.3 Guo Qingfan 1031; Wang Shumin 1239; Fang Yong i43; Chen Guying i23不知處陰以休影，處靜以息迹，愚亦甚矣！子審仁義之閒，察同異之際，觀動靜之變，適受與之度，理好惡之情，和喜怒之節，而幾於不免矣。
+
+ZHUANG 31.2.4 Guo Qingfan 1031; Wang Shumin 1239; Fang Yong i43; Chen Guying i23謹脩而身，慎守其真，還以物與人，則无所累矣。今不脩之身而求之人，不亦外乎！」<pb:KR5c0126_CHANT_031-6a>
+
+ZHUANG 31.2.5 Guo Qingfan 1031; Wang Shumin 1240; Fang Yong i43; Chen Guying i23孔子愀然曰：「請問何謂真？」
+
+ZHUANG 31.2.6 Guo Qingfan 1032; Wang Shumin 1240; Fang Yong i43; Chen Guying i23客曰：「真者，精誠之至也。不精不誠，不能動人。故強哭者雖悲不哀，強怒者雖嚴不威，強親者雖笑不和。
+
+ZHUANG 31.2.7 Guo Qingfan 1032; Wang Shumin 1240; Fang Yong i43; Chen Guying i23真悲无聲而哀，真怒未發而威，真親未笑而和。真在內者，神動於外，是所以貴真也。其用於人理也，事親則慈孝，事君則忠貞，飲酒則歡樂，處喪則悲哀。
+
+ZHUANG 31.2.8 Guo Qingfan 1032; Wang Shumin 1240; Fang Yong i43; Chen Guying i23忠貞以功為主，飲酒以樂為主，處喪以哀為主，事親以適為主，功成之美，无一其迹矣。事親以適，不論所以矣；飲酒以樂，不選其具矣；處喪以哀，无問其禮矣。
+
+ZHUANG 31.2.9 Guo Qingfan 1032; Wang Shumin 1240; Fang Yong i43; Chen Guying i23禮者，世俗之所為也；真者，所以受於天也，自然不可易也。故聖人法天貴真，不拘於俗。愚者反此。
+
+ZHUANG 31.2.10 Guo Qingfan 1032; Wang Shumin 1240; Fang Yong i43; Chen Guying i24不能法天而恤於人，不知貴真，祿祿而受變於俗，故不足。惜哉，子之早湛於人偽而晚聞大道也！」<pb:KR5c0126_CHANT_031-7a>
+
+ZHUANG 31.2.11 Guo Qingfan 1033; Wang Shumin 1246; Fang Yong i43; Chen Guying i24孔子又再拜而起曰：「今者丘得遇也，若天幸然。先生不羞而比之服役，而身教之。敢問舍所在，請因受業而卒學大道。」
+
+ZHUANG 31.2.12 Guo Qingfan 1033; Wang Shumin 1246; Fang Yong i43; Chen Guying i24客曰：「吾聞之，可與往者與之，至於妙道，不可與往者，不知其道，慎勿與之，身乃无咎。子勉之！吾去子矣，吾去子矣！」乃刺船而去，延緣葦閒。
+
+ZHUANG 31.2.13 Guo Qingfan 1034; Wang Shumin 1246; Fang Yong i44; Chen Guying i24顏淵還車，子路授綏，孔子不顧，待水波定，不聞挐音而後敢乘。
+
+ZHUANG 31.2.14 Guo Qingfan 1034; Wang Shumin 1246; Fang Yong i44; Chen Guying i24子路旁車而問曰：「由得為役久矣，未嘗見夫子遇人如此其威也。萬乘之主，千乘之君，見夫子未嘗不分庭伉禮，夫子猶有倨敖之容。
+
+ZHUANG 31.2.15 Guo Qingfan 1034; Wang Shumin 1246; Fang Yong i44; Chen Guying i24今漁父杖挐逆立，而夫子曲要磬折，言拜而應，得无太甚乎？門人皆怪夫子矣，漁父何以得此乎？」<pb:KR5c0126_CHANT_031-9a>
+
+ZHUANG 31.2.16 Guo Qingfan 1035; Wang Shumin 1246; Fang Yong i44; Chen Guying i24孔子伏軾而歎曰：「甚矣由之難化也！湛於禮義有閒矣，而樸鄙之心至今未去。進，吾語汝！夫遇長不敬，失禮也；見賢不尊，不仁也。
+
+ZHUANG 31.2.17 Guo Qingfan 1035; Wang Shumin 1246; Fang Yong i44; Chen Guying i24彼非至人，不能下人，下人不精，不得其真，故長傷身。惜哉！不仁之於人也，禍莫大焉，而由獨擅之。
+
+ZHUANG 31.2.18 Guo Qingfan 1035; Wang Shumin 1246; Fang Yong i44; Chen Guying i24且道者，萬物之所由也，庶物失之者死，得之者生，為事逆之則敗，順之則成。故道之所在，聖人尊之。今漁父之於道，可謂有矣，吾敢不敬乎！」
+
+### KR5c0126_032.txt
+
+ZHUANG 32.1.1 Guo Qingfan 1036; Wang Shumin 1252; Fang Yong 851; Chen Guying i29列御寇之齊，中道而反，遇伯昏瞀人。伯昏瞀人曰：「奚方而反？」
+
+ZHUANG 32.1.2 Guo Qingfan 1036; Wang Shumin 1252; Fang Yong 851; Chen Guying i29曰：「吾驚焉。」
+
+ZHUANG 32.1.3 Guo Qingfan 1036; Wang Shumin 1252; Fang Yong 851; Chen Guying i29曰：「惡乎驚？」
+
+ZHUANG 32.1.4 Guo Qingfan 1037; Wang Shumin 1252; Fang Yong 851; Chen Guying i29曰：「吾嘗食於十漿，而五漿先饋。」
+
+ZHUANG 32.1.5 Guo Qingfan 1037; Wang Shumin 1252; Fang Yong 852; Chen Guying i29伯昏瞀人曰：「若是，則汝何為驚已？」
+
+ZHUANG 32.1.6 Guo Qingfan 1037; Wang Shumin 1252; Fang Yong 852; Chen Guying i29曰：「夫內誠不解，形諜成光，以外鎮人心，使人輕乎貴老，而𩐋其所患。
+
+ZHUANG 32.1.7 Guo Qingfan 1037; Wang Shumin 1252; Fang Yong 852; Chen Guying i29夫漿人特為食羹之貨，多餘之贏，其為利也薄，其為權也輕，而猶若是，而況於萬乘之主乎！身勞於國而知盡於事，彼將任我以事而效我以功，吾是以驚。」
+
+ZHUANG 32.1.8 Guo Qingfan 1039; Wang Shumin 1252; Fang Yong 852; Chen Guying i29伯昏瞀人曰：「善哉觀乎！汝處己，人將保汝矣！」
+
+ZHUANG 32.1.9 Guo Qingfan 1039; Wang Shumin 1252; Fang Yong 852; Chen Guying i29无幾何而往，則戶外之屨滿矣。伯昏瞀人北面而立，敦杖蹙之乎頤，立有閒，不言而出。
+
+ZHUANG 32.1.10 Guo Qingfan 1039; Wang Shumin 1252; Fang Yong 852; Chen Guying i29賓者以告列子，列子提屨，跣而走，暨乎門，曰：「先生既來，曾不發藥乎？」
+
+ZHUANG 32.1.11 Guo Qingfan 1040; Wang Shumin 1252; Fang Yong 852; Chen Guying i30曰：「已矣，吾固告汝曰人將保汝，果保汝矣。非汝能使人保汝，而汝不能使人无保汝也，而焉用之感豫出異也！必且有感，搖而本性，又无謂也。
+
+ZHUANG 32.1.12 Guo Qingfan 1040; Wang Shumin 1252; Fang Yong 852; Chen Guying i30與汝遊者又莫汝告也，彼所小言，盡人毒也。莫覺莫悟，何相孰也！巧者勞而知者憂，无能者无所求，飽食而遨遊，汎若不繫之舟，虛而遨遊者也。」<pb:KR5c0126_CHANT_032-3a>
+
+ZHUANG 32.2.1 Guo Qingfan 1042; Wang Shumin 1259; Fang Yong 855; Chen Guying i34鄭人緩也，呻吟裘氏之地。衹三年而緩為儒，河潤九里，澤及三族，使其弟墨。儒墨相與辯，其父助翟。
+
+ZHUANG 32.2.2 Guo Qingfan 1042; Wang Shumin 1259; Fang Yong 856; Chen Guying i34十年而緩自殺。其父夢之曰：「使而子為墨者予也。闔胡嘗視其良，既為秋柏之實矣？」
+
+ZHUANG 32.2.3 Guo Qingfan 1043; Wang Shumin 1259; Fang Yong 856; Chen Guying i34夫造物者之報人也，不報其人而報其人之天。彼故使彼。夫人以己為有以異於人以賤其親，齊人之井飲者相捽也。
+
+ZHUANG 32.2.4 Guo Qingfan 1043; Wang Shumin 1259; Fang Yong 856; Chen Guying i34故曰：今之世皆緩也，自是有德者以不知也，而況有道者乎！古者謂之遁天之刑。
+
+ZHUANG 32.2.5 Guo Qingfan 1045; Wang Shumin 1259; Fang Yong 856; Chen Guying i34聖人安其所安，不安其所不安；眾人安其所不安，不安其所安。
+
+ZHUANG 32.2.6 Guo Qingfan 1045; Wang Shumin 1263; Fang Yong 858; Chen Guying i34莊子曰：「知道易，勿言難。知而不言，所以之天也；知而言之，所以之人也；古之人，天而不人。」
+
+ZHUANG 32.3.1 Guo Qingfan 1046; Wang Shumin 1263; Fang Yong 858; Chen Guying i37朱泙漫學屠龍於支離益，單千金之家，三年技成而无所用其巧。
+
+ZHUANG 32.3.2 Guo Qingfan 1046; Wang Shumin 1263; Fang Yong 858; Chen Guying i37聖人以必不必，故无兵；眾人以不必必之，故多兵；順於兵，故行有求。兵，恃之則亡。
+
+ZHUANG 32.3.3 Guo Qingfan 1047; Wang Shumin 1263; Fang Yong 858; Chen Guying i37小夫之知，不離苞苴竿牘，敝精神乎蹇淺，而欲兼濟導物，太一形虛。若是者，迷惑于宇宙，形累不知太初。
+
+ZHUANG 32.3.4 Guo Qingfan 1047; Wang Shumin 1263; Fang Yong 858; Chen Guying i37彼至人者，歸精神乎无始而甘瞑乎无何有之鄉。水流乎无形，發泄乎大清。悲哉乎！汝為知在豪毛，而不知大寧！<pb:KR5c0126_CHANT_032-5a>
+
+ZHUANG 32.4.1 Guo Qingfan 1049; Wang Shumin 1268; Fang Yong 861; Chen Guying i37宋人有曹商者，為宋王使秦。其往也，得車數乘；王悅之，益車百乘。
+
+ZHUANG 32.4.2 Guo Qingfan 1049; Wang Shumin 1268; Fang Yong 861; Chen Guying i37反於宋，見莊子曰：「夫處窮閭阨巷，困窘織屨，槁項黃馘者，商之所短也；一悟萬乘之主而從車百乘者，商之所長也。」
+
+ZHUANG 32.4.3 Guo Qingfan 1050; Wang Shumin 1268; Fang Yong 861; Chen Guying i37莊子曰：「秦王有病召醫，破癰潰痤者得車一乘，舐痔者得車五乘，所治愈下，得車愈多。子豈治其痔邪，何得車之多也？子行矣！」<pb:KR5c0126_CHANT_032-6a>
+
+ZHUANG 32.5.1 Guo Qingfan 1050; Wang Shumin 1270; Fang Yong 862; Chen Guying i41魯哀公問乎顏闔曰：「吾以仲尼為貞幹，國其有瘳乎？」
+
+ZHUANG 32.5.2 Guo Qingfan 1050; Wang Shumin 1270; Fang Yong 862; Chen Guying i41曰：「殆哉圾乎仲尼！方且飾羽而畫，從事華辭，以支為旨，忍性以視民而不知不信，受乎心，宰乎神，夫何足以上民！
+
+ZHUANG 32.5.3 Guo Qingfan 1050; Wang Shumin 1270; Fang Yong 862; Chen Guying i41彼宜汝與？予頤與？誤而可矣。今使民離實學偽，非所以視民也，為後世慮，不若休之。
+
+ZHUANG 32.6.1 Guo Qingfan 1052; Wang Shumin 1270; Fang Yong 862; Chen Guying i42難治也。」施於人而不忘，非天布也。商賈不齒，雖以事齒之，神者弗齒。
+
+ZHUANG 32.7.1 Guo Qingfan 1053; Wang Shumin 1270; Fang Yong 862; Chen Guying i43為外刑者，金與木也；為內刑者，動與過也。宵人之離外刑者，金木訊之；離內刑者，陰陽食之。夫免乎外內之刑者，唯真人能之。
+
+ZHUANG 32.8.1 Guo Qingfan 1054; Wang Shumin 1275; Fang Yong 864; Chen Guying i43孔子曰：「凡人心險於山川，難於知天；天猶有春秋冬夏旦暮之期，人者厚貌深情。
+
+ZHUANG 32.8.2 Guo Qingfan 1054; Wang Shumin 1275; Fang Yong 864; Chen Guying i44故有貌愿而益，有長若不肖，有順懁而達，有堅而縵，有緩而釬。故其就義若渴者，其去義若熱。
+
+ZHUANG 32.8.3 Guo Qingfan 1054; Wang Shumin 1275; Fang Yong 864; Chen Guying i44故君子遠使之而觀其忠，近使之而觀其敬，煩使之而觀其能，卒然問焉而觀其知，急與之期而觀其信，委之以財而觀其仁，告之以危而觀其節，
+
+ZHUANG 32.8.4 Guo Qingfan 1054; Wang Shumin 1275; Fang Yong 864; Chen Guying i44醉之以酒而觀其則，雜之以處而觀其色。九徵至，不肖人得矣。」
+
+ZHUANG 32.9.1 Guo Qingfan 1056; Wang Shumin 1275; Fang Yong 866; Chen Guying i45正考父一命而傴，再命而僂，三命而俯，循牆而走，孰敢不軌！
+
+ZHUANG 32.9.2 Guo Qingfan 1056; Wang Shumin 1275; Fang Yong 866; Chen Guying i45如而夫者，一命而呂鉅，再命而於車上儛，三命而名諸父，孰協唐、許！<pb:KR5c0126_CHANT_032-8a>
+
+ZHUANG 32.9.3 Guo Qingfan 1057; Wang Shumin 1280; Fang Yong 867; Chen Guying i45賊莫大乎德有心而心有眼，及其有眼也而內視，內視而敗矣。凶德有五，中德為首。何謂中德？中德也者，有以自好也，而吡其所不為者也。
+
+ZHUANG 32.9.4 Guo Qingfan 1058; Wang Shumin 1280; Fang Yong 867; Chen Guying i45窮有八極，達有三必，形有六府。美髯長大壯麗勇敢，八者俱過人也，因以是窮。緣循，偃佒，困畏不若人，三者俱通達。
+
+ZHUANG 32.9.5 Guo Qingfan 1059; Wang Shumin 1280; Fang Yong 867; Chen Guying i45知慧外通，勇動多怨，仁義多責。達生之情者傀，達於知者肖；達大命者隨，達小命者遭。
+
+ZHUANG 32.10.1 Guo Qingfan 1061; Wang Shumin 12i4; Fang Yong 867; Chen Guying i48人有見宋王者，錫車十乘，以其十乘驕稺莊子。
+
+ZHUANG 32.10.2 Guo Qingfan 1061; Wang Shumin 12i4; Fang Yong 867; Chen Guying i48莊子曰：「河上有家貧恃緯蕭而食者，其子沒於淵，得千金之珠。其父謂其子曰：『取石來鍛之！夫千金之珠，必在九重之淵而驪龍頷下，
+
+ZHUANG 32.10.3 Guo Qingfan 1061; Wang Shumin 12i4; Fang Yong 867; Chen Guying i48子能得珠者，必遭其睡也。使驪龍而寤，子尚奚微之有哉！』今宋國之深，非直九重之淵也；宋王之猛，非直驪龍也；子能得車者，必遭其睡也。使宋王而寤，子為𩐋粉夫！」<pb:KR5c0126_CHANT_032-10a>
+
+ZHUANG 32.11.1 Guo Qingfan 1062; Wang Shumin 1287; Fang Yong 870; Chen Guying 850或聘於莊子。莊子應其使曰：「子不見夫犧牛乎？衣以文繡，食以芻菽，及其牽而入於太廟，雖欲為孤犢，其可得乎！」<pb:KR5c0126_CHANT_032-11a>
+
+ZHUANG 32.12.1 Guo Qingfan 1063; Wang Shumin 1289; Fang Yong 870; Chen Guying 850莊子將死，弟子欲厚葬之。莊子曰：「吾以天地為棺槨，以日月為連璧，星辰為珠璣，萬物為齎送。吾葬具豈不備邪？何以加此！」
+
+ZHUANG 32.12.2 Guo Qingfan 1063; Wang Shumin 1289; Fang Yong 870; Chen Guying 850弟子曰：「吾恐烏鳶之食夫子也。」
+
+ZHUANG 32.12.3 Guo Qingfan 1063; Wang Shumin 1289; Fang Yong 870; Chen Guying 851莊子曰：「在上為烏鳶食，在下為螻蟻食，奪彼與此，何其偏也！」<pb:KR5c0126_CHANT_032-12a>
+
+ZHUANG 32.12.4 Guo Qingfan 1064; Wang Shumin 1290; Fang Yong 871; Chen Guying 851以不平平，其平也不平；以不徵徵，其徵也不徵。明者唯為之使，神者徵之。夫明之不勝神也久矣，而愚者恃其所見入於人，其功外也，不亦悲乎！
+
+### KR5c0126_033.txt
+
+ZHUANG 33.1.1 Guo Qingfan 1065; Wang Shumin 1293; Fang Yong 877; Chen Guying 855天下之治方術者多矣，皆以其有為不可加矣。古之所謂道術者，果惡乎在？曰：「无乎不在。」
+
+ZHUANG 33.1.2 Guo Qingfan 1065; Wang Shumin 1293; Fang Yong 877; Chen Guying 855曰：「神何由降？明何由出？」「聖有所生，王有所成，皆原於一。」
+
+ZHUANG 33.1.3 Guo Qingfan 1066; Wang Shumin 1293; Fang Yong 877; Chen Guying 855不離於宗，謂之天人。不離於精，謂之神人。不離於真，謂之至人。以天為宗，以德為本，以道為門，兆於變化，謂之聖人。
+
+ZHUANG 33.1.4 Guo Qingfan 1066; Wang Shumin 1293; Fang Yong 877; Chen Guying 855以仁為恩，以義為理，以禮為行，以樂為和，薰然慈仁，謂之君子。以法為分，以名為表，以操為驗，以稽為決，其數一二三四是也，百官以此相齒，
+
+ZHUANG 33.1.5 Guo Qingfan 1066; Wang Shumin 1293; Fang Yong 877; Chen Guying 855以事為常，以衣食為主，蕃息畜藏，老弱孤寡為意，皆有以養，民之理也。
+
+ZHUANG 33.1.6 Guo Qingfan 1067; Wang Shumin 1297; Fang Yong 877; Chen Guying 855古之人其備乎！配神明，醇天地，育萬物，和天下，澤及百姓，明於本數，係於末度，六通四闢，小大精粗，其運无乎不在。
+
+ZHUANG 33.1.7 Guo Qingfan 1067; Wang Shumin 1297; Fang Yong 877; Chen Guying 855其明而在數度者，舊法世傳之史尚多有之。其在於《詩》、《書》、《禮》、《樂》者，鄒魯之士搢紳先生多能明之。
+
+ZHUANG 33.1.8 Guo Qingfan 1067; Wang Shumin 1297; Fang Yong 877; Chen Guying 855《詩》以導志，《書》以導事，《禮》以導行，《樂》以導和，《易》以導陰陽，《春秋》以導名分。其數散於天下而設於中國者，百家之學時或稱而道之。
+
+ZHUANG 33.1.9 Guo Qingfan 1069; Wang Shumin 1297; Fang Yong 877; Chen Guying 855天下大亂，賢聖不明，道德不一，天下多得一察焉以自好。譬如耳目鼻口，皆有所明，不能相通。猶百家眾技也，皆有所長，時有所用。
+
+ZHUANG 33.1.10 Guo Qingfan 1069; Wang Shumin 1297; Fang Yong 877; Chen Guying 855雖然，不該不徧，一曲之士也。判天地之美，析萬物之理，察古人之全，寡能備於天地之美，稱神明之容。
+
+ZHUANG 33.1.11 Guo Qingfan 1069; Wang Shumin 1297; Fang Yong 877; Chen Guying 855是故內聖外王之道，闇而不明，鬱而不發，天下之人各為其所欲焉以自為方。悲夫，百家往而不反，必不合矣！
+
+ZHUANG 33.1.12 Guo Qingfan 1069; Wang Shumin 1297; Fang Yong 877; Chen Guying 856後世之學者，不幸不見天地之純，古人之大體，道術將為天下裂。
+
+ZHUANG 33.2.1 Guo Qingfan 1072; Wang Shumin 1304; Fang Yong 8i2; Chen Guying 862不侈於後世，不靡於萬物，不暉於數度，以繩墨自矯而備世之急，古之道術有在於是者。墨翟禽滑釐聞其風而悅之，為之太過，已之大循。
+
+ZHUANG 33.2.2 Guo Qingfan 1072; Wang Shumin 1304; Fang Yong 8i2; Chen Guying 862作為《非樂》，命之曰《節用》；生不歌，死无服。墨子氾愛兼利而非鬭，其道不怒；又好學而博，不異，不與先王同，毀古之禮樂。
+
+ZHUANG 33.2.3 Guo Qingfan 1074; Wang Shumin 1304; Fang Yong 8i2; Chen Guying 863黃帝有《咸池》，堯有《大章》，舜有《大韶》，禹有《大夏》，湯有《大濩》，文王有辟雍之樂，武王周公作《武》。古之喪禮，貴賤有儀，上下有等，
+
+ZHUANG 33.2.4 Guo Qingfan 1074; Wang Shumin 1304; Fang Yong 8i2; Chen Guying 863天子棺槨七重，諸侯五重，大夫三重，士再重。今墨子獨生不歌，死不服，桐棺三寸而无槨，以為法式。
+
+ZHUANG 33.2.5 Guo Qingfan 1074; Wang Shumin 1304; Fang Yong 8i2; Chen Guying 863以此教人，恐不愛人；以此自行，固不愛己。末敗墨子道，雖然，歌而非歌，哭而非哭，樂而非樂，是果類乎？其生也勤，其死也薄，其道大觳；
+
+ZHUANG 33.2.6 Guo Qingfan 1075; Wang Shumin 1304; Fang Yong 8i2; Chen Guying 863使人憂，使人悲，其行難為也，恐其不可以為聖人之道，反天下之心，天下不堪。墨子雖獨能任，奈天下何！離於天下，其去王也遠矣。
+
+ZHUANG 33.2.7 Guo Qingfan 1077; Wang Shumin 1310; Fang Yong 8i2; Chen Guying 863墨子稱道曰：「昔者禹之湮洪水，決江河而通四夷九州也，名川三百，支川三千，小者无數。禹親自操橐耜而九雜天下之川；腓无胈，脛无毛，
+
+ZHUANG 33.2.8 Guo Qingfan 1077; Wang Shumin 1310; Fang Yong 8i2; Chen Guying 863沐甚雨，櫛疾風，置萬國。禹大聖也而形勞天下也如此。」
+
+ZHUANG 33.2.9 Guo Qingfan 1077; Wang Shumin 1310; Fang Yong 8i2; Chen Guying 863使後世之墨者，多以裘褐為衣，以跂蹻為服，日夜不休，以自苦為極，曰：「不能如此，非禹之道也，不足謂墨。」<pb:KR5c0126_CHANT_033-7a>
+
+ZHUANG 33.2.10 Guo Qingfan 1079; Wang Shumin 1311; Fang Yong 8i3; Chen Guying 863相里勤之弟子五侯之徒，南方之墨者苦獲、已齒、鄧陵子之屬，俱誦《墨經》，而倍譎不同，相謂別墨；以堅白同異之辯相訾，以觭偶不仵之辭相應；
+
+ZHUANG 33.2.11 Guo Qingfan 1079; Wang Shumin 1311; Fang Yong 8i3; Chen Guying 863以巨子為聖人，皆願為之尸，冀得為其後世，至今不決。
+
+ZHUANG 33.2.12 Guo Qingfan 1080; Wang Shumin 1311; Fang Yong 8i3; Chen Guying 863墨翟禽滑釐之意則是，其行則非也。將使後世之墨者，必自苦以腓无胈脛无毛相進而已矣。亂之上也，治之下也。雖然，墨子真天下之好也，將求之不得也，雖枯槁不舍也。才士也夫！<pb:KR5c0126_CHANT_033-9a>
+
+ZHUANG 33.3.1 Guo Qingfan 10i2; Wang Shumin 1319; Fang Yong 889; Chen Guying 870不累於俗，不飾於物，不苟於人，不忮於眾，願天下之安寧以活民命，人我之養畢足而止，以此白心，古之道術有在於是者。宋鉼尹文聞其風而悅之，
+
+ZHUANG 33.3.2 Guo Qingfan 10i2; Wang Shumin 1319; Fang Yong 889; Chen Guying 870作為華山之冠以自表，接萬物以別宥為始；語心之容，命之曰心之行，以聏合驩，以調海內，請欲置之以為主。見侮不辱，救民之鬭，禁攻寢兵，救世之戰。
+
+ZHUANG 33.3.3 Guo Qingfan 10i2; Wang Shumin 1319; Fang Yong 889; Chen Guying 870以此周行天下，上說下教，雖天下不取，強聒而不舍者也，故曰：上下見厭而強見也。
+
+ZHUANG 33.3.4 Guo Qingfan 10i4; Wang Shumin 1320; Fang Yong 889; Chen Guying 871雖然，其為人太多，其自為太少，曰：「請欲固置五升之飯足矣。」先生恐不得飽，弟子雖飢，不忘天下，日夜不休，曰：
+
+ZHUANG 33.3.5 Guo Qingfan 10i4; Wang Shumin 1320; Fang Yong 889; Chen Guying 871「我必得活哉！」圖傲乎救世之士哉！曰：「君子不為苛察，不以身假物。」以為无益於天下者，明之不如已也，
+
+ZHUANG 33.3.6 Guo Qingfan 10i4; Wang Shumin 1320; Fang Yong 889; Chen Guying 871以禁攻寢兵為外，以情欲寡淺為內，其小大精粗，其行適至是而止。
+
+ZHUANG 33.4.1 Guo Qingfan 1086; Wang Shumin 1328; Fang Yong 893; Chen Guying 875公而不黨，易而无私，決然无主，趣物而不兩，不顧於慮，不謀於知，於物无擇，與之俱往，古之道術有在於是者。
+
+ZHUANG 33.4.2 Guo Qingfan 1086; Wang Shumin 1328; Fang Yong 893; Chen Guying 875彭蒙、田駢、慎到聞其風而悅之，齊萬物以為首，曰：「天能覆之，而不能載之；地能載之，而不能覆之；大道能包之，而不能辯之。知萬物皆有所可，有所不可，故曰：選則不徧，教則不至，道則无遺者矣。」<pb:KR5c0126_CHANT_033-12a>
+
+ZHUANG 33.4.3 Guo Qingfan 1088; Wang Shumin 1330; Fang Yong 893; Chen Guying 876是故慎到棄知去己，而緣不得已，泠汰於物以為道理，曰：「知不知，將薄知而後鄰傷之者也。」謑髁无任，而笑天下之尚賢也；縱脫无行，而非天下之大聖。
+
+ZHUANG 33.4.4 Guo Qingfan 1088; Wang Shumin 1330; Fang Yong 893; Chen Guying 876椎拍輐斷，與物宛轉，舍是與非，苟可以免，不師知慮，不知前後，魏然而已矣。推而後行，曳而後往，若飄風之還，若羽之旋，若磨石之隧，全而无非，動靜无過，未嘗有罪。
+
+ZHUANG 33.4.5 Guo Qingfan 1088; Wang Shumin 1330; Fang Yong 893; Chen Guying 876是何故？夫无知之物，无建己之患，无用知之累，動靜不離於理，是以終身无譽。
+
+ZHUANG 33.4.6 Guo Qingfan 1088; Wang Shumin 1330; Fang Yong 893; Chen Guying 876故曰：至於若无知之物而已，无用賢聖，夫塊不失道。豪桀相與笑之曰：「慎到之道，非生人之行而至死人之理，適得怪焉。」<pb:KR5c0126_CHANT_033-13a>
+
+ZHUANG 33.4.7 Guo Qingfan 1091; Wang Shumin 1330; Fang Yong 894; Chen Guying 876田駢亦然，學於彭蒙，得不教焉。彭蒙之師曰：「古之道人，至於莫之是莫之非而已矣。其風窢然，惡可而言？」
+
+ZHUANG 33.4.8 Guo Qingfan 1091; Wang Shumin 1330; Fang Yong 894; Chen Guying 876常反人，不聚觀，而不免於魭斷。其所謂道非道，而所言之韙不免於非。彭蒙、田駢、慎到不知道。雖然，概乎皆嘗有聞者也。
+
+ZHUANG 33.5.1 Guo Qingfan 1093; Wang Shumin 1337; Fang Yong 898; Chen Guying 880以本為精，以物為粗，以有積為不足，澹然獨與神明居，古之道術有在於是者。關尹、老聃聞其風而悅之，建之以常无有，主之以太一，以濡弱謙下為表，以空虛不毀萬物為實。
+
+ZHUANG 33.5.2 Guo Qingfan 1094; Wang Shumin 1337; Fang Yong 899; Chen Guying 8i1關尹曰：「在己无居，形物自著。其動若水，其靜若鏡，其應若響。芴乎若亡，寂乎若清。同焉者和，得焉者失。未嘗先人而常隨人。」
+
+ZHUANG 33.5.3 Guo Qingfan 1095; Wang Shumin 1338; Fang Yong 899; Chen Guying 8i1老聃曰：「知其雄，守其雌，為天下谿；知其白，守其辱，為天下谷。」人皆取先，己獨取後，曰受天下之垢；
+
+ZHUANG 33.5.4 Guo Qingfan 1095; Wang Shumin 1338; Fang Yong 899; Chen Guying 8i1人皆取實，己獨取虛，无藏也故有餘，巋然而有餘。其行身也，徐而不費，无為也而笑巧；
+
+ZHUANG 33.5.5 Guo Qingfan 1095; Wang Shumin 1338; Fang Yong 899; Chen Guying 8i1人皆求福，己獨曲全，曰苟免於咎。以深為根，以約為紀，曰堅則毀矣，銳則挫矣。常寬容於物，不削於人，可謂至極。
+
+ZHUANG 33.5.6 Guo Qingfan 1098; Wang Shumin 1338; Fang Yong 899; Chen Guying 8i1關尹、老聃乎！古之博大真人哉！<pb:KR5c0126_CHANT_033-15a>
+
+ZHUANG 33.6.1 Guo Qingfan 1098; Wang Shumin 1343; Fang Yong 903; Chen Guying 8i4寂漠无形，變化无常，死與生與，天地並與，神明往與！芒乎何之，忽乎何適，萬物畢羅，莫足以歸，古之道術有在於是者。
+
+ZHUANG 33.6.2 Guo Qingfan 1098; Wang Shumin 1343; Fang Yong 903; Chen Guying 8i4莊周聞其風而悅之，以謬悠之說，荒唐之言，无端崖之辭，時恣縱而不儻，不以觭見之也。以天下為沈濁，不可與莊語，以巵言為曼衍，以重言為真，以寓言為廣。
+
+ZHUANG 33.6.3 Guo Qingfan 1098; Wang Shumin 1343; Fang Yong 903; Chen Guying 8i4獨與天地精神往來，而不敖倪於萬物，不譴是非，以與世俗處。其書雖瓌瑋，而連犿无傷也。其辭雖參差，而諔詭可觀。彼其充實不可以已，
+
+ZHUANG 33.6.4 Guo Qingfan 1099; Wang Shumin 1343; Fang Yong 903; Chen Guying 8i4上與造物者遊，而下與外死生无終始者為友。其於本也，弘大而闢，深閎而肆，其於宗也，可謂調適而上遂矣。
+
+ZHUANG 33.6.5 Guo Qingfan 1099; Wang Shumin 1343; Fang Yong 903; Chen Guying 8i4雖然，其應於化而解於物也，其理不竭，其來不蛻，芒乎昧乎，未之盡者。
+
+ZHUANG 33.7.1 Guo Qingfan 1102; Wang Shumin 1350; Fang Yong 906; Chen Guying 887惠施多方，其書五車，其道舛駁，其言也不中。歷物之意，曰：「至大无外，謂之大一；至小无內，謂之小一。
+
+ZHUANG 33.7.2 Guo Qingfan 1102; Wang Shumin 1350; Fang Yong 906; Chen Guying 887无厚，不可積也，其大千里。天與地卑，山與澤平。日方中方睨，物方生方死。大同而與小同異，此之謂小同異；萬物畢同畢異，此之謂大同異。
+
+ZHUANG 33.7.3 Guo Qingfan 1102; Wang Shumin 1350; Fang Yong 906; Chen Guying 887南方无窮而有窮，今日適越而昔來。連環可解也。我知天下之中央，燕之北越之南是也。氾愛萬物，天地一體也。」<pb:KR5c0126_CHANT_033-17a>
+
+ZHUANG 33.8.1 Guo Qingfan 1105; Wang Shumin 1350; Fang Yong 906; Chen Guying 895惠施以此為大，觀於天下而曉辯者，天下之辯者相與樂之。卵有毛，雞三足，郢有天下，犬可以為羊，馬有卵，丁子有尾，
+
+ZHUANG 33.8.2 Guo Qingfan 1106; Wang Shumin 1350; Fang Yong 906; Chen Guying 895火不熱，山出口，輪不蹍地，目不見，指不至，至不絕，龜長於蛇，矩不方，規不可以為圓，鑿不圍枘，飛鳥之景未嘗動也，
+
+ZHUANG 33.8.3 Guo Qingfan 1106; Wang Shumin 1350; Fang Yong 907; Chen Guying 896鏃矢之疾而有不行不止之時，狗非犬，黃馬驪牛三，白狗黑，孤駒未嘗有母，一尺之捶，日取其半，萬世不竭。辯者以此與惠施相應，終身无窮。
+
+ZHUANG 33.8.4 Guo Qingfan 1110; Wang Shumin 1366; Fang Yong 907; Chen Guying 896桓團、公孫龍辯者之徒，飾人之心，易人之意，能勝人之口，不能服人之心，辯者之囿也。惠施日以其知與人之辯，特與天下之辯者為怪，此其柢也。
+
+ZHUANG 33.8.5 Guo Qingfan 1111; Wang Shumin 1366; Fang Yong 907; Chen Guying 896然惠施之口談，自以為最賢，曰天地其壯乎！施存雄而无術。南方有倚人焉曰黃繚，問天地所以不墜不陷，風雨雷霆之故。
+
+ZHUANG 33.8.6 Guo Qingfan 1111; Wang Shumin 1366; Fang Yong 907; Chen Guying 896惠施不辭而應，不慮而對，徧為萬物說，說而不休，多而无已，猶以為寡，益之以怪。以反人為實而欲以勝人為名，是以與眾不適也。
+
+ZHUANG 33.8.7 Guo Qingfan 1111; Wang Shumin 1366; Fang Yong 907; Chen Guying 896弱於德，強於物，其塗隩矣。由天地之道觀惠施之能，其猶一蚊一䖟之勞者也。其於物也何庸！夫充一尚可，曰愈貴道，幾矣！
+
+ZHUANG 33.8.8 Guo Qingfan 1111; Wang Shumin 1366; Fang Yong 907; Chen Guying 896惠施不能以此自寧，散於萬物而不厭，卒以善辯為名。惜乎！惠施之才，駘蕩而不得，逐萬物而不反，是窮響以聲，形與影競走也。悲夫！
+
+## 三、《列子》全本
+
+### 天瑞
+
+子列子居鄭圃，四十年人无識者。國君卿大夫眎之，猶眾庶也。國不足，將嫁於衛。弟子曰：「先生往无反期，弟子敢有所謁；先生將何以教？先生不聞壺丘子林之言乎？」子列子笑曰：「壺子何言哉？雖然，夫子嘗語伯昏瞀人，吾側聞之，試以告女。其言曰：有生不生，有化不化。不生者能生生，不化者能化化。生者不能不生，化者不能不化，故常生常化。常生常化者，无時不生，无時不化。陰陽爾，四時爾，不生者疑獨，不化者往復。往復，其際不可終；疑獨，其道不可窮。《黃帝書》曰：「谷神不死，是謂玄牝。玄牝之門，是謂天地之根。綿綿若存，用之不勤。」故生物者不生，化物者不化。自生自化，自形自色，自智自力，自消自息。謂之生化、形色、智力、消息者，非也。」
+
+子列子曰：「昔者聖人因陰陽以統天地。夫有形者生於无形，則天地安從生？故曰：有太易，有太初，有太始，有太素。太易者，未見氣也：太初者，氣之始也；太始者，形之始也；太素者，質之始也。氣形質具而未相離，故曰渾淪。渾淪者，言萬物相渾淪而未相離也。視之不見，聽之不聞，循之不得，故曰易也。易无形埒，易變而為一，一變而為七，七變而為九。九變者，究也，乃復變而為一。一者，形變之始也。清輕者上為天，濁重者下為地，沖和氣者為人；故天地含精，萬物化生。」
+
+子列子曰：「天地无全功，聖人无全能，萬物无全用。故天職生覆，地職形載，聖職教化，物職所宜。然則天有所短，地有所長，聖有所否，物有所通。何則？生覆者不能形載，形載者不能教化，教化者不能違所宜，宜定者不出所位。故天地之道，非陰則陽；聖人之教，非仁則義；萬物之宜，非柔則剛：此皆隨所宜而不能出所位者也。故有生者，有生生者；有形者，有形形者；有聲者，有聲聲者；有色者，有色色者；有味者，有味味者。生之所生者死矣，而生生者未嘗終；形之所形者實矣，而形形者未嘗有；聲之所聲者聞矣，而聲聲者未嘗發；色之所色者彰矣，而色色者未嘗顯；味之所味者嘗矣，而味味者未嘗呈：皆无為之識也。能陰能陽，能柔能剛，能短能長，能員能方，能生能死，能暑能涼，能浮能沈，能宮能商，能出能沒，能玄能黃，能甘能苦，能羶能香。无知也，无能也，而无不知也，而无不能也。」
+
+子列子適衛，食於道，從者見百歲髑髏，攓蓬而指，顧謂弟子百豐曰：「唯予與彼知而未嘗生未嘗死也。此過養乎？此過歡乎？種有幾：若䵷為鶉，得水為藚，得水土之際，則為䵷蠙之衣。生於陵屯，則為陵舄。陵舄得鬱栖，則為烏足。烏足之根為蠐螬，其葉為胡蝶。胡蝶胥也，化而為蟲，生竈下，其狀若脫，其名曰鴝掇。鴝掇千日，化而為鳥，其名曰乾餘1骨。乾餘骨之沫為斯彌。斯彌為食醯頤輅。食醯頤輅生乎食醯黃軦，食醯黃軦生乎九猷。九猷生乎瞀芮，瞀芮生乎腐蠸。羊肝化為地皋，馬血之為轉鄰也，人血之為野火也。鷂之為鸇，鸇之為布穀，布穀久復為鷂也。鷰之為蛤也，田鼠之為鶉也，朽瓜之為魚也，老韭之為莧也。老羭之為猨也，魚卵之為蟲。亶爰之獸，自孕而生，曰類。河澤之鳥，視而生，曰鶂。純雌其名大腰，純雄其名稺蜂。思士不妻而感，思女不夫而孕。后稷生乎巨跡，伊尹生乎空桑。厥昭生乎濕，醯雞生乎酒。羊奚比乎不筍，久竹生青寧，青寧生程，程生馬，馬生人。人久入於機。萬物皆出於機，皆入於機。」
+
+《黃帝書》曰：「形動不生形而生影，聲動不生聲而生響，无動不生无而生有。」形，必終者也；天地終乎？與我偕終。終進乎？不知也。道終乎本无始，進乎本不久。有生則復於不生，有形則復於无形。不生者，非本不生者也；无形者，非本无形者也。生者，理之必終者也。終者不得不終，亦如生者之不得不生。而欲恆其生，盡其終，惑於數也。精神者，天之分；骨骸者，地之分。屬天清而散，屬地濁而聚。精神離形，各歸其真，故謂之鬼。鬼，歸也，歸其真宅。黃帝曰：「精神入其門，骨骸反其根，我尚何存？」
+
+人自生至終，大化有四：嬰孩也，少壯也，老耄也，死亡也。其在嬰孩，氣專志一，和之至也；物不傷焉，德莫加焉。其在少壯，則血氣飄溢，欲慮充起；物所攻焉，德故衰焉。其在老耄，則欲慮柔焉；禮將休焉，物莫先焉；雖未及嬰孩之全，方於少壯，間矣。其在死亡也，則之於息焉，反其極矣。
+
+孔子遊於大山，見榮啟期行乎郕之野，鹿裘帶索，鼓琴而歌。孔子問曰：「先生所以樂，何也？」對曰：「吾樂甚多。天生萬物，唯人為貴。而吾得為人，是一樂也。男女之別，男尊女卑，故以男為貴；吾既得為男矣，是二樂也。人生有不見日月、不免襁褓者，吾既已行年九十矣，是三樂也。貧者士之常也，死者人之終也，處常得終，當何憂哉？」孔子曰：「善乎！能自寬者也。」
+
+林類年且百歲，底春被裘，拾遺穗於故畦，並歌並進。孔子適衛，望之於野。顧謂弟子曰：「彼叟可與言者，試往訊之！」子貢請行。逆之壠端，面之而歎曰：「先生曾不悔乎，而行歌拾穗？」林類行不留。歌不輟。子貢叩之不已，乃仰而應，曰：「吾何悔邪？」子貢曰：「先生少不勤行，長不競時，老无妻子，死期將至，亦有何樂而拾穗行歌乎？」林類笑曰：「吾之所以為樂，人皆有之，而反以為憂。少不勤行，長不競時，故能壽若此。老无妻子，死期將至，故能樂若此。」子貢曰：「壽者人之情，死者人之惡。子以死為樂，何也？」林類曰：「死之與生，一往一反。故死於是者，安知不生於彼？故吾知其不相若矣。吾又安知營營而求生非惑乎？亦又安知吾今之死不愈昔之生乎？」子貢聞之，不喻其意，還以告夫子。夫子曰：「吾知其可與言，果然；然彼得之而不盡者也。」
+
+子貢倦於學，告仲尼曰：「願有所息，」仲尼曰：「生无所息。」子貢曰：「然則賜息无所乎？」仲尼曰：「有焉耳，望其壙，睪如也，宰如也，墳如也，鬲如也，則知所息矣。」子貢曰：「大哉死乎！君子息焉，小人伏焉。」仲尼曰：「賜！汝知之矣。人胥知生之樂，未知生之苦；知老之憊，未知老之佚；知死之惡，未知死之息也。
+
+晏子曰：『善哉，古之有死也！仁者息焉，不仁者伏焉。』死也者，德之徼也。古者謂死人為歸人。夫言死人為歸人，則生人為行人矣。行而不知歸，失家者也。一人失家，一世非之；天下失家，莫知非焉。有人去鄉土，離六親，廢家業，遊於四方而不歸者，何人哉？世必謂之為狂蕩之人矣。又有人鍾賢世，矜巧能，脩名譽，誇張於世，而不知己者，亦何人哉？世必以為智謀之士。此二者，胥失者也。而世與一不與一，唯聖人知所與，知所去。」
+
+或謂子列子曰：「子奚貴虛？」列子曰：「虛者无貴也。」子列子曰：「非其名也，莫如靜，莫如虛。靜也虛也，得其居矣；取也與也，失其所矣。事之破䃣，而後有舞仁義者，弗能復也。」
+
+粥熊曰：「運轉亡已，天地密移，疇覺之哉？故物損於彼者盈於此，成於此者虧於彼。損盈成虧，隨世隨死。往來相接，閒不可省，疇覺之哉？凡一氣不頓進，一形不頓虧；亦不覺其成，不覺其虧。亦如人自世至老，貌色智態，亡日不異；皮膚爪髮，隨世隨落，非嬰孩時有停而不易也。閒不可覺，俟至後知。」
+
+杞國有人，憂天地崩墜，身亡所寄，廢寢食者。又有憂彼之所憂者，因往曉之，曰：「天，積氣耳，亡處亡氣。若屈伸呼吸，終日在天中行止，奈何憂崩墜乎？」其人曰：「天果積氣，日月星宿不當墜邪？」曉之者曰：「日月星宿，亦積氣中之有光耀者，只使墜，亦不能有所中傷。」其人曰：「奈地壞何？」曉者曰：「地積塊耳，充塞四虛，亡處亡塊。若躇步跐蹈，終日在地上行止，奈何憂其壞？」其人舍然大喜，曉之者亦舍然大喜。長廬子聞而笑之曰：「虹蜺也，雲霧也，風雨也，四時也，此積氣之成乎天者也。山岳也，河海也；金石也，火木也，此積形之成乎地者也。知積氣也，知積塊也，奚謂不壞？夫天地，空中之一細物，有中之最巨者。難終難窮，此固然矣；難測難識，此固然矣。憂其壞者，誠為大遠；言其不壞者，亦為未是。天地不得不壞，則會歸於壞。遇其壞時，奚為不憂哉？」子列子聞而笑曰：「言天地壞者亦謬，言天地不壞者亦謬。壞與不壞，吾所不能知也。雖然，彼一也，此一也。故生不知死，死不知生；來不知去，去不知來。壞與不壞，吾何容心哉？」
+
+舜問乎烝曰：「道可得而有乎？」曰：「汝身非汝有也，汝何得有夫道？」舜曰：「吾身非吾有，孰有之哉？」曰：「是天地之委形也。生非汝有，是天地之委和也。性命非汝有，是天地之委順也。孫子非汝有，是天地之委蛻也。故行不知所往，處不知所持，食不知所以。天地，強陽氣也，又胡可得而有邪？」
+
+齊之國氏大富，宋之向氏大貧；自宋之齊，請其術。國氏告之曰：「吾善為盜。始吾為盜也，一年而給，二年而足，三年大壤。自此以往，施及州閭。」向氏大喜，喻其為盜之言，而不喻其為盜之道，遂踰垣鑿室，手目所及，亡不探也。未及時，以贓獲罪，沒其先居之財。向氏以國氏之謬己也，往而怨之。國氏曰：「若為盜若何？」向氏言其狀。國氏曰：「嘻！若失為盜之道至此乎？今將告若矣。吾聞天有時，地有利。吾盜天地之時利，雲雨之滂潤，山澤之產育，以生吾禾，殖吾稼，築吾垣，建吾舍。陸盜禽獸，水盜魚鱉，亡非盜也。夫禾稼、土木、禽獸、魚鱉，皆天之所生，豈吾之所有？然吾盜天而亡殃。夫金玉珍寶穀帛財貨，人之所聚，豈天之所與？若盜之而獲罪，孰怨哉？」向氏大惑，以為國氏之重罔己也，遇東郭先生問焉。東郭先生曰：「若一身庸非盜乎？盜陰陽之和以成若生，載若形；況外物而非盜哉？誠然，天地萬物不相離也；仞而有之，皆惑也。國氏之盜，公道也，故亡殃；若之盜，私心也，故得罪。有公私者，亦盜也；亡公私者，亦盜也。公公私私，天地之德。知天地之德者，孰為盜邪？孰為不盜邪？」
 
 
+### 黃帝
+
+黃帝即位十有五年，喜天下戴己，養正命，娛耳目，供鼻口，焦然肌色皯黣，昏然五情爽惑。又十有五年，憂天下之不治，竭聰明，進智力，營百姓，焦然肌色皯黣，昏然五情爽惑。黃帝乃喟然讚曰：「朕之過淫矣。養一己其患如此，治萬物其患如此。」於是放萬機，舍宮寢，去直侍，徹鐘懸。減廚膳，退而間居大庭之館，齋心服形，三月不親政事。晝寢而夢，遊於華胥氏之國。華胥氏之國在弇州之西，台州之北，不知斯齊國幾千萬里；蓋非舟車足力之所及，神游而已。其國无師長，自然而已。其民无嗜慾，自然而已。不知樂生，不知惡死，故无夭殤；不知親己，不知踈物，故无愛憎；不知背逆，不知向順，故无利害；都无所愛惜，都无所畏忌。入水不溺，入火不熱。斫撻无傷痛，指擿无痟癢。乘空如履實，寢虛若處床。雲霧不硋其視，雷霆不亂其聽，美惡不滑其心，山谷不躓其步，神行而已。黃帝既寤，怡然自得，召天老、力牧、太山稽，告之曰：「朕閒居三月，齋心服形，思有以養身治物之道，弗獲其術。疲而睡，所夢若此。今知至道不可以情求矣。朕知之矣！朕得之矣！而不能以告若矣。」又二十有八年，天下大治，幾若華胥氏之國，而帝登假，百姓號之，二百餘年不輟。
+
+列姑射山在海河洲中，山上有神人焉，吸風飲露，不食五穀；心如淵泉，形如處女，不偎不愛，仙聖為之臣；不畏不怒，愿愨為之使；不施不惠，而物自足；不聚不歛，而己无愆。陰陽常調，日月常明，四時常若，風雨常均，字育常時，年穀常豐；而土无札傷，人无夭惡，物无疵厲，鬼无靈響焉。
+
+列子師老商氏，友伯高子；進二子之道，乘風而歸。尹生聞之，從列子居，數月不省舍。因間請蘄其術者，十反而十不告。尹生懟而請辭，列子又不命。尹生退。數月，意不已，又往從之。列子曰：「汝何去來之頻？」尹生曰：「曩章戴有請於子，子不我告，固有憾於子。今復脫然，是以又來。」列子曰：「曩吾以汝為達，今汝之鄙至此乎。姬！將告汝所學於夫子者矣。自吾之事夫子友若人也，三年之後，心不敢念是非，口不敢言利害，始得夫子一眄而已。五年之後，心庚念是非，口庚言利害，夫子始一解顏而笑。七年之後，從心之所念，庚无是非；從口之所言，庚无利害，夫子始一引吾並席而坐。九年之後，橫心之所念，橫口之所言，亦不知我之是非利害歟，亦不知彼之是非利害歟；亦不知夫子之為我師，若人之為我友：內外進矣。而後眼如耳，耳如鼻，鼻如口，无不同也。心凝形釋，骨肉都融；不覺形之所倚，足之所履，隨風東西，猶木葉幹殼。竟不知風乘我邪？我乘風乎？今女居先生之門，曾未浹時，而懟憾者再三。女之片體將氣所不受，汝之一節將地所不載。履虛乘風，其可幾乎？」尹生甚怍，屏息良久，不敢復言。
+
+列子問關尹曰：「至人潛行不空，蹈火不熱，行乎萬物之上而不慄。請問何以至於此？」關尹曰：「是純氣之守也，非智巧果敢之列。姬！魚語汝。凡有貌像聲色者，皆物也。物與物何以相遠也？天奚足以至乎先？是色而已。則物之造乎不形，而止乎无所化。夫得是而窮之者，焉得為正焉？彼將處乎不深之度，而藏乎无端之紀，游乎萬物之所終始。壹其性，養其氣，含其德，以通乎物之所造。夫若是者，其天守全，其神无郤，物奚自入焉？夫醉者之墜於車也，雖疾不死。骨節與人同，而犯害與人異，其神全也。乘亦弗知也，墜亦弗知也。死生驚懼，不入乎其胸，是故遌物而不慴。彼得全於酒，而猶若是，而況得全於天乎？聖人藏於天，故物莫之能傷也。」
+
+列禦寇為伯昏无人射，引之盈貫，措杯水其肘上，發之，鏑矢復沓，方矢復寓。當是時也，猶象人也。伯昏无人曰：「是射之射，非不射之射也。當與汝登高山，履危石，臨百仞之淵，若能射乎？」於是无人遂登高山，履危石，臨百仞之淵，背逡巡，足二分垂在外，揖禦寇而進之。禦寇伏地，汗流至踵。伯昏无人曰：「夫至人者，上闚青天，下潛黃泉，揮斥八極。神氣不變。今汝怵然有恂目之志，爾於中也殆矣夫！」
+
+范氏有子曰子華，善養私名，舉國服之；有寵於晉君，不仕而居三卿之右。目所偏視，晉國爵之；口所偏肥，晉國黜之。游其庭者侔於朝。子華使其俠客，以智鄙相攻，彊弱相凌。雖傷破於前，不用介意。終日夜以此為戲樂，國殆成俗。禾生、子伯、范氏之上客。出行經坰外，宿於田更商丘開之舍。中夜，禾生、子伯二人相與言子華之名勢，能使存者亡，亡者存；富者貧，貧者富。商丘開先窘於飢寒，潛於牖北聽之。因假糧荷畚之子華之門。子華之門徒皆世族也，縞衣乘軒，緩步闊視。顧見商丘開年老力弱，面目黎黑，衣冠不檢，莫不眲之。既而狎侮欺詒，攩㧙挨抌，二所不為。商丘開常无慍容，而諸客之技單，憊於戲笑。遂與商丘開俱乘高臺，於眾中漫言曰：「有能自投下者賞百金。」眾皆競應。商丘開以為信然，遂先投下，形若飛鳥，揚於地，肌骨无毀。范氏之黨以為偶然，末詎怪也。因復指河曲之淫隅曰：「彼中有寶珠，泳可得也。」商丘開復從而泳之，既出，果得珠焉。眾昉同疑。子華昉令豫肉食衣帛之次。俄而范氏之藏大火。子華曰：「若能入火取錦者，從所得多少賞若。」商丘開往，无難色，大火往還，埃不漫，身不焦。范氏之黨以為有道，乃共謝之曰：「吾不知子之有道而誕子，吾不知子之神人而辱子。子其愚我也，子其聾我也，子其盲我也，敢問其道。」商丘開曰：『吾亡道。雖吾之心，亦不知所以。雖然，有一於此，試與子言之。曩子二客之宿吾舍也，聞譽范氏之勢，能使存者亡，亡者存；富者貧，貧者富。吾誠之无二心，故不遠而來。及來，以子黨之言皆實也，唯恐誠之之不至，行之之不及，不知形體之所措，利害之所存也。心一而已。物亡迕者，如斯而已。今昉知子黨之誕我，我內藏猜慮，外矜觀聽，追幸昔日之不焦溺也，怛然內熱，惕然震悸矣。水火豈復可近哉？」自此之後，范氏門徒路遇乞兒馬醫，弗敢辱也，必下車而揖之。宰我聞之，以告仲尼。仲尼曰：「汝弗知乎？夫至信之人，可以感物也。動天地，感鬼神，橫六合而无逆者，豈但履危險，入水火而已哉？商丘開信偽物猶不逆，況彼我皆誠哉？小子識之！」
+
+周宣王之牧正，有役人梁鴦者，能養野禽獸，委食於園庭之內，雖虎狼鵰鶚之類，无不柔者。雄雌在前，孳尾成群，異類雜居，不相搏噬也。王慮其術終於其身，令毛丘園傳之。梁鴦曰：「鴦，賤役也，何術以告爾？懼王之謂隱於爾也，旦一言我養虎之法。凡順之則喜，逆之則怒，此有血氣者之性也。然喜怒豈妄發哉？皆逆之所犯也。夫食虎者，不敢以生物與之，為其殺之之怒也；不敢以全物與之，為其碎之之怒也。時其饑飽，達其怒心。虎之與人異類，而媚養己者，順也；故其殺之，逆也。然則吾豈敢逆之使怒哉？亦不順之使喜也。夫喜之復也必怒，怒之復也常喜，皆不中也。今吾心无逆順者也，則鳥獸之視吾，猶其儕也。故游吾園者，不思高林曠澤；寢吾庭者，不願深山幽谷，理使然也。」
+
+顏回問乎仲尼曰：「吾嘗濟乎觴深之淵矣，津人操舟若神。吾問焉，曰：『操舟可學邪？』曰：『可。能游者可教也，善游者數能。乃若夫沒人，則未嘗見舟而謖操之者也。』吾問焉而不告。敢問何謂也？」仲尼曰：『𧮒！吾與若玩其文也久矣，而未達其實，而固且道與。能游者可教也，輕水也；善游者之散能也，忘水也。乃若夫沒人之未嘗見舟也而謖操之也，彼視淵者陵，視舟之覆猶其車卻也。覆卻萬物方陳乎前，而不得入其舍，惡往而不暇？以瓦摳者巧，以鉤摳者憚，以黃金摳者惛。巧一也，而有所矜，則重外也。凡重外者撰內。「
+
+孔子觀於呂梁，懸水三十仞，流沫三十里，黿鼉魚鱉之所不能游也。見一丈夫游之，以為有苦而欲死者也，使弟子益流而承之。數百步而出，被髮行歌，而游於棠行。孔子從而問之曰：「呂梁懸水三十仞，流沫三十里，黿鼉魚鱉所不能游，向吾見子道之，以為有苦而欲死者，使弟子並流將承子。子出而被髮行歌，吾以子為鬼也。察子則人也。請問蹈水有道乎？」曰：「亡，吾无道。吾始乎故，長乎性，成乎命，與齎俱入，與汩偕出，從水之道而不為私焉。此吾所以道之也。」孔子曰：「何謂始乎故，長乎性，成乎命也？」曰：「吾生於陵而安於陵，故也；長於水而安於水，性也；不知吾所以然而然，命也。」
+
+仲尼適楚，出於林中，見痀僂者承蜩，猶掇之也。仲尼曰：「子巧乎！有道邪？」曰：「我有道也。五六月纍垸二而不墜，則失者錙銖；纍三而不墜，則失者十一；纍五而不墜，猶掇之也。吾處也，若橛株駒，吾執臂若槁木之枝。天地之大、萬物之多，而唯蜩翼之知。吾不反側，不以萬物易蜩之翼，何為而不得？」孔子顧謂弟子曰：「用志不分，乃疑於神。其痀僂丈人之謂乎！」丈人曰：「汝逢衣徒也，亦何知問是乎？脩汝所以，而後載言其上。」
+
+海上之人有好漚鳥者，每旦之海上，從漚鳥游，漚鳥之至者百住而不止。其父曰：「吾聞漚鳥皆從汝游，汝取來，吾玩之。」明日之海上，漚鳥舞而不下也。故曰：至言去言，至為無為；齊智之所知，則淺矣。
+
+趙襄子率徒十萬，狩於中山，藉芿燔林，扇赫百里，有一人從石壁中出，隨煙燼上下，眾謂鬼物。火過，徐行而出，若無所經涉者。襄子怪而留之，徐而察之：形色七竅，人也；氣息音聲，人也。問奚道而處石？奚道而入火？其人曰：「奚物而謂石？奚物而謂火？」襄子曰：「而嚮之所出者，石也；而嚮之所涉者，火也。」其人曰：「不知也。」魏文侯聞之，問子夏曰：「彼何人哉？」子夏曰：「以商所聞夫子之言，和者大同於物，物無得傷閡者，游金石，蹈水火，皆可也。」文侯曰：「吾子奚不為之？」子夏曰：「刳心去智，商未之能。雖然，試語之有暇矣。」文侯曰：「夫子奚不為之？」子夏曰：「夫子能之而能不為者也。」文侯大說。
+
+有神巫自齊來處於鄭，命曰季咸，知人死生、存亡、禍福、壽夭，期以歲、月、旬、日，如神。鄭人見之，皆避而走。列子見之而心醉，而歸以告壺丘子，曰：「始吾以夫子之道為至矣，則又有至焉者矣。」壺子曰：「吾與汝無其文，未既其實，而固得道與？眾雌而无雄，而又奚卵焉？而以道與世抗，必信矣。夫故使人得而相汝。嘗試與來，以予示之。」明日，列子與之見壺子。出而謂列子曰：「譆！子之先生死矣，弗活矣，不可以旬數矣。吾見怪焉，見濕灰焉。」列子入，涕泣沾衾，以告壺子。子曰：「向吾示之以地文，罪乎不誫不止，是殆見吾杜德幾也。嘗又與來！」明日，又與之見壺子。出而謂列子曰：「幸矣，子之先生遇我也，有瘳矣。灰然有生矣，吾見杜權矣。」列子入告壺子。壺子曰：「向吾示之以天壤，名實不入，而機發於踵，此為杜權。是殆見吾善者幾也。嘗又與來！」明日，又與之見壺子。出而謂列子曰：「子之先生，坐不齋，吾无得而相焉。試齋，將且復相之。」列子入告壺子。壺子曰：「向吾示之以太沖莫眹，是殆見吾衡氣幾也。鯢旋之潘為淵，止水之潘為淵，流水之潘為淵，濫水之潘為淵，沃水之潘為淵，氿水之潘為淵，雍水之潘為淵，汧水之潘為淵，肥水之潘為淵，是為九淵焉，嘗又與來！」明日，又與之見壺子。立末定，自失而走。壺子曰：「追之！」列子追之而不及，反以報壺子，曰：「已滅矣，已夫矣，吾不及也。「壺子曰：」向吾示之以未始出吾宗。吾與之虛而猗移，不知其誰何，因以為茅靡，因以為波流，故逃也。」然後列子自以為未始學而歸，三年不出，為其妻爨，食狶如食人，於事无親，雕瑑復朴，塊然獨以其形立，㤋然而封戎，壹以是終。
+
+子列子之齊，中道而反，遇伯昏瞀人。伯昏瞀人曰：「奚方而反？」曰：「吾驚焉。」「惡乎驚？」「吾食於十漿，而五漿先饋。」伯昏瞀人曰：「若是則汝何為驚己？」曰：「夫內誠不解，形諜成光，以外鎮人心，使人輕乎貴老，而𩐋其所患。夫漿人特為食羹之貨，多餘之嬴；其為利也薄，其為權也輕，而猶若是。而況萬乘之主，身勞於國，而智盡於事；彼將任我以事，而效我以功，吾是以驚。」伯昏瞀人曰：「善哉觀乎！汝處己，人將保汝矣。」无幾何而往，則戶外之屨滿矣。伯昏瞀人北面而立，敦杖蹙之乎頤。立有閒，不言而出。賓者以告列子。列子提履徒跣而走，暨乎門，問曰：「先生既來，曾不廢藥乎？」曰：「已矣。吾固告汝曰，人將保汝，果保汝矣。非汝能使人保汝，而汝不能使人无汝保也，而焉用之感也？感豫出異。且必有感也，搖而本身，又无謂也。與汝遊者，莫汝告也。彼所小言，盡人毒也。莫覺莫悟，何相孰也。」
+
+楊朱南之沛，老聃西遊於秦。邀於郊。至梁而遇老子。老子中道仰天而歎曰：「始以汝為可教，今不可教也。」楊子不荅。至舍，進涫漱巾櫛，脫履戶外，膝行而前曰：「向者夫子仰天而歎曰：『始以汝為可教，今不可教。』弟子欲請夫子辭，行不閒，是以不敢。今夫子閒矣，請問其過。」老子曰：「而睢睢，而盱盱，而誰與居？大白若辱，盛德若不足。」楊朱蹴然變容曰：「敬聞命矣！」其往也，舍迎將家，公執席，妻執巾櫛，舍者避席，煬者避竈。其反也，舍者與之爭席矣。
+
+楊朱過宋東之於逆旅。逆旅人有妾二人，其一人美，其一人惡；惡者貴而美者賤。楊子問其故。逆旅小子對曰：「其美者自美，吾不知其美也；其惡者自惡，吾不知其惡也。」楊子曰：「弟子記之！行賢而去自賢之行，安往而不愛哉！」
+
+天下有常勝之道，有不常勝之道。常勝之道曰柔，常不勝之道曰彊。二者亦知，而人未之知。故上古之言：彊，先不己若者；柔先出於己者。先不己若者，至於若己，則殆矣。先出於己者，亡所殆矣。以此勝一身若徒，以此任天下若徒，謂不勝而自勝，不任而自任也。粥子曰：「欲剛，必以柔守之；欲彊，必以弱保之。積於柔必剛，積於弱必彊。觀其所積，以知禍福之鄉。彊勝不若己，至於若己者剛；柔勝出於己者，其力不可量。」老聃曰：「兵彊則滅。木彊則折。柔弱者生之徒，堅彊者化之徒。」
+
+狀不必童，而智童；智不必童，而狀童。聖人取童智而遺童狀，眾人近童狀而䟽童智。狀與我童者，近而愛之；狀與我異者，䟽而畏之。有七尺之骸，手足之異，戴髮含齒，倚而趣者，謂之人。而人未必无獸心；雖有獸心，以狀而見親矣。傅翼戴角，分牙布爪，仰飛伏走，謂之禽獸。而禽獸未必无人心；雖有人心，以狀而見䟽矣。庖犧氏、女媧氏、神農氏、夏后氏，蛇身人面，牛首虎鼻；此有非人之狀，而有大聖之德。夏桀、殷紂、魯桓、楚穆，狀貌七竅，皆同於人，而有禽獸之心。而眾人守一狀以求至智，未可幾也。黃帝與炎帝戰於阪泉之野，帥熊、羆、狼、豹、貙、虎為前驅，鵰、鶡、鷹、鳶為旗幟，此以力使禽獸者也。堯使夔典樂，擊石拊石，百獸率舞；簫韶九成，鳳皇來儀：此以聲致禽獸者也。然則禽獸之心，奚為異人？形音與人異，而不知接之之道焉。聖人无所不知1，无所不通，故得引而使之焉。禽獸之智有自然與人童2者，其齊欲攝生，亦不假智於人也。牝牡相偶，母子相親，避平依險，違寒就溫；居則有群，行則有列；小者居內，壯者居外；飲則相攜，食則鳴群。太古之時，則與人同處，與人並行。帝王之時，始驚駭散亂矣。逮於末世，隱伏逃竄，以避患害。今東方介氏之國，其國人數數解六畜之語者，蓋偏知之所得。太古神聖之人，備知萬物情態，悉解異類音聲。會而聚之，訓而受之，同於人民。故先會劉神魑魅，次達八方人民，末聚禽獸蟲蛾。言血氣之類，心智不殊遠也。神聖知其如此，故其所教訓者无所遺逸焉。
+
+宋有狙公者，愛狙，養之成群，能解狙之意；狙亦得公之心。損其家口，充狙之欲。俄而匱焉，將限其食。恐眾狙之不馴於己也，先誑之曰：「與若茅，朝三而暮四，足乎？」眾狙皆起而怒。俄而曰：「與若茅，朝四而暮三，足乎？」眾狙皆伏而喜。物之以能鄙相籠，皆猶此也。聖人以智籠群愚，亦猶狙公之以智籠眾狙也。若實不虧，使其喜怒哉！
+
+紀渻子為周宣王養鬭鷄，十日而問：「鷄可鬭已乎？「曰：「未也，方虛驕而恃氣。」十日又問。曰：「未也，猶應影嚮。」十日又問。「未也，猶疾視而盛氣。」十日又問。曰：「幾矣。鷄雖有鳴者，已无變矣。望之似木鷄矣，其德全矣。異鷄无敢應者，反走耳。」
+
+惠盎見宋康王。康王蹀足謦欬，疾言曰：「寡人之所說者，勇有力也，不說為仁義者也。客將何以教寡人？」惠盎對曰：「臣有道於此，使人雖勇，刺之不入；雖有力，擊之弗中。大王獨无意邪？」宋王曰：「善，此寡人之所欲聞也。」惠盎曰：「夫刺之不入，擊之不中，此猶辱也。臣有道於此，使人雖有勇弗敢刺；雖有力弗敢擊。夫弗敢，非无其志也。臣有道於此，使人本无其志也。夫无其志也，未有愛利之心也。臣有道於此，使天下丈夫女子，莫不驩然皆欲愛利之。此其賢於勇有力也，四累之上也。大王獨无意邪？」宋王曰：「此寡人之所欲得也。」惠盎對曰：「孔、墨是已。孔丘、墨翟，无地而為君，無官而為長；天下丈夫女子，莫不延頸舉踵而願安利之。今大王，萬乘之主也，誠有其志，則四境之內，皆得其利矣。其賢於孔、墨也遠矣。」宋王無以應。惠盎趨而出。宋王謂左右曰：「辯矣，客之以說服寡人也！」
+
+
+### 周穆王
+
+周穆王時，西極之國，有化人來，入水火，貫金石；反山川，移城邑；乘虛不墜，觸實不硋。千變萬化，不可窮極。既已變物之形，又且易人之慮。穆王敬之若神，事之若君。推路寢以居之，引三牲以進之，選女樂以娛之。化人以為王之宮室卑陋而不可處，王之廚饌腥螻而不可饗，王之嬪御膻惡而不可親。穆王乃為之改築。土木之功。赭堊之色，无遺巧焉。五府為虛，而臺始成。其高千仞，臨終南之上，號曰中天之臺。𥳑鄭、衛之處子娥媌靡曼者，施芳澤，正蛾眉，設笄珥，衣阿錫。曳齊紈。粉白黛黑，珮玉環。雜芷若以滿之，奏《承雲》、《六瑩》、《九韶》、《晨露》以樂之。月月獻玉衣，旦旦薦玉食。化人猶不舍然，不得已而臨之。居亡幾何，謁王同游。王執化人之袪，騰而上者中天迺止。暨及化人之宮。化人之宮構以金銀，絡以珠玉；出雲雨之上而不知下之據，望之若屯雲焉。耳目所觀聽，鼻口所納嘗，皆非人閒之有。王實以為清都、紫微、鈞天、廣樂，帝之所居。王俯而視之，其宮榭若累塊積蘇焉。王自以居數十年不思其國也。化人復謁王同游，所及之處，仰不見日月，俯不見河海。光影所照，王目眩不能得視；音響所來，王耳亂不能得聽。百骸六藏，悸而不凝。意迷精喪，請化人求還。化人移之，王若殞虛焉。既寤，所坐猶嚮者之處，侍御猶嚮者之人。視其前，則酒未清，肴未昲。王問所從來。左右曰：「王默存耳。」由此穆王自失者三月而復。更問化人。化人曰：「吾與王神游也，形奚動哉？且曩之所居，奚異王之宮？曩之所游，奚異王之圃？王閒恆疑蹔亡。變化之極，徐疾之閒，可盡模哉？」王大悅。不恤國事，不樂臣妾，肆意遠游。命駕八駿之乘，右服驊，騮而左綠耳，右驂赤驥而左白𣚘，主車則造父為御，𧮼𠜦為右，次車之乘，右服渠黃而左踰輪，左驂盜驪而右山子，柏天主車，參百為御，奔戎為右。馳驅千里，至於巨蒐氏之國。巨蒐氏乃獻白鵠之血以飲王，具牛馬之湩以洗王之足，及二乘之人。已飲而行，遂宿于崑崙之阿，赤水之陽。別日升于崑崙之丘1，以觀黃帝之宮，而封之，以詒後世。遂賓于西王母觴于瑤池之上。西王母為王謠，王和之，其辭哀焉。迺觀日之所入，一日行萬里。王乃歎曰：「於乎！予一人不盈于德而諧於樂，後世其追數吾過乎！」穆王幾神人哉！能窮當身之樂，猶百年乃徂，世以為登假焉。
+
+老成子學幻於尹文先生，三年不告。老成子請其過而求退。尹文先生揖而進之於室，屏左右而與之言曰：「昔老聃之徂西也，顧而告予曰：有生之氣，有形之狀，盡幻也。造化之所始，陰陽之所變者，謂之生，謂之死。窮數達變，因形移易者，謂之化，謂之幻。造物者其巧妙，其功深，固難窮難終。因形者其巧顯。其功淺，故隨起隨滅。知幻化之不異生死也，始可與學幻矣。吾與汝亦幻也，奚須學哉？」老成子歸，用尹文先生之言，深思三月，遂能存亡自在，憣校四時；冬起雷，夏造冰；飛者走，走者飛。終身不箸其術，固世莫傳焉。子列子曰：「善為化者，其道密庸，其功同人。五帝之德，三王之功，未必盡智勇之力，或由化而成。孰測之哉？」
+
+覺有八徵，夢有六候。奚謂八徵？一曰故，二曰為，三曰得，四曰喪，五曰哀，六曰樂，七曰生，八曰死。此者八徵，形所接也。奚謂六候？一曰正夢，二曰蘁夢，三曰思夢，四曰寤夢，五曰喜夢，六曰懼夢。此六者，神所交也。不識感變之所起者，事至則惑其所由然，識感變之所起者，事至則知其所由然。知其所由然則無所怛1。一體之盈虛消息，皆通於天地，應於物類。故陰氣壯，則夢涉大水而恐懼；陽氣壯，則夢涉大火而燔焫；陰陽俱壯，則夢生殺。甚飽則夢與，甚饑則夢取。是以以浮虛為疾者，則夢揚；以沈實為疾者，則夢溺。藉帶而寢，則夢蛇；飛鳥銜髮，則夢飛。將陰夢火，將疾夢食。飲酒者憂，歌儛者哭。子列子曰：「神遇為夢，形接為事。故晝想夜夢，神形所遇。故神凝者想夢自消。信覺不語，信夢不達，物化之往來者也。古之真人，其覺自忘，其寢不夢，幾虛語哉？」
+
+西極之南隅有國焉，不知境界之所接，名古莽之國。陰陽之氣所不交，故寒暑亡辨；日月之光所不照，故晝夜亡辨。其民不食不衣而多眠。五旬一覺，以夢中所為者實，覺之所見者妄。四海之齊謂中央之國，跨河南北，越岱東西，萬有餘里。其陰陽之審度，故一寒一暑；昏明之分察，故一晝一夜。其民有智有愚。萬物滋殖，才藝多方。有君臣相臨，禮法相持。其所云為，不可稱計。一覺一寐，以為覺之所為者實，夢之所見者妄。東極之北隅有國，曰阜落之國。其土氣常燠，日月餘光之照其土，不生嘉苗。其民食草根水實，不知火食。性剛悍，彊弱相藉，貴勝而不尚義；多馳步，少休息，常覺而不眠。
+
+周之尹氏大治產，其下趣役者，侵晨昏而弗息。有老役夫，筋力竭矣，而使之彌勤。晝則呻呼而即事，夜則昏憊而熟寐。精神荒散，昔昔夢為國君。居人民之上，總一國之事。遊燕宮觀，恣意所欲，其樂无比。覺則復役。人有慰喻其懃者，役夫曰：「人生百年，晝夜各分。吾晝為僕虜，苦則苦矣；夜為人君，其樂无比。何所怨哉？」尹氏心營世事，慮鍾家業，心形俱疲，夜亦昏憊而寐。昔昔夢為人僕，趨走作役，无不為也；數罵杖撻，无不至也。眠中啽囈呻呼，徹且息焉。尹氏病之，以訪其友。友曰：「若位足榮身，資財有餘，勝人遠矣。夜夢為僕，苦逸之復，數之常也。若欲覺夢兼之，豈可得邪？」尹氏聞其友言，寬其役夫之程，減己思慮之事，疾並少閒。
+
+鄭人有薪於野者，遇駭鹿，御而擊之，斃之。恐人見之也，遽而藏諸隍中，覆之以蕉，不勝其喜。俄而遺其所藏之處，遂以為夢焉。順塗而詠其事。傍人有聞者，用其言而取之。既歸，告其室人曰：「向薪者夢得鹿而不知其處；吾今得之，彼直真夢者矣。？」室人曰：「若將是夢見薪者之得鹿邪？詎有薪者邪？今真得鹿，是若之夢真邪？」夫曰：「吾據得鹿，何用知彼夢我夢邪？」薪者之歸，不厭失鹿，其夜真夢藏之之處，又夢得之之主。爽旦，案所夢而尋得之。遂訟而爭之，歸之士師。士師曰：「若初真得鹿，妄謂之夢；真夢得鹿，妄謂之實。彼真取若鹿，而與若爭鹿。室人又謂夢仞人鹿，无人得鹿。今據有此鹿，請二分之。」以聞鄭君。鄭君曰：「嘻！士師將復夢分人鹿乎？」訪之國相。國相曰：「夢與不夢，臣所不能辨也。欲辨覺夢，唯黃帝、孔丘。今亡黃帝、孔丘，孰辨之哉？且恂士師之言可也。」
+
+宋陽里華子，中年病忘，朝取而夕忘，夕與而朝忘；在塗則忘行，在室則忘坐；今不識先，後不識今。闔室毒之。謁史而卜之，弗占；謁巫而禱之，弗禁；謁醫而攻之，弗已。魯有儒生，自媒能治之，華子之妻子以居產之半請其方。儒生曰：「此固非卦兆之所占，非祈請之所禱，非藥石之所攻。吾試化其心，變其慮，庶幾其瘳乎！」於是試露之而求衣；饑之而求食；幽之而求明。儒生欣然告其子曰：「疾可已也。然吾之方密傳世，不以告人。試屏左右，獨與居室七日。」從之。莫知其所施為也，而積年之疾，一朝都除。華子既悟，迺大怒，黜妻罰子，操戈逐儒生。宋人執而問其以。華子曰：「曩吾忘也，蕩蕩然不覺天地之有无。今頓識，既往數十年來，存亡得失、哀樂好惡，擾擾萬緒起矣。吾恐將來之存亡得失哀樂好惡之亂吾心如此也，須臾之忘，可復得乎？」子貢聞而怪之，以告孔子。孔子曰：「此非汝所及乎！」顧謂顏回記之。
+
+秦人逢氏有子，少而惠，及壯而有迷罔之疾。聞歌以為哭，視白以為黑，饗香以為朽，常1甘以為苦，行非以為是。意之所之，天地四方水火寒暑，无不倒錯者焉。楊氏告其父曰：「魯之君子多術藝，將能已乎？汝奚不訪焉。？」其父之魯，過陳，遇老聃，因告其子之證。老聃曰：「汝庸知汝子之迷乎？今天下之人，皆惑於是非，昏於利害。同疾者多，固莫有覺者。且一身之迷，不足傾一家；一家之迷，不足傾一鄉；一鄉之迷，不足傾一國；一國之迷，不足傾天下；天下盡迷，孰傾之哉？向使天下之人，其心盡如汝子，汝則反迷矣。哀樂聲色臭味是非，孰能正之？且吾之此言未必非迷，而況魯之君子，迷之郵者，焉能解人之迷哉？榮汝之糧，不若遄歸也。」
+
+燕人生於燕，長於楚，及老而還本國。過晉國，同行者誑之，指城曰：「此燕國之城。」其人愀然變容。指社曰：「此若里之社。」乃喟然而歎。指舍曰：「此若先人之廬。」乃涓然而泣。指壠曰：「此若先人之冢。」其人哭不自禁。同行者啞然大笑，曰：「予昔紿若，此晉國耳。」其人大慚。及至燕，真見燕國之城社，真見先人之廬冢，悲心更微。
+
+
+### 仲尼
+
+仲尼閒居，子貢入侍，而有憂色。子貢不敢問，出告顏回。顏回援琴而歌。孔子聞之，果召回入，問曰：「若奚獨樂？」回曰：「夫子奚獨憂？」孔子曰：「先言爾志。」曰：「吾昔聞之夫子曰：『樂天知命故不憂』，回所以樂也。「孔子愀然有閒曰：」有是言哉？汝之意失矣。此吾昔日之言爾，請以今言為正也。汝徒知樂天知命之无憂，未知樂天知命有憂之大也。今告若其實。脩一身，任窮達，知去來之非我，止變亂於心慮，爾之所謂樂天知命之无憂也。曩吾脩《》《》，正禮樂，將以治天下，遺來世；非但脩一身治魯國而已。而魯之君臣日失其序，仁義益衰，情性益薄。此道不行一國與當年，其如天下與來世矣？吾始知《》《》禮樂无救於治亂，而未知所以革之之方：此樂天知命者之所憂。雖然，吾得之矣。夫樂而知者，非古人之所謂1樂知也。无樂无知，是真樂真知；故无所不樂，无所不知，无所不憂，无所不為。《》《》禮樂，何棄之有？革之何為？「顏回北面拜手曰：「回亦得之矣。」出告子貢。子貢茫然自失，歸家淫思七日，不寢不食，以至骨立。顏回重往喻之，乃反丘門，絃歌誦書，終身不輟。
+
+陳大夫聘魯，私見叔孫氏。叔孫氏曰：「吾國有聖人。」曰：「非孔丘邪？」曰：「是也。」「何以知其聖乎？」叔孫氏曰：「吾常聞之顏回，曰：『孔丘能廢心而用形。』」陳大夫曰：「吾國亦有聖人，子弗知乎？」曰：「聖人孰謂？」曰：「老聃之弟子，有亢倉子者，得聃之道，能以耳視而目聽。」魯侯聞之大驚，使上卿厚禮而致之。亢倉子應聘而至。魯侯卑辭請問之。亢倉子曰：「傳之者妄。我能視聽不用耳目，不能易耳目之用。」魯侯曰：「此增異矣。其道奈何？寡人終願聞之。」亢倉子曰：「我體合於心，心合於氣，氣合於神，神合於无。其有介然之有，唯然之音，雖遠在八荒之外，近在眉睫之內，來干我者，我必知之。乃不知是我七孔四支之所覺，心腹六藏之所知，其自知而已矣。」魯侯大悅。他日以告仲尼，仲尼笑而不荅。
+
+商太宰見孔子曰：「丘聖者歟？」孔子曰：「聖則丘何敢，然則丘博學多識者也。」商太宰曰：「三王聖者歟？」孔子曰：「三王善任智勇者，聖則丘不知。」曰：「五帝聖者歟？」孔子曰：「五帝善任仁義者，聖則丘弗知。」曰：「三皇聖者歟？」孔子曰：「三皇善任因時者，聖則丘弗知。」商太宰大駭，曰：「然則孰者為聖？」孔子動容有閒，曰：「西方之人，有聖者焉，不治而不亂，不言而自信，不化而自行，蕩蕩乎民无能名焉。丘疑其為聖。弗知真為聖歟？真不聖歟？」商太宰嘿然心計曰：「孔丘欺我哉！」
+
+子夏問孔子曰：「顏回之為人奚若？」子曰：「回之仁賢於丘也。」曰：「子貢之為人奚若？」子曰：「賜之辯賢於丘也。」曰：「子路之為人奚若？」子曰：「由之勇賢於丘也。」曰：「子張之為人奚若？」子曰：「師之莊賢於丘也。」子夏避席而問曰：「然則四子者何為事天子？」曰：「居！吾語汝。夫回能仁而不能反。賜能辯而不能訥，由能勇而不能怯，師能莊而不能同。兼四子之有以易吾，吾弗許也，此其所以事吾而不貳也。」
+
+子列子既師壺丘子林，友伯昏瞀人，乃居南郭。從之處者，日數而不及。雖然，子列子亦微焉，朝朝相與辯，无不聞。而與南郭子連牆二十年，不相謁請；相遇於道，目若不相見者。門之徒役，以為子列子與南郭子有敵不疑。有自楚來者，問子列子曰：「先生與南郭子奚敵？」子列子曰：「南郭子貌充心虛，耳无聞，目无見，口无言，心无知，形无惕。往將奚為？雖然，試與汝偕往。」閱弟子四十人同行。見南郭子，果若欺魄焉而不可與接。顧視子列子，形神不相偶，而不可與群。南郭子俄而指子列子之弟子末行者與言，衎衎然若專直而在雄者。子列子之徒駭之。反舍咸有疑色。子列子曰：「得意者无言，進知者亦无言。用无言為言亦言，无知為知亦知。无言與不言，无知與不知，亦言亦知。亦无所不言，亦无所不知；亦无所言，亦无所知。如斯而已。汝奚妄駭哉？」
+
+子列子學也，三年之後，心不敢念是非，口不敢言利害，始得老商一眄而已。五年之後，心更念是非，口更言利害，老商始一解顏而笑。七年之後，從心之所念，更无是非；從口之所言，更无利害。夫子始一引吾並席而坐。九年之後，橫心之所念，橫口之所言，亦不知我之是非利害歟，亦不知彼之是非利害歟，外內進矣。而後眼如耳，耳如鼻，鼻如口，口无不同。心凝形釋骨肉都融；不覺形之所倚，足之所履，心之所念，言之所藏。如斯而已。則理无所隱矣。
+
+初子列子好游。壺丘子曰：「禦寇好游，游何所好？」列子曰：「游之樂，所玩无故。人之游也，觀其所見；我之游也，觀其所變。游乎游乎！未有能辨其游者。」壺丘子曰：「禦寇之游固與人同歟，而曰固與人異歟？凡所見，亦恆見其變。玩彼物之无故，不知我亦无故。務外游，不知務內觀。外游者，求備於物；內觀者，取足於身。取足於身，游之至也；求備於物，游之不至也。」於是列子終身不出，自以為不知游。壺丘子曰：「游其至乎！至游者不知所適；至觀者不知所眡，物物皆游矣，物物皆觀矣，是我之所謂游，是我之所謂觀也。故曰：游其至矣乎！游其至矣乎！」
+
+龍叔謂文摯曰：「子之術微矣。吾有疾，子能已乎？」文摯曰：「唯命所聽。然先言子所病之證。」龍叔曰：「吾鄉譽不以為榮，國毀不以為辱；得而不喜，失而弗憂；視生如死，視富如貧，視人如豕，視吾如人。處吾之家，如逆旅之舍；觀吾之鄉，如戎蠻之國。凡此眾庶，爵賞不能勸，刑罰不能威，盛衰利害不能易，哀樂不能移。固不可事國君，交親友，御妻子，制僕隸。此奚疾哉？奚方能已之乎？」文摯乃命龍叔背明而立。文摯自後向明而望之，既而曰：「嘻！吾見子之心矣，方寸之地虛矣，幾聖人也！子心六孔流通，一孔不達。今以聖智為疾者，或由此乎！非吾淺術所能已也。」
+
+无所由而常生者道也。由生而生，故雖終而不亡，常也。由生而亡，不幸也。有所由而常死者，亦道也。由死而死，故雖未終而自亡者，亦常。由死而生，幸也。故无用而生謂之道，用道得終謂之常；有所用而死者亦謂之道，用道而得死者亦謂之常。
+
+季梁之死，楊朱望其門而歌。隨梧之死，楊朱撫其尸而哭。隸人之生，隸人之死，眾人且歌，眾人且哭。
+
+目將眇者先睹秋毫；耳將聾者先聞蚋飛；口將爽者先辨淄澠；鼻將窒者先覺焦朽；體將僵者先亟犇佚；心將迷者先識是非：故物不至者則不反。
+
+鄭之圃澤多賢，東里多才。圃澤之役有伯豐子者，行過東里，遇鄧析。鄧析顧其徒而笑曰：「為若舞彼來者奚若？」其徒曰：「所願知也。」鄧析謂伯豐子曰：「汝知養養之義乎？受人養而不能自養者，犬豕之類也；養物而物為我用者，人之力也。使汝之徒，食而飽，衣而息，執政之功也。長幼群聚，而為牢藉庖廚之物，奚異犬豕之類乎？」伯豐子不應。伯豐子之從者越次而進曰：「大夫不聞齊魯之多機乎？有善治土木者，有善治金革者，有善治聲樂者，有善治書數者，有善治軍旅者，有善治宗廟者，群才備也。而无相位者，无能相使者。而位之者无知，使之者无能，而知之與能，為之使焉。執政者迺吾之所使，子奚矜焉？」鄧析无以應，目其徒而退。
+
+公儀伯以力聞諸侯，堂谿公言之於周宣王，王備禮以聘之。公儀伯至，觀形，懦夫也。宣王心惑而疑曰：「女之力何如？」公儀伯曰：「臣之力能折春螽之股，堪秋蟬之翼。」王作色曰：「吾之力者能裂犀兕之革。曳九牛之尾，猶憾其弱。女折春螽之股，堪秋蟬之翼，而力聞天下，何也？」公儀伯長息退席曰：「善哉，王之問也！臣敢以實對。臣之師有商丘子者，力无敵於天下，而六親不知，以未嘗用其力故也。臣以死事之。乃告臣曰：『人欲見其所不見，視人所不窺；欲得其所不得，修人所不為。故學眎者先見輿薪，學聽者先聞撞鍾。夫有易於內者，无難於外。於外无難，故名不出其一道。』今臣之名聞於諸侯，是臣違師之教，顯臣之能者也。然則臣之名不以負其力者也，以能用其力者也，不猶愈於負其力者乎？」
+
+中山公子牟者，魏國之賢公子也。好與賢人游，不恤國事，而悅趙人公孫龍。樂正子輿之徒笑之。公子牟曰：「子何笑牟之悅公孫龍也？」子輿曰：「公孫龍之為人也，行无師，學无友，佞給而不中，漫衍而无家，好怪而妄言。欲惑人之心，屈人之口，與韓檀等肄之。」公子牟變容曰：「何子狀公孫龍之過歟？請聞其實。」子輿曰：「吾笑龍之詒孔穿，言『善射者，能令後鏃中前括，發發相及，矢矢相屬；前矢造準，而无絕落，後矢之括猶銜弦，視之若一焉。』孔穿駭之。龍曰：『此未其妙者。逢蒙之弟子曰鴻超，怒其妻而怖之。引烏號之弓，綦衛之箭，射其目。矢來注眸子，而眶不睫，矢隧地而塵不揚。』是豈智者之言與？「公子牟曰：」智者之言，固非愚者之所曉。後鏃中前括，鈞後於前。矢注眸子而眶不睫，盡矢之勢也。子何疑焉？「樂正子輿曰：『子龍之徒，焉得不飾其闕？吾又言其尤者。』龍誑魏王曰：『有意不心。有指不至。有物不盡。有影不移。髮引千鈞。白馬非馬。孤犢未嘗有母。』其負類反倫，不可勝言也。」公子牟曰：』子不諭至言而以為尤也。尤其在子矣。夫无意則心同。无指則皆至。盡物者常有。影不移者，說在改也。髮引千鈞，勢至等也。白馬非馬，形名離也。孤犢未嘗有母非孤犢也。「樂正子輿曰：「子以公孫龍於馬皆條也。設令發於餘竅，子亦將承之。」公子牟默然良久告退曰：「請待餘日，更謁子論。」
+
+堯治天下五十年，不知天下治歟，不治歟？不知億兆之願戴己歟，不願戴己歟？顧問左右，左右不知。問外朝，外朝不知。問在野，在野不知。堯乃微服游於康衢，聞兒童謠曰：「立我蒸民，莫匪爾極。不識不知，順帝之則。」堯喜問曰：「誰教爾為此言？」童兒曰：「我聞之大夫。」問大夫，大夫曰：「古詩也。」堯還宮，召舜，因禪以天下。舜不辭而受之。
+
+關尹喜曰：「在己无居，形物其箸，其動若水，其靜若鏡，其應若響。故其道若物者也。物自違道，道不違物。善若道者，亦不用耳，亦不用目，亦不用力，亦不用心。欲若道而用視聽形智以求之，弗當矣。瞻之在前，忽焉在後；用之彌滿六虛，廢之莫知其所。亦非有心者所能得遠，亦非无心者所能得近。唯默而得之而性成之者得之。知而亡情，能而不為，真知真能也。發无知，何能情？發不能，何能為？聚塊也，積塵也，雖无1而非理也。」
+
+
+### 湯問
+
+殷湯問於夏革曰：「古初有物乎？」夏革曰：「古初1无物，今惡得物？後之人將謂今之无物可乎？」殷湯曰：「然則物无先後乎？」夏革曰：「物之終始，初无極已。始或為終，終或為始，惡知其紀？然自物之外，自事之先，朕所不知也。」殷湯曰：「然則上下八方有極盡乎？」革曰：「不知也。」湯固問。革曰：「无則无極，有則有盡；朕何以知之？然无極之外，復无无極，无盡之中，復无无盡。无極復无无極，无盡復无无盡。朕以是知其无極无盡也，而不知其有極有盡也。」湯又問曰：「四海之外奚有？」革曰：「猶齊州也。」湯曰：「汝奚以實之？」革曰：「朕東行至營，人民猶是也。問營之東，復猶營也。西行至豳，人民猶是也。問豳之西，復猶豳也。朕以是知四海四荒四極之不異是也。故大小相含，无窮極也。含萬物者亦如含天地；含萬物也故不窮，含天地也故无極。朕亦焉知天地之表不有大天地者乎？亦吾所不知也。然則天地亦物也。物有不足，故昔者女媧氏練五色石以補其闕；斷鼇之足以立四極。其後共工氏與顓頊爭為帝，怒而觸不周之山，折天柱，絕地維，故天傾西北，日月星辰就焉；地不滿東南，故百川水潦歸焉。」
+
+湯又問：「物有巨細乎？有脩短乎？有同異乎？」革曰：「渤海之東不知幾億萬里，有大壑焉，實惟无底之谷，其下无底，名曰歸墟。八絃九野之水，天漢之流，莫不注之，而无增无減焉。其中有五山焉：一曰岱輿，二曰員嶠，三曰方壺，四曰瀛洲，五曰蓬萊。其山高下周旋三萬里，其頂平處九千里。山之中閒相去七萬里，以為鄰居焉。其上臺觀皆金玉，其上禽獸皆純縞。珠玕之樹皆叢生，華實皆有滋味，食之皆不老不死。所居之人皆仙聖之種；一日一夕飛相往來者，不可數焉。而五山之根，无所連箸，常隨潮波上下往還，不得蹔峙焉。仙聖毒之，訴之於帝。帝恐流於西極，失群仙聖之居，乃命禺彊使巨鼇十五舉首而戴之。迭為三番，六萬歲一交焉。五山始峙而不動。而龍伯之國，有大人，舉足不盈數千而暨五山之所，一釣而連六鼇，合負而趣，歸其國，灼其骨以數焉。於是岱輿員嶠二山流於北極，沈於大海，仙聖之播遷者巨億計。帝憑怒，侵減龍伯之國使阨。侵小龍伯之民使短。至伏羲神農時，其國人猶數十丈。從中州以東四十萬里，得僬僥國。人長一尺五寸。東北極有人名曰諍人，長九寸。荊之南有冥靈者，以五百歲為春，五百歲為秋。上古有大椿者，以八千歲為春，八千歲為秋。朽壤之上有菌芝者，生於朝，死於晦。春夏之月有蠓蚋者，因雨而生，見陽而死。終北之北有溟海者，天池也，有魚焉。其廣數千里，其長稱焉，其名為鯤。有鳥焉。其名為鵬，翼若垂天之雲，其體稱焉。世豈知有此物哉？大禹行而見之，伯益知而名之，夷堅聞而志之。江浦之閒生麼蟲，其名曰焦螟，群飛而集於蚊睫，弗相觸也。栖宿去來，蚊弗覺也。離朱子羽，方晝拭眥揚眉而望之，弗見其形；𧣾俞師曠方夜擿耳俛首而聽之，弗聞其聲。唯黃帝與容成子居空桐之上，同齋三月，心死形廢；徐以神視，塊然見之，若嵩山之阿；徐以氣聽，砰然聞之若電霆之聲。吳、楚之國有大木焉，其名為櫾，碧樹而冬生，實丹而味酸；食其皮汁，已憤厥之疾。齊州珍之，渡淮而北，而化為枳焉。鸜鵒不踰濟，貉踰汶則死矣。地氣然也。雖然形氣異也，性鈞已，无相易已。生皆全已，分皆足已。吾何以識其巨細？何以識其脩短？何以識其同異哉？」
+
+太形、王屋二山，方七百里，高萬仞。本在冀州之南，河陽之北。北山愚公者，年且九十，面山而居。懲山北之塞，出入之迂也。聚室而謀曰：「吾與汝畢力平險，指通豫南，達于漢陰，可乎？」雜然相許。其妻獻疑曰：「以君之力，曾不能損魁父之丘，如太形、王屋何？且焉置土石？」雜曰：「投諸渤海之尾，隱土之北。」遂率子孫荷擔者三夫，叩石墾壤，箕畚運於渤海之尾。鄰人京城氏之孀妻，有遺男，始齓，跳往助之。寒暑易節，始一反焉。河曲智叟笑而止之，曰：「甚矣汝之不惠！以殘年餘力，曾不能毀山之一毛，其如土石何？」北山愚公長息曰：「汝心之固，固不可徹，曾不若孀妻弱子。雖我之死，有子存焉；子又生孫，孫又生子；子又有子，子又有孫；子子孫孫，无窮匱也，而山不加增，何苦而不平？」河曲智叟亡以應。操蛇之神聞之，懼其不已也，告之於帝。帝感其誠，命夸蛾氏二子負二山，一厝朔東，一厝雍南。自此冀之南，漢之陰，无隴斷焉。夸父不量力，欲追日影，逐之於隅谷之際。渴欲得飲，赴飲河渭。河渭不足，將走北飲大澤。未至道，渴而死。棄其杖，尸膏肉所浸，生鄧林。鄧林彌廣數千里焉。
+
+大禹曰：「六合之閒，四海之內，照之以日月，經之以星辰，紀之以四時，要之以太歲。神靈所生，其物異形；或夭或壽，唯聖人能通其道。」夏革曰：「然則亦有不待神靈而生，不待陰陽而形，不待日月而明，不待殺戮而夭，不待將迎而壽，不持五穀而食，不待繒纊而衣，不待舟車而行。其道自然，非聖人之所通也。」
+
+禹之治水上也，迷而失塗，謬之一國。濱北海之北，不知距齊州幾千萬里，其國名曰終北，不知際畔之所齊限。无風雨霜露，不生鳥、獸、蟲、魚、草、木之類。四方悉平，周以喬陟。當國之中有山，山名壺領，狀若甔甄。頂有口，狀若員環，名曰滋穴。有水湧出，名曰神瀵，臭過蘭椒，味過醪醴。一源分為四埒，注於山下；經營一國，亡不悉徧。土氣和，亡札厲。人性婉而從，物不競不爭。柔心而弱骨，不驕不忌；長幼儕居，不君不臣；男女雜游，不媒不聘；緣水而居，不耕不稼；土氣溫適，不織不衣；百年而死，不夭不病。其民孳阜亡數，有喜樂，亡衰老哀苦。其俗好聲，相攜而迭謠，終日不輟音。饑惓則飲神瀵，力志和平。過則醉經旬乃醒。沐浴神瀵，膚色脂澤，香氣經旬乃歇。周穆王北遊，過其國，三年忘歸。既反周室，慕其國，惝然自失。不進酒肉，不召嬪御者數月，乃復。管仲勉齊桓公，因遊遼口，俱之其國。幾剋舉，隰朋諫曰：「君舍齊國之廣，人民之眾，山川之觀，殖物之阜，禮義之盛，章服之美，妖靡盈庭，忠良滿朝，肆咤則徒卒百萬，視撝則諸侯從命，亦奚羨於彼，而棄齊國之社稷，從戎夷之國乎？此仲父之耄，柰何從之？」桓公乃止，以隰朋之言告管仲，仲曰：「此固非朋之所及也。臣恐彼國之不可知之也。齊國之富奚戀？隰朋之言奚顧？」
+
+南國之人，被髮而裸；北國之人，鞨巾而裘；中國之人，冠冕而裳。九土所資，或農或商或田或漁，如冬裘夏葛，水舟陸車，默而得之，性而成之。越之東有輒沐之國，其長子生，則鮮而食之，謂之宜弟。其大父死，負其大母而棄之，曰：「鬼妻不可與同居處。」楚之南有炎人之國，其親戚死，㱙其肉而棄之，然後埋其骨，迺成為孝子。秦之西有儀渠之國者，其親戚死。聚祡積而焚之。燻則煙上，謂之登遐，然後成為孝子。此上以為政，下以為俗。而未足為異也。
+
+孔子東游，見兩小兒辯鬭。問其故，一兒曰：「我以日始出時去人近，而日中時遠也。」一兒以日初出遠，而日中時近也。一兒曰：「日初出大如車蓋，及日中，則如盤盂，此不為遠者小而近者大乎？」一兒曰：「日初出滄滄涼涼，及其日中，如探湯，此不為近者熱而遠者涼乎？」孔子不能決也。兩小兒笑曰：「孰為汝多知乎？」
+
+均，天下之至理也，連於形物亦然。均髮均縣輕重而髮絕，髮不均也。均也，其絕也，莫絕。人以為不然，自有知其然者也。詹何以獨繭絲為綸，芒鍼為鉤，荊篠為竿，剖粒為餌，引盈車之魚於百仞之淵、汩流之中，綸不絕，鉤不伸，竿不撓。楚王聞而異之，召問其故。詹何曰：「臣聞先大夫之言。蒲且子之弋也，弱弓纖繳，乘風振之，連雙鶬於青雲之際。用心專，動手均也。臣因其事，放而學釣，五年始盡其道。當臣之臨河持竿，心无雜慮，唯魚之念；投綸沈鉤，手无輕重，物莫能亂。魚見臣之釣餌，猶沈埃聚沫，吞之不疑。所以能以弱制彊，以輕致重也。大王治國誠能若此，則天下可運於一握，將亦奚事哉？」楚王曰：「善！」
+
+魯公扈、趙齊嬰二人有疾，同請扁鵲求治，扁鵲治之。既同愈。謂公扈、齊嬰曰：「汝曩之所疾，自外而干府藏者，固藥石之所已。今有偕生之疾，與體偕長，今為汝攻之，何如？」二人曰：「願先聞其驗。」扁鵲謂公扈曰：「汝志彊而氣弱，故足於謀而寡於斷。齊嬰志弱而氣彊，故少於慮而傷於專。若換汝之心，則均於善矣。」扁鵲遂飲二人毒酒，迷死三日，剖胸探心，易而置之；投以神藥，既悟，如初。二人辭歸。於是公扈反齊嬰之室，而有其妻子，妻子弗識。齊嬰亦反公扈之室，有其妻子，妻子亦弗識。二室因相與訟，求辨於扁鵲。扁鵲辨其所由，訟乃已。
+
+匏巴鼓琴，而鳥舞魚躍，鄭師文聞之，棄家從師襄游。柱指鈞弦，三年不成章。師襄曰：「子可以歸矣。」師文舍其琴歎曰：「文非弦之不能鈞，非章之不能成。文所存者不在弦，所志者不在聲。內不得於心，外不應於器，故不敢發手而動弦。且小假之以觀其後。」无幾何，復見師襄。師襄曰：「子之琴何如？」師文曰：「得之矣。請嘗試之。」於是當春而叩商弦，以召南呂，涼風揔至，草木成實。及秋而叩角弦，以激夾鐘，溫風徐迴，草木發榮。當夏而叩羽弦，以召黃鐘，霜雪交下，川池暴沍。及冬而叩徵弦，以激蕤賓，陽光熾烈，堅冰立散。將終命宮而揔四弦。則景風翔，慶雲浮，甘露降，澧泉涌。師襄乃撫心高蹈曰：「微矣，子之彈也！雖師曠之清角，鄒衍之吹律，亡以加之。彼將挾琴執管而從子之後耳。」
+
+薛譚學謳於秦青，未窮青之技，自謂盡之，遂辭歸。秦青弗止。餞於郊衢，撫節悲歌，聲振林木，響遏行雲。薛譚乃謝求反，終身不敢言歸。秦青顧謂其友曰：「昔韓娥東之齊，匱糧，過雍門，鬻歌假食。既去，而餘音繞梁欐，三日不絕，左右以其人弗去。過逆旅，逆旅人辱之。韓娥因曼聲哀哭，一里老幼。悲愁垂涕相對，三日不食。遽而追之。娥還復為曼聲長歌，一里長幼，喜躍抃舞，弗能自禁，忘向之悲也。乃厚賂發之。故雍門之人至今善歌哭，效娥之遺聲。」
+
+伯牙善鼓琴，鍾子期善聽。伯牙鼓琴，志在登高山。鍾子期曰：「善哉！峨峨兮若泰山！」志在流水。鍾子期曰：「善哉！洋洋兮若江河！」伯牙所念，鍾子期必得之。伯牙游於泰山之陰，卒逢暴雨，止於巖下；心悲，乃援琴而鼓之。初為霖雨之操，更造崩山之音，曲每奏，鍾子期輒窮其趣。伯牙乃舍琴而歎曰：「善哉善哉！子之聽夫志，想象猶吾心也。吾於何逃聲哉？」
+
+周穆王西巡狩，越崑崙，不至弇山。反還，未及中國，道有獻工人名偃師，穆王薦之，問曰：「若有何能？」偃師曰：「臣唯命所試。然臣已有所造，願王先觀之。」穆王曰：「日以俱來，吾與若俱觀之。」越日，偃師謁見王。王薦之曰：「若與偕來者何人邪？」對曰：「臣之所造能倡者。」穆王驚視之，趣步俯仰，信人也。巧夫，顉其頤，則歌合律；捧其手，則舞應節。千變萬化，惟意所適。王以為實人也。與盛姬內御並觀之。技將終，倡者瞬其目而招王之左右侍妾。王大怒，立欲誅偃師。偃師大懾，立剖散倡者以示王，皆傅會革、木、膠、漆、白、黑、丹、青之所為。王諦料之，內則肝、膽、心、肺、脾、腎、腸、胃，外則筋骨、支節、、皮毛、齒髮，皆假物也，而无不畢具者。合會復如初見。王試廢其心，則口不能言；廢其肝，則目不能視；廢其腎，則足不能步。穆王始悅而歎曰：「人之巧乃可與造化者同功乎？」詔貳車載之以歸。夫班輸之雲梯，墨翟之飛鳶，自謂能之極也。弟子東門賈、禽滑釐，聞偃師之巧，以告二子，二子終身不敢語藝，而時執規矩。
+
+甘蠅，古之善射者，彀弓而獸伏鳥下。弟子名飛衛，學射於甘蠅，而巧過其師。紀昌者，又學射於飛衛。飛衛曰：「爾先學不瞬，而後可言射矣。」紀昌歸，偃臥其妻之機下，以目承牽挺。二年之後，雖錐末倒眥而不瞬也。以告飛衛。飛衛曰：「未也，必學視而後可。視小如大，視微如著，而後告我。」昌以氂懸虱於牖。南面而望之。旬日之閒，浸大也；三年之後，如車輪焉。以覩餘物，皆丘山也。乃以燕角之弧，朔蓬之簳，射之，貫虱之心，而懸不絕。以告飛衛。飛衛高蹈拊膺曰：「汝得之矣！「紀昌既盡衛之術，計天下之敵己者一人而已，乃謀殺飛衛。相遇於野，二人交射；中路矢鋒相觸，而墜於地，而塵不揚。飛衛之矢先窮。紀昌遺一矢，既發，飛衛以棘刺之端扞之，而无差焉。於是二子泣而投弓，相拜於塗，請為父子。剋臂以誓，不得告術於人。
+
+造父之師曰泰豆氏。造父之始從習御也，執禮甚卑，泰豆三年不告。造父執禮愈謹乃告之曰：「古詩言：『良弓之子，必先為箕，良冶之子，必先為裘。』汝先觀吾趣。趣如吾，然後六轡可持，六馬可御。」造父曰：「唯命所從。」泰豆乃立木為塗，僅可容足；計步而置。履之而行。趣走往還，无跌失也。造父學之，三曰盡其巧。泰豆歎曰：「子何其敏也，得之捷乎？凡所御者，亦如此也。曩汝之行，得之於足，應之於心。推於御也，齊輯乎轡銜之際，而急緩乎脣吻之和；正度乎胸臆之中，而執節乎掌握之閒。內得於中心，而外合於馬志，是故能進退履繩，而旋曲中規矩，取道致遠，而氣力有餘，誠得其術也。得之於銜，應之於轡；得之於轡，應之於手；得之於手，應之於心。則不以目視，不以策驅；心閑體正，六轡不亂，而二十四蹄所投无差；廻旋進退，莫不中節。然後輿輪之外，可使无餘轍；馬蹄之外，可使无餘地。未嘗覺山谷之嶮。原隰之夷，視之一也。吾術窮矣。汝其識之！」
+
+魏黑卵以暱嫌殺丘邴章。丘邴章之子來丹謀報父之讎。丹氣甚猛，形甚露，計粒而食，順風而趨。雖怒，不能稱兵以報之。恥假力於人，誓手劍以屠黑卵。黑卵悍志絕眾，力抗百夫，筋骨皮肉，非人類也。延頸承刀，披胸受矢，鋩鍔摧屈，而體无痕撻。負其材力，視來丹猶雛鷇也。來丹之友申他曰：「子怨黑卵至矣，黑卵之易子過矣，將奚謀焉？」來丹垂涕曰：「願子為我謀。」申他曰：『吾聞衛孔周其祖得殷帝之寶劍，一童子服之，卻三軍之眾，奚不請焉？「來丹遂適衛，見孔周，執僕御之禮請先納妻子，後言所欲。孔周曰：「吾有三劍，唯子所擇；皆不能殺人，且先言其狀。一曰含光，視之不可見，運之不知有。其所觸也，泯然无際，經物而物不覺。二曰承影，將旦昧爽之交，日夕昏明之際，北面而察之，淡淡焉若有物存，莫識其狀。其所觸也，竊竊然有聲，經物而物不疾也。三曰宵練，方晝則見影而不見光，方夜見光而不見形。其觸物也，騞然而過，隨過隨合，覺疾而不血刃焉。此三寶者，傳之十三世矣，而无施於事。匣而藏之，未嘗啟封，」來丹曰：「雖然，吾必請其下者。」孔周乃歸其妻子，與齋七日。晏陰之閒，跪而授其下劍，來丹再拜受之以歸。來丹遂執劍從黑卵。時黑卵之醉，偃於牖下，自頸至腰三斬之。黑卵不覺。來丹以黑卵之死，趣而退。遇黑卵之子於門，擊之三下，如投虛。黑卵之子方笑曰：「汝何蚩而三招予？」來丹知劍之不能殺人也，歎而歸。黑卵既醒，怒其妻曰：「醉而露我，使我嗌疾而腰急。」其子曰：「疇昔來丹之來。遇我於門，三招我，亦使我體疾而支彊，彼其厭我哉！」
+
+周穆王大征西戎，西戎獻錕鋙之劍，火浣之布。其劍長尺有咫，練鋼赤刃，用之切玉如切泥焉。火浣之布，浣之必投於火；布則火色，垢則布色；出火而振之，皓然疑乎雪。皇子以為无此物，傳之者妄。蕭叔曰：「皇子果於自信，果於誣理哉！」
+
+
+### 力命
+
+力謂命曰：「若之功奚若我哉？」命曰：「汝奚功於物，而欲比朕？」力曰：「壽夭、窮達、貴賤、貧富，我力之所能也。」命曰：「彭祖之智不出堯、舜之上，而壽八百；顏淵之才不出眾人之下，而壽十八。仲尼之德。不出諸侯之下，而困於陳，蔡；殷紂之行，不出三仁之上，而居君位。季札无爵於吳，田恆專有齊國。夷、齊餓於首陽，季氏富於展禽。若是汝力之所能，柰何壽彼而夭此，窮聖而達逆，賤賢而貴愚，貧善而富惡邪？」力曰：「若如若言，我固无功於物，而物若此邪，此則若之所制邪？」命曰：「既謂之命，柰何有制之者邪？朕直而推之，曲而任之。自壽自夭，自窮自達，自貴自賤，自富自貧，朕豈能識之哉？朕豈能識之哉？」
+
+北宮子謂西門子曰：「朕與子並世也，而人子達；並族也，而人子敬；並貌也，而人子愛；並言也，而人子庸；並行也，而人子誠；並仕也，而人子貴；並農也，而人子富；並商也，而人子利。朕衣則裋褐，食則粢糲，居則蓬室，出則徒行。子衣則文錦，食則粱肉，居則連欐，出則結駟。在家熙然有棄朕之心，在朝諤然有敖朕之色。請謁不相及，遨游不同行，固有年矣。子自以德過朕邪？」西門子曰：「予无以知其實。汝造事而窮，予造事而達，此厚薄之驗歟？而皆謂與予並，汝之顏厚矣。」北宮子无以應，自失而歸。中途遇東郭先生。先生曰：「汝奚往而反，偊偊而步，有深愧之色邪？」北宮子言其狀。東郭先生曰：『吾將舍汝之愧，與汝更之西門氏而問之。「曰：「汝奚辱北宮子之深乎？固且言之。」西門子曰：「北宮子言世族、年貌、言行與予並，而賤貴、貧富與予異。予語之曰：『予无以知其實。汝造事而窮，予造事而達，此將厚薄之驗歟？而皆謂與予並，汝之顏厚矣。』」東郭先生曰：「汝之言厚薄，不過言才德之差，吾之言厚薄異於是矣。夫北宮子厚於德，薄於命；汝厚於命，薄於德。汝之達，非智得也；北宮子之窮，非愚失也。皆天也，非人也。而汝以命厚自矜，北宮子以德厚自愧，皆不識夫固然之理矣。」西門子曰：「先生止矣！予不敢復言。」北宮子既歸，衣其裋褐，有狐貉之溫；進其茙菽，有稻粱之味；庇其蓬室，若廣廈之蔭；乘其篳輅，若文軒之飾。終身逌然，不知榮辱之在彼也，在我也。東郭先生聞之曰：「北宮子之寐久矣，一言而能寤，易悟也哉！」
+
+管夷吾、鮑叔牙二人相友甚戚，同處於齊。管夷吾事公子糾，鮑叔牙事公子小白。齊公族多寵，嫡庶並行。國人懼亂。管仲與召忽奉公子糾奔魯，鮑叔奉公子小白奔莒。既而公孫无知作亂，齊无君，二公子爭入。管夷吾與小白戰於莒道，射中小白帶鉤。小白既立，脅魯殺子糾，召忽死之，管夷吾被囚。鮑叔牙謂桓公曰：「管夷吾能，可以治國。」桓公曰：『我讎也，願殺之。「鮑叔牙曰：」吾聞賢君无私怨，且人能為其主，亦必能為人君。如欲霸王，非夷吾其弗可。君必舍之！「遂召管仲。魯歸之齊，鮑叔牙郊迎，釋其囚。桓公禮之，而位於高、國之上，鮑叔牙以身下之，任以國政。號曰仲父。桓公遂霸。管仲嘗歎曰：「吾少窮困時，嘗與鮑叔1賈，分財多自與；鮑叔不以我為貪知我貧也。吾嘗為鮑叔謀事而大窮困，鮑叔不以我為愚，知時有利不利也。吾嘗三仕，三見逐於君，鮑叔不以我為不肖，知我不遭時也。吾嘗三戰三北，鮑叔不以我為怯，知我有老母也。公子糾敗，召忽死之，吾幽囚受辱；鮑叔不以我為无恥，知我不羞小節，而恥名不顯於天下也。生我者父母，知我者鮑叔也！」此世稱管、鮑善交者，小白善用能者。然實无善交，實无用能也。實无善交實无用能者，非更有善交、更有善用能也。召忽非能死，不得不死；鮑叔非能舉賢，不得不舉；小白非能用讎，不得不用。及管夷吾有病，小白問之曰：「仲父之病病矣，可不諱云，至於大病，則寡人惡乎屬國而可？」夷吾曰：「公誰欲歟？」小白曰：「鮑叔牙可。」曰：「不可。其為人潔廉善士也，其於不己若者不比之人，一聞人之過，終身不忘。使之理國，上且鉤乎君，下且逆乎民。其得罪於君也，將弗久矣。」小白曰：「然則孰可？」對曰：「勿已，則隰朋可。其為人也，上忘而下不叛，愧其不若黃帝，而哀不己若者。以德分人，謂之聖人；以財分人，謂之賢人。以賢臨人，未有得人者也；以賢下人者，未有不得人者也。其於國有不聞也，其於家有不見也。勿已，則隰朋可。」然則管夷吾非薄鮑叔也，不得不薄；非厚隰朋也，不得不厚。厚之於始，或薄之於終；薄之於終，或厚之於始。厚薄之去來，弗由我也。
+
+鄧析操兩可之說，設无窮之辭，當子產執政，作《竹刑》。鄭國用之，數難子產之治。子產屈之。子產執而戮之，俄而誅之。然則子產非能用《竹刑》，不得不用；鄧析非能屈子產，不得不屈；子產非能誅鄧析，不得不誅也。
+
+可以生而生，天福也；可以死而死，天福也。可以生而不生，天罰也；可以死而不死，天罰也。可以生，可以死，得生得死，有矣；不可以生，不可以死，或死或生，有矣。然而生生死死，非物非我，皆命也，智之所无柰何。故曰：「窈然无際，天道自會，漠然无分，天道自運。天地不能犯，聖智不能干，鬼魅不能欺。自然者，默之成之，平之寧之，將之迎之。
+
+楊朱之友曰季梁。季梁得疾，十日大漸。其子環而泣之，請醫。季梁謂楊朱曰：「吾子不肖如此之甚，汝奚不為我歌以曉之？」楊朱歌曰：「天其弗識，人胡能覺？匪祐自天，弗孽由人。我乎汝乎！其弗知乎！醫乎巫乎！其知之乎？」其子弗曉終謁三醫。一曰矯氏，二曰俞氏，三曰盧氏，診其所疾。矯氏謂季梁曰：「汝寒溫不節，虛實失度，病由飢飽色欲。精慮煩散，非天非鬼，雖漸，可攻也。」季梁曰：「眾醫也，亟屏之！」俞氏曰：「女始則胎氣不足，乳湩有餘。病非一朝一夕之故，其所由來漸矣，弗可已也。」季梁曰：「良醫也，且食之！」盧氏曰：「汝疾不由天，亦不由人，亦不由鬼。稟生受形，既有制之者矣，亦有知之者矣，藥石其如汝何？」季梁曰：「神醫也，重貺遣之！」俄而季梁之疾自瘳。
+
+生非貴之所能存，身非愛之所能厚；生亦非賤之所能夭，身亦非輕之所能薄。故貴之或不生，賤之或不死；愛之亦不厚，輕之或不薄。此似反也，非反也；此自生自死，自厚自薄。或貴之而生，或賤之而死；或愛之而厚，或輕之而薄。此似順也，非順也，此亦自生自死，自厚自薄。鬻熊語文王曰：「自長非所增，自短非所損。算之所亡若何？」老聃語關尹曰：「天之所惡，孰知其故？」言迎天意，揣利害，不如其已。
+
+楊布問曰：「有人於此，年兄弟也，言兄弟也，才兄弟也，貌兄弟也；而壽夭父子也，貴賤父子也，名譽父子也，愛憎父子也。吾惑之。」楊子曰：「古之人有言，吾嘗識之，將以告若。不知所以然而然，命也。今昏昏昧昧，紛紛若若，隨所為，隨所不為。日去日來，孰能知其故？皆命也。夫信命者亡壽夭，信理者亡是非；信心者亡逆順信性者亡安危。則謂之都亡所信，亡所不信。真矣，愨矣，奚去奚就？奚哀奚樂？奚為奚不為？黃帝之書云：『至人居若死，動若械。』亦不知所以居，亦不知所以不居；亦不知所以動，亦不知所以不動。亦不以眾人之觀易其情貌，亦不謂眾人之不觀不易其情貌。獨往獨來，獨出獨入，孰能礙之？」
+
+墨杘、單至、嘽咺、憋懯四人相與游於世，胥如志也；窮年不相知情，自以智之深也。巧佞、愚直、婩斫、便辟四人相與游於世，胥如志也；窮年而不相語術，自以巧之微也。㺒㤉、情露、謇極、凌誶四人相與游於世，胥如志也；窮年不相曉悟，自以為才之得也。眠娗、諈諉、勇敢、怯疑四人相與游於世，胥如志也；窮年不相讁發，自以行无戾也。多偶、自專、乘權、隻立四人相與游於世，胥如志也；窮年不相顧眄，自以時之適也。此眾態也。貌不一，而咸之於道，命所歸也。
+
+佹佹成者，俏成也，初非成也。佹佹敗者，俏敗者也，初非敗也。故迷生於俏，俏之際昧然。於俏而不昧然，則不駭外禍，不喜內福；隨時動，隨時止，智不能知也。信命者，於彼我无二心。於彼我而有二心者，不若揜目塞耳，背坂面隍，亦不墜仆也。故曰：死生自命也，貧窮自時也。怨夭折者，不知命者也；怨貧窮者，不知時者也。當死不懼，在窮不戚，知命安時也。其使多智之人，量利害，料虛實，度人情，得亦中，亡亦中。其少智之人，不量利害，不料虛實，不度人情，得亦中，亡亦中。量與不量，料與不料，度與不度，奚以異？唯亡所量，亡所不量，則全而亡喪。亦非知全，亦非知喪，自全也，自亡也，自喪也。
+
+齊景公游於牛山，北臨其國城而流涕曰：「美哉國乎！鬱鬱芊芊，若何滴滴去此國而死乎？使古无死者，寡人將去斯而之何？」史孔、梁丘據皆從而泣曰：「臣賴君之賜，跪食惡肉，可得而食，駑馬稜車，可得而乘也，且猶不欲死，而況吾君乎？」晏子獨笑於旁。公雪涕而顧晏子曰：「寡人今日之游悲。孔與據皆從寡人而泣，子之獨笑，何也？」晏子對曰：「使賢者常守之，則太公、桓公將常守之矣；使有勇者而常守之，則莊公、靈公將常守之矣。數君者將守之，吾君方將被蓑笠而立乎畎畝之中，唯事之恤，行假念死乎？則吾君又安得此位而立焉？以其迭處之，迭去之，至於君也，而獨為之流涕，是不仁也。見不仁之君，見諂諛之臣；臣見此二者，臣之所為獨竊笑也。」景公慚焉，舉觴自罰；罰二臣者，各二觴焉。
+
+魏人有東門吳者，其子死而不憂。其相室曰：「公之愛子，天下无有。今子死不憂，何也？」東門吳曰：「吾常无子，无子之時不憂。今子死，乃與嚮无子同，臣奚憂焉？」
+
+農赴時，商趣利，工追術，仕逐勢，勢使然也。然農有水旱，商有得失，工有成敗，仕有遇否，命使然也。
+
+
+### 楊朱
+
+楊朱游於魯，舍於孟氏。孟氏問曰：「人而已矣，奚以名為？」曰：「以名者為富。」既富矣，奚不已焉？「曰：「為貴」。「既貴矣，奚不已焉？」曰：「為死」。「既死矣，奚為焉？」曰：「為子孫。」「名奚益於子孫？」曰：「名乃苦其身，燋其心。乘其名者澤及宗族，利兼鄉黨；況子孫乎？」「凡為名者必廉廉斯貧；為名者必讓，讓斯賤。」曰：「管仲之相齊也，君淫亦淫，君奢亦奢，志合言從，道行國霸，死之後，管氏而已。田氏之相齊也，君盈則己降，君歛則己施，民皆歸之，因有齊國；子孫享之，至今不絕。」「若實名貧，偽名富。」曰：「實無名，名無實；名者，偽而已矣。昔者堯舜偽以天下讓許由、善卷，而不失天下，享祚百年。伯夷、叔齊實以孤竹君讓，而終亡其國，餓死於首陽之山。實偽之辯，如此其省也。」
+
+楊朱曰：「百年壽之大齊；得百年者，千无一焉。設有一者，孩抱以逮昏老，幾居其半矣。夜眠之所弭，晝覺之所遺又幾居其半矣。痛疾哀苦，亡失憂懼，又幾居其半矣。量十數年之中，逌然而自得，亡介焉之慮者，亦亡一時之中爾。則人之生也奚為哉？奚樂哉？為美厚爾，為聲色爾。而美厚復不可常猒足，聲色不可常翫聞。乃復為刑賞之所禁勸，名法之所進退；遑遑爾競一時之虛譽，規死後之餘榮；偊偊爾順耳目之觀聽，惜身意之是非；徒失當年之至樂，不能自肆於一時。重囚纍梏，何以异哉？太古之人，知生之暫來，知死之暫往，故從心而動，不違自然所好，當身之娛，非所去也，故不為名所觀。從性而游，不逆萬物所好，死後之名，非所取也，故不為刑所及。名譽先後，年命多少，非所量也。」
+
+楊朱曰：「萬物所異者生也，所同者死也；生則有賢愚貴賤，是所異也；死則有臭腐消滅，是所同也。雖然，賢愚貴賤，非所能也；臭腐消滅，亦非所能也。故生非所生，死非所死，賢非所賢，愚非所愚，貴非所貴，賤非所賤。然而萬物齊生齊死，齊賢齊愚，齊貴齊賤。十年亦死，百年亦死，仁聖亦死凶愚亦死。生則堯舜，死則腐骨；生則桀紂，死則腐骨。腐骨一矣，孰知其異？且趣當生，奚遑死後？」
+
+楊朱曰：「伯夷非亡欲，矜清之卸，以放餓死。展李非亡情，矜貞之卸，以放寡宗。清貞之誤善之若此。」
+
+楊朱曰：「原憲窶於魯，子貢殖於衛。原憲之窶損生，子貢之殖累身。」「然則窶亦不可，殖亦不可，其可焉在？」曰：「可在樂生，可在逸身。故善樂生者不窶，善逸身者不殖。」
+
+楊朱曰：「古語有之：『生相憐，死相捐。』此語至矣。相憐之道，非唯情也；勤能使逸，饑能使飽，寒能使溫，窮能使達也。相捐之道，非不相哀也；不含珠玉，不服文錦，不陳犧牲，不設明器也。」
+
+晏平仲問養生於管夷吾。管夷吾曰：「肆之而已，勿壅勿閼。」晏平仲曰：「其目柰何？」夷吾曰：「恣耳之所欲聽，恣目之所欲視，恣鼻之所欲向，恣口之所欲言，恣體之所欲安，恣意之所欲行。夫耳之所欲聞者音聲，而不得聽，謂之閼聰；目之所欲見者美色，而不得視，謂之閼明；鼻之所欲向者椒蘭，而不得嗅，謂之閼顫；口之所欲道者是非，而不得言，謂之閼智；體之所欲安者美厚，而不得從，謂之閼適；意之所欲為者放逸，而不得行，謂之閼性。凡此諸閼，廢虐之主。去廢虐之主，熙熙然以俟死，一日一月，一年十年，吾所謂養。拘此廢虐之主，錄而不舍，戚戚然以至久生，百年千年萬年，非吾所謂養。」管夷吾曰：「吾既告子養生矣，送死柰何？」晏平仲曰：「送死略矣，將何以告焉？」管夷吾曰：「吾固欲聞之。」平仲曰：「既死，豈在我哉？焚之亦可，沈之亦可，瘞之亦可，露之亦可，衣薪而棄諸溝壑亦可，袞文繡裳而納諸石椁亦可，唯所遇焉。」管夷吾顧謂鮑叔黃子曰：「生死之道，吾二人進之矣。」
+
+子產相鄭，專國之政三年，善者服其化，惡者畏其禁，鄭國以治。諸侯憚之。而有兄曰公孫朝，有弟曰公孫穆。朝好酒，穆好色。朝之室也，聚酒千鐘，積麴成封，望門百步，糟漿之氣逆於人鼻。方其荒於酒也，不知世道之安危，人理之悔吝，室內之有亡，九族之親踈，存亡之哀樂也。雖水火兵刃交於前，弗知也。穆之後庭，比房數十，皆擇稚齒婑媠者以盈之。方其聃於色也，屏親昵，絕交游，逃於後庭，以晝足夜；三月一出，意猶未愜。鄉有處子之娥姣者，必賄而招之，媒而挑之，弗獲而後已。子產日夜以為戚，密造鄧析而謀之曰：「喬聞治身以及家，治家以及國，此言自於近至於遠也。喬為國則治矣，而家則亂矣！其道逆邪？將奚方以救二子？子其詔之！」鄧析曰：「吾怪之久矣！未敢先言。子奚不時其治也，喻以性命之重，誘以禮義之尊乎？」子產用鄧析之言，因閒以謁其兄弟而告之曰：「人之所以貴於禽獸者智慮，智慮之所將者禮義。禮義成則名位至矣。若觸情而動，聃於嗜慾，則性命危矣。子納喬之言，則朝自悔而夕食祿矣。」朝、穆曰：「吾知之久矣，擇之亦久矣，豈待若言而後識之哉！凡生之難遇，而死之易及；以難遇之生，俟易及之死，可孰念哉？而欲尊禮義以夸人，矯情性以招名，吾以此為弗若死矣。為欲盡一生之歡，窮當年之樂，唯患腹溢而不得恣口之飲，力憊而不得肆情於色，不遑憂名聲之醜，性命之危也。且若以治國之能夸物，欲以說辭亂我之心，榮祿喜我之意，不亦鄙而可憐哉！我又欲與若別之。夫善治外者，物未必治，而身交苦；善治內者，物未必亂，而性交逸。以若之治外，其法可蹔行於一國，未合於人心；以我之治內，可推之於天下，君臣之道息矣。吾常欲以此術而喻之，若反以彼術而教我哉？」子產忙然无以應之。他日以告鄧析。鄧析曰：「子與真人居而不知也，孰謂子智者乎？鄭國之治偶耳，非子之功也。」
+
+衛端木叔者，子貢之世也。藉其先貲，家累萬金。不治世故，放意所好。其生民之所欲為，人意之所欲玩者，无不為也，无不玩也。牆屋臺榭，園囿池沼，飲食車服，聲樂嬪御，擬齊楚之君焉。至其情所欲好，耳所欲聽，目所欲視，口所欲嘗，雖殊方偏國，非齊土之所產育者，无不必致之，猶藩牆之物也。及其游也，雖山川阻險，塗逕脩遠，无不必之，猶人之行咫步也。賓客在庭者日百住，庖廚之下，不絕煙火；堂廡之上，不絕聲樂。奉養之餘，先散之宗族；宗族之餘，次散之邑里；邑里之餘，乃散之一國。行年六十，氣幹將衰，棄其家事，都散其庫藏、珍寶、車服、妾媵，一年之中盡焉，不為子孫留財。及其病也，无藥石之儲；及其死也；无瘞埋之資。一國之人，受其施者，相與賦而藏之，反其子孫之財焉。禽骨釐聞之曰：「端木叔狂人也，辱其祖矣。」段干生聞之曰：「木叔達人也，德過其祖矣。其所行也，其所為也，聚意所經，而誠理所取。衛之君子多以禮教自持，固未足以得此人之心也。」
+
+孟孫陽問楊子曰：「有人於此，貴生愛身，以蘄不死，可乎？」曰：「理无不死。」「以蘄久生，可乎？」曰：「理无久生。生非貴之所能存，身非愛之所能厚。且久生奚為？五情好惡，古猶今也；四體安危，古猶今也；世事苦樂，古猶今也；變易治亂，古猶今也。既聞之矣，既見之矣，既更之矣，百年猶厭其多，況久生之苦也乎？」孟孫陽曰：『若然，速亡愈於久生；則踐鋒刃，入湯火，得所志矣。「楊子曰：「不然。既生，則廢而任之，究其所欲，以俟於死。將死則廢而任之，究其所之，以放於盡。无不廢，无不任，何遽遟速於其閒乎？」
+
+楊朱曰：「伯成子高不以一毫利物，舍國而隱耕。大禹不以一身自利，一體偏枯。古之人，損一毫利天下，不與也，悉天下奉一身，不取也。人人不損一毫，人人不利天下，天下治矣。」禽子問楊朱曰：「去子體之一毛，以濟一世，汝為之乎？」楊子曰：「世固非一毛之所濟。」禽子曰：「假濟，為之乎？」楊子弗應。禽子出，語孟孫陽。孟孫陽曰：「子不達夫子之心，吾請言之。有侵若肌膚獲萬金者，若為之乎？」曰：「為之。」孟孫陽曰：「有斷若一節得一國。子為之乎？」禽子默然有閒。孟孫陽曰：「一毛微於肌膚，肌膚微於一節，省矣。然則積一毛以成肌膚，積肌膚以成一節。一毛固一體萬分中之一物，柰何輕之乎？」禽子曰：「吾不能所以荅子。然則以子之言問老聃、關尹，則子言當矣；以吾言問大禹、墨翟，則吾言當矣。」孟孫陽因顧與其徙說他事。
+
+楊朱曰：「天下之美歸之舜、禹、周、孔，天下之惡歸之桀、紂。然而舜耕於河陽，陶於雷澤，四體不得蹔安，口腹不得美厚；父母之所不愛，弟妹之所不親。行年三十，不告而娶。及受堯之禪，年已長，智已衰。商鈞不才，禪位於禹，戚戚然以至於死：此天人窮毒者也。鯀治水土，績用不就，殛諸羽山。禹纂業事讎，惟荒土功，子產不字，過門不入；身體偏枯，手足胼胝。及受舜禪，卑宮室，美紱冕，戚戚然以至於死：此天人之憂苦者也。武王既終，成王幼弱，周公攝天子之政。邵公不悅，四國流言。居東三年，誅兄放弟，僅免其身，戚戚然以至於死：此天人之危懼者也。孔子明帝王之道，應時君之聘，伐樹於宋，削迹於衛，窮於商周，圍於陳蔡，受屈於季氏，見辱於陽虎，戚戚然以至於死：此天民之遑遽者也。凡彼四聖者，生无一日之歡，死有萬世之名。名者，固非實之所取也。雖稱之弗知，雖賞之不知，與株塊无以異矣。桀藉累世之資，居南面之尊，智足以距群下，威足以震海內；恣耳目之所娛，窮意慮之所為，熙熙然以至於死：此天民之逸蕩者也。紂亦藉累世之資，居南面之尊；威无不行，志无不從；肆情於傾宮，縱欲於長夜；不以禮義自苦，熙熙然以至於誅：此天民之放縱者也。彼二凶也，生有從欲之歡，死被愚暴之名。實者固非名之所與也，雖毀之不知，雖稱之弗知，此與株塊奚以異矣。彼四聖雖美之所歸，苦以至終，同歸於死矣。彼二凶雖惡之所歸，樂以至終，亦同歸於死矣。」
+
+楊朱見梁王，言治天下如運諸掌。梁王曰：「先生有一妻一妾，而不能治；三畝之園，而不能芸，而言治天下如運諸掌，何也？」對曰：「君見其牧羊者乎？百羊而群，使五尺童子荷箠而隨之，欲東而東，欲西而西。使堯牽一羊，舜荷箠而隨之，則不能前矣。且臣聞之：吞舟之魚，不游枝流；鴻鵠高飛，不集汙池。何則？其極遠也。黃鐘大呂，不可從煩奏之舞，何則？其音䟽也。將治大者不治細，成大功者不成小，此之謂矣。」
+
+楊朱曰：「太古之事滅矣，孰誌之哉？三皇之事，若存若亡；五帝之事，若覺若夢；三王之事，或隱或顯，億不識一。當身之事，或聞或見，萬不識一。目前之事或存或廢，千不識一。太古至于今日，年數固不可勝紀。但伏羲已來三十餘萬歲，賢愚、好醜、成敗、是非，无不消滅，但遟速之閒耳。矜一時之毀譽，以焦苦其神形，要死後數百年中餘名，豈足潤枯骨？何生之樂哉？」
+
+楊朱曰：「人肖天地之類，懷五常之性，有生之最靈者人也。人者，爪牙不足以供守衛，肌膚不足以自捍禦，趨走不足以逃利害，无毛羽以禦寒暑，必將資物以為養，性任智而不恃力。故智之所貴，存我為貴；力之所賤，侵物為賤。然身非我有也，既生不得不全之；物非我有也，既有不得而1去之。身固生之主，物亦養之主。雖全生身，不可有其身；雖不去物，不可有其物。有其物有其身，是橫私天下之身，橫私天下之物2。其唯聖人乎！公天下之身，公天下之物，其唯至人矣！此之謂至至者也。」
+
+楊朱曰：「生民之不得休息，為四事故：一為壽，二為名，三為位，四為貨。有此四者，畏鬼，畏人，畏威，畏刑，此謂之遁人也。可殺可活，制命在外。不逆命，何羨壽？不矜貴，何羨名？不要勢，何羨位？不貪富，何羨貨？此之謂順民也。天下无對，制命在內，故語有之曰：人不婚宦，情欲失半；人不衣食，君臣道息。周諺曰：「田父可坐殺。晨出夜入，自以性之恆；啜菽茹藿，自以味之極；肌肉麤厚，筋節腃急，一朝處以柔毛綈幕，薦以粱肉蘭橘，心㾓體煩，內熱生病矣。商魯之君與田父侔地，則亦不盈一時而憊矣。故野人之所安，野人之所美，謂天下无過者。昔者宋國有田夫，常衣縕黂，僅以過冬。暨春東作，自曝於日，不知天下之有廣廈隩室，綿纊狐狢。顧謂其妻曰：『負日之煊，人莫知者；以獻吾君，將有重賞。』里之富室告之曰：『昔人有美戎菽，甘枲莖芹萍子者，對鄉豪稱之。鄉豪取而嘗之，蜇於口，慘於腹，眾哂而怨之，其人大慚。子此類也。』」
+
+楊朱曰：「豐屋美服，厚味姣色，有此四者，何求於外？有此而求外者，无猒之性。无猒之性，陰陽之蠹也。忠不足以安君，適足以危身；義不足以利物，適足以害生。安上不由於忠，而忠名滅焉；利物不由於義，而義名絕焉。君臣皆安，物我兼利，古之道也。鬻子曰：『去名者无憂。』老子曰：『名者實之賓。』而悠悠者趨名不已。名固不可去？名固不可賓邪？今有名則尊榮，亡名則卑辱；尊榮則逸樂，卑辱則憂苦。憂苦，犯性者也；逸樂，順性者也，斯實之所係矣。名胡可去？名胡可賓？但惡夫守名而累實。守名而累實，將恤危亡之不救，豈徒逸樂憂苦之閒哉？」
+
+
+### 說符
+
+子列子學於壺丘子林。壺丘子林曰：「子知持後，則可言持身矣。」列子曰：「願聞持後。」曰：「顧若影，則知之。」列子顧而觀影：形枉則影曲，形直則影正。然則枉直隨形而不在影，屈申任物而不在我，此之謂持後而處先。
+
+關尹謂子列子曰：「言美則響美，言惡則響惡；身長則影長，身短則影短。名也者，響也；身也者，影也。故曰：慎爾言，將有知之；慎爾行，將有隨之，是故聖人見出以知入，觀往以知來，此其所以先知之理也。度在身，稽在人。人愛我，我必愛之；人惡我，我必惡之。湯武愛天下，茲王；桀、紂惡天下，故亡，此所稽也。稽度皆明而不道也，譬之出不由門，行不從徑也。以是求利，不亦難乎？嘗觀之神農、有炎之德，稽之虞、夏、商、周之書，度諸法士賢人之言，所以存亡廢興而非由此道者，未之有也。」
+
+嚴恢曰：「所為問道者為富，今1得珠亦富矣，安用道？」子列子曰：「桀、紂唯重利而輕道，是以亡。幸哉余未汝語也！人而无義，唯食而已，是雞狗也。彊食靡角，勝者為制，是禽獸也。為雞狗禽獸矣，而欲人之尊己，不可得也。人不尊己，則危辱及之矣。」
+
+列子學射，中矣，請於關尹子。尹子曰：「子知子之所以中者乎？」對曰：「弗知也。」關尹子曰：「未可。」退而習之。三年，又以報關尹子。尹子曰：「子知子之所以中乎？」列子曰：「知之矣。」關尹子曰：「可矣，守而勿失也。非獨射也，為國與身，亦皆如之。故聖人不察存亡，而察其所以然。」
+
+列子曰：「色盛者驕，力盛者奮，未可以語道也。故不班白語道矣，而況行之乎？故自奮則人莫之告。人莫之告，則孤而無輔矣1。賢者任人，故年老而不衰，智盡而不亂。故治國之難，在於知賢而不在自賢。」
+
+宋人有為其君以玉為楮葉者，三年而成。鋒殺莖柯，毫芒繁澤，亂之楮葉中，而不可別也。此人遂以巧食宋國。子列子聞之曰：「使天地之生物，三年而成一葉，則物之有葉者寡矣。故聖人恃道化而不恃智巧。」
+
+子列子窮，容貌有飢色。客有言之鄭子陽者，曰：「列禦寇蓋有道之士也，居君之國而窮。君无乃為不好士乎？」鄭子陽即令官遺之粟。子列子出，見使者，再拜而辭。使者去。子列子入，其妻望之而拊心曰：「妾聞為有道者之妻子，皆得佚樂，今有饑色，君遇而遺先生食。先生不受，豈不命也哉？」子列子笑謂之曰：「君非自知我也。以人之言而遺我粟，至1其罪我也，又且以人之言，此吾所以不受也。」其卒，民果作難，而殺子陽。
+
+魯施氏有二子，其一好學，其一好兵。好學者以術干齊侯；齊侯納之以為諸公子之傅。好兵者之楚，以法干楚王；王悅之，以為軍正。祿富其家，爵榮其親。施氏之鄰人孟氏，同有二子，所業亦同，而窘於貧。羨施氏之有，因從謂進趣之方。二子以實告孟氏。孟氏之一子之秦，以愆干秦王。秦王曰：「當今諸侯力爭，所務兵食而已。若用仁義治吾國，是滅亡之道。」遂官而放之。其一子之衛，以法干衛侯。衛侯曰：「吾弱國也，而攝乎大國之間。大國吾事之，小國吾撫之，是求家之道。者賴兵權，滅亡可待矣。若全而歸之，適於他國。為吾之患不輕矣。」遂則1之而還諸魯。既反，孟氏之父子叩胸而讓施氏。施氏曰：「凡得時者昌，失時者亡。子道與吾同，而功與吾異，失時者也，非行之謬也。且天下理无常是，事无常非。先日所用，今或棄之；今之所棄，後或用之。此用與不用，无定是非也。投隙抵時，應事无方，屬乎智，智苟2足，使若博如孔丘，術如呂尚，焉往而不窮哉？」孟氏父子舍然无慍容，曰：「吾知之矣，子勿重言！」
+
+晉文公出，會欲伐衛，公子鋤仰天而笑。公問何笑。曰：「臣笑鄰之人有送其妻適私家者，道見桑婦，悅而與言。然顧視其妻，亦有招之者矣。臣竊笑此也。「公寤其言乃止。引師而還，未至而有伐其北鄙者矣。
+
+晉國苦盜，有郄雍者，能視盜之眼，察其眉睫之閒而得其情。晉侯使視盜，千百无遺一焉。晉侯大喜，告趙文子曰：「吾得一人，而一國盜為盡矣，奚用多為？」文子曰：「吾君恃伺察而得盜，盜不盡矣，且郄雍必不得其死焉。」俄而群盜謀曰：『吾所窮者郄雍也。「遂共盜而殘之。晉侯聞而大駭，立召文子而告之曰：「果如子言，郄雍死矣！然取盜何方？」文子曰：「周諺有言：察見淵魚者不祥，智料隱匿者有殃。』君欲无盜，若莫舉賢而任之；使教明於上，化行於下，民有恥心，則何盜之為？」於是用隨會知政，而群盜奔秦焉。
+
+孔子自衛反魯，息駕乎河梁而觀焉。有懸水三十仞，圜流九十里，魚鱉弗能游，黿鼉弗能居，有一丈夫，方將厲之。孔子使人並涯止之曰：「此懸水三十仞，圜流九十里，魚鱉弗能游，黿鼉弗能居也。意者難可以濟乎？」丈夫不以錯意，遂度而出。孔子問之曰：「巧乎？有道術乎？所以能入而出者何也？」丈夫對曰：『始吾之入也，先以忠信；及吾之出也，又從以忠信。忠信錯吾軀於波流，而吾不敢用私，所以能入而復出者，以此也。孔子謂弟子曰：「二三子識之！水且猶可以忠信誠身親之，而況人乎？」
+
+白公問孔子曰：「人可與微言乎？」孔子不應。白公問曰：「若以石投水何如？」孔子曰：「吳之善沒者能取之。」曰：「若以水投水何如？」孔子曰：「淄、澠之合，易牙嘗而知之。」白公曰：「人故不可與微言乎？」孔子曰：「何為不可？唯知言之謂者乎！夫知言之謂者，不以言言也。爭魚者濡，逐獸者趨，非樂之也。故至言去言，至為无為。夫淺知之所爭者，末矣。」白公不得已，遂死於浴室。
+
+趙襄子使新穉穆子攻翟，勝之，取左人中人；使遽人來謁之。襄子方食而有憂色。左右曰：「一朝而兩城下，此人之所喜也；今君有憂色，何也？」襄子曰：「夫江河之大也，不過三日；飄風暴雨不終朝，日中不須臾。今趙氏之德行，无所施於積，一朝而兩城下，亡其及我哉！」孔子聞之曰：「趙氏其昌乎！夫憂者所以為昌也，喜者所以為亡也。勝非其難者也；持之其難者也。賢主以此持勝，故其福及後世。齊、楚、吳、越皆嘗勝矣，然卒取亡焉，不達乎持勝也。唯有道之主為能持勝。」孔子之勁，能拓國門之關，而不肯以力聞。墨子為守攻，公輸般服，而不肯以兵知。故善持勝者，以彊為弱。
+
+宋人有好行仁義者，三世不懈。家无故黑牛生白犢，以問孔子。孔子曰：「此吉祥也，以薦上帝。」居一年，其父无故而盲，其牛又復生白犢。其父又復令其子問孔子。其子曰：「前問之而失明，又何問乎？」父曰：「聖人之言先迕後合。其事未究，姑復問之。」其子又復問孔子。孔子曰：「吉祥也。」復教以祭。其子歸致命。其父曰：「行孔子之言也。」居一年，其子又无故而盲。其後楚攻宋，國其城。民易子而食之，析骸而炊之；丁壯者皆乘城而戰，死者太半。此人以父子有疾，皆免。及圍解而疾俱復。
+
+宋有蘭子者，以技干宋元。宋元召而使見其技，以雙枝長倍其身，屬其脛，並趨並馳，弄七劍，迭而躍之，五劍常在空中。元君大驚，立賜金帛。又有蘭子又能燕戲者，聞之，復以干元君。元君大怒曰：「昔有異技干寡人者，技无庸，適值寡人有歡心，故賜金帛。彼必聞此而進，復望吾賞。」拘而戮之，經月乃放。
+
+秦穆公謂伯樂曰：「子之年長矣，子姓有可使求馬者乎？」伯樂對曰：「良馬，可形容筋骨相也。天下之馬者，若滅若沒，若亡若失，若此者絕塵弭轍。臣之子皆下才也，可告以良馬，不可告以天下之馬也。臣有所與共擔纆薪菜者，有九方皋，比其於馬，非臣之下也。請1見之。」穆公見之，使行求馬。三月而反，報曰：「已得之矣，在沙丘。」穆公曰：「何馬也？」對曰：「牝而黃。」使人往取之，牡而驪。穆公不說，召伯樂而謂之曰：「敗矣，子所使求馬者！色物、牝牡尚弗能知，又何馬之能知也？」伯樂喟然太息曰：「一至於此乎！是乃其所以千萬臣而无數者也。若皋之所觀，天機也，得其精忘其麤，在其內而忘其外；見其所見，不見其所不見；視其所視，而遺其所不視。若皋之相者，乃有貴乎馬者也。」馬至，果天下之馬也。
+
+楚莊王問詹何曰：「治國柰何？」詹何對曰：「臣明於治身而不明於治國也。」楚莊王曰：「寡人得奉宗廟社稷，願學所以守之。」詹何對曰：「臣未嘗聞身治而國亂者也，又未嘗聞身亂而國治者也。故本在身，不敢對以末。」楚王曰：「善！」
+
+狐丘丈人謂孫叔敖曰：「人有三怨，子知之乎？」孫叔敖曰：「何謂也？」對曰：「爵高者人妬之，官大者主惡之，祿厚者怨遠之。」孫叔敖曰：「吾爵益高，吾志益下；吾官益大，吾心益小；吾祿益厚，吾施益博。以是免於三怨，可乎？」
+
+孫叔敖疾將死，戒其子曰：「王亟封我矣，吾不受也，為我死，王則封汝。汝必无受利地！楚、越之閒，有寢丘者，此地不利而名甚惡。楚人鬼而越人禨，可長有者唯此也。」孫叔敖死，王果以美地封其子。子辭而不受，請寢丘。與之，至今不失。
+
+牛缺者，上地之大儒也，下之邯鄲，遇盜於耦沙之中，盡取其衣裝車，牛步而去。視之，歡然无憂𠫤之色。盜追而問其故。曰：「君子不以所養害其所養。」盜曰：「嘻！賢矣夫！」既而相謂曰：「以彼之賢，往見趙君。便以我為，必困我。不如殺之。」乃相與追而殺之。燕人聞之，聚族相戒，曰：「遇盜莫如上地之牛缺也！」皆受教。俄而其弟適秦，至闕下，果遇盜。憶其兄之戒，因與盜力爭；既而不如，又追而以卑辭請物。盜怒曰：「吾活汝弘矣，而追吾不已，迹將箸焉。既為盜矣，仁將焉在？」遂殺之，又傍害其黨四五人焉。
+
+虞氏者，梁之富人也，家充殷盛，錢帛无量，財貨无訾。登高樓，臨大路，設樂陳酒，擊博樓上，俠客相隨而行，樓上博者射，明瓊張中，反兩㯓魚而笑。飛鳶適墜其腐鼠而中之。俠客相與言曰：「虞氏富樂之日久矣，而常有輕易人之志。吾不侵犯之，而乃辱我以腐鼠。此而不報，无以立慬於天下。請與若等戮力一志，率徒屬，必滅其家為等倫。」皆許諾。至期日之夜，聚眾積兵，以攻虞氏，大滅其家。
+
+東方有人焉，曰爰旌目，將有適也，而餓於道。狐父之盜曰丘，見而下壺餐以餔之。爰旌目三餔而後能視，曰：「子何為者也？」曰：「我狐父之人丘也。」爰旌目曰：「譆！汝非盜邪？胡為而餐我？吾義不食子之食也。」兩手據地而歐之，不出，喀喀然遂伏而死。狐父之人則盜矣，而食非盜也。以人之盜，因謂食為盜而不敢食，是失名實者也。
+
+柱厲叔事莒敖公，自為不知己，去，居海上。夏日則食菱芰，冬日則食橡栗。莒敖公有難，柱厲叔辭其友而往死之。其友曰：「子自以為不知己，故去；今往死之，是知與不知无辨也。」柱厲叔曰：「不然。自以為不知。故去；今死，是果不知我也。吾將死之，以醜後世之人主不知其臣者也。」凡知則死之，不知則弗死，此直道而行者也。柱厲叔可謂懟以忘其身者也。
+
+楊朱曰：「利出者實及，怨往者害來。發於此而應於外者唯請，是故賢者慎所出。」
+
+楊子之鄰人亡羊，既率其黨，又請楊子之豎追之。楊子曰：「嘻！亡一羊何追者之眾？」鄰人曰：「多岐路。」既反，問：「獲羊乎？」曰：「亡之矣。」曰：「奚亡之？」曰：「岐路之中又有岐焉。吾不知所之，所以反也。」楊子戚然變容，不言者移時，不笑者竟日。門人怪之，請曰：「羊賤畜，又非夫子之有，而損言笑者何哉？」揚子不荅。門人不獲所命。弟子孟孫陽出，以告心都子。心都子他日與孟孫陽偕入而問曰：『昔有昆弟三人，游齊、魯之閒，同師而學，進仁義之道而歸。其父曰：『仁義之道若何？』伯曰：『仁義使我愛身而後名。』仲曰：『仁義使我殺身以成名。』叔曰：『仁義使我身名並全。』彼三術相反，而同出於儒。孰是孰非邪？「楊子曰：「人有濱河而居者，習於水，勇於泅，操舟鬻渡，利供百口，裹糧就學者成徒，而溺死者幾半。本學泅不學溺，而利害如此。若以為孰是孰非？」心都子嘿然而出。孟孫陽讓之曰：「何吾子問之迂，夫子荅之僻？吾惑愈甚。」心都子曰：「大道以多岐亡羊，學者以多方喪生。學非本不同，非本不一，而末異若是。唯歸同反一，為亡得喪。子長先生之門，習先生之道，而不達先生之況也，哀哉！」
+
+楊朱之弟曰布，衣素衣而出。天雨，解素衣，衣緇衣而反。其狗不知，迎而吠之。楊布怒將扑之。楊朱曰：「子無扑矣！子亦猶是也。嚮者使汝狗白而往黑而來，豈能无怪哉？」
+
+楊朱曰：「行善不以為名而名從之；名不與利期而利歸之；利不與爭期而爭及之：故君子必慎為善。」
+
+昔人言有知不死之道者，燕君使人受之，不捷，而言者死。燕君甚怒其使者，將加誅焉。幸臣諫曰：「人所憂者莫急乎死，己所重者莫過乎生。彼自喪其生，安能令君不死也？」乃不誅。有齊子亦欲學其道，聞言者之死，乃撫膺而恨。富子聞而笑之曰：「夫所欲學不死，其人已死，而猶恨之，是不知所以為學。」胡子曰：「富子之言非也。凡人有術不能行者有矣，能行而无其術者亦有矣。衛人有善數者，臨死，以決喻其子。志其言而不能行也。他人問之，以其父所言告之。問者用其言而行其術，與其父无差焉。若然，死者奚為不能言生術哉？」
+
+邯鄲之民，以正月之旦獻鳩於𥳑子，𥳑子大悅，厚賞之。客問其故。𥳑子曰：「正旦放生，示有恩也。」客曰：「民知君之欲放之，故競而捕之，死者眾矣。君如欲生之，不若禁民勿捕。捕而放之，恩過不相補矣。」𥳑子曰：「然。」
+
+齊田氏祖於庭，食客千人。中坐有獻魚鴈者。田氏視之，乃歎曰：「天之於民厚矣！殖五穀，生魚鳥，以為之用。眾客和之如響。鮑氏之子年十二，預於次，進曰：「不如君言。天地萬物，與我並生類也。類无貴賤，徒以小大智力而相制，迭相食；非相為而生之。人取可食者而食之，豈天本為人生之？且蚊蚋噆膚，虎狼食肉，非天本為蚊蚋生人、虎狠生肉者哉？」
+
+齊有貧者，常乞於城市。城市患其亟也，眾莫之與。遂適田氏之廄，從馬醫作役，而假食郭中。人戲之曰：「從馬醫而食，不以辱乎？」乞兒曰：「天下之辱莫過於乞。乞猶不辱，豈辱馬醫哉？」
+
+宋人有游於道，得人遺契者，歸而藏之，密數其齒。告鄰人曰：「吾富可待矣。」
+
+人有枯梧樹者，其鄰父言枯梧之樹不祥。其鄰人遽而伐之。鄰人父因請以為薪。其人乃不悅曰：「鄰人之父徒欲為薪，而教吾伐之也。與我鄰若此，其險豈可哉？」
+
+人有亡鈇者，意其鄰之子。視其行步，竊鈇也；顏色，竊鈇也；言語，竊鈇也；作動態度，无為而不竊鈇也。俄而抇其谷而得其鈇，他日復見其鄰人之子，動作態度，无似竊鈇者。
+
+白公勝慮亂，罷朝而立，倒杖策，錣上貫頤，血流至地而弗知也。鄭人聞之曰：「頭之忘，將何不忘哉？」意之所屬箸，其行足躓株埳，頭抵植木，而不自知也。
+
+昔齊人有欲金者，清旦衣冠而之市，適鬻金者之所，因攫其金而去。吏捕得之，問曰：「人皆在焉，子攫人之金何？」對曰：「取金之時，不見人，徒見金。」
+
+
+## 四、《文子》全本
+
+### 道原
+
+老子曰：「有物混成，先天地生，惟象無形，窈窈冥冥，寂寥淡漠，不聞其聲，吾強為之名，字之曰道。」夫道者，高不可極，深不可測，苞裹天地，稟受無形，原流泏泏，沖而不盈，濁以靜之徐清，施之無窮，無所朝夕，表之不盈一握，約而能張，幽而能明，柔而能剛，含陰吐陽，而章三光；山以之高，淵以之深，獸以之走，鳥以之飛，麟以之遊，鳳以之翔，星曆以之行；以亡取存，以卑取尊，以退取先。古者三皇，得道之統，立於中央，神與化遊，以撫四方。是故能天運地墆，輪轉而無廢，水流而不止，與物終始。風興雲蒸，雷聲雨降，並應無窮，已雕已琢，還復於樸。無為為之而合乎生死，無為言之而通乎德，恬愉無矜而得乎和，有萬不同而便乎生。和陰陽，節四時，調五行，潤乎草木，浸乎金石，禽獸碩大，毫毛潤澤，鳥卵不敗，獸胎不殰，父無喪子之憂，兄無哭弟之哀，童子不孤，婦人不孀，虹蜺不見，盜賊不行，含德之所致也。大常之道，生物而不有，成化而不宰，萬物恃之而生，莫知其德，恃之而死，莫之能怨，收藏畜積而不加富，布施稟受而不益貧；忽兮怳兮，不可為象兮，怳兮忽兮，用不詘兮，窈兮冥兮，應化無形兮，遂兮通兮，不虛動兮，與剛柔卷舒兮，與陰陽俯仰兮。
+
+老子曰：大丈夫恬然無思，惔然無慮，以天為蓋，以地為車，以四時為馬，以陰陽為御，行乎無路，遊乎無怠，出乎無門。以天為蓋則無所不覆也，以地為車則無所不載也，四時為馬則無所不使也，陰陽御之則無所不備也。是故疾而不搖，遠而不勞，四支不動，聰明不損，而照明天下者，執道之要，觀無窮之地。故天下之事不可為也，因其自然而推之，萬物之變不可救也，秉其要而歸之。是以聖人內修其本，而不外飾其末，厲其精神，偃其知見故漠然無為而無不為也，無治而無不治也。所謂無為者，不先物為也；無治者，不易自然也；無不治者，因物之相然也。
+
+老子曰：執道以御民者，事來而循之，物動而因之；萬物之化無不應也，百事之變無不耦也。故道者，虛無、平易、清靜、柔弱、純粹素樸，此五者，道之形象也。虛無者道之舍也，平易者道之素也，清靜者道之鑒也，柔弱者道之用也。反者道之常也，柔者道之剛也，弱者道之強也。純粹素樸者道之幹也。虛者中無載也，平者心無累也，嗜欲不載，虛之至也，無所好憎，平之至也，一而不變，靜之至也，不與物雜，粹之至也，不憂不樂，德之至也。夫至人之治也，棄其聰明，滅其文章，依道廢智，與民同出乎公。約其所守，寡其所求，去其誘慕，除其貴欲，捐其思慮。約其所守即察，寡其所求即得，故以中制外，百事不廢，中能得之則外能牧之。中之得也，五藏寧，思慮平，筋骨勁強，耳目聰明。大道坦坦，去身不遠，求之遠者，往而復返。
+
+老子曰：聖人忘乎治人，而在乎自理。貴忘乎勢位，而在乎自得，自得即天下得我矣；樂忘乎富貴，而在乎和，知大己而小天下，幾於道矣。故曰：「至虛極也，守靜篤也，萬物並作，吾以觀其復。」夫道者，陶冶萬物，終始無形，寂然不動，大通混冥，深閎廣大不可為外，折毫剖芒不可為內，無環堵之宇，而生有無之間也。真人體之以虛無、平易、清靜、柔弱、純粹素樸，不與物雜，至德天地之道，故謂之真人。真人者，大己而小天下，貴治身而賤治人，不以物滑和，不以欲亂情，隱其名姓，有道則隱，無道則見，為無為，事無事，知不知也，懷天道，包天心，噓吸陰陽，吐故納新，與陰俱閉，與陽俱開，與剛柔卷舒，與陰陽俯仰，與天同心，與道同體；無所樂，無所苦，無所喜，無所怒，萬物玄同，無非無是。夫形傷乎寒暑燥濕之虐者，形究而神杜，神傷於喜怒思慮之患者，神盡而形有餘。故真人用心，杖性依神，相扶而得終始，是以其寢不夢，覺而無憂。孔子問道。老子曰：正汝形，一汝視，天和將至；攝汝知，正汝度，神將來舍，德將為汝容，道將為汝居。瞳子，若新生之犢，而無求其故，形若枯木，心若死灰，真其實知而不以曲故自持，恢恢無心可謀，「明白四達，能無知乎？」
+
+老子曰：夫事生者應變而動，變生於時，無常之行。故「道可道，非常道也，名可名，非常名也。」書者言之所生也，言出於智，智者不知，非常道也；名可名，非藏書者也。「多聞數窮，不如守中」，「絕學無憂」，「絕聖棄智，民利百倍」。人生而靜，天之性也；感物而動，性之害也；物至而應，智之動也；智與物接，而好憎生焉；好憎成形，而智怵於外，不能反己，而天理滅矣。是故聖人不以人易天，外與物化而內不夫情，故通於道者，反於清靜，空於物者，終於無為。以恬養智，以漠合神，即乎無垠，循天者與道遊也，隨人者與俗交也；故聖人不以事滑天，不以欲亂情，不謀而當，不言而信，不慮而得，不為而成。是以處上而民不重，居前而人不害，天下歸之，姦邪畏之，以其無爭於萬物也，故莫敢與之爭。
+
+老子曰：夫人從欲失性，動未嘗正也，以治國則亂，以治身則穢，故不聞道者，無以反其性，不通物者，不能清靜。原人之性無邪穢，久湛於物即易，易而忘其本即合於其若性。水之性欲清，沙石穢之；人之性欲平，嗜欲害之，唯聖人能遺物反己。是故聖人不以智役物，不以欲滑和，其為樂不忻忻，其於憂不惋惋，是以高而不危，安而不傾。故聽善言便計，雖愚者知說之；稱聖德高行，雖不肖者知慕之；說之者眾而用之者寡，慕之者多而行之者少，所以然者，掔於物而繫於俗。故曰：我無為而民自化，我無事而民自富，我好靜而民自正，我無欲而民自樸。清靜者德之至也，柔弱者道之用也，虛無恬無形大，有形細，無形多，有形少，無形強，有形弱，無形實，有形虛。有形者遂事也，無形者作始也，遂事者成器也，作始者樸也。有形則有聲，無形則無聲，有形產於無形，故無形者有形之始也。廣厚有名，有名者貴全也；儉薄無名，無名者賤輕也；殷富有名，有名尊寵也；貧寡無名，無名卑弱也；雄牡有名，有名者章明也；雌牝無名，無名者隱約也；有餘者有名，有名者高賢也；不足者無名，無名者任下也。有功即有名，無功即無名，有名產於無名，無名者有名之母也，天之道有無相生也，難易相成也。是以聖人執道，虛靜微妙以成其德，故有道即有德，有德即有功，有功即有名，有名即復於道，功名長久，終身無咎，王公有功名，孤寡無功名，故曰聖人自謂孤寡，歸其根本。功成而不有，故有功以為利，無名以為用。古民童蒙，不知東西，貌不離情，言不出行，行出無容，言而不文，其衣致，神德不全於身者，不知何遠之能壞，欲害之心忘乎中者，即飢虎可尾也，而況於人？體道者佚而不窮，任數者勞而無功，夫法刻刑誅者，非帝王之業也，箠策繁用者，非致遠之御也，好憎繁多，禍乃相隨，故先王之法非所作也，所因也，其禁誅非所為也，所守也，故能因則大，作即細，能守則固，為即敗。夫任耳目以聽視者，勞心而不明，以智慮為治者，苦心而無功，任一人之材，難以至治，一人之能，不足以治三畝。循道理之數，因天地之然，即六合不足均也，聽失於非譽，目淫於綵女，禮亶不足以放愛，誠心可以懷遠，故兵莫憯乎志，鏌铮為下寇，莫大於陰陽，而枹鼓為細，所謂大寇伏尸不言節，中寇藏於山，小寇遯於民間。故曰民多智能，奇物滋起，法令滋章，盜賊多有去彼取此，天殃不起。故以智治國，國之賊，不以智治國，國之德，愉者萬物之祖也，三者行則淪於無形。無形者，一之謂也，一者，無心合於天下也。布德不溉，用之不勤，視之不見，聽之不聞，無形而有形生焉，無聲而五音鳴焉，無味而五味形焉，無色而五色成焉，故有生於無，實生於虛。音之數不過五，五音之變不可勝聽也，味之數不過五，五味之變不可勝嘗也，色之數不過五，五色之變不可勝觀也。音者宮立而五音形矣，味者甘立而五味定矣，色者白立而五色成矣，道者一立而萬物生矣。故一之理，施於四海，一之嘏，察於天地，其全也、敦兮其若樸，其散也、渾兮其若濁，濁而徐清，沖而徐盈，澹然若大海，汜兮若浮雲，若無而有，若亡而存。
+
+老子曰：萬物之摠，皆閱一孔，百事之根，皆出一門，故聖人一度循軌，不變其故，不易其常，放准循繩，曲因其常。夫喜怒者，道之邪也；憂悲者，德之失也；好憎者，心之過也；嗜欲者，生之累也。人大怒破陰，大喜墜陽，薄氣發喑，驚怖為狂，憂悲焦心，疾乃成積，人能除此五者，即合於神明。神明者，得其內，得其內者，五藏寧，思慮平，耳目聰明，筋骨勁強，疏達而不悖，堅強而不匱，無所太過，無所不逮。天下莫柔弱於水，水為道也，廣不可極，深不可測，長極無窮，遠淪無涯，息耗減益，過於不訾，上天為雨露，下地為潤澤，萬物不得不生，百事不得不成，大苞群生而無私好，澤及蚑蟯而不求報，富贍天下而不既，德施百姓而不費，行不可得而窮極，微不可得而把握，擊之不創，刺之不傷，斬之不斷，灼之不熏，淖約流循而不可靡散，利貫金石，強淪天下，有餘不足，任天下取與，稟受萬物而無所先後，無私無公，與天地洪同，是謂至德。夫水所以能成其至德者，以其卓約潤滑也，故曰：「天下之至柔，馳騁天下之至堅，無有入於無間。」夫無形者，物之太祖，無音者，類之太宗，真人者，通於靈府，與造化者為人，執玄德於心，而化馳如神。是故不道之道，芒乎大哉，未發號施令而移風易俗，其唯心行也。萬物有所生而獨如其根，百事有所出而獨守其門，故能窮無窮，極無極，照物而不眩，響應而不知。
+
+老子曰：夫得道者，志弱而事強，心虛而應當。志弱者柔毳安靜，藏於不取，行於不能，澹然無為，動不失時，故「貴必以賤為本，高必以下為基。」託小以包大，在中以制外，行柔而剛，力無不勝敵無不陵，應化揆時，莫能害之。欲剛者必以柔守之，欲強者必以弱保之，積柔即剛，積弱即強，觀其所積，以知存亡。強勝不若己者，至於若己者而格，柔勝出於己者，其力不可量，故「兵強則滅，木強則折。」革強則裂，齒堅於舌而先斃，故「柔弱者生之幹也，堅強者死之徒。」先唱者窮之路，後動者達之原。夫執道以耦變，先亦制後，後亦制先，何即不失所以制人，人亦不能制也。所謂後者，調其數而合其時，時之變則，間不容息，先之則太過，後之則不及，日迴月周，時不與人遊，故聖人不貴尺之璧，而貴寸之陰，時難得而易失。故聖人隨時而舉事，因資而立功，守清道，拘雌節，因循而應變，常後而不先，柔弱以靜，安徐以定，大堅固不能與爭也。
+
+老子曰：機械之心藏於中，即純白之不粹。其衣煖而無綵，其兵鈍而無刃，行蹎蹎。視瞑瞑，立井而飲，耕田而食，不布施，不求德，高下不相傾，長短不相形，風齊於俗可隨也，事周於能易為也，矜偽以惑世，軻行以迷眾，聖人不以為俗。
+
+
+### 精誠
+
+老子曰：天致其高，地致其厚，日月照，列星朗，陰陽和，非有為焉，正其道而物自然。陰陽四時非生萬物也，雨露時降非養草木也，神明接，陰陽和，萬物生矣。夫道者，藏精於內，栖神於心，靜漠恬惔，悅穆胸中，廓然無形，寂然無聲。官府若無事，朝廷若無人，無隱士，無逸民，無勞役，無怨刑，天下莫不仰上之象，主之旨，絕國殊俗莫不重譯而至，非家至而人見之也，推其誠心，施之天下而已。故賞善罰暴者，正令也；其所以能行者，精誠也。令雖明不能獨行，必待精誠，故摠道以被民弗從者，精誠弗包也。
+
+老子曰：天設日月，列星辰，張四時，調陰陽。日以暴之，夜以息之，風以乾之，雨露以濡之。其生物也，莫見其所養而萬物長；其殺物也，莫見其所喪而萬物亡。此謂神明。是故聖人象之，其起福也，不見其所以而福起；其除禍也，不見其所由而禍除。稽之不得，察之不虛，日計不足，歲計有餘，寂然無聲，一言而大動天下，是以天心動化者也。故精誠內形，氣動於天，景星見，黃龍下，鳳皇至，醴泉出，嘉穀生，河不滿溢，海不波涌；逆天暴物，即日月薄蝕，五星失行，四時相乘，晝明宵光，山崩川涸，冬雷夏霜。天之與人，有以相通，故國之沮亡也，天文變，世或亂，虹蜺見，萬物有以相連，精氣有以相薄，故神明之事，不可以智巧為也，不可以強力致也。故大人與天地合德，與日月合明，與鬼神合靈，與四時合信，懷天心，抱地氣，執沖含和，不下堂而行四海，變易習俗，民化遷善，若生諸己，能以神化者也。
+
+老子曰：夫人道者，全性保真，不虧其身，遭急迫難，精通乎天，若乃未始出其宗者，何為而不成，死生同域，不可脅凌，又況官天地，懷萬物，返造化，含至和，而已未嘗死者也。精誠形乎內，而外喻於人心，此不傳之道也。聖人在上，懷道而不言，澤及萬民，故不言之教，芒乎大哉！君臣乖心，倍譎見于天，神氣相應，微矣，此謂不言之辯，不道之道也。夫召遠者使無為焉，親近者言無事焉，唯夜行者能有之，卻走馬以糞，車軌不接於遠方之外，是謂坐馳陸沉。天道無私就也，無私去也，能者有餘，詘者不足，順之者利，逆之者凶。是故以智為治者難以持國，唯同乎大和而持自然應者，為能有之。
+
+老子曰：夫道之與德，若圍之與革，遠之即近，近之即鉕，稽之不得，察之不虛。是故聖人若鏡，不將不迎，應而不藏，不物而不傷。其得之也，乃失之也，其失之也，乃得之也，故通於大和者，闇若醇醉而甘臥以游其中，若未始出其宗，是謂大通，此假不用能成其用也。
+
+老子曰：昔黃帝之治天下，理日月之行，治陰陽之氣，節四時之度，正律曆之數，別男女，明上下，使強不掩弱，眾不暴寡，民保命而不夭，歲時熟而不凶，百官正而無私，上下調而無尤，法令明而不闇，輔佐公而不阿，田者讓畔，道不拾遺，市不預賈，故於此時，日月星辰不失其行，風雨時節，五穀豐昌，鳳皇翔於庭，麒麟游於郊。虙犧氏之王天下，枕方寢繩，殺秋約冬，負方州，抱員天，陰陽所擁沈不通者竅理之，逆氣戾物傷民厚積者絕止之，其民童蒙不知西東，視瞑瞑，行蹎蹎，侗然自得，莫知其所由，浮游汎然，不知所本，罔養不知所如往，當此之時，禽獸蟲蛇無不懷其爪牙，藏其螫毒，功揆天地。至黃帝要繆乎太祖之下，然而不章其功，不揚其名，隱真人之道，以從天地之固然，何即道德上通，而智故消滅也。
+
+老子曰：天不定，日月無所載，地不定，草木無所立，身不寧，是非無所形，是故有真人而後有真智，其所持者不明，何知吾所謂知之非不知與？積惠重貨，使萬民欣欣，人樂其生者，仁也；舉大功，顯令名，體君臣，正上下，明親疏，存危國，繼絕世，立無後者，義也；閉九竅，藏志意，棄聰明，反無識，芒然仿佯乎塵垢之外，逍遙乎無事之業，含陰吐陽而與萬物同和者，德也。是故道散而為德，德溢而為仁義，仁義立而道德廢矣。
+
+老子曰：神越者言華，德蕩者行偽，至精芒乎中，而言行觀乎外，此不免以身役物也。精有愁盡而行無窮極，所守不定而外淫於世俗之風，是故聖人內脩道術而不外飾仁義，知九竅四支之宜，而遊乎精神之和，此聖人之游也。
+
+老子曰：若夫聖人之游也，即動乎至虛，游心乎太無，馳於方外，行於無門，聽於無聲，視於無形，不拘於世，不繫於俗。故聖人所以動天下者，真人不過，賢人所以矯世者，聖人不觀。夫人拘於世俗，必形繫而神泄，故不免於別，使我可拘係者，必其命有在外者。
+
+老子曰：人主之思，神不馳於胸中，智不出於四域，懷其仁誠之心，甘雨以時，五穀蕃殖，春生夏長，秋收冬藏，月省時考，終歲獻貢，養民以公，威厲以誠，法省不煩，教化如神，法寬刑緩，囹圄空虛，天下一俗，莫懷姦心，此聖人之思也。夫上好取而無量，即下貪功而無讓，民貧苦而分爭生，事力勞而無功，智詐萌生，盜賊滋彰，上下相怨，號令不行，夫水濁者魚噞，政苛者民亂，上多欲即下多詐，上煩擾即下不定，上多求即下交爭，不治其本而救之於末，無以異於鑿渠而止水，抱薪而救火。聖人事省而治求，寡而贍，不施而仁，不言而信，不求而得，不為而成，懷自然，保至真，抱道推誠，天下從之如響之應聲，影之像形，所脩者本也。
+
+老子曰：精神越於外，智慮蕩於內者，不能治形，神之所用者遠，則所遺者近。故「不出於戶以知天下，不窺於牖以知天道，其出彌遠，其知彌少。」此言精誠發於內，神氣動於天也。
+
+老子曰：冬日之陽，夏日之陰，萬物歸之而莫之使，極自然至精之感，弗召自來，不去而往，窈窈冥冥，不知所為者而功自成，待目而照見，待言而使命，其於治難矣。皋陶喑而為大理，天下無虐刑，有貴乎言者也，師曠瞽而為太宰，晉國無亂政，有貴乎見者也。不言之令，不視之見，聖人所以為師也，民之化上，不從其言從其所行，故人君好勇，弗使鬥爭而國家多難，其漸必有劫殺之亂矣。人君好色，弗使風議而國家昏亂，其積至於淫泆之難，故聖人精誠別於內，好憎明於外，出言以副情，發號以明指。是故刑罰不足以移風，殺戮不足以禁姦，唯神化為貴，精至為神，精之所動，若春氣之生，秋氣之殺。故君子者，其猶射者也，於此毫末，於彼尋丈矣！故理人者，慎所以感之。
+
+老子曰：懸法設賞而不能移風易俗者，誠心不抱，故聽其音則知其風，觀其樂即知其俗，見其俗即知其化。夫抱真效誠者，感動天地，神踰方外，令行禁止，誠通其道而達其意，雖無一言，天下萬民、禽獸、鬼神與之變化。故太上神化，其次使不得為非，其下賞賢而罰暴。
+
+老子曰：大道無為，無為即無有，無有者不居也，不居者即處無形，無形者不動，不動者無言也，無言者即靜而無聲無形，無聲無形者，視之不見，聽之不聞，是謂微妙，是謂至神，「綿綿若存」，「是謂天地根。」道無聲，故聖人強為之形，以一句為名天地之道。大以小為本，多以少為始，天子以天地為品，以萬物為資，功德至大，勢名至貴，二德之美與天地配，故不可不軌大道以為天下母。
+
+老子曰：振窮補急則名生利起，除害即功成，世無災害，雖聖無所施其德，上下和睦，雖賢無所立其功。故至人之治，含德抱道，推誠施無窮之智，寢說而不言天下莫知貴其不言者，故「道可道，非常道也，名可名，非常名也。」著於竹帛，鏤於金石，可傳於人者，皆其麤也。三皇五帝三王，殊事而同心，異路而同歸，末世之學者，不知道之所體一德之所摠要取成事之跡跪坐而言之，雖博學多聞，不免於亂。
+
+老子曰：心之精者，可以神化，而不可說道。聖人不降席而匡天下，情甚於●呼，故同言而信，信在言前也，同令而行，誠在令外也。聖人在上，民化如神，情以先之，動於上不應於下者，情令殊也。三月嬰兒未知利害，而慈母愛之愈篤者，情也。故言之用者變，變乎小哉，不言之用者變，變乎大哉。信，君子之言，忠，君子之意，忠信形於內，感動應乎外，賢聖之化也。
+
+老子曰：子之死父，臣之死君，非出以求名也，恩心藏於中而不違其難也。君子之憯怛非正為也，自中出者也，亦察其所行，聖人不慚於影，君子慎其獨也，舍近期遠，塞矣。故聖人在上則民樂其治，在下則民慕其意，志不忘乎欲利人。
+
+老子曰：勇士一呼，三軍皆辟，其出之誠，唱而不和，意而不載，中必有不合者也。不下席而匡天下者，求諸己也，故說之所不至者，容貌至焉，容貌所不至者，感忽至焉，感乎心發而成形，精之至者可形接，不可以照期。
+
+老子曰：言有宗，事有本，失其宗本，伎能雖多，不如寡言。害眾著倕而使斷其指，以期大巧之不可為也，故匠人智為，不以能以時，閉不知閉也，故必杜而後開。
+
+老子曰：聖人之從事也，所由異路而同歸，存亡定傾若一，志不忘乎欲利人也。故秦楚燕魏之歌，異傳而皆樂，九夷八狄之哭，異聲而皆哀。夫歌者樂之微，哭者哀之效也，愔於中，發於外，故在所以感之矣。聖人之心，日夜不忘乎欲利人，其澤之所及亦遠矣。
+
+老子曰：人無為而治，有為也即傷。無為而治者，為無為，為者不能無為也，不能無為者，不能有為也。人無言而神，有言即傷。無言乏神者，載無言，則傷有神之神者。
+
+文子曰：名可強立，功可強成。昔南榮疇恥聖道而獨亡於己，南見老子，受教一言，精神曉靈，屯閔脩達，勤苦十日不食，如享太牢，是以明照海內，名立後世，智略天地，察分秋毫，稱譽華語，至今不休，此謂名可強立也。故田者不強，囷倉不滿，官御不勵，誠心不精，將相不強，功烈不成，王侯懈怠，汎世無名。至人潛行，譬猶雷霆之藏也，隨時而舉事，因資而立功，進退無難，無所不通。夫至人精誠內形，德流四方，見天下有利也，喜而不忘，天下有害也，憂若有喪。夫「憂民之憂者，民亦憂其憂，樂民之樂者，民亦樂其樂，故憂以天下，樂以天下，然而不王者，未之有也。」「聖人之法，始於不可見，終於不可及，處於不傾之地，積於不盡之倉，載於不竭之府。出令如流水之原，使民於不爭之官，開必得之門，不為不可成，不求不可得，不處不可久，不行不可復。」大人行可說之政，而人莫不順其命，命順則從，小而致大，命逆則以善為害，以成為敗。夫所謂大丈夫者，內強而外明，內強如天地，外明如日月，天地無不覆載，日月無不照明。大人以善示人，不變其故，不易其常，天下聽令，如草從風。政失於春，歲星盈縮，不居其常；政失於夏，熒惑逆行；政失於秋，太白不當，出入無常；政失於冬，辰星不效其鄉，四時失政，鎮星搖蕩，日月見謫，五星悖亂，彗星出。春政不失禾黍滋，夏政不失雨降時，秋政不失民殷昌，冬政不失國家寧康。
+
+
+### 九守
+
+老子曰：天地未形，窈窈冥冥，渾而為一，寂然清澄，重濁為地，精微為天，離而為四時，分而為陰陽，精氣為人，粗氣為蟲，剛柔相成，萬物乃生。精神本乎天，骨骸根于地，精神入其門，骨骸反其根，我尚何存，故聖人法天順地，不拘於俗，不誘於人，以天為父，以地為母，陰陽為綱，四時為紀，天靜以清，地定以寧，萬物逆之死，順之生，故靜漠者神明之宅，虛無者道之所居。夫精神者所受於天也，骨骸者所稟於地也，「道生一，一生二，二生三，三生萬物。萬物負陰而抱陽，沖氣以為和。」
+
+老子曰：人受天地變化而生，一月而膏，二月血脈，三月而噠，四月而胎，五月而筋，六月而骨，七月而成形，八月而動，九月而躁，十月而生。形骸已成，五藏乃形，肝主目，腎主耳，脾主舌，肺主鼻，膽主口，外為表，中為裏，頭員法天，足方象地，天有四時、五行、九解、三百六十日，人有四支、五藏、九竅、三百六十節。天有風雨寒暑，人有取與喜怒，膽為雲，肺為氣，脾為風，腎為雨，肝為雷，人與天地相類，而心為之主。耳目者日月也，血氣者風雨也，日月失行，薄蝕無光，風雨非時，毀折生災，五星失行，州國受其殃。天地之道，至閎以大，尚由節其章光，愛其神明，人之耳目何能久燻而不息？精神何能馳騁而不乏？是故聖人守內而不失外。夫血氣者人之華也，五藏者人之精也，血氣專乎內而不外越，則胸腹充而嗜欲寡，嗜欲寡則耳目清而聽視聰達，聽視聰達謂之明。五藏能屬於心而無離，則氣意勝而行不僻，精神盛而氣不散，以聽無不聞，以視無不見，以為無不成，患禍無由入，哀氣不能襲，故所求多者所得少，所見大者所知小。夫孔竅者精神之戶牖，血氣者五藏之使候，故耳目淫於聲色，即五藏動搖而不定，血氣滔蕩而不休，精神馳騁而不守，禍福之至雖如丘山，無由識之矣，故聖人愛而不越。聖人誠使耳目精明玄達，無所誘慕，意氣無失清靜而少嗜欲，五藏便寧，精神內守形骸而不越，即觀乎往世之外，來事之內，禍福之間何足見也，故其出彌遠者，其知彌少。以言精神不可使外淫也，故五色亂目，使目不明，五音入耳，使耳不聰，五味亂口，使口生創，趣舍滑心，使行飛揚。故嗜欲使人氣淫，好憎使人精勞，不疾去之，則志氣日耗。夫人所以不能終其天年者，以生生之厚，夫唯無以生為者，即所以得長生，天地運而相通，萬物摠而為一，能知一即無一之不知也，不能知一即無一之能知也。吾處天下亦為一物，而物亦物也，物之與物，何以相物，欲生不可事也，憎死不可辭也，賤之不可憎也，貴之不可喜也，因其資而寧之，弗敢極弗敢極也，即至樂極也。
+
+老子曰：所謂聖人者，因時而安其位，當世而樂其業，夫哀樂者德之邪，好憎者心之累，喜怒者道之過，故其生也天行，其死也物化，靜即與陰合德，動即與陽同波，故心者形之主也，神者心之寶也，形勞而不休即蹶，精用而不已則竭，是以聖人遵之不敢越也。以無應有，必究其理，以虛受實，必窮其節，恬愉虛靜，以終其命，無所鉕，無所親，抱德煬和，以順於天，與道為際，與德為鄰，不為福始，不為禍先，死生無變於己，故曰至神。神則以求無不待也，以為無不成也。
+
+老子曰：輕天下即神無累，細萬物即心不惑，齊生死則意不懾，同變化則明不眩。夫至人倚不橈之柱，行無關之途，稟不竭之府，學不死之師，無往而不遂，無之而不通，屈伸俯仰，抱命不惑而宛轉，禍福利害，不足以患心。夫為義者可迫以仁，而不可劫以兵，可正以義，不可懸以利，君子死義，不可以富貴留也，為義者不可以死亡恐也，又況於無為者乎！無為者即無累，無累之人，以天下為影柱，上觀至人之倫，深原道德之意，下考世俗之行，乃足以羞也，夫無以天下為者，學之建鼓也。
+
+老子曰：尊勢厚利，人之所貪，比之身則賤，故聖人食足以充虛接氣，衣足以蓋形禦寒，適情辭餘，不貪得，不多積，清目不視，靜耳不聽，閉口不言，委心不慮，棄聰明，反太素，休精神，去知故，無好憎，是謂大通，除穢去累，莫若未始出其宗，何為而不成。知養生之和者，即不可懸以利，通內外之符者，不可誘以勢，無外之外，至大，無內之內，至貴，能知大貴，何往不遂。
+
+老子曰：古之為道者，理情性，治心術，養以和，持以適，樂道而忘賤，安德而忘貧。性有不欲，無欲而不得，心有不樂，無樂而不為，無益於性者不以累德，不便於生者不以滑和。不縱身肆意而制度，可以為天下儀，量腹而食，制形而衣，容身而居，適情而行，餘天下而不有，委萬物而不利，豈為貧富貴賤失其性命哉！永若然者，可謂能體道矣。
+
+老子曰：人受氣於天者，耳目之於聲色也，鼻口之於芳臭也，肌膚之於寒溫也，其情一也，或以死，或以生，或為君子，或為小人，所以為制者異。神者智之淵也，神清則智明，智者心之府也，智公則心平，人莫鑒於流潦而鑒於澄水，以其清且靜也，故神清意平乃能形物之情，故用之者必假於不用也。夫鑒明者則塵垢不汙也，神清者嗜欲不誤也，故心有所至，則神慨然在之，反之於虛，則消躁藏息矣，此聖人之遊。故治天下者，必達性命之情而後可也。
+
+老子曰：夫所謂聖人者，適情而已，量腹而食，度形而衣，節乎己而，貪汙之心無由生也，故能有天下者，必無以天下為也，能有名譽者，必不以越行求之，誠達性命之情，仁義因附。若夫神無所掩，心無所載，通洞條達，澹然無事，勢利不能誘，聲色不能淫，辯者不能說，智者不能動，勇者不能恐，此真人之遊也。夫生生者不生，化化者不化，不達此道者，雖知統天地，明照日月，辯解連環，辭潤金石，猶無益於天下也，故聖人不失所守。
+
+老子曰：靜漠恬惔，所以養生也，和愉虛無，所以據德也，外不亂內即性得其宜，靜不動和即德安其位，養生以經世，抱德以終年，可謂能體道矣。若然者，血脈無鬱滯，五藏無積氣，禍福不能矯滑，非譽不能塵垢，非有其世，孰能濟焉，有其才不遇其時，身猶不能脫，又況無道乎。夫目察秋毫之末者，耳不聞雷霆之聲，耳調金玉之音者，目不見太山之形，故小有所志，則大有所忘。今萬物之來，擢拔吾生，攓取吾精，若泉原也，雖欲勿稟，其可得乎？今盆水若清之經日，乃能見眉睫，濁之不過一撓，即不能見方圓也，人之精神難清而易濁，猶盆水也。
+
+老子曰：上聖法天，其次尚賢，其下任臣，任臣者危亡之道也，尚賢者癡惑之原也，法天者治天地之道也，虛靜為王，虛無不受，靜無不持，知虛靜之道，乃能終始，故聖人以靜為治，以動為亂，故曰勿撓勿纓，萬物將自清，勿驚勿駭，萬物將自理，是謂天道也。
+
+老子曰：天子公侯以天下一國為家，以萬物為畜，懷天下之大，有萬物之多，即氣實而志驕，大者用兵侵小，小者倨傲凌下，用心奢廣，譬猶飄風暴雨，不可長久。是以聖人以道鎮之，執一無為而不損沖氣，見小守柔，退而勿有，法於江海，江海不為，故功名自化，弗強，故能成其王，為天下牝，故能神不死，自愛，故能成其貴，萬乘之勢，以萬物為功名，權任至重，不可自輕，自輕則功名不成。夫道，大以小而成，多以少為主，故聖人以道邪天下，柔弱微妙者見小也，儉嗇損缺者見少也，見小故能成其大，見少故能成其美。天之道，抑高而舉下，損有餘奉不足，江海處地之不足，故天下歸之奉之，聖人卑謙，清靜辭讓者見下也，虛心無有者見不足也，見下故能致其高，見不足故能成其賢，矜者不立，奢者不長，強梁者死，滿溢者亡，飄風暴雨不終日，小谷不能須臾盈，飄風暴雨行強梁之氣，故不能久而滅，小谷處強梁之地，故不得不奪，是以聖人執雌牝，去奢驕，不敢行強梁之氣，執雌牝，故能立其雄牡，不敢奢驕，故能長久。
+
+老子曰：天道極即反，盈即損，日月是也。聖人日損而沖氣不敢自滿，日進以牝，功德不衰，天道然也，人之情性皆好高而惡下，好得而惡亡，好利而惡病，好尊而惡卑，好貴而惡賤，眾人為之，故不能成，執之，故不能得。是以聖人法天，弗為而成，弗執而得，與人同情而異道，故能長久。故三皇五帝有戒之器，命曰侑卮，其沖即正，其盈即覆。夫物盛則衰，日中則移，月滿則虧，樂終而悲，是故聰明廣智守以愚，多聞博辯守以儉，武力勇毅守以畏，富貴廣大守以狹，德施天下守以讓，此五者先王所以守天下也。「服此道者不欲盈，夫唯不盈，是以弊不新成。」
+
+老子曰：聖人與陰俱閑，與陽俱開，能至於無樂也，即無不樂也，無不樂即至樂極矣。是以內樂外，不以外樂內，故有自樂也，即有自志貴乎天下，所以然者，因而為天下之要也。不在於彼而在於我，不在於人而在於身，身得則萬物備矣。故達於心術之論者，即嗜欲好憎外矣，是故無所喜，無所怒，無所樂，無所苦，萬物玄同，無非無是。故士有一定之論，女有不易之行，不待勢而尊，不須財而富，不須力而強，不利貨財，不貪世名，不以貴為安，不以賤為危，形神氣志各居其宜。夫形者生之舍也，氣者生之元也，神者生之制也，一失其位即三者傷矣，故以神為主者形從而利，以形為制者神從而害。其生貪叨多欲之人，莫宜乎勢利，誘慕乎名位，幾以過人之知，位高於世，即精神日耗以遠，久淫而不還，形閑中拒，即無由入矣，是以時有盲忘自失之患。夫精神志氣者，靜而日充以壯，躁而日耗以老，是故聖人持養其神，和弱其氣，平夷其形，而與道浮沉，如此則萬物之化無不偶也，百事之變無不應也。
+
+老子曰：所謂真人者，性合乎道也。故有而若無，實而若虛，治其內不治其外，明白太素，無為而復樸，體本抱神，以遊天地之根，芒然仿佯塵垢之外，逍遙乎無事之業，機械智巧，不載於心，審於無假，不與物遷，見事之化，而守其宗，心意專於內，通達禍福於一，居不知所為，行不知所之，不學而知，弗視而見，弗為而成，弗治而辯，感而應，迫而動，不得已而往，如光之燿，如影之效，以道為循，有待而然，廓然而虛，清靜而無，以千生為一化，以萬異為一宗。有精而不使，有神而不用，守大渾之樸，立至精之中，其寢不夢，其智不萌，其動無形，其靜無體，存而若亡，生而若死，出入無間，役使鬼神，精神之所能登假千道。使精神暢達而不失於元，日夜無隙而與物為春，即是合而生時於心者也。故形有靡而神未嘗化，以不化應化，千變萬轉而未始有極，化者復歸於無形也，不化者與天地俱生，俱生者未嘗化其所化者即化，此真人之遊純粹素道。
+
+老子曰：道至高無上，至深無下，平乎準，直乎繩，圓乎規，方乎矩，包裹天地而無表裏，洞同覆蓋而無所荬，是故體道者，不怒不喜，其坐無慮，寢而不夢，見物而名，事至而應。
+
+老子曰：欲尸名者必生事，事生即舍公而就私，倍道而任己，見譽而為善，立而為賢，即治不順理而事不順時，治不順理則多責，事不順時則無功，妄為要中，功成不足以塞責，事敗足以滅身。
+
+老子曰：無為名尸，無為謀府，無為事任，無為智主。藏於無形，行於無怠，不為福先，不為禍始，始於無形，動於不得已，欲福先無禍，欲利先遠害。故無為而寧者，失其所寧即危，無為而治者，失其所治即亂，故「不欲碌碌如玉，落落如石。」其文好者皮必剝，其角美者身必殺，甘泉必竭，直木必伐，華榮之言後為愆，石有玉傷其山，黔首之患固在言。
+
+老子曰：時之行動以從，不知道者福為禍。天為蓋，地為軫，善用道者終無盡，地為軫，天為蓋，善用道者終無害。陳彼五行必有勝，天之所覆無不稱，故「知不知，上，不知知，病也。」
+
+老子曰：山生金，石生玉，反相剝，木生蟲，還自食，人生事，還自賊。夫好事者未嘗不中，爭利者未嘗不窮，善游者溺，善騎者墮，各以所好反自為禍。得在時不在爭，治在道不在聖，土處下不爭高，故安而不危，水流下不爭疾，故去而不遲。「是以聖人無執故無失，無為故無敗。」
+
+老子曰：一言不可窮也，二言天下宗也，三言諸侯雄也，四言天下雙也。貞信則不可窮，道德則天下宗，舉賢德，諸侯雄，惡少愛眾天下雙。
+
+老子曰：人有三死非命亡焉：飲食不節，簡賤其身，病共殺之，樂得無已，好求不止，刑共殺之，以寡犯眾，以弱凌強，兵共殺之。
+
+老子曰：其施厚者其報美，其怨大者其禍深，薄施而厚望，畜怨而無患者，未之有也。察其所以往者，即知其所以來矣。
+
+老子曰：原天命，治心術，理好憎，適情性，即治道通矣。原天命即不惑禍福，治心術即不妄喜怒，理好憎即不貪無用，適情性即欲不過節。不惑禍福即動靜順，理不妄喜怒即賞罰不阿，不貪無用即不以欲害性，欲不過節即養生知足，凡此四者，不求於外，不假於人，反己而得矣。
+
+老子曰：不求可非之行，不憎人之非己，修足譽之德，不求人之譽己。不能使禍無至，信己之不智，而不能使福必來，信己之不讓。禍之至非己之所生，故窮而不憂，福之來非己之所成，故通而不矜，是故閑居而心樂，無為而治。
+
+老子曰：道者守其所已有，不求其所以未有，求其所未得即所有者亡，脩其所已有即所欲者至。治未固於不亂，而事為治者必危，行者未免於無非，而急求名者必剉，故福莫大於無禍，利莫大於不喪。故「物或益之而損，損之而益」。道不可以勸就利者，而可以安神避害，故嘗無禍不嘗有福，嘗無罪不嘗有功。道曰芒芒昧昧，從天之威，與天同氣無思慮也，無設儲也，來者不迎，去者不將，人雖東西南北，獨立中央。故處眾枉，不失其直，與天下並流，不離其域，不為善，不避醜，遵天之道，不為始，不專己，循天之理，不豫謀，不棄時，與天為期，不求得，不辭福，從天之則，內無奇福，外無奇禍，故禍福不生，焉有人賊。故至德言同賂，事同福，上下一心，無歧道旁見者，退章於邪，開道之於善，而民向方矣。
+
+老子曰：為善即勸，為不善即觀，勸即生責，觀即生患，故道不可以進而求名，可以退而脩身。故聖人不以行求名，不以知見求譽，治隨自然，己無所與，為者有不成，求者有不得，人有窮而道無通，有智而無為與無智同功，有能而無事與無能同德，有智若無智，有能若無能，道理達而人才滅矣。人與道不兩明，人愛名即不用道，道勝人即名息，道息人名章即危亡。
+
+老子曰：使信士分財，不如定分而探籌，何則？有心者之於平，不如無心者。使廉士守財，不如閉戶而全封，以為有欲者之於廉，不如無欲者也。人舉其疵則怨，鑑見其醜則自喜，人能接物而不與己，則免於累矣。
+
+老子曰：凡事人者，非以寶幣，必以卑辭。幣單而欲不厭，卑體免辭，論說而交不結，約束誓盟，約定而反先日，是以君子不外飾仁義，而內脩道術。脩其境內之事，盡其地方，勸民守死，堅其城郭，上下一心，與之守社稷，即為飾者不伐無罪，為利者不攻難得，此必全之道，必利之理。
+
+老子曰：聖人不勝其心，眾人不勝其欲，君子行正氣，小人行邪氣。內便於性，外合於義，循理而動，不繫於物者，正氣也；推於滋味，淫於聲色，發於喜怒，不顧後患者，邪氣也。邪與正相傷，欲與性相害，不可兩立，一起一廢，故聖人捐欲而從性。目好色，耳好聲，鼻好香，口好味，合而說之，不離利害，嗜欲也，耳目鼻口不知所欲，皆心為之制，各得其所，由此觀之，欲不可勝亦明矣。
+
+老子曰：治身養性者，節寢處，適飲食，和喜怒，便動靜，內在己者得，而邪氣無由入。飾其外，傷其內，扶其情者害其神，見其文者蔽其真，無須臾忘為賢者，必困其性，百步之中忘其為容者，必累其形，故羽翼美者傷其骸骨，枝葉茂者害其根荄，能兩美者天下無之。
+
+老子曰：天有明不憂民之晦也，地有財不憂民之貧也，至德道者若丘山，嵬然不動，行者以為期，直己而足物，不為人賜，用之者亦不受其德，故安而能久。天地無與也，故無奪也，無德也，無怨也。善怒者必多怨，善與者必善奪，唯隨天地之自然而能勝理。故譽見即毀隨之，善見即惡從之，利為害始，福為禍先，不求利即無害，不求福即無禍，身以全為常，富貴其寄也。
+
+老子曰：聖人無屈奇之服，詭異之行，服不雜，行不觀，通而不華，窮而不懾，榮而不顯，隱而不辱，異而不怪，同用無以名之，是謂大通。
+
+老子曰：道者直己而待命，時之至不可迎而反也，時之去不可足而援也，故聖人不進而求，不退而讓，隨時三年，時去我走，去時三年，時在我後，無去無就，中立其所。天道無親，唯德是與，福之至非己之所求，故不伐其功，禍之來非己之所生，故不悔其行，中心其恬，不累其德，狗吠不驚，自信其情，誠無非分，故通道者不惑，知命者不憂。帝王之崩藏骸於野，其祭也祀之於明堂，神貴於形也，故神制形則從，形勝神則窮，聰明雖用，必反諸神，謂之大通。
+
+老子曰：古之存己者，樂德而忘賤，故名不動志，樂道而忘貧，故利不動心，是以謙而能樂，靜而能澹。以數筭之壽，憂天下之亂，猶憂河水之涸，泣而益之也，故不憂天下之亂，而樂其身治者，可與言道矣。
+
+老子曰：人有三怨：爵高者人妒之，官大者主惡之，祿厚者人怨之。夫爵益高者意益下，官益大者心益小，祿益厚者施益博，脩此三者怨不作，故貴以賤為本，高以下為基。
+
+老子曰：言者所以通己於人也，聞者所以通人於所也。既聞其聾，人道不通，故有聞聾之病者，莫知事通，豈獨形骸有闇聾哉！心並有之。塞也，莫知所通，此闇聾之類也。夫道之為宗也，有形者皆生焉，其為親也亦戚矣，饗穀食氣者皆壽焉，其為君也亦惠矣，諸智者學焉，其為師也亦明矣。人皆以無用害有用，故知不博而日不足，以博弈之日問道，聞見深矣，問與不問，猶闇聾之比於人也。
+
+老子曰：人之情心服於德，不服於力，德在與不在來，是以聖人之欲貴於人者，先貴於人，欲尊於人者，先尊於人，欲勝人者，先自勝，欲卑人者，先自卑，故貴賤尊卑，道以制之。夫古之聖王以其言下人，以其身後人，即天下樂推而不猒，戴而不重，此德重有餘而氣順也，故知與之為取，後之為先，即幾於道矣。
+
+老子曰：德少而寵多者譏，才下而位高者危，無大功而有厚祿者微，故物或益之而損，或損之而益。眾人皆知利利，而不知病病，唯聖人知病之為利，利之為病。故再實之木其根必傷，掘藏之家其後必殃，夫大利者反為害，天之道也。
+
+老子曰：小人從事曰苟得，君子曰苟義。為善者，非求名者也，而名從之，名不與利期，而利歸之，所求者同，所極者異，故動有益則損隨之。言無常是，行無常宜者，小人也；察於一事，通於一能，中人也；兼覆而并有之，技能而才使之者，聖人也。
+
+老子曰：生所假也，死所歸也，故世治即以義衛身，世亂即以身衛義，死之日，行之終也，故君子慎一用之而已矣。故生受於天也，命所遭於時也，有其才不遇其世，天也，求之有道，得之在命。君子能為善不能必得其福，不忍而為非而未必免於禍，故君子逢時即進，得之以義，何幸之有！不時即退，讓之以禮，何不幸之有！故雖處貧賤而猶不悔者，得其所貴也。
+
+老子曰：人有順逆之氣生於心，心治則氣順，心亂則氣逆，心之治亂在於道德，得道則心治，失道則心亂，心治則交讓，心亂則交爭，讓則有德，爭則生賊，有德則氣順，賊生則氣逆，氣順則自損以奉人，氣逆則損人以自奉，二氣者可道已而制也。天之道其猶響之報聲也，德積則福生，禍積則怨生，官敗於官茂，孝衰於妻子，患生於憂解，病甚於且瘉，故「慎終如始，無敗事也。」
+
+老子曰：舉枉與直，如何不得，舉直與枉，勿與遂往，所謂同汙而異泥者。
+
+老子曰：聖人同死生，愚人亦同死生，不和利害之所在。道懸天，物布地，和在人，人主不和即天氣不下，地氣不上，陰陽不調，風雨不時，人民疾飢。
+
+老子曰：得萬人之兵，不如聞一言之當，得隋侯之珠，不如得事之所由，得和氏之璧，不如得事之所適。天下雖大，好用兵者亡，國雖安，好戰者危，故「小國寡民，使有阡陌之器而勿用。」
+
+老子曰：能成霸王者，必勝者也，能勝敵者，必強者也，能強者，必用人力者也，能用人力者，必得人心者也，能得人心者，必自得者也，自得者，必柔弱者已。能勝不如己者，至於若己者而挌，柔勝出於若己者，其事不可度，故能眾不勝成大勝者也。
+
+文子問道。老子曰：學問不精，聽道不深。凡聽者，將以達智也，將以成行也，將以致功名也，不精不明，不深不達。故上學以神聽，中學以心聽，下學以耳聽，以耳聽者，學在皮膚，以心聽者，學在肌肉，以神聽者，學在骨髓。故聽之不深，即知之不明，知之不明，即不能盡其精，不能盡其精，即行之不成。凡聽之理，虛心清靜，損氣無盛，無思無慮，目無妄視，耳無苟聽，尊精積稽，內意盈并，既以得之，必固守之，必長久之。夫道者，原產有始，始於柔弱，成於剛強，始於短寡，成於眾長，十圍之木始於把，百仞之臺始於下，此天之道也。聖人法之，卑者所以自下，退者所以自後，儉者所以自小，損之所以自少，卑則尊，退則先，儉則廣，損則大，此天道所成也。夫道者，德之元，大之根，福之門，萬物待之而生，待之而成，待之而寧。夫道，無為無形，內以脩身，外以治人，功成事立，與天為鄰，無為而無不為，莫知其情，莫知其真，其中有信。天子有道則天下服，長有社稷，公侯有道則人民和睦，不失其國，士庶有道則全其身，保其親，強大有道，不戰而克，小弱有道，不爭而得，舉事有道，功成得福，君臣有道則忠惠，父子有道則慈孝，士庶有道則相愛，故有道則知，無道則苛。由是觀之，道之於人，無所不宜也。夫道者，小行之小得福，大行之大得福，盡行之天下服，服則懷之，故帝者，天下之適也，王者，天下之往也，天下不適不往，不可謂帝王。故帝王不得人不能成，得人失道亦不能守。夫失道者，奢泰驕佚，慢倨矜傲，見餘自顯自明，執雄堅強，作難結怨，為兵主，為亂首，小人行之，身受大殃，大人行之，國家滅亡，淺及其身，深及子孫，夫罪莫大於無道，怨莫深於無德，天道然也。
+
+老子曰：天行道者，使人雖勇，刺之不入，雖巧，擊之不中，夫刺之不入，擊之不中，而猶辱也，未若使人雖勇不能刺，雖巧不能擊。夫不敢者，非無其意也，未若本無其意，夫無其意者，未有受利害之心也，不若使天下丈夫女子莫不懽然皆欲愛利之，若然者，無地而為君，無官而為是，天下莫不願安利之。故勇於敢則殺，勇於不敢則活。
+
+文子問德。老子曰：畜之養之，遂之長之，兼利無懌，與天地合，此之謂德。何謂仁？曰：為上不矜其功，為下不羞其病，大不矜，小不偷，兼愛無私，久而不衰，此之謂仁也。何謂義？曰：為上則輔弱，為下則守節，達不肆意，窮不易操，一度順理，不私枉橈，此之謂義也。何謂禮？曰：為上則恭嚴，為下則卑敬，退讓守柔，為天下雌，立於不敢，設於不能，此之謂禮也。故脩其德則下從令，脩其仁則下不爭，脩其義則下平正，脩其禮則下尊敬，四者既脩，國家安寧。故物生者道也，長者德也，愛者仁也，正者義也，敬者禮也。不畜不養，不能遂長，不慈不愛，不能成遂，不正不匡，不能久長，不敬不寵，不能貴重。故德者民之所貴也，仁者民之所懷也，義者民之所畏也，禮者民之所敬也，此四者，文之順也，聖人之所以御萬物也。君子無德則下怨，無仁則下爭，無義則下暴，無禮則下亂，四經不立，謂之無道，無道不亡者，未之有也。
+
+老子曰：至德之世，賈便其市，農樂其野，大夫安其職，處士脩其道，人民樂其業，是以風雨不毀折，草木不夭無，河出圖，洛出書。及世之衰也，賦斂無度，殺戮無止，刑諫者，殺賢士，是以山崩川涸，蠕動不息，野無百蔬。故世治則愚者不得獨亂，世亂則賢者不能獨治，聖人和愉寧靜，生也，至德道行，命也，故生遭命而後能行，命得時而後能明，必有其世而後有其人。
+
+文子問聖智。老子曰：聞而知之，聖也，見而知之，智也。聖人嘗聞禍福所生而擇其道，智者嘗見禍福成形而擇其行，聖人知天道吉凶，故知禍福所生，智者先見成形，故知禍福之門。聞未生聖也，先見成形智也，無聞見者，愚迷。
+
+老子曰：君好義則信時而任己，秉智而用惠，物博智淺，以淺贍博，未之有也。獨任其智，失必多矣，好智，窮術也，好勇，危亡之道也，好與則無定分，上之分不定，則下之望無息，若多斂則與民為讎，少取而多與，其數無有，故好與，來怨之道也。由是觀之，財不足任，道術可因明矣。
+
+文子問曰：古之王者，以道邪天下，為之奈何？老子曰：執一無為，因天地與之變化，「天下大器也，不可執也，不可為也，為者敗之，執者失之。」執一者，見小也，小故能成其大也，無為者，守靜也，守靜能為天下正，處大，滿而不溢，居高，貴而無驕，處大不溢，盈而不虧，居上不驕，高而不危，盈而不虧，所以長守富也，高而不危，所以長守貴也，富貴不離其身，祿及子孫，古之王道其於此矣。
+
+老子曰：民有道所同行，有法所同守，義不能相固，威不能相必，故立君以一之。君執一即治，無常即亂，君道者，非所以有為也，所以無為也，智者不以德為事，勇者不以力為暴，仁者不以位為惠，可謂一矣。一也者，無適之道也，萬物之本也。君數易法，國數易君，人以其位達其好憎，下之任懼不可勝理，故君失一，其亂甚於無君也，君必執一而後能群矣。
+
+文子問曰：王道有幾？老子曰：一而已矣。
+
+文子曰：古有以道王者，有以兵王者，何其一也？曰：以道王者德也，以兵王者亦德也。用兵有五：有義兵，有應兵，有忿兵，有貪兵，有驕兵。誅暴救弱謂之義，敵來加己不得已而用之謂之應，爭小故不勝其心謂之忿，利人土地，欲人財貨謂之貪，恃其國家之大，矜其人民之眾，欲見賢於敵國者謂之驕。義兵王，應兵勝，恣兵敗，貪兵死，驕兵滅，此天道也。
+
+老子曰：釋道而任智者危，棄數而用才者困，故守分循理，失之不憂，得之不喜。成者非所為，得者非所求，入者有受而無取，出者有授而無與，因春而生，因秋而殺，所生不德，所殺不怨，則幾於道矣。文子問曰：王者得其歡心，為之奈何？老子曰：若江海即是也，「淡兮無味，用之不既」，先小而後大。「夫欲上人者，必以其言下之，欲先人者，必以其身後之」，天下必效其歡愛，進其仁義，而無苛氣，「居上而民不重，居前而眾不害，天下樂推而不厭。」雖絕國殊俗，蜎飛蠕動，莫不親，無之而不通，無往而不遂，「故為天下貴。」
+
+老子曰：執一世之法籍，以非傳代之俗，譬猶膠柱調瑟。聖人者，應時權變，見形施宜，世異則事變，時移則俗易，論世立法，隨時舉事。上古之王，法度不同，非古相返也，時務異也，是故不法其已成之法，而法其所以為法者，與化推移。聖人法之可觀也，其所以作法不可原也，其言可聽也，其所以言不可形也。三皇五帝輕天下，細萬物，齊死生，同變化，抱道推誠，以鏡萬物之情，上與道為友，下與化為人。今欲學其道，不得清明，玄聖守其法籍，行其憲令，必不能以為治矣。
+
+文子問政。老子曰：御之以道，養之以德，無示以賢，無加以力，損而執一，無處可利，無見可欲，方而不割，廉而不劌，無矜無伐，御之以道則民附，養之以德則民服，無示以賢則民足，無加以力則民朴。無示以賢者，儉也，無加以力，不敢也，下以聚之，賂以取之，儉以自全，不敢自安。不下則離散，弗養則背叛，示以賢則民爭，加以力則民怨。離散則國勢貨，民背叛則上無威，人爭則輕為非，下怨其上則位危，四者誠脩，正道幾矣。
+
+老子曰：上言者下用也，下言者上用也，上言者常用也，下言者權用也，唯聖人為能知權。言而必信，期而必當，天下之高行，直而證父，信而死女，孰能貴之。故聖人論事之曲直，與之屈伸，無常儀表，祝則名君，溺則捽父，勢使然也。夫權者，聖人所以獨見，夫先迕而後合者之謂權，先合而後迕者不知權，不知權者，善反醜矣。
+
+文子問曰：夫子之言，非道德無以治天下，上世之王，繼嗣因業，亦有無道，各沒其世而無禍敗者，何道以然？老子曰：自天子以下至于庶人，各自生活，然活有厚薄，天下時有亡國破家，無道德之故也。夙夜不懈，戰戰兢兢，常恐危亡；縱欲怠惰，其亡無時。使桀紂循道行德，湯武雖賢，無所建其功也。夫道德者，所以相生養也，所以相畜長也，所以相親愛也，所以相敬貴也。夫聾蟲雖愚，不害其所愛，誠使天下之民皆懷仁愛之心，禍災何由生乎！夫無道而無禍害者，仁未絕，義未滅也，仁雖未絕，義雖未滅，諸侯以輕其上矣，諸侯輕上，則朝廷不恭，縱令不順，仁絕義滅，諸侯背叛，眾人力政，強者陵弱，大者侵小，民人以攻擊為業，災害生，禍亂作，其亡無日，何期無禍也。
+
+老子曰：法煩刑峻即民生詐，上多事下多態，求多即得寡，禁多即勝少，以事生事，又以事止事，譬猶揚火而使無焚也，以智生患，以智備之，譬猶撓水而欲求清也。
+
+老子曰：人主好仁，即無功者賞，有罪者釋，好刑，即有功者廢，無罪者。及無好憎者，誅而無怨，施而不德，放準循繩，身無與事，若天若地，何不覆載。合而和之，君也，別而誅之，法也，民以受誅無所怨憾，謂之道德。
+
+老子曰：天下是非無所定，世各是其所善，而非其所惡。夫求是者，非求道理也，合於己；非去邪也，去迕於心者。今吾欲擇是而居之，擇非而去之，不知世所謂是非也。故「治大國若烹小鮮」，勿撓而已。夫趣合者，即言中而益親，身疏而謀當，即見疑。今吾欲正身而待物，何知世之所從規我者乎，若與俗遽走，猶逃雨，無之而不濡。欲在於虛，則不能虛，若夫不為虛，而自虛者，此所欲而無不致。故通於道者如車軸，不運於己，而與轂致于千里，轉於無窮之原。故聖人體道反至，不化以待化，動而無為。
+
+老子曰：夫亟戰而數勝者，即國亡，亟戰即民罷，數勝即主驕，以驕主使罷民，而國不亡者即寡矣。主驕即恣，恣即極物，民罷即怨，怨即極慮，上下俱極而不亡者，未之有也。故「功遂身退，天之道也。」
+
+平王問文子曰：吾聞子得道於老聃，今賢人雖有道，而遭淫亂之世，以一人之權，而欲化久亂之民，其庸能乎？文子曰：夫道德者，匡衰以為正，振亂以為治，化淫敗以為樸，淳德復生，天下安寧，要在一人。人主者，民之師也，上者，下之儀也，上美之則下食之，上有道德則下有仁義，下有仁義則無淫亂之世矣。積德成王，積怨成亡，積石成山，積水成海，不積而能成者，未之有也。積道德者，天與之，地助之，鬼神輔之，鳳皇藉其庭，麒麟遊其郊，蛟龍宿其沼。故以道邪天下，天下之德也，無道治天下，天下之賊也。以一人與天下為讎，雖欲長久，不可得也，堯舜以是昌，桀紂以是亡。平王曰：寡人聞命矣。
+
+
+### 上德
+
+老子曰：主者，國之心也，心治則百節皆安，心擾即百節皆亂，故其身治者，支體相遺也，其國治者，君臣相忘也。
+
+老子學於常樅，見舌而守柔，仰視屋樹，退而目川，觀影而知持後，故聖人曰無因循，常後而不先，譬若積薪燎，後者處上。
+
+老子曰：鳴鐸以聲自毀，膏燭以明自煎，虎豹之文來射，猿狖之捷來格，故勇武以強梁死，辯士以智能困。能以智而知，不能以智不知，如勇於一能，察於一辭，可與曲說，不可與廣應。
+
+老子曰：道以無為有體，視之不見其形，聽之不聞其聲，謂之幽冥者。幽冥者，所以論道，而非道也。夫道者，內視而自反，故人不小學，不大迷，不小惠，不大愚。莫鑒於流潦，而鑒於止水，以其保之，止而不外蕩。月望日奪光，陰不可以承陽，日出星可見，不能與之爭光，末不可以強於本，枝不可以大於幹，上重下輕，其覆必易。一淵不兩蛟，一雌不二雄，一即定，兩即爭。玉在山而草木潤，珠生淵而岸不枯，蚯蚓無筋骨之強，爪牙之利，上食咘堁，下飲黃泉，用心一也。清之為明，杯水可見眸子，濁之為害，河水不見太山，蘭芷不為莫服而不芳，舟浮江海不為莫乘而沉，君子行道不為莫知而慍，性之有也。以清入濁必困辱，以濁入清必覆傾，天二氣即成虹，地二氣即泄藏，人二氣即生病，陰陽不能常，日冬且夏，月不知晝，日不知夜。川廣者魚大，山高者木脩，地廣者德厚，故魚不可以無餌釣，獸不可以空器召。山有猛獸，林木為之不斬，園有螫蟲，葵藿為之不採，國有賢臣，折衝千里，通於道者若車之轉於轂中，不運於己，與之致於千里，終而復始，轉無窮之原也。故舉枉與直，何如不得，舉直與枉，勿與遂往。有鳥將來，張羅而待之，得鳥者羅之一目，今為一目之羅，則無時得鳥，故事或不可前規，物或不可預慮，故聖人畜道待時也。故欲致魚者先通谷，欲來鳥者先樹木，水積而魚聚，木茂而鳥集，為魚得者，非挈而入淵也，為猿得者，非負而上木也，縱之所利而已。足所踐者淺，然待所不踐而後能行，心所知者遍，然待所不知而後能明。川竭而谷虛，丘夷而淵塞，脣亡而齒寒，河水深而讓在山。水靜則清，清則平，平則易，易則見物之形，形不可併，故可以為正。使葉落者，風搖之也，使水濁者，物撓之也，璧鍰之器，礛之功也，莫邪斷割，砥礪之力也，劲與驥致千里而不飛，無裹糧之資而不飢，狡兔得而獵犬烹，高鳥盡而良弓藏，名成功遂身退，天道然也。怒出於不怒，為出於不為，視於無有則得所見，聽於無聲則得所聞。飛鳥反鄉，兔走歸窟，狐死首丘，寒螿洋木，各依其所生也。水火相憎，鼎碛在其間，五味以和，骨肉相愛也，讒人間之，父子相危也。犬豕不擇器而食，俞肥其體，故近死，鳳皇翔於千仞，莫之能致。推固百內而不能自椓，目見百步之外而不能見其眥。因高為山即安而不危，因下為池即淵深而魚鱉歸焉。溝也澇即溢，旱即枯，河海之源淵深而不竭。鱉無耳，而目不可以蔽，精於明也；瞽無目，而耳不可以蔽，精於聰也。混混之水濁，可以濯吾足乎？泠泠之水清，可以濯吾纓乎？絲之為縞也，或為冠，或為远，冠則戴枝之，远則足蹍之。金之勢勝木，一刃不能殘一林之木；土之勢勝水，一掬不能塞江河；水之勢火，一酌不能救一車之薪。冬有雷，夏有雹，寒暑不變其節，霜雪麃麃，日出而流。傾易覆也，倚易翻也，幾易助也，濕易雨也，蘭芷以芳，不得見霜，蟾蜍塗兵，壽在五月之望，精泄者中易殘，華非時者不可食。舌之與齒，孰先弊焉？繩之與矢，孰先直焉？使影曲者形也，使響濁者聲也。與死同病者，難為良醫，與亡國同道者，不可為忠謀。使倡吹竽，使工攝竅，雖中節，以可使決，君形亡焉。聾者不歌，無以自樂，盲者不觀，無以接物。步於林者，不得直道，行於險者，不得履繩，海內其所出，故能大。日不並出，狐不二雄，神龍不匹，猛獸不群，鷙鳥不雙，蓋非橑不蔽日，輪非輻不追疾，橑輪未足恃也。弧弓能射，而非弦不發，發矢之為射，十分之一。飢馬在廄，漠然無聲，投芻其旁，爭心乃生。三寸之管無當，天下不能滿，十石而有塞，百竹而足。循繩而斷即不過，懸衡而量即不差，懸古法以類，有時而遂，杖格之漌，有時而施，是而行之，謂之亂。農夫勞而君子養，愚者言而智者擇，見之明白，處之如玉石，見之黯，必留其謀。百星之明，不如一月之光，十牖畢開，不如一戶之明。蝮蛇不可為足，虎不可為翼，今有六尺之廣，臥而越之，下才不難，立而踰之，上才不易，勢施異也。助祭者得嘗，救鬥者得傷，蔽於不祥之木，為雷霆所撲。日月欲明，濁雲蓋之，河水欲清，沙土穢之，叢蘭欲脩，秋風敗之，人性欲平，嗜欲害之，蒙塵而欲無眯，不可得絜。黃金龜紐，賢者以為佩，土壤布地，能者以為富，故與弱者金玉，不如與之尺素。轂虛而中立三十輻，各盡其力，使一輻獨入，眾輻皆棄，何近遠之能至。橘柚有鄉，萑葦有叢，獸同足者相從游，鳥同翼者相從翔。欲觀九州之地，足無千里之行，無政教之原，而欲為萬民上者，難矣！兇兇者獲，提提者射，故大白若辱，廣德若不足。君子有酒，小人鞭缶，雖不可好，亦可以醜，人之性，便衣綿帛，或射之即被甲，為所不便，以得其便也。三十輻共一轂，各直一鑿，不得相入，猶人臣各守其職也。善用人者，若●之足，眾而不相害，若舌之與齒，堅柔相磨而不相敗。石生而堅，茞生而芳，少而有之，長而逾明。扶之與提，謝之與讓，得之與失，諾之與已，相去千里。再生者不獲，華太早者不須霜而落。汙其準，粉其顙，腐鼠在阼，燒薰於堂，入水而增濡，懷臭而求芳，雖善者不能為工。冬冰可折，夏木可結，時難得而易失。木方盛，終日采之而復生，秋風下霜，一夕而零。質的張而矢射集，林木茂而斧斤入，非或召之也，形勢之所致。乳犬之噬虎，伏雞之搏狸，恩之所加，不量其力。夫待利而登溺者，亦必以將溺之矣，舟能浮能沈，愚者不知足焉。驥驅之不進，引之不止，人君不以取道里。水雖平，必有波，衡雖正，必有差，尺雖齊，必有危，非規矩不能定方員，非準繩無以正曲直，用規矩者，亦有規矩之心。太山之高，倍而不見，秋毫之末，視之可察。竹木有火，不鑽不熏，土中有水，不掘不出，矢之疾，不過二里，跬步不休，跛鱉千里，累土不止，丘山從成。臨河欲魚，不如歸而織網。弓先調而後求勁，馬先順而後求良，人先信而後求能。巧冶不能消木，良匠不能斲冰，物有不可，如之何君子不留意。使人無渡河，可，使河無波，不可。無月不辜，甑終不墮井矣。刺我行者，欲我交，呰我貨者，欲我市，行一棋不足以見知，彈一弦不足以為悲。今有一炭然，掇之爛绯，相近，萬石俱熏，去之十步而死，同氣而異積。有榮華者必有愁悴，上有羅紈下必有麻●，木大者根瞿，山高者基扶。
+
+老子曰：鼓不藏聲，故能有聲，鏡不沒形，故能有形，金石有聲，不動不鳴，管簫有音，不吹無聲。是以聖人內藏，不為物唱，事來而制，物至而應。天行不已，終而復始，故能長久，輪復其所轉，故能致遠，天行一不差，故無過矣。天氣下，地氣上，陰陽交通，萬物齊同，君子用事，小人消亡，天地之道也。天氣不下，地氣不上，陰陽不通，萬物不昌，小人得勢，君子消亡，五穀不植，道德內藏。天之道，損盈益寡，地之道，損高益下，鬼神之道，驕溢與下，人之道，多者不與，聖人之道，卑而莫能上也。天明日明，而後能照四方，君明臣明，域中乃安，有四明，乃能長久，明其施明者，明其化也。天道為丈，地道為理，一為之和，時為之使，以成萬物，命之曰道。大道坦坦，去身不遠，脩之於身，其德乃真，脩之於物，其德不絕。天覆萬物，施其德而養之，與而不取，故精神歸焉，與而不取者，上德也，是以有德。高莫高於天也，下莫下於澤也，天高澤下，聖人法之，尊卑有敘，天下定矣。地載萬物而長之，與而取之，故骨骸歸焉，與而取者，下德也，「下德不失德，是以無德。」地承天，故定寧，地定寧，萬物形，地廣厚，萬物聚，定寧無不載，廣厚無不容，地勢深厚，水泉入聚，地道方廣，故能久長，聖人法之，德無不容。陰難陽，萬物昌，陽服陰，萬物湛，物昌無不贍也，物湛無不樂也，物樂無不治矣。陰害物，陽自屈，陰進陽退，小人得勢，君子避害，天道然也。陽氣動，萬物緩而得其所，是以聖人順陽道，夫順物者，物亦順之，逆物者，物亦逆之，故不失物之情性。洿澤盈，萬物節成，洿澤枯，萬物無節養也，故雨澤不行，天下荒亡。陽上而復下，故為萬物主，不長有，故能終而復始，終而復始，故能長久，能長久，故為天下母。陽氣畜而復能施，陰氣積而復能化，未有不畜積而能化者也，故聖人慎所積。陽滅陰，萬物肥，陰滅陽，萬物衰，故王公尚陽道則萬物昌，尚陰道則天下亡。陽不下陰，則萬物不成，君不下臣，德化不行，故君下臣則聰明，不下臣則闇聾。日出於地，萬物蕃息，公王居民上，以明道德，日入於地，萬物休息，小人居民上，萬物逃匿。雷之動也萬物啟，雨之潤也萬物解，大人施行，有似於此，陰陽之動有常節，大人之動不極物。雷動地，萬物緩，風搖樹，草木敗，大人去惡就善，民不遠徙，故民有去就也，去無甚，就少愈多。風不動，火不出，大人不言，小人無述，火之出也必待薪，大人之言必有信，有信而真，何往不成。河水深，壤在山，丘陵高，下入淵，陽氣盛，變為陰，陰氣盛，變為陽，故欲不可盈，樂不可極。忿無惡言，怒無作色，是謂計得。火上炎，水下流，聖人之道，以類相求。聖人偯陽，天下和同，偯陰，天下溺沉。
+
+老子曰：積薄成厚，積卑成高，君子日汲汲以成煇，小人日快快以至辱，其消息也雖未能見，故見善如不及，宿不善如不祥。苟向善，雖過無怨，苟不向善，雖忠來惡，故怨人不如自怨，勉求諸人，不如求諸己。聲自召也，類自求也，名自命也，人自官也，無非己者，操銳以刺，操刃以擊，何怨於人，故君子慎微。萬物負陰而抱陽，沖氣以為和，和居中央，是以木實生於心，草實生於英，卯胎生於中央，不卯不胎，生而須時。地平則水不流，輕重均則衡不傾，物之生化也，有感以然。
+
+老子曰：山致其高而雲雨起焉，水致其深而蛟龍生焉，君子致其道而德澤流焉。夫有陰德者必有陽報，有隱行者必有昭名，樹黍者不穫稷，樹怨者無報德。
+
+
+### 微明
+
+老子曰：道可以弱，可以強，可以柔，可以剛，可以陰，可以陽，可以幽，可以明，可以苞裹天地，可以應待無方。知之淺不知之深，知之外不知之內，知之麤不知之精，知之乃不知，不知乃知之，孰知知之為不知，不知之為知乎！夫道不可聞，聞而非也，道不可見，見而非也，道不可言，言而非也，孰知形之不形者乎！故「天下皆知善之為善也，斯不善矣！知者不言，言者不知。」
+
+文子問曰：人可以微言乎？
+
+老子曰：何為不可？唯知言之謂乎！夫知言之謂者，不以言言也。爭魚者濡，逐獸者趨，非樂之也，故至言去言，至為去為，淺知之人，所爭者末矣，夫「言有宗，事有君，夫為無知，是以不吾知。」
+
+文子問曰：為國亦有法乎？
+
+老子曰：今夫挽車者，前呼邪軤，後亦應之，此挽車勸力之歌也，雖鄭衛胡楚之音，不若此之義也。治國有禮，不在文辯。「法令滋彰，盜賊多有。」
+
+老子曰：道無正而可以為正，譬若山林而可以為材，材不及山林，山林不及雲雨，雲雨不及陰陽，陰陽不及和，和不及道。道者，「所謂無狀之狀，無物之象也」，無達其意，天地之間，可陶冶而變化也。
+
+老子曰：聖人立教施政，必察其終始，見其造恩，故民知書則德衰，知數而仁衰，知券契而信衰，知機械而實衰。瑟不鳴而二十五弦各以其聲應，軸不運於己而三十輻各以其力旋，弦有緩急，然後能成曲，車有勞佚，然後能致遠，使有聲者，乃無聲者也，使有轉力者，乃無轉也。上下異道，易治即亂，位高而道大者從，事大而道小者凶。小德害義，小善害道，小辯害治，苛悄傷德。大正不險，故民易導，至治優游，故下不賊，至忠復素，故民無偽匿。
+
+老子曰：相坐之法立，則百姓怨，減爵之令張，則功臣叛，故察於刀筆之跡者，不知治亂之本，習於行陣之事者，不知廟戰之權。聖人先福於重關之內，慮患於冥冥之外，愚者惑於小利而忘大害，故事有利於小而害於大，得於此而忘於彼。故仁莫大於愛人，智莫大於知人，愛人即無怨刑，知人即無亂政。
+
+老子曰：江河之大，溢不過三日，飄風暴雨，日中不出須臾止。德無所積而不憂者，亡其及也，夫憂者所以昌也，喜者所以亡也，故善者以弱為強，轉禍為福，道沖而之又不滿也。
+
+老子曰：清靜恬和，人之性也，儀表規矩，事之制也，知人之性則自養不悖，知事之制則其舉措不亂。發一號，散無競，總一管，謂之心；見本而知末，執一而應萬，謂之術；居知所為，行知所之，事知所乘，動知所止，謂之道。使人高賢稱譽己者，心之力也，使人卑下誹謗己者，心之過也，言出於口，不可止於人，行發於近，不可禁於遠。事者難成易敗，名者難立易廢，凡人皆輕小害，易微事，以至於患。夫禍之至也，人自生之，福之來也，人自成之，禍與福同門，利與害相鄰，自非至精，莫之能分，是故智慮者，禍福之門戶也，動靜者，利害之樞機也，不可不慎察也。
+
+老子曰：人皆知治亂之機，而莫知全生之具，故聖人論世而為之事，權事而為之謀。聖人能陰能陽，能柔能剛，能弱能強，隨時動靜，因資而立功，睹物往而知其反，事一而察其變，化則為之象，運則為之應，是以終身行之無所困。故事或可言而不可行者，或可行而不可言者，或易為而難成者，或難成而易敗者。所謂可行而不可言者，取捨也，可言而不可行者，詐偽也，易為而難成者，事也，難成而易敗者，名也。此四者，聖人之所留心也，明者之所獨見也。
+
+老子曰：道者敬小微，動不失禮，百射重戒，禍乃不滋，計福勿及，慮禍過之，同日被相，蔽者不傷，愚者有備與智者同功。夫積愛成福，積憎成禍，人皆知救患，莫知使患無生，夫使患無生易，施於救患難。今人不務使患無生，而務施救於患，雖神人不能為謀。患禍之所由來，萬萬無方，聖人深居以避患，靜默以待時，小人不知禍福之門，動而陷於刑，雖曲為之備，不足以金身。故上士先避患而後就利，先遠辱而後求名，故聖人常從事於無形之外，而不留心於已成之內，是以禍患無由至，非譽不能塵垢。
+
+老子曰：凡人之道，心欲小，志欲大，智欲圓，行欲方，能欲多，事欲少。所謂心欲小者，慮患未生，戒禍慎微，不敢縱其欲也。志欲大者，兼包萬國，一齊殊俗，是非輻輳，中為之轂也。智圓者，終始無端，方流四遠，淵泉而不竭也。行方者，直立而不撓，素白而不汙，窮不易操，達不肆志也。能多者，文武備具，動靜中儀，舉錯廢置，曲得其宜也。事少者，乘要以偶眾，執約以治廣，處靜以持躁也。故心小者，禁於微也；志大者，無不懷也；智圓者，無不知也；行方者，有不為也；能多者，無不治也；事少者，約所持也。故聖人之於善也，無小而不行，其於過也，無微而不改。行不用巫覡，而鬼神不敢先，可謂至貴矣，然而戰戰慄慄，日慎一日，是以無為而一之成也。愚人之智，固已少矣，而所為之事又多，故動必窮。故以政教化，易而必成，以邪教化，其勢難而必敗，捨其易而必成，從事於難而必敗，愚惑之所致。
+
+老子曰：福之起也綿綿，禍之生也紛紛，禍福之數微而不可見，聖人見其始終，故不可不察。明主之賞罰，非以為己，以為國也，適於己而無功於國者，不施賞焉，逆於己而便於國者，不加罰焉。故義載乎宜謂之君子，遺義之宜謂之小人。通智得而不勞，其次勞而不病，其下病而不勞。古之人味而不舍也，今之人舍而不味也。紂為象櫡而箕子唏，魯以偶人葬而孔子嘆，見其所始即知其所終。
+
+老子曰：仁者人之所慕也，義者人之所高也，為人所慕，為人所高，或身死國亡者，不周於時也，故知義而不知世權者，不達於道也。五帝貴德，三王用義，五伯任力，今取帝王之道，施五伯之世，非其道也。故善也否同非譽俗趨行等逆順左右。知天之所為，知人之所行，即有以經於世矣。知天而不知人，即無以與俗交，知人而不知天，即無以與道游。直志適情，即堅強賊之，以身役物，即陰陽食之。得道之人，外化而內不化，外化所以知人也，內不化所以全身也，故內有一定之操，而外能屈伸，與物推移，萬舉而不陷，所貴乎道者，貴其龍變也。守一節推一行，雖以成滿猶不易，拘於小好而塞於大道。道者，寂寞以虛無，非有為於物也，不以有為於己也，是故舉事而順道者，非道者之所為也，道之所施也。天地之所覆載，日月之所照明，陰陽之所煦，雨露之所潤，道德之所扶，皆詞一和也。是故能戴大圓者履大方，鏡大清者視大明，立太平者處大堂，能游於冥冥者，與日月同光，無形而生於有形，是故真人託期於靈臺，而歸居於物之初，視於冥冥，聽於無聲，冥冥之中獨有曉焉，寂寞之中獨有照焉。其用之乃不用，不用而後能用之也，其知之乃不知，不知而後能知之也。道者，物之所道也，德者，生之所扶也，仁者，積恩之證也，義者，比於心而合於眾適者也。道滅而德興，中世守德而不懷，下世繩繩唯恐失仁。故君子非義無以活，失義則失其所以活，小人非利無以活，失利則失其所以活，故君子懼失義，小人懼失利，觀其所懼，禍福異矣。
+
+老子曰：事或欲利之，適足以害人，害之乃足以利之。夫病溫而強食之，病渴而飲之寒，此眾人之所養也，而良醫所以為病也。悅於目，悅於心，愚道所利，有道者之所避。聖人者先迕而後合，眾人先合而後迕，故禍福之門，利害之反，不可不察也。
+
+老子曰：有功離仁義者即見疑，有罪有仁義者必見信，故仁義者，事之常順也，天下之尊爵也。雖謀得計當，慮忠解圖國存，其事有離仁義者，其功必不遂。言雖無中於策，其計無益於國，而心周於君，合於仁義者，身必存，故曰言百計常不當者，不若舍趨而審仁義也。
+
+老子曰：教本乎君子，小人被其澤，利本乎小人，君子享其功，使君子小人各得其宜，則通功易食而道達矣。人多欲即傷義，多憂即害智，故治國，樂所以存，虐國，樂所以亡。水下流而廣大，君下臣而聰明，君不與臣爭而治道通，故君，根本也，臣，枝葉也，根本不美而枝葉茂者，未之有也。
+
+老子曰：慈父之愛子者，非求其報，不可內解於心；聖主之養民，非為士用也，性不得已也，及恃其力，賴其功勳而必窮，有以為則恩不接矣。故用眾人之所愛，則得眾人之力，舉眾人之所喜，則得眾人之心，故見其所始，則知其所終。
+
+老子曰：人以義愛，黨以群強，是故得之所施者博，則威之所行者遠，義之所加者薄，則武之所制者小。
+
+老子曰：以不義得之，又不布施，患及其身，不能為人，又無以自為，可謂愚人，無以異於梟愛其子也，故「持而備之，不如其已，揣而銳之，不可長保。」德之中有道，道之中有德，其化不可極，陽中有陰，陰中有陽，萬事盡然，不可勝明。福至祥存，禍至祥先，見祥而不為善，則福不來，見不祥而行善，則禍不至，利與害同門，禍與福同鄰，非神聖人莫之能分，故曰「禍兮福所倚，福兮禍所伏，孰知其極。」人之將疾也，必先甘魚肉之味，國之將亡也，必先惡忠臣之語，故疾之將死者，不可為良醫，國之將亡者，不可為忠謀。修之身，然後可以治民，居家理，治然後可移官長，故曰「修之身，其德乃真，修之家，其德乃有餘，修之國，其德乃豐。」民之所以生活，衣與食也，事周於衣食則有功，不周於衣食則無功，事無功德不長。故隨時而不成，無更其刑，順時而不成，無更其理，時將復起，是謂道紀。帝王富其民，霸王富其地，危國富其吏，治國若不足，亡國囷倉虛，故曰「上無事而民自富，上無為而民自化。」起師十萬，日費千金，「帥旋之後，必有凶年，」故「兵者不祥之器，非君子之寶也。」「和大怨必有餘怨」，奈何其為不善也。古者親近不以言，來遠不以言，使近者悅，遠者來。與民同欲則和，與民同守則固，與民同念者知，得民力者富，得民譽者顯，行有召寇，言有致禍，無先人言，後人已。附耳之語，流聞千里，言者禍也，舌者機也，出言不當，駟馬不追。昔者中黃子曰：天有五方，地有五行，聲有五音，物有五味，色有五章，人有五位，故天地之間有二十五人也。上五有神人、真人、道人、至人、聖人，次五有德人、賢人、智人、善人、辯人，中五有公人、忠人、信人、義人、禮人，次五有士人、工人、虞人、農人、商人，下五有眾人、奴人、愚人、肉人、小人，上五之與下五，猶人之與牛馬也。聖人者以目視，以耳聽，以口言，以足行。真人者，不視而明，不聽而聰，不行而從，不言而公。故聖人所以動天下者，真人未嘗過焉，賢人所以矯世俗者，聖人未嘗觀焉。所謂道者，無前無後，無左無右，萬物玄同，無是無非。
+
+
+### 自然
+
+老子曰：清虛者，天之明也，無為者，治之常也，去恩惠，舍聖智，外賢能，廢仁義，滅事故，棄佞辯，禁姦偽，則賢不肖者齊於道矣。靜則同，虛則通，至德無為，萬物皆容，虛靜之道，天長地久，神微周盈，於物無宰。十二月運行，周而復始，金木水火土，其勢相害，其道相待。故至寒傷物，無寒不可，至暑傷物，無暑不可，故可與不可皆可，是以大道無所不可，可在其理，見可不趨，見不可不去，可與不可，相為左右，相為表裏。凡事之要，必從一始，時為之紀，自古及今，未嘗變易，謂之天理。上執大明，下用其光，道生萬物，理於陰陽，化為四時，分為五行，各得其所，與時往來，法度有常，下及無能，上道不傾，群臣一意，天地之道無為而備，無求而得，「是以知其無為而有益也。」
+
+老子曰：樸，至大者無形狀，道，至大者無度量，故天員不中規，地方不中矩。往古來今謂之宙，四方上下謂之宇，道在中而莫知其所，故見不遠者，不可與言大，知不博者，不可與論至。夫岙道與物通者，無以相非，故三皇五帝法籍殊方，其得民心一也。若夫規矩勾繩，巧之具也，而非所以巧也，故無絃雖師文不能成其曲，徒絃則不能獨悲，故絃，悲之具也，非所以為悲也。至於神和，遊於心手之間，放意寫神，論愛而形於絃者，父不能以教子，子亦不能受之於父，此不傳之道也。故肅者形之君也，而寂寞者音之主也。
+
+老子曰：天地之道，以德為主，道為之命，物以自正。至微甚內，不以事貴，故不待功而立，不以位為尊，不待名而顯，不須禮而莊，不用兵而強。故道立而不教，明照而不察，道立而不教者，不奪人能也，明照而不察者，不害其事也。夫教道者，逆於德，害於物，故陰陽四時，金木水火土，同道而異理，萬物同情而異形。智者不相教，能者不相受，故聖人立法，以導民之心，各使自然，故生者無德，死者無怨。天地不仁，以萬物為芻狗，聖人不仁，以百姓為芻狗。夫慈愛仁義者，近狹之道也，狹者入大而迷，近者行遠而惑，聖人之道，入大不迷，行遠不惑，常虛自守，可以為極，是謂天德。
+
+老子曰：聖人天覆地載，日月照臨，陰陽和，四時化，懷萬物而不同，無故無新，無疏無親，故能法天者，天不一時，地不一材，人不一事，故緒業多端，趨行多方。故用兵者，或輕或重，或貪或廉，四者相反，不可一也，輕者欲發，重者欲止，貪者欲取，廉者不利非其有也。故勇者可令進鬥，不可令持堅，重者可令固守，不可令凌敵，貪者可令攻取，不可令分財，廉者可令守分，不可令進取，信者可令持約，不可令應變，五者，聖人兼用而材使之。夫天地不懷一物，陰陽不產一類，故海不讓水潦以成其大，山林不讓枉橈以成其崇，聖不辭其負薪之言以廣其名。夫守一隅而遺萬方，取一物而棄其餘，則所得者寡，而所治者淺矣。
+
+老子曰：天之所覆，地之所載，日月之所照，形殊性異，各有所安，樂所以為樂者，乃所以為悲也，安所以為安者，乃所以為危也。故聖人之牧民也，使各便其性，安其居，處為其所能，周其所適，施其所宜，如此即萬物一齊，無由相過。天下之物，無貴無賤，因其所貴而貴之，物無不貴，因其所賤而賤之，物無不賤，故不尚賢者，言不放魚於木，不沈鳥於淵。昔堯之治天下也，舜為司徒，契為司馬，禹為司空，后稷為田疇，奚仲為工師，其導民也，水處者漁，林處者採，谷處者牧，陵處者田，地宜事，事宜其械，械宜其材，皋澤織網，陵坡耕田，如是外民得以所有易所無，以所工易所拙。是以離叛者寡，聽從者眾，若風之過蕭，忽然而感之，各以清濁應，物莫不就其所利，避其所害。是以鄰國相望，雞狗之音相聞，而足跡不接於諸侯之境，車軌不結於千里之外，皆安其居也。故亂國若盛，治國若虛，亡國若不足，存國若有餘。虛者，非無人也，各守其職也，盛者，非多人也，皆徼於未也，有餘者，非多財也，欲節事寡也，不足者，非無貨也，民鮮而費多也，故先王之法，非所作也，所因也，其禁誅，非所為也，所守也，上德之道也。
+
+老子曰：以道治天下，非易人性也，因其所有而循暢之，故因即大，作即小。古之瀆水者，因水之流也，生稼者，因地之宜也，征伐者，因民之欲也，能因則無敵於天下矣。物必有自然而人事有治也，故先王之制法，因民之性而為之節文，無其性，不可使順教，無其資，不可使遵道。人之性有仁義之資，其非聖人為之法度，不可使向方，因其所惡以禁姦，故刑罰不用，威行如神，因其性即天下聽從，怫其性即法度張而不用。道德者，則功名之本也，民之所懷也，懷之則功名立。古之善為君者法江海，江海無為以成其大，洼下以成其廣，故能長久，為天下谿谷，其德乃足，無為能取百川，不求故能得，不行故能至，是以取天下而無事。不自奉故富，不自見故明，不自矜故長，處不肖之地，故為天下王，不爭故莫能與之爭，終不為大故能成其大，江海近於道，故能長久，與天地相保。公正脩道，即功成不有，不有即強固，強固而不以暴人，道深即德深，德深即功名遂成，此謂玄德深矣！遠矣！其與物反矣！天下有始，莫知其理，唯聖人能知所以，非雄非雌，非牝非牡，生而不死，天地以成，陰陽以形，萬物以生。故陰與陽，有員有方，有短有長，有存有亡，道為之命，幽沉而光事，於心甚微，於道甚當，死生同理，萬物變化，合於一道。簡生忘死，何往不壽，去事與言，慎無為也。守道周密，於物不宰，至微無形，天地之始，萬物同於道而殊形，至微無物，故能周恤，至大無外，故為萬物蓋，至細無內，故為萬物貴。道之存生，德之安形，至道之度，去好去惡，無有知故，易意和心，無以道迕。夫天地專而為一，分而為二，交而合之，上下不失，專而為一，分而為五，反而合之，必中規矩。夫道至親不可疏，至近不可遠，求之近者，往而復反。
+
+老子曰：帝者有名，莫知其情，帝者貴其德，王者尚其義，霸者迫於理。聖人之道，於物無有，道挾然後任智，德薄然後任形，明淺然後任察。任智者中心亂，任刑者上下怨，任察者下求善以事上即弊。是以聖人因天地以變化，其德乃天覆而地載，道之以時，其養乃厚，厚養即治，雖有神聖，人何以易之。去心智，故省刑罰，反清靜，物將自正。道之為君如尸，儼然玄默，而天下受其福，一人被之不裒，萬人被之不褊。是故重為惠，重為暴，即道迕矣。為惠者布施也，無功而厚賞，無勞而高爵，即守職懈於官，而遊居者亟於進矣。夫暴者妄誅也，無罪而死亡，行道者而被刑，即脩身不勸善，而為邪行者輕犯上矣。故為惠者即生姦，為暴者即生亂，姦亂之俗，亡國之風也。故國有誅者而主無怒也，朝有賞者而君無與也，誅者不怨君，罪之當也，賞者不德上，功之致也，民知誅賞之來，皆生於身，故務功脩業，不受賜於人，是以朝廷蕪而無跡，田野辟而無穢，故太上下知而有之。王道者，處無為之事，行不言之教，清靜而不動，一度而不搖，因循任下，責成不勞，謀無失策，舉無過事，言無文章，行無儀表，進退應時，動靜循理，美醜不好憎，賞罰不喜怒。名各自命，類各自以，事由自然，莫出於己，若欲狹之，乃是離之，若欲飾之，乃是賊之。天氣為魂，地氣為魄，反之玄妙，各處其宅，守之勿失，上通太一，太一之精，通合於天。天道嘿嘿，無容無則，大不可極，深不可測，常與人化，智不能得，輪轉無端，化逐如神，虛無因循，常後而不先。其聽治也，虛心弱志，清明不闇，是故群臣輻湊並進，無愚智賢不肖，莫不盡其能，君得所以制臣，臣得所以事君，即治國之所以明矣。
+
+老子曰：知而好問者聖，勇而好問者勝，乘眾人之智者即無不任也，用眾人之力者即無不勝也，用眾人之力者，烏獲不足恃也，乘眾人之勢者，天下不足用也。無權不可為之勢，而不循道理之數，雖神聖人不能以成名。故聖人舉事，未嘗不因其資而用之也，有一形者處一位，有一能者服一事，力勝其任，即舉者不重也，能勝其事，即為者不難也。聖人兼而用之，故人無棄人物無棄材。
+
+老子曰：所謂無為者，非謂其引之不來，推之不去，迫而不應，感而不動，堅滯而不流，捲握而不散，謂其私志不入公道，嗜欲不挂正術，循理而舉事，因資而立功，推自然之勢，曲故不得容，事成而身不伐，功立而名不有，若夫水用舟，涉用䦊，泥用輴，山用樏，夏瀆冬陂，因高為山，因下為池，非吾所為也。聖人不恥身之賤，惡道之不行也，不憂命之短，憂百姓之窮也，故常虛而無為，抱素見樸，不與物雜。
+
+老子曰：古之立帝王者，非以奉養其欲也，聖人踐位者，非以逸樂其身也，為天下之民，強陵弱，眾暴寡，詐者欺愚，勇者侵怯，又為其懷智詐不以相教，積財不以相分，故立天子以齊一之。一人之明，不能遍照海內，故立三公九卿以輔翼之。為絕國殊俗，不得被澤，故立諸侯以教誨之。是以天地四時無不應也，官無隱事，國無遺利，所以衣寒食飢，養老弱，息勞倦，無不以也。神農形悴，堯瘦虞，舜黧黑，禹胼胝，伊尹負鼎而干湯，呂望鼓刀而入周，百里奚傳賣，管仲束縛，孔子無黔突，墨子無煖席，非以貪祿慕位，將欲事起於天下之利，除萬民之害也。自天子至於庶人，四體不勤，思慮不困，於事求贍者，未之聞也。
+
+老子曰：所謂天子者，有天道以立天下也。立天下之道，執一以為保，反本無為，虛靜無有，忽慌無無際，遠無所止，視之無形，聽之無聲，是謂大道之經。
+
+老子曰：夫道者，體員而法方，背陰而抱陽，左柔而右剛，履幽而戴明，變化無常，得一之原，以應無方，是謂神明。天員而無端，故不得觀，地方而無涯，故莫窺其門，天化遂無形狀，地生長無計量。夫物有勝，唯道無勝，所以無勝者，以其無常形勢也，輪轉無形，象日月之運行，若春秋之代謝，日月之晝夜，終而復始，明而復晦，制形而無形，故功可成，物物而不物，故勝而不屈。廟戰者帝，神化者王，廟戰者法天道，神化者明四時，修正於境內，而遠方懷德，制勝於未戰，而諸侯賓服也。古之得道者，靜而法天地，動而順日月，喜怒合四時。號令比雷霆，音氣不戾八風，詘伸不獲五度。因民之欲，乘民之力，為之去殘除害，夫同利者相死，同情者相成，同行者相助，循己而動，天下為鬥。故善用兵者，用其自為用，不能用兵者，用其為己用，用其自為用，天下莫不可用，用其為己用，無一人之可用也。
+
+
+### 下德
+
+老子曰：治身，太上養神，其次養形，神清意平，百節皆寧，養生之本也，肥肌膚，充腹腸，供嗜欲，養生之末也。治國，太上養化，其次正法，民交讓爭處卑，財利爭受少，事力爭就勞，日化上而遷善，不知其所以然，治之本也，利賞而勸善，畏刑而不敢為非，法令正於上，百姓服於下，治之末也，上世養本，而下世事末。
+
+老子曰：欲治之主不世出，可與治之臣不萬一，以不世出求不萬一，此至治所以千歲不一也。蓋霸王之功不世立也，順其善意，防其邪心，與民同出一道，則民可善，風俗可美。所貴聖人者，非貴其隨罪而作刑也，貴其知亂之所生也。若開其銳端，而縱之放僻淫佚，而棄之以法，隨之以刑，雖殘賊天下不能禁其姦矣。
+
+老子曰：身處江海之上，心在魏闕之下，即重生，重生即輕利矣。猶不能自勝即從之，神無所害也，不能自勝而強不從，是謂重傷，重傷之人無壽類矣。故曰：知和曰常，知常曰明，益生曰祥，心使氣曰強，是謂玄同，用其光，復歸其明。
+
+老子曰：天下莫易於為善，莫難於為不善。所謂為善者，靜而無為，適情辭餘，無所誘惑，循性保真，無變於己，故曰為善易也。所謂為不善難者，篡弒矯詐，躁而多欲，非人之性也，故曰為不善難也。今之以為大患者，由無常厭度量生也，故利害之地，禍福之際，不可不察。聖人無欲也，無避也，事或欲之，適足以失之，事或避之，適足以就之，志有所欲，即忘其所為，是以聖人審動靜之變，而適受與之度，理好憎之情，和喜怒之節。夫動靜得即患不侵也，受與適即罪不累也，理好憎即憂不近也，和喜怒即怨不犯也。體道之人不苟得，不讓禍，其有不棄，非其有不制，恒滿而不溢，常虛而易贍。故自當以道術度量，即食充虛，衣圉寒，足以溫飽七尺之形，無道術度量，而以自要尊貴，即萬乘之勢不足以為快，天下之富不足以為樂，故聖人心平志易，精神內守，物不能惑。
+
+老子曰：勝人者有力，自勝者強。能強者，必用人力者也，能用人力者，必得人心者也，能得人心者，必自得者也，未有得己而失人者也，未有失己而得人者也。故為治之本，務在安人，安人之本，在於足用，足用之本，在於不奪時，不奪時之本，在於省事，省事之本，在於節用，節用之本，在於去驕，去驕之本，在於虛無，故知生之情者，不務生之所無以為，知命之情者，不憂命之所無奈何。目悅五色，口惟滋味，耳淫五聲，七竅交爭，以害一性，日引邪欲竭其天和，身且不能治，奈治天下何，所謂得天下者，非謂其履勢位，稱尊號，言其運天下心，得天下力也，有南面之名，無一人之譽，此失天下也。故桀紂不為王，湯武不為放，故天下得道，在守四夷，天下失道，守在諸侯，諸侯得道，守在四境，諸侯失道，守在左右。故曰無恃其不吾奪也，恃吾不可奪也，行可奪之道，而非篡弒之行，無益於持天下矣。
+
+老子曰：善治國者，不變其故，不易其常。夫怒者逆德也，兵者凶器也，爭者人之所亂也，陰謀逆德，好用凶器，治人之亂，逆之至也。非禍人不能成禍，不如挫其銳，解其紛，和其光，同其塵。人之性情皆願賢己而疾不及人，願賢己則爭心生，疾不及人則怨爭生，怨爭生則心亂而氣逆，故古之聖王退爭怨，爭怨不生則心治而氣順，故曰：「不尚賢，使民不爭。」
+
+老子曰：治物者，不以物以和，治和者，不以和以人，治人者，不以人以君，治君者，不以君以欲，治欲者，不以欲以性，治性者，不以性以德，治德者，不以德以道。以道本人之性，無邪穢，久湛於物即忘其本，即合於若性。衣食禮俗者，非人之性也，所受於外也，故人性欲平，嗜欲害之，唯有道者能遺物反己。有以自鑒，則不失物之情，無以自鑒，則動而惑營。夫縱欲失性，動未嘗正，以治生則失身，以治國則亂人，故不聞道者無以反性。古者聖人得諸己，故令行禁止，凡舉事者，必先平意清神，神清意平，物乃可正。聽失於非譽，目淫於綵色，而欲得事正即難矣，是以貴虛。故水激則波起，氣亂則智昏，昏智不可以為正，波水不可以為平，故聖王執一，以理物之情性。夫一者，至貴無適於天下，聖王託於無適，故為天下命。
+
+老子曰：陰陽陶冶萬物，皆乘一氣而生。上下離心，氣乃上蒸，君臣不和，五穀不登，春肅秋榮，冬雷夏霜，皆賊氣之所生也。天地之間，一人之身也，六合之內，一人之形也，故明於性者，天地不能脅也，審於符者，怪物不能惑也。聖人由近以知遠，以萬里為一同，氣蒸乎天地，禮義廉恥不設，萬民莫不相侵暴虐，由在乎混冥之中也。廉恥陵哕，及至世之衰，害多而財寡，事力勞而養不足，民貧苦而忿爭生，是以貴仁。人鄙不齊，比周朋黨，各推其與，懷機巧詐之心，是以貴義。男女群居，雜而無別，是以貴禮。性命之情，淫而相迫於不得已，則不和，是以貴樂。故仁義禮樂者，所以救敗也，非通治之道也。誠能使神明定於天下，而心反其初，則民性善，民性善則天地陰陽從而包之，則財足而人贍，貪鄙忿爭之心不得生焉。仁義不害，而道德定而天下，而民不淫於綵色，故德衰然後飾仁義，和失然後調聲，禮淫然後飾容。故知道德，然後知仁義不足行也，知仁義，然後知禮樂不足脩也。
+
+老子曰：清靜之治者，和順以寂寞，質真而素樸，閑靜而不躁，在內而合乎道，出外而同乎義，其言略而循理，其行悅而順情，其心和而不偽，其事素而不飾，不謀所始，不議所終，安即即留，激即行，通體乎天地，同胃乎陰陽，一和乎四時，明朗乎日月，與道化者為人，機械詐偽莫載乎心。是以天覆以德，地載以樂，四時不失序，風雨不為虐，日月清靜而揚光，五星不失其行，此清靜之所明也。
+
+老子曰：治世之職易守也，其事易為也，其禮易行也，其責易賞也。是以人不兼官，官不兼士，士農工商，鄉別州異，故農與農言藏，士與士言行，工與工言巧，商與商言數。是以士無遺行，工無苦事，農無廢功，商無折貨，各安其性。異形殊類，易事而不悖，失處而賤，得勢而貴。夫先知遠見之人，才之盛也，而治世不以責於人，博聞強志，口辯辭給，人知之溢也，而明主不以求於下，敖世賤物，不從流俗，士之伉行也，而治世不以為化民。故高不可及者，不以為人量，行不可逮者，不可為國俗，故人才不可專用，而度量道術可世傳也。故國治可與愚守也，而軍旅可以法同也，不待古之英俊，而人自足者，因其所有而並用之。末世之法，高為量而罪不及也，重為任而罰不勝也，危為其難而誅不敢也，民困於三責，即飾智而詐上，犯邪而行危，雖峻法嚴刑，不能禁其姦。獸窮即觸，鳥窮即啄，人窮即詐，此之謂也。
+
+老子曰：雷霆之聲可以鐘鼓象也，風雨之變可以音律知也，大可睹者，可得而量也，明可見者，可得而蔽也，聲可聞者，可得而調也，色可察者，可得而別也。夫至大，天地不能函也，至微，神明不能見也，及至建律曆，別五色，異清濁，味甘苦，即樸散而為器矣。立仁義，脩禮樂，即德遷而為偽矣。民飾智以驚愚，設詐以攻上，天下有能持之，而未能有治之者也。夫智能彌多，而德滋衰，是以至人淳樸而不散。夫至人之治，虛無寂寞，不見可欲，心與神處，形與性調，靜而體德，動而理通，循自然之道，緣不得已矣。漠然無為而天下和，淡然無欲而民自樸，不忿爭而財足，求者不得，受者不讓，德反歸焉，而莫之惠。不言之辯，不道之道，若或通焉，謂之天府。取焉而不損，酌焉而不竭，莫知其所求由，謂之搖光，搖光者，資糧萬物者也。
+
+老子曰：天愛其精，地愛其平，人愛其情，天之精，日月星辰、雷霆風雨也，地之平，水火金木土也，人之情，思慮聰明喜怒也，故閉其四關，止五道，即與道淪。神明藏於無形，精氣反於真，目明而不以視，耳聰而不以聽，口當而不以言，心條通而不以思慮，委而不為，知而不矜，直性命之情，而知故不得害。精存於目即其視明，在於耳即其聽聰，留於口即其言當，集於心即其慮通，故閉四關即終身無患，四支九竅，莫死莫生，是謂真人。地之生財，大本不過五行，聖人節五行，即治不荒。
+
+老子曰：衡之於左右，無私輕重，故可以為平，繩之於內外，無私曲直，故可以為正，人主之於法，無私好憎，故可以為令，德無所立，怨無所藏，是任道而合人心者也。故為治者，知不與焉，水戾破舟，木擊折軸，不怨木石而罪巧拙者，智不載也，故道有智則亂，德有心則險，心有眼則眩。夫權衡規矩，一定而不易，常一而不邪，方行而不留，一日形之，萬世傳之，無為之為也。人之言曰：國有亡主，世亡亡道，人有窮而理無不通，故無為者，道之宗也。得道之宗，並應無窮，故不因道理之數，而專己之能，其窮中遠。夫人君者不出戶以知天下者，因物以識物，因人以知人。故積力之所舉，即無不勝也，眾智之為，即無不成也。千人之眾無絕糧，萬人之群無廢功，工無異伎，士無兼官，各守其職，不得相予，人得所宜，物得所安，是以器械不惡，職事不慢也。夫責少易償也，職寡易守也，任輕易勸也，上操約少之分，下效易為之功，是以居日久而不相厭也。
+
+老子曰：帝者體太一，王者法陰陽，霸者則四時，君者用六律。體太一者，明於天地之情，通於道德之倫，聰明照於日月，精神通於萬物，動靜調於陰陽，嗔怒和於四時，覆露皆道，溥洽而無私，蜎飛蠕動，莫不依德而生，德流方外，名聲傳乎後世。法陰陽者，承天地之和，德與天地參，光明與日月並照，精神與鬼神齊靈，圓履方，枹表寢繩，內能理身，外得人心，發施號令，天下從風，則四時者，春生夏長，秋收冬藏，取與有節，出入有量，喜怒剛柔，不離其理，柔而不脆，剛而不折，寬而不肆，肅而不悖，優游委順，以養群類，其德含愚而容不肖，無所私愛也。用六律者，生之與殺也，賞之與罰也，與之以奪也，非此無道也，伐亂禁暴，興賢廢不肖，匡邪以為正，懷險以為平，矯枉以為直，明於施令，開塞之道，乘時因勢，以服役人心者也。帝者體陰陽即寢，王者法四時即削，霸者用六律即辱，君者失準繩即廢，故小而行大即窮塞而不親，大而行小即狹隘而不容。
+
+老子曰：地廣民眾，不足以為強，甲堅兵利，不可以恃勝，城高池深，不足以為固，嚴刑峻罰，不足以為威。為存政者，雖小必存焉，為亡政者，雖大必亡焉。故善守者無與禦，善戰者無與鬥，乘時勢，因民欲，而天下服。故善為政者，積其德，善用兵者，畜其怒，德積而民可用也，怒畜而威可立也。故文之所加者，深則權之所服者大，德之所施者博，則威之所制者廣，廣即我強而適弱。善用兵者，先弱敵而後戰，故費不半而功十倍。故千乘之國行文德者王，萬乘之國好用兵者亡，王兵先勝而後戰，敗兵先戰而後求勝，此不明於道也。
+
+
+### 上仁
+
+老子曰：君子之道，靜以脩身，儉以養生。靜即下不擾，下不擾即民不怨，下擾即政亂，民怨即德薄，政亂賢者不為謀，德薄勇者不為鬥。亂主則不然，一日有天下之富，處一主之勢，竭百姓之力，以奉耳目之欲，志專於宮室臺榭，溝池苑囿，猛獸珍怪，貧民飢餓，虎狼厭芻豢，百姓凍寒，宮室衣綺繡，故人主畜茲旡用之物，而天下不安其性命矣。
+
+老子曰：非惔漠無以明德，非寧靜無以致遠，非寬大無以并覆，非正平無以制斷，以天下之目視，以天下之耳聽，以天下之心慮，以天下之力爭，故號令能下究，而臣情得上聞，百官條通，群臣輻湊。喜不以賞賜，怒不以罪誅，法令察而不苛，耳目通而不闇，善否之情，日陳於前而不逆，故賢者盡其智，不肖者竭其力，近者安其性，遠者懷其德，得用人之道。夫乘輿馬者，不勞而致千里，乘舟楫者不游而濟江海，使言之而是，雖商夫芻蕘，猶不可棄也，言之而非，雖在人君卿相，猶不可用也，是非之處，不可以貴賤尊卑論也。其計可用，不羞其位，其言可行，不貴其辯，闇主則不然，群臣盡誠效忠者，希不用其身也，而親習邪枉，賢者不能見也，疏遠卑賤，竭力盡忠者不能聞也。有言者窮之以辭，有諫者誅之以罪，如此而欲安海內、存萬方，其離聰明亦以遠矣。
+
+老子曰：能尊生，雖富貴不以養傷身，雖貧賤不以利累形。今受先祖之遺爵，必重生之所由來之矣，而輕失之，豈不惑哉。貴以身治天下，可以寄天下，愛以身治天下，所以託天下矣。
+
+文子問治國之本。
+
+老子曰：本在於治身，未嘗聞身治而國亂，身亂而國治也。故曰：脩之身，其德乃真。道之所以至妙者，父不能以教子，子亦不能受之於父，故「道可道，非常道也，名可名，非常名也。」
+
+文子問曰：何行而民親其上？
+
+老子曰：使之以時而敬慎之，如臨深淵，如履薄冰，天地之間，善即吾畜也，不善即吾讎也，昔者夏商之臣，反讎桀紂，而臣湯武，宿沙之民，自攻其君，歸神農氏，故曰：「人之所畏，不可不畏也。」
+
+老子曰：治大者，道不可以小，地廣者，制不可以狹，位高者，事不可以煩，民眾者，教不可以苛。事煩難治，法苛難行，求多難贍，寸而度之，至丈必差，銖而解之，至石必過，石稱丈量，徑而寡失，大較易為智，曲辯難為慧。故無益於治，有益於亂者，聖人不為也，無益於用者，有益於費者，智者不行也。故功不厭約，事不厭省，求不厭寡，功約易成，事省易治，求寡易贍，任於眾人則易。故小辯害義，小義破道，道小必不通，通必簡。河以逶迆故能遠，山以陵遲故能高，道以優游故能化。夫通於一伎，審於一事，察於一能，可以曲說，不可以廣應也。夫調音者，小絃急，大絃緩，立事者，賤者勞，貴者佚。道之言曰：芒芒昧昧，因天之威，與天同氣。同氣者帝，同義者王，同功者霸，無一焉者亡。故不言而信，不施而仁，不怒而威，是以天心動化者也。施而仁，言而信，怒而威，是以精誠為之者也，施而不仁，言而不信，怒而不威，是以外貌為之者也。故有道以理之，法雖少，足以治，無道以理之，法雖眾，足以亂。
+
+老子曰：鯨魚失水，則制於螻蟻，人君舍其所守，而與臣爭事，則制於有司，以無為持位，守職者以聽從取容，臣下藏智而不用，反以事專其上。人君者，不任能而好自為，則智日困而自負責，數窮於下，則不能申理，行墮於位，則不能持制，智不足以為治，威不足以行刑，則無以與下交矣。喜怒形於心，嗜欲見於外，則守職者離正而阿上，有司枉法而從風，賞不當功，誅不應罪，則上下乖心，君臣相怨，百官煩亂而智不能解，非譽萌生而明不能照，非己之失而反自責，則人主愈勞，人臣愈佚，是以代大匠斲者，希有不傷其手。與馬逐走，筋絕不能及也，上車攝轡，馬死衡下，伯樂相之，王良御之，明主求之，無御相之勞而致千里，善乘人之賢也。人君之道，無為而有就也，有立而無好也，有為即議，有好即諛，議即可奪，諛即可誘。夫以建而制於人者，不能持國，故善建者不拔，言建之無形也，唯神化者，物莫能勝。中欲不出謂之赖，外邪不入謂之閉，中赖外閉，何事不節，外閉中赖，何事不成。故不用之，不為之，而有用之，而有為之，不伐之言，不奪之事，循名責實，使自有司，以不知為道，以禁苛為主，如此則百官之事，各有所考。
+
+老子曰：食者人之本也，民者國之基也，故人君者，上因天時，下盡地理，中用人力。是以群生遂長，萬物蕃殖，春伐枯槁，夏收百果，秋蓄蔬食，冬取薪杪，以為民資，生無乏用，死無傳口。先王之法，不掩群而取镺𨱵，不個澤而漁，不焚林而獵，豺未祭獸，罝罘不得通於野，獺未祭魚，網罟不得入於水，鷹隼未擊，羅網不得張於皋，草木未落，斤斧不得入於山林，昆蟲未蟄，不得以火田，育孕不牧，鷇卵不探，魚不長尺不得取，犬豕不期年不得食，是故萬物之發若蒸氣出，先王之所以應時脩備，富國利民之道也，非目見而足行之，欲利民者也不忘乎心，即人自備矣。
+
+老子曰：古者，明君取下有節，自養有度，必計歲而收，量民積聚，知有餘不足之數，然後取奉，如此，即得承所受於天地，而離於飢寒之患。其憯怛於民也，國有飢者，食不重味，民有寒者，冬不被裘，與民同苦樂，即天下無哀民。闇主即不然，取民不裁其力，求下不量其積，男女不得耕織之業，以供上求，力勤財盡，有旦無暮，君臣相疾。且人之為生也，一人蹠來而耕，不益十獁，中田之收不過四石，妻子老弱仰之而食，或時有災害之患，以供上求，即人主愍之矣。貪主暴君，涸漁其下，以適無極之欲，則百姓不被天和、履地德矣。
+
+老子曰：天地之氣，莫大於和，和者，陰陽調，日夜分，故萬物春分而生，秋分而成，生與成，必得和之精。故積陰不生，積陽不化，陰陽交接，乃能成和。是以聖人之道，寬而栗，嚴而溫，柔而直，猛而仁。夫太剛則折，太柔則卷，道正在於剛柔之間。夫繩之為度也，可卷而懷也，引而申之，可直而布也，長而不撗，短而不窮，直而不剛，故聖人體之。夫恩推即懦，懦即不威，嚴推即猛，猛即不和，愛推即縱，縱即不令，刑推即禍，禍即無親，是以貴和也。
+
+老子曰：國之所以存者，得道也，所以亡者，理塞也，故聖人見化以觀其徵。德有昌衰，風為先萌，故得生道者，雖小必大，有亡徵者，雖成必敗。國之亡也，大不足恃，道之行也，小不可輕，故存在得道，不在於小，亡在失道，不在於大。故亂國之主，務於地廣，而不務於仁義，務在高位，而不務於道德，是舍其所以存，造其所以亡也。若上亂三光之明，下失萬民之心，孰不能承，故審其己者，不備諸人也。古之為道者，深行之謂之道德，淺行之謂之仁義，薄行之謂之禮智，此六者，國家之綱維也。深行之則厚得福，淺行之則薄得福，盡行之天下服。古者脩道德即正天下，脩仁義即正一國，脩禮智即正一鄉，德厚者大，德薄者小。故道不以雄武立，不以堅強勝，不以貪競得，立在天下推己，勝在天下自服，得在天下與之，不在於自取，故雌牝即立，柔弱即勝，仁義即得，不爭即莫能與之爭，故道之在於天下也，譬猶江海也。天之道，為者敗之，執者失之，夫欲名是大而求之爭之，吾見其不得已，而雖執而得之，不留也。夫名不可求而得也，在天下與之，與之者歸之，天下所歸者，德也，故云：上德者天下歸之，上仁者海內歸之，上義者一國歸之，上禮者一鄉歸之，無此四者，民不歸也。不歸用兵即危道也，故曰：「兵者，不祥之器，不得已而用之。」殺傷人，養而勿美，故曰：「死地，荊棘生焉，以悲哀泣之，以喪禮居之。」是以君子務於道德，不重用兵也。
+
+文子問：仁義禮何以為薄於道德也？
+
+老子曰：為仁者，必以哀樂論之，為義者，必以取與明之，四海之內，哀樂不能遍，竭府庫之財貨，不足以贍萬民，故知不如脩道而行德，因天地之性，萬物自正而天下贍，仁義因附，「是以大丈夫居其厚，不居其薄。」夫禮者，實之文也，仁者，恩之效也，故禮因人情而制，不過其實，仁不溢恩，悲哀抱於情，送死稱於仁。夫養生不強人所不能及，不絕人所不能已，度量不失其適，非譽無由生矣，故制樂足以合歡，喜不出於和，明於死生之分，通於侈儉之適也。末世即不然，言與行相悖，情與貌相反，禮飾以煩，樂擾以淫，風俗溺於世，非譽華於朝，故至人廢而不用也。與驥逐走，即人不勝驥，託於車上，即驥不勝人，故善用道者，乘人之資以立功，以其所能，託其所不能。主興之以時，民報之以財，主遇之以禮，民報之以死，故有危國無安君，有憂主無樂臣。德過其位者尊，祿過其德者凶，德貴無高，義取無多，不以德貴竊位，不以義取盜財。聖人安貧樂道，不以欲傷生，不以利累己，故不違義而取安。古者無德不尊，無能不官，無功不賞，無罪不誅，其進人也以禮，其退人也以義，小人之世，其進人也若上之天，其退人也若內之淵，言古者以疾今也。相馬失之瘦，選士失之貧，豚肥充廚，骨骴不官。君子察實，無信讒言，君過而不諫，非忠臣也，諫而不聽，君不明也，民沉溺而不憂，非賢言也，故守節死難，人臣之職也，衣寒食飢，慈父之恩也。以大事小謂之變人，以小犯大謂之逆天，前雖祭天，後必入淵，故鄉里以齒，老窮不遺，朝廷以爵，尊卑有差。夫崇貴者，為其近君也，尊老者，謂其近親也，敬長者，謂其近兄也。生而貴者驕，生而富者奢，故富貴不以明道自鑑，而能無為非者寡矣。學而不厭，所以治身也，教而不倦，所以治民也，賢師良友，舍而為非者寡矣。知賢之謂智，愛賢之謂仁，尊仁之謂義，敬賢之謂禮，樂賢之謂樂。古之善為天下者，無為而無不為也，故為天下有容，能得其容，無為而有功，不得其容，動作必凶。為天下容曰，「與兮其若冬涉大川，猶兮其若畏四鄰，儼兮其若容，渙兮其若冰之液，敦兮其若樸，混兮其若濁，廣兮其若谷」，此為天下容。與兮其若冬涉大川者，不敢行也，猶兮其若畏四鄰者，恐四傷也，儼兮其若容者，謙恭敬也，渙兮其若冰之液者，不敢積藏也，敦兮其若樸者，不敢廉成也，混兮其若濁者，不敢明清也，廣兮其若谷者，不敢盛盈也，不敢行者，退不敢先也，恐自傷者，守柔弱不敢矜也，謙恭敬者，自卑下尊敬人也，不敢積藏者，自損弊不敢堅也，不敢廉成者，自虧缺不敢全也，不敢清明者，處濁辱而不敢新鮮也，不敢盛盈者，見不足而不敢自賢也。夫道，退故能先，守柔弱故能矜，自卑下故能高人，自損弊故實堅，自虧缺故盛全，處濁辱故新鮮，見不足故能賢，道無為而無不為也。
+
+
+### 上義
+
+老子曰：凡學者，能明於天人之分，通於治亂之本，澄心清意以存之，見其終始反其虛無，可謂達矣。治之本，仁義也，其末，法度也。人之所生者，本也，其所不生者，末也，本末，一體也，其兩愛之，性也，先本後末，謂之君子，先末後本，謂之小人。法之生也，以輔義，重法棄義，是貴其冠履而忘其首足也。重仁義者，廣崇也，不益其厚而張其廣者毀，不廣其基而增其高者覆，故不大其棟，不能任重，任重莫若棟，任國莫若德。人主之有民，猶城中之有基，木之有根，根深即本固，基厚即上安。故事不本於道德者，不可以為經，言不合於先王者，不可以為道，便說掇取，一行一切之術，非天下通道也。
+
+老子曰：治人之道，其猶造父之御駟馬也，齊輯之乎轡銜，正度之乎胸膺，內得於中心，外合乎馬志，故能取道致遠，氣力有餘，進退還曲，莫不如意，誠得其術也。今夫權勢者，人主之車輿也，大臣者，人主之駟馬也，身不可離車輿之安，手不可失駟馬之心，故駟馬不調，造父不能以取道，君臣不和，聖人不能以為治。執道以御之，中才可盡，明分以示之，姦邪可止，物至而觀其變，事來而應其化，近者不亂即遠者治矣，不用適然之教，而得自然之道，萬舉而不失矣。
+
+老子曰：凡為道者，塞邪道，防未然，不貴其自是也，貴其不得為非也，故曰勿使可欲，無日不求，勿使可奪，無日不爭，如此即人欲釋，而公道行矣。有餘者止於度，不足者逮於用，故天下可一也。夫釋職事而聽非譽，棄功勞而用朋黨，即奇伎天長，守職不進，民俗亂於國，功臣爭於朝，故有道以御人，無道則制於人矣。
+
+老子曰：治國有常而利民為本，政教有道而今行為古，苟利於民，不必法古，苟周於事，不必循俗。故聖人法與時變，禮與俗化，衣服器械，各便其用，法度制令，各因其宜，故變古未可非，而循俗未足多也。誦先王之書不若聞其言，聞其言，不若得其所以言，得其所以言者，言不能言也，故「道可道，非常道也，名可名，非常名也。」聖人所由曰道，猶金石也，一調不可更，事，猶琴瑟也，每終改調。故法制禮樂者，治之具也，非所以為治也，故曲士不可與論至道者，訊寤於俗而束於教。
+
+老子曰：天下幾有常法哉！當於世事，得於人理，順於天地，詳於鬼神，即可以正治矣。昔者三皇無制令而民從，五帝有制令而無刑罰，夏后氏不負言，殷人誓，周人盟。末世之衰也，忍垢而輕辱，貪得而寡羞，故法度制令者，論民俗而節緩急，器械者，因時變而制宜適。夫制於法者，不可與遠舉，拘禮之人，不可使應變，必有獨見之明，獨聞之聰，然後能擅道而行。夫知法之所由生者，即應時而變，不知治道之源者，雖循終亂，今為學者，循先襲業，握篇籍，守文法，欲以為治，非此不治，猶持方枘而內員鑿，欲得宜適亦難矣。夫存危治亂，非智不能，道先稱古，雖愚有餘，故不用之法，聖人不行也，不驗之言，明主不聽也。
+
+文子問曰：法安所生？
+
+老子曰：法生於義，義生於眾適，眾適合乎人心，此治之要也。法非從天下也，非從地出也，發乎人間，反己自正。誠達其本，不亂於末，知其要，不惑於疑，有諸已，不非於人，無諸己，不責於所立，立於下者，不廢於上，所禁於民者，不行於身，故人主之制法也，先以自為檢式，故禁勝於身，即令行於民。夫法者，天下之準繩也，人主之度量也，縣法者，法不法也，法定之後，中繩者賞，缺繩者誅，雖尊貴者不輕其賞，卑賤者不重其刑，犯法者，雖賢必誅，中度者，雖不肖無罪，是故公道行而和欲塞也。古之置有司也，所以禁民使不得恣也，其立君也，所以制有司使不得專行也，法度道術，所以禁君使無得撗斷也。人莫得恣，即道勝而理得矣，故反樸無為，無為者，非謂其不動也，言其從己出也。
+
+老子曰：善賞者，費少而勸多，善罰者，刑省而禁姦，善與者，用約而為德，善取者，入多而無怨，故聖人因民之所喜以勸善，因民之所憎以禁姦，賞一人而天下趨之，罰一人而天下畏之，是以至賞不費，至刑不濫，聖人守約而治廣，此之謂也。
+
+老子曰：臣道，方論是處，當為事先唱，守職明分，以立成功，故君臣異道即治，同道即亂，各得其宜，處有其當，即上下有以相使也。故枝不得大於榦，末不得強於本，言輕重大小有以相制也。夫得威勢者，所持甚小，所任甚大，所守甚約，所制甚廣，十圍之木，持千鈞之屋，得所勢也，五寸之關，能制開闔，所居要也。下必行之令，順之者利，逆之即凶，天下莫不聽從者，順也，發號令行禁止者，以眾為勢也。義者，非能盡利於天下之民也，利一人而天下從之，暴者，非能盡害於海內也，害一人而天下叛之，故舉措廢置，不可不審也。
+
+老子曰：屈寸而申尺，小枉面大直，聖人為之，今人君之論臣也，不計其大功，總其略行，而求其小善，即失賢之道也。故人有厚德，元間其小節，人有大譽，元疵其小故。夫人情莫不有所短，成其大略是也，雖有小過，不以為累也，成其大略非也，閭里之行未足多也。故小謹者元成功，訾行者不容眾，體大者節疏，度巨者譽遠，論臣之道也。
+
+老子曰：自古及今，未有能全其行者也，故君子不責備於一人，方而不割，廉而不劌，直而不肆，博達而不訾，道德文武，不責備於人以力，自脩以道，而不責於人，易賞也，自修以道，則無病矣。夫夏后氏之璜，不能無瑕，明月之珠，不能無穢，然天下寶之者，不以小惡妨大美。今志人之所短，忘人之所長，而欲求賢於天下，即難矣。夫眾人之見，位之卑身之賤，事之洿辱，而不知其大略，故論人之道，貴即觀其所舉，富即觀其所施，窮即觀其所受，賤即觀其所為，視其所患難以智勇，動以喜樂以觀其守，委以貨財以觀其仁，振以恐懼以觀其節，如此則人情可知矣。
+
+老子曰：屈者所以求申也，枉者所以求直也，屈寸申尺，小枉大直，君子為之，百川並流，不注海者不為谷，趨行殊方，不歸善者不為君子。善言貴乎可行，善行貴乎仁義，夫君子之過，猶日月之蝕，不害於明，故智者不妄為，勇者不妄殺，擇是而為之，計禮而行之，故事成而功足恃也，身立而名足稱也，雖有智能，必以仁義為本而後立，智能並行，聖人以仁義為準繩，中繩者謂之君子，不中繩者謂之小人。君子雖死亡，其名不滅，小人雖得勢，其罪不除。左手據天下之圖，而右手刎其喉，雖愚者不為，身貴於天下也。死君親之難者，視死如歸，義重於身也。故天下大利也，比身即小，身之所重也，比之仁義即輕，此以仁義為準繩者也。
+
+老子曰：道德之備猶日月也，夷狄蠻貊不能易其指，趣舍同即非譽在俗，意行均即窮達在時，事周於世即功成，務合於時即名立。是故立功名之人，簡於世而謹於時，時之至也，即間不容息。古之用兵者，非利土地而貪寶賂也，將以存亡平亂為民除害也，貪叨多欲之人，殘賊天下，萬民騷動，莫寧其所。有聖人勃然而起，討強暴，平亂世，為天下除害，以濁為清，以危為寧，故不得不中絕。赤帝為火炎，故黃帝擒之，共工為水害，故顓頊誅之。教人以道，導之以德而不聽，即臨之以威武，臨之不從，則制之以兵革。殺無罪之民，養不義之主，害莫大也，聚天下之財，贍一人之欲，禍莫深焉，肆一人之欲，而長海內之患，此天倫所不取也。所為立君者，以禁暴亂也，今乘萬民之力，反為殘賊，是以虎傅翼，何謂不除。夫畜魚者，必去其蝙獺，養禽獸者，必除其豺狼，又況牧民乎！是故兵革之所為起也。
+
+老子曰：為國之道，上無苛令，官無煩治，士無偽行，工無淫巧，其事任而不擾，其器完而不飾。亂世即不然，為行者相揭以高，為禮者相矜以偽，車輿極於雕琢，器用遂於刻鏤，求貨者爭難得以為寶，詆文者逐煩撓以為急，事為詭辯，久稽而不決，無益於治，有益於亂，工為奇器，歷歲而後成，不周於用。故神農之法曰：丈夫丁壯不耕，天下有受其飢者，婦人當年不織，天下有受其寒者。故身親耕，妻親織，以為天下先，其導民也，不貴難得之貨，不重無用之物。是故耕者不強，無以養生，織者不力，無以衣形，有餘不足，各歸其身，衣食饒裕，姦邪不生，安樂無事，天下和平，智者無所施其策，勇者無所錯其威。
+
+老子曰：霸王之道，以謀慮之，以策圖之，挾義而動，非以圖存也，將以存亡也。故聞敵國之君，有暴虐其民者，即舉兵而臨其境，責以不義，刺以過行。兵至其郊，令軍帥曰：無伐樹木，無掘墳墓，無敗五穀，無焚積聚，無捕民虜，無聚六畜，乃發號施令曰：其國之君，逆天地，侮鬼神，決獄不平，殺戮無罪，天之所誅，民之所讎也，兵之來也，以廢不義而授有德也，有敢逆天道，亂民之賊者，身死族滅，以家聽者祿以家，以里聽者賞以里，以鄉聽者封以鄉，以縣聽者侯其縣。剋其國不及其民，廢其君，易其政，尊其秀士，顯其賢良，振其孤寡，恤其貧窮，出其囹圄，賞其有功，百姓開戶而內之，漬米而儲之，唯恐其不來也。義兵至於境，不戰而止，不義之兵，至於伏屍流血，相交以前。故為地戰者，不能成其王，為身求者，不能立其功，舉事以為人者，眾助之，以自為者，眾去之，眾之所動，雖弱必強，眾之所去，雖大必亡。
+
+老子曰：上義者，治國家，理境內，行仁義，布德施惠，立正法，塞邪道，群臣親附，百姓和輯，上下一心，群臣同力，諸侯服其威，四方懷其德，脩正廟堂之上，折衝千里之外，發號行令而天下響應，此其上也。地廣民眾，主賢將良，國富兵強，約束信，號令明，兩敵相當，未交兵接刃，而敵人奔亡，此其次也。知土地之宜，習險隘之利，明苛政之變，察行陣之事，白刃合，流矢接，輿死扶傷，流血千里，暴骸滿野，義之下也。兵之勝敗習在於政，政勝其民，下附其上，即兵強，民勝其政，下叛其上，即兵弱。義足以懷天下之民，事業足以當天下之急，選舉足以得賢士之心，謀慮足以決輕重之權，此上義之道也。
+
+老子曰：國之所以強者必死也，所以必死者義也，義之所以行者威也，是故令之以文，齊之以武，是謂必取，威義並行，是謂必強。白刃交接，矢石若雨，而士爭光者，賞信而罰明也。上視下如子，下事上如父，上視下如弟，下事上如兄，上視下如子，必王四海，下事上如父，必政天下，上視下如弟，即必難為之死，下事上如兄，即必難為之亡，故父子兄弟之寇，不可與之鬥。是故義君內脩其政以積其德，外塞於邪以明其勢，察其勞佚以知飢飽，戰期有日，視死若歸，恩之加也。
+
+
+### 上禮
+
+老子曰：上古真人，呼吸陰陽，而群生莫不仰其德以和順，當此之時，領理隱密，自成純樸，純樸未散，而萬物大優。及世之衰也，至伏羲氏，昧昧懋懋，皆欲離其童蒙之心，而覺悟乎天地之間，其德煩而不一。及至神農、黃帝，覈領天下，紀綱四時，和調陰陽，於是萬民莫不竦身而思，戴聽而視，故治而不和。下至夏、殷之世，嗜欲達於物，聰明誘於外，性命失其真。施及周室，澆醇散樸，離道以為偽，險德以為行，智巧萌生，狙學以擬聖，華誣以脅眾，琢飾詩書，以賈名譽，各欲以行其智偽，以容於世，而失大宗之本，故世有喪性命，衰漸所由來久矣。是故至人之學也，欲以反性於無，游心於虛，世俗之學，擢德攓性，內愁五藏，暴行越知，以譊名聲於世，此至人所不為也。擢德自見也，攓性絕生也，若夫至人定乎死生之意，通乎榮辱之理，舉世譽之而不益勸，舉世非之而不加沮，得至道之要也。
+
+老子曰：古者被髮而無卷領，以王天下，其德生而不殺，與而不奪，天下非其服，同懷其德，當此之時，陰陽和平，萬物蕃息，飛鳥之巢可俯而探也，走獸可係而從也。及其衰也，鳥獸蟲蛇，皆為民害，故鑄鐵鍛刃以禦其難，故民迫其難則求其便，因其患則操其備，各以其智去其所害，就其所利，常故不可循，器械不可因，故先王之法度，有變易者也，故曰：名可名，非常名也。五帝異道而德覆天下，三王殊事而名後世，因時而變者也。譬猶師曠之調五音也，所推移上下無常，尺寸以度，而靡不中者，故通於樂之情者能作，音有本主於中。而知規矩鉤繩之所用者能治人，故先王之制，不宜即廢之，末世之事善即著之。故聖人之制禮樂者，而不制於禮樂，制物者，不制於物，制法者，不制於法，故曰：「道可道，非常道也。」
+
+老子曰：昔者之聖王，仰取象於天，俯取度於地，中取法於人，調陰陽之氣，和四時之節，察陵陸水澤肥墽高下之宜，以立事生財，除飢寒之患，辟疾疢之讃，中受人事，以制禮樂，行仁義之道，以治人倫。列金木水火土之性，以立父子之親而成家，聽五音清濁六律相生之數，以立君臣之義而成國，察四時孟仲季之序，以立長幼之節而成官，列地而州之，分國而治之，立大學以教之，此治之綱紀也。得道則舉，失道則廢，夫物未嘗有張而不弛，盛而不敗者也。唯聖人可盛而不敗，聖人初作樂也，以歸神杜淫，反其天心，至其衰也，流而不反，淫而好色，不顧正法，流及後世，至於亡國，其作書也，以領理百事，愚者以不忘，智者以記事，及其衰也，為姦偽以解有罪而殺不辜，其作囿也，以成宗廟之具，簡士卒以戒不虞，及其衰也，馳騁弋獵以奪民時，以罷民力，其上賢也，以平教化，正獄訟，賢者在位，能者在職，澤施於下，萬民懷德，至其衰也，朋黨比周，各推其所與，廢公趣私，外內相舉，姦人在位，賢者隱處。天地之道，極則反，益則損，故聖人治弊而改制，事終而更為，其美在和，其失在權。聖人之道曰：非修禮義，廉恥不立，民無廉恥，不可以治，不知禮義，法不能正，非崇善廢醜，不嚮禮義，無法不可以為治，不知禮義不可以行法，法能殺不孝者，不能使人孝，能刑盜者不能使人廉。聖王在上，明好惡以示人，經非譽以導之，親而進之，賤不肖而退之，刑錯而不用，禮義修而任賢德也。故天下之高，以為三公，一州之高，以為九卿，一國之高，以為二十七大夫，一鄉之高，以為八十一元士。智過萬人者謂之英，千人者謂之俊，百人者謂之傑，十人者謂之豪。明於天地之道，通於人情之理，大足以容眾，惠足以懷遠，智足以知權，人英也。德足以教化，行足以隱義，信足以得眾，明足以照下，人俊也。行可以為儀表，智足以決嫌疑，信可以守約，廉可以使分財，作事可法，出言可道，人傑也。守職不廢，處義不比，見難不苟免，見利不苟得，人豪也。英俊豪傑，各以大小之材處其位，由本流末，以重制輕，上唱下和，四海之內，一心同歸，背貪鄙，嚮仁義，其於化民，若風之靡草。今使不肖臨賢，雖嚴刑不能禁其姦，小不能制大，弱不能使強，天地之性也。故聖人舉賢以立功，不肖之主舉其所與同，觀其所舉，治亂分矣，察其黨與，賢不肖可論也。
+
+老子曰：為禮者雕琢人性，矯拂其情，目雖欲之禁以度，心雖樂之節以禮，趣翔周旋，屈節卑拜，肉凝而不食，酒徵而不飲，外束其形，內愁其德，鉗陰陽之和而迫性命之情，故終身為哀人。何則？不本其所以欲，而禁其所欲，不原其所以樂，而防其所樂，是猶圈獸而不塞其垣，禁其野心，決江河之流而壅之以手，故曰：開其兌，濟其事，終身不救。夫禮者，遏情閉欲，以義自防，雖情心𠳁噎，形性飢渴，以不得已自強，故莫能終其天年。禮者，非能使人不欲也，而能止之，樂者，非能使人勿樂也，而能防之。夫使天下畏刑而不敢盜竊，豈若使無有盜心哉！故知其無所用，雖貪者皆辭之，不知其所用，廉者不能讓之。夫人之所以亡社稷，身死人手，為天下笑者，未嘗非欲也，知冬日之扇，夏日之裘，無用於己，萬物變為塵垢矣！故揚湯止沸，沸乃益甚，知其本者，去火而已。
+
+老子曰：循性而行謂之道，得其天性謂之德，性失然後貴仁義，仁義立而道德廢，純樸散而禮樂飾，是非形而百姓眩，珠玉貴而天下爭。夫禮者，所以別尊卑貴賤也，義者，所以和君臣父子兄弟夫婦人道之際也。末世之禮，恭敬而交。為義者，布施而得，君臣以相非，骨肉以生怨也，故水積則生相食之蟲，土積則生自肉之狩，禮樂飾則生詐偽。末世之為治，不積於養生之具，澆天下之醇，散天下之樸，滑亂萬民，以清為濁，性命飛揚，皆亂以營，貞信熳爛，人失其性，法與義相背，行與利相反，貧富之相傾，人君之與僕虜，不足以論。夫有餘則讓，不足則爭，讓則禮義生，爭則暴亂起，故多欲則事不省，求贍則爭不止，故世治則小人守正，而利不能誘也，世亂則君子為姦，而法不能禁也。
+
+老子曰：衰世之主，鑽山石，挈金玉，擿礱蜃，消銅鐵，而萬物不滋，刳胎焚郊，覆巢毀卵，鳳凰不翔，麒麟不遊，構木為臺，焚林而畋，竭澤而漁，積壤而丘處，掘地而井飲，濬川而為池，築城而為固，拘獸以為畜，則陰陽繆戾，四時失序，雷霆毀折，雹霜為害，萬物焦夭，處於太半，草木夏枯，三川絕而不流，分山川谿谷，使有壤界，計人眾寡，使有分數，設機械險阻以為備，制服色等異貴賤，老賢不肖行賞罰，則兵革起而忿爭生，虐殺不辜，誅罰無罪，於是興矣。
+
+老子曰：世之將喪性命，猶陰氣之所起也，主闇昧而不明，道廢而不行，德滅而不揚，舉事戾於天，發號逆四時，春秋縮其和，天地除其德，人君處位而不安，大夫隱遁而不言，群臣推上意而壞常，疏骨肉而自容，邪人諂而陰謀，遽載驕主而像其亂人以成其事，是故君臣乖而不親，骨肉疏而不附，田無立苖，路無緩步，金積折廉，壁襲無贏，殼龜無腹，蓍筮日施，天下不合而為一家，諸侯制法各異習俗，悖拔其根而棄其本，鑿五刑，為刻削，爭於錐刀之末，斬刈百姓，盡其太半，舉兵為難，攻城濫殺，覆高危安，大衝車，高重壘，除戰隊，使陣死路，犯嚴敵，百姓一反，名聲苟盛，兼國有地，伏尸數十萬，老弱飢寒而死者不可勝計。自此之後，天下未嘗得安其性命，樂其習俗也。賢聖勃然而起，持以道德，輔以仁義，近者進其智，遠者懷其德，天下混而為一，子孫相代輔佐黜讒佞之端息未辯之說，除刻削之法，去煩苛之事，屏流言之跡，塞朋黨之門，消智能，循大常，隳枝體，黜聰明，大通混冥，萬物各復歸其根。夫聖人非能生時，時至而不失也，是以不得中絕。
+
+老子曰：酆水之深十仞而不受塵垢，金石在中，形見於外，非不深且清也，魚鱉蛟龍莫之歸也。石上不生五穀，秀山不遊麋鹿，無所蔭蔽也。故為政以苛為察，以切為明，以刻下為忠，以計多為功，如此者譬猶廣革者也，大敗大裂之道也，其政悶悶，其民淳淳，其政察察，其民缺缺。
+
+老子曰：以政治國，以奇用兵。先為不可勝之政，而後求勝於敵，以未治而攻人之亂，是猶以火應火，以水應水也，同莫足以相治，故以異為奇，奇靜為躁奇，治為亂奇，飽為飢奇，逸為勞奇，正之相應，若水火金木之相伐也，何往而不勝，故德均則眾者勝寡，力敵則智者制愚，智同則有數者禽無數
+
+
+## 五、《文始真經》全本
+
+### 一宇
+
+關尹子曰：「非有道不可言，不可言即道；非有道不可思，不可思即道。天物怒流，人事錯錯然。若若乎回也，戛戛乎鬭也。勿勿乎似而非也。而爭之，而介之；而哯之，而嘖之；而去之，而要之。言之如吹影，思之如鏤塵，聖智造迷，鬼神不識。惟不可為，不可致，不可測，不可分。故曰天、曰命、曰神、曰玄；合曰道。」
+
+關尹子曰：「無一物非天，無一物非命，無一物非神，無一物非玄。物既如此，人豈不然？人皆可曰天，人皆可曰神，人皆可致命通玄。不可彼天，此非天；彼神，此非神；彼命，此非命；彼玄，此非玄。是以善吾道者，即一物中知天、盡神、致命、造玄。學之徇異，名析同實；得之契同，實忘異名。」
+
+關尹子曰：「觀道者如觀水，以觀沼為未足，則之河，之江，之海，曰：『水至也。』殊不知我之津、液、涎、淚皆水。」
+
+關尹子曰：「道無人。聖人不見甲是道，乙非道。道無我。聖人不見己進道，己退道。以不有道，故不無道；以不得道，故不失道。」
+
+關尹子曰：「不知道，妄意卜者，如射覆盂：高之存金、存玉，中之存角、存羽，卑之存瓦、存石。是乎？非是乎？惟置物者知之。」
+
+關尹子曰：「一陶能作萬器，終無有一器能作陶者，能害陶者。一道能作萬物，終無有一物能作道者，能害道者。」
+
+關尹子曰：「道茫茫而無知乎？心儻儻而無羈乎？物迭迭而無非乎？電之逸乎？沙之飛乎？聖人以知：心一，物一，道一。三者、又合為一。不以一格不一，不以不一害一。」
+
+關尹子曰：「以盆為沼，以石為島，魚環游之，不知其幾千萬里而不窮也。夫何故？水無源無歸。聖人之道：本無首，末無尾，所以應物不窮。」
+
+關尹子曰：「無愛道，愛者、水也；無觀道，觀者、火也；無逐道，逐者、木也；無言道，言者、金也；無思道，思者、土也。惟聖人不離本情，而登大道；心既未萌，道亦假之。」
+
+關尹子曰：「重雲蔽天，江湖黯然，游魚茫然。忽望波明食動，幸賜于天，即而就之，漁釣斃焉。不知我無我而逐道者，亦然。」
+
+關尹子曰：「方術之在天下多矣。或尚晦，或尚明；或尚強，或尚弱。執之皆事，不執之皆道。」
+
+關尹子曰：「道終不可得，彼可得者，名德不名道；道終不可行，彼可行者，名行不名道。聖人以可得可行者，所以善吾生；以不可得、不可行者，所以善吾死。」
+
+關尹子曰：「聞道之後，有所為、有所執者，所以之人；無所為、無所執者，所以之天。為者必敗，執者必失；故聞道於朝，可死於夕。」
+
+關尹子曰：「一情冥，為聖人；一情善，為賢人；一情惡，為小人。一情冥者、自有之無，不可得而示；一情善惡者、自無起有，不可得而秘。一情善惡為有知，惟動物有之。一情冥者為無知，溥天之下，道無不在。」
+
+關尹子曰：「勿以聖人力行不怠，則曰道以勤成；勿以聖人堅守不易，則曰道以執得。聖人力行，猶之發矢，因彼而行，我不自行；聖人堅守，猶之握矢，因彼而守，我不自守。」
+
+關尹子曰：「若以言行、學識求道，互相展轉，無有得時。知言如泉鳴，知行如禽飛；知學如擷影；知識如計夢。一息不存，道將來契。」
+
+關尹子曰：「以事建物則難，以道棄物則易。天下之物無不成之難而壞之易也。」
+
+關尹子曰：「一灼之火，能燒萬物；物亡而火何存？一息之道，能冥萬物；物亡而道何在？」
+
+關尹子曰：「人生在世。有生一日死者，有生十年死者，有生百年死者。一日死者，如一息得道；十年、百年死者，如歷久得道。彼未死者，雖動作昭智，止名為生，不名為死；彼未契道者，雖動作昭智，止名為事，不名為道。」
+
+關尹子曰：「不知吾道無言無行，而即有言有行者求道、忽遇異物，橫執為道，殊不知捨源求流，無時得源；捨本就末，無時得本。」
+
+關尹子曰：「習射、習御、習琴、習奕、終無一事可以一息得者。惟道無形無方，故可得之于一息。」
+
+關尹子曰：「兩人射，相遇則巧拙見；兩人奕，相遇則勝負見；兩人道，相遇則無可示。無可示者，無巧、無拙、無勝、無負。」
+
+關尹子曰：「吾道如海：有億萬金，投之不見；有億萬石，投之不見；有億萬汙穢，投之不見。能運小鰕、小魚，能運大鯤、大鯨。合眾水而受之，不為有餘；散眾水而分之，不為不足。」
+
+關尹子曰：「吾道如處暗。夫處明者，不見暗中一物，而處暗者，能見明中區事。」
+
+關尹子曰：「小人之權，歸于惡；君子之權，歸于善；聖人之權，歸于無所得。惟無所得，所以為道。」
+
+關尹子曰：「吾道如劍：以刀割物，即利；以手握刃，即傷。」
+
+關尹子曰：「籩不問豆，豆不荅籩；瓦不問石，石不荅瓦；道亦不失。問歟荅歟，一氣往來，道何在？」
+
+關尹子曰：「仰道者跂，如道者駸；皆知道之事，不知道之道。是以聖人不望道而歉，不恃道而豐；不惜道於聖，不賈道于愚。」
+
+
+### 二柱
+
+關尹子曰：「若椀若盂，若瓶若壼，若甕若盎，皆能建天地；兆龜，數蓍，破瓦，文石，皆能告吉凶。是知天地萬物成理，一物包焉。物物皆包之，各不相借。以我之精，合彼之精，兩精相搏，而神應之。一雌一雄，卵生；一牡一牝，胎生。形者、彼之精，理者、彼之神。愛者、我之精，觀者、我之神。愛為水，觀為火。愛執而觀，因之為水。觀存而愛，攝之為金。先想乎一元之氣，具乎一物，執愛之以合彼之形，冥觀之以合彼之理，則象存焉。
+
+「一運之象，周乎太空。自中而升為天，自中而降為地。無有升而不降；無有降而不升。升者為火，降者為水。欲升而不能升者為木，欲降而不能降者為金。
+
+「木之為物，鑽之得火，絞之得水。金之為物，擊之得火，鎔之得水。金木者、水火之交也，水為精為天，火為神為地，木為魂為人，金為魄為物。運而不已者為時，包而有在者為方。惟土終始之，有解之者，有示之者。」
+
+關尹子曰：「天下之人，蓋不可以億兆計，人人之夢各異，夜夜之夢各異。有天、有地，有人、有物，皆思成之；蓋不可以塵計。安知今之天地，非有思者乎？」
+
+關尹子曰：「心應棗，肝應榆，我通天地。將陰夢水，將晴夢火，天地通我。我與天地，似契似離，純純各歸。」
+
+關尹子曰：「天地雖大，有色、有形，有數、有方。吾有非色、非形，非數、非方，而天天地地者存。」
+
+關尹子曰：「死胎中者，死卵1中者，亦人亦物，天地雖大，彼固不知。計天地者，皆我區識。譬如手不觸刃，刃不傷人。」
+
+關尹子曰：「夢中、鑑中、水中，皆有天地存焉。欲去夢天地者，寢不寐；欲去鑑天地者，神不照；欲去水天地者，盎不汲。彼之有無，在此，不在彼。是以聖人不去天地，去識。」
+
+關尹子曰：「天非自天，有為天者；地非自地，有為地者。譬如屋宇舟車，待人而成，彼不自成。知彼有待，知此無待。上不見天，下不見地；內不見我，外不見人。」
+
+關尹子曰：「有時者氣；彼非氣者，未嘗有晝夜。有方者形；彼非形者，未嘗有南北。何謂非氣？氣之所自生者。如搖箑得風，彼未搖時，非風之氣；彼已搖時，即名為氣。何謂非形？形之所自生者。如鑽木得火，彼未鑽時，非火之形；彼已鑽時，即名為形。」
+
+關尹子曰：「寒暑溫涼之變，如瓦石之類，置之火即熱，置之水即寒；呵之即溫，吸之即涼，特因外物，有去有來，而彼瓦石實無去來。譬如水中之影，有去有來，所謂水者，實無去來。」
+
+關尹子曰：「衣搖空得風，氣呵物得水，水注水即鳴，石擊石即光。知此說者，風、雨、雷、電，皆可為之。蓋風、雨、雷、電皆緣氣而生，而氣緣心生，猶如內想大火，久之覺熱；內想大1水，久之覺寒。知此說者，天地之德，皆可同之。」
+
+關尹子曰：「五雲之變，可以卜當年之豐歉；八風之朝，可以卜當時之吉凶。是知休咎災祥，一氣之運耳。渾人我，同天地，而彼私智，認而已之。」
+
+關尹子曰：「天地寓，萬物寓，我寓，道寓。苟離于1寓，道亦不立。」
+
+
+### 三極
+
+關尹子曰：「聖人之治天下：不我賢愚，故因人之賢而賢之，因人之愚而愚之；不我是非，故因事之是而是之，因事之非而非之。知古今之大同，故或先古，或先今；知內外之大同，故或先內，或先外。天下之物，無得以累之，故本之以謙；天下之物，無得以外之，故含之以虛；天下之物，無得以難之，故行之以易；天下之物，無得以窒之，故變之以權。以此中天下，可以制禮；以此和天下，可以作樂；以此公天下，可以理財；以此周天下，可以禦侮；以此因天下，可以立法；以此觀天下，可以制器。聖人不以一己治天下，而以天下治天下。天下歸功于聖人，聖人任功于天下。所以堯、舜、禹、湯之治天下，天下皆曰自然。」
+
+關尹子曰：「天無不覆，有生有殺，而天無愛惡。日無不照，有妍有醜，而日無厚薄。」
+
+關尹子曰：「聖人之道，天命，非聖人能自道。聖人之德，時苻，非聖人能自德。聖人之事，人為，非聖人能自事。是以聖人不有道，不有德，不有事。」
+
+關尹子曰：「聖人知我無我，故同之以仁；知事無我，故權之以義；知心無我，故戒之以禮；知識無我，故照之以智。知言無我，故守之以信。」
+
+關尹子曰：「聖人之道，或以仁為仁，或以義為仁，或以禮、以智、以信為仁。仁、義、禮、智、信，各兼五者；聖人一之不膠，天下名之不得。」
+
+關尹子曰：「勿以行觀聖人，道無蹟；勿以言觀聖人，道無言；勿以能觀聖人，道無為；勿以貌觀聖人，道無形。」
+
+關尹子曰：「行雖至卓，不離高下；言雖至公，不離是非；能雖至神，不離巧拙；貌雖至殊，不離妍醜。聖人假此，以示天下。天下冥此，乃見聖人。」
+
+關尹子曰：「聖人師蜂，立君臣；師蜘蛛，立網罟；師拱鼠，制禮；師戰蟻，置兵。眾人師賢人，賢人師聖人，聖人師萬物。惟聖人同物，所以無我。」
+
+關尹子曰：「聖人曰道。觀天地人物皆吾道：倡和之，始終之，青黃之，卵翼之；不愛道，不棄物；不尊君子，不賤小人。賢人曰物。物物不同，旦旦去之，旦旦與之；短之，長之，直之，方之，是為物易也。殊不知聖人鄙雜廁，別分居，所以為人，不以此為己。」
+
+關尹子曰：「聖人之于眾人，飲食衣服同也，屋室舟車同也，富貴貧賤同也。眾人每同聖人，聖人每同眾人。彼仰其高、侈其大者，其然乎？其不然乎？」
+
+關尹子曰：「魚欲異群魚，捨水躍岸即死；虎欲異群虎，捨山入市即擒。聖人不異眾人，特物不能拘爾。」
+
+關尹子曰：「道無作。以道應世者，是事非道。道無方。以道寓物者，是物非道。聖人竟不能出道以示人。」
+
+關尹子曰：「如鐘鐘然，如鐘鼓然，聖人之言則然。如車車然，如車舟然，聖人之行則然。惟莫能名，所以退天下之言；惟莫能知，所以奪天下之智。」
+
+關尹子曰：「蝍蛆食蛇，蛇食哇，哇食蝍蛆，互相食也。聖人之言亦然，言有無之弊，又言非有非無之弊，又言去非有非無之弊；言之如引鋸然。惟善聖者，不留一言。」
+
+關尹子曰：「若龍、若蛟。若蛇、若龜、若魚、若蛤，龍皆能之，蛟、蛟而已，不能為龍，亦不能為蛇、為龜、為魚、為蛤。聖人龍之，賢人蛟之。」
+
+關尹子曰：「在己無居，形物自著；其動若水，其靜若鏡，其應若響。芒乎若亡，寂乎若清。同焉者和，得焉者失。未嘗先人而嘗隨人。」
+
+關尹子曰：「渾乎洋乎！游太初乎！時金已，時玉已；時糞已，時土已。時翔物，時逐物，時山物，時淵物。端乎權乎！狂乎愚乎！」
+
+關尹子曰：「人之善琴者，有悲心，則聲悽悽然；有思心，則聲遲遲然；有怨心，則心回回然；有慕心，則聲裴裴然。所以悲、思、怨、慕者，非手，非竹，非絲，非桐；得之心，苻之手；得之手，苻之物。人之有道者，莫不中道。」
+
+關尹子曰：「聖人以有言、有為、有思者，所以同乎人；未嘗言、未嘗為、未嘗思者，所以異乎人。」
+
+關尹子曰：「利害心愈明，則親不睦；賢愚心愈明，則友不交；是非心愈明，則事不成；好醜心愈明，則物不契；是以聖人渾之。」
+
+關尹子曰：「世之愚拙者，妄援聖人之愚拙自解，殊不知聖人時愚、時明，時拙、時巧。」
+
+關尹子曰：「以聖師聖者，賢人；以賢師聖者，聖人。蓋以聖師聖者，徇跡而忘道。以賢師聖者，反跡而合道。」
+
+關尹子曰：「賢人趨上而不見下，眾人趨下而不見上。聖人通乎上下，惟其宜之；豈曰離賢人、眾人，別有聖人哉。」
+
+關尹子曰：「天下之理：夫者倡，婦者隨；牡者馳，牝者逐；雄者鳴，雌者應。是以聖人制言行，而賢人拘之。」
+
+關尹子曰：「聖人道雖虎變，事則鱉行；道雖絲紛，事則棊布。」
+
+關尹子曰：「所謂聖人之道者，胡然孑孑爾，胡然徹徹爾，胡然唐唐爾，胡然臧臧爾。惟其能偏偶萬物，而無一物能偶之，故能貴萬物。」
+
+關尹子曰：「雲之卷舒，禽之飛翔，皆在虛空中，所以變化不窮。聖人之道則然。」
+
+
+### 四符
+
+關尹子曰：「水可析可合，精、無人也。火因膏因薪、神、無我也。故耳蔽前後皆可聞，無人；智崇、無人；一奇、無人；冬凋秋物，無人；黑不可變，無人；北壽，無人；皆精。舌即齒牙，成言，無我；禮卑，無我；二偶，無我；夏因春物，無我；赤可變，無我；南夭，無我；皆神。以精無我，故米去殼，則精存；以神無我，故鬼憑物，則神見。全精者、忘是非，忘得失；在此者非彼。抱神者，時晦明，時強弱；在彼者非此。」
+
+關尹子曰：「精、神，水、火也，五行互生滅之，其來無首，其往無尾。則吾之精，一滴無存亡爾；吾之神，一欻無起滅爾。惟無我無人，無首無尾，所以與天地冥。」
+
+關尹子曰：「精者水，魄者金，神者火，魂者木。精主水，魄主金，金生水，故精者、魄藏之。神主火，魄主木，木生火，故神者、魂藏之。惟火之為物，能鎔金而銷之，能燔木而燒之；所以冥魂魄。惟精在天為寒，在地為水，在人為精；神在天為熱，在地為火，在人為神；魄在天為燥，在地為金，在人為魄；魂在天為風，在地為木，在人為魂。惟以我之精，合天地萬物之精，譬如萬水可合為一水；以我之神，合天地萬物之神，譬如萬火，可合為一火；以我之魄，合天地萬物之魄，譬如金之為物，可合異金而鎔之為一金；以我之魂，合天地萬物之魂，譬如木之為物，可接異木而生之為一木，則天地萬物，皆吾精、吾神、吾魄、吾魂。何者死？何者生？」
+
+關尹子曰：「五行之運：因精有魂，因魂有神，因神有意，因意有魄，因魄有精。五行回環不已，所以我之偽心流轉造化，幾億萬歲，未有窮極。然核芽相生，不知其幾萬株；天地雖大，不能芽空中之核。雌卵相生，不知其幾萬禽；陰陽雖妙，不能卵無雄之雌。惟其來干我者，皆攝之以一息，則變物為我；無物非我。所謂五行者，孰能變之？」
+
+關尹子曰：「眾人以魄攝魂者，金有餘則木不足也。聖人以魂運魄者，木有餘則金不足也。蓋魄之藏，魂俱之；魂之游，魄因之。魂晝寓目，魄夜舍肝。寓目能見，舍肝能夢。見者魂，無分別析之者。分別析之，曰天地者，魂狃習也。夢者魄，無分別析之者，分別析之，曰彼我者，魄狃習也。土生金，故意生魄。神之所動，不名神，名意；意之所動，不名意，名魄。惟聖人知我無我，知物無物，皆因思慮計之而有。是以萬物之來，我皆對之以性，而不對之以心。性者、心未萌也，無心，則無意矣；蓋無火則無土，無意則無魄矣。蓋無土則無金，一者不存，五者皆廢。既能渾天地萬物以為魂，斯能渾天地萬物以為魄。凡造化所妙，皆吾魂；凡造化所有，皆吾魄，則無有一物可役我者。」
+
+關尹子曰：「鬼云為魂，鬼白為魄，於文則然。鬼者、人死所變，云者、風，風者、木；白者、氣，氣、者金。風散，故輕清；輕清者上天。金堅，故重濁；重濁者入地。輕清者，魄從魂升；重濁者，魂從魄降。有以仁升者，為木星佐；有以義升者，為金星佐；有以禮升者，為火星佐；有以智升者，為水星佐；有以信升者，為土星佐。有以不仁沉者，木賊之；不義沉者，金賊之；不禮沉者，火賊之；不智沉者，水賊之；不信沉者，土賊之。
+
+「魂魄半之，則在人間。升魂為貴，降魄為賤；靈魂為賢，厲魂為愚；輕魂為明，重魄為暗，揚魂為羽，鈍魄為毛；明魂為神，幽魄為鬼；其形其居，其識其好，皆以五行契之。惟五行之數參差不一，所以萬物之多，盈天地間猶未已也。以五事歸五行，以五行作五蟲，可勝言哉！譬猶兆龜數蓍，至誠自契，五行應之。誠苟不至，兆之數之，無一應者。聖人假物以游世，五行不得不對。」
+
+關尹子曰：「五者具有魂。魂者識，目者精，色者神，見之者為魂。耳、目、口、鼻、心之類。在此生者，愛為精，為彼生父本；觀為神，為彼生母本。愛觀雖異，識生。彼生生本，在彼生者，一為父，故受氣於父，氣為水；二為母，故受血於母，血為火。有父有母，彼生生矣。惟其愛之無識，如鎖之交；觀之無識，如燈之照。吾識不萌，吾生何有？」
+
+關尹子曰：「如桴扣鼓。鼓之形者，我之有也；鼓之聲者，我之感也。桴已往矣，餘聲尚在，終亦不存而已矣。鼓之形，如我之精；鼓之聲，如我之神；其餘聲者，猶之魂魄。知夫倏往倏來，則五行之氣，我何有焉？」
+
+關尹子曰：「夫菓之有核，必待水、火、土三者具矣，然後相生不窮。三者不具，如大旱、大潦、大塊，皆不足以生物。夫精、水，神、火，意、土，三者、本不交，惟人以根合之，故能于其中橫見有事；猶如術呪者。能于至無中見多有事。」
+
+關尹子曰：「魂者、木也，木根於冬、水，而華于夏、火。故人之魂藏于夜、精，而見于晝、神。合乎精，故所見我獨；蓋精未嘗有人。合乎神，故所見人同；蓋神未嘗有我。」
+
+關尹子曰：「知夫此身如夢中身隨情所見者，可以飛神作我而游太清。知夫此物如夢中物隨情所見者，可以凝精作物而駕八荒。是道也，能見精神而久生，能忘精神而超生。吸氣以養精，如金生水；吸風以養神，如木生火；所以假外以延精神。漱水以養精，精之所以不窮；摩火以養神，神之所以不窮。所以假內以延精神。若夫忘精神而超生者，吾嘗言之矣。」
+
+關尹子曰：「蜣蜋轉丸，丸成而精思之，而有蝡白者存丸中，俄去殼而蟬。彼蜣不思，彼蝡奚白？」
+
+關尹子曰：「庖人羹蟹，遺一足几上，蟹已羹，而遺足尚動。是生死者，一氣聚散爾。不生不死，而人橫計曰生死。」
+
+關尹子曰：「人勤于禮者，神不外馳；可以集神。人勤于智者，精不外移；可以攝精。仁則陽而明，可以輕魂；義則陰而冥，可以御魄。」
+
+關尹子曰：「有死立者，有死坐者，有死臥者，有死病者，有死藥者。等死，無甲乙之殊。若知道之士，不見生，故不見死。」
+
+關尹子曰：「人之厭生死、超生死者，皆是大患也。譬如化人，若有厭生死心、超生死心，止名為妖，不名為道。」
+
+關尹子曰：「計生死者，或曰死已、有；或曰死已、無；或曰死已、亦有亦無；或曰死已、不有不無；或曰當幸者；或曰當懼者；或曰當任者；或曰當超者。愈變識情，馳鶩不已。殊不知我之生死，如馬之手，如牛之翼，本無有，復無無。譬如水火，雖犯水火，不能燒之，不能溺之。」
+
+
+### 五鑑
+
+關尹子曰：「心蔽吉凶者，靈鬼攝之；心蔽男女者，淫鬼攝之；心蔽幽憂者，沉鬼攝之；心蔽放逸者，狂鬼攝之；心蔽盟詛者，奇鬼攝之；心蔽藥餌者，物鬼攝之。如是之鬼，或以陰為身，或以幽為身；或以風為身，或以氣為身；或以土偶為身，或以彩畫為身；或以老畜為身；或以敗器為身。彼以其精，此以其精，兩精相搏，則神應之。為鬼所攝者，或解奇事，或解異事，或解瑞事。其人傲然，不曰鬼于躬，惟曰道于躬；久之，或死木，或死金，或死繩，或死井。惟聖人能神神而不神于神，役萬物而執其機。可以會之，可以散之，可以禦之；日應萬物，其心寂然。」
+
+關尹子曰：「無一心：五識並馳，心不可一；無虛心，五行皆具，心不可虛；無靜心：萬化密移，心不可靜。借能一則二偶之，借能虛則實滿之，借能靜則動搖之。惟聖人能斂萬有于一息，無有一物可役吾之明徹，散一息于萬有，無有一物可間吾之云為。」
+
+關尹子曰：「火千年，俄可滅；識千年，俄可去。」
+
+關尹子曰：「流者、舟也，所以流之者，是水、非舟。運者、車也，所以運之者，是牛、非車。思者、心也，所以思之者，是意、非心，不知所以然而然。惟不知所以然而然，故其來無從，其往無在。其來無從，其往無在，故能與天地本原，不古不今。」
+
+關尹子曰：「知心無物，則知物無物；知物無物，則知道無物。知道無物，故不尊卓絕之行，不驚微妙之言。」
+
+關尹子曰：「物我交，心生；兩木摩，火生。不可謂之在我，不可謂之在彼；不可謂之非我，不可謂之非彼；執而彼我之，則愚。」
+
+關尹子曰：「無恃爾所謂利、害、是、非。爾所謂利、害、是、非者，果得利、害、是、非之乎？聖人方且不識不知，而況于爾！」
+
+關尹子曰：「夜之所夢，或長于夜，心無時。生于齊者，心之所見，皆齊國也；既而之宋、之魏、之晉、之，心之所存各異，心無方。」
+
+關尹子曰：「善弓者、師弓，不師羿；善舟者、師舟，不師奡；善心者、師心，不師聖。」
+
+關尹子曰：「是非、好醜、成敗、盈虛，造物者運矣，皆因私識執之而有。于是以無遣之猶存，以非有、非無遣之猶存。無曰莫莫爾，無曰渾渾爾，猶存。譬猶昔游再到，記憶宛然。此不可忘、不可遣。
+
+「善去識者，變識為智。變識為智之說，汝知之乎？曰：想如：思鬼心慄，思盜心怖。曰：識如：認黍為稷、認玉為石者，浮游罔象，無所底止。譬覩奇物，生奇物想，生奇物識；此想、此識，根不在我。譬如今日，今日而已；至于來日想、識，殊未可卜。及至來日，紛紛想、識，皆緣有生。曰想、曰識，譬犀望月，月形入角，特因識生，始有月形。而彼真月，初不在角。胸中之天地萬物亦然。知此說者，外不見物，內不見情。」
+
+關尹子曰：「物生于土，終變于土；事生于意，終變于意。知夫惟意，則俄是之，俄非之；俄善之，俄惡之。意有變，心無變；意有覺，心無覺。惟一我心，則意者、塵往來爾，事者、欻起滅爾。吾心有大常者存。」
+
+關尹子曰：「情生于心，心生于性。情、波也，心、流也，性、水也。來于我者，如石火頃；以性受之，則心不生物，浮浮然。」
+
+關尹子曰：「賢、愚、真、偽，有識者，有不識者。彼雖有賢、愚，彼雖有真、偽，而謂之賢、愚、真、偽者，擊我之識。知夫皆識所成，故雖真者亦偽之。」
+
+關尹子曰：「心感物，不生心，生情。物交心，不生物，生識。物尚非真，何況于識？識尚非真，何況于情？而彼妄人，子至無中，執以為有；於至變中，執以為常。一情認之，積為萬情；萬情認之，積為萬物。物來無窮，我心有際；故我之良心，受制于情；我之本情，受制于物。可使之去，可使之來。而彼去來，初不在我。造化役之，固無休息。殊不知天地雖大，能役有形，而不能役無形；陰陽雖妙，能役有氣，而不能役無氣。心之所之，則氣從之；氣之所之，則形應之。猶如太虛，于一氣中變成萬物，而彼一氣，不名太虛；我之一心，能變為氣，能變為形，而我之心無氣無形。知夫我之一心無氣無形，則天地陰陽不能役之。」
+
+關尹子曰：「人之平日，目忽見非常之物者，皆精有所結而使之然。人之病日，目忽見非常之物者，皆心有所歉而使之然。苟知吾心能于無中示有，則知吾心能于有中示無。但不信之，自然不神。或曰：厥識既昏，孰能不信？我應之曰：如捕蛇師，心不怖蛇；彼雖夢蛇，而不怖畏。故黃帝曰：道無鬼神，獨往獨來。」
+
+關尹子曰：「我之思慮日變，有使之者，非我也，命也。苟知惟命，外不見我，內不見心。」
+
+關尹子曰：「譬如兩目，能見天地萬物，暫時回光，一時不見。」
+
+關尹子曰：「目視雕琢者，明愈傷；耳聞交響者，聰愈傷；心思玄妙者，心愈傷。」
+
+關尹子曰：「勿以我心揆彼，當以彼心揆彼。知此說者，可以周事，可以行德，可以貫道，可以交人，可以忘我。」
+
+關尹子曰：「天下之理，小不制，而至于大；大不制，而至于不可制。故能制一情者，可以成德；能忘一情者，可以契道。」
+
+
+### 六匕
+
+關尹子曰：「世之人以我思異彼思、彼思異我思分人我者，殊不知夢中人，亦我思異彼思，彼思異我思。孰為我？孰為人？世之人以我痛異彼痛、彼痛異我痛分人我者，殊不知夢中人，亦我痛異彼痛，彼痛異我痛。孰為我？孰為人？爪髮不痛，手足不思，亦我也，豈可以思、痛異之？世之人以獨見者為夢，同見者為覺，殊不知精之所結，亦有一人獨見于晝者，神之所合，亦有兩人同夢于夜者；二者皆我精神。孰為夢？孰為覺？世之人以暫見者為夢，久見者為覺，殊不知暫之所見者，陰陽之氣；久之所見者，亦陰陽之氣；二者皆我陰陽。孰為夢？孰為覺？」
+
+關尹子曰：「好仁者多夢松、柏、桃、李，好義者多夢兵、刀、金、鐵，好禮者多夢簠、簋、籩、豆，好智者多夢江、湖、川、澤，好信者多夢山、岳、原、野，役于五行，未有不然者。然夢中或聞某事，或思某事，夢亦隨變，五行不可拘。聖人仰物以心，攝心以性，則心同造化，五行亦不可拘。」
+
+關尹子曰：「汝見蛇首人身者，牛臂魚鱗者，鬼形禽翼者，汝勿怪。此怪不及夢，夢怪不及覺。有耳有目，有手有臂，怪尤矣。大言不能言，大智不能思。」
+
+關尹子曰：「有人問于我曰：『爾族何氏？何名？何字？何食何衣？何友何僕？何琴何書？何古何今？』我時默然不對一字。或人扣之不已，我不得已而應之曰：『尚自不見我，將何為我所！』」
+
+關尹子曰：「形可分可合，可延可隱。一夫一婦，可生二子。形可分一夫一婦，二人成一子，形可合。食巨勝則壽，形可延。夜無月火，人不見我，形可隱。以一氣生萬物，猶棄髮可換，所以分形。以一氣合萬物，猶破唇可補，所以合形。以神存氣，以氣存形，所以延形。合形于神，合神于無，所以隱形。汝欲知之乎？汝欲為之乎？」
+
+關尹子曰：「無有一物不可見，則無一物非吾之見；無有一物不可聞，則無一物非吾之聞。五物可以養形，無一物非吾之形；五味可以養氣，無一物非吾之氣。是故吾之形氣、天地萬物。」
+
+關尹子曰：「耕夫習牛則獷，獵夫習虎則勇，漁夫習水則沈，戰夫習馬則健，萬物可為我。我之一身，內變蟯、蛔，外烝蝨、蚤，瘕則龜、魚，瘻則鼠、螘。我可為萬物。」
+
+關尹子曰：「我之為我，如灰中金；而不若礦砂之金。破礦得金，淘沙得金。揚灰，終身無得金者。」
+
+關尹子曰：「一蜂至微，亦能游觀乎天地；一鰕至微，亦能放肆乎大海。」
+
+關尹子曰：「土偶之成也，有貴有賤，有士有女；其質土，其懷土，人哉！」
+
+關尹子曰：「目自觀，目無色；耳自聽，耳無聲；舌自嚐，舌無味；心自揆，心無物。眾人逐于外，賢人執于內，聖人皆偽之。」
+
+關尹子曰：「我身、五行之氣，而五行之氣，其性一物。借如一所，可以取水，可以取火，可以生木，可以凝金，可以變土。其性含攝，元無差殊。故羽蟲盛者，毛蟲不育；毛蟲盛者，鱗蟲不育。知五行互用者，可以忘我。」
+
+關尹子曰：「枯龜無我，能見大知；磁石無我，能見大力；鐘鼓無我，能見大音；舟車無我，能見遠行。故我一身，雖有智、有力、有行、有音，未嘗有我。」
+
+關尹子曰：「蜮射影，能斃我。知夫無知者亦我，則溥天之下，我無不在。」
+
+關尹子曰：「心憶者、猶忘飢，心忿者、猶忘寒，心養者、猶忘病，心激者、猶忘痛。苟吸氣以養其和，孰能飢之？存神以滋其暖，孰能寒之？養五藏以五行，則無傷也，孰能病之？歸五藏于五行，則無知也，孰則痛之？」
+
+關尹子曰：「人無以無知、無為者為無我，雖有知、有為，不害其為無我。譬如火也，躁動不停，未嘗有我。」
+
+
+### 七釜
+
+關尹子曰：「道本至無，以事歸道者，得之一息。事本至有，以道運事者，周之百為。得道之尊者，可以輔世；得道之獨者，可以立我。知道非時之所能拘者，能以一日為百年，能以百年為一日。知道非方之所能礙者，能以一里為百里，能以百里為一里。知道無氣、能運有氣者，可以召風雨；知道無形、能變有形者，可以易鳥獸。得道之清者，物莫能累，身輕矣；可以騎鳳鶴。得道之渾者，物莫能溺，身冥矣；可以席蛟鯨。有即無，無即有；知此道者，可以制鬼神。實即虛，虛即實；知此道者，可以入金石。上即下，下即上；知此道者，可以侍星辰。古即今，今即古；知此道者，可以卜龜筮。人即我，我即人；知此道者，可以窺他人之肺肝。物即我，我即物；知此道者，可以成腹中之龍虎。知象由心變，以此觀心，可以成女嬰。知氣由心生，以此吸神，可以成爐冶。以此勝物，虎豹可伏；以此同物，水火可入。惟有道之士能為之，亦能能之而不為之。」
+
+關尹子曰：「人之力有可以奪天地造物者，如冬起雷，夏起冰，死屍能行，枯木能華，豆中攝鬼，杯中釣魚，畫門可開，土鬼可語，皆純氣所為，故能化萬物。今之情情不停，亦氣所為，而氣之為物，有合有散。我之所以行氣者，本未嘗合，亦未嘗散。有合者生，有散者死。彼未嘗合，未嘗散者，無生無死，客有去來，郵嘗自若。」
+
+關尹子曰：「有誦呪者，有事神者，有墨字者，有變指者，皆可以役神御氣，變化萬物。惟不誠之人難于自信，而易於信物。故假此為之。苟知惟誠，有不待彼而然者。」
+
+關尹子曰：「人之一呼一吸，日行四十萬里，化可謂速矣。惟聖人不存、不變。」
+
+關尹子曰：「青鸞子千歲而千歲化；桃子五仕而心五化。聖人賓事去物，豈不欲建立於世哉？有形數者懼化之不可知也。」
+
+關尹子曰：「萬物變遷，雖互隱見，氣一而已。惟聖人知一而不化。」
+
+關尹子曰：「爪之生，髮之長，榮衛之行，無頃刻止。眾人皆見之于著，不能見之于微。聖人任化，所以不化。」
+
+關尹子曰：「室中有嘗見聞矣。既而之門，之鄰，之里，之黨；既而之郊，之山，之川，見聞各異；好惡隨之，和競從之，得失成之。是以聖人動止有戒。」
+
+關尹子曰：「譬如大海，變化億萬蛟魚，水、一而已。我之與物，蓊然蔚然，在大化中，性、一而已。知夫性一者，無人無我，無死無生。」
+
+關尹子曰：「天下之理，是或化為非，非或化為是；恩或化為讎，讎或化為恩。是以聖人居常慮變。」
+
+關尹子曰：「人之少也，當佩乎父兄之教；人之壯也，當達乎朋友之箴；人之老也，當警乎少壯之說。萬化雖移，不能厄我。」
+
+關尹子曰：「天下之理，輕者易化，重者難化。譬如風雲，須臾變滅；金玉之性，歷久不渝。人之輕明者，能與造化俱化而不留，殆有蓋嘗化者存。」
+
+關尹子曰：「二幼相好，及其壯也，相遇則不相識。二壯相好，及其老也，相遇則不相識。如雀鴿鴈鳩之化，無昔無今。」
+
+
+### 八籌
+
+關尹子曰：「古之善揲蓍灼龜者，能于今中示古，古中示今；高中示下，下中示高；小中示大，大中示小；一中示多，多中示一；人中示物，物中示人；我中示彼，彼中示我。是道也，其來無今，其往無古；其高無蓋，其低無載；其大無外，其小無內；其外無物，其內無人；其近無我，其遠無彼。不可析，不可合，不可喻，不可思。惟其渾淪，所以為道。」
+
+關尹子曰：「水潛，故蘊為五精；火飛，故達為五臭；木茂，故華為五色；金堅，故實為五聲；土和，故滋為五味。其常五，其變不可計；其物五，其雜不可計。然則萬物在天地間，不可執謂之萬，不可執謂之五，不可執謂之一；不可執謂之非萬，不可執謂之非五，不可執謂之非一。或合之，或離之。以此必形，以此必數，以此必氣。徒自勞爾！物不知我，我不知物。」
+
+關尹子曰：「即吾心中，可作萬物。蓋心有所之，則愛從之；愛從之，則精從之。蓋心有所結，先凝為水，心慕物，涎出；心悲物，淚出；心愧物，汗出。無暫而不久，無久而不變。水生木，木生火，火生土，土生金，金生水。相攻相剋，不可勝數。嬰兒、蘂女、金樓、絳宮、青蛟、白虎、寶鼎、紅爐，皆此物。有非此物存者。」
+
+關尹子曰：「鳥獸俄呦呦，俄旬旬，俄逃逃。草木俄茁茁，俄停停，俄蕭蕭。天地不能留，聖人不能繫。有運者存焉爾。有之在彼，無之在此；鼓不桴，則不鳴。偶之在彼，奇之在此，桴不手，則不擊。」
+
+關尹子曰：「均一物也，眾人惑其名，見物、不見道；賢人析其理，見道、不見物。聖人合其天，不見道，不見物。一道皆道，不執之即道，執之則物。」
+
+關尹子曰：「知物之偽者，不必去物。譬如見土牛、木馬，雖情存牛、馬之名，而心忘牛、馬之實。」
+
+
+### 九藥
+
+關尹子曰：「勿輕小事，小隙沉舟；勿輕小物，小蟲毒身；勿輕小人，小人賊國。能周小事，然後能成大事；能積小物，然後能成大物；能善小人，然後能契大人。天既無可必者、人，人無能必者、事，惟去事離人，則我在我；惟可即可。未有當繫，蕳可；當戒，忍可；當勤，隋可。」
+
+關尹子曰：「智之極者，知智果不足以周物；故愚。辯之極者，知辯果不足以喻物；故訥。勇之極者，知勇果不足以勝物；故怯。」
+
+關尹子曰：「天地萬物，無一物是吾之物。物非我，物不得不應，我非我，我不得不養。雖應物，未嘗有物；雖養我，未嘗有我。勿曰外物，然後外我；勿曰外形，然後外心。道、一而已，不可序進。」
+
+關尹子曰：「諦毫末者，不見天地之大；審小音者，不聞雷霆之聲。見大者，亦不見小；見邇者，亦不見遠；聞大者，亦不聞小；聞邇者，亦不聞遠。聖人無所見，故能無不見；無所聞，故能無不聞。」
+
+關尹子曰：「目之所見，不知其幾何，或愛金，或愛玉，是執一色為目也。耳之所聞，不知其幾何，或愛鍾，或愛鼓，是執一聲為耳也。惟聖人不慕之，不拒之，不處之。」
+
+關尹子曰：「善今者、可以行古，善末者、可以立本。」
+
+關尹子曰：「狡勝賊，能捕賊；勇勝虎，能捕虎；能克己，乃能成己；能勝物，乃能利物；能忘道，乃能有道。」
+
+關尹子曰：「函堅，則物必毀之；剛斯折矣。刀利，則物必摧之；銳斯挫矣。威鳳以難見為神，是以聖人以深為根；走麝以遺香不捕，是以聖人以約為紀。」
+
+關尹子曰：「瓶有二竅，以水實之，倒瀉閉一，則水不下，蓋不升則不降。井雖千仞，汲之水上，蓋不降則不升。是以聖人不先物。」
+
+關尹子曰：「人之有失，雖已，受害於已失之後；久之，竊議於未失之前。惟其不恃己聰明，而兼人之聰明；惟其無我，而兼天下之我，終身行之，可以不失。」
+
+關尹子曰：「古今之俗不同，東西南北之俗又不同，至於一家、一身之善又不同。吾豈執一，豫格後世哉？惟隨時同俗，先機後事，捐忿塞慾，蕳物恕人，權其輕重而為之，自然合神不測，契道無方。」
+
+關尹子曰：「有道交者，有德交者，有事交者。道交者、父子也，出于是非、賢愚之外，故道。德交者、則有是非賢愚矣，故或合或離。事交者、合則離。」
+
+關尹子曰：「勿以拙陋曰道之質，當樂敏捷。勿以愚暗曰道之晦，當樂輕明。勿以傲易曰道之高，當樂和同。勿以汗漫曰道之廣，當樂急要。勿以幽憂曰道之寂，當樂悅豫。古人之言，學之多弊，不可不救。」
+
+關尹子曰：「不可非世，是己；不可卑人，尊己；不可以輕忽，道己；不可以訕謗，德己；不可以鄙猥，才己。」
+
+關尹子曰：「困天下之智者，不在智，而在愚；窮天下之辯者，不在辯，而在訥。」
+
+關尹子曰：「天不能冬蓮春菊，是以聖人不違時；地不能洛橘汶貉，是以聖人不違俗。聖人不能使手步足握，是以聖人不違我所長。聖人不能使魚飛鳥馳，是以聖人不違人所長。夫如是者可動、可止、可晦、可明，惟不可拘，所以為道。」
+
+關尹子曰：「少言者，不為人所忌；少行者，不為人所短；少智者，不為人所勞；少能者，不為人所役。」
+
+關尹子曰：「操之以誠，行之以蕳；待之以恕，應之以默。吾道不窮。」
+
+關尹子曰：「謀之於事，斷之於理，作之於人，成之於天。事、師於今，理、師於古；事、同於人，道、獨於己。」
+
+關尹子曰：「金玉難捐，土石易捨。學道之士，遇微言妙行，慎勿執之；是可為而不可執。若執之，則腹心之疾，無藥可療。」
+
+關尹子曰：「人不明于急務，而從事於多務、他務、奇務者，窮困災厄及之。殊不知道無不在，不可捨此就彼。」
+
+關尹子曰：「天下之理，捨親就踈，捨本就末，捨賢就愚，捨近就遠，可暫而已。久則害生。」
+
+關尹子曰：「昔之論道者，或曰凝寂，或曰邃深，或曰澄徹，或曰空同，或曰晦冥。慎勿遇此而生怖退。天下至理，竟非言意。苟知非言非意，在彼微言妙意之上，乃契吾說。」
+
+關尹子曰：「聖人大言金玉，小言桔梗、芣苢。用之當，桔梗、芣苢生之；不當，金玉斃之。」
+
+關尹子曰：「言某事者，甲言利，乙言害，丙言或利或害，丁言俱利俱害。必居一于此矣。喻道者不言。」
+
+關尹子曰：「事有在，事言有理。道無在，道言無理。知言無理，則言言皆道。不知言無理，雖執至言，為梗為翳。」
+
+關尹子曰：「不信愚人易，不信賢人難；不信賢人易，不信聖人難；不信一聖人易，不信千聖人難。夫不信千聖人者，外不見人，內不見我，上不見道，下不見事。」
+
+關尹子曰：「聖人言蒙蒙，所以使人聾；聖人言冥冥，所以使人盲；聖人言沈沈，所以使人瘖。惟聾、則不聞聲，惟盲、則不見色，惟瘖、則不音言。不聞聲者，不聞道，不聞事，不聞我；不見色者，不見道，不見事，不見我；不音言者，不言道，不言事，不言我。」
+
+關尹子曰：「人徒知偽得之中有真失，殊不知真得之中有真失；徒知偽是之中有真非，殊不知真是之中有真非。」
+
+關尹子曰：「言道者如言夢。夫言夢者曰：如此金玉，如此器皿，如此禽獸。言者能言之，不能取而與之；聽者能聞之，不能受而得之。惟善聽者不泥不辯。」
+
+關尹子曰：「圓爾道，方爾德，平爾行，銳爾事。」
+
+
+## 四、《文子》全本
+
+### 道原
+
+老子曰：「有物混成，先天地生，惟象無形，窈窈冥冥，寂寥淡漠，不聞其聲，吾強為之名，字之曰道。」夫道者，高不可極，深不可測，苞裹天地，稟受無形，原流泏泏，沖而不盈，濁以靜之徐清，施之無窮，無所朝夕，表之不盈一握，約而能張，幽而能明，柔而能剛，含陰吐陽，而章三光；山以之高，淵以之深，獸以之走，鳥以之飛，麟以之遊，鳳以之翔，星曆以之行；以亡取存，以卑取尊，以退取先。古者三皇，得道之統，立於中央，神與化遊，以撫四方。是故能天運地墆，輪轉而無廢，水流而不止，與物終始。風興雲蒸，雷聲雨降，並應無窮，已雕已琢，還復於樸。無為為之而合乎生死，無為言之而通乎德，恬愉無矜而得乎和，有萬不同而便乎生。和陰陽，節四時，調五行，潤乎草木，浸乎金石，禽獸碩大，毫毛潤澤，鳥卵不敗，獸胎不殰，父無喪子之憂，兄無哭弟之哀，童子不孤，婦人不孀，虹蜺不見，盜賊不行，含德之所致也。大常之道，生物而不有，成化而不宰，萬物恃之而生，莫知其德，恃之而死，莫之能怨，收藏畜積而不加富，布施稟受而不益貧；忽兮怳兮，不可為象兮，怳兮忽兮，用不詘兮，窈兮冥兮，應化無形兮，遂兮通兮，不虛動兮，與剛柔卷舒兮，與陰陽俯仰兮。
+
+老子曰：大丈夫恬然無思，惔然無慮，以天為蓋，以地為車，以四時為馬，以陰陽為御，行乎無路，遊乎無怠，出乎無門。以天為蓋則無所不覆也，以地為車則無所不載也，四時為馬則無所不使也，陰陽御之則無所不備也。是故疾而不搖，遠而不勞，四支不動，聰明不損，而照明天下者，執道之要，觀無窮之地。故天下之事不可為也，因其自然而推之，萬物之變不可救也，秉其要而歸之。是以聖人內修其本，而不外飾其末，厲其精神，偃其知見故漠然無為而無不為也，無治而無不治也。所謂無為者，不先物為也；無治者，不易自然也；無不治者，因物之相然也。
+
+老子曰：執道以御民者，事來而循之，物動而因之；萬物之化無不應也，百事之變無不耦也。故道者，虛無、平易、清靜、柔弱、純粹素樸，此五者，道之形象也。虛無者道之舍也，平易者道之素也，清靜者道之鑒也，柔弱者道之用也。反者道之常也，柔者道之剛也，弱者道之強也。純粹素樸者道之幹也。虛者中無載也，平者心無累也，嗜欲不載，虛之至也，無所好憎，平之至也，一而不變，靜之至也，不與物雜，粹之至也，不憂不樂，德之至也。夫至人之治也，棄其聰明，滅其文章，依道廢智，與民同出乎公。約其所守，寡其所求，去其誘慕，除其貴欲，捐其思慮。約其所守即察，寡其所求即得，故以中制外，百事不廢，中能得之則外能牧之。中之得也，五藏寧，思慮平，筋骨勁強，耳目聰明。大道坦坦，去身不遠，求之遠者，往而復返。
+
+老子曰：聖人忘乎治人，而在乎自理。貴忘乎勢位，而在乎自得，自得即天下得我矣；樂忘乎富貴，而在乎和，知大己而小天下，幾於道矣。故曰：「至虛極也，守靜篤也，萬物並作，吾以觀其復。」夫道者，陶冶萬物，終始無形，寂然不動，大通混冥，深閎廣大不可為外，折毫剖芒不可為內，無環堵之宇，而生有無之間也。真人體之以虛無、平易、清靜、柔弱、純粹素樸，不與物雜，至德天地之道，故謂之真人。真人者，大己而小天下，貴治身而賤治人，不以物滑和，不以欲亂情，隱其名姓，有道則隱，無道則見，為無為，事無事，知不知也，懷天道，包天心，噓吸陰陽，吐故納新，與陰俱閉，與陽俱開，與剛柔卷舒，與陰陽俯仰，與天同心，與道同體；無所樂，無所苦，無所喜，無所怒，萬物玄同，無非無是。夫形傷乎寒暑燥濕之虐者，形究而神杜，神傷於喜怒思慮之患者，神盡而形有餘。故真人用心，杖性依神，相扶而得終始，是以其寢不夢，覺而無憂。孔子問道。老子曰：正汝形，一汝視，天和將至；攝汝知，正汝度，神將來舍，德將為汝容，道將為汝居。瞳子，若新生之犢，而無求其故，形若枯木，心若死灰，真其實知而不以曲故自持，恢恢無心可謀，「明白四達，能無知乎？」
+
+老子曰：夫事生者應變而動，變生於時，無常之行。故「道可道，非常道也，名可名，非常名也。」書者言之所生也，言出於智，智者不知，非常道也；名可名，非藏書者也。「多聞數窮，不如守中」，「絕學無憂」，「絕聖棄智，民利百倍」。人生而靜，天之性也；感物而動，性之害也；物至而應，智之動也；智與物接，而好憎生焉；好憎成形，而智怵於外，不能反己，而天理滅矣。是故聖人不以人易天，外與物化而內不夫情，故通於道者，反於清靜，空於物者，終於無為。以恬養智，以漠合神，即乎無垠，循天者與道遊也，隨人者與俗交也；故聖人不以事滑天，不以欲亂情，不謀而當，不言而信，不慮而得，不為而成。是以處上而民不重，居前而人不害，天下歸之，姦邪畏之，以其無爭於萬物也，故莫敢與之爭。
+
+老子曰：夫人從欲失性，動未嘗正也，以治國則亂，以治身則穢，故不聞道者，無以反其性，不通物者，不能清靜。原人之性無邪穢，久湛於物即易，易而忘其本即合於其若性。水之性欲清，沙石穢之；人之性欲平，嗜欲害之，唯聖人能遺物反己。是故聖人不以智役物，不以欲滑和，其為樂不忻忻，其於憂不惋惋，是以高而不危，安而不傾。故聽善言便計，雖愚者知說之；稱聖德高行，雖不肖者知慕之；說之者眾而用之者寡，慕之者多而行之者少，所以然者，掔於物而繫於俗。故曰：我無為而民自化，我無事而民自富，我好靜而民自正，我無欲而民自樸。清靜者德之至也，柔弱者道之用也，虛無恬無形大，有形細，無形多，有形少，無形強，有形弱，無形實，有形虛。有形者遂事也，無形者作始也，遂事者成器也，作始者樸也。有形則有聲，無形則無聲，有形產於無形，故無形者有形之始也。廣厚有名，有名者貴全也；儉薄無名，無名者賤輕也；殷富有名，有名尊寵也；貧寡無名，無名卑弱也；雄牡有名，有名者章明也；雌牝無名，無名者隱約也；有餘者有名，有名者高賢也；不足者無名，無名者任下也。有功即有名，無功即無名，有名產於無名，無名者有名之母也，天之道有無相生也，難易相成也。是以聖人執道，虛靜微妙以成其德，故有道即有德，有德即有功，有功即有名，有名即復於道，功名長久，終身無咎，王公有功名，孤寡無功名，故曰聖人自謂孤寡，歸其根本。功成而不有，故有功以為利，無名以為用。古民童蒙，不知東西，貌不離情，言不出行，行出無容，言而不文，其衣致，神德不全於身者，不知何遠之能壞，欲害之心忘乎中者，即飢虎可尾也，而況於人？體道者佚而不窮，任數者勞而無功，夫法刻刑誅者，非帝王之業也，箠策繁用者，非致遠之御也，好憎繁多，禍乃相隨，故先王之法非所作也，所因也，其禁誅非所為也，所守也，故能因則大，作即細，能守則固，為即敗。夫任耳目以聽視者，勞心而不明，以智慮為治者，苦心而無功，任一人之材，難以至治，一人之能，不足以治三畝。循道理之數，因天地之然，即六合不足均也，聽失於非譽，目淫於綵女，禮亶不足以放愛，誠心可以懷遠，故兵莫憯乎志，鏌铮為下寇，莫大於陰陽，而枹鼓為細，所謂大寇伏尸不言節，中寇藏於山，小寇遯於民間。故曰民多智能，奇物滋起，法令滋章，盜賊多有去彼取此，天殃不起。故以智治國，國之賊，不以智治國，國之德，愉者萬物之祖也，三者行則淪於無形。無形者，一之謂也，一者，無心合於天下也。布德不溉，用之不勤，視之不見，聽之不聞，無形而有形生焉，無聲而五音鳴焉，無味而五味形焉，無色而五色成焉，故有生於無，實生於虛。音之數不過五，五音之變不可勝聽也，味之數不過五，五味之變不可勝嘗也，色之數不過五，五色之變不可勝觀也。音者宮立而五音形矣，味者甘立而五味定矣，色者白立而五色成矣，道者一立而萬物生矣。故一之理，施於四海，一之嘏，察於天地，其全也、敦兮其若樸，其散也、渾兮其若濁，濁而徐清，沖而徐盈，澹然若大海，汜兮若浮雲，若無而有，若亡而存。
+
+老子曰：萬物之摠，皆閱一孔，百事之根，皆出一門，故聖人一度循軌，不變其故，不易其常，放准循繩，曲因其常。夫喜怒者，道之邪也；憂悲者，德之失也；好憎者，心之過也；嗜欲者，生之累也。人大怒破陰，大喜墜陽，薄氣發喑，驚怖為狂，憂悲焦心，疾乃成積，人能除此五者，即合於神明。神明者，得其內，得其內者，五藏寧，思慮平，耳目聰明，筋骨勁強，疏達而不悖，堅強而不匱，無所太過，無所不逮。天下莫柔弱於水，水為道也，廣不可極，深不可測，長極無窮，遠淪無涯，息耗減益，過於不訾，上天為雨露，下地為潤澤，萬物不得不生，百事不得不成，大苞群生而無私好，澤及蚑蟯而不求報，富贍天下而不既，德施百姓而不費，行不可得而窮極，微不可得而把握，擊之不創，刺之不傷，斬之不斷，灼之不熏，淖約流循而不可靡散，利貫金石，強淪天下，有餘不足，任天下取與，稟受萬物而無所先後，無私無公，與天地洪同，是謂至德。夫水所以能成其至德者，以其卓約潤滑也，故曰：「天下之至柔，馳騁天下之至堅，無有入於無間。」夫無形者，物之太祖，無音者，類之太宗，真人者，通於靈府，與造化者為人，執玄德於心，而化馳如神。是故不道之道，芒乎大哉，未發號施令而移風易俗，其唯心行也。萬物有所生而獨如其根，百事有所出而獨守其門，故能窮無窮，極無極，照物而不眩，響應而不知。
+
+老子曰：夫得道者，志弱而事強，心虛而應當。志弱者柔毳安靜，藏於不取，行於不能，澹然無為，動不失時，故「貴必以賤為本，高必以下為基。」託小以包大，在中以制外，行柔而剛，力無不勝敵無不陵，應化揆時，莫能害之。欲剛者必以柔守之，欲強者必以弱保之，積柔即剛，積弱即強，觀其所積，以知存亡。強勝不若己者，至於若己者而格，柔勝出於己者，其力不可量，故「兵強則滅，木強則折。」革強則裂，齒堅於舌而先斃，故「柔弱者生之幹也，堅強者死之徒。」先唱者窮之路，後動者達之原。夫執道以耦變，先亦制後，後亦制先，何即不失所以制人，人亦不能制也。所謂後者，調其數而合其時，時之變則，間不容息，先之則太過，後之則不及，日迴月周，時不與人遊，故聖人不貴尺之璧，而貴寸之陰，時難得而易失。故聖人隨時而舉事，因資而立功，守清道，拘雌節，因循而應變，常後而不先，柔弱以靜，安徐以定，大堅固不能與爭也。
+
+老子曰：機械之心藏於中，即純白之不粹。其衣煖而無綵，其兵鈍而無刃，行蹎蹎。視瞑瞑，立井而飲，耕田而食，不布施，不求德，高下不相傾，長短不相形，風齊於俗可隨也，事周於能易為也，矜偽以惑世，軻行以迷眾，聖人不以為俗。
+
+
+### 精誠
+
+老子曰：天致其高，地致其厚，日月照，列星朗，陰陽和，非有為焉，正其道而物自然。陰陽四時非生萬物也，雨露時降非養草木也，神明接，陰陽和，萬物生矣。夫道者，藏精於內，栖神於心，靜漠恬惔，悅穆胸中，廓然無形，寂然無聲。官府若無事，朝廷若無人，無隱士，無逸民，無勞役，無怨刑，天下莫不仰上之象，主之旨，絕國殊俗莫不重譯而至，非家至而人見之也，推其誠心，施之天下而已。故賞善罰暴者，正令也；其所以能行者，精誠也。令雖明不能獨行，必待精誠，故摠道以被民弗從者，精誠弗包也。
+
+老子曰：天設日月，列星辰，張四時，調陰陽。日以暴之，夜以息之，風以乾之，雨露以濡之。其生物也，莫見其所養而萬物長；其殺物也，莫見其所喪而萬物亡。此謂神明。是故聖人象之，其起福也，不見其所以而福起；其除禍也，不見其所由而禍除。稽之不得，察之不虛，日計不足，歲計有餘，寂然無聲，一言而大動天下，是以天心動化者也。故精誠內形，氣動於天，景星見，黃龍下，鳳皇至，醴泉出，嘉穀生，河不滿溢，海不波涌；逆天暴物，即日月薄蝕，五星失行，四時相乘，晝明宵光，山崩川涸，冬雷夏霜。天之與人，有以相通，故國之沮亡也，天文變，世或亂，虹蜺見，萬物有以相連，精氣有以相薄，故神明之事，不可以智巧為也，不可以強力致也。故大人與天地合德，與日月合明，與鬼神合靈，與四時合信，懷天心，抱地氣，執沖含和，不下堂而行四海，變易習俗，民化遷善，若生諸己，能以神化者也。
+
+老子曰：夫人道者，全性保真，不虧其身，遭急迫難，精通乎天，若乃未始出其宗者，何為而不成，死生同域，不可脅凌，又況官天地，懷萬物，返造化，含至和，而已未嘗死者也。精誠形乎內，而外喻於人心，此不傳之道也。聖人在上，懷道而不言，澤及萬民，故不言之教，芒乎大哉！君臣乖心，倍譎見于天，神氣相應，微矣，此謂不言之辯，不道之道也。夫召遠者使無為焉，親近者言無事焉，唯夜行者能有之，卻走馬以糞，車軌不接於遠方之外，是謂坐馳陸沉。天道無私就也，無私去也，能者有餘，詘者不足，順之者利，逆之者凶。是故以智為治者難以持國，唯同乎大和而持自然應者，為能有之。
+
+老子曰：夫道之與德，若圍之與革，遠之即近，近之即鉕，稽之不得，察之不虛。是故聖人若鏡，不將不迎，應而不藏，不物而不傷。其得之也，乃失之也，其失之也，乃得之也，故通於大和者，闇若醇醉而甘臥以游其中，若未始出其宗，是謂大通，此假不用能成其用也。
+
+老子曰：昔黃帝之治天下，理日月之行，治陰陽之氣，節四時之度，正律曆之數，別男女，明上下，使強不掩弱，眾不暴寡，民保命而不夭，歲時熟而不凶，百官正而無私，上下調而無尤，法令明而不闇，輔佐公而不阿，田者讓畔，道不拾遺，市不預賈，故於此時，日月星辰不失其行，風雨時節，五穀豐昌，鳳皇翔於庭，麒麟游於郊。虙犧氏之王天下，枕方寢繩，殺秋約冬，負方州，抱員天，陰陽所擁沈不通者竅理之，逆氣戾物傷民厚積者絕止之，其民童蒙不知西東，視瞑瞑，行蹎蹎，侗然自得，莫知其所由，浮游汎然，不知所本，罔養不知所如往，當此之時，禽獸蟲蛇無不懷其爪牙，藏其螫毒，功揆天地。至黃帝要繆乎太祖之下，然而不章其功，不揚其名，隱真人之道，以從天地之固然，何即道德上通，而智故消滅也。
+
+老子曰：天不定，日月無所載，地不定，草木無所立，身不寧，是非無所形，是故有真人而後有真智，其所持者不明，何知吾所謂知之非不知與？積惠重貨，使萬民欣欣，人樂其生者，仁也；舉大功，顯令名，體君臣，正上下，明親疏，存危國，繼絕世，立無後者，義也；閉九竅，藏志意，棄聰明，反無識，芒然仿佯乎塵垢之外，逍遙乎無事之業，含陰吐陽而與萬物同和者，德也。是故道散而為德，德溢而為仁義，仁義立而道德廢矣。
+
+老子曰：神越者言華，德蕩者行偽，至精芒乎中，而言行觀乎外，此不免以身役物也。精有愁盡而行無窮極，所守不定而外淫於世俗之風，是故聖人內脩道術而不外飾仁義，知九竅四支之宜，而遊乎精神之和，此聖人之游也。
+
+老子曰：若夫聖人之游也，即動乎至虛，游心乎太無，馳於方外，行於無門，聽於無聲，視於無形，不拘於世，不繫於俗。故聖人所以動天下者，真人不過，賢人所以矯世者，聖人不觀。夫人拘於世俗，必形繫而神泄，故不免於別，使我可拘係者，必其命有在外者。
+
+老子曰：人主之思，神不馳於胸中，智不出於四域，懷其仁誠之心，甘雨以時，五穀蕃殖，春生夏長，秋收冬藏，月省時考，終歲獻貢，養民以公，威厲以誠，法省不煩，教化如神，法寬刑緩，囹圄空虛，天下一俗，莫懷姦心，此聖人之思也。夫上好取而無量，即下貪功而無讓，民貧苦而分爭生，事力勞而無功，智詐萌生，盜賊滋彰，上下相怨，號令不行，夫水濁者魚噞，政苛者民亂，上多欲即下多詐，上煩擾即下不定，上多求即下交爭，不治其本而救之於末，無以異於鑿渠而止水，抱薪而救火。聖人事省而治求，寡而贍，不施而仁，不言而信，不求而得，不為而成，懷自然，保至真，抱道推誠，天下從之如響之應聲，影之像形，所脩者本也。
+
+老子曰：精神越於外，智慮蕩於內者，不能治形，神之所用者遠，則所遺者近。故「不出於戶以知天下，不窺於牖以知天道，其出彌遠，其知彌少。」此言精誠發於內，神氣動於天也。
+
+老子曰：冬日之陽，夏日之陰，萬物歸之而莫之使，極自然至精之感，弗召自來，不去而往，窈窈冥冥，不知所為者而功自成，待目而照見，待言而使命，其於治難矣。皋陶喑而為大理，天下無虐刑，有貴乎言者也，師曠瞽而為太宰，晉國無亂政，有貴乎見者也。不言之令，不視之見，聖人所以為師也，民之化上，不從其言從其所行，故人君好勇，弗使鬥爭而國家多難，其漸必有劫殺之亂矣。人君好色，弗使風議而國家昏亂，其積至於淫泆之難，故聖人精誠別於內，好憎明於外，出言以副情，發號以明指。是故刑罰不足以移風，殺戮不足以禁姦，唯神化為貴，精至為神，精之所動，若春氣之生，秋氣之殺。故君子者，其猶射者也，於此毫末，於彼尋丈矣！故理人者，慎所以感之。
+
+老子曰：懸法設賞而不能移風易俗者，誠心不抱，故聽其音則知其風，觀其樂即知其俗，見其俗即知其化。夫抱真效誠者，感動天地，神踰方外，令行禁止，誠通其道而達其意，雖無一言，天下萬民、禽獸、鬼神與之變化。故太上神化，其次使不得為非，其下賞賢而罰暴。
+
+老子曰：大道無為，無為即無有，無有者不居也，不居者即處無形，無形者不動，不動者無言也，無言者即靜而無聲無形，無聲無形者，視之不見，聽之不聞，是謂微妙，是謂至神，「綿綿若存」，「是謂天地根。」道無聲，故聖人強為之形，以一句為名天地之道。大以小為本，多以少為始，天子以天地為品，以萬物為資，功德至大，勢名至貴，二德之美與天地配，故不可不軌大道以為天下母。
+
+老子曰：振窮補急則名生利起，除害即功成，世無災害，雖聖無所施其德，上下和睦，雖賢無所立其功。故至人之治，含德抱道，推誠施無窮之智，寢說而不言天下莫知貴其不言者，故「道可道，非常道也，名可名，非常名也。」著於竹帛，鏤於金石，可傳於人者，皆其麤也。三皇五帝三王，殊事而同心，異路而同歸，末世之學者，不知道之所體一德之所摠要取成事之跡跪坐而言之，雖博學多聞，不免於亂。
+
+老子曰：心之精者，可以神化，而不可說道。聖人不降席而匡天下，情甚於●呼，故同言而信，信在言前也，同令而行，誠在令外也。聖人在上，民化如神，情以先之，動於上不應於下者，情令殊也。三月嬰兒未知利害，而慈母愛之愈篤者，情也。故言之用者變，變乎小哉，不言之用者變，變乎大哉。信，君子之言，忠，君子之意，忠信形於內，感動應乎外，賢聖之化也。
+
+老子曰：子之死父，臣之死君，非出以求名也，恩心藏於中而不違其難也。君子之憯怛非正為也，自中出者也，亦察其所行，聖人不慚於影，君子慎其獨也，舍近期遠，塞矣。故聖人在上則民樂其治，在下則民慕其意，志不忘乎欲利人。
+
+老子曰：勇士一呼，三軍皆辟，其出之誠，唱而不和，意而不載，中必有不合者也。不下席而匡天下者，求諸己也，故說之所不至者，容貌至焉，容貌所不至者，感忽至焉，感乎心發而成形，精之至者可形接，不可以照期。
+
+老子曰：言有宗，事有本，失其宗本，伎能雖多，不如寡言。害眾著倕而使斷其指，以期大巧之不可為也，故匠人智為，不以能以時，閉不知閉也，故必杜而後開。
+
+老子曰：聖人之從事也，所由異路而同歸，存亡定傾若一，志不忘乎欲利人也。故秦楚燕魏之歌，異傳而皆樂，九夷八狄之哭，異聲而皆哀。夫歌者樂之微，哭者哀之效也，愔於中，發於外，故在所以感之矣。聖人之心，日夜不忘乎欲利人，其澤之所及亦遠矣。
+
+老子曰：人無為而治，有為也即傷。無為而治者，為無為，為者不能無為也，不能無為者，不能有為也。人無言而神，有言即傷。無言乏神者，載無言，則傷有神之神者。
+
+文子曰：名可強立，功可強成。昔南榮疇恥聖道而獨亡於己，南見老子，受教一言，精神曉靈，屯閔脩達，勤苦十日不食，如享太牢，是以明照海內，名立後世，智略天地，察分秋毫，稱譽華語，至今不休，此謂名可強立也。故田者不強，囷倉不滿，官御不勵，誠心不精，將相不強，功烈不成，王侯懈怠，汎世無名。至人潛行，譬猶雷霆之藏也，隨時而舉事，因資而立功，進退無難，無所不通。夫至人精誠內形，德流四方，見天下有利也，喜而不忘，天下有害也，憂若有喪。夫「憂民之憂者，民亦憂其憂，樂民之樂者，民亦樂其樂，故憂以天下，樂以天下，然而不王者，未之有也。」「聖人之法，始於不可見，終於不可及，處於不傾之地，積於不盡之倉，載於不竭之府。出令如流水之原，使民於不爭之官，開必得之門，不為不可成，不求不可得，不處不可久，不行不可復。」大人行可說之政，而人莫不順其命，命順則從，小而致大，命逆則以善為害，以成為敗。夫所謂大丈夫者，內強而外明，內強如天地，外明如日月，天地無不覆載，日月無不照明。大人以善示人，不變其故，不易其常，天下聽令，如草從風。政失於春，歲星盈縮，不居其常；政失於夏，熒惑逆行；政失於秋，太白不當，出入無常；政失於冬，辰星不效其鄉，四時失政，鎮星搖蕩，日月見謫，五星悖亂，彗星出。春政不失禾黍滋，夏政不失雨降時，秋政不失民殷昌，冬政不失國家寧康。
+
+
+### 九守
+
+老子曰：天地未形，窈窈冥冥，渾而為一，寂然清澄，重濁為地，精微為天，離而為四時，分而為陰陽，精氣為人，粗氣為蟲，剛柔相成，萬物乃生。精神本乎天，骨骸根于地，精神入其門，骨骸反其根，我尚何存，故聖人法天順地，不拘於俗，不誘於人，以天為父，以地為母，陰陽為綱，四時為紀，天靜以清，地定以寧，萬物逆之死，順之生，故靜漠者神明之宅，虛無者道之所居。夫精神者所受於天也，骨骸者所稟於地也，「道生一，一生二，二生三，三生萬物。萬物負陰而抱陽，沖氣以為和。」
+
+老子曰：人受天地變化而生，一月而膏，二月血脈，三月而噠，四月而胎，五月而筋，六月而骨，七月而成形，八月而動，九月而躁，十月而生。形骸已成，五藏乃形，肝主目，腎主耳，脾主舌，肺主鼻，膽主口，外為表，中為裏，頭員法天，足方象地，天有四時、五行、九解、三百六十日，人有四支、五藏、九竅、三百六十節。天有風雨寒暑，人有取與喜怒，膽為雲，肺為氣，脾為風，腎為雨，肝為雷，人與天地相類，而心為之主。耳目者日月也，血氣者風雨也，日月失行，薄蝕無光，風雨非時，毀折生災，五星失行，州國受其殃。天地之道，至閎以大，尚由節其章光，愛其神明，人之耳目何能久燻而不息？精神何能馳騁而不乏？是故聖人守內而不失外。夫血氣者人之華也，五藏者人之精也，血氣專乎內而不外越，則胸腹充而嗜欲寡，嗜欲寡則耳目清而聽視聰達，聽視聰達謂之明。五藏能屬於心而無離，則氣意勝而行不僻，精神盛而氣不散，以聽無不聞，以視無不見，以為無不成，患禍無由入，哀氣不能襲，故所求多者所得少，所見大者所知小。夫孔竅者精神之戶牖，血氣者五藏之使候，故耳目淫於聲色，即五藏動搖而不定，血氣滔蕩而不休，精神馳騁而不守，禍福之至雖如丘山，無由識之矣，故聖人愛而不越。聖人誠使耳目精明玄達，無所誘慕，意氣無失清靜而少嗜欲，五藏便寧，精神內守形骸而不越，即觀乎往世之外，來事之內，禍福之間何足見也，故其出彌遠者，其知彌少。以言精神不可使外淫也，故五色亂目，使目不明，五音入耳，使耳不聰，五味亂口，使口生創，趣舍滑心，使行飛揚。故嗜欲使人氣淫，好憎使人精勞，不疾去之，則志氣日耗。夫人所以不能終其天年者，以生生之厚，夫唯無以生為者，即所以得長生，天地運而相通，萬物摠而為一，能知一即無一之不知也，不能知一即無一之能知也。吾處天下亦為一物，而物亦物也，物之與物，何以相物，欲生不可事也，憎死不可辭也，賤之不可憎也，貴之不可喜也，因其資而寧之，弗敢極弗敢極也，即至樂極也。
+
+老子曰：所謂聖人者，因時而安其位，當世而樂其業，夫哀樂者德之邪，好憎者心之累，喜怒者道之過，故其生也天行，其死也物化，靜即與陰合德，動即與陽同波，故心者形之主也，神者心之寶也，形勞而不休即蹶，精用而不已則竭，是以聖人遵之不敢越也。以無應有，必究其理，以虛受實，必窮其節，恬愉虛靜，以終其命，無所鉕，無所親，抱德煬和，以順於天，與道為際，與德為鄰，不為福始，不為禍先，死生無變於己，故曰至神。神則以求無不待也，以為無不成也。
+
+老子曰：輕天下即神無累，細萬物即心不惑，齊生死則意不懾，同變化則明不眩。夫至人倚不橈之柱，行無關之途，稟不竭之府，學不死之師，無往而不遂，無之而不通，屈伸俯仰，抱命不惑而宛轉，禍福利害，不足以患心。夫為義者可迫以仁，而不可劫以兵，可正以義，不可懸以利，君子死義，不可以富貴留也，為義者不可以死亡恐也，又況於無為者乎！無為者即無累，無累之人，以天下為影柱，上觀至人之倫，深原道德之意，下考世俗之行，乃足以羞也，夫無以天下為者，學之建鼓也。
+
+老子曰：尊勢厚利，人之所貪，比之身則賤，故聖人食足以充虛接氣，衣足以蓋形禦寒，適情辭餘，不貪得，不多積，清目不視，靜耳不聽，閉口不言，委心不慮，棄聰明，反太素，休精神，去知故，無好憎，是謂大通，除穢去累，莫若未始出其宗，何為而不成。知養生之和者，即不可懸以利，通內外之符者，不可誘以勢，無外之外，至大，無內之內，至貴，能知大貴，何往不遂。
+
+老子曰：古之為道者，理情性，治心術，養以和，持以適，樂道而忘賤，安德而忘貧。性有不欲，無欲而不得，心有不樂，無樂而不為，無益於性者不以累德，不便於生者不以滑和。不縱身肆意而制度，可以為天下儀，量腹而食，制形而衣，容身而居，適情而行，餘天下而不有，委萬物而不利，豈為貧富貴賤失其性命哉！永若然者，可謂能體道矣。
+
+老子曰：人受氣於天者，耳目之於聲色也，鼻口之於芳臭也，肌膚之於寒溫也，其情一也，或以死，或以生，或為君子，或為小人，所以為制者異。神者智之淵也，神清則智明，智者心之府也，智公則心平，人莫鑒於流潦而鑒於澄水，以其清且靜也，故神清意平乃能形物之情，故用之者必假於不用也。夫鑒明者則塵垢不汙也，神清者嗜欲不誤也，故心有所至，則神慨然在之，反之於虛，則消躁藏息矣，此聖人之遊。故治天下者，必達性命之情而後可也。
+
+老子曰：夫所謂聖人者，適情而已，量腹而食，度形而衣，節乎己而，貪汙之心無由生也，故能有天下者，必無以天下為也，能有名譽者，必不以越行求之，誠達性命之情，仁義因附。若夫神無所掩，心無所載，通洞條達，澹然無事，勢利不能誘，聲色不能淫，辯者不能說，智者不能動，勇者不能恐，此真人之遊也。夫生生者不生，化化者不化，不達此道者，雖知統天地，明照日月，辯解連環，辭潤金石，猶無益於天下也，故聖人不失所守。
+
+老子曰：靜漠恬惔，所以養生也，和愉虛無，所以據德也，外不亂內即性得其宜，靜不動和即德安其位，養生以經世，抱德以終年，可謂能體道矣。若然者，血脈無鬱滯，五藏無積氣，禍福不能矯滑，非譽不能塵垢，非有其世，孰能濟焉，有其才不遇其時，身猶不能脫，又況無道乎。夫目察秋毫之末者，耳不聞雷霆之聲，耳調金玉之音者，目不見太山之形，故小有所志，則大有所忘。今萬物之來，擢拔吾生，攓取吾精，若泉原也，雖欲勿稟，其可得乎？今盆水若清之經日，乃能見眉睫，濁之不過一撓，即不能見方圓也，人之精神難清而易濁，猶盆水也。
+
+老子曰：上聖法天，其次尚賢，其下任臣，任臣者危亡之道也，尚賢者癡惑之原也，法天者治天地之道也，虛靜為王，虛無不受，靜無不持，知虛靜之道，乃能終始，故聖人以靜為治，以動為亂，故曰勿撓勿纓，萬物將自清，勿驚勿駭，萬物將自理，是謂天道也。
+
+老子曰：天子公侯以天下一國為家，以萬物為畜，懷天下之大，有萬物之多，即氣實而志驕，大者用兵侵小，小者倨傲凌下，用心奢廣，譬猶飄風暴雨，不可長久。是以聖人以道鎮之，執一無為而不損沖氣，見小守柔，退而勿有，法於江海，江海不為，故功名自化，弗強，故能成其王，為天下牝，故能神不死，自愛，故能成其貴，萬乘之勢，以萬物為功名，權任至重，不可自輕，自輕則功名不成。夫道，大以小而成，多以少為主，故聖人以道邪天下，柔弱微妙者見小也，儉嗇損缺者見少也，見小故能成其大，見少故能成其美。天之道，抑高而舉下，損有餘奉不足，江海處地之不足，故天下歸之奉之，聖人卑謙，清靜辭讓者見下也，虛心無有者見不足也，見下故能致其高，見不足故能成其賢，矜者不立，奢者不長，強梁者死，滿溢者亡，飄風暴雨不終日，小谷不能須臾盈，飄風暴雨行強梁之氣，故不能久而滅，小谷處強梁之地，故不得不奪，是以聖人執雌牝，去奢驕，不敢行強梁之氣，執雌牝，故能立其雄牡，不敢奢驕，故能長久。
+
+老子曰：天道極即反，盈即損，日月是也。聖人日損而沖氣不敢自滿，日進以牝，功德不衰，天道然也，人之情性皆好高而惡下，好得而惡亡，好利而惡病，好尊而惡卑，好貴而惡賤，眾人為之，故不能成，執之，故不能得。是以聖人法天，弗為而成，弗執而得，與人同情而異道，故能長久。故三皇五帝有戒之器，命曰侑卮，其沖即正，其盈即覆。夫物盛則衰，日中則移，月滿則虧，樂終而悲，是故聰明廣智守以愚，多聞博辯守以儉，武力勇毅守以畏，富貴廣大守以狹，德施天下守以讓，此五者先王所以守天下也。「服此道者不欲盈，夫唯不盈，是以弊不新成。」
+
+老子曰：聖人與陰俱閑，與陽俱開，能至於無樂也，即無不樂也，無不樂即至樂極矣。是以內樂外，不以外樂內，故有自樂也，即有自志貴乎天下，所以然者，因而為天下之要也。不在於彼而在於我，不在於人而在於身，身得則萬物備矣。故達於心術之論者，即嗜欲好憎外矣，是故無所喜，無所怒，無所樂，無所苦，萬物玄同，無非無是。故士有一定之論，女有不易之行，不待勢而尊，不須財而富，不須力而強，不利貨財，不貪世名，不以貴為安，不以賤為危，形神氣志各居其宜。夫形者生之舍也，氣者生之元也，神者生之制也，一失其位即三者傷矣，故以神為主者形從而利，以形為制者神從而害。其生貪叨多欲之人，莫宜乎勢利，誘慕乎名位，幾以過人之知，位高於世，即精神日耗以遠，久淫而不還，形閑中拒，即無由入矣，是以時有盲忘自失之患。夫精神志氣者，靜而日充以壯，躁而日耗以老，是故聖人持養其神，和弱其氣，平夷其形，而與道浮沉，如此則萬物之化無不偶也，百事之變無不應也。
+
+老子曰：所謂真人者，性合乎道也。故有而若無，實而若虛，治其內不治其外，明白太素，無為而復樸，體本抱神，以遊天地之根，芒然仿佯塵垢之外，逍遙乎無事之業，機械智巧，不載於心，審於無假，不與物遷，見事之化，而守其宗，心意專於內，通達禍福於一，居不知所為，行不知所之，不學而知，弗視而見，弗為而成，弗治而辯，感而應，迫而動，不得已而往，如光之燿，如影之效，以道為循，有待而然，廓然而虛，清靜而無，以千生為一化，以萬異為一宗。有精而不使，有神而不用，守大渾之樸，立至精之中，其寢不夢，其智不萌，其動無形，其靜無體，存而若亡，生而若死，出入無間，役使鬼神，精神之所能登假千道。使精神暢達而不失於元，日夜無隙而與物為春，即是合而生時於心者也。故形有靡而神未嘗化，以不化應化，千變萬轉而未始有極，化者復歸於無形也，不化者與天地俱生，俱生者未嘗化其所化者即化，此真人之遊純粹素道。
+
+老子曰：道至高無上，至深無下，平乎準，直乎繩，圓乎規，方乎矩，包裹天地而無表裏，洞同覆蓋而無所荬，是故體道者，不怒不喜，其坐無慮，寢而不夢，見物而名，事至而應。
+
+老子曰：欲尸名者必生事，事生即舍公而就私，倍道而任己，見譽而為善，立而為賢，即治不順理而事不順時，治不順理則多責，事不順時則無功，妄為要中，功成不足以塞責，事敗足以滅身。
+
+老子曰：無為名尸，無為謀府，無為事任，無為智主。藏於無形，行於無怠，不為福先，不為禍始，始於無形，動於不得已，欲福先無禍，欲利先遠害。故無為而寧者，失其所寧即危，無為而治者，失其所治即亂，故「不欲碌碌如玉，落落如石。」其文好者皮必剝，其角美者身必殺，甘泉必竭，直木必伐，華榮之言後為愆，石有玉傷其山，黔首之患固在言。
+
+老子曰：時之行動以從，不知道者福為禍。天為蓋，地為軫，善用道者終無盡，地為軫，天為蓋，善用道者終無害。陳彼五行必有勝，天之所覆無不稱，故「知不知，上，不知知，病也。」
+
+老子曰：山生金，石生玉，反相剝，木生蟲，還自食，人生事，還自賊。夫好事者未嘗不中，爭利者未嘗不窮，善游者溺，善騎者墮，各以所好反自為禍。得在時不在爭，治在道不在聖，土處下不爭高，故安而不危，水流下不爭疾，故去而不遲。「是以聖人無執故無失，無為故無敗。」
+
+老子曰：一言不可窮也，二言天下宗也，三言諸侯雄也，四言天下雙也。貞信則不可窮，道德則天下宗，舉賢德，諸侯雄，惡少愛眾天下雙。
+
+老子曰：人有三死非命亡焉：飲食不節，簡賤其身，病共殺之，樂得無已，好求不止，刑共殺之，以寡犯眾，以弱凌強，兵共殺之。
+
+老子曰：其施厚者其報美，其怨大者其禍深，薄施而厚望，畜怨而無患者，未之有也。察其所以往者，即知其所以來矣。
+
+老子曰：原天命，治心術，理好憎，適情性，即治道通矣。原天命即不惑禍福，治心術即不妄喜怒，理好憎即不貪無用，適情性即欲不過節。不惑禍福即動靜順，理不妄喜怒即賞罰不阿，不貪無用即不以欲害性，欲不過節即養生知足，凡此四者，不求於外，不假於人，反己而得矣。
+
+老子曰：不求可非之行，不憎人之非己，修足譽之德，不求人之譽己。不能使禍無至，信己之不智，而不能使福必來，信己之不讓。禍之至非己之所生，故窮而不憂，福之來非己之所成，故通而不矜，是故閑居而心樂，無為而治。
+
+老子曰：道者守其所已有，不求其所以未有，求其所未得即所有者亡，脩其所已有即所欲者至。治未固於不亂，而事為治者必危，行者未免於無非，而急求名者必剉，故福莫大於無禍，利莫大於不喪。故「物或益之而損，損之而益」。道不可以勸就利者，而可以安神避害，故嘗無禍不嘗有福，嘗無罪不嘗有功。道曰芒芒昧昧，從天之威，與天同氣無思慮也，無設儲也，來者不迎，去者不將，人雖東西南北，獨立中央。故處眾枉，不失其直，與天下並流，不離其域，不為善，不避醜，遵天之道，不為始，不專己，循天之理，不豫謀，不棄時，與天為期，不求得，不辭福，從天之則，內無奇福，外無奇禍，故禍福不生，焉有人賊。故至德言同賂，事同福，上下一心，無歧道旁見者，退章於邪，開道之於善，而民向方矣。
+
+老子曰：為善即勸，為不善即觀，勸即生責，觀即生患，故道不可以進而求名，可以退而脩身。故聖人不以行求名，不以知見求譽，治隨自然，己無所與，為者有不成，求者有不得，人有窮而道無通，有智而無為與無智同功，有能而無事與無能同德，有智若無智，有能若無能，道理達而人才滅矣。人與道不兩明，人愛名即不用道，道勝人即名息，道息人名章即危亡。
+
+老子曰：使信士分財，不如定分而探籌，何則？有心者之於平，不如無心者。使廉士守財，不如閉戶而全封，以為有欲者之於廉，不如無欲者也。人舉其疵則怨，鑑見其醜則自喜，人能接物而不與己，則免於累矣。
+
+老子曰：凡事人者，非以寶幣，必以卑辭。幣單而欲不厭，卑體免辭，論說而交不結，約束誓盟，約定而反先日，是以君子不外飾仁義，而內脩道術。脩其境內之事，盡其地方，勸民守死，堅其城郭，上下一心，與之守社稷，即為飾者不伐無罪，為利者不攻難得，此必全之道，必利之理。
+
+老子曰：聖人不勝其心，眾人不勝其欲，君子行正氣，小人行邪氣。內便於性，外合於義，循理而動，不繫於物者，正氣也；推於滋味，淫於聲色，發於喜怒，不顧後患者，邪氣也。邪與正相傷，欲與性相害，不可兩立，一起一廢，故聖人捐欲而從性。目好色，耳好聲，鼻好香，口好味，合而說之，不離利害，嗜欲也，耳目鼻口不知所欲，皆心為之制，各得其所，由此觀之，欲不可勝亦明矣。
+
+老子曰：治身養性者，節寢處，適飲食，和喜怒，便動靜，內在己者得，而邪氣無由入。飾其外，傷其內，扶其情者害其神，見其文者蔽其真，無須臾忘為賢者，必困其性，百步之中忘其為容者，必累其形，故羽翼美者傷其骸骨，枝葉茂者害其根荄，能兩美者天下無之。
+
+老子曰：天有明不憂民之晦也，地有財不憂民之貧也，至德道者若丘山，嵬然不動，行者以為期，直己而足物，不為人賜，用之者亦不受其德，故安而能久。天地無與也，故無奪也，無德也，無怨也。善怒者必多怨，善與者必善奪，唯隨天地之自然而能勝理。故譽見即毀隨之，善見即惡從之，利為害始，福為禍先，不求利即無害，不求福即無禍，身以全為常，富貴其寄也。
+
+老子曰：聖人無屈奇之服，詭異之行，服不雜，行不觀，通而不華，窮而不懾，榮而不顯，隱而不辱，異而不怪，同用無以名之，是謂大通。
+
+老子曰：道者直己而待命，時之至不可迎而反也，時之去不可足而援也，故聖人不進而求，不退而讓，隨時三年，時去我走，去時三年，時在我後，無去無就，中立其所。天道無親，唯德是與，福之至非己之所求，故不伐其功，禍之來非己之所生，故不悔其行，中心其恬，不累其德，狗吠不驚，自信其情，誠無非分，故通道者不惑，知命者不憂。帝王之崩藏骸於野，其祭也祀之於明堂，神貴於形也，故神制形則從，形勝神則窮，聰明雖用，必反諸神，謂之大通。
+
+老子曰：古之存己者，樂德而忘賤，故名不動志，樂道而忘貧，故利不動心，是以謙而能樂，靜而能澹。以數筭之壽，憂天下之亂，猶憂河水之涸，泣而益之也，故不憂天下之亂，而樂其身治者，可與言道矣。
+
+老子曰：人有三怨：爵高者人妒之，官大者主惡之，祿厚者人怨之。夫爵益高者意益下，官益大者心益小，祿益厚者施益博，脩此三者怨不作，故貴以賤為本，高以下為基。
+
+老子曰：言者所以通己於人也，聞者所以通人於所也。既聞其聾，人道不通，故有聞聾之病者，莫知事通，豈獨形骸有闇聾哉！心並有之。塞也，莫知所通，此闇聾之類也。夫道之為宗也，有形者皆生焉，其為親也亦戚矣，饗穀食氣者皆壽焉，其為君也亦惠矣，諸智者學焉，其為師也亦明矣。人皆以無用害有用，故知不博而日不足，以博弈之日問道，聞見深矣，問與不問，猶闇聾之比於人也。
+
+老子曰：人之情心服於德，不服於力，德在與不在來，是以聖人之欲貴於人者，先貴於人，欲尊於人者，先尊於人，欲勝人者，先自勝，欲卑人者，先自卑，故貴賤尊卑，道以制之。夫古之聖王以其言下人，以其身後人，即天下樂推而不猒，戴而不重，此德重有餘而氣順也，故知與之為取，後之為先，即幾於道矣。
+
+老子曰：德少而寵多者譏，才下而位高者危，無大功而有厚祿者微，故物或益之而損，或損之而益。眾人皆知利利，而不知病病，唯聖人知病之為利，利之為病。故再實之木其根必傷，掘藏之家其後必殃，夫大利者反為害，天之道也。
+
+老子曰：小人從事曰苟得，君子曰苟義。為善者，非求名者也，而名從之，名不與利期，而利歸之，所求者同，所極者異，故動有益則損隨之。言無常是，行無常宜者，小人也；察於一事，通於一能，中人也；兼覆而并有之，技能而才使之者，聖人也。
+
+老子曰：生所假也，死所歸也，故世治即以義衛身，世亂即以身衛義，死之日，行之終也，故君子慎一用之而已矣。故生受於天也，命所遭於時也，有其才不遇其世，天也，求之有道，得之在命。君子能為善不能必得其福，不忍而為非而未必免於禍，故君子逢時即進，得之以義，何幸之有！不時即退，讓之以禮，何不幸之有！故雖處貧賤而猶不悔者，得其所貴也。
+
+老子曰：人有順逆之氣生於心，心治則氣順，心亂則氣逆，心之治亂在於道德，得道則心治，失道則心亂，心治則交讓，心亂則交爭，讓則有德，爭則生賊，有德則氣順，賊生則氣逆，氣順則自損以奉人，氣逆則損人以自奉，二氣者可道已而制也。天之道其猶響之報聲也，德積則福生，禍積則怨生，官敗於官茂，孝衰於妻子，患生於憂解，病甚於且瘉，故「慎終如始，無敗事也。」
+
+老子曰：舉枉與直，如何不得，舉直與枉，勿與遂往，所謂同汙而異泥者。
+
+老子曰：聖人同死生，愚人亦同死生，不和利害之所在。道懸天，物布地，和在人，人主不和即天氣不下，地氣不上，陰陽不調，風雨不時，人民疾飢。
+
+老子曰：得萬人之兵，不如聞一言之當，得隋侯之珠，不如得事之所由，得和氏之璧，不如得事之所適。天下雖大，好用兵者亡，國雖安，好戰者危，故「小國寡民，使有阡陌之器而勿用。」
+
+老子曰：能成霸王者，必勝者也，能勝敵者，必強者也，能強者，必用人力者也，能用人力者，必得人心者也，能得人心者，必自得者也，自得者，必柔弱者已。能勝不如己者，至於若己者而挌，柔勝出於若己者，其事不可度，故能眾不勝成大勝者也。
+
+文子問道。老子曰：學問不精，聽道不深。凡聽者，將以達智也，將以成行也，將以致功名也，不精不明，不深不達。故上學以神聽，中學以心聽，下學以耳聽，以耳聽者，學在皮膚，以心聽者，學在肌肉，以神聽者，學在骨髓。故聽之不深，即知之不明，知之不明，即不能盡其精，不能盡其精，即行之不成。凡聽之理，虛心清靜，損氣無盛，無思無慮，目無妄視，耳無苟聽，尊精積稽，內意盈并，既以得之，必固守之，必長久之。夫道者，原產有始，始於柔弱，成於剛強，始於短寡，成於眾長，十圍之木始於把，百仞之臺始於下，此天之道也。聖人法之，卑者所以自下，退者所以自後，儉者所以自小，損之所以自少，卑則尊，退則先，儉則廣，損則大，此天道所成也。夫道者，德之元，大之根，福之門，萬物待之而生，待之而成，待之而寧。夫道，無為無形，內以脩身，外以治人，功成事立，與天為鄰，無為而無不為，莫知其情，莫知其真，其中有信。天子有道則天下服，長有社稷，公侯有道則人民和睦，不失其國，士庶有道則全其身，保其親，強大有道，不戰而克，小弱有道，不爭而得，舉事有道，功成得福，君臣有道則忠惠，父子有道則慈孝，士庶有道則相愛，故有道則知，無道則苛。由是觀之，道之於人，無所不宜也。夫道者，小行之小得福，大行之大得福，盡行之天下服，服則懷之，故帝者，天下之適也，王者，天下之往也，天下不適不往，不可謂帝王。故帝王不得人不能成，得人失道亦不能守。夫失道者，奢泰驕佚，慢倨矜傲，見餘自顯自明，執雄堅強，作難結怨，為兵主，為亂首，小人行之，身受大殃，大人行之，國家滅亡，淺及其身，深及子孫，夫罪莫大於無道，怨莫深於無德，天道然也。
+
+老子曰：天行道者，使人雖勇，刺之不入，雖巧，擊之不中，夫刺之不入，擊之不中，而猶辱也，未若使人雖勇不能刺，雖巧不能擊。夫不敢者，非無其意也，未若本無其意，夫無其意者，未有受利害之心也，不若使天下丈夫女子莫不懽然皆欲愛利之，若然者，無地而為君，無官而為是，天下莫不願安利之。故勇於敢則殺，勇於不敢則活。
+
+文子問德。老子曰：畜之養之，遂之長之，兼利無懌，與天地合，此之謂德。何謂仁？曰：為上不矜其功，為下不羞其病，大不矜，小不偷，兼愛無私，久而不衰，此之謂仁也。何謂義？曰：為上則輔弱，為下則守節，達不肆意，窮不易操，一度順理，不私枉橈，此之謂義也。何謂禮？曰：為上則恭嚴，為下則卑敬，退讓守柔，為天下雌，立於不敢，設於不能，此之謂禮也。故脩其德則下從令，脩其仁則下不爭，脩其義則下平正，脩其禮則下尊敬，四者既脩，國家安寧。故物生者道也，長者德也，愛者仁也，正者義也，敬者禮也。不畜不養，不能遂長，不慈不愛，不能成遂，不正不匡，不能久長，不敬不寵，不能貴重。故德者民之所貴也，仁者民之所懷也，義者民之所畏也，禮者民之所敬也，此四者，文之順也，聖人之所以御萬物也。君子無德則下怨，無仁則下爭，無義則下暴，無禮則下亂，四經不立，謂之無道，無道不亡者，未之有也。
+
+老子曰：至德之世，賈便其市，農樂其野，大夫安其職，處士脩其道，人民樂其業，是以風雨不毀折，草木不夭無，河出圖，洛出書。及世之衰也，賦斂無度，殺戮無止，刑諫者，殺賢士，是以山崩川涸，蠕動不息，野無百蔬。故世治則愚者不得獨亂，世亂則賢者不能獨治，聖人和愉寧靜，生也，至德道行，命也，故生遭命而後能行，命得時而後能明，必有其世而後有其人。
+
+文子問聖智。老子曰：聞而知之，聖也，見而知之，智也。聖人嘗聞禍福所生而擇其道，智者嘗見禍福成形而擇其行，聖人知天道吉凶，故知禍福所生，智者先見成形，故知禍福之門。聞未生聖也，先見成形智也，無聞見者，愚迷。
+
+老子曰：君好義則信時而任己，秉智而用惠，物博智淺，以淺贍博，未之有也。獨任其智，失必多矣，好智，窮術也，好勇，危亡之道也，好與則無定分，上之分不定，則下之望無息，若多斂則與民為讎，少取而多與，其數無有，故好與，來怨之道也。由是觀之，財不足任，道術可因明矣。
+
+文子問曰：古之王者，以道邪天下，為之奈何？老子曰：執一無為，因天地與之變化，「天下大器也，不可執也，不可為也，為者敗之，執者失之。」執一者，見小也，小故能成其大也，無為者，守靜也，守靜能為天下正，處大，滿而不溢，居高，貴而無驕，處大不溢，盈而不虧，居上不驕，高而不危，盈而不虧，所以長守富也，高而不危，所以長守貴也，富貴不離其身，祿及子孫，古之王道其於此矣。
+
+老子曰：民有道所同行，有法所同守，義不能相固，威不能相必，故立君以一之。君執一即治，無常即亂，君道者，非所以有為也，所以無為也，智者不以德為事，勇者不以力為暴，仁者不以位為惠，可謂一矣。一也者，無適之道也，萬物之本也。君數易法，國數易君，人以其位達其好憎，下之任懼不可勝理，故君失一，其亂甚於無君也，君必執一而後能群矣。
+
+文子問曰：王道有幾？老子曰：一而已矣。
+
+文子曰：古有以道王者，有以兵王者，何其一也？曰：以道王者德也，以兵王者亦德也。用兵有五：有義兵，有應兵，有忿兵，有貪兵，有驕兵。誅暴救弱謂之義，敵來加己不得已而用之謂之應，爭小故不勝其心謂之忿，利人土地，欲人財貨謂之貪，恃其國家之大，矜其人民之眾，欲見賢於敵國者謂之驕。義兵王，應兵勝，恣兵敗，貪兵死，驕兵滅，此天道也。
+
+老子曰：釋道而任智者危，棄數而用才者困，故守分循理，失之不憂，得之不喜。成者非所為，得者非所求，入者有受而無取，出者有授而無與，因春而生，因秋而殺，所生不德，所殺不怨，則幾於道矣。文子問曰：王者得其歡心，為之奈何？老子曰：若江海即是也，「淡兮無味，用之不既」，先小而後大。「夫欲上人者，必以其言下之，欲先人者，必以其身後之」，天下必效其歡愛，進其仁義，而無苛氣，「居上而民不重，居前而眾不害，天下樂推而不厭。」雖絕國殊俗，蜎飛蠕動，莫不親，無之而不通，無往而不遂，「故為天下貴。」
+
+老子曰：執一世之法籍，以非傳代之俗，譬猶膠柱調瑟。聖人者，應時權變，見形施宜，世異則事變，時移則俗易，論世立法，隨時舉事。上古之王，法度不同，非古相返也，時務異也，是故不法其已成之法，而法其所以為法者，與化推移。聖人法之可觀也，其所以作法不可原也，其言可聽也，其所以言不可形也。三皇五帝輕天下，細萬物，齊死生，同變化，抱道推誠，以鏡萬物之情，上與道為友，下與化為人。今欲學其道，不得清明，玄聖守其法籍，行其憲令，必不能以為治矣。
+
+文子問政。老子曰：御之以道，養之以德，無示以賢，無加以力，損而執一，無處可利，無見可欲，方而不割，廉而不劌，無矜無伐，御之以道則民附，養之以德則民服，無示以賢則民足，無加以力則民朴。無示以賢者，儉也，無加以力，不敢也，下以聚之，賂以取之，儉以自全，不敢自安。不下則離散，弗養則背叛，示以賢則民爭，加以力則民怨。離散則國勢貨，民背叛則上無威，人爭則輕為非，下怨其上則位危，四者誠脩，正道幾矣。
+
+老子曰：上言者下用也，下言者上用也，上言者常用也，下言者權用也，唯聖人為能知權。言而必信，期而必當，天下之高行，直而證父，信而死女，孰能貴之。故聖人論事之曲直，與之屈伸，無常儀表，祝則名君，溺則捽父，勢使然也。夫權者，聖人所以獨見，夫先迕而後合者之謂權，先合而後迕者不知權，不知權者，善反醜矣。
+
+文子問曰：夫子之言，非道德無以治天下，上世之王，繼嗣因業，亦有無道，各沒其世而無禍敗者，何道以然？老子曰：自天子以下至于庶人，各自生活，然活有厚薄，天下時有亡國破家，無道德之故也。夙夜不懈，戰戰兢兢，常恐危亡；縱欲怠惰，其亡無時。使桀紂循道行德，湯武雖賢，無所建其功也。夫道德者，所以相生養也，所以相畜長也，所以相親愛也，所以相敬貴也。夫聾蟲雖愚，不害其所愛，誠使天下之民皆懷仁愛之心，禍災何由生乎！夫無道而無禍害者，仁未絕，義未滅也，仁雖未絕，義雖未滅，諸侯以輕其上矣，諸侯輕上，則朝廷不恭，縱令不順，仁絕義滅，諸侯背叛，眾人力政，強者陵弱，大者侵小，民人以攻擊為業，災害生，禍亂作，其亡無日，何期無禍也。
+
+老子曰：法煩刑峻即民生詐，上多事下多態，求多即得寡，禁多即勝少，以事生事，又以事止事，譬猶揚火而使無焚也，以智生患，以智備之，譬猶撓水而欲求清也。
+
+老子曰：人主好仁，即無功者賞，有罪者釋，好刑，即有功者廢，無罪者。及無好憎者，誅而無怨，施而不德，放準循繩，身無與事，若天若地，何不覆載。合而和之，君也，別而誅之，法也，民以受誅無所怨憾，謂之道德。
+
+老子曰：天下是非無所定，世各是其所善，而非其所惡。夫求是者，非求道理也，合於己；非去邪也，去迕於心者。今吾欲擇是而居之，擇非而去之，不知世所謂是非也。故「治大國若烹小鮮」，勿撓而已。夫趣合者，即言中而益親，身疏而謀當，即見疑。今吾欲正身而待物，何知世之所從規我者乎，若與俗遽走，猶逃雨，無之而不濡。欲在於虛，則不能虛，若夫不為虛，而自虛者，此所欲而無不致。故通於道者如車軸，不運於己，而與轂致于千里，轉於無窮之原。故聖人體道反至，不化以待化，動而無為。
+
+老子曰：夫亟戰而數勝者，即國亡，亟戰即民罷，數勝即主驕，以驕主使罷民，而國不亡者即寡矣。主驕即恣，恣即極物，民罷即怨，怨即極慮，上下俱極而不亡者，未之有也。故「功遂身退，天之道也。」
+
+平王問文子曰：吾聞子得道於老聃，今賢人雖有道，而遭淫亂之世，以一人之權，而欲化久亂之民，其庸能乎？文子曰：夫道德者，匡衰以為正，振亂以為治，化淫敗以為樸，淳德復生，天下安寧，要在一人。人主者，民之師也，上者，下之儀也，上美之則下食之，上有道德則下有仁義，下有仁義則無淫亂之世矣。積德成王，積怨成亡，積石成山，積水成海，不積而能成者，未之有也。積道德者，天與之，地助之，鬼神輔之，鳳皇藉其庭，麒麟遊其郊，蛟龍宿其沼。故以道邪天下，天下之德也，無道治天下，天下之賊也。以一人與天下為讎，雖欲長久，不可得也，堯舜以是昌，桀紂以是亡。平王曰：寡人聞命矣。
+
+
+### 符言
+
+老子曰：道至高無上，至深無下，平乎準，直乎繩，圓乎規，方乎矩，包裹天地而無表裏，洞同覆蓋而無所荬，是故體道者，不怒不喜，其坐無慮，寢而不夢，見物而名，事至而應。
+
+老子曰：欲尸名者必生事，事生即舍公而就私，倍道而任己，見譽而為善，立而為賢，即治不順理而事不順時，治不順理則多責，事不順時則無功，妄為要中，功成不足以塞責，事敗足以滅身。
+
+老子曰：無為名尸，無為謀府，無為事任，無為智主。藏於無形，行於無怠，不為福先，不為禍始，始於無形，動於不得已，欲福先無禍，欲利先遠害。故無為而寧者，失其所寧即危，無為而治者，失其所治即亂，故「不欲碌碌如玉，落落如石。」其文好者皮必剝，其角美者身必殺，甘泉必竭，直木必伐，華榮之言後為愆，石有玉傷其山，黔首之患固在言。
+
+老子曰：時之行動以從，不知道者福為禍。天為蓋，地為軫，善用道者終無盡，地為軫，天為蓋，善用道者終無害。陳彼五行必有勝，天之所覆無不稱，故「知不知，上，不知知，病也。」
+
+老子曰：山生金，石生玉，反相剝，木生蟲，還自食，人生事，還自賊。夫好事者未嘗不中，爭利者未嘗不窮，善游者溺，善騎者墮，各以所好反自為禍。得在時不在爭，治在道不在聖，土處下不爭高，故安而不危，水流下不爭疾，故去而不遲。「是以聖人無執故無失，無為故無敗。」
+
+老子曰：一言不可窮也，二言天下宗也，三言諸侯雄也，四言天下雙也。貞信則不可窮，道德則天下宗，舉賢德，諸侯雄，惡少愛眾天下雙。
+
+老子曰：人有三死非命亡焉：飲食不節，簡賤其身，病共殺之，樂得無已，好求不止，刑共殺之，以寡犯眾，以弱凌強，兵共殺之。
+
+老子曰：其施厚者其報美，其怨大者其禍深，薄施而厚望，畜怨而無患者，未之有也。察其所以往者，即知其所以來矣。
+
+老子曰：原天命，治心術，理好憎，適情性，即治道通矣。原天命即不惑禍福，治心術即不妄喜怒，理好憎即不貪無用，適情性即欲不過節。不惑禍福即動靜順，理不妄喜怒即賞罰不阿，不貪無用即不以欲害性，欲不過節即養生知足，凡此四者，不求於外，不假於人，反己而得矣。
+
+老子曰：不求可非之行，不憎人之非己，修足譽之德，不求人之譽己。不能使禍無至，信己之不智，而不能使福必來，信己之不讓。禍之至非己之所生，故窮而不憂，福之來非己之所成，故通而不矜，是故閑居而心樂，無為而治。
+
+老子曰：道者守其所已有，不求其所以未有，求其所未得即所有者亡，脩其所已有即所欲者至。治未固於不亂，而事為治者必危，行者未免於無非，而急求名者必剉，故福莫大於無禍，利莫大於不喪。故「物或益之而損，損之而益」。道不可以勸就利者，而可以安神避害，故嘗無禍不嘗有福，嘗無罪不嘗有功。道曰芒芒昧昧，從天之威，與天同氣無思慮也，無設儲也，來者不迎，去者不將，人雖東西南北，獨立中央。故處眾枉，不失其直，與天下並流，不離其域，不為善，不避醜，遵天之道，不為始，不專己，循天之理，不豫謀，不棄時，與天為期，不求得，不辭福，從天之則，內無奇福，外無奇禍，故禍福不生，焉有人賊。故至德言同賂，事同福，上下一心，無歧道旁見者，退章於邪，開道之於善，而民向方矣。
+
+老子曰：為善即勸，為不善即觀，勸即生責，觀即生患，故道不可以進而求名，可以退而脩身。故聖人不以行求名，不以知見求譽，治隨自然，己無所與，為者有不成，求者有不得，人有窮而道無通，有智而無為與無智同功，有能而無事與無能同德，有智若無智，有能若無能，道理達而人才滅矣。人與道不兩明，人愛名即不用道，道勝人即名息，道息人名章即危亡。
+
+老子曰：使信士分財，不如定分而探籌，何則？有心者之於平，不如無心者。使廉士守財，不如閉戶而全封，以為有欲者之於廉，不如無欲者也。人舉其疵則怨，鑑見其醜則自喜，人能接物而不與己，則免於累矣。
+
+老子曰：凡事人者，非以寶幣，必以卑辭。幣單而欲不厭，卑體免辭，論說而交不結，約束誓盟，約定而反先日，是以君子不外飾仁義，而內脩道術。脩其境內之事，盡其地方，勸民守死，堅其城郭，上下一心，與之守社稷，即為飾者不伐無罪，為利者不攻難得，此必全之道，必利之理。
+
+老子曰：聖人不勝其心，眾人不勝其欲，君子行正氣，小人行邪氣。內便於性，外合於義，循理而動，不繫於物者，正氣也；推於滋味，淫於聲色，發於喜怒，不顧後患者，邪氣也。邪與正相傷，欲與性相害，不可兩立，一起一廢，故聖人捐欲而從性。目好色，耳好聲，鼻好香，口好味，合而說之，不離利害，嗜欲也，耳目鼻口不知所欲，皆心為之制，各得其所，由此觀之，欲不可勝亦明矣。
+
+老子曰：治身養性者，節寢處，適飲食，和喜怒，便動靜，內在己者得，而邪氣無由入。飾其外，傷其內，扶其情者害其神，見其文者蔽其真，無須臾忘為賢者，必困其性，百步之中忘其為容者，必累其形，故羽翼美者傷其骸骨，枝葉茂者害其根荄，能兩美者天下無之。
+
+老子曰：天有明不憂民之晦也，地有財不憂民之貧也，至德道者若丘山，嵬然不動，行者以為期，直己而足物，不為人賜，用之者亦不受其德，故安而能久。天地無與也，故無奪也，無德也，無怨也。善怒者必多怨，善與者必善奪，唯隨天地之自然而能勝理。故譽見即毀隨之，善見即惡從之，利為害始，福為禍先，不求利即無害，不求福即無禍，身以全為常，富貴其寄也。
+
+老子曰：聖人無屈奇之服，詭異之行，服不雜，行不觀，通而不華，窮而不懾，榮而不顯，隱而不辱，異而不怪，同用無以名之，是謂大通。
+
+老子曰：道者直己而待命，時之至不可迎而反也，時之去不可足而援也，故聖人不進而求，不退而讓，隨時三年，時去我走，去時三年，時在我後，無去無就，中立其所。天道無親，唯德是與，福之至非己之所求，故不伐其功，禍之來非己之所生，故不悔其行，中心其恬，不累其德，狗吠不驚，自信其情，誠無非分，故通道者不惑，知命者不憂。帝王之崩藏骸於野，其祭也祀之於明堂，神貴於形也，故神制形則從，形勝神則窮，聰明雖用，必反諸神，謂之大通。
+
+老子曰：古之存己者，樂德而忘賤，故名不動志，樂道而忘貧，故利不動心，是以謙而能樂，靜而能澹。以數筭之壽，憂天下之亂，猶憂河水之涸，泣而益之也，故不憂天下之亂，而樂其身治者，可與言道矣。
+
+老子曰：人有三怨：爵高者人妒之，官大者主惡之，祿厚者人怨之。夫爵益高者意益下，官益大者心益小，祿益厚者施益博，脩此三者怨不作，故貴以賤為本，高以下為基。
+
+老子曰：言者所以通己於人也，聞者所以通人於所也。既聞其聾，人道不通，故有聞聾之病者，莫知事通，豈獨形骸有闇聾哉！心並有之。塞也，莫知所通，此闇聾之類也。夫道之為宗也，有形者皆生焉，其為親也亦戚矣，饗穀食氣者皆壽焉，其為君也亦惠矣，諸智者學焉，其為師也亦明矣。人皆以無用害有用，故知不博而日不足，以博弈之日問道，聞見深矣，問與不問，猶闇聾之比於人也。
+
+老子曰：人之情心服於德，不服於力，德在與不在來，是以聖人之欲貴於人者，先貴於人，欲尊於人者，先尊於人，欲勝人者，先自勝，欲卑人者，先自卑，故貴賤尊卑，道以制之。夫古之聖王以其言下人，以其身後人，即天下樂推而不猒，戴而不重，此德重有餘而氣順也，故知與之為取，後之為先，即幾於道矣。
+
+老子曰：德少而寵多者譏，才下而位高者危，無大功而有厚祿者微，故物或益之而損，或損之而益。眾人皆知利利，而不知病病，唯聖人知病之為利，利之為病。故再實之木其根必傷，掘藏之家其後必殃，夫大利者反為害，天之道也。
+
+老子曰：小人從事曰苟得，君子曰苟義。為善者，非求名者也，而名從之，名不與利期，而利歸之，所求者同，所極者異，故動有益則損隨之。言無常是，行無常宜者，小人也；察於一事，通於一能，中人也；兼覆而并有之，技能而才使之者，聖人也。
+
+老子曰：生所假也，死所歸也，故世治即以義衛身，世亂即以身衛義，死之日，行之終也，故君子慎一用之而已矣。故生受於天也，命所遭於時也，有其才不遇其世，天也，求之有道，得之在命。君子能為善不能必得其福，不忍而為非而未必免於禍，故君子逢時即進，得之以義，何幸之有！不時即退，讓之以禮，何不幸之有！故雖處貧賤而猶不悔者，得其所貴也。
+
+老子曰：人有順逆之氣生於心，心治則氣順，心亂則氣逆，心之治亂在於道德，得道則心治，失道則心亂，心治則交讓，心亂則交爭，讓則有德，爭則生賊，有德則氣順，賊生則氣逆，氣順則自損以奉人，氣逆則損人以自奉，二氣者可道已而制也。天之道其猶響之報聲也，德積則福生，禍積則怨生，官敗於官茂，孝衰於妻子，患生於憂解，病甚於且瘉，故「慎終如始，無敗事也。」
+
+老子曰：舉枉與直，如何不得，舉直與枉，勿與遂往，所謂同汙而異泥者。
+
+老子曰：聖人同死生，愚人亦同死生，不和利害之所在。道懸天，物布地，和在人，人主不和即天氣不下，地氣不上，陰陽不調，風雨不時，人民疾飢。
+
+老子曰：得萬人之兵，不如聞一言之當，得隋侯之珠，不如得事之所由，得和氏之璧，不如得事之所適。天下雖大，好用兵者亡，國雖安，好戰者危，故「小國寡民，使有阡陌之器而勿用。」
+
+老子曰：能成霸王者，必勝者也，能勝敵者，必強者也，能強者，必用人力者也，能用人力者，必得人心者也，能得人心者，必自得者也，自得者，必柔弱者已。能勝不如己者，至於若己者而挌，柔勝出於若己者，其事不可度，故能眾不勝成大勝者也。
+
+
+### 道德
+
+文子問道。老子曰：學問不精，聽道不深。凡聽者，將以達智也，將以成行也，將以致功名也，不精不明，不深不達。故上學以神聽，中學以心聽，下學以耳聽，以耳聽者，學在皮膚，以心聽者，學在肌肉，以神聽者，學在骨髓。故聽之不深，即知之不明，知之不明，即不能盡其精，不能盡其精，即行之不成。凡聽之理，虛心清靜，損氣無盛，無思無慮，目無妄視，耳無苟聽，尊精積稽，內意盈并，既以得之，必固守之，必長久之。夫道者，原產有始，始於柔弱，成於剛強，始於短寡，成於眾長，十圍之木始於把，百仞之臺始於下，此天之道也。聖人法之，卑者所以自下，退者所以自後，儉者所以自小，損之所以自少，卑則尊，退則先，儉則廣，損則大，此天道所成也。夫道者，德之元，大之根，福之門，萬物待之而生，待之而成，待之而寧。夫道，無為無形，內以脩身，外以治人，功成事立，與天為鄰，無為而無不為，莫知其情，莫知其真，其中有信。天子有道則天下服，長有社稷，公侯有道則人民和睦，不失其國，士庶有道則全其身，保其親，強大有道，不戰而克，小弱有道，不爭而得，舉事有道，功成得福，君臣有道則忠惠，父子有道則慈孝，士庶有道則相愛，故有道則知，無道則苛。由是觀之，道之於人，無所不宜也。夫道者，小行之小得福，大行之大得福，盡行之天下服，服則懷之，故帝者，天下之適也，王者，天下之往也，天下不適不往，不可謂帝王。故帝王不得人不能成，得人失道亦不能守。夫失道者，奢泰驕佚，慢倨矜傲，見餘自顯自明，執雄堅強，作難結怨，為兵主，為亂首，小人行之，身受大殃，大人行之，國家滅亡，淺及其身，深及子孫，夫罪莫大於無道，怨莫深於無德，天道然也。
+
+老子曰：天行道者，使人雖勇，刺之不入，雖巧，擊之不中，夫刺之不入，擊之不中，而猶辱也，未若使人雖勇不能刺，雖巧不能擊。夫不敢者，非無其意也，未若本無其意，夫無其意者，未有受利害之心也，不若使天下丈夫女子莫不懽然皆欲愛利之，若然者，無地而為君，無官而為是，天下莫不願安利之。故勇於敢則殺，勇於不敢則活。
+
+文子問德。老子曰：畜之養之，遂之長之，兼利無懌，與天地合，此之謂德。何謂仁？曰：為上不矜其功，為下不羞其病，大不矜，小不偷，兼愛無私，久而不衰，此之謂仁也。何謂義？曰：為上則輔弱，為下則守節，達不肆意，窮不易操，一度順理，不私枉橈，此之謂義也。何謂禮？曰：為上則恭嚴，為下則卑敬，退讓守柔，為天下雌，立於不敢，設於不能，此之謂禮也。故脩其德則下從令，脩其仁則下不爭，脩其義則下平正，脩其禮則下尊敬，四者既脩，國家安寧。故物生者道也，長者德也，愛者仁也，正者義也，敬者禮也。不畜不養，不能遂長，不慈不愛，不能成遂，不正不匡，不能久長，不敬不寵，不能貴重。故德者民之所貴也，仁者民之所懷也，義者民之所畏也，禮者民之所敬也，此四者，文之順也，聖人之所以御萬物也。君子無德則下怨，無仁則下爭，無義則下暴，無禮則下亂，四經不立，謂之無道，無道不亡者，未之有也。
+
+老子曰：至德之世，賈便其市，農樂其野，大夫安其職，處士脩其道，人民樂其業，是以風雨不毀折，草木不夭無，河出圖，洛出書。及世之衰也，賦斂無度，殺戮無止，刑諫者，殺賢士，是以山崩川涸，蠕動不息，野無百蔬。故世治則愚者不得獨亂，世亂則賢者不能獨治，聖人和愉寧靜，生也，至德道行，命也，故生遭命而後能行，命得時而後能明，必有其世而後有其人。
+
+文子問聖智。老子曰：聞而知之，聖也，見而知之，智也。聖人嘗聞禍福所生而擇其道，智者嘗見禍福成形而擇其行，聖人知天道吉凶，故知禍福所生，智者先見成形，故知禍福之門。聞未生聖也，先見成形智也，無聞見者，愚迷。
+
+老子曰：君好義則信時而任己，秉智而用惠，物博智淺，以淺贍博，未之有也。獨任其智，失必多矣，好智，窮術也，好勇，危亡之道也，好與則無定分，上之分不定，則下之望無息，若多斂則與民為讎，少取而多與，其數無有，故好與，來怨之道也。由是觀之，財不足任，道術可因明矣。
+
+文子問曰：古之王者，以道邪天下，為之奈何？老子曰：執一無為，因天地與之變化，「天下大器也，不可執也，不可為也，為者敗之，執者失之。」執一者，見小也，小故能成其大也，無為者，守靜也，守靜能為天下正，處大，滿而不溢，居高，貴而無驕，處大不溢，盈而不虧，居上不驕，高而不危，盈而不虧，所以長守富也，高而不危，所以長守貴也，富貴不離其身，祿及子孫，古之王道其於此矣。
+
+老子曰：民有道所同行，有法所同守，義不能相固，威不能相必，故立君以一之。君執一即治，無常即亂，君道者，非所以有為也，所以無為也，智者不以德為事，勇者不以力為暴，仁者不以位為惠，可謂一矣。一也者，無適之道也，萬物之本也。君數易法，國數易君，人以其位達其好憎，下之任懼不可勝理，故君失一，其亂甚於無君也，君必執一而後能群矣。
+
+文子問曰：王道有幾？老子曰：一而已矣。
+
+文子曰：古有以道王者，有以兵王者，何其一也？曰：以道王者德也，以兵王者亦德也。用兵有五：有義兵，有應兵，有忿兵，有貪兵，有驕兵。誅暴救弱謂之義，敵來加己不得已而用之謂之應，爭小故不勝其心謂之忿，利人土地，欲人財貨謂之貪，恃其國家之大，矜其人民之眾，欲見賢於敵國者謂之驕。義兵王，應兵勝，恣兵敗，貪兵死，驕兵滅，此天道也。
+
+老子曰：釋道而任智者危，棄數而用才者困，故守分循理，失之不憂，得之不喜。成者非所為，得者非所求，入者有受而無取，出者有授而無與，因春而生，因秋而殺，所生不德，所殺不怨，則幾於道矣。文子問曰：王者得其歡心，為之奈何？老子曰：若江海即是也，「淡兮無味，用之不既」，先小而後大。「夫欲上人者，必以其言下之，欲先人者，必以其身後之」，天下必效其歡愛，進其仁義，而無苛氣，「居上而民不重，居前而眾不害，天下樂推而不厭。」雖絕國殊俗，蜎飛蠕動，莫不親，無之而不通，無往而不遂，「故為天下貴。」
+
+老子曰：執一世之法籍，以非傳代之俗，譬猶膠柱調瑟。聖人者，應時權變，見形施宜，世異則事變，時移則俗易，論世立法，隨時舉事。上古之王，法度不同，非古相返也，時務異也，是故不法其已成之法，而法其所以為法者，與化推移。聖人法之可觀也，其所以作法不可原也，其言可聽也，其所以言不可形也。三皇五帝輕天下，細萬物，齊死生，同變化，抱道推誠，以鏡萬物之情，上與道為友，下與化為人。今欲學其道，不得清明，玄聖守其法籍，行其憲令，必不能以為治矣。
+
+文子問政。老子曰：御之以道，養之以德，無示以賢，無加以力，損而執一，無處可利，無見可欲，方而不割，廉而不劌，無矜無伐，御之以道則民附，養之以德則民服，無示以賢則民足，無加以力則民朴。無示以賢者，儉也，無加以力，不敢也，下以聚之，賂以取之，儉以自全，不敢自安。不下則離散，弗養則背叛，示以賢則民爭，加以力則民怨。離散則國勢貨，民背叛則上無威，人爭則輕為非，下怨其上則位危，四者誠脩，正道幾矣。
+
+老子曰：上言者下用也，下言者上用也，上言者常用也，下言者權用也，唯聖人為能知權。言而必信，期而必當，天下之高行，直而證父，信而死女，孰能貴之。故聖人論事之曲直，與之屈伸，無常儀表，祝則名君，溺則捽父，勢使然也。夫權者，聖人所以獨見，夫先迕而後合者之謂權，先合而後迕者不知權，不知權者，善反醜矣。
+
+文子問曰：夫子之言，非道德無以治天下，上世之王，繼嗣因業，亦有無道，各沒其世而無禍敗者，何道以然？老子曰：自天子以下至于庶人，各自生活，然活有厚薄，天下時有亡國破家，無道德之故也。夙夜不懈，戰戰兢兢，常恐危亡；縱欲怠惰，其亡無時。使桀紂循道行德，湯武雖賢，無所建其功也。夫道德者，所以相生養也，所以相畜長也，所以相親愛也，所以相敬貴也。夫聾蟲雖愚，不害其所愛，誠使天下之民皆懷仁愛之心，禍災何由生乎！夫無道而無禍害者，仁未絕，義未滅也，仁雖未絕，義雖未滅，諸侯以輕其上矣，諸侯輕上，則朝廷不恭，縱令不順，仁絕義滅，諸侯背叛，眾人力政，強者陵弱，大者侵小，民人以攻擊為業，災害生，禍亂作，其亡無日，何期無禍也。
+
+老子曰：法煩刑峻即民生詐，上多事下多態，求多即得寡，禁多即勝少，以事生事，又以事止事，譬猶揚火而使無焚也，以智生患，以智備之，譬猶撓水而欲求清也。
+
+老子曰：人主好仁，即無功者賞，有罪者釋，好刑，即有功者廢，無罪者。及無好憎者，誅而無怨，施而不德，放準循繩，身無與事，若天若地，何不覆載。合而和之，君也，別而誅之，法也，民以受誅無所怨憾，謂之道德。
+
+老子曰：天下是非無所定，世各是其所善，而非其所惡。夫求是者，非求道理也，合於己；非去邪也，去迕於心者。今吾欲擇是而居之，擇非而去之，不知世所謂是非也。故「治大國若烹小鮮」，勿撓而已。夫趣合者，即言中而益親，身疏而謀當，即見疑。今吾欲正身而待物，何知世之所從規我者乎，若與俗遽走，猶逃雨，無之而不濡。欲在於虛，則不能虛，若夫不為虛，而自虛者，此所欲而無不致。故通於道者如車軸，不運於己，而與轂致于千里，轉於無窮之原。故聖人體道反至，不化以待化，動而無為。
+
+老子曰：夫亟戰而數勝者，即國亡，亟戰即民罷，數勝即主驕，以驕主使罷民，而國不亡者即寡矣。主驕即恣，恣即極物，民罷即怨，怨即極慮，上下俱極而不亡者，未之有也。故「功遂身退，天之道也。」
+
+平王問文子曰：吾聞子得道於老聃，今賢人雖有道，而遭淫亂之世，以一人之權，而欲化久亂之民，其庸能乎？文子曰：夫道德者，匡衰以為正，振亂以為治，化淫敗以為樸，淳德復生，天下安寧，要在一人。人主者，民之師也，上者，下之儀也，上美之則下食之，上有道德則下有仁義，下有仁義則無淫亂之世矣。積德成王，積怨成亡，積石成山，積水成海，不積而能成者，未之有也。積道德者，天與之，地助之，鬼神輔之，鳳皇藉其庭，麒麟遊其郊，蛟龍宿其沼。故以道邪天下，天下之德也，無道治天下，天下之賊也。以一人與天下為讎，雖欲長久，不可得也，堯舜以是昌，桀紂以是亡。平王曰：寡人聞命矣。
+
+
+### 上德
+
+老子曰：主者，國之心也，心治則百節皆安，心擾即百節皆亂，故其身治者，支體相遺也，其國治者，君臣相忘也。
+
+老子學於常樅，見舌而守柔，仰視屋樹，退而目川，觀影而知持後，故聖人曰無因循，常後而不先，譬若積薪燎，後者處上。
+
+老子曰：鳴鐸以聲自毀，膏燭以明自煎，虎豹之文來射，猿狖之捷來格，故勇武以強梁死，辯士以智能困。能以智而知，不能以智不知，如勇於一能，察於一辭，可與曲說，不可與廣應。
+
+老子曰：道以無為有體，視之不見其形，聽之不聞其聲，謂之幽冥者。幽冥者，所以論道，而非道也。夫道者，內視而自反，故人不小學，不大迷，不小惠，不大愚。莫鑒於流潦，而鑒於止水，以其保之，止而不外蕩。月望日奪光，陰不可以承陽，日出星可見，不能與之爭光，末不可以強於本，枝不可以大於幹，上重下輕，其覆必易。一淵不兩蛟，一雌不二雄，一即定，兩即爭。玉在山而草木潤，珠生淵而岸不枯，蚯蚓無筋骨之強，爪牙之利，上食咘堁，下飲黃泉，用心一也。清之為明，杯水可見眸子，濁之為害，河水不見太山，蘭芷不為莫服而不芳，舟浮江海不為莫乘而沉，君子行道不為莫知而慍，性之有也。以清入濁必困辱，以濁入清必覆傾，天二氣即成虹，地二氣即泄藏，人二氣即生病，陰陽不能常，日冬且夏，月不知晝，日不知夜。川廣者魚大，山高者木脩，地廣者德厚，故魚不可以無餌釣，獸不可以空器召。山有猛獸，林木為之不斬，園有螫蟲，葵藿為之不採，國有賢臣，折衝千里，通於道者若車之轉於轂中，不運於己，與之致於千里，終而復始，轉無窮之原也。故舉枉與直，何如不得，舉直與枉，勿與遂往。有鳥將來，張羅而待之，得鳥者羅之一目，今為一目之羅，則無時得鳥，故事或不可前規，物或不可預慮，故聖人畜道待時也。故欲致魚者先通谷，欲來鳥者先樹木，水積而魚聚，木茂而鳥集，為魚得者，非挈而入淵也，為猿得者，非負而上木也，縱之所利而已。足所踐者淺，然待所不踐而後能行，心所知者遍，然待所不知而後能明。川竭而谷虛，丘夷而淵塞，脣亡而齒寒，河水深而讓在山。水靜則清，清則平，平則易，易則見物之形，形不可併，故可以為正。使葉落者，風搖之也，使水濁者，物撓之也，璧鍰之器，礛之功也，莫邪斷割，砥礪之力也，劲與驥致千里而不飛，無裹糧之資而不飢，狡兔得而獵犬烹，高鳥盡而良弓藏，名成功遂身退，天道然也。怒出於不怒，為出於不為，視於無有則得所見，聽於無聲則得所聞。飛鳥反鄉，兔走歸窟，狐死首丘，寒螿洋木，各依其所生也。水火相憎，鼎碛在其間，五味以和，骨肉相愛也，讒人間之，父子相危也。犬豕不擇器而食，俞肥其體，故近死，鳳皇翔於千仞，莫之能致。推固百內而不能自椓，目見百步之外而不能見其眥。因高為山即安而不危，因下為池即淵深而魚鱉歸焉。溝也澇即溢，旱即枯，河海之源淵深而不竭。鱉無耳，而目不可以蔽，精於明也；瞽無目，而耳不可以蔽，精於聰也。混混之水濁，可以濯吾足乎？泠泠之水清，可以濯吾纓乎？絲之為縞也，或為冠，或為远，冠則戴枝之，远則足蹍之。金之勢勝木，一刃不能殘一林之木；土之勢勝水，一掬不能塞江河；水之勢火，一酌不能救一車之薪。冬有雷，夏有雹，寒暑不變其節，霜雪麃麃，日出而流。傾易覆也，倚易翻也，幾易助也，濕易雨也，蘭芷以芳，不得見霜，蟾蜍塗兵，壽在五月之望，精泄者中易殘，華非時者不可食。舌之與齒，孰先弊焉？繩之與矢，孰先直焉？使影曲者形也，使響濁者聲也。與死同病者，難為良醫，與亡國同道者，不可為忠謀。使倡吹竽，使工攝竅，雖中節，以可使決，君形亡焉。聾者不歌，無以自樂，盲者不觀，無以接物。步於林者，不得直道，行於險者，不得履繩，海內其所出，故能大。日不並出，狐不二雄，神龍不匹，猛獸不群，鷙鳥不雙，蓋非橑不蔽日，輪非輻不追疾，橑輪未足恃也。弧弓能射，而非弦不發，發矢之為射，十分之一。飢馬在廄，漠然無聲，投芻其旁，爭心乃生。三寸之管無當，天下不能滿，十石而有塞，百竹而足。循繩而斷即不過，懸衡而量即不差，懸古法以類，有時而遂，杖格之漌，有時而施，是而行之，謂之亂。農夫勞而君子養，愚者言而智者擇，見之明白，處之如玉石，見之黯，必留其謀。百星之明，不如一月之光，十牖畢開，不如一戶之明。蝮蛇不可為足，虎不可為翼，今有六尺之廣，臥而越之，下才不難，立而踰之，上才不易，勢施異也。助祭者得嘗，救鬥者得傷，蔽於不祥之木，為雷霆所撲。日月欲明，濁雲蓋之，河水欲清，沙土穢之，叢蘭欲脩，秋風敗之，人性欲平，嗜欲害之，蒙塵而欲無眯，不可得絜。黃金龜紐，賢者以為佩，土壤布地，能者以為富，故與弱者金玉，不如與之尺素。轂虛而中立三十輻，各盡其力，使一輻獨入，眾輻皆棄，何近遠之能至。橘柚有鄉，萑葦有叢，獸同足者相從游，鳥同翼者相從翔。欲觀九州之地，足無千里之行，無政教之原，而欲為萬民上者，難矣！兇兇者獲，提提者射，故大白若辱，廣德若不足。君子有酒，小人鞭缶，雖不可好，亦可以醜，人之性，便衣綿帛，或射之即被甲，為所不便，以得其便也。三十輻共一轂，各直一鑿，不得相入，猶人臣各守其職也。善用人者，若●之足，眾而不相害，若舌之與齒，堅柔相磨而不相敗。石生而堅，茞生而芳，少而有之，長而逾明。扶之與提，謝之與讓，得之與失，諾之與已，相去千里。再生者不獲，華太早者不須霜而落。汙其準，粉其顙，腐鼠在阼，燒薰於堂，入水而增濡，懷臭而求芳，雖善者不能為工。冬冰可折，夏木可結，時難得而易失。木方盛，終日采之而復生，秋風下霜，一夕而零。質的張而矢射集，林木茂而斧斤入，非或召之也，形勢之所致。乳犬之噬虎，伏雞之搏狸，恩之所加，不量其力。夫待利而登溺者，亦必以將溺之矣，舟能浮能沈，愚者不知足焉。驥驅之不進，引之不止，人君不以取道里。水雖平，必有波，衡雖正，必有差，尺雖齊，必有危，非規矩不能定方員，非準繩無以正曲直，用規矩者，亦有規矩之心。太山之高，倍而不見，秋毫之末，視之可察。竹木有火，不鑽不熏，土中有水，不掘不出，矢之疾，不過二里，跬步不休，跛鱉千里，累土不止，丘山從成。臨河欲魚，不如歸而織網。弓先調而後求勁，馬先順而後求良，人先信而後求能。巧冶不能消木，良匠不能斲冰，物有不可，如之何君子不留意。使人無渡河，可，使河無波，不可。無月不辜，甑終不墮井矣。刺我行者，欲我交，呰我貨者，欲我市，行一棋不足以見知，彈一弦不足以為悲。今有一炭然，掇之爛绯，相近，萬石俱熏，去之十步而死，同氣而異積。有榮華者必有愁悴，上有羅紈下必有麻●，木大者根瞿，山高者基扶。
+
+老子曰：鼓不藏聲，故能有聲，鏡不沒形，故能有形，金石有聲，不動不鳴，管簫有音，不吹無聲。是以聖人內藏，不為物唱，事來而制，物至而應。天行不已，終而復始，故能長久，輪復其所轉，故能致遠，天行一不差，故無過矣。天氣下，地氣上，陰陽交通，萬物齊同，君子用事，小人消亡，天地之道也。天氣不下，地氣不上，陰陽不通，萬物不昌，小人得勢，君子消亡，五穀不植，道德內藏。天之道，損盈益寡，地之道，損高益下，鬼神之道，驕溢與下，人之道，多者不與，聖人之道，卑而莫能上也。天明日明，而後能照四方，君明臣明，域中乃安，有四明，乃能長久，明其施明者，明其化也。天道為丈，地道為理，一為之和，時為之使，以成萬物，命之曰道。大道坦坦，去身不遠，脩之於身，其德乃真，脩之於物，其德不絕。天覆萬物，施其德而養之，與而不取，故精神歸焉，與而不取者，上德也，是以有德。高莫高於天也，下莫下於澤也，天高澤下，聖人法之，尊卑有敘，天下定矣。地載萬物而長之，與而取之，故骨骸歸焉，與而取者，下德也，「下德不失德，是以無德。」地承天，故定寧，地定寧，萬物形，地廣厚，萬物聚，定寧無不載，廣厚無不容，地勢深厚，水泉入聚，地道方廣，故能久長，聖人法之，德無不容。陰難陽，萬物昌，陽服陰，萬物湛，物昌無不贍也，物湛無不樂也，物樂無不治矣。陰害物，陽自屈，陰進陽退，小人得勢，君子避害，天道然也。陽氣動，萬物緩而得其所，是以聖人順陽道，夫順物者，物亦順之，逆物者，物亦逆之，故不失物之情性。洿澤盈，萬物節成，洿澤枯，萬物無節養也，故雨澤不行，天下荒亡。陽上而復下，故為萬物主，不長有，故能終而復始，終而復始，故能長久，能長久，故為天下母。陽氣畜而復能施，陰氣積而復能化，未有不畜積而能化者也，故聖人慎所積。陽滅陰，萬物肥，陰滅陽，萬物衰，故王公尚陽道則萬物昌，尚陰道則天下亡。陽不下陰，則萬物不成，君不下臣，德化不行，故君下臣則聰明，不下臣則闇聾。日出於地，萬物蕃息，公王居民上，以明道德，日入於地，萬物休息，小人居民上，萬物逃匿。雷之動也萬物啟，雨之潤也萬物解，大人施行，有似於此，陰陽之動有常節，大人之動不極物。雷動地，萬物緩，風搖樹，草木敗，大人去惡就善，民不遠徙，故民有去就也，去無甚，就少愈多。風不動，火不出，大人不言，小人無述，火之出也必待薪，大人之言必有信，有信而真，何往不成。河水深，壤在山，丘陵高，下入淵，陽氣盛，變為陰，陰氣盛，變為陽，故欲不可盈，樂不可極。忿無惡言，怒無作色，是謂計得。火上炎，水下流，聖人之道，以類相求。聖人偯陽，天下和同，偯陰，天下溺沉。
+
+老子曰：積薄成厚，積卑成高，君子日汲汲以成煇，小人日快快以至辱，其消息也雖未能見，故見善如不及，宿不善如不祥。苟向善，雖過無怨，苟不向善，雖忠來惡，故怨人不如自怨，勉求諸人，不如求諸己。聲自召也，類自求也，名自命也，人自官也，無非己者，操銳以刺，操刃以擊，何怨於人，故君子慎微。萬物負陰而抱陽，沖氣以為和，和居中央，是以木實生於心，草實生於英，卯胎生於中央，不卯不胎，生而須時。地平則水不流，輕重均則衡不傾，物之生化也，有感以然。
+
+老子曰：山致其高而雲雨起焉，水致其深而蛟龍生焉，君子致其道而德澤流焉。夫有陰德者必有陽報，有隱行者必有昭名，樹黍者不穫稷，樹怨者無報德。
+
+
+### 策明
+
+老子曰：道可以弱，可以強，可以柔，可以剛，可以陰，可以陽，可以幽，可以明，可以苞裹天地，可以應待無方。知之淺不知之深，知之外不知之內，知之麤不知之精，知之乃不知，不知乃知之，孰知知之為不知，不知之為知乎！夫道不可聞，聞而非也，道不可見，見而非也，道不可言，言而非也，孰知形之不形者乎！故「天下皆知善之為善也，斯不善矣！知者不言，言者不知。」
+
+文子問曰：人可以微言乎？
+
+老子曰：何為不可？唯知言之謂乎！夫知言之謂者，不以言言也。爭魚者濡，逐獸者趨，非樂之也，故至言去言，至為去為，淺知之人，所爭者末矣，夫「言有宗，事有君，夫為無知，是以不吾知。」
+
+文子問曰：為國亦有法乎？
+
+老子曰：今夫挽車者，前呼邪軤，後亦應之，此挽車勸力之歌也，雖鄭衛胡楚之音，不若此之義也。治國有禮，不在文辯。「法令滋彰，盜賊多有。」
+
+老子曰：道無正而可以為正，譬若山林而可以為材，材不及山林，山林不及雲雨，雲雨不及陰陽，陰陽不及和，和不及道。道者，「所謂無狀之狀，無物之象也」，無達其意，天地之間，可陶冶而變化也。
+
+老子曰：聖人立教施政，必察其終始，見其造恩，故民知書則德衰，知數而仁衰，知券契而信衰，知機械而實衰。瑟不鳴而二十五弦各以其聲應，軸不運於己而三十輻各以其力旋，弦有緩急，然後能成曲，車有勞佚，然後能致遠，使有聲者，乃無聲者也，使有轉力者，乃無轉也。上下異道，易治即亂，位高而道大者從，事大而道小者凶。小德害義，小善害道，小辯害治，苛悄傷德。大正不險，故民易導，至治優游，故下不賊，至忠復素，故民無偽匿。
+
+老子曰：相坐之法立，則百姓怨，減爵之令張，則功臣叛，故察於刀筆之跡者，不知治亂之本，習於行陣之事者，不知廟戰之權。聖人先福於重關之內，慮患於冥冥之外，愚者惑於小利而忘大害，故事有利於小而害於大，得於此而忘於彼。故仁莫大於愛人，智莫大於知人，愛人即無怨刑，知人即無亂政。
+
+老子曰：江河之大，溢不過三日，飄風暴雨，日中不出須臾止。德無所積而不憂者，亡其及也，夫憂者所以昌也，喜者所以亡也，故善者以弱為強，轉禍為福，道沖而之又不滿也。
+
+老子曰：清靜恬和，人之性也，儀表規矩，事之制也，知人之性則自養不悖，知事之制則其舉措不亂。發一號，散無競，總一管，謂之心；見本而知末，執一而應萬，謂之術；居知所為，行知所之，事知所乘，動知所止，謂之道。使人高賢稱譽己者，心之力也，使人卑下誹謗己者，心之過也，言出於口，不可止於人，行發於近，不可禁於遠。事者難成易敗，名者難立易廢，凡人皆輕小害，易微事，以至於患。夫禍之至也，人自生之，福之來也，人自成之，禍與福同門，利與害相鄰，自非至精，莫之能分，是故智慮者，禍福之門戶也，動靜者，利害之樞機也，不可不慎察也。
+
+老子曰：人皆知治亂之機，而莫知全生之具，故聖人論世而為之事，權事而為之謀。聖人能陰能陽，能柔能剛，能弱能強，隨時動靜，因資而立功，睹物往而知其反，事一而察其變，化則為之象，運則為之應，是以終身行之無所困。故事或可言而不可行者，或可行而不可言者，或易為而難成者，或難成而易敗者。所謂可行而不可言者，取捨也，可言而不可行者，詐偽也，易為而難成者，事也，難成而易敗者，名也。此四者，聖人之所留心也，明者之所獨見也。
+
+老子曰：道者敬小微，動不失禮，百射重戒，禍乃不滋，計福勿及，慮禍過之，同日被相，蔽者不傷，愚者有備與智者同功。夫積愛成福，積憎成禍，人皆知救患，莫知使患無生，夫使患無生易，施於救患難。今人不務使患無生，而務施救於患，雖神人不能為謀。患禍之所由來，萬萬無方，聖人深居以避患，靜默以待時，小人不知禍福之門，動而陷於刑，雖曲為之備，不足以金身。故上士先避患而後就利，先遠辱而後求名，故聖人常從事於無形之外，而不留心於已成之內，是以禍患無由至，非譽不能塵垢。
+
+老子曰：凡人之道，心欲小，志欲大，智欲圓，行欲方，能欲多，事欲少。所謂心欲小者，慮患未生，戒禍慎微，不敢縱其欲也。志欲大者，兼包萬國，一齊殊俗，是非輻輳，中為之轂也。智圓者，終始無端，方流四遠，淵泉而不竭也。行方者，直立而不撓，素白而不汙，窮不易操，達不肆志也。能多者，文武備具，動靜中儀，舉錯廢置，曲得其宜也。事少者，乘要以偶眾，執約以治廣，處靜以持躁也。故心小者，禁於微也；志大者，無不懷也；智圓者，無不知也；行方者，有不為也；能多者，無不治也；事少者，約所持也。故聖人之於善也，無小而不行，其於過也，無微而不改。行不用巫覡，而鬼神不敢先，可謂至貴矣，然而戰戰慄慄，日慎一日，是以無為而一之成也。愚人之智，固已少矣，而所為之事又多，故動必窮。故以政教化，易而必成，以邪教化，其勢難而必敗，捨其易而必成，從事於難而必敗，愚惑之所致。
+
+老子曰：福之起也綿綿，禍之生也紛紛，禍福之數微而不可見，聖人見其始終，故不可不察。明主之賞罰，非以為己，以為國也，適於己而無功於國者，不施賞焉，逆於己而便於國者，不加罰焉。故義載乎宜謂之君子，遺義之宜謂之小人。通智得而不勞，其次勞而不病，其下病而不勞。古之人味而不舍也，今之人舍而不味也。紂為象櫡而箕子唏，魯以偶人葬而孔子嘆，見其所始即知其所終。
+
+老子曰：仁者人之所慕也，義者人之所高也，為人所慕，為人所高，或身死國亡者，不周於時也，故知義而不知世權者，不達於道也。五帝貴德，三王用義，五伯任力，今取帝王之道，施五伯之世，非其道也。故善也否同非譽俗趨行等逆順左右。知天之所為，知人之所行，即有以經於世矣。知天而不知人，即無以與俗交，知人而不知天，即無以與道游。直志適情，即堅強賊之，以身役物，即陰陽食之。得道之人，外化而內不化，外化所以知人也，內不化所以全身也，故內有一定之操，而外能屈伸，與物推移，萬舉而不陷，所貴乎道者，貴其龍變也。守一節推一行，雖以成滿猶不易，拘於小好而塞於大道。道者，寂寞以虛無，非有為於物也，不以有為於己也，是故舉事而順道者，非道者之所為也，道之所施也。天地之所覆載，日月之所照明，陰陽之所煦，雨露之所潤，道德之所扶，皆詞一和也。是故能戴大圓者履大方，鏡大清者視大明，立太平者處大堂，能游於冥冥者，與日月同光，無形而生於有形，是故真人託期於靈臺，而歸居於物之初，視於冥冥，聽於無聲，冥冥之中獨有曉焉，寂寞之中獨有照焉。其用之乃不用，不用而後能用之也，其知之乃不知，不知而後能知之也。道者，物之所道也，德者，生之所扶也，仁者，積恩之證也，義者，比於心而合於眾適者也。道滅而德興，中世守德而不懷，下世繩繩唯恐失仁。故君子非義無以活，失義則失其所以活，小人非利無以活，失利則失其所以活，故君子懼失義，小人懼失利，觀其所懼，禍福異矣。
+
+老子曰：事或欲利之，適足以害人，害之乃足以利之。夫病溫而強食之，病渴而飲之寒，此眾人之所養也，而良醫所以為病也。悅於目，悅於心，愚道所利，有道者之所避。聖人者先迕而後合，眾人先合而後迕，故禍福之門，利害之反，不可不察也。
+
+老子曰：有功離仁義者即見疑，有罪有仁義者必見信，故仁義者，事之常順也，天下之尊爵也。雖謀得計當，慮忠解圖國存，其事有離仁義者，其功必不遂。言雖無中於策，其計無益於國，而心周於君，合於仁義者，身必存，故曰言百計常不當者，不若舍趨而審仁義也。
+
+老子曰：教本乎君子，小人被其澤，利本乎小人，君子享其功，使君子小人各得其宜，則通功易食而道達矣。人多欲即傷義，多憂即害智，故治國，樂所以存，虐國，樂所以亡。水下流而廣大，君下臣而聰明，君不與臣爭而治道通，故君，根本也，臣，枝葉也，根本不美而枝葉茂者，未之有也。
+
+老子曰：慈父之愛子者，非求其報，不可內解於心；聖主之養民，非為士用也，性不得已也，及恃其力，賴其功勳而必窮，有以為則恩不接矣。故用眾人之所愛，則得眾人之力，舉眾人之所喜，則得眾人之心，故見其所始，則知其所終。
+
+老子曰：人以義愛，黨以群強，是故得之所施者博，則威之所行者遠，義之所加者薄，則武之所制者小。
+
+老子曰：以不義得之，又不布施，患及其身，不能為人，又無以自為，可謂愚人，無以異於梟愛其子也，故「持而備之，不如其已，揣而銳之，不可長保。」德之中有道，道之中有德，其化不可極，陽中有陰，陰中有陽，萬事盡然，不可勝明。福至祥存，禍至祥先，見祥而不為善，則福不來，見不祥而行善，則禍不至，利與害同門，禍與福同鄰，非神聖人莫之能分，故曰「禍兮福所倚，福兮禍所伏，孰知其極。」人之將疾也，必先甘魚肉之味，國之將亡也，必先惡忠臣之語，故疾之將死者，不可為良醫，國之將亡者，不可為忠謀。修之身，然後可以治民，居家理，治然後可移官長，故曰「修之身，其德乃真，修之家，其德乃有餘，修之國，其德乃豐。」民之所以生活，衣與食也，事周於衣食則有功，不周於衣食則無功，事無功德不長。故隨時而不成，無更其刑，順時而不成，無更其理，時將復起，是謂道紀。帝王富其民，霸王富其地，危國富其吏，治國若不足，亡國囷倉虛，故曰「上無事而民自富，上無為而民自化。」起師十萬，日費千金，「帥旋之後，必有凶年，」故「兵者不祥之器，非君子之寶也。」「和大怨必有餘怨」，奈何其為不善也。古者親近不以言，來遠不以言，使近者悅，遠者來。與民同欲則和，與民同守則固，與民同念者知，得民力者富，得民譽者顯，行有召寇，言有致禍，無先人言，後人已。附耳之語，流聞千里，言者禍也，舌者機也，出言不當，駟馬不追。昔者中黃子曰：天有五方，地有五行，聲有五音，物有五味，色有五章，人有五位，故天地之間有二十五人也。上五有神人、真人、道人、至人、聖人，次五有德人、賢人、智人、善人、辯人，中五有公人、忠人、信人、義人、禮人，次五有士人、工人、虞人、農人、商人，下五有眾人、奴人、愚人、肉人、小人，上五之與下五，猶人之與牛馬也。聖人者以目視，以耳聽，以口言，以足行。真人者，不視而明，不聽而聰，不行而從，不言而公。故聖人所以動天下者，真人未嘗過焉，賢人所以矯世俗者，聖人未嘗觀焉。所謂道者，無前無後，無左無右，萬物玄同，無是無非。
+
+
+### 自然
+
+老子曰：清虛者，天之明也，無為者，治之常也，去恩惠，舍聖智，外賢能，廢仁義，滅事故，棄佞辯，禁姦偽，則賢不肖者齊於道矣。靜則同，虛則通，至德無為，萬物皆容，虛靜之道，天長地久，神微周盈，於物無宰。十二月運行，周而復始，金木水火土，其勢相害，其道相待。故至寒傷物，無寒不可，至暑傷物，無暑不可，故可與不可皆可，是以大道無所不可，可在其理，見可不趨，見不可不去，可與不可，相為左右，相為表裏。凡事之要，必從一始，時為之紀，自古及今，未嘗變易，謂之天理。上執大明，下用其光，道生萬物，理於陰陽，化為四時，分為五行，各得其所，與時往來，法度有常，下及無能，上道不傾，群臣一意，天地之道無為而備，無求而得，「是以知其無為而有益也。」
+
+老子曰：樸，至大者無形狀，道，至大者無度量，故天員不中規，地方不中矩。往古來今謂之宙，四方上下謂之宇，道在中而莫知其所，故見不遠者，不可與言大，知不博者，不可與論至。夫岙道與物通者，無以相非，故三皇五帝法籍殊方，其得民心一也。若夫規矩勾繩，巧之具也，而非所以巧也，故無絃雖師文不能成其曲，徒絃則不能獨悲，故絃，悲之具也，非所以為悲也。至於神和，遊於心手之間，放意寫神，論愛而形於絃者，父不能以教子，子亦不能受之於父，此不傳之道也。故肅者形之君也，而寂寞者音之主也。
+
+老子曰：天地之道，以德為主，道為之命，物以自正。至微甚內，不以事貴，故不待功而立，不以位為尊，不待名而顯，不須禮而莊，不用兵而強。故道立而不教，明照而不察，道立而不教者，不奪人能也，明照而不察者，不害其事也。夫教道者，逆於德，害於物，故陰陽四時，金木水火土，同道而異理，萬物同情而異形。智者不相教，能者不相受，故聖人立法，以導民之心，各使自然，故生者無德，死者無怨。天地不仁，以萬物為芻狗，聖人不仁，以百姓為芻狗。夫慈愛仁義者，近狹之道也，狹者入大而迷，近者行遠而惑，聖人之道，入大不迷，行遠不惑，常虛自守，可以為極，是謂天德。
+
+老子曰：聖人天覆地載，日月照臨，陰陽和，四時化，懷萬物而不同，無故無新，無疏無親，故能法天者，天不一時，地不一材，人不一事，故緒業多端，趨行多方。故用兵者，或輕或重，或貪或廉，四者相反，不可一也，輕者欲發，重者欲止，貪者欲取，廉者不利非其有也。故勇者可令進鬥，不可令持堅，重者可令固守，不可令凌敵，貪者可令攻取，不可令分財，廉者可令守分，不可令進取，信者可令持約，不可令應變，五者，聖人兼用而材使之。夫天地不懷一物，陰陽不產一類，故海不讓水潦以成其大，山林不讓枉橈以成其崇，聖不辭其負薪之言以廣其名。夫守一隅而遺萬方，取一物而棄其餘，則所得者寡，而所治者淺矣。
+
+老子曰：天之所覆，地之所載，日月之所照，形殊性異，各有所安，樂所以為樂者，乃所以為悲也，安所以為安者，乃所以為危也。故聖人之牧民也，使各便其性，安其居，處為其所能，周其所適，施其所宜，如此即萬物一齊，無由相過。天下之物，無貴無賤，因其所貴而貴之，物無不貴，因其所賤而賤之，物無不賤，故不尚賢者，言不放魚於木，不沈鳥於淵。昔堯之治天下也，舜為司徒，契為司馬，禹為司空，后稷為田疇，奚仲為工師，其導民也，水處者漁，林處者採，谷處者牧，陵處者田，地宜事，事宜其械，械宜其材，皋澤織網，陵坡耕田，如是外民得以所有易所無，以所工易所拙。是以離叛者寡，聽從者眾，若風之過蕭，忽然而感之，各以清濁應，物莫不就其所利，避其所害。是以鄰國相望，雞狗之音相聞，而足跡不接於諸侯之境，車軌不結於千里之外，皆安其居也。故亂國若盛，治國若虛，亡國若不足，存國若有餘。虛者，非無人也，各守其職也，盛者，非多人也，皆徼於未也，有餘者，非多財也，欲節事寡也，不足者，非無貨也，民鮮而費多也，故先王之法，非所作也，所因也，其禁誅，非所為也，所守也，上德之道也。
+
+老子曰：以道治天下，非易人性也，因其所有而循暢之，故因即大，作即小。古之瀆水者，因水之流也，生稼者，因地之宜也，征伐者，因民之欲也，能因則無敵於天下矣。物必有自然而人事有治也，故先王之制法，因民之性而為之節文，無其性，不可使順教，無其資，不可使遵道。人之性有仁義之資，其非聖人為之法度，不可使向方，因其所惡以禁姦，故刑罰不用，威行如神，因其性即天下聽從，怫其性即法度張而不用。道德者，則功名之本也，民之所懷也，懷之則功名立。古之善為君者法江海，江海無為以成其大，洼下以成其廣，故能長久，為天下谿谷，其德乃足，無為能取百川，不求故能得，不行故能至，是以取天下而無事。不自奉故富，不自見故明，不自矜故長，處不肖之地，故為天下王，不爭故莫能與之爭，終不為大故能成其大，江海近於道，故能長久，與天地相保。公正脩道，即功成不有，不有即強固，強固而不以暴人，道深即德深，德深即功名遂成，此謂玄德深矣！遠矣！其與物反矣！天下有始，莫知其理，唯聖人能知所以，非雄非雌，非牝非牡，生而不死，天地以成，陰陽以形，萬物以生。故陰與陽，有員有方，有短有長，有存有亡，道為之命，幽沉而光事，於心甚微，於道甚當，死生同理，萬物變化，合於一道。簡生忘死，何往不壽，去事與言，慎無為也。守道周密，於物不宰，至微無形，天地之始，萬物同於道而殊形，至微無物，故能周恤，至大無外，故為萬物蓋，至細無內，故為萬物貴。道之存生，德之安形，至道之度，去好去惡，無有知故，易意和心，無以道迕。夫天地專而為一，分而為二，交而合之，上下不失，專而為一，分而為五，反而合之，必中規矩。夫道至親不可疏，至近不可遠，求之近者，往而復反。
+
+老子曰：帝者有名，莫知其情，帝者貴其德，王者尚其義，霸者迫於理。聖人之道，於物無有，道挾然後任智，德薄然後任形，明淺然後任察。任智者中心亂，任刑者上下怨，任察者下求善以事上即弊。是以聖人因天地以變化，其德乃天覆而地載，道之以時，其養乃厚，厚養即治，雖有神聖，人何以易之。去心智，故省刑罰，反清靜，物將自正。道之為君如尸，儼然玄默，而天下受其福，一人被之不裒，萬人被之不褊。是故重為惠，重為暴，即道迕矣。為惠者布施也，無功而厚賞，無勞而高爵，即守職懈於官，而遊居者亟於進矣。夫暴者妄誅也，無罪而死亡，行道者而被刑，即脩身不勸善，而為邪行者輕犯上矣。故為惠者即生姦，為暴者即生亂，姦亂之俗，亡國之風也。故國有誅者而主無怒也，朝有賞者而君無與也，誅者不怨君，罪之當也，賞者不德上，功之致也，民知誅賞之來，皆生於身，故務功脩業，不受賜於人，是以朝廷蕪而無跡，田野辟而無穢，故太上下知而有之。王道者，處無為之事，行不言之教，清靜而不動，一度而不搖，因循任下，責成不勞，謀無失策，舉無過事，言無文章，行無儀表，進退應時，動靜循理，美醜不好憎，賞罰不喜怒。名各自命，類各自以，事由自然，莫出於己，若欲狹之，乃是離之，若欲飾之，乃是賊之。天氣為魂，地氣為魄，反之玄妙，各處其宅，守之勿失，上通太一，太一之精，通合於天。天道嘿嘿，無容無則，大不可極，深不可測，常與人化，智不能得，輪轉無端，化逐如神，虛無因循，常後而不先。其聽治也，虛心弱志，清明不闇，是故群臣輻湊並進，無愚智賢不肖，莫不盡其能，君得所以制臣，臣得所以事君，即治國之所以明矣。
+
+老子曰：知而好問者聖，勇而好問者勝，乘眾人之智者即無不任也，用眾人之力者即無不勝也，用眾人之力者，烏獲不足恃也，乘眾人之勢者，天下不足用也。無權不可為之勢，而不循道理之數，雖神聖人不能以成名。故聖人舉事，未嘗不因其資而用之也，有一形者處一位，有一能者服一事，力勝其任，即舉者不重也，能勝其事，即為者不難也。聖人兼而用之，故人無棄人物無棄材。
+
+老子曰：所謂無為者，非謂其引之不來，推之不去，迫而不應，感而不動，堅滯而不流，捲握而不散，謂其私志不入公道，嗜欲不挂正術，循理而舉事，因資而立功，推自然之勢，曲故不得容，事成而身不伐，功立而名不有，若夫水用舟，涉用䦊，泥用輴，山用樏，夏瀆冬陂，因高為山，因下為池，非吾所為也。聖人不恥身之賤，惡道之不行也，不憂命之短，憂百姓之窮也，故常虛而無為，抱素見樸，不與物雜。
+
+老子曰：古之立帝王者，非以奉養其欲也，聖人踐位者，非以逸樂其身也，為天下之民，強陵弱，眾暴寡，詐者欺愚，勇者侵怯，又為其懷智詐不以相教，積財不以相分，故立天子以齊一之。一人之明，不能遍照海內，故立三公九卿以輔翼之。為絕國殊俗，不得被澤，故立諸侯以教誨之。是以天地四時無不應也，官無隱事，國無遺利，所以衣寒食飢，養老弱，息勞倦，無不以也。神農形悴，堯瘦虞，舜黧黑，禹胼胝，伊尹負鼎而干湯，呂望鼓刀而入周，百里奚傳賣，管仲束縛，孔子無黔突，墨子無煖席，非以貪祿慕位，將欲事起於天下之利，除萬民之害也。自天子至於庶人，四體不勤，思慮不困，於事求贍者，未之聞也。
+
+老子曰：所謂天子者，有天道以立天下也。立天下之道，執一以為保，反本無為，虛靜無有，忽慌無無際，遠無所止，視之無形，聽之無聲，是謂大道之經。
+
+老子曰：夫道者，體員而法方，背陰而抱陽，左柔而右剛，履幽而戴明，變化無常，得一之原，以應無方，是謂神明。天員而無端，故不得觀，地方而無涯，故莫窺其門，天化遂無形狀，地生長無計量。夫物有勝，唯道無勝，所以無勝者，以其無常形勢也，輪轉無形，象日月之運行，若春秋之代謝，日月之晝夜，終而復始，明而復晦，制形而無形，故功可成，物物而不物，故勝而不屈。廟戰者帝，神化者王，廟戰者法天道，神化者明四時，修正於境內，而遠方懷德，制勝於未戰，而諸侯賓服也。古之得道者，靜而法天地，動而順日月，喜怒合四時。號令比雷霆，音氣不戾八風，詘伸不獲五度。因民之欲，乘民之力，為之去殘除害，夫同利者相死，同情者相成，同行者相助，循己而動，天下為鬥。故善用兵者，用其自為用，不能用兵者，用其為己用，用其自為用，天下莫不可用，用其為己用，無一人之可用也。
+
+
+### 下德
+
+老子曰：治身，太上養神，其次養形，神清意平，百節皆寧，養生之本也，肥肌膚，充腹腸，供嗜欲，養生之末也。治國，太上養化，其次正法，民交讓爭處卑，財利爭受少，事力爭就勞，日化上而遷善，不知其所以然，治之本也，利賞而勸善，畏刑而不敢為非，法令正於上，百姓服於下，治之末也，上世養本，而下世事末。
+
+老子曰：欲治之主不世出，可與治之臣不萬一，以不世出求不萬一，此至治所以千歲不一也。蓋霸王之功不世立也，順其善意，防其邪心，與民同出一道，則民可善，風俗可美。所貴聖人者，非貴其隨罪而作刑也，貴其知亂之所生也。若開其銳端，而縱之放僻淫佚，而棄之以法，隨之以刑，雖殘賊天下不能禁其姦矣。
+
+老子曰：身處江海之上，心在魏闕之下，即重生，重生即輕利矣。猶不能自勝即從之，神無所害也，不能自勝而強不從，是謂重傷，重傷之人無壽類矣。故曰：知和曰常，知常曰明，益生曰祥，心使氣曰強，是謂玄同，用其光，復歸其明。
+
+老子曰：天下莫易於為善，莫難於為不善。所謂為善者，靜而無為，適情辭餘，無所誘惑，循性保真，無變於己，故曰為善易也。所謂為不善難者，篡弒矯詐，躁而多欲，非人之性也，故曰為不善難也。今之以為大患者，由無常厭度量生也，故利害之地，禍福之際，不可不察。聖人無欲也，無避也，事或欲之，適足以失之，事或避之，適足以就之，志有所欲，即忘其所為，是以聖人審動靜之變，而適受與之度，理好憎之情，和喜怒之節。夫動靜得即患不侵也，受與適即罪不累也，理好憎即憂不近也，和喜怒即怨不犯也。體道之人不苟得，不讓禍，其有不棄，非其有不制，恒滿而不溢，常虛而易贍。故自當以道術度量，即食充虛，衣圉寒，足以溫飽七尺之形，無道術度量，而以自要尊貴，即萬乘之勢不足以為快，天下之富不足以為樂，故聖人心平志易，精神內守，物不能惑。
+
+老子曰：勝人者有力，自勝者強。能強者，必用人力者也，能用人力者，必得人心者也，能得人心者，必自得者也，未有得己而失人者也，未有失己而得人者也。故為治之本，務在安人，安人之本，在於足用，足用之本，在於不奪時，不奪時之本，在於省事，省事之本，在於節用，節用之本，在於去驕，去驕之本，在於虛無，故知生之情者，不務生之所無以為，知命之情者，不憂命之所無奈何。目悅五色，口惟滋味，耳淫五聲，七竅交爭，以害一性，日引邪欲竭其天和，身且不能治，奈治天下何，所謂得天下者，非謂其履勢位，稱尊號，言其運天下心，得天下力也，有南面之名，無一人之譽，此失天下也。故桀紂不為王，湯武不為放，故天下得道，在守四夷，天下失道，守在諸侯，諸侯得道，守在四境，諸侯失道，守在左右。故曰無恃其不吾奪也，恃吾不可奪也，行可奪之道，而非篡弒之行，無益於持天下矣。
+
+老子曰：善治國者，不變其故，不易其常。夫怒者逆德也，兵者凶器也，爭者人之所亂也，陰謀逆德，好用凶器，治人之亂，逆之至也。非禍人不能成禍，不如挫其銳，解其紛，和其光，同其塵。人之性情皆願賢己而疾不及人，願賢己則爭心生，疾不及人則怨爭生，怨爭生則心亂而氣逆，故古之聖王退爭怨，爭怨不生則心治而氣順，故曰：「不尚賢，使民不爭。」
+
+老子曰：治物者，不以物以和，治和者，不以和以人，治人者，不以人以君，治君者，不以君以欲，治欲者，不以欲以性，治性者，不以性以德，治德者，不以德以道。以道本人之性，無邪穢，久湛於物即忘其本，即合於若性。衣食禮俗者，非人之性也，所受於外也，故人性欲平，嗜欲害之，唯有道者能遺物反己。有以自鑒，則不失物之情，無以自鑒，則動而惑營。夫縱欲失性，動未嘗正，以治生則失身，以治國則亂人，故不聞道者無以反性。古者聖人得諸己，故令行禁止，凡舉事者，必先平意清神，神清意平，物乃可正。聽失於非譽，目淫於綵色，而欲得事正即難矣，是以貴虛。故水激則波起，氣亂則智昏，昏智不可以為正，波水不可以為平，故聖王執一，以理物之情性。夫一者，至貴無適於天下，聖王託於無適，故為天下命。
+
+老子曰：陰陽陶冶萬物，皆乘一氣而生。上下離心，氣乃上蒸，君臣不和，五穀不登，春肅秋榮，冬雷夏霜，皆賊氣之所生也。天地之間，一人之身也，六合之內，一人之形也，故明於性者，天地不能脅也，審於符者，怪物不能惑也。聖人由近以知遠，以萬里為一同，氣蒸乎天地，禮義廉恥不設，萬民莫不相侵暴虐，由在乎混冥之中也。廉恥陵哕，及至世之衰，害多而財寡，事力勞而養不足，民貧苦而忿爭生，是以貴仁。人鄙不齊，比周朋黨，各推其與，懷機巧詐之心，是以貴義。男女群居，雜而無別，是以貴禮。性命之情，淫而相迫於不得已，則不和，是以貴樂。故仁義禮樂者，所以救敗也，非通治之道也。誠能使神明定於天下，而心反其初，則民性善，民性善則天地陰陽從而包之，則財足而人贍，貪鄙忿爭之心不得生焉。仁義不害，而道德定而天下，而民不淫於綵色，故德衰然後飾仁義，和失然後調聲，禮淫然後飾容。故知道德，然後知仁義不足行也，知仁義，然後知禮樂不足脩也。
+
+老子曰：清靜之治者，和順以寂寞，質真而素樸，閑靜而不躁，在內而合乎道，出外而同乎義，其言略而循理，其行悅而順情，其心和而不偽，其事素而不飾，不謀所始，不議所終，安即即留，激即行，通體乎天地，同胃乎陰陽，一和乎四時，明朗乎日月，與道化者為人，機械詐偽莫載乎心。是以天覆以德，地載以樂，四時不失序，風雨不為虐，日月清靜而揚光，五星不失其行，此清靜之所明也。
+
+老子曰：治世之職易守也，其事易為也，其禮易行也，其責易賞也。是以人不兼官，官不兼士，士農工商，鄉別州異，故農與農言藏，士與士言行，工與工言巧，商與商言數。是以士無遺行，工無苦事，農無廢功，商無折貨，各安其性。異形殊類，易事而不悖，失處而賤，得勢而貴。夫先知遠見之人，才之盛也，而治世不以責於人，博聞強志，口辯辭給，人知之溢也，而明主不以求於下，敖世賤物，不從流俗，士之伉行也，而治世不以為化民。故高不可及者，不以為人量，行不可逮者，不可為國俗，故人才不可專用，而度量道術可世傳也。故國治可與愚守也，而軍旅可以法同也，不待古之英俊，而人自足者，因其所有而並用之。末世之法，高為量而罪不及也，重為任而罰不勝也，危為其難而誅不敢也，民困於三責，即飾智而詐上，犯邪而行危，雖峻法嚴刑，不能禁其姦。獸窮即觸，鳥窮即啄，人窮即詐，此之謂也。
+
+老子曰：雷霆之聲可以鐘鼓象也，風雨之變可以音律知也，大可睹者，可得而量也，明可見者，可得而蔽也，聲可聞者，可得而調也，色可察者，可得而別也。夫至大，天地不能函也，至微，神明不能見也，及至建律曆，別五色，異清濁，味甘苦，即樸散而為器矣。立仁義，脩禮樂，即德遷而為偽矣。民飾智以驚愚，設詐以攻上，天下有能持之，而未能有治之者也。夫智能彌多，而德滋衰，是以至人淳樸而不散。夫至人之治，虛無寂寞，不見可欲，心與神處，形與性調，靜而體德，動而理通，循自然之道，緣不得已矣。漠然無為而天下和，淡然無欲而民自樸，不忿爭而財足，求者不得，受者不讓，德反歸焉，而莫之惠。不言之辯，不道之道，若或通焉，謂之天府。取焉而不損，酌焉而不竭，莫知其所求由，謂之搖光，搖光者，資糧萬物者也。
+
+老子曰：天愛其精，地愛其平，人愛其情，天之精，日月星辰、雷霆風雨也，地之平，水火金木土也，人之情，思慮聰明喜怒也，故閉其四關，止五道，即與道淪。神明藏於無形，精氣反於真，目明而不以視，耳聰而不以聽，口當而不以言，心條通而不以思慮，委而不為，知而不矜，直性命之情，而知故不得害。精存於目即其視明，在於耳即其聽聰，留於口即其言當，集於心即其慮通，故閉四關即終身無患，四支九竅，莫死莫生，是謂真人。地之生財，大本不過五行，聖人節五行，即治不荒。
+
+老子曰：衡之於左右，無私輕重，故可以為平，繩之於內外，無私曲直，故可以為正，人主之於法，無私好憎，故可以為令，德無所立，怨無所藏，是任道而合人心者也。故為治者，知不與焉，水戾破舟，木擊折軸，不怨木石而罪巧拙者，智不載也，故道有智則亂，德有心則險，心有眼則眩。夫權衡規矩，一定而不易，常一而不邪，方行而不留，一日形之，萬世傳之，無為之為也。人之言曰：國有亡主，世亡亡道，人有窮而理無不通，故無為者，道之宗也。得道之宗，並應無窮，故不因道理之數，而專己之能，其窮中遠。夫人君者不出戶以知天下者，因物以識物，因人以知人。故積力之所舉，即無不勝也，眾智之為，即無不成也。千人之眾無絕糧，萬人之群無廢功，工無異伎，士無兼官，各守其職，不得相予，人得所宜，物得所安，是以器械不惡，職事不慢也。夫責少易償也，職寡易守也，任輕易勸也，上操約少之分，下效易為之功，是以居日久而不相厭也。
+
+老子曰：帝者體太一，王者法陰陽，霸者則四時，君者用六律。體太一者，明於天地之情，通於道德之倫，聰明照於日月，精神通於萬物，動靜調於陰陽，嗔怒和於四時，覆露皆道，溥洽而無私，蜎飛蠕動，莫不依德而生，德流方外，名聲傳乎後世。法陰陽者，承天地之和，德與天地參，光明與日月並照，精神與鬼神齊靈，圓履方，枹表寢繩，內能理身，外得人心，發施號令，天下從風，則四時者，春生夏長，秋收冬藏，取與有節，出入有量，喜怒剛柔，不離其理，柔而不脆，剛而不折，寬而不肆，肅而不悖，優游委順，以養群類，其德含愚而容不肖，無所私愛也。用六律者，生之與殺也，賞之與罰也，與之以奪也，非此無道也，伐亂禁暴，興賢廢不肖，匡邪以為正，懷險以為平，矯枉以為直，明於施令，開塞之道，乘時因勢，以服役人心者也。帝者體陰陽即寢，王者法四時即削，霸者用六律即辱，君者失準繩即廢，故小而行大即窮塞而不親，大而行小即狹隘而不容。
+
+老子曰：地廣民眾，不足以為強，甲堅兵利，不可以恃勝，城高池深，不足以為固，嚴刑峻罰，不足以為威。為存政者，雖小必存焉，為亡政者，雖大必亡焉。故善守者無與禦，善戰者無與鬥，乘時勢，因民欲，而天下服。故善為政者，積其德，善用兵者，畜其怒，德積而民可用也，怒畜而威可立也。故文之所加者，深則權之所服者大，德之所施者博，則威之所制者廣，廣即我強而適弱。善用兵者，先弱敵而後戰，故費不半而功十倍。故千乘之國行文德者王，萬乘之國好用兵者亡，王兵先勝而後戰，敗兵先戰而後求勝，此不明於道也。
+
+
+### 上仁
+
+老子曰：君子之道，靜以脩身，儉以養生。靜即下不擾，下不擾即民不怨，下擾即政亂，民怨即德薄，政亂賢者不為謀，德薄勇者不為鬥。亂主則不然，一日有天下之富，處一主之勢，竭百姓之力，以奉耳目之欲，志專於宮室臺榭，溝池苑囿，猛獸珍怪，貧民飢餓，虎狼厭芻豢，百姓凍寒，宮室衣綺繡，故人主畜茲旡用之物，而天下不安其性命矣。
+
+老子曰：非惔漠無以明德，非寧靜無以致遠，非寬大無以并覆，非正平無以制斷，以天下之目視，以天下之耳聽，以天下之心慮，以天下之力爭，故號令能下究，而臣情得上聞，百官條通，群臣輻湊。喜不以賞賜，怒不以罪誅，法令察而不苛，耳目通而不闇，善否之情，日陳於前而不逆，故賢者盡其智，不肖者竭其力，近者安其性，遠者懷其德，得用人之道。夫乘輿馬者，不勞而致千里，乘舟楫者不游而濟江海，使言之而是，雖商夫芻蕘，猶不可棄也，言之而非，雖在人君卿相，猶不可用也，是非之處，不可以貴賤尊卑論也。其計可用，不羞其位，其言可行，不貴其辯，闇主則不然，群臣盡誠效忠者，希不用其身也，而親習邪枉，賢者不能見也，疏遠卑賤，竭力盡忠者不能聞也。有言者窮之以辭，有諫者誅之以罪，如此而欲安海內、存萬方，其離聰明亦以遠矣。
+
+老子曰：能尊生，雖富貴不以養傷身，雖貧賤不以利累形。今受先祖之遺爵，必重生之所由來之矣，而輕失之，豈不惑哉。貴以身治天下，可以寄天下，愛以身治天下，所以託天下矣。
+
+文子問治國之本。
+
+老子曰：本在於治身，未嘗聞身治而國亂，身亂而國治也。故曰：脩之身，其德乃真。道之所以至妙者，父不能以教子，子亦不能受之於父，故「道可道，非常道也，名可名，非常名也。」
+
+文子問曰：何行而民親其上？
+
+老子曰：使之以時而敬慎之，如臨深淵，如履薄冰，天地之間，善即吾畜也，不善即吾讎也，昔者夏商之臣，反讎桀紂，而臣湯武，宿沙之民，自攻其君，歸神農氏，故曰：「人之所畏，不可不畏也。」
+
+老子曰：治大者，道不可以小，地廣者，制不可以狹，位高者，事不可以煩，民眾者，教不可以苛。事煩難治，法苛難行，求多難贍，寸而度之，至丈必差，銖而解之，至石必過，石稱丈量，徑而寡失，大較易為智，曲辯難為慧。故無益於治，有益於亂者，聖人不為也，無益於用者，有益於費者，智者不行也。故功不厭約，事不厭省，求不厭寡，功約易成，事省易治，求寡易贍，任於眾人則易。故小辯害義，小義破道，道小必不通，通必簡。河以逶迆故能遠，山以陵遲故能高，道以優游故能化。夫通於一伎，審於一事，察於一能，可以曲說，不可以廣應也。夫調音者，小絃急，大絃緩，立事者，賤者勞，貴者佚。道之言曰：芒芒昧昧，因天之威，與天同氣。同氣者帝，同義者王，同功者霸，無一焉者亡。故不言而信，不施而仁，不怒而威，是以天心動化者也。施而仁，言而信，怒而威，是以精誠為之者也，施而不仁，言而不信，怒而不威，是以外貌為之者也。故有道以理之，法雖少，足以治，無道以理之，法雖眾，足以亂。
+
+老子曰：鯨魚失水，則制於螻蟻，人君舍其所守，而與臣爭事，則制於有司，以無為持位，守職者以聽從取容，臣下藏智而不用，反以事專其上。人君者，不任能而好自為，則智日困而自負責，數窮於下，則不能申理，行墮於位，則不能持制，智不足以為治，威不足以行刑，則無以與下交矣。喜怒形於心，嗜欲見於外，則守職者離正而阿上，有司枉法而從風，賞不當功，誅不應罪，則上下乖心，君臣相怨，百官煩亂而智不能解，非譽萌生而明不能照，非己之失而反自責，則人主愈勞，人臣愈佚，是以代大匠斲者，希有不傷其手。與馬逐走，筋絕不能及也，上車攝轡，馬死衡下，伯樂相之，王良御之，明主求之，無御相之勞而致千里，善乘人之賢也。人君之道，無為而有就也，有立而無好也，有為即議，有好即諛，議即可奪，諛即可誘。夫以建而制於人者，不能持國，故善建者不拔，言建之無形也，唯神化者，物莫能勝。中欲不出謂之赖，外邪不入謂之閉，中赖外閉，何事不節，外閉中赖，何事不成。故不用之，不為之，而有用之，而有為之，不伐之言，不奪之事，循名責實，使自有司，以不知為道，以禁苛為主，如此則百官之事，各有所考。
+
+老子曰：食者人之本也，民者國之基也，故人君者，上因天時，下盡地理，中用人力。是以群生遂長，萬物蕃殖，春伐枯槁，夏收百果，秋蓄蔬食，冬取薪杪，以為民資，生無乏用，死無傳口。先王之法，不掩群而取镺𨱵，不個澤而漁，不焚林而獵，豺未祭獸，罝罘不得通於野，獺未祭魚，網罟不得入於水，鷹隼未擊，羅網不得張於皋，草木未落，斤斧不得入於山林，昆蟲未蟄，不得以火田，育孕不牧，鷇卵不探，魚不長尺不得取，犬豕不期年不得食，是故萬物之發若蒸氣出，先王之所以應時脩備，富國利民之道也，非目見而足行之，欲利民者也不忘乎心，即人自備矣。
+
+老子曰：古者，明君取下有節，自養有度，必計歲而收，量民積聚，知有餘不足之數，然後取奉，如此，即得承所受於天地，而離於飢寒之患。其憯怛於民也，國有飢者，食不重味，民有寒者，冬不被裘，與民同苦樂，即天下無哀民。闇主即不然，取民不裁其力，求下不量其積，男女不得耕織之業，以供上求，力勤財盡，有旦無暮，君臣相疾。且人之為生也，一人蹠來而耕，不益十獁，中田之收不過四石，妻子老弱仰之而食，或時有災害之患，以供上求，即人主愍之矣。貪主暴君，涸漁其下，以適無極之欲，則百姓不被天和、履地德矣。
+
+老子曰：天地之氣，莫大於和，和者，陰陽調，日夜分，故萬物春分而生，秋分而成，生與成，必得和之精。故積陰不生，積陽不化，陰陽交接，乃能成和。是以聖人之道，寬而栗，嚴而溫，柔而直，猛而仁。夫太剛則折，太柔則卷，道正在於剛柔之間。夫繩之為度也，可卷而懷也，引而申之，可直而布也，長而不撗，短而不窮，直而不剛，故聖人體之。夫恩推即懦，懦即不威，嚴推即猛，猛即不和，愛推即縱，縱即不令，刑推即禍，禍即無親，是以貴和也。
+
+老子曰：國之所以存者，得道也，所以亡者，理塞也，故聖人見化以觀其徵。德有昌衰，風為先萌，故得生道者，雖小必大，有亡徵者，雖成必敗。國之亡也，大不足恃，道之行也，小不可輕，故存在得道，不在於小，亡在失道，不在於大。故亂國之主，務於地廣，而不務於仁義，務在高位，而不務於道德，是舍其所以存，造其所以亡也。若上亂三光之明，下失萬民之心，孰不能承，故審其己者，不備諸人也。古之為道者，深行之謂之道德，淺行之謂之仁義，薄行之謂之禮智，此六者，國家之綱維也。深行之則厚得福，淺行之則薄得福，盡行之天下服。古者脩道德即正天下，脩仁義即正一國，脩禮智即正一鄉，德厚者大，德薄者小。故道不以雄武立，不以堅強勝，不以貪競得，立在天下推己，勝在天下自服，得在天下與之，不在於自取，故雌牝即立，柔弱即勝，仁義即得，不爭即莫能與之爭，故道之在於天下也，譬猶江海也。天之道，為者敗之，執者失之，夫欲名是大而求之爭之，吾見其不得已，而雖執而得之，不留也。夫名不可求而得也，在天下與之，與之者歸之，天下所歸者，德也，故云：上德者天下歸之，上仁者海內歸之，上義者一國歸之，上禮者一鄉歸之，無此四者，民不歸也。不歸用兵即危道也，故曰：「兵者，不祥之器，不得已而用之。」殺傷人，養而勿美，故曰：「死地，荊棘生焉，以悲哀泣之，以喪禮居之。」是以君子務於道德，不重用兵也。
+
+文子問：仁義禮何以為薄於道德也？
+
+老子曰：為仁者，必以哀樂論之，為義者，必以取與明之，四海之內，哀樂不能遍，竭府庫之財貨，不足以贍萬民，故知不如脩道而行德，因天地之性，萬物自正而天下贍，仁義因附，「是以大丈夫居其厚，不居其薄。」夫禮者，實之文也，仁者，恩之效也，故禮因人情而制，不過其實，仁不溢恩，悲哀抱於情，送死稱於仁。夫養生不強人所不能及，不絕人所不能已，度量不失其適，非譽無由生矣，故制樂足以合歡，喜不出於和，明於死生之分，通於侈儉之適也。末世即不然，言與行相悖，情與貌相反，禮飾以煩，樂擾以淫，風俗溺於世，非譽華於朝，故至人廢而不用也。與驥逐走，即人不勝驥，託於車上，即驥不勝人，故善用道者，乘人之資以立功，以其所能，託其所不能。主興之以時，民報之以財，主遇之以禮，民報之以死，故有危國無安君，有憂主無樂臣。德過其位者尊，祿過其德者凶，德貴無高，義取無多，不以德貴竊位，不以義取盜財。聖人安貧樂道，不以欲傷生，不以利累己，故不違義而取安。古者無德不尊，無能不官，無功不賞，無罪不誅，其進人也以禮，其退人也以義，小人之世，其進人也若上之天，其退人也若內之淵，言古者以疾今也。相馬失之瘦，選士失之貧，豚肥充廚，骨骴不官。君子察實，無信讒言，君過而不諫，非忠臣也，諫而不聽，君不明也，民沉溺而不憂，非賢言也，故守節死難，人臣之職也，衣寒食飢，慈父之恩也。以大事小謂之變人，以小犯大謂之逆天，前雖祭天，後必入淵，故鄉里以齒，老窮不遺，朝廷以爵，尊卑有差。夫崇貴者，為其近君也，尊老者，謂其近親也，敬長者，謂其近兄也。生而貴者驕，生而富者奢，故富貴不以明道自鑑，而能無為非者寡矣。學而不厭，所以治身也，教而不倦，所以治民也，賢師良友，舍而為非者寡矣。知賢之謂智，愛賢之謂仁，尊仁之謂義，敬賢之謂禮，樂賢之謂樂。古之善為天下者，無為而無不為也，故為天下有容，能得其容，無為而有功，不得其容，動作必凶。為天下容曰，「與兮其若冬涉大川，猶兮其若畏四鄰，儼兮其若容，渙兮其若冰之液，敦兮其若樸，混兮其若濁，廣兮其若谷」，此為天下容。與兮其若冬涉大川者，不敢行也，猶兮其若畏四鄰者，恐四傷也，儼兮其若容者，謙恭敬也，渙兮其若冰之液者，不敢積藏也，敦兮其若樸者，不敢廉成也，混兮其若濁者，不敢明清也，廣兮其若谷者，不敢盛盈也，不敢行者，退不敢先也，恐自傷者，守柔弱不敢矜也，謙恭敬者，自卑下尊敬人也，不敢積藏者，自損弊不敢堅也，不敢廉成者，自虧缺不敢全也，不敢清明者，處濁辱而不敢新鮮也，不敢盛盈者，見不足而不敢自賢也。夫道，退故能先，守柔弱故能矜，自卑下故能高人，自損弊故實堅，自虧缺故盛全，處濁辱故新鮮，見不足故能賢，道無為而無不為也。
+
+
+### 上義
+
+老子曰：凡學者，能明於天人之分，通於治亂之本，澄心清意以存之，見其終始反其虛無，可謂達矣。治之本，仁義也，其末，法度也。人之所生者，本也，其所不生者，末也，本末，一體也，其兩愛之，性也，先本後末，謂之君子，先末後本，謂之小人。法之生也，以輔義，重法棄義，是貴其冠履而忘其首足也。重仁義者，廣崇也，不益其厚而張其廣者毀，不廣其基而增其高者覆，故不大其棟，不能任重，任重莫若棟，任國莫若德。人主之有民，猶城中之有基，木之有根，根深即本固，基厚即上安。故事不本於道德者，不可以為經，言不合於先王者，不可以為道，便說掇取，一行一切之術，非天下通道也。
+
+老子曰：治人之道，其猶造父之御駟馬也，齊輯之乎轡銜，正度之乎胸膺，內得於中心，外合乎馬志，故能取道致遠，氣力有餘，進退還曲，莫不如意，誠得其術也。今夫權勢者，人主之車輿也，大臣者，人主之駟馬也，身不可離車輿之安，手不可失駟馬之心，故駟馬不調，造父不能以取道，君臣不和，聖人不能以為治。執道以御之，中才可盡，明分以示之，姦邪可止，物至而觀其變，事來而應其化，近者不亂即遠者治矣，不用適然之教，而得自然之道，萬舉而不失矣。
+
+老子曰：凡為道者，塞邪道，防未然，不貴其自是也，貴其不得為非也，故曰勿使可欲，無日不求，勿使可奪，無日不爭，如此即人欲釋，而公道行矣。有餘者止於度，不足者逮於用，故天下可一也。夫釋職事而聽非譽，棄功勞而用朋黨，即奇伎天長，守職不進，民俗亂於國，功臣爭於朝，故有道以御人，無道則制於人矣。
+
+老子曰：治國有常而利民為本，政教有道而今行為古，苟利於民，不必法古，苟周於事，不必循俗。故聖人法與時變，禮與俗化，衣服器械，各便其用，法度制令，各因其宜，故變古未可非，而循俗未足多也。誦先王之書不若聞其言，聞其言，不若得其所以言，得其所以言者，言不能言也，故「道可道，非常道也，名可名，非常名也。」聖人所由曰道，猶金石也，一調不可更，事，猶琴瑟也，每終改調。故法制禮樂者，治之具也，非所以為治也，故曲士不可與論至道者，訊寤於俗而束於教。
+
+老子曰：天下幾有常法哉！當於世事，得於人理，順於天地，詳於鬼神，即可以正治矣。昔者三皇無制令而民從，五帝有制令而無刑罰，夏后氏不負言，殷人誓，周人盟。末世之衰也，忍垢而輕辱，貪得而寡羞，故法度制令者，論民俗而節緩急，器械者，因時變而制宜適。夫制於法者，不可與遠舉，拘禮之人，不可使應變，必有獨見之明，獨聞之聰，然後能擅道而行。夫知法之所由生者，即應時而變，不知治道之源者，雖循終亂，今為學者，循先襲業，握篇籍，守文法，欲以為治，非此不治，猶持方枘而內員鑿，欲得宜適亦難矣。夫存危治亂，非智不能，道先稱古，雖愚有餘，故不用之法，聖人不行也，不驗之言，明主不聽也。
+
+文子問曰：法安所生？
+
+老子曰：法生於義，義生於眾適，眾適合乎人心，此治之要也。法非從天下也，非從地出也，發乎人間，反己自正。誠達其本，不亂於末，知其要，不惑於疑，有諸已，不非於人，無諸己，不責於所立，立於下者，不廢於上，所禁於民者，不行於身，故人主之制法也，先以自為檢式，故禁勝於身，即令行於民。夫法者，天下之準繩也，人主之度量也，縣法者，法不法也，法定之後，中繩者賞，缺繩者誅，雖尊貴者不輕其賞，卑賤者不重其刑，犯法者，雖賢必誅，中度者，雖不肖無罪，是故公道行而和欲塞也。古之置有司也，所以禁民使不得恣也，其立君也，所以制有司使不得專行也，法度道術，所以禁君使無得撗斷也。人莫得恣，即道勝而理得矣，故反樸無為，無為者，非謂其不動也，言其從己出也。
+
+老子曰：善賞者，費少而勸多，善罰者，刑省而禁姦，善與者，用約而為德，善取者，入多而無怨，故聖人因民之所喜以勸善，因民之所憎以禁姦，賞一人而天下趨之，罰一人而天下畏之，是以至賞不費，至刑不濫，聖人守約而治廣，此之謂也。
+
+老子曰：臣道，方論是處，當為事先唱，守職明分，以立成功，故君臣異道即治，同道即亂，各得其宜，處有其當，即上下有以相使也。故枝不得大於榦，末不得強於本，言輕重大小有以相制也。夫得威勢者，所持甚小，所任甚大，所守甚約，所制甚廣，十圍之木，持千鈞之屋，得所勢也，五寸之關，能制開闔，所居要也。下必行之令，順之者利，逆之即凶，天下莫不聽從者，順也，發號令行禁止者，以眾為勢也。義者，非能盡利於天下之民也，利一人而天下從之，暴者，非能盡害於海內也，害一人而天下叛之，故舉措廢置，不可不審也。
+
+老子曰：屈寸而申尺，小枉面大直，聖人為之，今人君之論臣也，不計其大功，總其略行，而求其小善，即失賢之道也。故人有厚德，元間其小節，人有大譽，元疵其小故。夫人情莫不有所短，成其大略是也，雖有小過，不以為累也，成其大略非也，閭里之行未足多也。故小謹者元成功，訾行者不容眾，體大者節疏，度巨者譽遠，論臣之道也。
+
+老子曰：自古及今，未有能全其行者也，故君子不責備於一人，方而不割，廉而不劌，直而不肆，博達而不訾，道德文武，不責備於人以力，自脩以道，而不責於人，易賞也，自修以道，則無病矣。夫夏后氏之璜，不能無瑕，明月之珠，不能無穢，然天下寶之者，不以小惡妨大美。今志人之所短，忘人之所長，而欲求賢於天下，即難矣。夫眾人之見，位之卑身之賤，事之洿辱，而不知其大略，故論人之道，貴即觀其所舉，富即觀其所施，窮即觀其所受，賤即觀其所為，視其所患難以智勇，動以喜樂以觀其守，委以貨財以觀其仁，振以恐懼以觀其節，如此則人情可知矣。
+
+老子曰：屈者所以求申也，枉者所以求直也，屈寸申尺，小枉大直，君子為之，百川並流，不注海者不為谷，趨行殊方，不歸善者不為君子。善言貴乎可行，善行貴乎仁義，夫君子之過，猶日月之蝕，不害於明，故智者不妄為，勇者不妄殺，擇是而為之，計禮而行之，故事成而功足恃也，身立而名足稱也，雖有智能，必以仁義為本而後立，智能並行，聖人以仁義為準繩，中繩者謂之君子，不中繩者謂之小人。君子雖死亡，其名不滅，小人雖得勢，其罪不除。左手據天下之圖，而右手刎其喉，雖愚者不為，身貴於天下也。死君親之難者，視死如歸，義重於身也。故天下大利也，比身即小，身之所重也，比之仁義即輕，此以仁義為準繩者也。
+
+老子曰：道德之備猶日月也，夷狄蠻貊不能易其指，趣舍同即非譽在俗，意行均即窮達在時，事周於世即功成，務合於時即名立。是故立功名之人，簡於世而謹於時，時之至也，即間不容息。古之用兵者，非利土地而貪寶賂也，將以存亡平亂為民除害也，貪叨多欲之人，殘賊天下，萬民騷動，莫寧其所。有聖人勃然而起，討強暴，平亂世，為天下除害，以濁為清，以危為寧，故不得不中絕。赤帝為火炎，故黃帝擒之，共工為水害，故顓頊誅之。教人以道，導之以德而不聽，即臨之以威武，臨之不從，則制之以兵革。殺無罪之民，養不義之主，害莫大也，聚天下之財，贍一人之欲，禍莫深焉，肆一人之欲，而長海內之患，此天倫所不取也。所為立君者，以禁暴亂也，今乘萬民之力，反為殘賊，是以虎傅翼，何謂不除。夫畜魚者，必去其蝙獺，養禽獸者，必除其豺狼，又況牧民乎！是故兵革之所為起也。
+
+老子曰：為國之道，上無苛令，官無煩治，士無偽行，工無淫巧，其事任而不擾，其器完而不飾。亂世即不然，為行者相揭以高，為禮者相矜以偽，車輿極於雕琢，器用遂於刻鏤，求貨者爭難得以為寶，詆文者逐煩撓以為急，事為詭辯，久稽而不決，無益於治，有益於亂，工為奇器，歷歲而後成，不周於用。故神農之法曰：丈夫丁壯不耕，天下有受其飢者，婦人當年不織，天下有受其寒者。故身親耕，妻親織，以為天下先，其導民也，不貴難得之貨，不重無用之物。是故耕者不強，無以養生，織者不力，無以衣形，有餘不足，各歸其身，衣食饒裕，姦邪不生，安樂無事，天下和平，智者無所施其策，勇者無所錯其威。
+
+老子曰：霸王之道，以謀慮之，以策圖之，挾義而動，非以圖存也，將以存亡也。故聞敵國之君，有暴虐其民者，即舉兵而臨其境，責以不義，刺以過行。兵至其郊，令軍帥曰：無伐樹木，無掘墳墓，無敗五穀，無焚積聚，無捕民虜，無聚六畜，乃發號施令曰：其國之君，逆天地，侮鬼神，決獄不平，殺戮無罪，天之所誅，民之所讎也，兵之來也，以廢不義而授有德也，有敢逆天道，亂民之賊者，身死族滅，以家聽者祿以家，以里聽者賞以里，以鄉聽者封以鄉，以縣聽者侯其縣。剋其國不及其民，廢其君，易其政，尊其秀士，顯其賢良，振其孤寡，恤其貧窮，出其囹圄，賞其有功，百姓開戶而內之，漬米而儲之，唯恐其不來也。義兵至於境，不戰而止，不義之兵，至於伏屍流血，相交以前。故為地戰者，不能成其王，為身求者，不能立其功，舉事以為人者，眾助之，以自為者，眾去之，眾之所動，雖弱必強，眾之所去，雖大必亡。
+
+老子曰：上義者，治國家，理境內，行仁義，布德施惠，立正法，塞邪道，群臣親附，百姓和輯，上下一心，群臣同力，諸侯服其威，四方懷其德，脩正廟堂之上，折衝千里之外，發號行令而天下響應，此其上也。地廣民眾，主賢將良，國富兵強，約束信，號令明，兩敵相當，未交兵接刃，而敵人奔亡，此其次也。知土地之宜，習險隘之利，明苛政之變，察行陣之事，白刃合，流矢接，輿死扶傷，流血千里，暴骸滿野，義之下也。兵之勝敗習在於政，政勝其民，下附其上，即兵強，民勝其政，下叛其上，即兵弱。義足以懷天下之民，事業足以當天下之急，選舉足以得賢士之心，謀慮足以決輕重之權，此上義之道也。
+
+老子曰：國之所以強者必死也，所以必死者義也，義之所以行者威也，是故令之以文，齊之以武，是謂必取，威義並行，是謂必強。白刃交接，矢石若雨，而士爭光者，賞信而罰明也。上視下如子，下事上如父，上視下如弟，下事上如兄，上視下如子，必王四海，下事上如父，必政天下，上視下如弟，即必難為之死，下事上如兄，即必難為之亡，故父子兄弟之寇，不可與之鬥。是故義君內脩其政以積其德，外塞於邪以明其勢，察其勞佚以知飢飽，戰期有日，視死若歸，恩之加也。
+
+
+### 上禮
+
+老子曰：上古真人，呼吸陰陽，而群生莫不仰其德以和順，當此之時，領理隱密，自成純樸，純樸未散，而萬物大優。及世之衰也，至伏羲氏，昧昧懋懋，皆欲離其童蒙之心，而覺悟乎天地之間，其德煩而不一。及至神農、黃帝，覈領天下，紀綱四時，和調陰陽，於是萬民莫不竦身而思，戴聽而視，故治而不和。下至夏、殷之世，嗜欲達於物，聰明誘於外，性命失其真。施及周室，澆醇散樸，離道以為偽，險德以為行，智巧萌生，狙學以擬聖，華誣以脅眾，琢飾詩書，以賈名譽，各欲以行其智偽，以容於世，而失大宗之本，故世有喪性命，衰漸所由來久矣。是故至人之學也，欲以反性於無，游心於虛，世俗之學，擢德攓性，內愁五藏，暴行越知，以譊名聲於世，此至人所不為也。擢德自見也，攓性絕生也，若夫至人定乎死生之意，通乎榮辱之理，舉世譽之而不益勸，舉世非之而不加沮，得至道之要也。
+
+老子曰：古者被髮而無卷領，以王天下，其德生而不殺，與而不奪，天下非其服，同懷其德，當此之時，陰陽和平，萬物蕃息，飛鳥之巢可俯而探也，走獸可係而從也。及其衰也，鳥獸蟲蛇，皆為民害，故鑄鐵鍛刃以禦其難，故民迫其難則求其便，因其患則操其備，各以其智去其所害，就其所利，常故不可循，器械不可因，故先王之法度，有變易者也，故曰：名可名，非常名也。五帝異道而德覆天下，三王殊事而名後世，因時而變者也。譬猶師曠之調五音也，所推移上下無常，尺寸以度，而靡不中者，故通於樂之情者能作，音有本主於中。而知規矩鉤繩之所用者能治人，故先王之制，不宜即廢之，末世之事善即著之。故聖人之制禮樂者，而不制於禮樂，制物者，不制於物，制法者，不制於法，故曰：「道可道，非常道也。」
+
+老子曰：昔者之聖王，仰取象於天，俯取度於地，中取法於人，調陰陽之氣，和四時之節，察陵陸水澤肥墽高下之宜，以立事生財，除飢寒之患，辟疾疢之讃，中受人事，以制禮樂，行仁義之道，以治人倫。列金木水火土之性，以立父子之親而成家，聽五音清濁六律相生之數，以立君臣之義而成國，察四時孟仲季之序，以立長幼之節而成官，列地而州之，分國而治之，立大學以教之，此治之綱紀也。得道則舉，失道則廢，夫物未嘗有張而不弛，盛而不敗者也。唯聖人可盛而不敗，聖人初作樂也，以歸神杜淫，反其天心，至其衰也，流而不反，淫而好色，不顧正法，流及後世，至於亡國，其作書也，以領理百事，愚者以不忘，智者以記事，及其衰也，為姦偽以解有罪而殺不辜，其作囿也，以成宗廟之具，簡士卒以戒不虞，及其衰也，馳騁弋獵以奪民時，以罷民力，其上賢也，以平教化，正獄訟，賢者在位，能者在職，澤施於下，萬民懷德，至其衰也，朋黨比周，各推其所與，廢公趣私，外內相舉，姦人在位，賢者隱處。天地之道，極則反，益則損，故聖人治弊而改制，事終而更為，其美在和，其失在權。聖人之道曰：非修禮義，廉恥不立，民無廉恥，不可以治，不知禮義，法不能正，非崇善廢醜，不嚮禮義，無法不可以為治，不知禮義不可以行法，法能殺不孝者，不能使人孝，能刑盜者不能使人廉。聖王在上，明好惡以示人，經非譽以導之，親而進之，賤不肖而退之，刑錯而不用，禮義修而任賢德也。故天下之高，以為三公，一州之高，以為九卿，一國之高，以為二十七大夫，一鄉之高，以為八十一元士。智過萬人者謂之英，千人者謂之俊，百人者謂之傑，十人者謂之豪。明於天地之道，通於人情之理，大足以容眾，惠足以懷遠，智足以知權，人英也。德足以教化，行足以隱義，信足以得眾，明足以照下，人俊也。行可以為儀表，智足以決嫌疑，信可以守約，廉可以使分財，作事可法，出言可道，人傑也。守職不廢，處義不比，見難不苟免，見利不苟得，人豪也。英俊豪傑，各以大小之材處其位，由本流末，以重制輕，上唱下和，四海之內，一心同歸，背貪鄙，嚮仁義，其於化民，若風之靡草。今使不肖臨賢，雖嚴刑不能禁其姦，小不能制大，弱不能使強，天地之性也。故聖人舉賢以立功，不肖之主舉其所與同，觀其所舉，治亂分矣，察其黨與，賢不肖可論也。
+
+老子曰：為禮者雕琢人性，矯拂其情，目雖欲之禁以度，心雖樂之節以禮，趣翔周旋，屈節卑拜，肉凝而不食，酒徵而不飲，外束其形，內愁其德，鉗陰陽之和而迫性命之情，故終身為哀人。何則？不本其所以欲，而禁其所欲，不原其所以樂，而防其所樂，是猶圈獸而不塞其垣，禁其野心，決江河之流而壅之以手，故曰：開其兌，濟其事，終身不救。夫禮者，遏情閉欲，以義自防，雖情心𠳁噎，形性飢渴，以不得已自強，故莫能終其天年。禮者，非能使人不欲也，而能止之，樂者，非能使人勿樂也，而能防之。夫使天下畏刑而不敢盜竊，豈若使無有盜心哉！故知其無所用，雖貪者皆辭之，不知其所用，廉者不能讓之。夫人之所以亡社稷，身死人手，為天下笑者，未嘗非欲也，知冬日之扇，夏日之裘，無用於己，萬物變為塵垢矣！故揚湯止沸，沸乃益甚，知其本者，去火而已。
+
+老子曰：循性而行謂之道，得其天性謂之德，性失然後貴仁義，仁義立而道德廢，純樸散而禮樂飾，是非形而百姓眩，珠玉貴而天下爭。夫禮者，所以別尊卑貴賤也，義者，所以和君臣父子兄弟夫婦人道之際也。末世之禮，恭敬而交。為義者，布施而得，君臣以相非，骨肉以生怨也，故水積則生相食之蟲，土積則生自肉之狩，禮樂飾則生詐偽。末世之為治，不積於養生之具，澆天下之醇，散天下之樸，滑亂萬民，以清為濁，性命飛揚，皆亂以營，貞信熳爛，人失其性，法與義相背，行與利相反，貧富之相傾，人君之與僕虜，不足以論。夫有餘則讓，不足則爭，讓則禮義生，爭則暴亂起，故多欲則事不省，求贍則爭不止，故世治則小人守正，而利不能誘也，世亂則君子為姦，而法不能禁也。
+
+老子曰：衰世之主，鑽山石，挈金玉，擿礱蜃，消銅鐵，而萬物不滋，刳胎焚郊，覆巢毀卵，鳳凰不翔，麒麟不遊，構木為臺，焚林而畋，竭澤而漁，積壤而丘處，掘地而井飲，濬川而為池，築城而為固，拘獸以為畜，則陰陽繆戾，四時失序，雷霆毀折，雹霜為害，萬物焦夭，處於太半，草木夏枯，三川絕而不流，分山川谿谷，使有壤界，計人眾寡，使有分數，設機械險阻以為備，制服色等異貴賤，老賢不肖行賞罰，則兵革起而忿爭生，虐殺不辜，誅罰無罪，於是興矣。
+
+老子曰：世之將喪性命，猶陰氣之所起也，主闇昧而不明，道廢而不行，德滅而不揚，舉事戾於天，發號逆四時，春秋縮其和，天地除其德，人君處位而不安，大夫隱遁而不言，群臣推上意而壞常，疏骨肉而自容，邪人諂而陰謀，遽載驕主而像其亂人以成其事，是故君臣乖而不親，骨肉疏而不附，田無立苖，路無緩步，金積折廉，壁襲無贏，殼龜無腹，蓍筮日施，天下不合而為一家，諸侯制法各異習俗，悖拔其根而棄其本，鑿五刑，為刻削，爭於錐刀之末，斬刈百姓，盡其太半，舉兵為難，攻城濫殺，覆高危安，大衝車，高重壘，除戰隊，使陣死路，犯嚴敵，百姓一反，名聲苟盛，兼國有地，伏尸數十萬，老弱飢寒而死者不可勝計。自此之後，天下未嘗得安其性命，樂其習俗也。賢聖勃然而起，持以道德，輔以仁義，近者進其智，遠者懷其德，天下混而為一，子孫相代輔佐黜讒佞之端息未辯之說，除刻削之法，去煩苛之事，屏流言之跡，塞朋黨之門，消智能，循大常，隳枝體，黜聰明，大通混冥，萬物各復歸其根。夫聖人非能生時，時至而不失也，是以不得中絕。
+
+老子曰：酆水之深十仞而不受塵垢，金石在中，形見於外，非不深且清也，魚鱉蛟龍莫之歸也。石上不生五穀，秀山不遊麋鹿，無所蔭蔽也。故為政以苛為察，以切為明，以刻下為忠，以計多為功，如此者譬猶廣革者也，大敗大裂之道也，其政悶悶，其民淳淳，其政察察，其民缺缺。
+
+老子曰：以政治國，以奇用兵。先為不可勝之政，而後求勝於敵，以未治而攻人之亂，是猶以火應火，以水應水也，同莫足以相治，故以異為奇，奇靜為躁奇，治為亂奇，飽為飢奇，逸為勞奇，正之相應，若水火金木之相伐也，何往而不勝，故德均則眾者勝寡，力敵則智者制愚，智同則有數者禽無數
+
+
+## 五、《文始真經》全本
+
+### 一宇
+
+關尹子曰：「非有道不可言，不可言即道；非有道不可思，不可思即道。天物怒流，人事錯錯然。若若乎回也，戛戛乎鬭也。勿勿乎似而非也。而爭之，而介之；而哯之，而嘖之；而去之，而要之。言之如吹影，思之如鏤塵，聖智造迷，鬼神不識。惟不可為，不可致，不可測，不可分。故曰天、曰命、曰神、曰玄；合曰道。」
+
+關尹子曰：「無一物非天，無一物非命，無一物非神，無一物非玄。物既如此，人豈不然？人皆可曰天，人皆可曰神，人皆可致命通玄。不可彼天，此非天；彼神，此非神；彼命，此非命；彼玄，此非玄。是以善吾道者，即一物中知天、盡神、致命、造玄。學之徇異，名析同實；得之契同，實忘異名。」
+
+關尹子曰：「觀道者如觀水，以觀沼為未足，則之河，之江，之海，曰：『水至也。』殊不知我之津、液、涎、淚皆水。」
+
+關尹子曰：「道無人。聖人不見甲是道，乙非道。道無我。聖人不見己進道，己退道。以不有道，故不無道；以不得道，故不失道。」
+
+關尹子曰：「不知道，妄意卜者，如射覆盂：高之存金、存玉，中之存角、存羽，卑之存瓦、存石。是乎？非是乎？惟置物者知之。」
+
+關尹子曰：「一陶能作萬器，終無有一器能作陶者，能害陶者。一道能作萬物，終無有一物能作道者，能害道者。」
+
+關尹子曰：「道茫茫而無知乎？心儻儻而無羈乎？物迭迭而無非乎？電之逸乎？沙之飛乎？聖人以知：心一，物一，道一。三者、又合為一。不以一格不一，不以不一害一。」
+
+關尹子曰：「以盆為沼，以石為島，魚環游之，不知其幾千萬里而不窮也。夫何故？水無源無歸。聖人之道：本無首，末無尾，所以應物不窮。」
+
+關尹子曰：「無愛道，愛者、水也；無觀道，觀者、火也；無逐道，逐者、木也；無言道，言者、金也；無思道，思者、土也。惟聖人不離本情，而登大道；心既未萌，道亦假之。」
+
+關尹子曰：「重雲蔽天，江湖黯然，游魚茫然。忽望波明食動，幸賜于天，即而就之，漁釣斃焉。不知我無我而逐道者，亦然。」
+
+關尹子曰：「方術之在天下多矣。或尚晦，或尚明；或尚強，或尚弱。執之皆事，不執之皆道。」
+
+關尹子曰：「道終不可得，彼可得者，名德不名道；道終不可行，彼可行者，名行不名道。聖人以可得可行者，所以善吾生；以不可得、不可行者，所以善吾死。」
+
+關尹子曰：「聞道之後，有所為、有所執者，所以之人；無所為、無所執者，所以之天。為者必敗，執者必失；故聞道於朝，可死於夕。」
+
+關尹子曰：「一情冥，為聖人；一情善，為賢人；一情惡，為小人。一情冥者、自有之無，不可得而示；一情善惡者、自無起有，不可得而秘。一情善惡為有知，惟動物有之。一情冥者為無知，溥天之下，道無不在。」
+
+關尹子曰：「勿以聖人力行不怠，則曰道以勤成；勿以聖人堅守不易，則曰道以執得。聖人力行，猶之發矢，因彼而行，我不自行；聖人堅守，猶之握矢，因彼而守，我不自守。」
+
+關尹子曰：「若以言行、學識求道，互相展轉，無有得時。知言如泉鳴，知行如禽飛；知學如擷影；知識如計夢。一息不存，道將來契。」
+
+關尹子曰：「以事建物則難，以道棄物則易。天下之物無不成之難而壞之易也。」
+
+關尹子曰：「一灼之火，能燒萬物；物亡而火何存？一息之道，能冥萬物；物亡而道何在？」
+
+關尹子曰：「人生在世。有生一日死者，有生十年死者，有生百年死者。一日死者，如一息得道；十年、百年死者，如歷久得道。彼未死者，雖動作昭智，止名為生，不名為死；彼未契道者，雖動作昭智，止名為事，不名為道。」
+
+關尹子曰：「不知吾道無言無行，而即有言有行者求道、忽遇異物，橫執為道，殊不知捨源求流，無時得源；捨本就末，無時得本。」
+
+關尹子曰：「習射、習御、習琴、習奕、終無一事可以一息得者。惟道無形無方，故可得之于一息。」
+
+關尹子曰：「兩人射，相遇則巧拙見；兩人奕，相遇則勝負見；兩人道，相遇則無可示。無可示者，無巧、無拙、無勝、無負。」
+
+關尹子曰：「吾道如海：有億萬金，投之不見；有億萬石，投之不見；有億萬汙穢，投之不見。能運小鰕、小魚，能運大鯤、大鯨。合眾水而受之，不為有餘；散眾水而分之，不為不足。」
+
+關尹子曰：「吾道如處暗。夫處明者，不見暗中一物，而處暗者，能見明中區事。」
+
+關尹子曰：「小人之權，歸于惡；君子之權，歸于善；聖人之權，歸于無所得。惟無所得，所以為道。」
+
+關尹子曰：「吾道如劍：以刀割物，即利；以手握刃，即傷。」
+
+關尹子曰：「籩不問豆，豆不荅籩；瓦不問石，石不荅瓦；道亦不失。問歟荅歟，一氣往來，道何在？」
+
+關尹子曰：「仰道者跂，如道者駸；皆知道之事，不知道之道。是以聖人不望道而歉，不恃道而豐；不惜道於聖，不賈道于愚。」
+
+
+### 二柱
+
+關尹子曰：「若椀若盂，若瓶若壼，若甕若盎，皆能建天地；兆龜，數蓍，破瓦，文石，皆能告吉凶。是知天地萬物成理，一物包焉。物物皆包之，各不相借。以我之精，合彼之精，兩精相搏，而神應之。一雌一雄，卵生；一牡一牝，胎生。形者、彼之精，理者、彼之神。愛者、我之精，觀者、我之神。愛為水，觀為火。愛執而觀，因之為水。觀存而愛，攝之為金。先想乎一元之氣，具乎一物，執愛之以合彼之形，冥觀之以合彼之理，則象存焉。
+
+「一運之象，周乎太空。自中而升為天，自中而降為地。無有升而不降；無有降而不升。升者為火，降者為水。欲升而不能升者為木，欲降而不能降者為金。
+
+「木之為物，鑽之得火，絞之得水。金之為物，擊之得火，鎔之得水。金木者、水火之交也，水為精為天，火為神為地，木為魂為人，金為魄為物。運而不已者為時，包而有在者為方。惟土終始之，有解之者，有示之者。」
+
+關尹子曰：「天下之人，蓋不可以億兆計，人人之夢各異，夜夜之夢各異。有天、有地，有人、有物，皆思成之；蓋不可以塵計。安知今之天地，非有思者乎？」
+
+關尹子曰：「心應棗，肝應榆，我通天地。將陰夢水，將晴夢火，天地通我。我與天地，似契似離，純純各歸。」
+
+關尹子曰：「天地雖大，有色、有形，有數、有方。吾有非色、非形，非數、非方，而天天地地者存。」
+
+關尹子曰：「死胎中者，死卵1中者，亦人亦物，天地雖大，彼固不知。計天地者，皆我區識。譬如手不觸刃，刃不傷人。」
+
+關尹子曰：「夢中、鑑中、水中，皆有天地存焉。欲去夢天地者，寢不寐；欲去鑑天地者，神不照；欲去水天地者，盎不汲。彼之有無，在此，不在彼。是以聖人不去天地，去識。」
+
+關尹子曰：「天非自天，有為天者；地非自地，有為地者。譬如屋宇舟車，待人而成，彼不自成。知彼有待，知此無待。上不見天，下不見地；內不見我，外不見人。」
+
+關尹子曰：「有時者氣；彼非氣者，未嘗有晝夜。有方者形；彼非形者，未嘗有南北。何謂非氣？氣之所自生者。如搖箑得風，彼未搖時，非風之氣；彼已搖時，即名為氣。何謂非形？形之所自生者。如鑽木得火，彼未鑽時，非火之形；彼已鑽時，即名為形。」
+
+關尹子曰：「寒暑溫涼之變，如瓦石之類，置之火即熱，置之水即寒；呵之即溫，吸之即涼，特因外物，有去有來，而彼瓦石實無去來。譬如水中之影，有去有來，所謂水者，實無去來。」
+
+關尹子曰：「衣搖空得風，氣呵物得水，水注水即鳴，石擊石即光。知此說者，風、雨、雷、電，皆可為之。蓋風、雨、雷、電皆緣氣而生，而氣緣心生，猶如內想大火，久之覺熱；內想大1水，久之覺寒。知此說者，天地之德，皆可同之。」
+
+關尹子曰：「五雲之變，可以卜當年之豐歉；八風之朝，可以卜當時之吉凶。是知休咎災祥，一氣之運耳。渾人我，同天地，而彼私智，認而已之。」
+
+關尹子曰：「天地寓，萬物寓，我寓，道寓。苟離于1寓，道亦不立。」
+
+
+### 三極
+
+關尹子曰：「聖人之治天下：不我賢愚，故因人之賢而賢之，因人之愚而愚之；不我是非，故因事之是而是之，因事之非而非之。知古今之大同，故或先古，或先今；知內外之大同，故或先內，或先外。天下之物，無得以累之，故本之以謙；天下之物，無得以外之，故含之以虛；天下之物，無得以難之，故行之以易；天下之物，無得以窒之，故變之以權。以此中天下，可以制禮；以此和天下，可以作樂；以此公天下，可以理財；以此周天下，可以禦侮；以此因天下，可以立法；以此觀天下，可以制器。聖人不以一己治天下，而以天下治天下。天下歸功于聖人，聖人任功于天下。所以堯、舜、禹、湯之治天下，天下皆曰自然。」
+
+關尹子曰：「天無不覆，有生有殺，而天無愛惡。日無不照，有妍有醜，而日無厚薄。」
+
+關尹子曰：「聖人之道，天命，非聖人能自道。聖人之德，時苻，非聖人能自德。聖人之事，人為，非聖人能自事。是以聖人不有道，不有德，不有事。」
+
+關尹子曰：「聖人知我無我，故同之以仁；知事無我，故權之以義；知心無我，故戒之以禮；知識無我，故照之以智。知言無我，故守之以信。」
+
+關尹子曰：「聖人之道，或以仁為仁，或以義為仁，或以禮、以智、以信為仁。仁、義、禮、智、信，各兼五者；聖人一之不膠，天下名之不得。」
+
+關尹子曰：「勿以行觀聖人，道無蹟；勿以言觀聖人，道無言；勿以能觀聖人，道無為；勿以貌觀聖人，道無形。」
+
+關尹子曰：「行雖至卓，不離高下；言雖至公，不離是非；能雖至神，不離巧拙；貌雖至殊，不離妍醜。聖人假此，以示天下。天下冥此，乃見聖人。」
+
+關尹子曰：「聖人師蜂，立君臣；師蜘蛛，立網罟；師拱鼠，制禮；師戰蟻，置兵。眾人師賢人，賢人師聖人，聖人師萬物。惟聖人同物，所以無我。」
+
+關尹子曰：「聖人曰道。觀天地人物皆吾道：倡和之，始終之，青黃之，卵翼之；不愛道，不棄物；不尊君子，不賤小人。賢人曰物。物物不同，旦旦去之，旦旦與之；短之，長之，直之，方之，是為物易也。殊不知聖人鄙雜廁，別分居，所以為人，不以此為己。」
+
+關尹子曰：「聖人之于眾人，飲食衣服同也，屋室舟車同也，富貴貧賤同也。眾人每同聖人，聖人每同眾人。彼仰其高、侈其大者，其然乎？其不然乎？」
+
+關尹子曰：「魚欲異群魚，捨水躍岸即死；虎欲異群虎，捨山入市即擒。聖人不異眾人，特物不能拘爾。」
+
+關尹子曰：「道無作。以道應世者，是事非道。道無方。以道寓物者，是物非道。聖人竟不能出道以示人。」
+
+關尹子曰：「如鐘鐘然，如鐘鼓然，聖人之言則然。如車車然，如車舟然，聖人之行則然。惟莫能名，所以退天下之言；惟莫能知，所以奪天下之智。」
+
+關尹子曰：「蝍蛆食蛇，蛇食哇，哇食蝍蛆，互相食也。聖人之言亦然，言有無之弊，又言非有非無之弊，又言去非有非無之弊；言之如引鋸然。惟善聖者，不留一言。」
+
+關尹子曰：「若龍、若蛟。若蛇、若龜、若魚、若蛤，龍皆能之，蛟、蛟而已，不能為龍，亦不能為蛇、為龜、為魚、為蛤。聖人龍之，賢人蛟之。」
+
+關尹子曰：「在己無居，形物自著；其動若水，其靜若鏡，其應若響。芒乎若亡，寂乎若清。同焉者和，得焉者失。未嘗先人而嘗隨人。」
+
+關尹子曰：「渾乎洋乎！游太初乎！時金已，時玉已；時糞已，時土已。時翔物，時逐物，時山物，時淵物。端乎權乎！狂乎愚乎！」
+
+關尹子曰：「人之善琴者，有悲心，則聲悽悽然；有思心，則聲遲遲然；有怨心，則心回回然；有慕心，則聲裴裴然。所以悲、思、怨、慕者，非手，非竹，非絲，非桐；得之心，苻之手；得之手，苻之物。人之有道者，莫不中道。」
+
+關尹子曰：「聖人以有言、有為、有思者，所以同乎人；未嘗言、未嘗為、未嘗思者，所以異乎人。」
+
+關尹子曰：「利害心愈明，則親不睦；賢愚心愈明，則友不交；是非心愈明，則事不成；好醜心愈明，則物不契；是以聖人渾之。」
+
+關尹子曰：「世之愚拙者，妄援聖人之愚拙自解，殊不知聖人時愚、時明，時拙、時巧。」
+
+關尹子曰：「以聖師聖者，賢人；以賢師聖者，聖人。蓋以聖師聖者，徇跡而忘道。以賢師聖者，反跡而合道。」
+
+關尹子曰：「賢人趨上而不見下，眾人趨下而不見上。聖人通乎上下，惟其宜之；豈曰離賢人、眾人，別有聖人哉。」
+
+關尹子曰：「天下之理：夫者倡，婦者隨；牡者馳，牝者逐；雄者鳴，雌者應。是以聖人制言行，而賢人拘之。」
+
+關尹子曰：「聖人道雖虎變，事則鱉行；道雖絲紛，事則棊布。」
+
+關尹子曰：「所謂聖人之道者，胡然孑孑爾，胡然徹徹爾，胡然唐唐爾，胡然臧臧爾。惟其能偏偶萬物，而無一物能偶之，故能貴萬物。」
+
+關尹子曰：「雲之卷舒，禽之飛翔，皆在虛空中，所以變化不窮。聖人之道則然。」
+
+
+### 四符
+
+關尹子曰：「水可析可合，精、無人也。火因膏因薪、神、無我也。故耳蔽前後皆可聞，無人；智崇、無人；一奇、無人；冬凋秋物，無人；黑不可變，無人；北壽，無人；皆精。舌即齒牙，成言，無我；禮卑，無我；二偶，無我；夏因春物，無我；赤可變，無我；南夭，無我；皆神。以精無我，故米去殼，則精存；以神無我，故鬼憑物，則神見。全精者、忘是非，忘得失；在此者非彼。抱神者，時晦明，時強弱；在彼者非此。」
+
+關尹子曰：「精、神，水、火也，五行互生滅之，其來無首，其往無尾。則吾之精，一滴無存亡爾；吾之神，一欻無起滅爾。惟無我無人，無首無尾，所以與天地冥。」
+
+關尹子曰：「精者水，魄者金，神者火，魂者木。精主水，魄主金，金生水，故精者、魄藏之。神主火，魄主木，木生火，故神者、魂藏之。惟火之為物，能鎔金而銷之，能燔木而燒之；所以冥魂魄。惟精在天為寒，在地為水，在人為精；神在天為熱，在地為火，在人為神；魄在天為燥，在地為金，在人為魄；魂在天為風，在地為木，在人為魂。惟以我之精，合天地萬物之精，譬如萬水可合為一水；以我之神，合天地萬物之神，譬如萬火，可合為一火；以我之魄，合天地萬物之魄，譬如金之為物，可合異金而鎔之為一金；以我之魂，合天地萬物之魂，譬如木之為物，可接異木而生之為一木，則天地萬物，皆吾精、吾神、吾魄、吾魂。何者死？何者生？」
+
+關尹子曰：「五行之運：因精有魂，因魂有神，因神有意，因意有魄，因魄有精。五行回環不已，所以我之偽心流轉造化，幾億萬歲，未有窮極。然核芽相生，不知其幾萬株；天地雖大，不能芽空中之核。雌卵相生，不知其幾萬禽；陰陽雖妙，不能卵無雄之雌。惟其來干我者，皆攝之以一息，則變物為我；無物非我。所謂五行者，孰能變之？」
+
+關尹子曰：「眾人以魄攝魂者，金有餘則木不足也。聖人以魂運魄者，木有餘則金不足也。蓋魄之藏，魂俱之；魂之游，魄因之。魂晝寓目，魄夜舍肝。寓目能見，舍肝能夢。見者魂，無分別析之者。分別析之，曰天地者，魂狃習也。夢者魄，無分別析之者，分別析之，曰彼我者，魄狃習也。土生金，故意生魄。神之所動，不名神，名意；意之所動，不名意，名魄。惟聖人知我無我，知物無物，皆因思慮計之而有。是以萬物之來，我皆對之以性，而不對之以心。性者、心未萌也，無心，則無意矣；蓋無火則無土，無意則無魄矣。蓋無土則無金，一者不存，五者皆廢。既能渾天地萬物以為魂，斯能渾天地萬物以為魄。凡造化所妙，皆吾魂；凡造化所有，皆吾魄，則無有一物可役我者。」
+
+關尹子曰：「鬼云為魂，鬼白為魄，於文則然。鬼者、人死所變，云者、風，風者、木；白者、氣，氣、者金。風散，故輕清；輕清者上天。金堅，故重濁；重濁者入地。輕清者，魄從魂升；重濁者，魂從魄降。有以仁升者，為木星佐；有以義升者，為金星佐；有以禮升者，為火星佐；有以智升者，為水星佐；有以信升者，為土星佐。有以不仁沉者，木賊之；不義沉者，金賊之；不禮沉者，火賊之；不智沉者，水賊之；不信沉者，土賊之。
+
+「魂魄半之，則在人間。升魂為貴，降魄為賤；靈魂為賢，厲魂為愚；輕魂為明，重魄為暗，揚魂為羽，鈍魄為毛；明魂為神，幽魄為鬼；其形其居，其識其好，皆以五行契之。惟五行之數參差不一，所以萬物之多，盈天地間猶未已也。以五事歸五行，以五行作五蟲，可勝言哉！譬猶兆龜數蓍，至誠自契，五行應之。誠苟不至，兆之數之，無一應者。聖人假物以游世，五行不得不對。」
+
+關尹子曰：「五者具有魂。魂者識，目者精，色者神，見之者為魂。耳、目、口、鼻、心之類。在此生者，愛為精，為彼生父本；觀為神，為彼生母本。愛觀雖異，識生。彼生生本，在彼生者，一為父，故受氣於父，氣為水；二為母，故受血於母，血為火。有父有母，彼生生矣。惟其愛之無識，如鎖之交；觀之無識，如燈之照。吾識不萌，吾生何有？」
+
+關尹子曰：「如桴扣鼓。鼓之形者，我之有也；鼓之聲者，我之感也。桴已往矣，餘聲尚在，終亦不存而已矣。鼓之形，如我之精；鼓之聲，如我之神；其餘聲者，猶之魂魄。知夫倏往倏來，則五行之氣，我何有焉？」
+
+關尹子曰：「夫菓之有核，必待水、火、土三者具矣，然後相生不窮。三者不具，如大旱、大潦、大塊，皆不足以生物。夫精、水，神、火，意、土，三者、本不交，惟人以根合之，故能于其中橫見有事；猶如術呪者。能于至無中見多有事。」
+
+關尹子曰：「魂者、木也，木根於冬、水，而華于夏、火。故人之魂藏于夜、精，而見于晝、神。合乎精，故所見我獨；蓋精未嘗有人。合乎神，故所見人同；蓋神未嘗有我。」
+
+關尹子曰：「知夫此身如夢中身隨情所見者，可以飛神作我而游太清。知夫此物如夢中物隨情所見者，可以凝精作物而駕八荒。是道也，能見精神而久生，能忘精神而超生。吸氣以養精，如金生水；吸風以養神，如木生火；所以假外以延精神。漱水以養精，精之所以不窮；摩火以養神，神之所以不窮。所以假內以延精神。若夫忘精神而超生者，吾嘗言之矣。」
+
+關尹子曰：「蜣蜋轉丸，丸成而精思之，而有蝡白者存丸中，俄去殼而蟬。彼蜣不思，彼蝡奚白？」
+
+關尹子曰：「庖人羹蟹，遺一足几上，蟹已羹，而遺足尚動。是生死者，一氣聚散爾。不生不死，而人橫計曰生死。」
+
+關尹子曰：「人勤于禮者，神不外馳；可以集神。人勤于智者，精不外移；可以攝精。仁則陽而明，可以輕魂；義則陰而冥，可以御魄。」
+
+關尹子曰：「有死立者，有死坐者，有死臥者，有死病者，有死藥者。等死，無甲乙之殊。若知道之士，不見生，故不見死。」
+
+關尹子曰：「人之厭生死、超生死者，皆是大患也。譬如化人，若有厭生死心、超生死心，止名為妖，不名為道。」
+
+關尹子曰：「計生死者，或曰死已、有；或曰死已、無；或曰死已、亦有亦無；或曰死已、不有不無；或曰當幸者；或曰當懼者；或曰當任者；或曰當超者。愈變識情，馳鶩不已。殊不知我之生死，如馬之手，如牛之翼，本無有，復無無。譬如水火，雖犯水火，不能燒之，不能溺之。」
+
+
+### 五鑑
+
+關尹子曰：「心蔽吉凶者，靈鬼攝之；心蔽男女者，淫鬼攝之；心蔽幽憂者，沉鬼攝之；心蔽放逸者，狂鬼攝之；心蔽盟詛者，奇鬼攝之；心蔽藥餌者，物鬼攝之。如是之鬼，或以陰為身，或以幽為身；或以風為身，或以氣為身；或以土偶為身，或以彩畫為身；或以老畜為身；或以敗器為身。彼以其精，此以其精，兩精相搏，則神應之。為鬼所攝者，或解奇事，或解異事，或解瑞事。其人傲然，不曰鬼于躬，惟曰道于躬；久之，或死木，或死金，或死繩，或死井。惟聖人能神神而不神于神，役萬物而執其機。可以會之，可以散之，可以禦之；日應萬物，其心寂然。」
+
+關尹子曰：「無一心：五識並馳，心不可一；無虛心，五行皆具，心不可虛；無靜心：萬化密移，心不可靜。借能一則二偶之，借能虛則實滿之，借能靜則動搖之。惟聖人能斂萬有于一息，無有一物可役吾之明徹，散一息于萬有，無有一物可間吾之云為。」
+
+關尹子曰：「火千年，俄可滅；識千年，俄可去。」
+
+關尹子曰：「流者、舟也，所以流之者，是水、非舟。運者、車也，所以運之者，是牛、非車。思者、心也，所以思之者，是意、非心，不知所以然而然。惟不知所以然而然，故其來無從，其往無在。其來無從，其往無在，故能與天地本原，不古不今。」
+
+關尹子曰：「知心無物，則知物無物；知物無物，則知道無物。知道無物，故不尊卓絕之行，不驚微妙之言。」
+
+關尹子曰：「物我交，心生；兩木摩，火生。不可謂之在我，不可謂之在彼；不可謂之非我，不可謂之非彼；執而彼我之，則愚。」
+
+關尹子曰：「無恃爾所謂利、害、是、非。爾所謂利、害、是、非者，果得利、害、是、非之乎？聖人方且不識不知，而況于爾！」
+
+關尹子曰：「夜之所夢，或長于夜，心無時。生于齊者，心之所見，皆齊國也；既而之宋、之魏、之晉、之，心之所存各異，心無方。」
+
+關尹子曰：「善弓者、師弓，不師羿；善舟者、師舟，不師奡；善心者、師心，不師聖。」
+
+關尹子曰：「是非、好醜、成敗、盈虛，造物者運矣，皆因私識執之而有。于是以無遣之猶存，以非有、非無遣之猶存。無曰莫莫爾，無曰渾渾爾，猶存。譬猶昔游再到，記憶宛然。此不可忘、不可遣。
+
+「善去識者，變識為智。變識為智之說，汝知之乎？曰：想如：思鬼心慄，思盜心怖。曰：識如：認黍為稷、認玉為石者，浮游罔象，無所底止。譬覩奇物，生奇物想，生奇物識；此想、此識，根不在我。譬如今日，今日而已；至于來日想、識，殊未可卜。及至來日，紛紛想、識，皆緣有生。曰想、曰識，譬犀望月，月形入角，特因識生，始有月形。而彼真月，初不在角。胸中之天地萬物亦然。知此說者，外不見物，內不見情。」
+
+關尹子曰：「物生于土，終變于土；事生于意，終變于意。知夫惟意，則俄是之，俄非之；俄善之，俄惡之。意有變，心無變；意有覺，心無覺。惟一我心，則意者、塵往來爾，事者、欻起滅爾。吾心有大常者存。」
+
+關尹子曰：「情生于心，心生于性。情、波也，心、流也，性、水也。來于我者，如石火頃；以性受之，則心不生物，浮浮然。」
+
+關尹子曰：「賢、愚、真、偽，有識者，有不識者。彼雖有賢、愚，彼雖有真、偽，而謂之賢、愚、真、偽者，擊我之識。知夫皆識所成，故雖真者亦偽之。」
+
+關尹子曰：「心感物，不生心，生情。物交心，不生物，生識。物尚非真，何況于識？識尚非真，何況于情？而彼妄人，子至無中，執以為有；於至變中，執以為常。一情認之，積為萬情；萬情認之，積為萬物。物來無窮，我心有際；故我之良心，受制于情；我之本情，受制于物。可使之去，可使之來。而彼去來，初不在我。造化役之，固無休息。殊不知天地雖大，能役有形，而不能役無形；陰陽雖妙，能役有氣，而不能役無氣。心之所之，則氣從之；氣之所之，則形應之。猶如太虛，于一氣中變成萬物，而彼一氣，不名太虛；我之一心，能變為氣，能變為形，而我之心無氣無形。知夫我之一心無氣無形，則天地陰陽不能役之。」
+
+關尹子曰：「人之平日，目忽見非常之物者，皆精有所結而使之然。人之病日，目忽見非常之物者，皆心有所歉而使之然。苟知吾心能于無中示有，則知吾心能于有中示無。但不信之，自然不神。或曰：厥識既昏，孰能不信？我應之曰：如捕蛇師，心不怖蛇；彼雖夢蛇，而不怖畏。故黃帝曰：道無鬼神，獨往獨來。」
+
+關尹子曰：「我之思慮日變，有使之者，非我也，命也。苟知惟命，外不見我，內不見心。」
+
+關尹子曰：「譬如兩目，能見天地萬物，暫時回光，一時不見。」
+
+關尹子曰：「目視雕琢者，明愈傷；耳聞交響者，聰愈傷；心思玄妙者，心愈傷。」
+
+關尹子曰：「勿以我心揆彼，當以彼心揆彼。知此說者，可以周事，可以行德，可以貫道，可以交人，可以忘我。」
+
+關尹子曰：「天下之理，小不制，而至于大；大不制，而至于不可制。故能制一情者，可以成德；能忘一情者，可以契道。」
+
+
+### 六匕
+
+關尹子曰：「世之人以我思異彼思、彼思異我思分人我者，殊不知夢中人，亦我思異彼思，彼思異我思。孰為我？孰為人？世之人以我痛異彼痛、彼痛異我痛分人我者，殊不知夢中人，亦我痛異彼痛，彼痛異我痛。孰為我？孰為人？爪髮不痛，手足不思，亦我也，豈可以思、痛異之？世之人以獨見者為夢，同見者為覺，殊不知精之所結，亦有一人獨見于晝者，神之所合，亦有兩人同夢于夜者；二者皆我精神。孰為夢？孰為覺？世之人以暫見者為夢，久見者為覺，殊不知暫之所見者，陰陽之氣；久之所見者，亦陰陽之氣；二者皆我陰陽。孰為夢？孰為覺？」
+
+關尹子曰：「好仁者多夢松、柏、桃、李，好義者多夢兵、刀、金、鐵，好禮者多夢簠、簋、籩、豆，好智者多夢江、湖、川、澤，好信者多夢山、岳、原、野，役于五行，未有不然者。然夢中或聞某事，或思某事，夢亦隨變，五行不可拘。聖人仰物以心，攝心以性，則心同造化，五行亦不可拘。」
+
+關尹子曰：「汝見蛇首人身者，牛臂魚鱗者，鬼形禽翼者，汝勿怪。此怪不及夢，夢怪不及覺。有耳有目，有手有臂，怪尤矣。大言不能言，大智不能思。」
+
+關尹子曰：「有人問于我曰：『爾族何氏？何名？何字？何食何衣？何友何僕？何琴何書？何古何今？』我時默然不對一字。或人扣之不已，我不得已而應之曰：『尚自不見我，將何為我所！』」
+
+關尹子曰：「形可分可合，可延可隱。一夫一婦，可生二子。形可分一夫一婦，二人成一子，形可合。食巨勝則壽，形可延。夜無月火，人不見我，形可隱。以一氣生萬物，猶棄髮可換，所以分形。以一氣合萬物，猶破唇可補，所以合形。以神存氣，以氣存形，所以延形。合形于神，合神于無，所以隱形。汝欲知之乎？汝欲為之乎？」
+
+關尹子曰：「無有一物不可見，則無一物非吾之見；無有一物不可聞，則無一物非吾之聞。五物可以養形，無一物非吾之形；五味可以養氣，無一物非吾之氣。是故吾之形氣、天地萬物。」
+
+關尹子曰：「耕夫習牛則獷，獵夫習虎則勇，漁夫習水則沈，戰夫習馬則健，萬物可為我。我之一身，內變蟯、蛔，外烝蝨、蚤，瘕則龜、魚，瘻則鼠、螘。我可為萬物。」
+
+關尹子曰：「我之為我，如灰中金；而不若礦砂之金。破礦得金，淘沙得金。揚灰，終身無得金者。」
+
+關尹子曰：「一蜂至微，亦能游觀乎天地；一鰕至微，亦能放肆乎大海。」
+
+關尹子曰：「土偶之成也，有貴有賤，有士有女；其質土，其懷土，人哉！」
+
+關尹子曰：「目自觀，目無色；耳自聽，耳無聲；舌自嚐，舌無味；心自揆，心無物。眾人逐于外，賢人執于內，聖人皆偽之。」
+
+關尹子曰：「我身、五行之氣，而五行之氣，其性一物。借如一所，可以取水，可以取火，可以生木，可以凝金，可以變土。其性含攝，元無差殊。故羽蟲盛者，毛蟲不育；毛蟲盛者，鱗蟲不育。知五行互用者，可以忘我。」
+
+關尹子曰：「枯龜無我，能見大知；磁石無我，能見大力；鐘鼓無我，能見大音；舟車無我，能見遠行。故我一身，雖有智、有力、有行、有音，未嘗有我。」
+
+關尹子曰：「蜮射影，能斃我。知夫無知者亦我，則溥天之下，我無不在。」
+
+關尹子曰：「心憶者、猶忘飢，心忿者、猶忘寒，心養者、猶忘病，心激者、猶忘痛。苟吸氣以養其和，孰能飢之？存神以滋其暖，孰能寒之？養五藏以五行，則無傷也，孰能病之？歸五藏于五行，則無知也，孰則痛之？」
+
+關尹子曰：「人無以無知、無為者為無我，雖有知、有為，不害其為無我。譬如火也，躁動不停，未嘗有我。」
+
+
+### 七釜
+
+關尹子曰：「道本至無，以事歸道者，得之一息。事本至有，以道運事者，周之百為。得道之尊者，可以輔世；得道之獨者，可以立我。知道非時之所能拘者，能以一日為百年，能以百年為一日。知道非方之所能礙者，能以一里為百里，能以百里為一里。知道無氣、能運有氣者，可以召風雨；知道無形、能變有形者，可以易鳥獸。得道之清者，物莫能累，身輕矣；可以騎鳳鶴。得道之渾者，物莫能溺，身冥矣；可以席蛟鯨。有即無，無即有；知此道者，可以制鬼神。實即虛，虛即實；知此道者，可以入金石。上即下，下即上；知此道者，可以侍星辰。古即今，今即古；知此道者，可以卜龜筮。人即我，我即人；知此道者，可以窺他人之肺肝。物即我，我即物；知此道者，可以成腹中之龍虎。知象由心變，以此觀心，可以成女嬰。知氣由心生，以此吸神，可以成爐冶。以此勝物，虎豹可伏；以此同物，水火可入。惟有道之士能為之，亦能能之而不為之。」
+
+關尹子曰：「人之力有可以奪天地造物者，如冬起雷，夏起冰，死屍能行，枯木能華，豆中攝鬼，杯中釣魚，畫門可開，土鬼可語，皆純氣所為，故能化萬物。今之情情不停，亦氣所為，而氣之為物，有合有散。我之所以行氣者，本未嘗合，亦未嘗散。有合者生，有散者死。彼未嘗合，未嘗散者，無生無死，客有去來，郵嘗自若。」
+
+關尹子曰：「有誦呪者，有事神者，有墨字者，有變指者，皆可以役神御氣，變化萬物。惟不誠之人難于自信，而易於信物。故假此為之。苟知惟誠，有不待彼而然者。」
+
+關尹子曰：「人之一呼一吸，日行四十萬里，化可謂速矣。惟聖人不存、不變。」
+
+關尹子曰：「青鸞子千歲而千歲化；桃子五仕而心五化。聖人賓事去物，豈不欲建立於世哉？有形數者懼化之不可知也。」
+
+關尹子曰：「萬物變遷，雖互隱見，氣一而已。惟聖人知一而不化。」
+
+關尹子曰：「爪之生，髮之長，榮衛之行，無頃刻止。眾人皆見之于著，不能見之于微。聖人任化，所以不化。」
+
+關尹子曰：「室中有嘗見聞矣。既而之門，之鄰，之里，之黨；既而之郊，之山，之川，見聞各異；好惡隨之，和競從之，得失成之。是以聖人動止有戒。」
+
+關尹子曰：「譬如大海，變化億萬蛟魚，水、一而已。我之與物，蓊然蔚然，在大化中，性、一而已。知夫性一者，無人無我，無死無生。」
+
+關尹子曰：「天下之理，是或化為非，非或化為是；恩或化為讎，讎或化為恩。是以聖人居常慮變。」
+
+關尹子曰：「人之少也，當佩乎父兄之教；人之壯也，當達乎朋友之箴；人之老也，當警乎少壯之說。萬化雖移，不能厄我。」
+
+關尹子曰：「天下之理，輕者易化，重者難化。譬如風雲，須臾變滅；金玉之性，歷久不渝。人之輕明者，能與造化俱化而不留，殆有蓋嘗化者存。」
+
+關尹子曰：「二幼相好，及其壯也，相遇則不相識。二壯相好，及其老也，相遇則不相識。如雀鴿鴈鳩之化，無昔無今。」
+
+
+### 八籌
+
+關尹子曰：「古之善揲蓍灼龜者，能于今中示古，古中示今；高中示下，下中示高；小中示大，大中示小；一中示多，多中示一；人中示物，物中示人；我中示彼，彼中示我。是道也，其來無今，其往無古；其高無蓋，其低無載；其大無外，其小無內；其外無物，其內無人；其近無我，其遠無彼。不可析，不可合，不可喻，不可思。惟其渾淪，所以為道。」
+
+關尹子曰：「水潛，故蘊為五精；火飛，故達為五臭；木茂，故華為五色；金堅，故實為五聲；土和，故滋為五味。其常五，其變不可計；其物五，其雜不可計。然則萬物在天地間，不可執謂之萬，不可執謂之五，不可執謂之一；不可執謂之非萬，不可執謂之非五，不可執謂之非一。或合之，或離之。以此必形，以此必數，以此必氣。徒自勞爾！物不知我，我不知物。」
+
+關尹子曰：「即吾心中，可作萬物。蓋心有所之，則愛從之；愛從之，則精從之。蓋心有所結，先凝為水，心慕物，涎出；心悲物，淚出；心愧物，汗出。無暫而不久，無久而不變。水生木，木生火，火生土，土生金，金生水。相攻相剋，不可勝數。嬰兒、蘂女、金樓、絳宮、青蛟、白虎、寶鼎、紅爐，皆此物。有非此物存者。」
+
+關尹子曰：「鳥獸俄呦呦，俄旬旬，俄逃逃。草木俄茁茁，俄停停，俄蕭蕭。天地不能留，聖人不能繫。有運者存焉爾。有之在彼，無之在此；鼓不桴，則不鳴。偶之在彼，奇之在此，桴不手，則不擊。」
+
+關尹子曰：「均一物也，眾人惑其名，見物、不見道；賢人析其理，見道、不見物。聖人合其天，不見道，不見物。一道皆道，不執之即道，執之則物。」
+
+關尹子曰：「知物之偽者，不必去物。譬如見土牛、木馬，雖情存牛、馬之名，而心忘牛、馬之實。」
+
+
+### 九藥
+
+關尹子曰：「勿輕小事，小隙沉舟；勿輕小物，小蟲毒身；勿輕小人，小人賊國。能周小事，然後能成大事；能積小物，然後能成大物；能善小人，然後能契大人。天既無可必者、人，人無能必者、事，惟去事離人，則我在我；惟可即可。未有當繫，蕳可；當戒，忍可；當勤，隋可。」
+
+關尹子曰：「智之極者，知智果不足以周物；故愚。辯之極者，知辯果不足以喻物；故訥。勇之極者，知勇果不足以勝物；故怯。」
+
+關尹子曰：「天地萬物，無一物是吾之物。物非我，物不得不應，我非我，我不得不養。雖應物，未嘗有物；雖養我，未嘗有我。勿曰外物，然後外我；勿曰外形，然後外心。道、一而已，不可序進。」
+
+關尹子曰：「諦毫末者，不見天地之大；審小音者，不聞雷霆之聲。見大者，亦不見小；見邇者，亦不見遠；聞大者，亦不聞小；聞邇者，亦不聞遠。聖人無所見，故能無不見；無所聞，故能無不聞。」
+
+關尹子曰：「目之所見，不知其幾何，或愛金，或愛玉，是執一色為目也。耳之所聞，不知其幾何，或愛鍾，或愛鼓，是執一聲為耳也。惟聖人不慕之，不拒之，不處之。」
+
+關尹子曰：「善今者、可以行古，善末者、可以立本。」
+
+關尹子曰：「狡勝賊，能捕賊；勇勝虎，能捕虎；能克己，乃能成己；能勝物，乃能利物；能忘道，乃能有道。」
+
+關尹子曰：「函堅，則物必毀之；剛斯折矣。刀利，則物必摧之；銳斯挫矣。威鳳以難見為神，是以聖人以深為根；走麝以遺香不捕，是以聖人以約為紀。」
+
+關尹子曰：「瓶有二竅，以水實之，倒瀉閉一，則水不下，蓋不升則不降。井雖千仞，汲之水上，蓋不降則不升。是以聖人不先物。」
+
+關尹子曰：「人之有失，雖已，受害於已失之後；久之，竊議於未失之前。惟其不恃己聰明，而兼人之聰明；惟其無我，而兼天下之我，終身行之，可以不失。」
+
+關尹子曰：「古今之俗不同，東西南北之俗又不同，至於一家、一身之善又不同。吾豈執一，豫格後世哉？惟隨時同俗，先機後事，捐忿塞慾，蕳物恕人，權其輕重而為之，自然合神不測，契道無方。」
+
+關尹子曰：「有道交者，有德交者，有事交者。道交者、父子也，出于是非、賢愚之外，故道。德交者、則有是非賢愚矣，故或合或離。事交者、合則離。」
+
+關尹子曰：「勿以拙陋曰道之質，當樂敏捷。勿以愚暗曰道之晦，當樂輕明。勿以傲易曰道之高，當樂和同。勿以汗漫曰道之廣，當樂急要。勿以幽憂曰道之寂，當樂悅豫。古人之言，學之多弊，不可不救。」
+
+關尹子曰：「不可非世，是己；不可卑人，尊己；不可以輕忽，道己；不可以訕謗，德己；不可以鄙猥，才己。」
+
+關尹子曰：「困天下之智者，不在智，而在愚；窮天下之辯者，不在辯，而在訥。」
+
+關尹子曰：「天不能冬蓮春菊，是以聖人不違時；地不能洛橘汶貉，是以聖人不違俗。聖人不能使手步足握，是以聖人不違我所長。聖人不能使魚飛鳥馳，是以聖人不違人所長。夫如是者可動、可止、可晦、可明，惟不可拘，所以為道。」
+
+關尹子曰：「少言者，不為人所忌；少行者，不為人所短；少智者，不為人所勞；少能者，不為人所役。」
+
+關尹子曰：「操之以誠，行之以蕳；待之以恕，應之以默。吾道不窮。」
+
+關尹子曰：「謀之於事，斷之於理，作之於人，成之於天。事、師於今，理、師於古；事、同於人，道、獨於己。」
+
+關尹子曰：「金玉難捐，土石易捨。學道之士，遇微言妙行，慎勿執之；是可為而不可執。若執之，則腹心之疾，無藥可療。」
+
+關尹子曰：「人不明于急務，而從事於多務、他務、奇務者，窮困災厄及之。殊不知道無不在，不可捨此就彼。」
+
+關尹子曰：「天下之理，捨親就踈，捨本就末，捨賢就愚，捨近就遠，可暫而已。久則害生。」
+
+關尹子曰：「昔之論道者，或曰凝寂，或曰邃深，或曰澄徹，或曰空同，或曰晦冥。慎勿遇此而生怖退。天下至理，竟非言意。苟知非言非意，在彼微言妙意之上，乃契吾說。」
+
+關尹子曰：「聖人大言金玉，小言桔梗、芣苢。用之當，桔梗、芣苢生之；不當，金玉斃之。」
+
+關尹子曰：「言某事者，甲言利，乙言害，丙言或利或害，丁言俱利俱害。必居一于此矣。喻道者不言。」
+
+關尹子曰：「事有在，事言有理。道無在，道言無理。知言無理，則言言皆道。不知言無理，雖執至言，為梗為翳。」
+
+關尹子曰：「不信愚人易，不信賢人難；不信賢人易，不信聖人難；不信一聖人易，不信千聖人難。夫不信千聖人者，外不見人，內不見我，上不見道，下不見事。」
+
+關尹子曰：「聖人言蒙蒙，所以使人聾；聖人言冥冥，所以使人盲；聖人言沈沈，所以使人瘖。惟聾、則不聞聲，惟盲、則不見色，惟瘖、則不音言。不聞聲者，不聞道，不聞事，不聞我；不見色者，不見道，不見事，不見我；不音言者，不言道，不言事，不言我。」
+
+關尹子曰：「人徒知偽得之中有真失，殊不知真得之中有真失；徒知偽是之中有真非，殊不知真是之中有真非。」
+
+關尹子曰：「言道者如言夢。夫言夢者曰：如此金玉，如此器皿，如此禽獸。言者能言之，不能取而與之；聽者能聞之，不能受而得之。惟善聽者不泥不辯。」
+
+關尹子曰：「圓爾道，方爾德，平爾行，銳爾事。」
+
+---
+
+# 二、法家
+
+## 一、《韓非子》選篇
+
+### 主道
+
+道者，萬物之始，是非之紀也。  
+是以明君守始以知萬物之源，治紀以知善敗之端。  
+故虛靜以待令，令名自命也，令事自定也。  
+虛則知實之情，靜則知動者正。  
+有言者自為名，有事者自為形，形名參同，君乃無事焉，歸之其情。
+
+明君無為於上，群臣竦懼乎下。  
+明君之道，使智者盡其慮，而君因以斷事，故君不窮於智；賢者勑其材，君因而任之，故君不窮於能；有功則君有其賢，有過則臣任其罪，故君不窮於名。
+
+### 二柄
+
+明主之所導制其臣者，二柄而已矣。二柄者，刑、德也。  
+何謂刑、德？曰：殺戮之謂刑，慶賞之謂德。  
+為人臣者畏誅罰而利慶賞，故人主自用其刑德，則群臣畏其威而歸其利矣。
+
+今人主非使賞罰之威利出於己也，聽其臣而行其賞罰，則一國之人皆畏其臣而易其君，歸其臣而去其君矣。此人主失刑德之患也。
+
+### 有度
+
+國無常強，無常弱。奉法者強則國強，奉法者弱則國弱。
+
+明主使其群臣不遊意於法之外，不為惠於法之內，動無非法。  
+法所以凌過遊外私也，嚴刑所以遂令懲下也。  
+威不貸錯，制不共門。威、制共則眾邪彰矣，法不信則君行危矣，刑不斷則邪不勝矣。
+
+故明主使法擇人，不自舉也；使法量功，不自度也。  
+能者不可弊，敗者不可飾，譽者不能進，非者弗能退，則君臣之間明辯而易治，故主讎法則可也。
+
+### 定法
+
+問者曰：「申不害、公孫鞅，此二家之言孰急於國？」  
+應之曰：「是不可程也。人不食十日則死，大寒之隆，不衣亦死。謂之衣食孰急於人，則是不可一無也，皆養生之具也。今申不害言術，而公孫鞅為法。術者，因任而授官，循名而責實，操殺生之柄，課群臣之能者也，此人主之所執也。法者，憲令著於官府，刑罰必於民心，賞存乎慎法，而罰加乎姦令者也，此臣之所師也。君無術則弊於上，臣無法則亂於下，此不可一無，皆帝王之具也。」
+
+### 難一
+
+晉文公將與楚人戰，召舅犯問之，曰：「吾將與楚人戰，彼眾我寡，為之奈何？」  
+舅犯曰：「臣聞繁禮之君，不足於文；繁戰之君，不足於詐。君亦詐之而已。」  
+文公辭舅犯，因召雍季而問之，曰：「我將與楚人戰，彼眾我寡，為之奈何？」  
+雍季對曰：「焚林而田，偷取多獸，後必無獸；以詐遇民，偷取一時，後必無復。」  
+文公曰：「善。」辭雍季，以舅犯之謀與楚人戰以敗之。歸而行爵，先雍季而後舅犯。  
+群臣曰：「城濮之事，舅犯謀也。夫用其言而後其身，可乎？」  
+文公曰：「此非君所知也。夫舅犯言，一時之權也；雍季言，萬世之利也。」  
+仲尼聞之，曰：「文公之霸也，宜哉！既知一時之權，又知萬世之利。」
+
+### 說難
+
+凡說之難，在知所說之心，可以吾說當之。
+
+所說出於為名高者也，而說之以厚利，則見下節而遇卑賤，必棄遠矣。  
+所說出於厚利者也，而說之以名高，則見無心而遠事情，必不收矣。  
+所說陰為厚利而顯為名高者也，而說之以名高，則陽收其身而實疏之；說之以厚利，則陰用其言而顯棄其身。此不可不察也。
+
+夫事以密成，語以泄敗。未必其身泄之也，而語及其所匿之事，如是者身危。
+
+龍之為蟲也，柔可狎而騎也；然其喉下有逆鱗徑尺，若人有嬰之者，則必殺人。  
+人主亦有逆鱗，說者能無嬰人主之逆鱗，則幾矣。
+
+### 孤憤
+
+智術之士，必遠見而明察，不明察不能燭私；能法之士，必強毅而勁直，不勁直不能矯姦。  
+人臣循令而從事，案法而治官，非謂重人也。  
+重人也者，無令而擅為，虧法以利私，耗國以便家，力能得其君，此所為重人也。
+
+當塗之人擅事要，則外內為之用矣。  
+是以諸侯不因則事不應，故敵國為之訟；百官不因則業不進，故群臣為之用；郎中不因則不得近主，故左右為之匿；學士不因則養祿薄、禮遇卑，故學士為之談也。
+
+### 五蠹
+
+儒以文亂法，俠以武犯禁，而人主兼禮之，此所以亂也。  
+夫離法者罪，而諸先生以文學取；犯禁者誅，而群俠以私劍養。  
+故法之所非，君之所取；吏之所誅，上之所養也。法趣上下，四相反也，而無所定，雖有十黃帝，不能治也。
+
+故明主之國，無書簡之文，以法為教；無先王之語，以吏為師；無私劍之捍，以斬首為勇。  
+是境內之民，其言談者必軌於法，動作者歸之於功，為勇者盡之於軍。  
+是故無事則國富，有事則兵強，此之謂王資。
+
+---
+
+## 二、《商君書》選篇
+
+### 更法
+
+孝公平畫，公孫鞅、甘龍、杜摯三大夫御於君，慮世事之變，討正法之本，求使民之道。  
+君曰：「代立不忘社稷，君之道也；錯法務明主長，臣之行也。今吾欲變法以治，更禮以教百姓，恐天下之議我也。」
+
+公孫鞅曰：「臣聞之：疑行無成，疑事無功。君亟定變法之慮，殆無顧天下之議之也。且夫有高人之行者，固見非於世；有獨知之慮者，必見敖於民。愚者闇於成事，知者見於未萌。民不可與慮始，而可與樂成。論至德者不和於俗，成大功者不謀於眾。是以聖人苟可以強國，不法其故；苟可以利民，不循其禮。」
+
+甘龍曰：「不然。臣聞之：聖人不易民而教，知者不變法而治。因民而教，不勞而成功；緣法而治者，吏習而民安之。」
+
+公孫鞅曰：「龍之所言，世俗之言也。常人安於故俗，學者溺於所聞。以此兩者居官守法可也，非所與論於法之外也。三代不同禮而王，五伯不同法而霸。智者作法，愚者制焉；賢者更禮，不肖者拘焉。」
+
+### 農戰
+
+凡人主之所以勸民者，官爵也；國之所以興者，農戰也。  
+今民求官爵，皆不以農戰，而以巧言虛道，此謂勞民。  
+勞民者，其國必無力；無力者，其國必削。
+
+國之所以重，主之所以尊者，力也。  
+今民有五子不為多，子又有五子，大父未死而有二十五孫。是以人民眾而貨財寡，事力勞而供養薄。故民爭，雖倍賞累罰而不免於亂。
+
+善為國者，其教民也，皆從壹而得官爵。是故不以農戰，則無官爵。  
+國去言則民樸，民樸則不淫。民見上利之從壹空出也，則作壹；作壹則民不偷營。  
+民不偷營則多力，多力則國強。
+
+### 墾令
+
+無得取庸，則大夫家長不建繕，愛子不惰食，惰民不窳，而庸民無所於食，是必農。  
+農則草必墾矣。
+
+祿厚而稅多，食口眾者，敗農者也。則以其食口之數，賦而重使之，則辟淫遊惰之民無所於食。民無所於食，則必農；農則草必墾矣。
+
+
+## 三、《申不害》全本
+
+### 申不害
+
+夫一妻擅夫，眾婦皆亂；一臣專君，群臣皆蔽。故妒妻不難破家也，亂臣不難破國也。是以明君使其臣並進輻湊，莫得專君焉。
+
+今人君之所以高為城郭，用謹門閭之閉者，為寇戎盜賊之至也。今夫弒君而取國者，非必逾城郭之險而犯門閭之閉也。蔽君之明，塞君之聽，奪之政而專其令，有其民而取其國矣。
+
+今使烏獲、彭祖負千鈞之重，而懷琬琰之美，令孟賁、成荊帶干將之劍衛之，行乎幽道，則盜猶偷之矣。今人君之力，非賢乎烏獲、彭祖，而勇非賢乎孟賁、成荊也。其所守者，非恃琬琰之美、千金之重也，而欲勿失，其可得耶？
+
+明君如身，臣如手；君若號，臣如響。君設其本，臣操其末；君治其要，臣行其詳；君操其柄，臣事其常。
+
+為人君者，操契以責其名。名者，天地之綱，聖人之符。張天地之綱，用聖人之符，則萬物之情無所逃之矣。
+
+故善為主者，倚於愚，立於不盈，設於不敢，藏於無事，竄端匿疏，示天下無為。是以近者親之，遠者懷之。示人有餘者人奪之，示人不足者人與之。剛者折，危者覆，動者搖，靜者安。
+
+名自名1也，事自定也。是以有道者因2名而正之，隨事而定之也。
+
+鼓不與於五音，而為五音主。有道者不為五官之事，而為治事之1主。君守2其道也，官知其事也。十言十當、百為百富者，人臣之事也，非人君之事也。
+
+昔者堯之治天下也以名。其名正，則天下治。桀之治天下也，亦以名，其名倚，而天下亂。是以聖人貴名之正也。
+
+主處其大，臣處其細。以其名聽之，以其名視之，以其名命之。
+
+鏡設精，無為而美惡自備；衡設平，無為而輕重自得。凡因之道，身與公無事，無事而天下自極也。
+
+智均不相使，力均不相勝。
+
+百世有聖人猶隨踵，千里有賢人是比肩。百世有聖人，猶隨踵而生。千里有賢人，是比肩而立。千里有賢人，是比肩而立也。
+
+君天下而不恣睢，命之曰以天下為桎梏。
+
+天道無私，是以常正。天道常正，是以清明。
+
+地道不作，是以常靜。常靜是以正方。舉事為之，乃有恒常之靜者，符信受令必行也。
+
+君必有明法正義，若懸權衡以稱輕重，所以一群臣也。
+
+堯之治也，蓋明法察令而已。聖君任法而不任智，任數而不任說。黃帝之治天下，置法而不變，使民安樂其法者也。
+
+君之所以尊者，令。令之不行，是無君也，故明君慎令。
+
+昔七十九代之君，法制不一，號令不同，然而俱王天下，何也？必當國富而粟多也。
+
+四海之內，六合之間，曰：奚貴？土，食之本也。
+
+款言無成。
+
+明君治國而晦，晦而行，行而止止。三寸之機1運而天下定，方寸之謀2正而天下治。故一言正而天下定，一言倚而天下靡。
+
+上明見，人備之；其不明見，人惑之。其知見，人惑之；不知見，人匿之。其無欲見，人司之；其有欲見，人餌之。故曰：吾無從知之，惟無為可以規之。
+
+慎而言也，人且知女；慎而行也，人且隨女。而有知見也，人且匿女；而無知見也，人且意女。女有知也，人且臧女；女無知也，人且行女。故曰：惟無為可以規之。
+
+獨視者謂明，獨聽者謂聰。能獨斷者，故可以為天下主。
+
+失之數而求之信則疑矣。
+
+治不踰官，雖知不言。
+
+
+## 四、《慎子》選篇
+
+### 威德
+
+天有明，不憂人之暗也；地有財，不憂人之貧也；聖人有德，不憂人之危也。天雖不憂人之暗，闢戶牖必取己明焉，則天無事也；地雖不憂人之貧，伐木刈草必取己富焉，則地無事也；聖人雖不憂人之危，百姓准上而比於下，其必取己安焉，則聖人無事也。故聖人處上，能無害人，不能使人無己害也，則百姓除其害矣。聖人之有天下也，受之也，非取之也。百姓之于聖人也，養之也，非使聖人養己也，則聖人無事矣。毛嬙、西施，天下之至姣也。衣之以皮倛，則見者皆走；易之以元緆，則行者皆止。由是觀之，則元緆色之助也，姣者辭之，則色厭矣。走背跋䠯窮穀野走十裏，藥也，走背辭藥則足廢。故騰蛇遊霧，飛龍乘雲，雲罷霧霽，與蚯蚓同，則失其所乘也。故賢而屈於不肖者，權輕也；不肖而服於賢者，位尊也。堯為匹夫，不能使其鄰家。至南面而王，則令行禁止。由此觀之，賢不足以服不肖，而勢位足以屈賢矣。故無名而斷者，權重也；弩弱而矰高者，乘於風也；身不肖而令行者，得助於眾也。故舉重越高者，不慢於藥；愛赤子者，不慢於保；絕險曆遠者，不慢於禦。此得助則成，釋助則廢矣。夫三王五伯之德，參於天地，通于鬼神，周於生物者，其得助博也。古者工不兼事，士不兼官。工不兼事則事省，事省則易勝；士不兼官則職寡，職寡則易守。故士位可世，工事可常。百工之子，不學而能者，非生巧也，言有常事也。今也國無常道，官無常法，是以國家日繆。教雖成，官不足。官不足則道理匱，道理匱則慕賢智，慕賢智則國家之政要在一人之心矣。古者立天子而貴之者，非以利一人也。曰：天下無一貴，則理無由通，通理以為天下也。故立天子以為天下，非立天下以為天子也；立國君以為國，非立國以為君也；立官長以為官，非立官以為長也。法雖不善，猶愈於無法，所以一人心也。夫投鉤以分財，投策以分馬，非鉤策為均也。使得美者，不知所以德；使得惡者，不知所以怨，此所以塞願望也。故蓍龜，所以立公識也；權衡，所以立公正也；書契，所以立公信也；度量，所以立公審也；法制禮籍，所以立公義也。凡立公，所以棄私也。明君動事分功必由慧，定賞分財必由法，行德制中必由禮。故欲不得干時，愛不得犯法，貴不得逾親，祿不得踰位，士不得兼官，工不得兼事。以能受事，以事受利。若是者，上無羨賞，下無羨財。
+
+
+### 因循
+
+天道因則大，化則細。因也者，因人之情也。人莫不自為也，化而使之為我，則莫可得而用矣。是故先王見不受祿者不臣，祿不厚者，不與入難。人不得其所以自為也，則上不取用焉。故用人之自為，不用人之為我，則莫不可得而用矣。此之謂因。
+
+
+### 民雜
+
+民雜處而各有所能，所能者不同，此民之情也。大君者，太上也，兼畜下者也。下之所能不同，而皆上之用也。是以大君因民之能為資，盡包而畜之，無能去取焉。是故不設一方以求於人，故所求者無不足也。大君不擇其下，故足。不擇其下，則易為下矣。易為下則莫不容，莫不容故多下，多下之謂太上。君臣之道，臣事事而君無事，君逸樂而臣任勞。臣盡智力以善其事，而君無與焉，仰成而巳。故事無不治，治之正道然也。人君自任，而務為善以先下，則是代下負任蒙勞也，臣反逸矣。故曰：君人者，好為善以先下，則下不敢與君爭為善以先君矣，皆私其所知以自覆掩，有過，則臣反責君，逆亂之道也。君之智，未必最賢於眾也，以未最賢而欲以善盡被下，則不贍矣。若使君之智最賢，以一君而盡贍下則勞，勞則有倦，倦則衰，衰則復反於不贍之道也。是以人君自任而躬事，則臣不事事，是君臣易位也，謂之倒逆，倒逆則亂矣。人君苟任臣而勿自躬，則臣皆事事矣。是君臣之順，治亂之分，不可不察也。
+
+
+### 知忠
+
+亂世之中，亡國之臣，非獨無忠臣也；治國之中，顯君之臣，非獨能盡忠也。治國之人，忠不偏於其君；亂世之人，道不偏於其臣。然而治亂之世，同世有忠道之人。臣之欲忠者不絕世，而君未得寧其上，無遇比干、子胥之忠，而毀瘁主君於闇墨之中，遂染溺滅名而死。由是觀之。忠未足以救亂世，而適足以重非。何以識其然也？曰：父有良子而舜放瞽叟，桀有忠臣而過盈天下。然則孝子不生慈父之家，而忠臣不生聖君之下。故明主之使其臣也，忠不得過職，而職不得過官。是以過修於身，而下不敢以善驕矜。守職之吏，人務其治，而莫敢淫偷其事。官正以敬其業，和順以事其上，如此則至治已。亡國之君，非一人之罪也；治國之君，非一人之力也。將治亂，在乎賢使任職而不在於忠也。故智盈天下，澤及其君；忠盈天下，害及其國。故桀之所以亡，堯不能以為存。然而堯有不勝之善，而桀有運非之名，則得人與失人也。故廊廟之材，蓋非一木之枝也；粹白之裘，蓋非一狐之皮也；治亂安危，存亡榮辱之施，非一人之力也。
+
+
+### 德立
+
+立天子者，不使諸侯疑焉；立諸侯者，不使大夫疑焉；立正妻者，不使嬖妾疑焉；立嫡子者，不使庶孽疑焉。疑則動，兩則爭，雜則相傷，害在有與，不在獨也。故臣有兩位者國必亂，臣兩位而國不亂者，君在也，恃君而不亂矣，失君必亂；子有兩位者家必亂，子兩位而家不亂者，父在也，恃父而不亂矣，失父必亂。臣疑其君，無不危之國；孽疑其宗，無不危之家。
+
+
+### 君人
+
+君人者，舍法而以身治，則誅賞予奪，從君心出矣。然則受賞者雖當，望多無窮；受罰者雖當，望輕無已。君舍法，而以心裁輕重，則同功殊賞，同罪殊罰矣，怨之所由生也。是以分馬者之用策，分田者之用鉤，非以鉤策為過於人智也。所以去私塞怨也。故曰：大君任法而弗躬，則事斷於法矣。法之所加，各以其分，蒙其賞罰而無望於君也。是以怨不生而上下和矣。
+
+
+### 君臣
+
+為人君者不多聽，據法倚數以觀得失。無法之言，不聽於耳；無法之勞，不圖於功；無勞之親，不任於官。官不私親，法不遺愛，上下無事，唯法所在。
+
+
+### 逸文
+
+行海者，坐而至越，有舟也；行陸者，立而至秦，有車也。秦、越遠途也，安坐而至者，械也。
+
+厝鈞石，使禹察錙銖之重，則不識也。懸於權衡，則氂髮之不可差，則不待禹之智，中人之知，莫不足以識之矣。
+
+諺云：不聰不明，不能為王；不瞽不聾，不能為公。海與山爭水，海必得之。
+
+禮從俗，政從上，使從君。國有貴賤之禮，無賢不肖之禮；有長幼之禮，無勇怯之禮；有親疏之禮，無愛憎之禮也。
+
+法之功，莫大使私不行；君之功，莫大使民不爭。今立法而行私，是私與法爭，其亂甚於無法；立君而尊賢，是賢與君爭，其亂甚於無君。故有道之國，法立則私議不行，君立則賢者不尊。民一於君，事斷於法，是國之大道也。
+
+河之下龍門，其流駛如竹箭，駟馬追弗能及。
+
+有權衡者，不可欺以輕重；有尺寸者，不可差以長短；有法度者，不可巧以詐偽。
+
+有虞之誅，以幪巾當墨，以草纓當劓，以菲履當刖，以艾鞸當宮，布衣無領當大辟，此有虞之誅也。斬人肢體，鑿其肌膚，謂之刑；畫衣冠，異章服，謂之戮。上世用戮而民不犯也，當世用刑而民不從。
+
+昔者，天子手能衣而宰夫設服，足能行而相者導進，口能言而行人稱辭，故無失言失禮也。
+
+離朱之明，察秋毫之末于百步之外，下於水尺，而不能見淺深。非目不明也，其勢難睹也。
+
+堯讓許由，舜讓善卷，皆辭為天子而退為匹夫。
+
+折券契，屬符節，賢不肖用之。
+
+魯莊公鑄大鐘，曹劌入見曰：「今國褊小而鐘大，君何不圖之？」
+
+公輸子，巧用材也，不能以檀為瑟。
+
+孔子曰：「邱少而好學，晚而聞道，以此博矣。」
+
+孔子云：有虞氏不賞不罰，夏后氏賞而不罰，殷人罰而不賞，周人賞且罰。罰，禁也；賞，使也。
+
+燕鼎之重乎千鈞，乘于吳舟，則可以濟，所託者浮道也。
+
+君臣之間，猶權衡也。權左輕則右重，右重則左輕。輕重迭相橛，天地之理也。
+
+飲過度者生水，食過度者生貪。
+
+故治國無其法則亂，守法而不變則衰。有法而行私，謂之不法。以力役法者，百姓也；以死守法者，有司也；以道變法者，君長也。
+
+一兔走街，百人追之，貪人具存，人莫之非者，以兔為未定分也。積兔滿市，過而不顧。非不欲兔也，分定之後，雖鄙不爭。
+
+匠人知為門，能以門，所以不知門也。故必杜，然後能門。
+
+勁而害能則亂也，云能而害無能，則亂也。
+
+棄道術，舍度量，以求一人之識識天下，誰子之識能足焉？
+
+多賢不可以多君，無賢不可以無君。
+
+匠人成棺，不憎人死，利之所在，忘其醜也。
+
+獸伏就穢。
+
+夫德精微而不見，聰明而不發，是故外物不累其內。
+
+夫道，所以使賢無奈不肖何也，所以使智無奈愚何也，若此，則謂之道勝矣。
+
+道勝則名不彰。
+
+趨事之有司，賤也。
+
+臣下閉口，左右結舌。
+
+久處無過之地，則世俗聽矣。
+
+昔周室之衰也，厲王擾亂天下，諸侯力政，人欲獨行以相兼。
+
+眾之勝寡，必也。
+
+《》，往志也；《》，往誥也；《春秋》，往事也。
+
+兩貴不相事，兩賤不相使。
+
+家富則疏族聚，家貧則兄弟離，非不相愛，利不足相容也。
+
+藏甲之國，必有兵遁。市人可驅而戰。安國之兵，不由忿起。
+
+蒼頡在庖犧之前。
+
+為毳者，患塗之泥也。
+
+晝無事者夜不夢。
+
+田駢名廣。
+
+桀紂之有天下也，四海之內皆亂，關龍逢、王子比干不與焉。而謂之皆亂，其亂者眾也。堯舜之有天下也，四海之內皆治，而丹朱、商均不與焉。而謂之皆治，其治者眾也。
+
+君明臣直，國之福也。父慈子孝，夫信妻貞，家之福也。故比干忠而不能存殷，申生孝而不能安晉，是皆有忠臣孝子而國家滅亂者。何也？無明君賢父以聽之。故孝子不生慈父之家，忠臣不生聖君之下。
+
+王者有易政而無易國，有易君而無易民。湯武非得伯夷之民以治，桀紂非得蹠蹻之民以亂也。民之治亂在於上，國之安危在於政。
+
+夏箴曰：小人無兼年之食，遇天饑，妻子非其有也；大夫無兼年之食，遇天饑，臣妾輿馬非其有也。戒之哉！
+
+與天下於人，大事也，煦煦者以為惠，而堯舜無德色；取天下於人，大嫌也，潔潔者以為汙，而湯武無愧容。惟其義也。
+
+日月為天下眼目，人不知德；山川為天下衣食，人不能感。有勇不以怒，反與怯均也。
+
+小人食於力，君子食於道，先王之訓也。故常欲耕而食天下之人矣，然一身之耕，分諸天下，不能人得一升粟，其不能飽可知也；欲織而衣天下之人矣，然一身之織，分諸天下，不能人得尺布，其不能煖可知也。故以為不若誦先王之道而求其說，通聖人之言而究其旨，上說王公大人，次匹夫徒步之士。王公大人用吾言，國必治；匹夫徒步之士用吾言，行必修。雖不耕而食饑，不織而衣寒，功賢於耕而食之，織而衣之者也。
+
+法非從天下，非從地出，發於人間，合乎人心而已。治水者，茨防決塞，九州四海，相似如一，學之於水，不學之于禹也。
+
+古之全大體者，望天地，觀江海，因山谷。日月所照，四時所行，雲布風動。不以智累心，不以私累己。寄治亂於法術，托是非於賞罰，屬輕重於權衡。不逆天理，不傷情性，不吹毛而求小疵，不洗垢而察難知，不引繩之外，不推繩之內，不急法之外，不緩法之內。守成理，因自然。禍福生乎道法，而不出乎愛惡。榮辱之責在乎己，而不在乎人。故至安之世，法如朝露，純樸不欺，心無結怨，口無煩言。故車馬不弊於遠路，旌旗不亂於大澤，萬民不失命於寇戎，豪傑不著名于圖書。不錄功於盤盂，記年之牒空虛。故曰：利莫長於簡，福莫久於安。
+
+鷹，善擊也，然日擊之，則疲而無全翼矣；驥，善馳也，然日馳之，則蹶而無全蹄矣。
+
+能辭萬鐘之祿於朝陛，不能不拾一金于無人之地；能謹百節之禮於廟宇，不能不弛一容於獨居之餘。蓋人情每狎於所私故也。
+
+不肖者不自謂不肖也，而不肖見於行，雖自謂賢，人猶謂之不肖也；愚者不自謂愚也，而愚見於言，雖自謂智，人猶謂之愚。
+
+法者，所以齊天下之動，至公大定之制也。故智者不得越法而肆謀，辯者不得越法而肆議，士不得背法而有名，臣不得背法而有功。我喜可抑，我忿可窒，我法不可離也；骨肉可刑，親戚可滅，至法不可闕也。
+
+善為國者，移謀身之心而謀國，移富國之術而富民，移保子孫之志而保治，移求爵祿之意而求義，則不勞而化理成矣。
+
+始吾未生之時，焉知生之為樂也；今吾未死，又焉知死之為不樂也。故生不足以使之，利何足以動之！死不足以禁之，害何足以恐之！明於死生之分，達於利害之變。是以目觀玉輅琬象之狀，耳聽白雪清角之聲，不能以亂其神；登千仞之谿，臨蝯眩之岸，不足以淆其知。夫如是，身可以殺，生可以無，仁可以成。
+
+鳥飛於空，魚游於淵，非術也。故為鳥為魚者，亦不自知其能飛能游。苟知之，立心以為之，則必墮必溺。猶人之足馳手捉，耳聽目視，當其馳捉聽視之際，應機自至，又不待思而施之也。苟須思之而後可施之，則疲矣。是以任自然者久，得其常者濟。
+
+周成王問鬻子曰：「寡人聞聖人在上位，使民富且壽。若夫富，則可為也；若夫壽，則在天乎？」鬻子對曰：「夫聖王在上位，天下無軍兵之事，故諸侯不私相攻，而民不私相鬥也，則民得盡一生矣。聖王在上，則君積於德化，而民積於用力，故婦人為其所衣，丈夫為其所食，則民無凍餓，民得二生矣。聖人在上，則君積於仁，吏積於愛，民積於順，則刑罰廢而無夭遏之誅，民則得三生矣。聖王在上，則使人有時，而用之有節，則民無癘疾，民得四生矣。
+
+
+## 五、《諫逐客書》全本
+
+### 諫逐客書
+
+會韓人鄭國來閒秦，以作注溉渠，已而覺。秦宗室大臣皆言秦王曰：「諸侯人來事秦者，大抵為其主游閒於秦耳，請一切逐客。」李斯議亦在逐中。斯乃上書曰：
+
+臣聞吏議逐客，竊以為過矣。昔繆公求士，西取由余於戎，東得百里奚於宛，迎蹇叔於宋，來丕豹、公孫支於晉。此五子者，不產於秦，而繆公用之，并國二十，遂霸西戎。孝公用商鞅之法，移風易俗，民以殷盛，國以富彊，百姓樂用，諸侯親服，獲楚、魏之師，舉地千里，至今治彊。惠王用張儀之計，拔三川之地，西并巴、蜀，北收上郡，南取漢中，包九夷，制鄢、郢，東據成皋之險，割膏腴之壤，遂散六國之從，使之西面事秦，功施到今。昭王得范睢，廢穰侯，逐華陽，彊公室，杜私門，蠶食諸侯，使秦成帝業。此四君者，皆以客之功。由此觀之，客何負於秦哉！向使四君卻客而不內，疏士而不用，是使國無富利之實，而秦無彊大之名也。
+
+今陛下致昆山之玉，有隨、和之寶，垂明月之珠，服太阿之劍，乘纖離之馬，建翠鳳之旗，樹靈鼉之鼓。此數寶者，秦不生一焉，而陛下說之，何也？必秦國之所生然後可，則是夜光之璧不飾朝廷，犀象之器不為玩好，鄭、衛之女不充後宮，而駿良駃騠不實外廄，江南金錫不為用，西蜀丹青不為采。所以飾後宮充下陳娛心意說耳目者，必出於秦然後可，則是宛珠之簪，傅璣之珥，阿縞之衣，錦繡之飾不進於前，而隨俗雅化佳冶窈窕趙女不立於側也。夫擊甕叩缶彈箏搏髀，而歌呼嗚嗚快耳者，真秦之聲也；鄭、衛、桑閒、昭、虞、武、象者，異國之樂也。今棄擊甕叩缶而就鄭衛，退彈箏而取昭虞，若是者何也？快意當前，適觀而已矣。今取人則不然。不問可否，不論曲直，非秦者去，為客者逐。然則是所重者在乎色樂珠玉，而所輕者在乎人民也。此非所以跨海內制諸侯之術也。
+
+臣聞地廣者粟多，國大者人眾，兵彊則士勇。是以太山不讓土壤，故能成其大；河海不擇細流，故能就其深；王者不卻眾庶，故能明其德。是以地無四方，民無異國，四時充美，鬼神降福，此五帝、三王之所以無敵也。今乃棄黔首以資敵國，卻賓客以業諸侯，使天下之士退而不敢西向，裹足不入秦，此所謂「藉寇兵而齎盜糧」者也。
+
+夫物不產於秦，可寶者多；士不產於秦，而願忠者眾。今逐客以資敵國，損民以益讎，內自虛而外樹怨於諸侯，求國無危，不可得也。
+
+秦王乃除逐客之令，復李斯官，卒用其計謀。官至廷尉。二十餘年，竟并天下，尊主為皇帝，以斯為丞相。夷郡縣城，銷其兵刃，示不復用。使秦無尺土之封，不立子弟為王，功臣為諸侯者，使後無戰攻之患。
+
+
+## 六、《管子》選篇
+
+### 牧民
+
+凡有地牧民者，務在四時，守在倉廩。國多財，則遠者來，地辟舉，則民留處；倉廩實，則知禮節；衣食足，則知榮辱；上服度，則六親固。四維張，則君令行。故省刑之要，在禁文巧，守國之度，在飾四維，順民之經，在明鬼神，祇山川，敬宗廟，恭祖舊。不務天時，則財不生；不務地利，則倉廩不盈；野蕪曠，則民乃菅，上無量，則民乃妄。文巧不禁，則民乃淫，不璋兩原，則刑乃繁。不明鬼神，則陋民不悟；不祇山川，則威令不聞；不敬宗廟，則民乃上校；不恭祖舊，則孝悌不備；四維不張，國乃滅亡。
+
+右國頌
+
+國有四維，一維絕則傾，二維絕則危，三維絕則覆，四維絕則滅。傾可正也，危可安也，覆可起也，滅不可復錯也。何謂四維？一曰禮、二曰義、三曰廉、四曰恥。禮不踰節，義不自進。廉不蔽惡，恥不從枉。故不踰節，則上位安；不自進，則民無巧軸；不蔽惡，則行自全；不從枉，則邪事不生。
+
+右四維
+
+政之所興，在順民心。政之所廢，在逆民心。民惡憂勞，我佚樂之。民惡貧賤，我富貴之，民惡危墜，我存安之。民惡滅絕，我生育之。能佚樂之，則民為之憂勞。能富貴之，則民為之貧賤。能存安之，則民為之危墜。能生育之，則民為之滅絕。故刑罰不足以畏其意，殺戮不足以服其心。故刑罰繁而意不恐，則令不行矣。殺戮眾而心不服，則上位危矣。故從其四欲，則遠者自親；行其四惡，則近者叛之，故知「予之為取者，政之寶也」。
+
+右四順
+
+錯國於不傾之地，積於不涸之倉，藏於不竭之府，下令於流水之原，使民於不爭之官，明必死之路，開必得之門。不為不可成，不求不可得，不處不可久，不行不可復。錯國於不傾之地者，授有德也；積於不涸之倉者，務五穀也；藏於不竭之府者，養桑麻育六畜也；下令於流水之原者，令順民心也；使民於不爭之官者，使各為其所長也；明必死之路者，嚴刑罰也；開必得之門者，信慶賞也；不為不可成者，量民力也；不求不可得者，不彊民以其所惡也；不處不可久者，不偷取一世也；不行不可復者，不欺其民也；故授有德，則國安；務五穀，則食足；養桑麻，育六畜，則民富；令順民心，則威令行；使民各為其所長，則用備；嚴刑罰，則民遠邪；信慶賞，則民輕難；量民力，則事無不成；不彊民以其所惡，則軸偽不生；不偷取一世，則民無怨心；不欺其民，則下親其上。
+
+右士經
+
+以家為鄉，鄉不可為也。以鄉為國，國不可為也。以國為天下，天下不可為也。以家為家，以鄉為鄉，以國為國，以天下為天下。毋曰不同生，遠者不聽。毋曰不同鄉，遠者不行。毋曰不同國，遠者不從。如地如天，何私何親？如月如日，唯君之節。御民之轡，在上之所貴。道民之門，在上之所先。召民之路，在上之所好惡。故君求之，則臣得之。君嗜之，則臣食之。君好之，則臣服之。君惡之，則臣匿之。毋蔽汝惡，毋異汝度，賢者將不汝助。言室滿室，言堂滿堂，是謂聖王。城郭溝渠，不足以固守；兵甲彊力，不足以應敵；博地多財，不足以有眾。惟有道者，能備患於未形也，故禍不萌。天下不患無臣，患無君以使之。天下不患無財，患無人以分之。故知時者，可立以為長。無私者，可置以為政。審於時而察於用，而能備官者，可奉以為君也。緩者後於事。吝於財者失所親，信小人者失士。
+
+右六親五法
+
+
+### 形勢
+
+山高而不崩，則祈羊至矣；淵深而不涸，則沈玉極矣，天不變其常，地不易其則，春秋冬夏，不更其節，古今一也。蛟龍得水，而神可立也；虎豹得幽，而威可載也。風雨無鄉，而怨怒不及也。貴有以行令，賤有以忘卑，壽夭貧富，無徒歸也。
+
+銜命者，君之尊也。受辭者，名之鉉也。上無事，則民自試。抱蜀不言，而廟堂既修。鴻鵠鏘鏘，唯民歌之。濟濟多士，殷民化之，紂之失也。飛蓬之問，不在所賓；燕雀之集，道行不顧。犧牷圭璧，不足以饗鬼神。主功有素，寶幣奚為？羿之道，非射也；造父之術，非馭也；奚仲之巧，非斲削也。召遠者使無為焉，親近者言無事焉，唯夜行者獨有也。
+
+平原之隰，奚有於高？大山之隈，奚有於深？訾讆之人，勿與任大。譕臣者可以遠舉。顧憂者可與致道。其計也速而憂在近者，往而勿召也舉長者可遠見也；裁大者眾之所比也。美人之懷，定服而勿厭也。
+
+必得之事，不足賴也；必諾之言，不足信也。小謹者不大立，訾食者不肥體；有無棄之言者，必參於天地也。墜岸三仞，人之所大難也，而猿猱飲焉，故曰伐矜好專，舉事之禍也。不行其野，不違其馬；能予而無取者，天地之配也。
+
+怠倦者不及，無廣者疑神，神者在內，不及者在門，在內者將假，在門者將待。曙戒勿怠，後稚逢殃。朝忘其事，夕失其功。邪氣入內，正色乃衰。君不君，則臣不臣。父不父，則子不子。上失其位，則下踰其節。上下不和，令乃不行。衣冠不正，則賓者不肅；進退無儀，則政令不行。且懷且威，則君道備矣。莫樂之，則莫哀之。莫生之，則莫死之。往者不至，來者不極。
+
+道之所言者一也，而用之者異。有聞道而好為家者，一家之人也；有聞道而好為鄉者，一鄉之人也；有聞道而好為國者，一國之人也；有聞道而好為天下者，天下之人也；有聞道而好定萬物者，天下之配也。道往者，其人莫來；道來者，其人莫往；道之所設，身之化也。持滿者與天，安危者與人。失天之度，雖滿必涸。上下不和，雖安必危。欲王天下，而失天之道，天下不可得而王也。得天之道。其事若自然。失天之道，雖立不安。其道既得，莫知其為之。其功既成，莫知其釋之。藏之無刑，天之道也。疑今者，察之古不知來者，視之往，萬事之生也，異趣而同歸，古今一也。
+
+生棟覆屋。怨怒不及；弱子下瓦，慈母操箠。天道之極，遠者自親。人事之起，近親造怨。萬物之於人也，無私近也，無私遠也；巧者有餘，而拙者不足；其功順天者天助之，其功逆天者天違之；天之所助，雖小必大；天之所違，雖成必敗；順天者有其功，逆天者懷其凶，不可復振也。
+
+烏鳥之狡，雖善不親。不重之結，雖固必解；道之用也，貴其重也。毋與不可，毋彊不能，毋告不知；與不可，彊不能，告不知，謂之勞而無功。見與之交，幾於不親；見哀之役，幾於不結；見施之德，幾於不報；四方所歸，心行者也。獨王之國，勞而多禍；獨國之君，卑而不威；自媒之女，醜而不信，未之見而親焉，可以往矣；久而不忘焉，可以來矣。
+
+日月不明，天不易也；山高而不見，地不易也。言而不可復者，君不言也；行而不可再者，君不行也。凡言而不可復，行而不可再者，有國者之大禁也。
+
+
+### 權修
+
+萬乘之國，兵不可以無主，土地博大，野不可以無吏，百姓殷眾，官不可以無長，操民之命，朝不可以無政。
+
+地博而國貧者，野不辟也，民眾而兵弱者，民無取也。故末產不禁，則野不辟。賞罰不信，則民無取。野不辟，民無取，外不可以應敵，內不可以固守，故曰有萬乘之號，而無千乘之用，而求權之無輕，不可得也。
+
+地辟而國貧者，舟輿飾，臺榭廣也。賞罰信而兵弱者，輕用眾，使民勞也。舟車飾，臺榭廣，則賦斂厚矣。輕用眾，使民勞，則民力竭矣。賦斂厚，則下怨上矣。民力竭，則令不行矣。下怨上，令不行，而求敵之勿謀己，不可得也。
+
+欲為天下者，必重用其國，欲為其國者，必重用其民，欲為其民者，必重盡其民力。無以畜之，則往而不可止也；無以牧之，則處而不可使也；遠人至而不去，則有以畜之也。民眾而可一，則有以牧之也。
+
+見其可也，喜之有徵。見其不可也，惡之有刑。賞罰信於其所見，雖其所不見，其敢為之乎？見其可也，喜之無徵；見其不可也，惡之無刑；賞罰不信於其所見，而求其所不見之為之化，不可得也。厚愛利，足以親之。明智禮，足以教之。上身服以先之。審度量以閑之。鄉置師以說道之，然後申之以憲令，勸之以慶賞，振之以刑罰，故百姓皆說為善，則暴亂之行無由至矣。
+
+地之生財有時，民之用力有倦，而人君之欲無窮，以有時與有倦，養無窮之君，而度量不生於其間，則上下相疾也。是以臣有殺其君，子有殺其父者矣。故取於民有度，用之有止，國雖小必安；取於民無度，用之不止，國雖大必危。
+
+地之不辟者，非吾地也。民之不牧者，非吾民也。凡牧民者。以其所積者食之。不可不審也。其積多者其食多，其積寡者其食寡，無積者不食。或有積而不食者，則民離上；有積多而食寡者，則民不力；有積寡而食多者，則民多軸；有無積而徒食者，則民偷幸；故離上不力，多軸偷幸，舉事不成，應敵不用。故曰：察能授官，班祿賜予，使民之機也。野與市爭民。家與府爭貨，金與粟爭貴，鄉與朝爭治；故野不積草，農事先也；府不積貨，藏於民也；市不成肆，家用足也；朝不合眾，鄉分治也。故野不積草，府不積貨，市不成肆。朝不合眾，治之至也。
+
+人情不二，故民情可得而御也。審其所好惡，則其長短可知也；觀其交游，則其賢不肖可察也；二者不失，則民能可得而官也。
+
+地之守在城，城之守在兵，兵之守在人，人之守在粟；故地不辟，則城不固。有身不治，奚待於人？有人不治，奚待於家？有家不治，奚待於鄉？有鄉不治，奚待於國？有國不治，奚待於天下？天下者，國之本也；國者，鄉之本也；鄉者，家之本也；家者，人之本也；人者，身之本也；身者，治之本也。故上不好本事，則末產不禁；末產不禁，則民緩於時事而輕地利；輕地利，而求田野之辟，倉廩之實，不可得也。
+
+商賈在朝，則貨財上流；婦言人事，則賞罰不信；男女無別，則民無廉恥；貨財上流，賞罰不信，民無廉恥，而求百姓之安難，兵士之死節，不可得也。朝廷不肅，貴賤不明，長幼不分，度量不審，衣服無等，上下淩節，而求百姓之尊主政令，不可得也。上好軸謀閒欺，臣下賦斂競得，使民偷壹，則百姓疾怨，而求下之親上，不可得也。有地不務本事，君國不能壹民，而求宗廟社稷之無危，不可得也。上恃龜筮，好用巫醫，則鬼神驟祟；故功之不立，名之不章，為之患者三：有獨王者、有貧賤者、有日不足者。
+
+一年之計，莫如樹穀；十年之計，莫如樹木；終身之計，莫如樹人。一樹一穫者，穀也；一樹十穫者，木也；一樹百穫者，人也。我苟種之，如神用之，舉事如神，唯王之門。
+
+凡牧民者，使士無邪行，女無淫事。士無邪行，教也。女無淫事，訓也。教訓成俗，而刑罰省，數也。凡牧民者，欲民之正也；欲民之正，則微邪不可不禁也；微邪者，大邪之所生也；微邪不禁，而求大邪之無傷國，不可得也。凡牧民者，欲民之有禮也；欲民之有禮，則小禮不可不謹也；小禮不謹於國，而求百姓之行大禮，不可得也。
+
+凡牧民者，欲民之有義也；欲民之有義，則小義不可不行；小義不行於國，而求百姓之行大義，不可得也。凡牧民者，欲民之有廉也；欲民之有廉，則小廉不可不修也；小廉不修於國，而求百姓之行大廉，不可得也。凡牧民者，欲民之有恥也，欲民之有恥，則小恥不可不飾也。小恥不飾於國，而求百姓之行大恥，不可得也。凡牧民者，欲民之修小禮、行小義、飾小廉、謹小恥、禁微邪、此厲民之道也。民之修小禮、行小義、飾小廉、謹小恥、禁微邪、治之本也。凡牧民者，欲民之可御也；欲民之可御，則法不可不審；法者，將立朝廷者也；將立朝廷者，則爵服不可不貴也；爵服加于不義，則民賤其爵服；民賤其爵服，則人主不尊；人主不尊，則令不行矣。法者，將用民力者也；將用民力者，則祿賞不可不重也；祿賞加于無功，則民輕其祿賞；民輕其祿賞，則上無以勸民；上無以勸民，則令不行矣。法者，將用民能者也；將用民能者，則授官不可不審也；授官不審，則民閒其治；民閒其治，則理不上通；理不上通，則下怨其上；下怨其上，則令不行矣。法者，將用民之死命者也；用民之死命者，則刑罰不可不審；刑罰不審，則有辟就；有辟就，則殺不辜而赦有罪；殺不辜而赦有罪，則國不免於賊臣矣。故夫爵服賤、祿賞輕、民閒其治、賊臣首難，此謂敗國之教也。
+
+
+### 立政
+
+國之所以治亂者三，殺戮刑罰，不足用也。國之所以安危者四，城郭險阻，不足守也。國之所以富貧者五，輕稅租，薄賦斂，不足恃也。治國有三本，而安國有四固，而富國有五事，五事五經也。
+
+君之所審者三：一曰德不當其位；二曰功不當其祿；三曰能不當其官；此三本者，治亂之原也；故國有德義未明於朝者，則不可加以尊位；功力未見於國者，則不可授與重祿；臨事不信於民者，則不可使任大官；故德厚而位卑者謂之過；德薄而位尊者謂之失；寧過於君子，而毋失於小人；過於君子，其為怨淺；失於小人，其為禍深；是故國有德義未明於朝而處尊位者，則良臣不進；有功力未見於國而有重祿者，則勞臣不勸；有臨事不信於民而任大官者，則材臣不用；三本者審，則下不敢求；三本者不審，則邪臣上通，而便辟制威；如此，則明塞於上，而治壅於下，正道捐棄，而邪事日長。三本者審，則便辟無威於國，道塗無行禽，疏遠無蔽獄，孤寡無隱治，故曰：「刑省治寡，朝不合眾」。
+
+右三本
+
+君之所慎者四：一曰大德不至仁，不可以授國柄。二曰見賢不能讓，不可與尊位。三曰罰避親貴，不可使主兵。四曰不好本事，不務地利，而輕賦斂，不可與都邑。此四務者，安危之本也。故曰：「卿相不得眾，國之危也。大臣不和同，國之危也。兵主不足畏，國之危也。民不懷其產，國之危也。」故大德至仁，則操國得眾。見賢能讓，則大臣和同。罰不避親貴，則威行於鄰敵。好本事，務地利，重賦斂，則民懷其產。
+
+右四固
+
+君之所務者五：一曰山澤不救於火，草木不植成，國之貧也。二曰溝瀆不遂於隘，鄣水不安其藏，國之貧也。三曰桑麻不植於野，五穀不宜其地，國之貧也。四曰六畜不育於家，瓜瓠葷菜百果不備具，國之貧也。五曰工事競於刻鏤，女事繁於文章，國之貧也。故曰：「山澤救於火，草木植成，國之富也。溝瀆遂於隘，鄣水安其藏，國之富也。桑麻植於野，五穀宜其地，國之富也。六畜育於家，瓜瓠葷菜百果備具，國之富也。工事無刻鏤，女事無文章，國之富也。」
+
+右五事
+
+分國以為五鄉，鄉為之師，分鄉以為五州，州為之長。分州以為十里，里為之尉。分里以為十游，游為之宗。十家為什，五家為伍，什伍皆有長焉。築障塞匿，一道路，博出入，審閭閈，慎筦鍵，筦藏于里尉。置閭有司，以時開閉。閭有司觀出入者，以復于里尉。凡出入不時，衣服不中，圈屬群徒，不順於常者，閭有司見之，復無時。若在長家子弟臣妾屬役賓客，則里尉以譙于游宗，游宗以譙于什伍，什伍以譙于長家，譙敬而勿復。一再則宥，三則不赦。凡孝悌忠信、賢良俊材，若在長家子弟臣妾屬役賓客，則什伍以復于游宗，游宗以復于里尉。里尉以復于州長。州長以計于鄉師。鄉師以著于士師。凡過黨，其在家屬，及于長家。其在長家，及于什伍之長。其在什伍之長，及于游宗。其在游宗，及于里尉。其在里尉，及于州長。其在州長，及于鄉師，其在鄉師，及于士師。三月一復，六月一計，十二月一著。凡上賢不過等，使能不兼官，罰有罪不獨及，賞有功不專與。
+
+孟春之朝，君自聽朝，論爵賞校官，終五日。季冬之夕，君自聽朝，論罰罪刑殺，亦終五日。正月之朔，百吏在朝，君乃出令布憲于國，五鄉之師，五屬大夫，皆受憲于太史。大朝之日，五鄉之師，五屬大夫，皆身習憲于君前。太史既布憲，入籍于太府。憲籍分于君前。五鄉之師出朝，遂于鄉官致于鄉屬，及于游宗，皆受憲。憲既布，乃反致令焉，然後敢就舍；憲未布，令未致，不敢就舍。就舍，謂之留令。罪死不赦。五屬大夫，皆以行車朝，出朝不敢就舍，遂行至都之日。遂於廟致屬吏，皆受憲。憲既布，乃發使者致令以布憲之日蚤晏之時，憲既布，使者以發，然後敢就舍；憲未布。使者未發，不敢就舍；就舍，謂之留令，罪死不赦。憲既布，有不行憲者，謂之不從令，罪死不赦。考憲而有不合于太府之籍者，侈曰專制，不足曰虧令，罪死不赦。首憲既布，然後可以布憲。
+
+右首憲
+
+凡將舉事，令必先出，曰事將為。其賞罰之數，必先明之，立事者，謹守令以行賞罰，計事致令，復賞罰之所加，有不合於令之所謂者，雖有功利，則謂之專制，罪死不赦。首事既布，然後可以舉事。
+
+右首事
+
+修火憲，敬山澤，林藪積草，夫財之所出，以時禁發焉。使民足於宮室之用，薪蒸之所積，虞師之事也，決水潦，通溝瀆，修障防，安水藏，使時水雖過度，無害于五穀。歲雖凶旱，有所秎穫，司空之事也。相高下，視肥墝，觀地宜，明詔期，前後農夫，以時均修焉，使五穀桑麻，皆安其處，由田之事也。行鄉里，視宮室，觀樹蓺，簡六畜，以時鈞修焉。勸勉百姓，使力作毋偷。懷樂家室，重去鄉里，鄉師之事也。論百工，審時事，辨功苦，上完利，監壹五鄉，以時鈞修焉。使刻鏤文采，毋敢造于鄉，工師之事也。
+
+右省官
+
+度爵而制服，量祿而用財，飲食有量，衣服有制，宮室有度，六畜人徒有數，舟車陳器有禁，修生則有軒冕服位穀祿田宅之分，死則有棺槨絞衾壙壟之度。雖有賢身貴體，毋其爵，不敢服其服。雖有富家多資，毋其祿，不敢用其財。天子服文有章，而夫人不敢以燕以饗廟，將軍大夫不敢以朝官吏，以命士，止于帶緣，散民不敢服雜采，百工商賈不得服長鬈貂，刑餘戮民不敢服絻，不敢畜連乘車。
+
+右服制
+
+寢兵之說勝，則險阻不守；兼愛之說勝，則士卒不戰。全生之說勝，則廉恥不立。私議自貴之說勝，則上令不行。群徒比周之說勝，則賢不肖不分。金玉貨財之說勝。則爵服下流，觀樂玩好之說勝。則姦民在上位。請謁任舉之說勝，則繩墨不正，諂諛飾過之說勝，則巧佞者用。
+
+右九敗
+
+期而致，使而往，百姓舍己以上為心者，教之所期也。始於不足見，終於不可及，一人服之，萬人從之，訓之所期也。未之令而為，未之使而往，上不加勉，而民自盡，竭俗之所期也。好惡形於心，百姓化於下，罰未行而民畏恐，賞未加而民勸勉，誠信之所期也。為而無害，成而不議，得而莫之能爭，天道之所期也。為之而成，求之而得，上之所欲，小大必舉，事之所期也。令則行，禁則止，憲之所及，俗之所被，如百體之從心，政之所期也。
+
+右七觀
+
+---
+
+# 三、墨家
+
+## 一、《墨子》選篇
+
+### 尚賢上
+
+子墨子言曰：「今者王公大人為政於國家者，皆欲國家之富，人民之眾，刑政之治。然而不得富而得貧，不得眾而得寡，不得治而得亂，是本失其所欲，得其所惡。是其故何也？」  
+子墨子言曰：「是在王公大人為政於國家者，不能以尚賢事能為政也。」
+
+是故國有賢良之士眾，則國家之治厚；賢良之士寡，則國家之治薄。  
+故大人之務，將在於眾賢而已。
+
+古者聖王之為政，列德而尚賢。雖在農與工肆之人，有能則舉之。高予之爵，重予之祿，任之以事，斷予之令。  
+曰：爵位不高，則民弗敬；蓄祿不厚，則民不信；政令不斷，則民不畏。  
+舉三者授之賢者，非為賢賜也，欲其事之成。
+
+### 兼愛上
+
+聖人以治天下為事者也，必知亂之所自起，焉能治之；不知亂之所自起，則不能治。  
+譬之如醫之攻人之疾者然，必知疾之所自起，焉能攻之；不知疾之所自起，則弗能攻。  
+治亂者何獨不然？必知亂之所自起，焉能治之；不知亂之所自起，則弗能治。
+
+當察亂何自起？起不相愛。  
+臣子之不孝君父，所謂亂也。子自愛，不愛父，故虧父而自利；弟自愛，不愛兄，故虧兄而自利；臣自愛，不愛君，故虧君而自利。此所謂亂也。
+
+雖父之不慈子，兄之不慈弟，君之不慈臣，此亦天下之所謂亂也。  
+父自愛也，不愛子，故虧子而自利；兄自愛也，不愛弟，故虧弟而自利；君自愛也，不愛臣，故虧臣而自利。是何也？皆起不相愛。
+
+若使天下兼相愛，愛人若愛其身，猶有不孝者乎？視父兄與君若其身，惡施不孝？  
+猶有不慈者乎？視弟子與臣若其身，惡施不慈？  
+故不孝不慈亡有。猶有盜賊乎？視人之室若其室，誰竊？視人身若其身，誰賊？故盜賊亡有。
+
+故天下兼相愛則治，交相惡則亂。故子墨子曰：「不可以不勸愛人者，此也。」
+
+### 兼愛中
+
+子墨子言曰：「仁人之所以為事者，必興天下之利，除去天下之害，以此為事者也。」  
+然則天下之利何也？天下之害何也？  
+子墨子言曰：「今若國之與國之相攻，家之與家之相篡，人之與人之相賊，君臣不惠忠，父子不慈孝，兄弟不和調，此則天下之害也。」
+
+姑嘗本原若眾害之所自生，此胡自生？此自愛人、利人生與？即必曰非然也，必曰從惡人、賊人生。  
+分名乎天下惡人而賊人者，兼與？別與？即必曰別也。  
+然即之交別者，果生天下之大害者與？是故別非也。
+
+兼即仁矣，義矣。雖然，天下之難物於故也。  
+子墨子言曰：「天下之士君子，特不識其利，辯其故也。今若夫攻城野戰，殺身為名，此天下百姓之所皆難也。苟君說之，則士眾能為之。況於兼相愛、交相利，則與此異！」
+
+### 非攻上
+
+今有一人，入人園圃，竊其桃李，眾聞則非之，上為政者得則罰之。  
+此何也？以虧人自利也。
+
+至攘人犬豕雞豚者，其不義又甚入人園圃竊桃李。是何故也？以虧人愈多。  
+苟虧人愈多，其不仁茲甚，罪益厚。
+
+至入人欄廄，取人馬牛者，其不仁義又甚攘人犬豕雞豚。此何故也？以其虧人愈多。  
+苟虧人愈多，其不仁茲甚，罪益厚。
+
+至殺不辜人也，扡其衣裘、取戈劍者，其不義又甚入人欄廄取人馬牛。此何故也？以其虧人愈多。  
+苟虧人愈多，其不仁茲甚矣，罪益厚。
+
+今至大為攻國，則弗知非，從而譽之，謂之義。此可謂知義與不義之別乎？
+
+### 節用上
+
+聖人為政一國，一國可倍也；大之為政天下，天下可倍也。  
+其倍之，非外取地也，因其國家，去其無用之費，足以倍之。
+
+古者明王聖人，所以王天下、正諸侯者，彼其愛民謹忠，利民謹厚，忠信相連，又示之以利，是以終身不饜，歿世而不卷。
+
+去無用之費，聖王之道，天下之大利也。
+
+### 天志上
+
+子墨子言曰：「今天下之士君子，知小而不知大。」  
+何以知其然也？曰：以其處家者知有家長，而不知家長之所從出；處國者知有國君，而不知國君之所從出。  
+國君者，國之仁人也。國君發政國內，百姓為善者賞之，為不善者罰之。  
+然則天亦何欲何惡？天欲義而惡不義。
+
+順天意者，兼相愛，交相利，必得賞；反天意者，別相惡，交相賊，必得罰。
+
+### 公輸
+
+公輸盤為楚造雲梯之械，成，將以攻宋。  
+子墨子聞之，起於魯，行十日十夜而至於郢，見公輸盤。
+
+公輸盤曰：「夫子何命焉為？」  
+子墨子曰：「北方有侮臣者，願藉子殺之。」  
+公輸盤不說。  
+子墨子曰：「請獻十金。」  
+公輸盤曰：「吾義固不殺人。」  
+子墨子起，再拜曰：「請說之。吾從北方聞子為梯，將以攻宋。宋何罪之有？荊國有餘於地而不足於民，殺所不足而爭所有餘，不可謂智；宋無罪而攻之，不可謂仁；知而不爭，不可謂忠；爭而不得，不可謂強；義不殺少而殺眾，不可謂知類。」  
+公輸盤服。
+
+子墨子曰：「然，胡不已乎？」  
+公輸盤曰：「不可，吾既已言之王矣。」  
+子墨子曰：「胡不見我於王？」  
+公輸盤曰：「諾。」
+
+子墨子見王，曰：「今有人於此，舍其文軒，鄰有敝輿而欲竊之；舍其錦繡，鄰有短褐而欲竊之；舍其粱肉，鄰有糠糟而欲竊之。此為何若人？」  
+王曰：「必為有竊疾矣。」  
+子墨子曰：「荊之地方五千里，宋之地方五百里，此猶文軒之與敝輿也；荊有雲夢，犀兕麋鹿滿之，江漢之魚鱉黿鼉為天下富，宋所謂無雉兔鮒魚者也，此猶粱肉之與糠糟也；荊有長松、文梓、楩楠、豫章，宋無長木，此猶錦繡之與短褐也。臣以王吏之攻宋也，為與此同類。」  
+王曰：「善哉！雖然，公輸盤為我為雲梯，必取宋。」
+
+於是見公輸盤。子墨子解帶為城，以牒為械。公輸盤九設攻城之機變，子墨子九距之。  
+公輸盤之攻械盡，子墨子之守圉有餘。  
+公輸盤詘，而曰：「吾知所以距子矣，吾不言。」  
+子墨子亦曰：「吾知子之所以距我，吾不言。」  
+楚王問其故。  
+子墨子曰：「公輸子之意，不過欲殺臣。殺臣，宋莫能守，乃可攻也。然臣之弟子禽滑釐等三百人，已持臣守圉之器，在宋城上而待楚寇矣。雖殺臣，不能絕也。」  
+楚王曰：「善哉！吾請無攻宋矣。」
+
+---
+
+
+# 四、兵家
+
+## 一、《孫子兵法》全本
+
+### 始計
+
+孫子曰：兵者，國之大事，死生之地，存亡之道，不可不察也。
+
+故經之以五事，校之以計，而索其情，一曰道，二曰天，三曰地，四曰將，五曰法。
+
+道者，令民與上同意也，可與之死，可與之生，而不畏危。天者，陰陽，寒暑，時制也。地者，遠近，險易，廣狹，死生也。將者，智，信，仁，勇，嚴也。法者，曲制，官道，主用也。凡此五者，將莫不聞，知之者勝，不知者不勝。
+
+故校之以計，而索其情。曰：主孰有道，將孰有能，天地孰得，法令孰行，兵眾孰強，士卒孰練，賞罰孰明，吾以此知勝負矣。將聽吾計，用之必勝，留之；將不聽吾計，用之必敗，去之。
+
+計利以聽，乃為之勢，以佐其外；勢者，因利而制權也。
+
+兵者，詭道也。故能而示之不能，用而示之不用，近而示之遠，遠而示之近。利而誘之，亂而取之，實而備之，強而避之，怒而撓之，卑而驕之，佚而勞之，親而離之。攻其無備，出其不意，此兵家之勝，不可先傳也。
+
+夫未戰而廟算勝者，得算多也；未戰而廟算不勝者，得算少也；多算勝，少算不勝，而況於無算乎？吾以此觀之，勝負見矣。
+
+
+### 作戰
+
+孫子曰：凡用兵之法，馳車千駟，革車千乘，帶甲十萬；千里饋糧，則內外之費賓客之用，膠漆之材，車甲之奉，日費千金，然後十萬之師舉矣。
+
+其用戰也，勝久則鈍兵挫銳，攻城則力屈，久暴師則國用不足。夫鈍兵，挫銳，屈力，殫貨，則諸侯乘其弊而起，雖有智者，不能善其後矣！故兵聞拙速，未睹巧之久也；夫兵久而國利者，未之有也。
+
+故不盡知用兵之害者，則不能盡知用兵之利也。善用兵者，役不再籍，糧不三載，取用于國，因糧于敵，故軍食可足也。國之貧于師者遠輸，遠輸則百姓貧，近于師者貴賣，貴賣則百姓財竭，財竭則急于丘役，力屈財殫，中原內虛于家，百姓之費，十去其七，公家之費，破車罷馬，甲冑矢弩，戟楯蔽櫓，丘牛大車，十去其六。
+
+故智將務食於敵，食敵一鍾，當吾二十鍾，𦮼秆一石，當我二十石。故殺敵者怒也，取敵之利者貨也。故車戰，得車十乘以上，賞其先得者，而更其旌旗，車雜而乘之，卒善而養之，是謂勝敵而益強。
+
+故兵貴勝，不貴久；故知兵之將，民之司命，國家安危之主也。
+
+
+### 謀攻
+
+孫子曰：凡用兵之法，全國為上，破國次之；全旅為上，破旅次之；全卒為上，破卒次之；全伍為上，破伍次之。是故百戰百勝，非善之善者也；不戰而屈人之兵，善之善者也。
+
+故上兵伐謀，其次伐交，其次伐兵，其下攻城。攻城之法，為不得已；修櫓轒轀，具器械，三月而後成；距闉，又三月而後已；將不勝其忿，而蟻附之，殺士卒三分之一，而城不拔者，此攻之災也。
+
+故善用兵者，屈人之兵，而非戰也；拔人之城，而非攻也；毀人之國，而非久也。必以全爭于天下，故兵不頓，利可全，此謀攻之法也。故用兵之法，十則圍之，五則攻之，倍則分之，敵則能戰之，少則能守之，不若則能避之。故小敵之堅，大敵之擒也。
+
+夫將者，國之輔也，輔周則國必強，輔隙則國必弱。故軍之所以患于君者三：不知三軍之不可以進，而謂之進；不知三軍之不可以退，而謂之退；是謂縻軍。不知三軍之事，而同三軍之政，則軍士惑矣。不知三軍之權，而同三軍之任，則軍士疑矣。三軍既惑且疑，則諸侯之難至矣，是謂亂軍引勝。
+
+故知勝者有五：知可以戰與不可以戰者勝，識眾寡之用者勝，上下同欲者勝，以虞待不虞者勝，將能而君不御者勝；此五者，知勝之道也。
+
+故曰：知彼知己，百戰不殆；不知彼而知己，一勝一負；不知彼，不知己，每戰必敗。
+
+
+### 軍形
+
+孫子曰：昔之善戰者，先為不可勝，以待敵之可勝，不可勝在己，可勝在敵。故善戰者，能為不可勝，不能使敵必可勝。故曰：勝可知，而不可為。
+
+不可勝者，守也；可勝者，攻也。守則不足，攻則有餘。善守者，藏于九地之下；善攻者，動于九天之上，故能自保而全勝也。
+
+見勝，不過眾人之所知，非善之善者也。戰勝，而天下曰善，非善之善者也。故舉秋毫，不為多力；見日月，不為明目；聞雷霆，不為聰耳。古之善戰者，勝于易勝者；故善戰者之勝也，無智名，無勇功。故其戰勝不忒，不忒者，其措必勝，勝已敗者也。故善戰者，立于不敗之地，而不失敵之敗也。是故勝兵先勝，而後求戰；敗兵先戰，而後求勝。
+
+善用兵者，修道而保法，故能為勝敗之政。兵法：「一曰度，二曰量，三曰數，四曰稱，五曰勝；地生度，度生量，量生數，數生稱，稱生勝。」故勝兵若以鎰稱銖，敗兵若以銖稱鎰。勝者之戰民也，若決積水于千仞之谿，形也。
+
+
+### 兵勢
+
+孫子曰：凡治眾如治寡，分數是也。鬥眾如鬥寡，形名是也。三軍之眾，可使必受敵而無敗者，奇正是也。兵之所加，如以碬投卵者，虛實是也。
+
+凡戰者，以正合，以奇勝。故善出奇者，無窮如天地，不竭如江河，終而復始，日月是也；死而復生，四時是也。聲不過五，五聲之變，不可勝聽也。色不過五，五色之變，不可勝觀也。味不過五，五味之變，不可勝嘗也。戰勢不過奇正，奇正之變，不可勝窮也。奇正相生，如循環之無端，孰能窮之哉！
+
+激水之疾，至于漂石者，勢也。鷙鳥之擊，至于毀折者，節也。是故善戰者，其勢險，其節短，勢如張弩，節如機發。
+
+紛紛紜紜，鬥亂，而不可亂也。渾渾沌沌，形圓，而不可敗也。亂生于治，怯生于勇，弱生于強。治亂，數也。勇怯，勢也。強弱，形也。故善動敵者，形之，敵必從之；予之，敵必取之；以利動之，以實待之。
+
+故善戰者，求之于勢，不責于人，故能擇人任勢；任勢者，其戰人也，如轉木石，木石之性，安則靜，危則動，方則止，圓則行。故善戰人之勢，如轉圓石于千仞之山者，勢也。
+
+
+### 虛實
+
+孫子曰：凡先處戰地而待敵者佚，後處戰地而趨戰者勞。故善戰者，致人而不致于人。能使敵人自至者，利之也；能使敵不得至者，害之也。故敵佚能勞之，飽能飢之，安能動之。
+
+出其所不趨，趨其所不意；行千里而不勞者，行于無人之地也；攻而必取者，攻其所不守也；守而必固者，守其所不攻也。故善攻者，敵不知其所守；善守者，敵不知其所攻。微乎微乎！至于無形；神乎神乎！至于無聲，故能為敵之司命。進而不可禦者，衝其虛也；退而不可追者，速而不可及也。故我欲戰，敵雖高壘深溝，不得不與我戰者，攻其所必救也；我不欲戰，雖劃地而守之，敵不得與我戰者，乖其所之也。
+
+故形人而我無形，則我專而敵分，我專為一，敵分為十，是以十攻其一也。則我眾而敵寡，能以眾擊寡，則我之所與戰者，約矣。
+
+吾所與戰之地不可知，不可知，則敵所備者多，敵所備者多，則我所與戰者寡矣。故備前則後寡，備後則前寡，備左則右寡，備右則左寡，無所不備，則無所不寡。寡者，備人者也；眾者，使人備己者也。
+
+故知戰之地，知戰之日，則可千里而會戰。不知戰地，不知戰日，則左不能救右，右不能救左，前不能救後，後不能救前，而況遠者數十里，近者數里乎？以吾度之，越人之兵雖多，亦奚益于勝哉？故曰：勝可為也，敵雖眾，可使無鬥。
+
+故策之而知得失之計，作之而知動靜之理，形之而知死生之地，角之而知有餘不足之處。故形兵之極，至于無形；無形，則深間不能窺，智者不能謀。因形而措勝于眾，眾不能知，人皆知我所以勝之形，而莫知吾所以制勝之形；故其戰勝不復，而應形於無窮。
+
+夫兵形象水，水之形，避高而趨下：兵之形，避實而擊虛；水因地而制流，兵因敵而制勝。故兵無常勢，水無常形；能因敵變化而取勝，謂之神。故五行無常勝，四時無常位，日有短長，月有死生。
+
+
+### 軍爭
+
+孫子曰：凡用兵之法，將受命於君，合軍聚眾，交和而舍，莫難於軍爭。軍爭之難者，以迂為直，以患為利。故迂其途，而誘之以利，後人發，先人至，此知迂直之計者也。故軍爭為利，軍爭為危。
+
+舉軍而爭利，則不及；委軍而爭利，則輜重捐。是故卷甲而趨，日夜不處，倍道兼行，百里而爭利，則擒三將軍，勁者先，疲者後，其法十一而至；五十里而爭利，則蹶上將軍，其法半至；卅里而爭利，則三分之二至。是故軍無輜重則亡，無糧食則亡，無委積則亡。故不知諸侯之謀者，不能豫交；不知山林、險阻、沮澤之形者，不能行軍，不能鄉導者，不能得地利。
+
+故兵以詐立，以利動，以分合為變者也，故其疾如風，其徐如林，侵掠如火，不動如山，難知如陰，動如雷霆。掠鄉分眾，廓地分利，懸權而動，先知迂直之計者勝，此軍爭之法也。
+
+軍政曰：「言不相聞，故為金鼓；視不相見，故為旌旗。」夫金鼓旌旗者，所以一人之耳目也；人既專一，則勇者不得獨進，怯者不得獨退，此用眾之法也。故夜戰多火鼓，晝戰多旌旗，所以變人之耳目也。
+
+故三軍可奪氣，將軍可奪心。是故朝氣銳，晝氣惰，暮氣歸；故善用兵者，避其銳氣，擊其惰歸，此治氣者也。以治待亂，以靜待譁，此治心者也。以近待遠，以佚待勞，以飽待飢，此治力者也。
+
+無邀正正之旗，勿擊堂堂之陣，此治變者也；故用兵之法，高陵勿向，背邱勿逆，佯北勿從，銳卒勿攻，餌兵勿食，歸師勿遏，圍師必闕，窮寇勿迫，此用兵之法也。
+
+
+### 九變
+
+孫子曰：凡用兵之法，將受命於君，合軍聚眾；圮地無舍，衢地合交，絕地無留，圍地則謀，死地則戰，途有所不由，軍有所不擊，城有所不攻，地有所不爭，君命有所不受。故將通于九變之利者，知用兵矣。將不通于九變之利者，雖知地形，不能得地之利矣。治兵不知九變之術，雖知地利，不能得人之用矣。
+
+是故智者之慮，必雜于利害，雜于利而務可信也，雜于害而患可解也。是故屈諸侯者以害，役諸侯者以業，趨諸侯者以利。
+
+故用兵之法，無恃其不來，恃吾有以待之；無恃其不攻，恃吾有所不可攻也。
+
+故將有五危：必死可殺，必生可虜，忿速可侮，廉潔可辱，愛民可煩；凡此五危，將之過也，用兵之災也。覆軍殺將，必以五危，不可不察也。
+
+
+### 行軍
+
+孫子曰：凡處軍相敵：絕山依谷，視生處高，戰隆無登，此處山之軍也。絕水必遠水，客絕水而來，勿迎于水內，令半濟而擊之利。欲戰者，無附于水而迎客，視生處高，無迎水流，此處水上之軍也。絕斥澤，惟亟去勿留，若交軍于斥澤之中，必依水草，而背眾樹，此處斥澤之軍也。平陸處易，右背高，前死後生，此處平陸之軍也。凡此四軍之利，黃帝之所以勝四帝也。
+
+凡軍好高而惡下，貴陽而賤陰，養生處實，軍無百疾，是謂必勝。邱陵隄防，必處其陽，而右背之，此兵之利，地之助也。上雨水沫至，欲涉者，待其定也。凡地有絕澗、天井、天牢、天羅、天陷、天隙，必亟去之，勿近也；吾遠之，敵近之；吾迎之，敵背之。軍旁有險阻、潢井、蒹葭、林木、翳薈者，必謹覆索之，此伏姦之所也。
+
+敵近而靜者，恃其險也。遠而挑戰者，欲人之進也。其所居易者，利也。眾樹動者，來也。眾草多障者，疑也。鳥起者，伏也。獸駭者，覆也。塵：高而銳者，車來也；卑而廣者，徒來也；散而條違者，樵採也；少而往來者，營軍也。辭卑而益備者，進也。辭強而進驅者，退也。輕車先出其側者，陣也。無約而請和者，謀也。奔走而陳兵者，期也。半進半退者，誘也。仗而立者，飢也。汲而先飲者，渴也。見利而不進者，勞也。鳥集者，虛也。夜呼者，恐也。軍擾者，將不重也。旌旗動者，亂也。吏怒者，倦也。殺馬肉食者，軍無糧也。懸缶不返其舍者，窮寇也。諄諄翕翕，徐與人言者，失眾也。數賞者，窘也。數罰者，困也。先暴而後畏其眾者，不精之至也。來委謝者，欲休息也。兵怒而相迎，久而不合，又不相去，必謹察之。
+
+兵非貴益多，惟無武進，足以併力料敵取人而已。夫惟無慮而易敵者，必擒于人。
+
+卒未親附而罰之，則不服，不服則難用。卒已親附而罰不行，則不可用。故令之以文，齊之以武，是謂必取。令素行以教其民，則民服；令不素行以教其民，則民不服；令素行，與眾相得也。
+
+
+### 地形
+
+孫子曰：地形有通者，有挂者，有支者，有隘者，有險者，有遠者。我可以往，彼可以來，曰通；通形者，先居高陽，利糧道以戰，則利。可以往，難以返，曰挂；挂形者，敵無備，出而勝之，敵若有備，出而不勝，難以返，不利。我出而不利，彼出而不利，曰支；支形者，敵雖利我，我無出也；引而去之，令敵半出而擊之，利。隘形者，我先居之，必盈以待敵；若敵先居之，盈而勿從，不盈而從之。險形者，我先居之，必居高陽以待敵；若敵先居之，引而去之，勿從也。遠形者，勢均，難以挑戰，戰而不利。凡此六者，地之道也，將之至任，不可不察也。
+
+故兵有走者，有弛者，有陷者，有崩者，有亂者，有北者；凡此六者，非天地之災，將之過也。夫勢均，以一擊十，曰走。卒強吏弱，曰弛。吏強卒弱，曰陷。大吏怒而不服，遇敵懟而自戰，將不知其能，曰崩。將弱不嚴，教道不明，吏卒無常，陳兵縱橫，曰亂。將不能料敵，以少合眾，以弱擊強，兵無選鋒，曰北。凡此六者，敗之道也。將之至任，不可不察也。
+
+夫地形者，兵之助也。料敵制勝，計險阨遠近，上將之道也。知此而用戰者，必勝；不知此而用戰者必敗。故戰道必勝；主曰：無戰；必戰可也。戰道不勝，主曰必戰，無戰可也。故進不求名，退不避罪，唯民是保，而利于主，國之寶也。
+
+視卒如嬰兒，故可與之赴深谿；視卒如愛子，故可與之俱死。厚而不能使，愛而不能令，亂而不能治，譬若驕子，不可用也。
+
+知吾卒之可以擊，而不知敵之不可擊，勝之半也；知敵之可擊，而不知吾卒之不可擊，勝之半也。知敵之可擊，知吾卒之可以擊，而不知地形之不可以戰，勝之半也。故知兵者，動而不迷，舉而不窮。故曰：知彼知己，勝乃不殆；知天知地，勝乃可全。
+
+
+### 九地
+
+孫子曰：用兵之法，有散地，有輕地，有爭地，有交地，有衢地，有重地，有圮地，有圍地，有死地。諸侯自戰其地者，為散地。入人之地而不深者，為輕地。我得則利，彼得亦利者，為爭地。我可以往，彼可以來者，為交地。諸侯之地三屬，先至而得天下之眾者，為衢地。入人之地深，背城邑多者，為重地。山林、險阻、沮澤，凡難行之道者，為圮地。所由入者隘，所從歸者迂，彼寡可以擊吾之眾者，為圍地。疾戰則存，不疾戰則亡者，為死地。是故散地則無戰，輕地則無止，爭地則無攻，交地則無絕，衢地則合交，重地則掠，圮地則行，圍地則謀，死地則戰。
+
+古之所謂善用兵者，能使敵人前後不相及，眾寡不相恃，貴賤不相救，上下不相收，卒離而不集，兵合而不齊。合于利而動，不合于利而止。敢問：「敵眾整而將來，待之若何？」曰：「先奪其所愛，則聽矣；兵之情主速，乘人之不及，由不虞之道，攻其所不戒也。」
+
+凡為客之道，深入則專，主人不克，掠于饒野，三軍足食，謹養而無勞，併氣積力，運兵計謀，為不可測，投之無所往，死且不北，死焉不得，士人盡力。兵士甚陷則不懼，無所往則固，深入則拘，不得已則鬥。是故，其兵不修而戒，不求而得，不約而親，不令而信，禁祥去疑，至死無所之。吾士無餘財，非惡貨也；無餘命，非惡壽也。令發之日，士卒坐者涕沾襟，偃臥者涕交頤，投之無所往，則諸劌之勇也。
+
+故善用兵者，譬如率然；率然者，常山之蛇也，擊其首，則尾至，擊其尾，則首至，擊其中，則首尾俱至。敢問：「兵可使如率然乎？」曰：「可。」夫吳人與越人相惡也，當其同舟濟而遇風，其相救也如左右手。是故，方馬埋輪，未足恃也，齊勇若一，政之道也；剛柔皆得，地之理也。故善用兵者，攜手若使一人，不得已也。
+
+將軍之事，靜以幽，正以治，能愚士卒之耳目，使之無知。易其事，革其謀，使人無識，易其居，迂其途，使人不得慮。帥與之期，如登高而去其梯，帥與之深，入諸侯之地而發其機。若驅群羊，驅而往，驅而來，莫知所之。聚三軍之眾，投之于險，此將軍之事也。九地之變，屈伸之利，人情之理，不可不察也。
+
+凡為客之道，深則專，淺則散；去國越境而師者，絕地也；四達者，衢地也；入深者，重地也；入淺者，輕地也；背固前隘者，圍地也；無所往者，死地也。是故散地吾將一其志，輕地吾將使之屬，爭地吾將趨其後，交地吾將謹其守，衢地吾將固其結，重地吾將繼其食，圮地吾將進其途，圍地吾將塞其闕，死地吾將示之以不活。故兵之情，圍則禦，不得已則鬥，逼則從。
+
+是故不知諸侯之謀者，不能預交，不知山林險阻沮澤之形者，不能行軍，不用鄉導者，不能得地利，此三者不知一，非霸王之兵也。夫霸王之兵，伐大國則其眾不得聚，威加于敵，則其交不得合。是故不爭天下之交，不養天下之權，信己之私，威加于敵，故其城可拔，其國可墮。施無法之賞，懸無政之令，犯三軍之眾，若使一人。犯之以事，勿告以言；犯之以利，勿告以害；投之亡地然後存，陷之死地然後生。夫眾陷于害，然後能為勝敗，故為兵之事，在于順詳敵之意，併力一向，千里殺將，是謂巧能成事。
+
+是故政舉之日，夷關折符，無通其使，厲于廊廟之上，以誅其事，敵人開闔，必亟入之。先其所愛，微與之期，賤墨隨敵，以決戰爭。是故始如處女，敵人開戶，後如脫兔，敵不及拒。
+
+
+### 火攻
+
+孫子曰：凡火攻有五：一曰火人，二曰火積，三曰火輜，四曰火庫，五曰火隊。行火必有因，煙火必素具。發火有時，起火有日。時者，天之燥也。日者，月在箕壁翼軫也。凡此四宿者，風起之日也。
+
+凡火攻，必因五火之變而應之，火發于內，則早應之于外。火發而其兵靜者，待而勿攻。極其火力，可從而從之，不可從而止。火可發于外，無待于內，以時發之。火發上風，無攻下風，晝風久，夜風止。凡軍必知五火之變，以數守之。故以火佐攻者明，以水佐攻者強，水可以絕，不可以奪。
+
+夫戰勝攻取，而不修其攻者凶，命曰費留。故曰：明主慮之，良將修之，非利不動，非得不用，非危不戰。主不可以怒而興師，將不可以慍而致戰；合于利而動，不合于利而止。怒可以復喜，慍可以復悅，亡國不可以復存，死者不可以復生。故明君慎之，良將警之，此安國全軍之道也。
+
+
+### 用間
+
+孫子曰：凡興師十萬，出征千里，百姓之費，公家之奉，日費千金，內外騷動，怠于道路，不得操事者，七十萬家，相守數年，以爭一日之勝，而愛爵祿百金，不知敵之情者，不仁之至也，非人之將也，非主之佐也，非勝之主也。故明君賢將，所以動而勝人，成功出于眾者，先知也；先知者，不可取于鬼神，不可象于事，不可驗于度；必取于人，知敵之情者也。
+
+故用間有五：有鄉間、有內間、有反間、有死間、有生間。五間俱起，莫知其道，是謂神紀，人君之寶也。鄉間者，因其鄉人而用之。內間者，因其官人而用之。反間者，因其敵間而用之。死間者，為誑事于外，令吾間知之，而傳于敵。生間者，反報也。
+
+故三軍之事，親莫親于間，賞莫厚于間，事莫密于間，非聖智不能用間，非仁義不能使間，非微妙不能得間之實。微哉，微哉，無所不用間也。間事未發而先聞者，間與所告者皆死。
+
+凡軍之所欲擊，城之所欲攻，人之所欲殺；必先知其守將，左右，謁者，門者，舍人之姓名，令吾間必索知之。必索敵間之來間我者，因而利之，導而舍之，故反間可得而使也。因是而知之，故鄉間內間可得而使也；因是而知之，故死間為誑事，可使告敵；因是而知之，故生間可使如期。五間之事，主必知之，知之必在于反間，故反間不可不厚也。
+
+昔殷之興也，伊摯在夏。周之興也，呂牙在殷。故明君賢將，能以上智為間者，必成大功，此兵之要，三軍之所恃而動也。
+
+
+## 二、《吳子》全本
+
+### 圖國
+
+吳起儒服以兵機見魏文侯。文侯曰：「寡人不好軍旅之事。」起曰：「臣以見占隱，以往察來，主君何言與心違？今君四時使斬離皮革，掩以朱漆，畫以丹青，爍以犀象。冬日衣之則不溫，夏日衣之則不涼。為長戟二丈四尺，短戟一丈二尺。革車奄戶，縵輪籠轂，觀之於目則不麗，乘之以田則不輕，不識主君安用此也？若以備進戰退守，而不求能用者，譬猶伏雞之搏狸，乳犬之犯虎，雖有鬥心，隨之死矣。昔承桑氏之君，修德廢武，以滅其國。有扈氏之君，恃眾好勇，以喪其社稷。明主鑒茲，必內修文德，外治武備。故當敵而不進，無逮於義矣；僵屍而哀之，無逮於仁矣。」於是文侯身自布席，夫人捧觴，醮吳起於廟，立為大將，守西河。與諸侯大戰七十六，全勝六十四，餘則鈞解。闢土四面，拓地千里，皆起之功也。
+
+吳子曰：「昔之圖國家者，必先教百姓而親萬民。有四不和：不和於國，不可以出軍；不和於軍，不可以出陳；不和於陳，不可以進戰；不和於戰，不可以決勝。是以有道之主，將用其民，先和而造大事。不敢信其私謀，必告於祖廟，啟於元龜，參之天時，吉乃後舉。民知君之愛其命，惜其死，若此之至，而與之臨難，則士以盡死為榮，退生為辱矣。」
+
+吳子曰：「夫道者，所以反本復始。義者，所以行事立功。謀者，所以違害就利。要者，所以保業守成。若行不合道，舉不合義，而處大居貴，患必及之。是以聖人綏之以道，理之以義，動之以禮，撫之以仁。此四德者，修之則興，廢之則衰。故成湯討桀而夏民喜悅，周武伐紂而殷人不非。舉順天人，故能然矣。」
+
+吳子曰：「凡制國治軍，必教之以禮，勵之以義，使有恥也。夫人有恥，在大足以戰，在小足以守矣。然戰勝易，守勝難。故曰：天下戰國，五勝者禍，四勝者弊，三勝者霸，二勝者王，一勝者帝。是以數勝得天下者稀，以亡者眾。」
+
+吳子曰：「凡兵之所起者有五：一曰爭名，二曰爭利，三曰積德惡，四曰內亂，五曰因饑。其名又有五：一曰義兵，二曰彊兵，三曰剛兵，四曰暴兵，五曰逆兵。禁暴救亂曰義，恃眾以伐曰彊，因怒興師曰剛，棄禮貪利曰暴，國亂人疲舉事動眾曰逆。五者之數，各有其道，義必以禮服，彊必以謙服，剛必以辭服，暴必以詐服，逆必以權服。」
+
+武侯問曰：「願聞治兵、料人、固國之道。」起對曰：「古之明王，必謹君臣之禮，飾上下之儀，安集吏民，順俗而教，簡募良材，以備不虞。昔齊桓募士五萬，以霸諸侯。晉文召為前行四萬，以獲其志。秦繆置陷陳三萬，以服鄰敵。故強國之君，必料其民。民有膽勇氣力者，聚為一卒。樂以進戰效力、以顯其忠勇者，聚為一卒。能踰高超遠、輕足善走者，聚為一卒。王臣失位而欲見功於上者，聚為一卒。棄城去守、欲除其醜者，聚為一卒。此五者，軍之練銳也。有此三千人，內出可以決圍，外入可以屠城矣。」
+
+武侯問曰：「願聞陳必定、守必固、戰必勝之道。」起對曰：「立見且可，豈直聞乎！君能使賢者居上，不肖者處下，則陳已定矣。民安其田宅，親其有司，則守已固矣。百姓皆是吾君而非鄰國，則戰已勝矣。」
+
+武侯嘗謀事，群臣莫能及，罷朝而有喜色。起進曰：「昔楚莊王嘗謀事，群臣莫能及，退朝而有憂色。申公問曰：『君有憂色，何也？』曰：『寡人聞之，世不絕聖，國不乏賢，能得其師者王，得其友者霸。今寡人不才，而群臣莫及者，楚國其殆矣。』此楚莊王之所憂，而君說之，臣竊懼矣。」於是武侯有慚色。
+
+
+### 料敵
+
+武侯謂吳起曰：「今秦脅吾西，楚帶吾南，趙衝吾北，齊臨吾東，燕絕吾後，韓據吾前。六國兵四守，勢甚不便，憂此奈何？」起對曰：「夫安國家之道，先戒為寶。今君已戒，禍其遠矣。臣請論六國之俗：夫齊陳重而不堅，秦陳散而自鬭，楚陳整而不久，燕陳守而不走，三晉陳治而不用。夫齊性剛，其國富，君臣驕奢而簡於細民，其政寬而祿不均，一陳兩心，前重後輕，故重而不堅。擊此之道，必三分之，獵其左右，脅而從之，其陳可壞。秦性強，其地險，其政嚴，其賞罰信，其人不讓，皆有鬭心，故散而自戰。擊此之道，必先示之以利而引去之，士貪於得而離其將，乘乖獵散，設伏投機，其將可取。楚性弱，其地廣，其政騷，其民疲，故整而不久。擊此之道，襲亂其屯，先奪其氣。輕進速退，弊而勞之，勿與戰爭，其軍可敗。燕性愨，其民慎，好勇義，寡詐謀，故守而不走。擊此之道，觸而迫之，陵而遠之，馳而後之，則上疑而下懼，謹我車騎必避之路，其將可虜。三晉者，中國也，其性和，其政平，其民疲於戰，習於兵，輕其將，薄其祿，士無死志，故治而不用。擊此之道，阻陳而壓之，眾來則拒之，去則追之，以倦其師。此其勢也。然則一軍之中，必有虎賁之士；力輕扛鼎，足輕戎馬，搴旗斬將，必有能者。若此之等，選而別之，愛而貴之，是謂軍命。其有工用五兵、材力健疾、志在吞敵者，必加其爵列，可以決勝。厚其父母妻子，勸賞畏罰，此堅陳之士，可與持久。能審料此，可以擊倍。」武侯曰：「善。」
+
+吳子曰：「凡料敵有不卜而與之戰者八：一曰疾風大寒，早興寤遷，刊木濟水，不憚艱難；二曰盛夏炎熱，晏興無間，行驅飢渴，務於取遠；三曰師既淹久，糧食無有，百姓怨怒，祅祥數起，上不能止；四曰軍資既竭，薪芻既寡，天多陰雨，欲掠無所；五曰徒眾不多，水地不利，人馬疾疫，四鄰不至；六曰道遠日暮，士眾勞懼，倦而未食，解甲而息；七曰將薄吏輕，士卒不固，三軍數驚，師徒無助；八曰陳而未定，舍而未畢，行阪涉險，半隱半出。諸如此者，擊之勿疑。有不占而避之者六：一曰土地廣大，人民富眾；二曰上愛其下，惠施流布；三曰賞信刑察，發必得時；四曰陳功居列，任賢使能；五曰師徒之眾，兵甲之精；六曰四鄰之助，大國之援。凡此不如敵人，避之勿疑。所謂見可而進，知難而退也。」
+
+武侯問曰：「吾欲觀敵之外以知其內，察其進以知其止，以定勝負，可得聞乎？」起對曰：「敵人之來，蕩蕩無慮，旌旗煩亂，人馬數顧，一可擊十，必使無措。諸侯大會，君臣未和，溝壘未成，禁令未施，三軍匈匈，欲前不能，欲去不敢，以半擊倍，百戰不殆。」
+
+武侯問敵必可擊之道。起對曰：「用兵必須審敵虛實而趨其危。敵人遠來新至、行列未定可擊，既食未設備可擊，奔走可擊，勤勞可擊，未得地利可擊，失時不從可擊，旌旗亂動可擊，涉長道後行未息可擊，涉水半渡可擊，險道狹路可擊，陳數移動可擊，將離士卒可擊，心怖可擊。凡若此者，選銳衝之，分兵繼之，急擊勿疑。」
+
+
+### 治兵
+
+武侯問曰：「進兵之道何先？」起對曰：「先明四輕、二重、一信。」曰：「何謂也？」對曰：「使地輕馬，馬輕車，車輕人，人輕戰。明知陰陽，則地輕馬。芻秣以時，則馬輕車。膏鐧有餘，則車輕人。鋒銳甲堅，則人輕戰。進有重賞，退有重刑。行之以信。令制遠，此勝之主也。」
+
+武侯問曰：「兵何以為勝？」起對曰：「以治為勝。」又問曰：「不在眾寡？」對曰：「若法令不明，賞罰不信，金之不止，鼓之不進，雖有百萬，何益於用。所謂治者，居則有禮，動則有威，進不可當，退不可追，前卻有節，左右應麾，雖絕成陳，雖散成行。與之安，與之危，其眾可合而不可離，可用而不可疲，投之所往，天下莫當，名曰父子之兵。」
+
+吳子曰：「凡行軍之道，無犯進止之節，無失飲食之適，無絕人馬之力。此三者，所以任其上令。任其上令，則治之所由生也。若進止不度，飲食不適，馬疲人倦而不解舍，所以不任其上令。上令既廢，以居則亂，以戰則敗。」
+
+吳子曰：「凡兵戰之場，立屍之地。必死則生，幸生則死。其善將者，如坐漏船之中，伏燒屋之下，使智者不及謀，勇者不及怒，受敵可也。故曰：用兵之害，猶豫最大；三軍之災，生於狐疑。」
+
+吳子曰：「夫人當死其所不能，敗其所不便。故用兵之法，教戒為先。一人學戰，教成十人。十人學戰，教成百人。百人學戰，教成千人。千人學戰，教成萬人。萬人學戰，教成三軍。以近待遠，以佚待勞，以飽待飢。圓而方之，坐而起之，行而止之，左而右之，前而後之，分而合之，結而解之。每變皆習，乃授其兵。是謂將事。」
+
+吳子曰：「教戰之令，短者持矛戟，長者持弓弩，強者持旌旗，勇者持金鼓，弱者給冢養，智者為謀主。鄉里相比，什伍相保。一鼓整兵，二鼓習陳，三鼓趨食，四鼓嚴辨，五鼓就行。聞鼓聲合，然後舉旗。」
+
+武侯問曰：「三軍進止。豈有道乎？」起對曰：「無當天竈，無當龍頭。天竈者，大谷之口。龍頭者，大山之端。必左青龍，右白虎，前朱雀，後玄武，招搖在上，從事於下。將戰之時，審候風所從來。風順致呼而從之，風逆堅陳以待之。」
+
+武侯問曰：「凡畜卒騎，豈有方乎？」起對曰：「夫馬必安其處所，適其水草，節其飢飽。冬則溫燒，夏則涼廡。刻剔毛鬣，謹落四下。戢其耳目，無令驚駭。習其馳逐，閑其進止。人馬相親，然後可使。車騎之具，鞍、勒、銜、轡，必令完堅。凡馬不傷於末，必傷於始；不傷於飢，必傷於飽。日暮道遠，必數上下。寧勞於人，慎無勞馬。常令有餘，備敵覆我。能明此者，橫行天下。」
+
+
+### 論將
+
+吳子曰：「夫總文武者，軍之將也。兼剛柔者，兵之事也。凡人論將，常觀於勇。勇之於將，乃數分之一爾。夫勇者必輕合，輕合而不知利，未可也。故將之所慎者五：一曰理，二曰備，三曰果，四曰戒，五曰約。理者，治眾如治寡。備者，出門如見敵。果者，臨敵不懷生。戒者，雖克如始戰。約者，法令省而不煩。受命而不辭，敵破而後言返，將之禮也。故師出之日，有死之榮，無生之辱。」
+
+吳子曰：「凡兵有四機：一曰氣機，二曰地機，三曰事機，四曰力機。三軍之眾，百萬之師，張設輕重，在於一人，是謂氣機。路狹道險，名山大塞，十夫所守，千夫不過，是謂地機。善行間諜，輕兵往來，分散其眾，使其君臣相怨，上下相咎，是謂事機。車堅管轄，舟利櫓楫，士習戰陳，馬閑馳逐，是謂力機。知此四者，乃可為將。然其威、德、仁、勇，必足以率下安眾，怖敵決疑。施令而下不犯，所在寇不敢敵。得之國強，去之國亡。是謂良將。」
+
+吳子曰：「夫鼙鼓金鐸，所以威耳。旌旗麾幟，所以威目。禁令刑罰，所以威心。耳威於聲，不可不清。目威於色，不可不明。心威於刑，不可不嚴。三者不立，雖有其國，必敗於敵。故曰：將之所麾，莫不從移；將之所指，莫不前死。」
+
+吳子曰：「凡戰之要，必先占其將而察其才。因形用權，則不勞而功舉。其將愚而信人，可詐而誘；貪而忽名，可貨而賂；輕變無謀，可勞而困。上富而驕，下貧而怨，可離而間。進退多疑，其眾無依，可震而走。士輕其將而有歸志，塞易開險，可邀而取。進道易，退道難，可來而前。進道險，退道易，可薄而擊。居軍下濕，水無所通，霖雨數至，可灌而沈。居軍荒澤，草楚幽穢，風飆數至，可焚而滅。停久不移，將士懈怠，其軍不備，可潛而襲。」
+
+武侯問曰：「兩軍相望，不知其將，我欲相之，其術如何？」起對曰：「令賤而勇者，將輕銳以嘗之。務於北，無務於得，觀敵之來，一坐一起，其政以理，其追北佯為不及，其見利佯為不知，如此將者，名為智將，勿與戰矣。若其眾讙譁，旌旗煩亂，其卒自行自止，其兵或縱或橫，其追北恐不及，見利恐不得，此為愚將，雖眾可獲。」
+
+
+### 應變
+
+武侯問曰：「車堅馬良，將勇兵強，卒遇敵人，亂而失行，則如之何？」起對曰：「凡戰之法，晝以旌旗旛麾為節，夜以金鼓笳笛為節。麾左而左，麾右而右。鼓之則進，金之則止。二吹而行，再吹而聚，不從令者誅。三軍服威，士卒用命，則戰無彊敵，攻無堅陳矣。」
+
+武侯問曰：「若敵眾我寡，為之柰何？」起對曰：「避之於易，邀之於阨。故曰：以一擊十，莫善於阨；以十擊百，莫善於險；以千擊萬，莫善於阻。今有少年卒起，擊金鳴鼓於阨路，雖有大眾，莫不驚動。故曰：用眾者務易，用少者務隘。」
+
+武侯問曰：「有師甚眾，既武且勇；背大險阻，右山左水；深溝高壘，守以彊弩；退如山移，進如風雨，糧食又多。難與長守。」對曰：「大哉問乎！非此車騎之力，聖人之謀也。能備千乘萬騎，兼之徒步，分為五軍，各軍一衢。夫五軍五衢，敵人必惑，莫之所加。敵人若堅守以固其兵，急行間諜以觀其慮。彼聽吾說，解之而去。不聽吾說，斬使焚書，分為五戰。戰勝勿追，不勝疾歸。如是佯北，安行疾鬭，一結其前，一絕其後。兩軍𠾑枚，或左或右，而襲其處。五軍交至，必有其力。此擊彊之道也。」
+
+武侯問曰：「敵近而薄我，欲去無路，我眾甚懼，為之柰何？」對曰：「為此之術，若我眾彼寡，各分而乘之。彼眾我寡，以方從之。從之無息，雖眾可服。」
+
+武侯問曰：「若遇敵於谿谷之間，傍多險阻，彼眾我寡，為之奈何？」起對曰：「諸丘陵、林谷、深山、大澤，疾行亟去，勿得從容。若高山深谷，卒然相遇，必先鼓譟而乘之。進弓與弩，且射且虜。審察其政，亂則擊之勿疑。」
+
+武侯問曰：「左右高山，地甚狹迫，卒遇敵人，擊之不敢，去之不得，為之奈何？」起對曰：「此謂谷戰，雖眾不用。募吾材士與敵相當，輕足利兵以為前行，分車列騎隱於四旁，相去數里，無見其兵，敵必堅陳，進退不敢。於是出旌列旆，行出山外營之，敵人必懼。車騎挑之，勿令得休。此谷戰之法也。」
+
+武侯問曰：「吾與敵相遇大水之澤，傾輪沒轅，水薄車騎，舟楫不設，進退不得，為之奈何？」起對曰：「此謂水戰，無用車騎，且留其傍。登高四望，必得水情。知其廣狹，盡其淺深，乃可為奇以勝之。敵若絕水，半渡而薄之。」
+
+武侯問曰：「天久連雨，馬陷車止，四面受敵，三軍驚駭，為之奈何？」起對曰：「凡用車者，陰濕則停，陽燥則起；貴高賤下，馳其強車；若進若止，必從其道。敵人若起，必逐其跡。」
+
+武侯問曰：「暴寇卒來，掠吾田野，取吾牛羊，則如之何？」
+
+起對曰：「暴寇之來，必慮其強，善守勿應。彼將暮去，其裝必重，其心必恐，還退務速，必有不屬。追而擊之，其兵可覆。」
+
+吳子曰：「凡攻敵圍城之道，城邑既破，各入其宮。御其祿秩，收其器物。軍之所至，無刊其木、發其屋、取其粟、殺其六畜、燔其積聚，示民無殘心。其有請降，許而安之。」
+
+
+### 勵士
+
+武侯問曰：「嚴刑明賞，足以勝乎？」起對曰：「嚴明之事，臣不能悉。雖然，非所恃也。夫發號布令而人樂聞，興師動眾而人樂戰，交兵接刃而人樂死。此三者，人主之所恃也。」
+
+武侯曰：「致之奈何？」對曰：「君舉有功而進饗之，無功而勵之。」
+
+於是武侯設坐廟廷為三行饗士大夫。上功坐前行，餚席兼重器、上牢。次功坐中行，餚席器差減。無功坐後行，餚席無重器。饗畢而出，又頒賜有功者父母妻子於廟門外，亦以功為差。有死事之家，歲被使者勞賜其父母，著不忘於心。行之三年，秦人興師，臨於西河，魏士聞之，不待吏令，介冑而奮擊之者以萬數。
+
+武侯召吳起而謂曰：「子前日之教行矣。」起對曰：「臣聞人有短長，氣有盛衰。君試發無功者五萬人，臣請率以當之。脫其不勝，取笑於諸侯，失權於天下矣。今使一死賊伏於曠野，千人追之，莫不梟視狼顧。何者？忌其暴起而害己。是以一人投命，足懼千夫。今臣以五萬之眾，而為一死賊，率以討之，固難敵矣。」
+
+於是武侯從之，兼車五百乘，騎三千匹，而破秦五十萬眾，此勵士之功也。
+
+先戰一日，吳起令三軍曰：「諸吏士當從受馳。車騎與徒，若車不得車，騎不得騎，徒不得徒，雖破軍皆無易。」故戰之日，其令不煩而威震天下。
+
+
+## 三、《司馬法》全本
+
+### 司馬法
+
+古者，以仁為本以義治之之為正。正不獲意則權。權出於戰，不出於中人，是故：殺人安人，殺之可也；攻其國愛其民，攻之可也；以戰止戰，雖戰可也。故仁見親，義見說，智見恃，勇見方，信見信。內得愛焉，所以守也；外得威焉，所以戰也。
+
+戰道：不違時，不歷民病，所以愛吾民也。不加喪，不因凶，所以愛夫其民也；冬夏不興師，所以兼愛民也。故國雖大，好戰必亡；天下雖安，忘戰必危。
+
+天下既平，天子大愷，春蒐秋獮；諸侯春振旅，秋治兵。所以不忘戰也。
+
+古者：逐奔不過百步，縱綏不過三舍，是以明其禮也；不窮不能而哀憐傷病，是以明其仁也；成列而鼓，是以明其信也；爭義不爭利，是以明其義也；又能舍服，是以明其勇也；知終知始，是以明其智也。六德以時合教，以為民紀之道也。自古之政也。
+
+先王之治，順天之道；設地之宜；官民之德；而正名治物；立國辨職，以爵分祿。諸侯說懷，海外來服，獄弭而兵寢，聖德之治也。
+
+其次，賢王制禮樂法度，乃作五刑，興甲兵，以討不義。巡狩省方，會諸侯，考不同。其有失命亂常，背德逆天之時，而危有功之君，偏告于諸侯，彰明有罪。乃告于皇天上帝，日月星辰，禱于后土四海神祇，山川冢社，乃造于先王。然後冢宰徵師于諸侯曰：「某國為不道，征之。以某年月日，師至于某國會天子正刑。」
+
+冢宰與百官布令於軍曰：「入罪人之地，無暴神祇，無行田獵，無毀土功，無燔牆屋，無伐林木，無取六畜、禾黍、器械。見其老幼，奉歸勿傷。雖遇壯者，不校勿敵。敵若傷之，醫藥歸之。」
+
+既誅有罪，王及諸侯修正其國，舉賢立明，正復厥職。
+
+王、伯之所以治諸侯者六：以土地形諸侯；以政令平諸侯；以禮信親諸侯；以材力說諸侯；以謀人維諸侯；以兵革服諸侯。同患同利以合諸侯，比小事大以和諸侯。
+
+會之以發禁者九：憑弱犯寡則眚之；賊賢害民則伐之；暴內陵外則壇之；野荒民散則削之；負固不服則侵之；賊殺其親則正之；放弒其君則殘之；犯令陵政則絕之；外內亂、禽獸行，則滅之。
+
+天子之義，必純取法天地，而觀於先聖。士庶之義，必奉於父母，而正於君長。故雖有明君，士不先教，不可用也。
+
+古之教民：必立貴賤之倫經，使不相陵；德義不相踰；材技不相掩；勇力不相犯。故力同而意和也。
+
+古者，國容不入軍，軍容不入國，故德義不相踰。上貴不伐之士，不伐之士，上之器也。若不伐則無求，無求則不爭，國中之聽，必得其情，軍旅之聽，必得其宜，故材技不相掩。從命為士上賞，犯命為士上戮，故勇力不相犯。
+
+既致教其民，然後謹選而使之。事極修則官給矣。教極省則民興良矣。習慣成則民體俗矣。教化之至也。
+
+古者，逐奔不遠，縱綏不及。不遠則難誘，不及則難陷。以禮為固，以仁為勝。既勝之後，其教可復，是以君子貴之也。
+
+有虞氏戒於國中，欲民體其命也。夏后氏誓於軍中，欲民先成其慮也。殷誓於軍門之外，欲民先意以待事也。周將交刃而誓之，以致民志也。夏后氏正其德也，未用兵之刃。故其兵不雜。殷義也，始用兵之刃矣。周力也，盡用兵之刃矣。夏賞於朝，貴善也。殷戮於市，威不善也。周賞於朝，戮於市，勸君子，懼小人也。三王章其德一也。
+
+兵不雜則不利，長兵以衛，短兵以守。太長則難犯，太短則不及。太輕則銳，銳則易亂。太重則鈍，鈍則不濟。
+
+戎車，夏后氏曰鉤車，先正也。殷曰寅車，先疾也。周曰元戎，先良也。
+
+旂，夏后氏玄首，人之執也。殷白，天之義也。周黃，地之道也。
+
+章，夏后氏以日月，尚明也。殷以虎，尚威也。周以龍，尚文也。
+
+師多務威則民詘，少威則民不勝。上使民不得其義，百姓不得其敘，技用不得其利，牛馬不得其任，有司陵之，此謂多威。多威則民詘。上不尊德而任詐慝，不尊道而任勇力，不貴用命而貴犯命，不貴善行而貴暴行，陵之有司，此謂少威。少威則民不勝。軍旅以舒為主，舒則民力足，雖交兵致刃，徒不趨，車不馳，逐奔不踰列，是以不亂。軍旅之固，不失行列之政，不絕人馬之力，遲速不過誡命。
+
+古者，國容不入軍，軍容不入國。軍容入國則民德廢，國容入軍則民德弱。故在國言文而語溫，在朝恭以遜，修己以待人，不召不至，不問不言，難進易退。在軍抗而立，在行遂而果，介者不拜，兵車不式，城上不趨，危事不齒。故禮與法表裏也。文與武左右也。
+
+古者，賢王明民之德，盡民之善，故無廢德，無簡民，賞無所生，罰無所試。有虞氏不賞不罰而民可用，至德也。夏賞而不罰，至教也。殷罰而不賞，至威也。周以賞罰，德衰也。賞不踰時，欲民速得為善之利也。罰不遷列，欲民速睹為不善之害也。大捷不賞，上下皆不伐善。上苟不伐善，則不驕矣；下苟不伐善，則亡等矣。上下不伐善若此，讓之至也。大敗不誅，上下皆以不善在己。上苟以不善在己，必悔其過；下苟以不善在己，必遠其罪。上下分惡若此，讓之至也。
+
+古者戍兵三年不典，睹民之勞也。上下相報，若此，和之至也。
+
+得意則愷歌，示喜也。偃伯靈台，答民之勞，示休也。
+
+凡戰：定爵位，著功罪，收遊士，申教詔，訊厥眾，求厥技，方慮極物，變嫌推疑，養力索巧，因心之動。
+
+凡戰：固眾，相利，治亂，進止，服正，成恥，約法，省罰。小罪乃殺；小罪殺，大罪因。
+
+順天，阜財，懌眾，利地，右兵，是謂五慮。順天奉時，阜財因敵，懌眾勉若，利地守隘阻，右兵弓矢禦，殳矛守，戈戟助。凡五兵五當，長以衛短，短以救長，迭戰則久，皆戰則強。見物與侔，是謂兩之。
+
+主固勉若，視敵而舉。將心心也，眾心心也，馬牛車兵佚飽力也。教惟豫，戰惟節。將軍身也，卒支也，伍指拇也。
+
+凡戰，權也，鬥，勇也，陣，巧也。用其所欲，行其所能，廢其不欲不能，於敵反是。
+
+凡戰，有天，有財，有善。時日不遷，龜勝微行，是謂有天。眾省，有因生美，是謂省財。人習陳利，極物以豫，是謂有善。人勉及任，是謂樂人。大軍以固，多力以煩，堪物簡治，見物應率，是謂行豫。輕車輕徒，弓矢固禦，是謂大軍。密，靜，多內力，是謂固陳。因是進退，是謂多力。上暇人教，是謂煩陳。然有以職，是謂堪物。因是辨物，是謂簡治。
+
+稱眾，因地，因敵，令陳。攻，戰，守，進，退，止，前後序，車徒因，是為戰參。不服，不信，不和，怠，疑，厭，懾，枝柱，詘，煩，肆，崩，緩，是謂戰患。驕驕，懾懾，吟曠，虞懼，事悔，是謂毀折。大小，堅柔，參伍，眾寡，凡兩，是謂戰權。
+
+凡戰：間遠，觀邇，因時，因財，貴信，惡疑。作兵義，作事時，使人惠。見敵，靜，見亂，暇，見危難，無忘其眾。居國惠以信，在軍廣以武，刃上果以敏。居國和，在軍法，刃上察。居國見好，在軍見方，刃上見信。
+
+凡陣：行惟疏，戰惟密，兵惟雜。人教厚，靜乃治，威利章。相守義，則人勉，慮多成，則人服。時中服，厥次治。物既章，目乃明。慮既定，心乃強。進退無疑，見敵而謀。聽誅，無誑其名，無變其旗。
+
+凡事，善則長，因古則行，誓作章，人乃強，滅厲祥。滅厲之道：一曰義，被之以信，臨之以強，成基，一天下之形，人莫不說，是謂兼用其人；一曰權，成其溢，奪其好，我自其外，使自其內。
+
+一曰人；二曰正；三曰辭；四曰巧；五曰火；六曰水；七曰兵，是謂七政。榮，利，恥，死，是謂四守。容色積威，不過改意，凡此道也。唯仁有親，有仁無信，反敗厥身。人人，正正，辭辭，火火。
+
+凡戰之道，既作其氣，因發其政，假之以色，道之以辭，因懼而戒，因欲而事，陷敵制地，以職命之，是謂戰法。
+
+凡人之形，由眾以求，試以名行，必善行之。若行不行，身以將之，若行而行，因使勿忘，三乃成章。人生之宜謂之法。
+
+凡治亂之道：一曰仁；二曰信；三曰直；四曰一；五曰義；六曰變；七曰專。立法：一曰受；二曰法；三曰立；四曰疾；五曰御其服；六曰等其色；七曰百官無淫服。凡軍，使法在己曰專，與下畏法曰法。軍無小聽，戰無小利，日成行微，曰道。
+
+凡戰正不行則事專，不服則法，不相信則一。若怠則動之，若疑則變之，若人不信上，則行其不復。自古之政也。
+
+凡戰之道：位欲嚴；政欲栗；力欲窕；氣欲閑；心欲一。
+
+凡戰之道：等道義；立卒伍；定行列；正縱橫；察名實。立進俯；坐進跪。畏則密；危則坐。遠者視之則不畏，邇者勿視則不散。位下，左右下，甲坐，誓徐行之。位逮徒甲，籌以輕重，振馬譟徒甲，畏亦密之。跪坐坐伏，則膝行而寬誓之。起譟鼓而進，則以鐸止之。御枚誓糗，坐膝行而推之，執戮禁顧，譟以先之。若畏太病，則勿戮殺，示以顏色，告之以所生，循省其職。
+
+凡三軍人戒分日，人禁不息，不可以分食，方其疑惑，可師可服。
+
+凡戰：以力久；以氣勝；以固久；以危勝。本心固，新氣勝，以甲固，以兵勝。
+
+凡車以密固，徒以坐固，甲以重固，兵以輕勝。人有勝心，惟敵是視；人有畏心，惟畏是視。兩心交定，兩利若心，兩為之職，惟權視之。
+
+凡戰：以輕行輕則危；以重行重則無功；以輕行重則敗；以重行輕則戰。故戰相為重。舍謹甲兵，行慎行列，戰謹進止。
+
+凡戰：敬則慊；率則服。上煩輕，上戰重。奏鼓輕，舒鼓重。服膚輕，服美重。
+
+凡馬車堅，甲兵利，輕乃重。上同無獲；上專多死；上生多疑；上死不勝。
+
+凡人：死愛，死怒，死威，死義，死利。
+
+凡戰之道：教約人輕死；道約人死正。
+
+凡戰：若勝若否，若天若人。
+
+凡戰：三軍之戒，無過三日；一卒之警，無過分日；一人之禁，無過一息。
+
+凡大善用本，其次用末，執略守微，本末唯權，戰也。
+
+凡勝：三軍一人勝。
+
+凡鼓：鼓旌旗，鼓車，鼓馬，鼓徒，鼓兵，鼓首，鼓足，七鼓兼齊。
+
+凡戰：既固勿重，重進勿盡，凡盡危。
+
+凡戰：非陳之難，使人可陳難；非使可陳難，使人可用難；非知之難，行之難。人方有性，性州異，教成俗，俗州異，道化俗。
+
+凡眾寡，既勝若否。兵不告利，甲不告堅，車不告固，馬不告良，眾不自多，未獲道。
+
+凡戰：勝則與眾分善；若將復戰，則重賞罰；若使不勝，取過在己；復戰則誓以居前，無復先術。勝否勿反，是謂正則。
+
+凡民：以仁救；以義戰；以智決；以勇間；以信專；以利勸；以功勝。故心中仁，行中義，堪物智也，堪大勇也，堪久信也。讓以和，人自洽。自予以不循，爭賢以為，人說其心，效其力。
+
+凡戰：擊其微靜，避其強靜；擊其倦勞，避其閑窕；擊其大懼，避其小懼。自古之政也。
+
+凡戰之道：用寡固，用眾治。寡利煩，眾利正。用眾進止，用寡進退。眾以合寡，則遠裹而闕之。若分而迭擊，寡以待眾。若眾疑之，則自用之。擅利，則釋旗，迎而反之。敵若眾則相聚而受裹。敵若寡，若畏，則避之開之。
+
+凡戰：背風；背高；右高；左險；歷沛；歷圯；兼舍環龜。
+
+凡戰：設而觀其作；視敵而舉；待則循而勿鼓，待眾之作；攻則屯而伺之。
+
+凡戰：眾寡以觀其變；進退以觀其固；危而觀其懼；靜而觀其怠；動而觀其疑；襲而觀其治。擊其疑；加其卒；致其屈；襲其規；因其不避；阻其圖；奪其慮；乘其懼。
+
+凡從奔，勿息。敵人或止於路，則慮之。
+
+凡近敵都必有進路，退，必有返慮。
+
+凡戰：先則弊，後則懾，息則怠，不息亦弊，息久亦反其懾。書親絕，是謂絕顧之慮。選良次兵，是謂益人之強。棄任節食，是謂開人之意。自古之政也。
+
+
+## 四、《三略》全本
+
+### 三略
+
+夫主將之法，務攬英雄之心，賞祿有功，通志于眾，故與眾同好，靡不成與眾同惡，靡不傾。治國安家，得人也，亡國破家，失人也，含氣之類，咸願得其志。
+
+軍讖曰：柔能制剛，弱能制強。柔者，德也。剛者，賊也。弱者，人之所助。強者，怨之所攻。柔有所設，剛有所施，弱有所用，強有所加，兼此四者，而制其宜。
+
+端末未見，人莫能知。天地神明；與物推移。變動無常，因敵轉化。不為事先，動而輒隨。故能圖制無疆，扶成天威。康正八極，密定九夷。如此謀者，為帝王師。
+
+故曰：莫不貪強，鮮能守微，若能守微，乃保其生。聖人存之，以應事機。舒之彌四海，卷之不盈杯，居之不以室宅，守之不以城郭，藏之胸臆，而敵國服。
+
+軍讖曰：能柔能剛，其國彌光。能弱能強，其國彌彰。純柔純弱，其國必削、純剛純強，其國必亡。
+
+夫為國之道，恃賢與民，信賢如腹心，使民如四肢，則策無遣。所適如肢體相隨，骨節相救，天道自然，其巧無間。
+
+軍國之要，察眾心，施百務；危者，安之。懼者，歡之。叛者，還之。冤者，原之：訴者，察之。卑者，貴之。強者，抑之。敵者，殘之。貪者，豐之。欲者，使之。畏者，隱之。謀者，近之。讒者，覆之。毀者，復之。反者，廢之。橫者，挫之。滿者，損之。歸者，招之。服者，活之。降者，脫之。獲固，守之。獲阨，塞之。獲難，屯之。獲城，割之。獲地，裂之。獲財，散之。敵動，伺之。敵近，備之。敵強，下之。敵佚，去之。敵陵，待之。敵暴，緩之。敵悖，義之。敵睦，攜之。順舉挫之。因勢破之。放言過之。四網羅之。得而勿有，居而勿守，拔而勿久，立而勿取。為者則己，有者則士，焉知利之所在。彼為諸侯，己為天子，使城自保，令士自處。
+
+世能祖祖，鮮能下下，祖祖為親，下下為君。下下者，務耕桑，不奪其時；薄賦斂，不匱其財。罕徭役，不使其勞，則國富而家娛，然後選士以司牧之。
+
+夫所謂士者，英雄也。故曰羅其英雄，則敵國窮。英雄者，國之幹。庶民者，國之本。得其幹，收其本，則政行而無怨。
+
+夫用兵之要，在崇禮而重祿。禮崇則智士至，祿重則義士輕死。故祿賢不愛財，賞功不瑜時，則下力并，敵國削。夫用人之道，尊以爵，睹以財，則士自來。接以禮，勵以義，則士死之。
+
+夫將帥者，必與士卒同滋味，而共安危，敵乃可加：故兵有全勝，敵有全因。昔者，良將之用，有饋簞醪者，使投諸河，與士卒同流而飲。夫一簞之醪，不能味一河之水，而三軍之士，思為致死者，以滋味之及己也。
+
+軍讖曰：軍井未達，將不言渴。軍幕未辦，將不言倦。軍灶未炊，將不言飢。冬不服裘，夏不操扇，雨不張蓋，是謂將禮。與之安，與之危，故其眾，可合而不可離，可用而不可疲，以其恩素蓄，謀素合也。故曰：蓄恩不倦，以一取萬。
+
+軍讖曰：將之所以為威者，號令也。戰之所以全勝者，軍政也。士之所以輕死者，用命也。故將無還令，賞罰必信，如天如地，乃可使人，士卒用命，乃可越境。
+
+夫統軍持勢者，將也。制勝敗敵者，眾也。故亂將不可使保軍，乘眾不可使伐人。攻城不可拔，圍邑則不廢。二者無功，則士力疲憊，士力疲憊，則將孤眾悖，以守則不固，以戰則奔北，是謂老兵。兵老，則將威不行。將無威，則士卒輕刑。士卒輕刑，則軍失伍。軍失伍，則士卒逃亡。士卒逃亡，則敵乘利。敵乘利，則軍必喪。
+
+軍讖曰：良將之統軍也，恕己而治人，推惠施恩，士力日新。戰如風發，攻如河決，故其眾可望而不可當，可下而不可勝。以身先人，故其兵為天下雄。軍讖曰：軍以賞為表，以罰為裹。賞罰明，則將威行。官人得，則士卒服。所任賢，則敵國畏。
+
+軍讖曰：賢者所適，其前無敵。故士可下而不可驕，將可樂而不可憂，謀可深而不可疑。士驕，則下不順。將憂，則內外不相信。謀疑，則敵國奮，以此攻伐，則致亂。夫將者，國之命也，將能制勝，則國家安定。
+
+軍讖曰：將能清，能靜，能平，能整，能受諫，能聽訟，能納人，能採言，能知國俗，能圖山川，能表險難，能制軍權。故曰：仁賢之智，聖明之慮，負薪之言，廊廟之語，興衰之事，將所宜聞。將者，能思士如渴，則策從焉。夫將拒諫，則英雄散，策不從，則謀士叛。善惡同，則功臣倦。專己，則下歸咎。自伐，則下少功。信讒，則眾離心。貪財，則奸不禁。內顧，則士卒淫。將有一，則眾不服。有二，則軍無式。有三，則下奔北。有四，則禍及國。
+
+軍讖曰；將謀欲密，士眾欲一，攻敵欲疾。將謀密，則姦心閉。士眾一，則軍心結。攻敵疾，則備不及設。軍有此三者，則計不奪。將謀泄，則軍無勢。外窺內，則禍不制。財入營，則眾奸會。將有此三者，軍必敗。將無慮，則謀士去。將無勇，則士卒恐。將妄動，則軍不重，將遷怒，則一軍懼。
+
+軍讖曰：慮也，勇也，將之所重。動也，怒也，將之所用。此四者，將之盯誡也。
+
+軍讖曰：軍無財，士不來。軍無賞；士不往。
+
+軍讖曰：香餌之下，必有死魚。重賞之下，必有勇夫。故禮者，士之所歸，賞者，士之所死，招其所歸，示其所死，則所求者至。故禮而後悔者，士不止，賞而後悔者，士不使。禮賞不倦，則士爭死。
+
+軍讖曰：興師之國，務先隆恩。攻取之國，務先養民。以寡勝眾者，恩也。以弱勝強者，民也。故良將之養士，不易于身，故能使三軍如一心，則其勝可全。
+
+軍讖曰：用兵之要，必先察敵情，視其倉庫，度其糧食，卜其強弱，察其天地，伺其空隙。故國無軍旅之難，而運糧者，虛也。民菜色者，窮也。千里饋糧，士有飢色。樵蘇後爨，師不宿飽。夫運糧千里，無一年之食，二千里，無二年之食，三千里，無三年之食，是謂國虛。國虛，則民貧：民貧，則上下不親。敵攻其外，民盜其內，是謂必潰。
+
+軍讖曰：上行虐，則下急刻。賦重斂數，刑罰無極，民相殘賊，是謂亡國。
+
+軍讖曰：內貪外廉，詐譽取名，竊公為恩，令上下昏，飾躬正顏，以獲高官，是謂盜端。
+
+軍讖曰：群吏朋黨，各進所親。招舉姦枉，抑挫仁賢，背公立私，同位相訕，是謂亂源。
+
+軍讖曰：強宗聚姦，無位而尊，威而不震，葛藟相連，種德立恩，奪在位權，侵侮下民，國內諠譁，臣蔽不言，是謂亂根。
+
+軍讖曰：世世作姦，侵盜縣官，進退求便，委曲弄文，以危其君，是謂國姦。
+
+軍讖曰：吏多民寡，尊卑相若，強弱相虜，莫適禁禦，延及君子，國受其咎。
+
+軍讖曰：善善不進，惡惡不退，賢者隱蔽，不肖在位，國受其害。
+
+軍讖曰：枝葉強大，比周居勢，卑賤陵貴，久而益大，上不忍廢，國受其敗。
+
+軍讖曰：佞臣在上，一軍皆訟。引威自與，動違于眾。無進無退，苟然取容。專任自己，舉措伐功。誹謗盛德，誣述庸庸。無善無惡，皆與己同。稽留行事，命令不通。造作苛政，變古易常。君用佞人，必受禍殃。
+
+軍讖曰：姦雄相稱，障蔽主明。毀譽並興，壅塞主聰，各阿所私，令主失忠。故主察異言，乃觀其萌。主聘儒賢，姦雄乃遯。主任舊齒，萬事乃理。主聘巖穴，士乃得實。謀及負薪，功乃可述。不失人心，德乃洋益。
+
+夫三皇無言，而化流四海，故天下無所歸功。帝者，體天則地，有言有令，而天下太平：君臣讓功，四海化行，百姓不知其所以然，故使臣不待禮賞，有功美而無害。王者，制人以道，降心服志，設矩備衰，四海會同，王職不廢，雖有甲兵之備，而無戰鬥之患；君無疑于臣，臣無疑于主，國定民安，臣以義退，亦能美而無害。霸者，制士以權，結士以信，使士以賞：信衰則士疏，賞虧則士不用命。
+
+軍勢曰：出軍行師，將在自專。進退內御，則功難成。
+
+軍勢曰：使智，使勇，使貪，使愚。智者，樂立其功。勇者，好行其志。貪者，邀趨其利。愚者，不顧其死。因其至情而用之，此軍之微權也。
+
+軍勢曰：無使辯士談說敵美，為其惑眾。勿使仁者主財，為其多施而附于下。
+
+軍勢曰：禁巫祝，不得為吏士卜問軍之吉凶。
+
+軍勢曰：使義士，不以財。故義者，不為不仁者死。智者，不為闇主謀。
+
+主不可以無德，無德則臣叛：不可以無威，無威則失權。臣不可以無德，無德則無以事君：不可以無威，無威則國弱，威多則身蹶。
+
+故聖王御世，觀盛衰，度得失，而為之制。故諸侯二師，方伯三師，天子六師。世亂則叛逆生，王澤竭則盟誓相誅伐。
+
+德同勢敵，無以相傾，乃攬英雄之心，與眾同好惡，然後加之以權變。故非計策，無以決嫌定疑。非譎奇無以破姦息寇，非陰謀無以成功。
+
+聖人體天，賢人法地，智者師古。是故三略為衰世作：上略設禮賞，別姦雄，著成敗。中略差德行，審權變。下略陳道德，察安危，明賊賢之咎。故人主深曉上略，則能任賢擒敵。深曉中略，則能御將統眾。深曉下略，則能明盛衰之源，審治國之紀。
+
+人臣深曉中略，則能全功保身。夫高鳥死，良弓藏，敵國滅，謀臣亡。亡者，非喪其身也。謂奪其威，廢其權也。封之于朝，極人臣之位，以顯其功。中州善國，以富其家，美色珍玩，以悅其心。
+
+夫人眾一合而不可卒離。權威一與而不可卒移。還師罷軍，存亡之階。故弱之以位，奪之以國，是謂霸者之略，故霸者之作，其論駁也。
+
+存社稷，羅英雄者，中略之勢也，故勢秘焉。
+
+夫能扶天下之危者，則據天下之安。能除天下之憂者，則享天下之樂。能救天下之禍者，則獲天下之福。故澤及于民，則賢人歸之。澤及昆蟲，則聖人歸之。賢人所歸，則其國強。聖人所歸，則六合同。求賢以德、致聖以道。賢去則國微，聖去則國乖。微者危之階，乖者亡之徵。
+
+賢人之政，降人以體，聖人之政，降人以心。體降可以圖始，心降可以保終。降體以禮，降心以樂。所謂樂者，非金，石，絲，竹也，謂人樂其家，謂人樂其俗，謂人樂其業，謂人樂其都邑，謂人樂其政令，謂人樂其道德；加此君人者，乃作樂以節之，使不失其和。故有德之君，以樂樂人，無德之君，以樂樂身。樂人者，久而長，樂身者不久而亡。
+
+釋近謀近者，勞而無功。釋遠謀者，佚而有終。佚政多忠臣，勞政多怨民。故曰；務廣地者荒，務廣德者強。能有其有者安，貪人之有者殘。殘滅之政，累世受患。造作過制，雖成必敗。
+
+舍己而教人者逆，正己而化人者順。逆者亂之招，順者治之要。道、德、仁、義、禮五者，一體也。道者人之所蹈，德者人之所得，仁者人之所親，義者人之所宜，禮者人之所體，不可無一焉。故夙興夜寐，禮之制也。討賊報讎，義之決也。惻隱之心，仁之發也。得己，得人，德之路也。使人均平，不失其所，道之化也。
+
+出君下臣，名曰命。施于竹帛，名曰令。奉而行之，名曰政。夫命失，則令不行，令不行，則政不立。政不立，則道不通。道不通，則邪臣勝，邪臣勝，則主威傷。
+
+千里迎賢其路遠，致不肖其路近。是以明君舍近而收遠，故能全功尚人，而下盡力。
+
+廢一善則眾善衰，賞一惡則眾惡掃。善者得其佑，惡者受其誅，則國安而眾善至。眾疑無定國，眾惑無治民，疑定惑還，國乃可安。一令逆則百令失，一惡失則百惡結。故善施于順民，惡加于凶，則令行而無怨。
+
+使怨治怨，是謂逆天。使讎治讎，其禍不救。治民使平，致平以清。則民得其所，而天下寧。
+
+犯上者尊，貪鄙者富，雖有聖主，不能致其治。犯上者誅，貪鄙者拘，則化行而眾惡消。
+
+清白之士，不可以爵祿得。節義之士，不可以威刑脅。故明君求賢，必觀其所以而致焉。致清白之士，修其禮；致節義之士，修其道。然後士可致，而名可保。
+
+夫聖人君子，明盛衰之源，通成敗之端，審治亂之機，知去就之節。
+
+雖窮不處亡國之位，雖貧不食亂邦之祿。潛名抱道者，時至而動，則極人臣之位。德合于己，則建殊絕之功。故其道高而名揚于後世。
+
+聖王之用兵，非樂之也；將以誅暴討亂也。夫以義誅不義，若決江河而溉爝火，臨不測而擠欲墜，其克必矣。所以優游恬淡而不進者，重傷人物也。夫兵者，不祥之器，天道惡之，不得已而用之。是天道也。
+
+夫人之在道，若魚之在水，得水而生，失水而死，故君子常懼而不敢失道。
+
+豪傑秉職，國威乃弱，殺生在豪傑，國勢乃竭。豪傑低首，國乃可久。殺生在君，國乃可安。四民用虛，國乃無儲。四民用足，國乃安樂。
+
+賢臣內，則邪臣外。邪臣內，則賢臣斃。內外失宜，禍亂傳世。
+
+大臣疑主，眾姦集聚。臣當君尊，上下乃昏。君當臣處，上下失序。
+
+傷賢者，殃及三世。蔽賢者，身受其害。嫉賢者，其名不全。進賢者，福流子孫。故君子急于進賢，而美名彰焉。
+
+利一害百，民去城郭。利一害萬，國乃思散。去一利百，人乃慕澤。去一利萬，政乃不亂。
+
+
+## 五、《尉繚子》選篇
+
+### 天官
+
+梁惠王問尉繚子曰：「黃帝刑德，可以百勝，有之乎？」尉繚子對曰：「刑以伐之，德以守之，非所謂天官時日陰陽向背也。黃帝者，人事而已矣。
+
+「今有城，東西攻不能取；南北攻不能取；四方豈無順時乘之者耶？然不能取者，城高池深，兵器備具，財穀多積，豪士一謀者也。若城下池淺守弱，則取之矣。由此觀之，天官時日不若人事也。
+
+「按天官曰：『背水陣為絕地，向阪陣為廢軍。』武王伐紂，背濟水向山阪而陣，以二萬二千五百人，擊紂之億萬而滅商，豈紂不得天官之陣哉！
+
+「楚將公子心與齊人戰，時有彗星出，柄在齊。柄所在勝，不可擊。公子心曰：『彗星何知？以彗鬥者固倒而勝焉。』明日與齊戰，大破之。
+
+「黃帝曰：『先神先鬼，先稽我智。』謂之天官人事而已。」
+
+
+### 兵談
+
+量土地肥墝而立邑，建城稱地，以城稱人，以人稱粟。三相稱，則內可以固守，外可以戰勝。戰勝於外，備主於內，勝備相用，猶合符節，無異故也。
+
+治兵者，若秘於地，若邃於天，生於無，故關之。大不窕，小不恢，明乎禁舍開塞，民流者親之。地不任者任之。夫土廣而任則國富，民眾而制則國治。富治者，民不發軔，甲不出暴，而威制天下。故曰：『兵勝於朝廷。』不暴甲而勝者，主勝也；陣而勝者，將勝也。
+
+兵起，非可以忿也，見勝則興，不見勝則止。患在百里之內，不起一日之師；患在千里之內，不起一月之師；患在四海之內，不起一歲之師。
+
+將者，上不制於天，下不制於地，中不制於人，寬不可激而怒，清不可事以財。夫心狂、目盲、耳聾，以三悖率人者難矣。
+
+兵之所及，羊腸亦勝，鋸齒亦勝，緣山亦勝，入谷亦勝，方亦勝，員亦勝。重者如山、如林、如江、如河，輕者如炮、如燔、如垣壓之，如雲覆之，令人聚不得以散，散不得以聚，左不得以右，右不得以左。兵如總木，弩如羊角，人人無不騰陵張膽，絕乎疑慮，堂堂決而去。
+
+
+### 制談
+
+凡兵，制必先定，制先定則士不亂，士不亂則形乃明。金鼓所指，則百人盡鬥。陷行亂陣，則千人盡鬥。覆軍殺將，則萬人齊刃。天下莫能當其戰矣。
+
+古者，士有什伍，車有偏列，鼓鳴旂麾，先登者未嘗非多力國士也，先死者亦未嘗非多力國士也。
+
+損敵一人，而損我百人，此資敵而傷甚焉，世將不能禁。征役分軍而逃歸，或臨戰自北，則逃傷甚焉，世將不能禁。殺人於百步之外者弓矢也，殺人於五十步之內者矛戟也，將已鼓而士卒相囂，拗矢折矛抱戟，利後發，戰，有此數者，內自敗也，世將不能禁。士失什伍，車失偏列，奇兵捐將而走，大眾亦走，世將不能禁。夫將能禁此四者，則高山陵之，深水絕之，堅陣犯之。不能禁此四者，猶亡舟楫，絕江河，不可得也。
+
+民非樂死而惡生也，號令明，法制審，故能使之前。明賞於前，決罰於後，是以發能中利，動則有功。
+
+令百人一卒，千人一司馬，萬人一將，以少誅眾，以弱誅強。試聽臣言，其術足使三軍之眾，誅一人無失刑，父不敢舍子，子不敢舍父，況國人乎？
+
+一賊仗劍擊於市，萬人無不避之者，臣謂：『非一人之獨勇，萬人皆不肖也』。何則？『必死與必生，固不侔也。』聽臣之術，足使三軍之眾為一死賊，莫當其前，莫隨其後，而能獨出獨入焉。獨出獨入者，王伯之兵也。
+
+有提九萬之眾，而天下莫能當者，誰？曰：『桓公也。』有提七萬之眾，而天下莫敢當者，誰？曰：『吳起也。』有提三萬之眾，而天下莫敢當者，誰？曰：『武子也。』今天下諸國士所率無不及二十萬眾者，然不能濟功名者，不明乎禁舍開塞也。明其制，一人勝之，則十人亦以勝之也。十人勝之，則百千萬人亦以勝之也。故曰：『便吾器用，養吾武勇，發之如鳥擊，如赴千仞之谿。』
+
+今國被患者，以重幣出聘，以愛子出質，以地界出割，得天下助，卒名為十萬，其實不過數萬爾。其兵來者，無不謂將者曰：『無為人下，先戰。』其實不可得而戰也。
+
+量吾境內之民，無伍莫能正矣。經制十萬之眾，而王必能使之衣吾衣，食吾食。戰不勝，守不固者，非吾民之罪，內自致也。天下諸國助我戰，猶良驥騄耳之駃，彼駑馬鬐興角逐，何能紹吾後哉？
+
+吾用天下之用為用，吾制天下之制為制，修吾號令，明吾刑賞，使天下非農所得食，非戰無所得爵，使民揚臂爭出農、戰，而天下無敵矣。故曰：『發號出令，信行國內。』
+
+民言有可以勝敵者，毋許其空言，必試其能戰也。
+
+視人之地而有之，分人之民而畜之，必能內有其賢者也。不能內有其賢，而欲有天下，必覆軍殺將。如此，雖戰勝而國益弱，得地而國益貧，由國中之制弊矣。
+
+
+### 戰威
+
+凡兵，有以道勝，有以威勝，有以力勝。講武料敵，使敵之氣失而師散，雖形全而不為之用，此道勝也。審法制，明賞罰，便器用，使民有必戰之心，此威勝也。破軍殺將，乘闉發機，潰眾奪地，成功乃返，此力勝也。王侯如此，所以三勝者畢矣。
+
+夫將之所以戰者民也，民之所以戰者氣也。氣實則鬥，氣奪則走。
+
+刑未加，兵未接，而所以奪敵者五：一曰廟勝之論；二曰受命之論；三曰踰垠之論；四曰深溝高壘之論；五曰舉陣加刑之論。此五者，先料敵而後動，是以擊虛奪之也。
+
+善用兵者，能奪人而不奪於人。奪者心之機也，令者一眾心也。眾不審則數變，數變則令雖出眾不信矣。
+
+故令之之法，小過無更，小疑無申。故上無疑令，則眾不二聽，動無疑事，則眾不二志，未有不信其心而能得其力者也，未有不得其力而能致其死戰者也。
+
+故國必有禮、信、親、愛之義，則可以飢易飽；國必有孝、慈、廉、恥之俗，則可以死易生。古者率民必先禮信而後爵祿，先廉恥而後刑罰，先親愛而後律其身。
+
+故戰者必本乎率身以勵眾士，如心之使四肢也。志不勵則士不死節，士不死節則眾不戰。
+
+勵士之道，民之生不可不厚也。爵列之等，死喪之親，民之所營不可不顯也。必也因民所生而制之，因民所營而顯之，田祿之實，飲食之親，鄉里相勸，死喪相救，兵役相從，此民之所勵也。
+
+使什伍如親戚，卒伯如朋友。止如堵牆，動如風雨，車不結轍，士不旋踵，此本戰之道也。
+
+地所以養民也，城所以守地也，戰所以守城也，故務耕者民不飢，務守者地不危，務戰者城不圍。三者，先王之本務也，本務者兵最急。
+
+故先王專務於兵，有五焉，委積不多則士不行；賞祿不厚則民不勸；武士不選則眾不強；器用不便則力不壯；刑罰不中則眾不畏。務此五者，靜能守其所固，動能成其所欲。
+
+夫以居攻出，則居欲重，陣欲堅，發欲畢，鬥欲齊。
+
+王國富民，伯國富士，謹存之國富大夫，亡國富食府，所謂上滿下漏，患無所救。
+
+故曰：『舉賢任能，不時日而事利；明法審令，不卜筮而事吉；貴功養勞，不禱祠而得福。』又曰：『天時不如地利，地利不如人和。』聖人所貴，人事而已。
+
+夫勤勞之師，將必先己，暑不張蓋，寒不重衣，險必下步，軍井成而後飲，軍食熟而後飯，軍壘成而後舍，勞佚必以身同之。如此，則師雖久，而不老不弊。
+
+
+### 攻權
+
+兵以靜勝，國以專勝。
+
+力分者弱，心疑者背。夫力弱故進退不豪，縱敵不擒，將吏士卒動靜一身。心既疑背，則計決而不動，動決而不禁，異口虛言。將無修容，卒無常試，發攻必衄，是謂疾陵之兵，無足與鬥。
+
+將帥者心也，群下者支節也。其心動以誠，則支節必力；其心動以疑，則支節必背。夫將不心制，卒不節動，雖勝幸勝也，非攻權也。
+
+夫民無兩畏也，畏我侮敵，畏敵侮我。見侮者敗，立威者勝。凡將能其道者，吏畏其將也；吏畏其將者，民畏其吏也；民畏其吏者，敵畏其民也。是故，知勝敗之道者，必先知畏侮之權。
+
+夫不愛悅其心者，不我用也；不嚴畏其心者，不我舉也。愛在下順，威在上立，愛故不二，威故不犯。故善將者，愛與威而已。
+
+戰不必勝，不可以言戰；攻不必拔，不可以言攻。不然雖刑賞不足信也。信在期前，事在未兆，故眾已聚不虛散，兵出不徒歸，求敵若求亡子，擊敵若救溺人。
+
+分險者無戰心，挑戰者無全氣，鬥戰者無勝兵。凡挾義而戰者，貴從我起，爭私結怨，應不得已。怨結雖起，待之貴後，故爭必當待之，息必當備之。
+
+兵有勝於朝廷，有勝於原野，有勝於市井，鬥則得，服則失，幸以不敗，此不意彼驚懼而曲勝之也。曲勝，言非全也。非全勝者，無權名。故明主戰攻日，合鼓合角，節以兵刃，不求勝而勝也。
+
+兵有去備徹威而勝者，以其有法故也。有器用之蚤定也，其應敵也周，其總率也極。故五人而伍，十人而什，百人而卒，千人而率，萬人而將，已周已極，其朝死則朝代，暮死則暮代，權敵審將，而後舉兵。
+
+故凡集兵千里者旬日，百里者一日，必集敵境。卒聚將至，深入其地，錯絕其道，棲其大城大邑，使之登城逼危，男女數重，各逼地形，而攻要塞。據一城邑，而數道絕，從而攻之，敵將帥不能信，吏卒不能和，刑有所不從者，則我敗之矣。敵救未至，而一城已降。
+
+津梁未發，要塞未修，城險未設，渠答未張，則雖有城無守矣。遠堡未入，戍客未歸，則雖有人無人矣。六畜未聚，五穀未收，財用未歛，則雖有資無資矣。夫城邑空虛而資盡者，我因其虛而攻之。法曰：『獨出獨入，敵不接刃而致之。』此之謂矣。
+
+
+## 六、《六韜》選篇
+
+### 文師
+
+文王將田，史編布卜，曰：「田於渭陽，將大得焉。非龍非螭，非虎非羆，兆得公侯。天遺汝師，以之佐昌，施及三王。」文王曰：「兆致是乎？」史編曰：「編之太祖史疇，為禹占，得皋陶，兆比於此。」文王乃齋三日，乘田車，駕田馬，田於渭陽，卒見太公，坐茅以漁。
+
+文王勞而問之曰：「子樂漁邪？」太公曰：「臣聞君子樂得其志，小人樂得其事。今吾漁，甚有似也。殆非樂之也。」文王曰：「何謂其有似也？」太公曰：「釣有三權：祿等以權，死等以權，官等以權。夫釣以求得也，其情深，可以觀大矣。」文王曰：「願聞其情。」太公曰：「源深而水流，水流而魚生之，情也。根深而木長，木長而實生之，情也。君子情同而親合，親合而事生之，情也。言語應對者，情之飾也；言至情者，事之極也。今臣言至情不諱，君其惡之乎？」文王曰：「唯仁人能受至諫，不惡至情，何為其然？」太公曰：「緡微餌明，小魚食之；緡調餌香，中魚食之；緡隆餌豐，大魚食之。夫魚食其餌，乃牽於緡；人食其祿，乃服於君。故以餌取魚，魚可殺；以祿取人，人可竭；以家取國，國可拔；以國取天下，天下可畢。
+
+「嗚呼！曼曼緜緜，其聚必散；嘿嘿昧昧，其光必遠。微哉！聖人之德，誘乎獨見；樂哉！聖人之慮，各歸其次，而樹斂焉。」文王曰：「樹斂何若而天下歸之？」太公曰：「天下非一人之天下，乃天下之天下也。同天下之利者，則得天下；擅天下之利者，則失天下。天有時，地有財，能與人共之者、仁也；仁之所在，天下歸之。免人之死、解人之難、救人之患、濟人之急者，德也；德之所在，天下歸之。與人同憂同樂、同好同惡者，義也；義之所在，天下赴之。凡人惡死而樂生，好德而歸利，能生利者、道也；道之所在，天下歸之。」文王再拜曰：「允哉！敢不受天之詔命乎？」乃載與俱歸，立為師。
+
+
+### 盈虛
+
+文王問太公曰：「天下熙熙，一盈一虛，一治一亂，所以然者，何也？其君賢、不肖不等乎？其天時變化自然乎？」太公曰：「君不肖，則國危而民亂；君賢聖，則國安而民治。禍福在君，不在天時。」
+
+文王曰：「古之賢君，可得聞乎？」太公曰：「昔者帝堯之王天下，上世所謂賢君也。」文王曰：「其治如何？」太公曰：「帝堯王天下之時，金銀珠玉不飾，錦繡文綺不衣，奇怪珍異不視，玩好之器不寶，淫泆之樂不聽，宮垣屋室不堊，甍桷椽楹不斲，茅茨徧庭不剪。鹿裘禦寒，布衣掩形；糲粱之飯，藜藿之羹。不以役作之故，害民耕績之時，削心約志，從事乎無為。吏、忠正奉法者尊其位，廉潔愛人者厚其祿。民、有孝慈者愛敬之，盡力農桑者慰勉之。旌別淑德，表其門閭。平心正節，以法度禁邪偽。所憎者，有功必賞；所愛者，有罪必罰。存養天下鰥寡孤獨，振贍禍亡之家。其自奉也甚薄，其賦役也甚寡。故萬民富樂而無飢寒之色。百姓戴其君如日月，親其君如父母。」文王曰：「大哉！賢君之德也。」
+
+
+### 國務
+
+文王問太公曰：「願聞為國之大務，欲使主尊人安，為之奈何？」太公曰：「愛民而已。」文王曰：「愛民奈何？」太公曰：「利而勿害，成而勿敗，生而勿殺，與而勿奪，樂而勿苦，喜而勿怒。」文王曰：「敢請釋其故。」太公曰：「民不失務，則利之；農不失時，則成之；省刑罰，則生之；薄賦斂，則與之；儉宮室、臺榭，則樂之；吏清不苛擾，則喜之；民失其務，則害之；農失其時，則敗之；無罪而罰，則殺之；重賦斂，則奪之；多營宮室、臺榭以疲民力，則苦之；吏濁苛擾，則怒之。故善為國者，馭民如父母之愛子，如兄之愛弟。見其飢寒則為之憂，見其勞苦則為之悲。賞罰如加於身，賦斂如取己物。此愛民之道也。」
+
+
+### 大禮
+
+文王問太公曰：「君臣之禮如何？」太公曰：「為上唯臨，為下唯沈；臨而無遠，沈而無隱。為上唯周，為下唯定；周、則天也，定、則地也。或天或地，大禮乃成。」
+
+文王曰：「主位如何？」太公曰：「安徐而靜，柔節先定，善與而不爭。虛心平志，待物以正。」
+
+文王曰：「主聽如何？」太公曰：「勿妄而許，勿逆而拒；許之則失守，拒之則閉塞。高山仰之，不可極也；深淵度之，不可測也。神明之德，正靜其極。」
+
+文王曰：「主明如何？」太公曰：「目貴明，耳貴聰，心貴智。以天下之目視，則無不見也。以天下之耳聽，則無不聞也。以天下之心慮，則無不知也。輻湊並進，則明不蔽矣。」
+
+---
+
+# 五、史書
+
+## 一、《史記》選篇
+
+### 五帝本紀
+
+黃帝者，少典之子，姓公孫，名曰軒轅。生而神靈，弱而能言，幼而徇齊，長而敦敏，成而聰明。
+
+軒轅之時，神農氏世衰。諸侯相侵伐，暴虐百姓，而神農氏弗能征。於是軒轅乃習用干戈，以征不享，諸侯咸來賓從。而蚩尤最為暴，莫能伐。炎帝欲侵陵諸侯，諸侯咸歸軒轅。軒轅乃修德振兵，治五氣，藝五種，撫萬民，度四方，教熊羆貔貅貙虎，以與炎帝戰於阪泉之野。三戰然後得其志。蚩尤作亂，不用帝命。於是黃帝乃徵師諸侯，與蚩尤戰於涿鹿之野，遂禽殺蚩尤。而諸侯咸尊軒轅為天子，代神農氏，是為黃帝。天下有不順者，黃帝從而征之，平者去之，披山通道，未嘗寧居。
+
+東至于海，登丸山，及岱宗。西至于空桐，登雞頭。南至于江，登熊、湘。北逐葷粥，合符釜山，而邑于涿鹿之阿。遷徙往來無常處，以師兵為營衛。官名皆以雲命，為雲師。置左右大監，監于萬國。萬國和，而鬼神山川封禪與為多焉。獲寶鼎，迎日推筴。舉風后、力牧、常先、大鴻以治民。順天地之紀，幽明之占，死生之說，存亡之難。時播百穀草木，淳化鳥獸蟲蛾，旁羅日月星辰水波土石金玉，勞勤心力耳目，節用水火材物。有土德之瑞，故號黃帝。
+
+黃帝二十五子，其得姓者十四人。
+
+黃帝居于軒轅之丘，而娶于西陵之女，是為嫘祖為黃帝正妃，生二子，其後皆有天下：其一曰玄囂，是為青陽，青陽降居江水；其二曰昌意，降居若水。昌意娶蜀山氏女，曰昌仆，生高陽，高陽有聖德焉。黃帝崩，葬橋山。其孫昌意之子高陽立，是為帝顓頊也。
+
+帝顓頊高陽者，黃帝之孫而昌意之子也。靜淵以有謀，疏通而知事；養材以任地，載時以象天，依鬼神以制義，治氣以教化，絜誠以祭祀。北至于幽陵，南至于交阯，西至于流沙，東至于蟠木。動靜之物，大小之神，日月所照，莫不砥屬。
+
+帝顓頊生子曰窮蟬。顓頊崩，而玄囂之孫高辛立，是為帝嚳。
+
+帝嚳高辛者，黃帝之曾孫也。高辛父曰蟜極，蟜極父曰玄囂，玄囂父曰黃帝。自玄囂與蟜極皆不得在位，至高辛即帝位。高辛於顓頊為族子。
+
+高辛生而神靈，自言其名。普施利物，不於其身。聰以知遠，明以察微。順天之義，知民之急。仁而威，惠而信，修身而天下服。取地之財而節用之，撫教萬民而利誨之，歷日月而迎送之，明鬼神而敬事之。其色郁郁，其德嶷嶷。其動也時，其服也士。帝嚳溉執中而遍天下，日月所照，風雨所至，莫不從服。
+
+帝嚳娶陳鋒氏女，生放勛。娶娵訾氏女，生摯。帝嚳崩，而摯代立。帝摯立，不善（崩），而弟放勛立，是為帝堯。
+
+帝堯者，放勛。其仁如天，其知如神。就之如日，望之如雲。富而不驕，貴而不舒。黃收純衣，彤車乘白馬。能明馴德，以親九族。九族既睦，便章百姓。百姓昭明，合和萬國。
+
+乃命羲、和，敬順昊天，數法日月星辰，敬授民時。分命羲仲，居郁夷，曰暘谷。敬道日出，便程東作。日中，星鳥，以殷中春。其民析，鳥獸字微。申命羲叔，居南交。便程南為，敬致。日永，星火，以正中夏。其民因，鳥獸希革。申命和仲，居西土，曰昧谷。敬道日入，便程西成。夜中，星虛，以正中秋。其民夷易，鳥獸毛毨。申命和叔；居北方，曰幽都。便在伏物。日短，星昴，以正中冬。其民燠，鳥獸氄毛。歲三百六十六日，以閏月正四時。信飭百官，眾功皆興。
+
+堯曰：「誰可順此事？」放齊曰：「嗣子丹朱開明。」堯曰：「吁！頑凶，不用。」堯又曰：「誰可者？」讙兜曰：「共工旁聚布功，可用。」堯曰：「共工善言，其用僻，似恭漫天，不可。」堯又曰：「嗟，四嶽，湯湯洪水滔天，浩浩懷山襄陵，下民其憂，有能使治者？」皆曰鯀可。堯曰：「鯀負命毀族，不可。」嶽曰：「異哉，試不可用而已。」堯於是聽嶽用鯀。九歲，功用不成。
+
+堯曰：「嗟！四嶽：朕在位七十載，汝能庸命，踐朕位？」嶽應曰：「鄙德忝帝位。」堯曰：「悉舉貴戚及疏遠隱匿者。」眾皆言於堯曰：「有矜在民閒，曰虞舜。」堯曰：「然，朕聞之。其何如？」嶽曰：「盲者子。父頑，母嚚，弟傲，能和以孝，烝烝治，不至姦。」堯曰：「吾其試哉。」於是堯妻之二女，觀其德於二女。舜飭下二女於媯汭，如婦禮。
+
+堯善之，乃使舜慎和五典，五典能從。乃遍入百官，百官時序。賓於四門，四門穆穆，諸侯遠方賓客皆敬。堯使舜入山林川澤，暴風雷雨，舜行不迷。堯以為聖，召舜曰：「女謀事至而言可績，三年矣。女登帝位。」舜讓於德不懌。正月上日，舜受終於文祖。文祖者，堯大祖也。
+
+於是帝堯老，命舜攝行天子之政，以觀天命。舜乃在璿璣玉衡，以齊七政。遂類于上帝，禋于六宗，望于山川，辯于群神。揖五瑞，擇吉月日，見四嶽諸牧，班瑞。歲二月，東巡狩，至於岱宗，祡，望秩於山川。遂見東方君長，合時月正日，同律度量衡，修五禮五玉三帛二生一死為摯，如五器，卒乃復。五月，南巡狩；八月，西巡狩；十一月，北巡狩：皆如初。歸，至于祖禰廟，用特牛禮。五歲一巡狩，群后四朝。遍告以言，明試以功，車服以庸。肇十有二州，決川。象以典刑，流宥五刑，鞭作官刑，撲作教刑，金作贖刑。眚災過，赦；怙終賊，刑。欽哉，欽哉，惟刑之靜哉！
+
+讙兜進言共工，堯曰不可而試之工師，共工果淫辟。四嶽舉鯀治鴻水，堯以為不可，嶽彊請試之，試之而無功，故百姓不便。三苗在江淮、荊州數為亂。於是舜歸而言於帝，請流共工於幽陵，以變北狄；放讙兜於崇山，以變南蠻；遷三苗於三危，以變西戎；殛鯀於羽山，以變東夷：四罪而天下咸服。
+
+堯立七十年得舜，二十年而老，令舜攝行天子之政，薦之於天。堯辟位凡二十八年而崩。百姓悲哀，如喪父母。三年，四方莫舉樂，以思堯。堯知子丹朱之不肖，不足授天下，於是乃權授舜。授舜，則天下得其利而丹朱病；授丹朱，則天下病而丹朱得其利。堯曰：「終不以天下之病而利一人」，而卒授舜以天下。堯崩，三年之喪畢，舜讓辟丹朱於南河之南。諸侯朝覲者不之丹朱而之舜，獄訟者不之丹朱而之舜，謳歌者不謳歌丹朱而謳歌舜。舜曰：「天也」，夫而後之中國踐天子位焉，是為帝舜。
+
+虞舜者，名曰重華。重華父曰瞽叟，瞽叟父曰橋牛，橋牛父曰句望，句望父曰敬康，敬康父曰窮蟬，窮蟬父曰帝顓頊，顓頊父曰昌意：以至舜七世矣。自從窮蟬以至帝舜，皆微為庶人。
+
+舜父瞽叟盲，而舜母死，瞽叟更娶妻而生象，象傲。瞽叟愛後妻子，常欲殺舜，舜避逃；及有小過，則受罪。順事父及後母與弟，日以篤謹，匪有解。
+
+舜，冀州之人也。舜耕歷山，漁雷澤，陶河濱，作什器於壽丘，就時於負夏。舜父瞽叟頑，母嚚，弟象傲，皆欲殺舜。舜順適不失子道，兄弟孝慈。欲殺，不可得；即求，嘗在側。
+
+舜年二十以孝聞。三十而帝堯問可用者，四嶽咸薦虞舜，曰可。於是堯乃以二女妻舜以觀其內，使九男與處以觀其外。舜居媯汭，內行彌謹。堯二女不敢以貴驕事舜親戚，甚有婦道。堯九男皆益篤。舜耕歷山，歷山之人皆讓畔；漁雷澤，雷澤上人皆讓居；陶河濱，河濱器皆不苦窳。一年而所居成聚，二年成邑，三年成都。堯乃賜舜絺衣，與琴，為筑倉廩，予牛羊。瞽叟尚復欲殺之，使舜上涂廩，瞽叟從下縱火焚廩。舜乃以兩笠自捍而下，去，得不死。後瞽叟又使舜穿井，舜穿井為匿空旁出。舜既入深，瞽叟與象共下土實井，舜從匿空出，去。瞽叟、象喜，以舜為已死。象曰：「本謀者象。」象與其父母分，於是曰：「舜妻堯二女，與琴，象取之。牛羊倉廩予父母。」象乃止舜宮居，鼓其琴。舜往見之。象鄂不懌，曰：「我思舜正郁陶！」舜曰：「然，爾其庶矣！」舜復事瞽叟愛弟彌謹。於是堯乃試舜五典百官，皆治。
+
+昔高陽氏有才子八人，世得其利，謂之「八愷」。高辛氏有才子八人，世謂之「八元」。此十六族者，世濟其美，不隕其名。至於堯，堯未能舉。舜舉八愷，使主后土，以揆百事，莫不時序。舉八元，使布五教于四方，父義，母慈，兄友，弟恭，子孝，內平外成。
+
+昔帝鴻氏有不才子，掩義隱賊，好行凶慝，天下謂之渾沌。少暤氏有不才子，毀信惡忠，崇飾惡言，天下謂之窮奇。顓頊氏有不才子，不可教訓，不知話言，天下謂之梼杌。此三族世憂之。至于堯，堯未能去。縉云氏有不才子，貪于飲食，冒于貨賄，天下謂之饕餮。天下惡之，比之三凶。舜賓於四門，乃流四凶族，遷于四裔，以御螭魅，於是四門辟，言毋凶人也。
+
+舜入于大麓，烈風雷雨不迷，堯乃知舜之足授天下。堯老，使舜攝行天子政，巡狩。舜得舉用事二十年，而堯使攝政。攝政八年而堯崩。三年喪畢，讓丹朱，天下歸舜。而禹、皋陶、契、后稷、伯夷、夔、龍、倕、益、彭祖自堯時而皆舉用，未有分職。於是舜乃至於文祖，謀于四嶽，辟四門，明通四方耳目，命十二牧論帝德，行厚德，遠佞人，則蠻夷率服。舜謂四嶽曰：「有能奮庸美堯之事者，使居官相事？」皆曰：「伯禹為司空，可美帝功。」舜曰：「嗟，然！禹，汝平水土，維是勉哉。」禹拜稽首，讓於稷、契與皋陶。舜曰：「然，往矣。」舜曰：「棄，黎民始饑，汝后稷播時百穀。」舜曰：「契，百姓不親，五品不馴，汝為司徒，而敬敷五教，在寬。」舜曰：「皋陶，蠻夷猾夏，寇賊姦軌，汝作士，五刑有服，五服三就；五流有度，五度三居：維明能信。」舜曰：「誰能馴予工？」皆曰垂可。於是以垂為共工。舜曰：「誰能馴予上下草木鳥獸？」皆曰益可。於是以益為朕虞。益拜稽首，讓于諸臣朱虎、熊羆。舜曰：「往矣，汝諧。」遂以朱虎、熊羆為佐。舜曰：「嗟！四嶽，有能典朕三禮？」皆曰伯夷可。舜曰：「嗟！伯夷，以汝為秩宗，夙夜維敬，直哉維靜絜。」伯夷讓夔、龍。舜曰：「然。以夔為典樂，教稚子，直而溫，寬而栗，剛而毋虐，簡而毋傲；詩言意，歌長言，聲依永，律和聲，八音能諧，毋相奪倫，神人以和。」夔曰：「於！予擊石拊石，百獸率舞。」舜曰：「龍，朕畏忌讒說殄偽，振驚朕眾，命汝為納言，夙夜出入朕命，惟信。」舜曰：「嗟！女二十有二人，敬哉，惟時相天事。」三歲一考功，三考絀陟，遠近眾功咸興。分北三苗。
+
+此二十二人咸成厥功：皋陶為大理，平，民各伏得其實；伯夷主禮，上下咸讓；垂主工師，百工致功；益主虞，山澤辟；棄主稷，百穀時茂；契主司徒，百姓親和；龍主賓客，遠人至；十二牧行而九州莫敢辟違；唯禹之功為大，披九山，通九澤，決九河，定九州，各以其職來貢，不失厥宜。方五千里，至于荒服。南撫交阯、北發，西戎、析枝、渠廋、氐、羌，北山戎、發、息慎，東長、鳥夷，四海之內咸戴帝舜之功。於是禹乃興九招之樂，致異物，鳳皇來翔。天下明德皆自虞帝始。
+
+舜年二十以孝聞，年三十堯舉之，年五十攝行天子事，年五十八堯崩，年六十一代堯踐帝位。踐帝位三十九年，南巡狩，崩於蒼梧之野。葬於江南九疑，是為零陵。舜之踐帝位，載天子旗，往朝父瞽叟，夔夔唯謹，如子道。封弟象為諸侯。舜子商均亦不肖，舜乃豫薦禹於天。十七年而崩。三年喪畢，禹亦乃讓舜子，如舜讓堯子。諸侯歸之，然後禹踐天子位。堯子丹朱，舜子商均，皆有疆土，以奉先祀。服其服，禮樂如之。以客見天子，天子弗臣，示不敢專也。
+
+自黃帝至舜、禹，皆同姓而異其國號，以章明德。故黃帝為有熊，帝顓頊為高陽，帝嚳為高辛，帝堯為陶唐，帝舜為有虞。帝禹為夏后而別氏，姓姒氏。契為商，姓子氏。棄為周，姓姬氏。
+
+太史公曰：學者多稱五帝，尚矣。然尚書獨載堯以來；而百家言黃帝，其文不雅馴，薦紳先生難言之。孔子所傳宰予問五帝德及帝系姓，儒者或不傳。余嘗西至空桐，北過涿鹿，東漸於海，南浮江淮矣，至長老皆各往往稱黃帝、堯、舜之處，風教固殊焉，總之不離古文者近是。予觀春秋、國語，其發明五帝德、帝系姓章矣，顧弟弗深考，其所表見皆不虛。書缺有閒矣，其軼乃時時見於他說。非好學深思，心知其意，固難為淺見寡聞道也。余并論次，擇其言尤雅者，故著為本紀書首。
+
+
+### 夏本紀
+
+夏禹，名曰文命。禹之父曰鯀，鯀之父曰帝顓頊，顓頊之父曰昌意，昌意之父曰黃帝。禹者，黃帝之玄孫而帝顓頊之孫也。禹之曾大父昌意及父鯀皆不得在帝位，為人臣。
+
+當帝堯之時，鴻水滔天，浩浩懷山襄陵，下民其憂。堯求能治水者，群臣四嶽皆曰鯀可。堯曰：「鯀為人負命毀族，不可。」四嶽曰：「等之未有賢於鯀者，願帝試之。」於是堯聽四嶽，用鯀治水。九年而水不息，功用不成。於是帝堯乃求人，更得舜。舜登用，攝行天子之政，巡狩。行視鯀之治水無狀，乃殛鯀於羽山以死。天下皆以舜之誅為是。於是舜舉鯀子禹，而使續鯀之業。
+
+堯崩，帝舜問四嶽曰：「有能成美堯之事者使居官？」皆曰：「伯禹為司空，可成美堯之功。」舜曰：「嗟，然！」命禹：「女平水土，維是勉之。」禹拜稽首，讓於契、后稷、皋陶。舜曰：「女其往視爾事矣。」
+
+禹為人敏給克勤；其德不違，其仁可親，其言可信；聲為律，身為度，稱以出；亹亹穆穆，為綱為紀。
+
+禹乃遂與益、后稷奉帝命，命諸侯百姓興人徒以傅土，行山表木，定高山大川。禹傷先人父鯀功之不成受誅，乃勞身焦思，居外十三年，過家門不敢入。薄衣食，致孝于鬼神。卑宮室，致費於溝淢。陸行乘車，水行乘船，泥行乘橇，山行乘檋。左準繩，右規矩，載四時，以開九州，通九道，陂九澤，度九山。令益予眾庶稻，可種卑溼。命后稷予眾庶難得之食。食少，調有餘相給，以均諸侯。禹乃行相地宜所有以貢，及山川之便利。
+
+禹行自冀州始。冀州：既載壺口，治梁及岐。既修太原，至于嶽陽。覃懷致功，至於衡漳。其土白壤。賦上上錯，田中中，常、衛既從，大陸既為。鳥夷皮服。夾右碣石，入于海。
+
+濟、河維沇州：九河既道，雷夏既澤，雍、沮會同，桑土既蠶，於是民得下丘居土。其土黑墳，草繇木條。田中下，賦貞，作十有三年乃同。其貢漆絲，其篚織文。浮於濟、漯，通於河。
+
+海岱維青州：堣夷既略，濰、淄其道。其土白墳，海濱廣潟，厥田斥鹵。田上下，賦中上。厥貢鹽絺，海物維錯，岱畎絲、枲、鉛、松、怪石，萊夷為牧，其篚酓絲。浮於汶，通於濟。
+
+海岱及淮維徐州：淮、沂其治，蒙、羽其藝。大野既都，東原底平。其土赤埴墳，草木漸包。其田上中，賦中中。貢維土五色，羽畎夏狄，嶧陽孤桐，泗濱浮磬，淮夷蠙珠臮魚，其篚玄纖縞。浮于淮、泗，通于河。
+
+淮海維揚州：彭蠡既都，陽鳥所居。三江既入，震澤致定。竹箭既布。其草惟夭，其木惟喬，其土涂泥。田下下，賦下上上雜。貢金三品，瑤、琨、竹箭，齒、革、羽、旄，島夷卉服，其篚織貝，其包橘、柚錫貢。均江海，通淮、泗。
+
+荊及衡陽維荊州：江、漢朝宗于海。九江甚中，沱、涔已道，云土、夢為治。其土涂泥。田下中，賦上下。貢羽、旄、齒、革，金三品，杶、榦、栝、柏，礪、砥、砮、丹，維箘簬、楛，三國致貢其名，包匭菁茅，其篚玄纁璣組，九江入賜大龜。浮于江、沱、涔、（于）漢，踰于雒，至于南河。
+
+荊河惟豫州：伊、雒、瀍、澗既入于河，滎播既都，道荷澤，被明都。其土壤，下土墳壚。田中上，賦雜上中。貢漆、絲、絺、紵，其篚纖絮，錫貢磬錯。浮於雒，達於河。
+
+華陽黑水惟梁州：汶、嶓既藝，沱、涔既道，蔡、蒙旅平，和夷厎績。其土青驪。田下上，賦下中三錯。貢璆、鐵、銀、鏤、砮、磬，熊、羆、狐、貍、織皮。西傾因桓是來，浮于潛，踰于沔，入于渭，亂于河。
+
+黑水西河惟雍州：弱水既西，涇屬渭汭。漆、沮既從，灃水所同。荊、岐已旅，終南、敦物至于鳥鼠。原隰厎績，至于都野。三危既度，三苗大序。其土黃壤。田上上，賦中下。貢璆、琳、瑯玕。浮于積石，至于龍門西河，會于渭汭。織皮昆侖、析支、渠搜，西戎即序。
+
+道九山：汧及岐至于荊山，踰于河；壺口、雷首至于太嶽；砥柱、析城至于王屋；太行、常山至于碣石，入于海；西傾、朱圉、鳥鼠至于太華；熊耳、外方、桐柏至于負尾；道嶓冢，至于荊山；內方至于大別；汶山之陽至衡山，過九江，至于敷淺原。
+
+道九川：弱水至於合黎，餘波入于流沙。道黑水，至于三危，入于南海。道河積石，至于龍門，南至華陰，東至砥柱，又東至于盟津，東過雒汭，至于大邳，北過降水，至于大陸，北播為九河，同為逆河，入于海。嶓冢道瀁，東流為漢，又東為蒼浪之水，過三澨，入于大別，南入于江，東匯澤為彭蠡，東為北江，入于海。汶山道江，東別為沱，又東至于醴，過九江，至于東陵，東迆北會于匯，東為中江，入于梅。道沇水，東為濟，入于河，泆為滎，東出陶丘北，又東至于荷，又東北會于汶，又東北入于海。道淮自桐柏，東會于泗、沂，東入于海。道渭自鳥鼠同穴，東會于灃，又東北至于涇，東過漆、沮，入于河。道雒自熊耳，東北會于澗、瀍，又東會于伊，東北入于河。
+
+於是九州攸同，四奧既居，九山刊旅，九川滌原，九澤既陂，四海會同。六府甚修，眾土交正，致慎財賦，咸則三壤成賦。中國賜土姓：「祗臺德先，不距朕行。」
+
+令天子之國以外五百里甸服：百里賦納總，二百里納銍，三百里納秸服，四百里粟，五百里米。甸服外五百里侯服：百里采，二百里任國，三百里諸侯。侯服外五百里綏服：三百里揆文教，二百里奮武衛。綏服外五百里要服：三百里夷，二百里蔡。要服外五百里荒服：三百里蠻，二百里流。
+
+東漸于海，西被于流沙，朔、南暨：聲教訖于四海。於是帝錫禹玄圭，以告成功于天下。天下於是太平治。
+
+皋陶作士以理民。帝舜朝，禹、伯夷、皋陶相與語帝前。皋陶述其謀曰：「信其道德，謀明輔和。」禹曰：「然，如何？」皋陶曰：「於！慎其身修，思長，敦序九族，眾明高翼，近可遠在已。」禹拜美言，曰：「然。」皋陶曰：「於！在知人，在安民。」禹曰：「吁！皆若是，惟帝其難之。知人則智，能官人；能安民則惠，黎民懷之。能知能惠，何憂乎驩兜，何遷乎有苗，何畏乎巧言善色佞人？」皋陶曰：「然，於！亦行有九德，亦言其有德。」乃言曰：「始事事，寬而栗，柔而立，願而共，治而敬，擾而毅，直而溫，簡而廉，剛而實，彊而義，章其有常，吉哉。日宣三德，蚤夜翊明有家。日嚴振敬六德，亮采有國。翕受普施，九德咸事，俊乂在官，百吏肅謹。毋教邪淫奇謀。非其人居其官，是謂亂天事。天討有罪，五刑五用哉。吾言厎可行乎？」禹曰：「女言致可績行。」皋陶曰：「余未有知，思贊道哉。」
+
+帝舜謂禹曰：「女亦昌言。」禹拜曰；「於，予何言！予思日孳孳。」皋陶難禹曰：「何謂孳孳？」禹曰：「鴻水滔天，浩浩懷山襄陵，下民皆服於水。予陸行乘車，水行乘舟，泥行乘橇，山行乘檋，行山刊木。與益予眾庶稻鮮食。以決九川致四海，浚畎澮致之川。與稷予眾庶難得之食。食少，調有餘補不足，徙居。眾民乃定，萬國為治。」皋陶曰：「然，此而美也。」
+
+禹曰：「於，帝！慎乃在位，安爾止。輔德，天下大應。清意以昭待上帝命，天其重命用休。」帝曰：「吁，臣哉，臣哉！臣作朕股肱耳目。予欲左右有民，女輔之。余欲觀古人之象。日月星辰，作文繡服色，女明之。予欲聞六律五聲八音，來始滑，以出入五言，女聽。予即辟，女匡拂予。女無面諛。退而謗予。敬四輔臣。諸眾讒嬖臣，君德誠施皆清矣。」禹曰：「然。帝即不時，布同善惡則毋功。」
+
+帝曰：「毋若丹朱傲，維慢游是好，毋水行舟，朋淫于家，用絕其世。予不能順是。」禹曰：「予（辛壬）娶涂山，［辛壬］癸甲，生啟予不子，以故能成水土功。輔成五服，至于五千里，州十二師，外薄四海，咸建五長，各道有功。苗頑不即功，帝其念哉。」帝曰：「道吾德，乃女功序之也。」
+
+皋陶於是敬禹之德，令民皆則禹。不如言，刑從之。舜德大明。
+
+於是夔行樂，祖考至，群后相讓，鳥獸翔舞，簫韶九成，鳳皇來儀，百獸率舞，百官信諧。帝用此作歌曰：「陟天之命，維時維幾。」乃歌曰：「股肱喜哉，元首起哉，百工熙哉！」皋陶拜手稽首揚言曰：「念哉，率為興事，慎乃憲，敬哉！」乃更為歌曰：「元首明哉，股肱良哉，庶事康哉！」（舜）又歌曰：「元首叢脞哉，股肱惰哉，萬事墮哉！」帝拜曰：「然，往欽哉！」於是天下皆宗禹之明度數聲樂，為山川神主。
+
+帝舜薦禹於天，為嗣。十七年而帝舜崩。三年喪畢，禹辭辟舜之子商均於陽城。天下諸侯皆去商均而朝禹。禹於是遂即天子位，南面朝天下，國號曰夏后，姓姒氏。
+
+帝禹立而舉皋陶薦之，且授政焉，而皋陶卒。封皋陶之後於英、六，或在許。而后舉益，任之政。
+
+十年，帝禹東巡狩，至于會稽而崩。以天下授益。三年之喪畢，益讓帝禹之子啟，而辟居箕山之陽。禹子啟賢，天下屬意焉。及禹崩，雖授益，益之佐禹日淺，天下未洽。故諸侯皆去益而朝啟，曰：「吾君帝禹之子也」。於是啟遂即天子之位，是為夏后帝啟。
+
+夏后帝啟，禹之子，其母涂山氏之女也。
+
+有扈氏不服，啟伐之，大戰於甘。將戰，作甘誓，乃召六卿申之。啟曰：「嗟！六事之人，予誓告女：有扈氏威侮五行，怠棄三正，天用勦絕其命。今予維共行天之罰。左不攻于左，右不攻于右，女不共命。御非其馬之政，女不共命。用命，賞于祖；不用命，僇于社，予則帑僇女。」遂滅有扈氏。天下咸朝。
+
+夏后帝啟崩，子帝太康立。帝太康失國，昆弟五人，須于洛汭，作五子之歌。
+
+太康崩，弟中康立，是為帝中康。帝中康時，羲、和湎淫，廢時亂日。胤往征之，作胤征。
+
+中康崩，子帝相立。帝相崩，子帝少康立。帝少康崩，子帝予立。帝予崩，子帝槐立。帝槐崩，子帝芒立。帝芒崩，子帝泄立。帝泄崩，子帝不降立。帝不降崩，弟帝扃立。帝扃崩，子帝廑立。帝廑崩，立帝不降之子孔甲，是為帝孔甲。帝孔甲立，好方鬼神，事淫亂。夏后氏德衰，諸侯畔之。天降龍二，有雌雄，孔甲不能食，未得豢龍氏。陶唐既衰，其后有劉累，學擾龍于豢龍氏，以事孔甲。孔甲賜之姓曰御龍氏，受豕韋之後。龍一雌死，以食夏后。夏后使求，懼而遷去。
+
+孔甲崩，子帝皋立。帝皋崩，子帝發立。帝發崩，子帝履癸立，是為桀。帝桀之時，自孔甲以來而諸侯多畔夏，桀不務德而武傷百姓，百姓弗堪。乃召湯而囚之夏臺，已而釋之。湯修德，諸侯皆歸湯，湯遂率兵以伐夏桀。桀走鳴條，遂放而死。桀謂人曰：「吾悔不遂殺湯於夏臺，使至此。」湯乃踐天子位，代夏朝天下。湯封夏之後，至周封於杞也。
+
+太史公曰：禹為姒姓，其後分封，用國為姓，故有夏后氏、有扈氏、有男氏、斟尋氏、彤城氏、褒氏、費氏、杞氏、繒氏、辛氏、冥氏、斟（氏）戈氏。孔子正夏時，學者多傳夏小正云。自虞、夏時，貢賦備矣。或言禹會諸侯江南，計功而崩，因葬焉，命曰會稽。會稽者，會計也。
+
+
+## 二、《春秋左傳》選篇
+
+### 隱公
+
+惠公元妃孟子，孟子卒，繼室以聲子，生隱公。宋武公生仲子，仲子生而有文在其手，曰為魯夫人，故仲子歸于我，生桓公而惠公薨，是以隱公立而奉之。
+
+元年，春，王正月。
+
+三月，公及邾儀父盟于蔑。
+
+夏，五月，鄭伯克段于鄢。
+
+秋，七月，天王使宰咺來歸惠公、仲子之賵。
+
+九月，及宋人盟于宿。
+
+冬，十有二月，祭伯來。
+
+公子益師卒。
+
+元年，春，王周正月。不書即位，攝也。
+
+三月，公及邾儀父盟于蔑，邾子克也。未王命，故不書爵。曰「儀父」，貴之也。公攝位而欲求好於邾，故為蔑之盟。
+
+夏，四月，費伯帥師城郎。不書，非公命也。
+
+初，鄭武公娶于申，曰武姜。生莊公及共叔段。莊公寤生，驚姜氏，故名曰「寤生」，遂惡之。愛共叔段，欲立之。亟請於武公，公弗許。及莊公即位，為之請制。公曰：「制，巖邑也，虢叔死焉，佗邑唯命。」請京，使居之，謂之「京城大叔」。祭仲曰：「都城過百雉，國之害也，先王之制：大都不過參國之一；中，五之一；小，九之一。今京不度，非制也。君將不堪。」公曰：「姜氏欲之，焉辟害？」對曰：「姜氏何厭之有！不如早為之所，無使滋蔓蔓，難圖也。蔓草猶不可除，況君之寵弟乎？」公曰：「多行不義，必自斃，子姑待之。」既而大叔命西鄙、北鄙貳於己。公子呂曰：「國不堪貳，君將若之何欲與大叔，臣請事之；若弗與，則請除之。無生民心。」公曰：「無庸，將自及。」大叔又收貳以為己邑，至于廩延。子封曰：「可矣，厚將得眾。」公曰：「不義不暱，厚將崩。」大叔完聚，繕甲兵，具卒乘，將襲鄭。夫人將啟之。公聞其期，曰：「可矣。」命子封帥車二百乘以伐京。京叛大叔段，段入于鄢，公伐諸鄢。五月，辛丑，大叔出奔共。書曰：「鄭伯克段于鄢。」段不弟，故不言弟。如二君，故曰克。稱鄭伯，譏失教也。謂之鄭志，不言出奔，難之也。遂寘姜氏于城潁，而誓之曰：「不及黃泉，無相見也！」既而悔之。潁考叔為潁谷封人，聞之，有獻於公。公賜之食。食舍肉，公問之，對曰：「小人有母，皆嘗小人之食矣，未嘗君之羹。請以遺之。」公曰：「爾有母遺，繄我獨無！」潁考叔曰：「敢問何謂也？」公語之故，且告之悔。對曰：「君何患焉若闕地及泉，隧而相見，其誰曰不然？」公從之。公入而賦：「大隧之中，其樂也融融。」姜出而賦：「大隧之外，其樂也洩洩。」遂為母子如初。君子曰：「潁考叔純孝也，愛其母，施及莊公。曰：『』其是之謂乎！」
+
+秋，七月，天王使宰咺來歸惠公、仲子之賵。緩，且子氏未薨，故名。天子七月而葬，同軌畢至，諸侯五月，同盟至，大夫三月，同位至，士踰月，外姻至。贈死不及尸，弔生不及哀。豫凶事，非禮也。
+
+八月，紀人伐夷。夷不告，故不書。有蜚，不為災，亦不書。惠公之季年，敗宋師于黃。公立，而求成焉。九月，及宋人盟于宿，始通也。
+
+冬，十月，庚申，改葬惠公。公弗臨，故不書。惠公之薨也，有宋師，太子少，葬故有闕，是以改葬。
+
+衛侯來會葬，不見公，亦不書。
+
+鄭共叔之亂，公孫滑出奔衛。衛人為之伐鄭，取廩延。鄭人以王師、虢師伐衛南鄙。請師於邾，邾子使私於公子豫。豫請往，公弗許，遂行。及邾人、鄭人盟于翼。不書，非公命也。
+
+新作南門。不書，亦非公命也。
+
+十二月，祭伯來，非王命也。
+
+眾父卒，公不與小斂，故不書日。
+
+二年，春，公會戎于潛。
+
+夏，五月，莒人入向。
+
+無駭帥師入極。
+
+秋，八月，庚辰，公及戎盟于唐。
+
+九月，紀裂繻來逆女。
+
+冬，十月，伯姬歸于紀。
+
+紀子帛、莒子盟于密。
+
+十有二月，乙卯，夫人子氏薨。
+
+鄭人伐衛。
+
+二年，春，公會戎于潛。修惠公之好也，戎請盟，公辭。
+
+莒子娶于向，向姜不安莒而歸。夏，莒人入向，以姜氏還。
+
+司空無駭入極，費庈父勝之。
+
+戎請盟，秋，盟于唐，復修戎好也。
+
+九月，紀裂繻來逆女，卿為君逆也。
+
+冬，紀子帛、莒子盟于密，魯故也。
+
+鄭人伐衛，討公孫滑之亂也。
+
+三年，春，王二月，己巳，日有食之。
+
+三月，庚戌，天王崩。
+
+夏，四月，辛卯，君氏卒。
+
+秋，武氏子來求賻。
+
+八月，庚辰，宋公和卒。
+
+冬，十有二月，齊侯、鄭伯盟于石門。
+
+癸未，葬宋穆公。
+
+三年，春，王三月，壬戌，平王崩。赴以庚戌，故書之。
+
+夏，君氏卒。聲子也，不赴於諸侯，不反哭于寢，不祔于姑，故不曰薨。不稱夫人，故不言葬。不書姓，為公故，曰君氏。
+
+鄭武公、莊公為平王卿士。王貳于虢。鄭伯怨王，王曰：「無之。」故周、鄭交質。王子狐為質於鄭，鄭公子忽為質於周。王崩，周人將畀虢公政。四月，鄭祭足帥師取溫之麥。秋，又取成周之禾。周、鄭交惡。君子曰：「信不由中，質無益也。明恕而行，要之以禮，雖無有質，誰能間之？苟有明信，澗，谿，沼，沚，之毛，蘋，蘩，薀，藻，之菜，筐，筥，錡，釜，之，器，潢汙，行潦，之水，可薦於鬼神，可羞於王公。而況君子結二國之信，行之以禮，又焉用質？風有采繁，采蘋，雅有行葦，泂酌，昭忠信也。」
+
+武氏子來求賻，王未葬也。
+
+宋穆公疾，召大司馬孔父而屬殤公焉。曰，先君舍與夷「而立寡人」。寡人弗敢忘。若以大夫之靈，得保首領以沒，先君若問與夷，其將何辭以對，請子奉之，以主社稷，寡人雖死，亦無悔焉。」對曰：「群臣願奉馮也。」公曰：「不可。先君以寡人為賢，使主社稷，若棄德不讓，是廢先君之舉也。豈曰能賢光昭先君之令德，可不務乎吾子其無廢先君之功。」使公子馮出居於鄭。八月，庚辰，宋穆公卒，殤公即位。君子曰：「宋宣公可謂知人矣。立穆公，其子饗之，命以義夫。《商頌》曰：『殷受命咸宜，百祿是荷。』其是之謂乎！」
+
+冬，齊、鄭盟于石門，尋盧之盟也。庚戌，鄭伯之車僨于濟。
+
+衛莊公娶于齊東宮得臣之妹，曰莊姜。美而無子，衛人所為賦《碩人》也。又娶于陳，曰厲媯，生孝伯，早死。其娣戴媯，生桓公，莊姜以為己子，公子州吁，嬖人之子也。有寵而好兵。公弗禁，莊姜惡之。石碏諫曰，臣聞愛子，教之以義方，弗納于邪，驕、奢、淫、泆，所自邪也。四者之來，寵祿過也。將立州吁，乃定之矣。若猶未也，階之為禍。夫寵而不驕，驕而能降，降而不憾，憾而能眕者，鮮矣。且夫賤妨貴，少陵長，遠間親，新間舊，小加大，淫破義，所謂六逆也。君義，臣行，父慈，子孝，兄愛，弟敬，所謂六順也。去順效逆，所以速禍也。君人者，將禍是務去，而速之，無乃不可乎！」弗聽，其子厚與州吁游，禁之，不可。桓公立，乃老。
+
+四年，春，王二月，莒人伐杞，取牟婁。
+
+戊申，衛州吁弒其君完。
+
+夏，公及宋公遇于清。
+
+宋公、陳侯、蔡人、衛人伐鄭。
+
+秋，翬帥師會宋公、陳侯、蔡人、衛人伐鄭。
+
+九月，衛人殺州吁于濮。
+
+冬，十有二月，衛人立晉。
+
+四年，春，衛州吁弒桓公而立。公與宋公為會，將尋宿之盟。未及期，衛人來告亂。
+
+夏，公及宋公遇于清。
+
+宋殤公之即位也，公子馮出奔鄭，鄭人欲納之。及衛州吁立，將脩先君之怨於鄭，而求寵於諸侯，以和其民。使告於宋曰，君若伐鄭，以除君害，君為主，敝邑以賦與陳、蔡從，則衛國之願也。」宋人許之。於是陳、蔡方睦於衛。故宋公、陳侯、蔡人、衛人伐鄭，圍其東門，五日而還。公問於眾仲曰，衛州吁其成乎。對曰：「臣聞以德和民，不聞以亂。以亂，猶治絲而棼之也。夫州吁，阻兵而安忍。阻兵無眾，安忍無親，眾叛親離，難以濟矣。夫兵，猶火也，弗戢，將自焚也。夫州吁弒其君，而虐用其民，於是乎不務令德，而欲以亂成，必不免矣。」
+
+秋，諸侯復伐鄭。宋公使來乞師，公辭之，羽父請以師會之，公弗許，固請而行，故書曰「翬帥師」，疾之也。諸侯之師，敗鄭徒兵，取其禾而還。
+
+州吁未能和其民，厚問定君於石子。石子曰：「王覲為可。」曰：「何以得覲？」曰：「陳桓公方有寵於王，陳、衛方睦，若朝陳使請，必可得也。」厚從州吁如陳。石碏使告于陳曰：「衛國褊小，老夫耄矣，無能為也。此二人者，實弒寡君，敢即圖之！」陳人執之，而請蒞于衛，九月，衛人使右宰醜，蒞殺州吁于濮，石碏使其宰獳羊肩，蒞殺石厚于陳，君子曰：「石碏，純臣也。惡州吁而厚與焉。『大義滅親』，其是之謂乎！」
+
+衛人逆公子晉于邢。冬，十二月，宣公即位。書曰，衛人立晉，眾也。
+
+五年，春，公矢魚于棠。
+
+夏，四月，葬衛桓公。
+
+秋，衛師入郕。
+
+九月，考仲子之宮，初獻六羽。
+
+邾人、鄭人伐宋。
+
+螟。
+
+冬，十有二月，辛巳，公子彄卒。
+
+宋人伐鄭，圍長葛。
+
+五年，春，公將如棠觀魚者，臧僖伯諫曰，凡物不足以講大事，其材不足以備器用，則君不舉焉。君，將納民於軌、物者也。故講事以度軌量謂之軌，取材以章物采謂之物，不軌不物謂之亂政。亂政亟行，所以敗也。故春蒐，夏苗，秋獮，冬狩，皆於農隙以講事也。三年而治兵，入而振旅，歸而飲至，以數軍實昭文章，明貴賤，辨等列，順少長，習威儀也。鳥獸之肉，不登於俎，皮革，齒牙，骨角，毛，羽，不登於器，則公不射，古之制也。若夫山林川澤之實，器用之資，皁隸之事，官司之守，非君所及也。」公曰：「吾將略地焉。」遂往，陳魚而觀之。僖伯稱疾，不從。書曰「公矢魚于棠」，非禮也，且言遠地也。
+
+曲沃莊伯，以鄭人，邢人，伐翼，王使尹氏、武氏助之。翼侯奔隨。
+
+夏，葬衛桓公。衛亂，是以緩。
+
+四月，鄭人侵衛牧，以報東門之役。衛人以燕師伐鄭。鄭祭足、原繁，洩駕以三軍軍其前，使曼伯與子元潛軍軍其後。燕人畏鄭三軍，而不虞制人。六月，鄭二公子以制人敗燕師于北制。君子曰：「不備不虞，不可以師。」
+
+曲沃叛王。秋，王命虢公伐曲沃，而立哀侯于翼。
+
+衛之亂也，郕人侵衛，故衛師入郕。
+
+九月，考仲子之宮，將萬焉。公問羽數於眾仲，對曰，天子用八，諸侯用六，大夫四，士二，夫舞所以節八音，而行八風，故自八以下。」公從之，於是初獻六羽，始用六佾也。
+
+宋人取邾田。邾人告於鄭曰：「請君釋憾於宋，敝邑為道。」鄭人以王師會之。伐宋，入其郛，以報東門之役。宋人使來告命。公聞其入郛也，將救之。問於使者曰：「師何及？」對曰：「未及國。」公怒，乃止，辭使者曰：「君命寡人同恤社稷之難，今問諸使者，曰『師未及國』，非寡人之所敢知也。」
+
+冬，十二月，辛巳，臧僖伯卒。公曰，叔父有憾於寡人，寡人弗敢忘。葬之加一等。
+
+宋人伐鄭，圍長葛，以報入郛之役也。
+
+六年，春，鄭人來渝平。
+
+夏，五月，辛酉，公會齊侯盟于艾。
+
+秋，七月。
+
+冬，宋人取長葛。
+
+六年春，鄭人來渝平，更成也。
+
+翼九宗，五正，頃父之子嘉父，逆晉侯于隨，納諸鄂，晉人謂之鄂侯。
+
+夏，盟于艾，始平于齊也。
+
+五月，庚申，鄭伯侵陳，大獲。往歲，鄭伯請成于陳，陳侯不許。五父諫曰：「親仁善鄰，國之寶也。君其許鄭。」陳侯曰，宋衛實難，鄭何能為？」遂不許。君子曰：「『善不可失，惡不可長。』其陳桓公之謂乎長惡不悛，從自及也。雖欲救之，其將能乎？商書曰，惡之易也，如火之燎于原，不可鄉邇，其猶可撲滅？』周任有言曰：『為國家者，見惡如農夫之務去草焉，芟夷蘊崇之，絕其本根，勿使能殖，則善者信矣。』」
+
+秋，宋人取長葛。
+
+冬，京師來告饑。公為之請糴於宋、衛、齊、鄭，禮也。
+
+鄭伯如周，始朝桓王也。王不禮焉。周桓公言於王曰：「我周之東遷，晉、鄭焉依。善鄭以勸來者，猶懼不蔇，況不禮焉鄭不來矣！」
+
+七年，春，王三月，叔姬歸于紀。
+
+滕侯卒。
+
+夏，城中丘。
+
+齊侯使其弟年來聘。
+
+秋，公伐邾。
+
+冬，天王使凡伯來聘。戎伐凡伯于楚丘以歸。
+
+七年，春，滕侯卒。不書名，未同盟也。凡諸侯同盟，於是稱名，故薨則赴以名，告終、1嗣也，以繼好息民，謂之禮經。
+
+夏，城中丘。書，不時也。
+
+齊侯使夷仲年來聘，結艾之盟也。
+
+秋，宋及鄭平。七月，庚申，盟于宿，公伐邾，為宋討也。
+
+初，戎朝于周，發幣于公卿，凡伯弗賓，冬，王使凡伯來聘。還，戎伐之于楚丘以歸。
+
+陳及鄭平。十二月，陳五父如鄭蒞盟。壬申，及鄭伯盟，歃如忘。洩伯曰：「五父必不免，不賴盟矣。」鄭良佐如陳蒞盟。辛巳，及陳侯盟，亦知陳之將亂也。
+
+鄭公子忽在王所，故陳侯請妻之。鄭伯許之，乃成昏。
+
+八年，春，宋公、衛侯遇于垂。
+
+三月，鄭伯使宛來歸祊。庚寅，我入祊。
+
+夏，六月，己亥，蔡侯考父卒，辛亥，宿男卒。
+
+秋，七月，庚午，宋公、齊侯、衛侯盟于瓦屋。
+
+八月，葬蔡宣公。
+
+九月辛卯，公及莒人盟于浮來。
+
+螟。
+
+冬，十有二月，無駭卒。
+
+八年春，齊侯將平宋、衛，有會期，宋公以幣請於衛，請先相見，衛侯許之，故遇于犬丘。
+
+鄭伯請釋泰山之祀而祀周公，以泰山之祊易許田。三月，鄭伯使宛來歸祊，不祀泰山也。
+
+夏，虢公忌父始作卿士于周。
+
+四月，甲辰，鄭公子忽如陳逆婦媯。辛亥，以媯氏歸。甲寅，入于鄭，陳鍼子送女，先配而後祖。鍼子曰：「是不為夫婦，誣其祖矣。非禮也，何以能育？」
+
+齊人卒平宋、衛于鄭。秋，會于溫，盟于瓦屋，以釋東門之役，禮也。
+
+八月，丙戌，鄭伯以齊人朝王，禮也。
+
+公及莒人盟于浮來，以成紀好也。
+
+冬，齊侯使來，告成三國。公使眾仲對曰：「君釋三國之圖，以鳩其民，君之惠也。寡君聞命矣，敢不承受君之明德。」
+
+無駭卒，羽父請諡與族，公問族於眾仲。眾仲對曰，天子建德，因生以賜姓，胙之土而命之氏。諸侯以字，為諡，因以為族，官有世功，則有官族，邑亦如之。」公命以字為展氏。
+
+九年，春，天子使南季來聘。
+
+三月癸酉，大雨震電。庚辰，大雨雪。挾卒。
+
+夏，城郎。
+
+秋，七月。
+
+冬，公會齊侯于防。
+
+九年，春，王三月，「癸酉，大雨霖以震」。書始也，「庚辰，大雨雪」，亦如之。書，時失也。凡雨，自三日以往為霖。平地尺為大雪。
+
+夏城郎書，不時也。
+
+宋公不王。鄭伯為王左卿士，以王命討之，伐宋。宋以入郛之役怨公，不告命。公怒，絕宋使。
+
+秋，鄭人以王命來告伐宋。
+
+冬，公會齊侯于防，謀伐宋也。
+
+北戎侵鄭。鄭伯禦之，患戎師，曰：「彼徒我車，懼其侵軼我也。」公子突曰：「使勇而無剛者嘗寇而速去之。君為三覆以待之。戎輕而不整，貪而無親，勝不相讓，敗不相救。先者見獲，必務進，進而遇覆，必速奔，後者不救，則無繼矣，乃可以逞。」從之。戎人之前遇覆者奔，祝聃逐之。衷戎師，前後擊之，盡殪。戎師大奔。十一月甲寅，鄭人大敗戎師。
+
+十年，春，王二月，公會齊侯、鄭伯于中丘。
+
+夏，翬帥師會齊人、鄭人伐宋。
+
+六月壬戌，公敗宋師于菅。辛未，取郜。辛巳，取防。
+
+秋，宋人、衛人入鄭。宋人、蔡人、衛人伐戴。鄭伯伐取之。
+
+冬，十月，壬午，齊人、鄭人、入郕。
+
+十年，春，王正月，公會齊侯、鄭伯于中丘。癸丑，盟于鄧，為師期。
+
+夏，五月，羽父先會齊侯、鄭伯伐宋。
+
+六月，戊申，公會齊侯、鄭伯于老桃。壬戌，公敗宋師于菅。庚午，鄭師入郜，辛未，歸于我，庚辰，鄭師入防，辛巳，歸于我，君子謂鄭莊公於是乎可謂正矣，以王命討不庭，不貪其土以勞王爵，正之體也。
+
+蔡人、衛人、郕人不會王命。
+
+秋，七月，庚寅，鄭師入郊。猶在郊，宋人、衛人入鄭。蔡人從之伐戴。八月，壬戌，鄭伯圍戴。癸亥，克之，取三師焉。宋、衛既入鄭，而以伐戴召蔡人。蔡人怒，故不和而敗。
+
+九月，戊寅，鄭伯入宋。
+
+冬齊人，鄭人，入郕，討違王命也。
+
+十有一年，春，滕侯、薛侯來朝。
+
+夏，公會鄭伯于時來。
+
+秋，七月，壬午，公及齊侯、鄭伯入許。
+
+冬，十有一月，壬辰，公薨。
+
+十一年，春，滕侯薛侯來朝，爭長。薛侯曰：「我先封。」滕侯曰：「我，周之卜正也。薛，庶姓也。我不可以後之。」公使羽父請於薛侯曰：「君與滕君，辱在寡人。周諺有之曰，山有木，工則度之，賓有禮，主則擇之，周之宗盟，異姓為後。寡人若朝于薛，不敢與諸任齒，君若辱貺寡人，則願以滕君為請，薛侯許之，乃長滕侯。
+
+「夏，公會鄭伯于郲」，謀伐許也。鄭伯將伐許，五月，甲辰，授兵于大宮，公孫閼與潁考叔爭車，潁考叔挾輈以走，子都拔棘以逐之。及大逵，弗及，子都怒。
+
+秋，七月，公會齊侯、鄭伯伐許。庚辰，傅于許。潁考叔取鄭伯之旗蝥弧以先登，子都自下射之，顛。瑕叔盈又以蝥弧登，周麾而呼曰：「君登矣！」鄭師畢登。壬午，遂入許。許莊公奔衛。齊侯以許讓公。公曰，君謂許不共，故從君討之。許既伏其罪矣，雖君有命，寡人弗敢與聞。」乃與鄭人。鄭伯使許大夫百里，奉許叔以居許東偏，曰：「天禍許國，鬼神實不逞于許君，而假手于我寡人。寡人唯是一二父兄，不能共億，其敢以許自為功乎？寡人有弟，不能和協，而使餬其口於四方，其況能久有許乎吾子其奉許叔以撫柔此民也，吾將使獲也佐吾子。若寡人得沒于地，天其以禮悔禍于許，無寧茲許公復奉其社稷。唯我鄭國之有請謁焉。如舊昏媾，其能降以相從也。無滋他族，實偪處此，以與我鄭國爭此土也。吾子孫其覆亡之不暇，而況能禋祀許乎寡人之使吾子處此，不唯許國之為，亦聊以固吾圉也。」乃使公孫獲處許西偏，曰：「凡而器用財賄，無寘於許。我死，乃亟去之！吾先君新邑於此，王室而既卑矣，周之子孫日失其序。夫許，大岳之胤也，天而既厭周德矣，吾其能與許爭乎君子謂鄭莊公於是乎有禮。禮，經國家，定社稷，序民人，利後嗣者也。許無刑而伐之，服而舍之，度德而處之，量力而行之，相時而動，無累後人，可謂知禮矣。
+
+鄭伯使卒出豭，行出犬雞，以詛射潁考叔者。君子謂鄭莊公失政刑矣。政以治民，刑以正邪。既無德政，又無威刑，是以及邪。邪而詛之，將何益矣！
+
+王取鄔，劉，蒍，邘，之田于鄭，而與鄭人蘇忿生之田，溫，原，絺，樊，隰郕，欑茅，向，盟，州，陘，隤，懷，君子是以知桓王之失鄭也。恕而行之，德之則也，禮之經也。己弗能有，而以與人，人之不至，不亦宜乎。
+
+鄭息有違言，息侯伐鄭。鄭伯與戰于竟，息師大敗而還。君子是以知息之將亡也。不度德，不量力，不親親，不徵辭，不察有罪。犯五不韙，而以伐人，其喪師也，不亦宜乎！
+
+冬，十月，鄭伯以虢師伐宋。壬戌，大敗宋師，以報其入鄭也。宋不告命，故不書。凡諸侯有命，告則書，不然則否。師出臧否，亦如之。雖及滅國，滅不告敗，勝不告克，不書于策。
+
+羽父請殺桓公，將以求大宰。公曰：「為其少故也，吾將授之矣。使營菟裘，吾將老焉。」羽父懼，反譖公于桓公，而請弒之，公之為公子也，與鄭人戰于狐壤，止焉。鄭人囚諸尹氏，賂尹氏，而禱於其主鍾巫，遂與尹氏歸，而立其主。十一月，公祭鍾巫，齊于社圃，館于寪氏。壬辰，羽父使賊弒公于寪氏，立桓公，而討寪氏，有死者。不書葬，不成喪也。
+
+
+### 桓公
+
+元年，春，王正月，公即位。
+
+三月，公會鄭伯于垂，鄭伯以璧假許田。
+
+夏，四月，丁未，公及鄭伯盟于越。
+
+秋，大水。
+
+冬，十月。
+
+元年，春，公即位，修好于鄭。鄭人請復祀周公，卒易祊田。公許之，「三月，鄭伯以璧假許田」，為周公、祊故也。
+
+夏，四月，丁未，公及鄭伯盟于越。結祊成也，盟曰：「渝盟，無享國！」
+
+「秋，大水」，凡平原出水為大水。
+
+冬，鄭伯拜盟。
+
+宋華父督見孔父之妻于路，目逆而送之，曰，美而豔。
+
+二年，春，王正月戊申，宋督弒其君與夷及其大夫孔父。
+
+滕子來朝。
+
+三月，公會齊侯、陳侯、鄭伯于稷，以成宋亂。
+
+夏四月，取郜大鼎于宋。戊申，納于大廟。
+
+秋七月，杞侯來朝。
+
+蔡侯、鄭伯會于鄧。
+
+九月，入杞。
+
+公及戎盟于唐。冬，公至自唐」。
+
+二年春，宋督攻孔氏，殺孔父而取其妻。公怒，督懼，遂弒殤公。君子以督為有無君之心，而後動於惡，故先書弒其君。會于稷，以成宋亂，為賂故，立華氏也。宋殤公立，十年十一戰，民不堪命。孔父嘉為司馬，督為大宰，故因民之不堪命，先宣言曰：「司馬則然。」已殺孔父而弒殤公，召莊公于鄭而立之以親鄭。以郜大鼎賂公，齊、陳、鄭皆有賂，故遂相宋公。夏四月，取郜大鼎于宋。戊申，納于大廟，非禮也。臧哀伯諫曰，「君人者將昭德塞違以臨照百官，猶懼或失之，故昭令德以示子孫。是以清廟茅屋，大路越席，大羹不致，粢食不鑿，昭其儉也。袞冕，黻，珽，帶，裳，幅，舄，衡，紞，紘，綖，昭其度也。藻率，鞞，鞛，鞶，厲，游，纓，昭其數也。火龍，黼，黻，昭其文也。五色比象，昭其物也。鍚、鸞、和、鈴，昭其聲也。三辰旂旗，昭其明也。夫德，儉而有度，登降有數，文、物以紀之，聲、明以發之，以臨照百官。百官於是乎戒懼，而不敢易紀律。今滅德立違，而寘其賂器於大廟，以明示百官。百官象之，其又何誅焉國家之敗，由官邪也。官之失德，寵賂章也。郜鼎在廟，章孰甚焉？武王克商，遷九鼎于雒邑，義士猶或非之，而況將昭違亂之賂器於大廟，其若之何？」公不聽，周內史聞之曰：「臧孫達其有後於魯乎君違，不忘諫之以德。」
+
+秋七月，杞侯來朝，不敬。杞侯歸，乃謀伐之。
+
+「蔡侯、鄭伯會于鄧」，始懼楚也。
+
+九月，入杞，討不敬也。
+
+公及戎盟于唐。脩舊好也。
+
+「冬，公至自唐」，告于廟也。凡公行，告于宗廟，反行飲至，舍爵策勳焉。禮也，特相會，往來稱地，讓事也。自參以上，則往稱地，來稱會，成事也」。
+
+初，晉穆侯之夫人姜氏以條之役生太子，命之曰仇。其弟以千畝之戰生，命之曰成師。師服曰：「異哉，君之名子也！夫名以制義，義以出禮，禮以體政，政以正民，是以政成而民聽。易則生亂。嘉耦曰妃，怨耦曰仇，古之命也。今君命大子曰仇，弟曰成師，始兆亂矣。兄其替乎！」惠之二十四年，晉始亂，故封桓叔于曲沃。靖侯之孫欒賓傅之。師服曰：「吾聞國家之立也，本大而末小，是以能固。故天子建國，諸侯立家，卿置側室，大夫有貳宗，士有隸子弟，庶人、工、商，各有分親，皆有等衰。是以民服事其上，而下無覬覦。今晉，甸侯也，而建國。本既弱矣，其能久乎？」惠之三十年，晉潘父弒昭侯而立桓叔，不克。晉人立孝侯。惠之四十五年，曲沃莊伯伐翼，弒孝侯。翼人立其弟鄂侯。鄂侯生哀侯。哀侯侵陘庭之田。陘庭南鄙啟曲沃伐翼。
+
+三年，春，正月，公會齊侯于嬴。
+
+夏，齊侯、衛侯胥命于蒲。
+
+六月，公會杞侯于郕。
+
+秋，七月，壬辰朔，日有食之，既。
+
+公子翬如齊逆女。九月，齊侯送姜氏于讙。公會齊侯于讙。夫人姜氏至自齊。
+
+冬，齊侯使其弟年來聘。
+
+有年。
+
+三年春，曲沃武公伐翼，次于陘庭。韓萬御戎，梁弘為右。逐翼侯于汾隰，驂絓而止，夜獲之，及欒共叔。
+
+「會于嬴」，成昏于齊也。
+
+「夏，齊侯、衛侯胥命于蒲」，不盟也。
+
+公會杞侯于郕，杞求成也。
+
+秋，公子翬如齊逆女。脩先君之好，故曰公子，「齊侯送姜氏」，非禮也。凡公女嫁于敵國，姊妹則上卿送之，以禮於先君，公子則下卿送之。於大國，雖公子，亦上卿送之。於天子，則諸卿皆行，公不自送。於小國，則上大夫送之。
+
+冬，齊仲年來聘，致夫人也。
+
+芮伯萬之母芮姜惡芮伯之多寵人也，故逐之，出居于魏。
+
+四年，春，正月，公狩于郎。
+
+夏，天王使宰渠伯糾來聘。
+
+四年，春，正公，月狩于郎，書時，禮也。
+
+夏，周宰渠伯糾來聘。父在，故名。
+
+秋，秦師侵芮，敗焉，小之也。
+
+冬，王師、秦師圍魏，執芮伯以歸。
+
+五年，春，正月，甲戌，己丑，陳侯鮑卒。
+
+夏，齊侯、鄭伯如紀。
+
+天王使仍叔之子來聘。
+
+葬陳桓公。
+
+城祝丘。
+
+秋，蔡人、衛人、陳人從王伐鄭。
+
+大雩。
+
+螽。
+
+冬，州公如曹。
+
+五年，春，正月，甲戌，己丑，陳侯鮑卒，再赴也，於是陳亂，文公子佗殺太子免而代之。公疾病而亂作，國人分散，故再赴。
+
+夏，齊侯、鄭伯朝于紀，欲以襲之。紀人知之。
+
+王奪鄭伯政，鄭伯不朝。
+
+秋，王以諸侯伐鄭。鄭伯禦之，王為中軍，虢公林父將右軍，蔡人，衛人，屬焉，周公黑肩將左軍，陳人屬焉。鄭子元請為左拒，以當蔡人，衛人，為右拒，以當陳人，曰：「陳亂，民莫有鬥心。若先犯之，必奔。王卒顧之，必亂。蔡、衛不枝，固將先奔。既而萃於王卒，可以集事。」從之，曼伯為右拒，祭仲足為左拒，原繁、高渠彌以中軍奉公，為魚麗之陳。先偏後伍，伍承彌縫。戰于繻葛。命二拒曰：「旝動而鼓！」蔡、衛、陳皆奔，王卒亂，鄭師合以攻之，王卒大敗。祝聃射王中肩，王亦能軍。祝聃請從之。公曰：「君子不欲多上人，況敢陵天子乎？苟自救也，社稷無隕多矣，夜，鄭伯使祭足勞王，且問左右。
+
+仍叔之子，弱也。
+
+秋，大雩，書，不時也。凡祀，啟蟄而郊，龍見而雩，始殺而嘗，閉蟄而烝。過則書。
+
+冬，淳于公如曹。度其國危，遂不復。
+
+六年，春，正月，寔來。
+
+夏，四月，公會紀侯于成。
+
+秋，八月，壬午，大閱。蔡人殺陳佗。
+
+九月，丁卯，子同生。
+
+冬，紀侯來朝。
+
+六年春，自曹來朝。書曰「寔來」，不復其國也。
+
+楚武王侵隨，使薳章求成焉，軍於瑕以待之。隨人使少師董成。鬥伯比言于楚子曰，吾不得志於漢東也，我則使然。我張吾三軍而被吾甲兵，以武臨之。彼則懼而協以謀我，故難間也，漢東之國，隨為大。隨張，必棄小國。小國離，楚之利也。少師侈，請羸師以張之。」熊率且比曰：「季梁在，何益？」鬥伯比曰：「以為後圖。少師得其君。」王毀軍而納少師。少師歸，請追楚師，隨侯將許之。季梁止之曰：「天方授楚。楚之羸，其誘我也。君何急焉臣聞小之能敵大也，小道大淫。所謂道，忠於民而信於神也。上思利民，忠也，祝史正辭，信也，今民餒而君逞欲，祝史矯舉以祭，臣不知其可也。」公曰：「吾牲牷肥腯，粢盛豐備，何則不信？」對曰，夫民，神之主也。是以聖王先成民而後致力於神。故奉牲以告曰，博碩肥腯，謂民力之普存也，謂其畜之碩大蕃滋也，謂其不疾瘯蠡也，謂其備腯咸有也，奉盛以告曰，絜粢豐盛，謂其三時不害，而民和年豐也，奉酒醴以告曰，嘉栗旨酒，謂其上下皆有嘉德而無違心也。所謂馨香，無讒慝也。故務其三時，脩其五教，親其九族，以致其禋祀，於是乎民和而神降之福，故動則有成。今民各有心，而鬼神乏主，君雖獨豐，其何福之有君姑脩政，而親兄弟之國，庶免於難。」隨侯懼而脩政，楚不敢伐。
+
+夏，會于成，紀來諮謀齊難也。
+
+北戎伐齊，齊使乞師于鄭。鄭大子忽帥師救齊。六月，大敗戎師，獲其二帥大良、少良，甲首三百，以獻於齊。於是諸侯之大夫戍齊，齊人饋之餼，使魯為其班，後鄭。鄭忽以其有功也，怒，故有郎之師。公之未昏於齊也，齊侯欲以文姜妻鄭大子忽。大子忽辭。人問其故，大子曰：「人各有耦，齊大，非吾耦也。《詩》云：『自求多福。』在我而已，大國何為？」君子曰：「善自為謀。」及其敗戎師也，齊侯又請妻之。固辭，人問其故，大子曰：「無事於齊，吾猶不敢。今以君命奔齊之急，而受室以歸，是以師昏也。民其謂我何？」遂辭諸鄭伯。
+
+「秋，大閱」，簡車馬也。
+
+九月，丁卯，子同生。以大子生之禮舉之，接以大牢，卜士負之，士妻食之，公與文姜、宗婦命之。公問名於申繻。對曰：「名有五，有信，有義，有象，有假，有類。以名生為信，以德名為義，以類命為象，取於物為假，取於父為類。不以國，不以官，不以山川，不以隱疾，不以畜牲，不以器幣。周人以諱事神，名，終將諱之。故以國則廢名，以官則廢職，以山川則廢主，以畜牲則廢祀，以器幣則廢禮。晉以僖侯廢司徒，宋以武公廢司空，先君獻武廢二山，是以大物不可以命。」公曰：「是其生也，與吾同物，命之曰同。」
+
+冬，紀侯來朝。請王命以求成于齊，公告不能。
+
+七年，春，二月，己亥，焚咸丘。
+
+夏，穀伯綏來朝。
+
+鄧侯吾離來朝。
+
+七年，春，穀伯、鄧侯來朝。名，賤之也。
+
+夏，盟、向求成于鄭，既而背之。
+
+秋，鄭人、齊人、衛人伐盟、向。王遷盟、向之民于郟。
+
+冬，曲沃伯誘晉小子侯，殺之。
+
+八年，春，正月，己卯，烝。
+
+天王使家父來聘。
+
+夏，五月，丁丑，烝。
+
+秋，伐邾。
+
+冬，十月，雨雪。
+
+祭公來，遂逆王后于紀。
+
+八年，春，滅翼。
+
+隨少師有寵，楚鬥伯比曰：「可矣讎有釁，不可失也。」夏，楚子合諸侯于沈鹿。黃、隨不會。使薳章讓黃。楚子伐隨，軍於漢、淮之間。季梁請下之，弗許而後戰，所以怒我而怠寇也」。少師謂隨侯曰：「必速戰不然，將失楚師。」隨侯禦之，望楚師。季梁曰，楚人上左，君必左，無與王遇。且攻其右，右無良焉，必敗。偏敗，眾乃攜矣。」少師曰：「不當王，非敵也。」弗從，戰于速杞，隨師敗績。隨侯逸，鬥丹獲其戎車，與其戎右少師。秋，隨及楚平。楚子將不許。鬥伯比曰：天去其疾矣，隨未可克也。」乃盟而還。
+
+冬王命虢仲立晉哀侯之弟緡于晉。
+
+「祭公來，遂逆王后于紀」，禮也。
+
+九年春，紀季姜歸于京師。
+
+夏，四月。
+
+秋，七月。
+
+冬，曹伯使其世子射姑來朝。
+
+九年春，紀季姜歸于京師。凡諸侯之女行，唯王后書。
+
+巴子使韓服告于楚，請與鄧為好。楚子使道朔將巴客以聘於鄧。鄧南鄙鄾人，攻而奪之幣，殺道朔及巴行人。楚子使薳章讓於鄧，鄧人弗受，夏，楚使鬥廉帥師，及巴師圍鄾，鄧養甥，聃甥，帥師救鄾，三逐巴師不克，鬥廉衡陳其師於巴師之中，以戰，而北。鄧人逐之，背巴師，而夾攻之。鄧師大敗，鄾人宵潰。
+
+秋，虢仲、芮伯、梁伯、荀侯、賈伯伐曲沃。
+
+冬，曹大子來朝。賓之以上卿，禮也。享曹太子，初獻樂，奏而歎，施父曰：「曹大子其有憂乎非歎所也。」
+
+十年，春，王正月，庚申，曹伯終生卒。
+
+夏五月，葬曹桓公。
+
+秋，公會衛侯于桃丘，弗遇。
+
+冬，十有二月，丙午，齊侯、衛侯、鄭伯來戰于郎。
+
+十年春，曹桓公卒。
+
+虢仲譖其大夫詹父於王。詹父有辭，以王師伐虢。
+
+夏，虢公出奔虞。
+
+秋，秦人納芮伯萬于芮。
+
+初，虞叔有玉，虞公求旃。弗獻，既而悔之。曰周諺有之，匹夫無罪，懷璧其罪，吾焉用此其以賈害也。」乃獻，又求其寶劍。叔曰：「是無厭也。無厭，將及我。」遂伐虞公，故虞公出奔共池。
+
+冬，「齊、衛、鄭來戰于郎」，我有辭也。初北戎病齊，諸侯救之。鄭公子忽有功焉。齊人餼諸侯，使魯次之。魯以周班後鄭，鄭人怒，請師於齊。齊人以衛師助之，故不稱侵伐。先書齊、衛，王爵也。
+
+十有一年，春，正月，齊人、衛人、鄭人盟于惡曹。
+
+夏，五月，癸未，鄭伯寤生卒。
+
+秋，七月，葬鄭莊公。
+
+九月，宋人執鄭祭仲。突歸于鄭。鄭忽出奔衛。
+
+柔會宋公、陳侯、蔡叔盟于折。
+
+公會宋公，于夫鍾，冬，十有二月，公會宋公于闞。
+
+十一年，春，齊、衛、鄭、宋盟于惡曹。
+
+楚屈瑕將盟貳、軫。鄖人軍於蒲騷，將與隨、絞、州、蓼伐楚師。莫敖患之。鬥廉曰：「鄖人軍其郊，必不誡，且日虞四邑之至也。君次於郊郢，以禦四邑。我以銳師宵加於鄖。鄖有虞心而恃其城，莫有鬥志。若敗鄖師，四邑必離。」莫敖曰：「盍請濟師於王？」對曰：「師克在和，不在眾。商、周之不敵，君之所聞也。成軍以出，又何濟焉？」莫敖曰：「卜之。」對曰：「卜以決疑。不疑何卜？」遂敗鄖師於蒲騷，卒盟而還。
+
+鄭昭公之敗北戎也，齊人將妻之，昭公辭。祭仲曰：「必取之君多內寵，子無大援，將不立。三公子，皆君也。」弗從。
+
+夏，鄭莊公卒。初祭封人仲足有寵於莊公，莊公使為卿。為公娶鄧曼，生昭公，故祭仲立之。宋雍氏女於鄭莊公，曰雍姞，生厲公。雍氏宗有寵於宋莊公，故誘祭仲而執之，曰：「不立突，將死！」亦執厲公而求賂焉。祭仲與宋人盟，以厲公歸而立之。
+
+秋，九月，丁亥，昭公奔衛。已亥，厲公立。
+
+十有二年，春，正月。
+
+夏，六月，壬寅，公會杞侯、莒子，盟于曲池。
+
+秋，七月，丁亥，公會宋公、燕人，盟于穀丘。
+
+八月，壬辰，陳侯躍卒。
+
+公會宋公于虛。
+
+冬，十有一月，公會宋公于龜。
+
+丙戌，公會鄭伯，盟于武父。
+
+丙戌，衛侯晉卒。
+
+十有二月，及鄭師伐宋。丁未，戰于宋。
+
+十二年，夏，「盟于曲池」，平杞、莒也。
+
+公欲平宋、鄭。秋，公及宋公盟于句瀆之丘。宋成未可知也，故又會于虛。冬又會于龜，宋公辭平。故與鄭伯盟于武父，遂帥師而伐宋，戰焉，宋無信也。君子曰，苟信不繼，盟無益也。《詩》云：『君子屢盟，亂是用長。』無信也。
+
+楚伐絞，軍其南門。莫敖屈瑕曰，絞小而輕，輕則寡謀，謀無扞采樵者以誘之，從之，絞人獲三十人。明日，絞人爭出，驅楚役徒於山中。楚人坐其北門，而覆諸山下，大敗之，為城下之盟而還。伐絞之役，楚師分涉於彭。羅人欲伐之，使伯嘉諜之，三巡數之。
+
+十有三年，春，二月，公會紀侯、鄭伯。己巳，及齊侯，宋公，衛侯，燕人，戰，齊師、宋師、衛師、燕師敗績。
+
+三月，葬衛宣公。
+
+夏，大水。
+
+秋，七月。
+
+冬，十月。
+
+十三年春，楚屈瑕伐羅，鬥伯比送之。還，謂其御曰：「莫敖必敗，舉趾高，心不固矣。」遂見楚子曰：「必濟師。」楚子辭焉，入告夫人鄧曼，鄧曼曰：「大夫其非眾之謂，其謂君撫小民以信，訓諸司以德，而威莫敖以刑也。莫敖狃於蒲騷之役，將自用也，必小羅，君若不鎮撫，其不設備乎夫固謂君訓眾而好鎮撫之，召諸司而勸之以令德，見莫敖而告諸天之不假易也。不然，夫豈不知楚師之盡行也？」楚子使賴人追之，不及。莫敖使徇于師曰：「諫者有刑。」及鄢，亂次以濟。遂無次，且不設備。及羅，羅與盧戎兩軍之，大敗之，莫敖縊于荒谷，群帥囚于冶父，以聽刑，楚子曰：「孤之罪也！」皆免之。
+
+宋多責賂於鄭，鄭不堪命，故以紀、魯及齊與宋、衛、燕戰。不書所戰，後也。
+
+鄭人來請脩好。
+
+十有四年，春，正月，公會鄭伯于曹。
+
+無冰。
+
+夏，五。
+
+鄭伯使其弟語來盟。
+
+秋，八月，壬申，御廩災。乙亥，嘗。
+
+冬，十有二月，丁巳，齊侯祿父卒。
+
+宋人以齊人、蔡人、衛人、陳人伐鄭。
+
+十四年，春，會于曹，曹人致餼，禮也。
+
+夏，鄭子人來尋盟，且脩曹之會。
+
+秋，八月，壬申，御廩災。乙亥，嘗，書，不害也」。
+
+冬，宋人以諸侯伐鄭，報宋之戰也。焚渠門，入，及大逵。伐東郊，取牛首。以大宮之椽，歸為盧門之椽。
+
+十有五年，春，二月，天王使家父來求車。
+
+三月，乙未，天王崩。夏四月，己巳，葬齊僖公，五月，鄭伯突出奔蔡。鄭世子忽復歸于鄭。
+
+許叔入于許。
+
+公會齊侯于艾。
+
+邾人、牟人、葛人來朝。
+
+秋，九月，鄭伯突入于櫟。
+
+冬，十有一月，公會宋公，衛侯，陳侯，于袲，伐鄭。
+
+十五年，春，天王使家父來求車，非禮也。諸侯不貢車服，天子不私求財。
+
+祭仲專，鄭伯患之，使其婿雍糾殺之。將享諸郊，雍姬知之，謂其母曰：「父與夫孰親？」其母曰：「人盡夫也，父一而已，胡可比也？」遂告祭仲曰：「雍氏舍其室而將享子於郊。吾惑之，以告。」祭仲殺雍糾，尸諸周氏之汪。公載以出，曰：「謀及婦人，宜其死也。」
+
+夏，厲公出奔蔡。
+
+六月，乙亥，昭公入。
+
+許叔入于許。
+
+「公會齊侯于艾」，謀定許也。
+
+秋，鄭伯因櫟人殺檀伯，而遂居櫟。
+
+冬，會于袲，謀伐鄭，將納厲公也。弗克而還。
+
+十有六年，春，正月，公會宋公，蔡侯，衛侯，于曹。
+
+夏，四月，公會宋公，衛侯，陳侯。
+
+侯，伐鄭。
+
+秋，七月，公至自伐鄭。
+
+冬，城向。
+
+十有一月，衛侯朔出奔齊。
+
+十六年，春，正月，會于曹，謀伐鄭也。
+
+夏，伐鄭，秋，七月，公至自伐鄭，以飲至之禮也。
+
+「冬，城向」，書，時也。
+
+初，衛宣公烝於夷姜，生急子，屬諸右公子。為之娶於齊，而美，公取之。生壽及朔，屬壽於左公子。夷姜縊，宣姜與公子朔構急子。公使諸齊，使盜待諸莘，將殺之。壽子告之，使行。不可，曰：「棄父之命，惡用子矣有無父之國則可也。」及行，飲以酒。壽子載其旌以先，盜殺之。急子至，曰：「我之求也，此何罪請殺我乎！」又殺之，二公子故怨惠公。十一月，左公子洩、右公子職立公子黔牟。惠公奔齊。
+
+十有七年，春，正月，丙辰，公會齊侯、紀侯盟于黃。
+
+二月，丙午，公會邾儀父，盟于趡。
+
+夏，五月，丙午，及齊師戰于奚。
+
+六月，丁丑，蔡侯封人卒。
+
+秋，八月，蔡季自陳歸于蔡。
+
+癸巳，葬蔡桓侯。
+
+及宋人、衛人伐邾。
+
+冬，十月，朔，日有食之。
+
+十七年，春，盟于黃，平齊、紀，且謀衛故也。
+
+「及邾儀父盟于趡」，尋蔑之盟也。
+
+「夏，及齊師戰于奚」，疆事也。於是齊人侵魯疆，疆吏來告。公曰，疆場之事，慎守其一，而備其不虞，姑盡所備焉。事至而戰，又何謁焉？」
+
+蔡桓侯卒，蔡人召蔡季于陳。
+
+秋，蔡季自陳歸于蔡，蔡人嘉之也。
+
+「伐邾」，宋志也。
+
+冬，十月，朔，日有食之。不書日，官失之也。天子有日官，諸侯有日御。日官居卿以底日，禮也。日御不失日，以授百官于朝。
+
+初，鄭伯將以高渠彌為卿。昭公惡之，固諫，不聽。昭公立，懼其殺己也，辛卯，弒昭公而立公子亹。君子謂昭公知所惡矣。公子達曰，「高伯其為戮乎復惡，已甚矣」。
+
+十有八年，春，王正月，公會齊侯于濼。
+
+公與夫人姜氏遂如齊。
+
+夏，四月，丙子，公薨于齊。丁酉，公之喪至自齊。
+
+秋，七月。
+
+冬，十有二月，己丑，葬我君桓公。
+
+十八年春，公將有行，遂與姜氏如齊。申繻曰：「女有家，男有室，無相瀆也，謂之有禮。易此必敗。」公會齊侯于濼，遂及文姜如齊。齊侯通焉，公謫之，以告。
+
+夏，四月，丙子，享公。使公子彭生乘公，公薨于車。魯人告于齊曰：「寡君畏君之威，不敢寧居，來脩舊好。禮成而不反，無所歸咎，惡於諸侯。請以彭生除之。」齊人殺彭生。
+
+秋，齊侯師于首止。子亹會之，高渠彌相。七月，戊戌，齊人殺子亹，而轘高渠彌，祭仲逆鄭子于陳而立之。是行也，祭仲知之，故稱疾不往。人曰：「祭仲以知免。」仲曰：「信也。」
+
+周公欲弒莊王而立王子克。辛伯告王，遂與王殺周公黑肩。王子克奔燕。初，子儀有寵於桓王，桓王屬諸周公。辛伯諫曰，並后，匹嫡，兩政，耦國，亂之本也。」周公弗從，故及。
+
+
+## 三、《戰國策》全本
+
+### 東周
+
+秦興師臨周而求九鼎，周君患之，以告顏率。顏率曰：「大王勿憂，臣請東借救於齊。」顏率至齊，謂齊王曰：「夫秦之為無道也，欲興兵臨周而求九鼎，周之君臣，內自盡計，與秦，不若歸之大國。夫存危國，美名也；得九鼎，厚寶也。願大王圖之。」齊王大悅，發師五萬人，使陳臣思將以救周，而秦兵罷。
+
+齊將求九鼎，周君又患之。顏率曰：「大王勿憂，臣請東解之。」顏率至齊，謂齊王曰：「周賴大國之義，得君臣父子相保也，願獻九鼎，不識大國何塗之從而致齊？」齊王曰：「寡人將寄徑於梁。」顏率曰：「不可。夫梁之君臣欲得九鼎，謀之暉臺之下，少海之上，其日久矣。鼎入梁，必不出。」齊王曰：「寡人將寄徑於楚。」對曰：「不可。楚之君臣欲得九鼎，謀之於葉庭之中，其日久矣。若入楚，鼎必不出。」王曰：「寡人終何塗之從而致之齊？」顏率曰：「弊邑固竊為大王患之。夫鼎者，非效醯壺醬垂耳，可懷挾提挈以至齊者；非效鳥集、烏飛、兔興、馬逝，灕然止於齊者。昔周之伐殷，得九鼎，凡一鼎而九萬人輓之，九九八十一萬人，士卒師徒，器械被具，所以備者稱此。今大王縱有其人，何塗之從而出？臣竊為大王私憂之。」齊王曰：「子之數來者，猶無與耳。」顏率曰：「不敢欺大國，疾定所從出，弊邑遷鼎以待命。」齊王乃止。
+
+秦攻宜陽，周君謂趙累曰：「子以為何如？」對曰：「宜陽必拔也。」君曰：「宜陽城方八里，材士十萬，粟支數年，公仲之軍二十萬，景翠以楚之眾，臨山而救之，秦必無功。」對曰：「甘茂，羈旅也，攻宜陽而有功，則周公旦也；無功，則削跡於秦。秦王不聽群臣父兄之義而攻宜陽，宜陽不拔，秦王恥之。臣故曰拔。」君曰：「子為寡人謀，且奈何？」對曰：「君謂景翠曰：『公爵為執圭，官為柱國，戰而勝，則無加焉矣；不勝，則死，不如背秦援宜陽，公進兵。秦恐公之乘其弊也，必以寶事公；公中慕公之為己乘秦也，亦必盡其寶。』」秦拔宜陽，景翠果進兵。秦懼，遽效煮棗；韓氏果亦效重寶。景翠得城於秦，受寶於韓，而德東周。
+
+東周與西周戰，韓救西周。為東周謂韓王曰：「西周者，故天子之國也，多名器重寶。案兵而勿出，可以德東周，西周之寶可盡矣。」
+
+東周與西周爭，西周欲和於楚、韓。齊明謂東周君曰：「臣恐西周之與楚、韓寶，令之為己求地於東周也。不如謂楚、韓曰：『西周之欲入寶，持二端。今東周之兵不急西周，西周之寶不入楚、韓。』楚、韓欲得寶，即且趣我攻西周。西周寶出，是我為楚、韓取寶以德之也，西周弱矣。」
+
+東周欲為稻，西周不下水，東周患之。蘇子謂東周君曰：「臣請使西周下水可乎？」乃往見西周之君曰：「君之謀過矣！今不下水，所以富東周也。今其民皆種麥，無他種矣。君若欲害之，不若一為下水，以病其所種。下水，東周必復種稻；種稻而復奪之。若是，則東周之民可令一仰西周，而受命於君矣。」西周君曰：「善。」遂下水。蘇子亦得兩國之金也。
+
+昭獻在陽翟，周君將令相國往，相國將不欲。蘇厲為之謂周君曰：「楚王與魏王遇也，主君令陳封之楚，令向公之魏；楚、韓之遇也，主君令許公之楚，令向公之韓。今昭獻非人主也，而主君令相國往，若其王在陽翟，主君將令誰往？」周君曰：「善。」乃止其行。
+
+秦假道於周以伐韓，周恐假之而惡於韓，不假而惡於秦。史黶謂周君曰：「君何不令人謂韓公叔曰：『秦敢絕塞而伐韓者，信東周也。公何不與周地，發重使使之楚，秦必疑，不信周，是韓不伐也。』又謂秦王曰：『韓強與周地，將以疑周於秦，寡人不敢弗受。』秦必無辭而令周弗受，是得地於韓而聽於秦也。」
+
+楚攻雍氏，周餦秦、韓，楚王怒周，周之君患之。為周謂楚王曰：「以王之強而怒周，周恐，必以國合於所與粟之國，則是勁王之敵也。故王不如速解周恐，彼前得罪而後得解，必厚事王矣。」
+
+周最謂石禮曰：「子何不以秦攻齊？臣請令齊相子，子以齊事秦，必無處矣。子因令周最居魏以共之，是天下制於子也。子東重於齊，西貴於秦，秦、齊合，則子常重矣。」
+
+周相呂倉見客於周君。前相工師籍恐客之傷己也，因令人謂周君曰：「客者，辯士也，然而所以不可者，好毀人。」
+
+周文君免士工師籍，相呂倉，國人不說也。君有閔閔之心。謂周文君曰：「國必有誹譽，忠臣令誹在己，譽在上。宋君奪民時以為臺，而非民之，無忠臣以掩蓋之也，子罕釋相為司空，民非子罕而善其君；齊桓公宮中七市，女閭七百，國人非之，管仲故為三歸之家，以掩桓公，非自傷於民也。《春秋》記臣弒君者以百數，皆大臣見譽者也。故大臣得譽，非國家之美也。故眾庶成彊，增積成山。」周君遂不免。
+
+溫人之周，周不納。「客即？」對曰：「主人也。」問其巷而不知也，使因囚之。君使人問之曰：「子非周人，而自謂非客何也？」對曰：「臣少而誦《》，《》曰：『普天之下，莫非王土；率土之濱，莫非王臣。』今周君天下，則我天子之臣，而又為客哉？故曰主人。」君乃使吏出之。
+
+或為周最謂金投曰：「秦以周最之齊疑天下，而又知趙之難子齊人戰，恐齊、韓之合，必先合於秦。秦、齊合，則公之國虛矣。公不如救齊，因佐秦而伐韓、魏，上黨、長子趙之有。公東收寶於秦，南取地於韓，魏因以因，徐為之東，則有合矣。」
+
+周最謂金投曰：「公負令秦與強齊戰。戰勝，秦且收齊而封之，使無多割，而聽天下之戰；不勝，國大傷，不得不聽秦。秦盡韓、魏之上黨、太原，西止秦之有已。秦地，天下之半也，制齊、楚、三晉之命，復國且身危，是何計之道也。」
+
+石行秦謂大梁造曰：「欲決霸王之名，不如備兩周辯知之士。」謂周君曰：「君不如令辯知之士，為君爭於秦。」
+
+謂薛公曰：「周最於齊王也而逐之，聽祝弗，相呂禮者，欲取秦。秦、齊合，弗與禮重矣。有周齊，秦必輕君。君弗如急北兵，趨趙以秦、魏，收周最以為後行，且反齊王之信，又禁天下之率。齊無秦，天下果，弗必走，齊王誰與為其國？」
+
+齊聽祝弗，外周最。謂齊王曰：「逐周最、聽祝弗、相呂禮者，欲深取秦也。秦得天下，則伐齊深矣。夫齊合，則趙恐伐，故急兵以示秦。秦以趙攻，與之齊伐趙，其實同理，必不處矣。故用祝弗，即天下之理也。」
+
+蘇厲為周最謂蘇秦曰：「君不如令王聽最，以地合於魏，趙故必怒，合於齊，是君以合齊與強楚。吏產子君，若欲因最之事，則合齊者，君也；割地者，最也。」
+
+謂周最曰：「仇赫之相宋，將以觀秦之應趙、宋，敗三國。三國不敗，將興趙、宋合於東方以孤秦。亦將觀韓、魏之於秦也，不固，則將與宋敗三國；則賣趙、宋於三國。公何不令人謂韓、魏之王曰：『欲秦、趙之相賣乎？何不合周最兼相，視之不可離，則秦、趙必相賣以合於王也。』」
+
+為周最謂魏王曰：「秦知趙之難與齊戰也，將恐齊、趙之合也，必陰勁之。趙不敢戰，恐秦不己收也，先合於齊。秦、趙爭齊，而王無人焉，不可。王不去周最，合與收齊，而以兵之急則伐齊，無因事也。」
+
+謂周最曰：「魏王以國與先生，貴合於秦以伐齊。薛公故主，輕忘其薛，不顧其先君之丘墓，而公獨脩虛信，為茂行，明群臣，據故主，不與伐齊者產，以忿強秦，不可。公不如謂魏王、薛公曰：『請為王入齊，天下不能傷齊。而有變，臣請為救之；無變，王遂伐之。且臣為齊奴也，如累王之交於天下，不可。王為臣賜厚矣，臣入齊，則王亦無齊之累也。』」
+
+趙取周之祭地，周君患之，告於鄭朝。鄭朝曰：「君無患也，臣請以三十金復取之。」周君予之，鄭朝獻之趙太卜，因告以祭地事。及王病，使卜之。太卜譴之曰：「周之祭地為祟。」趙乃還之。
+
+杜赫欲重景翠於周，謂周君曰：「君之國小，盡君子重寶珠玉以事諸侯，不可不察也。譬之如張羅者，張於無鳥之所，則終日無所得矣；張於多鳥處，則又駭鳥矣；必須張於有鳥無鳥之際，然後能多得鳥矣。今君將施於大人，大人輕君；施與小人，小人無可以求，又費財焉。君必施於今之窮士，不必且為大人者，故能得欲矣。」
+
+周共太子死，有五庶子，皆愛之，而無適立也。司馬翦謂楚王曰：「何不封公子咎，而為之請太子？」左成謂司馬翦曰：「周君不聽，是公之知困而交絕於周也。不如謂周君曰：『孰欲立也？微告翦，翦今楚王資之以地。』公若欲為太子，因令人謂相國御展子，廧夫空曰：『王類欲令若為之。』此健士也，居中不便於相國。」相國令之為太子。
+
+三國隘秦，周令其相之秦，以秦之輕也，留其行。有人謂相國曰：「秦之輕重，未可知也。秦欲知三國之情，公不如遂見秦王曰：『請謂王聽東方之處。』秦必重公。是公重周，重周以取秦也。齊重故有周，而已取秦。是周常不失重國之交也。」
+
+昌他亡西周，之東周，盡輸西周之情於東周。東周大喜，西周大怒。馮且曰：「臣能殺之。」君予金三十斤。馮且使人操金與書，間遺昌他書曰：「告昌他，事可成，勉成之；不可成，亟亡來亡來。事久且泄，自令身死。」因使人告東周之侯曰：「今夕有姦人當入者矣。」候得而獻東周，東周立殺昌他。
+
+昭翦與東周惡，或謂照翦曰：「為公畫陰計。」照翦曰：「何也？」「西周甚憎東周，嘗欲東周與楚惡，西周必令賊賊公，因宣言東周也，以西周之於王也。」照翦曰：「善。吾又恐東周之賊己而以輕西周惡之於楚。」遽和東周。
+
+嚴氏為賊，而陽堅與焉。道周，周君留之十四日，載以乘車駟馬而遣之。韓使人讓周，周君患之。客謂周君曰：「正語之曰：『寡人知嚴氏之為賊，而陽堅與之，故留之十四日以待命也。小國不足亦以容賊，君之使又不至，是以遣之也。』」
+
+
+## 四、《鹽鐵論》選篇
+
+### 本議
+
+惟始元六年，有詔書使丞相、御史與所舉賢良、文學語。問民間所疾苦。
+
+文學對曰：「竊聞治人之道，防淫佚之原，廣道德之端，抑末利而開仁義，毋示以利，然後教化可興，而風俗可移也。今郡國有鹽、鐵、酒榷，均輸，與民爭利。散敦厚之樸，成貪鄙之化。是以百姓就本者寡，趨末者眾。夫文繁則質衰，末盛則質虧。末修則民淫，本修則民愨。民愨則財用足，民侈則饑寒生。願罷鹽、鐵、酒榷、均輸，所以進本退末，廣利農業，便也。」
+
+大夫曰：「匈奴背叛不臣，數為寇暴於邊鄙，備之則勞中國之士，不備則侵盜不止。先帝哀邊人之久患，苦為虜所係獲也，故修障塞。飭烽燧，屯戍以備之。邊用度不足，故興鹽、鐵，設酒榷，置均輸，蕃貨長財，以佐助邊費。今議者欲罷之，內空府庫之藏，外乏執備之用，使備塞乘城之士饑寒於邊，將何以贍之？罷之，不便也。」
+
+文學曰：「孔子曰：『有國有家者，不患貧而患不均，不患寡而患不安。』故天子不言多少，諸侯不言利害，大夫不言得喪。畜仁義以風之，廣德行以懷之。是以近者親附而遠者悅服。故善克者不戰，善戰者不師，善師者不陣。修之於廟堂，而折衝還師。王者行仁政，無敵於天下，惡用費哉？」
+
+大夫曰：「匈奴桀黠，擅恣入塞，犯厲中國，殺伐郡、縣、朔方都尉，甚悖逆不軌，宜誅討之日久矣。陛下垂大惠，哀元元之未贍，不忍暴士大夫於原野；縱難被堅執銳，有北面復匈奴之志，又欲罷鹽、鐵、均輸，擾邊用，損武略，無憂邊之心，於其義未便也。」
+
+文學曰：「古者，貴以德而賤用兵。孔子曰：『遠人不服，則修文德以來之。既來之，則安之。』今廢道德而任兵革，興師而伐之，屯戍而備之，暴兵露師，以支久長，轉輸糧食無已，使邊境之士饑寒於外，百姓勞苦於內。立鹽、鐵，始張利官以給之，非長策也。故以罷之為便也。」
+
+大夫曰：「古之立國家者，開本末之途，通有無之用，市朝以一其求，致士民，聚萬貨，農商工師各得所欲，交易而退。易曰：『通其變，使民不倦。』故工不出，則農用乏；商不出，則寶貨絕。農用乏，則穀不殖；寶貨絕，則財用匱。故鹽、鐵、均輸，所以通委財而調緩急。罷之，不便也。」
+
+文學曰：「夫導民以德則民歸厚；示民以利，則民俗薄。俗薄則背義而趨利，趨利則百姓交於道而接於市。老子曰：『貧國若有餘。』非多財也，嗜慾眾而民躁也。是以王者崇本退末，以禮義防民欲，實菽粟貨財。市，商不通無用之物，工不作無用之器。故商所以通鬱滯，工所以備器械，非治國之本務也。」
+
+大夫曰：「管子云：『國有沃野之饒而民不足於食者，器械不備也。有山海之貨而民不足於財者，商工不備也。』隴、蜀之丹漆旄羽，荊、揚之皮革骨象，江南之楠梓竹箭，燕、齊之魚鹽旃裘，兗、豫之漆絲絺紵，養生送終之具也，待商而通，待工而成。故聖人作為舟楫之用，以通川谷，服牛駕馬，以達陵陸；致遠窮深，所以交庶物而便百姓。是以先帝建鐵官以贍農用，開均輸以足民財；鹽、鐵、均輸，萬民所戴仰而取給者，罷之，不便也。」
+
+文學曰：「國有沃野之饒而民不足於食者，工商盛而本業荒也；有山海之貨而民不足於財者，不務民用而淫巧眾也。故川源不能實漏卮，山海不能贍溪壑。是以盤庚萃居，舜藏黃金，高帝禁商賈不得仕宦，所以遏貪鄙之俗，而醇至誠之風也。排困市井，防塞利門，而民猶為非也，況上之為利乎？傳曰：『諸侯好利則大夫鄙，大夫鄙則士貪，士貪則庶人盜。』是開利孔為民罪梯也。」
+
+大夫曰：「往者，郡國諸侯各以其方物貢輸，往來煩雜，物多苦惡，或不償其費。故郡國置輸官以相給運，而便遠方之貢，故曰均輸。開委府於京師，以籠貨物。賤即買，貴則賣。是以縣官不失實，商賈無所貿利，故曰平準。平準則民不失職，均輸則民齊勞逸。故平準、均輸，所以平萬物而便百姓，非開利孔而為民罪梯者也。」
+
+文學曰：「古者之賦稅於民也，因其所工，不求所拙。農人納其穫，女工效其功。今釋其所有，責其所無。百姓賤賣貨物，以便上求。間者，郡國或令民作布絮，吏恣留難，與之為市。吏之所入，非獨齊、阿之縑，蜀、漢之布也，亦民間之所為耳。行姦賣平，農民重苦，女工再稅，未見輸之均也。縣官猥發，闔門擅市，則萬物并收。萬物并收，則物騰躍。騰躍，則商賈侔利。自市，則吏容姦。豪吏富商積貨儲物以待其急，輕賈姦吏收賤以取貴，未見準之平也。蓋古之均輸，所以齊勞逸而便貢輸，非以為利而賈萬物也。」
+
+
+### 力耕
+
+大夫曰：「王者塞天財，禁關市，執準守時，以輕重御民。豐年歲登，則儲積以備乏絕；凶年惡歲，則行幣物；流有餘而調不足也。昔禹水湯旱，百姓匱乏，或相假以接衣食。禹以歷山之金，湯以莊山之銅，鑄幣以贖其民，而天下稱仁。往者財用不足，戰士或不得祿，而山東被災，齊、趙大饑，賴均輸之畜，倉廩之積，戰士以奉，饑民以賑。故均輸之物，府庫之財，非所以賈萬民而專奉兵師之用，亦所以賑困乏而備水旱之災也。」
+
+文學曰：「古者，十一而稅，澤梁以時入而無禁，黎民咸被南畝而不失其務。故三年耕而餘一年之蓄，九年耕有三年之蓄。此禹、湯所以備水旱而安百姓也。草萊不闢，田疇不治，雖擅山海之財，通百末之利，猶不能贍也。是以古者尚力務本而種樹繁，躬耕趣時而衣食足，雖累凶年而人不病也。故衣食者民之本，稼穡者民之務也。二者修，則國富而民安也。《》云：『』也。」
+
+大夫曰：「賢聖治家非一寶，富國非一道。昔管仲以權譎霸，而紀氏以強本亡。使治家養生必於農，則舜不甄陶而伊尹不為庖。故善為國者，天下之下我高，天下之輕我重。以末易其本，以虛蕩其實。今山澤之財，均輸之藏，所以御輕重而役諸侯也。汝、漢之金，纖微之貢，所以誘外國而釣胡、羌之寶也。夫中國一端之縵，得匈奴累金之物，而損敵國之用。是以騾驢馲駝，銜尾入塞，驒騱騵馬，盡為我畜，鼲貂狐貉，采旃文罽，充於內府，而璧玉珊瑚琉璃，咸為國之寶。是則外國之物內流，而利不外泄也。異物內流則國用饒，利不外泄則民用給矣。《》曰：『』」
+
+文學曰：「古者，商通物而不豫，工致牢而不偽。故君子耕稼田魚，其實一也。商則長詐，工則飾罵，內懷闚窬而心不怍，是以薄夫欺而敦夫薄。昔桀女樂充宮室，文繡衣裳，故伊尹高逝遊薄，而女樂終廢其國。今騾驢之用，不中牛馬之功，鼲貂旃罽，不益錦綈之實。美玉珊瑚出於昆山，珠璣犀象出於桂林，此距漢萬有餘里。計耕桑之功，資財之費，是一物而售百倍其價也，一揖而中萬鍾之粟也。夫上好珍怪，則淫服下流，貴遠方之物，則貨財外充。是以王者不珍無用以節其民，不愛奇貨以富其國。故理民之道，在於節用尚本，分土井田而已。」
+
+大夫曰：「自京師東西南北，歷山川，經郡國，諸殷富大都，無非街衢五通，商賈之所湊，萬物之所殖者。故聖人因天時，智者因地財，上士取諸人，中士勞其形。長沮、桀溺，無百金之積，蹠蹻之徒，無猗頓之富，宛、周、齊、魯，商遍天下。故乃商賈之富，或累萬金，追利乘羡之所致也。富國何必用本農，足民何必井田也？」
+
+文學曰：「洪水滔天，而有禹之績，河水泛濫，而有宣房之功。商紂暴虐，而有孟津之謀，天下煩擾，而有乘羡之富。夫上古至治，民樸而貴本、安愉而寡求。當此之時，道路罕行，市朝生草。故耕不強者無以充虛，織不強者無以掩形。雖有湊會之要，陶、宛之術，無所施其巧。自古及今，不施而得報，不勞而有功者，未之有也。」
+
+
+### 通有
+
+大夫曰：「燕之涿、薊，趙之邯鄲，魏之溫軹，韓之滎陽，齊之臨淄，楚之宛、陳，鄭之陽翟，三川之二周，富冠海內，皆為天下名都，非有助之耕其野而田其地者也，居五諸之衝，跨街衢之路也。故物豐者民衍，宅近市者家富。富在術數，不在勞身；利在勢居，不在力耕也。
+
+文學曰：「荊、揚南有桂林之饒，內有江、湖之利，左陵陽之金，右蜀、漢之材，伐木而樹穀，燔萊而播粟，火耕而水耨，地廣而饒財；然民鮆窳偷生，好衣甘食，雖白屋草廬，歌謳鼓琴，日給月單，朝歌暮戚。趙、中山帶大河，纂四通神衢，當天下之蹊，商賈錯於路，諸侯交於道；然民淫好末，侈靡而不務本，田疇不脩，男女矜飾，家無斗筲，鳴琴在室。是以楚、趙之民，均貧而寡富。宋、衛、韓、梁，好本稼穡，編戶齊民，無不家衍人給。故利在自惜，不在勢居街衢；富在儉力趣時，不在歲司羽鳩也。」
+
+大夫曰：「五行：東方木，而丹、章有金銅之山；南方火，而交趾有大海之川；西方金，而蜀、隴有名材之林；北方水，而幽都有積沙之地。此天地所以均有無而通萬物也。今吳、越之竹，隋、唐之材，不可勝用，而曹、衛、梁、宋，采棺轉尸；江、湖之魚，萊、黃之鮐，不可勝食，而鄒、魯、周、韓，藜藿蔬食。天地之利無不贍，而山海之貨無不富也；然百姓匱乏，財用不足，多寡不調，而天下財不散也。」
+
+文學曰：「古者，采椽不斲，茅茨不翦，衣布褐，飯土硎，鑄金為鉏，埏埴為器，工不造奇巧，世不寶不可衣食之物，各安其居，樂其俗，甘其食，便其器。是以遠方之物不交，而崑山之玉不至。今世俗壞而競於淫靡，女極纖微，工極技巧，雕素樸而尚珍怪，鑽山石而求金銀，沒深淵求珠璣，設機陷求犀象，張網羅求翡翠，求蠻、貉之物以眩中國，徙邛、筰之貨，致之東海，交萬里之財，曠日費功，無益於用。是以褐夫匹婦，勞疲力屈，而衣食不足也。故王者禁溢利，節漏費。溢利禁則反本，漏費節則民用給。是以生無乏資，死無轉尸也。」
+
+大夫曰：「古者，宮室有度，輿服以庸；采椽茅茨，非先王之制也。君子節奢刺儉，儉則固。昔孫叔敖相楚，妻不衣帛，馬不秣粟。孔子曰：『不可，大儉極下。』此蟋蟀所為作也。管子曰：『不飾宮室，則材木不可勝用，不充庖廚，則禽獸不損其壽。無末利，則本業無所出，無黼黻，則女工不施。』故工商梓匠，邦國之用，器械之備也。自古有之，非獨於此。弦高販牛於周，五羖賃車入秦，公輸子以規矩，歐冶以鎔鑄。語曰：『百工居肆，以致其事。』農商交易，以利本末。山居澤處，蓬蒿堯埆，財物流通，有以均之。是以多者不獨衍，少者不獨饉。若各居其處，食其食，則是橘柚不鬻，朐鹵之鹽不出，旃罽不市，而吳、唐之材不用也。」
+
+文學曰：「孟子云：『不違農時，穀不可勝食。蠶麻以時，布帛不可勝衣也。斧斤以時，材木不可勝用。田漁以時，魚肉不可勝食。』若則飾宮室，增臺榭，梓匠斲巨為小，以圓為方，上成雲氣，下成山林，則材木不足用也。男子去本為末，雕文刻鏤，以象禽獸，窮物究變，則穀不足食也。婦女飾微治細，以成文章，極伎盡巧，則絲布不足衣也。庖宰烹殺胎卵，煎炙齊和，窮極五味，則魚肉不足食也。當今世，非患禽獸不損，材木不勝，患僭侈之無窮也；非患無旃罽橘柚，患無狹廬糠糟也。」
+
+
+### 錯幣
+
+大夫曰：「交幣通施，民事不及，物有所并也。計本量委，民有饑者，穀有所藏也。智者有百人之功，愚者有不更本之事。人君不調，民有相萬之富也。此其所以或儲百年之餘，或不厭糟糠也。民大富，則不可以祿使也；大彊，則不可以罰威也。非散聚均利者不齊。故人主積其食，守其用，制其有餘，調其不足，禁溢羡，厄利塗，然後百姓可家給人足也。」
+
+文學曰：「古者，貴德而賤利，重義而輕財。三王之時，迭盛迭衰。衰則扶之，傾則定之。是以夏忠、殷敬、周文，庠序之教，恭讓之禮，粲然可得而觀也。及其後，禮義弛崩，風俗滅息，故自食祿之君子，違於義而競於財，大小相吞，淚轉相傾。此所以或儲百年之餘，或無以充虛蔽形也。古之仕者不穡，田者不漁，抱關擊柝，皆有常秩，不得兼利盡物。如此，則愚智同功，不相傾也。《》云：『』言不盡物也。」
+
+大夫曰：「湯、文繼衰，漢興乘弊。一質一文，非苟易常也。俗弊更法，非務變古也，亦所以救失扶衰也。故教與俗改，弊與世易。夏后以玄貝，周人以紫石，後世或金錢刀布。物極而衰，終始之運也。故山澤無征，則君臣同利，刀幣無禁，則姦貞並行。夫臣富則相侈，下專利則相傾也。」
+
+文學曰：「古者，市朝而無刁幣，各以其所有易所無，抱布貿絲而已。後世即有龜貝金錢，交施之也。幣數變而民滋偽。夫救偽以質，防失以禮。湯、文繼衰，革法易化，而殷、周道興。漢初乘弊，而不改易，畜利變幣，欲以反本，是猶以煎止燔，以火止沸也。上好禮則民闇飾，上好貨則下死利也。」
+
+大夫曰：「文帝之時，縱民得鑄錢、冶鐵、煮鹽。吳王擅鄣海澤，鄧通專西山。山東奸猾，咸聚吳國，秦、雍、漢、蜀因鄧氏。吳、鄧錢布天下，故有鑄錢之禁。禁禦之法立，而奸偽息，奸偽息，則民不期於妄得，而各務其職；不反本何為？故統一，則民不二也；幣由上，則下不疑也。」
+
+文學曰：「往古，幣眾財通而民樂。其後，稍去舊幣，更行白金龜龍，民多巧新幣。幣數易而民益疑。於是廢天下諸錢，而專命水衡三官作。吏匠侵利，或不中式，故有薄厚輕重。農人不習，物類比之，信故疑新，不知姦貞。商賈以美貿惡，以半易倍。買則失實，賣則失理，其疑或滋益甚。夫鑄偽金錢以有法，而錢之善惡無增損於故。擇錢則物稽滯，而用人尤被其苦。春秋曰：『算不及蠻、夷則不行。』故王者外不鄣海澤以便民用，內不禁刀幣以通民施。」
+
+
+## 五、《燕丹子》全本
+
+### 燕丹子
+
+燕丹子質於秦，秦王遇之無禮，不得意，欲歸。秦王不聽，謬言曰：「令烏白頭，馬生角，乃可。」丹仰天歎，果烏白頭、馬生角。秦王不得已而遣之，為機發之橋，欲陷丹。丹過之，橋為不發。夜到關，關門未開。丹為鷄鳴，眾雞皆鳴，遂得逃歸。深怨於秦，求欲復之。奉養勇士，無所不至。
+
+為書與其傅鞠武曰：「不肖，生於僻陋之國，長於無毛之地，未嘗得覩君子雅訓、達人之道也。然鄙意欲有所陳，幸傅正覽之。丹聞丈夫所恥，恥受辱以生於世也；貞女所羞，羞見劫以虧其節也。故有刎喉不顧、據鼎不迴者，斯豈樂死而忘生哉，其心有所守也。今秦王反戾天常，虎狼其行，遇丹無禮，為諸侯最。丹每念之，痛入骨髓。計燕國之眾不能敵之，曠年相守，力固不足。欲收天下之勇士，集海內之英雄，破國空蔵，以奉養之，重幣甘辭以巿秦。貪我賂，而信我辭，一劍之任，可當百萬之師；須臾之間，可解丹萬世之恥。若其不然，令丹生無面目於天下，死懷恨於九泉，必令諸侯指以為笑，易水之北，未知誰有。此蓋亦子大夫之恥也。謹遣書，願熟之。」
+
+鞠武報書曰：「臣聞快於意者虧於行，甘於心者傷於性。今太子欲滅悁悁之恥，除久久之恨，此實臣所當麋軀碎首而不避也。私以為智者不冀僥倖以要功，明者不苟從志以順心。事必成然後舉，身必安而後行。故發無失舉之尤，動無蹉跌之愧也。太子貴匹夫之勇，信一劍之任，而欲望功，臣以為䟽。臣願合從於楚，并勢於趙，連衡於韓、魏，然後圖秦，秦可破也。且韓、魏與秦，外親內䟽。若無倡兵，楚乃來應，韓、魏必從，其勢可見。今臣計從，太子之恥除，愚鄙之累解矣。太子慮之。」
+
+太子得書，不說，召鞠武而問之，武曰：「臣以為太子行臣言，則易水之北，永無秦憂，四鄰諸侯必有求我者矣。」太子曰「此引日縵縵，心不能須也！」鞠武曰：「臣為太子計熟矣。夫有秦、疾不如徐，走不如坐。今合楚、趙，并韓、魏，雖引歲月，其事必成。臣以為良。」太子睡臥不聽。鞠武曰：「臣不能為太子計。臣所知田光，其人深中有謀。願令見太子。」太子曰：「敬諾！」
+
+田光見太子，太子側階而迎，迎而再拜。坐定，太子丹曰：「傅不以蠻域而丹不肖，乃使先生來降弊邑，今燕國僻在北陲，比於蠻域，而先生不羞之。丹得侍左右，覩見玉顏，斯乃上世神靈，保祐燕國，令先生設降辱焉。」田光曰：「結髮立身，以至於今，徒慕太子之高行，美太子之令名耳。太子將何以教之？」太子膝行而前，涕淚橫流曰：「丹嘗質於秦，秦遇丹無禮，日夜焦心，思欲復之。論眾則秦多，計強則燕弱。欲曰合從，心復不能。常食不識位、寢不安席。縱令燕秦同日而亡，則為死灰復燃，白骨更生。願先生圖之。」田光曰：「此國事也，請得思之。」於是舍光上館。太子三時進食，存問不絕，如是三月。
+
+太子怪其無說，就光辟左右，問曰：「先生既垂哀恤，許惠嘉謀。側身傾聽，三月於斯，先生豈有意歟？」田光曰：「微太子言，固將竭之。臣聞騏驥之少，力輕千里，及其罷朽，不能取道。太子聞臣時已老矣。欲為太子良謀，則太子不能；欲奮筋力，則臣不能。然竊觀太子客無可用者，夏扶、血勇之人，怒而面赤；宋臆、脈勇之人，怒而面青；武陽，骨勇之人，怒而面白。光所知荊軻、神勇之人，怒而色不變，為人博聞強記，體烈骨壯，不拘小節，欲立大功。嘗家於衛，脫賢大夫之急十有餘人，其餘庸庸不可稱。太子欲圖事，非此人莫可。」太子下席再拜曰：「若因先生之靈，得交於荊君，則燕國社稷長為不滅。唯先生成之。」田光遂行。太子自送，執光手曰：「此國事，願勿洩之！」光笑曰：「諾。」
+
+遂見荊軻，曰：「光不自度，不肖，達足下於太子。夫燕太子、真天下之士也，傾心於足下，願足下勿疑焉。」荊軻曰：「有鄙志，常謂心合意等，沒身不顧，情有乖異，一毛不拔。今先生令交於太子，敬諾不違。」田光謂軻曰：「蓋聞士不為人所疑。太子送光之時，言此國事，願勿洩，此疑光也。是疑而生於世，光所羞也。」向軻吞舌而死。軻遂之燕。
+
+荊軻之燕，太子自御，虛左，軻緩不讓。至，坐定，賓客滿坐，軻言曰：「田光褒揚太子仁愛之風，說太子不世之器，高行厲天，美聲盈耳。軻出衛都，望燕路，歷險不以為勤，望遠不以為遐。今太子禮之以舊故之恩，接之以新人之敬，所以不復讓者，士信於知己也。」太子曰：「田先生無恙乎？」軻曰：「光臨送軻之時，言太子戒以國事，恥丈夫而不見信，向軻吞舌而死矣。」太子驚愕失色，噓唏飲淚曰：「丹所以戒先生，豈疑先生哉？今先生自殺，亦令丹自棄於世矣！」茫然良久，不怡，民氐日置酒請軻，酒酣，太子起為壽。夏扶前曰：「聞事無鄉曲之譽，則未可與論行；馬無服輿之伎，則未可與稱良。今荊君遠至，將何以教太子？」欲微感之。軻曰：「士有超世之行者，不必合於鄉曲；馬有千里之相者，何必出於服輿。昔呂望當屠釣之時，天下之賤丈夫也；其遇文王，則為周師。騏驥之在鹽車，駑之下也；及遇伯樂，則有千里之功。如此在鄉曲而後發善，服輿而後別良哉！」夏扶問軻：「何以教太子？」軻曰：「將令燕繼召公之迹，追甘棠之化，高欲四三王，下欲六五霸。於君何如？」坐皆稱善。竟酒，無能屈。太子甚喜，自以得軻，永無秦憂。
+
+後日與軻之東宮，臨池水而觀。軻拾瓦投龜，太子令人捧盤。荊軻，投盡復進。軻曰：「非為太子愛金也，但臂痛耳。」後復共乘千里馬。軻曰：「馬肝甚美。」太子即殺馬進肝。暨樊將軍得罪於秦，秦求之急，乃來歸太子。太子置酒華陽之臺。酒中，太子出美人能琴者。軻曰：「好手琴者！」太子即進之。軻曰：「但愛其手耳。」太子斷手，盛以玉盤奉之。太子常與軻同案而食，同床而寢。
+
+後日，軻從容曰：「軻侍太子，三年於斯矣，而太子遇軻甚厚，黃金投龜，千里馬肝，姬人好手，盛以玉盤。凡庸人當之，猶尚樂出尺寸之長，當犬馬之用。今軻常侍君子之側，聞烈士之節，死有輕於鴻毛，義有重於太山，但聞用之所在耳。太子幸教之。」太子歛袂，正色而言曰：「丹嘗遊秦，秦遇丹不道，丹恥與之俱生。今荊君不以丹不肖，降辱小國。今丹以社稷干長者，不知所謂。」軻曰：「今天下彊國莫彊於秦。今太子力不能威諸侯，諸侯未肯為太子用也。太子率燕國之眾而當之，猶使羊將狼，使狼追虎耳。」太子曰：「丹之憂計久，不知安出？」軻曰：「樊於期得罪於秦，秦求之急。又督亢之地，秦所貪也。今得樊於期首、督亢地圖，則事可成也。」太子曰：「若事可成，舉燕國而獻之，丹甘心焉。樊將軍以窮歸我，而丹賣之，心不善也。」軻默然不應，居五月，太子恐軻悔，見軻曰：「今秦已破燕國，兵臨燕，事已迫急。雖欲足下計，安施之？今欲先遣武陽，何如？」軻怒曰：「何太子所遣，往而不返者，豎子也！軻所以未行者，待吾客耳。」於是軻潛見樊於期，曰：「聞將軍得罪於秦，父母妻子皆見焚燒，求將軍邑萬戶、金千斤。實為將軍痛之。今有一言，除將軍之辱，解燕國之恥，將軍豈有意乎？」於期曰：「常念之，日夜飲淚，不知所出。荊君幸教，願聞命矣！」軻曰：「得將軍之首與燕督亢地圖，秦必喜。喜而見軻，軻將左手把其袖，右手揕其胸，數以負燕之罪，責以將軍之御，而燕國見陵雪，將軍積忿之怒除矣。」於期起，振腕執刀曰：「是於期日夜所欲，而今聞命矣！」於是自刎，頭墜背後，兩目不瞑。太子聞之，自駕馳往，伏於期屍而哭，悲不自勝。良久，無柰何，遂函盛於期首與督亢地圖，武陽為副。軻不擇日而發，太子與知謀者皆素衣冠送易水上。軻起為，歌曰：「風蕭蕭兮易水寒，壯士一去不復還。」高漸離擊筑，宋臆和之。為壯聲，皆淚流。二子行過，夏扶當車前刎頸以送。二子行過陽翟，軻買肉爭輕重，屠辱之，武陽欲擊，軻止之。
+
+西入秦，至咸陽，國中庶子蒙白曰：「燕太子丹畏大王之威，今奉樊於期首與督亢地圖，願為北蕃臣妾。」秦王喜。百官陪位，陛戟數百，見燕使者。軻奉於期首，武陽奉地圖。鐘聲並發，群臣皆呼萬歲。武陽大恐，兩足不能相過，面如死灰色。秦王怪之。軻見請曰：「此北鄙小子，希覩天闕。願大王小假，令得畢辭。」秦王謂軻曰：「取圖來。」進，圖窮而匕首出。軻左把秦王袖，右揕其胸，數之曰：「足下負燕日久，貪暴海內，不知厭足。於期無罪而夷其族。軻將海內報讎。今燕王母病，與軻促期，從吾計即生，不從則死。」秦王曰：「今日之事，從子計耳！乞聽琴聲而死。」召姬人鼓琴，琴聲曰：「羅縠單衣，可掣而絕。八尺屏風，可超而越。鹿盧之劍，可負而拔。」軻不曉音。秦王從言，掣之絕，超屏風，負劍而走。軻拔匕首擿之，決秦王，刃入銅柱，火出。秦王還斷軻兩手。軻倨詈曰：「坐。吾輕易為豎子所期。燕國之不報，我事之不立哉！」
+
+
+## 六、《西京雜記》選篇
+
+### 第一
+
+漢高帝七年，蕭相國營未央宮。因龍首山製前殿，建北闕。未央宮周迴二十二里九十五步五尺，街道周迴七十里。臺殿四十三，其三十二在外，其十一在後。宮池十三，山六，池一、山一亦在後。宮門闥凡九十五。
+
+武帝作昆明池，欲伐昆吾夷，教習水戰。因而於上游戲養魚，魚給諸陵廟祭祀，餘付長安巿賣之。池周迴四十里。
+
+漢制：宗廟八月飲酎，用九醞太牢，皇帝侍祠。以正月旦作酒，八月成，名曰酎，一曰九醞，一名醇酎。
+
+京師大水，祭山川以止雨。丞相御史二千石禱祠，如求雨法。
+
+天子筆管，以錯寶為跗，毛皆以秋兔之毫，官師路扈為之。以雜寶為匣，廁以玉璧翠羽，皆直百金。
+
+漢制：天子玉几，冬則加綈錦其上，謂之綈几。以象牙為火籠，籠上皆散華文，後宮則五色綾文。以酒為書滴，取其不冰；以玉為硯，亦取其不冰。夏設羽扇，冬設繒扇。公侯皆以竹木為几，冬則以細罽為橐以憑之，不得加綈錦。
+
+武帝時，西域獻吉光裘，入水不濡。上時服此裘以聽朝。
+
+高帝、戚夫人善鼓瑟擊筑。帝常擁夫人倚瑟而絃歌，畢，每泣下流漣。夫人善為翹袖折腰之舞，歌《出塞》、《入塞》、《望歸》之曲，侍婦數百皆習之。後宮齊首高唱，聲入雲霄。
+
+戚姬以百鍊金為彄環，照見指骨。上惡之，以賜侍兒鳴玉、耀光等，各四枚。
+
+趙王如意年幼，未能親外傅。戚姬使舊趙王內傅趙媼傅之，號其室曰養德宮，後改為魚藻宮。
+
+惠帝嘗與趙王同寢處，呂后欲殺之而未得。後帝早獵，王不能夙興，呂后命力士於被中縊殺之。及死，呂后不之信。以綠囊盛之，載以小軿車，入見，乃厚賜力士。力士是東郭門外官奴，帝後知，腰斬之，后不知也。
+
+樂遊苑自生玫瑰樹，樹下多苜蓿。苜蓿一名懷風，時人或謂之光風，風在其間，常蕭蕭然，日照其花，有光采，故名苜蓿為懷風。茂陵人謂之連枝草。太液池邊皆是彫胡、紫蘀、綠節之類。菰之有米者，長安人謂為彫胡；葭蘆之未解葉者，謂之紫蘀；菰之有首者，謂之綠節。其間鳧雛鴈子布滿充積，又多紫龜綠鱉，池邊多平沙，沙上鵜鶘、鷓鴣、鵁鶄、鴻鶂，動輒成群。
+
+終南山多離合草，葉似江蘺，而紅綠相雜，莖皆紫色，氣如蘿勒。有樹直上百丈，無枝，上結叢條如車蓋，葉一青一赤，望之班駮如錦繡，長安謂之丹青樹，亦云華蓋樹。亦生熊耳山。
+
+漢帝相傳以秦王子嬰所奉白玉璽、高祖斬白蛇劍。劍上有七采珠、九華玉以為飾，雜廁五色琉璃為劍匣。劍在室中，光景猶照於外，與挺劍不殊。十二年一加磨瑩，刃上常若霜雪。開匣拔鞘，輒有風氣，光彩射人。
+
+漢綵女常以七月七日穿七孔鍼於開襟樓，俱以習之。
+
+宣帝被收擊郡邸獄，臂上猶帶史良娣合采婉轉絲繩，擊身毒國寶鏡一枚，大如八銖錢。舊傳此鏡見妖魅，得佩之者為天神所福，故宣帝從危獲濟。及即大位，每持此鏡，感咽移辰。常以琥珀笥盛之，緘以戚里織成錦，一曰斜文錦。帝崩，不知所在。
+
+霍光妻遺淳于衍蒲桃錦二十四匹、散花綾二十五匹。綾出鉅鹿陳寶光家，寶光妻傳其法。霍顯召入其第，使作之。機用一百二十鑷，六十日成一匹，匹直萬錢。又與走珠一琲，綠綾百端，錢百萬，黃金百兩，為起第宅，奴婢不可勝數。衍猶怨曰：「吾為爾成何功，而報我若是哉！」
+
+濟陰王興居反，始舉兵，大風從東來，直吹其旌旗，飛上天入雲，而墮城西井中。馬皆悲鳴不進。左右李廓等諫，不聽。後卒自殺。
+
+五鹿充宗受學於弘成子。成子少時，嘗有人過己，授以文石，大如鷰卵。成子吞之，遂大明悟，為天下通儒。成子後病，吐出此石，以授充宗，充宗又為碩學也。
+
+始元元年，黃鵠下太液池。上為歌曰：「黃鵠飛兮下建章，羽肅肅兮行蹌蹌，金為衣兮菊為裳。唼喋荷荇，出入蒹葭，自顧菲薄，愧爾嘉祥。」
+
+漢帝送死皆珠襦玉匣。匣形如鎧甲，連以金縷。武帝匣上皆鏤為蛟龍鸞鳳龜麟之象，世謂為蛟龍玉匣。
+
+成帝設雲帳、雲幄、雲幕於甘泉紫殿，世謂三雲殿。
+
+漢掖庭有月影臺、雲光殿、九華殿、鳴鸞殿、開襟閣、臨池觀，不在簿籍，皆繁華窈窕之所棲宿焉。
+
+趙飛鷰女弟居昭陽殿，中庭彤朱，而殿上丹漆，砌皆銅沓，黃金塗，白玉階，璧帶往往為黃金釭，含藍田璧，明珠翠羽飾之。上設九金龍，皆銜九子金鈴，五色流蘇。帶以綠文紫綬，金銀花鑷。每好風日，幡眊光影，照耀一殿，鈴鑷之聲，驚動左右。中設木畫屏風，文如蜘蛛絲縷，玉几玉床，白象牙簟，綠熊席。席毛長二尺餘，人眠而擁毛自蔽，望之不能見，坐則沒膝，其中雜熏諸香，一坐此席，餘香百日不歇。有四玉鎮，皆達照，無瑕缺。窗扉多是綠琉璃，亦皆達照，毛髮不得藏焉。椽桷皆刻作龍蛇，縈繞其間，鱗甲分明，見者莫不兢慄。匠人丁緩、李菊，巧為天下第一。締構既成，向其姊子樊延年說之，而外人稀知，莫能傳者。
+
+積草池中有珊瑚樹，高一丈二尺，一本三柯，上有四百六十二條。是南越王趙他所獻，號為烽火樹。至夜，光景常欲燃。
+
+昆明池刻玉石為魚，每至雷雨，魚常鳴吼，鬐尾皆動。漢世祭之以祈雨，往往有驗。
+
+初修上林苑，群臣遠方，各獻名果異樹，亦有製為美名，以摽奇麗。梨十：紫梨、青梨、芳梨、大谷梨、細葉梨、縹葉梨、金葉梨、瀚海梨、東王梨、紫條梨。棗七：弱枝棗、玉門棗、棠棗、青華棗、梬棗、赤心棗、西王棗。栗四：侯栗、榛栗、瑰栗、嶧陽栗。桃十：秦桃、榹桃、緗核桃、金城桃、綺葉桃、紫文桃、霜桃、胡桃、櫻桃、含桃。李十五：紫李、綠李、朱李、黃李、青綺李，青房李、同心李、車下李、含枝李、金枝李、顏淵李、羌李、燕李、蠻李、侯李。柰三：白柰、紫柰、綠柰。查三：蠻查、羌查、猴查。椑三、青椑、赤葉椑、烏椑。棠四：赤棠、白棠、青棠、沙棠。梅七：朱梅、紫葉梅、紫華梅、同心梅、麗枝梅、燕梅、猴梅。杏二：文杏、蓬萊杏。桐三：椅桐、梧桐、荊桐。林檎十株，枇杷十株，橙十株，安石榴，楟十株，白銀樹十株，黃銀樹十株，槐六百四十，千年長生樹十株，萬年長生樹十株，扶老木十株，守宮槐十株，金明樹二十株，搖風樹十株，鳴風樹十株，琉璃樹七株，池離樹十株，離婁樹十株，白俞●、杜●、桂蜀漆樹十株，柟四株，樅七株，栝十株，楔四株，楓四株。余就上林令虞淵得朝臣所上草木名二千餘種。鄰人石瓊就余求借，一皆遺棄。今以所記憶，列於篇右。
+
+長安巧工丁緩者，為常滿燈，七龍五鳳，雜以芙蓉蓮藕之奇。又作臥褥香鑪，一名被中香鑪。本出房風，其法後絕，至緩始更為之。為機環轉運四周，而鑪體常平，可置之被褥，故以為名。又作九層博山香鑪，鏤為奇禽怪獸，窮諸靈異，皆自然運動。又作七輪扇，連七輪，大皆徑丈，相連續，一人運之，滿堂寒顫。
+
+趙飛鷰為皇后，其女弟在昭陽殿，遺飛鷰書曰：「今日嘉辰，貴姊懋膺洪冊，謹上襚三十五條，以陳踊躍之心：金華紫輪帽，金華紫羅面衣，織成上襦，織成下裳，五色文綬，鴛鴦襦，鴛鴦被，鴛鴦褥，金錯繡襠，七寶綦履，五色文玉環，同心七寶釵，黃金步搖，合懽圓璫，琥珀枕，龜文枕，珊瑚玦，馬腦彄，雲母扇，孔雀扇，翠羽扇，九華扇，五明扇，雲母屏風，琉璃屏風，五層金博山香鑪，迴風扇，椰葉席，同心梅，含枝李，青木香，沈水香，香螺巵，九真雄麝香，七枝鐙。」
+
+趙后體輕腰弱，善行步進退，女弟昭儀不能及也。但昭儀弱骨豐肌，尤工笑語。二人並色如紅玉，為當時第一，皆擅寵後宮。
+
+
+### 第二
+
+元帝後宮既多，不得常見，乃使畫工圖形，案圖召幸之。諸宮人皆賂畫工，多者十萬，少者亦不減五萬。獨王嬙不肯，遂不得見。匈奴入朝，求美人為閼氏，於是上案圖，以昭君行。及去，召見，貌為後宮第一，善應對，舉止閑雅。帝悔之，而名籍已定。帝重信於外國，故不復更人。乃窮案其事，畫工皆棄巿，籍其家，資皆巨萬。畫工有杜陵毛延壽，為人形，醜好老少，必得其真。安陵陳敞，新豐劉白、龔寬，並工為牛馬飛鳥眾勢，人形好醜，不逮延壽。下杜陽望，亦善畫，尤善布色。樊育亦善布色。同日棄巿。京師畫工，於是差稀。
+
+武帝欲殺乳母，乳母告急於東方朔，朔曰：「帝忍而愎，旁人言之，益死之速耳。汝臨去，但屢顧我，我當設奇以激之。」乳母如言，朔在帝側曰：「汝宜速去，帝今已大，豈念汝乳哺時恩邪？」帝愴然，遂舍之。
+
+五侯不相能，賓客不得來往。婁護豐辯，傳食五侯間，各得其懽心，競致奇膳。護乃合以為鯖，世稱五侯鯖，以為奇味焉。
+
+公孫弘起家徒步，為丞相，故人高賀從之。弘食以脫粟飯，覆以布被。賀怨曰：「何用故人富貴為？脫粟布被，我自有之。」弘大慚，賀告人曰：「公孫弘內服貂蟬，外衣麻枲，內廚五鼎，外膳一肴，豈可以示天下？」於是朝廷疑其矯焉。弘嘆曰：「寧逢惡賓，不逢故人。」
+
+文帝自代還，有良馬九匹，皆天下之駿馬也。一名浮雲，一名赤電，一名絕群，一名逸驃，一名紫鷰騮，一名綠螭驄，一名龍子，一名麟駒，一名絕塵，號為九逸。有來宣能御，代王號為王良，俱還代邸。
+
+武帝時，身毒國獻連環羈，皆以白玉作之，馬瑙石為勒，白光琉璃為鞍。鞍在闇室中，常照十餘丈，如晝日。自是長安始盛飾鞍馬，競加雕鏤。或一馬之飾直百金，皆以南海白蜃為珂，紫金為華，以飾其上。猶以不鳴為患，或加以鈴鑷，飾以流蘇，走則如撞鐘磬，若飛幡葆。後得貳師天馬，帝以玟瓌石為鞍，鏤以金銀鍮石，以綠地五色錦為蔽泥，後稍以熊羆皮為之。熊羆毛有綠光，皆長二尺者，直百金。卓王孫有百餘雙，詔使獻二十枚。
+
+昭帝時，茂陵家人獻寶劍，上銘曰：直千金，壽萬歲。
+
+司馬相如初與卓文君還成都，居貧愁懣，以所著鷫鷞裘就巿人陽昌貰酒，與文君為懽。既而文君抱頸而泣曰：「我平生富足，今乃以衣裘貰酒。」遂相與謀，於成都賣酒。相如親著犢鼻褌滌器，以恥王孫。王孫果以為病，乃厚給文君，文君遂為富人。文君姣好，眉色如望遠山，臉際常若芙蓉，肌膚柔滑如脂，十七而寡，為人放誕風流，故悅長卿之才而越禮焉。長卿素有消渴疾，及還成都，悅文君之色，遂以發痼疾。乃作《美人賦》，欲以自刺，而終不能改，卒以此疾至死。文君為誄，傳於世。
+
+慶安世年十五，為成帝侍郎。善鼓琴，能為《雙鳳離鸞》之曲。趙后悅之，白上，得出入御內，絕見愛幸。嘗著輕絲履，招風扇，紫綈裘，與后同居處。欲有子，而終無胤嗣。趙后自以無子，常託以祈禱，別開一室，自左右侍婢以外，莫得至者，上亦不得至焉。以軿車載輕薄少年，為女子服，入後宮者日以十數，與之淫通，無時休息。有疲怠者，輒差代之，而卒無子。
+
+太上皇徙長安，居深宮，悽愴不樂。高祖竊因左右問其故，以平生所好，皆屠販少年，酤酒賣餅，鬭鷄蹴踘，以此為懽，今皆無此，故以不樂。高祖乃作新豐，移諸故人實之，太上皇乃悅。故新豐多無賴，無衣冠子弟故也。高祖少時，常祭枌榆之社。及移新豐，亦還立焉。高帝既作新豐，并移舊社，衢巷棟宇，物色惟舊。士女老幼，相攜路首，各知其室。放犬羊鷄鴨於通塗，亦競識其家。其匠人胡寬所營也。移者皆悅其似而德之，故競加賞贈，月餘，致累百金。
+
+漢諸陵寢，皆以竹為簾，簾皆為水紋及龍鳳之像。昭陽殿織珠為簾，風至則鳴，如珩珮之聲。
+
+楊雄讀書，有人語之曰：「無為自苦，玄故難傳。」忽然不見。雄著《太玄經》，夢吐鳳凰，集《玄》之上，頃而滅。
+
+司馬相如為《上林》、《子虛》賦，意思蕭散，不復與外事相關，控引天地，錯綜古今，忽然如睡，煥然而興，幾百日而後成。其友人盛覽，字長通，䍧牁名士，嘗問以作賦。相如曰：「合綦組以成文，列錦繡而為質，一經一緯，一宮一商，此賦之迹也。賦家之心，苞括宇宙，總覽人物，斯乃得之於內，不可得而傳。」覽乃作《合組歌》、《列錦賦》而退，終身不復敢言作賦之心矣。
+
+董仲舒夢蛟龍入懷，乃作《春秋繁露》詞。
+
+或問楊雄為賦，雄曰：「讀千首賦，乃能為之。」
+
+匡衡字稚圭，勤學而無燭。鄰舍有燭而不逮，衡乃穿壁引其光，以書映光而讀之。邑人大姓文不識，家富多書，衡乃與其傭作，而不求償。主人怪，問衡，衡曰：「願得主人書遍讀之。」主人感嘆，資給以書，遂成大學。衡能說《詩》，時人為之語曰：「無說《詩》，匡鼎來。匡說《詩》，解人頤。」鼎，衡小名也。時人畏服之如是，聞者皆解頤懽笑。衡邑人有言《詩》者，衡從之，與語質疑，邑人挫服，倒屣而去。衡追之，曰：「先生留聽，更理前論。」邑人曰：「窮矣。」遂去不返。
+
+長安有儒生曰惠莊，聞朱雲折五鹿充宗之角，乃嘆息曰：「栗犢反能爾邪！吾終恥溺死溝中。」遂裹糧從雲。雲與言，莊不能對，逡巡而去，拊心謂人曰：「吾口不能劇談，此中多有。」
+
+武帝過李夫人，就取玉簪搔頭。自此後，宮人搔頭皆用玉，玉價倍貴焉。
+
+杜陵杜夫子善弈棊，為天下第一人。或譏其費日，夫子曰：「精其理者，足以大裨聖教。」
+
+成帝好蹴踘，群臣以蹴踘為勞體，非至尊所宜。帝曰：「朕好之，可擇似而不勞者奏之。」家君作彈棊以獻，帝大悅，賜青羔裘、紫絲履，服以朝覲。
+
+元封二年，大寒，雪深五尺，野鳥獸皆死，牛馬皆踡蹜如蝟，三輔人民凍死者十有二三。
+
+武帝為七寶床，雜寶桉，廁寶屏風，列寶帳，設於桂宮，時人謂之四寶宮。
+
+瓠子河決，有蛟龍從九子自決中逆上入河，噴沫流波數十里。
+
+文帝初，多雨，積霖至百日而止。
+
+王鳳以五月五日生，其父欲不舉，曰：「俗諺：『舉五日子，長及戶則自害，不則害其父母。』」其叔父曰：「昔田文以此日生，其父嬰勑其母曰：『勿舉。』其母竊舉之。後為孟嘗君，號其母為薛公大家。以古事推之，非不祥也。」遂舉之。
+
+惠帝七年夏，雷震南山。大木數千株，皆火燃至末。其下數十畝地，草皆燋黃。其後百許日，家人就其間得龍骨一具，鮫骨二具。
+
+高祖為泗水亭長，送徒驪山，將與故人訣去。徒卒贈高祖酒二壼，鹿肚、牛肝各一。高祖與樂從者飲酒食肉而去。後即帝位，朝晡尚食，常具此二炙，并酒二壼。
+
+梁孝王好營宮室苑囿之樂，作曜華之宮，築兔園。園中有百靈山，山有膚寸石、落猿巖、棲龍岫；又有鴈池，池間有鶴洲鳧渚。其諸宮觀相連，延亘數十里，奇果異樹，瑰禽怪獸畢備。王日與宮人賓客弋釣其中。
+
+魯恭王好鬭雞鴨及鵝鴈，養孔雀、鵁鶄，俸穀一年費二千石。
+
+會稽歲時獻竹簟供御，世號為流黃簟。
+
+朱買臣為會稽太守，懷章綬還至舍亭，而國人未知也。所知錢勃，見其暴露，乃勞之曰：「得無罷乎？」遺與紈扇。買臣至郡，引為上客，尋遷為掾史。
+
+
+## 七、《逸周書》選篇
+
+### 朱右曾序
+
+朱右曾曰：周書偁逸昉說文繫之汲冢自隨書經籍志隨志之失先儒辨之不逸而逸無以別于逸尚書故宜復漢志之舊題也其書存者五十九篇并序為六十篇較漢志篇數亡其十有一焉注之者晉五經博士孔晁每篇題云某某解弟幾此晁所目也。舊但云某某弟幾蔡邕明堂月令論曰周書七十一篇而月令弟五十三可證也。唐初孔氏注本亡其二十五篇師古據之以注漢志故云今其存者四十五篇師古之後又亡其三故今孔注祗有四十二篇也。然晉唐之世書有二本孔氏解克殷荷素質之旗于王前云一作以前于王解大武三擯厥親云擯一作損李善注文選邱中云周書邱一作苑劉知幾史通云周書七十一章上自文武下終靈景不言有所闕佚與師古說殊唐書藝文志汲●周書十卷孔晁注周書八卷二本並列尤明徵也。其合四十二篇之注于七十一篇之本而亡其十一篇者未知何代要在唐以後矣嗟乎自周至今殆三千載苟獲碎金殘石于瓦礫之中尚寶之如拱璧山海經之謬悠穆王游行之荒唐偽紀年之杜撰尚有揅覃綴緝之者況上翼六經下籠諸子宏深質古若是書者乎漢志儒家有周政六篇周法九篇道家有周訓十四篇皆不傳傳者唯此儒者顧不甚愛惜任其脫爛或又從而觝排之甚矣其專己而蔑古也。愚觀此書雖未必果出文武周召之手要亦非戰國秦漢人所能偽託何者莊生有言聖人之法以參為驗以稽為決一二三四是也。周室之初箕子陳疇周官分職皆以數紀大致與此書相似，其證一也。克殷篇所敘非親見者不能商誓度邑皇門芮良夫諸篇大姒今文尚書非偽古文所能彷彿，其證二也。偁引是書者荀息狼瞫魏絳皆在孔子前，其證三也。夫酆保為保國之謀武稱著用兵之難常訓之言性文酌文傳之言政俱不悖于孔孟而說者或誚為陰謀或譏其傎戾嗚呼豈知是書者哉抑又考之春秋傳曰辛有之二子董之晉於是乎有董史辛有當周平王時周史辛甲之裔世職載筆或其子適晉以周之典籍往未可知也。觀太子晉篇末云師曠歸未及三年告死者至亦似晉史之辭六國以後書始廣播墨翟蘇秦蔡澤呂不韋韓非蒙恬蕭何之倫以及伏生大小戴太史公時時節取此書意其時學者誦習亞于六藝故劉歆班固列之六藝書九家中未嘗以孔子刪定之餘夷之諸子雜家之例姜士昌曰邱明以博物君子臣素王以垂不朽誦法素土者不能舍左氏故諸家訓詁犁然甚具周書辭特深奧流俗畏難好易不復揅覈愚嘗味乎其言覃思久之夫孔注疏略且多訛闕餘姚盧文弨集諸家校訂間有所釋但恨其未備嗣又得高郵王氏念孫海寧洪氏頤烜之書校定正文及其義訓乃不揣鄙陋集諸家之說仍是刪違申以已意一攷定正文如文酌樹惠不瘱瘱訛為●糴匡企不滿壑企當為●之類一正其訓詁如大匡展盡不伊孔注曰伊惟也。本儀禮士冠禮注今訛為推武稱遂其咎之遂當本說文訓亡大匡無播蔬之播當本楚辭注訓棄之類一詳其名物如王會之臺即司儀之壇矛為刺兵非句兵之戟作雒畫旅即旅樹器服一篇皆明器之類。凡所訓解悉本前儒而以校訂音釋附焉爰名之曰集訓校釋屬●於道光丁酉又經陽湖同年丁侍讀嘉葆太倉陸孝廉麟書同里葛廣文其仁商榷輒復隨手更定蓋再易●矣今夏案牘餘閒念心力之頗耗感良朋之匡正付之梓人譬左氏傳亦欲待服杜諸儒出而論定云時道光二十有六年丙午夏六月既望識於新安郡齋。
+
+
+### 度訓解
+
+天生民而制其度，度小大以正，權輕重以極，明本末以立中，立中以補損，補損以知足，□爵以明等極，極以正民，正中外以成命，正上下以順政，政以內□，□□自邇，彌興自遠，遠邇備極終也。□微補在□□，分微在明，明王是以敬微而順分，分次以知和，知和以知樂，知樂以知哀，哀樂以知慧，內外以知人。凡民生而有好有惡，小得其所好則喜，大得其所好則樂，小遭其所惡則憂，大遭其所惡則哀。凡民之所好惡，生物是好，死物是惡。民至有好而不讓，不從其所好，必犯法無以事上；民至有惡不讓，不去其所惡，必犯法無以事上。遍行於此，尚有玩民，而況曰以可去其惡而得其所好，民能居乎？若不□力，何以求之？力爭則力政，力政則無讓，無讓則無禮，無禮，雖得所好，民樂乎？若不樂，乃所惡也。凡民不忍好惡，不能分次，不次則奪，奪則戰，戰則何以養老幼？何以救痛疾死喪？何以胥役也？明王是以極等以斷好惡，教民次分，揚舉力竟，任壯養老，長幼有報，民是以胥役也。夫力竟非眾不剋，眾非和不眾，和非中不立，中非禮不慎，禮非樂不履，明王是以無樂非人，無哀非人，人是以眾。人眾，賞多罰少，政之美也，罰多賞少，政之惡也。罰多則困，賞少1則乏，乏困無醜，教乃不至。是以民主明醜以長子孫，子孫習服，鳥獸仁德，土宜天時，百物行治。治之初𢋙初哉，治化則順，是故無順非厲，長幼成而2生，曰順極。
+
+
+## 八、《國語》選篇
+
+### 周語上
+
+穆王將征犬戎，祭公謀父諫曰：「不可。先王耀德不觀兵。夫兵戢而時動，動則威，觀則玩，玩則無震。是故周文公之《》曰：『』先王之于民也，懋正其德而厚其性，阜其財求而利其器用，明利害之鄉，以文修之，使務利而避害，懷德而畏威，故能保世以滋大。
+
+「昔我先王世后稷，以服事虞、夏。及夏之衰也，棄稷不務，我先王不窋用失其官，而自竄于戎、狄之間，不敢怠業，時序其德，纂修其緒，修其訓典，朝夕恪勤，守以敦篤，奉以忠信，奕世載德，不忝前人。至于武王，昭前之光明而加之以慈和，事神保民，莫弗欣喜。商王帝辛，大惡于民。庶民不忍，欣戴武王，以致戎于商牧。是先王非務武也，勤恤民隱而除其害也。
+
+「夫先王之制：邦內甸服，邦外侯服，侯、衛賓服，蠻、夷要服，戎、狄荒服。甸服者祭，侯服者祀，賓服者享，要服者貢，荒服者王。日祭、月祀、時享、歲貢、終王，先王之訓也。有不祭則修意，有不祀則修言，有不享則修文，有不貢則修名，有不王則修德，序成而有不至則修刑。于是乎有刑不祭，伐不祀，征不享，讓不貢，告不王。于是乎有刑罰之辟，有攻伐之兵，有征討之備，有威讓之令，有文告之辭。布令陳辭而又不至，則增修于德而無勤民于遠，是以近無不聽，遠無不服。
+
+「今自大畢、伯士之終也，犬戎氏以其職來王。天子曰：『予必以不享征之，且觀之兵。』其無乃廢先王之訓而王幾頓乎！吾聞夫犬戎樹惇，帥舊德而守終純固，其有以御我矣！」王不聽，遂征之，得四白狼，四白鹿以歸。自是荒服者不至。
+
+恭王游于涇上，密康公從，有三女奔之。其母曰：「必致之于王。夫獸三為群，人三為眾，女三為粲。王田不取群，公行下眾，王御不參一族。夫粲，美之物也。眾以美物歸女，而何德以堪之？王猶不堪，況爾小醜乎？小醜備物，終必亡。」康公不獻。一年，王滅密。
+
+厲王虐，國人謗王。邵公告曰：「民不堪命矣！」王怒，得衛巫，使監謗者，以告，則殺之。國人莫敢言，道路以目。王喜，告邵公曰：「吾能弭謗矣，乃不敢言。」邵公曰：「是障之也，防民之口，甚于防川。川壅而潰，傷人必多，民亦如之。是故為川者決之使導，為民者宣之使言。故天子聽政，使公卿至于列士獻詩，瞽獻曲，史獻書，師箴，瞍賦，矇誦，百工諫，庶人傳語，近臣盡規，親戚補察，瞽、史教誨，耆、艾修之，而後王斟酌焉，是以事行而不悖。民之有口，猶土之有山川也，財用于是乎出，猶其原隰之有衍沃也，衣食于是乎生。口之宣言也，善敗于是乎興，行善而備敗，其所以阜財用、衣食者也。夫民慮之于心而宣之于口，成而行之，胡可壅也？若壅其口，其與能幾何？」王不聽，于是國莫敢出言，三年，乃流王于彘。
+
+厲王說榮夷公，芮良夫曰：「王室其將卑乎！夫榮公好專利而不知大難。夫利，百物之所生也，天地之所載也，而或專之，其害多矣。天地百物，皆將取焉，胡可專也？所怒甚多，而不備大難，以是教王，王能久乎？夫王人者，將導利而布之上下者也，使神人百物無不得其極，猶曰怵惕，懼怨之來也。故《》曰：『思文后稷，克配彼天。立我蒸民，莫匪爾極。』《》曰：『陳錫載周。』是不布利而懼難乎？故能載周，以至于今。今王學專利，其可乎？匹夫專利，猶謂之盜，王而行之，其歸鮮矣。榮公若用，周必敗。既，榮公為卿士，諸侯不享，王流于彘。
+
+彘之亂，宣王在邵公之宮，國人圍之，邵公曰：「昔吾驟諫王，王不從，是以及此難。今殺王子，王其以我為懟而怒乎！夫事君者險而不懟，怨而不怒，況事王乎？」乃以其子代宣王，宣王長而立之。
+
+宣王即位，不籍千畝。虢文公諫曰：「不可。夫民之大事在農，上帝之粢盛于是乎出，民之蕃庶于是乎生，事之供給于是乎在，和協輯睦于是乎興，財用蕃殖于是乎始，敦庬純固于是乎成，是故稷為大官。古者，太史順時覛土，陽癉憤盈，土氣震發，農祥晨正，日月底于天廟，土乃脈發。
+
+「先時九日，太史告稷曰：『自今至于初吉，陽氣俱蒸，土膏其動。弗震弗渝，脈其滿眚，穀乃不殖。』稷以告王曰：『史帥陽官以命我司事曰：「距今九日，土其俱動，王其祗祓，監農不易。」』王乃使司徒咸戒公卿、百吏、庶民，司空除壇于籍，命農大夫咸戒農用。
+
+「先時五日，瞽告有協風至，王即齋宮，百官御事，各即其齋三日。王乃淳濯饗醴，及期，鬱人薦鬯，犧人薦醴，王祼鬯，饗醴乃行，百吏、庶民畢從。及籍，后稷監之，膳夫、農正陳籍禮，太史贊王，王敬從之。王耕一墢，班三之，庶民終于千畝，其后稷省功，太史監之；司徒省民，太師監之；畢，宰夫陳饗，膳宰監之。膳夫贊王，王歆大牢，班嘗之，庶人終食。
+
+「是日也，瞽帥、音官以風土。廩于籍東南，鍾而藏之，而時布之于農。稷則遍誡百姓，紀農協功，曰：『陰陽分布，震雷出滯。』土不備墾，辟在司寇。乃命其旅曰：『徇，農師一之，農正再之，后稷三之，司空四之，司徒五之，太保六之，太師七之，太史八之，宗伯九之，王則大徇，耨獲亦如之。』民用莫不震動，恪恭于農，修其疆畔，日服其鎛，不解于時，財用不乏，民用和同。
+
+「是時也，王事唯農是務，無有求利于其官，以干農功，三時務農而一時講武，故征則有威，守則有財。若是，乃能媚于神而和于民矣，則享祀時至而布施優裕也。今天子欲修先王之緒而棄其大功，匱神乏祀而困民之財，將何以求福用民？」王不聽。三十九年，戰于千畝，王師敗績于姜氏之戎。
+
+魯武公以括與戲見王，王立戲，樊仲山父諫曰：「不可立也！不順必犯，犯王命必誅，故出令不可不順也。令之不行，政之不立。行而不順，民將棄上。夫下事上，少事長，所以為順也。今天子立諸侯而建其少，是教逆也。若魯從之而諸侯效之，王命將有所壅，若不從而誅之，是自誅王命也。是事也，誅亦失，不誅亦失，天子其圖之！」王卒立之。魯侯歸而卒，及魯人殺懿公而立伯御。
+
+三十二年春，宣王伐魯，立孝公，諸侯從是而不睦。宣王欲得國子之能導訓諸侯者，樊穆仲曰：「魯侯孝。」王曰：「何以知之？」對曰：「肅恭明神而敬事耇老，賦事行刑，必問于遺訓而咨于故實，不干所問，不犯所咨。」王曰：「然則能訓治其民矣。」乃命魯孝公于夷宮。
+
+宣王既喪南國之師，乃料民于太原。仲山父諫曰：「民不可料也！夫古者不料民而知其少多，司民協孤終，司商協民姓，司徒協旅，司寇協奸，牧協職，工協革，場協入，廩協出，是則少多、死生、出入、往來者皆可知也，于是乎又審之以事，王治農于籍，蒐于農隙，耨獲亦于籍，狝于既烝，狩于畢時，是皆習民數者也，又何料焉？不謂其少而大料之，是示少而惡事也。臨政示少，諸侯避之。治民惡事，無以賦令。且無故而料民，天之所惡也，害于政而妨于後嗣。」王卒料之，及幽王乃廢滅。
+
+幽王二年，西周三川皆震。伯陽父曰：「周將亡矣！夫天地之氣，不失其序；若過其序，民亂之也。陽伏而不能出，陰迫而不能烝，于是有地震。今三川實震，是陽失其所而鎮陰也。陽失而在陰，川源必塞；源塞，國必亡。夫水土演而民用也。水土無所演，民乏財用，不亡何待？昔伊、洛竭而夏亡，河竭而商亡。今周德若二代之季矣，其川源又塞，塞必竭。夫國必依山川，山崩川竭，亡之徵也。川竭，山必崩。若國亡不過十年，數之紀也。夫天之所棄，不過其紀。」是歲也，三川竭，岐山崩。十一年，幽王乃滅，周乃東遷。
+
+惠王三年，邊伯、石速、蒍國出王而立子頹。王處于鄭三年。王子頹飲三大夫酒，子國為客，樂及遍舞。鄭厲公見虢叔，曰：「吾聞之，司寇行戮，君為之不舉，而況敢樂禍乎！今吾聞子頹歌舞不息，樂禍也。夫出王而代其位，禍孰大焉！臨禍忘憂，是謂樂禍，禍必及之，盍納王乎？」虢叔許諾。鄭伯將王自圉門入，虢叔自北門入，殺子頹及三大夫，王乃入也。
+
+十五年，有神降于莘，王問于內史過，曰：「是何故？固有之乎？」對曰：「有之。國之將興，其君齊明、衷正、精潔、惠和，其德足以昭其馨香，其惠足以同其民人。神饗而民聽，民神無怨，故明神降之，觀其政德而均布福焉。國之將亡，其君貪冒、辟邪、淫佚、荒怠、粗穢、暴虐；其政腥臊，馨香不登；其刑矯誣，百姓攜貳。明神不蠲而民有遠志，民神怨痛，無所依懷，故神亦往焉，觀其苛慝而降之禍。是以或見神以興，亦或以亡。昔夏之興也，融降于崇山；其亡也，回祿信于耹隧。商之興也，梼杌次于丕山，其亡也，夷羊在牧。周之興也，鸑鷟鳴于岐山；其衰也，杜伯射王于鄗。是皆明神之志者也。」
+
+王曰：「今是何神也？」對曰：「昔昭王娶于房，曰房後，實有爽德，協于丹朱，丹朱憑身以儀之，生穆王焉。是實臨照周之子孫而禍福之。夫神壹不遠徙遷，若由是觀之，其丹朱之神乎？」王曰：「其誰受之？」對曰：「在虢土。」王曰：「然則何為？」對曰：「臣聞之：道而得神，是謂逢福；淫而得神，是謂貪禍。今虢少荒，其亡乎？」王曰：「吾其若之何？」對曰：「使太宰以祝，史帥貍姓，奉犧牲、粢盛、玉帛往獻焉，無有祈也。」
+
+王曰：「虢其幾何？」對曰：「昔堯臨民以五，今其胄見，神之見也，不過其物。若由是觀之，不過五年。」王使太宰忌父帥傅氏及祝、史奉犧牲、玉鬯往獻焉。內史過從至虢，虢公亦使祝、史請土焉。內史過歸，以告王曰：「虢必亡矣，不禋于神而求福焉，神必禍之；不親于民而求用焉，人必違之。精意以享，禋也；慈保庶民，親也。今虢公動匱百姓以逞其違，離民怒神而求利焉，不亦難乎！」十九年，晉取虢。
+
+襄王使邵公過及內史過賜晉惠公命，呂甥、郤芮相晉侯不敬，晉侯執玉卑，拜不稽首。內史過歸，以告王曰：「晉不亡，其君必無後。且呂、郤將不免。」王曰：「何故？」對曰：「《》有之曰：『眾非元後，何戴？後非眾，無與守邦。』在《》曰：『余一人有罪，無以萬夫；萬夫有罪，在余一人。』在《》曰：『國之臧，則惟女眾。國之不臧，則惟余一人，是有逸罰。』如是則長眾使民，不可不慎也。民之所急在大事，先王知大事之必以眾濟也，是故祓除其心，以和惠民。考中度衷以蒞之，昭明物則以訓之，制義庶孚以行之。祓除其心，精也；考中度衷，忠也；昭明物則，禮也；制義庶孚，信也。然則長眾使民之道，非精不和，非忠不立，非禮不順，非信不行。今晉侯即位而背外內之賂，虐其處者，棄其信也；不敬王命，棄其禮也；施其所惡，棄其忠也；以惡實心，棄其精也。四者皆棄，則遠不至而近不和矣，將何以守國？
+
+「古者，先王既有天下，又崇立上帝、明神而敬事之，于是乎有朝日、夕月以教民事君。諸侯春秋受職于王以臨其民，大夫、士日恪位著以儆其官，庶人、工、商各守其業以共其上。猶恐其有墜失也，故為車服、旗章以旌之，為贄幣、瑞節以鎮之，為班爵、貴賤以列之，為令聞嘉譽以聲之。猶有散、遷、懈慢而著在刑辟，流在裔土，于是乎有蠻、夷之國，有斧鉞、刀墨之民，而況可以淫縱其身乎？
+
+「夫晉侯非嗣也，而得其位，亹亹怵惕，保任戒懼，猶曰未也。若將廣其心而遠其鄰，陵其民而卑其上，將何以固守？
+
+「夫執玉卑，替其贄也；拜不稽首，誣其王也。替贄無鎮，誣王無民。夫天事恒象，任重享大者必速及，故晉侯誣王，人亦將誣之；欲替其鎮，人亦將替之。大臣享其祿，弗諫而阿之，亦必及焉。」
+
+襄王三年而立晉侯，八年而隕于韓，十六年而晉人殺懷公。懷公無胄，秦人殺子金、子公。
+
+襄王使太宰文公及內史興賜晉文公命，上卿逆于境，晉侯郊勞，館諸宗廟，饋九牢，設庭燎。及期命于武宮，設桑主，布幾筵，太宰蒞之，晉侯端委以入。太宰以王命命冕服，內史贊之，三命而後即冕服。既畢，賓、饗、贈、餞如公命侯伯之禮，而加之以宴好。內史興歸，以告王曰：「晉，不可不善也。其君必霸，逆王命敬，奉禮義成。敬王命，順之道也；成禮義，德之則也。則德以導諸侯，諸侯必歸之。且禮所以觀忠、信、仁、義也，忠所以分也，仁所以行也，信所以守也，義所以節也。忠分則均，仁行則報，信守則固，義節則度。分均無怨，行報無匱，守固不偷，節度不攜。若民不怨而財不匱，令不偷而動不攜，其何事不濟！中能應外，忠也；施三服義，仁也；守節不淫，信也，行禮不疚，義也。臣入晉境，四者不失，臣故曰：『晉侯其能禮矣，王其善之！』樹于有禮，艾人必豐。」
+
+王從之，使于晉者，道相逮也。及惠後之難，王出在鄭，晉侯納之。
+
+襄王十六年，立晉文公。二十一年，以諸侯朝王于衡雍，且獻楚捷，遂為踐土之盟，于是乎始霸。
+
+
+### 周語中
+
+襄王十三年，鄭人伐滑。王使游孫伯請滑，鄭人執之。王怒，將以狄伐鄭。富辰諫曰：「不可。古人有言曰：『兄弟讒鬩、侮人百里。』周文公之詩曰：『兄弟鬩于墻，外御其侮。』若是則鬩乃內侮，而雖鬩不敗親也。鄭在天子，兄弟也。鄭武、莊有大勛力于平、桓；我周之東遷，晉、鄭是依；子頹之亂，又鄭之繇定。今以小忿棄之，是以小怨置大德也，無乃不可乎！且夫兄弟之怨，不徵于他，徵于他，利乃外矣。章怨外利，不義；棄親即狄，不祥；以怨報德，不仁。夫義所以生利也，祥所以事神也，仁所以保民也。不義則利不阜，不祥則福不降，不仁則民不至。古之明王不失此三德者，故能光有天下，而和寧百姓，令聞不忘。王其不可以棄之。」王不聽。十七年，王降狄師以伐鄭。
+
+王德狄人，將以其女為後。富辰諫曰：「不可。夫婚姻，禍福之階也。由之利內則福，利外則取禍。今王外利矣，其無乃階禍乎？昔摯、疇之國也由大任，杞、繒由大姒，齊、許、申、呂由大姜，陳由大姬，是皆能內利親親者也。昔鄢之亡也由仲任，密須由伯姞，鄶由叔妘，聃由鄭姬，息由陳媯，鄧由楚曼，羅由季姬，盧由荊媯，是皆外利離親者也。」
+
+王曰：「利何如而內，何如而外？」對曰：「尊貴、明賢、庸勛、長老、愛親、禮新、親舊。然則民莫不審固其心力以役上令，官不易方，而財不匱竭，求無不至，動無不濟。百姓兆民，夫人奉利而歸諸上，是利之內也，若七德離判，民乃攜貳，各以利退，上求不暨，是其外利也。夫狄無列于王室，鄭伯南也，王而卑之，是不尊貴也。狄，豺狼之德也，鄭未失周典，王而蔑之，是不明賢也。平、桓、莊、惠皆受鄭勞，王而棄之，是不庸勛也。鄭伯捷之齒長矣，王而弱之，是不長老也。狄，隗姓也，鄭出自宣王，王而虐之，是不愛親也。夫禮，新不間舊，王以狄女間姜、任，非禮且棄舊也。王一舉而棄七德，臣故曰利外矣。《》有之曰：『必有忍也，若能有濟也。』王不忍小忿而棄鄭，又登叔隗以階狄。狄，封豕豺狼也，不可厭也。」王不聽。
+
+十八年，王黜狄後。狄人來誅殺譚伯。富辰曰：「昔吾驟諫王，王弗從，以及此難。若我不出，王其以我為懟乎！」乃以其屬死之。
+
+初，惠後欲立王子帶，故以其黨啟狄人。狄人遂入，周王乃出居于鄭，晉文公納之。
+
+晉文公既定襄王于郟，王勞之以地，辭，請隧焉。王不許，曰：「昔我先王之有天下也，規方千里以為甸服，以供上帝山川百神之祀，以備百姓兆民之用，以待不庭不虞之患。其餘以均分公侯伯子男，使各有寧宇，以順及天地，無逢其災害，先王豈有賴焉。內官不過九御，外官不過九品，足以供給神祇而已，豈敢厭縱其耳目心腹以亂百度？亦唯是死生之服物采章，以臨長百姓而輕重布之，王何異之有？今天降禍災于周室，余一人僅亦守府，又不佞以勤叔父，而班先王之大物以賞私德，其叔父實應且憎，以非余一人，余一人豈敢有愛？先民有言曰：『改玉改行。』叔父若能光裕大德，更姓改物，以創制天下，自顯庸也，而縮取備物以鎮撫百姓，余一人其流辟旅于裔土，何辭之有與？若由是姬姓也，尚將列為公侯，以復先王之職，大物其未可改也。叔父其懋昭明德，物將自至，余何敢以私勞變前之大章，以忝天下，其若先王與百姓何？何政令之為也？若不然，叔父有地而隧焉，余安能知之？」文公遂不敢請，受地而還。
+
+王至自鄭，以陽樊賜晉文公。陽人不服，晉侯圍之。倉葛呼曰：「王以晉君為能德，故勞之以陽樊，陽樊懷我王德，是以未從于晉。謂君其何德之布以懷柔之，使無有遠志？今將大泯其宗祊，而蔑殺其民人，宜吾不敢服也！夫三軍之所尋，將蠻、夷、戎、狄之驕逸不虔，于是乎致武。此羸者陽也，未狎君政，故未承命。君若惠及之，唯官是徵，其敢逆命，何足以辱師！君之武震，無乃玩而頓乎？臣聞之曰：『武不可覿，文不可匿。覿武無烈，匿文不昭。』陽不承獲甸，而祗以覿武，臣是以懼。不然，其敢自愛也？且夫陽，豈有裔民哉？夫亦皆天子之父兄甥舅也，若之何其虐之也？」晉侯聞之，曰：「是君子之言也。」乃出陽民。
+
+溫之會，晉人執衛成公歸之于周。晉侯請殺之，王曰：「不可。夫政自上下者也，上作政，而下行之不逆，故上下無怨。今叔父作政而不行，無乃不可乎？夫君臣無獄，今元咺雖直，不可聽也。君臣皆獄，父子將獄，是無上下也。而叔父聽之，一逆矣。又為臣殺其君，其安庸刑？布刑而不庸，再逆矣。一合諸侯，而有再逆政，余懼其無後。不然，余何私于衛侯？」晉人乃歸衛侯。
+
+二十四年，秦師將襲鄭，過周北門。左右皆免胄而下拜，超乘者三百乘。王孫滿觀之，言于王曰：「秦師必有謫。」王曰：「何故？」對曰：「師輕而驕，輕則寡謀，驕則無禮。無禮則脫，寡謀自陷。入險而脫，能無敗乎？秦師無謫，是道廢也。」是行也，秦師還，晉人敗諸崤，獲其三帥丙、術、視。
+
+晉侯使隨會聘于周，定王享之肴烝，原公相禮。范子私于原公，曰：「吾聞王室之禮無毀折，今此何禮也？」王見其語，召原公而問之，原公以告。
+
+王召士季，曰：「子弗聞乎，禘郊之事，則有全烝；王公立飫，則有房烝；親戚宴饗，則有肴烝。今女非他也，而叔父使士季實來修舊德，以獎王室。唯是先王之宴禮，欲以貽女。余一人敢設飫禘焉，忠非親禮，而干舊職，以亂前好？且唯戎、狄則有體薦。夫戎、狄，冒沒輕儳，貪而不讓。其血氣不治，若禽獸焉。其適來班貢，不俟馨香嘉味，故坐諸門外，而使舌人體委與之。女今我王室之一二兄弟，以時相見，將和協典禮，以示民訓則，無亦擇其柔嘉，選其馨香，潔其酒醴，品其百籩，修其簠簋，奉其犧象，出其樽彝，陳其鼎俎，凈其巾羃，敬其祓除，體解節折而共飲食之。于是乎有折俎加豆，酬幣宴貨，以示容合好，胡有孑然其郊戎、狄也？
+
+「夫王公諸侯之有飫也，將以講事成章，建大德、昭大物也，故立成禮烝而已。飫以顯物，宴以合好，故歲飫不倦，時宴不淫，月會、旬修，日完不忘。服物昭庸，采飾顯明，文章比象，周旋序順，容貌有崇，威儀有則，五味實氣，五色精心，五聲昭德，五義紀宜，飲食可饗，和同可觀，財用可嘉，則順而德建。古之善禮者，將焉用全烝？」
+
+武子遂不敢對而退。歸乃講聚三代之典禮，于是乎修執秩以為晉法。
+
+定王使單襄公聘于宋。遂假道于陳，以聘于楚。火朝覿矣，道茀不可行，候不在疆，司空不視途，澤不陂，川不梁，野有庾積，場功未畢，道無列樹，墾田若蓺，膳宰不致餼，司里不授館，國無寄寓，縣無施舍，民將筑臺于夏氏。及陳，陳靈公與孔寧、儀行父南冠以如夏氏，留賓不見。
+
+單子歸，告王曰：「陳侯不有大咎，國必亡。」王曰：「何故？」對曰：「夫辰角見而雨畢，天根見而水涸，本見而草木節解，駟見而隕霜，火見而清風戒寒。故先王之教曰：『雨畢而除道，水涸而成梁，草木節解而備藏，隕霜而冬裘具，清風至而修城郭宮室。』故《夏令》曰：『九月除道，十月成梁。』其時儆曰：「收而場功，待而畚梮，營室之中，土功其始，火之初見，期于司里。『此先王所以不用財賄，而廣施德于天下者也。今陳國火朝覿矣，而道路若塞，野場若棄，澤不陂障，川無舟梁，是廢先王之教也。」
+
+「《周制》有之曰：『列樹以表道，立鄙食以守路，國有郊牧，疆有寓望，藪有圃草，囿有林池，所以御災也。其餘無非穀土，民無懸耜，野無奧草。不奪民時，不蔑民功。有優無匱，有逸無罷。國有班事，縣有序民。』今陳國道路不可知，田在草間，功成而不收，民罷于逸樂，是棄先王之法制也。
+
+「周之《秩官》有之曰：『敵國賓至，關尹以告，行理以節逆之，候人為導，卿出郊勞，門尹除門，宗祝執祀，司里授館，司徒具徒，司空視途，司寇詰奸，虞人入材，甸人積薪，火師監燎，水師監濯，膳宰致饔，廩人獻餼，司馬陳芻，工人展車，百官以物至，賓入如歸。是故小大莫不懷愛。其貴國之賓至，則以班加一等，益虔。至于王吏，則皆官正蒞事，上卿監之。若王巡守，則君親監之。』今雖朝也不才，有分族于周，承王命以為過賓于陳，而司事莫至，是蔑先王之官也。
+
+「先王之令有之曰：『天道賞善而罰淫，故凡我造國，無從非彝，無即慆淫，各守爾典，以承天休。』今陳侯不念胤續之常，棄其伉儷妃嬪，而帥其卿佐以淫于夏氏，不亦嬻姓矣乎？陳，我大姬之後也。棄袞冕而南冠以出，不亦簡彝乎？是又犯先王之令也。］
+
+「昔先王之教，懋帥其德也，猶恐殞越。若廢其教而棄其制，蔑其官而犯其令，將何以守國？居大國之間，而無此四者，其能久乎？」
+
+六年，單子如楚。八年，陳侯殺于夏氏。九年，楚子入陳。
+
+定王八年，使劉康公聘于魯，發幣于大夫。季文子、孟獻子皆儉，叔孫宣子、東門子家皆侈。
+
+歸，王問魯大夫孰賢？對曰：「季、孟其長處魯乎！叔孫、東門其亡乎！若家不亡，身必不免。」王曰：「何故？」對曰：「臣聞之：為臣必臣，為君必君，寬肅宣惠，君也；敬恪恭儉，臣也。寬所以保本也，肅所以濟時也，宣所以教施也，惠所以和民也。本有保則必固，時動而濟則無敗功，教施而宣則遍，惠以和民則阜。若本固而功成，施遍而民阜，乃可以長保民矣，其何事不徹？敬所以承命也，恪所以守業也，恭所以給事也，儉所以足用也。以敬承命則不違，以恪守業則不懈，以恭給事則寬于死，以儉足用則遠于憂。若承命不違，守業不懈，寬于死而遠于憂，則可以上下無隙矣，其何任不堪？上任事而徹，下能堪其任，所以為令聞長世也。今夫二子者儉，其能足用矣，用足則族可以庇。二子者侈，侈則不恤匱，匱而不恤，憂必及之，若是則必廣其身。且夫人臣而侈，國家弗堪，亡之道也。」王曰：「幾何？」對曰：「東門之位不若叔孫，而泰侈焉，不可以事二君。叔孫之位不若季、孟，而亦泰侈焉，不可以事三君。若皆蚤世猶可，若登年以載其毒，必亡。」
+
+十六年，魯宣公卒。赴者未及，東門氏來告亂，子家奔齊。簡王十一年，魯叔孫宣伯亦奔齊，成公未歿二年。
+
+簡王八年，魯成公來朝，使叔孫僑如先聘且告。見王孫說，與之語。說言于王曰：「魯叔孫之來也，必有異焉。其享覲之幣薄而言諂，殆請之也，若請之，必欲賜也。魯執政唯強，故不歡焉而後遣之，且其狀方上而銳下，宜觸冒人。王其勿賜。若貪陵之人來而盈其愿，是不賞善也，且財不給。故聖人之施舍也議之，其喜怒取與亦議之。是以不主寬惠，亦不主猛毅，主德義而已。」王曰：「諾。」使私問諸魯，請之也。王遂不賜，禮如行人。及魯侯至，仲孫蔑為介，王孫說與之語，說讓。說以語王，王厚賄之。
+
+晉既克楚于鄢，使郤至告慶于周。未將事，王叔簡公飲之酒，交酬好貨皆厚，飲酒宴語相說也。
+
+明日，王孫子譽諸朝，郤至見邵桓公，與之語。邵公以告單襄公曰：「王叔子譽溫季，以為必相晉國，相晉國，必大得諸侯，勸二三君子必先導焉，可以樹。今夫子見我，以晉國之克也，為己實謀之，曰：『微我，晉不戰矣！楚有五敗，晉不知乘，我則強之。背宋之盟，一也；德薄而以地賂諸侯，二也；棄壯之良而用幼弱，三也；建立卿士而不用其言，四也；夷、鄭從之，三陳而不整，五也。罪不由晉，晉得其民，四軍之帥，旅力方剛；卒伍治整，諸侯與之。是有五勝也：有辭，一也；得民，二也；軍帥強御，三也；行列治整，四也；諸侯輯睦，五也。有一勝猶足用也，有五勝以伐五敗，而避之者，非人也。不可以不戰。欒、范不欲，我則強之。戰而勝，是吾力也。且夫戰也微謀，吾有三伐；勇而有禮，反之以仁。吾三逐楚君之卒，勇也；見其君必下而趨，禮也；能獲鄭伯而赦之，仁也。若是而知晉國之政，楚、越必朝。』
+
+「吾曰：『子則賢矣。抑晉國之舉也，不失其次，吾懼政之未及子也。』謂我曰：『夫何次之有？昔先大夫荀伯自下軍之佐以政，趙宣子未有軍行而以政，今欒伯自下軍往。是三子也，吾又過于四之無不及。若佐新軍而升為政，不亦可乎？將必求之。』是其言也，君以為奚若？」
+
+襄公曰：「人有言曰：『兵在其頸。』其郤至之謂乎！君子不自稱也，非以讓也，惡其蓋人也。夫人性，陵上者也，不可蓋也。求蓋人，其抑下滋甚，故聖人貴讓。且諺曰：『獸惡其網，民惡其上。』《》曰：『民可近也，而不可上也。』《》曰：『愷悌君子，求福不回。』在禮，敵必三讓，是則聖人知民之不可加也。故王天下者必先諸民，然後庇焉，則能長利。今郤至在七人之下而欲上之，是求蓋七人也，其亦有七怨。怨在小醜，猶不可堪，而況在侈卿乎？其何以待之？
+
+「晉之克也，天有惡于楚也，故儆之以晉。而郤至佻天之功以為己力，不亦難乎？佻天不祥，乘人不義，不祥則天棄之，不義則民叛之。且郤至何三伐之有？夫仁、禮、勇，皆民之為也。以義死用謂之勇，奉義順則謂之禮，畜義豐功謂之仁。奸仁為佻，奸禮為羞，奸勇為賊。夫戰，盡敵為上，守和同順義為上。故制戎以果毅，制朝以序成。叛戰而擅舍鄭君，賊也；棄毅行容，羞也；叛國即讎，佻也。有三奸以求替其上，遠于得政矣。以吾觀之，兵在其頸，不可久也。雖吾王叔，未能違難。在《太誓》曰：『民之所欲，天必從之。』王叔欲郤至，能勿從乎？」
+
+郤至歸，明年死難。及伯輿之獄，王叔陳生奔晉。
+
+
+## 九、《晏子春秋》全本
+
+## 十、《吳越春秋》選篇
+
+### 吳太伯傳
+
+吳之前君太伯者，后稷之苗裔也。后稷其母台氏之女姜嫄，為帝嚳元妃。年少未孕，出游於野，見大人跡而觀之，中心歡然，喜其形像，因履而踐之。身動，意若為人所感。後妊娠。恐被淫泆之禍，遂祭祀以求，謂無子履上帝之跡，天猶令有之。姜嫄怪而棄于阨狹之巷，牛馬過者折易而避之。復棄于林中，適會伐木之人多。復置于澤中冰上，眾鳥以羽覆之。后稷遂得不死。姜嫄以為神，收而養之，長因名棄。為兒時，好種樹禾、黍、桑、麻五榖、相五土之宜，青、赤、黃、黑，陵、水、高、下，粢、稷、黍、禾、蕖、麥、豆、稻，各得其理。堯遭洪水，人民泛濫，遂高而居。堯聘棄使教民山居，隨地造區，研營種之術。三年餘，行人無飢乏之色。乃拜棄為農師，封之台，號為后稷，姓姬氏。后稷就國為諸侯。卒，子不窋立。遭夏氏世衰，失官奔戎狄之間。
+
+其孫公劉，公劉慈仁，行不履生草，運車以避葭葦。公劉避夏桀於戎狄，變易風俗，民化其政。公劉卒，子慶節立。
+
+其後八世而得古公亶甫。脩公劉后稷之業，積德行義，為狄人所慕。薰鬻戎姤而伐之，古公事之以犬馬牛羊，其伐不止；事以皮幣、金玉重寶，而亦伐之不止。古公問何所欲？曰：欲其土地。古公曰：「君子不以養害害所養。國所以亡也而為身害，吾所不居也。」古公乃杖策去邠，踰梁山而處岐周曰：「彼君與我何異？」邠人父子兄弟相帥，負老攜幼，揭釜甑而歸古公。居三月成城郭，一年成邑，二年成都，而民五倍其初。
+
+古公三子，長曰太伯，次曰仲雍，雍一名吳仲，少曰季歷。季歷娶妻太任氏，生子昌。昌有聖瑞。古公知昌聖，欲傳國以及昌，曰：「興王業者，其在昌乎？」因更名曰季歷。太伯、仲雍望風知指，曰：「歷者，適也。」知古公欲以國及昌。古公病，二人託名採藥於衡山，遂之荊蠻。斷髮文身，為夷狄之服，示不可用。
+
+古公卒，太伯、仲雍歸，赴喪畢，還荊蠻。國民君而事之，自號為勾吳。吳人或問何像而為勾吳，太伯曰：「吾以伯長居國，絕嗣者也，其當有封者，吳仲也。故自號勾吳，非其方乎？」荊蠻義之，從而歸之者千有餘家，共立以為勾吳。數年之間，民人殷富。遭殷之末世衰，中國侯王數用兵，恐及於荊蠻，故太伯起城，周三里二百步，外郭三百餘里。在西北隅，名曰故吳，人民皆耕田其中。
+
+古公病將卒，令季歷讓國於太伯，而三讓不受，故云太伯三以天下讓。於是季歷蒞政，脩先王之業，守仁義之道。季歷卒，子昌立，號曰西伯。遵公劉、古公之術業於養老，天下歸之。西伯致太平，伯夷自海濱而往。西伯卒，太子發立，任周召而伐殷，天下已安，乃稱王。追謚古公為大王，追封太伯於吳。
+
+太伯祖卒葬於梅里平墟。仲雍立，是為吳仲雍。仲雍卒，子季簡、簡子叔達、達子周章、章子熊、熊子遂、遂子柯相、相子彊鳩夷、夷子餘喬疑吾、吾子柯廬、廬子周繇、繇子屈羽、羽子夷吾、吾子禽處，處子專、專子頗高、高子句畢立。是時，晉獻公滅周北虞虞公，以開晉之伐虢氏。畢子去齊、齊子壽夢立，而吳益彊，稱王。凡從太伯至壽夢之世，與中國時通朝會，而國斯霸焉。
+
+
+### 吳王壽夢傳
+
+壽夢元年，朝周，適楚，觀諸侯禮樂。魯成公會於鍾離，深問周公禮樂，成公悉為陳前王之禮樂，因為詠歌三代之風。壽夢曰：「孤在夷蠻，徒以椎髻為俗，豈有斯之服哉！」因歎而去，曰：「於乎哉，禮也！」
+
+二年，楚之亡大夫申公巫臣適吳，以為行人。教吳射御，導之伐楚。楚莊王怒，使子反將，敗吳師。二國從斯結讎。於是吳始通中國而與諸侯為敵。
+
+五年，伐楚，敗子反。
+
+十六年，楚恭王怨吳為巫臣伐之也，乃舉兵伐吳，至衡山而還。
+
+十七年，壽夢以巫臣子狐庸為相，任以國政。
+
+二十五年，壽夢病將卒。有子四人：長曰諸樊，次曰餘祭，次曰餘昧，次曰季札。季札賢，壽夢欲立之，季札讓，曰：「禮有舊制，奈何廢前王之禮，而行父子之私乎？」
+
+壽夢乃命諸樊曰：「我欲傳國及札，爾無忘寡人之言。」諸樊曰：「周之太王知西伯之聖，廢長立少，王之道興。今欲授國於札，臣誠耕於野。」王曰：「昔周行之德，加於四海，今汝於區區之國，荊蠻之鄉，奚能成天子之業乎？且今子不忘前人之言，必授國以次及于季札。」諸樊曰：「敢不如命？」
+
+壽夢卒，諸樊以適長攝行事，當國政。
+
+吳王諸樊元年，已除喪，讓季札，曰：「昔前王未薨之時，嘗晨昧不安，吾望其色也，意在於季札。又復三朝悲吟而命我曰：『吾知公子札之賢，欲廢長立少。』重發言於口。雖然我心已許之，然前王不忍行其私計，以國付我，我敢不從命乎？今國者，子之國也，吾願達前王之義。」
+
+季札謝曰：「夫適長當國，非前王之私，乃宗廟社稷之制，豈可變乎？」
+
+諸樊曰：「苟可施於國，何先王之命有！太王改為季歷，二伯來入荊蠻，遂城為國，周道就成，前人誦之不絕於口，而子之所習也。」
+
+札復謝曰：「昔曹公卒，廢存適亡，諸侯與曹人不義而立於國。子臧聞之，行吟而歸。曹君懼，將立子臧，子臧去之，以成曹之道。札雖不才，願附子臧之義。吾誠避之。」
+
+吳人固立季札，季札不受而耕於野，吳人舍之。諸樊驕恣，輕慢鬼神，仰天求死。將死，命弟餘祭曰：「必以國及季札。」乃封季札於延陵，號曰延陵季子。
+
+餘祭十二年，楚靈王會諸侯伐吳，圍朱方，誅慶封。慶封數為吳伺祭，故晉楚伐之也。吳王餘祭怒曰：「慶封窮來奔吳，封之朱方，以效不恨士也。」即舉兵伐楚，取二邑而去。
+
+十三年，楚怨吳為慶封故伐之，心恨不解，伐吳，至乾谿，吳擊之，楚師敗走。
+
+十七年，餘祭卒。餘昧立四年卒。欲授位季札，季札讓，逃去。曰：「吾不受位明矣。昔前君有命，已附子臧之義。潔身清行，仰高履尚，惟仁是處，富貴之於我，如秋風之過耳。」遂逃歸延陵。吳人立餘昧子州于，號為吳王僚也。
+
+
+## 十一、《越絕書》選篇
+
+### 外傳本事
+
+問曰：「何謂越絕？」「越者，國之氏也。」「何以言之？」「按春秋序齊魯，皆以國為氏姓，是以明之。絕者，絕也。謂句踐時也。當是之時，齊將伐魯，孔子恥之，故子貢說齊以安魯。子貢一出，亂齊，破吳，興晉，彊越。其後賢者辯士，見夫子作春秋而略吳越，又見子貢與聖人相去不遠，脣之與齒，表之與裏，蓋要其意，覽史記而述其事也。」
+
+問曰：「何不稱越經書記，而言絕乎？」曰：「不也。絕者，絕也。句踐之時，天子微弱，諸侯皆叛。於是句踐抑彊扶弱，絕惡反之於善，取舍以道，沛歸於宋，浮陵以付楚，臨沂、開陽，復之於魯。中國侵伐，因斯衰止。以其誠在於內，威發於外，越專其功，故曰越1。故作此者，貴其內能自約，外能絕人也。賢者所述，不可斷絕，故不為記明矣。」
+
+問曰：「桓公九合諸侯，一匡天下，任用賢者，誅服彊楚，何不言齊絕乎？」曰：「桓公，中國。兵彊霸世之後，威凌諸侯，服彊楚，此正宜耳。夫越王句踐，東垂海濱，夷狄文身，躬而自苦，任用賢臣，轉死為生，以敗為成。越伐彊吳，尊事周室，行霸琅邪，躬自省約，率道諸侯，貴其始微，終能以霸，故與越專其功而有之也。」
+
+問曰：「然越專其功而有之，何不第一，而卒本吳太伯為？」曰：「小越而大吳。」「小越大吳奈何？」曰：「吳有子胥之教，霸世甚久。北陵齊、楚，諸侯莫敢叛者，乘，薛、許、邾、婁、莒旁轂趨走，越王句踐屬芻莝養馬，諸侯從之，若果中之李。反邦七年，焦思苦身，克己自責，任用賢人。越伐彊吳，行霸諸侯，故不使越第一者，欲以貶大吳，顯弱越之功也。」
+
+問曰：「吳亡而越興，在天與？在人乎？」「皆人也。夫差失道，越亦賢矣。濕易雨，饑易助。」曰：「何以知獨在人乎？」「子貢與夫子坐，告夫子曰：『太宰死。』夫子曰：『不死也。』如是者再。子貢再拜而問：『何以知之？』夫子曰：『天生宰嚭者，欲以亡吳。吳今未亡，宰何病乎？』後人來言不死。聖人不妄言，是以明知越霸矣。」「何以言之？」曰：「種見蠡之時，相與謀道：『東南有霸兆，不如往仕。』相要東游，入越而止。賢者不妄言，以是知之焉。」
+
+問曰：「越絕誰所作？」「吳越賢者所作也。當此之時，見夫子刪書作春秋，定王制，賢者嗟歎，決意覽史記，成就其事。」
+
+問曰：「作事欲以自著，今但言賢者，不言姓字何？」曰：「是人有大雅之才，直道一國之事，不見姓名，小之辭也。或以為子貢所作，當挾四方，不當獨在吳越。其在吳越，亦有因矣。此時子貢為魯使，或至齊，或至吳。其後道事以吳越為喻，國人承述，故直在吳越也。當是之時，有聖人教授六藝，刪定五經，七十二子，養徒三千，講習學問魯之闕門。越絕，小藝之文，固不能布於四方，焉有誦述先聖賢者，所作未足自稱，載列姓名，直斥以身者也？一說蓋是子胥所作也。夫人情，泰而不作，窮則怨恨，怨恨則作，猶詩人失職怨恨，憂嗟作詩也。子胥懷忠，不忍君沈惑於讒，社稷之傾。絕命危邦，不顧長生，切切爭諫，終不見聽。憂至患致，怨恨作文。不侵不差，抽引本末。明己無過，終不遺力。誠能極智，不足以身當之，嫌於求譽，是以不著姓名，直斥以身者也。後人述而說之，仍稍成中外篇焉。」
+
+問曰：「或經或傳，或內或外，何謂？」曰：「經者，論其事，傳者，道其意，外者，非一人所作，頗相覆載。或非其事，引類以託意。說之者見夫子刪詩、書，就經易，亦知小藝之復重。又各辯士所述，不可斷絕。小道不通，偏有所期。明說者不專，故刪定復重，以為中外篇。」
+
+
+### 荊平王內傳
+
+昔者，荊平王有臣伍子奢。奢得罪於王，且殺之，其二子出走，伍子尚奔吳，伍子胥奔鄭。王召奢而問之，曰：「若召子，孰來也？」子奢對曰：「王問臣，對而畏死，不對不知子之心者。尚為人也，仁且智，來之必入，胥為人也，勇且智，來必不入。胥且奔吳邦，君王必早閉而晏開，胥將使邊境有大憂。」
+
+於是王即使使者召子尚於吳，曰：「子父有罪，子入，則免之，不入，則殺之。」子胥聞之，使人告子尚於吳：「吾聞荊平王召子，子必毋入。胥聞之，入者窮，出者報仇。入者皆死，是不智也。死而不報父之仇，是非勇也。」子尚對曰：「入則免父之死，不入則不仁。愛身之死，絕父之望，賢士不為也。意不同，謀不合，子其居，尚請入。」
+
+荊平王復使使者召子胥於鄭，曰：「子入，則免父死，不入，則殺之。」子胥介冑彀弓，出見使者，謝曰：「介冑之士，固不拜矣。請有道於使者：王以奢為無罪，赦而蓄之，其子又何適乎？」使者還報荊平王，王知子胥不入也，殺子奢而并殺子尚。
+
+子胥聞之，即從橫嶺上大山，北望齊晉，謂其舍人曰：「去，此邦堂堂，被山帶河，其民重移。」於是乃南奔吳。至江上，見漁者，曰：「來，渡我。」漁者知其非常人也，欲往渡之，恐人知之，歌而往過之，曰：「日昭昭，侵以施，與子期甫蘆之碕。」子胥即從漁者之蘆碕。日入，漁者復歌往，曰：「心中目施，子可渡河，何為不出？」船到即載，入船而伏。半江，而仰謂漁者曰：「子之姓為誰？還，得報子之厚德。」漁者曰：「縱荊邦之賊者，我也，報荊邦之仇者，子也。兩而不仁，何相問姓名為？」子胥即解其劍，以與漁者，曰：「吾先人之劍，直百金，請以與子也。」漁者曰：「吾聞荊平王有令曰：『得伍子胥者，購之千金。』今吾不欲得荊平王之千金，何以百金之劍為？」漁者渡於于斧之津，乃發其簞飯，清其壺漿而食，曰：「亟食而去，毋令追者及子也。」子胥曰：「諾。」子胥食已而去，顧謂漁者曰：「掩爾壺漿，無令之露。」漁者曰：「諾。」子胥行，即覆船，挾匕首自刎而死江水之中，明無洩也。
+
+子胥遂行。至溧陽界中，見一女子擊絮於瀨水之中，子胥曰：「豈可得託食乎？」女子曰：「諾。」即發簞飯，清其壺漿而食之。子胥食已而去，謂女子曰：「掩爾壺漿，毋令之露。」女子曰：「諾。」子胥行五步，還顧女子，自縱於瀨水之中而死。
+
+子胥遂行。至吳。徒跣被髮，乞於吳市。三日，市正疑之，而道於闔廬曰：「市中有非常人，徒跣被髮，乞於吳市三日矣。」闔廬曰：「吾聞荊平王殺其臣伍子奢而非其罪，其子子胥勇且智，彼必經諸侯之邦可以報其父仇者。」王者使召子胥。入，吳王下階迎而唁，數之曰：「吾知子非恒人也，何素窮如此？」子胥跪而垂泣曰：「胥父無罪而平王殺之，而并其子尚。子胥遯逃出走，唯大王可以歸骸骨者，惟大王哀之。」吳王曰：「諾。」上殿與語，三日三夜，語無復者。王乃號令邦中：「無貴賤長少，有不聽子胥之教者，猶不聽寡人也，罪至死，不赦。」
+
+子胥居吳三年，大得吳眾。闔廬將為之報仇，子胥曰：「不可。臣聞諸侯不為匹夫興師。」於是止。其後荊將伐蔡，子胥言之闔廬，即使子胥救蔡而伐荊。十五戰，十五勝。荊平王已死，子胥將卒六千，操鞭捶笞平王之墓而數之曰：「昔者吾先人無罪而子殺之，今此報子也。」
+
+後，子昭王、臣司馬子期、令尹子西歸，相與計謀：「子胥不死，又不入荊，邦猶未得安，為之奈何？莫若求之而與之同邦乎？」昭王乃使使者報子胥於吳，曰：「昔者吾先人殺子之父，而非其罪也。寡人尚少，未有所識也。今子大夫報寡人也特甚，然寡人亦不敢怨子。今子大夫何不來歸子故墳墓丘冢為？我邦雖小，與子同有之，民雖少，與子同使之。」子胥曰：「以此為名，名即章，以此為利，利即重矣。前為父報仇，後求其利，賢者不為也。父已死，子食其祿，非父之義也。」使者遂還，乃報荊昭王曰：「子胥不入荊邦，明矣。」
+
+
+## 十二、《列女傳》全本
+
+### 有虞二妃
+
+有虞二妃者，帝堯之二女也。長娥皇，次女英。舜父頑母嚚。父號瞽叟，弟曰象，敖游於嫚，舜能諧柔之，承事瞽叟以孝。母憎舜而愛象，舜猶內治，靡有姦意。四嶽薦之於堯，堯乃妻以二女以觀厥內。二女承事舜於畎畝之中，不以天子之女故而驕盈怠嫚，猶謙謙恭儉，思盡婦道。
+
+瞽叟與象謀殺舜。使塗廩，舜歸告二女曰：「父母使我塗廩，我其往。」二女曰：「往哉！」舜既治廩，乃捐階，瞽叟焚廩，舜往飛出。象復與父母謀，使舜浚井。舜乃告二女，二女曰：「俞，往哉！」舜往浚井，格其出入，從掩，舜潛出。時既不能殺舜，瞽叟又速舜飲酒，醉將殺之，舜告二女，二女乃與舜藥浴汪，遂往，舜終日飲酒不醉。舜之女弟繫憐之，與二嫂諧。父母欲殺舜，舜猶不怨，怒之不已。舜往于田號泣，日呼旻天，呼父母。惟害若茲，思慕不已。不怨其弟，篤厚不怠。
+
+既納於百揆，賓於四門，選於林木，入於大麓，堯試之百方，每事常謀於二女。舜既嗣位，升為天子，娥皇為后，女英為妃。封象於有庳，事瞽叟猶若初焉。天下稱二妃聰明貞仁。舜陟方，死於蒼梧，號曰重華。二妃死於江湘之間，俗謂之湘君。君子曰：「二妃德純而行篤。《》云：「不顯惟德，百辟其刑之。」此之謂也。
+
+頌曰：元始二妃，帝堯之女，嬪列有虞，承舜於下，以尊事卑，終能勞苦，瞽叟和寧，卒享福祜。
+
+
+## 十三、《春秋穀梁傳》全本
+
+### 隱公元年
+
+元年春，王正月。雖無事，必舉正月，謹始也。公何以不言即位？成公志也。焉成之？言君之不取為公也。君之不取為公何也？將以讓桓也。讓桓正乎？曰不正。《春秋》成人之美，不成人之惡。隱不正而成之，何也？將以惡桓也。其惡桓何也？隱將讓而桓弒之，則桓惡矣。桓弒而隱讓，則隱善矣。善則其不正焉何也？《春秋》貴義而不貴惠，信道而不信邪。孝子揚父之美，不揚父之惡。先君之欲與桓，非正也，邪也。雖然，既勝其邪心以與隱矣，已探先君之邪志而遂以與桓，則是成父之惡也。兄弟，天倫也。為子受之父，為諸侯受之君，已廢天倫而忘君父以行小惠，曰小道也。若隱者可謂輕千乘之國，蹈道則未也。
+
+三月，公及邾儀父盟於眛。及者何？內為志焉爾。儀，字也。父，猶傅也，男子之美稱也。其不言邾子何也？邾之上古微，未爵命於周也。不日，其盟渝也。眛，地名也。
+
+夏，五月，鄭伯克段於鄢。克者何？能也。何能也？能殺也。何以不言殺？見段之有徒眾也。段，鄭伯弟也。何以知其為弟也？殺世子母弟目君，以其目君，知其為弟也。段，弟也而弗謂弟，公子也而弗謂公子，貶之也。段失子弟之道矣，賤段而甚鄭伯也。何甚乎鄭伯？甚鄭伯之處心積慮成於殺也。於鄢，遠也。猶曰取之其母之懷中而殺之云爾，甚之也。然則為鄭伯者宜奈何？緩追逸賊，親親之道也。
+
+秋，七月，天王使宰咺來歸惠公、仲子之賵。母以子氏，仲子者何？惠公之母，孝公之妾也。禮，賵人之母則可，賵人之妾則不可。君子以其可辭。受之，其志不及事也。賵者何也？乘馬曰賵，衣衾曰襚，貝玉曰含，錢財曰賻。
+
+九月，及宋人盟於宿。及者何？內卑者也。宋人外卑者也。卑者之盟不日。宿，邑名也。
+
+冬，十有二月，祭伯來。來者，來朝也。其弗謂朝何也？寰內諸侯非有天子之命，不得出會諸侯。不正其外交，故弗與朝也。聘弓鍭矢不出竟埸，束修之肉不行竟中，有至尊者不貳之也。公子益師卒。大夫日卒，正也。不日卒，惡也。
+
+
+## 十四、《春秋公羊傳》全本
+
+### 隱公元年
+
+元年春，王正月。元年者何？君之始年也。春者何？歲之始也。王者孰謂？謂文王也。曷為先言王而後言正月？王正月也。何言乎王正月？大一統也。公何以不言即位？成公意也。何成乎公之意？公將平國而反之桓。曷為反之桓？桓幼而貴，隱長而卑，其為尊卑也微，國人莫知。隱長又賢，諸大夫扳隱而立之。隱於是焉而辭立，則未知桓之將必得立也。且如桓立，則恐諸大夫之不能相幼君也，故凡隱之立為桓立也。隱長又賢，何以不宜立？立適以長不以賢，立子以貴不以長。桓何以貴？母貴也。母貴則子何以貴？子以母貴，母以子貴。
+
+三月，公及邾婁儀父盟于眛。及者何？與也，會及暨皆與也。曷為或言會，或言及，或言暨？會猶最也；及猶汲汲也；暨猶暨暨也。及我欲之，暨不得已也。儀父者何？邾婁之君也。何以名？字也。曷為稱字？褒之也。曷為褒之？為其與公盟也。與公盟者眾矣，曷為獨褒乎此？因其可褒而褒之。此其為可褒奈何？漸進也。眛者何？地期也。
+
+夏，五月，鄭伯克段于鄢。克之者何？殺之也。殺之則曷為謂之克？大鄭伯之惡也。曷為大鄭伯之惡？母欲立之，己殺之，如勿與而已矣。段者何？鄭伯之弟也。何以不稱弟？當國也。其地何？當國也。齊人殺無知何以不地？在內也。在內雖當國不地也。不當國雖在外亦不地也。
+
+秋，七月，天王使宰咺來歸惠公仲子之賵。宰者何？官也。咺者何？名也。曷為以官氏？宰士也。惠公者何？隱之考也。仲子者何？桓之母也。何以不稱夫人？桓未君也。賵者何？喪事有賵。賵者蓋以馬，以乘馬束帛。車馬曰賵，貨財曰賻，衣被曰襚。桓未君則諸侯曷為來賵之？隱為桓立，故以桓母之喪告于諸侯。然則何言爾？成公意也。其言來何？不及事也。其言惠公仲子何？兼之，兼之非禮也。何以不言及仲子？仲子微也。
+
+九月，及宋人盟于宿。孰及之？內之微者也。
+
+冬，十有二月，祭伯來。祭伯者何？天子之大夫也。何以不稱使？奔也。奔則曷為不言奔？王者無外，言奔則有外之辭也。
+
+公子益師卒。何以不日？遠也。所見異辭，所聞異辭，所傳聞異辭。
+
+
+## 十五、《漢書》全本
+
+### 高帝紀
+
+高祖，沛豐邑中陽里人也，姓劉氏。母媼嘗息大澤之陂，夢與神遇。是時雷電晦冥，父太公往視，則見交龍於上。已而有娠，遂產高祖。
+
+高祖為人，隆準而龍顏，美須髯，左股有七十二黑子。寬仁愛人，意豁如也。常有大度，不事家人生產作業。及壯，試吏，為泗上亭長，廷中吏無所不狎侮。好酒及色。常從王媼、武負貰酒，時飲醉臥，武負、王媼見其上常有怪。高祖每酤留飲，酒讎數倍。及見怪，歲竟，此兩家常折券棄責。
+
+高祖常繇咸陽，縱觀秦皇帝，喟然大息，曰：「嗟乎，大丈夫當如此矣！」
+
+單父人呂公善沛令，辟仇，從之客，因家焉。沛中豪傑吏聞令有重客，皆往賀。蕭何為主吏，主進，令諸大夫曰：「進不滿千錢，坐之堂下。」高祖為亭長，素易諸吏，乃紿為謁曰「賀錢萬」，實不持一錢。謁入，呂公大驚，起，迎之門。呂公者，好相人，見高祖狀貌，因重敬之，引入坐上坐。蕭何曰：「劉季固多大言，少成事。」高祖因狎侮諸客，遂坐上坐，無所詘。酒闌，呂公因目固留高祖。竟酒，後。呂公曰：「臣少好相人，相人多矣，無如季相，願季自愛。臣有息女，願為箕帚妾。」酒罷，呂媼怒呂公曰：「公始常欲奇此女，與貴人。沛令善公，求之不與，何自妄許與劉季？」呂公曰：「此非兒女子所知。」卒與高祖。呂公女即呂后也，生孝惠帝、魯元公主。
+
+高祖嘗告歸之田。呂后與兩子居田中，有一老父過請飲，呂后因餔之。老父相后曰：「夫人天下貴人也。」令相兩子，見孝惠帝，曰：「夫人所以貴者，乃此男也。」相魯元公主，亦皆貴。老父已去，高祖適從旁舍來，呂后具言客有過，相我子母皆大貴。高祖問，曰：「未遠。」乃追及，問老父。老父曰：「鄉者夫人兒子皆以君，君相貴不可言。」高祖乃謝曰：「誠如父言，不敢忘德。」及高祖貴，遂不知老父處。
+
+高祖為亭長，乃鲈竹皮為冠，令求盜之薛治，時時冠之，及貴常冠，所謂「劉氏冠」也。
+
+高祖以亭長為縣送徒驪山，徒多道亡。自度比至皆亡之，到豐西澤中亭，止飲，夜皆解縱所送徒。曰：「
+
+公等皆去，吾亦從此逝矣！」徒中壯士願從諸十餘人。高祖被酒，夜徑澤中，令一人行前。行前者還報曰：「
+
+前有大蛇當徑，願還。」高祖醉，曰：「壯士行，何畏！」乃前，拔劍斬蛇。蛇分為兩，道開。行數里，醉困臥。後人來至蛇所，有一老嫗夜哭。人問嫗何哭，嫗曰：「人殺吾子。」人曰：「嫗子何為見殺？」嫗曰：「吾子，白帝子也，化為蛇，當道，今者赤帝子斬之，故哭。」人乃以嫗為不誠，欲苦之，嫗因忽不見。後人至，高祖覺。告高祖，高祖乃心獨喜，自負。諸從者日益畏之。
+
+秦始皇帝嘗曰「東南有天子氣」，於是東游以猒當之。高祖隱於芒、碭山澤間，呂后與人俱求，常得之。高祖怪問之。呂后曰：「季所居上常有雲氣，故從往常得季。」高祖又喜。沛中子弟或聞之，多欲附者矣。
+
+秦二世元年秋七月，陳涉起蘄，至陳，自立為楚王，遣武臣、張耳、陳餘略趙地。八月，武臣自立為趙王。郡縣多殺長吏以應涉。九月，沛令欲以沛應之。掾、主吏蕭何、曹參曰：「君為秦吏，今欲背之，帥沛子弟，恐不聽。願君召諸亡在外者，可得數百人，因以劫眾，眾不敢不聽。」乃令樊噲召高祖。高祖之眾已數百人矣。
+
+於是樊噲從高祖來。沛令後悔，恐其有變，乃閉城城守，欲誅蕭、曹。蕭、曹恐，踰城保高祖。高祖乃書帛射城上，與沛父老曰：「天下同苦秦久矣。今父老雖為沛令守，諸侯並起，今屠沛。沛今共誅令，擇可立立之，以應諸侯，即室家完。不然，父子俱屠，無為也。」父老乃帥子弟共殺沛令，開城門迎高祖，欲以為沛令。高祖曰：「天下方擾，諸侯並起，令置將不善，一敗塗地。吾非敢自愛，恐能薄，不能完父兄子弟。此大事，願吏擇可者。」蕭、曹等皆文吏，自愛，恐事不就，後秦種族其家，盡讓高祖。諸父老皆曰：「平生所聞劉季奇怪，當貴，且卜筮之，莫如劉季最吉。」高祖數讓。眾莫肯為，高祖乃立為沛公。祠黃帝，祭蚩尤於沛廷，而釁鼓旗。幟皆赤，由所殺蛇白帝子，所殺者赤帝子故也。於是少年豪吏如蕭、曹、樊噲等皆為收沛子弟，得三千人。
+
+是月，項梁與兄子羽起吳。田儋與從弟榮、橫起齊，自立為齊王。韓廣自立為燕王。魏咎自立為魏王。陳涉之將周章西入關，至戲，秦將章邯距破之。
+
+秦二年十月，沛公攻胡陵、方與，還守豐。秦泗川監平將兵圍豐。二日，出與戰，破之。令雍齒守豐。十一月，沛公引兵之薜。秦泗川守壯兵敗於薛，走至戚，沛公左司馬得殺之。沛公還軍亢父，至方與。趙王武臣為其將所殺。十二月，楚王陳涉為其御莊賈所殺。魏人周市略地豐沛，使人謂雍齒曰：「豐，故梁徙也，今魏地已定者數十城。齒今下魏，魏以齒為侯守豐；不下，且屠豐。」雍齒雅不欲屬沛公，及魏招之，即反為魏守豐。沛公攻豐，不能取。沛公還之沛，怨雍齒與豐子弟畔之。
+
+正月，張耳等立趙後趙歇為趙王。東陽甯君、秦嘉立景駒為楚王，在留。沛公往從之，道得張良，遂與俱見景駒，請兵以攻豐。時章邯從陳，別將司馬镛將兵北定楚地，屠相，至碭。東陽甯君、沛公引兵西，與戰蕭西，不利，還收兵聚留。二月，攻碭，三日拔之。收碭兵，得六千人，與故合九千人。三月，攻下邑，拔之。還擊豐，不下。四月，項梁擊殺景駒、秦嘉，止薛，沛公往見之。項梁益沛公卒五千人，五大夫將十人。沛公還，引兵攻豐，拔之。雍齒奔魏。
+
+五月，項羽拔襄城還。項梁盡召別將。六月，沛公如薛，與項梁共立楚懷王孫心為楚懷王。章邯破殺魏王咎、齊王田儋於臨濟。七月，大霖雨。沛公攻亢父。章邯圍田榮於東阿。沛公與項梁共救田榮，大破章邯東阿。田榮歸，沛公、項羽追北，至城陽，攻屠其城。軍濮陽東，復與章邯戰，又破之。
+
+章邯復振，守濮陽，環水。沛公、項羽去攻定陶。八月，田榮立田儋子市為齊王。定陶未下，沛公與項羽西略地至雍丘，與秦軍戰，大敗之，斬三川守李由。還攻外黃，外黃未下。
+
+項梁再破秦軍，有驕色。宋義諫，不聽。秦益章邯兵。九月，章邯夜銜枚擊項梁定陶，大破之，殺項梁。時連雨自七月至九月。沛公、項羽方攻陳留，聞梁死，士卒恐，乃與將軍呂臣引兵而東，徙懷王自盱台都彭城。呂臣軍彭城東，項羽軍彭城西，沛公軍碭。魏咎弟豹自立為魏王。後九月，懷王并呂臣、項羽軍自將之。以沛公為碭郡長，封武安侯，將碭郡兵。以羽為魯公，封長安侯，呂臣為司徒，其父呂青為令尹。
+
+章邯已破項梁，以為楚地兵不足憂，乃渡河北擊趙王歇，大破之。歇保鉅鹿城，秦將王離圍之。趙數請救，懷王乃以宋義為上將，項羽為次將，范增為末將，北救趙。
+
+初，懷王與諸將約，先入定關中者王之。當是時，秦兵彊，常乘勝逐北，諸將莫利先入關。獨羽怨秦破項梁，奮勢，願與沛公西入關。懷王諸老將皆曰：「項羽為人慓悍禍賊，嘗攻襄城，襄城無唣類，所過無不殘滅。且楚數進取，前陳王、項梁皆敗，不如更遣長者扶義而西，告諭秦父兄。秦父兄苦其主久矣，今誠得長者往，毋侵暴，宜可下。項羽不可遣，獨沛公素寬大長者。」卒不許羽，而遣沛公西收陳王、項梁散卒。乃道碭至陽城與杠里，攻秦軍壁，破其二軍。
+
+秦三年十月，齊將田都畔田榮，將兵助項羽救趙。沛公攻破東郡尉於成武。十一月，項羽殺宋義，并其兵渡河，自立為上將軍，諸將黥布等皆屬。十二月，沛公引兵至栗，遇剛武侯，奪其軍四千餘人，并之，與魏將皇欣、武滿軍合，攻秦軍，破之。故齊王建孫田安下濟北，從項羽救趙。羽大破秦軍鉅鹿下，虜王離，走章邯。
+
+二月，沛公從碭北攻昌邑，遇彭越。越助攻昌邑，未下。沛公西過高陽，酈食其為里監門，曰：「諸將過此者多，吾視沛公大度。」乃求見沛公。沛公方踞床，使兩女子洗。酈生不拜，長揖曰：「足下必欲誅無道秦，不宜踞見長者。」於是沛公起，攝衣謝之，延上坐。食其說沛公襲陳留。沛公以為廣野君，以其弟商為將，將陳留兵。三月，攻開封，未拔。西與秦將楊熊會戰白馬，又戰曲遇東，大破之。楊熊走之滎陽，二世使使斬之以徇。四月，南攻潁川，屠之。因張良遂略韓地。
+
+時趙別將司馬卬方欲渡河入關，沛公乃北攻平陰，絕河津。南，戰雒陽東，軍不利，從轘轅至陽城，收軍中馬騎。六月，與南陽守齮戰犨東，大破之。略南陽郡，南陽守走，保城守宛。沛公引兵過宛西。張良諫曰：「沛公雖欲急入關，秦兵尚眾，距險。今不下宛，宛從後擊，彊秦在前，此危道也。」於是沛公乃夜引軍從他道還，偃旗幟，遲明，圍宛城三匝。南陽守欲自剄，其舍人陳恢曰：「死未晚也。」乃踰城見沛公，曰：「臣聞足下約先入咸陽者王之，今足下留守宛。宛郡縣連城數十，其吏民自以為降必死，故皆堅守乘城。今足下盡日止攻，士死傷者必多；引兵去宛，宛必隨足下。足下前則失咸陽之約，後有彊宛之患。為足下計，莫若約降，封其守，因使止守，引其甲卒與之西。諸城未下者，聞聲爭開門而待足下，足下通行無所累。」沛公曰：「善。」七月，南陽守齮降，封為殷侯，封陳恢千戶。引兵西，無不下者。至丹水，高武侯鰓、襄侯王陵降。還攻胡陽，遇番君別將梅鋗，與偕攻析、酈，皆降。所過毋得鹵掠，秦民喜。遣魏人甯昌使秦。是月章邯舉軍降項羽，羽以為雍王。瑕丘申陽下河南。
+
+八月，沛公攻武關，入秦。秦相趙高恐，乃殺二世，使人來，欲約分王關中，沛公不許。九月，趙高立二世兄子子嬰為秦王。子嬰誅滅趙高，遣將將兵距嶢關。沛公欲擊之，張良曰：「秦兵尚彊，未可輕。願先遣人益張旗幟於山上為疑兵，使酈食其、陸賈往說秦將，啗以利。」秦將果欲連和，沛公欲許之。張良曰：「此獨其將欲叛，恐其士卒不從，不如因其怠懈擊之。」沛公引兵繞嶢關，踰蕢山，擊秦軍，大破之藍田南。遂至藍田，又戰其北，秦兵大敗。
+
+元年冬十月，五星聚于東井。沛公至霸上。秦王子嬰素車白馬，係頸以組，封皇帝璽符節，降枳道旁。諸將或言誅秦王，沛公曰：「始懷王遣我，固以能寬容，且人已服降，殺之不祥。」乃以屬吏。遂西入咸陽，欲止宮休舍，樊噲、張良諫，乃封秦重寶財物府庫，還軍霸上。蕭何盡收秦丞相府圖籍文書。十一月，召諸縣豪桀曰：「父老苦秦苛法久矣，誹謗者族，耦語者棄市。吾與諸侯約，先入關者王之，吾當王關中。與父老約，法三章耳：殺人者死，傷人及盜抵罪。餘悉除去秦法。吏民皆按堵如故。凡吾所以來，為父兄除害，非有所侵暴，毋恐！且吾所以軍霸上，待諸侯至而定要束耳。」乃使人與秦吏行至縣鄉邑告諭之。秦民大喜，爭持牛羊酒食獻享軍士。沛公讓不受，曰：「倉粟多，不欲費民。」民又益喜，唯恐沛公不為秦王。
+
+或說沛公曰：「秦富十倍天下，地形彊。今聞章邯降項羽，羽號曰雍王，王關中。即來，沛公恐不得有此。可急使守函谷關，毋內諸侯軍，稍徵關中兵以自益，距之。」沛公然其計，從之。十二月，項羽果帥諸侯兵欲西入關，關門閉。聞沛公已定關中，羽大怒，使黥布等攻破函谷關，遂至戲下。沛公左司馬曹毋傷聞羽怒，欲攻沛公，使人言羽曰：「沛公欲王關中，令子嬰相，珍寶盡有之。」欲以求封。亞父范增說羽曰：「沛公居山東時，貪財好色，今聞其入關，珍物無所取，婦女無所幸，此其志不小。吾使人望其氣，皆為龍，成五色，此天子氣。急擊之，勿失。」於是饗士，旦日合戰。是時，羽兵四十萬，號百萬。沛公兵十萬，號二十萬，力不敵。會羽季父左尹項伯素善張良，夜馳見張良，具告其實，欲與俱去，毋特俱死。良曰：「臣為韓王送沛公，不可不告，亡去不義。」乃與項伯俱見沛公。沛公與伯約為婚姻，曰：「吾入關，秋豪無所敢取，籍吏民，封府庫，待將軍。所以守關者，備他盜也。日夜望將軍到，豈敢反邪！願伯明言不敢背德。」項伯許諾，即夜復去。戒沛公曰：「旦日不可不早自來謝。」項伯還，具以沛公言告羽，因曰：「沛公不先破關中兵，公巨能入乎？且人有大功，擊之不祥，不如因善之。」羽許諾。
+
+沛公旦日從百餘騎見羽鴻門，謝曰：「臣與將軍戮力攻秦，將軍戰河北，臣戰河南，不自意先入關，能破秦，與將軍復相見。今者有小人言，令將軍與臣有隙。」羽曰：「此沛公左司馬曹毋傷言之，不然，籍何以生此？」羽因留沛公飲。范增數目羽擊沛公，羽不應。范增起，出謂項莊曰：「
+
+君王為人不忍，汝入以劍舞，因擊沛公，殺之。不者，汝屬且為所虜。」莊入為壽。壽畢，曰：「軍中無以為樂，請以劍舞。」因拔劍舞。項伯亦起舞，常以身翼蔽沛公。樊噲聞事急，直入，怒甚。羽壯之，賜以酒。噲因譙讓羽。有頃，沛公起如廁，招樊噲出，置車官屬，獨騎，與樊噲、靳彊、滕公、紀成步，從間道走軍，使張良留謝羽。羽問：「沛公安在？」曰：「聞將軍有意督過之，脫身去，間至軍，故使臣獻璧。」羽受之。又獻玉斗范增。增怒，撞其斗，起曰：「吾屬今為沛公虜矣！」
+
+沛公歸數日，羽引兵西屠咸陽，殺秦降王子嬰，燒秦宮室，所過無不殘滅。秦民大失望。羽使人還報懷王，懷王曰：「如約。」羽怨懷王不肯令與沛公俱西入關，而北救趙，後天下約。乃曰：「
+
+懷王者，吾家所立耳，非有功伐，何以得專主約！本定天下，諸將與籍也。」春正月，陽尊懷王為義帝，實不用其命。
+
+二月，羽自立為西楚霸王，王梁、楚地九郡，都彭城。背約，更立沛公為漢王，王巴、蜀、漢中四十一縣，都南鄭。三分關中，立秦三將：章邯為雍王，都廢丘；司馬欣為塞王，都櫟陽；董翳為翟王，都高奴。楚將瑕丘申陽為河南王，都洛陽。趙將司馬卬為殷王，都朝歌。當陽君英布為九江王，都六。懷王柱國共敖為臨江王，都江陵。番君吳芮為衡山王，都邾。故齊王建孫田安為濟北王。徙魏王豹為西魏王，都平陽。徙燕王韓廣為遼東王。燕將臧荼為燕王，都薊。徙齊王田市為膠東王。齊將田都為齊王，都臨菑。徙趙王歇為代王。趙相張耳為常山王。漢王怨羽之背約，欲攻之，丞相蕭何諫，乃止。
+
+夏四月，諸侯罷戲下，各就國。羽使卒三萬人從漢王，楚子、諸侯人之慕從者數萬人，從杜南入蝕中。張良辭歸韓，漢王送至褒中，因說漢王燒絕棧道，以備諸侯盜兵，亦視項羽無東意。
+
+漢王既至南鄭，諸將及士卒皆歌謳思東歸，多道亡還者。韓信為治粟都尉，亦亡去，蕭何追還之，因薦於漢王，曰：「
+
+必欲爭天下，非信無可與計事者。」於是漢王齊戒設壇場，拜信為大將軍，問以計策。信對曰：「項羽背約而王君王於南鄭，是遷也。吏卒皆山東之人，日夜企而望歸，及其鋒而用之，可以有大功。天下已定，民皆自寧，不可復用。不如決策東向。」因陳羽可圖三秦易并之計。漢王大說，遂聽信策，部署諸將。留蕭何收巴蜀租，給軍食。
+
+五月，漢王引兵從故道出襲雍。雍王邯迎擊漢陳倉，雍兵敗，還走；戰好畤，又大敗，走廢丘。漢王遂定雍地。東如咸陽，引兵圍雍王廢丘，而遣諸將略地。
+
+田榮聞羽徙齊王市於膠東而立田都為齊王，大怒，以齊兵迎擊田都。都走降楚。六月，田榮殺田市，自立為齊王。時彭城在鉅野，眾萬餘人，無所屬。榮與越將軍印，因令反梁地。越擊殺濟北王安，榮遂并三齊之地。燕王韓廣亦不肯徙遼東。秋八月，臧荼殺韓廣，并其地。塞王欣、翟王翳皆降漢。
+
+初，項梁立韓後公子成為韓王，張良為韓司徒。羽以良從漢王，韓王成又無功，故不遣就國，與俱至彭城，殺之。及聞漢王并關中，而齊、梁畔之，羽大怒，乃以故吳令鄭昌為韓王，距漢。令蕭公角擊彭越，越敗角兵。時張良徇韓地，遺羽書曰：「漢欲得關中，如約即止，不敢復東。」羽以故無西意，而北擊齊。
+
+九月，漢王遣將軍薛歐、王吸出武關，因王陵兵，從南陽迎太公、呂后於沛。羽聞之，發兵距之陽夏，不得前。
+
+二年冬十月，項羽使九江王布殺義帝於郴。陳餘亦怨羽獨不王己，從田榮藉助兵，以擊常山王張耳。耳敗走降漢，漢王厚遇之。陳餘迎代王歇還趙，歇立餘為代王。張良自韓間行歸漢，漢王以為成信侯。
+
+漢王如陝，鎮撫關外父老。河南王申陽降，置河南郡。使韓太尉韓信擊韓，韓王鄭昌降。十一月，立韓太尉信為韓王。漢王還歸，都櫟陽，使諸將略地，拔隴西。以萬人若一郡降者，封萬戶。繕治河上塞。故秦苑囿園池，令民得田之。
+
+春正月，羽擊田榮城陽，榮敗走平原，平原民殺之。齊皆降楚，楚焚其城郭，齊人復畔之。諸將拔北地，虜雍王弟章平。赦罪人。二月癸未，令民除秦社稷，立漢社稷。施恩德，賜民爵。蜀漢民給軍事勞苦，復勿租稅二歲。關中卒從軍者，復家一歲。舉民年五十以上，有脩行，能帥眾為善，置以為三老，鄉一人。擇鄉三老一人為縣三老，與縣令丞尉以事相教，復勿繇戍。以十月賜酒肉。
+
+三月，漢王自臨晉渡河，魏王豹降，將兵從。下河內，虜殷王卬，置河內郡。至脩武，陳平亡楚來降。漢王與語，說之，使參乘，監諸將。南渡平陰津，至洛陽，新城三老董公遮說漢王曰：「臣聞『順德者昌，逆德者亡』，『兵出無名，事故不成』。故曰：『明其為賊，敵乃可服。』項羽為無道，放殺其主，天下之賊也。夫仁不以勇，義不以力，三軍之眾為之素服，以告之諸侯，為此東伐，四海之內莫不仰德。此三王之舉也。」漢王曰：「善，非夫子無所聞。」於是漢王為義帝發喪，袒而大哭，哀臨三日。發使告諸侯曰：「
+
+天下共立義帝，北面事之。今項羽放殺義帝江南，大逆無道。寡人親為發喪，兵皆縞素。悉發關中兵，收三河士，南浮江漢以下，願從諸侯王擊楚之殺義帝者。」
+
+夏四月，田榮弟橫收得數萬人，立榮子廣為齊王。羽雖聞漢東，既擊齊，欲遂破之而後擊漢，漢王以故得劫五諸侯兵，東伐楚。到外黃，彭越將三萬人歸漢。漢王拜越為魏相國，令定梁地。漢王遂入彭城，收羽美人貨賂，置酒高會。羽聞之，令其將擊齊，而自以精兵三萬人從魯出胡陵，至蕭，晨擊漢軍，大戰彭城靈壁東睢水上，大破漢軍，多殺士卒，睢水為之不流。圍漢王三匝。大風從西北起，折木發屋，揚砂石，晝晦，楚軍大亂，而漢王得與數十騎遁去。過沛，使人求室家，室家亦已亡，不相得。漢王道逢孝惠、魯元，載行。楚騎追漢王，漢王急，推墮二子。滕公下收載，遂得脫。審食其從太公、呂后間行，反遇楚軍，羽常置軍中以為質。諸侯見漢敗，皆亡去。塞王欣、翟王翳降楚，殷王卬死。
+
+呂后兄周呂侯將兵居下邑，漢王往從之。稍收士卒，軍碭。
+
+漢王西過梁地，至虞，謂謁者隨何曰：「公能說九江王布使舉兵畔楚，項王必留擊之。得留數月，吾取天下必矣。」隨何往說布，果使畔楚。
+
+五月，漢王屯滎陽，蕭何發關中老弱未傅者悉詣軍。韓信亦收兵與漢王會，兵復大振。與楚戰滎陽南京、索間，破之。築甬道，屬河，以取敖倉粟。魏王豹謁歸視親疾。至則絕河津，反為楚。
+
+六月，漢王還櫟陽。壬午，立太子，赦罪人。令諸侯子在關中者皆集櫟陽為衛。引水灌廢丘，廢丘降，章邯自殺。雍州定，八十餘縣，置河上、渭南、中地、隴西、上郡。令祠官祀天地四方上帝山川，以時祠之。興關中卒乘邊塞。關中大飢，米斛萬錢，人相食。令民就食蜀漢。
+
+秋八月，漢王如滎陽，謂酈食其曰：「緩頰往說魏王豹，能下之，以魏地萬戶封生。」食其往，豹不聽。漢王以韓信為左丞相，與曹參、灌嬰俱擊魏。食其還，漢王問：「魏大將誰也？」對曰：「柏直。」王曰：「是口尚乳臭，不能當韓信。騎將誰也？」曰：「馮敬。」曰：「是秦將馮無擇子也，雖賢，不能當灌嬰。步卒將誰也？」曰：「項它。」曰：「是不能當曹參。吾無患矣。」九月，信等虜豹，傳詣滎陽。定魏地，置河東、太原、上黨郡。信使人請兵三萬人，願以北舉燕趙，東擊齊，南絕楚糧道。漢王與之。
+
+三年冬十月，韓信、張耳東下井陘擊趙，斬陳餘，獲趙王歇。置常山、代郡。甲戌晦，日有食之。十一月癸卯晦，日有食之。
+
+隨何既說黥布，布起兵攻楚。楚使項聲、龍且攻布，布戰不勝。十二月，布與隨何間行歸漢。漢王分之兵，與俱收兵至成皋。
+
+項羽數侵奪漢甬道，漢軍乏食，與酈食其謀橈楚權。食其欲立六國後以樹黨，漢王刻印，將遣食其立之。以問張良，良發八難。漢王輟飯吐哺，曰：「豎儒幾敗乃公事！」令趨銷印。又問陳平，乃從其計，與平黃金四萬斤，以間疏楚君臣。
+
+夏四月，項羽圍漢滎陽，漢王請和，割滎陽以西者為漢。亞父勸項羽急攻滎陽，漢王患之。陳平反間既行，羽果疑亞父。亞父大怒而去，發病死。
+
+五月，將軍紀信曰：「事急矣！臣請誑楚，可以間出。」於是陳平夜出女子東門二千餘人，楚因四面擊之。紀信乃乘王車，黃屋左纛，曰：「食盡，漢王降楚。」楚皆呼萬歲，之城東觀，以故漢王得與數十騎出西門遁。令御史大夫周苛、魏豹、樅公守滎陽。羽見紀信，問：「漢王安在？」曰：「已出去矣。」羽燒殺信。而周苛、樅公相謂曰：「反國之王，難與守城。」因殺魏豹。
+
+漢王出滎陽，至成皋。自成皋入關，收兵欲復東。轅生說漢王曰：「漢與楚相距滎陽數歲，漢常困。願君王出武關，項王必引兵南走，王深壁，令滎陽成皋間且得休息。使韓信等得輯河北趙地，連燕齊，君王乃復走滎陽。如此，則楚所備者多，力分。漢得休息，復與之戰，破之必矣。」漢王從其計，出軍宛葉間，與黥布行收兵。
+
+羽聞漢王在宛，果引兵南，漢王堅壁不與戰。是月，彭越渡睢，與項聲、薛公戰下邳，破殺薛公。羽使終公守成皋，而自東擊彭越。漢王引兵北，擊破終公，復軍成皋。六月，羽已破走彭越，聞漢復軍成皋，乃引兵西拔滎陽城，生得周苛。羽謂苛：「為我將，以公為上將軍，封三萬戶。」周苛罵曰：「若不趨降漢，今為虜矣！若非漢王敵也。」羽亨周苛，并殺樅公，而虜韓王信，遂圍成皋。漢王跳，獨與滕公共車出成皋玉門，北渡河，宿小脩武。自稱使者，晨馳入張耳、韓信壁，而奪之軍。乃使張耳北收兵趙地。
+
+秋七月，有星孛于大角。漢王得韓信軍，復大振。八月，臨河南鄉，軍小脩武，欲復戰。郎中鄭忠說止漢王，高壘深塹勿戰。漢王聽其計，使盧綰、劉賈將卒二萬人，騎數百，渡白馬津入楚地，佐彭越燒楚積聚，復擊破楚軍燕郭西，攻下睢陽、外黃十七城。九月，羽謂海春侯大司馬曹咎曰：「謹守成皋。即漢王欲挑戰，慎勿與戰，勿令得東而已。我十五日必定梁地，復從將軍。」羽引兵東擊彭越。
+
+漢王使酈食其說齊王田廣，罷守兵與漢和。
+
+四年冬十月，韓信用蒯通計，襲破齊。齊王亨酈生，東走高密。項羽聞韓信破齊，且欲擊楚，使龍且救齊。
+
+漢果數挑成皋戰，楚軍不出，使人辱之數日，大司馬咎怒，渡兵汜水。士卒半渡，漢擊之，大破楚軍，盡得楚國金玉貨賂。大司馬咎、長史欣皆自剄汜水上。漢王引兵渡河，復取成皋，軍廣武，就敖倉食。
+
+羽下梁地十餘城，聞海春侯破，乃引兵還。漢軍方圍鍾離辚於滎陽東，聞羽至，盡走險阻。羽亦軍廣武，與漢相守。丁壯苦軍旅，老弱罷轉餉。漢王、羽相與臨廣武之間而語。羽欲與漢王獨身挑戰，漢王數羽曰：「吾始與羽俱受命懷王，曰先定關中者王之。羽負約，王我於蜀漢，罪一也。羽矯殺卿子冠軍，自尊，罪二也。羽當以救趙還報，而擅劫諸侯兵入關，罪三也。懷王約入秦無暴掠，羽燒秦宮室，掘始皇帝冢，收私其財，罪四也。又彊殺秦降王子嬰，罪五也。詐阬秦子弟新安二十萬，王其將，罪六也。皆王諸將善地，而徙逐故主，令臣下爭畔逆，罪七也。出逐義帝彭城，自都之，奪韓王地，并王梁楚，多自與，罪八也。使人陰殺義帝江南，罪九也。夫為人臣而殺其主，殺其已降，為政不平，主約不信，天下所不容，大逆無道，罪十也。吾以義兵從諸侯誅殘賊，使刑餘罪人擊公，何苦乃與公挑戰！」羽大怒，伏弩射中漢王。漢王傷胸，乃捫足曰：「虜中吾指！」漢王病創臥，張良彊請漢王起行勞軍，以安士卒，毋令楚乘勝。漢王出行軍，疾甚，因馳入成皋。
+
+十一月，韓信與灌嬰擊破楚軍，殺楚將龍且，追至城陽，虜齊王廣。齊相田橫自立為齊王，奔彭越。漢立張耳為趙王。
+
+漢王疾瘉，西入關，至櫟陽，存問父老，置酒。梟故塞王欣頭櫟陽市。留四日，復如軍，軍廣武。關中兵益出，而彭越、田橫居梁地，往來苦楚兵，絕其糧食。
+
+韓信已破齊，使人言曰：「齊邊楚，權輕，不為假王，恐不能安齊。」漢王怒，欲攻之。張良曰：「不如因而立之，使自為守。」春二月，遣張良操印，立韓信為齊王。秋七月，立黥布為淮南王。八月，初為算賦。北貉、燕人來致梟騎助漢。漢王下令：軍士不幸死者，吏為衣衾棺斂，轉送其家。四方歸心焉。
+
+項羽自知少助食盡，韓信又進兵擊楚，羽患之。漢遣陸賈說羽，請太公，羽弗聽。漢復使侯公說羽，羽乃與漢約，中分天下，割鴻溝以西為漢，以東為楚。九月，歸太公、呂后，軍皆稱萬歲。乃封侯公為平國君。羽解而東歸。漢王欲西歸，張良、陳平諫曰：「今漢有天下太半，而諸侯皆附，楚兵罷食盡，此天亡之時，不因其幾而遂取之，所謂養虎自遺患也。」漢王從之。
+
+五年冬十月，漢王追項羽至陽夏南止軍，與齊王信、魏相國越期會擊楚，至固陵，不會。楚擊漢軍，大破之。漢王復入壁，深塹而守。謂張良曰：「諸侯不從，柰何？」良對曰：「楚兵且破，未有分地，其不至固宜。君王能與共天下，可立致也。齊王信之立，非君王意，信亦不自堅。彭越本定梁地，始君王以魏豹故，拜越為相國。今豹死，越亦望王，而君王不早定。今能取睢陽以北至穀城皆以王彭越，從陳以東傅海與齊王信，信家在楚，其意欲復得故邑。能出捐此地以許兩人，使各自為戰，則楚易敗也。」於是漢王發使使韓信、彭越。至，皆引兵來。
+
+十一月，劉賈入楚地，圍壽春。漢亦遣人誘楚大司馬周殷。殷畔楚，以舒屠六，舉九江兵迎黥布，並行屠城父，隨劉賈皆會。
+
+十二月，圍羽垓下。羽夜聞漢軍四面皆楚歌，知盡得楚地，羽與數百騎走，是以兵大敗。灌嬰追斬羽東城。楚地悉定，獨魯不下。漢王引天下兵欲屠之，為其守節禮義之國，乃持羽頭示其父兄，魯乃降。初，懷王封羽為魯公，及死，魯又為之堅守，故以魯公葬羽於穀城。漢王為發葬，哭臨而去。封項伯等四人為列侯，賜姓劉氏。諸民略在楚者皆歸之。漢王還至定陶，馳入齊王信壁，奪其軍。初項羽所立臨江王共敖前死，子尉嗣立為王，不降。遣盧綰、劉賈擊虜尉。
+
+春正月，追尊兄伯號曰武哀侯。下令曰：「楚地已定，義帝亡後，欲存恤楚眾，以定其主。齊王信習楚風俗，更立為楚王，王淮北，都下邳。魏相國建城侯彭越勤勞魏民，卑下士卒，常以少擊眾，數破楚軍，其以魏故地王之，號曰梁王，都定陶。」又曰：「兵不得休八年，萬民與苦甚，今天下事畢，其赦天下殊死以下。」
+
+於是諸侯上疏曰：「楚王韓信、韓王信、淮南王英布、梁王彭越、故衡山王吳芮、趙王張敖、燕王臧荼昧死再拜言，大王陛下：先時秦為亡道，天下誅之。大王先得秦王，定關中，於天下功最多。存亡定危，救敗繼絕，以安萬民，功盛德厚。又加惠於諸侯王有功者，使得立社稷。地分已定，而位號比儗，亡上下之分，大王功德之著，於後世不宣。昧死再拜上皇帝尊號。」漢王曰：「寡人聞帝者賢者有也，虛言亡實之名，非所取也。今諸侯王皆推高寡人，將何以處之哉？」諸侯王皆曰：「大王起於細微，滅亂秦，威動海內。又以辟陋之地，自漢中行威德，誅不義，立有功，平定海內，功臣皆受地食邑，非私之也。大王德施四海，諸侯王不足以道之，居帝位甚實宜，願大王以幸天下。」漢王曰：「諸侯王幸以為便於天下之民，則可矣。」於是諸侯王及太尉長安侯臣綰等三百人，與博士稷嗣君叔孫通謹擇良日二月甲午，上尊號。漢王即皇帝位于氾水之陽。尊王后曰皇后，太子曰皇太子，追尊先媼曰昭靈夫人。
+
+詔曰：「故衡山王吳芮與子二人、兄子一人，從百粵之兵，以佐諸侯，誅暴秦，有大功，諸侯立以為王。項羽侵奪之地，謂之番君。其以長沙、豫章、象郡、桂林、南海立番君芮為長沙王。」又曰：「故粵王亡諸世奉粵祀，秦侵奪其地，使其社稷不得血食。諸侯伐秦，亡諸身帥閩中兵以佐滅秦，項羽廢而弗立。今以為閩粵王，王閩中地，勿使失職。」
+
+帝乃西都洛陽。夏五月，兵皆罷歸家。詔曰：「諸侯子在關中者，復之十二歲，其歸者半之。民前或相聚保山澤，不書名數，今天下已定，令各歸其縣，復故爵田宅，吏以文法教訓辨告，勿笞辱。民以飢餓自賣為人奴婢者，皆免為庶人。軍吏卒會赦，其亡罪而亡爵及不滿大夫者，皆賜爵為大夫。故大夫以上賜爵各一級，其七大夫以上，皆令食邑，非七大夫以下，皆復其身及戶，勿事。」又曰：「七大夫、公乘以上，皆高爵也。諸侯子及從軍歸者，甚多高爵，吾數詔吏先與田宅，及所當求於吏者，亟與。爵或人君，上所尊禮，久立吏前，曾不為決，甚亡謂也。異日秦民爵公大夫以上，令丞與亢禮。今吾於爵非輕也，吏獨安取此！且法以有功勞行田宅，今小吏未嘗從軍者多滿，而有功者顧不得，背公立私，守尉長吏教訓甚不善。其令諸吏善遇高爵，稱吾意。且廉問，有不如吾詔者，以重論之。」
+
+帝置酒雒陽南宮。上曰：「通侯諸將毋敢隱朕，皆言其情。吾所以有天下者何？項氏之所以失天下者何？」高起、王陵對曰：「陛下嫚而侮人，項羽仁而敬人。然陛下使人攻城略地，所降下者，因以與之，與天下同利也。項羽妒賢嫉能，有功者害之，賢者疑之，戰勝而不與人功，得地而不與人利，此其所以失天下也。」上曰：「公知其一，未知其二。夫運籌帷幄之中，決勝千里之外，吾不如子房；填國家，撫百姓，給餉餽，不絕糧道，吾不如蕭何；連百萬之眾，戰必勝，攻必取，吾不如韓信。三者皆人傑，吾能用之，此吾所以取天下者也。項羽有一范增而不能用，此所以為我禽也。」群臣說服。
+
+初，田橫歸彭越。項羽已滅，橫懼誅，與賓客亡入海。上恐其久為亂，遣使者赦橫，曰：「橫來，大者王，小者侯；不來，且發兵加誅。」橫懼，乘傳詣雒陽，未至三十里，自殺。上壯其節，為流涕，發卒二千人，以王禮葬焉。
+
+戍卒婁敬求見，說上曰：「陛下取天下與周異，而都雒陽，不便，不如入關，據秦之固。」上以問張良，良因勸上。是日，車駕西都長安。拜婁敬為奉春君，賜姓劉氏。六月壬辰，大赦天下。
+
+秋七月，燕王臧荼反，上自將征之。九月，虜荼。詔諸侯王視有功者立以為燕王。荊王臣信等十人皆曰：「太尉長安侯盧綰功最多，請立以為燕王。」使丞相噲將兵平代地。
+
+利幾反，上自擊破之。利幾者，項羽將。羽敗，利幾為陳令，降，上侯之潁川。上至雒陽，舉通侯籍召之，而利幾恐，反。
+
+後九月，徙諸侯子關中。治長樂宮。
+
+六年冬十月，令天下縣邑城。
+
+人告楚王信謀反，上問左右，左右爭欲擊之。用陳平計，乃偽游雲夢。十二月，會諸侯于陳，楚王信迎謁，因執之。詔曰：「
+
+天下既安，豪桀有功者封侯，新立，未能盡圖其功。身居軍九年，或未習法令，或以其故犯法，大者死刑，吾甚憐之。其赦天下。」田肯賀上曰：「甚善，陛下得韓信，又治秦中。秦，形勝之國也，帶河阻山，縣隔千里，持戟百萬，秦得百二焉。地勢便利，其以下兵於諸侯，譬猶居高屋之上建瓴水也。夫齊，東有琅邪、即墨之饒，南有泰山之固，西有濁河之限，北有勃海之利，地方二千里，持戟百萬，縣隔千里之外，齊得十二焉。此東西秦也。非親子弟，莫可使王齊者。」上曰：「善。」賜金五百斤。上還至雒陽，赦韓信，封為淮陰侯。
+
+甲申，始剖符封功臣曹參等為通侯。詔曰：「齊，古之建國也，今為郡縣，其復以為諸侯。將軍劉賈數有大功，及擇寬惠脩絜者，王齊、荊地。」春正月丙午，韓王信等奏請以故東陽郡、鄣郡、吳郡五十三縣立劉賈為荊王，以碭郡、薛郡、郯郡三十六縣立弟文信君交為楚王。壬子，以雲中、鴈門、代郡五十三縣立兄宜信侯喜為代王，以膠東、膠西、臨淄、濟北、博陽、城陽郡七十三縣立子肥為齊王，以太原郡三十一縣為韓國，徙韓王信都晉陽。
+
+上已封大功臣三十餘人，其餘爭功，未得行封。上居南宮，從復道上見諸將往往耦語，以問張良。良曰：「陛下與此屬共取天下，今已為天子，而所封皆故人所愛，所誅皆平生仇怨。今軍吏計功，以天下為不足用遍封，而恐以過失及誅，故相聚謀反耳。」上曰：「為之奈何？」良曰：「取上素所不快，計群臣所共知最甚者一人，先封以示群臣。」三月，上置酒，封雍齒，因趣丞相急定功行封。罷酒，群臣皆喜，曰：「雍齒且侯，吾屬亡患矣！」
+
+上歸櫟陽，五日一朝太公。太公家令說太公曰：「天亡二日，土亡二王。皇帝雖子，人主也；太公雖父，人臣也。奈何令人主拜人臣！如此，則威重不行。」後上朝，太公擁彗，迎門卻行。上大驚，下扶太公。太公曰：「帝，人主，奈何以我亂天下法！」於是上心善家令言，賜黃金五百斤。夏五月丙午，詔曰：「人之至親，莫親於父子，故父有天下傳歸於子，子有天下尊歸於父，此人道之極也。前日天下大亂，兵革並起，萬民苦殃，朕親被堅執銳，自帥士卒，犯危難，平暴亂，立諸侯，偃兵息民，天下大安，此皆太公之教訓也。諸王、通侯、將軍、群卿、大夫已尊朕為皇帝，而太公未有號。今上尊太公曰太上皇。」
+
+秋九月，匈奴圍韓王信於馬邑，信降匈奴。
+
+七年冬十月，上自將擊韓王信於銅鞮，斬其將。信亡走匈奴，與其將曼丘臣、王黃共立故趙後趙利為王，收信散兵，與匈奴共距漢。上從晉陽連戰，乘勝逐北，至樓煩，會大寒，士卒墮指者什二三。遂至平城，為匈奴所圍，七日，用陳平祕計得出。使樊噲留定代地。
+
+十二月，上還過趙，不禮趙王。是月，匈奴攻代，代王喜棄國，自歸雒陽，赦為合陽侯。辛卯，立子如意為代王。
+
+春，令郎中有罪耐以上，請之。民產子，復勿事二歲。
+
+二月，至長安。蕭何治未央宮，立東闕、北闕、前殿、武庫、大倉。上見其壯麗，甚怒，謂何曰：「天下匈匈，勞苦數歲，成敗未可知，是何治宮室過度也！」何曰：「天下方未定，故可因以就宮室。且夫天子以四海為家，非令壯麗亡以重威，且亡令後世有以加也。」上說。自櫟陽徙都長安。置宗正宮以序九族。夏四月，行如雒陽。
+
+八年冬，上東擊韓信餘寇於東垣。還過趙，趙相貫高等恥上不禮其王，陰謀欲弒上。上欲宿，心動，問「縣名何？」曰：「柏人。」上曰：「柏人者，迫於人也。」去弗宿。
+
+十一月，令士卒從軍死者為槥，歸其縣，縣給衣衾棺葬具，祠以少牢，長吏視葬。十二月，行自東垣至。
+
+春三月，行如雒陽。令吏卒從軍至平城及守城邑者皆復終身勿事。爵非公乘以上毋得冠劉氏冠。賈人毋得衣錦繡綺縠絺紵钛，操兵，乘騎馬。秋八月，吏有罪未發覺者，赦之。九月，行自雒陽至，淮南王、梁王、趙王、楚王皆從。
+
+九年冬十月，淮南王、梁王、趙王、楚王朝未央宮，置酒前殿。上奉玉卮為太上皇壽，曰：「始大人常以臣亡賴，不能治產業，不如仲力。今某之業所就孰與仲多？」殿上群臣皆稱萬歲，大笑為樂。
+
+十一月，徙齊楚大族昭氏、屈氏、景氏、懷氏、田氏五姓關中，與利田宅。十二月，行如雒陽。
+
+貫高等謀逆發覺，逮捕高等，并捕趙王敖下獄。詔敢有隨王，罪三族。郎中田叔、孟舒等十人自髡鉗為王家奴，從王就獄。王實不知其謀。春正月，廢趙王敖為宣平侯。徙代王如意為趙王，王趙國。丙寅，前有罪殊死以下，皆赦之。
+
+二月，行自雒陽至。賢趙臣田叔、孟舒等十人，召見與語，漢廷臣無能出其右者。上說，盡拜為郡守、諸侯相。
+
+夏六月乙未晦，日有食之。
+
+十年冬十月，淮南王、燕王、荊王、梁王、楚王、齊王、長沙王來朝。
+
+夏五月，太上皇后崩。秋七月癸卯，太上皇崩，葬萬年。赦櫟陽囚死罪以下。八月，令諸侯王皆立太上皇廟于國都。
+
+九月，代相國陳豨反。上曰：「豨嘗為吾使，甚有信。代地吾所急，故封豨為列侯，以相國守代，今乃與王黃等劫掠代地！吏民非有罪也，能去豨、黃來歸者，皆赦之。」上自東，至邯鄲。上喜曰：「豨不南據邯鄲而阻漳水，吾知其亡能為矣。」趙相周昌奏常山二十五城亡其二十城，請誅守尉。上曰：「守尉反乎？」對曰：「不。」上曰：「是力不足，亡罪。」上令周昌選趙壯士可令將者，白見四人。上嫚罵曰：「豎子能為將乎！」四人慚，皆伏地。上封各千戶，以為將。左右諫曰：「從入蜀漢，伐楚，賞未遍行，今封此，何功？」上曰：「非汝所知。陳豨反，趙代地皆豨有。吾以羽檄徵天下兵，未有至者，今計唯獨邯鄲中兵耳。吾何愛四千戶，不以慰趙子弟！」皆曰：「善。」又求「樂毅有後乎？」得其孫叔，封之樂鄉，號華成君。問豨將，皆故賈人。上曰：「吾知與之矣。」乃多以金購豨將，豨將多降。
+
+十一年冬，上在邯鄲。豨將侯敞將萬餘人游行，王黃將騎千餘軍曲逆，張春將卒萬餘人度河攻聊城。漢將軍郭蒙與齊將擊，大破之。太尉周勃道太原入定代地，至馬邑，馬邑不下，攻殘之。豨將趙利守東垣，高祖攻之不下。卒罵，上怒。城降，卒罵者斬之。諸縣堅守不降反寇者，復租賦三歲。
+
+春正月，淮陰侯韓信謀反長安，夷三族。將軍柴武斬韓王信於參合。
+
+上還雒陽。詔曰：「代地居常山之北，與夷狄邊，趙乃從山南有之，遠，數有胡寇，難以為國。頗取山南太原之地益屬代，代之雲中以西為雲中郡，則代受邊寇益少矣。王、相國、通侯、吏二千石擇可立為代王者。」燕王綰、相國何等三十三人皆曰：「子恆賢知溫良，請立以為代王，都晉陽。」大赦天下。
+
+二月，詔曰：「欲省賦甚。今獻未有程，吏或多賦以為獻，而諸侯王尤多，民疾之。令諸侯王、通侯常以十月朝獻，及郡各以其口數率，人歲六十三錢，以給獻費。」又曰：「蓋聞王者莫高於周文，伯者莫高於齊桓，皆待賢人而成名。今天下賢者智能豈特古之人乎？患在人主不交故也，士奚由進！今吾以天之靈，賢士大夫定有天下，以為一家，欲其長久，世世奉宗廟亡絕也。賢人已與我共平之矣，而不與吾共安利之，可乎？賢士大夫有肯從我游者，吾能尊顯之。布告天下，使明知朕意。御史大夫昌下相國，相國酇侯下諸侯王，御史中執法下郡守，其有意稱明德者，必身勸，為之駕，遣詣相國府，署行、義、年。有而弗言，覺，免。年老癃病，勿遣。」
+
+三月，梁王彭越謀反，夷三族。詔曰：「擇可以為梁王、淮陽王者。」燕王綰、相國何等請立子恢為梁王，子友為淮陽王。罷東郡，頗益梁；罷潁川郡，頗益淮陽。
+
+夏四月，行自雒陽至。令豐人徙關中者皆復終身。
+
+五月，詔曰：「粵人之俗，好相攻擊，前時秦徙中縣之民南方三郡，使與百粵雜處。會天下誅秦，南海尉它居南方長治之，甚有文理，中縣人以故不耗減，粵人相攻擊之俗益止，俱賴其力。今立它為南粵王。」使陸賈即授璽綬。它稽首稱臣。
+
+六月，令士卒從入蜀、漢、關中者皆復終身。
+
+秋七月，淮南王布反。上問諸將，滕公言故楚令尹薛公有籌策。上見公，薛公言布形勢，上善之，封薛公千戶。詔王、相國擇可立為淮南王者，群臣請立子長為王。上乃發上郡、北地、隴西車騎，巴蜀材官及中尉卒三萬人為皇太子衛，軍霸上。布果如薛公言，東擊殺荊王劉賈，劫其兵，度淮擊楚，楚王交走入薛。上赦天下死罪以下，皆令從軍；徵諸侯兵，上自將以擊布。
+
+十二年冬十月，上破布軍于會缶，布走，令別將追之。
+
+上還，過沛，留，置酒沛宮，悉召故人父老子弟佐酒。發沛中兒得百二十人，教之歌。酒酣，上擊筑，自歌曰：「大風起兮雲飛揚，威加海內兮歸故鄉，安得猛士兮守四方！」令兒皆和習之。上乃起舞，忼慨傷懷，泣數行下。謂沛父兄曰：「游子悲故鄉。吾雖都關中，萬歲之後吾魂魄猶思樂沛。且朕自沛公以誅暴逆，遂有天下，其以沛為朕湯沐邑，復其民，世世無有所與。」沛父老諸母故人日樂飲極歡，道舊故為笑樂。十餘日，上欲去，沛父兄固請。上曰：「吾人眾多，父兄不能給。」乃去。沛中空縣皆之邑西獻。上留止，張飲三日。沛父兄皆頓首曰：「沛幸得復，豐未得，唯陛下哀矜。」上曰：「豐者，吾所生長，極不忘耳。吾特以其為雍齒故反我為魏。」沛父兄固請之，乃并復豐，比沛。
+
+漢別將擊布軍洮水南北，皆大破之，追斬布番陽。
+
+周勃定代，斬陳豨於當城。
+
+詔曰：「吳，古之建國也，日者荊王兼有其地，今死亡後。朕欲復立吳王，其議可者。」長沙王臣等言：「沛侯濞重厚，請立為吳王。」已拜，上召謂濞曰：「汝狀有反相。」因拊其背，曰：「漢後五十年東南有亂，豈汝邪？然天下同姓一家，汝慎毋反。」濞頓首曰：「不敢。」
+
+十一月，行自淮南還。過魯，以大牢祠孔子。
+
+十二月，詔曰：「秦皇帝、楚隱王、魏安釐王、齊愍王、趙悼襄王皆絕亡後。其與秦始皇帝守冢二十家，楚、魏、齊各十家，趙及魏公子亡忌各五家，令視其冢，復亡與它事。」
+
+陳豨降將言豨反時燕王盧綰使人之豨所陰謀。上使辟陽侯審食其迎綰，綰稱疾。食其言綰反有端。春二月，使樊噲、周勃將兵擊綰。詔曰：「燕王綰與吾有故，愛之如子，聞與陳豨有謀，吾以為亡有，故使人迎綰。綰稱疾不來，謀反明矣。燕吏民非有罪也，賜其吏六百石以上爵各一級。與綰居，去來歸者，赦之，加爵亦一級。」詔諸侯王議可立為燕王者，長沙王臣等請立子建為燕王。
+
+詔曰：「南武侯織亦粵之世也，立以為南海王。」
+
+三月，詔曰：「吾立為天子，帝有天下，十二年于今矣。與天下之豪士賢大夫共定天下，同安輯之。其有功者上致之王，次為列侯，下乃食邑。而重臣之親，或為列侯，皆令自置吏，得賦斂，女子公主。為列侯食邑者，皆佩之印，賜大第室。吏二千石，徙之長安，受小第室。入蜀漢定三秦者，皆世世復。吾於天下賢士功臣，可謂亡負矣。其有不義背天子擅起兵者，與天下共伐誅之。布告天下，使明知朕意。」
+
+上擊布時，為流矢所中，行道疾。疾甚，呂后迎良醫。醫入見，上問醫。曰：「疾可治不醫曰可治。」於是上嫚罵之，曰：「吾以布衣提三尺取天下，此非天命乎？命乃在天，雖扁鵲何益！」遂不使治疾，賜黃金五十斤，罷之。呂后問曰：「陛下百歲後，蕭相國既死，誰令代之？」上曰：「曹參可。」問其次，曰：「
+
+王陵可，然少戇，陳平可以助之。陳平知有餘，然難獨任。周勃重厚少文，然安劉氏者必勃也，可令為太尉。」呂后復問其次，上曰：「此後亦非乃所知也。」
+
+盧綰與數千人居塞下候伺，幸上疾愈，自入謝。夏四月甲辰，帝崩于長樂宮。盧綰聞之，遂亡入匈奴。
+
+呂后與審食其謀曰：「諸將故與帝為編戶民，北面為臣，心常鞅鞅，今乃事少主，非盡族是，天下不安。」以故不發喪。人或聞，以語酈商。酈商見審食其曰：「聞帝已崩，四日不發喪，欲誅諸將。誠如此，天下危矣。陳平、灌嬰將十萬守滎陽，樊噲、周勃將二十萬定燕代，此聞帝崩，諸將皆誅，必連兵還鄉，以攻關中。大臣內畔，諸將外反，亡可蹻足待也。」審食其入言之，乃以丁未發喪，大赦天下。
+
+五月丙寅，葬長陵。已下，皇太子群臣皆反至太上皇廟。群臣曰：「帝起細微，撥亂世反之正，平定天下，為漢太祖，功最高。」上尊號曰高皇帝。
+
+初，高祖不脩文學，而性明達，好謀，能聽，自監門戍卒，見之如舊。初順民心作三章之約。天下既定，命蕭何次律令，韓信申軍法，張蒼定章程，叔孫通制禮儀，陸賈造新語。又與功臣剖符作誓，丹書鐵契，金匱石室，藏之宗廟。雖日不暇給，規摹弘遠矣。
+
+贊曰：春秋晉史蔡墨有言，陶唐氏既衰，其後有劉累，學擾龍，事孔甲，范氏其後也。而大夫范宣子亦曰：「祖自虞以上為陶唐氏，在夏為御龍氏，在商為豕韋氏，在周為唐杜氏，晉主夏盟為范氏。」范氏為晉士師，魯文公世奔秦。後歸于晉，其處者為劉氏。劉向云戰國時劉氏自秦獲於魏。秦滅魏，遷大梁，都于豐，故周巿說雍齒曰「豐，故梁徙也」。是以頌高祖云：「漢帝本系，出自唐帝。降及于周，在秦作劉。涉魏而東，遂為豐公。」豐公，蓋太上皇父。其遷日淺，墳墓在豐鮮焉。及高祖即位，置祠祀官，則有秦、晉、梁、荊之巫，世祠天地，綴之以祀，豈不信哉！由是推之，漢承堯運，德祚已盛，斷蛇著符，旗幟上赤，協于火德，自然之應，得天統矣。
+
+
+## 十六、《後漢書》全本
+
+### 光武帝紀上
+
+世祖光武皇帝諱秀，字文叔，南陽蔡陽人，高祖九世之孫也，出自景帝生長沙定王發。發生舂陵節侯買，買生鬱林太守外，外生鉅鹿都尉回，回生南頓令欽，欽生光武。光武年九歲而孤，養於叔父良。身長七尺三寸，美須眉，大口，隆準，日角。性勤於稼穡，而兄伯升好俠養士，常非笑光武事田業，比之高祖兄仲。王莽天鳳中，乃之長安，受尚書，略通大義。
+
+莽末，天下連歲災蝗，寇盜鋒起。地皇三年，南陽荒饑，諸家賓客多為小盜。光武避吏新野，因賣穀於宛。宛人李通等以圖讖說光武云：「劉氏復起，李氏為輔。」光武初不敢當，然獨念兄伯升素結輕客，必舉大事，且王莽敗亡已兆，天下方亂，遂與定謀，於是乃市兵弩。十月，與李通從弟軼等起於宛，時年二十八。
+
+十一月，有星孛于張。光武遂將賓客還舂陵。時伯升已會眾起兵。初，諸家子弟恐懼，皆亡逃自匿，曰「伯升殺我」。及見光武絳衣大冠，皆驚曰「謹厚者亦復為之」，乃稍自安。伯升於是招新市、平林兵，與其帥王鳳、陳牧西擊長聚。光武初騎牛，殺新野尉乃得馬。進屠唐子鄉，又殺湖陽尉。軍中分財物不均，眾恚恨，欲反攻諸劉。光武斂宗人所得物，悉以與之，眾乃悅。進拔棘陽，與王莽前隊大夫甄阜、屬正梁丘賜戰於小長安，漢軍大敗，還保棘陽。
+
+更始元年正月甲子朔，漢軍復與甄阜、梁丘賜戰於沘水西，大破之，斬阜、賜。伯升又破王莽納言將軍嚴尤、秩宗將軍陳茂於淯陽，進圍宛城。
+
+二月辛巳，立劉聖公為天子，以伯升為大司徒，光武為太常偏將軍。
+
+三月，光武別與諸將徇昆陽、定陵、郾，皆下之。多得牛馬財物，穀數十萬斛，轉以饋宛下。莽聞阜、賜死，漢帝立，大懼，遣大司徒王尋、大司空王邑將兵百萬，其甲士四十二萬人，五月，到潁川，復與嚴尤、陳茂合。初，光武為舂陵侯家訟逋租於尤，尤見而奇之。及是時，城中出降尤者言光武不取財物，但會兵計策。尤笑曰：「是美須眉者邪？何為乃如是！」
+
+初，王莽徵天下能為兵法者六十三家數百人，並以為軍吏；選練武衛，招募猛士，旌旗輜重，千里不絕。時有長人巨無霸，長一丈，大十圍，以為壘尉；又驅諸猛獸虎豹犀象之屬，以助威武。自秦、漢出師之盛，未嘗有也。光武將數千兵，徼之於陽關。諸將見尋、邑兵盛，反走，馳入昆陽，皆惶怖，憂念妻孥，欲散歸諸城。光武議曰：「今兵穀既少，而外寇彊大，并力禦之，功庶可立；如欲分散，埶無俱全。且宛城未拔，不能相救，昆陽即破，一日之閒，諸部亦滅矣。今不同心膽共舉功名，反欲守妻子財物邪？」諸將怒曰：「劉將軍何敢如是！」光武笑而起。會候騎還，言大兵且至城北，軍陳數百里，不見其後。諸將遽相謂曰：「更請劉將軍計之。」光武復為圖畫成敗。諸將憂迫，皆曰「諾」。時城中唯有八九千人，光武乃使成國上公王鳳、廷尉大將軍王常留守，夜自與驃騎大將軍宗佻、五威將軍李軼等十三騎，出城南門，於外收兵。時莽軍到城下者且十萬，光武幾不得出。既至郾、定陵，悉發諸營兵，而諸將貪惜財貨，欲分留守之。光武曰：「今若破敵，珍寶萬倍，大功可成；如為所敗，首領無餘，何財物之有！」眾乃從。
+
+嚴尤說王邑曰：「昆陽城小而堅，今假號者在宛，亟進大兵，彼必奔走；宛敗，昆陽自服。」邑曰：「吾昔以虎牙將軍圍翟義，坐不生得，以見責讓。今將百萬之眾，遇城而不能下，何謂邪？」遂圍之數十重，列營百數，雲車十餘丈，瞰臨城中，旗幟蔽野，埃塵連天，鉦鼓之聲聞數百里。或為地道，衝輣橦城。積弩亂發，矢下如雨，城中負戶而汲。王鳳等乞降，不許。尋、邑自以為功在漏刻，意氣甚逸。夜有流星墜營中，晝有雲如壞山，當營而隕，不及地尺而散，吏士皆厭伏。
+
+六月己卯，光武遂與營部俱進，自將步騎千餘，前去大軍四五里而陳。尋、邑亦遣兵數千合戰。光武奔之，斬首數十級。諸部喜曰：「劉將軍平生見小敵怯，今見大敵勇，甚可怪也，且復居前。請助將軍！」光武復進，尋、邑兵卻，諸部共乘之，斬首數百千級。連勝，遂前。時伯升拔宛已三日，而光武尚未知，乃偽使持書報城中，云「宛下兵到」，而陽墯其書。尋、邑得之，不憙。諸將既經累捷，膽氣益壯，無不一當百。光武乃與敢死者三千人，從城西水上衝其中堅，尋、邑陳亂，乘銳崩之，遂殺王尋。城中亦鼓譟而出，中外合埶，震呼動天地，莽兵大潰，走者相騰踐，奔殪百餘里閒。會大雷風，屋瓦皆飛，雨下如注，滍川盛溢，虎豹皆股戰，士卒爭赴，溺死者以萬數，水為不流。王邑、嚴尤、陳茂輕騎乘死人度水逃去。盡獲其軍實輜重，車甲珍寶，不可勝筭，舉之連月不盡，或燔燒其餘。
+
+光武因復徇下潁陽。會伯升為更始所害，光武自父城馳詣宛謝。司徒官屬迎弔光武，光武難交私語，深引過而已。未嘗自伐昆陽之功，又不敢為伯升服喪，飲食言笑如平常。更始以是慚，拜光武為破虜大將軍，封武信侯。
+
+九月庚戌，三輔豪桀共誅王莽，傳首詣宛。
+
+更始將北都洛陽，以光武行司隸校尉，使前整修宮府。於是置僚屬，作文移，從事司察，一如舊章。時三輔吏士東迎更始，見諸將過，皆冠幘，而服婦人衣，諸于繡镼，莫不笑之，或有畏而走者。及見司隸僚屬，皆歡喜不自勝。老吏或垂涕曰：「不圖今日復見漢官威儀！」由是識者皆屬心焉。
+
+及更始至洛陽，乃遣光武以破虜將軍行大司馬事。十月，持節北度河，鎮慰州郡。所到部縣，輒見二千石、長吏、三老、官屬，下至佐史，考察黜陟，如州牧行部事。輒平遣囚徒，除王莽苛政，復漢官名。吏人喜悅，爭持牛酒迎勞。
+
+進至邯鄲，故趙繆王子林說光武曰：「赤眉今在河東，但決水灌之，百萬之眾可使為魚。」光武不荅，去之真定。林於是乃詐以卜者王郎為成帝子子輿，十二月，立郎為天子，都邯鄲，遂遣使者降下郡國。
+
+二年正月，光武以王郎新盛，乃北徇薊。王郎移檄購光武十萬戶，而故廣陽王子劉接起兵薊中以應郎，城內擾亂，轉相驚恐，言邯鄲使者方到，二千石以下皆出迎。於是光武趣駕南轅，晨夜不敢入城邑，舍食道傍。至饒陽，官屬皆乏食。光武乃自稱邯鄲使者，入傳舍。傳吏方進食，從者飢，爭奪之。傳吏疑其偽，乃椎鼓數十通，紿言邯鄲將軍至，官屬皆失色。光武升車欲馳；既而懼不免，徐還坐，曰：「請邯鄲將軍入。」久乃駕去。傳中人遙語門者閉之。門長曰：「天下詎可知，而閉長者乎？」遂得南出。晨夜兼行，蒙犯霜雪，天時寒，面皆破裂。至呼沱河，無船，適遇冰合，得過，未畢數車而陷。進至下博城西，遑惑不知所之。有白衣老父在道旁，指曰：「努力！信都郡為長安守，去此八十里。」光武即馳赴之，信都太守任光開門出迎。世祖因發旁縣，得四千人，先擊堂陽、貰縣，皆降之。王莽和戎卒正邳彤亦舉郡降。又昌城人劉植，宋子人耿純，各率宗親子弟，據其縣邑，以奉光武。於是北降下曲陽，眾稍合，樂附者至有數萬人。
+
+復北擊中山，拔盧奴。所過發奔命兵，移檄邊部，共擊邯鄲，郡縣還復響應。南擊新市、真定、元氏、防子，皆下之，因入趙界。
+
+時王郎大將李育屯柏人，漢兵不知而進，前部偏將朱浮、鄧禹為育所破，亡失輜重。光武在後聞之，收浮、禹散卒，與育戰於郭門，大破之，盡得其所獲。育還保城，攻之不下，於是引兵拔廣阿。會上谷太守耿況、漁陽太守彭寵各遣其將吳漢、寇恂等將突騎來助擊王郎，更始亦遣尚書僕射謝躬討郎，光武因大饗士卒，遂東圍鉅鹿。王郎守將王饒堅守，月餘不下。郎遣將倪宏、劉奉率數萬人救鉅鹿，光武逆戰於南讀，斬首數千級。四月，進圍邯鄲，連戰破之。五月甲辰，拔其城，誅王郎。收文書，得吏人與郎交關謗毀者數千章。光武不省，會諸將軍燒之，曰：「令反側子自安。」
+
+更始遣侍御史持節立光武為蕭王，悉令罷兵詣行在所。光武辭以河北未平，不就徵。自是始貳於更始。
+
+是時長安政亂，四方背叛。梁王劉永擅命睢陽，公孫述稱王巴蜀，李憲自立為淮南王，秦豐自號楚黎王，張步起琅邪，董憲起東海，延岑起漢中，田戎起夷陵，並置將帥，侵略郡縣。又別號諸賊銅馬、大肜、高湖、重連、鐵脛、大搶、尤來、上江、青犢、五校、檀鄉、五幡、五樓、富平、獲索等，各領部曲，眾合數百萬人，所在寇掠。
+
+光武將擊之，先遣吳漢北發十郡兵。幽州牧苗曾不從，漢遂斬曾而發其眾。秋，光武擊銅馬於鄡，吳漢將突騎來會清陽。賊數挑戰，光武堅營自守；有出鹵掠者，輒擊取之，絕其糧道。積月餘日，賊食盡，夜遁去，追至館陶，大破之。受降未盡，而高湖、重連從東南來，與銅馬餘眾合，光武復與大戰於蒲陽，悉破降之，封其渠帥為列侯。降者猶不自安，光武知其意，敕令各歸營勒兵，乃自乘輕騎按行部陳。降者更相語曰：「蕭王推赤心置人腹中，安得不投死乎！」由是皆服。悉將降人分配諸將，眾遂數十萬，故關西號光武為「銅馬帝」。赤眉別帥與大肜、青犢十餘萬眾在射犬，光武進擊，大破之，眾皆散走。使吳漢、岑彭襲殺謝躬於鄴。
+
+青犢、赤眉賊入函谷關，攻更始。光武乃遣鄧禹率六裨將引兵而西，以乘更始、赤眉之亂。時更始使大司馬朱鮪、舞陰王李軼等屯洛陽，光武亦令馮異守孟津以拒之。
+
+建武元年春正月，平陵人方望立前孺子劉嬰為天子，更始遣丞相李松擊斬之。
+
+光武北擊尤來、大搶、五幡於元氏，追至右北平，連破之。又戰於順水北，乘勝輕進，反為所敗。賊追急，短兵接，光武自投高岸，遇突騎王豐，下馬授光武，光武撫其肩而上，顧笑謂耿弇曰：「幾為虜嗤。」弇頻射卻賊，得免。士卒死者數千人，散兵歸保范陽。軍中不見光武，或云已歿，諸將不知所為。吳漢曰：「卿曹努力！王兄子在南陽，何憂無主？」眾恐懼，數日乃定。賊雖戰勝，而素懾大威，客主不相知，夜遂引去。大軍復進至安次，與戰，破之，斬首三千餘級。賊入漁陽，乃遣吳漢率耿弇、陳俊、馬武等十二將軍追戰于潞東，及平谷，大破滅之。
+
+朱鮪遣討難將軍蘇茂攻溫，馮異、寇恂與戰，大破之，斬其將賈彊。
+
+於是諸將議上尊號。馬武先進曰：「天下無主。如有聖人承敝而起，雖仲尼為相，孫子為將，猶恐無能有益。反水不收，後悔無及。大王雖執謙退，柰宗廟社稷何！宜且還薊即尊位，乃議征伐。今此誰賊而馳騖擊之乎？」光武驚曰：「何將軍出是言？可斬也！」武曰：「諸將盡然。」光武使出曉之，乃引軍還至薊。
+
+夏四月，公孫述自稱天子。
+
+光武從薊還，過范陽，命收葬吏士。至中山，諸將復上奏曰：「
+
+漢遭王莽，宗廟廢絕，豪傑憤怒，兆人塗炭。王與伯升首舉義兵，更始因其資以據帝位，而不能奉承大統，敗亂綱紀，盜賊日多，群生危蹙。大王初征昆陽，王莽自潰；後拔邯鄲，北州弭定；參分天下而有其二，跨州據土，帶甲百萬。言武力則莫之敢抗，論文德則無所與辭。臣聞帝王不可以久曠，天命不可以謙拒，惟大王以社稷為計，萬姓為心。」光武又不聽。
+
+行到南平棘，諸將復固請之。光武曰：「寇賊未平，四面受敵，何遽欲正號位乎？諸將且出。」耿純進曰：「天下士大夫捐親戚，棄土壤，從大王於矢石之閒者，其計固望其攀龍鱗，附鳳翼，以成其所志耳。今功業即定，天人亦應，而大王留時逆眾，不正號位，純恐士大夫望絕計窮，則有去歸之思，無為久自苦也。大眾一散，難可復合。時不可留，眾不可逆。」純言甚誠切，光武深感，曰：「吾將思之。」
+
+行至鄗，光武先在長安時同舍生彊華自關中奉赤伏符，曰「劉秀發兵捕不道，四夷雲集龍鬥野，四七之際火為主」。群臣因復奏曰：「受命之符，人應為大，萬里合信，不議同情，周之白魚，曷足比焉？今上無天子，海內淆亂，符瑞之應，昭然著聞，宜荅天神，以塞群望。」光武於是命有司設壇場於鄗南千秋亭五成陌。
+
+六月己未，即皇帝位。燔燎告天，禋于六宗，望於群神。其祝文曰：「皇天上帝，后土神祇，眷顧降命，屬秀黎元，為人父母，秀不敢當。群下百辟，不謀同辭，咸曰：『王莽篡位，秀發憤興兵，破王尋、王邑於昆陽，誅王郎、銅馬於河北，平定天下，海內蒙恩。上當天地之心，下為元元所歸。』讖記曰：『劉秀發兵捕不道，卯金修德為天子。』秀猶固辭，至于再，至于三。群下僉曰：『皇天大命，不可稽留。』敢不敬承。」於是建元為建武，大赦天下，改鄗為高邑。
+
+是月，赤眉立劉盆子為天子。
+
+甲子，前將軍鄧禹擊更始定國公王匡於安邑，大破之，斬其將劉均。
+
+秋七月辛未，拜前將軍鄧禹為大司徒。丁丑，以野王令王梁為大司空。壬午，以大將軍吳漢為大司馬，偏將軍景丹為驃騎大將軍，大將軍耿弇為建威大將軍，偏將軍蓋延為虎牙大將軍，偏將軍朱祐為建義大將軍，中堅將軍杜茂為大將軍。
+
+時宗室劉茂自號「厭新將軍」，率眾降，封為中山王。
+
+己亥，幸懷。遣耿弇率彊弩將軍陳俊軍五社津，備滎陽以東。使吳漢率朱祐及廷尉岑彭、執金吾賈復、揚化將軍堅鐔等十一將軍圍朱鮪於洛陽。
+
+八月壬子，祭社稷。癸丑，祠高祖、太宗、世宗於懷宮。進幸河陽。更始廩丘王田立降。
+
+九月，赤眉入長安，更始奔高陵。辛未，詔曰：「更始破敗，棄城逃走，妻子裸袒，流冗道路。朕甚愍之。今封更始為淮陽王。吏人敢有賊害者，罪同大逆。」
+
+甲申，以前高密令卓茂為太傅。
+
+辛卯，朱鮪舉城降。
+
+冬十月癸丑，車駕入洛陽，幸南宮卻非殿，遂定都焉。
+
+遣岑彭擊荊州群賊。
+
+十一月甲午，幸懷。
+
+劉永自稱天子。
+
+十二月丙戌，至自懷。
+
+赤眉殺更始，而隗囂據隴右，盧芳起安定。破虜大將軍叔壽擊五校賊於曲梁，戰歿。
+
+二年春正月甲子朔，日有食之。大司馬吳漢率九將軍擊檀鄉賊於鄴東，大破降之。庚辰，封功臣皆為列侯，大國四縣，餘各有差。下詔曰：「人情得足，苦於放縱，快須臾之欲，忘慎罰之義。惟諸將業遠功大，誠欲傳於無窮，宜如臨深淵，如履薄冰，戰戰慄慄，日慎一日。其顯效未詶，名籍未立者，大鴻臚趣上，朕將差而錄之。」博士丁恭議曰：「古帝王封諸侯不過百里，故利以建侯，取法於雷，強榦弱枝，所以為治也。今封諸侯四縣，不合法制。」帝曰：「古之亡國，皆以無道，未嘗聞功臣地多而滅亡者。」乃遣謁者即授印綬，策曰：「在上不驕，高而不危；制節謹度，滿而不溢。敬之戒之。傳爾子孫，長為漢藩。」
+
+壬午，更始復漢將軍鄧曄、輔漢將軍于匡降，皆復爵位。
+
+壬子，起高廟，建社稷於洛陽，立郊兆于城南，始正火德，色尚赤。
+
+是月，赤眉焚西京宮室，發掘園陵，寇掠關中。大司徒鄧禹入長安，遣府掾奉十一帝神主，納於高廟。
+
+真定王楊、臨邑侯讓謀反，遣前將軍耿純誅之。
+
+二月己酉，幸修武。
+
+大司空王梁免。壬子，以太中大夫宋弘為大司空。
+
+遣驃騎大將軍景丹率征虜將軍祭遵等二將軍擊弘
+
+農賊，破之，因遣祭遵圍蠻中賊張滿。
+
+漁陽太守彭寵反，攻幽州牧朱浮於薊。
+
+延岑自稱武安王於漢中。
+
+辛卯，至自修武。
+
+三月乙未，大赦天下，詔曰：「頃獄多冤人，用刑深刻，朕甚愍之。孔子云：『刑罰不中，則民無所措手足。』其與中二千石、諸大夫、博士、議郎議省刑法。」
+
+遣執金吾賈復率二將軍擊更始郾王尹遵，破降之。
+
+驍騎將軍劉植擊密賊，戰歿。
+
+遣虎牙大將軍蓋延率四將軍伐劉永。夏四月，圍永於睢陽。更始將蘇茂殺淮陽太守潘蹇而附劉永。
+
+甲午，封叔父良為廣陽王，兄子章為太原王，章弟興為魯王，舂陵侯嫡子祉為城陽王。
+
+五月庚辰，封更始元氏王歙為泗水王，故真定王楊子得為真定王，周後姬常為周承休公。
+
+癸未，詔曰：「民有嫁妻賣子欲歸父母者，恣聽之。敢拘執，論如律。」
+
+六月戊戌，立貴人郭氏為皇后，子彊為皇太子，大赦天下。增郎、謁者、從官秩各一等。丙午，封宗子劉終為淄川王。
+
+秋八月，帝自將征五校。丙辰，幸內黃，大破五校於羛陽，降之。
+
+遣游擊將軍鄧隆救朱浮，與彭寵戰於潞，隆軍敗績。
+
+蓋延拔睢陽，劉永奔譙。
+
+破虜將軍鄧奉據淯陽反。
+
+九月壬戌，至自內黃。
+
+驃騎大將軍景丹薨。
+
+延岑大破赤眉於杜陵。
+
+關中饑，民相食。
+
+冬十一月，以廷尉岑彭為征南大將軍，率八將軍討鄧奉於堵鄉。
+
+銅馬、青犢、尤來餘賊共立孫登為天子於上郡。登將樂玄殺登，以其眾五萬餘人降。
+
+遣偏將軍馮異代鄧禹伐赤眉。
+
+使太中大夫伏隆持節安輯青徐二州，招張步降之。
+
+十二月戊午，詔曰：「惟宗室列侯為王莽所廢，先靈無所依歸，朕甚愍之。其並復故國。若侯身已歿，屬所上其子孫見名尚書，封拜。」
+
+是歲，蓋延等大破劉永於沛西。初，王莽末，天下旱蝗，黃金一斤易粟一斛；至是野穀旅生，麻缩尤盛，野蠶成繭，被於山阜，人收其利焉。
+
+三年春正月甲子，以偏將軍馮異為征西大將軍，杜茂為驃騎大將軍，大司徒鄧禹及馮異與赤眉戰於回溪，禹、異敗績。
+
+征虜將軍祭遵破蠻中，斬張滿。
+
+辛巳，立皇考南頓君已上四廟。
+
+壬午，大赦天下。
+
+閏月乙巳，大司徒鄧禹免。
+
+馮異與赤眉戰於崤底，大破之，餘眾南向宜陽，帝自將征之。己亥，幸宜陽。甲辰，親勒六軍，大陳戎馬，大司馬吳漢精卒當前，中軍次之，驍騎、武衛分陳左右。赤眉望見震怖，遣使乞降。丙午，赤眉君臣面縛，奉高皇帝璽綬，詔以屬城門校尉。戊申，至自宜陽，己酉，詔曰：「群盜縱橫，賊害元元，盆子竊尊號，亂惑天下。朕奮兵討擊，應時崩解，十餘萬眾束手降服，先帝璽綬歸之王府。斯皆祖宗之靈，士人之力，朕曷足以享斯哉！其擇吉日祠高廟，賜天下長子當為父後者爵，人一級。」
+
+二月己未，祠高廟，受傳國璽。
+
+劉永立董憲為海西王，張步為齊王。步殺光祿大夫伏隆而反。
+
+幸懷。遣吳漢率二將軍擊青犢於軹西，大破降之。
+
+三月壬寅，以大司徒司直伏湛為大司徒。
+
+彭寵陷薊城，寵自立為燕王。
+
+帝自將征鄧奉，幸堵陽。夏四月，大破鄧奉於小長安，斬之。
+
+馮異與延岑戰於上林，破之。
+
+吳漢率七將軍與劉永將蘇茂戰於廣樂，大破之。虎牙大將軍蓋延圍劉永於睢陽。
+
+五月己酉，車駕還宮。
+
+乙卯晦，日有食之。
+
+六月壬戌，大赦天下。
+
+耿弇與延岑戰於穰，大破之。
+
+秋七月，征南大將軍岑彭率三將軍伐秦豐，戰於黎丘，大破之，獲其將蔡宏。
+
+庚辰，詔曰：「吏不滿六百石，下至墨綬長、相，有罪先請。男子八十以上，十歲以下，及婦人從坐者，自非不道，詔所名捕，皆不得繫。當驗問者即就驗。女徒雇山歸家。」
+
+蓋延拔睢陽，獲劉永，而蘇茂、周建立永子紆為梁王。
+
+冬十月壬申，幸舂陵，祠園廟，因置酒舊宅，大會故人父老。十一月乙未，至自舂陵。
+
+涿郡太守張豐反。
+
+是歲，李憲自稱天子。西州大將軍隗囂奉奏。建義大將軍朱祐率祭遵與延岑戰於東陽，斬其將張成。
+
+四年春正月甲申，大赦天下。
+
+二月壬子，幸懷。壬申，至自懷。
+
+遣右將軍鄧禹率二將軍與延岑戰於武當，破之。
+
+夏四月丁巳，幸鄴。己巳，進幸臨平。
+
+遣大司馬吳漢擊五校賊於箕山，大破之。
+
+五月，進幸元氏。辛巳，進幸盧奴。
+
+遣征虜將軍祭遵率四將軍討張豐於涿郡，斬豐。
+
+六月辛亥，車駕還宮。
+
+七月丁亥，幸譙。遣捕虜將軍馬武、偏將軍王霸圍劉紆於垂惠。
+
+董憲將賁休以蘭陵城降，憲圍之。虎牙大將軍蓋延率平狄將軍龐萌救賁休，不克，蘭陵為憲所陷。
+
+秋八月戊午，進幸壽春。
+
+太中大夫徐惲擅殺臨淮太守劉度，惲坐誅。
+
+遣揚武將軍馬成率三將軍伐李憲。九月，圍憲於舒。
+
+冬十月甲寅，車駕還宮。
+
+太傅卓茂薨。
+
+十一月丙申，幸宛。遣建義大將軍朱祐率二將軍圍秦豐於黎丘。十二月丙寅，進幸黎丘。
+
+是歲，征西大將軍馮異與公孫述將程焉戰於陳倉，破之。
+
+五年春正月癸巳，車駕還宮。
+
+二月丙午，大赦天下。
+
+捕虜將軍馬武、偏將軍王霸拔垂惠。
+
+乙丑，幸魏郡。
+
+壬申，封殷後孔安為殷紹嘉公。
+
+彭寵為其蒼頭所殺，漁陽平。
+
+大司馬吳漢率建威大將軍耿弇擊富平、獲索賊於
+
+平原，大破降之。復遣耿弇率二將軍討張步。
+
+三月癸未，徙廣陽王良為趙王，始就國。
+
+平狄將軍龐萌反，殺楚郡太守孫萌而東附董憲。
+
+遣征南大將軍岑彭率二將軍伐田戎於津鄉，大破之。
+
+夏四月，旱，蝗。
+
+河西大將軍竇融始遣使貢獻。
+
+五月丙子，詔曰：「久旱傷麥，秋種未下，朕甚憂之。將殘吏未勝，獄多冤結，元元愁恨，感動天氣乎？其令中都官、三輔、郡、國出繫囚，罪非犯殊死一切勿案，見徒免為庶人。務進柔良，退貪酷，各正厥事焉。」
+
+六月，建義大將軍朱祐拔黎丘，獲秦豐；而龐萌、蘇茂圍桃城。帝時幸蒙，因自將征之。先理兵任城，乃進救桃城，大破萌等。
+
+秋七月丁丑，幸沛，祠高原廟。詔修復西京園陵。進幸湖陵，征董憲。又幸蕃，遂攻董憲於昌慮，大破之。
+
+八月己酉，進幸郯，留吳漢攻劉紆、董憲等，車駕轉徇彭城、下邳。吳漢拔郯，獲劉紆，漢進圍董憲、龐萌於朐。
+
+冬十月，還，幸魯，使大司空祠孔子。
+
+耿弇等與張步戰於臨淄，大破之。帝幸臨淄，進幸劇。張步斬蘇茂以降，齊地平。
+
+初起太學。車駕還宮，幸太學，賜博士弟子各有差。
+
+十一月壬寅，大司徒伏湛免，尚書令侯霸為大司徒。
+
+十二月，盧芳自稱天子於九原。
+
+西州大將軍隗囂子恂入侍。
+
+交阯牧鄧讓率七郡太守遣使奉貢。
+
+詔復濟陽二年傜役。
+
+是歲，野穀漸少，田畝益廣焉。
+
+
+## 十七、《前漢紀》選篇
+
+### 序
+
+凡漢紀十二世十一帝。通王莽二百四十二年。一祖三宗。高祖定天下。孝惠高后。值國家無事。百姓安集。太宗昇平。世宗建功。中宗治平。昭景稱治。元成哀平。歷世陵遲。莽何篡國也。凡祥瑞。黃龍見。鳳皇集。麒麟臻。神馬出。神鳥翔。神雀集。白虎仁獸獲。寶鼎昇。寶磬神光見。山稱萬歲。甘露降。芝草生。嘉禾茂。玄稷降。醴泉涌。木連理。凡災異。大者日蝕五十六。地震十六。天開地裂。五星集于東井各一。太白再經天。星孛二十四。山崩三十四。隕石十一。星隕如雨二。星晝見三。火災二十四。河漢水大汎溢為人害十。河汎一。冬雷五。夏雪三。冬無冰二。天雨血雨草雨魚。死人復生。男子化為女子。嫁為人婦生子。枯木更生。大石自立。建安元年。上巡省。幸許昌。以鎮萬國。外命亢輔征討不庭。內齊七政。允亮聖業。綜練典籍。兼覽傳記。其三年詔給事中祕書監荀悅鈔撰漢書。略舉其要。假以不直。尚書給紙筆。虎賁給書吏。悅於是約集舊書。撮序表志。總為帝紀。通比其事。例繫年月。其祖宗功勳。先帝事業。國家綱紀。天地災異。功臣名賢。奇策善言。殊德異行。法式之典。凡在漢書者。本末體殊。大略粗舉。其經傳所遺闕者差少。而求志勢有所不能盡繁重之語。凡所行之事。出入省要刪略其文。凡為三十卷。數十餘萬言。作為帝紀。省約易習。無妨本書。有便於用。其旨云爾。會悅遷為侍中。其五年書成。乃奏記云。四百有一十六載。謂書奏之歲。歲在庚辰。昔晉之乘。楚之檮杌。魯之春秋。虞夏商周之書。其揆一也。皆古之令典。立之則成其法。棄之則墜於地。瞻之則存。忽焉則廢。故君子重之。漢書紀其義同矣。凡漢紀有法式焉。有監戒焉。有廢亂焉。有持平焉。有兵略焉。有政化焉有休祥焉。有災異焉。有華夏之事焉。有四夷之事焉。有常道焉。有權變焉。有策謀焉。有詭說焉有術藝焉。有文章焉。斯皆明主賢臣命世立業。群后之盛勳。髦俊之遺事。是故質之事實而不誣。通之萬方而不泥。可以興。可以治。可以動。可以靜。可以言。可以行。懲惡而勸善。獎成而懼敗。茲亦有國之常訓。典籍之淵林。雖云撰之者陋淺。而本末存焉爾。故君子可觀之矣。
+
+
+### 高祖皇帝紀一
+
+昔在上聖。唯建皇極。經緯天地。觀象立法。乃作書契以通宇宙。揚于王庭。厥用大焉。先王以光演大業。肆於時夏。亦唯翼翼。以監厥後。永世作典。夫立典有五志焉。一曰達道義。二曰彰法式。三曰通古今。四曰著功勳。五曰表賢能。於是天人之際。事物之宜。粲然顯著。罔不能備矣。世濟其軌。不殞其業。損益盈虛。與時消息。雖臧否不同。其揆一也。是以聖上穆然。惟文之卹。瞻前顧後。是紹是維。臣悅職監祕書。攝官承乏。祗奉明詔。竊惟其宜。謹約撰舊書。通而敘之。總為帝紀。列其年月。比其時事。撮要舉凡。存其大體。旨少所缺。務從省約。以副本書。以為要紀。未克厥中。亦各其志。如其得失。以俟君子焉。
+
+漢興繼堯之冑。承周之運。接秦之弊。漢祖初定天下。則從火德。斬蛇著符。旗幟尚赤。自然之應。得天統矣。其後張蒼謂漢為水德。而賈誼公孫弘以為土德。及至劉向父子。乃推五行之運。以子承母。始自伏羲。以迄于漢。宜為火德。其序之也。以為易稱帝出乎震。故太皞始出于震。為木德。號曰伏羲氏。共工氏因之為水德。居水火之間。霸而不王。非其序也。炎帝承木生火。固為火德。號曰神農氏。黃帝承之。火生土。故為土德。號曰軒轅氏。帝少昊滅。帝摯承之。土生金。故為金德。號曰金天氏。帝顓頊承之。金生水。故為水德。號曰高陽氏。帝嚳承之。水生木。故為木德。號曰高辛氏。帝堯始封于唐。高辛氏衰而天下歸之。號曰陶唐氏。故為火德。即位九十載。禪位于帝舜。號曰有虞氏。故為土德。即位五十載。禪位于伯禹。號曰夏后氏。故為金德。四百四十二年。湯伐桀。王天下。號曰殷為水德。六百二十九年。武王滅紂。王天下。號曰周為木德。七百六十七年。秦昭王始滅周。而諸侯未盡從。至昭王之曾孫政。遂并天下。是為始皇帝。有天下十四年。猶共工氏焉。非其序也。自周之滅。及秦之亡。凡四十九年。而漢祖滅秦。號曰漢。故為火德矣。在昔陶唐之後。有劉累者。以御龍事孔甲。為御龍氏。在商為豕韋氏。在周為唐杜氏。其適晉國者為范氏。別處秦者為劉氏。當戰國時。劉氏徙于魏。遷于沛之豐邑。處中陽里。而高祖興焉。
+
+漢高祖諱邦。字季。初昭靈后嘗息大澤之陂。夢與神遇。是時雷電晦冥。太上皇視之。見蛟龍臨之。遂有娠而生高祖。隆準龍顏。美須髯。左股有七十二黑子。寬仁愛人。有大智度。曾為泗水亭長。嘗從王媼武負貰酒。每飲醉留寢其家。上嘗見光怪。負等異之。輒折契棄券而不責。單父人呂公好相人。有女以為貴。避讎于沛。沛令求其女不與。及見高祖狀貌。公奇之。因以女妻焉。是為呂后。生孝惠魯元公主。嘗有老父過乞漿。相呂后孝惠魯元公主皆大貴也。及見高祖。乃大喜曰。夫人兒子。蒙君之力也。君貴不可言也。遂去不復見。高祖以亭長送徒驪山。夜行經豐西澤中。有蛇當道。拔劍斬之。遂過。後人至者。見一老嫗哭蛇曰。此白帝子也。向赤帝子遇而殺之。嫗因忽然不見。高祖亡避吏於山澤中。呂后常知其處。云高祖所在。上有赤色雲氣。占氣者山東有天子氣。秦始皇帝乃東遊。欲以厭之。秦二世胡亥元年秋七月。發閭左屯漁陽。陽城人陳勝。字涉。陽夏人吳廣。字叔。皆為屯長。行至蘄。會天大雨。度已失期。失期法當斬。遂因天下之怨謀叛。陳勝以繒為書。置魚腹中。曰陳勝王。令人賣之。士卒得魚者。故已怪之矣。又令吳廣夜於叢祠中構火作狐鳴。曰大楚興。陳勝王。眾乃大驚。遂殺其將尉。號令徒屬。稱大楚。勝為大將軍。廣為都尉。攻掠城邑。至陳。眾數萬人。勝自立為楚王。大梁人張耳陳餘諫曰。將軍出萬死之計。為天下除殘賊。今始至陳為王。是示天下私也。不如立六國後。自為樹黨。進師而西。則野無交兵。縣無守城。誅暴秦。安據咸陽。以令諸侯。天下可圖也。勝不聽。以陳人武臣為將軍。耳餘為校尉。北徇趙地。當此之時。楚將徇地者甚眾。楚兵數千。聚黨者不可勝數。以吳廣為假王。監諸將。以周文為將軍。眾十餘萬。西至戲水。蓋百二十萬矣。秦令將軍章邯。赦驪山作徒七十萬人以擊之。是時吳廣別圍滎陽。不能下。將軍田臧等謀曰。假王驕。不可與計謀。乃矯陳王命誅吳廣。進兵而西。是歲太曰再經天。占曰法為大兵。天下易王。九月沛人殺其令。高祖為沛公。蕭何為丞相。曹參周勃以中涓從。夏侯嬰樊噲為舍人。蕭何即沛主獄吏。曹參沛獄掾。嬰沛廄騶。勃以織簿為產。噲以屠狗為事。皆公之舊也。是時沛公在外黃。兵眾數百人。蕭何等欲應陳勝。故召沛公立之。收沛子弟得三千人。而項籍亦起兵會稽。籍字羽。故楚將項燕之孫也。羽初起時。年二十四。身長八尺二寸。目重瞳子。力能扛鼎。與季父項梁避讎於吳。梁好為辯說。陰有大志。吳中賢士大夫皆出梁下。梁乃與籍殺會稽太守殷通。佩其印綬。自號為會稽將。籍為裨將。徇下邳縣。張耳陳餘既至趙。說豪傑曰。秦為亂政虐刑。殘賊天下。北有長城之役。南有五嶺之戍。內外搔動。百姓罷弊。財匱力盡。重以苛法。使天下父子不相聊生。陳王奮臂為天下唱始。莫不響應。於此時不成封侯之業者。非人豪也。因天下之力。誅無道之秦。報父兄之讎。而成大業者。此壯士之一時也。皆然其言。乃收兵數萬人。遂下趙十餘城。武臣自號為武信君。進軍圍范陽。范陽人蒯通為其令徐公說武信君曰。范陽令欲以其城先下君。而君不利之。則諸守皆為金城湯池。不可攻也。君計莫若以黃屋朱輪以迎范陽令。使馳鶩乎燕趙之郊。則邊城皆喜。相率而降。此由以下阪而走丸也。武信君乃以侯迎徐公。燕趙聞之。降者三十餘城。耳餘聞諸將徇地者多畏以讒得罪。又怨陳王。不以己為將軍。陳王欲誅其家。柱國房君賜諫王曰。秦王未亡而誅趙王家。是復生一秦也。不如因賀之。令進兵擊秦。勝從之。耳餘與趙王謀曰。王王趙非楚意也。楚已誅秦。必加兵於趙。不如北徇燕地以自廣。南據大河。北有燕代。楚雖勝秦。不敢制趙。若不勝秦。必重趙。趙承秦楚之弊。可以得志於天下。乃使韓廣北徇燕地。燕人欲立廣。廣曰。母在趙不可也。燕人曰。夫以楚之強不敢害趙。趙獨安敢害將軍之家。廣乃自立為王。而趙亦歸其家。趙王略地燕界。間行為燕軍所得。囚之以求割地。趙使請王。燕輒殺之。有廝養卒請使燕軍。說燕將曰。夫張耳陳餘與武臣俱。杖馬策下趙數十城。豈樂為人臣哉。顧其勢初定。且以長幼相次。先立武臣以持趙心。今趙地已服。此二人名為求王。實欲令燕殺之。而分王其地。夫以一趙尚陵少燕。今以兩賢王立。左提右挈。而齎直義。破燕必矣。燕乃遣趙王。廝養卒為御而歸。魏人周市為陳王定魏。魏人欲立市。市曰。國家昏亂。忠臣乃見。乃請於陳王。立故魏公子咎為魏王。故齊王田氏之族儋。亦殺縣令自立為齊王。章邯敗楚軍。殺周文於邯鄲。殺田臧於敖倉。楚將皆敗。秦遂攻陳破之。
+
+沛公二年冬十月。秦將圍沛公於豐。出與戰敗之。十一月。沛公引兵之薛。令雍齒守豐。趙將李良為章邯所招。遂叛。以兵襲武臣。武臣死。張耳陳餘出走。十二月。陳勝之御莊賈。殺陳勝以降秦。楚人葬之碭。諡曰隱王。勝故中涓人。呂臣復收餘兵攻陳。以殺莊賈。是時勝先令將軍秦嘉掠地。及勝死。嘉立景駒為楚王。初。勝嘗與人傭耕。相謂曰。富貴無相忘。耕者笑曰。汝今傭耕。何富貴也。勝曰。鷰雀安知鴻鵠之志哉。及勝為王。耕者叩門曰。吾欲見涉。勝見之。出入輕慢。益發舒。勝貧賤故。毀傷威重。勝斬之。故人皆棄而去。由是無親勝者。以朱房為忠正。胡武為司過。以苛察為忠。而勝任之。是故諸將不親附。此其所以亡也。雍齒以豐叛降于魏。春正月。張耳陳餘收趙眾擊李良。良敗走歸章邯。耳餘乃立舊趙之後趙歇為趙王。沛公將見景駒。遇張良于留。良韓人。其先五世相韓。及韓亡。良弟死不葬。悉以家財求客。報讎彊秦。秦始皇東游。良募力士擊之。誤中副車。亡匿下邳。游于圯上。有一老父至。直墮其履。顧謂良曰。孺子下取履。良甚怪愕。為其老。乃取履跪而進之。父曰。孺子可教矣。後五日與吾會此。及期而良後至。老父怒之。凡三期而良先至。老父乃喜。遺書一編。曰讀此即為王者師。後十三年。見我于齊北穀城山下。黃石即我矣。遂去不復見。其書乃太公兵法也。良乃以說沛公。沛公善之。良曰。沛公殆天所授。故遂屬焉。項梁以八千人渡江。聞陳嬰已下東陽。欲與連和。嬰者故果陽令吏。縣中欲立為王。嬰母曰。汝家世貧賤。今暴得大名不祥。不如以兵屬人。事成猶得封侯。事不成。禍有所歸。而易以亡。嬰遂以兵屬梁。黥布亦以兵屬梁焉。布。六人也。少時客相之。當黥而王。及其黥也。乃欣然而喜。輸徒驪山。遂亡走至江中。聚徒屬而從項梁。夏四月。項梁殺景駒、及秦嘉止薛。沛公往從之。梁益沛公兵。遂攻豐拔之。雍齒奔魏。居巢人范增年七十餘。說梁曰。秦滅六國。楚最無罪。自懷王入秦不反。楚人憐之。故語曰。楚雖三戶。亡秦必楚。今陳勝首事不立楚後。其勢不長。今君起江東。楚蜂起之將皆爭附君者。以君世世楚將。為能復立楚後也。梁乃求懷王之孫心。心為人牧羊。六月。楚心立。號曰懷王。陳嬰為上柱國。梁為大將軍。號武信君。封沛公為武安侯。為碭郡長。張良亦說項梁立韓公子成為韓王。良為司徒。略韓地。章邯遣兵攻魏。魏將周市請救于齊楚。市以二國師不至。章邯擊殺市。遂圍臨濟。魏王咎偽使其人納降而自殺。章邯進伐齊。殺田儋。儋從弟榮收餘兵保東阿。齊王建之弟田假自立為齊王。田角為相。田簡為將軍。章邯圍東阿。沛公項梁救之。大破章邯。秋七月大雨霖。至于八月。田榮歸逐田假。立儋子市為王。己為相。榮從弟橫為將軍。田假奔楚。田角田簡奔趙。項梁遂追秦軍。使召齊王兵俱西。榮曰。楚殺田假。趙殺角。簡乃出兵。梁曰。田假窮來投我。我不忍殺。齊使曰。夫虺蝮螫手則斷手。螫足則斷足。為其害體也。夫田假角簡之在楚趙。豈有手足之戚。何故不殺。梁不聽。齊遂不肯出兵。沛公項梁敗秦師于雍丘。斬秦將李由。而梁益輕秦。有驕色。故楚令尹宋義諫曰。臣聞戰勝將驕卒惰者敗。今卒少惰矣。秦兵日盛。臣為君畏之。梁不聽。使宋義于齊。遇齊使者。義曰。武信君必敗。公徐行即免。疾行必及禍矣。九月。章邯大破楚於定陶。項梁死。齊使徐行。不及禍也。魏王咎之弟豹復收眾自立為魏王。楚懷王都彭城。約諸侯曰。先入咸陽者王之。章邯既敗項梁。以楚不足憂。乃北伐趙。大破之。趙王歇保鉅鹿。秦將王離圍之。章邯軍其南。築甬道而輸之粟。楚救趙。以宋義為上將。號曰卿子冠軍。項羽為次將。范增為下將。遣沛公別西入關。於是灌嬰以中涓從。嬰。洛陽販繒者也。是時曹參數有戰功。封為執帛侯。號建成君。
+
+沛公三年冬十月。齊將田都叛田榮。將兵助楚。十有一月。楚師至于河上。項羽謂宋義曰。疾引兵渡河。我擊其外。趙應其內。破秦軍必矣。義曰。不然。今秦攻趙。戰勝則兵罷。我承其弊。不勝。則我鼓行而西。必舉秦矣。故不如鬥秦趙。夫擊輕銳。我不如公。坐運籌策。公不如我。因令軍中曰。猛如虎。很如羊。貪如狼。彊不可令者。皆斬。遣其子襄相齊。身送之至無鹽。飲酒高會。羽曰。將軍戮力伐秦。而久留不行。歲飢民貧。卒食半菽。軍無見糧。乃更飲酒高會。不因趙食與并擊秦。乃曰承其弊。夫以秦之彊。攻新造之趙。其勢必舉趙。趙亡而秦益彊。何弊之承。且國兵新破。王寢不安席。埽境內而屬之將軍。國家安危。在此一舉。今不卹士卒而徇私。非社稷之臣也。羽乃晨朝宋義。即入帳中。斬宋義頭以出。令軍中曰。宋義與齊王謀反。王陰令籍誅之。乃使報命於王。王以羽為大將軍。十有二月。項羽濟河。沈船破釜。燒廬舍。令人持三日糧。至則圍王離。與秦軍遇。九戰九勝。絕甬道。大破秦軍。虜王離。當此時諸侯救鉅鹿者十餘壁。莫敢進。及楚擊秦。諸侯皆從壁上望。楚戰士無不一當十。又羽呼聲動天地。諸侯軍人人莫不怖懼。於是既破秦軍。羽見諸侯上將。入轅門。膝行而前。莫敢仰視羽者。由是為諸侯上將軍。兵皆屬羽焉。於是羽威權遂振四海。初。宋義與項羽將五萬。距秦三將。當王離與羽大戰時。精兵四十萬眾。并章邯軍故也。是時枉矢西流如火。流星蛇行。若有首尾。廣長如一匹布著天。矢星墜至地即石也。枉矢所觸。天下所共伐也。凡枉矢之行。以亂平亂。項羽伐秦之應。沛公又敗秦軍于栗邑。陳餘遺章邯書曰。白起為秦將。南拔鄢郢。北坑馬服。攻城略地。不可勝計。卒賜死于杜郵。蒙恬北逐戎人。開榆中之地數千里。竟死于雲陽。何者。功多而秦不能封。因以法誅之。今將軍為將三年。所亡失以十萬數。而諸侯並起。丞相趙高專政日久。今事急。恐二世誅之。必因以法誅將軍以塞責。使人更代以免其禍。將軍居外久。多內隙。有功必死。無功亦死。且夫天亡秦。愚智皆知之。今將軍內不能直諫。外為亡國將。孤立而欲長存。豈不哀哉。章邯狐疑。陰與項羽約。未決。鉅鹿之圍。陳餘以數萬人軍在鉅鹿北。力不能救趙。張耳令張靨陳釋召餘。餘遣靨釋將五千人當秦軍。皆沒。及罷圍。耳責怒餘。餘曰。所以不進死。欲報秦也。今赴秦軍。如以肉餧虎。當何益也。耳又以為餘殺靨釋。餘怒曰。不意君之望臣深也。乃解印綬去。耳取之。遂收其軍。餘與數百人之河上漁獵。初。耳餘為刎頸交。俱隱身為里監門。餘常父事耳。由是有隙。春二月。沛公過高陽。酈食其為里監門。年六十餘。縣中謂之狂生。乃求見沛公。沛公方踞床。令兩女子洗足。食其長揖不拜。曰足下必欲舉義兵。誅無道秦。不宜距見長者。沛公輟洗謝之。食其進計曰。天下之郡。陳留當衝。四通五達之郊也。又多積粟。臣請使其令下公。即不聽。舉兵攻之。臣為內應。破陳必矣。於是沛公引兵隨而攻之。遂取陳留。號食其為廣野君。食其言弟商以為將軍。時商聚黨數千人。以兵屬焉。夏六月。沛公攻宛。韓王使張良從南陽太守呂齮保城不下。沛公欲遂西。張良曰。彊秦在前。宛兵在後。此危道也。乃圍宛。宛急。南陽太守呂齮擬自殺。其舍人陳恢。逾城出見沛公曰。宛吏懼死。皆堅守。足下盡力攻之。死傷者必眾。引兵西去。宛必隨之。足下前則失咸陽之約。後有彊宛之患。不如降之。封其守。引其甲卒而西。北城未下者。必開門而待足下矣。沛公曰善。秋七月。封南陽太守齮為殷侯。封陳恢為千戶侯。引兵而西。無不下者。軍所過不虜掠。秦民喜。章邯遂降項羽。盟于殷墟之上。立邯為雍王。置軍中。長史欣為上將。將秦降卒前行。八月。沛公攻武關。趙高殺二世以請和。求分王關中。沛公不聽。高乃立二世兄之子嬰為王。嬰立。誅滅趙高。遣兵距嶢關。張良曰。秦兵尚彊。未可輕也。願益張旗幟諸山上為疑兵。令酈食其持重寶以啗秦將。秦將果欲連和俱西。沛公欲聽之。良曰。今獨其將欲叛。士卒恐不從。從必危。不如因其懈而擊之。乃擊秦軍。大破之。遂至藍田。
+
+
+## 十八、《東觀漢記》選篇
+
+### 紀一
+
+世祖光武皇帝，高祖九世孫，承文、景之統，出自長沙定王發，定王生舂陵節侯。舂陵本在零陵郡，節侯孫考侯以土地下濕，元帝時，求封南陽蔡陽白水鄉，因故國名曰舂陵。
+
+皇考初為濟陽令，濟陽有武帝行過宮，常封閉。上將生，皇考以令舍下濕，開宮後殿居之。建平元年十二月甲子夜上生時，有赤光，室中盡明。皇考異之，使卜者王長卜之。長曰：「此善事不可言。」是歲嘉禾生，一莖九穗，大於凡禾，縣界大豐熟，因名上曰秀。是歲鳳皇來集濟陽，故宮皆畫鳳凰。聖瑞萌兆，始形於此。上為人隆準，日角，大口，美鬚眉，長七尺三寸。在舂陵時，望氣者蘇伯阿望舂陵城曰：「美哉！王氣鬱鬱蔥蔥。」仁智明遠，多權略，樂施愛人。在家重慎畏事，勤於稼穡。兄伯升好俠，非笑上事田作，比之高祖兄。年九歲而南頓君卒，隨其叔父在蕭，入小學，後之長安，受尚書於中大夫廬江許子威。資用乏，與同舍生韓子合錢買驢，令從者僦，以給諸公費。大義略舉，因學世事。朝政每下，必先聞知，具為同舍解說。高才好學，然亦喜遊俠，鬥雞走馬，具知閭里姦邪，吏治得失。時會朝請，舍長安尚冠里，南陽大人往來長安，為之邸，闇稽疑議。為季父故舂陵侯詣大司馬府，訟地皇元年十二月壬寅前租二萬六千斛、芻稿錢若干萬。時宛人朱福亦為舅訟租于尤。尤止車獨與上語，不視福。上歸，戲福曰：「嚴公寧視卿邪？」王莽時，雒陽以東米石二千，莽遣三公將運關東諸倉賑貸窮乏，又分遣大夫謁者教民煮木為酪，酪不可食，重為煩擾，流民入關者數十萬人。置養贍官以廩之，盜發其廩，民餓死者十七八，人民相食。末年，天下大旱，蝗蟲蔽天，盜賊群起，四方潰畔。荊州下江平林兵起，王匡、王鳳為之渠率。時南陽旱餓，而上田獨收。宛大姓李伯玉從弟軼數遣客求上，上欲避之。先是時伯玉同母兄公孫臣為醫，伯升請呼難，伯升殺之。上恐其怨，故避之。使來者言李氏欲相見款誠無他意，上乃見之，懷刀自備，入見。固始侯兄弟為上言：「天下擾亂饑餓，下江兵盛，南陽豪右雲擾。」因具言讖文事。「劉氏當復起，李氏為輔。」上殊不意，獨內念李氏富厚，父為宗卿師，語言譎詭，殊非次第，嘗疾毒諸家子數犯法令，李氏家富厚，何為如是，不然諾其言。諸李遂與南陽府掾史張順等連謀。上深念良久，天變已成，遂市兵弩，絳衣赤幘。時伯升在舂陵亦已聚會客矣。上歸舊廬，望見廬南若火光，以為人持火，呼之，光遂盛，赫然屬天，有頃不見，異之。遂從南郭歸宅，乃與伯升相見。初，伯升之起也，諸家子弟皆逃自匿，曰：「伯升殺我。」及聞上至，絳衣大冠，將軍服，乃驚曰：「以為獨伯升如此也，中謹厚亦如之。」皆合會，共勞饗新市、平林兵王鳳、王匡等，因率舂陵子弟隨之，兵合七八千人。上騎牛與俱，殺新野尉後乃得馬。光武起義兵，暮聞塚上有哭聲，後有人著大冠絳單衣。使劉終詐稱江夏吏，誘殺湖陽尉。五威將軍嚴尤擊下江兵，上奉糗一斛，脯三十朐詣幕府營。進圍宛城。王莽遣大司徒王尋、大司空王邑將兵來征，更始立，以上為太常偏將軍。時無印，得定武侯家丞印，佩之入朝。二公兵到潁川，嚴尤、陳茂與合。尤問城中出者，言上不敢取財物，但合會諸兵為之計策。尤笑言曰：「是美眉目者耶？欲何為乃如此？」初，莽遣二公，欲盛威武，以振山東，甲衝輣，干戈旌旗，戰攻之具甚盛。至驅虎豹犀象，奇偉猛獸，以長人巨無霸為壘尉，自秦、漢以來師出未曾有也。上邀之於陽關。二公兵盛，漢兵反走，上馳入昆陽，諸將惶恐，各欲散歸。與諸將議：「城中兵穀少，宛城未拔，力不能相救。今昆陽即破，一日之間，諸將亦滅。不同力救之，反欲歸守其妻子財物耶？」諸將怒曰：「劉將軍何以敢如此！」上乃笑，且去，唯王常是上計。會候騎還，言大兵已來，長數百里，望不見其後尾，前已至城北矣。諸將遽請上，上到，為陳相救之勢。諸將素輕上，及迫急，上為畫成敗，皆從所言。時漢兵八九千人，留王鳳令守城，夜出城南門。二公兵已五六萬到，遂環昆陽城作營，圍之數重，雲車十餘丈，瞰臨城中，旗幟蔽野，塵熛連雲，金鼓之聲數十里。或為地突，或為衝車撞城，積弩射城中，矢下如雨，城中負戶而汲。二公自以為功成漏刻。有流星墜尋營中，正晝有雲氣如壞山，直營而霣，不及地尺而散，吏士皆壓伏。時漢兵在定陵郾者，聞二公兵盛，皆怖。上歷說其意，為陳大命，請為前行諸部堅陣。上將步騎千餘，前去大軍四五里。二公遣步騎數千乘合戰，上奔之，斬首數十級。諸部將喜曰：「劉將軍平生見小敵怯，今見大敵勇，甚奇怪也。」上復進，二公兵卻，諸部乘之，斬首數百千級，連勝。遂令輕足將書與城中諸將，言宛下兵復到，而陽墜其書。讀之，恐。上遂選精兵三千人，從城西水上奔陣。二公兵於是大奔北，殺司徒王尋，而昆陽城中兵亦出，中外並擊。會天大雷風，暴雨下如注，水潦成川，滍水盛溢。二公大眾遂潰亂，奔赴水溺死者以數萬，滍水為之不流。王邑、嚴尤、陳茂輕騎乘死人渡滍水逃去。漢軍盡獲其珍寶輜重車甲，連月不盡。五月，齊武王拔宛城。六月，上破二公於昆陽。破宛後數日，收伯升部將劉稷，而伯升強爭之。更始遂用譖訴，復收伯升，即日皆物故。上降潁陽，雖得入，意不安。門下有擊馬著鼓者，馬驚硠磕。鄧晨起走出視之，乃馬也。上在父城，徵詣宛，拜上為破虜大將軍，封武信侯。更始害齊武王，光武飲食語笑如平常，獨居輒不御酒肉，枕席有涕泣處。更始欲北之雒陽，以上為司隸校尉，先到雒陽整頓官府，文書移與屬縣，三輔官府吏東迎雒陽者見更始諸將過者已數十輩，皆冠幘，衣婦人衣，諸于繡擁缧，大為長安所笑。知者或畏其衣，奔走入邊郡。見司隸官屬，皆相指視之，極望老吏或垂涕曰：「粲然復見漢官威儀。」賢者蟻附。更始欲以近親巡行河北，大司徒賜言上第一可用。更始以上為大司馬，遣之河北。十月，上持節度孟津，鎮撫河北，安集百姓。上至邯鄲，趙王庶兄胡子進狗●馬醢。故趙繆王子臨說上灌赤眉。趙王庶兄胡子立邯鄲卜者王郎為天子，移檄購求公十萬戶。光武為王郎所追，至饒陽，稱邯鄲使者，入傳舍。廚吏方進食，官屬從者饑，遮奪之。吏卒驚起聚語，乃椎鼓數十通，詐言邯鄲將軍至，官屬皆懼失色。上臨升車還坐，曰：「請邯鄲將軍入。」久乃升，後有傳呼，寺門開之，是雒陽吏耳。上出，蒙犯霜雪。光武大會真定，自擊筑。上率鄧禹等擊王郎橫野將軍劉奉，大破之，還過鄧禹營，禹進食炙魚，上大餐啗。時百姓以上新破大敵，欣喜聚觀，見上餐啗，勞勉吏士，威嚴甚厲，於是皆竊言曰：「劉公真天人也。」世祖引兵攻邯鄲，連戰，郎兵挫折。郎遣諫議大夫杜長威持節詣軍門，上遣棨戟迎，延請入軍，見公據地曰：「實成帝遺體子輿也。」公曰：「正使成帝復生，天下不可復得也。況詐子輿乎！」長威請降得萬戶侯。公曰：「一戶不可得。」長威曰：「邯戰雖鄙，君臣并力城守，尚可支一歲，終不君臣相率而降但得全身也。」辭去。而郎少傅李立反郎，開城門。漢兵破邯鄲，誅郎。入王宮收文書，得吏民謗毀公言可擊者數千章，公會諸將燒之，曰：「令反側者自安也。」上圍邯鄲未下，彭寵遺米糒魚鹽以給軍糧，由是破邯鄲。更始遣使者即立公為蕭王。諸將議上尊號，上不許。又擊破銅馬，受降適畢，封降賊渠率，諸將未能信，賊亦兩心。上敕降賊各歸營勒兵待，上輕騎入，按行賊營。賊將曰：「蕭王推赤心置人腹中，安得不投死。」由是皆自安。詔馮異軍鴈門，卒萬餘人降之。光武北擊尤來、大搶、五幡於元氏，追至北平，連破之。後反為所敗，軍中不見光武，或云已歿。上已乘王豐小馬先到矣，營門不覺。上破賊，入漁陽，諸將上尊號，上不許。議曹掾張祉言：「俗以為燕人愚，方定大事，反與愚人相守，非計也。」上大笑。光武發薊還，士眾喜樂，師行鼓舞，鼓聲歌詠，八荒震動。過范陽，命諸將收葬吏士。至中山，諸將復請上尊號，曰：「帝王不可久曠。大王社稷為計，萬姓為心。」耿純說上曰：「天時人事，已可知矣。」初，王莽時，上與伯升及姊婿鄧晨、穰人蔡少公燕語，少公道讖言劉秀當為天子，或曰是國師劉子駿也。上戲言：「何知非僕耶？」坐者皆大笑。時傳聞不見赤伏符文軍中所，上未信，到鄗，上所與在長安同舍諸生彊華自長安奉赤伏符詣鄗，與上會。群臣復固請，上奏世祖曰：「符瑞之應，昭然著聞矣。」乃命有司設壇於鄗南千秋亭五成陌。六月己未，即皇帝位。燔燎告天，禋於六宗。改元為建武，改鄗為高邑。十月，帝入雒陽，幸南宮，遂定都焉。光武破聖公，與朱伯然書曰：「交鋒之日，神星晝見，太白清明。」二年正月，益吳漢、鄧禹等封。上封功臣皆為列侯，大國四縣，餘各有差。博士丁恭等議：「古帝王封諸侯不過百里，故利以建侯，取法於雷。」上曰：「古之亡國，皆以無道，未嘗聞封功臣地多而滅者也。」乃遣謁者，即授印綬。自漢草創德運，正朔服色未有所定，高祖因秦，以十月為正，以漢水德，立北畤而祠黑帝。至孝文，賈誼、公孫臣以為秦水德，漢當為土德。至孝武，倪寬、司馬遷猶從土德。自上即位，案圖讖，推五運，漢為火德。周蒼漢赤，水生火，赤代蒼，故上都雒陽。制郊兆於城南七里，北郊四里，為圓壇，天地位其上，皆南面西上。行夏之時，時以平旦，服色、犧牲尚黑，明火德之運，徽熾尚赤，四時隨色，季夏黃色。議者曰：「昔周公郊祀后稷以配天，宗祀文王以配上帝。圖讖著伊堯赤帝之子，俱與后稷並受命而為王。漢劉祖堯，宜令郊祀帝堯以配天，宗祀高祖以配上帝。」有司奏議曰：「追跡先代，無郊其五運之祖者。故禹不郊白帝，周不郊帝嚳。漢雖唐之苗，堯以歷數命舜，高祖自感赤龍火德，承運而起，當以高祖配堯之後，還復於漢，宜脩奉濟陽成陽縣堯冢，雲臺致敬祭祀禮亦宜之。」上遣游擊將軍鄧隆與幽州牧朱浮擊彭寵，隆軍潞，浮軍雍奴，相去百餘里。遣吏上奏言：「寵破在旦暮。」上讀檄未竟，怒曰：「
+
+兵必敗，比汝歸可知。」吏還，未至隆軍，果為寵兵掩擊破。浮軍遠，至不能救，以兵走幽州。咸曰上神。南越獻白雉。三年，光武征秦豐，幸舊宅。十月，上幸舂陵，祠園廟，大置酒，與舂陵父老故人為樂。以皇祖皇考墓為昌陵，後改為章陵，因以舂陵為章陵縣。隗囂上書，報以殊禮。四年五月，上幸盧奴，為征彭寵故也。自王莽末，天下旱霜連年，百穀不成。元年之初，耕作者少，民饑饉，黃金一斤易粟一石。至二年秋，天下野穀旅生，麻菽尤盛，或生瓜菜协實，野蠶成繭被山，民收其絮，採獲穀果，以為蓄積。至是歲，野穀生者稀少，而南畝亦益闢矣。建武五年，初起太學，諸生吏子弟及民以義助作。上自齊歸，幸太學，賜博士弟子有差。野穀彌多。六年二月，吳漢下朐城，天下悉定，唯獨公孫述、隗囂未平。上曰：「取此兩子置度外。」乃休諸將，置酒，賞賜之。每幸郡國，下輿見吏輒問以數十百歲能吏次第，下至掾史。簡練臣下之行，下無所隱其情，道數十歲事若案文書，吏民驚惶，不知所以，人自以見識，家自以蒙恩。遠臣受顏色之惠，坐席之間，以要其死力。當此之時，賊檄日以百數，憂不可勝，上猶以餘間講經藝，發圖讖。制告公孫述，署曰「公孫皇帝」。囂雖遣子入侍，尚持兩心。囂故吏馬援謂囂曰；「到朝廷凡數十見，自事主未常見明主如此也。材直驚人，其勇非人之敵。開心見誠，與人語，好醜無所隱諱。圖講天下事，極盡下恩。兵事方略，量敵校勝。闊達多大節，與高帝等。經學博覽，政事文辯，前世無比。」囂曰：「如卿言，勝高帝耶？」曰：「不如也。高帝大度，無可無不可。今上好吏事，動如節度，不飲酒。」囂大笑曰：「如卿言，反復勝也。」代郡太守劉興將數百騎攻賈覽，上狀檄至，光武知其必敗，報書曰：「欲復進兵，恐失其頭首也。」詔書到，興已為覽所殺。長史得檄，以為國家坐知千里也。七年正月，詔群臣奏事無得言「聖人」。又舊制上書以青布囊素裹封書，不中式不得上。既上，詣北軍待報，前後相塵，連歲月乃決。上躬親萬機，急於下情，乃令上書啟封則用，不得刮璽書，取具文字而已。奏詣闕，平旦上，其有當見及冤結者，常以日出時，騶騎馳出召入，其餘以俟中使者出報，即罷去，所見如神，遠近不偏，幽隱上達，民莫敢不用情。追念前世，園陵至盛，王侯外戚，葬埋僭侈，吏民相效，浸以無限，詔誥天下令薄葬。八年閏月，車駕西征，河西大將軍竇融與五郡太守步騎三萬迎上。隗囂士眾震壞，皆降，囂走入城。吳漢、岑彭追守之。九年正月，隗囂餓，出城餐糗糒，腹脹死。十二年，吳漢引兵擊公孫述，入犍為界，小縣多城守未下。詔書告漢直擁兵到成都，據其心腹，後城營自解散。漢意難前，獨言朝廷以為我縛賊手足矣。遣輕騎至成都，燒市橋，武陽以東小城營皆奔走降，竟如詔書。漢兵乘勝追奔，述距守。詔書又戒漢曰：「成都十萬人，不可輕也。且堅據廣都城，去之五十里，待其即營攻城，罷倦引去，乃首尾擊之，勿與爭鋒。述兵不敢來，轉營即之，移徙輒自堅。」十一月，眾軍至城門，述自將，背城而戰。吳漢攻之，述軍大破，刺傷述，扶輿入壁，其夜死。夷述妻子，傳首於洛陽。縱兵大掠，舉火燔燒。上聞之，下詔讓吳漢副將劉禹曰：「城降，嬰兒老母，口以萬數，一旦放兵縱火，聞之可為酸鼻。家有弊帚，享之千金。禹宗室子孫，故嘗更職，何忍行此？仰視天，俯視地，觀於放麑啜羹之義，二者孰仁矣。失斬將吊民之義。」又議漢殺述親屬太多。是時名都王國有獻名馬寶劍，直百金。馬以駕鼓車，劍以賜騎士。苑囿池烃之官廢，弋獵之事不御。雅性不喜聽音樂，手不持珠玉，衣服大絹，而不重綵。征伐嘗乘革輿羸馬。公孫述故哀帝時，即以數郡備天子用。述破，益州乃傳送瞽師、郊廟樂、葆車、乘輿物，是後乃稍備具焉。述伏誅之後，而事少閑，官曹文書減舊過半，下縣吏無百里之繇，民無出門之役。十三年，封殷紹嘉公為宋公，周承休公為衛公。越裳獻白兔。十四年，封孔子後孔志為褒成侯。十五年，詔曰：「刺史太守多為詐巧，不務實核，苟以度田為名，聚人田中，並度廬屋里落，聚人遮道啼呼。」十七年，上以日食避正殿，讀圖讖多，御坐廡下淺露，中風發疾，苦眩甚。左右有白大司馬史，病苦如此，不能動搖。自強從公，出乘，以車行數里，病差。四月二日，車駕宿偃師。病差數日，入南陽界，到葉。以車騎省，留數日行，黎陽兵馬千餘匹，遂到章陵，起居平愈。幸章陵，修園廟舊宅田里舍。鳳皇至，高八九尺，毛羽五彩，集潁川，群鳥並從，蓋地數頃，留十七日乃去。商賈重寶，單車露宿，牛馬放牧，道無拾遺。十九年，光武下詔曰：「唯孝宣皇帝有功德，其上尊號曰中宗。」上幸南陽、汝南，至南頓，止令舍，大置酒，賜吏民，復南頓田租一歲。吏民叩頭言：「皇考居此日久，陛下識知寺舍，每來輒加厚恩，但復一歲少薄，願復十歲。」上曰：「
+
+天下重寶大器，常恐不任，日慎一日，安敢自遠期十歲。」復增一歲。二十年六月，上風眴黃癉病發甚，以衛尉關內侯陰興為侍中，興受詔雲臺廣室。甘露降四十五日。二十五年，烏桓獻貂豹皮，詣闕朝賀。二十六年正月，詔曰：「前以用度不足，吏祿薄少，乃自益其俸。」自三公下至佐史各有差。初作壽陵，始營陵地於臨平亭南。將作大匠竇融上言：「園陵廣袤，無慮所用。」帝曰：「古帝王之葬，皆陶人瓦器，木車茅馬，使後世之人不知其處。臨平望平陰，河水洋洋，舟船泛泛，善矣夫！周公、孔子猶不得存，安得松、喬與之而共遊乎！太宗識終始之義，景帝能遵孝道，遭天下反覆，而獨完其福，豈不美哉！今所制地，不過二三頃，無為山陵，陂池裁令流水而已。迭興之後，亦無丘壟，使合古法。今日月已逝，當豫自作。臣子奉承，不得有加。」乃令陶人作瓦器。
+
+上常自細書，一札十行，報郡縣。旦聽朝，至日晏，夜講經聽誦。坐則功臣特進在側，論時政畢，道古行事，次說在家所識鄉里能吏，次第比類。又道忠臣孝子義夫節士，坐者莫不激揚悽愴，欣然和悅。群臣爭論上前，常連日。皇太子嘗承間言：「陛下有禹、湯之明，而失黃、老養性之道。今天下大安，少省思慮，養精神。」上答曰：「我自樂此。」時城郭丘墟，掃地更為，上悔前徙之。三十年，有司奏封襌。詔曰：「災異連仍，日月薄食，百姓怨歎，而欲有事於太山，汙七十二代編錄，以羊皮雜貂裘，何強顏耶？」三十二年，群臣復奏言：「登封告成，為民報德，百王所同也。」遂登太山，勒石紀號。改元為中元。中元元年，上幸長安，祠長陵，還洛陽宮。是時醴泉出於京師，郡國飲醴泉者，痼疾皆愈，獨眇蹇者不差。有赤草生於水涯。郡國上甘露降。群臣上言：「
+
+地祇靈應而失草萌，宜命太史撰具郡國所上。」上遂不聽，是以史官鮮記焉。冬十月甲申，使司空馮魴告祠高廟曰：「高皇呂太后不宜配食。薄太后慈仁，孝文皇帝賢明，子孫賴福，延至於今，宜配食地祇高廟。今上薄太后尊號為高皇后，遷呂太后於園，四時上祭。」是歲，起明堂、辟雍、靈臺，及北郊兆域。二年二月戊戌，帝崩於南宮前殿，在位三十三年，時年六十二。遺詔曰：「
+
+朕無益百姓，如孝文皇帝舊制，葬務從約省。刺史二千石長吏皆無離城郭，無遣吏及因郵奏。」太子襲尊號為皇帝。群臣奏謚曰光武皇帝，廟曰世祖。三月，葬原陵。
+
+漢以炎精布耀，或幽而光。
+
+上東西赴難，以車上為家，傳榮合戰，跨馬操兵，身在行伍。
+
+帝即有仁聖之明，氣勢形體，天然之姿，固非人之敵，翕然龍舉雲興，三雨而濟天下，蕩蕩人無能名焉。
+
+光武詔曰：「明設丹青之信，廣開束手之路。」
+
+光武功臣鄧禹等二十八人皆為侯，封餘功臣一百八十九人。
+
+帝以天下既定，思念欲完功臣爵土，不令以吏職為過，故皆以列侯就第，恩遇甚厚，遠方貢甘珍，必先遍賜列侯，而大官無餘。有功輒增封邑，故皆保全。
+
+光武封新野主子鄧泛為吳侯，伯父皇皇考姊子周均為富波侯，追封外祖樊重為壽張侯，重子丹為射陽侯，孫茂為平望侯，尋玄鄉侯，從子沖更父侯，后父陰睦宣恩侯，子識原鹿侯，就為信陽侯，皇考女弟子來歙征羌侯，弟由宜西侯，以寧平公主子李雄為新市侯，后父郭昌為陽安侯，子流綿曼侯，兄子竟新郪侯，匡發干侯，以姨子馮邯為鍾離侯。
+
+光武皇帝雖發師旁縣，人馬席薦羈靽皆有成賈，而貴不侵民，樂與官市。
+
+
+### 世祖光武皇帝
+
+世祖光武皇帝，高祖九世孫，承文、景之統，出自長沙定王發，定王生舂陵節侯。舂陵本在零陵郡，節侯孫考侯以土地下濕，元帝時，求封南陽蔡陽白水鄉，因故國名曰舂陵。
+
+皇考初為濟陽令，濟陽有武帝行過宮，常封閉。上將生，皇考以令舍下濕，開宮後殿居之。建平元年十二月甲子夜上生時，有赤光，室中盡明。皇考異之，使卜者王長卜之。長曰：「此善事不可言。」是歲嘉禾生，一莖九穗，大於凡禾，縣界大豐熟，因名上曰秀。是歲鳳皇來集濟陽，故宮皆畫鳳凰。聖瑞萌兆，始形於此。上為人隆準，日角，大口，美鬚眉，長七尺三寸。在舂陵時，望氣者蘇伯阿望舂陵城曰：「美哉！王氣鬱鬱蔥蔥。」仁智明遠，多權略，樂施愛人。在家重慎畏事，勤於稼穡。兄伯升好俠，非笑上事田作，比之高祖兄。年九歲而南頓君卒，隨其叔父在蕭，入小學，後之長安，受尚書於中大夫廬江許子威。資用乏，與同舍生韓子合錢買驢，令從者僦，以給諸公費。大義略舉，因學世事。朝政每下，必先聞知，具為同舍解說。高才好學，然亦喜遊俠，鬥雞走馬，具知閭里姦邪，吏治得失。時會朝請，舍長安尚冠里，南陽大人往來長安，為之邸，闇稽疑議。為季父故舂陵侯詣大司馬府，訟地皇元年十二月壬寅前租二萬六千斛、芻稿錢若干萬。時宛人朱福亦為舅訟租于尤。尤止車獨與上語，不視福。上歸，戲福曰：「嚴公寧視卿邪？」王莽時，雒陽以東米石二千，莽遣三公將運關東諸倉賑貸窮乏，又分遣大夫謁者教民煮木為酪，酪不可食，重為煩擾，流民入關者數十萬人。置養贍官以廩之，盜發其廩，民餓死者十七八，人民相食。末年，天下大旱，蝗蟲蔽天，盜賊群起，四方潰畔。荊州下江平林兵起，王匡、王鳳為之渠率。時南陽旱餓，而上田獨收。宛大姓李伯玉從弟軼數遣客求上，上欲避之。先是時伯玉同母兄公孫臣為醫，伯升請呼難，伯升殺之。上恐其怨，故避之。使來者言李氏欲相見款誠無他意，上乃見之，懷刀自備，入見。固始侯兄弟為上言：「天下擾亂饑餓，下江兵盛，南陽豪右雲擾。」因具言讖文事。「劉氏當復起，李氏為輔。」上殊不意，獨內念李氏富厚，父為宗卿師，語言譎詭，殊非次第，嘗疾毒諸家子數犯法令，李氏家富厚，何為如是，不然諾其言。諸李遂與南陽府掾史張順等連謀。上深念良久，天變已成，遂市兵弩，絳衣赤幘。時伯升在舂陵亦已聚會客矣。上歸舊廬，望見廬南若火光，以為人持火，呼之，光遂盛，赫然屬天，有頃不見，異之。遂從南郭歸宅，乃與伯升相見。初，伯升之起也，諸家子弟皆逃自匿，曰：「伯升殺我。」及聞上至，絳衣大冠，將軍服，乃驚曰：「以為獨伯升如此也，中謹厚亦如之。」皆合會，共勞饗新市、平林兵王鳳、王匡等，因率舂陵子弟隨之，兵合七八千人。上騎牛與俱，殺新野尉後乃得馬。光武起義兵，暮聞塚上有哭聲，後有人著大冠絳單衣。使劉終詐稱江夏吏，誘殺湖陽尉。五威將軍嚴尤擊下江兵，上奉糗一斛，脯三十朐詣幕府營。進圍宛城。王莽遣大司徒王尋、大司空王邑將兵來征，更始立，以上為太常偏將軍。時無印，得定武侯家丞印，佩之入朝。二公兵到潁川，嚴尤、陳茂與合。尤問城中出者，言上不敢取財物，但合會諸兵為之計策。尤笑言曰：「是美眉目者耶？欲何為乃如此？」初，莽遣二公，欲盛威武，以振山東，甲衝輣，干戈旌旗，戰攻之具甚盛。至驅虎豹犀象，奇偉猛獸，以長人巨無霸為壘尉，自秦、漢以來師出未曾有也。上邀之於陽關。二公兵盛，漢兵反走，上馳入昆陽，諸將惶恐，各欲散歸。與諸將議：「城中兵穀少，宛城未拔，力不能相救。今昆陽即破，一日之間，諸將亦滅。不同力救之，反欲歸守其妻子財物耶？」諸將怒曰：「劉將軍何以敢如此！」上乃笑，且去，唯王常是上計。會候騎還，言大兵已來，長數百里，望不見其後尾，前已至城北矣。諸將遽請上，上到，為陳相救之勢。諸將素輕上，及迫急，上為畫成敗，皆從所言。時漢兵八九千人，留王鳳令守城，夜出城南門。二公兵已五六萬到，遂環昆陽城作營，圍之數重，雲車十餘丈，瞰臨城中，旗幟蔽野，塵熛連雲，金鼓之聲數十里。或為地突，或為衝車撞城，積弩射城中，矢下如雨，城中負戶而汲。二公自以為功成漏刻。有流星墜尋營中，正晝有雲氣如壞山，直營而霣，不及地尺而散，吏士皆壓伏。時漢兵在定陵郾者，聞二公兵盛，皆怖。上歷說其意，為陳大命，請為前行諸部堅陣。上將步騎千餘，前去大軍四五里。二公遣步騎數千乘合戰，上奔之，斬首數十級。諸部將喜曰：「劉將軍平生見小敵怯，今見大敵勇，甚奇怪也。」上復進，二公兵卻，諸部乘之，斬首數百千級，連勝。遂令輕足將書與城中諸將，言宛下兵復到，而陽墜其書。讀之，恐。上遂選精兵三千人，從城西水上奔陣。二公兵於是大奔北，殺司徒王尋，而昆陽城中兵亦出，中外並擊。會天大雷風，暴雨下如注，水潦成川，滍水盛溢。二公大眾遂潰亂，奔赴水溺死者以數萬，滍水為之不流。王邑、嚴尤、陳茂輕騎乘死人渡滍水逃去。漢軍盡獲其珍寶輜重車甲，連月不盡。五月，齊武王拔宛城。六月，上破二公於昆陽。破宛後數日，收伯升部將劉稷，而伯升強爭之。更始遂用譖訴，復收伯升，即日皆物故。上降潁陽，雖得入，意不安。門下有擊馬著鼓者，馬驚硠磕。鄧晨起走出視之，乃馬也。上在父城，徵詣宛，拜上為破虜大將軍，封武信侯。更始害齊武王，光武飲食語笑如平常，獨居輒不御酒肉，枕席有涕泣處。更始欲北之雒陽，以上為司隸校尉，先到雒陽整頓官府，文書移與屬縣，三輔官府吏東迎雒陽者見更始諸將過者已數十輩，皆冠幘，衣婦人衣，諸于繡擁缧，大為長安所笑。知者或畏其衣，奔走入邊郡。見司隸官屬，皆相指視之，極望老吏或垂涕曰：「粲然復見漢官威儀。」賢者蟻附。更始欲以近親巡行河北，大司徒賜言上第一可用。更始以上為大司馬，遣之河北。十月，上持節度孟津，鎮撫河北，安集百姓。上至邯鄲，趙王庶兄胡子進狗●馬醢。故趙繆王子臨說上灌赤眉。趙王庶兄胡子立邯鄲卜者王郎為天子，移檄購求公十萬戶。光武為王郎所追，至饒陽，稱邯鄲使者，入傳舍。廚吏方進食，官屬從者饑，遮奪之。吏卒驚起聚語，乃椎鼓數十通，詐言邯鄲將軍至，官屬皆懼失色。上臨升車還坐，曰：「請邯鄲將軍入。」久乃升，後有傳呼，寺門開之，是雒陽吏耳。上出，蒙犯霜雪。光武大會真定，自擊筑。上率鄧禹等擊王郎橫野將軍劉奉，大破之，還過鄧禹營，禹進食炙魚，上大餐啗。時百姓以上新破大敵，欣喜聚觀，見上餐啗，勞勉吏士，威嚴甚厲，於是皆竊言曰：「劉公真天人也。」世祖引兵攻邯鄲，連戰，郎兵挫折。郎遣諫議大夫杜長威持節詣軍門，上遣棨戟迎，延請入軍，見公據地曰：「實成帝遺體子輿也。」公曰：「正使成帝復生，天下不可復得也。況詐子輿乎！」長威請降得萬戶侯。公曰：「一戶不可得。」長威曰：「邯戰雖鄙，君臣并力城守，尚可支一歲，終不君臣相率而降但得全身也。」辭去。而郎少傅李立反郎，開城門。漢兵破邯鄲，誅郎。入王宮收文書，得吏民謗毀公言可擊者數千章，公會諸將燒之，曰：「令反側者自安也。」上圍邯鄲未下，彭寵遺米糒魚鹽以給軍糧，由是破邯鄲。更始遣使者即立公為蕭王。諸將議上尊號，上不許。又擊破銅馬，受降適畢，封降賊渠率，諸將未能信，賊亦兩心。上敕降賊各歸營勒兵待，上輕騎入，按行賊營。賊將曰：「蕭王推赤心置人腹中，安得不投死。」由是皆自安。詔馮異軍鴈門，卒萬餘人降之。光武北擊尤來、大搶、五幡於元氏，追至北平，連破之。後反為所敗，軍中不見光武，或云已歿。上已乘王豐小馬先到矣，營門不覺。上破賊，入漁陽，諸將上尊號，上不許。議曹掾張祉言：「俗以為燕人愚，方定大事，反與愚人相守，非計也。」上大笑。光武發薊還，士眾喜樂，師行鼓舞，鼓聲歌詠，八荒震動。過范陽，命諸將收葬吏士。至中山，諸將復請上尊號，曰：「帝王不可久曠。大王社稷為計，萬姓為心。」耿純說上曰：「天時人事，已可知矣。」初，王莽時，上與伯升及姊婿鄧晨、穰人蔡少公燕語，少公道讖言劉秀當為天子，或曰是國師劉子駿也。上戲言：「何知非僕耶？」坐者皆大笑。時傳聞不見赤伏符文軍中所，上未信，到鄗，上所與在長安同舍諸生彊華自長安奉赤伏符詣鄗，與上會。群臣復固請，上奏世祖曰：「符瑞之應，昭然著聞矣。」乃命有司設壇於鄗南千秋亭五成陌。六月己未，即皇帝位。燔燎告天，禋於六宗。改元為建武，改鄗為高邑。十月，帝入雒陽，幸南宮，遂定都焉。光武破聖公，與朱伯然書曰：「交鋒之日，神星晝見，太白清明。」二年正月，益吳漢、鄧禹等封。上封功臣皆為列侯，大國四縣，餘各有差。博士丁恭等議：「古帝王封諸侯不過百里，故利以建侯，取法於雷。」上曰：「古之亡國，皆以無道，未嘗聞封功臣地多而滅者也。」乃遣謁者，即授印綬。自漢草創德運，正朔服色未有所定，高祖因秦，以十月為正，以漢水德，立北畤而祠黑帝。至孝文，賈誼、公孫臣以為秦水德，漢當為土德。至孝武，倪寬、司馬遷猶從土德。自上即位，案圖讖，推五運，漢為火德。周蒼漢赤，水生火，赤代蒼，故上都雒陽。制郊兆於城南七里，北郊四里，為圓壇，天地位其上，皆南面西上。行夏之時，時以平旦，服色、犧牲尚黑，明火德之運，徽熾尚赤，四時隨色，季夏黃色。議者曰：「昔周公郊祀后稷以配天，宗祀文王以配上帝。圖讖著伊堯赤帝之子，俱與后稷並受命而為王。漢劉祖堯，宜令郊祀帝堯以配天，宗祀高祖以配上帝。」有司奏議曰：「追跡先代，無郊其五運之祖者。故禹不郊白帝，周不郊帝嚳。漢雖唐之苗，堯以歷數命舜，高祖自感赤龍火德，承運而起，當以高祖配堯之後，還復於漢，宜脩奉濟陽成陽縣堯冢，雲臺致敬祭祀禮亦宜之。」上遣游擊將軍鄧隆與幽州牧朱浮擊彭寵，隆軍潞，浮軍雍奴，相去百餘里。遣吏上奏言：「寵破在旦暮。」上讀檄未竟，怒曰：「
+
+兵必敗，比汝歸可知。」吏還，未至隆軍，果為寵兵掩擊破。浮軍遠，至不能救，以兵走幽州。咸曰上神。南越獻白雉。三年，光武征秦豐，幸舊宅。十月，上幸舂陵，祠園廟，大置酒，與舂陵父老故人為樂。以皇祖皇考墓為昌陵，後改為章陵，因以舂陵為章陵縣。隗囂上書，報以殊禮。四年五月，上幸盧奴，為征彭寵故也。自王莽末，天下旱霜連年，百穀不成。元年之初，耕作者少，民饑饉，黃金一斤易粟一石。至二年秋，天下野穀旅生，麻菽尤盛，或生瓜菜协實，野蠶成繭被山，民收其絮，採獲穀果，以為蓄積。至是歲，野穀生者稀少，而南畝亦益闢矣。建武五年，初起太學，諸生吏子弟及民以義助作。上自齊歸，幸太學，賜博士弟子有差。野穀彌多。六年二月，吳漢下朐城，天下悉定，唯獨公孫述、隗囂未平。上曰：「取此兩子置度外。」乃休諸將，置酒，賞賜之。每幸郡國，下輿見吏輒問以數十百歲能吏次第，下至掾史。簡練臣下之行，下無所隱其情，道數十歲事若案文書，吏民驚惶，不知所以，人自以見識，家自以蒙恩。遠臣受顏色之惠，坐席之間，以要其死力。當此之時，賊檄日以百數，憂不可勝，上猶以餘間講經藝，發圖讖。制告公孫述，署曰「公孫皇帝」。囂雖遣子入侍，尚持兩心。囂故吏馬援謂囂曰；「到朝廷凡數十見，自事主未常見明主如此也。材直驚人，其勇非人之敵。開心見誠，與人語，好醜無所隱諱。圖講天下事，極盡下恩。兵事方略，量敵校勝。闊達多大節，與高帝等。經學博覽，政事文辯，前世無比。」囂曰：「如卿言，勝高帝耶？」曰：「不如也。高帝大度，無可無不可。今上好吏事，動如節度，不飲酒。」囂大笑曰：「如卿言，反復勝也。」代郡太守劉興將數百騎攻賈覽，上狀檄至，光武知其必敗，報書曰：「欲復進兵，恐失其頭首也。」詔書到，興已為覽所殺。長史得檄，以為國家坐知千里也。七年正月，詔群臣奏事無得言「聖人」。又舊制上書以青布囊素裹封書，不中式不得上。既上，詣北軍待報，前後相塵，連歲月乃決。上躬親萬機，急於下情，乃令上書啟封則用，不得刮璽書，取具文字而已。奏詣闕，平旦上，其有當見及冤結者，常以日出時，騶騎馳出召入，其餘以俟中使者出報，即罷去，所見如神，遠近不偏，幽隱上達，民莫敢不用情。追念前世，園陵至盛，王侯外戚，葬埋僭侈，吏民相效，浸以無限，詔誥天下令薄葬。八年閏月，車駕西征，河西大將軍竇融與五郡太守步騎三萬迎上。隗囂士眾震壞，皆降，囂走入城。吳漢、岑彭追守之。九年正月，隗囂餓，出城餐糗糒，腹脹死。十二年，吳漢引兵擊公孫述，入犍為界，小縣多城守未下。詔書告漢直擁兵到成都，據其心腹，後城營自解散。漢意難前，獨言朝廷以為我縛賊手足矣。遣輕騎至成都，燒市橋，武陽以東小城營皆奔走降，竟如詔書。漢兵乘勝追奔，述距守。詔書又戒漢曰：「成都十萬人，不可輕也。且堅據廣都城，去之五十里，待其即營攻城，罷倦引去，乃首尾擊之，勿與爭鋒。述兵不敢來，轉營即之，移徙輒自堅。」十一月，眾軍至城門，述自將，背城而戰。吳漢攻之，述軍大破，刺傷述，扶輿入壁，其夜死。夷述妻子，傳首於洛陽。縱兵大掠，舉火燔燒。上聞之，下詔讓吳漢副將劉禹曰：「城降，嬰兒老母，口以萬數，一旦放兵縱火，聞之可為酸鼻。家有弊帚，享之千金。禹宗室子孫，故嘗更職，何忍行此？仰視天，俯視地，觀於放麑啜羹之義，二者孰仁矣。失斬將吊民之義。」又議漢殺述親屬太多。是時名都王國有獻名馬寶劍，直百金。馬以駕鼓車，劍以賜騎士。苑囿池烃之官廢，弋獵之事不御。雅性不喜聽音樂，手不持珠玉，衣服大絹，而不重綵。征伐嘗乘革輿羸馬。公孫述故哀帝時，即以數郡備天子用。述破，益州乃傳送瞽師、郊廟樂、葆車、乘輿物，是後乃稍備具焉。述伏誅之後，而事少閑，官曹文書減舊過半，下縣吏無百里之繇，民無出門之役。十三年，封殷紹嘉公為宋公，周承休公為衛公。越裳獻白兔。十四年，封孔子後孔志為褒成侯。十五年，詔曰：「刺史太守多為詐巧，不務實核，苟以度田為名，聚人田中，並度廬屋里落，聚人遮道啼呼。」十七年，上以日食避正殿，讀圖讖多，御坐廡下淺露，中風發疾，苦眩甚。左右有白大司馬史，病苦如此，不能動搖。自強從公，出乘，以車行數里，病差。四月二日，車駕宿偃師。病差數日，入南陽界，到葉。以車騎省，留數日行，黎陽兵馬千餘匹，遂到章陵，起居平愈。幸章陵，修園廟舊宅田里舍。鳳皇至，高八九尺，毛羽五彩，集潁川，群鳥並從，蓋地數頃，留十七日乃去。商賈重寶，單車露宿，牛馬放牧，道無拾遺。十九年，光武下詔曰：「唯孝宣皇帝有功德，其上尊號曰中宗。」上幸南陽、汝南，至南頓，止令舍，大置酒，賜吏民，復南頓田租一歲。吏民叩頭言：「皇考居此日久，陛下識知寺舍，每來輒加厚恩，但復一歲少薄，願復十歲。」上曰：「
+
+天下重寶大器，常恐不任，日慎一日，安敢自遠期十歲。」復增一歲。二十年六月，上風眴黃癉病發甚，以衛尉關內侯陰興為侍中，興受詔雲臺廣室。甘露降四十五日。二十五年，烏桓獻貂豹皮，詣闕朝賀。二十六年正月，詔曰：「前以用度不足，吏祿薄少，乃自益其俸。」自三公下至佐史各有差。初作壽陵，始營陵地於臨平亭南。將作大匠竇融上言：「園陵廣袤，無慮所用。」帝曰：「古帝王之葬，皆陶人瓦器，木車茅馬，使後世之人不知其處。臨平望平陰，河水洋洋，舟船泛泛，善矣夫！周公、孔子猶不得存，安得松、喬與之而共遊乎！太宗識終始之義，景帝能遵孝道，遭天下反覆，而獨完其福，豈不美哉！今所制地，不過二三頃，無為山陵，陂池裁令流水而已。迭興之後，亦無丘壟，使合古法。今日月已逝，當豫自作。臣子奉承，不得有加。」乃令陶人作瓦器。
+
+上常自細書，一札十行，報郡縣。旦聽朝，至日晏，夜講經聽誦。坐則功臣特進在側，論時政畢，道古行事，次說在家所識鄉里能吏，次第比類。又道忠臣孝子義夫節士，坐者莫不激揚悽愴，欣然和悅。群臣爭論上前，常連日。皇太子嘗承間言：「陛下有禹、湯之明，而失黃、老養性之道。今天下大安，少省思慮，養精神。」上答曰：「我自樂此。」時城郭丘墟，掃地更為，上悔前徙之。三十年，有司奏封襌。詔曰：「災異連仍，日月薄食，百姓怨歎，而欲有事於太山，汙七十二代編錄，以羊皮雜貂裘，何強顏耶？」三十二年，群臣復奏言：「登封告成，為民報德，百王所同也。」遂登太山，勒石紀號。改元為中元。中元元年，上幸長安，祠長陵，還洛陽宮。是時醴泉出於京師，郡國飲醴泉者，痼疾皆愈，獨眇蹇者不差。有赤草生於水涯。郡國上甘露降。群臣上言：「
+
+地祇靈應而失草萌，宜命太史撰具郡國所上。」上遂不聽，是以史官鮮記焉。冬十月甲申，使司空馮魴告祠高廟曰：「高皇呂太后不宜配食。薄太后慈仁，孝文皇帝賢明，子孫賴福，延至於今，宜配食地祇高廟。今上薄太后尊號為高皇后，遷呂太后於園，四時上祭。」是歲，起明堂、辟雍、靈臺，及北郊兆域。二年二月戊戌，帝崩於南宮前殿，在位三十三年，時年六十二。遺詔曰：「
+
+朕無益百姓，如孝文皇帝舊制，葬務從約省。刺史二千石長吏皆無離城郭，無遣吏及因郵奏。」太子襲尊號為皇帝。群臣奏謚曰光武皇帝，廟曰世祖。三月，葬原陵。
+
+漢以炎精布耀，或幽而光。
+
+上東西赴難，以車上為家，傳榮合戰，跨馬操兵，身在行伍。
+
+帝即有仁聖之明，氣勢形體，天然之姿，固非人之敵，翕然龍舉雲興，三雨而濟天下，蕩蕩人無能名焉。
+
+光武詔曰：「明設丹青之信，廣開束手之路。」
+
+光武功臣鄧禹等二十八人皆為侯，封餘功臣一百八十九人。
+
+帝以天下既定，思念欲完功臣爵土，不令以吏職為過，故皆以列侯就第，恩遇甚厚，遠方貢甘珍，必先遍賜列侯，而大官無餘。有功輒增封邑，故皆保全。
+
+光武封新野主子鄧泛為吳侯，伯父皇皇考姊子周均為富波侯，追封外祖樊重為壽張侯，重子丹為射陽侯，孫茂為平望侯，尋玄鄉侯，從子沖更父侯，后父陰睦宣恩侯，子識原鹿侯，就為信陽侯，皇考女弟子來歙征羌侯，弟由宜西侯，以寧平公主子李雄為新市侯，后父郭昌為陽安侯，子流綿曼侯，兄子竟新郪侯，匡發干侯，以姨子馮邯為鍾離侯。
+
+光武皇帝雖發師旁縣，人馬席薦羈靽皆有成賈，而貴不侵民，樂與官市。
+
+
+## 十九、《竹書紀年》選篇
+
+### 黃帝軒轅氏
+
+元年，帝即位，居有熊。初制冕服。
+
+二十年，景雲見。以雲紀官。
+
+五十年秋七月庚申，鳳鳥至，帝祭于洛水。
+
+五十九年，貫胸氏來賓，長股氏來賓。
+
+七十七年，昌意降居若水，產帝乾荒。
+
+一百年，地裂。帝陟。
+
+
+### 帝顓頊高陽氏
+
+元年，帝即位，居濮。
+
+十三年，初作曆象。
+
+二十一年，作《承雲》之樂。
+
+三十年，帝產伯鯀，居天穆之陽。
+
+七十八年，帝陟。術器作亂，辛侯滅之。
+
+
+## 二十、《穆天子傳》選篇
+
+### 卷一
+
+古文：飲天子蠲山之上。戊寅，天子北征，乃絕漳水。庚辰，至于□，觴天子于盤石之上。天子乃奏廣樂。載立不舍，至于鈃山之下。癸未，雨雪，天子獵于鈃山之西阿。於是得絕鈃山之隊，北循虖沱之陽。
+
+乙酉，天子北升于□。天子北征于犬戎。大戎□胡觴天子于當水之陽。天子乃樂，□賜七萃之士戰。庚寅，北風雨雪。天子以寒之故，命王屬休。甲午，天子西征，乃絕隃之關隥。己亥，至于焉居禺知之平。
+
+辛丑，天子西征，至于䣙人。河宗之子孫䣙柏絮且逆天子于智之□。先豹皮十、良馬二六。天子使井利受之。癸酉，天子舍于漆●，乃西釣于河。以觀□智之□。甲辰，天子獵于滲澤。於是得白狐玄狢焉，以祭於河宗。丙午。天子飲于河水之阿。天子屬六師之人于䣙邦之南、滲澤之上。戊寅，天子西征，鶩行，至于陽紆之山，河伯無夷之所都居，是惟河宗氏。河宗伯夭逆天子燕然之山。勞用束帛加璧，先白□，天子使𥘯父受之。
+
+癸丑，天子大朝于燕□之山、河水之阿。乃命井利、梁固，聿將六師。天子命吉日戊午。天子大服：冕禕，帗帶，搢曶，夾佩，奉璧，南面立于寒下。曾祝佐之。官人陳牲全五□具。天子授河宗璧。河宗伯夭受璧，西向沉璧于河，再拜稽首。祝沉牛馬豕羊。河宗□命于皇天子，河伯號之：「帝曰：『穆滿，女當永致用時事！』」南向再拜。河宗又號之：「帝曰：『穆滿，示女舂山之寶，詔女昆侖□舍四平泉七十，乃至於崑崙之丘，以觀舂山之寶。賜語晦。』」天子受命，南向再拜。
+
+己未，天子大朝于黃之山。乃披圖視典，用觀天子之寶器。曰：「天子之寶：玉果、璿珠、燭銀、黃金之膏。天子之寶萬金□寶百金，士之寶五十金，鹿人之寶十金。天子之弓射人，步劍，牛馬，犀□器千金。天子之馬走千里，勝人猛獸。天子之狗走百里，執虎豹。」柏夭曰：「征鳥使翼：曰□烏鳶、鸛鷄飛八百里。名獸使足：□走千里，狻猊□野馬走五百里，卭卭距虛走百里，麋□二十里。」曰：「柏夭皆致河典，乃乘渠黃之乘為天子先，以極西土。」
+
+乙丑，天子西濟于河。□爰有溫谷樂都，河宗氏之所遊居。丙寅，子屬官效器。乃命正公郊父，受敕憲，用伸□八駿之乘。以飲于枝洔之中，積石之南河。天子之駿：赤驥、盜驪、白義、踰輪、山子、渠黃、華騮、綠耳；狗：重工、徹止、雚猳、□黃、南□、來白。天子之御：造父、三百、耿翛、芍及。曰：「天子是與出□入藪，田獵釣弋。」天子曰：「於乎！予一人不盈于德，而辨於樂，後世亦追數吾過乎！」七萃之士□天子曰：「後世所望，無失天常。農工既得，男女衣食。百姓寶富，官人執事。故天有時，民□氏響。□何謀於樂？何意之忘？與民共利，以為常也。」天子嘉之，賜以左佩華也。乃再拜頓首。
+
+
+### 卷二
+
+古文：□柏夭曰：□封膜晝于河水之陽，以為殷人主。丁巳，天子西南升□之所主居。爰有大木碩艸，爰有野獸，可以畋獵。
+
+戊午，●□之人居慮獻酒百□于天子。天子已飲而行，遂宿于昆侖之阿，赤水之陽。爰有𪃋鳥之山。天子三日舍于𪃋鳥之山。
+
+□吉日辛酉，天子升于昆侖之丘，以觀黃帝之宮，而豐隆之葬，以詔後世。癸亥，天子具蠲齊牲全，以禋□昆侖之丘。甲子，天子北征，舍于珠澤。以釣于流水。曰：「珠澤之藪，方三十里。」爰有雚、葦、莞、蒲，茅、萯、蒹、葽。乃獻白玉□隻，□角之一，□三，可以□沐。乃進食，□酒十□，姑劓九□。亓味中麋冑而滑。因獻食馬三百，牛羊三千。天子□昆侖，以守黃帝之宮，南司赤水，而北守舂山之寶。天子乃□之人□吾黃金之環三五。朱帶貝飾三十。工布之四。□吾乃膜拜而受。天子又與之黃牛二六，以三十□人於昆侖丘。
+
+季夏丁卯，天子北升于舂山之上，以望四野，曰：「舂山，是唯天下之高山也。」孳木□華畏雪，天子於是取孳木華之實，。曰：「舂山之澤，清水出泉，溫和無風，飛鳥百獸之所飲食，先王所謂縣圃。」天子於是得玉策枝斯之英。曰：「舂山，百獸之所聚也，飛鳥之所棲也。」爰有□獸，食虎豹如麋而載骨，盤□始如麇，小頭大鼻。爰有赤豹、白虎、熊、羆、豺、狼、野馬、野牛、山羊、野豕。爰有白鳥、青鵰，執太羊，食豕鹿。曰天子五日觀于舂山之上，乃為銘迹於縣圃之上，以詔後世。
+
+壬申，天子西征。甲戌，至于赤烏，赤烏之人□其獻酒千斛于天子，食馬九百，羊、牛三千，穄、麥百載。天子使祭父受之。曰：「赤烏氏先出自周宗。大王亶父之始作西土，封其元子吳太伯于東吳，詔以金刃之刑，賄用周室之璧。封丌璧臣長季綽于舂山之虱，妻以元女，詔以玉石之刑，以為周室主。」天子乃賜赤烏之人□其墨乘四，黃金四十鎰，貝帶五十，珠三百裹。丌乃膜拜而受。曰：「□山，是唯天下之良山也。寶玉之所在。嘉穀生之，草木碩美。」天子於是取嘉禾以歸，樹于中國。曰天子五日休于□山之下，乃奏廣樂。赤烏之人丌獻好女于天子。女聽女列為嬖人。曰：「赤烏氏，美人之地也，寶玉之所在也。」
+
+己卯，天子北征，趙行□舍。庚辰，濟于洋水。辛巳，入于曹奴，之人戲觴天子于洋水之上，乃獻食馬九百，牛、羊七千，穄米百車。天子使逄固受之。天子乃賜曹奴之人戲□黃金之鹿，銀，貝帶四十，珠四百裹。戲乃膜拜而受。
+
+壬午，天子北征，東還。甲申，至于黑水，西膜之所謂鴻鷺。於是降雨七日。天子留骨六師之屬。天子乃封長肱于黑水之西河。是惟鴻鷺之上，以為周室主。是曰留國之邦。
+
+辛卯，天子北征，東還，乃循黑水。癸巳，至于群玉之山。容氏之所守。曰：「群玉田山，□知，阿平無險，四徹中繩，先王之所謂策府。寡草木而無鳥獸。」爰有□木，西膜之所謂□。天子于是，取玉三乘，玉器服物，于是載玉萬隻。天子四日休群玉之山，乃命邢侯待攻玉者。
+
+孟秋丁酉，天子北征。□之人潛時觴天子于羽陵之上，乃獻良馬牛羊。天子以其邦之攻玉石也，不受其牢。伯夭曰：「□氏，檻□之後也。」天子乃賜之黃金之罌三六。朱三百裹。潛時乃膜拜而受。
+
+戊戌，天子西征。辛丑，至于剞閭氏。天子乃命剞閭氏供食六師之人于鐵山之下。壬寅，天子登于鐵山，，乃徹祭器于剞閭之人。溫歸乃膜拜而受。天子已祭而行，乃遂西征。丙午，至于𪃋韓氏。爰有樂野溫和，穄麥之所草，犬馬牛羊之所昌，寶玉之所□。丁未，天子大朝于平衍之中，乃命六師之屬休。己酉，天子大饗正公諸侯王吏七萃之士于平衍之中。𪃋韓之人無鳧乃獻良馬百匹，用牛三百，良犬七千，牥牛二百，野馬三百，牛羊二千，穄麥三百車。天子乃賜之黃金銀罌四七，貝帶五十，珠三百裹，變□雕官。無鳧上下乃膜拜而受。
+
+庚戌，天子西征，至于玄池。天子三日休于玄池之上，乃奏廣樂，三日而終，是曰樂池。天子乃樹之竹，是曰竹林。癸丑，天子乃遂西征。丙辰，至于苦山，西膜之所謂茂苑。天子於是休獵，於是食苦。丁巳，天子西征。己未，宿于黃鼠之山，西□乃遂西征。癸亥，至于西王毋之邦。
+
+
+## 二十一、《古三墳》選篇
+
+### 山墳
+
+崇山君，君臣相，君民官，君物龍，君陰后，君陽師，君兵將，君象首。
+
+伕山臣，臣君侯，臣民土，臣物龜，臣陰子，臣陽父，臣兵卒，臣象股。
+
+列山民，民君食，民臣力，民物貨，民陰妻，民陽夫，民兵器，民象體。
+
+兼山物，物君金，物臣木，物民土，物陰水，物陽火，物兵執，物象春。
+
+潛山陰，陰君土，陰臣野，陰民鬼，陰物獸，陰陽樂，陰兵妖，陰象冬。
+
+連山陽，陽君天，陰臣幹，陽民神，陽物禽，陽陰禮，陽兵譴，陽象夏。
+
+藏山兵，兵君帥，兵臣佐，兵民軍，兵物材，兵陰謀，兵陽陣，兵象秋。
+
+疊山象，象君日，象臣月，象民星，象物雲，象陰夜，象陽晝，象兵氣。
+
+崇山君，君臣相，君民官，君物龍，君陰后，君陽師，君兵將，君象首。
+
+伏山臣，臣君侯，臣民士，臣物龜，臣陰子，臣陽父，臣兵卒，臣象股。
+
+列山民，民君食，民臣力，民物貨，民陰妻，民陽夫，民兵器，民象體。
+
+兼山物，物君金，物臣木，物民土，物陰水，物陽火，物兵埶，物象春。
+
+潛山陰，陰君土，陰臣野，陰民鬼，陰物獸，陰陽樂，陰兵妖，陰象冬。
+
+連山陽，陽君天，陽臣幹，陽民神，陽物禽，陽陰禮，陽兵譴，陽象夏。
+
+藏山兵，兵君帥，兵臣佐，兵民軍，兵物材，兵陰謀，兵陽陣，兵象秋。
+
+疊山象，象君日，象臣月，象民星，象物雲，象陰夜，象陽晝，象兵氣。
+
+清氣未升，濁氣未沉，遊神未靈，五色未分。中有其物，冥冥而性存，謂之混沌。混沌為太始。太始者、元胎之萌也，太始之數一，一為太極，太極者、天地之父母也。一極易，天高明而清，地博厚而濁，謂之太易。太易者、天地之變也，太易之數二，二為兩儀，兩儀者、陰陽之形也，謂之太初。太初者、天地之交也，太初之數四，四盈易，四象變而成萬物，謂之太素。太素者、三才之始也，太素之數三，三盈易，天地孕而生男女，謂之三才。三才者、天地之備也，遊神動而靈，故飛走潛化，動植蟲魚之類必備於天地之間，謂之太古。
+
+太古者、生民之始也，太古之人皆壽，盈易始三男三女，冬聚夏散，食鳥獸、蟲魚、草木之實，而男女搆精，以女生為姓，始三頭謂之合雄紀，生子三世，合雄氏沒，子孫相傳，記其壽命，謂之敘命紀。通紀四姓，生子二世，男女眾多，群居連逋，從強而行，是謂連逋紀。生子一世，通紀五姓，是謂五姓紀。天下群居，以類相親，男女眾多，分為九頭，各有居方，故號居方氏。沒，生子三十二世，強弱相迫，欲生吞害。中有神人，提挺而治，故號提挺氏。提挺氏生子三十五世，通紀七十二姓，故號通姓氏。
+
+有巢氏生太古之先，覺識於天地、草木、蟲魚、鳥獸，俾人居巢穴，積鳥獸之肉，聚草木之實。天下九頭，咸歸有巢，始君也，動止群，群相聚而尊事之，壽，一太易，本通姓氏之後也。
+
+燧人氏、有巢子也，生而神靈，教人炮食，鑽木取火，天下生靈尊事之。始有日中之市，交易其物；有傳教之臺，有結繩之政，壽，一太易，本通姓氏之後也。
+
+伏犧氏、燧人子也，因風而生，故風姓。末甲八太七，成三十二易草木，草生月，雨降，日河汎，時龍馬負圖，蓋分五色，文開五易，甲象崇山。天皇始畫八卦，皆連山名易，君臣、民物、陰陽、兵象始明於世。圖出，後二成二十二易草木，木枯月；命臣飛龍氏造六書，後草木一易，木王月；命臣潛龍氏作甲曆，伏制犧牛，治金成器，教民炮食，易九頭為九牧，因尊事為禮儀，因龍出而紀官，因鳳來而作樂。命降龍氏何率萬民，命水龍氏平治水土，命火龍氏炮治器用，因居方而置城郭，天下之民號曰天皇。太昊伏犧有庖升龍氏，本通姓氏之後也。
+
+昔在天皇居於君位，咨於將，咨於相，咨於民，垂皇策辭：
+
+皇曰：惟我生無道，承父居方，三十二易草木，上升君位。我父燧皇歸世，未降河圖，生民結繩而無不信。於末甲八太七，成三十二易草木。惟我老極時，生人眾多，群群蟲聚，欲相吞害。惟天至仁，於草生月，天雨降，河龍馬負圖，神開我心。子其未生，我畫八卦，自上而下，咸安其居。後二成二十二易草木，皇曰：命子襄居我飛龍之位，主我圖文，代我咨於四方上下，無或私。襄曰：咸若咨眾之辭，君無念哉！後一易草木。皇曰：命子英居我潛龍之位，主我陰陽甲曆，咨於四方上下無或差。英曰：依其法亦順，君無念哉！皇曰：無為。後二十二易草木，昊英氏進曆於君。曰：曆起甲寅。皇曰：甲日寅辰，乃鳩眾於傳教臺，告民，示始甲寅。易二月，天王升傳教臺，乃集生民，后女媧子無之右，上相共工，下相皇桓。飛龍朱襄氏、潛龍昊英氏居君左右，栗陸氏居北，赫胥氏居南，昆連氏居西，葛天氏居東，陰康氏居下。九州之牧各統其人，群居於外。皇曰：咨予上相共工，我惟老極無為，子惟扶我正道，咨告於民，俾知甲曆、日月歲時，自茲始，無或不記。子勿怠。共工曰：工居君臣之位，無有勞，君其念哉！皇曰：下相皇桓，我惟老極無為，子惟扶我正道，撫愛下民，同力，咨告於民，俾知甲曆、日月歲時，自茲始，無或不記。子其勿怠。桓曰：居君臣之位，無有勞，君其念哉！皇曰：栗陸子居我水龍之位，主養草木，開道泉源，無或失時。子其勿怠。陸曰：竭力於民，君其念哉！皇曰：大庭主我屋室，視民之未居者，喻之，借力同搆其居，無或寒凍。庭曰：順民之辭。皇曰：陰康子居水土，俾民居處，無或漂流，勤於道，達於下。康曰：順君之辭。皇曰：渾沌子居我降龍之位，惟主於民。皇曰：昆連子主我刀斧，無俾野獸、犧虎之類，傷殘生命，無俾同類、大力之徒區逐微弱，子其伏之。連曰：專主兵事，君無念哉！皇曰：四方之君咸順我辭，則世無害。惟愛於民，則位不危。皇曰：子無懷安，惟安於民。民安子安，民危子危，子其念哉。
+
+
+### 天皇伏犧氏連山易爻卦大象
+
+崇山君，君臣相，君民官，君物龍，君陰后，君陽師，君兵將，君象首。
+
+伕山臣，臣君侯，臣民土，臣物龜，臣陰子，臣陽父，臣兵卒，臣象股。
+
+列山民，民君食，民臣力，民物貨，民陰妻，民陽夫，民兵器，民象體。
+
+兼山物，物君金，物臣木，物民土，物陰水，物陽火，物兵執，物象春。
+
+潛山陰，陰君土，陰臣野，陰民鬼，陰物獸，陰陽樂，陰兵妖，陰象冬。
+
+連山陽，陽君天，陰臣幹，陽民神，陽物禽，陽陰禮，陽兵譴，陽象夏。
+
+藏山兵，兵君帥，兵臣佐，兵民軍，兵物材，兵陰謀，兵陽陣，兵象秋。
+
+疊山象，象君日，象臣月，象民星，象物雲，象陰夜，象陽晝，象兵氣。
+
+---
+
+# 六、版本與校勘附記
+
+## 1. 文字與編碼
+
+- 本檔使用繁體中文字形。
+- 儲存格式為 **UTF-8 with BOM**。
+- 全文已進行 Unicode NFC 正規化。
+- 中文標點採全形符號，如「，」「。」「；」「：」「？」與引號「」。
+
+## 2. 古籍異文
+
+先秦古籍經長期傳抄，常見下列情況：
+
+- 同一字在不同版本中寫作不同字，如「眾／衆」、「辯／辨」、「知／智」。
+- 因避諱、假借、通假或刻本差異，句子可能略有增刪。
+- 《道德經》郭店楚簡、馬王堆帛書與王弼通行本的篇序及字句皆有差異。
+- 《莊子》常見郭象注本、成玄英疏本及近代整理本之異文。
+- 《墨子》部分篇章文字殘缺、衍誤較多，後世校勘本處理不一。
+- 本檔以「通行本、可讀性、跨來源一致性」為主要整理原則，不擅自將考古本異文混入正文。
+
+## 3. 交叉核對來源
+
+本選編主要參照：
+
+1. 中國哲學書電子化計劃：
+   - 《道德經》
+   - 《莊子》
+   - 《韓非子》
+   - 《商君書》
+   - 《墨子》
+2. 維基文庫繁體中文古籍文本。
+3. 常見通行本篇名與章次。
+
+## 4. 使用提醒
+
+- 本檔適合一般閱讀、摘錄、搜尋、建立知識庫或匯入 AI/RAG 系統。
+- 若作學術論文、古文字研究或嚴格引文，應另行指定底本、版本與頁碼，不宜只引用本選編。
+- 若需要完整收錄，可分冊建立：
+  1. 《道德經》八十一章全文；
+  2. 《莊子》三十三篇全文；
+  3. 法家典籍全集；
+  4. 《墨子》五十三篇現存全文；
+  以避免單一 Markdown 檔過大且難以校勘。## 二、《莊子》全本
+
+### 逍遙遊第一
+
+北冥有魚，其名為鯤。鯤之大，不知其幾千里也。化而為鳥，其名為鵬。鵬之背，不知其幾千里也；怒而飛，其翼若垂天之雲。是鳥也，海運則將徙於南冥。南冥者，天池也。
+
+齊諧者，志怪者也。曰：「鵬之徙於南冥也，水擊三千里，摶扶搖而上者九萬里，去以六月息者也。」野馬也，塵埃也，生物之以息相吹也。
+
+天之蒼蒼，其正色邪？其遠而無所至極邪？其視下也，亦若是則已矣。
+
+且夫水之積也不厚，則負大舟也無力。覆杯水於坳堂之上，則芥為之舟；置杯焉則膠，水淺而舟大也。風之積也不厚，則其負大翼也無力。故九萬里，則風斯在下矣，而後乃今培風；背負青天，而莫之夭閼者，而後乃今將圖南。
+
+蜩與學鳩笑之曰：「我決起而飛，槍榆枋，時則不至，而控於地而已矣，奚以之九萬里而南為？」適莽蒼者，三湌而反，腹猶果然；適百里者，宿舂糧；適千里者，三月聚糧。之二蟲又何知！
+
+小知不及大知，小年不及大年。奚以知其然也？朝菌不知晦朔，蟪蛄不知春秋，此小年也。
+
+楚之南有冥靈者，以五百歲為春，五百歲為秋；上古有大椿者，以八千歲為春，八千歲為秋。而彭祖乃今以久特聞，眾人匹之，不亦悲乎！
+
+湯之問棘也是已。窮髮之北有冥海者，天池也。有魚焉，其廣數千里，未有知其脩者，其名為鯤。有鳥焉，其名為鵬，背若泰山，翼若垂天之雲，
+
+摶扶搖羊角而上者九萬里，絕雲氣，負青天，然後圖南，且適南冥也。
+
+斥鴳笑之曰：「彼且奚適也？我騰躍而上，不過數仞而下，翱翔蓬蒿之間，此亦飛之至也。而彼且奚適也？」此小大之辯也。
+
+故夫知效一官，行比一鄉，德合一君，而徵一國者，其自視也亦若此矣。而宋榮子猶然笑之。且舉世而譽之而不加勸，舉世而非之而不加沮，
+
+定乎內外之分，辯乎榮辱之竟斯已矣。彼其於世未數數然也。雖然，猶有未樹也。夫列子御風而行，泠然善也，旬有五日而後反。
+
+彼於致福者，未數數然也。此雖免乎行，猶有所待者也。若夫乘天地之正，而御六氣之辯，以遊無窮者，彼且惡乎待哉！故曰：至人無己，神人無功，聖人無名。
+
+堯讓天下於許由，曰：「日月出矣，而爝火不息，其於光也，不亦難乎！時雨降矣，而猶浸灌，其於澤也，不亦勞乎！
+
+夫子立而天下治，而我猶尸之，吾自視缺然。請致天下。」
+
+許由曰：「子治天下，天下既已治也。而我猶代子，吾將為名乎？名者，實之賓也。吾將為賓乎？
+
+鷦鷯巢於深林，不過一枝；偃鼠飲河，不過滿腹。歸休乎君，予無所用天下為！庖人雖不治庖，尸祝不越樽俎而代之矣。」
+
+肩吾問於連叔曰：「吾聞言於接輿，大而無當，往而不反。吾驚怖其言，猶河漢而無極也；大有逕庭，不近人情焉。」
+
+連叔曰：「其言謂何哉？」
+
+曰：「藐姑射之山，有神人居焉，肌膚若冰雪，淖約若處子。不食五穀，吸風飲露。乘雲氣，御飛龍，而遊乎四海之外。其神凝，使物不疵癘而年穀熟，吾以是狂而不信也。」
+
+連叔曰：「然。」瞽者無以與乎文章之觀，聾者無以與乎鍾鼓之聲。豈唯形骸有聾瞽哉？夫知亦有之。是其言也，猶時女也。之人也，之德也，將旁礴萬物以為一，
+
+世蘄乎亂，孰弊弊焉以天下為事！之人也，物莫之傷，大浸稽天而不溺，大旱金石流土山焦而不熱。是其塵垢粃穅，將猶陶鑄堯舜者也，孰肯以物為事！
+
+「宋人資章甫而適諸越，越人斷髮文身，無所用之。堯治天下之民，平海內之政，往見四子藐姑射之山，汾水之陽，窅然喪其天下焉。」
+
+惠子謂莊子曰：「魏王貽我大瓠之種，我樹之成而實五石，以盛水漿，其堅不能自舉也。剖之以為瓢，則瓠落無所容。非不呺然大也，吾為其無用而掊之。」
+
+莊子曰：「夫子固拙於用大矣。宋人有善為不龜手之藥者，世世以洴澼絖為事。客聞之，請買其方百金。
+
+聚族而謀曰：「『我世世為洴澼絖，不過數金；今一朝而鬻技百金，請與之。』客得之，以說吳王。越有難，吳王使之將，
+
+冬與越人水戰，大敗越人，裂地而封之。能不龜手，一也；或以封，或不免於洴澼絖，則所用之異也。
+
+今子有五石之瓠，何不慮以為大樽而浮乎江湖，而憂其瓠落無所容？則夫子猶有蓬之心也夫！」
+
+惠子謂莊子曰：「吾有大樹，人謂之樗。其大本擁腫而不中繩墨，其小枝卷曲而不中規矩，立之塗，匠者不顧。今子之言，大而無用，眾所同去也。」
+
+莊子曰：「子獨不見狸狌乎？卑身而伏，以候敖者；東西跳梁，不避高下；中於機辟，死於罔罟。
+
+今夫斄牛，其大若垂天之雲。此能為大矣，而不能執鼠。今子有大樹，患其無用，何不樹之於無何有之鄉，廣莫之野，彷徨乎無為其側，逍遙乎寢臥其下。不夭斤斧，物無害者，無所可用，安所困苦哉！」
+
+### 齊物論第二
+
+南郭子綦隱几而坐，仰天而噓，嗒焉似喪其耦。顏成子游立侍乎前，曰：「何居乎？形固可使如槁木，而心固可使如死灰乎？今之隱几者，非昔之隱几者也。」
+
+子綦曰：「偃，不亦善乎，而問之也！今者吾喪我，汝知之乎？女聞人籟而未聞地籟，女聞地籟而未聞天籟夫！」
+
+子游曰：「敢問其方。」
+
+子綦曰：「夫大塊噫氣，其名為風。是唯无作，作則萬竅怒呺。而獨不聞之翏翏乎？山林之畏佳，大木百圍之竅穴，
+
+似鼻，似口，似耳，似枅，似圈，似臼，似洼者，似污者；
+
+激者，謞者，叱者，吸者，叫者，譹者，宎者，咬者，
+
+前者唱于而隨者唱喁。泠風則小和，飄風則大和，厲風濟則眾竅為虛。而獨不見之調調，之刀刀乎？」<pb:KR5c0126_CHANT_002-2a>
+
+子游曰：「地籟則眾竅是已，人籟則比竹是已。敢問天籟。」
+
+子綦曰：「夫吹萬不同，而使其自己也，咸其自取，怒者其誰邪！」<pb:KR5c0126_CHANT_002-3a>
+
+大知閑閑，小知閒閒；大言炎炎，小言詹詹。其寐也魂交，其覺也形開，與接為構，日以心鬭。縵者，窖者，密者。
+
+小恐惴惴，大恐縵縵。其發若機栝，其司是非之謂也；其留如詛盟，其守勝之謂也；其殺如秋冬，以言其日消也；其溺之所為之，不可使復之也；其厭也如緘，以言其老洫也；近死之心，莫使復陽也。
+
+喜、怒、哀、樂、慮、嘆、變、慹、姚、佚、啟、態；樂出虛，蒸成菌。日夜相代乎前，而莫知其所萌。已乎，已乎！旦暮得此，其所由以生乎！<pb:KR5c0126_CHANT_002-4a>
+
+非彼無我，非我無所取。是亦近矣，而不知其所為使。若有真宰，而特不得其眹。可行己信，而不見其形，有情而無形。
+
+百骸，九竅，六藏，賅而存焉，吾誰與為親？汝皆說之乎？其有私焉？如是皆有為臣妾乎？其臣妾不足以相治乎？其遞相為君臣乎？其有真君存焉？
+
+如求得其情與不得，無益損乎其真。一受其成形，不亡以待盡。與物相刃相靡，其行盡如馳，而莫之能止，不亦悲乎！終身役役而不見其成功，苶然疲役而不知其所歸，可不哀邪！
+
+人謂之不死，奚益！其形化，其心與之然，可不謂大哀乎？人之生也，固若是芒乎？其我獨芒，而人亦有不芒者乎？<pb:KR5c0126_CHANT_002-5a>
+
+夫隨其成心而師之，誰獨且無師乎？奚必知代而心自取者有之？愚者與有焉。未成乎心而有是非，是今日適越而昔至也。是以無有為有。
+
+無有為有，雖有神禹，且不能知，吾獨且柰何哉！
+
+夫言非吹也，言者有言，其所言者特未定也。果有言邪？其未嘗有言邪？其以為異於鷇音，亦有辯乎，其無辯乎？
+
+道惡乎隱而有真偽？言惡乎隱而有是非？道惡乎往而不存？言惡乎存而不可？
+
+道隱於小成，言隱於榮華。故有儒墨之是非，以是其所非而非其所是。欲是其所非而非其所是，則莫若以明。
+
+物無非彼，物無非是。自彼則不見，自喻則知之。故曰彼出於是，是亦因彼。彼是方生之說也，
+
+雖然，方生方死，方死方生；方可方不可，方不可方可；因是因非，因非因是。是以聖人不由，而照之于天，亦因是也。是亦彼也，彼亦是也。
+
+彼亦一是非，此亦一是非。果且有彼是乎哉？果且無彼是乎哉？彼是莫得其偶，謂之道樞。樞始得其環中，以應無窮。是亦一無窮，非亦一無窮也。故曰莫若以明。
+
+以指喻指之非指，不若以非指喻指之非指也；以馬喻馬之非馬，不若以非馬喻馬之非馬也。天地一指也，萬物一馬也。<pb:KR5c0126_CHANT_002-7a>
+
+道行之而成，物謂之而然。惡乎然？然於然。惡乎不然？不然於不然。物固有所然，物固有所可。無物不然，無物不可。可乎可，不可乎不可。不可乎不可，而可乎可。
+
+故為是舉莛與楹，厲與西施，恢恑憰怪，道通為一。其分也，成也；其成也，毀也。凡物無成與毀，復通為一。
+
+唯達者知通為一，為是不用而寓諸庸。庸也者，用也；用也者，通也；通也者，得也；適得而幾矣。
+
+因是已。已而不知其然，謂之道。勞神明為一而不知其同也，謂之朝三。何謂朝三？
+
+曰狙公賦芧，曰：「朝三而莫四。」眾狙皆怒。曰：「然則朝四而莫三。」眾狙皆悅。名實未虧而喜怒為用，亦因是也。是以聖人和之以是非而休乎天鈞，是之謂兩行。
+
+古之人，其知有所至矣。惡乎至？有以為未始有物者，至矣，盡矣，不可以加矣。其次以為有物矣，而未始有封也。
+
+其次以為有封焉，而未始有是非也。是非之彰也，道之所以虧也。道之所以虧，愛之所以成。果且有成與虧乎哉？果且無成與虧乎哉？有成與虧，故昭氏之鼓琴也；無成與虧，
+
+故昭氏之不鼓琴也。昭文之鼓琴也，師曠之枝策也，惠子之據梧也，三子之知幾乎，皆其盛者也，故載之末年。唯其好之也，以異於彼，其好之也，欲以明之。
+
+彼非所明而明之，故以堅白之昧終。而其子又以文之綸終，終身無成。若是而可謂成乎？雖我亦成也。若是而不可謂成乎？物與我無成也。
+
+是故滑疑之耀，聖人之所圖也。為是不用而寓諸庸，此之謂以明。
+
+今且有言於此，不知其與是類乎？其與是不類乎？類與不類，相與為類，則與彼無以異矣。雖然，請嘗言之。
+
+有始也者，有未始有始也者，有未始有夫未始有始也者。有有也者，有無也者，有未始有無也者，有未始有夫未始有無也者。
+
+俄而有無矣，而未知有無之果孰有孰無也。今我則已有謂矣，而未知吾所謂之其果有謂乎，其果無謂乎？天下莫大於秋豪之末，而大山為小；莫壽乎殤子，而彭祖為夭。
+
+天地與我並生，而萬物與我為一。既已為一矣，且得有言乎？既已謂之一矣，且得無言乎？一與言為二，二與一為三。
+
+自此以往，巧歷不能得，而況其凡乎！故自無適有以至於三，而況自有適有乎！無適焉，因是已。
+
+夫道未始有封，言未始有常，為是而有畛也，請言其畛：有左，有右，，有論，有議，有分，有辯，有競，有爭，此之謂八德。
+
+六合之外，聖人存而不論；六合之內，聖人論而不議。《春秋》經世，先王之志，聖人議而不辯。故分也者，有不分也；辯也者，有不辯也。曰：何也？
+
+聖人懷之，眾人辯之以相示也。故曰：辯也者，有不見也。夫大道不稱，大辯不言，大仁不仁，大廉不嗛，大勇不忮。
+
+道昭而不道，言辯而不及，仁常而不周，廉清而不信，勇忮而不成。五者园而幾向方矣，故知止其所不知，至矣。孰知不言之辯，不道之道？
+
+若有能知，此之謂天府。注焉而不滿，酌焉而不竭，而不知其所由來，此之謂葆光。
+
+故昔者堯問於舜曰：「我欲伐宗、膾、胥敖，南面而不釋然。其故何也？」舜曰：「夫三子者，猶存乎蓬艾之間。若不釋然，何哉？昔者十日並出，萬物皆照，而況德之進乎日者乎！」<pb:KR5c0126_CHANT_002-12a>
+
+齧缺問乎王倪曰：「子知物之所同是乎？」曰：「吾惡乎知之！」「子知子之所不知邪？」曰：「吾惡乎知之！」「然則物無知邪？」曰：「吾惡乎知之！」
+
+雖然，嘗試言之。庸詎知吾所謂知之非不知邪？庸詎知吾所謂不知之非知邪？
+
+且吾嘗試問乎女：「民溼寢則腰疾偏死，鰌然乎哉？木處則惴慄恂懼，猨猴然乎哉？三者孰知正處？民食芻豢，麋鹿食薦，蝍且甘帶，鴟鴉耆鼠，四者孰知正味？
+
+猨猵狙以為雌，麋與鹿交，鰌與魚游。毛嬙、麗姬，人之所美也；魚見之深入，鳥見之高飛，麋鹿見之決驟。四者孰知天下之正色哉？
+
+自我觀之，仁義之端，是非之塗，樊然殽亂，吾惡能知其辯！<pb:KR5c0126_CHANT_002-13a>
+
+齧缺曰：「子不知利害，則至人固不知利害乎？」
+
+王倪曰：「至人神矣！大澤焚而不能熱，河漢沍而不能寒，疾雷破山、風振海而不能驚。若然者，乘雲氣，騎日月，而遊乎四海之外。死生无變於己，而況利害之端乎！」<pb:KR5c0126_CHANT_002-14a>
+
+瞿鵲子問乎長梧子曰：「吾聞諸夫子，聖人不從事於務，不就利，不違害，不喜求，不緣道；无謂有謂，有謂无謂，而遊乎塵垢之外。夫子以為孟浪之言，而我以為妙道之行也。吾子以為奚若？」<pb:KR5c0126_CHANT_002-15a>
+
+長梧子曰：「是黃帝之所聽熒也，而丘也何足以知之！且女亦大早計，見卵而求時夜，見彈而求鴞炙。
+
+予嘗為女妄言之，女以妄聽之，奚？旁日月，挾宇宙？為其脗合，置其滑涽，以隸相尊。
+
+眾人役役，聖人愚芚，參萬歲而一成純。萬物盡然，而以是相蘊。
+
+予惡乎知說生之非惑邪！予惡乎知惡死之非弱喪而不知歸者邪！麗之姬，艾封人之子也。晉國之始得之也，涕泣沾襟；及其至於王所，與王同筐床，食芻豢，而後悔其泣也。予惡乎知夫死者不悔其始之蘄生乎！<pb:KR5c0126_CHANT_002-16a>
+
+「夢飲酒者，旦而哭泣；夢哭泣者，旦而田獵。方其夢也，不知其夢也。夢之中又占其夢焉，覺而後知其夢也。且有大覺而後知此其大夢也，
+
+而愚者自以為覺，竊竊然知之。君乎，牧乎，固哉！
+
+丘也與女，皆夢也；予謂女夢，亦夢也。是其言也，其名為弔詭。萬世之後而一遇大聖，知其解者，是旦暮遇之也。
+
+「既使我與若辯矣，若勝我，我不若勝，若果是也，我果非也邪？我勝若，若不吾勝，我果是也，而果非也邪？
+
+其或是也，其或非也邪？其俱是也，其俱非也邪？我與若不能相知也，則人固受其黮闇。吾誰使正之？
+
+使同乎若者正之？既與若同矣，惡能正之！使同乎我者正之？既同乎我矣，惡能正之！使異乎我與若者正之？既異乎我與若矣，惡能正之！使同乎我與若者正之？既同乎我與若矣，惡能正之！
+
+然則我與若與人俱不能相知也，而待彼也邪？
+
+化聲之相待，若其不相待。和之以天倪，因之以曼衍，所以窮年也。何謂和之以天倪？曰：「是不是，然不然。是若果是也，則是之異乎不是也亦無辯；然若果然也，則然之異乎不然也亦無辯，
+
+所以窮年也。忘年忘義，振於無竟，故寓諸無竟。」<pb:KR5c0126_CHANT_002-18a>
+
+罔兩問景曰：「曩子行，今子止；曩子坐，今子起；何其無特操與？」
+
+景曰：「吾有待而然者邪？吾所待又有待而然者邪？吾待蛇蚹蜩翼邪？惡識所以然！惡識所以不然！」<pb:KR5c0126_CHANT_002-19a>
+
+昔者莊周夢為胡蝶，栩栩然胡蝶也，自喻適志與！不知周也。俄然覺，則蘧蘧然周也。不知周之夢為胡蝶與，胡蝶之夢為周與？周與胡蝶，則必有分矣。此之謂物化。
+
+### 養生主第三
+
+吾生也有涯，而知也无涯。以有涯隨无涯，殆已；已而為知者，殆而已矣。為善无近名，為惡无近刑。緣督以為經，可以保身，可以全生，可以養親，可以盡年。
+
+庖丁為文惠君解牛，手之所觸，肩之所倚，足之所履，膝之所踦，砉然嚮然，奏刀騞然，莫不中音。
+
+合於《桑林》之舞，乃中《經首》之會。文惠君曰：「譆，善哉！技蓋至此乎？」<pb:KR5c0126_CHANT_003-3a>
+
+庖丁釋刀對曰：「臣之所好者道也，進乎技矣。始臣之解牛之時，所見无非牛者。三年之後，未嘗見全牛也。方今之時，臣以神遇而不以目視，
+
+官知止而神欲行。依乎天理，批大郤，導大窾，因其固然。技經肯綮之未嘗，而況大軱乎！
+
+良庖歲更刀，割也；族庖月更刀，折也。今臣之刀十九年矣，所解數千牛矣，而刀刃若新發於硎。彼節者有間，而刀刃者无厚；以无厚入有間，恢恢乎其於遊刃必有餘地矣，
+
+是以十九年而刀刃若新發於硎。雖然，每至於族，吾見其難為，怵然為戒，視為止，行為遲。
+
+動刀甚微，謋然已解，如土委地。提刀而立，為之四顧，為之躊躇滿志，善刀而藏之。」文惠君曰：「善哉！吾聞庖丁之言，得養生焉。」<pb:KR5c0126_CHANT_003-4a>
+
+公文軒見右師而驚曰：「是何人也？惡乎介也？天與，其人與？」曰：「天也，非人也。天之生是使獨也，人之貌有與也。以是知其天也，非人也。
+
+澤雉十步一啄，百步一飲，不蘄畜乎樊中。神雖王，不善也。」<pb:KR5c0126_CHANT_003-5a>
+
+老聃死，秦失弔之，三號而出。弟子曰：「非夫子之友邪？」曰：「然。」「然則弔焉若此，可乎？」曰：「然。
+
+始也吾以為其人也，而今非也。向吾入而弔焉，有老者哭之，如哭其子；少者哭之，如哭其母。彼其所以會之，必有不蘄言而言，不蘄哭而哭者。
+
+是遁天倍情，忘其所受，古者謂之遁天之刑。適來，夫子時也；適去，夫子順也。安時而處順，哀樂不能入也，古者謂是帝之縣解。」指窮於為薪，火傳也，不知其盡也。
+
+### 人間世第四
+
+顏回見仲尼，請行。
+
+曰：「奚之？」
+
+曰：「將之衛。」
+
+曰：「奚為焉？」
+
+曰：「回聞衛君，其年壯，其行獨；輕用其國，而不見其過；輕用民死，死者以國量乎澤若蕉，民其无如矣。
+
+回嘗聞之夫子曰：『治國去之，亂國就之，醫門多疾。』願以所聞思其則，庶幾其國有瘳乎！」<pb:KR5c0126_CHANT_004-2a>
+
+仲尼曰：「譆！若殆往而刑耳！
+
+夫道不欲雜，雜則多，多則擾，擾則憂，憂而不救。古之至人，先存諸己而後存諸人。所存於己者未定，何暇至於暴人之所行！
+
+且若亦知夫德之所蕩而知之所為出乎哉？德蕩乎名，知出乎爭。名也者，相軋也；知也者，爭之器也。二者凶器，非所以盡行也。
+
+且德厚信矼，未達人氣，名聞不爭，未達人心。而彊以仁義繩墨之言術暴人之前者，是以人惡有其美也，命之曰菑人。
+
+菑人者，人必反菑之，且苟為悅賢而惡不肖，惡用而求有以異？若唯无詔，王公必將乘人而鬭其捷。
+
+而目將熒之，而色將平之，口將營之，容將形之，心且成之。是以火救火，以水救水，名之曰益多。順始无窮，若殆以不信厚言，必死於暴人之前矣！
+
+且昔者桀殺關龍逢，紂殺王子比干，是皆脩其身以傴拊人之民，以下拂其上者也，故其君因其脩以擠之。是好名者也。
+
+昔者堯攻叢枝、胥敖，禹攻有扈，國為虛厲，身為刑戮，其用兵不止，其求實无已。是皆求名實者也，而獨不聞之乎？名實者，聖人之所不能勝也，而況若乎！
+
+雖然，若必有以也，嘗以語我來！」<pb:KR5c0126_CHANT_004-3a>
+
+顏回曰：「端而虛，勉而一，則可乎？」
+
+曰：「惡！惡可！夫以陽為充孔揚，采色不定，常人之所不違，因案人之所感，以求容與其心。
+
+名之曰日漸之德不成，而況大德乎！將執而不化，外合而內不訾，其庸詎可乎！」<pb:KR5c0126_CHANT_004-4a>
+
+「然則我內直而外曲，成而上比。內直者，與天為徒。與天為徒者，知天子之與己皆天之所子，而獨以己言蘄乎而人善之，蘄乎而人不善之邪？
+
+若然者，人謂之童子，是之謂與天為徒。外曲者，與人（之）為徒也。擎跽曲拳，人臣之禮也，人皆為之，吾敢不為邪！
+
+為人之所為者，人亦无疵焉，是之謂與人為徒。成而上比者，與古為徒。其言雖教，讁之實也。古之有也，非吾有也。
+
+若然者，雖直不為病，是之謂與古為徒。若是則可乎？」<pb:KR5c0126_CHANT_004-5a>
+
+仲尼曰：「惡！惡可！大多政，法而不諜，雖固亦无罪。雖然，止是耳矣，夫胡可以及化！猶師心者也。」
+
+顏回曰：「吾无以進矣，敢問其方。」
+
+仲尼曰：「齋，吾將語若！有而為之，其易邪？易之者，暭天不宜。」
+
+顏回曰：「回之家貧，唯不飲酒不茹葷者數月矣。若此，則可以為齋乎？」曰：「是祭祀之齋，非心齋也。」<pb:KR5c0126_CHANT_004-6a>
+
+回曰：「敢問心齋？」
+
+仲尼曰：「若一汝志，无聽之以耳而聽之以心，无聽之以心而聽之以氣！聽止於耳，心止於符。氣也者，虛而待物者也。唯道集虛。虛者，心齋也。」
+
+顏回曰：「回之未始得使，實自回也；得使之也，未始有回也；可謂虛乎？」
+
+夫子曰：「盡矣。吾語若！若能入遊其樊而无感其名，入則鳴，不入則止。无門无毒，一宅而寓於不得已，則幾矣。
+
+絕迹易，无行地難。為人使易以偽，為天使難以偽。聞以有翼飛者矣，未聞以无翼飛者也；聞以有知知者矣，未聞以无知知者也。瞻彼闋者，虛室生白，
+
+吉祥止矣。夫且不止，是之謂坐馳。夫徇耳目內通而外於心知，鬼神將來舍，而況人乎！是萬物之所化也，禹舜之所紐也，伏戲几蘧之所行終，而況散焉者乎！」<pb:KR5c0126_CHANT_004-7a>
+
+葉公子高將使於齊，問於仲尼曰：「王使諸梁也甚重，齊之待使者，蓋將甚敬而不急。匹夫猶未可動也，而況諸侯乎！
+
+吾甚慄之。子嘗語諸梁也曰：『凡事若小若大，寡有不道以成懽。事若不成，則必有人道之患；事若成，則必有陰陽之患。若成若不成而後无患者，唯有德者能之。』
+
+吾食也執粗而不臧，爨无欲清之人。今吾朝受命而夕飲冰，我其內熱與！吾未至乎事之情，而既有陰陽之患矣；事若不成，必有人道之患。是兩也，為人臣者不足以任之，子其有以語我來！」<pb:KR5c0126_CHANT_004-8a>
+
+仲尼曰：「天下有大戒二：其一，命也；其一，義也。子之愛親，命也，不可解於心；臣之事君，義也，
+
+无適而非君也，无所逃於天地之間。是之謂大戒。是以夫事其親者，不擇地而安之，孝之至也；夫事其君者，不擇事而安之，忠之盛也；
+
+自事其心者，哀樂不易施乎前，知其不可柰何而安之若命，德之至也。為人臣子者，固有所不得已。行事之情而忘其身，何暇至於悅生而惡死！夫子其行可矣！
+
+丘請復以所聞：凡交近則必相靡以信，遠則必忠之以言，言必或傳之。夫傳兩喜兩怒之言，天下之難者也。夫兩喜必多溢美之言，兩怒必多溢惡之言。
+
+凡溢之類妄，妄則其信之也莫，莫則傳言者殃。故《法言》曰：『傳其常情，无傳其溢言，則幾乎全。』
+
+且以巧鬭力者，始乎陽，常卒乎陰，泰至則多奇巧；以禮飲酒者，始乎治，常卒乎亂，泰至則多奇樂。凡事亦然。始乎諒，常卒乎鄙；其作始也簡，其將畢也必巨。
+
+〔夫言者，風波也；行者，實喪也。風波易以動，實喪易以危。故忿設无由，巧言偏辭。獸死不擇音，氣息茀然，於是並生心厲。
+
+剋核太至，則必有不肖之心應之，而不知其然也。苟為不知其然也，孰知其所終！故《法言》曰：『无遷令，无勸成，
+
+過度益也。』遷令勸成殆事，美成在久，惡成不及改，可不慎與！且夫乘物以遊心，託不得已以養中，至矣。何作為報也！莫若為致命。此其難者。」<pb:KR5c0126_CHANT_004-9a>
+
+顏闔將傅衛靈公大子，而問於蘧伯玉曰：「有人於此，其德天殺。與之為无方，則危吾國；與之為有方，則危吾身。
+
+其知適足以知人之過，而不知其所以過。若然者，吾柰之何？」<pb:KR5c0126_CHANT_004-10a>
+
+蘧伯玉曰：「善哉問乎！戒之，慎之，正女身哉！形莫若就，心莫若和。雖然，之二者有患。
+
+就不欲入，和不欲出。形就而入，且為顛為滅，為崩為蹶。心和而出，且為聲為名，為妖為孽。
+
+彼且為嬰兒，亦與之為嬰兒；彼且為无町畦，亦與之為无町畦；彼且為无崖，亦與之為无崖。達之，入於无疵。
+
+汝不知夫螳蜋乎？怒其臂以當車轍，不知其不勝任也，是其才之美者也。戒之，慎之！積伐而美者以犯之，幾矣。
+
+汝不知夫養虎者乎？不敢以生物與之，為其殺之之怒也；不敢以全物與之，為其決之之怒也；時其飢飽，達其怒心。虎之與人異類而媚養己者，順也；故其殺者，逆也。
+
+夫愛馬者，以筐盛矢，以蜄盛溺。適有蚊䖟僕緣，而拊之不時，則缺銜毀首碎胸。意有所至而愛有所亡，可不慎邪！」<pb:KR5c0126_CHANT_004-11a>
+
+匠石之齊，至乎曲轅，見櫟社樹。其大蔽數千牛，絜之百圍，其高臨山十仞而後有枝，其可以為舟者旁十數。觀者如巿，匠伯不顧，遂行不輟。
+
+弟子厭觀之，走及匠石，曰：「自吾執斧斤以隨夫子，未嘗見材如此其美也。先生不肯視，行不輟，何邪？」
+
+曰：「已矣，勿言之矣！散木也，以為舟則沈，以為棺槨則速腐，以為器則速毀，以為門戶則液樠，以為柱則蠹。是不材之木也，无所可用，故能若是之壽。」<pb:KR5c0126_CHANT_004-12a>
+
+匠石歸，櫟社見夢曰：「女將惡乎比予哉？若將比予於文木邪？夫柤梨橘柚，果蓏之屬，實熟則剝，剝則辱；
+
+大枝折，小枝泄。此以其能苦其生者也，故不終其天年而中道夭，自掊擊於世俗者也。物莫不若是。且予求无所可用久矣，
+
+幾死，乃今得之，為予大用。使予也而有用，且得有此大也邪？且也若與予也皆物也，柰何哉其相物也？而幾死之散人，又惡知散木！」<pb:KR5c0126_CHANT_004-13a>
+
+匠石覺而診其夢。弟子曰：「趣取无用，則為社何邪？」
+
+曰：「密！若无言！彼亦直寄焉，以為不知己者詬厲也。不為社者，且幾有翦乎！且也彼其所保與眾異，而以義譽之，不亦遠乎！」<pb:KR5c0126_CHANT_004-14a>
+
+南伯子綦遊乎商之丘，見大木焉有異，結駟千乘，將隱芘其所藾。子綦曰：「此何木也哉？此必有異材夫！」仰而視其細枝，則拳曲而不可以為棟梁；俯而視其大根，則軸解而不可以為棺槨；
+
+咶其葉，則口爛而為傷；嗅之，則使人狂酲，三日而不已。
+
+子綦曰：「此果不材之木也，以至於此其大也。嗟乎神人，以此不材！」<pb:KR5c0126_CHANT_004-15a>
+
+宋有荊氏者，宜楸柏桑。其拱把而上者，求狙猴之杙者斬之；三圍四圍，求高名之麗者斬之；七圍八圍，貴人富商之家求禪傍者斬之。
+
+故未終其天年，而中道之夭於斧斤，此材之患也。故解之以牛之白顙者與豚之亢鼻者，與人有痔病者不可以適河。此皆巫祝以知之矣，所以為不祥也。此乃神人之所以為大祥也。
+
+支離䟽者，頤隱於齊，肩高於頂，會撮指天，五管在上，兩髀為脅。挫鍼治繲，足以餬口；鼓筴播精，足以食十人。
+
+上徵武士，則支離攘臂於其間；上有大役，則支離以有常疾不受功；上與病者粟，則受三鍾與十束薪。夫支離其形者，猶足以養其身，終其天年，又況支離其德者乎！<pb:KR5c0126_CHANT_004-17a>
+
+孔子適楚，楚狂接輿遊其門曰：「鳳兮鳳兮，何如德之衰也！來世不可待，往世不可追也。天下有道，聖人成焉；天下无道，聖人生焉。
+
+方今之時，僅免刑焉。福輕乎羽，莫之知載；禍重乎地，莫之知避。已乎已乎，臨人以德！
+
+殆乎殆乎，畫地而趨！迷陽迷陽，无傷吾行！郤曲郤曲，无傷吾足！」<pb:KR5c0126_CHANT_004-18a>
+
+山木自寇也，膏火自煎也。桂可食，故伐之；漆可用，故割之。人皆知有用之用，而莫知无用之用也。
+
+### 德充符第五
+
+魯有兀者王駘，從之遊者與仲尼相若。常季問於仲尼曰：「王駘，兀者也，從之遊者與夫子中分魯。立不教，坐不議，虛而往，實而歸。
+
+固有不言之教，无形而心成者邪？是何人也？」仲尼曰：「夫子，聖人也，丘也直後而未往耳。丘將以為師，而況不若丘者乎！
+
+奚假魯國！丘將引天下而與從之。」<pb:KR5c0126_CHANT_005-2a>常季曰：「彼兀者也，而王先生，其與庸亦遠矣。若然者，其用心也獨若之何？」
+
+仲尼曰：「死生亦大矣，而不得與之變；雖天地覆墜，亦將不與之遺。審乎无假而不與物遷，命物之化，而守其宗也。」
+
+常季曰：「何謂也？」仲尼曰：「自其異者視之，肝膽楚越也；自其同者視之，萬物皆一也。夫若然者，且不知耳目之所宜，而遊心乎德之和；
+
+物視其所一而不見其所喪，視喪其足猶遺土也。」<pb:KR5c0126_CHANT_005-3a>常季曰：「彼為己，以其知得其心，以其心得其常心，物何為最之哉？」仲尼曰：「人莫鑑於流水而鑑於止水，
+
+唯止能止眾止。受命於地，唯松柏獨也在冬夏青青；受命於天，唯舜獨也正，幸能正生，以正眾生。夫保始之徵，不懼之實。
+
+勇士一人，雄入於九軍。將求名而能自要者，而猶若是，而況官天地，府萬物，直寓六骸，象耳目，一知之所知，而心未嘗死者乎！彼且擇日而登假，人則從是也。彼且何肯以物為事乎！」<pb:KR5c0126_CHANT_005-4a>
+
+申徒嘉，兀者也，而與鄭子產同師於伯昏无人。子產謂申徒嘉曰：「我先出則子止，子先出則我止。」其明日，又與合堂同席而坐。子產謂申徒嘉曰：「我先出則子止，子先出則我止。
+
+今我將出，子可以止乎，其未邪？且子見執政而不違，子齊執政乎？」申徒嘉曰：「先生之門，固有執政焉如此哉？子而說子之執政而後人者也？
+
+聞之曰：『鑑明則塵垢不止，止則不明也。久與賢人處則无過。』今子之所取大者，先生也，而猶出言若是，不亦過乎！」<pb:KR5c0126_CHANT_005-5a>
+
+子產曰：「子既若是矣，猶與堯爭善，計子之德，足以自反邪？」申徒嘉曰：「自狀其過以不當亡者眾，不狀其過以不當存者寡。
+
+知不可柰何而安之若命，唯有德者能之。遊於羿之彀中。中央者，中地也；然而不中者，命也。人以其全足笑吾不全足者眾矣，我怫然而怒；而適先生之所，則廢然而反。
+
+不知先生之洗我以善邪？吾與夫子遊十九年矣，而未嘗知吾兀者也。今子與我遊於形骸之內，而子索我於形骸之外，不亦過乎！」子產蹴然改容更貌曰：「子无乃稱！」<pb:KR5c0126_CHANT_005-6a>
+
+魯有兀者叔山无趾，踵見仲尼。仲尼曰：「子不謹，前既犯患若是矣。雖今來，何及矣！」
+
+无趾曰：「吾唯不知務而輕用吾身，吾是以亡足。今吾來也，猶有尊足者存，吾是以務全之也。夫天无不覆，地无不載，吾以夫子為天地，安知夫子之猶若是也！」
+
+孔子曰：「丘則陋矣。夫子胡不入乎，請講以所聞！」无趾出。孔子曰：「弟子勉之！
+
+夫无趾，兀者也，猶務學以復補前行之惡，而況全德之人乎！」<pb:KR5c0126_CHANT_005-7a>无趾語老聃曰：「孔丘之於至人，其未邪？彼何賓賓以學子為？
+
+彼且蘄以諔詭幻怪之名聞，不知至人之以是為己桎梏邪？」老聃曰：「胡不直使彼以死生為一條，以可不可為一貫者，解其桎梏，其可乎？」无趾曰：「天刑之，安可解！」<pb:KR5c0126_CHANT_005-8a>
+
+魯哀公問於仲尼曰：「衛有惡人焉，曰哀駘它。丈夫與之處者，思而不能去也。婦人見之，請於父母曰『與為人妻寧為夫子妾』者，十數而未止也。未嘗有聞其唱者也，常和人而已矣。
+
+无君人之位以濟乎人之死，无聚祿以望人之腹。又以惡駭天下，和而不唱，知不出乎四域，且而雌雄合乎前。
+
+是必有異乎人者也。寡人召而觀之，果以惡駭天下。與寡人處，不至以月數，而寡人有意乎其為人也；不至乎期年，而寡人信之。國无宰，寡人傳國焉。
+
+悶然而後應，氾若而辭。寡人醜乎，卒授之國。无幾何也，去寡人而行，寡人卹焉，若有亡也，若无與樂是國也。是何人者也？」<pb:KR5c0126_CHANT_005-9a>
+
+仲尼曰：「丘也嘗使於楚矣，適見㹠子食於其死母者，少焉眴若皆棄之而走。不見已焉爾，不得類焉爾。所愛其母者，非愛其形也，愛使其形者也。
+
+戰而死者，其人之葬也不以翣資；刖者之屨，无為愛之；皆无其本矣。為天子之諸御，不爪翦，不穿耳；
+
+取妻者止於外，不得復使。形全猶足以為爾，而況全德之人乎！今哀駘它未言而信，无功而親，使人授己國，唯恐其不受也，是必才全而德不形者也。」<pb:KR5c0126_CHANT_005-10a>
+
+哀公曰：「何謂才全？」仲尼曰：「死生存亡，窮達貧富，賢與不肖毀譽，飢渴寒暑，是事之變，命之行也；日夜相代乎前，而知不能規乎其始者也。
+
+故不足以滑和，不可入於靈府。使之和豫，通而不失於兌；使日夜无郤而與物為春，是接而生時乎心者也。是之謂才全。」<pb:KR5c0126_CHANT_005-11a>
+
+「何謂德不形？」曰：「平者，水停之盛也。其可以為法也，內保之而外不蕩也。德者，成和之脩也。德不形者，物不能離也。」<pb:KR5c0126_CHANT_005-12a>
+
+哀公異日以告閔子曰：「始也吾以南面而君天下，執民之紀而憂其死，吾自以為至通矣。今吾聞至人之言，恐吾无其實，輕用吾身而亡吾國。吾與孔丘，非君臣也，德友而已矣。」<pb:KR5c0126_CHANT_005-13a>
+
+闉跂支離无脤說衛靈公，靈公說之；而視全人，其脰肩肩。甕盎大癭說齊桓公，桓公說之；而視全人，其脰肩肩。故德有所長而形有所忘，人不忘其所忘而忘其所不忘，此謂誠忘。
+
+故聖人有所遊，而知為孽，約為膠，德為接，工為商。
+
+聖人不謀，惡用知？不斲，惡用膠？无喪，惡用德？不貨，惡用商？四者，天鬻也。
+
+天鬻也者，天食也。既受食於天，又惡用人！有人之形，无人之情。有人之形，故群於人，
+
+无人之情，故是非不得於身。眇乎小哉，所以屬於人也！謷乎大哉，獨成其天！<pb:KR5c0126_CHANT_005-14a>
+
+惠子謂莊子曰：「人故无情乎？」
+
+莊子曰：「然。」
+
+惠子曰：「人而无情，何以謂之人？」
+
+莊子曰：「道與之貌，天與之形，惡得不謂之人？」
+
+惠子曰：「既謂之人，惡得无情？」
+
+莊子曰：「是非吾所謂情也。吾所謂无情者，言人之不以好惡內傷其身，常因自然而不益生也。」
+
+惠子曰：「不益生，何以有其身？」
+
+莊子曰：「道與之貌，天與之形，无以好惡內傷其身。今子外乎子之神，勞乎子之精，倚樹而吟，據槁梧而瞑。天選子之形，子以堅白鳴！」
+
+### 大宗師第六
+
+知天之所為，知人之所為者，至矣。知天之所為者，天而生也；知人之所為者，以其知之所知以養其知之所不知，終其天年而不中道夭者，是知之盛也。
+
+雖然，有患。夫知有所待而後當，其所待者特未定也。庸詎知吾所謂天之非人乎？所謂人之非天乎？
+
+且有真人而後有真知。何謂真人？古之真人，不逆寡，不雄成，不謨士。若然者，過而弗悔，當而不自得也。
+
+若然者，登高不慄，入水不濡，入火不熱。是知之能登假於道也若此。
+
+古之真人，其寢不夢，其覺无憂，其食不甘，其息深深。真人之息以踵，眾人之息以喉。屈服者，其嗌言若哇。其耆欲深者，其天機淺。
+
+古之真人，不知說生，不知惡死；其出不訢，其入不距；翛然而往，翛然而來而已矣。不志其所始，不求其所終；
+
+受而喜之，忘而復之，是之謂不以心捐道，不以人助天。是之謂真人。
+
+若然者，其心忘，其容寂，其顙頯；淒然似秋，煖然似春，喜怒通四時，與物有宜而莫知其極。
+
+故聖人之用兵也，亡國而不失人心；利澤施乎萬世，不為愛人。故樂通物，非聖人也；有親，非仁也；天時，非賢也；
+
+利害不通，非君子也；徇名失己，非士也；亡身不真，非役人也。
+
+若狐不偕、務光、伯夷、叔齊、箕子、胥餘、紀他、申徒狄，是役人之役，適人之適，而不自適其適者也。
+
+古之真人，其狀義而不朋，若不足而不承；與乎其觚而不堅也，張乎其虛而不華也；邴邴乎其似喜乎！崔乎其不得已乎！滀乎進我色也，與乎止我德也；
+
+厲乎其似世乎！謷乎其未可制也；連乎其似好閉也，悗乎忘其言也。以刑為體，以禮為翼，以知為時，以德為循。
+
+以刑為體者，綽乎其殺也；以禮為翼者，所以行於世也；以知為時者，不得已於事也；以德為循者，言其與有足者至於丘也；而人真以為勤行者也。
+
+故其好之也一，其弗好之也一。其一也一，其不一也一。其一與天為徒，其不一與人為徒。天與人不相勝也，是之謂真人。
+
+死生，命也，其有夜旦之常，天也。人之有所不得與，皆物之情也。彼特以天為父而身猶愛之，而況其卓乎！人特以有君為愈乎己，而身猶死之，而況其真乎！
+
+泉涸，魚相與處於陸，相呴以濕，相濡以沫，不如相忘於江湖。與其譽堯而非桀也，不如兩忘而化其道。
+
+夫大塊載我以形，勞我以生，佚我以老，息我以死。故善吾生者，乃所以善吾死也。
+
+夫藏舟於壑，藏山於澤，謂之固矣。然而夜半有力者負之而走，昧者不知也。藏小大有宜，猶有所遯。
+
+若夫藏天下於天下而不得所遯，是恆物之大情也。特犯人之形而猶喜之。若人之形者，萬化而未始有極也，其為樂可勝計邪！故聖人將遊於物之所不得遯而皆存。
+
+善夭善老，善始善終，人猶效之，又況萬物之所係，而一化之所待乎！<pb:KR5c0126_CHANT_006-5a>
+
+夫道，有情有信，无為无形；可傳而不可受，可得而不可見；自本自根，未有天地，自古以固存；神鬼神帝，生天生地；
+
+在太極之先而不為高，在六極之下而不為深，先天地生而不為久，長於上古而不為老。狶韋氏得之，以挈天地；伏戲得之，以襲氣母；
+
+維斗得之，終古不忒；日月得之，終古不息；堪坏得之，以襲崑崙；馮夷得之，以遊大川；肩吾得之，以處大山；
+
+黃帝得之，以登雲天；顓頊得之，以處玄宮；禺強得之，立乎北極；西王母得之，坐乎少廣，莫知其始，莫知其終；
+
+彭祖得之，上及有虞，下及五伯；傅說得之，以相武丁，奄有天下，乘東維，騎箕尾，而比於列星。
+
+南伯子葵問乎女偊曰：「子之年長矣，而色若孺子，何也？」曰：「吾聞道矣。」南伯子葵曰：「道可得學邪？」
+
+曰：「惡！惡可！子非其人也。夫卜梁倚有聖人之才而无聖人之道，我有聖人之道而无聖人之才，吾欲以教之，庶幾其果為聖人乎！
+
+不然，以聖人之道告聖人之才，亦易矣。吾猶守而告之，參日而後能外天下；已外天下矣，吾又守之，七日而後能外物；已外物矣，吾又守之，九日而後能外生；
+
+已外生矣，而後能朝徹；朝徹，而後能見獨；見獨，而後能无古今；
+
+无古今，而後能入於不死不生。殺生者不死，生生者不生。其為物，无不將也，无不迎也；无不毀也，无不成也。其名為攖寧。攖寧也者，攖而後成者也。」<pb:KR5c0126_CHANT_006-7a>
+
+南伯子葵曰：「子獨惡乎聞之？」曰：「聞諸副墨之子，副墨之子聞諸洛誦之孫，洛誦之孫聞之瞻明，瞻明聞之聶許，聶許聞之需役，需役聞之於謳，於謳聞之玄冥，玄冥聞之參寥，參寥聞之疑始。」<pb:KR5c0126_CHANT_006-8a>
+
+子祀、子輿、子犁、子來四人相與語曰：「孰能以无為首，以生為脊，以死為尻，孰知死生存亡之一體者，吾與之友矣。」四人相視而笑，莫逆於心，遂相與為友。
+
+俄而子輿有病，子祀往問之。曰：「偉哉夫造物者，將以予為此拘拘也！曲僂發背，上有五管，頤隱於齊，肩高於頂，句贅指天。」陰陽之氣有沴，
+
+其心間而无事，跰𨇤而鑑于井，曰：「嗟乎！夫造物者又將以予為此拘拘也！」子祀曰：「女惡之乎？」
+
+曰：「亡，予何惡！浸假而化予之左臂以為雞，予因以求時夜；浸假而化予之右臂以為彈，予因以求鴞炙；
+
+浸假而化予之尻以為輪，以神為馬，予因而乘之，豈更駕哉！且夫得者，時也；失者，順也；安時而處順，哀樂不能入也。
+
+此古之所謂縣解也，而不能自解者，物有結之。且夫物不勝天久矣，吾又何惡焉！」<pb:KR5c0126_CHANT_006-10a>
+
+俄而子來有病，喘喘然將死，其妻子環而泣之，犁往問之，曰：「叱！避！无怛化！」倚其戶與之語曰：
+
+「偉哉造化！又將奚以汝為，將奚以汝適？以汝為鼠肝乎？以汝為蟲臂乎？」子來曰：「父母於子，東西南北，唯命之從。陰陽於人，不翅於父母；彼近吾死而我不聽，我則悍矣，彼何罪焉！
+
+夫大塊載我以形，勞我以生，佚我以老，息我以死。故善吾生者，乃所以善吾死也。今大冶鑄金，金踊躍曰『我且必為鏌鋣』，大冶必以為不祥之金。
+
+今一犯人之形，而曰『人耳人耳』，夫造化者必以為不祥之人。今一以天地為大鑪，以造化為大冶，惡乎往而不可哉！」成然寐，蘧然覺。
+
+子桑戶、孟子反、子琴張三人相與友，曰：「孰能相與於无相與，相為於无相為？孰能登天遊霧，撓挑无極；相忘以生，无所終窮？」三人相視而笑，莫逆於心，遂相與友。
+
+莫然有間，而子桑戶死，未葬。孔子聞之，使子貢往待事焉。或編曲，或鼓琴，
+
+相和而歌曰：「嗟來桑戶乎！嗟來桑戶乎！而已反其真，而我猶為人猗！」子貢趨而進曰：「敢問臨尸而歌，禮乎？」
+
+二人相視而笑曰：「是惡知禮意！」<pb:KR5c0126_CHANT_006-12a>子貢反，以告孔子，曰：「彼何人者邪？脩行无有，而外其形骸，臨尸而歌，顏色不變，无以命之。彼何人者邪？」<pb:KR5c0126_CHANT_006-13a>
+
+孔子曰：「彼，遊方之外者也；而丘，遊方之內者也。外內不相及，而丘使女往弔之，丘則陋矣。彼方且與造物者為人，而遊乎天地之一氣。
+
+彼以生為附贅縣疣，以死為決𤴯潰癰，夫若然者，又惡知死生先後之所在！假於異物，託於同體；忘其肝膽，遺其耳目；反覆終始，不知端倪；
+
+芒然彷徨乎塵垢之外，逍遙乎无為之業。彼又惡能憒憒然為世俗之禮，以觀眾人之耳目哉！」<pb:KR5c0126_CHANT_006-14a>
+
+子貢曰：「然則夫子何方之依？」曰：「丘，天之戮民也。雖然，吾與汝共之。」子貢曰：「敢問其方。」
+
+孔子曰：「魚相造乎水，人相造乎道。相造乎水者，穿池而養給；相造乎道者，无事而生定。故曰，魚相忘乎江湖，人相忘乎道術。」子貢曰：「敢問畸人。」
+
+曰：「畸人者，畸於人而侔於天。故曰：天之小人，人之君子；人之君子，天之小人也。」<pb:KR5c0126_CHANT_006-15a>
+
+顏回問仲尼曰：「孟孫才，其母死，哭泣无涕，中心不慼，居喪不哀。无是三者，以善喪蓋魯國。固有无其實而得其名者乎？回壹怪之。」<pb:KR5c0126_CHANT_006-16a>
+
+仲尼曰：「夫孟孫氏盡之矣，進於知矣。唯簡之而不得，夫已有所簡矣。孟孫氏不知所以生，不知所以死；
+
+不知就先，不知就後；若化為物，以待其所不知之化已乎！且方將化，惡知不化哉？方將不化，惡知已化哉？
+
+吾特與汝，其夢未始覺者邪！且彼有駭形而无損心，有旦宅而无情死。孟孫氏特覺，人哭亦哭，是自其所以乃。
+
+且也相與吾之耳矣，庸詎知吾所謂吾之乎？且汝夢為鳥而厲乎天，夢為魚而沒於淵。不識今之言者，其覺者乎，其夢者乎？
+
+造適不及笑，獻笑不及排，安排而去化，乃入於寥天一。」<pb:KR5c0126_CHANT_006-17a>
+
+意而子見許由。許由曰：「堯何以資汝？」意而子曰：「堯謂我：『汝必躬服仁義而明言是非。』」許由曰：「而奚來為軹？
+
+夫堯既已黥汝以仁義，而劓汝以是非矣，汝將何以遊夫遙蕩恣睢轉徙之塗乎？」意而子曰：「雖然，吾願遊於其藩。」許由曰：「不然。
+
+夫盲者无以與乎眉目顏色之好，瞽者无以與乎青黃黼黻之觀。」意而子曰：「夫无莊之失其美，據梁之失其力，黃帝之亡其知，皆在鑪捶之間耳。
+
+庸詎知夫造物者之不息我黥而補我劓，使我乘成以隨先生邪？」許由曰：「噫！未可知也。我為汝言其大略。
+
+吾師乎！吾師乎！𩐋萬物而不為義，澤及萬世而不為仁，長於上古而不為老，覆載天地刻彫眾形而不為巧，此所遊已。」<pb:KR5c0126_CHANT_006-18a>
+
+顏回曰：「回益矣。」仲尼曰：「何謂也？」曰：「回忘禮樂矣。」曰：「可矣，猶未也。」
+
+它日，復見，曰：「回益矣。」曰：「何謂也？」曰：「回忘仁義矣。」曰：「可矣，猶未也。」它日，復見，曰：「回益矣。」曰：「何謂也？」曰：「回坐忘矣。」
+
+仲尼蹴然曰：「何謂坐忘？」顏回曰：「墮枝體，黜聰明，離形去知，同於大通，此謂坐忘。」
+
+仲尼曰：「同則无好也，化則无常也。而果其賢乎！丘也請從而後也。」<pb:KR5c0126_CHANT_006-19a>
+
+子輿與子桑友，而霖雨十日。子輿曰：「子桑殆病矣！」裹飯而往食之。至子桑之門，則若歌若哭，鼓琴曰：
+
+「父邪！母邪！天乎！人乎！」有不任其聲而趨舉其詩焉。子輿入，曰：「子之歌詩，何故若是？」
+
+曰：「吾思夫使我至此極者而弗得也。父母豈欲吾貧哉？天无私覆，地无私載，天地豈私貧我哉？求其為之者而不得也。然而至此極者，命也夫！」
+
+### 應帝王第七
+
+齧缺問於王倪，四問而四不知。齧缺因躍而大喜，行以告蒲衣子。蒲衣子曰：「而乃今知之乎？有虞氏不及泰氏。
+
+有虞氏，其猶藏仁以要人；亦得人矣，而未始出於非人。泰氏，其臥徐徐，其覺于于；一以己為馬，一以己為牛；其知情信，其德甚真，而未始入於非人。」<pb:KR5c0126_CHANT_007-2a>
+
+肩吾見狂接輿。狂接輿曰：「日中始何以語女？」肩吾曰：「告我君人者以己出經式義度，人孰敢不聽而化諸！」
+
+接輿曰：「是欺德也；其於治天下也，猶涉海鑿河而使蚊負山也。夫聖人之治也，治外乎？
+
+正而後行，確乎能其事者而已矣。且鳥高飛以避矰弋之害，鼷鼠深穴乎神丘之下以避熏鑿之患，而曾二蟲之无知！」<pb:KR5c0126_CHANT_007-3a>
+
+天根遊於殷陽，至蓼水之上，適遭无名人而問焉，曰：「請問為天下。」无名人曰：「去！汝鄙人也，何問之不豫也！予方將與造物者為人，
+
+厭，則又乘夫莽眇之鳥，以出六極之外，而遊无何有之鄉，以處壙埌之野。汝又何暇以治天下感予之心為？」又復問。
+
+无名人曰：「汝遊心於淡，合氣於漠，順物自然而无容私焉，而天下治矣。」<pb:KR5c0126_CHANT_007-4a>
+
+陽子居見老聃，曰：「有人於此，嚮疾彊梁，物徹䟽明，學道不勌。如是者，可比明王乎？」
+
+老聃曰：「是於聖人也，胥易技係，勞形怵心者也。且也虎豹之文來田，猨狙之便執斄之狗來藉。如是者，可比明王乎？」
+
+陽子居蹴然曰：「敢問明王之治。」老聃曰：「明王之治，功蓋天下而似不自己，
+
+化貸萬物而民弗恃；有莫舉名，使物自喜；立乎不測，而遊於无有者也。」<pb:KR5c0126_CHANT_007-5a>
+
+鄭有神巫曰季咸，知人之死生存亡，禍福壽夭，期以歲月旬日，若神。鄭人見之，皆棄而走。
+
+列子見之而心醉，歸，以告壺子，曰：「始吾以夫子之道為至矣，則又有至焉者矣。」壺子曰：「吾與汝既其文，未既其實，而固得道與？眾雌而无雄，而又奚卵焉！
+
+而以道與世亢，必信，夫故使人得而相汝。嘗試與來，以予示之。」<pb:KR5c0126_CHANT_007-6a>明日，列子與之見壺子。出而謂列子曰：「嘻！子之先生死矣！弗活矣！不以旬數矣！吾見怪焉，見濕灰焉。」
+
+列子入，泣涕沾襟以告壺子。壺子曰：「鄉吾示之以地文，萌乎不震不止。是殆見吾杜德機也。嘗又與來。」<pb:KR5c0126_CHANT_007-7a>
+
+明日，又與之見壺子。出而謂列子曰：「幸矣子之先生遇我也！有瘳矣，全然有生矣！吾見其杜權矣。」列子入，以告壺子。
+
+壺子曰：「鄉吾示之以天壤，名實不入，而機發於踵。是殆見吾善者機也。嘗又與來。」<pb:KR5c0126_CHANT_007-8a>
+
+明日，又與之見壺子。出而謂列子曰：「子之先生不齊，吾无得而相焉。試齊，且復相之。」
+
+列子入，以告壺子。壺子曰：「鄉吾示之以太沖莫勝。是殆見吾衡氣機也。鯢桓之審為淵，止水之審為淵，流水之審為淵。淵有九名，此處三焉。嘗又與來。」<pb:KR5c0126_CHANT_007-9a>
+
+明日，又與之見壺子。立未定，自失而走。
+
+壺子曰：「追之！」列子追之不及。反，以報壺子曰：「已滅矣，已失矣，吾弗及已。」壺子曰：「曏吾示之以未始出吾宗。
+
+吾與之虛而委蛇，不知其誰何，因以為弟靡，因以為波流，故逃也。」<pb:KR5c0126_CHANT_007-10a>
+
+然後列子自以為未始學而歸，三年不出。為其妻爨，食豕如食人。於事无與親，雕琢復朴，塊然獨以其形立。紛而封戎，一以是終。
+
+无為名尸，无為謀府；无為事任，无為知主。體盡无窮，而遊无眹；
+
+盡其所受乎天，而无見得，亦虛而已。至人之用心若鏡，不將不迎，應而不藏，故能勝物而不傷。
+
+南海之帝為儵，北海之帝為忽，中央之帝為渾沌。儵與忽時相與遇於渾沌之地，渾沌待之甚善。
+
+儵與忽謀報渾沌之德，曰：「人皆有七竅以視聽食息，此獨无有，嘗試鑿之。」日鑿一竅，七日而渾沌死。
+
+### 駢拇第八
+
+駢拇枝指，出乎性哉！而侈於德。附贅縣疣，出乎形哉！而侈於性。多方乎仁義而用之者，列於五藏哉！而非道德之正也。
+
+是故駢於足者，連无用之肉也；枝於手者，樹无用之指也；多方駢枝於五藏之情者，淫僻於仁義之行，而多方於聰明之用也。
+
+是故駢於明者，亂五色，淫文章，青黃黼黻之煌煌非乎？而離朱是已。多於聰者，亂五聲，淫六律，金石絲竹黃鍾大呂之聲非乎？
+
+而師曠是已。枝於仁者，擢德塞性以收名聲，使天下簧鼓以奉不及之法非乎？而曾史是已。
+
+駢於辯者，纍瓦結繩竄句，遊心於堅白同異之間，而敝跬譽无用之言非乎？而楊墨是已。故此皆多駢旁枝之道，非天下之至正也。
+
+彼正正者，不失其性命之情。故合者不為駢，而枝者不為跂；長者不為有餘，短者不為不足。是故鳧脛雖短，續之則憂；鶴脛雖長，斷之則悲。
+
+故性長非所斷，性短非所續，无所去憂也。意仁義其非人情乎！彼仁人何其多憂也？<pb:KR5c0126_CHANT_008-4a>
+
+且夫駢於拇者，決之則泣；枝於手者，齕之則啼。二者，或有餘於數，或不足於數，其於憂一也。
+
+今世之仁人，蒿目而憂世之患；不仁之人，決性命之情而饕貴富。故意仁義其非人情乎！自三代以下者，天下何其囂囂也？<pb:KR5c0126_CHANT_008-5a>
+
+且夫待鉤繩規矩而正者，是削其性也；待纆索膠漆而固者，是侵其德也；屈折禮樂，呴俞仁義，以慰天下之心者，此失其常然也。
+
+天下有常然。常然者，曲者不以鉤，直者不以繩，圓者不以規，方者不以矩，附離不以膠漆，約束不以纆索。故天下誘然皆生而不知其所以生，同焉皆得而不知其所以得。
+
+故古今不二，不可虧也。則仁義又奚連連如膠漆纆索，而遊乎道德之間為哉，使天下惑也！<pb:KR5c0126_CHANT_008-6a>
+
+夫小惑易方，大惑易性。何以知其然邪？自虞氏招仁義以撓天下也，天下莫不奔命於仁義，是非以仁義易其性與？
+
+故嘗試論之，自三代以下者，天下莫不以物易其性矣。小人則以身殉利，士則以身殉名，大夫則以身殉家，聖人則以身殉天下。故此數子者，事業不同，名聲異號，其於傷性以身為殉，一也。
+
+臧與穀，二人相與牧羊而俱亡其羊。問臧奚事，則挾筴讀書；問穀奚事，則博塞以遊。二人者，事業不同，其於亡羊均也。伯夷死名於首陽之下，盜跖死利於東陵之上，二人者，所死不同，其於殘生傷性均也，奚必伯夷之是而盜跖之非乎！
+
+天下盡殉也。彼其所殉仁義也，則俗謂之君子；其所殉貨財也，則俗謂之小人。
+
+其殉一也，則有君子焉，有小人焉；若其殘生損性，則盜跖亦伯夷已，又惡取君子小人於其間哉！<pb:KR5c0126_CHANT_008-7a>
+
+且夫屬其性乎仁義者，雖通如曾史，非吾所謂臧也；屬其性於五味，雖通如俞兒，非吾所謂臧也；屬其性乎五聲，雖通如師曠，非吾所謂聰也；屬其性乎五色，雖通如離朱，非吾所謂明也。吾所謂臧，非仁義之謂也，臧於其德而已矣；吾所謂臧者，非所謂仁義之謂也，任其性命之情而已矣；
+
+吾所謂聰者，非謂其聞彼也，自聞而已矣；吾所謂明者，非謂其見彼也，自見而已矣。夫不自見而見彼，不自得而得彼者，是得人之得而不自得其得者也，適人之適而不自適其適者也。
+
+夫適人之適而不自適其適，雖盜跖與伯夷，是同為淫僻也。余愧乎道德，是以上不敢為仁義之操，而下不敢為淫僻之行也。
+
+### 馬蹄第九
+
+馬，蹄可以踐霜雪，毛可以禦風寒，齕草飲水，翹足而陸，此馬之真性也。雖有義臺路寢，无所用之。
+
+及至伯樂，曰：「我善治馬。」燒之，剔之，刻之，雒之，連之以羈馽，編之以皁棧，馬之死者十二三矣；
+
+飢之，渴之，馳之，驟之，整之，齊之，前有橛飾之患，而後有鞭筴之威，而馬之死者已過半矣。
+
+陶者曰：「我善治埴，圓者中規，方者中矩。」匠人曰：「我善治木，曲者中鉤，直者應繩。」夫埴木之性，豈欲中規矩鉤繩哉？然且世世稱之曰：「伯樂善治馬，而陶匠善治埴木。」此亦治天下者之過也。
+
+吾意善治天下者不然。彼民有常性，織而衣，耕而食，是謂同德；一而不黨，命曰天放。
+
+故至德之世，其行填填，其視顛顛。當是時也，山无蹊隧，澤无舟梁；萬物群生，連屬其鄉；禽獸成群，草木遂長。
+
+是故禽獸可係羈而遊，鳥鵲之巢可攀援而闚。夫至德之世，同與禽獸居，族與萬物並，惡乎知君子小人哉！
+
+同乎无知，其德不離；同乎无欲，是謂素樸；素樸而民性得矣。及至聖人，蹩躠為仁，踶跂為義，而天下始疑矣；澶漫為樂，摘僻為禮，而天下始分矣。
+
+故純樸不殘，孰為犧樽！白玉不毀，孰為珪璋！道德不廢，安取仁義！
+
+性情不離，安用禮樂！五色不亂，孰為文采！五聲不亂，孰應六律！夫殘樸以為器，工匠之罪也；毀道德以為仁義，聖人之過也。
+
+夫馬，陸居則食草飲水，喜則交頸相靡，怒則分背相踶。馬知已此矣。
+
+夫加之以衡扼，齊之以月題，而馬知介倪闉扼鷙曼詭銜竊轡。故馬之知而能至盜者，伯樂之罪也。
+
+夫赫胥氏之時，民居不知所為，行不知所之，含哺而熙，鼓腹而遊，民能以此矣。及至聖人，屈折禮樂以匡天下之形，
+
+縣跂仁義以慰天下之心，而民乃始踶跂好知，爭歸於利，不可止也。此亦聖人之過也。
+
+### 胠篋第十
+
+將為胠篋探囊發匱之盜而為守備，則必攝緘縢，固扃鐍，此世俗之所謂知也。
+
+然而巨盜至，則負匱揭篋擔囊而趨，唯恐緘縢扃鐍之不固也。然則鄉之所謂知者，不乃為大盜積者也？<pb:KR5c0126_CHANT_010-2a>
+
+故嘗試論之，世俗所謂知者，有不為大盜積者乎？所謂聖者，有不為大盜守者乎？何以知其然邪？
+
+昔者齊國鄰邑相望，雞狗之音相聞，罔罟之所布，耒耨之所刺，方二千餘里。闔四竟之內，所以立宗廟社稷，治邑屋州閭鄉曲者，曷嘗不法聖人哉！
+
+然而田成子一旦殺齊君而盜其國。所盜者豈獨其國邪？并與其聖知之法而盜之。故田成子有乎盜賊之名，而身處堯舜之安；小國不敢非，大國不敢誅，十二世有齊國。則是不乃竊齊國，并與其聖知之法以守其盜賊之身乎？<pb:KR5c0126_CHANT_010-3a>
+
+嘗試論之，世俗之所謂至知者，有不為大盜積者乎？所謂至聖者，有不為大盜守者乎？何以知其然邪？昔者龍逢斬，比干剖，萇弘胣，子胥靡，故四子之賢而身不免乎戮。
+
+故跖之徒問於跖曰：「盜亦有道乎？」跖曰：「何適而无有道邪！」
+
+夫妄意室中之藏，聖也；入先，勇也；出後，義也；知可否，知也；分均，仁也。五者不備而能成大盜者，天下未之有也。
+
+由是觀之，善人不得聖人之道不立，跖不得聖人之道不行；天下之善人少而不善人多，則聖人之利天下也少而害天下也多。
+
+故曰，脣竭則齒寒，魯酒薄而邯鄲圍，聖人生而大盜起。掊擊聖人，縱舍盜賊，而天下始治矣。
+
+夫川竭而谷虛，丘夷而淵實。聖人已死，則大盜不起，天下平而无故矣。
+
+聖人不死，大盜不止。雖重聖人而治天下，則是重利盜跖也。為之斗斛以量之，則并與斗斛而竊之；為之權衡以稱之，則并與權衡而竊之；
+
+為之符璽以信之，則并與符璽而竊之；為之仁義以矯之，則并與仁義而竊之。何以知其然邪？彼竊鉤者誅，竊國者為諸侯，諸侯之門而仁義存焉，則是非竊仁義聖知邪？
+
+故逐於大盜，揭諸侯，竊仁義并斗斛權衡符璽之利者，雖有軒冕之賞弗能勸，斧鉞之威弗能禁。此重利盜跖而使不可禁者，是乃聖人之過也。
+
+故曰：「魚不可脫於淵，國之利器不可以示人。」彼聖人者，天下之利器也，非所以明天下也。故絕聖棄知，大盜乃止；擿玉毀珠，小盜不起；焚符破璽，而民朴鄙；掊斗折衡，而民不爭；
+
+殫殘天下之聖法，而民始可與論議。擢亂六律，鑠絕竽瑟，塞瞽曠之耳，而天下始人含其聰矣；滅文章，散五采，膠離朱之目，而天下始人含其明矣；
+
+毀絕鉤繩而棄規矩，攦工倕之指，而天下始人含其巧矣。故曰：「大巧若拙。」
+
+削曾史之行，鉗楊墨之口，攘棄仁義，而天下之德始玄同矣。彼人含其明，則天下不鑠矣；人含其聰，則天下不累矣；
+
+人含其知，則天下不惑矣；人含其德，則天下不僻矣。彼曾、史、楊、墨、師曠、工倕、離朱者，皆外立其德而以爚亂天下者也，法之所无用也。
+
+子獨不知至德之世乎？昔者容成氏、大庭氏、伯皇氏、中央氏、栗陸氏、驪畜氏、軒轅氏、赫胥氏、尊盧氏、祝融氏、伏戲氏、神農氏，當是時也，民結繩而用之，
+
+甘其食，美其服，樂其俗，安其居，鄰國相望，雞狗之音相聞，民至老死而不相往來。
+
+若此之時，則至治已。今遂至使民延頸舉踵曰：「某所有賢者。」贏糧而趣之，
+
+則內棄其親而外去其主之事，足跡接乎諸侯之境，車軌結乎千里之外。則是上好知之過也。
+
+上誠好知而无道，則天下大亂矣。何以知其然邪？
+
+夫弓弩畢弋機變之知多，則鳥亂於上矣；鉤餌網罟罾笱之知多，則魚亂於水矣；削格羅落罝罘之知多，則獸亂於澤矣；知詐漸毒頡滑堅白解垢同異之變多，則俗惑於辯矣。
+
+故天下每每大亂，罪在於好知。故天下皆知求其所不知而莫知求其所已知者，皆知非其所不善而莫知非其所已善者，是以大亂。故上悖日月之明，下爍山川之精，中墮四時之施；
+
+惴耎之蟲，肖翹之物，莫不失其性。甚矣夫好知之亂天下也！
+
+自三代以下者是已，舍夫種種之民，而悅夫役役之佞，釋夫恬淡无為而悅夫啍啍之意，啍啍已亂天下矣！
+
+### 在宥第十一
+
+聞在宥天下，不聞治天下也。在之也者，恐天下之淫其性也；宥之也者，恐天下之遷其德也。天下不淫其性，不遷其德，有治天下者哉！
+
+昔堯之治天下也，使天下欣欣焉人樂其性，是不恬也；桀之治天下也，使天下瘁瘁焉人苦其性，是不愉也。夫不恬不愉，非德也。非德也而可長久者，天下无之。
+
+人大喜邪？毗於陽；大怒邪？毗於陰。陰陽并毗，四時不至，寒暑之和不成，其反傷人之形乎！
+
+使人喜怒失位，居處无常，思慮不自得，中道不成章，於是乎天下始喬詰卓鷙，而後有盜跖曾史之行。
+
+故舉天下以賞其善者不足，舉天下以罰其惡者不給，故天下之大不足以賞罰。自三代以下者，匈匈焉終以賞罰為事，彼何暇安其性命之情哉！<pb:KR5c0126_CHANT_011-3a>
+
+而且說明邪？是淫於色也；說聰邪？是淫於聲也；說仁邪？是亂於德也；說義邪？是悖於理也；
+
+說禮邪？是相於技也；說樂邪？是相於淫也；說聖邪？是相於藝也；說知邪？是相於疵也。
+
+天下將安其性命之情，之八者，存可也，亡可也；
+
+天下將不安其性命之情，之八者，乃始臠卷傖囊而亂天下也。而天下乃始尊之惜之，甚矣天下之惑也！
+
+豈直過也而去之邪！乃齊戒以言之，跪坐以進之，鼓歌以儛之，吾若是何哉！<pb:KR5c0126_CHANT_011-4a>
+
+故君子不得已而臨莅天下，莫若无為。无為也而後安其性命之情。故貴以身於為天下，則可以託天下；
+
+愛以身於為天下，則可以寄天下。故君子苟能无解其五藏，无擢其聰明；尸居而龍見，淵默而雷聲，
+
+神動而天隨，從容无為而萬物炊累焉。吾又何暇治天下哉！<pb:KR5c0126_CHANT_011-5a>
+
+崔瞿問於老聃曰：「不治天下，安臧人心？」老聃曰：「汝慎无攖人心。人心排下而進上，上下囚殺，
+
+淖約柔乎剛彊。廉劌彫琢，其熱焦火，其寒凝冰。其疾俛仰之間，而再撫四海之外，
+
+其居也淵而靜，其動也縣而天。僨驕而不可係者，其唯人心乎！」<pb:KR5c0126_CHANT_011-6a>
+
+昔者黃帝始以仁義攖人之心，堯舜於是乎股无胈，脛无毛，以養天下之形，愁其五藏以為仁義，矜其血氣以規法度。
+
+然猶有不勝也，堯於是放讙兜於崇山，投三苗於三峗，流共工於幽都，此不勝天下也。
+
+夫施及三王而天下大駭矣。下有桀跖，上有曾史，而儒墨畢起。於是乎喜怒相疑，愚知相欺，善否相非，誕信相譏，而天下衰矣；
+
+大德不同，而性命爛漫矣；天下好知，而百姓求竭矣。於是乎釿鋸制焉，繩墨殺焉，椎鑿決焉。天下脊脊大亂，罪在攖人心。
+
+故賢者伏處大山嵁巖之下，而萬乘之君憂慄乎廟堂之上。
+
+今世殊死者相枕也，桁楊者相推也，刑戮者相望也，而儒墨乃始離跂攘臂乎桎梏之間。意，甚矣哉！其无愧而不知恥也甚矣！
+
+吾未知聖知之不為桁楊椄槢也，仁義之不為桎梏鑿枘也，焉知曾史之不為桀跖嚆矢也！故曰：「絕聖棄知，而天下大治。」<pb:KR5c0126_CHANT_011-8a>
+
+黃帝立為天子十九年，令行天下，聞廣成子在於空同之上，故往見之，曰：「我聞吾子達於至道，
+
+敢問至道之精。吾欲取天地之精，以佐五穀，以養民人，吾又欲官陰陽，以遂群生，為之柰何？」
+
+廣成子曰：「而所欲問者，物之質也；而所欲官者，物之殘也。自而治天下，雲氣不待族而雨，草木不待黃而落，日月之光益以荒矣。而佞人之心翦翦者，又奚足以語至道！」<pb:KR5c0126_CHANT_011-9a>
+
+黃帝退，捐天下，築特室，席白茅，間居三月，復往邀之。廣成子南首而臥，黃帝順下風膝行而進，
+
+再拜稽首而問曰：「聞吾子達於至道，敢問，治身柰何而可以長久？」廣成子蹶然而起，曰：「善哉問乎！來！吾語女至道。至道之精，窈窈冥冥；至道之極，昏昏默默。
+
+无視无聽，抱神以靜，形將自正。必靜必清，无勞女形，无搖女精，乃可以長生。
+
+目无所見，耳无所聞，心无所知，女神將守形，形乃長生。慎女內，閉女外，多知為敗。
+
+我為女遂於大明之上矣，至彼至陽之原也；為女入於窈冥之門矣，至彼至陰之原也。天地有官，陰陽有藏，慎守女身，物將自壯。
+
+我守其一以處其和，故我脩身千二百歲矣，吾形未常衰。」黃帝再拜稽首曰：「廣成子之謂天矣！」<pb:KR5c0126_CHANT_011-10a>
+
+廣成子曰：「來！余語女。彼其物无窮，而人皆以為有終；彼其物无測，而人皆以為有極。得吾道者，上為皇而下為王；
+
+失吾道者，上見光而下為土。今夫百昌皆生於土而反於土，故余將去女，入无窮之門，以遊无極之野。
+
+吾與日月參光，吾與天地為常。當我，緡乎！遠我，昏乎！人其盡死，而我獨存乎！」<pb:KR5c0126_CHANT_011-11a>
+
+雲將東遊，過扶搖之枝，而適遭鴻蒙。鴻蒙方將拊脾雀躍而遊。
+
+雲將見之，倘然止，贄然立，曰：「叟何人邪？叟何為此？」鴻蒙拊脾雀躍不輟，對雲將曰：「遊！」
+
+雲將曰：「朕願有問也。」鴻蒙仰而視雲將曰：「吁！」雲將曰：「天氣不和，地氣鬱結，六氣不調，四時不節。今我願合六氣之精以育群生，為之柰何？」
+
+鴻蒙拊脾雀躍掉頭曰：「吾弗知！吾弗知！」雲將不得問。
+
+又三年，東遊，過有宋之野而適遭鴻蒙。雲將大喜，行趨而進曰：「天忘朕邪？天忘朕邪？」再拜稽首，願聞於鴻蒙。
+
+鴻蒙曰：「浮遊，不知所求；猖狂，不知所往；遊者鞅掌，以觀无妄。朕又何知！」
+
+雲將曰：「朕也自以為猖狂，而民隨予所往；朕也不得已於民，今則民之放也。願聞一言。」
+
+鴻蒙曰：「亂天之經，逆物之情，玄天弗成；解獸之群，而鳥皆夜鳴；災及草木，禍及止蟲。意，治人之過也！」
+
+雲將曰：「然則吾柰何？」鴻蒙曰：「意，毒哉！僊僊乎歸矣。」
+
+雲將曰：「吾遇天難，願聞一言。」鴻蒙曰：「意！心養。汝徒處无為，而物自化。
+
+墮爾形體，吐爾聰明，倫與物忘；大同乎涬溟，解心釋神，莫然无魂。萬物云云，各復其根，各復其根而不知；
+
+渾渾沌沌，終身不離；若彼知之，乃是離之。无問其名，无闚其情，物故自生。」
+
+雲將曰：「天降朕以德，示朕以默；躬身求之，乃今也得。」再拜稽首，起辭而行。
+
+世俗之人，皆喜人之同乎己，而惡人之異於己也。同於己而欲之，異於己而不欲者，以出乎眾為心也。夫以出乎眾為心者，曷常出乎眾哉！
+
+因眾以寧所聞，不如眾技眾矣。而欲為人之國者，此攬乎三王之利而不見其患者也。此以人之國僥倖也，幾何僥倖而不喪人之國乎！
+
+其存人之國也，无萬分之一；而喪人之國也，一不成而萬有餘喪矣。悲夫，有土者之不知也！
+
+夫有土者，有大物也。有大物者，不可以物；物而不物，故能物物。明乎物物者之非物也，豈獨治天下百姓而已哉！
+
+出入六合，遊乎九州，獨往獨來，是謂獨有。獨有之人，是之謂至貴。
+
+大人之教，若形之於影，聲之於嚮。有問而應之，盡其所懷，為天下配。處乎无嚮，行乎无方。挈汝適復之撓撓，以遊无端；
+
+出入无旁，與日无始；頌論形軀，合乎大同，大同而无己。无已，惡乎得有有！
+
+覩有者，昔之君子；覩无者，天地之友。
+
+賤而不可不任者，物也；卑而不可不因者，民也；匿而不可不為者，事也；麤而不可不陳者，法也；
+
+遠而不可不居者，義也；親而不可不廣者，仁也；節而不可不積者，禮也；中而不可不高者，德也；一而不可不易者，道也；神而不可不為者，天也。
+
+故聖人觀於天而不助，成於德而不累，出於道而不謀，會於仁而不恃，
+
+薄於義而不積，應於禮而不諱，接於事而不辭，齊於法而不亂，恃於民而不輕，因於物而不去。
+
+物者莫足為也，而不可不為。不明於天者，不純於德；不通於道者，无自而可；不明於道者，悲夫！
+
+何謂道？有天道，有人道。无為而尊者，天道也；有為而累者，人道也。
+
+主者，天道也；臣者，人道也。天道之與人道也，相去遠矣，不可不察也。
+
+### 天地第十二
+
+天地雖大，其化均也；萬物雖多，其治一也；人卒雖眾，其主君也。君原於德而成於天，
+
+故曰：「玄古之君天下，无為也，天德而已矣。」
+
+以道觀言而天下之君正，以道觀分而君臣之義明，以道觀能而天下之官治，以道汎觀而萬物之應備。
+
+故通於天地者，德也；行於萬物者，道也；上治人者，事也；能有所藝者，技也。
+
+技兼於事，事兼於義，義兼於德，德兼於道，道兼於天。故曰：「古之畜天下者，无欲而天下足，无為而萬物化，淵靜而百姓定。」
+
+《記》曰：「通於一而萬事畢。无心得而鬼神服。」<pb:KR5c0126_CHANT_012-2a>
+
+夫子曰：「夫道覆載天地，化生萬物者也，洋洋乎大哉！君子不可以不刳心焉。无為為之之謂天，无為言之之謂德，愛人利物之謂仁，不同同之之謂大，行不崖異之謂寬，有萬不同之謂富。故執德之謂紀，德成之謂立，循於道之謂備，不以物挫志之謂完。
+
+君子明於此十者，則韜乎其事心之大也，沛乎其為萬物逝也。
+
+若然者，藏金於山，藏珠於淵，不利貨財，不近貴富；不樂壽，不哀夭：不榮通，不醜窮；
+
+不拘一世之利以為己私分，不以王天下為己處顯。顯則明，萬物一府，死生同狀。」<pb:KR5c0126_CHANT_012-3a>
+
+夫子曰：「夫道，淵乎其居也，漻乎其清也。金石不得，无以鳴。故金石有聲，不考不鳴。萬物孰能定之！
+
+夫王德之人，素逝而恥通於事，立之本原而知通於神。故其德廣，其心之出，有物採之。
+
+故形非道不生，生非德不明。存形窮生，立德明道，非王德者邪！蕩蕩乎！忽然出，勃然動，而萬物從之乎！此謂王德之人。
+
+視乎冥冥，聽乎无聲。冥冥之中，獨見曉焉；无聲之中，獨聞和焉。
+
+故深之又深而能物焉，神之又神而能精焉；故其與萬物接也，至无而供其求，時騁而要其宿，大小長短脩遠，各有其具。」
+
+黃帝遊乎赤水之北，登乎崑崙之丘而南望，還歸，遺其玄珠。使知索之而不得，使離朱索之而不得，使喫詬索之而不得也。乃使象罔，象罔得之。
+
+黃帝曰：「異哉！象罔乃可以得之乎？」<pb:KR5c0126_CHANT_012-5a>
+
+堯之師曰許由，許由之師曰齧缺，齧缺之師曰王倪，王倪之師曰被衣。
+
+堯問於許由曰：「齧缺可以配天乎？吾藉王倪以要之。」
+
+許由曰：「殆哉圾乎天下！齧缺之為人也，聰明叡知，給數以敏，其性過人，而又乃以人受天。彼審乎禁過，而不知過之所由生。
+
+與之配天乎？彼且乘人而无天，方且本身而異形，方且尊知而火馳，
+
+方且為緒使，方且為物絯，方且四顧而物應，方且應眾宜，方且與物化而未始有恆。夫何足以配天乎？
+
+雖然，有族有祖，可以為眾父，而不可以為眾父父。治，亂之率也，北面之禍也，南面之賊也。」<pb:KR5c0126_CHANT_012-6a>
+
+堯觀乎華。華封人曰：「嘻，聖人！請祝聖人，使聖人壽。」
+
+堯曰：「辭。」「使聖人富。」堯曰：「辭。」「使聖人多男子。」堯曰：「辭。」
+
+封人曰：「壽、富、多男子，人之所欲也。女獨不欲，何邪？」
+
+堯曰：「多男子則多懼，富則多事，壽則多辱。是三者，非所以養德也，故辭。」<pb:KR5c0126_CHANT_012-7a>
+
+封人曰：「始也我以女為聖人邪，今然君子也。天生萬民，必授之職。多男子而授之職，則何懼之有！富而使人分之，則何事之有！
+
+夫聖人，鶉居而鷇食，鳥行而无彰；天下有道，則與物皆昌；天下无道，則脩德就間；千歲厭世，去而上僊；乘彼白雲，至于帝鄉；
+
+三患莫至，身常无殃；則何辱之有！」
+
+封人去之。堯隨之，曰：「請問。」
+
+封人曰：「退已！」<pb:KR5c0126_CHANT_012-8a>
+
+堯治天下，伯成子高立為諸侯。堯授舜，舜授禹，伯成子高辭為諸侯而耕。禹往見之，則耕在野。
+
+禹趨就下風，立而問焉，曰：「昔堯治天下，吾子立為諸侯。堯授舜，舜授予，而吾子辭為諸侯而耕，敢問其故何也？」
+
+子高曰：「昔堯治天下，不賞而民勸，不罰而民畏。今子賞罰而民且不仁，德自此衰，刑自此立，後世之亂自此始矣。夫子闔行邪？无落吾事！」俋俋乎耕而不顧。
+
+泰初有无，无有无名；一之所起，有一而未形。物得以生，謂之德；未形者有分，且然无間，謂之命；
+
+留動而生物，物成生理，謂之形；形體保神，各有儀則，謂之性。性脩反德，德至同於初。
+
+同乃虛，虛乃大。合喙鳴；喙鳴合，與天地為合。其合緡緡，若愚若昏，是謂玄德，同乎大順。
+
+夫子問于老聃曰：「有人治道若相放，可不可，然不然。辯者有言曰，『離堅白若縣㝢。』若是則可謂聖人乎？」
+
+老聃曰：「是胥易技係勞形怵心者也。執留之狗成累，猨狙之便自山林來。丘，予告若，而所不能聞與而所不能言。
+
+凡有首有趾无心无耳者眾，有形者與无形无狀而皆存者盡无。其動，止也；其死，生也；其廢，起也。此又非其所以也。有治在人，
+
+忘乎物，忘乎天，其名為忘己。忘己之人，是之謂入於天。」<pb:KR5c0126_CHANT_012-11a>
+
+將閭葂見季徹曰：「魯君謂葂也曰：『請受教。』辭不獲命，既已告矣，未知中否，請嘗薦之。吾謂魯君曰：
+
+『必服恭儉，拔出公忠之屬而无阿私，民孰敢不輯！』」
+
+季徹局局然笑曰：「若夫子之言，於帝王之德，猶螳蜋之怒臂以當車軼，則必不勝任矣。
+
+且若是，則其自為遽，危其觀臺，多物將往，投迹者眾。」<pb:KR5c0126_CHANT_012-12a>
+
+將閭葂覤覤然驚曰：「葂也汒若於夫子之所言矣。雖然，願先生之言其風也。」
+
+季徹曰：「大聖之治天下也，搖蕩民心，使之成教易俗，舉滅其賊心而皆進其獨志，若性之自為，而民不知其所由然。
+
+若然者，豈兄堯舜之教民，溟涬然弟之哉？欲同乎德而心居矣。」<pb:KR5c0126_CHANT_012-13a>
+
+子貢南遊於楚，反於晉，過漢陰，見一丈人方將為圃畦，鑿隧而入井，抱甕而出灌，搰搰然用力甚多而見功寡。
+
+子貢曰：「有械於此，一日浸百畦，用力甚寡而見功多，夫子不欲乎？」
+
+為圃者卬而視之曰：「柰何？」曰：「鑿木為機，後重前輕，挈水若抽，數如泆湯，其名為槔。」
+
+為圃者忿然作色而笑曰：「吾聞之吾師，有機械者必有機事，有機事者必有機心。機心存於胸中，則純白不備，純白不備，則神生不定；
+
+神生不定者，道之所不載也。吾非不知，羞而不為也。」<pb:KR5c0126_CHANT_012-14a>
+
+子貢瞞然慚，俯而不對。
+
+有間，為圃者曰：「子奚為者邪？」
+
+曰：「孔丘之徒也。」
+
+為圃者曰：「子非夫博學以擬聖，於于以蓋眾，獨弦哀歌以賣名聲於天下者乎？汝方將忘汝神氣，墮汝形骸，而庶幾乎！而身之不能治，而何暇治天下乎！子往矣，无乏吾事！」
+
+子貢卑陬失色，頊頊然不自得，行三十里而後愈。
+
+其弟子曰：「向之人何為者邪？夫子何故見之變容失色，終日不自反邪？」
+
+曰：「始吾夫子以為天下一人耳，不知復有夫人也。吾聞之夫子，事求可，功求成。用力少，見功多者，聖人之道。
+
+今徒不然。執道者德全，德全者形全，形全者神全。神全者，聖人之道也。託生與民並行而不知其所之，
+
+汒乎淳備哉！功利機巧必忘夫人之心。若夫人者，非其志不之，非其心不為。雖以天下譽之，得其所謂，謷然不顧；以天下非之，失其所謂，儻然不受。
+
+天下之非譽，无益損焉，是謂全德之人哉！我之謂風波之民。」<pb:KR5c0126_CHANT_012-16a>
+
+反於魯，以告孔子。孔子曰：「彼假脩渾沌氏之術者也；識其一，而不知其二；治其內，而不治其外。
+
+夫明白入素，无為復朴，體性抱神，以遊世俗之間者，汝將固驚邪？且渾沌氏之術，予與汝何足以識之哉！」<pb:KR5c0126_CHANT_012-17a>
+
+諄芒將東之大壑，適遇苑風於東海之濱。苑風曰：「子將奚之？」
+
+曰：「將之大壑。」
+
+曰：「奚為焉？」
+
+曰：「夫大壑之為物也，注焉而不滿，酌焉而不竭；吾將遊焉。」
+
+苑風曰：「夫子无意于橫目之民乎？願聞聖治。」
+
+諄芒曰：「聖治乎？官施而不失其宜，拔舉而不失其能，畢見其情事而行其所為，行言自為而天下化，手撓顧指，四方之民莫不俱至，此之謂聖治。」<pb:KR5c0126_CHANT_012-18a>
+
+「願聞德人。」
+
+曰：「德人者，居无思，行无慮，不藏是非美惡。四海之內共利之之謂悅，共給之之為安；
+
+怊乎若嬰兒之失其母也，儻乎若行而失其道也。財用有餘而不知其所自來，飲食取足而不知其所從，此謂德人之容。」<pb:KR5c0126_CHANT_012-19a>
+
+「願聞神人。」
+
+曰：「上神乘光，與形滅亡，此謂照曠。致命盡情，天地樂而萬事銷亡，萬物復情，此之謂混冥。」<pb:KR5c0126_CHANT_012-20a>
+
+門无鬼與赤張滿稽觀於武王之師。赤張滿稽曰：「不及有虞氏乎！故離此患也。」
+
+門无鬼曰：「天下均治而有虞氏治之邪？其亂而後治之與？」<pb:KR5c0126_CHANT_012-21a>
+
+赤張滿稽曰：「天下均治之為願，而何計以有虞氏為！有虞氏之藥瘍也，禿而施髢，病而求醫。孝子操藥以脩慈父，其色燋然，聖人羞之。
+
+至德之世，不尚賢，不使能；上如標校，民如野鹿；端正而不知以為義，相愛而不知以為仁，實而不知以為忠，當而不知以為信，蠢動而相使，不以為賜。是故行而無迹，事而無傳。」<pb:KR5c0126_CHANT_012-22a>
+
+孝子不諛其親，忠臣不諂其君，臣子之盛也。親之所言而然，所行而善，則世俗謂之不肖子；君之所言而然，所行而善，則世俗謂之不肖臣。而未知此其必然邪？
+
+世俗之所謂然而然之，所謂善而善之，則不謂之道諛之人也。然則俗故嚴於親而尊於君邪？謂己道人，則勃然作色；謂己諛人，則怫然作色。而終身道人也，終身諛人也，
+
+合譬飾辭聚眾也，是終始本末不相坐。垂衣裳，設采色，動容貌，以媚一世，而不自謂道諛，
+
+與夫人之為徒，通是非，而不自謂眾人，愚之至也。知其愚者，非大愚也；知其惑者，非大惑也。
+
+大惑者，終身不解；大愚者，終身不靈。三人行而一人惑，所適者猶可致也，惑者少也；二人惑則勞而不至，惑者勝也。
+
+而今也以天下惑，予雖有祈嚮，不可得也。不亦悲乎！<pb:KR5c0126_CHANT_012-23a>
+
+大聲不入於里耳，《折楊》、《皇荂》，則嗑然而笑。是故高言不上於眾人之心，至言不出，俗言勝也。以二缶鍾惑，而所適不得矣。而今也以天下惑，予雖有祈嚮，其庸可得邪！
+
+知其不可得也而強之，又一惑也，故莫若釋之而不推。不推，誰其比憂！厲之人夜半生其子，遽取火而視之，汲汲然唯恐其似己也。
+
+百年之木，破為犧樽，青黃而文之，其斷在溝中。比犧樽於溝中之斷，則美惡有間矣，其於失性一也。跖與曾史，行義有間矣，然其失性均也。
+
+且夫失性有五：一曰五色亂目，使目不明；二曰五聲亂耳，使耳不聰；三曰五臭薰鼻，困惾中顙；四曰五味濁口，使口厲爽；五曰趣舍滑心，使性飛揚。
+
+此五者，皆生之害也。而楊墨乃始離跂自以為得，非吾所謂得也。夫得者困，可以為得乎？
+
+則鳩鴞之在於籠也，亦可以為得矣。且夫趣舍聲色以柴其內，皮弁鷸冠搢笏紳脩以約其外，
+
+內支盈於柴柵，外重纆繳，睆睆然在纆繳之中而自以為得，則是罪人交臂歷指，而虎豹在於囊檻，亦可以為得矣。
+
+### 天道第十三
+
+天道運而无所積，故萬物成；帝道運而无所積，故天下歸；聖道運而无所積，故海內服。
+
+明於天，通於聖，六通四辟於帝王之德者，其自為也，昧然无不靜者矣。聖人之靜也，非曰靜也善，故靜也；萬物无足以鐃心者，故靜也。
+
+水靜則明燭鬚眉，平中准，大匠取法焉。水靜猶明，而況精神！聖人之心靜乎！天地之鑒也，萬物之鏡也。
+
+夫虛靜恬淡寂漠无為者，天地之平而道德之至，故帝王聖人休焉。休則虛，虛則實，實者倫矣。
+
+虛則靜，靜則動，動則得矣。靜則无為，无為也則任事者責矣。无為則俞俞，俞俞者憂患不能處，年壽長矣。
+
+夫虛靜恬淡寂漠无為者，萬物之本也。明此以南鄉，堯之為君也；明此以北面，舜之為臣也。以此處上，帝王天子之德也；以此處下，玄聖素王之道也。
+
+以此退居而間游江海，山林之士服；以此進為而撫世，則功大名顯而天下一也。靜而聖，動而王，无為也而尊，樸素而天下莫能與之爭美。
+
+夫明白於天地之德者，此之謂大本大宗，與天和者也；所以均調天下，與人和者也。與人和者，謂之人樂；與天和者，謂之天樂。
+
+莊子曰：「吾師乎！吾師乎！𩐋萬物而不為戾，澤及萬世而不為仁，長於上古而不為壽，覆載天地刻彫眾形而不為巧，此之謂天樂。
+
+故曰：『知天樂者，其生也天行，其死也物化。靜而與陰同德，動而與陽同波。』
+
+故知天樂者，无天怨，无人非，无物累，无鬼責。故曰：『其動也天，其靜也地，
+
+一心定而王天下；其鬼不祟，其魂不疲，一心定而萬物服。』言以虛靜推於天地，通於萬物，此之謂天樂。
+
+天樂者，聖人之心，以畜天下也。」<pb:KR5c0126_CHANT_013-3a>
+
+夫帝王之德，以天地為宗，以道德為主，以无為為常。无為也，則用天下而有餘；有為也，則為天下用而不足。故古之人貴夫无為也。
+
+上无為也，下亦无為也，是下與上同德，下與上同德則不臣；下有為也，上亦有為也，是上與下同道，上與下同道則不主。
+
+上必无為而用天下，下必有為為天下用，此不易之道也。
+
+故古之王天下者，知雖落天地，不自慮也；辯雖彫萬物，不自說也；能雖窮海內，不自為也。
+
+天不產而萬物化，地不長而萬物育，帝王无為而天下功。故曰莫神於天，莫富於地，莫大於帝王。
+
+故曰帝王之德配天地。此乘天地，馳萬物，而用人群之道也。
+
+本在於上，末在於下；要在於主，詳在於臣。三軍五兵之運，德之末也；賞罰利害，五刑之辟，教之末也；
+
+禮法度數，刑名比詳，治之末也；鐘鼓之音，羽旄之容，樂之末也；哭泣衰絰，隆殺之服，哀之末也。此五末者，須精神之運，心術之動，然後從之者也。
+
+末學者，古人有之，而非所以先也。君先而臣從，父先而子從，兄先而弟從，長先而少從，男先而女從，夫先而婦從。
+
+夫尊卑先後，天地之行也，故聖人取象焉。天尊地卑，神明之位也；春夏先，秋冬後，四時之序也。
+
+萬物化作，萌區有狀；盛衰之殺，變化之流也。夫天地至神，而有尊卑先後之序，而況人道乎！
+
+宗廟尚親，朝廷尚尊，鄉黨尚齒，行事尚賢，大道之序也。語道而非其序者，非其道也；語道而非其道者，安取道哉！
+
+是故古之明大道者，先明天而道德次之，道德已明而仁義次之，仁義已明而分守次之，分守已明而形名次之，形名已明而因任次之，
+
+因任已明而原省次之，原省已明而是非次之，是非已明而賞罰次之。
+
+賞罰已明而愚知處宜，貴賤履位；仁賢不肖襲情，必分其能，必由其名。
+
+以此事上，以此畜下，以此治物，以此脩身，知謀不用，必歸其天，此之謂太平，治之至也。
+
+故《書》曰：「有形有名。」形名者，古人有之，而非所以先也。古之語大道者，五變而形名可舉，九變而賞罰可言也。
+
+驟而語形名，不知其本也；驟而語賞罰，不知其始也。倒道而言，迕道而說者，人之所治也，安能治人！
+
+驟而語形名賞罰，此有知治之具，非知治之道；可用於天下，不足以用天下；此之謂辯士，一曲之人也。
+
+禮法數度，刑名比詳，古人有之，此下之所以事上，非上之所以畜下也。
+
+昔者舜問於堯曰：「天王之用心何如？」
+
+堯曰：「吾不敖无告，不廢窮民，苦死者，嘉孺子而哀婦人。此吾所以用心已。」
+
+（舜曰：「美則美矣，而未大也。」
+
+堯曰：「然則何如？」
+
+舜曰：「天德而出寧，日月照而四時行，若晝夜之有經，雲行而雨施矣。」
+
+堯曰：「膠膠擾擾乎！子，天之合也；我，人之合也。」
+
+夫天地者，古之所大也，而黃帝堯舜之所共美也。故古之王天下者，奚為哉？天地而已矣。
+
+孔子西藏書於周室。子路謀曰：「由聞周之徵藏史有老聃者，免而歸居，夫子欲藏書，則試往因焉。」
+
+孔子曰：「善。」
+
+往見老聃，而老聃不許，於是繙十二經以說。
+
+老聃中其說，曰：「大謾，願聞其要。」
+
+孔子曰：「要在仁義。」<pb:KR5c0126_CHANT_013-10a>
+
+老聃曰：「請問：仁義，人之性邪？」
+
+孔子曰：「然。君子不仁則不成，不義則不生。仁義，真人之性也，又將奚為矣？」<pb:KR5c0126_CHANT_013-11a>
+
+老聃曰：「請問：何謂仁義？」
+
+孔子曰：「中心物愷，兼愛无私，此仁義之情也。」
+
+老聃曰：「意，幾乎後言！夫兼愛，不亦迂乎！无私焉，乃私也。夫子若欲使天下无失其牧乎？
+
+則天地固有常矣，日月固有明矣，星辰固有列矣，禽獸固有群矣，樹木固有立矣。夫子亦放德而行，循道而趨，已至矣；又何偈偈乎揭仁義，若擊鼓而求亡子焉？意，夫子亂人之性也！」<pb:KR5c0126_CHANT_013-12a>
+
+士成綺見老子而問曰：「吾聞夫子聖人也，吾固不辭遠道而來願見，百舍重趼而不敢息。今吾觀子，非聖人也。
+
+鼠壤有餘蔬，而棄妹，不仁也，生熟不盡於前，而積歛无崖。」
+
+老子漠然不應。
+
+士成綺明日復見，曰：「昔者吾有刺於子，今吾心正郤矣，何故也？」
+
+老子曰：「夫巧知神聖之人，吾自以為脫焉。昔者子呼我牛也而謂之牛，呼我馬也而謂之馬。
+
+苟有其實，人與之名而弗受，再受其殃。吾服也恆服，吾非以服有服。」
+
+士成綺鴈行避影，履行遂進而問：「脩身若何？」
+
+老子曰：「而容崖然，而目衝然，而顙頯然，而口闞然，而狀義然，似繫馬而止也。動而持，發也機，
+
+察而審，知巧而覩於泰，凡以為不信。邊竟有人焉，其名為竊。」<pb:KR5c0126_CHANT_013-14a>
+
+老子曰：「夫道，於大不終，於小不遺，故萬物備。廣廣乎其无不容也，淵淵乎其不可測也。形德仁義，神之末也，非至人孰能定之！
+
+夫至人有世，不亦大乎！而不足以為之累。天下奮柄而不與之偕，審乎无假而不與利遷，極物之真，能守其本，
+
+故外天地，遺萬物，而神未嘗有所困也。通乎道，合乎德，退仁義，賓禮樂，至人之心有所定矣。」<pb:KR5c0126_CHANT_013-15a>
+
+世之所貴道者書也，書不過語，語有貴也。語之所貴者意也，意有所隨。意之所隨者，不可以言傳也，
+
+而世因貴言傳書。世雖貴之哉！猶不足貴也，為其貴非其貴也。故視而可見者，形與色也；聽而可聞者，名與聲也。
+
+悲夫，世人以形色名聲為足以得彼之情！夫形色名聲果不足以得彼之情，則知者不言，言者不知，而世豈識之哉！<pb:KR5c0126_CHANT_013-16a>
+
+桓公讀書於堂上。輪扁斲輪於堂下，釋椎鑿而上，問桓公曰：“「敢問，公之所讀為何言邪？」
+
+公曰：「聖人之言也。」
+
+曰：「聖人在乎？」
+
+公曰：「已死矣。」
+
+曰：「然則君之所讀者，古人之糟魄已夫！」
+
+桓公曰：「寡人讀書，輪人安得議乎！有說則可，无說則死。」<pb:KR5c0126_CHANT_013-17a>
+
+輪扁曰：「臣也以臣之事觀之。斲輪，徐則甘而不固，疾則苦而不入。不徐不疾，得之於手，而應於心，
+
+口不能言，有數存焉於其間。臣不能以喻臣之子，臣之子亦不能受之於臣，是以行年七十而老斲輪。古之人與其不可傳也死矣，然則君之所讀者，古人之糟魄已夫！」
+
+### 天運第十四
+
+「天其運乎？地其處乎？日月其爭於所乎？孰主張是？孰維綱是？孰居无事推而行是？
+
+意者其有機緘而不得已邪？意者其運轉而不能自止邪？雲者為雨乎？雨者為雲乎？孰隆施是？
+
+孰居无事淫樂而勸是？風起北方，一西一東，有上彷徨，孰噓吸是？孰居无事而披拂是？敢問何故？」
+
+巫咸祒曰：「來！吾語女。天有六極五常，帝王順之則治，逆之則凶。
+
+九洛之事，治成德備，監照下土，天下載之，此謂上皇。」<pb:KR5c0126_CHANT_014-2a>
+
+商大宰蕩問仁於莊子。莊子曰：「虎狼，仁也。」
+
+曰：「何謂也？」
+
+莊子曰：「父子相親，何為不仁？」
+
+曰：「請問至仁。」
+
+莊子曰：「至仁无親。」
+
+大宰曰：「蕩聞之，无親則不愛，不愛則不孝。謂至仁不孝，可乎？」<pb:KR5c0126_CHANT_014-3a>
+
+莊子曰：「不然。夫至仁尚矣，孝固不足以言之。此非過孝之言也，不及孝之言也。夫南行者至於郢，北面而不見冥山，是何也？則去之遠也。
+
+故曰：以敬孝易，以愛孝難；以愛孝易，而忘親難；忘親易，使親忘我難；使親忘我易，兼忘天下難；兼忘天下易，使天下兼忘我難。
+
+夫德遺堯舜而不為也，利澤施於萬世，天下莫知也，
+
+豈直太息而言仁孝乎哉！夫孝悌仁義，忠信貞廉，此皆自勉以役其德者也，不足多也。
+
+故曰：『至貴，國爵并焉；至富，國財并焉；至願，名譽并焉。』是以道不渝。」<pb:KR5c0126_CHANT_014-4a>
+
+北門成問於黃帝曰：「帝張咸池之樂於洞庭之野，吾始聞之而懼，復聞之而怠，卒聞之而惑；蕩蕩默默，乃不自得。」
+
+帝曰：「女殆其然哉！吾奏之以人，徵之以天，行之以禮義，建之以太清。夫至樂者，先應之以人事，順之以天理，（行之以五德，應之以自然，然後調理四時，太和萬物。
+
+四時迭起，萬物循生；一盛一衰，文武倫經；一清一濁，陰陽調和，流光其聲；蟄蟲始作，吾驚之以雷霆；
+
+其卒无尾，其始无首；一死一生，一僨一起；所常无窮，而一不可待。女故懼也。
+
+「吾又奏之以陰陽之和，燭之以日月之明；其聲能短能長，能柔能剛；變化齊一，不主故常；在谷滿谷，在阬滿阬；塗郤守神，以物為量。
+
+其聲揮綽，其名高明。是故鬼神守其幽，日月星辰行其紀。
+
+吾止之於有窮，流之於无止。予欲慮之而不能知也，望之而不能見也，逐之而不能及也；
+
+儻然立於四虛之道，倚於槁梧而吟。目知窮乎所欲見，力屈乎所欲逐，吾既不及已夫！形充空虛，乃至委蛇。女委蛇，故怠。
+
+「吾又奏之以无怠之聲，調之以自然之命，故若混逐叢生，林樂而无形；布揮而不曳，幽昏而无聲。
+
+動於无方，居於窈冥；或謂之死，或謂之生；或謂之實，或謂之榮；行流散徙，不主常聲。
+
+世疑之，稽於聖人。聖也者，達於情而遂於命也。天機不張而五官皆備，此之謂天樂，
+
+无言而心說。故有焱氏為之頌曰：『聽之不聞其聲，視之不見其形，充滿天地，苞裹六極。』女欲聽之而无接焉，而故惑也。
+
+樂也者，始於懼，懼故祟；吾又次之以怠，怠故遁；卒之於惑，惑故愚；愚故道，道可載而與之俱也。」<pb:KR5c0126_CHANT_014-7a>
+
+孔子西遊於衛。顏淵問師金曰：「以夫子之行為奚如？」
+
+師金曰：「惜乎，而夫子其窮哉！」
+
+顏淵曰：「何也？」
+
+師金曰：「夫芻狗之未陳也，盛以篋衍，巾以文繡，尸祝齊戒以將迎之。及其已陳也，行者踐其首脊，蘇者取而爨之而已；
+
+將復取而盛以篋衍，巾以文繡，遊居寢臥其下，彼不得夢，必且數眯焉。
+
+今而夫子，亦取先王已陳芻狗，取弟子遊居寢臥其下。故伐樹於宋，削迹於衛，窮於商周，是非其夢邪？
+
+圍於陳蔡之間，七日不火食，死生相與鄰，是非其眯邪？
+
+夫水行莫如用舟，而陸行莫如用車。以舟之可行於水也而求推之於陸，則沒世不行尋常。古今非水陸與？周魯非舟車與？
+
+今蘄行周於魯，是猶推舟於陸也，勞而无功，身必有殃。彼未知夫无方之傳，應物而不窮者也。
+
+「且子獨不見夫桔槔者乎？引之則俯，舍之則仰。彼，人之所引，非引人也，故俯仰而不得罪於人。
+
+故夫三皇五帝之禮義法度，不矜於同而矜於治。故譬三皇五帝之禮義法度，其猶柤棃橘柚邪！其味相反，而皆可於口。
+
+故禮義法度者，應時而變者也。今取猨狙而衣以周公之服，彼必齕齧挽裂，盡去而後慊。觀古今之異，猶猨狙之異乎周公也。
+
+故西施病心而矉其里，其里之醜人見而美之，歸亦捧心而矉其里。其里之富人見之，堅閉門而不出，貧人見之，挈妻子而去之走。
+
+彼知美矉而不知矉之所以美。惜乎，而夫子其窮哉！」<pb:KR5c0126_CHANT_014-9a>
+
+孔子行年五十有一而不聞道，乃南之沛見老聃。
+
+老聃曰：「子來乎？吾聞子，北方之賢者也，子亦得道乎？」孔子曰：「未得也。」
+
+老子曰：「子惡乎求之哉？」
+
+曰：「吾求之於度數，五年而未得也。」
+
+老子曰：「子又惡乎求之哉？」
+
+曰：「吾求之於陰陽，十有二年而未得。」<pb:KR5c0126_CHANT_014-10a>
+
+老子曰：「然。使道而可獻，則人莫不獻之於其君；使道而可進，則人莫不進之於其親；使道而可以告人，則人莫不告其兄弟；使道而可以與人，則人莫不與其子孫。
+
+然而不可者，无他也，中无主而不止，外无匹而不行。由中出者，不受於外，聖人不出；由外入者，无主於中，聖人不隱。
+
+名，公器也，不可多取。仁義，先王之蘧廬也，止可以一宿，而不可久處，覯而多責。
+
+「古之至人，假道於仁，託宿於義，以遊逍遙之虛，食於苟簡之田，立於不貸之圃。逍遙，无為也；苟簡，易養也；不貸，无出也。古者謂是采真之遊。
+
+以富為是者，不能讓祿；以顯為是者，不能讓名；親權者，不能與人柄。操之則慄，舍之則悲，而一无所鑒，以闚其所不休者，是天之戮民也。
+
+怨恩取與諫教生殺，八者，正之器也，唯循大變无所湮者為能用之。
+
+故曰：正者，正也。其心以為不然者，天門弗開矣。」<pb:KR5c0126_CHANT_014-12a>
+
+孔子見老聃而語仁義。老聃曰：「夫播穅眯目，則天地四方易位矣；蚊虻噆膚，則通昔不寐矣。夫仁義憯然乃憤吾心，亂莫大焉。
+
+吾子使天下无失其朴，吾子亦放風而動，揔德而立矣，又奚傑傑然揭仁義若負建鼓而求亡子者邪？夫鵠不日浴而白，烏不日黔而黑。
+
+黑白之朴，不足以為辯；名譽之觀，不足以為廣。泉涸，魚相與處於陸，相吻以濕，相濡以沫，不若相忘於江湖！」<pb:KR5c0126_CHANT_014-13a>
+
+孔子見老聃歸，三日不談。弟子問曰：「夫子見老聃，亦將何規哉？」
+
+孔子曰：「吾乃今於是乎見龍！龍，合而成體，散而成章，乘乎雲氣而養乎陰陽。予口張而不能嗋，舌舉而不能訒，予又何規老聃哉！」
+
+子貢曰：「然則人固有尸居而龍見，雷聲而淵默，發動如天地者乎？賜亦可得而觀乎？」
+
+遂以孔子聲見老聃，老聃方將倨堂而應，微曰：「予年運而往矣，子將何以戒我乎？」
+
+子貢曰：「夫三王五帝之治天下不同，其係聲名一也。而先生獨以為非聖人，如何哉？」
+
+老聃曰：「小子少進！子何以謂不同？」
+
+對曰：「堯授舜，舜授禹，禹用力而湯用兵，文王順紂而不敢逆，武王逆紂而不肯順，故曰不同。」<pb:KR5c0126_CHANT_014-14a>
+
+老聃曰：「小子少進！余語女三王五帝之治天下。黃帝之治天下，使民心一，民有其親死不哭而民不非也。
+
+堯之治天下，使民心親，民有為其親殺其殺，而民不非也。舜之治天下，使民心競，民孕婦十月生子，子生五月而能言，不至乎孩而始誰，
+
+則人始有夭矣。禹之治天下，使民心變，人有心而兵有順，殺盜非殺，人自為種而天下耳，是以天下大駭，儒墨皆起。其作始有倫，而今乎婦女，何言哉！
+
+余語女，三皇五帝之治天下，名曰治之，而亂莫甚焉。
+
+三皇之知，上悖日月之明，下睽山川之精，中墮四時之施。其知憯於𧓽蠆之尾，鮮規之獸，莫得安其性命之情者，而猶自以為聖人，不可恥乎，其无恥也？」
+
+子貢蹴蹴然立不安。
+
+孔子謂老聃曰：「丘治《詩》、《書》、《禮》、《樂》、《易》、《春秋》六經，自以為久矣，孰知其故矣；
+
+以奸者七十二君，論先王之道而明周召之迹，一君无所鉤用。甚矣夫！人之難說也，道之難明邪！」<pb:KR5c0126_CHANT_014-16a>
+
+老子曰：「幸矣，子之不遇治世之君也！夫《六經》，先王之陳迹也，豈其所以迹哉！今子之所言，猶迹也。夫迹，履之所出，而迹豈履哉！
+
+夫白鶂之相視，眸子不運而風化；蟲，雄鳴於上風，雌應於下風而化；
+
+類自為雌雄，故風化。性不可易，命不可變，時不可止，道不可壅。苟得於道，无自而不可；失焉者，无自而可。」<pb:KR5c0126_CHANT_014-17a>
+
+孔子不出三月，復見曰：「丘得之矣。烏鵲孺，魚傅沫，細要者化，有弟而兄啼。久矣夫丘不與化為人！不與化為人，安能化人！」
+
+老子曰：「可。丘得之矣！」
+
+### 刻意第十五
+
+刻意尚行，離世異俗，高論怨誹，為亢而已矣；此山谷之士，非世之人，枯槁赴淵者之所好也。
+
+語仁義忠信，恭儉推讓，為脩而已矣；此平世之士，教誨之人，遊居學者之所好也。語大功，立大名，禮君臣，正上下，為治而已矣，此朝廷之士，尊主彊國之人，致功并兼者之所好也。
+
+就藪澤，處間曠，釣魚閒處，無為而已矣；此江海之士，避世之人，間暇者之所好也。
+
+吹呴呼吸，吐故納新，熊經鳥申，為壽而已矣；此道引之士，養形之人，彭祖壽考者之所好也。
+
+若夫不刻意而高，無仁義而脩，無功名而治，無江海而閒，不道引而壽，無不忘也，無不有也，澹然無極而眾美從之。此天地之道，聖人之德也。
+
+故曰：夫恬惔寂漠虛無無為，此天地之平而道德之質也。故曰：聖人休焉，休則平易矣，平易則恬惔矣。平易恬惔，則憂患不能入，邪氣不能襲，故其德全而神不虧。
+
+故曰：聖人之生也天行，其死也物化；靜而與陰同德，動而與陽同波；不為福先，不為禍始；感而後應，迫而後動，不得已而後起。
+
+去知與故，循天之理。故無天災，無物累，無人非，無鬼責。其生若浮，其死若休。
+
+不思慮，不豫謀。光矣而不耀，信矣而不期。其寢不夢，其覺無憂。其神純粹，其魂不罷。虛無恬惔，乃合天德。
+
+故曰：悲樂者，德之邪；喜怒者，道之過；好惡者，德之失。
+
+故心不憂樂，德之至也；一而不變，靜之至也；无所於忤，虛之至也；不與物交，淡之至也；无所於逆，粹之至也。故曰：形勞而不休則弊，精用而不已則勞，勞則竭。
+
+水之性，不雜則清，莫動則平；鬱閉而不流，亦不能清；天德之象也。故曰：純粹而不雜，靜一而不變，淡而无為，動而以天行，此養神之道也。
+
+夫有干越之劍者，柙而藏之，不敢用也，寶之至也。精神四達並流，无所不極，上際於天，下蟠於地，化育萬物，不可為象，其名為同帝。
+
+純素之道，唯神是守；守而勿失，與神為一；一之精通，合于天倫。野語有之曰：「眾人重利，廉士重名，賢士尚志，聖人貴精。」
+
+故素也者，謂其無所與雜也；純也者，謂其不虧其神也。能體純素，謂之真人。
+
+### 繕性第十六
+
+繕性於俗，俗學以求復其初；滑欲於俗，思以求致其明；謂之蔽蒙之民。
+
+古之治道者，以恬養知；生而无以知為也，謂之以知養恬。知與恬交相養，而和理出其性。
+
+夫德，和也；道，理也。德无不容，仁也；道无不理，義也；義明而物親，忠也；中純實而反乎情，樂也；信行容體而順乎文，禮也。
+
+禮樂徧行，則天下亂矣。彼正而蒙己德，德則不冒，冒則物必失其性也。
+
+古之人，在混芒之中，與一世而得澹漠焉。當是時也，陰陽和靜，鬼神不擾，四時得節，萬物不傷，群生不夭，
+
+人雖有知，无所用之，此之謂至一。當是時也，莫之為而常自然。
+
+逮德下衰，及燧人伏戲始為天下，是故順而不一。德又下衰，及神農、黃帝始為天下，是故安而不順。
+
+德又下衰，及唐虞始為天下，興治化之流，𣻏淳散朴，離道以善，險德以行，然後去性而從於心。心與心識知而不足以定天下，
+
+然後附之以文，益之以博。文滅質，博溺心，然後民始惑亂，无以反其性情而復其初。
+
+由是觀之，世喪道矣，道喪世矣。世與道交相喪也，道之人何由興乎世，世亦何由興乎道哉！道无以興乎世，世无以興乎道，雖聖人不在山林之中，其德隱矣。隱故不自隱。
+
+古之所謂隱士者，非伏其身而弗見也，非閉其言而不出也，非藏其知而不發也，
+
+時命大謬也。當時命而大行乎天下，則反一無迹；不當時命而大窮乎天下，則深根寧極而待；此存身之道也。
+
+古之存身者，不以辯飾知，不以知窮天下，不以知窮德，危然處其所而反其性，己又何為哉！道固不小行，德固不小識。
+
+小識傷德，小行傷道。故曰：正己而已矣。樂全之謂得志。
+
+古之所謂得志者，非軒冕之謂也，謂其无以益其樂而已矣。今之所謂得志者，軒冕之謂也。軒冕在身，非性命也，
+
+物之儻來，寄也。寄之，其來不可圉，其去不可止。故不為軒冕肆志，不為窮約趨俗，其樂彼與此同，故无憂而已矣。
+
+今寄去則不樂，由是觀之，雖樂，未嘗不荒也。故曰：喪己於物，失性於俗者，謂之倒置之民。
+
+### 秋水第十七
+
+秋水時至，百川灌河，涇流之大，兩涘渚崖之間，不辯牛馬。於是焉河伯欣然自喜，以天下之美為盡在己。順流而東行，至於北海，東面而視，不見水端，
+
+於是焉河伯始旋其面目，望洋向若而歎曰：「野語有之曰：『聞道百，以為莫己若』者，我之謂也。
+
+且夫我嘗聞少仲尼之聞而輕伯夷之義者，始吾弗信；今我睹子之難窮也，吾非至於子之門則殆矣，吾長見笑於大方之家。」<pb:KR5c0126_CHANT_017-2a>
+
+北海若曰：「井鼃不可以語於海者，拘於虛也；夏蟲不可以語於冰者，篤於時也；曲士不可以語於道者，束於教也。
+
+今爾出於崖涘，觀於大海，乃知爾醜，爾將可與語大理矣。天下之水，莫大於海，萬川歸之，不知何時止而不盈；尾閭泄之，不知何時已而不虛；
+
+春秋不變，水旱不知。此其過江河之流，不可為量數。而吾未嘗以此自多者，自以比形於天地而受氣於陰陽，吾在於天地之間，猶小石小木之在大山也，方存乎見少，又奚以自多！
+
+計四海之在天地之間也，不似礨空之在大澤乎？計中國之在海內，不似稊米之在太倉乎？號物之數謂之萬，人處一焉；
+
+人卒九州，穀食之所生，舟車之所通，人處一焉；此其比萬物也，不似豪末之在於馬體乎？
+
+五帝之所連，三王之所爭，仁人之所憂，任士之所勞，盡此矣。伯夷辭之以為名，仲尼語之以為博，此其自多也，不似爾向之自多於水乎？」<pb:KR5c0126_CHANT_017-3a>
+
+河伯曰：「然則吾大天地而小豪末，可乎？」
+
+北海若曰：「否。量夫物，无窮，時无止，分无常，終始无故。是故大知觀於遠近，故小而不寡，大而不多，知量无窮；
+
+證曏今故，故遙而不悶，掇而不跂，知時无止；察乎盈虛，故得而不喜，失而不憂，知分之无常也；明乎坦塗，故生而不說，死而不禍，知終始之不可故也。
+
+計人之所知，不若其所不知；其生之時，不若未生之時；以其至小求窮其至大之域，是故迷亂而不能自得也。由此觀之，又何以知豪末之足以定至細之倪！又何以知天地之足以窮至大之域！」<pb:KR5c0126_CHANT_017-4a>
+
+河伯曰：「世之議者皆曰：『至精无形，至大不可圍。』是信情乎？」
+
+北海若曰：「夫自細視大者不盡，自大視細者不明。夫精，小之微也；垺，大之殷也；故異便。
+
+此勢之有也。夫精粗者，期於有形者也；无形者，數之所不能分也；不可圍者，數之所不能窮也。可以言論者，物之粗也；可以意致者，物之精也；
+
+言之所不能論，意之所不能察致者，不期精粗焉。
+
+是故大人之行，不出乎害人，不多仁恩；動不為利，不賤門隸；貨財弗爭，不多辭讓；事焉不借人，不多食乎力，不賤貪汙；
+
+行殊乎俗，不多辟異；為在從眾，不賤佞諂；世之爵祿不足以為勸，戮恥不足以為辱；知是非之不可為分，細大之不可為倪。聞曰：『道人不聞，至德不得，大人无己。』約分之至也。」<pb:KR5c0126_CHANT_017-5a>
+
+河伯曰：「若物之外，若物之內，惡至而倪貴賤？惡至而倪小大？」
+
+北海若曰：「以道觀之，物无貴賤；以物觀之，自貴而相賤；以俗觀之，貴賤不在己。以差觀之，因其所大而大之，則萬物莫不大；因其所小而小之，則萬物莫不小；
+
+知天地之為稊米也，知豪末之為丘山也，則差數覩矣。以功觀之，因其所有而有之，則萬物莫不有；因其所无而无之，則萬物莫不无；知東西之相反而不可以相无，則功分定矣。
+
+以趣觀之，因其所然而然之，則萬物莫不然；因其所非而非之，則萬物莫不非；知堯桀之自然而相非，則趣操覩矣。
+
+「昔者堯舜讓而帝，之噲讓而絕；湯武爭而王，白公爭而滅。由此觀之，爭讓之禮，堯桀之行，貴賤有時，未可以為常也。
+
+梁麗可以衝城，而不可以窒穴，言殊器也；騏驥驊騮，一日而馳千里，捕鼠不如狸狌，言殊技也；鴟鵂夜撮蚤，察豪末，晝出瞋目而不見丘山，言殊性也。
+
+故曰：蓋師是而无非，師治而无亂乎？是未明天地之理，萬物之情者也。是猶師天而无地，師陰而无陽，其不可行明矣。然且語而不舍，非愚則誣也。
+
+帝王殊禪，三代殊繼。差其時，逆其俗者，謂之篡之夫；當其時，順其俗者，謂之義之徒。默默乎河伯！女惡知貴賤之門，小大之家！」<pb:KR5c0126_CHANT_017-7a>
+
+河伯曰：「然則我何為乎，何不為乎？吾辭受趣舍，吾終柰何？」
+
+北海若曰：「以道觀之，何貴何賤，是謂反衍；无拘而志，與道大蹇。何少何多，是謂謝施；
+
+无一而行，與道參差。嚴嚴乎若國之有君，其无私德；繇繇乎若祭之有社，其无私福；泛泛乎（其）若四方之无窮，其无所畛域。兼懷萬物，其孰承翼？是謂无方。
+
+萬物一齊，孰短孰長？道无終始，物有死生，不恃其成；一虛一滿，不位乎其形。年不可舉，時不可止；消息盈虛，終則有始。是所以語大義之方，論萬物之理也。
+
+物之生也，若驟若馳，无動而不變，无時而不移。何為乎，何不為乎？夫固將自化！」<pb:KR5c0126_CHANT_017-8a>
+
+河伯曰：「然則何貴於道邪？」
+
+北海若曰：「知道者必達於理，達於理者必明於權，明於權者不以物害己。至德者，火弗能熱，水弗能溺，寒暑弗能害，禽獸弗能賊。
+
+非謂其薄之也，言察乎安危，寧於禍福，謹於去就，莫之能害也。故曰：天在內，人在外，德在乎天。
+
+知夫人之行，本乎天，位乎得；蹢䠱而屈伸，反要而語極。」
+
+曰：「何謂天，何謂人？」
+
+北海若曰：「牛馬四足，是謂天；落馬首，穿牛鼻，是謂人。故曰：无以人滅天，无以故滅命，无以得殉名。謹守而勿失，是謂反其真。」<pb:KR5c0126_CHANT_017-9a>
+
+夔憐蚿，蚿憐蛇，蛇憐風，風憐目，目憐心。
+
+夔謂蚿曰：「吾以一足趻踔而行，予无如矣。今子之使萬足，獨柰何？」
+
+蚿曰：「不然。子不見夫唾者乎？噴則大者如珠，小者如霧，雜而下者不可勝數也。今予動吾天機，而不知其所以然。」
+
+蚿謂蛇曰：「吾以眾足行，而不及子之无足，何也？」
+
+蛇曰：「夫天機之所動，何可易邪？吾安用足哉！」<pb:KR5c0126_CHANT_017-10a>
+
+蛇謂風曰：「予動吾脊脅而行，則有似也。今子蓬蓬然起於北海，蓬蓬然入於南海，而似无有，何也？」
+
+風曰：「然。予蓬蓬然起於北海而入於南海也，然而指我則勝我，鰌我亦勝我。雖然，夫折大木，蜚大屋者，唯我能也，故以眾小不勝為大勝也。為大勝者，唯聖人能之。」<pb:KR5c0126_CHANT_017-11a>
+
+孔子遊於匡，宋人圍之數匝，而弦歌不惙，子路入見，曰：「何夫子之娛也？」
+
+孔子曰：「來！吾語女。我諱窮久矣，而不免，命也；求通久矣，而不得，時也。當堯、舜而天下无窮人，非知得也；
+
+當桀、紂而天下无通人，非知失也；時勢適然。夫水行不避蛟龍者，漁父之勇也；陸行不避兕虎者，獵夫之勇也；
+
+白刃交於前，視死若生者，烈士之勇也；知窮之有命，知通之有時，臨大難而不懼者，聖人之勇也。由處矣，吾命有所制矣。」
+
+无幾何，將甲者進，辭曰：「以為陽虎也，故圍之。今非也，請辭而退。」<pb:KR5c0126_CHANT_017-12a>
+
+公孫龍問於魏牟曰：「龍少學先王之道，長而明仁義之行；合同異，離堅白；然不然，可不可；困百家之知，窮眾口之辯；
+
+吾自以為至達已。今吾聞莊子之言，汒焉異之。不知論之不及與，知之弗若與？今吾无所開吾喙，敢問其方。」<pb:KR5c0126_CHANT_017-13a>
+
+公子牟隱机大息，仰天而笑曰：「子獨不聞夫埳井之鼃乎？謂東海之鱉曰：『吾樂與！吾跳梁乎井幹之上，入休乎缺甃之崖；赴水則接掖持頤，蹶泥則沒足滅跗；
+
+還虷蟹與科斗，莫吾能若也。且夫擅一壑之水，而跨跱埳井之樂，此亦至矣，夫子奚不時來入觀乎！』東海之鱉左足未入，而右膝已縶矣。
+
+於是逡巡而卻，告之曰：『夫海千里之遠，不足以舉其大；千仞之高，不足以極其深。禹之時十年九潦，而水弗為加益；湯之時八年七旱，而崖不為加損。
+
+夫不為頃久推移，不以多少進退者，此亦東海之大樂也。』於是埳井之鼃聞之，適適然驚，規規然自失也。
+
+「且夫知不知是非之竟，而猶欲觀於莊子之言，是猶使蚊負山，商蚷馳河也，必不勝任矣。且夫知不知論極妙之言而自適一時之利者，是非埳井之鼃與？
+
+且彼方跐黃泉而登大皇，无南无北，奭然四解，淪於不測；无東无西，始於玄冥，反於大通。子乃規規然而求之以察，索之以辯，是直用管闚天，用錐指地也，不亦小乎！子往矣！
+
+且子獨不聞夫壽陵餘子之學行於邯鄲與？未得國能，又失其故行矣，直匍匐而歸耳。今子不去，將忘子之故，失子之業。」
+
+公孫龍口呿而不合，舌舉而不下，乃逸而走。
+
+莊子釣於濮水，楚王使大夫二人往先焉，曰：「願以竟內累矣！」
+
+莊子持竿不顧，曰：「吾聞楚有神龜，死已三千歲矣，王巾笥而藏之廟堂之上。此龜者，寧其死為留骨而貴乎？寧其生而曳尾於塗中乎？」
+
+二大夫曰：「寧生而曳尾塗中。」
+
+莊子曰：「往矣！吾將曳尾於塗中。」<pb:KR5c0126_CHANT_017-16a>
+
+惠子相梁，莊子往見之。或謂惠子曰：「莊子來，欲代子相。」於是惠子恐，搜於國中三日三夜。
+
+莊子往見之，曰：「南方有鳥，其名鵷鶵，子知之乎？夫鵷鶵，發於南海而飛於北海，非梧桐不止，非練實不食，非醴泉不飲。
+
+於是鴟得腐鼠，鵷鶵過之，仰而視曰：『嚇！』今子欲以子之梁國而嚇我邪？」<pb:KR5c0126_CHANT_017-17a>
+
+莊子與惠子遊於濠梁之上。莊子曰：「儵魚出游從容，是魚樂也。」
+
+惠子曰：“「子非魚，安知魚之樂？」
+
+莊子曰：「子非我，安知我不知魚之樂？」
+
+惠子曰：「我非子，固不知子矣；子固非魚也，子之不知魚之樂，全矣。」
+
+莊子曰：「請循其本，子曰『女安知魚樂』云者，既已知吾知之而問我，我知之濠上也。」
+
+### 至樂第十八
+
+天下有至樂无有哉？有可以活身者无有哉？今奚為奚據？奚避奚處？奚就奚去？奚樂奚惡？
+
+夫天下之所尊者，富貴壽善也；所樂者，身安厚味美服好色音聲也；所下者，貧賤夭惡也；所苦者，身不得安逸，口不得厚味，形不得美服，目不得好色，耳不得音聲；
+
+若不得者，則大憂以懼。其為形也亦愚哉！<pb:KR5c0126_CHANT_018-2a>
+
+夫富者，苦身疾作，多積財而不得盡用，其為形也亦外矣。夫貴者，夜以繼日，思慮善否，其為形也亦䟽矣。人之生也，與憂俱生，壽者惽惽，久憂不死，何之苦也！其為形也亦遠矣。
+
+列士為天下見善矣，未足以活身。吾未知善之誠善邪，誠不善邪？
+
+若以為善矣，不足活身；以為不善矣，足以活人。故曰：「忠諫不聽，蹲循勿爭。」故夫子胥爭之以殘其形，不爭，名亦不成。誠有善无有哉？<pb:KR5c0126_CHANT_018-3a>
+
+今俗之所為與其所樂，吾又未知樂之果樂邪，果不樂邪？吾觀夫俗之所樂，舉群趣者，誙誙然如將不得已，而皆曰樂者，吾未之樂也，亦未之不樂也。
+
+果有樂无有哉？吾以无為誠樂矣，又俗之所大苦也。故曰：「至樂无樂，至譽无譽。」<pb:KR5c0126_CHANT_018-4a>
+
+天下是非果未可定也。雖然，无為可以定是非。至樂活身，唯无為幾存。請嘗試言之。天无為以之清，地无為以之寧，故兩无為相合，萬物皆化生。
+
+芒乎芴乎，而无從出乎！芴乎芒乎，而无有象乎！萬物職職，皆從无為殖。故曰：天地无為也，而无不為也，人也孰能得无為哉！<pb:KR5c0126_CHANT_018-5a>
+
+莊子妻死，惠子弔之，莊子則方箕踞鼓盆而歌。
+
+惠子曰：「與人居，長子老身，死不哭亦足矣，又鼓盆而歌，不亦甚乎！」
+
+莊子曰：「不然。是其始死也，我獨何能无概然！察其始而本无生，非徒无生也而本无形，非徒无形也而本无氣。
+
+雜乎芒芴之間，變而有氣，氣變而有形，形變而有生，今又變而之死，是相與為春秋冬夏四時行也。人且偃然寢於巨室，而我噭噭然隨而哭之，自以為不通乎命，故止也。」<pb:KR5c0126_CHANT_018-6a>
+
+支離叔與滑介叔觀於冥伯之丘，崑崙之虛，黃帝之所休。俄而柳生其左肘，其意蹶蹶然惡之。
+
+支離叔曰：「子惡之乎？」滑介叔曰：「亡，予何惡！生者，假借也；假之而生生者，塵垢也。死生為晝夜。且吾與子觀化而化及我，我又何惡焉！」<pb:KR5c0126_CHANT_018-7a>
+
+莊子之楚，見空髑髏，髐然有形，撽以馬捶，因而問之，曰：「夫子貪生失理，而為此乎？將子有亡國之事，斧鉞之誅，而為此乎？
+
+將子有不善之行，愧遺父母妻子之醜，而為此乎？將子有凍餒之患，而為此乎？將子之春秋故及此乎？」
+
+於是語卒，援髑髏，枕而臥。夜半，髑髏見夢曰：「子之談者似辯士，諸子所言，皆生人之累也，死則无此矣。子欲聞死之說乎？」
+
+莊子曰：「然。」
+
+髑髏曰：「死，无君於上，无臣於下；亦无四時之事，從然以天地為春秋，雖南面王樂，不能過也。」
+
+莊子不信，曰：「吾使司命復生子形，為子骨肉肌膚，反子父母妻子閭里知識，子欲之乎？」
+
+髑髏深矉蹙頞曰：「吾安能棄南面王樂，而復為人間之勞乎！」<pb:KR5c0126_CHANT_018-8a>
+
+顏淵東之齊，孔子有憂色。子貢下席而問曰：「小子敢問，回東之齊，夫子有憂色，何邪？」<pb:KR5c0126_CHANT_018-9a>
+
+孔子曰：「善哉女問！昔者管子有言，丘甚善之，曰：『褚小者不可以懷大，綆短者不可以汲深。』夫若是者，以為命有所成，而形有所適也，
+
+夫不可損益。吾恐回與齊侯言堯舜黃帝之道，而重以燧人神農之言。彼將內求於己而不得，不得則惑，人惑則死。
+
+且女獨不聞邪？昔者海鳥止於魯郊，魯侯御而觴之于廟，奏《九韶》以為樂，具太牢以為膳。鳥乃眩視憂悲，不敢食一臠，不敢飲一杯，三日而死。
+
+此以己養養鳥也，非以鳥養養鳥也。夫以鳥養養鳥者，宜栖之深林，遊之壇陸，浮之江湖，食之鰌䱔，隨行列而止，委蛇而處。彼唯人言之惡聞，奚以夫譊譊為乎！
+
+《咸池》、《九韶》之樂，張之洞庭之野，鳥聞之而飛，獸聞之而走，魚聞之而下入，人卒聞之，相與還而觀之。魚處水而生，人處水而死，
+
+彼必相與異其好惡，故異也。故先聖不一其能，不同其事。名止於實，義設於適，是之謂條達而福持。」<pb:KR5c0126_CHANT_018-10a>
+
+列子行食於道從，見百歲髑髏，攓蓬而指之曰：「唯予與女知而未嘗死，未嘗生也。若果養乎？予果歡乎？」
+
+種有幾？得水則為㡭，得水土之際則為鼃蠙之衣，生於陵屯則為陵舄，陵舄得鬱棲則為烏足，烏足之根為蠐螬，其葉為胡蝶。胡蝶胥也化而為蟲，生於竈下，其狀若脫，其名為鴝掇。
+
+鴝掇千日為鳥，其名為乾餘骨。乾餘骨之沫為斯彌，斯彌為食醯。頤輅生乎食醯，黃軦生乎九猷，瞀芮生乎腐蠸。羊奚比乎不筍，久竹生青寧；
+
+青寧生程，程生馬，馬生人，人又反入於機。萬物皆出於機，皆入於機。
+
+### 達生第十九
+
+達生之情者，不務生之所无以為；達命之情者，不務知之所无奈何。養形必先之以物，物有餘而形不養者有之矣；
+
+有生必先无離形，形不離而生亡者有之矣。生之來不能卻，其去不能止。悲夫！世之人以為養形足以存生；
+
+而養形果不足以存生，則世奚足為哉！雖不足為而不可不為者，其為不免矣。
+
+夫欲免為形者，莫如棄世。棄世則无累，无累則正平，正平則與彼更生，更生則幾矣。
+
+事奚足棄而生奚足遺？棄事則形不勞，遺生則精不虧。夫形全精復，與天為一。
+
+天地者，萬物之父母也，合則成體，散則成始。形精不虧，是謂能移；精而又精，反以相天。
+
+子列子問關尹曰：「至人潛行不窒，蹈火不熱，行乎萬物之上而不慄。請問何以至於此？」
+
+關尹曰：「是純氣之守也，非知巧果敢之列。居，予語汝！凡有貌象聲色者，皆物也，物何以相遠？夫奚足以至乎先？是色而已。
+
+則物之造乎不形而止乎无所化，夫得是而窮之者，物焉得而止焉！彼將處乎不淫之度，而藏乎无端之紀，遊乎萬物之所終始，壹其性，養其氣，合其德，以通乎物之所造。
+
+夫若是者，其天守全，其神无郤，物奚自入焉！<pb:KR5c0126_CHANT_019-4a>
+
+「夫醉者之墜車，雖疾不死。骨節與人同而犯害與人異，其神全也，乘亦不知也，墜亦不知也，死生驚懼不入乎其胸中，是故遌物而不慴。
+
+彼得全於酒而猶若是，而況得全於天乎？聖人藏於天，故莫之能傷也。
+
+復讎者不折鏌干，雖有忮心者不怨飄瓦，是以天下平均。故无攻戰之亂，无殺戮之刑者，由此道也。
+
+不開人之天，而開天之天，開天者德生，開人者賊生。不厭其天，不忽於人，民幾乎以其真！」<pb:KR5c0126_CHANT_019-5a>
+
+仲尼適楚，出於林中，見痀僂者承蜩，猶掇之也。
+
+仲尼曰：「子巧乎！有道邪？」
+
+曰：「我有道也。五六月累丸二而不墜，則失者錙銖；累三而不墜，則失者十一；累五而不墜，猶掇之也。
+
+吾處身也，若橛株拘；吾執臂也，若槁木之枝；雖天地之大，萬物之多，而唯蜩翼之知。吾不反不側，不以萬物易蜩之翼，何為而不得！」
+
+孔子顧謂弟子曰：「用志不分，乃凝於神，其痀僂丈人之謂乎！」<pb:KR5c0126_CHANT_019-6a>
+
+顏淵問仲尼曰：「吾嘗濟乎觴深之淵，津人操舟若神。吾問焉，曰：『操舟可學邪？』曰：『可。善游者數能。
+
+若乃夫沒人，則未嘗見舟而便操之也。』吾問焉而不吾告，敢問何謂也？」
+
+仲尼曰：「善游者數能，忘水也。若乃夫沒人之未嘗見舟而便操之也，彼視淵若陵，視舟之覆猶其車卻也。覆卻萬方陳乎前而不得入其舍，惡往而不暇！
+
+以瓦注者巧，以鉤注者憚，以黃金注者殙。其巧一也，而有所矜，則重外也。凡外重者內拙。」<pb:KR5c0126_CHANT_019-7a>
+
+田開之見周威公。威公曰：「吾聞祝腎學生，吾子與祝腎遊，亦何聞焉？」
+
+田開之曰：「開之操拔篲以侍門庭，亦何聞於夫子！」
+
+威公曰：「田子无讓，寡人願聞之。」
+
+開之曰：「聞之夫子曰：『善養生者，若牧羊然，視其後者而鞭之。』」
+
+威公曰：「何謂也？」<pb:KR5c0126_CHANT_019-8a>
+
+田開之曰：「魯有單豹者，巖居而水飲，不與民共利，行年七十而猶有嬰兒之色；不幸遇餓虎，餓虎殺而食之。有張毅者，高門縣薄，无不走也，
+
+行年四十而有內熱之病以死。豹養其內而虎食其外，毅養其外而病攻其內，此二子者，皆不鞭其後者也。」<pb:KR5c0126_CHANT_019-9a>
+
+仲尼曰：「无入而藏，无出而陽，柴立其中央。三者若得，其名必極。夫畏塗者，十殺一人，則父子兄弟相戒也，必盛卒徒而後敢出焉，不亦知乎！
+
+人之所取畏者，衽席之上，飲食之閒；而不知為之戒者，過也。」<pb:KR5c0126_CHANT_019-10a>
+
+祝宗人玄端以臨牢筴，說彘曰：「汝奚惡死？吾將三月豢汝，十日戒，三日齊，藉白茅，加汝肩尻乎彫俎之上，則汝為之乎？」
+
+為彘謀，曰：不如食以穅糟而錯之牢筴之中，自為謀，則苟生有軒冕之尊，死得於腞楯之上、聚僂之中則為之。為彘謀則去之，自為謀則取之，所異彘者何也？<pb:KR5c0126_CHANT_019-11a>
+
+桓公田於澤，管仲御，見鬼焉。公撫管仲之手曰：「仲父何見？」對曰：「臣无所見。」
+
+公反，誒詒為病，數日不出。齊士有皇子告敖者，曰：
+
+「公則自傷，鬼惡能傷公！夫忿滀之氣，散而不反，則為不足；上而不下，則使人善怒；下而不上，則使人善忘；不上不下，中身當心，則為病。」<pb:KR5c0126_CHANT_019-12a>
+
+桓公曰：「然則有鬼乎？」
+
+曰：「有。沈有履，竈有髻。戶內之煩壤，雷霆處之；東北方之下者，倍阿鮭蠪躍之；西北方之下者，則泆陽處之。
+
+水有罔象，丘有崒，山有夔，野有彷徨，澤有委蛇。」
+
+公曰：「請問，委蛇之狀何如？」
+
+皇子曰：「委蛇，其大如轂，其長如轅，紫衣而朱冠。其為物也，惡聞雷車之聲，則捧其首而立。見之者殆乎霸。」
+
+桓公辴然而笑曰：「此寡人之所見者也。」於是正衣冠與之坐，不終日而不知病之去也。
+
+紀渻子為王養鬭雞，
+
+十日而問：「雞已乎？」曰：「未也，方虛憍而恃氣。」
+
+十日又問，曰：「未也。猶應嚮景。」
+
+十日又問，曰：「未也。猶疾視而盛氣。」
+
+十日又問，曰：「幾矣。雞雖有鳴者，已无變矣，望之似木雞矣，其德全矣，異雞无敢應者，反走矣。」<pb:KR5c0126_CHANT_019-14a>
+
+孔子觀於呂梁，縣水三十仞，流沫四十里，黿鼉魚鼈之所不能游也。見一丈夫游之，以為有苦而欲死也，使弟子並流而拯之。數百步而出，被髮行歌而游於塘下。
+
+孔子從而問焉，曰：「吾以子為鬼，察子則人也。請問，蹈水有道乎？」
+
+曰：「亡，吾无道。吾始乎故，長乎性，成乎命。與齊俱入，與汩偕出，從水之道而不為私焉。此吾所以蹈之也。」
+
+孔子曰：「何謂始乎故，長乎性，成乎命？」
+
+曰：「吾生於陵而安於陵，故也；長於水而安於水，性也；不知吾所以然而然，命也。」<pb:KR5c0126_CHANT_019-15a>
+
+梓慶削木為鐻，鐻成，見者驚猶鬼神。魯侯見而問焉，曰：「子何術以為焉？」
+
+對曰：「臣工人，何術之有！雖然，有一焉。臣將為鐻，未嘗敢以耗氣也，必齊以靜心。齊三日，而不敢懷慶賞爵祿；
+
+齊五日，不敢懷非譽巧拙；齊七日，輒然忘吾有四枝形體也。當是時也，无公朝，其巧專而外滑消；然後入山林，觀天性；
+
+形軀至矣，然後成見鐻，然後加手焉；不然則已。則以天合天，器之所以疑神者，其是與！」<pb:KR5c0126_CHANT_019-16a>
+
+東野稷以御見莊公，進退中繩，左右旋中規。莊公以為文弗過也，使之鉤百而反。
+
+顏闔遇之，入見曰：「稷之馬將敗。」公密而不應。
+
+少焉，果敗而反。公曰：「子何以知之？」
+
+曰：「其馬力竭矣，而猶求焉，故曰敗。」<pb:KR5c0126_CHANT_019-17a>
+
+工倕旋而蓋規矩，指與物化而不以心稽，故其靈臺一而不桎。
+
+忘足，屨之適也；忘要，帶之適也；知忘是非，心之適也；不內變，不外從，事會之適也。始乎適而未嘗不適者，忘適之適也。
+
+有孫休者，踵門而詫子扁慶子曰：「休居鄉不見謂不脩，臨難不見謂不勇；然而田原不遇歲，事君不遇世，賓於鄉里，逐於州部，則胡罪乎天哉？休惡遇此命也？」
+
+扁子曰：「子獨不聞夫至人之自行邪？忘其肝膽，遺其耳目，芒然彷徨乎塵垢之外，逍遙乎无事之業，是謂為而不恃，長而不宰。
+
+今汝飾知以驚愚，脩身以明汙，昭昭乎若揭日月而行也。汝得全而形軀，具而九竅，无中道夭於聾盲跛蹇而比於人數，亦幸矣，又何暇乎天之怨哉！子往矣！」
+
+孫子出。扁子入，坐有閒，仰天而歎。弟子問曰：「先生何為歎乎？」<pb:KR5c0126_CHANT_019-19a>
+
+扁子曰：「向者休來，吾告之以至人之德，吾恐其驚而遂至於惑也。」
+
+弟子曰：「不然。孫子之所言是邪？先生之所言非邪？非固不能惑是。孫子所言非邪？先生所言是邪？彼固惑而來矣，又奚罪焉！」<pb:KR5c0126_CHANT_019-20a>
+
+扁子曰：「不然。昔者有鳥止於魯郊，魯君悅之，為具太牢以饗之，奏九韶以樂之，鳥乃始憂悲眩視，不敢飲食。此之謂以己養養鳥也。
+
+若夫以鳥養養鳥者，宜棲之深林，浮之江湖，食之以委蛇，則平陸而已矣。今休，款啟寡聞之民也，吾告以至人之德，譬之若載鼷以車馬，樂鴳以鍾鼓也。彼又惡能无驚乎哉！」
+
+### 山木第二十
+
+莊子行於山中，見大木，枝葉盛茂，伐木者止其旁而不取也。問其故，曰：「无所可用。」莊子曰：「此木以不材得終其天年。」
+
+夫子出於山，舍於故人之家。故人喜，命豎子殺鴈而烹之。豎子請曰：「其一能鳴，其一不能鳴，請奚殺？」主人曰：「殺不能鳴者。」
+
+明日，弟子問於莊子曰：「昨日山中之木，以不材得終其天年；今主人之鴈，以不材死；先生將何處？」<pb:KR5c0126_CHANT_020-2a>
+
+莊子笑曰：「周將處夫材與不材之閒。材與不材之閒，似之而非也，故未免乎累。若夫乘道德而浮遊則不然。无譽无訾，一龍一蛇，與時俱化，而无肯專為；
+
+一上一下，以和為量，浮遊乎萬物之祖；物物而不物於物，則胡可得而累邪！此神農黃帝之法則也。
+
+若夫萬物之情，人倫之傳，則不然。合則離，成則毀；廉則挫，尊則議，
+
+有為則虧，賢則謀，不肖則欺，胡可得而必乎哉！悲夫！弟子志之，其唯道德之鄉乎！」<pb:KR5c0126_CHANT_020-3a>
+
+巿南宜僚見魯侯，魯侯有憂色。巿南子曰：「君有憂色，何也？」
+
+魯侯曰：「吾學先王之道，脩先君之業；吾敬鬼尊賢，親而行之，无須臾離居；然不免於患，吾是以憂。」<pb:KR5c0126_CHANT_020-4a>
+
+巿南子曰：「君之除患之術淺矣！夫豐狐文豹，棲於山林，伏於巖穴，靜也；夜行晝居，戒也；
+
+雖飢渴隱約，猶且胥䟽於江湖之上而求食焉，定也；然且不免於罔羅機辟之患。是何罪之有哉？其皮為之災也。今魯國獨非君之皮邪？吾願君刳形去皮，洒心去欲，而遊於无人之野。
+
+南越有邑焉，名為建德之國。其民愚而朴，少私而寡欲；知作而不知藏，與而不求其報；不知義之所適，不知禮之所將；
+
+猖狂妄行，乃蹈乎大方；其生可樂，其死可葬。吾願君去國捐俗，與道相輔而行。」<pb:KR5c0126_CHANT_020-5a>
+
+君曰：「彼其道遠而險，又有江山，我无舟車，奈何？」
+
+巿南子曰：「君无形倨，无留居，以為君車。」君曰：「彼其道幽遠而无人，吾誰與為鄰？吾无糧，我无食，安得而至焉？」<pb:KR5c0126_CHANT_020-6a>
+
+巿南子曰：「少君之費，寡君之欲，雖无糧而乃足。君其涉於江而浮於海，望之而不見其崖，愈往而不知其所窮。送君者皆自崖而反，君自此遠矣！
+
+故有人者累，見有於人者憂。故堯非有人，非見有於人也。吾願去君之累，除君之憂，而獨與道遊於大莫之國。
+
+方舟而濟於河，有虛船來觸舟，雖有惼心之人不怒；
+
+有一人在其上，則呼張歙之；一呼而不聞，再呼而不聞，於是三呼邪，則必以惡聲隨之。向也不怒而今也怒，向也虛而今也實。人能虛己以遊世，其孰能害之！」<pb:KR5c0126_CHANT_020-7a>
+
+北宮奢為衛靈公賦斂以為鍾，為壇乎郭門之外，三月而成上下之縣。
+
+王子慶忌見而問焉，曰：「子何術之設？」
+
+奢曰：「一之閒，无敢設也。奢聞之，『既彫既琢，復歸於朴。』侗乎其无識，儻乎其怠疑；
+
+萃乎芒乎，其送往而迎來；來者勿禁，往者勿止；從其彊梁，隨其曲傅，因其自窮，故朝夕賦斂而豪毛不挫，而況有大塗者乎！」<pb:KR5c0126_CHANT_020-8a>
+
+孔子圍於陳蔡之閒，七日不火食。
+
+太公任往弔之曰：「子幾死乎？」曰：「然。」
+
+「子惡死乎？」曰：「然。」
+
+任曰：「予嘗言不死之道。東海有鳥焉，其名曰意怠。其為鳥也，翂翂翐翐，而似无能；引援而飛，迫脅而棲；
+
+進不敢為前，退不敢為後；食不敢先嘗，必取其緒。是故其行列不斥，而外人卒不得害，是以免於患。直木先伐，甘井先竭。
+
+子其意者飾知以驚愚，脩身以明汙，昭昭乎如揭日月而行，故不免也。昔吾聞之大成之人曰：
+
+『自伐者无功，功成者墮，名成者虧。』孰能去功與名而還與眾人！道流而不明，居得行而不名處；純純常常，乃比於狂；削迹捐勢，不為功名；
+
+是故无責於人，人亦无責焉。至人不聞，子何喜哉？」
+
+孔子曰：「善哉！」辭其交遊，去其弟子，逃於大澤；衣裘褐，食杼栗；入獸不亂群，入鳥不亂行。鳥獸不惡，而況人乎！<pb:KR5c0126_CHANT_020-9a>
+
+孔子問子桑雩曰：「吾再逐於魯，伐樹於宋，削迹於衛，窮於商周，圍於陳蔡之閒。吾犯此數患，親交益䟽，徒友益散，何與？」<pb:KR5c0126_CHANT_020-10a>
+
+子桑雩曰：「子獨不聞假人之亡與？林回棄千金之璧，負赤子而趨。或曰：『為其布與？赤子之布寡矣；為其累與？赤子之累多矣；棄千金之璧，負赤子而趨，何也？』
+
+林回曰：『彼以利合，此以天屬也。』夫以利合者，迫窮禍患害相棄也；以天屬者，迫窮禍患害相收也。夫相收之與相棄亦遠矣。
+
+且君子之交淡若水，小人之交甘若醴；君子淡以親，小人甘以絕。彼无故以合者，則无故以離。」<pb:KR5c0126_CHANT_020-11a>
+
+孔子曰：「敬聞命矣！」徐行翔佯而歸，絕學捐書，弟子无挹於前，其愛益加進。
+
+異日，桑雩又曰：「舜之將死，真泠禹曰：『汝戒之哉！形莫若緣，情莫若率。
+
+緣則不離，率則不勞；不離不勞，則不求文以待形；不求文以待形，固不待物。』」<pb:KR5c0126_CHANT_020-12a>
+
+莊子衣大布而補之，正緳係履而過魏王。魏王曰：「何先生之憊邪？」
+
+莊子曰：「貧也，非憊也。士有道德不能行，憊也；衣弊履穿，貧也，非憊也；此所謂非遭時也。
+
+王獨不見夫騰猿乎？其得柟梓豫章也，攬蔓其枝而王長其閒，雖羿、蓬蒙不能睥睨也。
+
+及其得柘棘枳枸之閒也，危行側視，振動悼慄，此筋骨非有加急而不柔也，處勢不便，未足以逞其能也。
+
+今處昏上亂相之閒，而欲无憊，奚可得邪？此比干之見剖心徵也夫！」<pb:KR5c0126_CHANT_020-13a>
+
+孔子窮於陳蔡之閒，七日不火食，左據槁木，右擊槁枝，而歌焱氏之風，有其具而无其數，有其聲而无宮角，木聲與人聲，犁然有當於人之心。
+
+顏回端拱還目而窺之。仲尼恐其廣己而造大也，愛己而造哀也，曰：「回，无受天損易，无受人益難。无始而非卒也，人與天一也。夫今之歌者其誰乎？」<pb:KR5c0126_CHANT_020-14a>
+
+回曰：「敢問无受天損易。」
+
+仲尼曰：「飢渴寒暑，窮桎不行，天地之行也，運物之泄也，言與之偕逝之謂也。為人臣者，不敢去之。執臣之道而猶若是，而況乎所以待天乎！」<pb:KR5c0126_CHANT_020-15a>
+
+「何謂无受人益難？」
+
+仲尼曰：「始用四達，爵祿並至而不窮，物之所利，乃非己也，吾命有在外者也。君子不為盜，賢人不為竊。吾若取之，何哉！
+
+故曰：鳥莫知於鷾鴯，目之所不宜處，不給視，雖落其實，棄之而走。其畏人也，而襲諸人閒，社稷存焉爾。」<pb:KR5c0126_CHANT_020-16a>
+
+「何謂无始而非卒？」
+
+仲尼曰：「化其萬物而不知其禪之者，焉知其所終？焉知其所始？正而待之而已耳。」
+
+「何謂人與天一邪？」
+
+仲尼曰：「有人，天也；有天，亦天也。人之不能有天，性也，聖人晏然體逝而終矣！」<pb:KR5c0126_CHANT_020-17a>
+
+莊周遊乎雕陵之樊，覩一異鵲自南方來者，翼廣七尺，目大運寸，感周之顙而集於栗林。
+
+莊周曰：「此何鳥哉，翼殷不逝，目大不覩？」蹇裳躩步，執彈而留之。覩一蟬，方得美蔭而忘其身；
+
+螳蜋執翳而搏之，見得而忘其形；異鵲從而利之，見利而忘其真。
+
+莊周怵然曰：「噫！物固相累，二類相召也！」捐彈而反走，虞人逐而誶之。
+
+莊周反入，三月不庭。藺且從而問之：「夫子何為頃閒甚不庭乎？」
+
+莊周曰：「吾守形而忘身，觀於濁水而迷於清淵。且吾聞諸夫子曰：『入其俗，從其俗。』
+
+今吾遊於雕陵而忘吾身，異鵲感吾顙，遊於栗林而忘真，栗林虞人以吾為戮，吾所以不庭也。」<pb:KR5c0126_CHANT_020-18a>
+
+陽子之宋，宿於逆旅。逆旅人有妾二人，其一人美，其一人惡，惡者貴而美者賤。陽子問其故，逆旅小子對曰：「其美者自美，吾不知其美也；其惡者自惡，吾不知其惡也。」
+
+陽子曰：「弟子記之！行賢而去自賢之行，安往而不愛哉！」
+
+### 田子方第二十一
+
+田子方侍坐於魏文侯，數稱谿工。
+
+文侯曰：「谿工，子之師邪？」
+
+子方曰：「非也，无擇之里人也；稱道數當，故无擇稱之。」
+
+文侯曰：「然則子无師邪？」
+
+子方曰：「有。」
+
+曰：「子之師誰邪？」
+
+子方曰：「東郭順子。」
+
+文侯曰：「然則夫子何故未嘗稱之？」
+
+子方曰：「其為人也真，人貌而天，虛緣而葆真，清而容物。物无道，正容以悟之，使人之意也消。无擇何足以稱之！」<pb:KR5c0126_CHANT_021-2a>
+
+子方出，文侯儻然終日不言，召前立臣而語之曰：「遠矣，全德之君子！
+
+始吾以聖知之言仁義之行為至矣，吾聞子方之師，吾形解而不欲動，口鉗而不欲言。吾所學者真土梗耳，夫魏真為我累耳！」<pb:KR5c0126_CHANT_021-3a>
+
+溫伯雪子適齊，舍於魯。魯人有請見之者，溫伯雪子曰：「不可。吾聞中國之君子，明乎禮義而陋於知人心，吾不欲見也。」
+
+至於齊，反舍於魯，是人也又請見。溫伯雪子曰：「往也蘄見我，今也又蘄見我，是必有以振我也。」<pb:KR5c0126_CHANT_021-4a>
+
+出而見客，入而歎。明日見客，又入而歎。其僕曰：「每見之客也，必入而歎，何邪？」
+
+曰：「吾固告子矣：『中國之君子，明乎禮義而陋乎知人心。』昔之見我者，進退一成規，一成矩，從容一若龍，一若虎，其諫我也似子，其道我也似父，是以歎也。」
+
+仲尼見之而不言。子路曰：「吾子欲見溫伯雪子久矣，見之而不言，何邪？」
+
+仲尼曰：「若夫人者，目擊而道存矣，亦不可以容聲矣。」<pb:KR5c0126_CHANT_021-5a>
+
+顏淵問於仲尼曰：「夫子步亦步，夫子趨亦趨，夫子馳亦馳；夫子奔逸絕塵，而回瞠若乎後矣！」
+
+夫子曰：「回，何謂邪？」
+
+曰：「夫子步亦步也者，夫子言亦言也，夫子趨亦趨也者，夫子辯亦辯也，
+
+夫子馳亦馳也者，夫子言道，回亦言道也；及奔逸絕塵，而回瞠若乎後也者，夫子不言而信，不比而周，无器而民滔乎前，而不知所以然而已矣。」<pb:KR5c0126_CHANT_021-6a>
+
+仲尼曰：「惡！可不察與！夫哀莫大於心死，而人死亦次之。日出東方而入於西極，萬物莫不比方，
+
+有目有趾者，待是而後成功，是出則存，是入則亡。萬物亦然，有待也而死，有待也而生。
+
+吾一受其成形，而不化以待盡，效物而動，日夜无隙，而不知其所終；薰然其成形，知命不能規乎其前，丘以是日徂。
+
+吾終身與汝交一臂而失之可不哀與！汝殆著乎吾所以著也。彼已盡矣，而汝求之以為有，是求馬於唐肆也。吾服汝也甚忘，汝服吾也亦甚忘。
+
+雖然，汝奚患焉！雖忘乎故吾，猶有不忘者存。」<pb:KR5c0126_CHANT_021-7a>
+
+孔子見老聃，老聃新沐，方將被髮而乾，慹然似非人。孔子便而待之，少焉見，曰：「丘也眩與，其信然與？向者先生形體掘若槁木，似遺物離人而立於獨也。」
+
+老聃曰：「吾遊於物之初。」
+
+孔子曰：「何謂邪？」
+
+曰：「心困焉而不能知，口辟焉而不能言，嘗為汝議乎其將。至陰肅肅，至陽赫赫；肅肅出乎天，赫赫發乎地；兩者交通成和而物生焉，
+
+或為之紀而莫見其形。消息滿虛，一晦一明，日改月化，日有所為，而莫見其功。
+
+生有所乎萌，死有所乎歸，始終相反乎无端而莫知乎其所窮。非是也，且孰為之宗！」<pb:KR5c0126_CHANT_021-8a>
+
+孔子曰：「請問遊是。」
+
+老聃曰：「夫得是，至美至樂也，得至美而遊乎至樂，謂之至人。」
+
+孔子曰：「願聞其方。」
+
+曰：「草食之獸不疾易藪，水生之蟲不疾易水，行小變而不失其大常也，喜怒哀樂不入於胸次。夫天下也者，萬物之所一也。
+
+得其所一而同焉，則四支百體將為塵垢，而死生終始將為晝夜而莫之能滑，而況得喪禍福之所介乎！
+
+棄隸者若棄泥塗，知身貴於隸也，貴在於我而不失於變。且萬化而未始有極也，夫孰足以患心！已為道者解乎此。」<pb:KR5c0126_CHANT_021-9a>
+
+孔子曰：「夫子德配天地，而猶假至言以脩心，古之君子，孰能脫焉？」
+
+老聃曰：「不然。夫水之於汋也，无為而才自然矣。至人之於德也，不脩而物不能離焉，若天之自高，地之自厚，日月之自明，夫何脩焉！」
+
+孔子出，以告顏回曰：「丘之於道也，其猶醯雞與！微夫子之發吾覆也，吾不知天地之大全也。」<pb:KR5c0126_CHANT_021-10a>
+
+莊子見魯哀公，哀公曰：「魯多儒士，少為先生方者。」
+
+莊子曰：「魯少儒。」
+
+哀公曰：「舉魯國而儒服，何謂少乎？」
+
+莊子曰：「周聞之，儒者冠圜冠者，知天時；履句屨者，知地形；緩佩玦者，事至而斷。
+
+君子有其道者，未必為其服也；為其服者，未必知其道也。公固以為不然，何不號於國中曰：『无此道而為此服者，其罪死！』」<pb:KR5c0126_CHANT_021-11a>
+
+於是哀公號之五日，而魯國无敢儒服者，獨有一丈夫，儒服而立乎公門。公即召而問以國事，千轉萬變而不窮。
+
+莊子曰：「以魯國而儒者一人耳，可謂多乎？」
+
+百里奚爵祿不入於心，故飯牛而牛肥，使秦穆公忘其賤，與之政也。有虞氏死生不入於心，故足以動人。
+
+宋元君將畫圖，眾史皆至，受揖而立；舐筆和墨，在外者半。有一史後至者，儃儃然不趨，
+
+受揖不立，因之舍。公使人視之，則解衣槃礴臝。君曰：「可矣，是真畫者也。」<pb:KR5c0126_CHANT_021-12a>
+
+文王觀於臧，見一丈夫釣，而其釣莫釣；非持其釣有釣者也，常釣也。
+
+文王欲舉而授之政，而恐大臣父兄之弗安也；欲終而釋之，而不忍百姓之无天也。於是旦而屬之夫夫曰：
+
+「昔者寡人夢見良人，黑色而髯，乘駁馬而偏朱蹄，號曰：『寓而政於臧丈人，庶幾乎民有瘳乎！』」
+
+諸大夫蹴然曰：「先君命王也。」
+
+文王曰：「然則卜之。」
+
+諸大夫曰：「先君之命，王其无它，又何卜焉！」
+
+遂迎臧丈人而授之政。典法无更，偏令无出。三年，文王觀於國，則列士壞植散群，長官者不成德，斔斛不敢入於四境。
+
+列士壞植散群，則尚同也；長官者不成德，則同務也；斔斛不敢入於四境，則諸侯无二心也。
+
+文王於是焉以為大師，北面而問曰：「政可以及天下乎？」臧丈人昧然而不應，泛然而辭，朝令而夜遁，終身无聞。
+
+顏淵問於仲尼曰：「文王其猶未邪？又何以夢為乎？」
+
+仲尼曰：「默，汝无言！夫文王盡之也，而又何論刺焉！彼直以循斯須也。」<pb:KR5c0126_CHANT_021-14a>
+
+列御寇為伯昏无人射，引之盈貫，措杯水其肘上，發之，適矢復沓，方矢復寓。當是時，猶象人也。
+
+伯昏无人曰：「是射之射，非不射之射也。嘗與汝登高山，履佹石，臨百仞之淵，若能射乎？」
+
+於是无人遂登高山，履危石，臨百仞之淵，背逡巡，足二分垂在外，揖御寇而進之御寇伏地，汗流至踵。
+
+伯昏无人曰：「夫至人者，上闚青天，下潛黃泉，揮斥八極，神氣不變。今汝怵然有恂目之志，爾於中也殆矣夫！」<pb:KR5c0126_CHANT_021-15a>
+
+肩吾問於孫叔敖曰：「子三為令尹而不榮華，三去之而无憂色。吾始也疑子，今視子之鼻閒栩栩然，子之用心獨奈何？」
+
+孫叔敖曰：「吾何以過人哉！吾以其來不可卻也，其去不可止也，吾以為得失之非我也，而无憂色而已矣。我何以過人哉！且不知其在彼乎，其在我乎？
+
+其在彼邪？亡乎我；在我邪？亡乎彼。方將躊躇，方將四顧，何暇至乎人貴人賤哉！」<pb:KR5c0126_CHANT_021-16a>
+
+仲尼聞之曰：「古之真人，知者不得說，美人不得濫，盜人不得刦，伏戲黃帝不得友。
+
+死生亦大矣，而无變乎己，況爵祿乎！若然者，其神經乎大山而无介，入乎淵泉而不濡，處卑細而不憊，充滿天地而不窕，既以與人己愈有。」<pb:KR5c0126_CHANT_021-17a>
+
+楚王與凡君坐，少焉，楚王左右曰凡亡者三。凡君曰：「凡之亡也，不足以喪吾存。夫『凡之亡不足以喪吾存』，則楚之存不足以存存。由是觀之，則凡未始亡，而楚未始存也。」
+
+### 知北遊第二十二
+
+知北遊於玄水之上，登隱弅之丘，而適遭无為謂焉。知謂无為謂曰：「予欲有問乎若：
+
+何思何慮則知道？何處何服則安道？何從何道則得道？」三問而无為謂不荅也，非不荅，不知荅也。
+
+知不得問，反於白水之南，登狐闋之上，而睹狂屈焉。知以之言也問乎狂屈。
+
+狂屈曰：「唉！予知之，將語若。」中欲言而忘其所欲言。
+
+知不得問，反於帝宮，見黃帝而問焉。黃帝曰：「无思无慮始知道，无處无服始安道，无從无道始得道。」<pb:KR5c0126_CHANT_022-2a>
+
+知問黃帝曰：「我與若知之，彼與彼不知也，其孰是邪？」
+
+黃帝曰：「彼无為謂真是也，狂屈似之；我與汝終不近也。夫知者不言，言者不知，故聖人行不言之教。道不可致，德不可至。仁可為也，義可虧也，禮相偽也。
+
+故曰：『失道而後德，失德而後仁，失仁而後義，失義而後禮。禮者，道之華而亂之首也。』
+
+故曰：『為道者日損，損之又損之以至於无為，无為而无不為也。』今已為物也，欲復歸根，不亦難乎！其易也，其唯大人乎！
+
+生也死之徒，死也生之始，孰知其紀！人之生，氣之聚也；聚則為生，散則為死。若死生為徒，吾又何患！
+
+故萬物一也，是其所美者為神奇，其所惡者為臭腐；臭腐復化為神奇，神奇復化為臭腐。故曰：『通天下一氣耳。』聖人故貴一。」<pb:KR5c0126_CHANT_022-3a>
+
+知謂黃帝曰：「吾問无為謂，无為謂不應我，非不我應，不知應我也。
+
+吾問狂屈，狂屈中欲告我而不我告，非不我告，中欲告而忘之也。今予問乎若，若知之，奚故不近？」
+
+黃帝曰：「彼其真是也，以其不知也；此其似之也，以其忘之也；予與若終不近也，以其知之也。」
+
+狂屈聞之，以黃帝為知言。
+
+天地有大美而不言，四時有明法而不議，萬物有成理而不說。聖人者，原天地之美而達萬物之理，是故至人无為，大聖不作，觀於天地之謂也。
+
+今彼神明至精，與彼百化，物已死生方圓，莫知其根也，扁然而萬物自古以固存。六合為巨，未離其內；秋豪為小，待之成體。
+
+天下莫不沈浮，終身不故；陰陽四時運行，各得其序。惛然若亡而存，油然不形而神，萬物畜而不知。此之謂本根，可以觀於天矣。
+
+齧缺問道乎被衣，被衣曰：「若正汝形，一汝視，天和將至；攝汝知，一汝度，神將來舍。德將為汝美，道將為汝居，汝瞳焉如新生之犢而无求其故！」
+
+言未卒，齧缺睡寐。被衣大悅，行歌而去之，曰：「形若槁骸，心若死灰，真其實知，不以故自持。媒媒晦晦，无心而不可與謀。彼何人哉！」<pb:KR5c0126_CHANT_022-6a>
+
+舜問乎丞曰：「道可得而有乎？」
+
+曰：「汝身非汝有也，汝何得有夫道？」
+
+舜曰：「吾身非吾有也，孰有之哉？」
+
+曰：「是天地之委形也；生非汝有，是天地之委和也；性命非汝有，是天地之委順也；孫子非汝有，是天地之委蛻也。
+
+故行不知所往，處不知所持，食不知所味。天地之彊陽氣也，又胡可得而有邪！」<pb:KR5c0126_CHANT_022-7a>
+
+孔子問於老聃曰：「今日晏閒，敢問至道。」
+
+老聃曰：「汝齋戒，䟽𤅢而心，澡雪而精神，掊擊而知！夫道，窅然難言哉！將為汝言其崖略。
+
+夫昭昭生於冥冥，有倫生於无形，精神生於道，形本生於精，而萬物以形相生，故九竅者胎生，八竅者卵生。其來无迹，其往无崖，
+
+无門无房，四達之皇皇也。邀於此者，四肢彊，思慮恂達，耳目聰明，其用心不勞，其應物无方。
+
+天不得不高，地不得不廣，日月不得不行，萬物不得不昌，此其道與！<pb:KR5c0126_CHANT_022-8a>
+
+「且夫『博之不必知，辯之不必慧』，聖人以斷之矣。若夫益之而不加益，損之而不加損者，聖人之所保也。
+
+淵淵乎其若海，魏魏乎其終則復始也，運量萬物而不匱。則君子之道，彼其外與！萬物皆往資焉而不匱，此其道與！<pb:KR5c0126_CHANT_022-9a>
+
+「中國有人焉，非陰非陽，處於天地之閒，直且為人，將反於宗。
+
+自本觀之，生者，喑醷物也。雖有壽夭，相去幾何？須臾之說也。奚足以為堯桀之是非！
+
+果蓏有理，人倫雖難，所以相齒。聖人遭之而不違，過之而不守。調而應之，德也；偶而應之，道也；帝之所興，王之所起也。
+
+「人生天地之閒，若白駒之過郤，忽然而已。注然勃然，莫不出焉；油然漻然，莫不入焉。已化而生，又化而死，
+
+生物哀之，人類悲之。解其天弢，墮其天袠，紛乎宛乎，魂魄將往，乃身從之，乃大歸乎！
+
+不形之形，形之不形，是人之所同知也，非將至之所務也，此眾人之所同論也。彼至則不論，論則不至。明見无值，辯不若默。
+
+道不可聞，聞不若塞。此之謂大得。」<pb:KR5c0126_CHANT_022-11a>
+
+東郭子問於莊子曰：「所謂道，惡乎在？」
+
+莊子曰：「无所不在。」
+
+東郭子曰：「期而後可。」
+
+莊子曰：「在螻蟻。」
+
+曰：「何其下邪？」
+
+曰：「在稊稗。」
+
+曰：「何其愈下邪？」
+
+曰：「在瓦甓。」
+
+曰：「何其愈甚邪？」
+
+曰：「在屎溺。」<pb:KR5c0126_CHANT_022-12a>
+
+東郭子不應。莊子曰：「夫子之問也，固不及質。正獲之問於監巿履狶也，每下愈況。汝唯莫必，无乎逃物。
+
+至道若是，大言亦然。周徧咸三者，異名同實，其指一也。
+
+嘗相與遊乎无何有之宮，同合而論，无所終窮乎！嘗相與无為乎！澹而靜乎！漠而清乎！調而閒乎！寥已吾志，无往焉而不知其所至。去而來不知其所止，
+
+吾已往來焉而不知其所終，彷徨乎馮閎，大知入焉而不知其所窮。物物者與物无際，而物有際者，所謂物際者也；
+
+不際之際，際之不際者也。謂盈虛衰殺，彼為盈虛非盈虛，彼為衰殺非衰殺，彼為本末非本末，彼為積散非積散也。」<pb:KR5c0126_CHANT_022-13a>
+
+妸荷甘與神農同學於老龍吉。神農隱几闔戶晝暝，妸荷甘日中奓戶而入曰：「老龍死矣！」
+
+神農隱几擁杖而起，嚗然放杖而笑，曰：「天知予僻陋慢訑，故棄予而死。已矣夫子！无所發予之狂言而死矣夫！」
+
+弇堈弔聞之，曰：「夫體道者，天下之君子所繫焉。今於道，秋豪之端萬分未得處一焉，而猶知藏其狂言而死，又況夫體道者乎！
+
+視之无形，聽之无聲，於人之論者，謂之冥冥，所以論道，而非道也。」<pb:KR5c0126_CHANT_022-14a>
+
+於是泰清問乎无窮曰：「子知道乎？」
+
+无窮曰：「吾不知。」
+
+又問乎无為。无為曰：「吾知道。」
+
+曰：「子之知道，亦有數乎？」曰：「有。」
+
+曰：「其數若何？」
+
+无為曰：「吾知道之可以貴，可以賤，可以約，可以散，此吾所以知道之數也。」
+
+泰清以之言也問乎无始曰：「若是，則无窮之弗知與无為之知，孰是而孰非乎？」
+
+无始曰：「不知深矣，知之淺矣；弗知內矣，知之外矣。」<pb:KR5c0126_CHANT_022-15a>
+
+於是泰清中而歎曰：「弗知乃知乎！知乃不知乎！孰知不知之知，
+
+知之不知乎？」无始曰：「道不可聞，聞而非也；道不可見，見而非也；道不可言，言而非也。知形形之不形乎！道不當名。」
+
+无始曰：「有問道而應之者，不知道也。雖問道者，亦未聞道。道无問，問无應。无問問之，是問窮也；无應應之，是无內也。
+
+以无內待問窮，若是者，外不觀乎宇宙，內不知乎大初，是以不過乎崑崙，不遊乎大虛。」<pb:KR5c0126_CHANT_022-16a>
+
+光曜問乎无有曰：「夫子有乎？其无有乎？」
+
+無有弗應也，光曜不得問，而孰視其狀貌，窅然空然，終日視之而不見，聽之而不聞，搏之而不得也。
+
+光曜曰：「至矣！其孰能至此乎！予能有无矣，而未能无无也；及為无有矣，何從至此哉！」<pb:KR5c0126_CHANT_022-17a>
+
+大馬之捶鉤者，年八十矣，而不失豪芒。大馬曰：「子巧與？有道與？」
+
+曰：「臣有守也。臣之年二十而好捶鉤，於物无視也，非鉤无察也。是用之者，假不用者也以長得其用，而況乎无不用者乎！物孰不資焉！」<pb:KR5c0126_CHANT_022-18a>
+
+冉求問於仲尼曰：「未有天地可知邪？」
+
+仲尼曰：「可，古猶今也。」
+
+冉求失問而退，明日復見，曰：「昔者吾問『未有天地可知乎？』夫子曰：『可，古猶今也。』昔日吾昭然，今日吾昧然，敢問何謂也？」
+
+仲尼曰：「昔之昭然也，神者先受之；今之昧然也，且又為不神者求邪？无古无今，无始无終。未有子孫而有子孫，可乎？」<pb:KR5c0126_CHANT_022-19a>
+
+冉求未對。仲尼曰：「已矣，未應矣！不以生生死，不以死死生。死生有待邪？皆有所一體。
+
+有先天地生者物邪？物物者非物。物出不得先物也，猶其有物也。猶其有物也，无已。聖人之愛人也終无已者，亦乃取於是者也。」<pb:KR5c0126_CHANT_022-20a>
+
+顏淵問乎仲尼曰：「回嘗聞諸夫子曰：『无有所將，无有所迎。』回敢問其遊。」
+
+仲尼曰：「古之人，外化而內不化；今之人，內化而外不化。與物化者，一不化者也。安化安不化，安與之相靡，必與之莫多。
+
+狶韋氏之囿，黃帝之圃，有虞氏之宮，湯武之室。君子之人，若儒墨者師，故以是非相𩐋也，而況今之人乎！
+
+聖人處物不傷物。不傷物者，物亦不能傷也。唯无所傷者，為能與人相將迎。山林與！皋壤與！使我欣欣然而樂與！
+
+樂未畢也，哀又繼之。哀樂之來，吾不能禦，其去弗能止。悲夫，世人直為物逆旅耳！
+
+夫知遇而不知所不遇，知能能而不能所不能。无知无能者，固人之所不免也。夫務免乎人之所不免者，豈不亦悲哉！至言去言，至為去為。齊知之所知，則淺矣。」
+
+### 庚桑楚第二十三
+
+老聃之役有庚桑楚者，偏得老聃之道，以北居畏壘之山，其臣之畫然知者去之，其妾之挈然仁者遠之；擁腫之與居，鞅掌之為使。
+
+居三年，畏壘大壤。畏壘之民相與言曰：「庚桑子之始來，吾洒然異之。今吾日計之而不足，歲計之而有餘。庶幾其聖人乎！子胡不相與尸而祝之，社而稷之乎？」<pb:KR5c0126_CHANT_023-2a>
+
+庚桑子聞之，南面而不釋然。弟子異之。庚桑子曰：「弟子何異於予？夫春氣發而百草生，正得秋而萬寶成。夫春與秋，豈无得而然哉？天道已行矣。
+
+吾聞至人，尸居環堵之室，而百姓猖狂不知所如往。今以畏壘之細民而竊竊焉欲俎豆予于賢人之閒，我其杓之人邪！吾是以不釋於老聃之言。」<pb:KR5c0126_CHANT_023-3a>
+
+弟子曰：「不然。夫尋常之溝，巨魚无所還其體，而鯢鰌為之制；步仞之丘陵，巨獸无所隱其軀，而㜸狐為之祥。
+
+且夫尊賢授能，先善與利，自古堯舜以然，而況畏壘之民乎！夫子亦聽矣！」<pb:KR5c0126_CHANT_023-4a>
+
+庚桑子曰：「小子來！夫函車之獸，介而離山，則不免于罔罟之患；吞舟之魚，碭而失水，則蟻能苦之。
+
+故鳥獸不厭高，魚鼈不厭深。夫全其形生之人，藏其身也，不厭深眇而已矣。
+
+且夫二子者，又何足以稱楊哉！是其於辯也，將妄鑿垣牆而殖蓬蒿也。簡髮而櫛，數米而炊，竊竊乎又何足以濟世哉！
+
+舉賢則民相軋，任知則民相盜。之數物者，不足以厚民。民之於利甚勤，子有殺父，臣有殺君，正晝為盜，日中穴阫。
+
+吾語汝，大亂之本，必生于堯舜之閒，其末存乎千世之後。千世之後，其必有人與人相食者也！」<pb:KR5c0126_CHANT_023-5a>
+
+南榮趎蹴然正坐曰：「若趎之年者已長矣，將惡乎託業以及此言邪？」
+
+庚桑子曰：「全汝形，抱汝生，无使汝思慮營營。若此三年，則可以及此言也。」
+
+南榮趎曰：「目之與形，吾不知其異也，而盲者不能自見；耳之與形，吾不知其異也，而聾者不能自聞；心之與形，吾不知其異也，而狂者不能自得。
+
+形之與形亦辟矣，而物或閒之邪，欲相求而不能相得？今謂趎曰：『全汝形，抱汝生，勿使汝思慮營營。』趎勉聞道達耳矣！」<pb:KR5c0126_CHANT_023-6a>
+
+庚桑子曰：「辭盡矣。曰奔蜂不能化藿蠋，越雞不能伏鵠卵，魯雞固能矣。雞之與雞，其德非不同也，有能與不能者，其才固有巨小也。今吾才小，不足以化子。子胡不南見老子！」
+
+南榮趎贏糧，七日七夜至老子之所。
+
+老子曰：「子自楚之所來乎？」南榮趎曰：「唯。」
+
+老子曰：「子何與人偕來之眾也？」南榮趎懼然顧其後。
+
+老子曰：「子不知吾所謂乎？」
+
+南榮趎俯而慚，仰而歎曰：「今者吾忘吾荅，因失吾問。」
+
+老子曰：「何謂也？」<pb:KR5c0126_CHANT_023-7a>
+
+南榮趎曰：「不知乎？人謂我朱愚。知乎？反愁我軀。不仁則害人，仁則反愁我身；不義則傷彼，義則反愁我己。
+
+我安逃此而可？此三言者，趎之所患也，願因楚而問之。」
+
+老子曰：「向吾見若眉睫之閒，吾因以得汝矣，今汝又言而信之。若規規然若喪父母，揭竿而求諸海也。汝亡人哉，惘惘乎！汝欲反汝情性而无由入，可憐哉！」<pb:KR5c0126_CHANT_023-8a>
+
+南榮趎請入就舍，召其所好，去其所惡，十日息愁，復見老子。
+
+老子曰：「汝自洒濯，孰哉鬱鬱乎！然而其中津津乎猶有惡也。夫外韄者不可繁而捉，將內揵；內韄者不可繆而捉，將外揵。外內韄者，道德不能持，而況放道而行者乎！」<pb:KR5c0126_CHANT_023-9a>
+
+南榮趎曰：「里人有病，里人問之，病者能言其病，然其病病者猶未病也。若趎之聞大道，譬猶飲藥以加病也，趎願聞衛生之經而已矣。」
+
+老子曰：「衛生之經，能抱一乎？能勿失乎？能无卜筮而知吉凶乎？能止乎？能已乎？能舍諸人而求諸己乎？能翛然乎？能侗然乎？能兒子乎？
+
+兒子終日嗥而嗌不嗄，和之至也；終日握而手不掜，共其德也；終日視而目不瞚，偏不在外也。
+
+行不知所之，居不知所為，與物委蛇，而同其波。是衛生之經已。」<pb:KR5c0126_CHANT_023-10a>
+
+南榮趎曰：「然則是至人之德已乎？」
+
+曰：「非也。是乃所謂冰解凍釋者，能乎？夫至人者，相與交食乎地而交樂乎天，不以人物利害相攖，
+
+不相與為怪，不相與為謀，不相與為事，翛然而往，侗然而來。是謂衛生之經已。」
+
+曰：「然則是至乎？」
+
+曰：「未也。吾固告汝曰：『能兒子乎？』兒子動不知所為，行不知所之，身槁木之枝而心若死灰。若是者，禍亦不至，福亦不來。禍福无有，惡有人災也！」<pb:KR5c0126_CHANT_023-11a>
+
+宇泰定者，發乎天光。發乎天光者，人見其人，人有脩者，乃今有恆；有恆者，人舍之，天助之。
+
+人之所舍，謂之天民；天之所助，謂之天子。
+
+學者，學其所不能學也；行者，行其所不能行也；辯者，辯其所不能辯也。知止乎其所不能知，至矣；若有不即是者，天鈞敗之。
+
+備物以將形，藏不虞以生心，敬中以達彼，若是而萬惡至者，皆天也，而非人也，不足以滑成，不可內於靈臺。靈臺者有持，而不知其所持，而不可持者也。
+
+不見其誠己而發，每發而不當，業入而不舍，每更為失。為不善乎顯明之中者，人得而誅之；為不善乎幽間之中者，鬼得而誅之。明乎人，明乎鬼者，然後能獨行。
+
+劵內者，行乎无名；劵外者，志乎期費。行乎无名者，唯庸有光；志乎期費者，唯賈人也，人見其跂，猶之魁然。
+
+與物窮者，物入焉；與物且者，其身之不能容，焉能容人！不能容人者无親，无親者盡人。兵莫憯于志，鏌鎁為下；寇莫大於陰陽，无所逃於天地之閒。非陰陽賊之，心則使之也。
+
+道通，其分也成也，其成也毀也。所以惡乎分者，其分也以備；所以惡乎備者，其有也以備。
+
+故出而不反，見其鬼；出而得，是謂得死。滅而有實，鬼之一也。以有形者象无形者而定矣。
+
+出无本，入无竅。所出而无竅者有實，有實而无乎處，有長而无乎本剽，。有實而无乎處者，宇也。
+
+有長而无本剽者，宙也。有乎生，有乎死，有乎出，有乎入，入出而无見其形，是謂天門。天門者，无有也，
+
+萬物出乎无有。有不能以有為有，必出乎无有，而无有一无有。聖人藏乎是。
+
+古之人，其知有所至矣。惡乎至？有以為未始有物者，至矣，盡矣，弗可以加矣。其次以為有物矣，將以生為喪也，以死為反也，是以分已。
+
+其次曰始无有，既而有生，生俄而死；以无有為首，以生為體，以死為尻；孰知有无死生之一守者，吾與之為友。
+
+是三者雖異，公族也，昭景也，著戴也，甲氏也，著封也，非一也。
+
+有生，黬也，披然曰移是。嘗言移是，非所言也。雖然，不可知者也。
+
+臘者之有膍胲，可散而不可散也；觀室者周於寢廟，又適其偃焉，為是舉移是。
+
+請嘗言移是。是以生為本，以知為師，因以乘是非；果有名實，因以己為質；使人以為己節，因以死償節。
+
+若然者，以用為知，以不用為愚，以徹為名，以窮為辱。移是，今之人也，是蜩與鷽鳩同於同也。
+
+蹍市人之足，則辭以放驁，兄則以嫗，大親則已矣。故曰：至禮有不人，至義不物，至知不謀，至仁无親，至信辟金。
+
+徹志之勃，解心之謬，去德之累，達道之塞。貴、富、顯、嚴、名、利六者，勃志也。容、動、色、理、氣、意六者，謬心也。惡、欲、喜、怒、哀、樂六者，累德也。去、就、取、與、知、能六者，塞道也。
+
+此四六者不盪胸中則正，正則靜，靜則明，明則虛，虛則无為而无不為也。
+
+道者，德之欽也；生者，德之光也；性者，生之質也。性之動，謂之為；為之偽，謂之失。
+
+知者，接也；知者，謨也；知者之所不知，猶睨也。動以不得已之謂德，動無非我之謂治，名相反而實相順也。
+
+羿工乎中微而拙乎使人无己譽。聖人工乎天而拙乎人。夫工乎天而俍乎人者，唯全人能之。唯蟲能蟲，唯蟲能天。全人惡天？惡人之天？而況吾天乎人乎！
+
+一雀適羿，羿必得之，威也；以天下為之籠，則雀无所逃。是故湯以庖人籠伊尹，秦穆公以五羊之皮籠百里奚。是故非以其所好籠之而可得者，无有也。
+
+介者拸畫，外非譽也；胥靡登高而不懼，遺死生也。夫復謵不餽而忘人，忘人，因以為天人矣。故敬之而不喜，侮之而不怒者，唯同乎天和者為然。
+
+出怒不怒，則怒出於不怒矣；出為无為，則為出於无為矣。欲靜則平氣，欲神則順心，有為也。欲當則緣於不得已，不得已之類，聖人之道。
+
+### 徐无鬼第二十四
+
+徐无鬼因女商見魏武侯，武侯勞之曰：「先生病矣！苦於山林之勞，故乃肯見於寡人。」
+
+徐无鬼曰：「我則勞於君，君有何勞於我！君將盈嗜欲，長好惡，則性命之情病矣；君將黜嗜欲，掔好惡，則耳目病矣。我將勞君，君有何勞於我！」武侯超然不對。
+
+少焉，徐无鬼曰：「嘗語君，吾相狗也。下之質執飽而止，是狸德也；
+
+中之質若視日，上之質若亡其一。吾相狗，又不若吾相馬也。吾相馬，直者中繩，曲者中鉤，方者中矩，圓者中規，是國馬也，而未若天下馬也。
+
+天下馬有成材，若䘏若失，若喪其一，若是者，超軼絕塵，不知其所。」
+
+武侯大悅而笑。徐无鬼出，女商曰：「先生獨何以說吾君乎？吾所以說吾君者，橫說之則以《詩》、《書》、《禮》、《樂》，從說之則以《金板》、《六弢》，
+
+奉事而大有功者不可為數，而吾君未嘗啟齒。今先生何以說吾君，使吾君悅若此乎？」
+
+徐无鬼曰：「吾直告之吾相狗馬耳。」
+
+女商曰：「若是乎？」
+
+曰：「子不聞夫越之流人乎？去國數日，見其所知而喜；去國旬月，見所嘗見於國中者喜；及期年也，見似人者而喜矣；不亦去人滋久，思人滋深乎？
+
+夫逃虛空者，藜藋柱乎鼪鼬之逕，踉位其空，聞人足音跫然而喜矣，有況乎昆弟親戚之謦欬其側者乎！久矣夫莫以真人之言謦欬吾君之側乎！」<pb:KR5c0126_CHANT_024-4a>
+
+徐无鬼見武侯，武侯曰：「先生居山林，食芧栗，厭葱韭，以賓寡人，久矣夫！今老邪？其欲干酒肉之味邪？其寡人亦有社稷之福邪？」
+
+徐无鬼曰：「无鬼生於貧賤，未嘗敢飲食君之酒肉，將來勞君也。」
+
+君曰：「何哉，奚勞寡人？」
+
+曰：「勞君之神與形。」
+
+武侯曰：「何謂邪？」
+
+徐无鬼曰：「天地之養也一，登高不可以為長，居下不可以為短。君獨為萬乘之主，以苦一國之民，以養耳目鼻口，
+
+夫神者不自許也。夫神者，好和而惡姦；夫姦，病也，故勞之。唯君所病之，何也？」<pb:KR5c0126_CHANT_024-5a>
+
+武侯曰：「欲見先生久矣。吾欲愛民而為義偃兵，其可乎？」
+
+徐无鬼曰：「不可。愛民，害民之始也；為義偃兵，造兵之本也；君自此為之，則殆不成。
+
+凡成美，惡器也；君雖為仁義，幾且偽哉！形固造形，成固有伐，變固外戰。君亦必无盛鶴列於麗譙之閒，无徒驥於錙壇之宮，
+
+无藏逆於得，无以巧勝人，无以謀勝人，无以戰勝人。夫殺人之士民，兼人之土地，以養吾私與吾神者，其戰不知孰善？勝之惡乎在？
+
+君若勿已矣，脩胸中之誠，以應天地之情而勿攖。夫民死已脫矣，君將惡乎用夫偃兵哉！」<pb:KR5c0126_CHANT_024-6a>
+
+黃帝將見大隗乎具茨之山，方明為御，昌㝢驂乘，張若謵朋前馬，昆閽滑稽後車；至於襄城之野，七聖皆迷，无所問塗。
+
+適遇牧馬童子，問塗焉，曰：「若知具茨之山乎？」曰：「然。」
+
+「若知大隗之所存乎？」曰：「然。」<pb:KR5c0126_CHANT_024-7a>
+
+黃帝曰：「異哉小童！非徒知具茨之山，又知大隗之所存。請問為天下。」
+
+小童曰：「夫為天下者，亦若此而已矣，又奚事焉！予少而自遊於六合之內，予適有瞀病，有長者教予曰：『若乘日之車而遊於襄城之野。』今予病少痊，
+
+予又且復遊於六合之外。夫為天下亦若此而已。予又奚事焉！」<pb:KR5c0126_CHANT_024-8a>
+
+黃帝曰：「夫為天下者，則誠非吾子之事。雖然，請問為天下。」
+
+小童辭。黃帝又問。小童曰：「夫為天下者，亦奚以異乎牧馬者哉！亦去其害馬者而已矣！」
+
+黃帝再拜稽首，稱天師而退。
+
+知士无思慮之變則不樂，辯士无談說之序則不樂，察士无淩誶之事則不樂，皆囿於物者也。
+
+招世之士興朝，中民之士榮官，筋力之士矜難，勇敢之士奮患，兵革之士樂戰，枯槁之士宿名，法律之士廣治，禮教之士敬容，仁義之士貴際。
+
+農夫无草萊之事則不比，商賈无巿井之事則不比。庶人有旦暮之業則勸，百工有器械之巧則壯。錢財不積則貪者憂，權勢不尤則夸者悲。
+
+勢物之徒樂變，遭時有所用，不能无為也。此皆順比於歲，不物於易者也，馳其形性，潛之萬物，終身不反，悲夫！<pb:KR5c0126_CHANT_024-10a>
+
+莊子曰：「射者非前期而中，謂之善射，天下皆羿也，可乎？」
+
+惠子曰：「可。」
+
+莊子曰：「天下非有公是也，而各是其所是，天下皆堯也，可乎？」
+
+惠子曰：「可。」<pb:KR5c0126_CHANT_024-11a>
+
+莊子曰：「然則儒、墨、楊、秉四，與夫子為五，果孰是邪？或者若魯遽者邪？其弟子曰：『我得夫子之道矣，吾能冬爨鼎而夏造冰矣。』
+
+魯遽曰：『是直以陽召陽，以陰召陰，非吾所謂道也。吾示子乎吾道。』於是為之調瑟，廢一於堂，廢一於室，鼓宮宮動，鼓角角動，音律同矣。
+
+夫或改調一弦，於五音无當也，鼓之，二十五弦皆動，未始異於聲，而音之君已形也。且若是者邪？」
+
+惠子曰：「今夫儒、墨、楊、秉，且方與我以辯，相拂以辭，相鎮以聲，而未始吾非也，則矣若矣？」<pb:KR5c0126_CHANT_024-12a>
+
+莊子曰：「齊人蹢子於宋者，其命閽也不以完，其求鈃鍾也以束縛，其求唐子也而未始出域，有遺類矣！夫楚人寄而蹢閽者，夜半於无人之時而與舟人鬭，未始離於岑而足以造於怨也。」<pb:KR5c0126_CHANT_024-13a>
+
+莊子送葬，過惠子之墓，顧謂從者曰：「郢人堊漫其鼻端若蠅翼，使匠石斲之。匠石運斤成風，聽而斲之，盡堊而鼻不傷，郢人立不失容。
+
+宋元君聞之，召匠石曰：『嘗試為寡人為之。』匠石曰：『臣則嘗能斲之。雖然，臣之質死久矣。』自夫子之死也，吾无以為質矣，吾无與言之矣。」<pb:KR5c0126_CHANT_024-14a>
+
+管仲有病，桓公往問之，曰：「仲父之病病矣，不可諱云，至於大病，則寡人惡乎屬國而可？」
+
+管仲曰：「公誰欲與？」
+
+公曰：「鮑叔牙。」
+
+曰：「不可。其為人絜廉善士也，其於不己若者不比之，又一聞人之過，終身不忘。使之治國，上且鉤乎君，下且逆乎民。其得罪於君也，將弗久矣！」<pb:KR5c0126_CHANT_024-15a>
+
+公曰：「然則孰可？」
+
+對曰：「勿已，則隰朋可。其為人也，上忘而下畔，愧不若黃帝，而哀不己若者。
+
+以德分人謂之聖，以財分人謂之賢。以賢臨人，未有得人者也；以賢下人，未有不得人者也。其於國有不聞也，其於家有不見也。勿已，則隰朋可。」<pb:KR5c0126_CHANT_024-16a>
+
+吳王浮于江，登乎狙之山。眾狙見之，恂然棄而走，逃於深蓁。有一狙焉，委蛇攫搔，見巧乎王。王射之，敏給搏捷矢。王命相者趨射之，狙執死。
+
+王顧謂其友顏不疑曰：「之狙也，伐其巧恃其便以敖予，以至此殛也！戒之哉！嗟乎，无以汝色驕人哉！」顏不疑歸而師董梧以鋤其色，去樂辭顯，三年而國人稱之。
+
+南伯子綦隱几而坐，仰天而噓。顏成子入見曰：「夫子，物之尤也。形固可使若槁骸，心固可使若死灰乎？」
+
+曰：「吾嘗居山穴之口矣。當是時也，田禾一覩我，而齊國之眾三賀之。我必先之，彼故知之；我必賣之，彼故鬻之。若我而不有之，彼惡得而知之？
+
+若我而不賣之，彼惡得而鬻之？嗟乎！我悲人之自喪者，吾又悲夫悲人者，吾又悲夫悲人之悲者，其後而日遠矣。」<pb:KR5c0126_CHANT_024-18a>
+
+仲尼之楚，楚王觴之，孫叔敖執爵而立，巿南宜僚受酒而祭曰：「古之人乎！於此言已。」
+
+曰：「丘也聞不言之言矣，未之嘗言，於此乎言之。巿南宜僚弄丸而兩家之難解，孫叔敖甘寢秉羽而郢人投兵。丘願有喙三尺。」<pb:KR5c0126_CHANT_024-19a>
+
+彼之謂不道之道，此之謂不言之辯，故德總乎道之所一。而言休乎知之所不知，至矣。道之所一者，德不能同也；知之所不能知者，辯不能舉也；名若儒墨而凶矣。
+
+故海不辭東流，大之至也；聖人并包天地，澤及天下，而不知其誰氏。是故生无爵，死无謚，實不聚，名不立，此之謂大人。
+
+狗不以善吠為良，人不以善言為賢，而況為大乎！夫為大不足以為大，而況為德乎！夫大備矣，莫若天地；然奚求焉，而大備矣。知大備者，无求无失，无棄，不以物易己也。
+
+反己而不窮，循古而不摩，大人之誠。
+
+子綦有八子，陳諸前，召九方歅曰：「為我相吾子，孰為祥？」
+
+九方歅曰：「梱也為祥。」
+
+子綦瞿然喜曰：「奚若？」曰：「梱也將與國君同食以終其身。」
+
+子綦索然出涕曰：「吾子何為以至於是極也！」
+
+九方歅曰：「夫與國君同食，澤及三族，而況父母乎！今夫子聞之而泣，是禦福也。子則祥矣，父則不祥。」<pb:KR5c0126_CHANT_024-21a>
+
+子綦曰：「歅，汝何足以識之，而梱祥邪？盡於酒肉，入於鼻口矣，而何足以知其所自來？吾未嘗為牧而牂生於奧，未嘗好田而鶉生於宎，若勿怪，何邪？
+
+吾所與吾子遊者，遊於天地。吾與之邀樂於天，吾與之邀食於地；吾不與之為事，不與之為𢜮，不與之為怪；
+
+吾與之乘天地之誠而不以物與之相攖，吾與之一委蛇而不與之為事所宜。今也然有世俗之償焉！凡有怪徵者，必有怪行，殆乎，非我與吾子之罪，幾天與之也！吾是以泣也。」
+
+无幾何而使梱之於燕，盜得之於道，全而鬻之則難，不若刖之則易，於是乎刖而鬻之於齊，適當渠公之街，然身食肉而終。
+
+齧缺遇許由，曰：「子將奚之？」
+
+曰：「將逃堯。」
+
+曰：「奚謂邪？」
+
+曰：「夫堯，畜畜然仁，吾恐其為天下笑。後世其人與人相食與！夫民，不難聚也；愛之則親，利之則至，譽之則勸，致其所惡則散。
+
+愛利出乎仁義，捐仁義者寡，利仁義者眾。夫仁義之行，唯且无誠，且假夫禽貪者器。是以一人之斷制（利）天下，譬之猶一覕也。夫堯知賢人之利天下也，而不知其賊天下也，夫唯外乎賢者知之矣。」<pb:KR5c0126_CHANT_024-23a>
+
+有暖姝者，有濡需者，有卷婁者。
+
+所謂暖姝者，學一先生之言，則暖暖姝姝而私自悅也，自以為足矣，而未知未始有物也，是以謂暖姝者也。
+
+濡需者，豕蝨是也，擇䟽鬣自以為廣宮大囿，奎蹄曲隈，乳閒股腳，自以為安室利處，
+
+不知屠者之一旦鼓臂布草操煙火，而己與豕俱焦也。此以域進，此以域退，此其所謂濡需者也。
+
+卷婁者，舜也。羊肉不慕蟻，蟻慕羊肉，羊肉羶也。舜有羶行，百姓悅之，故三徙成都，至鄧之墟而十有萬家。
+
+堯聞舜之賢，舉之童土之地，曰冀得其來之澤。舜舉乎童土之地，年齒長矣，聰明衰矣，而不得休歸，所謂卷婁者也。
+
+是以神人惡眾至，眾至則不比，不比則不利也。故无所甚親，无所甚踈，抱德煬和以順天下，此謂真人。於蟻棄知，於魚得計，於羊棄意。
+
+以目視目，以耳聽耳，以心復心。若然者，其平也繩，其變也循。古之真人，以天待人，不以人入天。古之真人，得之也生，失之也死；得之也死，失之也生。
+
+藥也，其實菫也，桔梗也，雞壅也，豕零也，是時為帝者也，何可勝言！
+
+句踐也，以甲楯三千棲於會稽。唯種也能知亡之所以存，唯種也不知其身之所以愁。故曰：鴟目有所適，鶴脛有所節，解之也悲。
+
+故曰：風之過河也有損焉，日之過河也有損焉。請只風與日相與守河，而河以為未始其攖也，恃源而往者也。故水之守土也審，影之守人也審，物之守物也審。
+
+故目之於明也殆，耳之於聰也殆，心之於殉也殆。凡能其於府也殆，殆之成也不給改。禍之長也茲萃，其反也緣功，其果也待久。而人以為己寶，不亦悲乎！故有亡國戮民无已，不知問是也。
+
+故足之於地也踐，雖踐，恃其所不蹍而後善博也；人之知也少，雖少，恃其所不知而後知天之所謂也。
+
+知大一，知大陰，知大目，知大均，知大方，知大信，知大定，至矣。
+
+大一通之，大陰解之，大目視之，大均緣之，大方體之，大信稽之，大定持之。
+
+盡有天，循有照，冥有樞，始有彼。則其解之也似不解之者，其知之也似不知之也，不知而後知之。其問之也，不可以有崖，而不可以无崖。
+
+頡滑有實，古今不代，而不可以虧，則可不謂有大揚搉乎！闔不亦問是已，奚惑然為！以不惑解惑，復於不惑，是尚大不惑。
+
+### 則陽第二十五
+
+則陽遊於楚，夷節言之於王，王未之見，夷節歸。
+
+彭陽見王果曰：「夫子何不譚我於王？」
+
+王果曰：「我不若公閱休。」
+
+彭陽曰：「公閱休奚為者邪？」曰：「冬則擉鼈于江，夏則休乎山樊。有過而問者，曰：『此予宅也。』夫夷節已不能，而況我乎！吾又不若夷節。
+
+夫夷節之為人也，无德而有知，不自許，以之神其交固，顛冥乎富貴之地，非相助以德，相助消也。夫凍者假兼衣於春，暍者反冷風
+
+乎冬。夫楚王之為人也，形尊而嚴；其於罪也，无赦如虎；非夫佞人正德，其孰能橈焉！
+
+故聖人，其窮也使家人忘其貧，其達也使王公忘爵祿而化卑。其於物也，與之為娛矣；其於人也，樂物之通而保己焉；
+
+故或不言而飲人以和，與人並立而使人化。父子之宜，彼其乎歸居，而一閒其所施。其於人心者若是其遠也。故曰待公閱休。」<pb:KR5c0126_CHANT_025-2a>
+
+聖人達綢繆，周盡一體矣，而不知其然，性也。復命搖作而以天為師，人則從而命之也。憂乎知而所行恆无幾時，其有止也若之何！
+
+生而美者，人與之鑑，不告則不知其美於人也。若知之，若不知之，若聞之，若不聞之，其可喜也終无已，人之好之亦无已，性也。
+
+聖人之愛人也，人與之名，不告則不知其愛人也。若知之，若不知之，若聞之，若不聞之，其愛人也終无已，人之安之亦无已，性也。
+
+舊國舊都，望之暢然；雖使丘陵草木之緡，入之者十九，猶之暢然。況見見聞聞者也，以十仞之臺縣眾閒者也！<pb:KR5c0126_CHANT_025-3a>
+
+冉相氏得其環中以隨成，與物无終无始，无幾无時。日與物化者，一不化者也，闔嘗舍之！夫師天而不得師天，與物皆殉，其以為事也若之何？夫聖人未始有天，未始有人，未始有始，未始有物，與世偕行而不替，所行之備而不洫，其合之也若之何？
+
+湯得其司御門尹登恆為之傅之，從師而不囿；得其隨成，為之司其名；之名嬴法，得其兩見。仲尼之盡慮，為之傅之。容成氏曰：「除日无歲，无內无外。」<pb:KR5c0126_CHANT_025-4a>
+
+魏瑩與田侯牟約，田侯牟背之。魏瑩怒，將使人刺之。
+
+犀首聞而恥之，曰：「君為萬乘之君也，而以匹夫從讎！衍請受甲二十萬，為君攻之，虜其人民，係其牛馬，使其君內熱發於背。燃後拔其國。忌也出走，然後抶其背，折其脊。」<pb:KR5c0126_CHANT_025-5a>
+
+季子聞而恥之，曰：「築十仞之城，城者既十仞矣，則又壞之，此胥靡之所苦也。今兵不起七年矣，此王之基也。衍亂人，不可聽也。」<pb:KR5c0126_CHANT_025-6a>
+
+華子聞而醜之，曰：「善言伐齊者，亂人也；善言勿伐者，亦亂人也；謂伐之與不伐亂人也者，又亂人也。」<pb:KR5c0126_CHANT_025-7a>
+
+君曰：「然則若何？」
+
+曰：「君求其道而已矣！」
+
+惠子聞之而見戴晉人。戴晉人曰：「有所謂蝸者，君知之乎？」
+
+曰：「然。」「有國於蝸之左角者曰觸氏，有國於蝸之右角者曰蠻氏，時相與爭地而戰，伏尸數萬，逐北旬有五日而後反。」
+
+君曰：「噫！其虛言與？」
+
+曰：「臣請為君實之。君以意在四方上下有窮乎？」
+
+君曰：「无窮。」
+
+曰：「知遊心於无窮，而反在通達之國，若存若亡乎？」
+
+君曰：「然。」
+
+曰：「通達之中有魏，於魏中有梁，於梁中有王。王與蠻氏，有辯乎？」
+
+君曰：「无辯。」
+
+客出而君惝然若有亡也。
+
+客出，惠子見。君曰：「客，大人也，聖人不足以當之。」
+
+惠子曰：「夫吹管也，猶有嗃也；吹劍首者，吷而已矣。堯舜，人之所譽也；道堯舜於戴晉人之前，譬猶一吷也。」<pb:KR5c0126_CHANT_025-8a>
+
+孔子之楚，舍於蟻丘之漿。其鄰有夫妻臣妾登極者，子路曰：「是稯稯何為者邪？」
+
+仲尼曰：「是聖人僕也。是自埋於民，自藏於畔。其聲銷，其志无窮，其口雖言，其心未嘗言，方且與世違而心不屑與之俱。是陸沈者也，是其巿南宜僚邪？」
+
+子路請往召之。
+
+孔子曰：「已矣！彼知丘之著於己也，知丘之適楚也，以丘為必使楚王之召己也，彼且以丘為佞人也。夫若然者，其於佞人也羞聞其言，而況親見其身乎！而何以為存？」
+
+子路往視之，其室虛矣。
+
+長梧封人問子牢曰：「君為政焉勿鹵莽，治民焉勿滅裂。昔予為禾，耕而鹵莽之，則其實亦鹵莽而報予；芸而滅裂之，其實亦滅裂而報予。予來年變齊，深其耕而熟耰之，其禾蘩以滋，予終年厭飱。」
+
+莊子聞之曰：「今人之治其形，理其心，多有似封人之所謂，遁其天，離其性，滅其情，亡其神，以眾為。
+
+故鹵莽其性者，欲惡之孽，為性萑葦蒹葭，始萌以扶吾形，尋擢吾性；並潰漏發，不擇所出，漂疽疥癰，內熱溲膏是也。」<pb:KR5c0126_CHANT_025-11a>
+
+柏矩學於老聃，曰：「請之天下遊。」
+
+老聃曰：「已矣！天下猶是也。」
+
+又請之，老聃曰：「汝將何始？」
+
+曰：「始於齊。」<pb:KR5c0126_CHANT_025-12a>
+
+至齊，見辜人焉，推而強之，解朝服而幕之，號天而哭之曰：「子乎子乎！天下有大菑，子獨先離之，曰莫為盜！莫為殺人！
+
+榮辱立，然後覩所病；貨財聚，然後覩所爭。今立人之所病，聚人之所爭，窮困人之身使无休時，欲无至此，得乎！
+
+古之君人者，以得為在民，以失為在己；以正為在民，以枉為在己；故一物有失其形者，退而自責。
+
+今則不然。匿為物而過不識，大為難而罪不敢，重為任而罰不勝，遠其塗而誅不至。民知力竭，則以偽繼之，日出多偽，士民安取不偽！
+
+夫力不足則偽，知不足則欺，財不足則盜。盜竊之行，於誰責而可乎？」<pb:KR5c0126_CHANT_025-13a>
+
+蘧伯玉行年六十而六十化，未嘗不始於是之而卒詘之以非也，未知今之所謂是之非五十九非也。萬物有乎生而莫見其根，有乎出而莫見其門。
+
+人皆尊其知之所知而莫知恃其知之所不知而後知，可不謂大疑乎！已乎已乎！且无所逃。此所謂然與，然乎？<pb:KR5c0126_CHANT_025-14a>
+
+仲尼問於太史大弢、伯常蹇、狶韋曰：「夫衛靈公飲酒湛樂，不聽國家之政；田獵畢弋，不應諸侯之際；其所以為靈公者何邪？」
+
+大弢曰：「是因是也。」
+
+伯常騫曰：「夫靈公有妻三人，同濫而浴。史鰌奉御而進所，搏幣而扶翼。其慢若彼之甚也，見賢人若此其肅也，是其所以為靈公也。」
+
+狶韋曰：「夫靈公也死，卜葬於故墓不吉，卜葬於沙丘而吉。掘之數仞，得石槨焉，洗而視之，有銘焉，
+
+曰：『不馮其子，靈公奪而埋之。』夫靈公之為靈也久矣，之二人何足以識之！」<pb:KR5c0126_CHANT_025-15a>
+
+少知問於太公調曰：「何謂丘里之言？」
+
+太公調曰：「丘里者，合十姓百名而以為風俗也，合異以為同，散同以為異。今指馬之百體而不得馬，而馬係於前者，立其百體而謂之馬也。
+
+是故丘山積卑而為高，江河合水而為大，大人合并而為公。是以自外入者，有主而不執；由中出者，有匹而不距。
+
+四時殊氣，天不賜，故歲成；五官殊職，君不私，故國治；文武殊能大人不賜，故德備；萬物殊理，道不私，故无名。
+
+无名故无為，无為而无不為。時有終始，世有變化。禍福淳淳，至有所拂者而有所宜；
+
+自殉殊面，有所正者有所差。比于大澤，百材皆度；觀乎大山，木石同壇。此之謂丘里之言。」<pb:KR5c0126_CHANT_025-16a>
+
+少知曰：「然則謂之道，足乎？」
+
+太公調曰：「不然。今計物之數，不止於萬，而期曰萬物者，以數之多者號而讀之也。是故天地者，形之大者也；陰陽者，氣之大者也；道者為之公。
+
+因其大以號而讀之則可也，已有之矣，乃將得比哉！則若以斯辯，譬猶狗馬，其不及遠矣。」<pb:KR5c0126_CHANT_025-17a>
+
+少知曰：「四方之內，六合之裏，萬物之所生惡起？」<pb:KR5c0126_CHANT_025-18a>
+
+太公調曰：「陰陽相照相蓋相治，四時相代相生相殺，欲惡去就於是橋起，雌雄片合於是庸有。安危相易，禍福相生，緩急相摩，聚散以成。
+
+此名實之可紀，精之可志也。隨序之相理，橋運之相使，窮則反，終則始。此物之所有，言之所盡，知之所至，極物而已。覩道之人，不隨其所廢，不原其所起，此議之所止。」<pb:KR5c0126_CHANT_025-19a>
+
+少知曰：「季真之莫為，接子之或使，二家之議，孰正於其情，孰徧於其理？」
+
+太公調曰：「雞鳴狗吠，是人之所知；雖有大知，不能以言讀其所自化，又不能以意測其所將為。
+
+斯而析之，精至於无倫，大至於不可圍，或之使，莫之為，未免於物而終以為過。或使則實，莫為則虛。有名有實，是物之居；无名无實，在物之虛。
+
+可言可意，言而愈䟽。未生不可忌，已死不可阻。死生非遠也，理不可覩。或之使，莫之為，疑之所假。吾觀之本，其往无窮；
+
+吾求之末，其來无止。无窮无止，言之无也，與物同理；或使莫為，言之本也，與物終始。
+
+道不可有，有不可无，道之為名，所假而行。或使莫為，在物一曲，夫胡為於大方？言而足，則終日言而盡道；言而不足，則終日言而盡物。
+
+道物之極，言默不足以載；非言非默，議有所極。」
+
+### 外物第二十六
+
+外物不可必，故龍逢誅，比干戮，箕子狂，惡來死，桀紂亡。人主莫不欲其臣之忠，而忠未必信，故伍員流于江，萇弘死于蜀，藏其血三年而化為碧。
+
+人親莫不欲其子之孝，而孝未必愛，故孝己憂而曾參悲。木與木相摩則然，金與火相守則流。
+
+陰陽錯行，則天地大絯，於是乎有雷有霆，水中有火，乃焚大槐。有甚憂兩陷而无所逃，
+
+螴蜳不得成，心若縣於天地之閒，慰暋沈屯，利害相摩，生火甚多，眾人焚和，月固不勝火，於是乎有僓然而道盡。
+
+莊周家貧，故往貸粟於監河侯。監河侯曰：「諾。我將得邑金，將貸子三百金，可乎？」
+
+莊周忿然作色曰：「周昨來，有中道而呼者。周顧視，車轍中有鮒魚焉。周問之曰：『鮒魚來，子何為者邪？』對曰：『我，東海之波臣也。君豈有升斗之水而活我哉？』
+
+周曰：『諾。我且南遊吳越之王，激西江之水而迎子，可乎？』鮒魚忿然作色曰：『吾失我常與，我无所處。吾得斗升之水然活耳，君乃言此，曾不如早索我於枯魚之肆！』」<pb:KR5c0126_CHANT_026-3a>
+
+任公子為大鉤巨緇，五十犗以為餌，蹲乎會稽，投竿東海，旦旦而釣，期年不得魚。已而大魚食之，牽巨鉤錎沒而下，騖揚而奮鬐，白波若山，海水震蕩，
+
+聲侔鬼神，憚赫千里。任公子得若魚，離而腊之，自制河以東，蒼梧已北，莫不厭若魚者。
+
+已而後世輇才諷說之徒，皆驚而相告也。夫揭竿累，趨灌瀆，守鯢鮒，其於得大魚難矣，飾小說以干縣令，其於大達亦遠矣，
+
+是以未嘗聞任氏之風俗，其不可與經於世亦遠矣。
+
+儒以《詩》、《禮》發冢。大儒臚傳曰：「東方作矣，事之何若？」
+
+小儒曰：「未解裙襦，口中有珠。《詩》固有之曰：『青青之麥，生於陵陂。生不布施，死何含珠為！』接其鬢，擪其顪，儒以金椎控其頤，徐別其頰，无傷口中珠！」<pb:KR5c0126_CHANT_026-5a>
+
+老萊子之弟子出薪，遇仲尼，反以告，曰：「有人於彼，脩上而趨下，末僂而後耳，視若營四海，不知其誰氏之子。」
+
+老萊子曰：「是丘也。召而來。」
+
+仲尼至。曰：「丘！去汝躬矜與汝容知，斯為君子矣。」
+
+仲尼揖而退，蹙然改容而問曰：「業可得進乎？」<pb:KR5c0126_CHANT_026-6a>
+
+老萊子曰：「夫不忍一世之傷而驁萬世之患，抑固窶邪，亡其略弗及邪？惠以歡為驁，終身之醜，中民之行進焉耳，相引以名，相結以隱。與其譽堯而非桀，不如兩忘而閉其所譽。
+
+反无非傷也，動无非邪也。聖人躊躇以興事，以每成功。奈何哉其載焉終矜爾！」<pb:KR5c0126_CHANT_026-7a>
+
+宋元君夜半而夢人被髮闚阿門，曰：「予自宰路之淵，予為清江使河伯之所，漁者余且得予。」
+
+元君覺，使人占之，曰：「此神龜也。」
+
+君曰：「漁者有余且乎？」
+
+左右曰：「有。」
+
+君曰：「令余且會朝。」明日，余且朝。君曰：「漁何得？」
+
+對曰：「且之網得白龜焉，其圓五尺。」
+
+君曰：「獻若之龜。」<pb:KR5c0126_CHANT_026-8a>
+
+龜至，君再欲殺之，再欲活之，心疑，卜之，曰：「殺龜以卜吉。」乃刳龜，七十二鑽而无遺筴。
+
+仲尼曰：「神（龜）能見夢於元君，而不能避余且之網；知能七十二鑽而无遺筴，不能避刳腸之患。如是，則知有所困，神有所不及也。雖有至知，萬人謀之。
+
+魚不畏網而畏鵜鶦。去小知而大知明，去善而自善矣。嬰兒生无石師而能言，與能言者處也。」<pb:KR5c0126_CHANT_026-9a>
+
+惠子謂莊子曰：「子言无用。」
+
+莊子曰：「知无用而始可與言用矣。夫地非不廣且大也，人之所用容足耳。然則廁足而墊之致黃泉，人尚有用乎？」
+
+惠子曰：「无用。」莊子曰：「然則无用之為用也亦明矣。」<pb:KR5c0126_CHANT_026-10a>
+
+莊子曰：「人有能遊，且得不遊乎？人而不能遊，且得遊乎？夫流遁之志，決絕之行，噫其非至知厚德之任與！」
+
+覆墜而不反，火馳而不顧，雖相與為君臣，時也，易世而无以相賤。故曰至人不留行焉。
+
+夫尊古而卑今，學者之流也。且以狶韋氏之流觀今之世，夫孰能不波！唯至人乃能遊於世而不僻，順人而不失己。彼教不學，承意不彼。
+
+目徹為明，耳徹為聰，鼻徹為顫，口徹為甘，心徹為知，知徹為德。凡道不欲壅，壅則哽，哽而不止則跈，跈則眾害生。
+
+物之有知者恃息，其不殷，非天之罪。天之穿之，日夜无降，人則顧塞其竇。胞有重閬，心有天遊。室无空虛，則婦姑勃谿；心无天遊，則六鑿相攘。
+
+大林丘山之善於人也，亦神者不勝。德溢乎名，名溢乎暴，謀稽乎誸，知出乎爭，柴生乎守，官事果乎眾宜。春雨日時，草木怒生，銚鎒於是乎始脩，草木之到植者過半而不知其然。
+
+「靜然可以補病，眥搣可以休老，寧可以止遽。雖然，若是，勞者之務也，非佚者之所未嘗過而問焉。聖人之所以駴天下，神人未嘗過而問焉；
+
+賢人所以駴世，聖人未嘗過而問焉；君子所以駴國，賢人未嘗過而問焉；小人所以合時，君子未嘗過而問焉。
+
+演門有親死者，以善毀爵為官師，其黨人毀而死者半。
+
+堯與許由天下，許由逃之；湯與務光，務光怒之，紀他聞之，帥弟子而踆於窾水，諸侯弔之，三年，申徒狄因以踣河。
+
+荃者所以在魚，得魚而忘荃；蹄者所以在兔，得兔而忘蹄；言者所以在意，得意而忘言。吾安得夫忘言之人而與之言哉！」
+
+### 寓言第二十七
+
+寓言十九，重言十七，巵言日出，和以天倪。
+
+寓言十九，藉外論之。親父不為其子媒。親父譽之，不若非其父者也；非吾罪也，人之罪也。與己同則應，不與己同則反；同於己為是之，異於己為非之。
+
+重言十七，所以已言也，是為耆艾。年先矣，而无經緯本末以期年耆者，是非先也。人而无以先人，无人道也；人而无人道，是之謂陳人。
+
+巵言日出，和以天倪，因以曼衍，所以窮年。不言則齊，齊與言不齊，言與齊不齊也，故曰言无言。
+
+言无言，終身言，未嘗不言；終身不言，未嘗不言。有自也而可，有自也而不可；有自也而然，有自也而不然。
+
+惡乎然？然於然。惡乎不然？不然於不然。惡乎可？可於可。惡乎不可？不可於不可。物固有所然，物固有所可，无物不然，无物不可。
+
+非巵言日出，和以天倪，孰得其久！萬物皆種也，以不同形相禪，始卒若環，莫得其倫，是謂天均。天均者，天倪也。
+
+莊子謂惠子曰：「孔子行年六十而六十化，始時所是，卒而非之，未知今之所謂是之非五十九非也。」
+
+惠子曰：「孔子勤志服知也。」
+
+莊子曰：「孔子謝之矣，而其未之嘗言？孔子云：『夫受才乎大本，復靈以生。』鳴而當律，言而當法，利義陳乎前，而好惡是非直服人之口而已矣。
+
+使人乃以心服，而不敢蘁立，定天下之定。已乎已乎！吾且不得及彼乎！」<pb:KR5c0126_CHANT_027-4a>
+
+曾子再仕而心再化，曰：「吾及親仕，三釜而心樂；後仕，三千鍾不洎，吾心悲。」
+
+弟子問于仲尼曰：「若參者，可謂无所縣其罪乎？」
+
+曰：「既已縣矣。夫无所縣者，可以有哀乎？彼視三釜三千鍾，如觀雀蚊虻相過乎前也。」<pb:KR5c0126_CHANT_027-5a>
+
+顏成子游謂東郭子綦曰：「自吾聞子之言，一年而野，二年而從，三年而通，四年而物，五年而來，六年而鬼入，七年而天成，八年而不知死，不知生，九年而大妙。
+
+生有為，死也。勸公，以其死也，有自也；而生陽也，无自也。
+
+而果然乎？惡乎其所適？惡乎其所不適？天有歷數，地有人據，吾惡乎求之？莫知其所終，若之何其无命也？莫知其所始，若之何其有命也？有以相應也，若之何其无鬼邪？无以相應也，若之何其有鬼邪？」<pb:KR5c0126_CHANT_027-6a>
+
+眾罔兩問於影曰：「若向也俯而今也仰，向也括而今也被髮，向也坐而今也起，向也行而今也止，何也？」
+
+影曰：「叟叟也，奚稍問也！予有而不知其所以。予，蜩甲也，蛇蛻也，似之而非也。火與日，吾屯也；陰與夜，吾代也。
+
+彼吾所以有待邪？而況乎无待者乎！彼來則我與之來，彼往則我與之往，彼強陽則我與之強陽。強陽者又何以有問乎！」<pb:KR5c0126_CHANT_027-7a>
+
+陽子居南之沛，老聃西遊於秦，邀於郊，至於梁而遇老子。老子中道仰天而歎曰：「始以汝為可教，今不可也。」
+
+陽子居不荅。至舍，進盥漱巾櫛，脫屨戶外，膝行而前曰：「向者弟子欲請夫子，夫子行不閒，是以不敢。今閒矣，請問其過。」
+
+老子曰：「而睢睢，而盱盱，而誰與居？大白若辱，盛德若不足。」
+
+陽子居蹴然變容曰：「敬聞命矣！」其往也，舍者迎將，其家公執席，妻執巾櫛，舍者避席，煬者避竈。其反也，舍者與之爭席矣。
+
+### 讓王第二十八
+
+堯以天下讓許由，許由不受。又讓於子州支父，子州支父曰：「以我為天子，猶之可也。
+
+雖然，我適有幽憂之病，方且治之，未暇治天下也。」夫天下至重也，而不以害其生，又況他物乎！唯无以天下為者，可以託天下也。
+
+舜讓天下於子州支伯。子州支伯曰：「予適有幽憂之病，方且治之，未暇治天下也。」故天下大器也，而不以易生，此有道者之所以異乎俗者也。
+
+舜以天下讓善卷，善卷曰：「余立於宇宙之中，冬日衣皮毛，夏日衣葛絺；春耕種，形足以勞動；秋收斂，身足以休食；
+
+日出而作，日入而息，逍遙於天地之閒而心意自得。吾何以天下為哉！悲夫，子之不知余也！」遂不受。於是去而入深山，莫知其處。
+
+舜以天下讓其友石戶之農，石戶之農曰：「捲捲乎后之為人，葆力之士也！」以舜之德為未至也，於是夫負妻戴，攜子以入於海，終身不反也。
+
+大王亶父居邠，狄人攻之；事之以皮帛而不受，事之以犬馬而不受，事之以珠玉而不受，
+
+狄人之所求者土地也。大王亶父曰：「與人之兄居而殺其弟，與人之父居而殺其子，吾不忍也。子皆勉居矣！
+
+為吾臣與為狄人臣奚以異！且吾聞之，不以所用養害所養。」因杖筴而去之。民相連而從之，遂成國於岐山之下。
+
+夫大王亶父，可謂能尊生矣。能尊生者，雖貴富不以養傷身，雖貧賤不以利累形。今世之人居高官尊爵者，皆重失之，見利輕亡其身，豈不惑哉！<pb:KR5c0126_CHANT_028-6a>
+
+越人三世弒其君，王子搜患之，逃乎丹穴。而越國无君，求王子搜不得，從之丹穴。王子搜不肯出，越人薰之以艾。乘以玉輿。
+
+王子搜援綏登車，仰天而呼曰：「君乎君乎！獨不可以舍我乎！」王子搜非惡為君也，惡為君之患也。若王子搜者，可謂不以國傷生矣，此固越人之所欲得為君也。
+
+韓魏相與爭侵地。子華子見昭僖侯，昭僖侯有憂色。子華子曰：「今使天下書銘於君之前，書之言曰：『左手攫之則右手廢，右手攫之則左手廢，然而攫之者必有天下。』君能攫之乎？」
+
+昭僖侯曰：「寡人不攫也。」<pb:KR5c0126_CHANT_028-8a>
+
+子華子曰：「甚善！自是觀之，兩臂重於天下也，身亦重於兩臂。韓之輕於天下亦遠矣，今之所爭者，其輕於韓又遠。君固愁身傷生以憂戚不得也！」
+
+僖侯曰：「善哉！教寡人者眾矣，未嘗得聞此言也。」子華子可謂知輕重矣。
+
+魯君聞顏闔得道之人也，使人以幣先焉。顏闔守陋閭，苴布之衣而自飯牛。魯君之使者至，顏闔自對之。使者曰：「此顏闔之家與？」顏闔對曰：「此闔之家也。」
+
+使者致幣，顏闔對曰：「恐聽者謬而遺使者罪，不若審之。」使者還反審之，復來求之，則不得已。故若顏闔者，非惡富貴也，由重生惡之也。
+
+故曰：「道之真以治身，其緒餘以為國家，其土苴以治天下。」由此觀之，帝王之功，聖人之餘事也，非所以完身養生也。
+
+今世俗之君子，多危身棄生以殉物，豈不悲哉！
+
+凡聖人之動作也，必察其所以之與其所以為。今且有人於此，以隨侯之珠彈千仞之雀，世必笑之。是何也？則其所用者重而所要者輕也。夫生者，豈特隨侯珠之重哉！<pb:KR5c0126_CHANT_028-11a>
+
+子列子窮，容貌有飢色。客有言之於鄭子陽者曰：「列御寇，蓋有道之士也，居君之國而窮，君无乃為不好士乎？」鄭子陽即令官遺之粟。子列子出見使者，再拜而辭。
+
+使者去，子列子入，其妻望之而拊心曰：「妾聞為有道者之妻子，皆得佚樂，今有飢色。君過而遺先生食，先生不受，豈不命邪！」
+
+子列子笑謂之曰：「君非自知我也。以人之言而遺我粟，至其罪我也又且以人之言，此吾所以不受也。」其卒，民果作難而殺子陽。
+
+楚昭王失國，屠羊說走而從於昭王。昭王反國，將賞從者，及屠羊說。屠羊說曰：「大王失國，說失屠羊；大王反國，說亦反屠羊。臣之爵祿已復矣，又何賞之有！」
+
+王曰：「強之！」
+
+屠羊說曰：「大王失國，非臣之罪，故不敢伏其誅；大王反國，非臣之功，故不敢當其賞。」王曰：「見之！」<pb:KR5c0126_CHANT_028-13a>
+
+屠羊說曰：「楚國之法，必有重賞大功而後得見，今臣之知不足以存國而勇不足以死寇。
+
+吳軍入郢，說畏難而避寇，非故隨大王也。今大王欲廢法毀約而見說，此非臣之所以聞於天下也。」
+
+王謂司馬子綦曰：「屠羊說居處卑賤而陳義甚高，子其為我延之以三旌之位。」
+
+屠羊說曰：「夫三旌之位，吾知其貴於屠羊之肆也；萬鍾之祿，吾知其富於屠羊之利也；然豈可以貪爵祿而使吾君有妄施之名乎！說不敢當，願復反吾屠羊之肆。」遂不受也。
+
+原憲居魯，環堵之室，茨以生草；蓬戶不完，桑以為樞；而甕牗二室，褐以為塞；上漏下濕，匡坐而弦歌。
+
+子貢乘大馬，中紺而表素，軒車不容巷，往見原憲。原憲華冠縱履，杖藜而應門。
+
+子貢曰：「嘻！先生何病？」
+
+原憲應之曰：「憲聞之，无財之謂貧，學而不能行之謂病。今憲貧也，非病也。」
+
+子貢逡巡而有愧色。原憲笑曰：「夫希世而行，比周而友，學以為人，教以為己，仁義之慝，輿馬之飾，憲不忍為也。」<pb:KR5c0126_CHANT_028-15a>
+
+曾子居衛，縕袍无表，顏色腫噲，手足胼胝。三日不舉火，十年不製衣，正冠而纓絕，捉衿而肘見，納屨而踵決。曳縰而歌《商頌》，聲滿天地，若出金石。
+
+天子不得臣，諸侯不得友。故養志者忘形，養形者忘利，致道者忘心矣。
+
+孔子謂顏回曰：「回，來！家貧居卑，胡不仕乎？」
+
+顏回對曰：「不願仕。回有郭外之田五十畝，足以給飦粥；郭內之田十畝，足以為絲麻；鼓琴足以自娛，所學夫子之道者足以自樂也。回不願仕。」
+
+孔子愀然變容曰：「善哉，回之意！丘聞之，『知足者不以利自累也，審自得者失之而不懼，行脩於內者无位而不怍。』丘誦之久矣，今於回而後見之，是丘之得也。」<pb:KR5c0126_CHANT_028-17a>
+
+中山公子牟謂瞻子曰：「身在江海之上，心居魏闕之下，奈何？」
+
+瞻子曰：「重生。重生則輕利。」
+
+中山公子牟曰：「雖知之，未能自勝也。」
+
+瞻子曰：「不能自勝則從，神无惡乎？不能自勝而強不從者，此之謂重傷。重傷之人，无壽類矣。」
+
+魏牟，萬乘之公子也，其隱巖穴也，難為於布衣之士；雖未至乎道，可謂有其意矣。
+
+孔子窮於陳蔡之閒，七日不火食，藜羹不糝，顏色甚憊，而弦歌於室。顏回擇菜於外，子路、子貢相與言曰：
+
+「夫子再逐於魯，削迹於衛，伐樹於宋，窮於商周，圍於陳蔡，殺夫子者无罪，藉夫子者无禁。弦歌鼓琴，未嘗絕音，君子之无恥也若此乎？」
+
+顏回无以應，入告孔子。孔子推琴喟然而歎曰：「由與賜，細人也。召而來，吾語之。」<pb:KR5c0126_CHANT_028-19a>
+
+子路、子貢入。子路曰：「如此者，可謂窮矣！」孔子曰：「是何言也！君子通於道之謂通，窮於道之謂窮。
+
+今丘抱仁義之道以遭亂世之患，其何窮之為！故內省而不疚於道，臨難而不失其德，大寒既至，霜雪既降，吾是以知松柏之茂也。昔桓公得之莒，文公得之曹，越王得之會稽，陳蔡之隘，於丘其幸乎！」<pb:KR5c0126_CHANT_028-20a>
+
+孔子列然反琴而弦歌，子路扢然執干而舞。子貢曰：「吾不知天之高也，地之下也。」
+
+古之得道者，窮亦樂，通亦樂。所樂非窮通也，道得於此，則窮通一也，為寒暑風雨之序矣。故許由娛於潁陽，而共伯得乎丘首。
+
+舜以天下讓其友北人无擇，北人无擇曰：「異哉后之為人也，居於畎畝之中而遊堯之門！不若是而已，又欲以其辱行漫我。吾羞見之。」因自投清泠之淵。
+
+湯將伐桀，因卞隨而謀，卞隨曰：「非吾事也。」
+
+湯曰：「孰可？」
+
+曰：「吾不知也。」
+
+湯又因務光而謀，務光曰：「非吾事也。」
+
+湯曰：「孰可？」
+
+曰：「吾不知也。」
+
+湯曰：「伊尹何如？」
+
+曰：「強力忍垢，吾不知其他也。」<pb:KR5c0126_CHANT_028-23a>
+
+湯遂與伊尹謀伐桀，剋之，以讓卞隨。卞隨辭曰：「后之伐桀也謀乎我，必以我為賊也；
+
+勝桀而讓我，必以我為貪也。吾生乎亂世，而无道之人再來漫我以其辱行，吾不忍數聞也。」乃自投椆水而死。
+
+湯又讓務光曰：「知者謀之，武者遂之，仁者居之，古之道也。吾子胡不立乎？」
+
+務光辭曰：「廢上，非義也；殺民，非仁也；人犯其難，我享其利，非廉也。
+
+吾聞之曰：『非其義者，不受其祿，无道之世，不踐其土。』況尊我乎！吾不忍久見也。」乃負石而自沈於廬水。
+
+昔周之興，有士二人處於孤竹，曰伯夷、叔齊。二人相謂曰：「吾聞西方有人，似有道者，試往觀焉。」
+
+至於岐陽則文王已歿矣，武王聞之，使叔旦往見之，與盟曰：「加富二等，就官一列。」血牲而埋之。
+
+二人相視而笑曰：「嘻，異哉！此非吾所謂道也。昔者神農之有天下也，時祀盡敬而不祈喜；其於人也，忠信盡治而无求焉。
+
+樂與政為政，樂與治為治，不以人之壞自成也，不以人之卑自高也，不以遭時自利也。
+
+今周見殷之亂而遽為政與治，上謀而下行貨，阻兵而保威，割牲而盟以為信，揚行以悅眾，殺伐以要利，是推亂以易暴也。
+
+吾聞古之士，遭治世不避其任，遇亂世不為苟存。今天下闇，周德衰，其並乎周以塗吾身也，不如避之以絜吾行。」
+
+二子北至於首陽之山，遂餓而死焉。若伯夷、叔齊者，其於富貴也，苟可得已，則必不賴。高節戾行，獨樂其志，不事於世，此二士之節也。
+
+### 盜跖第二十九
+
+孔子與柳下季為友，柳下季之弟名曰盜跖。盜跖從卒九千人，橫行天下，侵暴諸侯，穴室樞戶，驅人牛馬，取人婦女，貪得忘親，不顧父母兄弟，不祭先祖。
+
+所過之邑，大國守城，小國入保，萬民苦之。
+
+孔子謂柳下季曰：「夫為人父者，必能詔其子；為人兄者，必能教其弟。若父不能詔其子，兄不能教其弟，則无貴父子兄弟之親矣。
+
+今先生，世之才士也，弟為盜跖，為天下害，而弗能教也，丘竊為先生羞之。丘請為先生往說之。」<pb:KR5c0126_CHANT_029-3a>
+
+柳下季曰：「先生言為人父者必能詔其子，為人兄者必能教其弟，若子不聽父之詔，弟不受兄之教，雖今先生之辯，將奈之何哉！
+
+且跖之為人也，心如涌泉，意如飄風，強足以距敵，辯足以飾非，順其心則喜，逆其心則怒，易辱人以言。先生必无往。」
+
+孔子不聽，顏回為馭，子貢為右，往見盜跖。盜跖乃方休卒徒太山之陽，膾人肝而餔之。
+
+孔子下車而前，見謁者曰：「魯人孔丘，聞將軍高義，敬再拜謁者。」謁者入通，
+
+盜跖聞之大怒，目如明星，髮上指冠，
+
+曰：「此夫魯國之巧偽人孔丘非邪？為我告之：『爾作言造語，妄稱文武，冠枝木之冠，帶死牛之脅，多辭謬說，不耕而食，不織而衣，
+
+搖脣鼓舌，擅生是非，以迷天下之主，使天下學士不反其本，妄作孝悌而儌倖於封侯富貴者也。子之罪大極重，疾走歸！不然，我將以子肝益晝餔之膳！』」<pb:KR5c0126_CHANT_029-5a>
+
+孔子復通曰：「丘得幸於季，願望履幕下。」
+
+謁者復通，盜跖曰：「使來前！」
+
+孔子趨而進，避席反走，再拜盜跖。盜跖大怒，兩展其足，案劍瞋目，聲如乳虎，曰：「丘來前！若所言，順吾意則生，逆吾心則死。」<pb:KR5c0126_CHANT_029-6a>
+
+孔子曰：「丘聞之，凡天下有三德，生而長大，美好无雙，少長貴賤見而皆悅之，此上德也；知維天地，能辯諸物，此中德也；勇悍果敢，聚眾率兵，此下德也。
+
+凡人有此一德者，足以南面稱孤矣。今將軍兼此三者，身長八尺二寸，面目有光，脣如激丹，齒如齊貝，音中黃鍾，而名曰盜跖，
+
+丘竊為將軍恥不取焉。將軍有意聽臣，臣請南使吳越，北使齊魯，東使宋衛，西使晉楚，使為將軍造大城數百里，立數十萬戶之邑，尊將軍為諸侯，
+
+與天下更始，罷兵休卒，收養昆弟，共祭先祖。此聖人才士之行，而天下之願也。」<pb:KR5c0126_CHANT_029-7a>
+
+盜跖大怒，曰：「丘來前！夫可規以利而可諫以言者，皆愚陋恆民之謂耳。今長大美好，人見而悅之者，此吾父母之遺德也。丘雖不吾譽，吾獨不自知邪？
+
+且吾聞之，好面譽人者，亦好背而毀之。今丘告我以大城眾民，是欲規我以利而恆民畜我也，安可長久也！城之大者，莫大乎天下矣。
+
+堯舜有天下，子孫无置錐之地；湯武立為天子，而後世絕滅；非以其利大故邪？<pb:KR5c0126_CHANT_029-8a>
+
+「且吾聞之，古者禽獸多而人民少，於是民皆巢居以避之，晝拾橡栗，暮栖木上，故命之曰有巢氏之民。
+
+古者民不知衣服，夏多積薪，冬則煬之，故命之曰知生之民。神農之世，臥則居居，起則于于，民知其母，不知其父，與麋鹿共處，
+
+耕而食，織而衣，无有相害之心，此至德之隆也。然而黃帝不能致德，與蚩尤戰於涿鹿之野，流血百里。
+
+堯舜作，立群臣，湯放其主，武王殺紂。自是之後，以強陵弱，以眾暴寡。湯武以來，皆亂人之徒也。
+
+「今子脩文、武之道，掌天下之辯，以教後世，縫衣淺帶，矯言偽行，以迷惑天下之主，而欲求富貴焉，盜莫大於子。天下何故不謂子為盜丘，而乃謂我為盜跖？
+
+子以甘辭說子路而使從之，使子路去其危冠，解其長劍，而受教於子，天下皆曰孔丘能止暴禁非。其卒之也，子路欲殺衛君而事不成，身菹於衛東門之上，是子教之不至也。
+
+子自謂才士聖人邪？則再逐於魯，削跡於衛，窮於齊，圍於陳蔡，不容身於天下。子教子路菹此患，上无以為身，下无以為人，子之道豈足貴邪？<pb:KR5c0126_CHANT_029-10a>
+
+「世之所高，莫若黃帝，黃帝尚不能全德，而戰涿鹿之野，流血百里。堯不慈，舜不孝，禹偏枯，湯放其主，武王伐紂，文王拘羑里。
+
+此六子者，世之所高也，孰論之，皆以利惑其真而強反其情性，其行乃甚可羞也。
+
+「世之所謂賢士，莫若伯夷、叔齊。伯夷、叔齊辭孤竹之君，而餓死於首陽之山，骨肉不葬。鮑焦飾行非世，抱木而死。申徒狄諫而不聽，負石自投於河，為魚鼈所食。
+
+介子推至忠也，自割其股以食文公，文公後背之，子推怒而去，拘木而燔死。尾生與女子期於梁下，女子不來，水至不去，抱梁柱而死。
+
+此六子者，无異於磔犬流豕操瓢而乞者，皆離名輕死，不念本養壽命者也。
+
+「世之所謂忠臣者，莫若王子比干、伍子胥。子胥沈江，比干剖心，此二子者，世謂忠臣也，然卒為天下笑。自上觀之，至于子胥、比干，皆不足貴也。
+
+丘之所以說我者，若告我以鬼事，則我不能知也；若告我以人事者，不過此矣，皆吾所聞知也。」
+
+「今吾告子以人之情，目欲視色，耳欲聽聲，口欲察味，志氣欲盈。人上壽百歲，中壽八十，下壽六十，
+
+除病瘐死喪憂患，其中開口而笑者，一月之中不過四五日而已矣。天與地无窮，人死者有時，操有時之具而託於无窮之閒，勿然无異騏驥之馳過隙也。不能悅其志意，養其壽命者，皆非通道者也。
+
+丘之所言，皆吾之所棄也，亟去走歸，无復言之！子之道，狂狂伋伋，詐巧虛偽事也，非可以全真也，奚足論哉！」<pb:KR5c0126_CHANT_029-14a>
+
+孔子再拜趨走，出門上車，執轡三失，目芒然无見，色若死灰，據軾低頭，不能出氣。歸到魯東門外，適遇柳下季。柳下季曰：「今者闕然數日不見，車馬有行色，得微往見跖邪？」
+
+孔子仰天而歎曰：「然。」
+
+柳下季曰：「跖得无逆汝意若前乎？」
+
+孔子曰：「然。丘所謂无病而自灸也，疾走料虎頭，編虎須，幾不免虎口哉！」<pb:KR5c0126_CHANT_029-15a>
+
+子張問於滿苟得曰：「盍不為行？无行則不信，不信則不任，不任則不利。故觀之名，計之利，而義真是也。若棄名利，反之於心，則夫士之為行，不可一日不為乎！」
+
+滿苟得曰：「无恥者富，多信者顯。夫名利之大者，幾在无恥而信。故觀之名，計之利，而信真是也。若棄名利，反之於心，則夫士之為行，抱其天乎！」<pb:KR5c0126_CHANT_029-16a>
+
+子張曰：「昔者桀紂貴為天子，富有天下，今謂臧聚曰：『汝行如桀紂。』則有怍色有不服之心者，小人所賤也。仲尼、墨翟窮為匹夫，
+
+今謂宰相曰：『子行如仲尼、墨翟。』則變容易色稱不足者，士誠貴也。故勢為天子，未必貴也；窮為匹夫，未必賤也；貴賤之分，在行之美惡。」
+
+滿苟得曰：「小盜者拘，大盜者為諸侯，諸侯之門，仁義存焉。昔者桓公小白殺兄入嫂而管仲為臣，
+
+田成子常殺君竊國而孔子受幣。論則賤之，行則下之，則是言行之情悖戰於胸中也，不亦拂乎！故《書》曰：『孰惡孰美？成者為首，不成者為尾。』」<pb:KR5c0126_CHANT_029-17a>
+
+子張曰：「子不為行，即將䟽戚无倫，貴賤无義，長幼无序；五紀六位，將何以為別乎？」
+
+滿苟得曰：「堯殺長子，舜流母弟，䟽戚有倫乎？湯放桀，武王殺紂，貴賤有義乎？王季為適，周公殺兄，長幼有序乎？
+
+儒者偽辭，墨者兼愛，五紀六位，將有別乎？
+
+且子正為名，我正為利。名利之實，不順於理，不監於道。吾日與子訟於无約曰：
+
+『小人殉財，君子殉名。其所以變其情，易其性，則異矣；乃至於棄其所為而殉其所不為，則一也。』
+
+故曰：无為小人，反殉而天；无為君子，從天之理。若枉若直，相而天極；面觀四方，與時消息。
+
+若是若非，執而圓機；獨成而意，與道俳佪。无轉而行，无成而義，將失而所為。无赴而富，无殉而成，將棄而天。
+
+比干剖心，子胥抉眼，忠之禍也；直躬證父，尾生溺死，信之患也；鮑子立乾，申子自埋，廉之害也；孔子不見母，匡子不見父，義之失也。
+
+此上世之所傳，下世之所語，以為士者正其言，必其行，故服其殃，離其患也。」<pb:KR5c0126_CHANT_029-18a>
+
+无足問於知和曰：「人卒未有不興名就利者。彼富則人歸之，歸則下之，下則貴之。夫見下貴者，所以長生安體樂意之道也。
+
+今子獨无意焉，知不足邪，意知而力不能行邪，故推正不忘邪？」
+
+知和曰：「今夫此人以為與己同時而生，同鄉而處者，以為夫絕俗過世之士焉；是專无主正，所以覽古今之時，是非之分也，與俗化。世去至重，棄至尊，以為其所為也；此其所以論長生安體樂意之道，不亦遠乎！
+
+慘怛之疾，恬愉之安，不監於體；怵惕之恐，欣懽之喜，不監於心；
+
+知為為而不知所以為，是以貴為天子，富有天下，而不免於患也。」<pb:KR5c0126_CHANT_029-19a>
+
+无足曰：「夫富之於人，无所不利，窮美究勢，至人之所不得逮，賢人之所不能及，
+
+俠人之勇力而以為威強，秉人之知謀以為明察，因人之德以為賢良，非享國而嚴若君父。
+
+且夫聲色滋味權勢之於人，心不待學而樂之，體不待象而安之。夫欲惡避就，固不待師，此人之性也。天下雖非我，孰能辭之！」
+
+知和曰：「知者之為，故動以百姓，不違其度，是以足而不爭，无以為故不求。不足故求之，爭四處而不自以為貪；
+
+有餘故辭之，棄天下而不自以為廉。廉貪之實，非以迫外也，反監之度。勢為天子而不以貴驕人，富有天下而不以財戲人。
+
+計其患，慮其反，以為害於性，故辭而不受也，非以要名譽也。堯舜為帝而雍，非仁天下也，不以美害生也；善卷許由得帝而不受，非虛辭讓也，不以事害己。
+
+此皆就其利，辭其害，而天下稱賢焉，則可以有之，彼非以興名譽也。」<pb:KR5c0126_CHANT_029-20a>
+
+无足曰：「必持其名，苦體絕甘，約養以持生，則亦久病長阨而不死者也。」
+
+知和曰：「平為福，有餘為害者，物莫不然，而財其甚者也。今富人，耳營鍾鼓管籥之聲，口嗛於芻豢醪醴之味，以感其意，遺忘其業，可謂亂矣；
+
+侅溺於馮氣，若負重行而上阪也，可謂苦矣；貪財而取慰，貪權而取竭，靜居則溺，體澤則馮，可謂疾矣；
+
+為欲富就利，故滿若堵耳而不知避，且馮而不舍，可謂辱矣；財積而无用，服膺而不舍，滿心戚醮，求益而不止，可謂憂矣；
+
+內則疑刦請之賊，外則畏寇盜之害，內周樓䟽，外不敢獨行，可謂畏矣。此六者，天下之至害也，皆遺忘而不知察，
+
+及其患至，求盡性竭財，單以反一日之无故而不可得也。故觀之名則不見，求之利則不得，繚意絕體而爭此，不亦惑乎！」
+
+### 說劍第三十
+
+昔趙文王喜劍，劍士夾門而客三千餘人，日夜相擊於前，死傷者歲百餘人，好之不厭。如是三年，國衰，諸侯謀之。
+
+太子悝患之，募左右曰：「孰能說王之意止劍士者，賜之千金。」左右曰：「莊子當能。」<pb:KR5c0126_CHANT_030-2a>
+
+太子乃使人以千金奉莊子。莊子弗受，與使者俱往見太子曰：「太子何以教周，賜周千金？」
+
+太子曰：「聞夫子明聖，謹奉千金以幣從車。夫子弗受，悝尚何敢言！」
+
+莊子曰：「聞太子所欲用周者，欲絕王之喜好也。使臣上說大王而逆王意，下不當太子，則身刑而死，周尚安所事金乎？使臣上說大王，下當太子，趙國何求而不得也！」<pb:KR5c0126_CHANT_030-3a>
+
+太子曰：「然。吾王所見，唯劍士也。」
+
+莊子曰：「諾。周善為劍。」
+
+太子曰：「然。吾王所見劍士，皆蓬頭突鬢垂冠，曼胡之纓，短後之衣，瞋目而語難王乃悅之。今夫子必儒服而見王，事必大逆。」
+
+莊子曰：「請治劍服。」治劍服三日，乃見太子。太子乃與見王，王脫白刃待之。
+
+莊子入殿門不趨，見王不拜。王曰：「子欲何以教寡人，使太子先？」
+
+曰：「臣聞大王喜劍，故以劍見王。」
+
+王曰：「子之劍何能禁制？」
+
+曰：「臣之劍，十步殺一人，千里不留行。」
+
+王大悅之，曰：「天下无敵矣！」
+
+莊子曰：「夫為劍者，示之以虛，開之以利，後之以發，先之以至。願得試之。」
+
+王曰：「夫子休，就舍。待命令設戲請夫子。」<pb:KR5c0126_CHANT_030-4a>
+
+王乃校劍士七日，死傷者六十餘人，得五六人，使奉劍於殿下，乃召莊子。王曰：「今日試使士敦劍。」
+
+莊子曰：「望之久矣。」
+
+王曰：「夫子所御杖，長短何如？」
+
+曰：「臣之所奉皆可。然臣有三劍，唯王所用，請先言而後試。」
+
+王曰：「願聞三劍。」
+
+曰：「有天子劍，有諸侯劍，有庶人劍。」
+
+王曰：「天子之劍何如？」曰：「天子之劍，以燕谿石城為鋒，齊岱為鍔，晉衛為脊，周宋為鐔，韓魏為鋏；
+
+包以四夷，裹以四時；繞以渤海，帶以常山；制以五行，論以刑德；開以陰陽，持以春夏，行以秋冬。
+
+此劍，直之无前，舉之无上，案之无下，運之无旁，上決浮雲，下絕地紀。此劍一用，匡諸侯，天下服矣。此天子之劍也。」<pb:KR5c0126_CHANT_030-5a>
+
+文王芒然自失，曰：「諸侯之劍何如？」
+
+曰：「諸侯之劍，以知勇士為鋒，以清廉士為鍔，以賢良士為脊，以忠聖士為鐔，以豪桀士為鋏。
+
+此劍，直之亦无前，舉之亦无上，案之亦无下，運之亦无旁；上法圓天以順三光，下法方地以順四時，中和民意以安四鄉。
+
+此劍一用，如雷霆之震也，四封之內，无不賓服而聽從君命者矣。此諸侯之劍也。」<pb:KR5c0126_CHANT_030-6a>
+
+王曰：「庶人之劍何如？」
+
+曰：「庶人之劍，蓬頭突鬢垂冠，曼胡之纓，短後之衣，瞋目而語難。相擊於前，
+
+上斬頸領，下決肝肺。此庶人之劍，无異於鬭雞，一旦命已絕矣，无所用於國事。今大王有天子之位而好庶人之劍，臣竊為大王薄之。」
+
+王乃牽而上殿。宰人上食，王三環之。莊子曰：「大王安坐定氣，劍事已畢奏矣。」
+
+於是文王不出宮三月，劍士皆服斃其處也。
+
+### 漁父第三十一
+
+孔子遊乎緇帷之林，休坐乎杏壇之上。弟子讀書，孔子弦歌鼓琴，奏曲未半。有漁父者，下船而來，
+
+鬢眉交白，被髮揄袂，行原以上，距陸而止，左手據膝，右手持頤以聽。曲終而招子貢、子路，二人俱對。
+
+客指孔子曰：「彼何為者也？」
+
+子路對曰：「魯之君子也。」
+
+客問其族。子路對曰：「族孔氏。」
+
+客曰：「孔氏者何治也？」
+
+子路未應，子貢對曰：「孔氏者，性服忠信，身行仁義，飾禮樂，選人倫，上以忠於世主，下以化於齊民，將以利天下。此孔氏之所治也。」
+
+又問曰：「有土之君與？」
+
+子貢曰：「非也。」
+
+「侯王之佐與？」
+
+子貢曰：「非也。」
+
+客乃笑而還，行言曰：「仁則仁矣，恐不免其身；苦心勞形以危其真。嗚呼，遠哉其分於道也！」<pb:KR5c0126_CHANT_031-2a>
+
+子貢還，報孔子。孔子推琴而起曰：「其聖人與！」乃下求之，至於澤畔，方將杖挐而引其船，顧見孔子，還鄉而立。孔子反走，再拜而進。
+
+客曰：「子將何求？」
+
+孔子曰：「曩者先生有緒言而去，丘不肖，未知所謂，竊待於下風，幸聞咳唾之音以卒相丘也！」
+
+客曰：「嘻！甚矣子之好學也！」
+
+孔子再拜而起曰：「丘少而脩學，以至於今，六十九歲矣，无所得聞至教，敢不虛心！」<pb:KR5c0126_CHANT_031-3a>
+
+客曰：「同類相從，同聲相應，固天之理也。吾請釋吾之所有而經子之所以。子之所以者，人事也。天子諸侯大夫庶人，此四者自正，治之美也，四者離位而亂莫大焉。
+
+官治其職，人處其事，乃无所陵。故田荒室露，衣食不足，徵賦不屬，妻妾不和，長少无序，庶人之憂也；
+
+能不勝任，官事不治，行不清白，群下荒怠，功美不有，爵祿不持，大夫之憂也；
+
+廷无忠臣，國家昏亂，工技不巧，貢職不美，春秋後倫，不順天子，諸侯之憂也；
+
+陰陽不和，寒暑不時，以傷庶物，諸侯暴亂，擅相攘伐，以殘民人，禮樂不節，財用窮匱，人倫不飭，百姓淫亂，天子有司之憂也。
+
+今子既上无君侯有司之勢，而下无大臣職事之官，而擅飾禮樂，選人倫，以化齊民，不泰多事乎！」<pb:KR5c0126_CHANT_031-4a>
+
+「且人有八疵，事有四患，不可不察也。非其事而事之，謂之揔；莫之顧而進之，謂之佞；希意導言，謂之諂；不擇是非而言，謂之諛；好言人之惡，謂之讒；
+
+析交離親，謂之賊；稱譽詐偽以敗惡人，謂之慝；
+
+不擇善否，兩容顏適，偷拔其所欲，謂之險。此八疵者，外以亂人，內以傷身，君子不友，明君不臣。
+
+所謂四患者：好經大事，變更易常，以挂功名，謂之叨；專知擅事，侵人自用，謂之貪；
+
+見過不更，聞諫愈甚，謂之很；人同於己則可，不同於己，則雖善不善，謂之矜。此四患也。能去八疵，无行四患，而始可教已。」<pb:KR5c0126_CHANT_031-5a>
+
+孔子愀然而歎，再拜而起曰：「丘再逐於魯，削迹於衛，伐樹於宋，圍於陳蔡。丘不知所失，而離此四謗者何也？」
+
+客悽然變容曰：「甚矣子之難悟也！人有畏影惡迹而去之走者，舉足愈數而迹愈多，走愈疾而影不離（身），自以為尚遲，疾走不休，絕力而死。
+
+不知處陰以休影，處靜以息迹，愚亦甚矣！子審仁義之閒，察同異之際，觀動靜之變，適受與之度，理好惡之情，和喜怒之節，而幾於不免矣。
+
+謹脩而身，慎守其真，還以物與人，則无所累矣。今不脩之身而求之人，不亦外乎！」<pb:KR5c0126_CHANT_031-6a>
+
+孔子愀然曰：「請問何謂真？」
+
+客曰：「真者，精誠之至也。不精不誠，不能動人。故強哭者雖悲不哀，強怒者雖嚴不威，強親者雖笑不和。
+
+真悲无聲而哀，真怒未發而威，真親未笑而和。真在內者，神動於外，是所以貴真也。其用於人理也，事親則慈孝，事君則忠貞，飲酒則歡樂，處喪則悲哀。
+
+忠貞以功為主，飲酒以樂為主，處喪以哀為主，事親以適為主，功成之美，无一其迹矣。事親以適，不論所以矣；飲酒以樂，不選其具矣；處喪以哀，无問其禮矣。
+
+禮者，世俗之所為也；真者，所以受於天也，自然不可易也。故聖人法天貴真，不拘於俗。愚者反此。
+
+不能法天而恤於人，不知貴真，祿祿而受變於俗，故不足。惜哉，子之早湛於人偽而晚聞大道也！」<pb:KR5c0126_CHANT_031-7a>
+
+孔子又再拜而起曰：「今者丘得遇也，若天幸然。先生不羞而比之服役，而身教之。敢問舍所在，請因受業而卒學大道。」
+
+客曰：「吾聞之，可與往者與之，至於妙道，不可與往者，不知其道，慎勿與之，身乃无咎。子勉之！吾去子矣，吾去子矣！」乃刺船而去，延緣葦閒。
+
+顏淵還車，子路授綏，孔子不顧，待水波定，不聞挐音而後敢乘。
+
+子路旁車而問曰：「由得為役久矣，未嘗見夫子遇人如此其威也。萬乘之主，千乘之君，見夫子未嘗不分庭伉禮，夫子猶有倨敖之容。
+
+今漁父杖挐逆立，而夫子曲要磬折，言拜而應，得无太甚乎？門人皆怪夫子矣，漁父何以得此乎？」<pb:KR5c0126_CHANT_031-9a>
+
+孔子伏軾而歎曰：「甚矣由之難化也！湛於禮義有閒矣，而樸鄙之心至今未去。進，吾語汝！夫遇長不敬，失禮也；見賢不尊，不仁也。
+
+彼非至人，不能下人，下人不精，不得其真，故長傷身。惜哉！不仁之於人也，禍莫大焉，而由獨擅之。
+
+且道者，萬物之所由也，庶物失之者死，得之者生，為事逆之則敗，順之則成。故道之所在，聖人尊之。今漁父之於道，可謂有矣，吾敢不敬乎！」
+
+### 列御寇第三十二
+
+列御寇之齊，中道而反，遇伯昏瞀人。伯昏瞀人曰：「奚方而反？」
+
+曰：「吾驚焉。」
+
+曰：「惡乎驚？」
+
+曰：「吾嘗食於十漿，而五漿先饋。」
+
+伯昏瞀人曰：「若是，則汝何為驚已？」
+
+曰：「夫內誠不解，形諜成光，以外鎮人心，使人輕乎貴老，而𩐋其所患。
+
+夫漿人特為食羹之貨，多餘之贏，其為利也薄，其為權也輕，而猶若是，而況於萬乘之主乎！身勞於國而知盡於事，彼將任我以事而效我以功，吾是以驚。」
+
+伯昏瞀人曰：「善哉觀乎！汝處己，人將保汝矣！」
+
+无幾何而往，則戶外之屨滿矣。伯昏瞀人北面而立，敦杖蹙之乎頤，立有閒，不言而出。
+
+賓者以告列子，列子提屨，跣而走，暨乎門，曰：「先生既來，曾不發藥乎？」
+
+曰：「已矣，吾固告汝曰人將保汝，果保汝矣。非汝能使人保汝，而汝不能使人无保汝也，而焉用之感豫出異也！必且有感，搖而本性，又无謂也。
+
+與汝遊者又莫汝告也，彼所小言，盡人毒也。莫覺莫悟，何相孰也！巧者勞而知者憂，无能者无所求，飽食而遨遊，汎若不繫之舟，虛而遨遊者也。」<pb:KR5c0126_CHANT_032-3a>
+
+鄭人緩也，呻吟裘氏之地。衹三年而緩為儒，河潤九里，澤及三族，使其弟墨。儒墨相與辯，其父助翟。
+
+十年而緩自殺。其父夢之曰：「使而子為墨者予也。闔胡嘗視其良，既為秋柏之實矣？」
+
+夫造物者之報人也，不報其人而報其人之天。彼故使彼。夫人以己為有以異於人以賤其親，齊人之井飲者相捽也。
+
+故曰：今之世皆緩也，自是有德者以不知也，而況有道者乎！古者謂之遁天之刑。
+
+聖人安其所安，不安其所不安；眾人安其所不安，不安其所安。
+
+莊子曰：「知道易，勿言難。知而不言，所以之天也；知而言之，所以之人也；古之人，天而不人。」
+
+朱泙漫學屠龍於支離益，單千金之家，三年技成而无所用其巧。
+
+聖人以必不必，故无兵；眾人以不必必之，故多兵；順於兵，故行有求。兵，恃之則亡。
+
+小夫之知，不離苞苴竿牘，敝精神乎蹇淺，而欲兼濟導物，太一形虛。若是者，迷惑于宇宙，形累不知太初。
+
+彼至人者，歸精神乎无始而甘瞑乎无何有之鄉。水流乎无形，發泄乎大清。悲哉乎！汝為知在豪毛，而不知大寧！<pb:KR5c0126_CHANT_032-5a>
+
+宋人有曹商者，為宋王使秦。其往也，得車數乘；王悅之，益車百乘。
+
+反於宋，見莊子曰：「夫處窮閭阨巷，困窘織屨，槁項黃馘者，商之所短也；一悟萬乘之主而從車百乘者，商之所長也。」
+
+莊子曰：「秦王有病召醫，破癰潰痤者得車一乘，舐痔者得車五乘，所治愈下，得車愈多。子豈治其痔邪，何得車之多也？子行矣！」<pb:KR5c0126_CHANT_032-6a>
+
+魯哀公問乎顏闔曰：「吾以仲尼為貞幹，國其有瘳乎？」
+
+曰：「殆哉圾乎仲尼！方且飾羽而畫，從事華辭，以支為旨，忍性以視民而不知不信，受乎心，宰乎神，夫何足以上民！
+
+彼宜汝與？予頤與？誤而可矣。今使民離實學偽，非所以視民也，為後世慮，不若休之。
+
+難治也。」施於人而不忘，非天布也。商賈不齒，雖以事齒之，神者弗齒。
+
+為外刑者，金與木也；為內刑者，動與過也。宵人之離外刑者，金木訊之；離內刑者，陰陽食之。夫免乎外內之刑者，唯真人能之。
+
+孔子曰：「凡人心險於山川，難於知天；天猶有春秋冬夏旦暮之期，人者厚貌深情。
+
+故有貌愿而益，有長若不肖，有順懁而達，有堅而縵，有緩而釬。故其就義若渴者，其去義若熱。
+
+故君子遠使之而觀其忠，近使之而觀其敬，煩使之而觀其能，卒然問焉而觀其知，急與之期而觀其信，委之以財而觀其仁，告之以危而觀其節，
+
+醉之以酒而觀其則，雜之以處而觀其色。九徵至，不肖人得矣。」
+
+正考父一命而傴，再命而僂，三命而俯，循牆而走，孰敢不軌！
+
+如而夫者，一命而呂鉅，再命而於車上儛，三命而名諸父，孰協唐、許！<pb:KR5c0126_CHANT_032-8a>
+
+賊莫大乎德有心而心有眼，及其有眼也而內視，內視而敗矣。凶德有五，中德為首。何謂中德？中德也者，有以自好也，而吡其所不為者也。
+
+窮有八極，達有三必，形有六府。美髯長大壯麗勇敢，八者俱過人也，因以是窮。緣循，偃佒，困畏不若人，三者俱通達。
+
+知慧外通，勇動多怨，仁義多責。達生之情者傀，達於知者肖；達大命者隨，達小命者遭。
+
+人有見宋王者，錫車十乘，以其十乘驕稺莊子。
+
+莊子曰：「河上有家貧恃緯蕭而食者，其子沒於淵，得千金之珠。其父謂其子曰：『取石來鍛之！夫千金之珠，必在九重之淵而驪龍頷下，
+
+子能得珠者，必遭其睡也。使驪龍而寤，子尚奚微之有哉！』今宋國之深，非直九重之淵也；宋王之猛，非直驪龍也；子能得車者，必遭其睡也。使宋王而寤，子為𩐋粉夫！」<pb:KR5c0126_CHANT_032-10a>
+
+或聘於莊子。莊子應其使曰：「子不見夫犧牛乎？衣以文繡，食以芻菽，及其牽而入於太廟，雖欲為孤犢，其可得乎！」<pb:KR5c0126_CHANT_032-11a>
+
+莊子將死，弟子欲厚葬之。莊子曰：「吾以天地為棺槨，以日月為連璧，星辰為珠璣，萬物為齎送。吾葬具豈不備邪？何以加此！」
+
+弟子曰：「吾恐烏鳶之食夫子也。」
+
+莊子曰：「在上為烏鳶食，在下為螻蟻食，奪彼與此，何其偏也！」<pb:KR5c0126_CHANT_032-12a>
+
+以不平平，其平也不平；以不徵徵，其徵也不徵。明者唯為之使，神者徵之。夫明之不勝神也久矣，而愚者恃其所見入於人，其功外也，不亦悲乎！
+
+### 天下第三十三
+
+天下之治方術者多矣，皆以其有為不可加矣。古之所謂道術者，果惡乎在？曰：「无乎不在。」
+
+曰：「神何由降？明何由出？」「聖有所生，王有所成，皆原於一。」
+
+不離於宗，謂之天人。不離於精，謂之神人。不離於真，謂之至人。以天為宗，以德為本，以道為門，兆於變化，謂之聖人。
+
+以仁為恩，以義為理，以禮為行，以樂為和，薰然慈仁，謂之君子。以法為分，以名為表，以操為驗，以稽為決，其數一二三四是也，百官以此相齒，
+
+以事為常，以衣食為主，蕃息畜藏，老弱孤寡為意，皆有以養，民之理也。
+
+古之人其備乎！配神明，醇天地，育萬物，和天下，澤及百姓，明於本數，係於末度，六通四闢，小大精粗，其運无乎不在。
+
+其明而在數度者，舊法世傳之史尚多有之。其在於《詩》、《書》、《禮》、《樂》者，鄒魯之士搢紳先生多能明之。
+
+《詩》以導志，《書》以導事，《禮》以導行，《樂》以導和，《易》以導陰陽，《春秋》以導名分。其數散於天下而設於中國者，百家之學時或稱而道之。
+
+天下大亂，賢聖不明，道德不一，天下多得一察焉以自好。譬如耳目鼻口，皆有所明，不能相通。猶百家眾技也，皆有所長，時有所用。
+
+雖然，不該不徧，一曲之士也。判天地之美，析萬物之理，察古人之全，寡能備於天地之美，稱神明之容。
+
+是故內聖外王之道，闇而不明，鬱而不發，天下之人各為其所欲焉以自為方。悲夫，百家往而不反，必不合矣！
+
+後世之學者，不幸不見天地之純，古人之大體，道術將為天下裂。
+
+不侈於後世，不靡於萬物，不暉於數度，以繩墨自矯而備世之急，古之道術有在於是者。墨翟禽滑釐聞其風而悅之，為之太過，已之大循。
+
+作為《非樂》，命之曰《節用》；生不歌，死无服。墨子氾愛兼利而非鬭，其道不怒；又好學而博，不異，不與先王同，毀古之禮樂。
+
+黃帝有《咸池》，堯有《大章》，舜有《大韶》，禹有《大夏》，湯有《大濩》，文王有辟雍之樂，武王周公作《武》。古之喪禮，貴賤有儀，上下有等，
+
+天子棺槨七重，諸侯五重，大夫三重，士再重。今墨子獨生不歌，死不服，桐棺三寸而无槨，以為法式。
+
+以此教人，恐不愛人；以此自行，固不愛己。末敗墨子道，雖然，歌而非歌，哭而非哭，樂而非樂，是果類乎？其生也勤，其死也薄，其道大觳；
+
+使人憂，使人悲，其行難為也，恐其不可以為聖人之道，反天下之心，天下不堪。墨子雖獨能任，奈天下何！離於天下，其去王也遠矣。
+
+墨子稱道曰：「昔者禹之湮洪水，決江河而通四夷九州也，名川三百，支川三千，小者无數。禹親自操橐耜而九雜天下之川；腓无胈，脛无毛，
+
+沐甚雨，櫛疾風，置萬國。禹大聖也而形勞天下也如此。」
+
+使後世之墨者，多以裘褐為衣，以跂蹻為服，日夜不休，以自苦為極，曰：「不能如此，非禹之道也，不足謂墨。」<pb:KR5c0126_CHANT_033-7a>
+
+相里勤之弟子五侯之徒，南方之墨者苦獲、已齒、鄧陵子之屬，俱誦《墨經》，而倍譎不同，相謂別墨；以堅白同異之辯相訾，以觭偶不仵之辭相應；
+
+以巨子為聖人，皆願為之尸，冀得為其後世，至今不決。
+
+墨翟禽滑釐之意則是，其行則非也。將使後世之墨者，必自苦以腓无胈脛无毛相進而已矣。亂之上也，治之下也。雖然，墨子真天下之好也，將求之不得也，雖枯槁不舍也。才士也夫！<pb:KR5c0126_CHANT_033-9a>
+
+不累於俗，不飾於物，不苟於人，不忮於眾，願天下之安寧以活民命，人我之養畢足而止，以此白心，古之道術有在於是者。宋鉼尹文聞其風而悅之，
+
+作為華山之冠以自表，接萬物以別宥為始；語心之容，命之曰心之行，以聏合驩，以調海內，請欲置之以為主。見侮不辱，救民之鬭，禁攻寢兵，救世之戰。
+
+以此周行天下，上說下教，雖天下不取，強聒而不舍者也，故曰：上下見厭而強見也。
+
+雖然，其為人太多，其自為太少，曰：「請欲固置五升之飯足矣。」先生恐不得飽，弟子雖飢，不忘天下，日夜不休，曰：
+
+「我必得活哉！」圖傲乎救世之士哉！曰：「君子不為苛察，不以身假物。」以為无益於天下者，明之不如已也，
+
+以禁攻寢兵為外，以情欲寡淺為內，其小大精粗，其行適至是而止。
+
+公而不黨，易而无私，決然无主，趣物而不兩，不顧於慮，不謀於知，於物无擇，與之俱往，古之道術有在於是者。
+
+彭蒙、田駢、慎到聞其風而悅之，齊萬物以為首，曰：「天能覆之，而不能載之；地能載之，而不能覆之；大道能包之，而不能辯之。知萬物皆有所可，有所不可，故曰：選則不徧，教則不至，道則无遺者矣。」<pb:KR5c0126_CHANT_033-12a>
+
+是故慎到棄知去己，而緣不得已，泠汰於物以為道理，曰：「知不知，將薄知而後鄰傷之者也。」謑髁无任，而笑天下之尚賢也；縱脫无行，而非天下之大聖。
+
+椎拍輐斷，與物宛轉，舍是與非，苟可以免，不師知慮，不知前後，魏然而已矣。推而後行，曳而後往，若飄風之還，若羽之旋，若磨石之隧，全而无非，動靜无過，未嘗有罪。
+
+是何故？夫无知之物，无建己之患，无用知之累，動靜不離於理，是以終身无譽。
+
+故曰：至於若无知之物而已，无用賢聖，夫塊不失道。豪桀相與笑之曰：「慎到之道，非生人之行而至死人之理，適得怪焉。」<pb:KR5c0126_CHANT_033-13a>
+
+田駢亦然，學於彭蒙，得不教焉。彭蒙之師曰：「古之道人，至於莫之是莫之非而已矣。其風窢然，惡可而言？」
+
+常反人，不聚觀，而不免於魭斷。其所謂道非道，而所言之韙不免於非。彭蒙、田駢、慎到不知道。雖然，概乎皆嘗有聞者也。
+
+以本為精，以物為粗，以有積為不足，澹然獨與神明居，古之道術有在於是者。關尹、老聃聞其風而悅之，建之以常无有，主之以太一，以濡弱謙下為表，以空虛不毀萬物為實。
+
+關尹曰：「在己无居，形物自著。其動若水，其靜若鏡，其應若響。芴乎若亡，寂乎若清。同焉者和，得焉者失。未嘗先人而常隨人。」
+
+老聃曰：「知其雄，守其雌，為天下谿；知其白，守其辱，為天下谷。」人皆取先，己獨取後，曰受天下之垢；
+
+人皆取實，己獨取虛，无藏也故有餘，巋然而有餘。其行身也，徐而不費，无為也而笑巧；
+
+人皆求福，己獨曲全，曰苟免於咎。以深為根，以約為紀，曰堅則毀矣，銳則挫矣。常寬容於物，不削於人，可謂至極。
+
+關尹、老聃乎！古之博大真人哉！<pb:KR5c0126_CHANT_033-15a>
+
+寂漠无形，變化无常，死與生與，天地並與，神明往與！芒乎何之，忽乎何適，萬物畢羅，莫足以歸，古之道術有在於是者。
+
+莊周聞其風而悅之，以謬悠之說，荒唐之言，无端崖之辭，時恣縱而不儻，不以觭見之也。以天下為沈濁，不可與莊語，以巵言為曼衍，以重言為真，以寓言為廣。
+
+獨與天地精神往來，而不敖倪於萬物，不譴是非，以與世俗處。其書雖瓌瑋，而連犿无傷也。其辭雖參差，而諔詭可觀。彼其充實不可以已，
+
+上與造物者遊，而下與外死生无終始者為友。其於本也，弘大而闢，深閎而肆，其於宗也，可謂調適而上遂矣。
+
+雖然，其應於化而解於物也，其理不竭，其來不蛻，芒乎昧乎，未之盡者。
+
+惠施多方，其書五車，其道舛駁，其言也不中。歷物之意，曰：「至大无外，謂之大一；至小无內，謂之小一。
+
+无厚，不可積也，其大千里。天與地卑，山與澤平。日方中方睨，物方生方死。大同而與小同異，此之謂小同異；萬物畢同畢異，此之謂大同異。
+
+南方无窮而有窮，今日適越而昔來。連環可解也。我知天下之中央，燕之北越之南是也。氾愛萬物，天地一體也。」<pb:KR5c0126_CHANT_033-17a>
+
+惠施以此為大，觀於天下而曉辯者，天下之辯者相與樂之。卵有毛，雞三足，郢有天下，犬可以為羊，馬有卵，丁子有尾，
+
+火不熱，山出口，輪不蹍地，目不見，指不至，至不絕，龜長於蛇，矩不方，規不可以為圓，鑿不圍枘，飛鳥之景未嘗動也，
+
+鏃矢之疾而有不行不止之時，狗非犬，黃馬驪牛三，白狗黑，孤駒未嘗有母，一尺之捶，日取其半，萬世不竭。辯者以此與惠施相應，終身无窮。
+
+桓團、公孫龍辯者之徒，飾人之心，易人之意，能勝人之口，不能服人之心，辯者之囿也。惠施日以其知與人之辯，特與天下之辯者為怪，此其柢也。
+
+然惠施之口談，自以為最賢，曰天地其壯乎！施存雄而无術。南方有倚人焉曰黃繚，問天地所以不墜不陷，風雨雷霆之故。
+
+惠施不辭而應，不慮而對，徧為萬物說，說而不休，多而无已，猶以為寡，益之以怪。以反人為實而欲以勝人為名，是以與眾不適也。
+
+弱於德，強於物，其塗隩矣。由天地之道觀惠施之能，其猶一蚊一䖟之勞者也。其於物也何庸！夫充一尚可，曰愈貴道，幾矣！
+
+惠施不能以此自寧，散於萬物而不厭，卒以善辯為名。惜乎！惠施之才，駘蕩而不得，逐萬物而不反，是窮響以聲，形與影競走也。悲夫！
 
 ## 三、《列子》全本
 
