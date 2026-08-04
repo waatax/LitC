@@ -317,7 +317,7 @@ const nextChapter = computed(() => {
           </div>
           <p class="reading-aid-source">
             輔讀校讀參考：
-            <a v-for="(source, index) in READING_AID_SOURCES" :key="source.url" :href="source.url" target="_blank" rel="noopener noreferrer">{{ source.label }}{{ index < READING_AID_SOURCES.length - 1 ? '、' : '' }}</a>
+            <span v-for="(source, key) in READING_AID_SOURCES" :key="key">{{ source.edition }}（{{ source.note }}）</span>
           </p>
         </div>
       </div>
