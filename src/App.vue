@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue'
+import { defineAsyncComponent, ref, onMounted, onUnmounted } from 'vue'
 import NavSidebar from '@/components/NavSidebar.vue'
 import InkCanvas from '@/components/InkCanvas.vue'
 import DisplayControls from '@/components/DisplayControls.vue'
-import SearchModal from '@/components/SearchModal.vue'
+const SearchModal = defineAsyncComponent(() => import('@/components/SearchModal.vue'))
 
 const isSearchOpen = ref(false)
 
@@ -34,7 +34,7 @@ onUnmounted(() => {
     <InkCanvas />
     <NavSidebar @open-search="isSearchOpen = true" />
     <DisplayControls />
-    <SearchModal :isOpen="isSearchOpen" @close="isSearchOpen = false" />
+    <SearchModal v-if="isSearchOpen" :isOpen="isSearchOpen" @close="isSearchOpen = false" />
     <main class="app-main">
       <div class="app-main-content">
         <router-view v-slot="{ Component, route }">

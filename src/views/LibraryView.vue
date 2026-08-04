@@ -3,7 +3,8 @@ import { ref, computed, onMounted, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import type { Work, SchoolId, School, Chapter } from '@/types/content'
 import { GENRE_STRATEGY_META } from '@/types/content'
-import { getSchools, getWorks, getWorksBySchool, getChapters, getWorkDescription } from '@/data'
+import { getSchools, getWorkDescription } from '@/data/catalogApi'
+import { catalogWorks, catalogChapters } from '@/data/catalog'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 
 const router = useRouter()
@@ -17,7 +18,7 @@ const expandedWorkId = ref<string | null>(null)
 
 // Load data
 const allSchools = ref<School[]>(getSchools())
-const allWorks = ref<Work[]>(getWorks())
+const allWorks = ref<Work[]>(catalogWorks)
 const workChapters = ref<Map<string, Chapter[]>>(new Map())
 
 function checkQueryFilter() {
@@ -31,7 +32,7 @@ function checkQueryFilter() {
       expandedWorkId.value = work.id
       // Lazy load chapters
       if (!workChapters.value.has(work.id)) {
-        workChapters.value.set(work.id, getChapters(work.id))
+        workChapters.value.set(work.id, catalogChapters.filter(c => c.workId === work.id))
       }
       return
     }
@@ -78,7 +79,7 @@ const filteredWorks = computed(() => {
   if (activeFilter.value === 'all') {
     return allWorks.value
   }
-  return getWorksBySchool(activeFilter.value)
+  return allWorks.value.filter(w => w.schoolId === activeFilter.value)
 })
 
 function setFilter(tab: FilterTab) {
@@ -94,7 +95,7 @@ function toggleWork(workId: string) {
   expandedWorkId.value = workId
   // Lazy load chapters
   if (!workChapters.value.has(workId)) {
-    const chapters = getChapters(workId)
+    const chapters = catalogChapters.filter(c => c.workId === workId)
     workChapters.value.set(workId, chapters)
   }
 }
