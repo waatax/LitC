@@ -22,6 +22,12 @@ const router = createRouter({
       meta: { title: '文海' },
     },
     {
+      path: '/glimpse',
+      name: 'glimpse',
+      component: () => import('@/views/GlimpseView.vue'),
+      meta: { title: '驚鴻一撇' },
+    },
+    {
       path: '/chapter/:id',
       name: 'chapter',
       component: () => import('@/views/ChapterView.vue'),
