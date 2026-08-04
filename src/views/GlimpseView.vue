@@ -2,7 +2,9 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useRouter } from 'vue-router'
 import type { Chapter, Work, Passage, Sentence, WorkDescription } from '@/types/content'
-import { getWorks, getChapter, getPassagesByChapter, getSentencesByPassage, getWorkDescription } from '@/data'
+import { catalogWorks } from '@/data/catalog'
+import { getWorkDescription } from '@/data/catalogApi'
+import { loadChapterContent } from '@/data/workLoader'
 import { getPassageReadingAid } from '@/data/readingAid'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import RedSeal from '@/components/RedSeal.vue'
@@ -30,9 +32,9 @@ const activeIntroTab = ref<'summary' | 'significance' | 'allusions'>('summary')
 
 const currentGlimpse = computed(() => glimpses.value[currentIndex.value] ?? null)
 
-function sampleGlimpses() {
+async function sampleGlimpses() {
   isRefreshing.value = true
-  const allWorks = getWorks()
+  const allWorks = catalogWorks
   
   // Filter works that have chapters
   const validWorks = allWorks.filter(w => w.chapterIds && w.chapterIds.length > 0)
@@ -51,15 +53,16 @@ function sampleGlimpses() {
 
   const items: GlimpseItem[] = []
   for (const item of selected) {
-    const ch = getChapter(item.chapterId)
-    if (!ch) continue
-    const ps = getPassagesByChapter(item.chapterId)
+    const content = await loadChapterContent(item.chapterId)
+    if (!content) continue
+    const ch = content.chapter
+    const ps = content.passages
     
     const sentenceMap = new Map<string, Sentence[]>()
     const aidMap = new Map<string, { translation?: string; analysis?: string }>()
 
     for (const p of ps) {
-      sentenceMap.set(p.id, getSentencesByPassage(p.id))
+      sentenceMap.set(p.id, content.sentences.filter(sentence => sentence.passageId === p.id))
       aidMap.set(p.id, getPassageReadingAid(p.id) || {})
     }
 
@@ -125,8 +128,8 @@ function handleKeydown(e: KeyboardEvent) {
   }
 }
 
-onMounted(() => {
-  sampleGlimpses()
+onMounted(async () => {
+  await sampleGlimpses()
   window.addEventListener('keydown', handleKeydown)
   requestAnimationFrame(() => {
     mounted.value = true

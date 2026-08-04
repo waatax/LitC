@@ -3,7 +3,7 @@ import { ref, computed, onMounted, onUnmounted, watch, nextTick } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import type { Chapter, Work, Sentence, HintLevel, ReviewRating } from '@/types/content'
 import { HINT_LEVELS } from '@/types/content'
-import { getChapter, getWorks, getAllSentencesByChapter } from '@/data'
+import { loadChapterContent } from '@/data/workLoader'
 import { getCardState, saveCardState, logReview } from '@/data/db'
 import { scheduleReview } from '@/utils/scheduler'
 import { zenAudio } from '@/utils/audio'
@@ -50,17 +50,14 @@ const isSentenceMastered = computed(() => {
   return rating === 'good' || rating === 'easy'
 })
 
-function loadChapter() {
+async function loadChapter() {
   const chapterId = route.params.id as string
   if (!chapterId) return
 
-  chapter.value = getChapter(chapterId) ?? null
-  if (!chapter.value) return
-
-  const allWorks = getWorks()
-  work.value = allWorks.find(w => w.id === chapter.value!.workId) ?? null
-
-  sentences.value = getAllSentencesByChapter(chapterId)
+  const content = await loadChapterContent(chapterId)
+  chapter.value = content?.chapter ?? null
+  work.value = content?.work ?? null
+  sentences.value = content?.sentences ?? []
 }
 
 function startPacer() {
@@ -156,8 +153,8 @@ function handleKeydown(e: KeyboardEvent) {
   }
 }
 
-onMounted(() => {
-  loadChapter()
+onMounted(async () => {
+  await loadChapter()
   requestAnimationFrame(() => {
     mounted.value = true
   })
@@ -169,8 +166,8 @@ onUnmounted(() => {
   stopPacer()
 })
 
-watch(() => route.params.id, () => {
-  loadChapter()
+watch(() => route.params.id, async () => {
+  await loadChapter()
   resetSession()
 })
 

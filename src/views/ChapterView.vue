@@ -3,7 +3,8 @@ import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import type { Chapter, Work, Passage, Sentence } from '@/types/content'
 import { GENRE_STRATEGY_META } from '@/types/content'
-import { getChapter, getPassagesByChapter, getSentencesByPassage, getWorks, getWorkDescription } from '@/data'
+import { getWorkDescription } from '@/data/catalogApi'
+import { loadChapterContent } from '@/data/workLoader'
 import { getPassageReadingAid, READING_AID_SOURCES } from '@/data/readingAid'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import ClassicalTextLookup from '@/components/ClassicalTextLookup.vue'
@@ -15,6 +16,7 @@ const chapter = ref<Chapter | null>(null)
 const work = ref<Work | null>(null)
 const passages = ref<Passage[]>([])
 const passageSentences = ref<Map<string, Sentence[]>>(new Map())
+const loadedChapters = ref<Chapter[]>([])
 const showWorkGuide = ref(false)
 
 const workDesc = computed(() => {
@@ -33,24 +35,21 @@ const isLostChapter = computed(() => {
   return chapter.value?.tags?.includes('亡佚') && passages.value.length === 0
 })
 
-function loadChapter() {
+async function loadChapter() {
   const chapterId = route.params.id as string
   if (!chapterId) return
 
-  chapter.value = getChapter(chapterId) ?? null
-  if (!chapter.value) return
-
-  // Find parent work
-  const allWorks = getWorks()
-  work.value = allWorks.find(w => w.id === chapter.value!.workId) ?? null
-
-  // Load passages
-  passages.value = getPassagesByChapter(chapterId)
+  const content = await loadChapterContent(chapterId)
+  chapter.value = content?.chapter ?? null
+  work.value = content?.work ?? null
+  passages.value = content?.passages ?? []
+  loadedChapters.value = content?.chapters ?? []
+  if (!content) return
 
   // Load sentences for each passage
   const sentenceMap = new Map<string, Sentence[]>()
   for (const passage of passages.value) {
-    sentenceMap.set(passage.id, getSentencesByPassage(passage.id))
+    sentenceMap.set(passage.id, content.sentences.filter(sentence => sentence.passageId === passage.id))
   }
   passageSentences.value = sentenceMap
 
@@ -81,15 +80,15 @@ function checkTargetHighlight() {
   })
 }
 
-onMounted(() => {
-  loadChapter()
+onMounted(async () => {
+  await loadChapter()
   requestAnimationFrame(() => {
     mounted.value = true
   })
 })
 
-watch(() => [route.params.id, route.query.highlight], () => {
-  loadChapter()
+watch(() => [route.params.id, route.query.highlight], async () => {
+  await loadChapter()
 })
 
 const genreMeta = computed(() => {
@@ -140,7 +139,7 @@ const prevChapter = computed(() => {
   if (!work.value || !chapter.value) return null
   const idx = work.value.chapterIds.indexOf(chapter.value.id)
   if (idx > 0) {
-    return getChapter(work.value.chapterIds[idx - 1]) ?? null
+    return loadedChapters.value.find(item => item.id === work.value!.chapterIds[idx - 1]) ?? null
   }
   return null
 })
@@ -149,7 +148,7 @@ const nextChapter = computed(() => {
   if (!work.value || !chapter.value) return null
   const idx = work.value.chapterIds.indexOf(chapter.value.id)
   if (idx !== -1 && idx < work.value.chapterIds.length - 1) {
-    return getChapter(work.value.chapterIds[idx + 1]) ?? null
+    return loadedChapters.value.find(item => item.id === work.value!.chapterIds[idx + 1]) ?? null
   }
   return null
 })

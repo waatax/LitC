@@ -2,7 +2,7 @@
 import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import type { Chapter, Work, Passage, Sentence } from '@/types/content'
-import { getChapter, getPassagesByChapter, getSentencesByPassage, getWorks } from '@/data'
+import { loadChapterContent } from '@/data/workLoader'
 import { getReadingAid } from '@/data/readingAid'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import RedSeal from '@/components/RedSeal.vue'
@@ -40,34 +40,26 @@ const progressPercent = computed(() => ((currentStepIndex.value + 1) / steps.len
 const isFirstStep = computed(() => currentStepIndex.value === 0)
 const isLastStep = computed(() => currentStepIndex.value === steps.length - 1)
 
-function loadChapter() {
+async function loadChapter() {
   const chapterId = route.params.id as string
   if (!chapterId) return
 
-  chapter.value = getChapter(chapterId) ?? null
-  if (!chapter.value) return
-
-  const allWorks = getWorks()
-  work.value = allWorks.find(w => w.id === chapter.value!.workId) ?? null
-
-  passages.value = getPassagesByChapter(chapterId)
-
-  const sentences: Sentence[] = []
-  for (const passage of passages.value) {
-    sentences.push(...getSentencesByPassage(passage.id))
-  }
-  allSentences.value = sentences
+  const content = await loadChapterContent(chapterId)
+  chapter.value = content?.chapter ?? null
+  work.value = content?.work ?? null
+  passages.value = content?.passages ?? []
+  allSentences.value = content?.sentences ?? []
 }
 
-onMounted(() => {
-  loadChapter()
+onMounted(async () => {
+  await loadChapter()
   requestAnimationFrame(() => {
     mounted.value = true
   })
 })
 
-watch(() => route.params.id, () => {
-  loadChapter()
+watch(() => route.params.id, async () => {
+  await loadChapter()
   currentStepIndex.value = 0
 })
 
