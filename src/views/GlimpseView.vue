@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useRouter } from 'vue-router'
-import type { Chapter, Work, Passage, Sentence } from '@/types/content'
+import type { Chapter, Work, Passage, Sentence, WorkDescription } from '@/types/content'
 import { getWorks, getChapter, getPassagesByChapter, getSentencesByPassage, getWorkDescription } from '@/data'
 import { getPassageReadingAid } from '@/data/readingAid'
 import SchoolBadge from '@/components/SchoolBadge.vue'
@@ -16,7 +16,7 @@ export interface GlimpseItem {
   passages: Passage[]
   passageSentences: Map<string, Sentence[]>
   passageAids: Map<string, { translation?: string; analysis?: string }>
-  workDesc?: string | null
+  workDescObj?: WorkDescription | null
   authorName: string
   periodName: string
 }
@@ -26,6 +26,7 @@ const currentIndex = ref(0)
 const isRefreshing = ref(false)
 const viewMode = ref<'parallel' | 'stacked'>('parallel')
 const copySuccess = ref(false)
+const activeIntroTab = ref<'summary' | 'significance' | 'allusions'>('summary')
 
 const currentGlimpse = computed(() => glimpses.value[currentIndex.value] ?? null)
 
@@ -70,7 +71,7 @@ function sampleGlimpses() {
       passages: ps,
       passageSentences: sentenceMap,
       passageAids: aidMap,
-      workDesc: descObj ? descObj.introduction || descObj.significance : item.work.sourceNote,
+      workDescObj: descObj || null,
       authorName: descObj?.author || item.work.subtitle || '古聖先賢',
       periodName: descObj?.period || '先秦兩漢',
     })
@@ -78,6 +79,7 @@ function sampleGlimpses() {
 
   glimpses.value = items
   currentIndex.value = 0
+  activeIntroTab.value = 'summary'
 
   setTimeout(() => {
     isRefreshing.value = false
@@ -142,15 +144,26 @@ onUnmounted(() => {
     <header class="glimpse-header">
       <div class="header-left">
         <div class="title-badge">
-          <RedSeal text="驚鴻" :size="36" />
+          <RedSeal text="驚鴻一撇" :size="46" :animate="true" />
           <div>
             <h1 class="page-title">驚鴻一撇</h1>
-            <p class="page-subtitle">偶爾遇見，終生不忘 — 於全庫 50+ 典籍中隨機邂逅五處經典</p>
+            <p class="page-subtitle">偶爾遇見，終生不忘 — 於全庫 50+ 典籍中隨機邂逅五處經典章節</p>
           </div>
         </div>
       </div>
 
       <div class="header-controls">
+        <!-- Re-roll 5 Chapters Button -->
+        <button
+          class="reroll-primary-btn"
+          :class="{ spinning: isRefreshing }"
+          @click="sampleGlimpses"
+        >
+          <span class="reroll-icon">🎲</span>
+          <span class="reroll-text">隨機換一批（抽取另外五章）</span>
+        </button>
+
+        <!-- View Mode Toggle -->
         <div class="mode-toggle">
           <button
             class="mode-btn"
@@ -167,16 +180,6 @@ onUnmounted(() => {
             逐段賞析
           </button>
         </div>
-
-        <button
-          class="refresh-btn"
-          :class="{ spinning: isRefreshing }"
-          @click="sampleGlimpses"
-          title="重新隨機抽樣五處"
-        >
-          <span class="refresh-icon">🔄</span>
-          <span class="refresh-text">重新邂逅</span>
-        </button>
       </div>
     </header>
 
@@ -199,13 +202,13 @@ onUnmounted(() => {
 
     <!-- Main Card Body -->
     <main v-if="currentGlimpse" class="glimpse-content">
-      <!-- Book Intro Banner Card -->
+      <!-- Book Intro Banner Card (High Contrast Theme Color) -->
       <section class="work-intro-card">
-        <div class="card-header">
+        <div class="card-header-top">
           <div class="meta-row">
             <SchoolBadge :schoolId="currentGlimpse.work.schoolId" size="md" />
-            <span class="meta-era">{{ currentGlimpse.periodName }}</span>
-            <span class="meta-author">〔{{ currentGlimpse.authorName }}〕</span>
+            <span class="meta-era">〔{{ currentGlimpse.periodName }}〕</span>
+            <span class="meta-author">作者：{{ currentGlimpse.authorName }}</span>
             <div class="meta-difficulty">
               <span class="star-label">難易度：</span>
               <span class="stars">
@@ -220,31 +223,88 @@ onUnmounted(() => {
             <h2 class="work-main-title">{{ currentGlimpse.work.title }}</h2>
             <span class="chapter-sub-title">《{{ currentGlimpse.chapter.title }}》</span>
           </div>
+        </div>
 
-          <p class="work-description">
-            {{ currentGlimpse.workDesc || currentGlimpse.work.sourceNote }}
-          </p>
-
-          <div class="card-actions">
-            <button class="action-btn primary" @click="goToChapter(currentGlimpse.chapter.id)">
-              📖 深入研讀全篇
+        <!-- 3-Tab Detailed Work Knowledge & Transmission -->
+        <div class="intro-knowledge-box">
+          <div class="knowledge-tabs">
+            <button
+              class="ktab-btn"
+              :class="{ active: activeIntroTab === 'summary' }"
+              @click="activeIntroTab = 'summary'"
+            >
+              📖 典籍解題
             </button>
-            <button class="action-btn secondary" @click="copyGlimpseQuote">
-              📋 複製經典金句
+            <button
+              class="ktab-btn"
+              :class="{ active: activeIntroTab === 'significance' }"
+              @click="activeIntroTab = 'significance'"
+            >
+              🏛️ 文脈地位與傳承
             </button>
-            <span v-if="copySuccess" class="copy-toast">✓ 已複製到剪貼簿</span>
+            <button
+              v-if="currentGlimpse.workDescObj?.keyAllusions && currentGlimpse.workDescObj.keyAllusions.length > 0"
+              class="ktab-btn"
+              :class="{ active: activeIntroTab === 'allusions' }"
+              @click="activeIntroTab = 'allusions'"
+            >
+              💡 經典典故成語
+            </button>
           </div>
+
+          <div class="knowledge-content">
+            <!-- Tab 1: Summary -->
+            <div v-if="activeIntroTab === 'summary'" class="tab-pane">
+              <p class="intro-text">
+                {{ currentGlimpse.workDescObj?.introduction || currentGlimpse.work.sourceNote }}
+              </p>
+            </div>
+
+            <!-- Tab 2: Significance -->
+            <div v-else-if="activeIntroTab === 'significance'" class="tab-pane">
+              <p class="intro-text highlight">
+                {{ currentGlimpse.workDescObj?.significance || '本典籍為中華文脈之璀璨瑰寶，記錄古聖先賢之治國修身智謀，歷代傳誦不絕。' }}
+              </p>
+            </div>
+
+            <!-- Tab 3: Allusions -->
+            <div v-else-if="activeIntroTab === 'allusions'" class="tab-pane">
+              <div class="allusions-chips">
+                <span
+                  v-for="(allusion, aIdx) in currentGlimpse.workDescObj?.keyAllusions"
+                  :key="aIdx"
+                  class="allusion-chip"
+                >
+                  ✨ {{ allusion }}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Bottom Action Bar -->
+        <div class="card-actions-bar">
+          <button class="action-btn primary" @click="goToChapter(currentGlimpse.chapter.id)">
+            📖 深入研讀本篇全章
+          </button>
+          <button class="action-btn secondary" @click="copyGlimpseQuote">
+            📋 複製經典金句
+          </button>
+          <button class="action-btn reroll-secondary" @click="sampleGlimpses">
+            🎲 換一批五章
+          </button>
+          <span v-if="copySuccess" class="copy-toast">✓ 已成功複製經文至剪貼簿！</span>
         </div>
       </section>
 
-      <!-- Chapter Content: Parallel vs Stacked Mode -->
+      <!-- Chapter Content Section (High Contrast Theme Color) -->
       <section class="chapter-content-card">
         <!-- Section Controls -->
         <div class="chapter-nav-bar">
           <button class="nav-arrow-btn" @click="prevGlimpse" title="上一景 (方向鍵 ←)">
             ← 上一景
           </button>
-          <span class="chapter-counter">第 {{ currentIndex + 1 }} / {{ glimpses.length }} 景</span>
+          <span class="chapter-counter">驚鴻第 {{ currentIndex + 1 }} / {{ glimpses.length }} 景</span>
           <button class="nav-arrow-btn" @click="nextGlimpse" title="下一景 (方向鍵 →)">
             下一景 →
           </button>
@@ -255,7 +315,7 @@ onUnmounted(() => {
           <div v-for="(p, pIdx) in currentGlimpse.passages" :key="p.id" class="passage-parallel-row">
             <!-- Left Column: Classical Text -->
             <div class="classical-col">
-              <div class="passage-num">段 {{ pIdx + 1 }}</div>
+              <div class="passage-num">第 {{ pIdx + 1 }} 段</div>
               <p class="classical-text">{{ p.canonicalText }}</p>
             </div>
 
@@ -264,7 +324,7 @@ onUnmounted(() => {
               <div class="aid-block translation-block">
                 <span class="aid-label">【白話譯文】</span>
                 <p class="aid-text">
-                  {{ currentGlimpse.passageAids.get(p.id)?.translation || '白話文譯文詳見完整對照模式。' }}
+                  {{ currentGlimpse.passageAids.get(p.id)?.translation || '白話文譯文詳見對照模式。' }}
                 </p>
               </div>
 
@@ -272,7 +332,7 @@ onUnmounted(() => {
                 v-if="currentGlimpse.passageAids.get(p.id)?.analysis"
                 class="aid-block analysis-block"
               >
-                <span class="aid-label">【專屬解析】</span>
+                <span class="aid-label">【專屬賞析】</span>
                 <p class="aid-text">
                   {{ currentGlimpse.passageAids.get(p.id)?.analysis }}
                 </p>
@@ -294,14 +354,14 @@ onUnmounted(() => {
 
             <div class="stacked-aid-grid">
               <div class="aid-card translation">
-                <h4 class="aid-title">譯 白話文釋義</h4>
+                <h4 class="aid-title">【譯】白話文釋義</h4>
                 <p class="aid-body">
                   {{ currentGlimpse.passageAids.get(p.id)?.translation || '白話譯文對照中。' }}
                 </p>
               </div>
 
               <div class="aid-card analysis">
-                <h4 class="aid-title">析 核心哲思與背景註釋</h4>
+                <h4 class="aid-title">【析】核心哲思與背景註釋</h4>
                 <p class="aid-body">
                   {{ currentGlimpse.passageAids.get(p.id)?.analysis || '專屬學術解析備悉中。' }}
                 </p>
@@ -347,19 +407,19 @@ onUnmounted(() => {
 
 .page-title {
   font-family: var(--font-serif);
-  font-size: var(--fs-3xl, 2rem);
+  font-size: var(--fs-3xl, 2.2rem);
   font-weight: var(--fw-bold);
   background: linear-gradient(135deg, var(--c-gold-light), var(--c-gold), var(--c-gold-dark));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
 }
 
 .page-subtitle {
   font-family: var(--font-sans);
   font-size: var(--fs-sm);
-  color: var(--c-text-muted);
+  color: var(--c-text-secondary);
   margin-top: 4px;
 }
 
@@ -367,18 +427,52 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   gap: var(--sp-3);
+  flex-wrap: wrap;
+}
+
+/* Prominent Re-roll Button */
+.reroll-primary-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, var(--c-gold), var(--c-gold-dark));
+  color: #111;
+  border: none;
+  border-radius: var(--radius-md);
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-bold);
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(201, 169, 110, 0.35);
+  transition: all 0.25s var(--ease-out);
+}
+
+.reroll-primary-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(201, 169, 110, 0.5);
+  background: linear-gradient(135deg, var(--c-gold-light), var(--c-gold));
+}
+
+.reroll-icon {
+  font-size: 1.1rem;
+  transition: transform 0.4s ease;
+}
+
+.reroll-primary-btn:hover .reroll-icon {
+  transform: rotate(180deg);
 }
 
 .mode-toggle {
   display: flex;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--c-border-subtle);
+  background: var(--c-bg-card-subtle, rgba(201, 169, 110, 0.08));
+  border: 1px solid var(--c-border);
   border-radius: var(--radius-md);
   padding: 3px;
 }
 
 .mode-btn {
-  padding: 6px 14px;
+  padding: 8px 16px;
   border: none;
   background: transparent;
   color: var(--c-text-muted);
@@ -395,36 +489,7 @@ onUnmounted(() => {
   box-shadow: 0 2px 8px rgba(201, 169, 110, 0.3);
 }
 
-.refresh-btn {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 16px;
-  background: linear-gradient(135deg, rgba(201, 169, 110, 0.15), rgba(201, 169, 110, 0.05));
-  border: 1px solid var(--c-gold);
-  border-radius: var(--radius-md);
-  color: var(--c-gold-light);
-  font-family: var(--font-sans);
-  font-size: var(--fs-sm);
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.refresh-btn:hover {
-  background: var(--c-gold);
-  color: #111;
-  box-shadow: 0 0 16px rgba(201, 169, 110, 0.4);
-}
-
-.refresh-btn.spinning .refresh-icon {
-  animation: spin 0.6s linear infinite;
-}
-
-@keyframes spin {
-  to { transform: rotate(360deg); }
-}
-
-/* ── 5 Tab Progress Selector ── */
+/* ── 5 Tab Selector ── */
 .glimpse-tabs {
   display: flex;
   align-items: center;
@@ -438,6 +503,7 @@ onUnmounted(() => {
   font-family: var(--font-serif);
   font-size: var(--fs-sm);
   color: var(--c-gold);
+  font-weight: var(--fw-bold);
   flex-shrink: 0;
 }
 
@@ -450,24 +516,24 @@ onUnmounted(() => {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 8px 14px;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid var(--c-border-subtle);
+  padding: 10px 16px;
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border);
   border-radius: var(--radius-md);
   cursor: pointer;
   transition: all 0.2s ease;
-  min-width: 140px;
+  min-width: 150px;
 }
 
 .glimpse-tab-btn:hover {
-  background: rgba(201, 169, 110, 0.1);
-  border-color: rgba(201, 169, 110, 0.4);
+  border-color: var(--c-gold);
+  background: var(--c-bg-card-subtle);
 }
 
 .glimpse-tab-btn.active {
   background: var(--c-gold-glow, rgba(201, 169, 110, 0.15));
   border-color: var(--c-gold);
-  box-shadow: 0 0 12px rgba(201, 169, 110, 0.2);
+  box-shadow: 0 0 12px rgba(201, 169, 110, 0.25);
 }
 
 .tab-num {
@@ -483,19 +549,17 @@ onUnmounted(() => {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 130px;
+  max-width: 140px;
 }
 
-/* ── Work Intro Card ── */
+/* ── Work Intro Card (Theme Compliant High Contrast) ── */
 .work-intro-card {
-  background: rgba(20, 20, 25, 0.7);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  background: var(--c-bg-card);
   border: 1px solid var(--c-border);
   border-radius: var(--radius-lg, 16px);
   padding: var(--sp-6);
   margin-bottom: var(--sp-6);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  box-shadow: var(--shadow-md, 0 4px 20px rgba(0, 0, 0, 0.1));
 }
 
 .meta-row {
@@ -508,7 +572,8 @@ onUnmounted(() => {
 
 .meta-era, .meta-author {
   font-size: var(--fs-xs);
-  color: var(--c-text-muted);
+  color: var(--c-text-secondary);
+  font-family: var(--font-sans);
 }
 
 .meta-difficulty {
@@ -527,38 +592,100 @@ onUnmounted(() => {
   display: flex;
   align-items: baseline;
   gap: var(--sp-3);
-  margin-bottom: var(--sp-3);
+  margin-bottom: var(--sp-4);
 }
 
 .work-main-title {
   font-family: var(--font-serif);
-  font-size: var(--fs-2xl, 1.75rem);
+  font-size: var(--fs-2xl, 1.85rem);
   font-weight: var(--fw-bold);
-  color: var(--c-gold-light);
+  color: var(--c-gold-dark, #b58d3d);
 }
 
 .chapter-sub-title {
   font-family: var(--font-serif);
-  font-size: var(--fs-xl, 1.25rem);
+  font-size: var(--fs-xl, 1.3rem);
+  color: var(--c-text-primary);
+  font-weight: var(--fw-bold);
+}
+
+/* Knowledge Box & Tabs */
+.intro-knowledge-box {
+  background: var(--c-bg-card-subtle, rgba(201, 169, 110, 0.05));
+  border: 1px solid var(--c-border-subtle);
+  border-radius: var(--radius-md);
+  padding: var(--sp-4);
+  margin-bottom: var(--sp-6);
+}
+
+.knowledge-tabs {
+  display: flex;
+  gap: var(--sp-2);
+  border-bottom: 1px solid var(--c-border-subtle);
+  padding-bottom: var(--sp-2);
+  margin-bottom: var(--sp-3);
+}
+
+.ktab-btn {
+  padding: 6px 14px;
+  background: transparent;
+  border: none;
+  color: var(--c-text-muted);
+  font-family: var(--font-serif);
+  font-size: var(--fs-xs);
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: all 0.2s ease;
+}
+
+.ktab-btn:hover {
   color: var(--c-text-primary);
 }
 
-.work-description {
-  font-family: var(--font-sans);
-  font-size: var(--fs-sm);
-  line-height: 1.7;
-  color: var(--c-text-secondary);
-  margin-bottom: var(--sp-4);
+.ktab-btn.active {
+  background: var(--c-gold-glow);
+  color: var(--c-gold);
+  font-weight: var(--fw-bold);
 }
 
-.card-actions {
+.intro-text {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  line-height: 1.8;
+  color: var(--c-text-primary);
+}
+
+.intro-text.highlight {
+  color: var(--c-text-primary);
+  border-left: 3px solid var(--c-gold);
+  padding-left: var(--sp-3);
+}
+
+.allusions-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+
+.allusion-chip {
+  padding: 4px 12px;
+  background: rgba(201, 169, 110, 0.12);
+  border: 1px solid var(--c-border);
+  border-radius: 20px;
+  font-size: var(--fs-xs);
+  color: var(--c-gold-dark);
+  font-family: var(--font-serif);
+}
+
+.card-actions-bar {
   display: flex;
   align-items: center;
   gap: var(--sp-3);
+  flex-wrap: wrap;
 }
 
 .action-btn {
-  padding: 8px 18px;
+  padding: 9px 20px;
   border-radius: var(--radius-md);
   font-family: var(--font-sans);
   font-size: var(--fs-sm);
@@ -575,32 +702,43 @@ onUnmounted(() => {
 
 .action-btn.primary:hover {
   background: var(--c-gold-light);
-  box-shadow: 0 0 12px rgba(201, 169, 110, 0.4);
+  box-shadow: 0 2px 10px rgba(201, 169, 110, 0.4);
 }
 
 .action-btn.secondary {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--c-bg-card);
   color: var(--c-text-primary);
-  border: 1px solid var(--c-border-subtle);
+  border: 1px solid var(--c-border);
 }
 
 .action-btn.secondary:hover {
-  background: rgba(255, 255, 255, 0.1);
   border-color: var(--c-gold);
+  color: var(--c-gold);
+}
+
+.action-btn.reroll-secondary {
+  background: transparent;
+  color: var(--c-gold);
+  border: 1px dashed var(--c-gold);
+}
+
+.action-btn.reroll-secondary:hover {
+  background: var(--c-gold-glow);
 }
 
 .copy-toast {
   font-size: var(--fs-xs);
   color: var(--c-accent-dao, #5b8a72);
-  margin-left: 8px;
+  font-weight: var(--fw-bold);
 }
 
-/* ── Chapter Content Section ── */
+/* ── Chapter Content Section (High Contrast Theme Color) ── */
 .chapter-content-card {
-  background: rgba(20, 20, 25, 0.6);
-  border: 1px solid var(--c-border-subtle);
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border);
   border-radius: var(--radius-lg, 16px);
   padding: var(--sp-6);
+  box-shadow: var(--shadow-md, 0 4px 20px rgba(0, 0, 0, 0.1));
 }
 
 .chapter-nav-bar {
@@ -613,26 +751,27 @@ onUnmounted(() => {
 }
 
 .nav-arrow-btn {
-  padding: 6px 14px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid var(--c-border-subtle);
+  padding: 8px 16px;
+  background: var(--c-bg-card-subtle);
+  border: 1px solid var(--c-border);
   border-radius: var(--radius-md);
-  color: var(--c-text-secondary);
+  color: var(--c-text-primary);
   font-size: var(--fs-xs);
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
 .nav-arrow-btn:hover {
-  background: rgba(201, 169, 110, 0.15);
+  background: var(--c-gold-glow);
   color: var(--c-gold);
   border-color: var(--c-gold);
 }
 
 .chapter-counter {
   font-family: var(--font-serif);
-  font-size: var(--fs-xs);
-  color: var(--c-text-muted);
+  font-size: var(--fs-sm);
+  color: var(--c-gold);
+  font-weight: var(--fw-bold);
 }
 
 /* Parallel Mode */
@@ -646,9 +785,9 @@ onUnmounted(() => {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--sp-6);
-  padding: var(--sp-4);
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid var(--c-border-subtle);
+  padding: var(--sp-5);
+  background: var(--c-bg-card-subtle, rgba(201, 169, 110, 0.04));
+  border: 1px solid var(--c-border);
   border-radius: var(--radius-md);
 }
 
@@ -659,30 +798,31 @@ onUnmounted(() => {
 }
 
 .classical-col {
-  border-right: 1px dashed var(--c-border-subtle);
-  padding-right: var(--sp-4);
+  border-right: 1px dashed var(--c-border);
+  padding-right: var(--sp-5);
 }
 
 @media (max-width: 768px) {
   .classical-col {
     border-right: none;
     padding-right: 0;
-    border-bottom: 1px dashed var(--c-border-subtle);
+    border-bottom: 1px dashed var(--c-border);
     padding-bottom: var(--sp-4);
   }
 }
 
 .passage-num {
-  font-size: 0.75rem;
+  font-size: var(--fs-xs);
   color: var(--c-gold);
   margin-bottom: var(--sp-2);
   font-family: var(--font-serif);
+  font-weight: var(--fw-bold);
 }
 
 .classical-text {
   font-family: var(--font-serif);
-  font-size: var(--fs-lg, 1.125rem);
-  line-height: 1.8;
+  font-size: var(--fs-xl, 1.2rem);
+  line-height: 1.95;
   color: var(--c-text-primary);
   letter-spacing: 0.05em;
 }
@@ -690,37 +830,37 @@ onUnmounted(() => {
 .translation-col {
   display: flex;
   flex-direction: column;
-  gap: var(--sp-3);
+  gap: var(--sp-4);
 }
 
 .aid-block {
-  padding: var(--sp-3);
+  padding: var(--sp-4);
   border-radius: var(--radius-sm);
 }
 
 .translation-block {
   background: rgba(91, 138, 114, 0.08);
-  border-left: 3px solid var(--c-accent-dao, #5b8a72);
+  border-left: 4px solid var(--c-accent-dao, #5b8a72);
 }
 
 .analysis-block {
   background: rgba(201, 169, 110, 0.08);
-  border-left: 3px solid var(--c-gold);
+  border-left: 4px solid var(--c-gold);
 }
 
 .aid-label {
   font-size: var(--fs-xs);
   font-weight: var(--fw-bold);
-  color: var(--c-gold);
+  color: var(--c-gold-dark, #b58d3d);
   display: block;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 .aid-text {
   font-family: var(--font-sans);
   font-size: var(--fs-sm);
-  line-height: 1.6;
-  color: var(--c-text-secondary);
+  line-height: 1.7;
+  color: var(--c-text-primary);
 }
 
 /* Stacked Mode */
@@ -731,8 +871,8 @@ onUnmounted(() => {
 }
 
 .passage-stacked-card {
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid var(--c-border-subtle);
+  background: var(--c-bg-card-subtle);
+  border: 1px solid var(--c-border);
   border-radius: var(--radius-md);
   padding: var(--sp-6);
 }
@@ -744,24 +884,26 @@ onUnmounted(() => {
 .passage-badge {
   font-family: var(--font-serif);
   font-size: var(--fs-xs);
-  padding: 3px 10px;
+  padding: 4px 12px;
   background: var(--c-gold-glow);
   color: var(--c-gold);
   border-radius: var(--radius-sm);
+  font-weight: var(--fw-bold);
 }
 
 .classical-text-box {
   margin-bottom: var(--sp-6);
-  padding: var(--sp-4);
-  background: rgba(0, 0, 0, 0.2);
+  padding: var(--sp-5);
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border);
   border-radius: var(--radius-md);
 }
 
 .classical-text-large {
   font-family: var(--font-serif);
-  font-size: var(--fs-xl, 1.25rem);
-  line-height: 1.9;
-  color: var(--c-gold-light);
+  font-size: var(--fs-2xl, 1.35rem);
+  line-height: 2;
+  color: var(--c-text-primary);
 }
 
 .stacked-aid-grid {
@@ -779,8 +921,8 @@ onUnmounted(() => {
 .aid-card {
   padding: var(--sp-4);
   border-radius: var(--radius-md);
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid var(--c-border-subtle);
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border);
 }
 
 .aid-card.translation {
@@ -794,14 +936,15 @@ onUnmounted(() => {
 .aid-title {
   font-family: var(--font-serif);
   font-size: var(--fs-sm);
-  color: var(--c-gold);
+  color: var(--c-gold-dark);
   margin-bottom: var(--sp-2);
+  font-weight: var(--fw-bold);
 }
 
 .aid-body {
   font-family: var(--font-sans);
   font-size: var(--fs-sm);
-  line-height: 1.7;
-  color: var(--c-text-secondary);
+  line-height: 1.75;
+  color: var(--c-text-primary);
 }
 </style>
