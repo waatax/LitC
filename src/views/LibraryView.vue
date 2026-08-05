@@ -164,8 +164,8 @@ function triggerSearch() {
           <div class="work-meta">
             <SchoolBadge :school-id="work.schoolId" />
             <span class="genre-badge badge">
-              {{ GENRE_STRATEGY_META[work.genreStrategy].icon }}
-              {{ GENRE_STRATEGY_META[work.genreStrategy].label }}
+              {{ GENRE_STRATEGY_META[work.genreStrategy]?.icon || '📖' }}
+              {{ GENRE_STRATEGY_META[work.genreStrategy]?.label || '經典' }}
             </span>
           </div>
           <div class="work-stats">

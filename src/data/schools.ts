@@ -33,6 +33,7 @@ export const schools: School[] = [
     workIds: [
       'lun-yu',
       'meng-zi',
+      'xunzi',
       'yi-jing',
       'shu-jing',
       'shi-jing',

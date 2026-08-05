@@ -1440,7 +1440,33 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
             "url": "https://www.guwendao.net/book_51.aspx"
         }
     ]
-},
+  },
+  'xunzi': {
+    "workId": "xunzi",
+    "title": "荀子",
+    "subtitle": "荀況著",
+    "schoolName": "儒家",
+    "period": "戰國末期",
+    "author": "荀況（戰國時期趙國人，著名思想家、文學家、政治家）",
+    "keyAllusions": [
+      "鍥而不捨：鍥而舍之，朽木不折；鍥而不捨，金石可鏤。",
+      "青出於藍：學不可以已。青，取之於藍，而青於藍；冰，水為之，而寒於水。",
+      "積土成山：積土成山，風雨興焉；積水成淵，蛟龍生焉。",
+      "性惡論：人之性惡，其善者偽也。"
+    ],
+    "significance": "戰國末期儒家集大成者之作，主張「隆禮重法」與「性惡論」，對後世儒學與法家思想接軌、以及漢代文官體制奠定了深遠基礎。",
+    "introduction": "《荀子》乃戰國末期思想家荀況（荀子）及其門人所著，全書存三十二篇。荀子總括諸子思想，吸收道、法、名等學派菁華，建立起以「禮治」與「法治」並舉的務實思想體系。在人性論上，提出「性惡論」，強調透過後天的教化與禮法規範（「化性起偽」）以使人心向善；在認識論上倡導「解蔽」，反對片面迷信；在天人關係上主張「明於天人之分」與「制天命而用之」，強調人之主觀能動性。《荀子》文辭富麗、邏輯嚴密，在儒學發展史上具有承前啟後的里程碑意義。",
+    "sources": [
+      {
+        "label": "中國哲學書電子化計劃（ctext.org）",
+        "url": "https://ctext.org/xunzi/zh"
+      },
+      {
+        "label": "維基百科·荀子",
+        "url": "https://zh.wikipedia.org/wiki/荀子_(書)"
+      }
+    ]
+  }
 }
 
 export function getWorkDescription(workId: string): WorkDescription | undefined {
