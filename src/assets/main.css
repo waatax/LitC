@@ -47,6 +47,15 @@
 
   --c-wusilan-line:  rgba(201, 169, 110, 0.12);
 
+  /* ── Frosted Glass (毛玻璃效果): 暗頁面 螢光天空藍 (Neon Sky Blue Tint) ── */
+  --c-glass-bg:           rgba(0, 229, 255, 0.14);
+  --c-glass-bg-hover:     rgba(0, 229, 255, 0.25);
+  --c-glass-border:       rgba(56, 189, 248, 0.38);
+  --c-glass-border-hover: rgba(0, 229, 255, 0.70);
+  --c-glass-shadow:       0 8px 32px rgba(0, 229, 255, 0.25);
+  --c-glass-glow:         0 0 24px rgba(0, 229, 255, 0.45);
+  --c-glass-blur:         blur(20px) saturate(180%);
+
   /* ── Typography ── */
   --font-serif:    'Noto Serif TC', 'Source Han Serif TC', 'PMingLiU', serif;
   --font-sans:     'Outfit', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -221,17 +230,18 @@ a:hover {
 
 /* ── Utility: Cards ──────────────────────────────── */
 .glass-card {
-  background: var(--c-bg-card);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid var(--c-border);
+  background: var(--c-glass-bg);
+  backdrop-filter: var(--c-glass-blur);
+  -webkit-backdrop-filter: var(--c-glass-blur);
+  border: 1px solid var(--c-glass-border);
   border-radius: var(--radius-lg);
+  box-shadow: var(--c-glass-shadow);
   transition: all var(--duration-normal) var(--ease-out);
 }
 .glass-card:hover {
-  background: var(--c-bg-card-hover);
-  border-color: var(--c-border-accent);
-  box-shadow: var(--shadow-gold);
+  background: var(--c-glass-bg-hover);
+  border-color: var(--c-glass-border-hover);
+  box-shadow: var(--c-glass-glow);
   transform: translateY(-2px);
 }
 
@@ -563,12 +573,12 @@ html.light-theme {
   --c-bg-deep:       #f4efe6;
   --c-bg-primary:    #faf6ee;
   --c-bg-secondary:  #e9e4d9;
-  --c-bg-card:       rgba(233, 228, 217, 0.5);
-  --c-bg-card-hover: rgba(224, 218, 205, 0.7);
+  --c-bg-card:       rgba(224, 242, 254, 0.65);
+  --c-bg-card-hover: rgba(186, 230, 253, 0.85);
   --c-bg-elevated:   #fdfbf7;
-  --c-border:        rgba(42, 42, 64, 0.08);
-  --c-border-subtle: rgba(30, 30, 48, 0.04);
-  --c-border-accent: rgba(166, 60, 60, 0.25);
+  --c-border:        rgba(125, 211, 252, 0.35);
+  --c-border-subtle: rgba(186, 230, 253, 0.2);
+  --c-border-accent: rgba(56, 189, 248, 0.6);
   --c-text-primary:  #2a2723;
   --c-text-secondary:#5c564c;
   --c-text-muted:    #8e8677;
@@ -579,11 +589,20 @@ html.light-theme {
   --c-gold-glow:     rgba(133, 91, 33, 0.08);
   --c-wusilan-line:  rgba(166, 60, 60, 0.14); /* Red wusilan */
   --c-bg-sidebar:    linear-gradient(180deg, #e9e4d9 0%, #dcd7ca 100%);
-  --c-bg-mobile-tab: rgba(244, 239, 230, 0.95);
+  --c-bg-mobile-tab: rgba(224, 242, 254, 0.95);
   --c-success:       #2d5c43;
   --c-warning:       #7d5c1b;
   --c-danger:        #7d3535;
   --c-info:          #2b4861;
+
+  /* 毛玻璃效果（明亮頁面 - 青藍色渲染 Cyan-Blue Tint） */
+  --c-glass-bg:           rgba(14, 165, 233, 0.18);
+  --c-glass-bg-hover:     rgba(14, 165, 233, 0.30);
+  --c-glass-border:       rgba(2, 132, 199, 0.45);
+  --c-glass-border-hover: rgba(2, 132, 199, 0.70);
+  --c-glass-shadow:       0 8px 32px rgba(14, 165, 233, 0.25);
+  --c-glass-glow:         0 0 24px rgba(14, 165, 233, 0.45);
+  --c-glass-blur:         blur(16px) saturate(180%);
 }
 
 /* 3. Celadon Jade Theme (雨過天青 - Soft Pale Green) */
@@ -591,12 +610,12 @@ html.theme-celadon {
   --c-bg-deep:       #e2ece5;
   --c-bg-primary:    #ebf3ee;
   --c-bg-secondary:  #d3ded6;
-  --c-bg-card:       rgba(211, 222, 214, 0.5);
-  --c-bg-card-hover: rgba(200, 212, 203, 0.7);
+  --c-bg-card:       rgba(224, 242, 254, 0.65);
+  --c-bg-card-hover: rgba(186, 230, 253, 0.85);
   --c-bg-elevated:   #f1f7f4;
-  --c-border:        rgba(31, 61, 43, 0.08);
-  --c-border-subtle: rgba(31, 61, 43, 0.04);
-  --c-border-accent: rgba(58, 94, 72, 0.25);
+  --c-border:        rgba(125, 211, 252, 0.35);
+  --c-border-subtle: rgba(186, 230, 253, 0.2);
+  --c-border-accent: rgba(56, 189, 248, 0.6);
   --c-text-primary:  #1f3d2b;
   --c-text-secondary:#3a5e48;
   --c-text-muted:    #688a75;
@@ -607,11 +626,20 @@ html.theme-celadon {
   --c-gold-glow:     rgba(58, 94, 72, 0.08);
   --c-wusilan-line:  rgba(58, 94, 72, 0.12);
   --c-bg-sidebar:    linear-gradient(180deg, #d3ded6 0%, #c4cfc7 100%);
-  --c-bg-mobile-tab: rgba(226, 236, 229, 0.95);
+  --c-bg-mobile-tab: rgba(224, 242, 254, 0.95);
   --c-success:       #1f573c;
   --c-warning:       #6a521a;
   --c-danger:        #6e2d2d;
   --c-info:          #24455c;
+
+  /* 毛玻璃效果（明亮頁面 - 青藍色渲染 Cyan-Blue Tint） */
+  --c-glass-bg:           rgba(14, 165, 233, 0.18);
+  --c-glass-bg-hover:     rgba(14, 165, 233, 0.30);
+  --c-glass-border:       rgba(2, 132, 199, 0.45);
+  --c-glass-border-hover: rgba(2, 132, 199, 0.70);
+  --c-glass-shadow:       0 8px 32px rgba(14, 165, 233, 0.25);
+  --c-glass-glow:         0 0 24px rgba(14, 165, 233, 0.45);
+  --c-glass-blur:         blur(16px) saturate(180%);
 }
 
 /* 4. Cinnabar Red Theme (硃砂描金 - Deep Red/Gold) */
