@@ -140,7 +140,7 @@ function triggerSearch() {
         v-for="tab in filterTabs"
         :key="tab.id"
         class="filter-tab"
-        :class="{ 'is-active': activeFilter === tab.id }"
+        :class="[{ 'is-active': activeFilter === tab.id }, `tab-${tab.id}`]"
         @click="setFilter(tab.id)"
       >
         {{ tab.label }}
@@ -153,7 +153,7 @@ function triggerSearch() {
         v-for="work in filteredWorks"
         :key="work.id"
         class="work-card glass-card"
-        :class="{ 'is-expanded': expandedWorkId === work.id }"
+        :class="[{ 'is-expanded': expandedWorkId === work.id }, `school-${work.schoolId}`]"
       >
         <!-- Card Header -->
         <div class="work-header" @click="toggleWork(work.id)">
@@ -296,6 +296,105 @@ function triggerSearch() {
   color: var(--c-gold);
   background: var(--c-gold-glow);
   border-color: var(--c-border-accent);
+}
+
+/* ── School-specific Theme Colors ── */
+.filter-tab.tab-daoism.is-active {
+  color: var(--c-accent-dao);
+  background: rgba(91, 138, 114, 0.15);
+  border-color: rgba(91, 138, 114, 0.5);
+}
+.school-daoism {
+  --c-glass-border: rgba(91, 138, 114, 0.4);
+  --c-glass-border-hover: rgba(91, 138, 114, 0.7);
+  --c-glass-bg: rgba(91, 138, 114, 0.08);
+  --c-glass-bg-hover: rgba(91, 138, 114, 0.15);
+  --c-glass-shadow: 0 8px 32px rgba(91, 138, 114, 0.15);
+  --c-glass-glow: 0 0 24px rgba(91, 138, 114, 0.3);
+}
+
+.filter-tab.tab-legalism.is-active {
+  color: var(--c-accent-legal);
+  background: rgba(139, 94, 94, 0.15);
+  border-color: rgba(139, 94, 94, 0.5);
+}
+.school-legalism {
+  --c-glass-border: rgba(139, 94, 94, 0.4);
+  --c-glass-border-hover: rgba(139, 94, 94, 0.7);
+  --c-glass-bg: rgba(139, 94, 94, 0.08);
+  --c-glass-bg-hover: rgba(139, 94, 94, 0.15);
+  --c-glass-shadow: 0 8px 32px rgba(139, 94, 94, 0.15);
+  --c-glass-glow: 0 0 24px rgba(139, 94, 94, 0.3);
+}
+
+.filter-tab.tab-mohism.is-active {
+  color: var(--c-accent-mohist);
+  background: rgba(94, 110, 139, 0.15);
+  border-color: rgba(94, 110, 139, 0.5);
+}
+.school-mohism {
+  --c-glass-border: rgba(94, 110, 139, 0.4);
+  --c-glass-border-hover: rgba(94, 110, 139, 0.7);
+  --c-glass-bg: rgba(94, 110, 139, 0.08);
+  --c-glass-bg-hover: rgba(94, 110, 139, 0.15);
+  --c-glass-shadow: 0 8px 32px rgba(94, 110, 139, 0.15);
+  --c-glass-glow: 0 0 24px rgba(94, 110, 139, 0.3);
+}
+
+.filter-tab.tab-confucianism.is-active {
+  color: var(--c-accent-confucian);
+  background: rgba(181, 141, 61, 0.15);
+  border-color: rgba(181, 141, 61, 0.5);
+}
+.school-confucianism {
+  --c-glass-border: rgba(181, 141, 61, 0.4);
+  --c-glass-border-hover: rgba(181, 141, 61, 0.7);
+  --c-glass-bg: rgba(181, 141, 61, 0.08);
+  --c-glass-bg-hover: rgba(181, 141, 61, 0.15);
+  --c-glass-shadow: 0 8px 32px rgba(181, 141, 61, 0.15);
+  --c-glass-glow: 0 0 24px rgba(181, 141, 61, 0.3);
+}
+
+.filter-tab.tab-military.is-active {
+  color: var(--c-accent-military);
+  background: rgba(166, 75, 75, 0.15);
+  border-color: rgba(166, 75, 75, 0.5);
+}
+.school-military {
+  --c-glass-border: rgba(166, 75, 75, 0.4);
+  --c-glass-border-hover: rgba(166, 75, 75, 0.7);
+  --c-glass-bg: rgba(166, 75, 75, 0.08);
+  --c-glass-bg-hover: rgba(166, 75, 75, 0.15);
+  --c-glass-shadow: 0 8px 32px rgba(166, 75, 75, 0.15);
+  --c-glass-glow: 0 0 24px rgba(166, 75, 75, 0.3);
+}
+
+.filter-tab.tab-histories.is-active {
+  color: var(--c-accent-histories);
+  background: rgba(138, 110, 91, 0.15);
+  border-color: rgba(138, 110, 91, 0.5);
+}
+.school-histories {
+  --c-glass-border: rgba(138, 110, 91, 0.4);
+  --c-glass-border-hover: rgba(138, 110, 91, 0.7);
+  --c-glass-bg: rgba(138, 110, 91, 0.08);
+  --c-glass-bg-hover: rgba(138, 110, 91, 0.15);
+  --c-glass-shadow: 0 8px 32px rgba(138, 110, 91, 0.15);
+  --c-glass-glow: 0 0 24px rgba(138, 110, 91, 0.3);
+}
+
+.filter-tab.tab-literature.is-active {
+  color: var(--c-accent-literature);
+  background: rgba(74, 111, 165, 0.15);
+  border-color: rgba(74, 111, 165, 0.5);
+}
+.school-literature {
+  --c-glass-border: rgba(74, 111, 165, 0.4);
+  --c-glass-border-hover: rgba(74, 111, 165, 0.7);
+  --c-glass-bg: rgba(74, 111, 165, 0.08);
+  --c-glass-bg-hover: rgba(74, 111, 165, 0.15);
+  --c-glass-shadow: 0 8px 32px rgba(74, 111, 165, 0.15);
+  --c-glass-glow: 0 0 24px rgba(74, 111, 165, 0.3);
 }
 
 /* ── Works Grid ── */
