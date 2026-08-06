@@ -14,7 +14,6 @@ export const workImports = {
   'li-ji': () => import('./work_chunks/li-ji'),
   'chun-qiu': () => import('./work_chunks/chun-qiu'),
   'gu-wen-guan-zhi': () => import('./work_chunks/gu-wen-guan-zhi'),
-  'cai-gen-tan': () => import('./work_chunks/cai-gen-tan'),
   'liezi': () => import('./work_chunks/liezi'),
   'wenzi': () => import('./work_chunks/wenzi'),
   'wenshi-zhenjing': () => import('./work_chunks/wenshi-zhenjing'),
@@ -51,4 +50,5 @@ export const workImports = {
   'gu-san-fen': () => import('./work_chunks/gu-san-fen'),
   'zhuangzi': () => import('./work_chunks/zhuangzi'),
   'xunzi': () => import('./work_chunks/xunzi'),
+  'cai-gen-tan': () => import('./work_chunks/cai-gen-tan'),
 } as const
