@@ -62,12 +62,15 @@ function checkTargetHighlight() {
   const queryText = highlightQuery.value
   const sentenceId = (route.query.sentenceId as string) || ''
 
-  if (!queryText && !sentenceId) return
+  if (!queryText && !sentenceId && !route.hash) return
 
   requestAnimationFrame(() => {
     setTimeout(() => {
       let targetEl: HTMLElement | null = null
-      if (sentenceId) {
+      if (route.hash) {
+        targetEl = document.querySelector(route.hash)
+      }
+      if (!targetEl && sentenceId) {
         targetEl = document.querySelector(`[data-sentence-id="${sentenceId}"]`)
       }
       if (!targetEl && queryText) {
@@ -87,7 +90,7 @@ onMounted(async () => {
   })
 })
 
-watch(() => [route.params.id, route.query.highlight], async () => {
+watch(() => [route.params.id, route.query.highlight, route.hash], async () => {
   await loadChapter()
 })
 
@@ -306,10 +309,28 @@ const nextChapter = computed(() => {
               </div>
             </div>
           </div>
-          <div v-else v-for="passage in passages" :key="passage.id" :id="'passage-' + passage.id" class="sentence-row">
-            <p class="sentence-original classical-text"><ClassicalTextLookup :text="passage.canonicalText" :highlight="highlightQuery" /></p>
-            <p class="sentence-hint"><span class="translation-label">白話文</span>{{ passageAid(passage).translation }}</p>
-            <p class="sentence-hint"><span class="translation-label">解析</span>{{ passageAid(passage).analysis }}</p>
+          <div v-else>
+            <div v-for="passage in passages" :key="passage.id" :id="'passage-' + passage.id" class="sentence-row">
+              <p class="sentence-original classical-text"><ClassicalTextLookup :text="passage.canonicalText" :highlight="highlightQuery" /></p>
+              
+              <!-- Passage-level Aid (Fallback) -->
+              <template v-if="!passageSentences.get(passage.id)?.some(s => s.structuredTranslation)">
+                <p class="sentence-hint"><span class="translation-label">白話文</span>{{ passageAid(passage).translation }}</p>
+                <p class="sentence-hint"><span class="translation-label">解析</span>{{ passageAid(passage).analysis }}</p>
+              </template>
+
+              <!-- Sentence-level AI Calibrated Aid -->
+              <template v-else>
+                <div v-for="sent in passageSentences.get(passage.id)" :key="sent.id" class="sentence-calibrated-aid">
+                  <template v-if="sent.structuredTranslation">
+                    <p class="sentence-hint"><span class="translation-label">白話文</span>{{ sent.structuredTranslation.translation }}</p>
+                    <p class="sentence-hint"><span class="translation-label">解析</span>{{ sent.structuredTranslation.philosophicalNote }}</p>
+                    <p class="sentence-hint" v-if="sent.structuredTranslation.wordGlossary"><span class="translation-label">字詞</span>{{ sent.structuredTranslation.wordGlossary }}</p>
+                    <p class="sentence-hint" v-if="sent.structuredTranslation.writingApplication"><span class="translation-label">修辭</span>{{ sent.structuredTranslation.writingApplication }}</p>
+                  </template>
+                </div>
+              </template>
+            </div>
           </div>
           <div v-if="allSentences.length === 0" class="no-data">
             <p>尚無句級資料</p>
@@ -581,6 +602,26 @@ const nextChapter = computed(() => {
   color: var(--c-text-muted);
   padding-left: var(--sp-3);
   border-left: 2px solid var(--c-border-accent);
+}
+
+.sentence-calibrated-aid {
+  margin-top: var(--sp-4);
+  padding-top: var(--sp-4);
+  border-top: 1px dashed var(--c-border-subtle);
+}
+
+.sentence-calibrated-aid:first-child {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.sentence-calibrated-aid .sentence-hint {
+  margin-bottom: var(--sp-2);
+}
+
+.sentence-calibrated-aid .sentence-hint:last-child {
+  margin-bottom: 0;
 }
 
 .no-data {

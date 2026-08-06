@@ -24,7 +24,6 @@ export const workImports = {
   'art-of-war': () => import('./work_chunks/art-of-war'),
   'wu-zi': () => import('./work_chunks/wu-zi'),
   'si-ma-fa': () => import('./work_chunks/si-ma-fa'),
-  'three-strategies': () => import('./work_chunks/three-strategies'),
   'wei-liao-zi': () => import('./work_chunks/wei-liao-zi'),
   'liu-tao': () => import('./work_chunks/liu-tao'),
   'shiji': () => import('./work_chunks/shiji'),
@@ -51,4 +50,5 @@ export const workImports = {
   'zhuangzi': () => import('./work_chunks/zhuangzi'),
   'xunzi': () => import('./work_chunks/xunzi'),
   'cai-gen-tan': () => import('./work_chunks/cai-gen-tan'),
+  'three-strategies': () => import('./work_chunks/three-strategies'),
 } as const

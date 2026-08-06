@@ -51,6 +51,12 @@ const router = createRouter({
       component: () => import('@/views/SearchView.vue'),
       meta: { title: '檢索' },
     },
+    {
+      path: '/quiz',
+      name: 'quiz',
+      component: () => import('@/views/QuizView.vue'),
+      meta: { title: '古文考驗' },
+    },
   ],
   scrollBehavior(_to, _from, savedPosition) {
     if (savedPosition) return savedPosition
