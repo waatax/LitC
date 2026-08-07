@@ -303,8 +303,8 @@ const nextChapter = computed(() => {
                   <p class="sentence-original classical-text-lg vertical-original-text"><ClassicalTextLookup :text="passage.canonicalText" :highlight="highlightQuery" /></p>
                 </div>
                 <div class="horizontal-explanation">
-                  <p class="sentence-hint"><span class="translation-label">白話</span>{{ passageAid(passage).translation }}</p>
-                  <p class="sentence-hint"><span class="translation-label">解析</span>{{ passageAid(passage).analysis }}</p>
+                  <p class="sentence-hint"><span class="translation-label">白話</span>{{ passageAid(passage)?.translation }}</p>
+                  <p class="sentence-hint"><span class="translation-label">解析</span>{{ passageAid(passage)?.analysis }}</p>
                 </div>
               </div>
             </div>
@@ -315,8 +315,8 @@ const nextChapter = computed(() => {
               
               <!-- Passage-level Aid (Fallback) -->
               <template v-if="!passageSentences.get(passage.id)?.some(s => s.structuredTranslation)">
-                <p class="sentence-hint"><span class="translation-label">白話文</span>{{ passageAid(passage).translation }}</p>
-                <p class="sentence-hint"><span class="translation-label">解析</span>{{ passageAid(passage).analysis }}</p>
+                <p class="sentence-hint"><span class="translation-label">白話文</span>{{ passageAid(passage)?.translation }}</p>
+                <p class="sentence-hint"><span class="translation-label">解析</span>{{ passageAid(passage)?.analysis }}</p>
               </template>
 
               <!-- Sentence-level AI Calibrated Aid -->

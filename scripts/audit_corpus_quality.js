@@ -7,9 +7,18 @@ const aidSource = fs.readFileSync(path.join(root, 'src/data/readingAid.ts'), 'ut
 const editorialReviewPath = path.join(root, 'src/data/editorialReviews.json');
 const editorialReviewData = JSON.parse(fs.readFileSync(editorialReviewPath, 'utf8'));
 const editorialReviews = new Map(editorialReviewData.reviews.map((review) => [review.passageId, review]));
-const datasets = [...worksSource.matchAll(/JSON\.parse\(decodeURIComponent\("([^"]+)"\)\)/g)]
-  .map((match) => JSON.parse(decodeURIComponent(match[1])));
-const [works, chapters, passages] = datasets;
+const worksMatch = worksSource.match(/export const works = JSON\.parse\((['"])(.*?)\1\)/s);
+const chaptersMatch = worksSource.match(/export const chapters = JSON\.parse\((['"])(.*?)\1\)/s);
+
+const passagesPart1Source = fs.readFileSync(path.join(root, 'src/data/sentence_chunks/passages_part1.ts'), 'utf8');
+const passagesPart2Source = fs.readFileSync(path.join(root, 'src/data/sentence_chunks/passages_part2.ts'), 'utf8');
+
+const p1Match = passagesPart1Source.match(/export const passagesPart1 = JSON\.parse\((['"])(.*?)\1\)/s);
+const p2Match = passagesPart2Source.match(/export const passagesPart2 = JSON\.parse\((['"])(.*?)\1\)/s);
+
+const works = JSON.parse(worksMatch[2]);
+const chapters = JSON.parse(chaptersMatch[2]);
+const passages = [...JSON.parse(p1Match[2]), ...JSON.parse(p2Match[2])];
 
 if (!works || !chapters || !passages) throw new Error('Unable to decode corpus datasets.');
 
