@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
-import { quizBank, type QuizQuestion } from '@/data/quiz_bank'
+import type { QuizQuestion } from '@/data/quiz_bank'
 import ClassicalTextLookup from '@/components/ClassicalTextLookup.vue'
 
 const router = useRouter()
@@ -11,13 +11,20 @@ const state = ref<QuizState>('setup')
 
 const questionCounts = [5, 10, 20, 40]
 const selectedCount = ref(5)
+const isQuizLoading = ref(false)
 
 const currentQuiz = ref<QuizQuestion[]>([])
 const userAnswers = ref<number[]>([])
 const currentIndex = ref(0)
 const selectedOption = ref<number | null>(null)
 
-function startQuiz() {
+async function startQuiz() {
+  isQuizLoading.value = true
+  // Dynamically import quiz bank to avoid huge initial JS payload
+  const module = await import('@/data/quiz_bank')
+  const quizBank = module.quizBank
+  isQuizLoading.value = false
+  
   // Shuffle the quiz bank and take the selected count
   const shuffled = [...quizBank].sort(() => 0.5 - Math.random())
   currentQuiz.value = shuffled.slice(0, selectedCount.value)
@@ -116,9 +123,10 @@ function goToSource(question: QuizQuestion) {
           {{ count }} 題
         </button>
       </div>
-      <p class="setup-desc">本次測驗將從 500 題精選古文題庫中隨機抽出。包含填空、釋義、解析與背景知識，須全部作答完畢方能顯示成績。</p>
-      <button class="btn btn-primary start-btn" @click="startQuiz">
-        📝 開始測驗
+      <p class="setup-desc">本次測驗將從近千題精選古文題庫中隨機抽出。包含填空、釋義、解析與背景知識，須全部作答完畢方能顯示成績。</p>
+      <button class="btn btn-primary start-btn" @click="startQuiz" :disabled="isQuizLoading">
+        <span v-if="isQuizLoading">⏳ 載入題庫中...</span>
+        <span v-else>📝 開始測驗</span>
       </button>
     </div>
 
