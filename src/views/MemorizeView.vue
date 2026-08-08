@@ -11,6 +11,9 @@ import { useGamificationStore } from '@/stores/gamification'
 import SentenceCard from '@/components/SentenceCard.vue'
 import HintLadder from '@/components/HintLadder.vue'
 import ProgressRing from '@/components/ProgressRing.vue'
+import { useBreathingPacer } from '@/composables/useBreathingPacer'
+import { useTypingDiff } from '@/composables/useTypingDiff'
+import { useSpacedRepetition } from '@/composables/useSpacedRepetition'
 
 const route = useRoute()
 const router = useRouter()
@@ -25,34 +28,18 @@ const mounted = ref(false)
 const currentIndex = ref(0)
 const hintLevel = ref<HintLevel>('full')
 const showChunks = ref(false)
-const showTypingArea = ref(false)
-const typedText = ref('')
-const showDiff = ref(false)
 const isComplete = ref(false)
 const isFocusMode = ref(false)
 const isSepia = ref(false)
+const showDebugger = ref(false)
 import { storeToRefs } from 'pinia'
 import { useAppStore } from '@/stores/app'
 
 const appStore = useAppStore()
 const { isVertical } = storeToRefs(appStore)
 
-// Breathing pacer state (Focus mode)
-const pacerText = ref('吸氣 (Inhale)')
-const pacerPhase = ref<'inhale' | 'hold' | 'exhale'>('inhale')
-let pacerTimer: number | null = null
-
 // Achievement Unlocked popup
 const unlockedOverlay = ref<any>(null)
-
-// Track ratings per sentence
-const ratings = ref<Map<string, ReviewRating>>(new Map())
-
-const isSentenceMastered = computed(() => {
-  if (!currentSentence.value) return false
-  const rating = ratings.value.get(currentSentence.value.id)
-  return rating === 'good' || rating === 'easy'
-})
 
 async function loadChapter() {
   const chapterId = route.params.id as string
@@ -64,31 +51,7 @@ async function loadChapter() {
   sentences.value = content?.sentences ?? []
 }
 
-function startPacer() {
-  let elapsed = 0
-  pacerText.value = '吸氣 4s'
-  pacerPhase.value = 'inhale'
-  pacerTimer = window.setInterval(() => {
-    elapsed = (elapsed + 1) % 19
-    if (elapsed < 4) {
-      pacerText.value = `吸氣 ${4 - elapsed}s`
-      pacerPhase.value = 'inhale'
-    } else if (elapsed < 11) {
-      pacerText.value = `屏息 ${11 - elapsed}s`
-      pacerPhase.value = 'hold'
-    } else {
-      pacerText.value = `呼氣 ${19 - elapsed}s`
-      pacerPhase.value = 'exhale'
-    }
-  }, 1000)
-}
-
-function stopPacer() {
-  if (pacerTimer) {
-    clearInterval(pacerTimer)
-    pacerTimer = null
-  }
-}
+const { pacerText, pacerPhase, startPacer, stopPacer } = useBreathingPacer()
 
 watch(isFocusMode, (val) => {
   if (val) startPacer()
@@ -189,166 +152,62 @@ const progressPercent = computed(() => {
 
 const isBlankLevel = computed(() => hintLevel.value === 'blank')
 
+const currentSentenceText = computed(() => currentSentence.value?.canonicalText ?? '')
+const {
+  typedText,
+  showDiff,
+  showTypingArea,
+  diffResult,
+  diffAccuracy,
+  checkTyping,
+  resetTyping
+} = useTypingDiff(currentSentenceText)
+
 // Auto-show typing area when hint level is 'blank'
 watch(hintLevel, (newLevel) => {
   if (newLevel === 'blank') {
     showTypingArea.value = true
   } else {
     showTypingArea.value = false
-    showDiff.value = false
-    typedText.value = ''
+    resetTyping()
   }
 })
 
-// Character diff
-interface DiffChar {
-  char: string
-  type: 'correct' | 'incorrect' | 'missing' | 'extra'
-}
-
-const diffResult = computed<DiffChar[]>(() => {
-  if (!currentSentence.value || !showDiff.value) return []
-  const canonical = currentSentence.value.canonicalText
-  const typed = typedText.value
-  const result: DiffChar[] = []
-  const maxLen = Math.max(canonical.length, typed.length)
-
-  for (let i = 0; i < maxLen; i++) {
-    if (i < typed.length && i < canonical.length) {
-      if (typed[i] === canonical[i]) {
-        result.push({ char: typed[i], type: 'correct' })
-      } else {
-        result.push({ char: typed[i], type: 'incorrect' })
-      }
-    } else if (i >= typed.length) {
-      result.push({ char: canonical[i], type: 'missing' })
-    } else {
-      result.push({ char: typed[i], type: 'extra' })
-    }
-  }
-  return result
-})
-
-const diffAccuracy = computed(() => {
-  if (diffResult.value.length === 0) return 0
-  const correct = diffResult.value.filter(d => d.type === 'correct').length
-  const canonical = currentSentence.value?.canonicalText.length ?? 0
-  if (canonical === 0) return 100
-  return Math.round((correct / canonical) * 100)
-})
-
-function checkTyping() {
-  showDiff.value = true
-}
-
-function resetTyping() {
-  typedText.value = ''
-  showDiff.value = false
-}
-
-async function rateSentence(rating: ReviewRating) {
-  if (!currentSentence.value) return
-  const sentenceId = currentSentence.value.id
-  ratings.value.set(sentenceId, rating)
-
-  // Play synthesized audio feedback
-  if (rating === 'easy' || rating === 'good') {
-    zenAudio.playBell()
-  } else if (rating === 'hard') {
-    zenAudio.playMuyu()
-  } else if (rating === 'again') {
-    zenAudio.playGong()
-  }
-
-  // Load current card state
-  const currentState = await getCardState(sentenceId)
-
-  // Map hint levels to the scheduler's penalty indices:
-  // blank = 0 (no penalty), meaning-only = 1, first-char = 2, keyword-mask = 3, full = 4
-  let hintsUsed = 0
-  if (hintLevel.value === 'meaning-only') hintsUsed = 1
-  else if (hintLevel.value === 'first-char') hintsUsed = 2
-  else if (hintLevel.value === 'keyword-mask') hintsUsed = 3
-  else if (hintLevel.value === 'full') hintsUsed = 4
-
-  // Run spaced repetition scheduler (with diffAccuracy passed for rating calibration)
-  const { cardState } = scheduleReview(
-    {
-      cardId: sentenceId,
-      reviewedAt: new Date().toISOString(),
-      rating,
-      answerMode: showTypingArea.value ? 'typing' : 'recall',
-      hintsUsed,
-      diffAccuracy: showTypingArea.value ? diffAccuracy.value : undefined
-    },
-    currentState
-  )
-
-  // Save progress
-  await saveCardState(cardState)
-  currentCardState.value = cardState
-  await logReview({
-    cardId: sentenceId,
-    reviewedAt: new Date().toISOString(),
-    rating,
-    answerMode: showTypingArea.value ? 'typing' : 'recall',
-    hintsUsed,
-    diffAccuracy: showTypingArea.value ? diffAccuracy.value : undefined
-  })
-
-  // Award EXP & unlock achievement checklist
-  const newAchievements = gamificationStore.addExp(15)
-  if (newAchievements.length > 0) {
-    unlockedOverlay.value = newAchievements[0]
-    setTimeout(() => {
-      unlockedOverlay.value = null
-    }, 4500)
-  }
-
-  // Check and unlock 'first-card' on first rate
-  if (gamificationStore.exp >= 15) {
-    const ach = gamificationStore.unlockAchievement('first-card')
-    if (ach) {
-      unlockedOverlay.value = ach
-      setTimeout(() => {
-        unlockedOverlay.value = null
-      }, 4500)
-    }
-  }
-
-  // Move to next sentence or complete
-  if (currentIndex.value < totalSentences.value - 1) {
-    goToSentence(currentIndex.value + 1)
-  } else {
-    gamificationStore.incrementStreak()
-    isComplete.value = true
-  }
-}
-
-const currentCardState = ref<any>(null)
-const showDebugger = ref(false)
-
-async function loadCurrentCardState() {
-  if (currentSentence.value) {
-    currentCardState.value = await getCardState(currentSentence.value.id)
-  } else {
-    currentCardState.value = null
-  }
-}
-
-watch(currentSentence, () => {
-  loadCurrentCardState()
-}, { immediate: true })
-
+// -------------------------------------------------------------
+// UI Navigation Actions
+// -------------------------------------------------------------
 function goToSentence(index: number) {
   if (index < 0 || index >= totalSentences.value) return
   currentIndex.value = index
   hintLevel.value = 'full'
   showChunks.value = false
-  typedText.value = ''
-  showDiff.value = false
+  resetTyping()
   showTypingArea.value = false
 }
+
+const {
+  ratings,
+  currentCardState,
+  isSentenceMastered,
+  summaryStats,
+  rateSentence,
+  resetRatings,
+  loadCurrentCardState
+} = useSpacedRepetition({
+  currentSentence,
+  totalSentences,
+  currentIndex,
+  hintLevel,
+  showTypingArea,
+  diffAccuracy,
+  isComplete,
+  unlockedOverlay,
+  goToSentence
+})
+
+watch(currentSentence, () => {
+  loadCurrentCardState()
+}, { immediate: true })
 
 
 function goNext() {
@@ -368,11 +227,10 @@ function resetSession() {
   currentIndex.value = 0
   hintLevel.value = 'full'
   showChunks.value = false
-  typedText.value = ''
-  showDiff.value = false
+  resetTyping()
   showTypingArea.value = false
   isComplete.value = false
-  ratings.value = new Map()
+  resetRatings()
 }
 
 function goBack() {
@@ -396,15 +254,6 @@ const ratingButtons: RatingButton[] = [
   { rating: 'good', label: '良好', icon: '👍', className: 'rating-good' },
   { rating: 'easy', label: '簡單', icon: '✨', className: 'rating-easy' },
 ]
-
-// Summary stats
-const summaryStats = computed(() => {
-  const counts = { again: 0, hard: 0, good: 0, easy: 0 }
-  for (const rating of ratings.value.values()) {
-    counts[rating]++
-  }
-  return counts
-})
 </script>
 
 <template>
