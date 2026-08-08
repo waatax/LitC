@@ -62,6 +62,11 @@ export interface Chapter {
 
 // ── Layer 4: Passage ─────────────────────────────
 
+export interface PassageReadingAid {
+  translation: string
+  analysis: string
+}
+
 export interface Passage {
   id: string
   chapterId: string
@@ -69,6 +74,7 @@ export interface Passage {
   canonicalText: string
   sentenceIds: string[]
   sourceRefs: SourceReference[]
+  readingAid?: PassageReadingAid
 }
 
 export interface StructuredTranslation {

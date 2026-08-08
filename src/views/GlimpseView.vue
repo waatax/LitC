@@ -5,7 +5,7 @@ import type { Chapter, Work, Passage, Sentence, WorkDescription } from '@/types/
 import { catalogWorks } from '@/data/catalog'
 import { getWorkDescription } from '@/data/catalogApi'
 import { loadChapterContent } from '@/data/workLoader'
-import { getPassageReadingAid } from '@/data/readingAid'
+
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import RedSeal from '@/components/RedSeal.vue'
 
@@ -63,7 +63,7 @@ async function sampleGlimpses() {
 
     for (const p of ps) {
       sentenceMap.set(p.id, content.sentences.filter(sentence => sentence.passageId === p.id))
-      aidMap.set(p.id, getPassageReadingAid(p.id) || {})
+      aidMap.set(p.id, p.readingAid || { translation: '', analysis: '' })
     }
 
     const descObj = getWorkDescription(item.work.id)

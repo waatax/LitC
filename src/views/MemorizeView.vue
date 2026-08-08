@@ -31,7 +31,11 @@ const showDiff = ref(false)
 const isComplete = ref(false)
 const isFocusMode = ref(false)
 const isSepia = ref(false)
-const isVertical = ref(false)
+import { storeToRefs } from 'pinia'
+import { useAppStore } from '@/stores/app'
+
+const appStore = useAppStore()
+const { isVertical } = storeToRefs(appStore)
 
 // Breathing pacer state (Focus mode)
 const pacerText = ref('吸氣 (Inhale)')
@@ -435,10 +439,9 @@ const summaryStats = computed(() => {
       </div>
       <div class="top-bar-right" style="display: flex; align-items: center; gap: 8px;">
         <button
-          class="btn btn-ghost btn-sm layout-toggle-btn"
-          @click="isVertical = !isVertical"
+          class="mode-btn"
+          @click="appStore.toggleVertical()"
           :title="isVertical ? '切換為橫排' : '切換為直排'"
-          style="margin-right: 8px;"
         >
           {{ isVertical ? '🔤 橫書' : '📜 直書' }}
         </button>

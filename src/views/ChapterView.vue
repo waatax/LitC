@@ -5,7 +5,7 @@ import type { Chapter, Work, Passage, Sentence } from '@/types/content'
 import { GENRE_STRATEGY_META } from '@/types/content'
 import { getWorkDescription } from '@/data/catalogApi'
 import { loadChapterContent } from '@/data/workLoader'
-import { getPassageReadingAid, READING_AID_SOURCES } from '@/data/readingAid'
+import { READING_AID_SOURCES } from '@/data/readingAidSources'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import ClassicalTextLookup from '@/components/ClassicalTextLookup.vue'
 
@@ -27,7 +27,11 @@ const workDesc = computed(() => {
 type ReadingMode = 'clean' | 'assisted'
 // 典籍庫開啟章節時，優先呈現原文／白話對照；使用者仍可切回純原文。
 const readingMode = ref<ReadingMode>('assisted')
-const isVertical = ref(false)
+import { storeToRefs } from 'pinia'
+import { useAppStore } from '@/stores/app'
+
+const appStore = useAppStore()
+const { isVertical } = storeToRefs(appStore)
 
 const mounted = ref(false)
 
@@ -114,12 +118,7 @@ const allSentences = computed(() => {
 })
 
 function passageAid(passage: Passage) {
-  return getPassageReadingAid(
-    passage.id,
-    passage.canonicalText,
-    chapter.value?.workId ?? '',
-    passageSentences.value.get(passage.id) ?? [],
-  )
+  return passage.readingAid || { translation: '', analysis: '' }
 }
 
 function goBack() {
@@ -258,8 +257,8 @@ const nextChapter = computed(() => {
         </div>
 
         <button
-          class="btn btn-ghost layout-toggle-btn"
-          @click="isVertical = !isVertical"
+          class="mode-btn"
+          @click="appStore.toggleVertical()"
           :title="isVertical ? '切換為橫排' : '切換為直排'"
         >
           {{ isVertical ? '🔤 橫書' : '📜 直書' }}

@@ -2,8 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
 
-const worksTsPath = 'src/data/works.ts';
-const chunksDir = 'src/data/sentence_chunks';
+const worksTsPath = 'data_sources/works.ts';
+const chunksDir = 'data_sources/sentence_chunks';
 
 function extract(file, name) {
   const source = fs.readFileSync(file, 'utf8');
@@ -167,8 +167,8 @@ export function rebuildWorkMissingSentences(workId) {
   saveData(data.works, data.chapters, data.passages, data.sentences);
   
   // Run build scripts
-  console.log("Running generate_work_chunks.cjs...");
-  execSync('node scripts/generate_work_chunks.cjs', { stdio: 'inherit' });
+  console.log("Running generate_work_chunks.ts...");
+  execSync('npx tsx scripts/generate_work_chunks.ts', { stdio: 'inherit' });
   console.log("Running generate_catalog.cjs...");
   execSync('node scripts/generate_catalog.cjs', { stdio: 'inherit' });
   console.log(`Successfully rebuilt ${workId}!`);

@@ -19,10 +19,19 @@ export const useAppStore = defineStore('app', () => {
   // Current learning session
   const currentSessionChapterId = ref<string | null>(null)
 
+  // Global reader vertical layout preference
+  const isVertical = ref(localStorage.getItem('litc-is-vertical') === 'true')
+  const toggleVertical = () => {
+    isVertical.value = !isVertical.value
+    localStorage.setItem('litc-is-vertical', String(isVertical.value))
+  }
+
   return {
     sidebarCollapsed,
     toggleSidebar,
     activeSchoolFilter,
     currentSessionChapterId,
+    isVertical,
+    toggleVertical,
   }
 })

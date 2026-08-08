@@ -3,12 +3,16 @@ import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import type { Chapter, Work, Passage, Sentence } from '@/types/content'
 import { loadChapterContent } from '@/data/workLoader'
-import { getReadingAid } from '@/data/readingAid'
+
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import RedSeal from '@/components/RedSeal.vue'
 import ClassicalTextLookup from '@/components/ClassicalTextLookup.vue'
 
-const isVertical = ref(false)
+import { storeToRefs } from 'pinia'
+import { useAppStore } from '@/stores/app'
+
+const appStore = useAppStore()
+const { isVertical } = storeToRefs(appStore)
 
 const route = useRoute()
 const router = useRouter()
@@ -94,7 +98,8 @@ const fullText = computed(() => {
 })
 
 function whiteText(sentence: Sentence): string {
-  return getReadingAid(sentence, chapter.value?.workId ?? '') ?? '此句白話釋義正在整理。'
+  const passage = passages.value.find(p => p.id === sentence.passageId)
+  return passage?.readingAid?.translation ?? '此句白話釋義正在整理。'
 }
 </script>
 
@@ -111,9 +116,9 @@ function whiteText(sentence: Sentence): string {
       <div class="top-bar-spacer"></div>
       <button
         v-if="['read', 'understand', 'segment'].includes(currentStep.key)"
-        class="btn btn-ghost btn-sm layout-toggle-btn"
-        @click="isVertical = !isVertical"
-        style="margin-left: 8px;"
+        class="mode-btn"
+        @click="appStore.toggleVertical()"
+        :title="isVertical ? '切換為橫排' : '切換為直排'"
       >
         {{ isVertical ? '🔤 橫書' : '📜 直書' }}
       </button>
