@@ -64,15 +64,17 @@ function extractData(content) {
   return results;
 }
 
+const dataSourceDir = path.join(rootDir, 'data_sources');
+
 // ── Load corpus data ──
 console.log('Loading corpus data...');
-const worksData = extractData(fs.readFileSync(path.join(dataDir, 'works.ts'), 'utf-8'));
+const worksData = extractData(fs.readFileSync(path.join(dataSourceDir, 'works.ts'), 'utf-8'));
 const works = worksData.works || [];
 const chapters = worksData.chapters || [];
 
 let passages = [];
 for (let i = 1; i <= 2; i++) {
-  const file = path.join(dataDir, 'sentence_chunks', `passages_part${i}.ts`);
+  const file = path.join(dataSourceDir, 'sentence_chunks', `passages_part${i}.ts`);
   if (fs.existsSync(file)) {
     const data = extractData(fs.readFileSync(file, 'utf-8'));
     if (data[`passagesPart${i}`]) passages = passages.concat(data[`passagesPart${i}`]);
@@ -195,7 +197,7 @@ async function run() {
       let result;
       if (isMock) {
         result = {
-          translation: `【深度校正版翻譯】這是一段經過虛擬國學大師重新校訂的白話文，針對《${w.title}》的語意進行了嚴謹的學術還原。原文：「${p.canonicalText.substring(0, 10)}...」`,
+          translation: `【深度校正版翻譯】這是一段經過虛擬國學大師重新校訂的白話文，針對《${w.title}》的語意進行了嚴謹的學術還原。`,
           analysis: `【深度校正版解析】本段文字深刻反映了${w.title}的核心思想，我們重新比對了網上多個權威註疏版本，確認此處的哲學意涵非常深遠，不可輕忽。`
         };
       } else {
@@ -249,22 +251,20 @@ function applyToReadingAid() {
   }
   
   console.log("Reading existing readingAid.ts...");
-  const content = fs.readFileSync(readingAidPath, 'utf-8');
-  const aidsData = extractData(content);
-  const aids = aidsData.PASSAGE_AIDS || {};
+  let readingAidContent = fs.readFileSync(readingAidPath, 'utf-8');
   
   let appliedCount = 0;
-  for (const [pid, data] of Object.entries(progress)) {
-    if (aids[pid]) {
-      aids[pid].translation = data.translation;
-      aids[pid].analysis = data.analysis;
+  for (const [passageId, data] of Object.entries(progress)) {
+    const regex = new RegExp(`('${passageId}':\\s*\\{[^}]*\\})`);
+    if (regex.test(readingAidContent)) {
+      const newBlock = `'${passageId}': {\n    translation: ${JSON.stringify(data.translation)},\n    analysis: ${JSON.stringify(data.analysis)}\n  }`;
+      readingAidContent = readingAidContent.replace(regex, newBlock);
       appliedCount++;
     }
   }
   
   if (appliedCount > 0) {
-    const newContent = `import type { PassageReadingAid } from '../types/content';\n\nexport const PASSAGE_AIDS: Record<string, PassageReadingAid> = JSON.parse(String.raw\`${JSON.stringify(aids).replace(/\\/g, '\\\\').replace(/`/g, '\\`')}\`);\n`;
-    fs.writeFileSync(readingAidPath, newContent, 'utf-8');
+    fs.writeFileSync(readingAidPath, readingAidContent, 'utf-8');
     console.log(`Successfully applied ${appliedCount} deep semantic updates to readingAid.ts.`);
   } else {
     console.log("No matching passage IDs found in readingAid.ts to apply.");
