@@ -79,8 +79,16 @@ for (const relativePath of [...new Set(targets)]) {
     return converted;
   });
   if (changed) {
-    fs.writeFileSync(fullPath, newLines.join('\n'), 'utf8');
-    console.log(`Line-by-line normalized: ${relativePath}`);
+    for (let retry = 0; retry < 5; retry++) {
+      try {
+        fs.writeFileSync(fullPath, newLines.join('\n'), 'utf8');
+        console.log(`Line-by-line normalized: ${relativePath}`);
+        break;
+      } catch (e) {
+        const start = Date.now();
+        while (Date.now() - start < 200) {}
+      }
+    }
   }
 }
 
