@@ -6,6 +6,11 @@ dist/
 
 # Scratch & temporary downloads
 scratch/
+*.txt
+*.tsbuildinfo
+fix_report.py
+corpus_audit_report.md
+errors.md
 
 # Editor
 .vscode/
