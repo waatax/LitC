@@ -28,19 +28,19 @@ export const schools: School[] = [
   {
     id: 'confucianism',
     name: '儒家',
-    description: '崇尚禮樂仁義，主張修己安人、中庸之道，代表人物孔子、孟子。',
+    description: '崇尚禮樂仁義，主張修己安人、中庸之道，包含四書五經與先秦儒學集大成之作，代表人物孔子、孟子、荀子。',
     icon: '📜',
     workIds: [
       'lun-yu',
       'meng-zi',
+      'da-xue',
+      'zhong-yong',
       'xunzi',
       'yi-jing',
       'shu-jing',
       'shi-jing',
       'li-ji',
-      'chun-qiu',
-      'da-xue',
-      'zhong-yong'
+      'chun-qiu'
     ],
   },
   {

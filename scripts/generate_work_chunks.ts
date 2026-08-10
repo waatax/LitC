@@ -27,8 +27,91 @@ function jsString(value: any) {
     .replace(/\u2029/g, '\\u2029')
 }
 
-// Data sources have been moved to root
-const works = extract('data_sources/works.ts', 'works')
+const CANONICAL_ORDER = [
+  // 儒家 (Confucianism)
+  'lun-yu',
+  'meng-zi',
+  'da-xue',
+  'zhong-yong',
+  'xunzi',
+  'yi-jing',
+  'shu-jing',
+  'shi-jing',
+  'li-ji',
+  'chun-qiu',
+
+  // 道家 (Daoism)
+  'dao-de-jing',
+  'zhuangzi',
+  'liezi',
+  'wenzi',
+  'wenshi-zhenjing',
+
+  // 法家 (Legalism)
+  'han-fei-zi',
+  'shang-jun-shu',
+  'shen-bu-hai',
+  'shenzi',
+  'jian-zhu-ke-shu',
+  'guanzi',
+
+  // 墨家 (Mohism)
+  'mo-zi',
+
+  // 兵家 (Military)
+  'art-of-war',
+  'wu-zi',
+  'si-ma-fa',
+  'three-strategies',
+  'wei-liao-zi',
+  'liu-tao',
+
+  // 史書 (Histories)
+  'shiji',
+  'chun-qiu-zuo-zhuan',
+  'zhan-guo-ce',
+  'yan-tie-lun',
+  'yandanzi',
+  'xijing-zaji',
+  'lost-book-of-zhou',
+  'guo-yu',
+  'yanzi-chun-qiu',
+  'wu-yue-chun-qiu',
+  'yue-jue-shu',
+  'lie-nv-zhuan',
+  'guliang-zhuan',
+  'gongyang-zhuan',
+  'han-shu',
+  'hou-han-shu',
+  'qian-han-ji',
+  'dong-guan-han-ji',
+  'zhushu-jinian',
+  'mutianzi-zhuan',
+  'gu-san-fen',
+
+  // 文學 (Literature)
+  'gu-wen-guan-zhi',
+  'cai-gen-tan'
+];
+
+const subtitles: Record<string, string> = {
+  'dao-de-jing': '老子',
+  'zhuangzi': '南華真經',
+  'liezi': '沖虛至德真經',
+  'shang-jun-shu': '商鞅及其後學',
+  'mo-zi': '墨翟及墨家後學',
+  'art-of-war': '孫武',
+  'wu-zi': '吳起',
+  'three-strategies': '黃石公三略',
+  'liu-tao': '太公兵法',
+  'zhan-guo-ce': '劉向編定',
+  'xunzi': '荀況著',
+  'cai-gen-tan': '洪應明',
+  'yanzi-chun-qiu': '晏嬰'
+};
+
+// Data sources
+const rawWorks = extract('data_sources/works.ts', 'works')
 const chapters = extract('data_sources/works.ts', 'chapters')
 const passages = [
   ...extract('data_sources/sentence_chunks/passages_part1.ts', 'passagesPart1'),
@@ -41,8 +124,24 @@ const sentences = Array.from({ length: 8 }, (_, index) =>
 // Import reading aids directly using TS
 import { PASSAGE_AIDS } from '../src/data/readingAid'
 
-const chapterWork = new Map(chapters.map((chapter: any) => [chapter.id, chapter.workId]))
-const passageWork = new Map(passages.map((passage: any) => [passage.id, chapterWork.get(passage.chapterId)]))
+const works = rawWorks
+  .map((w: any) => {
+    let title = w.title;
+    if (!title.startsWith('《')) {
+      title = `《${title}》`;
+    }
+    return {
+      ...w,
+      title,
+      ...(subtitles[w.id] && !w.subtitle ? { subtitle: subtitles[w.id] } : {})
+    };
+  })
+  .sort((a: any, b: any) => {
+    const idxA = CANONICAL_ORDER.indexOf(a.id);
+    const idxB = CANONICAL_ORDER.indexOf(b.id);
+    return (idxA >= 0 ? idxA : 999) - (idxB >= 0 ? idxB : 999);
+  });
+
 const outDir = 'src/data/work_chunks'
 if (!fs.existsSync(outDir)) {
   fs.mkdirSync(outDir, { recursive: true })
