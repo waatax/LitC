@@ -78,38 +78,97 @@ for (const wBlock of workBlocks) {
   workIndex++;
   const workTitle = wMatch[1].replace(/^[一二三四五六七八九十]+、/, '').replace('全本', '').replace('選篇', '').trim();
   
-  // Mapping titles to readable IDs and school
+  // Mapping titles to readable IDs, school and genre strategy
   const mapping = {
+    // 道家 (Daoism)
     '道德經': ['dao-de-jing', 'daoism', 'rhythmic'],
-    '莊子': ['zhuangzi', 'daoism', 'narrative'],
+    '莊子': ['zhuangzi', 'daoism', 'parallel'],
     '列子': ['liezi', 'daoism', 'narrative'],
-    '文子': ['wenzi', 'daoism', 'narrative'],
-    '文始真經': ['wenshi-zhenjing', 'daoism', 'narrative'],
+    '文子': ['wenzi', 'daoism', 'rhythmic'],
+    '文始真經': ['wenshi-zhenjing', 'daoism', 'rhythmic'],
+
+    // 法家 (Legalism)
     '韓非子': ['han-fei-zi', 'legalism', 'argumentative'],
     '商君書': ['shang-jun-shu', 'legalism', 'argumentative'],
-    '慎子': ['shenzi', 'legalism', 'argumentative'],
     '申不害': ['shen-bu-hai', 'legalism', 'argumentative'],
+    '慎子': ['shenzi', 'legalism', 'argumentative'],
+    '諫逐客書': ['jian-zhu-ke-shu', 'legalism', 'argumentative'],
+    '管子': ['guanzi', 'legalism', 'argumentative'],
+
+    // 墨家 (Mohism)
     '墨子': ['mo-zi', 'mohism', 'parallel'],
-    '春秋左傳': ['chun-qiu-zuo-zhuan', 'confucianism', 'narrative'],
-    '春秋穀梁傳': ['guliang-zhuan', 'confucianism', 'argumentative'],
-    '春秋公羊傳': ['gongyang-zhuan', 'confucianism', 'argumentative'],
+
+    // 兵家 (Military)
+    '孫子兵法': ['art-of-war', 'military', 'parallel'],
+    '吳子': ['wu-zi', 'military', 'parallel'],
+    '司馬法': ['si-ma-fa', 'military', 'parallel'],
+    '三略': ['three-strategies', 'military', 'parallel'],
+    '尉繚子': ['wei-liao-zi', 'military', 'parallel'],
+    '六韜': ['liu-tao', 'military', 'parallel'],
+
+    // 史書 (Histories)
+    '史記': ['shiji', 'histories', 'parallel'],
+    '春秋左傳': ['chun-qiu-zuo-zhuan', 'histories', 'parallel'],
+    '戰國策': ['zhan-guo-ce', 'histories', 'parallel'],
+    '鹽鐵論': ['yan-tie-lun', 'histories', 'parallel'],
+    '燕丹子': ['yandanzi', 'histories', 'parallel'],
+    '西京雜記': ['xijing-zaji', 'histories', 'parallel'],
+    '逸周書': ['lost-book-of-zhou', 'histories', 'parallel'],
+    '國語': ['guo-yu', 'histories', 'parallel'],
+    '晏子春秋': ['yanzi-chun-qiu', 'histories', 'narrative'],
+    '吳越春秋': ['wu-yue-chun-qiu', 'histories', 'parallel'],
+    '越絕書': ['yue-jue-shu', 'histories', 'parallel'],
+    '列女傳': ['lie-nv-zhuan', 'histories', 'parallel'],
+    '春秋穀梁傳': ['guliang-zhuan', 'histories', 'parallel'],
+    '春秋公羊傳': ['gongyang-zhuan', 'histories', 'parallel'],
+    '穀梁傳': ['guliang-zhuan', 'histories', 'parallel'],
+    '公羊傳': ['gongyang-zhuan', 'histories', 'parallel'],
+    '漢書': ['han-shu', 'histories', 'parallel'],
+    '後漢書': ['hou-han-shu', 'histories', 'parallel'],
+    '前漢紀': ['qian-han-ji', 'histories', 'parallel'],
+    '東觀漢記': ['dong-guan-han-ji', 'histories', 'parallel'],
+    '竹書紀年': ['zhushu-jinian', 'histories', 'parallel'],
+    '穆天子傳': ['mutianzi-zhuan', 'histories', 'parallel'],
+    '古三墳': ['gu-san-fen', 'histories', 'parallel'],
+
+    // 儒家 (Confucianism)
     '論語': ['lun-yu', 'confucianism', 'rhythmic'],
     '孟子': ['meng-zi', 'confucianism', 'argumentative'],
     '荀子': ['xunzi', 'confucianism', 'argumentative'],
     '大學': ['da-xue', 'confucianism', 'argumentative'],
     '中庸': ['zhong-yong', 'confucianism', 'argumentative'],
-    '禮記': ['li-ji', 'confucianism', 'narrative'],
-    '詩經': ['shi-jing', 'literature', 'rhythmic'],
-    '尚書': ['shu-jing', 'histories', 'narrative'],
-    '史記': ['shiji', 'histories', 'narrative'],
-    '戰國策': ['zhan-guo-ce', 'histories', 'narrative']
+    '禮記': ['li-ji', 'confucianism', 'argumentative'],
+    '詩經': ['shi-jing', 'confucianism', 'parallel'],
+    '尚書': ['shu-jing', 'confucianism', 'narrative'],
+    '易經': ['yi-jing', 'confucianism', 'parallel'],
+    '春秋': ['chun-qiu', 'confucianism', 'narrative'],
+
+    // 文學 (Literature)
+    '古文觀止': ['gu-wen-guan-zhi', 'literature', 'parallel'],
+    '菜根譚': ['cai-gen-tan', 'literature', 'rhythmic']
   };
-  
+
+  const subtitles = {
+    'dao-de-jing': '老子',
+    'zhuangzi': '南華真經',
+    'liezi': '沖虛至德真經',
+    'shang-jun-shu': '商鞅及其後學',
+    'mo-zi': '墨翟及墨家後學',
+    'art-of-war': '孫武',
+    'wu-zi': '吳子兵法',
+    'three-strategies': '黃石公三略',
+    'liu-tao': '太公兵法',
+    'zhan-guo-ce': '劉向編定',
+    'xunzi': '荀況著',
+    'cai-gen-tan': '洪應明',
+    'yanzi-chun-qiu': '晏嬰'
+  };
+
   let workId = generateId('work', workIndex);
   let schoolId = 'literature';
   let genreStrategy = 'narrative';
-  
-  for (const [key, val] of Object.entries(mapping)) {
+
+  for (const [key, val] of Object.entries(mapping).sort((a, b) => b[0].length - a[0].length)) {
     if (workTitle.includes(key)) {
       workId = val[0];
       schoolId = val[1];
@@ -117,7 +176,7 @@ for (const wBlock of workBlocks) {
       break;
     }
   }
-  
+
   let bundle = catalogWorksMap.get(workId);
   if (!bundle) {
     bundle = {
@@ -125,6 +184,7 @@ for (const wBlock of workBlocks) {
         id: workId,
         schoolId,
         title: workTitle,
+        ...(subtitles[workId] ? { subtitle: subtitles[workId] } : {}),
         genreStrategy,
         sourceNote: 'Processed via new ETL pipeline',
         chapterIds: [],
