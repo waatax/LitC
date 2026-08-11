@@ -759,3 +759,91 @@ textarea:focus-visible,
   border: none;
   margin: var(--sp-6) 0;
 }
+
+/* ── 7x7 UI/UX Enhancements: Keyframes & Micro-Interactions ── */
+@keyframes floatGlow {
+  0%, 100% {
+    transform: translateY(0px);
+    box-shadow: 0 8px 32px rgba(0, 229, 255, 0.2);
+  }
+  50% {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(0, 229, 255, 0.4);
+  }
+}
+
+@keyframes goldPulse {
+  0%, 100% { border-color: rgba(201, 169, 110, 0.3); }
+  50% { border-color: rgba(201, 169, 110, 0.8); }
+}
+
+@keyframes springFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.glass-card-elevated {
+  background: var(--c-glass-bg);
+  backdrop-filter: var(--c-glass-blur);
+  border: 1px solid var(--c-glass-border);
+  box-shadow: var(--c-glass-shadow);
+  border-radius: var(--radius-lg);
+  transition: all var(--duration-normal) var(--ease-out);
+}
+
+.glass-card-elevated:hover {
+  background: var(--c-glass-bg-hover);
+  border-color: var(--c-glass-border-hover);
+  box-shadow: var(--c-glass-glow);
+  transform: translateY(-2px);
+}
+
+.scholarly-pill-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-2) var(--sp-4);
+  border-radius: var(--radius-full);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-semibold);
+  letter-spacing: 0.05em;
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border-accent);
+  color: var(--c-gold-light);
+  cursor: pointer;
+  transition: all var(--duration-fast) var(--ease-out);
+}
+
+.scholarly-pill-tab:hover,
+.scholarly-pill-tab.active {
+  background: var(--c-gold-glow);
+  border-color: var(--c-gold);
+  color: var(--c-gold);
+  transform: scale(1.04);
+}
+
+/* Custom Scrollbar for LitC ClassicFlow */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--c-bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--c-border-accent);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--c-gold);
+}
+
