@@ -791,17 +791,20 @@ textarea:focus-visible,
 .glass-card-elevated {
   background: var(--c-glass-bg);
   backdrop-filter: var(--c-glass-blur);
+  -webkit-backdrop-filter: var(--c-glass-blur);
   border: 1px solid var(--c-glass-border);
   box-shadow: var(--c-glass-shadow);
   border-radius: var(--radius-lg);
-  transition: all var(--duration-normal) var(--ease-out);
+  transform: translateZ(0);
+  contain: layout style;
+  transition: transform var(--duration-normal) var(--ease-out), background var(--duration-normal) var(--ease-out), border-color var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out);
 }
 
 .glass-card-elevated:hover {
   background: var(--c-glass-bg-hover);
   border-color: var(--c-glass-border-hover);
   box-shadow: var(--c-glass-glow);
-  transform: translateY(-2px);
+  transform: translateY(-2px) translateZ(0);
 }
 
 .scholarly-pill-tab {
@@ -817,7 +820,8 @@ textarea:focus-visible,
   border: 1px solid var(--c-border-accent);
   color: var(--c-gold-light);
   cursor: pointer;
-  transition: all var(--duration-fast) var(--ease-out);
+  transform: translateZ(0);
+  transition: transform var(--duration-fast) var(--ease-out), background var(--duration-fast) var(--ease-out), border-color var(--duration-fast) var(--ease-out);
 }
 
 .scholarly-pill-tab:hover,
@@ -825,7 +829,14 @@ textarea:focus-visible,
   background: var(--c-gold-glow);
   border-color: var(--c-gold);
   color: var(--c-gold);
-  transform: scale(1.04);
+  transform: scale(1.04) translateZ(0);
+}
+
+/* Mobile Performance Guard: Lighten GPU blur load on low-power mobile GPUs */
+@media (max-width: 640px) {
+  :root {
+    --c-glass-blur: blur(8px) saturate(140%);
+  }
 }
 
 /* Custom Scrollbar for LitC ClassicFlow */
