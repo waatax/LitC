@@ -48,13 +48,15 @@
   --c-wusilan-line:  rgba(201, 169, 110, 0.12);
 
   /* ── Frosted Glass (毛玻璃效果): 暗頁面 螢光天空藍 (Neon Sky Blue Tint) ── */
-  --c-glass-bg:           rgba(0, 229, 255, 0.14);
-  --c-glass-bg-hover:     rgba(0, 229, 255, 0.25);
+  --c-glass-bg:           rgba(0, 229, 255, 0.08);
+  --c-glass-bg-hover:     rgba(0, 229, 255, 0.12);
+  --c-glass-readable-bg:  rgba(12, 12, 20, 0.82);
+  --c-glass-readable-hover: rgba(12, 12, 20, 0.88);
   --c-glass-border:       rgba(56, 189, 248, 0.38);
   --c-glass-border-hover: rgba(0, 229, 255, 0.70);
   --c-glass-shadow:       0 8px 32px rgba(0, 229, 255, 0.25);
   --c-glass-glow:         0 0 24px rgba(0, 229, 255, 0.45);
-  --c-glass-blur:         blur(20px) saturate(180%);
+  --c-glass-blur:         blur(14px) saturate(105%);
 
   /* ── Typography ── */
   --font-serif:    'Noto Serif TC', 'Source Han Serif TC', 'PMingLiU', serif;
@@ -230,16 +232,22 @@ a:hover {
 
 /* ── Utility: Cards ──────────────────────────────── */
 .glass-card {
-  background: var(--c-glass-bg);
+  background:
+    linear-gradient(var(--c-glass-readable-bg), var(--c-glass-readable-bg)),
+    var(--c-glass-bg);
   backdrop-filter: var(--c-glass-blur);
   -webkit-backdrop-filter: var(--c-glass-blur);
   border: 1px solid var(--c-glass-border);
   border-radius: var(--radius-lg);
   box-shadow: var(--c-glass-shadow);
+  color: var(--c-text-primary);
+  isolation: isolate;
   transition: all var(--duration-normal) var(--ease-out);
 }
 .glass-card:hover {
-  background: var(--c-glass-bg-hover);
+  background:
+    linear-gradient(var(--c-glass-readable-hover), var(--c-glass-readable-hover)),
+    var(--c-glass-bg-hover);
   border-color: var(--c-glass-border-hover);
   box-shadow: var(--c-glass-glow);
   transform: translateY(-2px);
@@ -598,11 +606,13 @@ html.light-theme {
   /* 毛玻璃效果（明亮頁面 - 青藍色渲染 Cyan-Blue Tint） */
   --c-glass-bg:           rgba(14, 165, 233, 0.18);
   --c-glass-bg-hover:     rgba(14, 165, 233, 0.30);
+  --c-glass-readable-bg:  rgba(250, 246, 238, 0.84);
+  --c-glass-readable-hover: rgba(250, 246, 238, 0.90);
   --c-glass-border:       rgba(2, 132, 199, 0.45);
   --c-glass-border-hover: rgba(2, 132, 199, 0.70);
   --c-glass-shadow:       0 8px 32px rgba(14, 165, 233, 0.25);
   --c-glass-glow:         0 0 24px rgba(14, 165, 233, 0.45);
-  --c-glass-blur:         blur(16px) saturate(180%);
+  --c-glass-blur:         blur(14px) saturate(105%);
 }
 
 /* 3. Celadon Jade Theme (雨過天青 - Soft Pale Green) */
@@ -635,11 +645,13 @@ html.theme-celadon {
   /* 毛玻璃效果（明亮頁面 - 青藍色渲染 Cyan-Blue Tint） */
   --c-glass-bg:           rgba(14, 165, 233, 0.18);
   --c-glass-bg-hover:     rgba(14, 165, 233, 0.30);
+  --c-glass-readable-bg:  rgba(235, 243, 238, 0.84);
+  --c-glass-readable-hover: rgba(235, 243, 238, 0.90);
   --c-glass-border:       rgba(2, 132, 199, 0.45);
   --c-glass-border-hover: rgba(2, 132, 199, 0.70);
   --c-glass-shadow:       0 8px 32px rgba(14, 165, 233, 0.25);
   --c-glass-glow:         0 0 24px rgba(14, 165, 233, 0.45);
-  --c-glass-blur:         blur(16px) saturate(180%);
+  --c-glass-blur:         blur(14px) saturate(105%);
 }
 
 /* 4. Cinnabar Red Theme (硃砂描金 - Deep Red/Gold) */
@@ -664,6 +676,8 @@ html.theme-cinnabar {
   --c-wusilan-line:  rgba(201, 169, 110, 0.18);
   --c-bg-sidebar:    linear-gradient(180deg, #2d1111 0%, #1e0909 100%);
   --c-bg-mobile-tab: rgba(58, 22, 22, 0.95);
+  --c-glass-readable-bg: rgba(58, 22, 22, 0.84);
+  --c-glass-readable-hover: rgba(58, 22, 22, 0.90);
 }
 
 /* ── Focus outline enhancements for WCAG 2.2 AA ── */
@@ -789,19 +803,25 @@ textarea:focus-visible,
 }
 
 .glass-card-elevated {
-  background: var(--c-glass-bg);
+  background:
+    linear-gradient(var(--c-glass-readable-bg), var(--c-glass-readable-bg)),
+    var(--c-glass-bg);
   backdrop-filter: var(--c-glass-blur);
   -webkit-backdrop-filter: var(--c-glass-blur);
   border: 1px solid var(--c-glass-border);
   box-shadow: var(--c-glass-shadow);
   border-radius: var(--radius-lg);
+  color: var(--c-text-primary);
+  isolation: isolate;
   transform: translateZ(0);
   contain: layout style;
   transition: transform var(--duration-normal) var(--ease-out), background var(--duration-normal) var(--ease-out), border-color var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out);
 }
 
 .glass-card-elevated:hover {
-  background: var(--c-glass-bg-hover);
+  background:
+    linear-gradient(var(--c-glass-readable-hover), var(--c-glass-readable-hover)),
+    var(--c-glass-bg-hover);
   border-color: var(--c-glass-border-hover);
   box-shadow: var(--c-glass-glow);
   transform: translateY(-2px) translateZ(0);
@@ -835,7 +855,24 @@ textarea:focus-visible,
 /* Mobile Performance Guard: Lighten GPU blur load on low-power mobile GPUs */
 @media (max-width: 640px) {
   :root {
-    --c-glass-blur: blur(8px) saturate(140%);
+    --c-glass-blur: blur(8px) saturate(100%);
+  }
+}
+
+/* Keep text fully legible when transparency is reduced or backdrop blur is unavailable. */
+@media (prefers-reduced-transparency: reduce) {
+  .glass-card,
+  .glass-card-elevated {
+    background: var(--c-bg-elevated);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .glass-card,
+  .glass-card-elevated {
+    background: var(--c-bg-elevated);
   }
 }
 
