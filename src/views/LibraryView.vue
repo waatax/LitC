@@ -76,10 +76,73 @@ const filterTabs: FilterOption[] = [
 ]
 
 const filteredWorks = computed(() => {
+  // The Spring and Autumn commentaries are Confucian canonical works even
+  // though their primary browsing school remains History.
+  if (activeFilter.value === 'confucianism') {
+    const canonicalCommentaries = new Set(['chun-qiu-zuo-zhuan', 'gongyang-zhuan', 'guliang-zhuan'])
+    return allWorks.value.filter(w => w.schoolId === 'confucianism' || canonicalCommentaries.has(w.id))
+  }
   if (activeFilter.value === 'all') {
     return allWorks.value
   }
   return allWorks.value.filter(w => w.schoolId === activeFilter.value)
+})
+
+interface WorkGroup {
+  id: string
+  title: string
+  description: string
+  works: Work[]
+}
+
+const confucianCollections = [
+  { id: 'four-books', title: '四書', description: '《論語》、《孟子》、《大學》、《中庸》', workIds: ['lun-yu', 'meng-zi', 'da-xue', 'zhong-yong'] },
+  { id: 'five-classics', title: '五經', description: '《易經》、《尚書》、《詩經》、《禮記》、《春秋》', workIds: ['yi-jing', 'shu-jing', 'shi-jing', 'li-ji', 'chun-qiu'] },
+  { id: 'spring-autumn-commentaries', title: '春秋三傳', description: '《左傳》、《公羊傳》、《穀梁傳》', workIds: ['chun-qiu-zuo-zhuan', 'gongyang-zhuan', 'guliang-zhuan'] },
+  { id: 'confucian-masters', title: '儒家諸子', description: '先秦儒家重要思想典籍', workIds: ['xunzi'] },
+] as const
+
+const schoolGroupMeta: Record<SchoolId, { title: string; description: string }> = {
+  confucianism: { title: '儒家經典', description: '四書、五經與儒家諸子' },
+  daoism: { title: '道家典籍', description: '老莊及道家重要文獻' },
+  legalism: { title: '法家典籍', description: '法、術、勢相關著作' },
+  mohism: { title: '墨家典籍', description: '墨家學派傳世文獻' },
+  military: { title: '兵家典籍', description: '兵法與軍政著作' },
+  histories: { title: '史傳典籍', description: '編年、紀傳與雜史文獻' },
+  literature: { title: '文學典籍', description: '古文選集與文學作品' },
+}
+
+const groupedWorks = computed<WorkGroup[]>(() => {
+  if (activeFilter.value === 'confucianism') {
+    const byId = new Map(filteredWorks.value.map(work => [work.id, work]))
+    return confucianCollections.map(group => ({
+      id: group.id,
+      title: group.title,
+      description: group.description,
+      works: group.workIds.map(id => byId.get(id)).filter((work): work is Work => Boolean(work)),
+    })).filter(group => group.works.length > 0)
+  }
+
+  if (activeFilter.value === 'all') {
+    return filterTabs.slice(1).map(tab => {
+      const schoolId = tab.id as SchoolId
+      const meta = schoolGroupMeta[schoolId]
+      return {
+        id: schoolId,
+        title: meta.title,
+        description: meta.description,
+        works: filteredWorks.value.filter(work => work.schoolId === schoolId),
+      }
+    }).filter(group => group.works.length > 0)
+  }
+
+  const schoolId = activeFilter.value as SchoolId
+  return [{
+    id: schoolId,
+    title: schoolGroupMeta[schoolId].title,
+    description: schoolGroupMeta[schoolId].description,
+    works: filteredWorks.value,
+  }]
 })
 
 function setFilter(tab: FilterTab) {
@@ -149,12 +212,21 @@ function triggerSearch() {
 
     <!-- Works Grid -->
     <div class="works-grid stagger-children">
-      <div
-        v-for="work in filteredWorks"
-        :key="work.id"
-        class="work-card glass-card"
-        :class="[{ 'is-expanded': expandedWorkId === work.id }, `school-${work.schoolId}`]"
-      >
+      <section v-for="group in groupedWorks" :key="group.id" class="work-group">
+        <header class="work-group-header">
+          <div>
+            <h2 class="work-group-title">{{ group.title }}</h2>
+            <p class="work-group-description">{{ group.description }}</p>
+          </div>
+          <span class="work-group-count">{{ group.works.length }} 部</span>
+        </header>
+        <div class="work-group-list">
+          <div
+            v-for="work in group.works"
+            :key="work.id"
+            class="work-card glass-card"
+            :class="[{ 'is-expanded': expandedWorkId === work.id }, `school-${work.schoolId}`]"
+          >
         <!-- Card Header -->
         <div class="work-header" @click="toggleWork(work.id)">
           <div class="work-info">
@@ -221,7 +293,9 @@ function triggerSearch() {
             </div>
           </div>
         </Transition>
-      </div>
+          </div>
+        </div>
+      </section>
     </div>
 
     <!-- Empty State -->
@@ -399,6 +473,53 @@ function triggerSearch() {
 
 /* ── Works Grid ── */
 .works-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-8);
+}
+
+.work-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+.work-group-header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  padding: 0 var(--sp-2) var(--sp-3);
+  border-bottom: 1px solid var(--c-border-accent);
+}
+
+.work-group-title {
+  margin: 0;
+  color: var(--c-gold);
+  font-family: var(--font-serif);
+  font-size: var(--fs-2xl);
+  letter-spacing: 0.08em;
+}
+
+.work-group-description,
+.work-group-count {
+  color: var(--c-text-muted);
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+}
+
+.work-group-description {
+  margin: var(--sp-1) 0 0;
+}
+
+.work-group-count {
+  flex-shrink: 0;
+  padding: var(--sp-1) var(--sp-3);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-full);
+}
+
+.work-group-list {
   display: flex;
   flex-direction: column;
   gap: var(--sp-4);
