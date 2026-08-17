@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/LitC/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="經典文脈 ClassicFlow — 先秦諸子經典背誦學習系統。運用間隔重複與主動回想，深度記憶道德經、莊子、韓非子、商君書、墨子。" />
+    <meta name="theme-color" content="#0a0a0f" />
+    <title>經典文脈 ClassicFlow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+    <script>
+      window.onerror = function(msg, url, line, col, error) {
+        if (url && (url.indexOf('chrome-extension://') !== -1 || url.indexOf('moz-extension://') !== -1)) {
+          return true;
+        }
+        var errDiv = document.createElement('div');
+        errDiv.style.position = 'fixed';
+        errDiv.style.top = '0';
+        errDiv.style.left = '0';
+        errDiv.style.width = '100%';
+        errDiv.style.backgroundColor = '#8b4a4a';
+        errDiv.style.color = '#fff';
+        errDiv.style.padding = '20px';
+        errDiv.style.zIndex = '99999';
+        errDiv.style.fontFamily = 'monospace';
+        errDiv.style.whiteSpace = 'pre-wrap';
+        errDiv.innerHTML = '<h2>Uncaught Error:</h2>' + msg + '<br>at ' + url + ':' + line + ':' + col + (error && error.stack ? '<br><br>Stack:<br>' + error.stack : '');
+        document.body.appendChild(errDiv);
+        return false;
+      };
+      window.onunhandledrejection = function(event) {
+        var reason = event.reason || '';
+        var msg = typeof reason === 'string' ? reason : (reason.message || String(reason));
+        var stack = (reason && reason.stack) ? reason.stack : '';
+
+        // Suppress browser extension unhandled rejections (e.g., MetaMask inpage.js)
+        if (
+          msg.indexOf('MetaMask') !== -1 ||
+          msg.indexOf('Failed to connect') !== -1 ||
+          stack.indexOf('chrome-extension://') !== -1 ||
+          stack.indexOf('moz-extension://') !== -1
+        ) {
+          event.preventDefault();
+          return;
+        }
+
+        var errDiv = document.createElement('div');
+        errDiv.style.position = 'fixed';
+        errDiv.style.top = '0';
+        errDiv.style.left = '0';
+        errDiv.style.width = '100%';
+        errDiv.style.backgroundColor = '#8b4a4a';
+        errDiv.style.color = '#fff';
+        errDiv.style.padding = '20px';
+        errDiv.style.zIndex = '99999';
+        errDiv.style.fontFamily = 'monospace';
+        errDiv.style.whiteSpace = 'pre-wrap';
+        errDiv.innerHTML = '<h2>Unhandled Promise Rejection:</h2>' + msg + (stack ? '<br><br>Stack:<br>' + stack : '');
+        document.body.appendChild(errDiv);
+      };
+    </script>
+    <script type="module" crossorigin src="/LitC/assets/index-CNvWuTqw.js"></script>
+    <link rel="modulepreload" crossorigin href="/LitC/assets/vendor-CcSlIoJV.js">
+    <link rel="stylesheet" crossorigin href="/LitC/assets/index-Sp0xbn-Z.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
