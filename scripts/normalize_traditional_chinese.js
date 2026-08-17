@@ -52,7 +52,7 @@ const targets = [
   'src/App.vue',
 ];
 
-for (const directory of ['src/components', 'src/views']) {
+for (const directory of ['src/components', 'src/views', 'src/data/work_chunks']) {
   const absoluteDirectory = path.join(root, directory);
   if (!fs.existsSync(absoluteDirectory)) continue;
   for (const name of fs.readdirSync(absoluteDirectory)) {
