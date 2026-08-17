@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import type { Chapter, Work, Passage, Sentence } from '@/types/content'
 import { GENRE_STRATEGY_META } from '@/types/content'
@@ -8,6 +8,8 @@ import { loadChapterContent } from '@/data/workLoader'
 import { READING_AID_SOURCES } from '@/data/readingAidSources'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import ClassicalTextLookup from '@/components/ClassicalTextLookup.vue'
+import AudioPlayerBar from '@/components/AudioPlayerBar.vue'
+import { speechService, type SpeechMode, type SpeechPlaylistItem } from '@/services/speech'
 
 const route = useRoute()
 const router = useRouter()
@@ -121,18 +123,69 @@ function passageAid(passage: Passage) {
   return passage.readingAid || { translation: '', analysis: '' }
 }
 
+const speechState = speechService.state
+
+function isPassageActive(passageId: string, mode?: SpeechMode) {
+  if (mode) {
+    return speechState.currentPassageId === passageId && speechState.currentMode === mode && (speechState.isPlaying || speechState.isPaused)
+  }
+  return speechState.currentPassageId === passageId && (speechState.isPlaying || speechState.isPaused)
+}
+
+function isPassageSpeaking(passageId: string) {
+  return speechState.currentPassageId === passageId && speechState.isPlaying && !speechState.isPaused
+}
+
+function playPassage(passage: Passage, mode: SpeechMode = 'canonical') {
+  const textToRead = mode === 'canonical'
+    ? passage.canonicalText
+    : (passageAid(passage)?.translation || passage.canonicalText)
+  
+  speechService.speakPassage(passage.id, textToRead, mode, {
+    workTitle: work.value?.title,
+    chapterTitle: chapter.value?.title,
+    canonicalText: passage.canonicalText,
+    vernacularText: passageAid(passage)?.translation,
+  })
+}
+
+function startChapterRecitation(mode: SpeechMode = 'canonical') {
+  if (speechState.isPlaying && speechState.playlist.length > 0 && speechState.currentMode === mode) {
+    speechService.stop()
+    return
+  }
+
+  const playlist: SpeechPlaylistItem[] = passages.value.map(p => ({
+    passageId: p.id,
+    chapterId: chapter.value?.id || '',
+    canonicalText: p.canonicalText,
+    vernacularText: passageAid(p)?.translation,
+    chapterTitle: chapter.value?.title,
+    workTitle: work.value?.title,
+  }))
+
+  speechService.startChapterPlayback(playlist, mode, 0)
+}
+
+onBeforeUnmount(() => {
+  speechService.stop()
+})
+
 function goBack() {
+  speechService.stop()
   router.push('/library')
 }
 
 function goToLearn() {
   if (chapter.value) {
+    speechService.stop()
     router.push(`/learn/${chapter.value.id}`)
   }
 }
 
 function goToMemorize() {
   if (chapter.value) {
+    speechService.stop()
     router.push(`/memorize/${chapter.value.id}`)
   }
 }
@@ -237,7 +290,7 @@ const nextChapter = computed(() => {
         </div>
       </div>
 
-      <!-- Reading Mode Tabs & Vertical Toggle -->
+      <!-- Reading Mode Tabs & Controls -->
       <div class="reading-controls-bar">
         <div class="mode-tabs">
           <button
@@ -256,15 +309,27 @@ const nextChapter = computed(() => {
           </button>
         </div>
 
-        <button
-          class="mode-btn"
-          @click="appStore.toggleVertical()"
-          :title="isVertical ? '切換為橫排' : '切換為直排'"
-        >
-          {{ isVertical ? '🔤 橫書' : '📜 直書' }}
-        </button>
+        <div class="reading-actions-bar">
+          <button
+            class="recitation-chapter-btn"
+            :class="{ 'is-playing': speechState.isPlaying && speechState.playlist.length > 0 }"
+            :title="speechState.isPlaying && speechState.playlist.length > 0 ? '停止全章朗讀' : '由第一段起逐段連續朗讀本章'"
+            @click="startChapterRecitation('canonical')"
+          >
+            <span v-if="speechState.isPlaying && speechState.playlist.length > 0">⏹ 停止朗讀</span>
+            <span v-else>▶️ 逐段連續朗讀</span>
+          </button>
+
+          <button
+            class="mode-btn"
+            @click="appStore.toggleVertical()"
+            :title="isVertical ? '切換為橫排' : '切換為直排'"
+          >
+            {{ isVertical ? '🔤 橫書' : '📜 直書' }}
+          </button>
+        </div>
       </div>
-      <p class="dictionary-tip">提示：點擊原文中的任一漢字，可查看注音、讀音與辭典解釋。</p>
+      <p class="dictionary-tip">提示：點擊任一漢字可查字義；點擊「🔊」可直接逐段播放語音誦讀（一段對應一段）。</p>
 
       <!-- Reading Content -->
       <div class="reading-content" :class="{ 'is-vertical-layout': isVertical }">
@@ -272,21 +337,52 @@ const nextChapter = computed(() => {
         <div v-if="readingMode === 'clean'" class="clean-mode">
           <div v-if="isVertical" class="vertical-container">
             <div class="vertical-text-flow">
-              <p
+              <div
                 v-for="passage in passages"
                 :key="passage.id"
                 :id="'passage-' + passage.id"
-                class="passage-text"
-              ><ClassicalTextLookup :text="passage.canonicalText" :highlight="highlightQuery" /></p>
+                class="vertical-clean-block"
+                :class="{ 'is-speaking-passage': isPassageActive(passage.id) }"
+              >
+                <button
+                  type="button"
+                  class="vertical-inline-audio-btn"
+                  :class="{ 'is-playing': isPassageSpeaking(passage.id) }"
+                  :title="isPassageSpeaking(passage.id) ? '暫停朗讀本段' : '朗讀本段原文'"
+                  @click="playPassage(passage, 'canonical')"
+                >
+                  <span v-if="isPassageSpeaking(passage.id)">⏸</span>
+                  <span v-else>🔊</span>
+                </button>
+                <p class="passage-text">
+                  <ClassicalTextLookup :text="passage.canonicalText" :highlight="highlightQuery" />
+                </p>
+              </div>
             </div>
           </div>
           <div v-else class="text-body classical-text-lg">
-            <p
+            <div
               v-for="passage in passages"
               :key="passage.id"
               :id="'passage-' + passage.id"
-              class="passage-text"
-            ><ClassicalTextLookup :text="passage.canonicalText" :highlight="highlightQuery" /></p>
+              class="clean-passage-item"
+              :class="{ 'is-speaking-passage': isPassageActive(passage.id) }"
+            >
+              <button
+                type="button"
+                class="passage-inline-audio-btn"
+                :class="{ 'is-playing': isPassageSpeaking(passage.id) }"
+                :title="isPassageSpeaking(passage.id) ? '暫停朗讀本段' : '朗讀本段原文'"
+                :aria-label="`朗讀本段原文`"
+                @click="playPassage(passage, 'canonical')"
+              >
+                <span v-if="isPassageSpeaking(passage.id)">⏸</span>
+                <span v-else>🔊</span>
+              </button>
+              <p class="passage-text">
+                <ClassicalTextLookup :text="passage.canonicalText" :highlight="highlightQuery" />
+              </p>
+            </div>
           </div>
           <div v-if="work.sourceNote" class="source-note">
             {{ work.sourceNote }}
@@ -297,11 +393,48 @@ const nextChapter = computed(() => {
         <div v-if="readingMode === 'assisted'" class="assisted-mode">
           <div v-if="isVertical" class="vertical-container" style="height: 520px;">
             <div class="vertical-assisted-list">
-              <div v-for="passage in passages" :key="passage.id" :id="'passage-' + passage.id" class="vertical-passage-box">
+              <div
+                v-for="passage in passages"
+                :key="passage.id"
+                :id="'passage-' + passage.id"
+                class="vertical-passage-box"
+                :class="{ 'is-speaking-passage': isPassageActive(passage.id) }"
+              >
                 <div class="vertical-orig-wrapper">
+                  <div class="vertical-audio-trigger">
+                    <button
+                      type="button"
+                      class="vertical-audio-tag-btn"
+                      :class="{ 'is-active': isPassageActive(passage.id, 'canonical') }"
+                      :title="isPassageSpeaking(passage.id) ? '暫停朗讀本段' : '朗讀本段原文'"
+                      @click="playPassage(passage, 'canonical')"
+                    >
+                      <span v-if="isPassageSpeaking(passage.id)">⏸</span>
+                      <span v-else>🔊</span>
+                    </button>
+                  </div>
                   <p class="sentence-original classical-text-lg vertical-original-text"><ClassicalTextLookup :text="passage.canonicalText" :highlight="highlightQuery" /></p>
                 </div>
                 <div class="horizontal-explanation">
+                  <div class="assisted-audio-quick-bar">
+                    <button
+                      type="button"
+                      class="audio-mini-btn"
+                      :class="{ 'is-active': isPassageActive(passage.id, 'canonical') }"
+                      @click="playPassage(passage, 'canonical')"
+                    >
+                      🔊 原文
+                    </button>
+                    <button
+                      v-if="passageAid(passage)?.translation"
+                      type="button"
+                      class="audio-mini-btn"
+                      :class="{ 'is-active': isPassageActive(passage.id, 'vernacular') }"
+                      @click="playPassage(passage, 'vernacular')"
+                    >
+                      🎧 白話
+                    </button>
+                  </div>
                   <p class="sentence-hint"><span class="translation-label">白話</span>{{ passageAid(passage)?.translation }}</p>
                   <p class="sentence-hint"><span class="translation-label">解析</span>{{ passageAid(passage)?.analysis }}</p>
                 </div>
@@ -309,26 +442,46 @@ const nextChapter = computed(() => {
             </div>
           </div>
           <div v-else>
-            <div v-for="passage in passages" :key="passage.id" :id="'passage-' + passage.id" class="sentence-row">
+            <div
+              v-for="passage in passages"
+              :key="passage.id"
+              :id="'passage-' + passage.id"
+              class="sentence-row"
+              :class="{ 'is-speaking-passage': isPassageActive(passage.id) }"
+            >
+              <div class="passage-audio-header">
+                <div class="passage-audio-btns">
+                  <button
+                    type="button"
+                    class="passage-audio-btn"
+                    :class="{ 'is-active': isPassageActive(passage.id, 'canonical') }"
+                    :title="isPassageSpeaking(passage.id) && speechState.currentMode === 'canonical' ? '暫停朗讀' : '逐段朗讀原文'"
+                    @click="playPassage(passage, 'canonical')"
+                  >
+                    <span v-if="isPassageSpeaking(passage.id) && speechState.currentMode === 'canonical'">⏸ 誦讀中</span>
+                    <span v-else>🔊 朗讀原文</span>
+                  </button>
+                  <button
+                    v-if="passageAid(passage)?.translation"
+                    type="button"
+                    class="passage-audio-btn vernacular-btn"
+                    :class="{ 'is-active': isPassageActive(passage.id, 'vernacular') }"
+                    :title="isPassageSpeaking(passage.id) && speechState.currentMode === 'vernacular' ? '暫停朗讀' : '逐段朗讀白話'"
+                    @click="playPassage(passage, 'vernacular')"
+                  >
+                    <span v-if="isPassageSpeaking(passage.id) && speechState.currentMode === 'vernacular'">⏸ 播讀中</span>
+                    <span v-else>🎧 朗讀白話</span>
+                  </button>
+                </div>
+                <span v-if="isPassageActive(passage.id)" class="passage-playing-badge">
+                  🎵 正在逐段播音
+                </span>
+              </div>
+
               <p class="sentence-original classical-text"><ClassicalTextLookup :text="passage.canonicalText" :highlight="highlightQuery" /></p>
               
-              <!-- Passage-level Aid (Fallback) -->
-              <template v-if="!passageSentences.get(passage.id)?.some(s => s.structuredTranslation)">
-                <p class="sentence-hint"><span class="translation-label">白話文</span>{{ passageAid(passage)?.translation }}</p>
-                <p class="sentence-hint"><span class="translation-label">解析</span>{{ passageAid(passage)?.analysis }}</p>
-              </template>
-
-              <!-- Sentence-level AI Calibrated Aid -->
-              <template v-else>
-                <div v-for="sent in passageSentences.get(passage.id)" :key="sent.id" class="sentence-calibrated-aid">
-                  <template v-if="sent.structuredTranslation">
-                    <p class="sentence-hint"><span class="translation-label">白話文</span>{{ sent.structuredTranslation.translation }}</p>
-                    <p class="sentence-hint"><span class="translation-label">解析</span>{{ sent.structuredTranslation.philosophicalNote }}</p>
-                    <p class="sentence-hint" v-if="sent.structuredTranslation.wordGlossary"><span class="translation-label">字詞</span>{{ sent.structuredTranslation.wordGlossary }}</p>
-                    <p class="sentence-hint" v-if="sent.structuredTranslation.writingApplication"><span class="translation-label">修辭</span>{{ sent.structuredTranslation.writingApplication }}</p>
-                  </template>
-                </div>
-              </template>
+              <p class="sentence-hint"><span class="translation-label">白話文</span>{{ passageAid(passage)?.translation }}</p>
+              <p class="sentence-hint"><span class="translation-label">解析</span>{{ passageAid(passage)?.analysis }}</p>
             </div>
           </div>
           <div v-if="allSentences.length === 0" class="no-data">
@@ -384,6 +537,9 @@ const nextChapter = computed(() => {
       <p>請確認連結是否正確</p>
       <button class="btn btn-ghost" @click="goBack">返回典籍庫</button>
     </div>
+
+    <!-- Audio Player Floating Bar -->
+    <AudioPlayerBar />
   </div>
 </template>
 
@@ -945,5 +1101,240 @@ const nextChapter = computed(() => {
     background: rgba(230, 190, 120, 0.85);
     box-shadow: 0 0 20px rgba(230, 190, 120, 0.9);
   }
+}
+
+/* ── Reading Actions & Recitation Bar ── */
+.reading-actions-bar {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+
+.recitation-chapter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-1.5);
+  padding: var(--sp-1.5) var(--sp-3.5);
+  background: rgba(201, 169, 110, 0.12);
+  border: 1px solid var(--c-gold);
+  border-radius: var(--radius-full);
+  color: var(--c-gold-light);
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-semibold);
+  cursor: pointer;
+  transition: all var(--duration-fast) var(--ease-out);
+}
+
+.recitation-chapter-btn:hover {
+  background: var(--c-gold);
+  color: #12141a;
+  box-shadow: 0 0 12px rgba(201, 169, 110, 0.35);
+}
+
+.recitation-chapter-btn.is-playing {
+  background: var(--c-gold);
+  color: #12141a;
+  animation: pulse-glow 2s infinite ease-in-out;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 8px rgba(201, 169, 110, 0.4); }
+  50% { box-shadow: 0 0 20px rgba(201, 169, 110, 0.8); }
+}
+
+/* ── Clean Mode Audio Enhancements ── */
+.clean-passage-item {
+  position: relative;
+  margin-bottom: var(--sp-6);
+  padding: var(--sp-2) var(--sp-3);
+  border-radius: var(--radius-md);
+  transition: all var(--duration-normal) var(--ease-out);
+}
+
+.clean-passage-item:last-child {
+  margin-bottom: 0;
+}
+
+.clean-passage-item .passage-text {
+  margin-bottom: 0;
+}
+
+.passage-inline-audio-btn {
+  position: absolute;
+  left: -2.2rem;
+  top: 0.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--c-border-subtle);
+  color: var(--c-text-muted);
+  font-size: var(--fs-xs);
+  cursor: pointer;
+  opacity: 0.55;
+  transition: all var(--duration-fast);
+}
+
+.clean-passage-item:hover .passage-inline-audio-btn,
+.passage-inline-audio-btn.is-playing,
+.passage-inline-audio-btn:hover {
+  opacity: 1;
+  color: var(--c-gold);
+  background: rgba(201, 169, 110, 0.2);
+  border-color: var(--c-gold);
+  transform: scale(1.1);
+}
+
+/* ── Speaking Passage Highlight ── */
+.is-speaking-passage {
+  border-color: var(--c-gold) !important;
+  background: rgba(201, 169, 110, 0.06) !important;
+  box-shadow: 0 0 16px rgba(201, 169, 110, 0.2);
+}
+
+/* ── Assisted Mode Audio Headers ── */
+.passage-audio-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--sp-2);
+  padding-bottom: var(--sp-2);
+  border-bottom: 1px dashed rgba(201, 169, 110, 0.15);
+}
+
+.passage-audio-btns {
+  display: flex;
+  gap: var(--sp-2);
+}
+
+.passage-audio-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 10px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--c-border-accent);
+  background: rgba(0, 0, 0, 0.2);
+  color: var(--c-gold-light);
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  cursor: pointer;
+  transition: all var(--duration-fast);
+}
+
+.passage-audio-btn:hover {
+  background: var(--c-gold-glow);
+  color: var(--c-gold);
+  border-color: var(--c-gold);
+}
+
+.passage-audio-btn.is-active {
+  background: var(--c-gold);
+  color: #12141a;
+  font-weight: var(--fw-semibold);
+  border-color: var(--c-gold);
+  box-shadow: 0 0 10px rgba(201, 169, 110, 0.4);
+}
+
+.vernacular-btn {
+  color: var(--c-text-secondary);
+  border-color: var(--c-border-subtle);
+}
+
+.vernacular-btn:hover {
+  color: var(--c-text-primary);
+  border-color: var(--c-border-accent);
+}
+
+.passage-playing-badge {
+  font-size: var(--fs-xs);
+  color: var(--c-gold);
+  font-family: var(--font-sans);
+  animation: pulse-opacity 1.5s infinite;
+}
+
+@keyframes pulse-opacity {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 1; }
+}
+
+/* ── Vertical Audio Integration ── */
+.vertical-clean-block {
+  position: relative;
+  padding-bottom: var(--sp-4);
+  border-radius: var(--radius-sm);
+  transition: all var(--duration-fast);
+}
+
+.vertical-inline-audio-btn {
+  position: absolute;
+  top: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--c-border-subtle);
+  background: rgba(0, 0, 0, 0.4);
+  color: var(--c-gold);
+  font-size: 0.7rem;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.vertical-inline-audio-btn:hover, .vertical-inline-audio-btn.is-playing {
+  opacity: 1;
+  background: var(--c-gold);
+  color: #12141a;
+}
+
+.vertical-audio-trigger {
+  writing-mode: horizontal-tb;
+  margin-bottom: var(--sp-2);
+}
+
+.vertical-audio-tag-btn {
+  border: 1px solid var(--c-border-accent);
+  background: rgba(0, 0, 0, 0.3);
+  color: var(--c-gold);
+  border-radius: var(--radius-full);
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.vertical-audio-tag-btn.is-active, .vertical-audio-tag-btn:hover {
+  background: var(--c-gold);
+  color: #12141a;
+}
+
+.assisted-audio-quick-bar {
+  display: flex;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-3);
+  padding-bottom: var(--sp-2);
+  border-bottom: 1px dashed var(--c-border-subtle);
+}
+
+.audio-mini-btn {
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--c-border-accent);
+  background: rgba(0, 0, 0, 0.2);
+  color: var(--c-text-secondary);
+  font-size: var(--fs-xs);
+  cursor: pointer;
+}
+
+.audio-mini-btn:hover, .audio-mini-btn.is-active {
+  background: var(--c-gold);
+  color: #12141a;
 }
 </style>
