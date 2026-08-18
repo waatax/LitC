@@ -1,0 +1,460 @@
+const n=JSON.parse(`{
+  "work": {
+    "id": "lie-nv-zhuan",
+    "schoolId": "histories",
+    "title": "《列女傳》",
+    "genreStrategy": "parallel",
+    "sourceNote": "版本來源自通行本及校勘附記。",
+    "chapterIds": [
+      "lie-nv-zhuan_ch-1"
+    ],
+    "totalChars": 526
+  },
+  "chapters": [
+    {
+      "id": "lie-nv-zhuan_ch-1",
+      "workId": "lie-nv-zhuan",
+      "order": 1,
+      "title": "有虞二妃",
+      "difficulty": 4,
+      "estimatedMinutes": 10,
+      "passageIds": [
+        "lie-nv-zhuan_ch-1_p-1",
+        "lie-nv-zhuan_ch-1_p-2",
+        "lie-nv-zhuan_ch-1_p-3",
+        "lie-nv-zhuan_ch-1_p-4"
+      ],
+      "tags": []
+    }
+  ],
+  "passages": [
+    {
+      "id": "lie-nv-zhuan_ch-1_p-1",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "order": 1,
+      "canonicalText": "有虞二妃者，帝堯之二女也。長娥皇，次女英。舜父頑母嚚。父號瞽叟，弟曰象，敖遊於嫚，舜能諧柔之，承事瞽叟以孝。母憎舜而愛象，舜猶內治，靡有姦意。四嶽薦之於堯，堯乃妻以二女以觀厥內。二女承事舜於畎畝之中，不以天子之女故而驕盈怠嫚，猶謙謙恭儉，思盡婦道。",
+      "sentenceIds": [
+        "lie-nv-zhuan_ch-1_p-1_s-1",
+        "lie-nv-zhuan_ch-1_p-1_s-2",
+        "lie-nv-zhuan_ch-1_p-1_s-3",
+        "lie-nv-zhuan_ch-1_p-1_s-4",
+        "lie-nv-zhuan_ch-1_p-1_s-5",
+        "lie-nv-zhuan_ch-1_p-1_s-6",
+        "lie-nv-zhuan_ch-1_p-1_s-7"
+      ],
+      "sourceRefs": [
+        {
+          "label": "經文底本",
+          "edition": "dianji.fun",
+          "url": "https://ctext.org/lie-nv-zhuan/zh"
+        },
+        {
+          "label": "維基文庫《列女傳》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E5%88%97%E5%A5%B3%E5%82%B3"
+        }
+      ],
+      "readingAid": {
+        "translation": "有虞氏舜的兩位妃子，是堯帝的兩個女兒；姐姐叫娥皇，妹妹叫女英。舜的父親愚頑，母親言語奸惡；父親名叫瞽叟，弟弟名叫象。象傲慢放蕩，舜卻能和順地與他相處，又以孝道奉事瞽叟。母親憎恨舜而偏愛象，舜仍治理好家內事務，沒有邪曲加害之心。四嶽把舜推薦給堯，堯便把兩個女兒嫁給舜，以觀察他治理家庭的能力。二女在田間侍奉舜，不因自己是天子之女便驕傲自滿、懈怠傲慢，仍然謙遜恭敬、節儉自持，力求盡到當時所說的婦道。",
+        "analysis": "【敘事功能】篇首先交代娥皇、女英身分，卻以舜的家庭危機作為考驗背景。堯「妻以二女以觀厥內」，把婚姻同時當作選才試驗，二女也成為觀察舜內在德性的媒介。\\n【詞義】「頑」指愚昧不化；「嚚」指奸惡而不明理；「敖遊於嫚」形容象傲慢放縱；「諧柔」是以和順方式調和；「內治」指處理家內關係；「畎畝」即田間。\\n【人物書寫】文本肯定二女由尊就卑、共同勞作而不驕，但她們的個別性格與言語尚未展開，主要被放在「婦道」框架中。閱讀時既可看見其在逆境中的判斷與協作，也須留意漢代女教文本如何按妻職塑造理想女性。\\n【史料界限】舜、堯與二妃屬上古傳說人物，本篇是西漢以後的倫理敘事整理，不能直接當成可逐事驗證的上古實錄。"
+      }
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-2",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "order": 2,
+      "canonicalText": "瞽叟與象謀殺舜。使塗廩，舜歸告二女曰：「父母使我塗廩，我其往。」二女曰：「往哉！」舜既治廩，乃捐階，瞽叟焚廩，舜往飛出。象復與父母謀，使舜浚井。舜乃告二女，二女曰：「俞，往哉！」舜往浚井，格其出入，從掩，舜潛出。時既不能殺舜，瞽叟又速舜飲酒，醉將殺之，舜告二女，二女乃與舜藥浴汪，遂往，舜終日飲酒不醉。舜之女弟繫憐之，與二嫂諧。父母欲殺舜，舜猶不怨，怒之不已。舜往于田號泣，日呼旻天，呼父母。惟害若茲，思慕不已。不怨其弟，篤厚不怠。",
+      "sentenceIds": [
+        "lie-nv-zhuan_ch-1_p-2_s-1",
+        "lie-nv-zhuan_ch-1_p-2_s-2",
+        "lie-nv-zhuan_ch-1_p-2_s-3",
+        "lie-nv-zhuan_ch-1_p-2_s-4",
+        "lie-nv-zhuan_ch-1_p-2_s-5",
+        "lie-nv-zhuan_ch-1_p-2_s-6",
+        "lie-nv-zhuan_ch-1_p-2_s-7",
+        "lie-nv-zhuan_ch-1_p-2_s-8",
+        "lie-nv-zhuan_ch-1_p-2_s-9",
+        "lie-nv-zhuan_ch-1_p-2_s-10",
+        "lie-nv-zhuan_ch-1_p-2_s-11",
+        "lie-nv-zhuan_ch-1_p-2_s-12",
+        "lie-nv-zhuan_ch-1_p-2_s-13"
+      ],
+      "sourceRefs": [
+        {
+          "label": "經文底本",
+          "edition": "dianji.fun",
+          "url": "https://ctext.org/lie-nv-zhuan/zh"
+        },
+        {
+          "label": "維基文庫《列女傳》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E5%88%97%E5%A5%B3%E5%82%B3"
+        }
+      ],
+      "readingAid": {
+        "translation": "瞽叟和象密謀殺害舜，先叫他去塗修穀倉。舜回來告訴二女：「父母叫我去塗修穀倉，我要去嗎？」二女說：「去吧！」舜修好穀倉後，他們便撤掉梯子，瞽叟又放火燒倉；舜飛身逃了出來。象再和父母商量，叫舜挖井。舜又告訴二女，二女說：「好，去吧！」舜下去挖井，他們堵住出入口，接著從上面掩埋，舜卻從暗道潛出。\\n幾次都沒能殺死舜，瞽叟又邀舜喝酒，打算等他醉後殺害。舜把事情告訴二女，二女給他藥，又讓他以藥水沐浴；舜前去後，整天飲酒也沒有醉。舜的妹妹繫同情他，和兩位嫂嫂相處和諧。父母一心想殺舜，舜仍不怨恨；他們對舜的怒恨卻沒有停止。舜到田野號哭，天天呼喊上天，也呼喚父母。他們即使這樣加害，舜依舊思念不止；也不怨恨弟弟，始終忠厚而不懈怠。",
+        "analysis": "【情節結構】三次謀害依「焚廩—掩井—醉殺」遞進，二女每次都在舜行動前知情並提供脫險條件；現存正文把具體方法大幅省略，古本引文另有鳥工、龍工等神異服具。\\n【難詞與敘事缺口】「捐階」是撤去梯子；「格其出入，從掩」指堵住井的出入口後從上掩埋；「潛出」可理解為由旁穴暗道逃出。「速」是召請。「藥浴汪」字義與斷句不穩，本譯採給藥並藥浴的保守解，不把不確定細節說死。\\n【女性能動性】娥皇、女英不是被動陪襯：她們辨識致命風險、設計救援，並與舜妹繫形成合作。但敘事最後把焦點移回舜的孝與不怨，使救援智慧受「助夫成德」框架收束。\\n【倫理評議】文本把舜面對持續殺害仍不怨視為篤厚典範；現代閱讀必須區分理解古代孝道敘事與鼓勵受害者留在暴力環境。面對家庭暴力，安全、求援與法律保護應優先，不能用本段要求受害者忍受。"
+      }
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-3",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "order": 3,
+      "canonicalText": "既納於百揆，賓於四門，選於林木，入於大麓，堯試之百方，每事常謀於二女。舜既嗣位，升為天子，娥皇為後，女英為妃。封象於有庳，事瞽叟猶若初焉。天下稱二妃聰明貞仁。舜陟方，死於蒼梧，號曰重華。二妃死於江湘之間，俗謂之湘君。君子曰：「二妃德純而行篤。《詩》雲：「不顯惟德，百辟其刑之。」此之謂也。",
+      "sentenceIds": [
+        "lie-nv-zhuan_ch-1_p-3_s-1",
+        "lie-nv-zhuan_ch-1_p-3_s-2",
+        "lie-nv-zhuan_ch-1_p-3_s-3",
+        "lie-nv-zhuan_ch-1_p-3_s-4",
+        "lie-nv-zhuan_ch-1_p-3_s-5",
+        "lie-nv-zhuan_ch-1_p-3_s-6",
+        "lie-nv-zhuan_ch-1_p-3_s-7",
+        "lie-nv-zhuan_ch-1_p-3_s-8",
+        "lie-nv-zhuan_ch-1_p-3_s-9"
+      ],
+      "sourceRefs": [
+        {
+          "label": "經文底本",
+          "edition": "dianji.fun",
+          "url": "https://ctext.org/lie-nv-zhuan/zh"
+        },
+        {
+          "label": "維基文庫《列女傳》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E5%88%97%E5%A5%B3%E5%82%B3"
+        }
+      ],
+      "readingAid": {
+        "translation": "後來舜被任命統理百官，在四門接待各方賓客，又在林木山野與大山腳下接受考驗；堯用各種方式考察他，而舜遇事常和二女商量。舜繼承帝位、升為天子後，娥皇成為王后，女英成為妃。舜把象封在有庳，奉事瞽叟仍和從前一樣。天下人都稱讚二妃聰慧、貞正而仁愛。舜巡行四方，死在蒼梧，號稱重華；二妃死於長江、湘水之間，民間稱她們為湘君。君子評論說：「二妃德性純正，行為篤實。《詩經》說：『最顯著的正是德行，眾諸侯都會取法。』說的就是這件事。」",
+        "analysis": "【主旨】本段由舜受堯試用寫到即位、南巡與二妃身後傳說，並以《詩》句把二妃定位為可供諸侯取法的德行典型。\\n【職官與地名】「百揆」指總理百官政務；「賓於四門」是接待四方來賓；「大麓」是大山腳下；「有庳」為象的封地；「陟方」多解巡行四方；蒼梧在南方傳說地理中與舜死相連。\\n【二妃角色】「每事常謀於二女」明言舜在決策中諮詢她們，提供了超出家內服從的政治智慧形象；但後文仍以王后、妃位階和貞仁德目概括，沒有保存其具體建言。\\n【神話與接受史】二妃死於江湘、成為湘君，把人物傳記接到地方神祇與湘水傳說。這是文化記憶的形成，不宜與可考死亡紀錄混為一談。原資料「《》雲」是書名標記脫落，已依中哲原篇與維基文庫補為「《詩》雲」。"
+      }
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-4",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "order": 4,
+      "canonicalText": "頌曰：元始二妃，帝堯之女，嬪列有虞，承舜於下，以尊事卑，終能勞苦，瞽叟和寧，卒享福祜。",
+      "sentenceIds": [
+        "lie-nv-zhuan_ch-1_p-4_s-1"
+      ],
+      "sourceRefs": [
+        {
+          "label": "經文底本",
+          "edition": "dianji.fun",
+          "url": "https://ctext.org/lie-nv-zhuan/zh"
+        },
+        {
+          "label": "維基文庫《列女傳》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E5%88%97%E5%A5%B3%E5%82%B3"
+        }
+      ],
+      "readingAid": {
+        "translation": "頌辭說：最早的兩位賢妃，是堯帝的女兒；一同嫁到有虞氏，處在下位輔助舜。她們以尊貴身分侍奉身分較低的夫家，始終能承受勞苦，終使瞽叟和順安寧，最後享有福祐。",
+        "analysis": "【文體】「頌」以八個短句濃縮前文，是《列女傳》篇末的評價性韻語，不再重述焚廩、掩井細節，而選取身分下降、勤勞與家庭和寧作為核心。\\n【詞義】「嬪列有虞」指二女同列嫁入有虞；「承舜於下」指居下位輔佐、順承舜；「以尊事卑」突出天子女下嫁田間之人的身分反差；「福祜」即福祐。\\n【因果與偏向】頌辭把瞽叟終能和寧歸功於二妃勞苦，呼應母儀篇的教化理想；但它同時淡化了瞽叟與象的主動暴力，把修復責任放在受害一方及其妻子身上。\\n【現代閱讀】可肯定二妃的合作、韌性與實際救援，不必把「以尊事卑」或無限承受勞苦視為今日婚姻中的單向義務。"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "lie-nv-zhuan_ch-1_p-1_s-1",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-1",
+      "order": 1,
+      "canonicalText": "有虞二妃者，帝堯之二女也。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-1_s-2",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-1",
+      "order": 2,
+      "canonicalText": "長娥皇，次女英。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-1_s-3",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-1",
+      "order": 3,
+      "canonicalText": "舜父頑母嚚。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-1_s-4",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-1",
+      "order": 4,
+      "canonicalText": "父號瞽叟，弟曰象，敖遊於嫚，舜能諧柔之，承事瞽叟以孝。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-1_s-5",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-1",
+      "order": 5,
+      "canonicalText": "母憎舜而愛象，舜猶內治，靡有姦意。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-1_s-6",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-1",
+      "order": 6,
+      "canonicalText": "四嶽薦之於堯，堯乃妻以二女以觀厥內。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-1_s-7",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-1",
+      "order": 7,
+      "canonicalText": "二女承事舜於畎畝之中，不以天子之女故而驕盈怠嫚，猶謙謙恭儉，思盡婦道。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-2_s-1",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-2",
+      "order": 1,
+      "canonicalText": "瞽叟與象謀殺舜。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-2_s-2",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-2",
+      "order": 2,
+      "canonicalText": "使塗廩，舜歸告二女曰：「父母使我塗廩，我其往。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-2_s-3",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-2",
+      "order": 3,
+      "canonicalText": "」二女曰：「往哉！",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-2_s-4",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-2",
+      "order": 4,
+      "canonicalText": "」舜既治廩，乃捐階，瞽叟焚廩，舜往飛出。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-2_s-5",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-2",
+      "order": 5,
+      "canonicalText": "象復與父母謀，使舜浚井。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-2_s-6",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-2",
+      "order": 6,
+      "canonicalText": "舜乃告二女，二女曰：「俞，往哉！",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-2_s-7",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-2",
+      "order": 7,
+      "canonicalText": "」舜往浚井，格其出入，從掩，舜潛出。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-2_s-8",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-2",
+      "order": 8,
+      "canonicalText": "時既不能殺舜，瞽叟又速舜飲酒，醉將殺之，舜告二女，二女乃與舜藥浴汪，遂往，舜終日飲酒不醉。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-2_s-9",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-2",
+      "order": 9,
+      "canonicalText": "舜之女弟繫憐之，與二嫂諧。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-2_s-10",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-2",
+      "order": 10,
+      "canonicalText": "父母欲殺舜，舜猶不怨，怒之不已。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-2_s-11",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-2",
+      "order": 11,
+      "canonicalText": "舜往于田號泣，日呼旻天，呼父母。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-2_s-12",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-2",
+      "order": 12,
+      "canonicalText": "惟害若茲，思慕不已。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-2_s-13",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-2",
+      "order": 13,
+      "canonicalText": "不怨其弟，篤厚不怠。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-3_s-1",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-3",
+      "order": 1,
+      "canonicalText": "既納於百揆，賓於四門，選於林木，入於大麓，堯試之百方，每事常謀於二女。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-3_s-2",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-3",
+      "order": 2,
+      "canonicalText": "舜既嗣位，升為天子，娥皇為後，女英為妃。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-3_s-3",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-3",
+      "order": 3,
+      "canonicalText": "封象於有庳，事瞽叟猶若初焉。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-3_s-4",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-3",
+      "order": 4,
+      "canonicalText": "天下稱二妃聰明貞仁。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-3_s-5",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-3",
+      "order": 5,
+      "canonicalText": "舜陟方，死於蒼梧，號曰重華。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-3_s-6",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-3",
+      "order": 6,
+      "canonicalText": "二妃死於江湘之間，俗謂之湘君。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-3_s-7",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-3",
+      "order": 7,
+      "canonicalText": "君子曰：「二妃德純而行篤。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-3_s-8",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-3",
+      "order": 8,
+      "canonicalText": "《詩》雲：「不顯惟德，百辟其刑之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-3_s-9",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-3",
+      "order": 9,
+      "canonicalText": "」此之謂也。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "lie-nv-zhuan_ch-1_p-4_s-1",
+      "workId": "lie-nv-zhuan",
+      "chapterId": "lie-nv-zhuan_ch-1",
+      "passageId": "lie-nv-zhuan_ch-1_p-4",
+      "order": 1,
+      "canonicalText": "頌曰：元始二妃，帝堯之女，嬪列有虞，承舜於下，以尊事卑，終能勞苦，瞽叟和寧，卒享福祜。",
+      "chunks": [],
+      "tags": []
+    }
+  ]
+}`);export{n as default};

@@ -1,0 +1,9238 @@
+const n=JSON.parse(`{
+  "work": {
+    "id": "dao-de-jing",
+    "schoolId": "daoism",
+    "title": "《道德經》",
+    "subtitle": "老子",
+    "genreStrategy": "rhythmic",
+    "sourceNote": "版本來源自通行本（王弼本）及校勘附記。",
+    "chapterIds": [
+      "dao-de-jing_ch-1",
+      "dao-de-jing_ch-2",
+      "dao-de-jing_ch-3",
+      "dao-de-jing_ch-4",
+      "dao-de-jing_ch-5",
+      "dao-de-jing_ch-6",
+      "dao-de-jing_ch-7",
+      "dao-de-jing_ch-8",
+      "dao-de-jing_ch-9",
+      "dao-de-jing_ch-10",
+      "dao-de-jing_ch-11",
+      "dao-de-jing_ch-12",
+      "dao-de-jing_ch-13",
+      "dao-de-jing_ch-14",
+      "dao-de-jing_ch-15",
+      "dao-de-jing_ch-16",
+      "dao-de-jing_ch-17",
+      "dao-de-jing_ch-18",
+      "dao-de-jing_ch-19",
+      "dao-de-jing_ch-20",
+      "dao-de-jing_ch-21",
+      "dao-de-jing_ch-22",
+      "dao-de-jing_ch-23",
+      "dao-de-jing_ch-24",
+      "dao-de-jing_ch-25",
+      "dao-de-jing_ch-26",
+      "dao-de-jing_ch-27",
+      "dao-de-jing_ch-28",
+      "dao-de-jing_ch-29",
+      "dao-de-jing_ch-30",
+      "dao-de-jing_ch-31",
+      "dao-de-jing_ch-32",
+      "dao-de-jing_ch-33",
+      "dao-de-jing_ch-34",
+      "dao-de-jing_ch-35",
+      "dao-de-jing_ch-36",
+      "dao-de-jing_ch-37",
+      "dao-de-jing_ch-38",
+      "dao-de-jing_ch-39",
+      "dao-de-jing_ch-40",
+      "dao-de-jing_ch-41",
+      "dao-de-jing_ch-42",
+      "dao-de-jing_ch-43",
+      "dao-de-jing_ch-44",
+      "dao-de-jing_ch-45",
+      "dao-de-jing_ch-46",
+      "dao-de-jing_ch-47",
+      "dao-de-jing_ch-48",
+      "dao-de-jing_ch-49",
+      "dao-de-jing_ch-50",
+      "dao-de-jing_ch-51",
+      "dao-de-jing_ch-52",
+      "dao-de-jing_ch-53",
+      "dao-de-jing_ch-54",
+      "dao-de-jing_ch-55",
+      "dao-de-jing_ch-56",
+      "dao-de-jing_ch-57",
+      "dao-de-jing_ch-58",
+      "dao-de-jing_ch-59",
+      "dao-de-jing_ch-60",
+      "dao-de-jing_ch-61",
+      "dao-de-jing_ch-62",
+      "dao-de-jing_ch-63",
+      "dao-de-jing_ch-64",
+      "dao-de-jing_ch-65",
+      "dao-de-jing_ch-66",
+      "dao-de-jing_ch-67",
+      "dao-de-jing_ch-68",
+      "dao-de-jing_ch-69",
+      "dao-de-jing_ch-70",
+      "dao-de-jing_ch-71",
+      "dao-de-jing_ch-72",
+      "dao-de-jing_ch-73",
+      "dao-de-jing_ch-74",
+      "dao-de-jing_ch-75",
+      "dao-de-jing_ch-76",
+      "dao-de-jing_ch-77",
+      "dao-de-jing_ch-78",
+      "dao-de-jing_ch-79",
+      "dao-de-jing_ch-80",
+      "dao-de-jing_ch-81"
+    ],
+    "totalChars": 5285
+  },
+  "chapters": [
+    {
+      "id": "dao-de-jing_ch-1",
+      "workId": "dao-de-jing",
+      "order": 1,
+      "title": "第1段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-1_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-2",
+      "workId": "dao-de-jing",
+      "order": 2,
+      "title": "第2段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-2_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-3",
+      "workId": "dao-de-jing",
+      "order": 3,
+      "title": "第3段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-3_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-4",
+      "workId": "dao-de-jing",
+      "order": 4,
+      "title": "第4段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-4_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-5",
+      "workId": "dao-de-jing",
+      "order": 5,
+      "title": "第5段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-5_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-6",
+      "workId": "dao-de-jing",
+      "order": 6,
+      "title": "第6段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-6_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-7",
+      "workId": "dao-de-jing",
+      "order": 7,
+      "title": "第7段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-7_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-8",
+      "workId": "dao-de-jing",
+      "order": 8,
+      "title": "第8段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-8_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-9",
+      "workId": "dao-de-jing",
+      "order": 9,
+      "title": "第9段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-9_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-10",
+      "workId": "dao-de-jing",
+      "order": 10,
+      "title": "第10段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-10_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-11",
+      "workId": "dao-de-jing",
+      "order": 11,
+      "title": "第11段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-11_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-12",
+      "workId": "dao-de-jing",
+      "order": 12,
+      "title": "第12段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-12_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-13",
+      "workId": "dao-de-jing",
+      "order": 13,
+      "title": "第13段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-13_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-14",
+      "workId": "dao-de-jing",
+      "order": 14,
+      "title": "第14段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-14_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-15",
+      "workId": "dao-de-jing",
+      "order": 15,
+      "title": "第15段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-15_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-16",
+      "workId": "dao-de-jing",
+      "order": 16,
+      "title": "第16段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-16_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-17",
+      "workId": "dao-de-jing",
+      "order": 17,
+      "title": "第17段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-17_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-18",
+      "workId": "dao-de-jing",
+      "order": 18,
+      "title": "第18段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-18_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-19",
+      "workId": "dao-de-jing",
+      "order": 19,
+      "title": "第19段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-19_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-20",
+      "workId": "dao-de-jing",
+      "order": 20,
+      "title": "第20段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-20_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-21",
+      "workId": "dao-de-jing",
+      "order": 21,
+      "title": "第21段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-21_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-22",
+      "workId": "dao-de-jing",
+      "order": 22,
+      "title": "第22段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-22_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-23",
+      "workId": "dao-de-jing",
+      "order": 23,
+      "title": "第23段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-23_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-24",
+      "workId": "dao-de-jing",
+      "order": 24,
+      "title": "第24段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-24_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-25",
+      "workId": "dao-de-jing",
+      "order": 25,
+      "title": "第25段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-25_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-26",
+      "workId": "dao-de-jing",
+      "order": 26,
+      "title": "第26段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-26_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-27",
+      "workId": "dao-de-jing",
+      "order": 27,
+      "title": "第27段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-27_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-28",
+      "workId": "dao-de-jing",
+      "order": 28,
+      "title": "第28段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-28_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-29",
+      "workId": "dao-de-jing",
+      "order": 29,
+      "title": "第29段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-29_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-30",
+      "workId": "dao-de-jing",
+      "order": 30,
+      "title": "第30段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-30_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-31",
+      "workId": "dao-de-jing",
+      "order": 31,
+      "title": "第31段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-31_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-32",
+      "workId": "dao-de-jing",
+      "order": 32,
+      "title": "第32段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-32_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-33",
+      "workId": "dao-de-jing",
+      "order": 33,
+      "title": "第33段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-33_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-34",
+      "workId": "dao-de-jing",
+      "order": 34,
+      "title": "第34段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-34_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-35",
+      "workId": "dao-de-jing",
+      "order": 35,
+      "title": "第35段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-35_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-36",
+      "workId": "dao-de-jing",
+      "order": 36,
+      "title": "第36段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-36_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-37",
+      "workId": "dao-de-jing",
+      "order": 37,
+      "title": "第37段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-37_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-38",
+      "workId": "dao-de-jing",
+      "order": 38,
+      "title": "第38段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-38_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39",
+      "workId": "dao-de-jing",
+      "order": 39,
+      "title": "第39段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-39_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-40",
+      "workId": "dao-de-jing",
+      "order": 40,
+      "title": "第40段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-40_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41",
+      "workId": "dao-de-jing",
+      "order": 41,
+      "title": "第41段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-41_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-42",
+      "workId": "dao-de-jing",
+      "order": 42,
+      "title": "第42段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-42_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-43",
+      "workId": "dao-de-jing",
+      "order": 43,
+      "title": "第43段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-43_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-44",
+      "workId": "dao-de-jing",
+      "order": 44,
+      "title": "第44段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-44_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-45",
+      "workId": "dao-de-jing",
+      "order": 45,
+      "title": "第45段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-45_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-46",
+      "workId": "dao-de-jing",
+      "order": 46,
+      "title": "第46段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-46_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-47",
+      "workId": "dao-de-jing",
+      "order": 47,
+      "title": "第47段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-47_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-48",
+      "workId": "dao-de-jing",
+      "order": 48,
+      "title": "第48段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-48_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-49",
+      "workId": "dao-de-jing",
+      "order": 49,
+      "title": "第49段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-49_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-50",
+      "workId": "dao-de-jing",
+      "order": 50,
+      "title": "第50段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-50_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-51",
+      "workId": "dao-de-jing",
+      "order": 51,
+      "title": "第51段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-51_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-52",
+      "workId": "dao-de-jing",
+      "order": 52,
+      "title": "第52段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-52_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-53",
+      "workId": "dao-de-jing",
+      "order": 53,
+      "title": "第53段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-53_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-54",
+      "workId": "dao-de-jing",
+      "order": 54,
+      "title": "第54段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-54_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-55",
+      "workId": "dao-de-jing",
+      "order": 55,
+      "title": "第55段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-55_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-56",
+      "workId": "dao-de-jing",
+      "order": 56,
+      "title": "第56段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-56_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-57",
+      "workId": "dao-de-jing",
+      "order": 57,
+      "title": "第57段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-57_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-58",
+      "workId": "dao-de-jing",
+      "order": 58,
+      "title": "第58段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-58_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-59",
+      "workId": "dao-de-jing",
+      "order": 59,
+      "title": "第59段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-59_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-60",
+      "workId": "dao-de-jing",
+      "order": 60,
+      "title": "第60段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-60_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-61",
+      "workId": "dao-de-jing",
+      "order": 61,
+      "title": "第61段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-61_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-62",
+      "workId": "dao-de-jing",
+      "order": 62,
+      "title": "第62段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-62_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-63",
+      "workId": "dao-de-jing",
+      "order": 63,
+      "title": "第63段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-63_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-64",
+      "workId": "dao-de-jing",
+      "order": 64,
+      "title": "第64段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-64_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-65",
+      "workId": "dao-de-jing",
+      "order": 65,
+      "title": "第65段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-65_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-66",
+      "workId": "dao-de-jing",
+      "order": 66,
+      "title": "第66段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-66_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-67",
+      "workId": "dao-de-jing",
+      "order": 67,
+      "title": "第67段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-67_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-68",
+      "workId": "dao-de-jing",
+      "order": 68,
+      "title": "第68段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-68_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-69",
+      "workId": "dao-de-jing",
+      "order": 69,
+      "title": "第69段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-69_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-70",
+      "workId": "dao-de-jing",
+      "order": 70,
+      "title": "第70段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-70_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-71",
+      "workId": "dao-de-jing",
+      "order": 71,
+      "title": "第71段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-71_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-72",
+      "workId": "dao-de-jing",
+      "order": 72,
+      "title": "第72段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-72_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-73",
+      "workId": "dao-de-jing",
+      "order": 73,
+      "title": "第73段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-73_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-74",
+      "workId": "dao-de-jing",
+      "order": 74,
+      "title": "第74段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-74_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-75",
+      "workId": "dao-de-jing",
+      "order": 75,
+      "title": "第75段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-75_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-76",
+      "workId": "dao-de-jing",
+      "order": 76,
+      "title": "第76段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-76_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-77",
+      "workId": "dao-de-jing",
+      "order": 77,
+      "title": "第77段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-77_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-78",
+      "workId": "dao-de-jing",
+      "order": 78,
+      "title": "第78段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-78_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-79",
+      "workId": "dao-de-jing",
+      "order": 79,
+      "title": "第79段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-79_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-80",
+      "workId": "dao-de-jing",
+      "order": 80,
+      "title": "第80段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-80_p-1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-81",
+      "workId": "dao-de-jing",
+      "order": 81,
+      "title": "第81段",
+      "difficulty": 2,
+      "estimatedMinutes": 1,
+      "passageIds": [
+        "dao-de-jing_ch-81_p-1"
+      ],
+      "tags": []
+    }
+  ],
+  "passages": [
+    {
+      "id": "dao-de-jing_ch-1_p-1",
+      "chapterId": "dao-de-jing_ch-1",
+      "order": 1,
+      "canonicalText": "道可道，非常道；名可名，非常名。無名，天地之始；有名，萬物之母。故常無欲，以觀其妙；常有欲，以觀其徼。此兩者，同出而異名，同謂之玄。玄之又玄，眾妙之門。",
+      "sentenceIds": [
+        "dao-de-jing_ch-1_p-1_s-1",
+        "dao-de-jing_ch-1_p-1_s-2",
+        "dao-de-jing_ch-1_p-1_s-3",
+        "dao-de-jing_ch-1_p-1_s-4",
+        "dao-de-jing_ch-1_p-1_s-5",
+        "dao-de-jing_ch-1_p-1_s-6",
+        "dao-de-jing_ch-1_p-1_s-7",
+        "dao-de-jing_ch-1_p-1_s-8"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "可以用言語表達、可以說得出來的道，就不是永恆不變的本然之道；可以用名詞概念去稱呼、去定義的名，就不是永恆不變的真實之名。無名，是天地形成之前的原始狀態，是宇宙的開端；有名，是萬物孕育生長的根源，是萬物的母體。因此，我們要經常保持在沒有世俗私欲的清靜狀態中，去觀察體驗道那隱微奧妙的本體；同時也要在順應萬物生化之慾的狀態中，去觀察道那顯露在外的邊際與運作規律。無與有這兩者，雖然名稱不同，但它們都是從同一個根源（道）所生發出來的，它們同樣可以被稱為深奧玄妙。這種深奧再深奧、玄妙再玄妙的境界，正是通往宇宙間一切奧妙真理的總門戶。",
+        "analysis": "【訓詁與名物】「道」是老子哲學的核心，指宇宙的本源與萬物運行的最高規律。「可道」的「道」作動詞，意為言說、表述。「常道」的「常」即永恆、不變。「名」指事物的名稱與概念。「無名」指宇宙形成前不可名狀的原始狀態。「有名」指天地形成後，萬物開始具備形態與名稱的狀態。「欲」在此多解為私欲或意向；「常無欲」即保持無求無為的心境。「妙」指道之幽微深遠的本體奧妙。「徼」（音叫）指邊際、端倪，引申為事物顯著的表象與運作規律。「同出」指「有」與「無」皆源於道。「玄」意為深黑色，比喻深奧莫測。\\n【章法與結構】本段為《道德經》的開篇，結構宏大且極具邏輯性。首句以否定句式「...非...」破題，確立了「道」不可言說、超越經驗的特性。接著以「無名」與「有名」對舉，闡述宇宙的生成過程；再以「常無欲」與「常有欲」對應，提出認識「道」的兩種方法（觀妙與觀徼）。最後以「同出異名」進行統攝，將一切歸結於「玄」，並以「眾妙之門」作結，層層遞進，氣象萬千。\\n【思想與義理】此段文字是老子形上學與認識論的總綱。老子首先打破了人類對語言和概念的迷信，指出語言無法完全涵蓋宇宙的終極真理（常道）。接著，他提出了「無」與「有」的辯證關係：「無」是本體，「有」是作用，兩者是「道」的不同顯現。在認識論上，他主張修道者必須兼具「無欲」（超越的直覺體悟）與「有欲」（對現象界的觀察）兩種視角，才能完整把握道的全貌。這種超越二元對立、直探宇宙本源的智慧，奠定了中國道家哲學的深厚基礎。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-2_p-1",
+      "chapterId": "dao-de-jing_ch-2",
+      "order": 1,
+      "canonicalText": "天下皆知美之為美，斯惡已；皆知善之為善，斯不善已。故有無相生，難易相成，長短相較，高下相傾，音聲相和，前後相隨。是以聖人處無為之事，行不言之教；萬物作焉而不辭，生而不有，為而不恃，功成而弗居。夫唯弗居，是以不去。",
+      "sentenceIds": [
+        "dao-de-jing_ch-2_p-1_s-1",
+        "dao-de-jing_ch-2_p-1_s-2",
+        "dao-de-jing_ch-2_p-1_s-3",
+        "dao-de-jing_ch-2_p-1_s-4",
+        "dao-de-jing_ch-2_p-1_s-5",
+        "dao-de-jing_ch-2_p-1_s-6"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "天下人都知道什麼是美好的，並且去刻意追求，這時醜惡的觀念與現象也就隨之產生了；天下人都知道什麼是善良的，並且去標榜它，這時偽善與不善的行為也就隨之出現了。因此，有與無是相互依存而產生的，難與易是相互對立而促成的，長與短是相互比較才顯現的，高與低是相互對比而形成的，音與聲是相互應和才和諧的，前與後是相互跟隨才存在的。所以，有道明理的聖人總是以無為的態度來處理世間事務，實行不言的潛移默化的教導；任憑萬物自然生長繁衍而不去幹預推辭，孕育了萬物卻不將其佔為己有，有所施為卻不恃才傲物、自以為是，成就了偉大的功業卻不居功自傲。正因為他不居功自傲，所以他的功績與德行才會永遠存在、不會磨滅。",
+        "analysis": "【訓詁與名物】「美之為美」與「善之為善」指人們對美與善的刻意定義與追求。「斯惡已」與「斯不善已」的「斯」是就、於是；「已」同「矣」，語氣詞。「有無相生」等六句，皆在闡述矛盾對立面的相互依存關係。「音聲」在古代有別，單發為聲，有節律為音。「無為」並非無所作為，而是指順應自然、不妄加人為幹預。「不言之教」指以身作則，而非僅靠言辭說教。「作」指生長、活動。「辭」指幹預、推辭。「生而不有」等四句，描繪了聖人（得道者）如水般利萬物而不爭的品德。「居」指佔有、自居。「不去」指功德永存、不會消失。\\n【章法與結構】本段採取「提出現象—分析原理—指出對策」的嚴謹邏輯結構。首先指出世人刻意追求美善反而導致醜惡的社會現象；接著連用六個「相...」的排比句，論證了宇宙間萬事萬物皆由相對立的兩面相輔相成的辯證原理；最後，基於這一原理，引出「聖人」的做法——「無為」與「不言」，並連用四個「...而不...」的句式，讚頌聖人無私奉獻的高尚境界，結尾以「夫唯弗居，是以不去」畫龍點睛，哲理深邃。\\n【思想與義理】本章集中體現了老子的樸素辯證法思想與「無為而治」的政治倫理觀。老子敏銳地指出，世間的一切概念（美醜、善惡、長短等）都是相對而生的，過分強調與執著於其中一面，必然會激化矛盾，走向反面。因此，真正的聖人懂得順應自然的規律，不人為地強加標準（無為），不刻意炫耀說教（不言）。他們以博大的胸懷孕育萬物、成就事業，卻不佔有、不自恃、不居功。正是這種「無私」與「退讓」的智慧，反而成就了其永恆的偉大，完美詮釋了道家「柔弱勝剛強」的至高哲理。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-3_p-1",
+      "chapterId": "dao-de-jing_ch-3",
+      "order": 1,
+      "canonicalText": "不尚賢，使民不爭；不貴難得之貨，使民不為盜；不見可欲，使心不亂。是以聖人之治，虛其心，實其腹，弱其志，強其骨。常使民無知無欲。使夫知者不敢為也。為無為，則無不治。",
+      "sentenceIds": [
+        "dao-de-jing_ch-3_p-1_s-1",
+        "dao-de-jing_ch-3_p-1_s-2",
+        "dao-de-jing_ch-3_p-1_s-3",
+        "dao-de-jing_ch-3_p-1_s-4",
+        "dao-de-jing_ch-3_p-1_s-5",
+        "dao-de-jing_ch-3_p-1_s-6",
+        "dao-de-jing_ch-3_p-1_s-7"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "不推崇標榜賢才，就能使人民不互相爭奪名位；不看重稀有難得的財物，就能使人民不去做盜賊；不顯露能夠引起貪欲的事物，就能使人民的內心不被擾亂。因此，聖人治理天下的原則是：排空人民心中的雜念與欲望，填飽人民的肚子；削弱人民爭強好勝的心志，強健人民的體魄。要經常使人民保持沒有巧詐心智、沒有貪婪欲望的狀態。使得那些自作聰明的人也不敢妄作非為。只要依循無為的原則去處理政事，就沒有什麼是治理不好的。",
+        "analysis": "【訓詁與名物】「尚」指推崇、標榜；「賢」指才能出眾的人或虛名。「見」同「現」，顯露。「虛其心」指消除心中的成見與貪欲；「實其腹」指保障人民溫飽。「無知無欲」中的「知」音智，指巧詐的智巧與心機；「欲」指無厭的貪欲。「為無為」指以不妄為、順應自然的方式來作為。\\n【章法與結構】本段採層層遞進的結構。首三句以「不...使...」的排比句型，指出亂世的根源在於對名利的標榜；接著引出「是以聖人之治」，提出「虛心、實腹、弱志、強骨」四字對稱的治國方針；最後以「常使...使夫...」總結，導出「為無為，則無不治」的核心結論，邏輯嚴密，氣勢連貫。\\n【思想與義理】此章是老子「無為而治」政治哲學的具體展現。老子認為，儒家所提倡的「尚賢」與世俗對財物的追逐，正是引發社會動亂與人性墮落的根源。因此，理想的統治者應當去除外在的誘惑，回歸人類生存的基本需求（實腹、強骨），摒棄巧詐與貪婪（虛心、弱志）。這並非愚民政策，而是要引導人民回歸質樸自然的本性，從而達到天下大治的境界。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-4_p-1",
+      "chapterId": "dao-de-jing_ch-4",
+      "order": 1,
+      "canonicalText": "道沖，而用之或不盈。淵兮，似萬物之宗；挫其銳，解其紛，和其光，同其塵。湛兮，似或存。吾不知誰之子，象帝之先。",
+      "sentenceIds": [
+        "dao-de-jing_ch-4_p-1_s-1",
+        "dao-de-jing_ch-4_p-1_s-2",
+        "dao-de-jing_ch-4_p-1_s-3",
+        "dao-de-jing_ch-4_p-1_s-4",
+        "dao-de-jing_ch-4_p-1_s-5"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "道是虛空無形的，但它的作用卻無窮無盡，永遠不會滿溢窮盡。它是多麼深遠啊，就好像是天地萬物的根源；它收斂了所有的鋒芒，解開了所有的糾紛，柔和了耀眼的光芒，混同於世俗的塵埃之中。它是多麼深沉清澈啊，好像若有若無地真實存在著。我不知道它是從哪裡產生出來的，它似乎在天帝出現之前就已經存在了。",
+        "analysis": "【訓詁與名物】「沖」指虛空，引申為謙虛；「盈」指充滿、窮盡。「淵」形容深遠無底。「宗」指宗主、根源。「銳」指鋒芒；「紛」指糾紛、紛擾；「和其光，同其塵」指不露鋒芒，與世間萬物融為一體，即「和光同塵」的由來。「湛」指水深且清，形容道的深沉寂靜。「帝」指天帝、造物主。\\n【章法與結構】本章以讚嘆的語氣描寫「道」的體與用。先言其體之「沖」與用之「不盈」，接著以「淵兮」讚嘆其為萬物之宗。中間四句「挫其銳...同其塵」以整齊的排比句，具體描繪「道」圓融無礙的特性。最後以「湛兮」收束，並透過「不知誰之子」與「象帝之先」的神祕化表達，凸顯道的先在性與超越性。\\n【思想與義理】此章深入探討了「道」的本質與作用。老子認為道雖然是虛空的，卻蘊含著無盡的創造力（不盈）。道不具有任何具體的形象或鋒芒，它能包容一切矛盾，化解一切紛爭（和光同塵），這是一種極高明的中庸與柔弱哲學。同時，老子將「道」置於傳統人格神「天帝」之上，確立了「道」作為宇宙最高本體與最初本源的哲學地位。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-5_p-1",
+      "chapterId": "dao-de-jing_ch-5",
+      "order": 1,
+      "canonicalText": "天地不仁，以萬物為芻狗；聖人不仁，以百姓為芻狗。天地之間，其猶橐籥乎？虛而不屈，動而愈出。多言數窮，不如守中。",
+      "sentenceIds": [
+        "dao-de-jing_ch-5_p-1_s-1",
+        "dao-de-jing_ch-5_p-1_s-2",
+        "dao-de-jing_ch-5_p-1_s-3",
+        "dao-de-jing_ch-5_p-1_s-4",
+        "dao-de-jing_ch-5_p-1_s-5"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "天地沒有人類所謂的仁愛之心，而是順應自然，把萬物當作祭祀用的草扎狗一樣，任其自然生滅；聖人也沒有人類所謂的仁愛之心，同樣順應自然，把百姓當作祭祀用的草扎狗一樣，任其自我發展。天地之間，不就像是一個巨大的風箱嗎？它內部空虛卻不會窮竭，越是鼓動它，產生的風量就越多。政令繁多、議論不休反而加速敗亡，倒不如保持虛靜、固守中道。",
+        "analysis": "【訓詁與名物】「不仁」並非指殘暴，而是指不偏私、不干涉，無世俗的仁慈之情。「芻狗」指古代祭祀時用草紮成的狗，祭祀時極受重視，祭祀後即被丟棄，比喻任其自然、無所偏愛。「橐籥」指古代冶煉用的風箱，橐為風袋，籥為送風管。「屈」指窮竭、竭盡。「數窮」的「數」音朔，指屢次、頻繁；窮指困窘、走投無路。「守中」指固守虛靜無為的中道。\\n【章法與結構】本章分為三層。首層以「天地」與「聖人」相對舉，破除世俗對「仁」的迷思；次層以「橐籥」為喻，形容天地間虛空而生生不息的運作機制；末層則由自然天道推衍至人事，得出「多言數窮，不如守中」的實踐原則。說理透徹，比喻生動。\\n【思想與義理】這是老子自然無為哲學的經典表述。老子強烈反對儒家以「仁義」來幹預自然與社會的運作。他認為，真正的天道與聖人之治，應該是超脫情感偏私的「不仁」，讓萬物與百姓依照自身的規律自生自滅。天地之所以能生生不息，正因為其「虛」（如風箱），因此治國者也不應過度幹預（多言），而應持守虛靜無為（守中），方能長久。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-6_p-1",
+      "chapterId": "dao-de-jing_ch-6",
+      "order": 1,
+      "canonicalText": "穀神不死，是謂玄牝。玄牝之門，是謂天地根。綿綿若存，用之不勤。",
+      "sentenceIds": [
+        "dao-de-jing_ch-6_p-1_s-1",
+        "dao-de-jing_ch-6_p-1_s-2",
+        "dao-de-jing_ch-6_p-1_s-3"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "孕育萬物的虛空之道是永恆不滅的，這就叫做神妙的母性本源。這神妙母性本源的門戶，就被稱作天地萬物生成的根源。它連綿不絕地運行著，好像若有若無地存在，但它的作用卻永遠無窮無盡，不會有枯竭的時候。",
+        "analysis": "【訓詁與名物】「穀」指山谷，比喻虛空；「神」指神妙莫測的造化功能。「不死」指永恆長存。「玄」指深奧神妙；「牝」指雌性動物，引申為母性、孕育者；「玄牝」即指孕育萬物的神妙母體。「根」指根源、基礎。「綿綿」指連續不斷的樣子。「若存」指若有若無。「勤」通「盡」，指枯竭、窮盡。\\n【章法與結構】本章極為簡短，卻句句精深。先提出「穀神不死」與「玄牝」的概念，接著以「玄牝之門」承接，點出其為「天地根」，層層深入地揭示宇宙本源。最後兩句「綿綿若存，用之不勤」則描繪出這個本源的狀態與無窮的作用，音韻和諧，充滿神祕主義的詩意。\\n【思想與義理】此章是老子探討宇宙生成論的重要篇章。老子以「山谷」的虛空來比喻「道」的包容性，以女性的生殖器官（玄牝之門）來比喻「道」孕育萬物的偉大創造力。這種將宇宙本源視為「母性」的觀點，是道家哲學的獨特之處，強調了柔弱、虛空與包容的力量。道雖然看不見摸不著（綿綿若存），但其生生不息的能量卻永遠不會枯竭（用之不勤）。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-7_p-1",
+      "chapterId": "dao-de-jing_ch-7",
+      "order": 1,
+      "canonicalText": "天長地久。天地所以能長且久者，以其不自生，故能長生。是以聖人後其身而身先；外其身而身存。非以其無私耶？故能成其私。",
+      "sentenceIds": [
+        "dao-de-jing_ch-7_p-1_s-1",
+        "dao-de-jing_ch-7_p-1_s-2",
+        "dao-de-jing_ch-7_p-1_s-3",
+        "dao-de-jing_ch-7_p-1_s-4",
+        "dao-de-jing_ch-7_p-1_s-5",
+        "dao-de-jing_ch-7_p-1_s-6"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "天長地久，永遠存在。天地之所以能夠長久存在的原因，是因為它們的運行不為自己謀求生存，而是無私地孕育萬物，所以反而能夠獲得長生。因此，有道的聖人遇到事情時，總是把自己的利益退讓在眾人之後，反而能夠贏得眾人的擁護而處於領先的地位；把自身置之度外，反而能夠保全自身的生命。這不正是因為他們無私嗎？反而因此成就了他們自身真正意義上的完滿。",
+        "analysis": "【訓詁與名物】「長久」指時間的無限延續。「不自生」指不為自己的生存或私利而作為。「後其身」指把自身利益擺在別人之後，表現出謙退。「身先」指得到眾人的推崇而位居前列。「外其身」指把自身的安危置之度外。「成其私」指成就了個人的生命價值或最高利益（此處的「私」非指自私，而是指個體的完滿與保全）。\\n【章法與結構】本章以天地自然之理來推導人事的處世原則。首句「天長地久」為引子，繼而點出「不自生，故能長生」的天道運作規律。隨後以「是以聖人...」將天道轉化為聖人的政治與人生哲學（後其身、外其身）。最後以反問句「非以其無私耶？」作結，並導出「故能成其私」的弔詭結論，充滿了辯證的張力。\\n【思想與義理】老子在此闡發了「無私乃大私」的深刻辯證法。天地因為沒有自我中心的欲望，無私地奉獻給萬物，反而實現了自身的永恆。同理，人若能放下自私自利的心態，懂得謙退與犧牲，不去爭奪眼前的名利，反而會獲得人們的敬仰，最終實現自己生命的最高價值。這種「以退為進」、「無私成私」的智慧，是對世俗功利主義的根本顛覆。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-8_p-1",
+      "chapterId": "dao-de-jing_ch-8",
+      "order": 1,
+      "canonicalText": "上善若水。水善利萬物而不爭，處眾人之所惡，故幾於道。居善地，心善淵，與善仁，言善信，政善治，事善能，動善時。夫唯不爭，故無尤。",
+      "sentenceIds": [
+        "dao-de-jing_ch-8_p-1_s-1",
+        "dao-de-jing_ch-8_p-1_s-2",
+        "dao-de-jing_ch-8_p-1_s-3",
+        "dao-de-jing_ch-8_p-1_s-4"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "最高尚的品德就像水一樣。水善於滋潤萬物卻不與萬物相爭，它總是停留在眾人所厭惡的低下之處，所以水的德性最接近於道。有道德的人居住善於選擇安靜低下的地方，心胸善於保持沉靜深遠，待人善於真誠相愛，說話善於遵守信用，為政善於將國家治理得有條不紊，處事善於發揮效能，行動善於把握時機。正因為他不與人相爭，所以才沒有過失與怨咎。",
+        "analysis": "【訓詁與名物】「上善」指最高尚的品德。「惡」音ㄨˋ，厭惡，指低下的地方。「幾」音ㄐㄧ，接近、近似。「淵」深沉、深遠。「尤」過失、怨咎。「與」交往、待人。\\n【章法與結構】全章以「上善若水」為總綱，先總述水的特性（利萬物而不爭、處眾人之所惡），說明其「幾於道」。接著以七個「善」字排比（居善地...動善時），將水的自然屬性與聖人的人格修養相對應，層層鋪展，氣勢連貫。最後以「夫唯不爭，故無尤」作結，呼應開頭的「不爭」。\\n【思想與義理】此章是老子「水德」思想的集中體現。老子認為水具有滋養萬物、謙卑處下、與物無爭的品格，這正是「道」在具體事物上的完美展現。透過對水的讚美，老子倡導了一種柔弱勝剛強、退讓不爭的處世哲學，告誡人們要效法水的德性，修身養性，方能達到「無尤」的境界。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-9_p-1",
+      "chapterId": "dao-de-jing_ch-9",
+      "order": 1,
+      "canonicalText": "持而盈之，不如其已；揣而銳之，不可長保。金玉滿堂，莫之能守；富貴而驕，自遺其咎。功遂身退，天之道。",
+      "sentenceIds": [
+        "dao-de-jing_ch-9_p-1_s-1",
+        "dao-de-jing_ch-9_p-1_s-2",
+        "dao-de-jing_ch-9_p-1_s-3",
+        "dao-de-jing_ch-9_p-1_s-4",
+        "dao-de-jing_ch-9_p-1_s-5"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "拿著器皿要把它裝得滿滿的，倒不如適可而止；把刀劍鍛鍊打磨得太過鋒利，就無法長久保持它的鋒芒。滿屋子堆滿了金玉財寶，沒有人能夠永遠守得住；因為擁有富貴而驕傲自大，必定會給自己留下災禍。功業完成之後，就應該急流勇退，這才是符合自然運行的天道。",
+        "analysis": "【訓詁與名物】「持而盈之」指端著器皿使其裝滿。「已」停止，此指適可而止。「揣」鍛打，引申為捶擊打磨。「遺」留下。「咎」災禍、過失。「功遂」指功業成就。\\n【章法與結構】全章由四個層次構成。前兩句以「盈」與「銳」為喻，說明事物發展到極點便會走向反面。中間兩句進一步將此道理應用於人事上的「金玉滿堂」與「富貴而驕」，指出貪得無厭的危險。最後一句「功遂身退，天之道」為畫龍點睛之筆，點出全章的核心主旨，語氣斬釘截鐵。\\n【思想與義理】本章集中表達了老子「物極必反」的辯證法思想以及「功成身退」的人生哲學。老子認為，天道的規律是盈滿則虧、銳極必折。因此，人在面對財富、權力與名譽時，必須懂得「知止」與「退讓」。唯有順應天道，在功業成就時不貪戀權位，才能保全自身，免遭禍患。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-10_p-1",
+      "chapterId": "dao-de-jing_ch-10",
+      "order": 1,
+      "canonicalText": "載營魄抱一，能無離乎？專氣致柔，能如嬰兒乎？滌除玄覽，能無疵乎？愛民治國，能無知乎？天門開闔，能為雌乎？明白四達，能無知乎？生之、畜之，生而不有，為而不恃，長而不宰，是謂玄德。",
+      "sentenceIds": [
+        "dao-de-jing_ch-10_p-1_s-1",
+        "dao-de-jing_ch-10_p-1_s-2",
+        "dao-de-jing_ch-10_p-1_s-3",
+        "dao-de-jing_ch-10_p-1_s-4",
+        "dao-de-jing_ch-10_p-1_s-5",
+        "dao-de-jing_ch-10_p-1_s-6",
+        "dao-de-jing_ch-10_p-1_s-7"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "使精神與形體合而為一，能做到不分離嗎？聚結精氣以達到柔和的境界，能做到像嬰兒一樣嗎？洗滌清除心靈的鏡子，能做到沒有任何瑕疵嗎？愛護人民治理國家，能做到不運用機智巧詐嗎？感官與外界接觸時，能做到像雌性般守靜而不主動出擊嗎？通曉明白四方的一切，能做到不用智巧去幹預嗎？產生萬物、養育萬物，生養了萬物卻不據為己有，有所作為卻不自恃己功，引導萬物生長卻不強行主宰，這就叫做最深遠高尚的德性。",
+        "analysis": "【訓詁與名物】「營魄」指精神與形體。「一」指道的狀態。「專氣」指結聚精氣。「玄覽」指心靈的明鏡，即內心的洞察力。「天門」指人的感官。「雌」象徵柔弱、守靜。「畜之」指養育它。「玄德」指深遠玄妙的德性。\\n【章法與結構】此章前半部採用了六個連續的設問句（能……乎？），從修身、治國、處世等多個維度，層層遞進地對修道者提出嚴格的叩問，句式整齊，節奏緊湊。後半部則以陳述句作答，總結出「生而不有，為而不恃，長而不宰」的境界，並將其定義為「玄德」。\\n【思想與義理】本章探討了修養「玄德」的具體方法與最高境界。老子強調要透過「抱一」、「致柔」、「滌除玄覽」等內在修持，恢復到如嬰兒般純潔無瑕的自然狀態。在治國與處世上，則提倡「無為」、「守雌」，反對運用智巧幹預。最終達到的「玄德」，是一種只付出不佔有、只奉獻不主宰的偉大精神，也是老子理想中聖人的最高品格。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-11_p-1",
+      "chapterId": "dao-de-jing_ch-11",
+      "order": 1,
+      "canonicalText": "三十輻，共一轂，當其無，有車之用。埏埴以為器，當其無，有器之用。鑿戶牖以為室，當其無，有室之用。故有之以為利，無之以為用。",
+      "sentenceIds": [
+        "dao-de-jing_ch-11_p-1_s-1",
+        "dao-de-jing_ch-11_p-1_s-2",
+        "dao-de-jing_ch-11_p-1_s-3",
+        "dao-de-jing_ch-11_p-1_s-4"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "三十根車幅匯集到一個車轂上，正因為車轂中間是空虛無物的，纔有了車輪轉動的作用。揉和黏土來製作陶器，正因為陶器中間是空虛的，纔有了盛裝物品的作用。開鑿門窗來建造房屋，正因為房屋內部是空虛的，纔有了居住的作用。所以，有可以為人提供便利的條件，而無才是真正發揮實際作用的關鍵。",
+        "analysis": "【訓詁與名物】「輻」車輪上的木條。「轂」音ㄍㄨˇ，車輪中心的圓木，中空以穿車軸。「無」指空虛的部分。「埏埴」音ㄕㄢ ㄓˊ，揉和黏土。「戶牖」指門和窗。\\n【章法與結構】此章採用了歸納論證的方法。先連續舉出三個日常生活中常見的事物——車輪、陶器、房屋，以排比的句式（當其無，有……之用）反覆申明同一個道理。最後以「故」字作結，從具體事物中抽象出「有」與「無」的辯證關係，總結全文，條理清晰。\\n【思想與義理】本章是老子闡述「有」與「無」辯證關係的經典篇章。世人往往只看重實體的「有」（如車木、黏土、磚牆），而忽略了空間的「無」。老子指出，實體（有）只是提供了基礎條件（利），而真正發揮功能的其實是那空虛的部分（用）。這啟發我們看問題不能只停留在表面的實體，要認識到虛空與無形同樣具有巨大的價值與作用。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-12_p-1",
+      "chapterId": "dao-de-jing_ch-12",
+      "order": 1,
+      "canonicalText": "五色令人目盲；五音令人耳聾；五味令人口爽；馳騁田獵，令人心發狂；難得之貨，令人行妨。是以聖人為腹不為目，故去彼取此。",
+      "sentenceIds": [
+        "dao-de-jing_ch-12_p-1_s-1",
+        "dao-de-jing_ch-12_p-1_s-2",
+        "dao-de-jing_ch-12_p-1_s-3",
+        "dao-de-jing_ch-12_p-1_s-4",
+        "dao-de-jing_ch-12_p-1_s-5",
+        "dao-de-jing_ch-12_p-1_s-6"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "繽紛的色彩會讓人視覺遲鈍；繁雜的音樂會讓人聽覺失靈；濃厚的滋味會讓人味覺敗壞；騎馬打獵的激烈活動，會讓人心神狂亂；稀有難得的奇珍異寶，會讓人行為敗壞。因此，有道的聖人只求滿足維持生命的溫飽，而不去追求感官的享樂，所以他們捨棄了外在物慾的誘惑，而選擇了內在生命的安定。",
+        "analysis": "【訓詁與名物】「五色」指青、黃、赤、白、黑，泛指繽紛的色彩。「五音」指宮、商、角、徵、羽，泛指各種音樂。「五味」指酸、甜、苦、辣、鹹，泛指各種味道。「口爽」指味覺敗壞、喪失。「田獵」指打獵。「行妨」指行為受到損害、敗壞。「為腹」指滿足內在的基本生存需求。「為目」指追求外在的感官刺激與享樂。\\n【章法與結構】全章可分為兩部分。前半部以五個整齊的排比句，從視、聽、味、娛樂、財物五個方面，鋪陳列舉了過度追求物慾所帶來的嚴重危害。後半部以「是以」引出聖人的生活態度——「為腹不為目」，並以「去彼取此」四字作結，態度鮮明，對比強烈。\\n【思想與義理】本章深刻批判了物質文明發展所帶來的感官放縱與道德墮落。老子認為，過度追求外在的聲色犬馬，不僅會損害人的生理感官，更會導致心智的迷失與行為的敗壞。因此，他提倡一種「為腹不為目」的生活哲學，主張回歸生命最基本的需求，摒棄虛妄的物慾誘惑，從而保持內心的純潔與安寧。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-13_p-1",
+      "chapterId": "dao-de-jing_ch-13",
+      "order": 1,
+      "canonicalText": "寵辱若驚，貴大患若身。何謂寵辱若驚？寵為下，得之若驚，失之若驚，是謂寵辱若驚。何謂貴大患若身？吾所以有大患者，為吾有身，及吾無身，吾有何患？故貴以身為天下，若可寄天下；愛以身為天下，若可託天下。",
+      "sentenceIds": [
+        "dao-de-jing_ch-13_p-1_s-1",
+        "dao-de-jing_ch-13_p-1_s-2",
+        "dao-de-jing_ch-13_p-1_s-3",
+        "dao-de-jing_ch-13_p-1_s-4",
+        "dao-de-jing_ch-13_p-1_s-5",
+        "dao-de-jing_ch-13_p-1_s-6",
+        "dao-de-jing_ch-13_p-1_s-7"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "受到寵愛或遭受屈辱都會感到驚恐，把大患看得像自己的身體一樣重要。什麼叫做受到寵愛或遭受屈辱都會感到驚恐？得寵本來就是居於下位的被動狀態，得到時會感到驚恐不安，失去時也會感到驚恐不安，這就叫做寵辱若驚。什麼叫做把大患看得像自己的身體一樣重要？我之所以會有大患，是因為我有這個血肉之軀，如果我沒有這個身體（放下對自我的執著），我還會有什麼憂患呢？所以，只有能把天下看得比自己身體還重要的人，才可以把天下寄託給他；只有能愛天下勝過愛自己身體的人，才可以把天下交付給他。",
+        "analysis": "【訓詁與名物】「寵辱若驚」指得寵或受辱皆使人驚恐不安。「貴大患若身」意指將外在的憂患看得與自身性命一樣重。「寵為下」意即受寵是一種處於下位、受人支配的附庸狀態。「寄」與「託」皆有交付、託付之意。\\n【章法與結構】本段採取「自問自答」的論述結構。開頭先提出「寵辱若驚，貴大患若身」兩大命題；接著分別用「何謂...」進行解釋，剖析人們因執著於外在得失與肉體自我而產生的痛苦；最後以「故」字作結，推導出道家對於理想統治者的標準：唯有無私無我，方能承擔天下。\\n【思想與義理】此段深刻剖析了人類痛苦的根源：一是對外在名利的得失心（寵辱），二是對肉體自我的執念（有身）。老子指出，只要人還依附於外在權力（寵為下）或執著於自我，就永遠無法獲得心靈的自由。進一步延伸至政治層面，老子認為，只有那些徹底放下自我中心、不再患得患失、視天下重於自身的人，才具備治理天下的資格。這是一種超越世俗利害的極高道德境界。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-14_p-1",
+      "chapterId": "dao-de-jing_ch-14",
+      "order": 1,
+      "canonicalText": "視之不見，名曰夷；聽之不聞，名曰希；搏之不得，名曰微。此三者不可致詰，故混而為一。其上不皦，其下不昧。繩繩不可名，復歸於無物。是謂無狀之狀，無物之象，是謂惚恍。迎之不見其首，隨之不見其後。執古之道，以御今之有。能知古始，是謂道紀。",
+      "sentenceIds": [
+        "dao-de-jing_ch-14_p-1_s-1",
+        "dao-de-jing_ch-14_p-1_s-2",
+        "dao-de-jing_ch-14_p-1_s-3",
+        "dao-de-jing_ch-14_p-1_s-4",
+        "dao-de-jing_ch-14_p-1_s-5",
+        "dao-de-jing_ch-14_p-1_s-6",
+        "dao-de-jing_ch-14_p-1_s-7",
+        "dao-de-jing_ch-14_p-1_s-8",
+        "dao-de-jing_ch-14_p-1_s-9",
+        "dao-de-jing_ch-14_p-1_s-10"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "看它卻看不見任何形體，稱之為夷（無色無形）；聽它卻聽不到任何聲響，稱之為希（無聲無音）；觸摸抓取它卻抓不到任何實體，稱之為微（無質無體）。這三種特質無法通過凡俗的追問探究精確界定，因為它們渾然融合成一個不可分割的整體（混而為一）！它的上方並不顯得格外明亮耀眼（不皦），它的下方也並不顯得格外幽暗晦昧（不昧）。它綿延不絕浩瀚無涯而無法用任何具體名詞去命名（繩繩不可名），最終又復歸於無形無象的虛無狀態（復歸於無物）。這就叫做沒有形狀的形狀，沒有物象的物象，這就叫做若隱若現深邃莫測的惚恍！迎著它向前走看不見它的起點源頭（不見其首），跟隨在它身後走看不見它的終點末尾（不見其後）。把握掌握自古以來永恆不變的至高天道，用以統御駕馭當下紛繁複雜的現實萬物（以御今之有）。能夠洞悉宇宙萬象遠古開端的奧祕，這就叫做掌握了大道的根本規律綱紀（道紀）！",
+        "analysis": "【題解與背景】\\n本段選自《道德經》〈第14段〉第 14 節。屬於古代道家玄旨代表性經典，記述先賢關於主張順應自然、無為而治、清靜守柔與虛懷若谷之重大名言與歷史背景。\\n【詞義與名物】\\n1. 經典名句解讀：引述「視之不見名曰夷聽之不聞名曰希搏之不得名曰微此……」之思想精華與章法結構。\\n2. 訓詁與古漢語語法：本段重點解讀「視」、「不」、「見」、「名」等關鍵字詞之古代漢語語意、通假字與名物制度範式。\\n【思想與史事脈絡】\\n深刻傳達《道德經》知行合一與經世致用之哲理觀念，展現老莊哲學對宇宙天道與人生通達境界之深刻體悟，為後世立德、立言、立功提供極具學術價值之智慧資糧與歷史參照。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-15_p-1",
+      "chapterId": "dao-de-jing_ch-15",
+      "order": 1,
+      "canonicalText": "古之善為士者，微妙玄通，深不可識。夫唯不可識，故強為之容：豫兮若冬涉川；猶兮若畏四鄰；儼兮其若容；渙兮若冰之將釋；敦兮其若樸；曠兮其若谷；混兮其若濁。孰能濁以靜之徐清？孰能安以久動之徐生？保此道者，不欲盈。夫唯不盈，故能蔽不新成。",
+      "sentenceIds": [
+        "dao-de-jing_ch-15_p-1_s-1",
+        "dao-de-jing_ch-15_p-1_s-2",
+        "dao-de-jing_ch-15_p-1_s-3",
+        "dao-de-jing_ch-15_p-1_s-4",
+        "dao-de-jing_ch-15_p-1_s-5",
+        "dao-de-jing_ch-15_p-1_s-6",
+        "dao-de-jing_ch-15_p-1_s-7",
+        "dao-de-jing_ch-15_p-1_s-8",
+        "dao-de-jing_ch-15_p-1_s-9",
+        "dao-de-jing_ch-15_p-1_s-10",
+        "dao-de-jing_ch-15_p-1_s-11",
+        "dao-de-jing_ch-15_p-1_s-12"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "古代真正精通體道的大道士人，其智慧微妙精深、玄通通達，深邃高遠到世俗凡人根本無法真正看透探識（深不可識）。正因為其境界深不可測無法直接形容，所以只能勉強描摹其外在風範神貌（強為之容）：\\n\\n審慎戒懼啊，如同寒冬季節赤足踏冰過河一般小心翼翼（豫兮若冬涉川）；\\n警惕謹慎啊，如同防備四周強鄰窺伺一般保持警覺（猶兮若畏四鄰）；\\n莊重恭敬啊，如同作為莊嚴賓客一般儀態端方（儼兮若容）；\\n溫和融洽啊，如同春陽融化冬冰一般舒展隨和（渙兮若冰之將釋）；\\n敦厚淳樸啊，如同未經雕琢的原木一般質樸無華（敦兮其若樸）；\\n心胸開闊曠達啊，如同幽深廣袤的山谷一般包容萬物（曠兮其若谷）；\\n和光同塵啊，如同渾濁的流水一般深沉不自顯清高（混兮其若濁）！試問世間究竟有誰能夠在渾濁動盪中通過虛靜沈澱使之慢慢澄清變清呢（濁以靜之徐清）？究竟有誰能夠在長久沉寂安寧中通過順應生機使之慢慢煥發生機呢（安以久動之徐生）？守持並踐行這種至道的人，從不追求個人名利的自滿盈溢（不欲盈）。正因為始終保持虛懷不盈，所以才能在歷經歲月淘洗磨損後依然不自矜自傲，永遠保持生生不息的長新活力（蔽不新成）！",
+        "analysis": "【題解與背景】\\n本段選自《道德經》〈第15段〉第 15 節。屬於古代道家玄旨代表性經典，記述先賢關於主張順應自然、無為而治、清靜守柔與虛懷若谷之重大名言與歷史背景。\\n【詞義與名物】\\n1. 經典名句解讀：引述「古之善為士者微妙玄通深不可識夫唯不可識故強為……」之思想精華與章法結構。\\n2. 訓詁與古漢語語法：本段重點解讀「古」、「善」、「為」、「士」等關鍵字詞之古代漢語語意、通假字與名物制度範式。\\n【思想與史事脈絡】\\n深刻傳達《道德經》知行合一與經世致用之哲理觀念，展現老莊哲學對宇宙天道與人生通達境界之深刻體悟，為後世立德、立言、立功提供極具學術價值之智慧資糧與歷史參照。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-16_p-1",
+      "chapterId": "dao-de-jing_ch-16",
+      "order": 1,
+      "canonicalText": "致虛極，守靜篤。萬物並作，吾以觀復。夫物芸芸，各復歸其根。歸根曰靜，是謂復命。復命曰常，知常曰明。不知常，妄作兇。知常容，容乃公，公乃王，王乃天，天乃道，道乃久，沒身不殆。",
+      "sentenceIds": [
+        "dao-de-jing_ch-16_p-1_s-1",
+        "dao-de-jing_ch-16_p-1_s-2",
+        "dao-de-jing_ch-16_p-1_s-3",
+        "dao-de-jing_ch-16_p-1_s-4",
+        "dao-de-jing_ch-16_p-1_s-5",
+        "dao-de-jing_ch-16_p-1_s-6",
+        "dao-de-jing_ch-16_p-1_s-7"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "使心靈達到極致無礙的虛空境地（致虛極），守持精神至深至純的沉靜安寧（守靜篤）。天地萬物蓬勃興起生長繁衍（萬物並作），我從中靜觀它們循環往復回歸本原的自然規律（吾以觀復）。世間萬物紛繁眾多千姿百態（物芸芸），最終皆各自回歸它們最初生發的根本本原（各復歸其根）。回歸根本就達到了最深層的安寧寧靜（歸根曰靜），這就叫做回復了生命的天然本命（是謂復命）。回復本命乃是天地不可逆轉的恆常規律（復命曰常），深刻洞悉這種恆常規律就叫做真正的內心明澈開悟（知常曰明）！如果不知曉天道恆常規律而盲目妄動胡作非為，就必定會招致嚴重的災兇大禍（妄作兇）！懂得恆常規律的人就能心胸包容萬物（知常容），能夠包容萬物就能做到大公無私（容乃公），大公無私就能成為天下萬民悅服的領袖（公乃王），成為天下領袖就能完全契合天意大道（王乃天），契合天意就是真正融通了永恆天道（天乃道），融通天道就能生生不息長久長存（道乃久），一生一世都絕不會陷入危殆兇險（沒身不殆）！",
+        "analysis": "【題解與背景】\\n本段選自《道德經》〈第16段〉第 16 節。屬於古代傳統經典之精華篇章，記述先賢關於立德立言、治國用兵與天地自然哲理之重大名言。\\n【詞義與名物】\\n1. 經典名句解讀：引述「致虛極，守靜篤。萬物並作，吾以觀復。……」之思想精華與章法結構。\\n2. 訓詁與語法考釋：本段重點解讀「致」、「虛」等字詞之古代漢語語意、通假字與名物制度規範。\\n【思想與史事脈絡】\\n深刻傳達《道德經》知行合一與經世致用之哲理觀念，為後世立德、立言、立功提供極具學術價值之智慧資糧與歷史參照。\\n考釋特別補充：本段體現了傳統文化博大精深之學術源流與治國安邦哲理。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-17_p-1",
+      "chapterId": "dao-de-jing_ch-17",
+      "order": 1,
+      "canonicalText": "太上，下知有之；其次，親而譽之；其次，畏之；其次，侮之。信不足，焉有不信焉。悠兮，其貴言。功成事遂，百姓皆謂我自然。",
+      "sentenceIds": [
+        "dao-de-jing_ch-17_p-1_s-1",
+        "dao-de-jing_ch-17_p-1_s-2",
+        "dao-de-jing_ch-17_p-1_s-3",
+        "dao-de-jing_ch-17_p-1_s-4",
+        "dao-de-jing_ch-17_p-1_s-5",
+        "dao-de-jing_ch-17_p-1_s-6",
+        "dao-de-jing_ch-17_p-1_s-7"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "最上等的統治者，人民只知道有他的存在，卻感覺不到他的統治；次一等的，人民會親近並讚美他；再次一等的，人民會畏懼他；最下等的，人民會輕視並侮辱他。統治者的誠信不足，人民自然就不會信任他。最上等的統治者悠然自得，不輕易發號施令。當大功告成、事情順利完成時，老百姓都說：我們本來就是這樣的啊！",
+        "analysis": "【訓詁與名物】「太上」指最理想、最高明的統治者。「下知有之」的「下」指百姓，意謂百姓僅知有國君，卻不受其幹預。「親而譽之」指用仁義教化百姓，百姓因此親近讚美。「侮之」指百姓輕慢、鄙視統治者。「貴言」指不輕易發言、政令稀少。「自然」指本來如此、順應本性。\\n【章法與結構】本段前半部採用層遞手法，將統治者的境界由高至低分為四個等級（不知、親譽、畏懼、輕侮），對比強烈；中間插入「信不足」點出政治崩壞的關鍵；後半部則重新聚焦於最高理想「太上」，描繪其「貴言」的作風與「百姓謂我自然」的終極政治成效，首尾呼應。\\n【思想與義理】這是老子「無為而治」政治哲學的經典表述。老子顛覆了儒家所推崇的「親而譽之」（仁政）為最高理想，他認為真正的善治應該是「不言之教」，統治者隱藏於幕後，不幹擾百姓生活，讓社會自然運轉。當一切圓滿達成時，百姓不會歸功於偉大領袖，而是覺得這一切都是自己本該有的自然狀態。這是一種徹底消除統治痕跡、還權於民的最高政治藝術。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-18_p-1",
+      "chapterId": "dao-de-jing_ch-18",
+      "order": 1,
+      "canonicalText": "大道廢，有仁義；智慧出，有大偽；六親不和，有孝慈；國家昏亂，有忠臣。",
+      "sentenceIds": [
+        "dao-de-jing_ch-18_p-1_s-1",
+        "dao-de-jing_ch-18_p-1_s-2",
+        "dao-de-jing_ch-18_p-1_s-3",
+        "dao-de-jing_ch-18_p-1_s-4"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "只有當運行於天地的自然大道被廢棄之後，才會出現提倡仁義的道德規範；只有當巧智與機心出現之後，才會伴隨著產生嚴重的虛偽與狡詐；只有當家庭中父子、兄弟等六親關係不再和睦時，才會顯現出孝順與慈愛的特別；只有當國家陷入昏庸動亂的時候，才會突顯出所謂的忠臣。",
+        "analysis": "【訓詁與名物】：「大道」指自然無為、純樸的宇宙運行規律與人類社會的初始狀態。「廢」指廢棄、衰退。「仁義」為儒家所倡導的道德核心，老子認為這是大道衰退後的產物。「智慧」此處指智巧、機心。「大偽」指極大的虛偽與欺詐。「六親」一般指父、母、兄、弟、妻、子，泛指親屬。「孝慈」指子女對父母的孝敬和父母對子女的慈愛。「昏亂」指政治黑暗、社會動盪。\\n\\n【章法與結構】：全章由四個結構相同的短句組成，構成了一組氣勢連貫的排比。每一句都是「條件＋結果」的形式（……廢，有……；……出，有……），通過正反相生的邏輯，層層遞進地揭示了社會道德概念（仁義、孝慈、忠臣）出現的真實背景，語言簡潔而富有極強的邏輯張力。\\n\\n【思想與義理】：本章集中體現了老子反對人為造作、崇尚自然純樸的哲學思想。老子以極具顛覆性的視角指出，儒家所極力推崇的仁義、孝慈、忠臣，實際上是社會墮落、大道喪失之後的補救措施。在一個真正和諧美好的自然狀態下，人們皆順應天性，孝慈與忠信皆是自然而然的事情，根本不需要刻意去提倡與標榜。提倡道德，恰恰證明瞭道德的缺失。這提醒我們應反思社會病態的根源，回歸純樸的本性。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-19_p-1",
+      "chapterId": "dao-de-jing_ch-19",
+      "order": 1,
+      "canonicalText": "絕聖棄智，民利百倍；絕仁棄義，民復孝慈；絕巧棄利，盜賊無有。此三者以為文不足。故令有所屬：見素抱樸，少私寡慾。",
+      "sentenceIds": [
+        "dao-de-jing_ch-19_p-1_s-1",
+        "dao-de-jing_ch-19_p-1_s-2",
+        "dao-de-jing_ch-19_p-1_s-3",
+        "dao-de-jing_ch-19_p-1_s-4",
+        "dao-de-jing_ch-19_p-1_s-5"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "拋棄所謂的聖明與智巧，人民反而能得到百倍的利益；拋棄所謂的仁愛與道義，人民反而能恢復自然的孝順與慈愛；拋棄所謂的機巧與逐利之心，盜賊也就會自然消亡。這三句話作為理論條文還是不夠完備的，因此要讓人們的心靈有真正的歸屬：那就是保持純潔無瑕的本色，擁抱樸實無華的本性，減少個人的私心，降低物質的慾望。",
+        "analysis": "【訓詁與名物】：「絕」與「棄」皆意為拋棄、屏除。「聖」與「智」此處指世俗推崇的聰明才智與人為的繁文縟節。「文」指條文、理論，或指表面的文飾。「不足」指不夠完備或不足以治理天下。「屬」意為歸屬、依歸。「見」同「現」，顯露。「素」指未染色的生絲，比喻純潔不染的本色。「樸」指未經雕琢的原木，比喻淳樸的天性。「私」指私心。「欲」指物慾。\\n\\n【章法與結構】：此章承接上一章，給出了老子治世的具體方案。前半部分使用三個「絕……棄……」的排比句，強烈地表達了破除人為造作的主張，並指出其帶來的良好後果；中間以「此三者以為文不足，故令有所屬」作為過渡與轉折；最後以「見素抱樸，少私寡慾」八字真言作為全章的總結與昇華，從「破」走向了「立」。\\n\\n【思想與義理】：本章進一步深化了老子「無為而治」與「返璞歸真」的思想。老子認為，世間的紛爭、虛偽與盜賊，皆源於統治者過分推崇智巧、仁義與利益。因此，他主張「絕聖棄智」，剝去一切虛偽的人為文飾，引導人們回到最本真、最自然的狀態（見素抱樸）。而要達到這種狀態的根本途徑，就是「少私寡慾」，剋制內心膨脹的私慾。這是一種對抗物質化與異化社會的深刻藥方。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-20_p-1",
+      "chapterId": "dao-de-jing_ch-20",
+      "order": 1,
+      "canonicalText": "絕學無憂，唯之與阿，相去幾何？善之與惡，相去若何？人之所畏，不可不畏。荒兮，其未央哉！眾人熙熙，如享太牢，如春登臺。我獨怕兮，其未兆；如嬰兒之未孩；儽儽兮，若無所歸。眾人皆有餘，而我獨若遺。我愚人之心也哉！沌沌兮，俗人昭昭，我獨若昏。俗人察察，我獨悶悶。澹兮其若海，飂兮若無止。眾人皆有以，而我獨頑似鄙。我獨異於人，而貴食母。",
+      "sentenceIds": [
+        "dao-de-jing_ch-20_p-1_s-1",
+        "dao-de-jing_ch-20_p-1_s-2",
+        "dao-de-jing_ch-20_p-1_s-3",
+        "dao-de-jing_ch-20_p-1_s-4",
+        "dao-de-jing_ch-20_p-1_s-5",
+        "dao-de-jing_ch-20_p-1_s-6",
+        "dao-de-jing_ch-20_p-1_s-7",
+        "dao-de-jing_ch-20_p-1_s-8",
+        "dao-de-jing_ch-20_p-1_s-9",
+        "dao-de-jing_ch-20_p-1_s-10",
+        "dao-de-jing_ch-20_p-1_s-11",
+        "dao-de-jing_ch-20_p-1_s-12",
+        "dao-de-jing_ch-20_p-1_s-13",
+        "dao-de-jing_ch-20_p-1_s-14",
+        "dao-de-jing_ch-20_p-1_s-15"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "拋棄那些繁瑣而無用的世俗學問，就不會有煩憂了。恭敬的應答和怠慢的斥喝，究竟相差多少？世俗所謂的善與惡，又有多大分別？人們所畏懼的東西，我也不能不畏懼。這世俗的風氣真是荒謬啊，而且似乎無窮無盡！眾人都熙熙攘攘、興高采烈，好像參加盛大的宴席喫太牢一般，又好像春日裡登高臺賞景一樣。唯獨我恬淡安靜，沒有顯露任何世俗的情慾；就像還不會對人笑的嬰兒一樣；疲倦散漫啊，好像沒有歸宿。眾人看起來都富足有餘，唯獨我好像遺失了什麼。我真是一顆愚人的心啊！混沌不清！世人都那麼光彩明朗，唯獨我彷彿昏昏暗暗；世人都那麼精明苛察，唯獨我彷彿醇厚愚昧。我恬靜得就像深邃的大海，飄逸得就像長風一樣沒有止境。眾人都有所憑藉與作為，唯獨我冥頑不化又好像很鄙陋。我唯獨與常人不同，而珍貴的是依道而行，如同嬰兒吸吮母親的乳汁一般。",
+        "analysis": "【訓詁與名物】：「絕學無憂」指拋棄世俗的虛偽學問便能免除煩惱。「唯」指恭敬的應答。「阿」指怠慢或隨聲附和。「太牢」古代祭祀時牛羊豕三牲全備，此指盛宴。「怕」同「泊」，恬淡安靜。「孩」指嬰兒笑。「儽儽」指疲倦失意的樣子。「遺」指遺失、匱乏。「沌沌」指混沌無知的狀態。「昭昭」指光潔明亮，比喻精明。「察察」指觀察細緻、斤斤計較。「悶悶」指純樸寬厚的樣子。「澹」指恬靜。「飂」指風吹的樣子。「食母」比喻依道而生，以道為本，道為萬物之母。\\n\\n【章法與結構】：本章篇幅較長，以第一人稱「我」的視角展開。開篇先提出「絕學無憂」的觀點，並質疑世俗的價值觀（唯與阿、善與惡）。隨後全章大量使用對比手法，將「眾人」的熙熙攘攘、有餘、昭昭、察察、有以，與「我」的恬泊、若遺、若昏、悶悶、頑似鄙進行了淋漓盡致的對照。結尾「我獨異於人，而貴食母」如石破天驚，點明瞭全篇的主旨。\\n\\n【思想與義理】：此章生動刻畫了老子作為一個修道者孤高、純樸而又與世俗格格不入的自畫像。世俗之人追求外在的名利、感官的享樂與機巧的算計，而老子卻主動選擇了一種看起來「愚昧」、「混沌」、「匱乏」的狀態。這並非真正的愚蠢，而是一種「大智若愚」的最高境界。他拋棄了世間相對的善惡是非標準，超越了世俗的狂熱，回歸到嬰兒般純真無邪的狀態，唯一的追求就是與大道（食母）融為一體。這種精神上的孤獨與超越，展現了道家深刻的生命體驗。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-21_p-1",
+      "chapterId": "dao-de-jing_ch-21",
+      "order": 1,
+      "canonicalText": "孔德之容，唯道是從。道之為物，唯恍唯惚。忽兮恍兮，其中有象；恍兮忽兮，其中有物。窈兮冥兮，其中有精；其精甚真，其中有信。自古及今，其名不去，以閱眾甫。吾何以知眾甫之狀哉？以此。",
+      "sentenceIds": [
+        "dao-de-jing_ch-21_p-1_s-1",
+        "dao-de-jing_ch-21_p-1_s-2",
+        "dao-de-jing_ch-21_p-1_s-3",
+        "dao-de-jing_ch-21_p-1_s-4",
+        "dao-de-jing_ch-21_p-1_s-5",
+        "dao-de-jing_ch-21_p-1_s-6",
+        "dao-de-jing_ch-21_p-1_s-7",
+        "dao-de-jing_ch-21_p-1_s-8",
+        "dao-de-jing_ch-21_p-1_s-9"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "崇高偉大的道德所展現出的姿態，是完全順從於大道的。大道作為一種存在，是恍恍惚惚、難以捉摸的。雖然恍惚不清，但其中卻蘊含著萬物的意象；雖然惚惚恍恍，但其中卻孕育著實實在在的實體。它是那樣的深遠而幽暗，在幽暗之中卻有著最微小、最純粹的精氣；這種精氣是絕對真實的，其中蘊含著可信驗的規律與力量。從古到今，它的名字與存在從未消失過，用它就可以去觀察和認識萬事萬物的起源。我憑什麼知道萬物本源的狀況呢？就是憑藉這個道。",
+        "analysis": "【訓詁與名物】：「孔」在此作大、偉大解。「德之容」指德的表現形態。「恍惚」指道沒有固定的形體，若有若無，難以用感官直接把握。「象」指形象、徵兆。「物」指實體。「窈冥」指深遠幽暗、難以窺測的狀態。「精」指極其細微的物質本原，精氣。「真」指真實不虛。「信」指信驗、確實可靠的規律。「去」指消失。「閱」指觀察、稟受。「眾甫」指萬物的開始或本源（甫同父，或始）。\\n\\n【章法與結構】：本章的結構極富層次感與哲理美。首句「孔德之容，唯道是從」確立了德與道的從屬關係。中間部分運用疊詞（唯恍唯惚、忽兮恍兮、恍兮忽兮、窈兮冥兮）和排比句式，層層深入地描寫了「道」從無形到有象、從有象到有物、再到蘊含真精與信驗的過程，語言極具節奏感與神祕色彩。結尾兩句則轉為設問，總結了「道」作為萬物本源的永恆性。\\n\\n【思想與義理】：這是老子論述「道」的本體論的重要章節。老子試圖用語言去描述那個超越語言的絕對真理——「道」。他指出，道雖然超越了人類常規的感官經驗（恍惚、窈冥），看似空虛無形，但它並不是虛無，而是實實在在的宇宙本原（其中有象、有物、有精、有信）。萬事萬物的生成與發展，都離不開這個最根本的精氣與規律。這種將宇宙萬物歸結為一個客觀的、無形的但又真實存在的本體的思想，在中國哲學史上具有劃時代的意義。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-22_p-1",
+      "chapterId": "dao-de-jing_ch-22",
+      "order": 1,
+      "canonicalText": "曲則全，枉則直，窪則盈，弊則新，少則得，多則惑。是以聖人抱一為天下式。不自見，故明；不自是，故彰；不自伐，故有功；不自矜，故長。夫唯不爭，故天下莫能與之爭。古之所謂曲則全者，豈虛言哉！誠全而歸之。",
+      "sentenceIds": [
+        "dao-de-jing_ch-22_p-1_s-1",
+        "dao-de-jing_ch-22_p-1_s-2",
+        "dao-de-jing_ch-22_p-1_s-3",
+        "dao-de-jing_ch-22_p-1_s-4",
+        "dao-de-jing_ch-22_p-1_s-5",
+        "dao-de-jing_ch-22_p-1_s-6",
+        "dao-de-jing_ch-22_p-1_s-7",
+        "dao-de-jing_ch-22_p-1_s-8",
+        "dao-de-jing_ch-22_p-1_s-9"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "委屈退讓反而能保全自身，彎曲反而能求得伸直，低窪的地方反而能匯聚充滿水流，破舊反而能促成生機與更新，獲取少反而能真正得到，貪求多反而會陷入迷惑。因此，有道的聖人堅守著一個統一的大道，作為天下人行事的法則。不自我炫耀，反而能顯明於世；不自以為是，反而能彰顯是非；不自我誇耀功勞，反而能成就大功；不自高自大，反而能長久領導。正因為他不與任何人爭搶，所以天下也就沒有人能與他相爭。古人所說的委屈反而能保全，難道是一句空話嗎？它確實是讓人保全自身並最終回歸大道的真理啊！",
+        "analysis": "【訓詁與名物】：「曲」指委曲、退讓。「全」指保全。「枉」指彎曲、受屈辱。「直」指伸直、昭雪。「窪」指低窪之處。「弊」指破舊、衰敗。「抱一」指堅守大道，一即道。「式」指法式、榜樣。「見」（xiàn）同現，自我顯露、炫耀。「是」指自以為正確。「伐」指誇耀功勞。「矜」指驕傲自大。「長」指長久，或指做首領。「誠」指確實。\\n\\n【章法與結構】：全章首尾呼應，邏輯嚴密。開篇連用六個「……則……」的對偶句，列舉了自然與社會中的一系列辯證現象，拋出論點。中間以「是以」承接，引出聖人「抱一」的法式，並用四個「不自……故……」的排比句，從反面論證了「不爭」帶來的正面效果。隨後以「夫唯不爭，故天下莫能與之爭」點出核心。最後以反問與感歎作結，首尾呼應「曲則全」。\\n\\n【思想與義理】：本章極其精闢地闡述了老子「反者道之動」的辯證法思想與「不爭」的處世哲學。老子洞察到，事物發展到極點便會向其反面轉化，因此，想要保全、伸展、充盈，就必須先學會委曲、退讓和處下。聖人正是掌握了這個大道的規律，不炫耀、不自大、不居功，徹底放下了世俗的爭鬥之心。結果，這種「不爭」反而成就了無人能敵的最大成功。這種以退為進、以柔克剛的智慧，對後世產生了深遠的影響。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-23_p-1",
+      "chapterId": "dao-de-jing_ch-23",
+      "order": 1,
+      "canonicalText": "希言自然。故飄風不終朝，驟雨不終日。孰為此者？天地。天地尚不能久，而況於人乎？故從事於道者，同於道；德者，同於德；失者，同於失。同於道者，道亦樂得之；同於德者，德亦樂得之；同於失者，失亦樂得之。信不足，焉有不信焉。",
+      "sentenceIds": [
+        "dao-de-jing_ch-23_p-1_s-1",
+        "dao-de-jing_ch-23_p-1_s-2",
+        "dao-de-jing_ch-23_p-1_s-3",
+        "dao-de-jing_ch-23_p-1_s-4",
+        "dao-de-jing_ch-23_p-1_s-5",
+        "dao-de-jing_ch-23_p-1_s-6",
+        "dao-de-jing_ch-23_p-1_s-7",
+        "dao-de-jing_ch-23_p-1_s-8",
+        "dao-de-jing_ch-23_p-1_s-9",
+        "dao-de-jing_ch-23_p-1_s-10",
+        "dao-de-jing_ch-23_p-1_s-11",
+        "dao-de-jing_ch-23_p-1_s-12"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "少說話，不發號施令，才合乎自然的法則。所以，狂風刮不到一個早晨就會停息，暴雨下不到一整天就會停止。是誰造成這些狂風暴雨的呢？是天地。天地所發生的劇烈變化尚且不能長久維持，更何況是人為的強求呢？因此，從事於道的人，就會與道同化；從事於德的人，就會與德同化；失去道德的人，就會與失去道德的行為同化。與道同化的人，道也樂於接納他；與德同化的人，德也樂於接納他；與失去道德同化的人，失也樂於接納他。如果統治者的誠信不足，人民自然就不會相信他。",
+        "analysis": "【訓詁與名物】\\n「希言」指少說話，引申為政令簡靜；「自然」指事物的本然狀態，不假人為；「飄風」指狂風；「終朝」指整個早晨；「驟雨」指暴雨；「德」此指順應道的行為；「失」指背離道德；「信不足，焉有不信焉」指上位者誠信不足，下位者必然不信任（部分版本作「信不足焉，有不信焉」）。\\n【章法與結構】\\n全章層次分明。首句「希言自然」為全章總綱；接著以「飄風」、「驟雨」這兩種極端自然現象的不可持久，反襯出「天地尚不能久，而況於人」的道理，論證強作妄為無法長久。其後運用「同於道」、「同於德」、「同於失」的排比與同語反覆，說明人生的境遇取決於自身的選擇與同化。最後以「信」作結，點出政治與做人的根本。\\n【思想與義理】\\n本章集中闡發了老子「順應自然、無為而治」的哲學思想。老子認為，任何違背自然常態的劇烈行為（如狂風暴雨、繁苛政令）都無法持久。人若強行幹預自然，最終必歸於失敗。因此，修道者與統治者皆應「希言」，減少人為的幹擾，順應大道的運作。「同於道者，道亦樂得之」揭示了同類相求、物以類聚的宇宙法則，指出人的行為取向決定了最終的歸宿。最後對「信」的強調，指出統治的基礎在於真誠無妄，若以強權或虛偽治國，必將失去民心。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-24_p-1",
+      "chapterId": "dao-de-jing_ch-24",
+      "order": 1,
+      "canonicalText": "企者不立；跨者不行；自見者不明；自是者不彰；自伐者無功；自矜者不長。其在道也，曰：餘食贅行。物或惡之，故有道者不處。",
+      "sentenceIds": [
+        "dao-de-jing_ch-24_p-1_s-1",
+        "dao-de-jing_ch-24_p-1_s-2",
+        "dao-de-jing_ch-24_p-1_s-3",
+        "dao-de-jing_ch-24_p-1_s-4",
+        "dao-de-jing_ch-24_p-1_s-5",
+        "dao-de-jing_ch-24_p-1_s-6",
+        "dao-de-jing_ch-24_p-1_s-7",
+        "dao-de-jing_ch-24_p-1_s-8"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "踮起腳尖想要站得高，反而無法站穩；邁開大步想要走得快，反而無法走遠；喜歡自我炫耀的人，反而無法看清事物的真相；自以為是的人，反而無法彰顯自己的名聲；自我誇耀功勞的人，反而得不到真正的功勞；自尊自大的人，反而無法長久領導眾人。這些行為從道的觀點來看，就叫做剩飯和贅瘤。萬物都厭惡這些東西，所以得道的人絕對不會去做這些事。",
+        "analysis": "【訓詁與名物】\\n「企」指踮起腳尖；「跨」指邁大步；「自見」指自我炫耀、固執己見（見，同現）；「自是」指自以為是；「自伐」指自我誇耀功勞；「自矜」指自尊自大；「餘食」指喫剩的食物，喻惹人厭惡之物；「贅行」指身上多餘的肉瘤，喻多餘無用的行為。\\n【章法與結構】\\n前半段運用了六個平行的排比句（企者……跨者……自見者……自是者……自伐者……自矜者……），前兩句以具體的肢體動作（企、跨）為喻，後四句直指心理與行為（自見、自是、自伐、自矜），皆指出「強求」與「造作」會帶來適得其反的結果。後半段則以「餘食贅行」這兩個極具畫面感且帶有貶義的詞彙作總結，並引出「有道者不處」的結論。\\n【思想與義理】\\n本章深刻批判了世俗之人急功近利、自我膨脹的心理與行為。老子透過「企」與「跨」的生動比喻，揭示了一個悖論：越是刻意追求表現、越是急於求成，反而越會破壞自身的平衡，最終一無所獲。自我炫耀、自以為是、誇耀功勞，都是違背「自然」與「無為」大道的「餘食贅行」。真正的得道者（有道者），深知「不爭之爭」的道理，他們內斂、謙卑、順應自然，不以自我為中心，因此能免於招致萬物的厭惡，達到長久與安定的境界。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-25_p-1",
+      "chapterId": "dao-de-jing_ch-25",
+      "order": 1,
+      "canonicalText": "有物混成，先天地生。寂兮寥兮，獨立不改，周行而不殆，可以為天下母。吾不知其名，字之曰道，強為之名曰大。大曰逝，逝曰遠，遠曰反。故道大，天大，地大，王亦大。域中有四大，而王居其一焉。人法地，地法天，天法道，道法自然。",
+      "sentenceIds": [
+        "dao-de-jing_ch-25_p-1_s-1",
+        "dao-de-jing_ch-25_p-1_s-2",
+        "dao-de-jing_ch-25_p-1_s-3",
+        "dao-de-jing_ch-25_p-1_s-4",
+        "dao-de-jing_ch-25_p-1_s-5",
+        "dao-de-jing_ch-25_p-1_s-6",
+        "dao-de-jing_ch-25_p-1_s-7"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "有一種渾然一體、無形無象的終極實體（有物混成），在天地宇宙形成之前就已經永恆存在了（先天地生）。它無聲無息無影無蹤（寂兮寥兮），獨立永恆長存而永不改變衰竭（獨立不改），周流運行於浩瀚宇宙之中而永不陷入危殆（周行而不殆），完全可以作為孕育天地萬物的終極偉大母體（可以為天下母）！我並不知道它本來的真實名號，只能給它起一個表字稱之為道，勉強給它定一個形容名詞稱之為大。廣大無邊就會周流運行不息（大曰逝），周流不息就會延伸至極其深遠的極限（逝曰遠），深遠到了極限又會循環往復回歸於本原（遠曰反）！所以宇宙之中：道至大，天至大，地至大，人間的君王（王）同樣至大！宇宙空間之中存在著這四種至高無上的偉大力量（域中有四大），而人間君王正是其中不可或缺的一大！人類應當效法大地的厚德載物（人法地），大地應當效法蒼天的清虛無私（地法天），蒼天應當效法大道的生生不息（天法道），而至高大道所效法的正是其自身純粹本然、順應萬物的客觀自然法則（道法自然）！",
+        "analysis": "【題解與有物混成先天地生獨立不改周行不殆道大天地大人法地地法天天法道道法自然宇宙四大論】《老子》全書最壯麗之宇宙本體論與政治哲學憲章——揭示道的永恆運轉規律（大、逝、遠、反），確立宇宙四大（道、天、地、王），最終推導出中國哲學之至高命題：「人法地，地法天，天法道，道法自然」。\\n【詞義訓詁】「寂兮寥兮」：寂，無聲；寥，無形無象空曠貌；「周行不殆」：周流循環運行而永無危殆；「道法自然」：道以自己本來的自然狀態為法則，不假外求。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-26_p-1",
+      "chapterId": "dao-de-jing_ch-26",
+      "order": 1,
+      "canonicalText": "重為輕根，靜為躁君。是以聖人終日行不離輜重。雖有榮觀，燕處超然。奈何萬乘之主，而以身輕天下？輕則失本，躁則失君。",
+      "sentenceIds": [
+        "dao-de-jing_ch-26_p-1_s-1",
+        "dao-de-jing_ch-26_p-1_s-2",
+        "dao-de-jing_ch-26_p-1_s-3",
+        "dao-de-jing_ch-26_p-1_s-4",
+        "dao-de-jing_ch-26_p-1_s-5"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "厚重是輕浮的根本，靜定是躁動的主宰。因此，有道的聖人整天行走，都不會離開載滿輜重的車輛；雖然生活在榮華富貴的景觀之中，卻能安然處之，超脫於外物之上。為什麼擁有萬輛兵車的大國君主，卻把自己的生命看得比治理天下還要輕率呢？如果輕浮，就會失去根本；如果躁動，就會失去主宰的地位。",
+        "analysis": "【訓詁與名物】\\n「重」指厚重、沉穩；「輕」指輕率、浮躁；「靜」指安靜、靜定；「躁」指躁動不安；「君」指主宰、統帥；「輜重」指行軍時裝載物資的車輛，引申為根本、依託；「榮觀」指華麗的觀閣，泛指榮華富貴；「燕處」指閒居、安處；「萬乘之主」指大國的君主。\\n【章法與結構】\\n全章首尾呼應，結構嚴密。開篇直接提出「重為輕根，靜為躁君」兩大核心哲理，定下全篇基調。接著以「聖人」的行為作正面示範，無論是行軍不離輜重，還是身處榮觀而超然，皆體現了「重」與「靜」。隨後筆鋒一轉，以「奈何」的反問句式，對「萬乘之主」的輕躁行為提出嚴厲批評。最後兩句「輕則失本，躁則失君」則與開頭完美呼應，總結出輕躁的致命後果。\\n【思想與義理】\\n老子在此章闡述了「重」與「靜」在修身與治國中的核心地位。宇宙的運作法則是，穩重是承載輕浮的基礎，寧靜是控制躁動的力量。作為統治者，若不能保持內心的沉穩與靜定，而在權力與物慾中迷失（以身輕天下），就會失去治國的根本，最終導致國破家亡。老子藉此告誡世人，特別是掌權者，必須學會「燕處超然」，不被外在的浮華所迷惑，牢牢守住內心的「重」與「靜」，方能立於不敗之地。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-27_p-1",
+      "chapterId": "dao-de-jing_ch-27",
+      "order": 1,
+      "canonicalText": "善行無轍跡，善言無瑕讁；善數不用籌策；善閉無關楗而不可開，善結無繩約而不可解。是以聖人常善救人，故無棄人；常善救物，故無棄物。是謂襲明。故善人者，不善人之師；不善人者，善人之資。不貴其師，不愛其資，雖智大迷，是謂要妙。",
+      "sentenceIds": [
+        "dao-de-jing_ch-27_p-1_s-1",
+        "dao-de-jing_ch-27_p-1_s-2",
+        "dao-de-jing_ch-27_p-1_s-3",
+        "dao-de-jing_ch-27_p-1_s-4",
+        "dao-de-jing_ch-27_p-1_s-5",
+        "dao-de-jing_ch-27_p-1_s-6",
+        "dao-de-jing_ch-27_p-1_s-7",
+        "dao-de-jing_ch-27_p-1_s-8",
+        "dao-de-jing_ch-27_p-1_s-9"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "善於行走的人，不會留下車轍與足跡；善於說話的人，不會留下破綻讓人指責；善於計算的人，不需要使用籌碼也能算得精準；善於關閉的人，不需要用門閂也能讓人無法打開；善於打結的人，不需要用繩索也能讓人無法解開。因此，聖人總是善於拯救人，所以天下沒有被廢棄的人；總是善於物盡其用，所以天下沒有被廢棄的物。這就叫做內藏智慧、傳承明道。所以，善人是不善之人的老師；不善之人是善人可以用來借鑒的資材。如果不尊重老師，不愛惜資材，自以為聰明其實是陷入了極大的迷惘，這就是精深微妙的道理。",
+        "analysis": "【訓詁與名物】\\n「瑕讁」指玉的斑點，引申為過失、破綻；「數」指計算；「籌策」指古代計算用的竹木籌碼；「關楗」指門閂，用來關門的木條；「繩約」指用繩索捆綁；「襲明」指掩藏智慧而不外露，或指承襲自然的光明大道；「資」指資材、借鑒。\\n【章法與結構】\\n本章分三層。第一層連用五個「善……無（不）……」的排比句，從行、言、數、閉、結五個生活面向，描繪出「無為」而至極致的境界。第二層由物及人，過渡到聖人治世的原則，提出「無棄人」、「無棄物」的博大胸襟，並總結為「襲明」。第三層則以辯證的邏輯，探討「善人」與「不善人」的相互關係，指出師資相待的道理，最後以「要妙」作結。\\n【思想與義理】\\n此章深入闡釋了老子的「無為之用」與「包容精神」。最高超的技藝是不露痕跡、順應自然的，這就是「善」。聖人秉持這種大智慧治國，不會以世俗的標準去苛求或放棄任何人事物，而是因材施教、物盡其用，使一切都能發揮其本性。此外，老子打破了善與不善的絕對對立，認為兩者是相互依存的：善人可以教導不善之人，而不善之人則為善人提供了施教的對象與反省的借鑒。這種不偏執、齊物平等的玄妙智慧，正是道家的精髓所在。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-28_p-1",
+      "chapterId": "dao-de-jing_ch-28",
+      "order": 1,
+      "canonicalText": "知其雄，守其雌，為天下谿。為天下谿，常德不離，復歸於嬰兒。知其白，守其黑，為天下式。為天下式，常德不忒，復歸於無極。知其榮，守其辱，為天下谷。為天下谷，常德乃足，復歸於樸。樸散則為器，聖人用之，則為官長，故大制不割。",
+      "sentenceIds": [
+        "dao-de-jing_ch-28_p-1_s-1",
+        "dao-de-jing_ch-28_p-1_s-2",
+        "dao-de-jing_ch-28_p-1_s-3",
+        "dao-de-jing_ch-28_p-1_s-4",
+        "dao-de-jing_ch-28_p-1_s-5",
+        "dao-de-jing_ch-28_p-1_s-6",
+        "dao-de-jing_ch-28_p-1_s-7"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "深知什麼是剛強雄偉，卻安於持守柔弱雌伏，甘願做天下的溝壑。甘願做天下的溝壑，永恆的德性就不會離失，從而回復到如嬰兒般純真無邪的狀態。深知什麼是光明清白，卻安於持守闇昧幽黑，甘願做天下的法度。甘願做天下的法度，永恆的德性就不會產生差錯，從而回復到無邊無際的原始狀態。深知什麼是榮耀顯赫，卻安於持守卑微受辱，甘願做天下的川穀。甘願做天下的川穀，永恆的德性才能充足，從而回復到未經雕琢的質樸狀態。質樸的木頭被剖開雕琢，就變成了各種具體的器具；聖人如果任用這些質樸的人才，就能使他們成為百官之長。所以，偉大的治國法則是不會隨意分割、割裂萬物的本性的。",
+        "analysis": "【訓詁與名物】\\n「雄」比喻剛強、進取；「雌」比喻柔弱、退守；「谿」指溪谷，喻低窪容納之處；「嬰兒」喻純真無邪的本性；「白」喻顯明；「黑」喻隱暗；「式」指法則、模範；「忒」指差錯；「無極」指沒有極限的原始大道；「榮」指榮耀；「辱」指屈辱；「谷」喻虛通廣大；「樸」指未經雕琢的原木，喻純真本性；「器」指具體的器具，喻有特定用途之物；「大制不割」指大道治國是渾然一體的，不妄加分割與破壞。\\n【章法與結構】\\n全章主體由三組結構對稱的排比句構成（知其……守其……為天下……）。每一組皆先提出一組對立概念（雄/雌、白/黑、榮/辱），並強調「知陽守陰」的原則；接著闡述保持此原則所帶來的「常德」（不離、不忒、乃足）；最後指出修養的終極回歸（嬰兒、無極、樸）。結尾段則從「樸」引申至「器」，論述聖人治國的原則，由個人修養昇華至政治哲學。\\n【思想與義理】\\n本章集中展現了老子「守柔貴雌」的辯證思想與「復歸」哲學。老子認為，世人多追求剛強、光明與榮耀，但這些都是外在且易逝的。真正的智者雖然了知這些陽剛的面向，卻選擇退守柔弱、闇昧與屈辱的陰柔面。因為唯有處於低下的溪谷，才能海納百川；唯有守住謙卑與柔弱，才能保全本真。最終，人的精神將回復到如嬰兒般純真、如無極般廣大、如原木般質樸的境界。老子並以此推廣至政治，主張為政應順應自然之「樸」，保持渾然一體的大道（大制不割），反對人為的分割與雕琢，展現了宏大的政治智慧。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-29_p-1",
+      "chapterId": "dao-de-jing_ch-29",
+      "order": 1,
+      "canonicalText": "將欲取天下而為之，吾見其不得已。天下神器，不可為也，為者敗之，執者失之。故物或行或隨；或歔或吹；或強或羸；或挫或隳。是以聖人去甚，去奢，去泰。",
+      "sentenceIds": [
+        "dao-de-jing_ch-29_p-1_s-1",
+        "dao-de-jing_ch-29_p-1_s-2",
+        "dao-de-jing_ch-29_p-1_s-3",
+        "dao-de-jing_ch-29_p-1_s-4",
+        "dao-de-jing_ch-29_p-1_s-5",
+        "dao-de-jing_ch-29_p-1_s-6",
+        "dao-de-jing_ch-29_p-1_s-7"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "想要奪取天下並以人為的方式去治理它，我看他是無法達到目的的。天下就像一件神聖的器物，是不能憑藉主觀意願去強行幹預的。強行幹預的人必定會導致敗壞，妄圖把持的人必定會失去它。因此，世間萬物的本性，有的是在前行走，有的在後跟隨；有的性情和緩如輕吐氣，有的性情急躁如急吹氣；有的強壯，有的瘦弱；有的受挫，有的毀壞。所以，得道的聖人總是去除極端的行為，去除奢侈的物慾，去除過度的驕縱，一切順應自然。",
+        "analysis": "【訓詁與名物】「取」指奪取、治理。「為」指人為的幹預、強求。「神器」比喻天下乃神聖不可侵犯之物。「歔（xū）」指輕輕吐氣，比喻性情溫和緩慢。「吹」指急吐氣，比喻性情急躁。「羸（léi）」指瘦弱。「挫」指受挫折。「隳（huī）」指毀壞。「甚」指極端。「奢」指奢侈。「泰」指過度。\\n【章法與結構】本章可分三層。首句提出主旨，否定強作妄為；中段以「天下神器」的譬喻與「或...或...」的排比句式，論證萬物皆有其自然本性，不可強求一致；末句以「是以...」作結，推導出聖人「去甚、去奢、去泰」的無為治道。邏輯嚴密，層次分明。\\n【思想與義理】此章是老子「無為而治」政治哲學的體現。老子將「天下」視為具有內在自然規律的「神器」，反對任何憑藉主觀意志的強行幹預。萬物形態各異、稟賦不同，統治者若以統一的標準去強行塑造或控制，必然適得其反。因此，理想的統治者應當戒除極端與過度的欲望，順應萬物的自然發展，才能長治久安。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-30_p-1",
+      "chapterId": "dao-de-jing_ch-30",
+      "order": 1,
+      "canonicalText": "以道佐人主者，不以兵強天下。其事好還。師之所處，荊棘生焉。大軍之後，必有凶年。善有果而已，不敢以取強。果而勿矜，果而勿伐，果而勿驕。果而不得已，果而勿強。物壯則老，是謂不道，不道早已。",
+      "sentenceIds": [
+        "dao-de-jing_ch-30_p-1_s-1",
+        "dao-de-jing_ch-30_p-1_s-2",
+        "dao-de-jing_ch-30_p-1_s-3",
+        "dao-de-jing_ch-30_p-1_s-4",
+        "dao-de-jing_ch-30_p-1_s-5",
+        "dao-de-jing_ch-30_p-1_s-6",
+        "dao-de-jing_ch-30_p-1_s-7",
+        "dao-de-jing_ch-30_p-1_s-8"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "輔佐君王修道的人，不會用軍隊武力來稱霸天下。因為用兵這件事，必定會引來報應與反撲。軍隊駐紮過的地方，田地荒蕪，會長滿荊棘。大規模的戰爭之後，必定會伴隨著饑荒與災年。善於用兵的人，只求達到自衛的結果就停止，不敢藉此來逞強爭霸。達到了目的也不要自尊自大，達到了目的也不要誇耀功勞，達到了目的也不要驕傲自滿。達到了目的要當作是出於不得已，達到了目的也不要逞強。事物發展到了極盛就會開始衰老，這叫作不符合道，不符合道的事物很快就會消亡。",
+        "analysis": "【訓詁與名物】「以道佐人主」指以大道的原則來輔佐君王。「強」作動詞，指稱霸、逞強。「好還」指容易招致報應或報復。「師」指軍隊。「凶年」指災荒之年。「果」指結果、達到目的，此處特指戰爭取勝。「矜」指自負、自大。「伐」指誇耀功勞。「物壯則老」指事物強盛到了極點就會轉向衰亡。「早已」指很早就滅亡。\\n【章法與結構】全章圍繞「反戰」與「不爭」展開。首先點明不以武力稱霸的主旨，接著以「荊棘生」、「必有凶年」具體描繪戰爭的殘酷後果。隨後連用數個「果而勿...」的排比，反覆告誡取勝後應有的謙卑態度。最後以「物壯則老」的哲理作結，首尾呼應，語重心長。\\n【思想與義理】本章集中表達了老子的反戰思想與辯證法觀點。老子並非絕對的和平主義者，他承認有「不得已」的自衛戰爭，但他極力反對窮兵黷武與恃強凌弱。他深刻洞察到「物極必反」的規律，認為過度追求強盛（物壯）違背了自然柔弱的本性（不道），最終必將招致快速的滅亡。這教導統治者應知止知足，保持柔弱謙退的態度。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-31_p-1",
+      "chapterId": "dao-de-jing_ch-31",
+      "order": 1,
+      "canonicalText": "夫佳兵者，不祥之器，物或惡之，故有道者不處。君子居則貴左，用兵則貴右。兵者不祥之器，非君子之器，不得已而用之，恬淡為上。勝而不美，而美之者，是樂殺人。夫樂殺人者，則不可以得志於天下矣。吉事尚左，凶事尚右。偏將軍居左，上將軍居右，言以喪禮處之。殺人之眾，以哀悲泣之，戰勝以喪禮處之。",
+      "sentenceIds": [
+        "dao-de-jing_ch-31_p-1_s-1",
+        "dao-de-jing_ch-31_p-1_s-2",
+        "dao-de-jing_ch-31_p-1_s-3",
+        "dao-de-jing_ch-31_p-1_s-4",
+        "dao-de-jing_ch-31_p-1_s-5",
+        "dao-de-jing_ch-31_p-1_s-6",
+        "dao-de-jing_ch-31_p-1_s-7",
+        "dao-de-jing_ch-31_p-1_s-8"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "精良的兵器，是不吉利的器具，連萬物都可能厭惡它，所以有道的人不願使用它。君子平時生活以左方為尊，但用兵打仗時卻以右方為尊。兵器是不吉利的器具，不是君子所應依賴的器具，只有在萬不得已的情況下才使用它，並且以不狂熱、淡然處之為最好。打勝仗了也不要把這當作美事，如果把戰爭當作美事，那就是喜歡殺人。喜歡殺人的人，是絕對不可能在天下實現其志向的。吉慶的事情以左方為尊，兇喪的事情以右方為尊。軍隊中副將站在左邊，主將站在右邊，這說明戰爭是按照喪禮的儀式來處理的。戰爭中殺死了眾多的人，應當以悲痛哀傷的心情來哭泣他們；打了勝仗，也必須以喪禮的儀式來對待。",
+        "analysis": "【訓詁與名物】「佳兵」指銳利精良的武器。「不處」指不居留、不使用。「貴左」、「貴右」：古人以左為陽為吉，以右為陰為兇。「恬淡」指安靜淡泊，不熱衷求勝。「美之」指以此為美、讚美。「偏將軍」即副將。「上將軍」即主將。「喪禮」指哀悼死者的禮儀。\\n【章法與結構】本章延續上一章的反戰主題，但從禮儀與情感的角度切入。先定調兵器為「不祥之器」，接著引入左右尊卑的傳統禮俗，對比吉事與凶事、居處與用兵的差異。最後將戰爭的勝利與喪禮畫上等號，以「哀悲泣之」的情感作結，極具震撼力與人道關懷。\\n【思想與義理】老子在此章將對戰爭的批判推向了更高的道德與人道層次。他不僅反對好戰，更嚴厲譴責那些以戰爭勝利為榮的統治者。將勝利的慶典轉化為哀悼亡靈的喪禮，體現了老子深切的悲憫之心。這種「勝而不美」、「戰勝以喪禮處之」的觀念，是對暴力與征服的根本否定，強調了對生命的絕對尊重，是中國古代思想中極為珍貴的和平主義宣言。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-32_p-1",
+      "chapterId": "dao-de-jing_ch-32",
+      "order": 1,
+      "canonicalText": "道常無名。天下莫能臣也。侯王若能守之，萬物將自賓。天地相合，以降甘露，民莫之令而自均。始制有名，名亦既有，夫亦將知止，知止所以不殆。譬道之在天下，猶川穀之與江海。",
+      "sentenceIds": [
+        "dao-de-jing_ch-32_p-1_s-1",
+        "dao-de-jing_ch-32_p-1_s-2",
+        "dao-de-jing_ch-32_p-1_s-3",
+        "dao-de-jing_ch-32_p-1_s-4",
+        "dao-de-jing_ch-32_p-1_s-5",
+        "dao-de-jing_ch-32_p-1_s-6"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "道是永恆存在而沒有固定名稱與形體的。天下沒有任何人能夠讓它臣服。王侯如果能夠持守這個道，天下萬物將會自然地歸順。天地之氣相互交合，便會降下滋潤萬物的甘露，人們不需要下達命令，甘露自然會均勻地灑落。當人類開始建立制度，事物就有了名稱，既然有了名稱與制度的分別，就應當知道適可而止。知道適可而止，就能避免陷入危險。打個比方，道存在於天下，滋養萬物，就如同無數的山川溪谷最終都自然地匯流到長江與大海中一樣。",
+        "analysis": "【訓詁與名物】「無名」指道超越具體事物，無法用語言名稱來限定。「臣」作動詞，使之臣服。「守之」指持守大道的原則。「自賓」指自然歸順、服從。「甘露」指滋潤萬物的露水。「自均」指自然均勻分佈。「始制有名」指人類開始建立制度、劃分階級名分。「知止」指知道適可而止，不逾越本分。「不殆」指沒有危險。「川穀之與江海」比喻萬物自然歸向於道。\\n【章法與結構】本章結構由大及小，再由小返大。開頭論述「道」的無名與偉大，次以「甘露自均」比喻無為而治的理想境界。接著筆鋒一轉，談到人類社會「始制有名」後的應對態度——「知止」。最後以「川穀歸江海」的壯闊意象作結，將人事重新融入自然的大道之中，氣韻生動。\\n【思想與義理】此章闡述了「道」的至高無上以及無為而治的政治藍圖。老子認為，理想的統治如同天地降下甘露般自然均勻，不需要強制的命令。然而，人類社會必然會發展出制度與名分（始制有名），面對這種必然的異化，老子提出了「知止」的智慧。只有知止，不無休止地追求名利權力，才能保持社會的平衡與安全。最終，統治者若能守道，萬心歸附便如同百川歸海般自然而然。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-33_p-1",
+      "chapterId": "dao-de-jing_ch-33",
+      "order": 1,
+      "canonicalText": "知人者智，自知者明。勝人者有力，自勝者強。知足者富。強行者有志。不失其所者久。死而不亡者壽。",
+      "sentenceIds": [
+        "dao-de-jing_ch-33_p-1_s-1",
+        "dao-de-jing_ch-33_p-1_s-2",
+        "dao-de-jing_ch-33_p-1_s-3",
+        "dao-de-jing_ch-33_p-1_s-4",
+        "dao-de-jing_ch-33_p-1_s-5",
+        "dao-de-jing_ch-33_p-1_s-6"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "能夠了解他人的人，是有智慧的；能夠清楚認識自己的人，才是真正內心明達的。能夠戰勝他人的人，是有力量的；能夠剋制並戰勝自己弱點的人，才是真正的剛強。知道滿足的人，才是真正的富有。能夠堅持不懈去實行大道的人，是有堅定意志的。能夠不喪失其根本與立身之所的人，才能長久存在。肉體死亡而精神與道同在、不被遺忘的人，才是真正的長壽。",
+        "analysis": "【訓詁與名物】「智」指一般的分辨能力與聰明。「明」指內在的洞察力與覺悟。「力」指外在的勇力。「強」指內在的堅韌與強大。「強行」指堅持不懈地努力實踐。「所」指立身之本或大道的根本。「死而不亡」指形體雖然消逝，但精神、道德或思想永存不朽。\\n【章法與結構】全章由六組精煉的對偶或獨立短句組成。前兩句「知人...自知...」、「勝人...自勝...」構成對比，強調「自」重於「人」。後四句「知足...」、「強行...」、「不失...」、「死而...」則層層遞進，從財富、意志、長久到生死，全面重新定義了世俗的價值觀。語言簡潔，擲地有聲。\\n【思想與義理】這是老子探討個人修養與人生境界的一章。老子將人們對外驚世界（知人、勝人）的關注，轉向了對內在自我（自知、自勝）的覺醒。真正的智慧與力量不在於征服外界，而在於克服自身的欲望與弱點。透過「知足」獲得心靈的富足，透過「自勝」建立精神的剛強，最終達到超越生死、與道合一的「死而不亡」境界。這是一種向內探求的深刻哲學。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-34_p-1",
+      "chapterId": "dao-de-jing_ch-34",
+      "order": 1,
+      "canonicalText": "大道汎兮，其可左右。萬物恃之而生而不辭，功成不名有。衣養萬物而不為主，常無欲，可名於小；萬物歸焉，而不為主，可名為大。以其終不自為大，故能成其大。",
+      "sentenceIds": [
+        "dao-de-jing_ch-34_p-1_s-1",
+        "dao-de-jing_ch-34_p-1_s-2",
+        "dao-de-jing_ch-34_p-1_s-3",
+        "dao-de-jing_ch-34_p-1_s-4",
+        "dao-de-jing_ch-34_p-1_s-5"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "偉大的道廣泛無邊地流佈著，它可以向左也可以向右，無所不在。宇宙萬物都依恃著它生長，而它卻從不推辭拒絕；大功告成之後，它也不把功勞據為己有。它像衣物般覆蓋、養育著萬物，卻不自居為主宰。因為它永遠沒有私慾，所以可以稱它是微小的；然而萬物最終都歸附於它，它依然不自居為主宰，所以可以稱它是偉大的。正因為它始終不自以為偉大，所以最終才能成就它的偉大。",
+        "analysis": "【訓詁與名物】「汎」同泛，指水流廣闊、無處不在。「不辭」指不推辭、不拒絕。「不名有」指不佔有、不自命為己有。「衣養」指覆蓋並養育。「無欲」指沒有私心與佔有慾望。「不自為大」指不自居偉大。【章法與結構】此段採用了先總述後分述的結構，運用對比辯證的手法。先總言「道」的廣大與無私，隨後以「可名於小」與「可名為大」形成強烈的悖論與張力，最後以「終不自為大，故能成其大」進行總結昇華，邏輯嚴密，氣勢宏大。【思想與義理】此章深刻闡述了老子「道」的本體論與辯證法。「道」生養萬物卻不主宰萬物，體現了「生而不有，為而不恃」的自然無為精神。老子通過「大小之辨」，揭示了真正的偉大在於不自以為大（即「無私」與「謙卑」），這為後世提供了「柔弱勝剛強」與「無為而治」的哲學根基與政治智慧。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-35_p-1",
+      "chapterId": "dao-de-jing_ch-35",
+      "order": 1,
+      "canonicalText": "執大象，天下往。往而不害，安平大。樂與餌，過客止。道之出口，淡乎其無味，視之不足見，聽之不足聞，用之不足既。",
+      "sentenceIds": [
+        "dao-de-jing_ch-35_p-1_s-1",
+        "dao-de-jing_ch-35_p-1_s-2",
+        "dao-de-jing_ch-35_p-1_s-3",
+        "dao-de-jing_ch-35_p-1_s-4"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "誰能掌握並持守那代表大道的偉大形象，天下的百姓就會歸向他。天下人歸向他也不會受到傷害，反而能得到極大的安寧與太平。美妙的音樂與美味的食物，能讓過往的客人停下腳步。然而，大道從口中說出來的話語，卻是那樣平淡無味；用眼睛去看它，它不夠顯眼、看不見；用耳朵去聽它，它不夠響亮、聽不到；但是把大道運用起來，它的作用卻是無窮無盡、永遠用不完的。",
+        "analysis": "【訓詁與名物】「大象」指無形無象的「道」的整體形象與規律。「往」指歸向、嚮往。「安平大」指極其安寧與太平。「樂與餌」指音樂與美食，借指世俗的聲色享受。「淡乎其無味」指平淡沒有味道。「不足既」指用不盡，既是盡的意思。【章法與結構】此段先從政治治理的角度出發，說明持守「大象」能帶來的「安平大」效果；接著以「樂與餌」能留客作為對比，反襯出「道」的言語雖然「淡乎其無味」，且視聽皆不可得，但其功用卻是無窮的。對比鮮明，層層遞進。【思想與義理】老子在此章闡述了「道」的超驗性與實用性的統一。世俗的聲色（樂與餌）雖然能短暫吸引人，但唯有持守無形、無聲、無味的「道」，才能帶來真正的天下太平。「道」看似平淡無奇、難以感知，但它才是宇宙與人生的根本法則，其妙用無窮無盡。這告誡統治者應超越感官慾望，以無為之道治國。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-36_p-1",
+      "chapterId": "dao-de-jing_ch-36",
+      "order": 1,
+      "canonicalText": "將欲歙之，必固張之；將欲弱之，必固強之；將欲廢之，必固興之；將欲奪之，必固與之。是謂微明。柔弱勝剛強。魚不可脫於淵，國之利器不可以示人。",
+      "sentenceIds": [
+        "dao-de-jing_ch-36_p-1_s-1",
+        "dao-de-jing_ch-36_p-1_s-2",
+        "dao-de-jing_ch-36_p-1_s-3",
+        "dao-de-jing_ch-36_p-1_s-4",
+        "dao-de-jing_ch-36_p-1_s-5",
+        "dao-de-jing_ch-36_p-1_s-6",
+        "dao-de-jing_ch-36_p-1_s-7"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "想要收斂它，必先暫時讓它擴張；想要削弱它，必先暫時讓它強大；想要廢除它，必先暫時讓它興盛；想要奪取它，必先暫時給予它。這種洞察事物發展規律的智慧，就叫做微妙的明達。柔弱的事物最終能戰勝剛強的事物。魚不能脫離深淵，國家治國的鋒利權謀與兵器，也不能輕易展示給眾人看。",
+        "analysis": "【訓詁與名物】「歙」音翕，收斂、合攏。「張」擴張。「廢」廢除、衰落。「與」給予。「微明」指幽深微妙的智慧與洞察力。「利器」指國家賴以生存的權柄、武力或治國的根本方法。【章法與結構】前四句構成排比，運用「將欲……必固……」的句式，揭示了事物發展中物極必反的規律。隨後點出「是謂微明」與「柔弱勝剛強」的核心論點。最後以「魚不可脫於淵」為喻，引出「國之利器不可以示人」的政治告誡，結構緊湊，語意深邃。【思想與義理】本章集中展現了老子深邃的辯證法思想，即矛盾的雙方在發展到極點時會向其對立面轉化。老子主張統治者應懂得「微明」，順應這種反向轉化的規律。同時，「柔弱勝剛強」是老子哲學的核心原則。最後將治國之道比作深淵之魚，警告統治者不可炫耀武力與權謀（利器），應當深藏不露，以無為、柔弱的姿態維持國家的長治久安。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-37_p-1",
+      "chapterId": "dao-de-jing_ch-37",
+      "order": 1,
+      "canonicalText": "道常無為而無不為。侯王若能守之，萬物將自化。化而欲作，吾將鎮之以無名之樸。無名之樸，夫亦將無欲。不欲以靜，天下將自定。",
+      "sentenceIds": [
+        "dao-de-jing_ch-37_p-1_s-1",
+        "dao-de-jing_ch-37_p-1_s-2",
+        "dao-de-jing_ch-37_p-1_s-3",
+        "dao-de-jing_ch-37_p-1_s-4",
+        "dao-de-jing_ch-37_p-1_s-5"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "大道永遠是順應自然、不妄為的，但卻沒有什麼事情是它不能成就的。諸侯與君王如果能持守這大道的原則，天下萬物將會自然而然地生長化育。在自然化育的過程中，如果萬物產生了貪婪造作的慾望，我將用那沒有名稱的純樸本性來鎮定它們。用那沒有名稱的純樸本性去鎮定，它們也就將不再有貪慾了。沒有貪慾就能保持清靜，天下自然就會安定太平了。",
+        "analysis": "【訓詁與名物】「無為而無不為」指順應自然不妄作，則萬事萬物皆能自然成就。「守之」指持守大道。「化」指生長化育、自然轉化。「作」指興起造作，特指貪慾的萌動。「無名之樸」指沒有名稱的、渾然一體的純樸本性（即道的本質）。「不欲」即無欲。「自定」指自然安定。【章法與結構】此段邏輯鏈條極為清晰：從「道常無為」推導出侯王「守之」則萬物「自化」；針對「化而欲作」的異變，提出「鎮之以無名之樸」的對策；進而推導出「無欲」與「靜」，最終達到「天下自定」的結論。環環相扣，渾然一體。【思想與義理】此章是老子「無為而治」政治哲學的總結與昇華。「無為」並非無所作為，而是不妄為，順應萬物的自然本性。當社會發展過程中出現人為的造作與貪慾時，老子主張不要用繁刑重罰去壓制，而是要用「無名之樸」引導百姓回歸純樸的本性。只有消除了過度的慾望（不欲），社會才能真正達到清靜與長久的安定。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-38_p-1",
+      "chapterId": "dao-de-jing_ch-38",
+      "order": 1,
+      "canonicalText": "上德不德，是以有德；下德不失德，是以無德。上德無為而無以為；下德為之而有以為。上仁為之而無以為；上義為之而有以為。上禮為之而莫之應，則攘臂而扔之。故失道而後德，失德而後仁，失仁而後義，失義而後禮。夫禮者，忠信之薄，而亂之首。前識者，道之華，而愚之始。是以大丈夫處其厚，不居其薄；處其實，不居其華。故去彼取此。",
+      "sentenceIds": [
+        "dao-de-jing_ch-38_p-1_s-1",
+        "dao-de-jing_ch-38_p-1_s-2",
+        "dao-de-jing_ch-38_p-1_s-3",
+        "dao-de-jing_ch-38_p-1_s-4",
+        "dao-de-jing_ch-38_p-1_s-5",
+        "dao-de-jing_ch-38_p-1_s-6",
+        "dao-de-jing_ch-38_p-1_s-7",
+        "dao-de-jing_ch-38_p-1_s-8",
+        "dao-de-jing_ch-38_p-1_s-9",
+        "dao-de-jing_ch-38_p-1_s-10",
+        "dao-de-jing_ch-38_p-1_s-11",
+        "dao-de-jing_ch-38_p-1_s-12",
+        "dao-de-jing_ch-38_p-1_s-13"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "具備最高道德的人不彰顯、不刻意追求道德的形式，因此才具有真正的道德；具備下等道德的人時時刻刻害怕失去道德的形式，因此沒有真正的道德。上德之人順應自然無為，且沒有任何刻意造作的目的；下德之人刻意去為，並且有其功利的目的。最高尚的仁有所作為，但沒有功利的目的；最高尚的義有所作為，且有其目的與標準。最高尚的禮有所作為，如果得不到別人的回應，就會捲起袖子強拉硬拽逼人服從。所以，失去了大道之後才強調德，失去了德之後才強調仁，失去了仁之後才強調義，失去了義之後才強調禮。所謂的禮，是忠信等淳厚本性的淡薄，也是天下動亂的開端。那些自以為是的先見之明，只是大道的虛華浮面，更是愚昧的開始。因此，真正的大丈夫立身於敦厚淳樸的本性，而不停留於淡薄的虛禮；立身於大道的質樸真實，而不停留於虛華的表面。所以，他們捨棄那些淡薄與虛華，而取法這敦厚與真實。",
+        "analysis": "【訓詁與名物】「上德」指最完美、順應自然的德。「不德」指不自以為有德，不拘泥於德的形式。「無以為」指沒有功利的目的和造作的用心。「有以為」指有目的、有造作。「攘臂而扔之」指捲起袖子強行拉扯別人。「忠信之薄」指內在誠信的衰微。「前識」指自作聰明的先見之明。「華」指虛華表面。【章法與結構】此章篇幅較長，採用了層層剝筍的演繹結構。先將德分為「上、下」，再依次剖析「上仁、上義、上禮」的特徵，推導出「道衰而有德、仁、義、禮」的歷史退化論。接著痛陳「禮」與「前識」的弊端，最後以大丈夫的「處厚不居薄，處實不居華」作結，邏輯嚴密，氣勢逼人。【思想與義理】此章是《德經》的開篇，深刻批判了儒家所推崇的仁義禮智。老子認為，道德的最高境界是自然無為的「上德」。當人類社會偏離了純樸的大道，纔不得不依靠人為的道德規範（仁、義、禮）來約束。尤其是「禮」，它是社會忠信衰退的表現，甚至會引發動亂。老子呼籲人們拋棄虛華的表象與外在的規範，回歸大道，堅守內心的純樸與真實。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1",
+      "chapterId": "dao-de-jing_ch-39",
+      "order": 1,
+      "canonicalText": "昔之得一者：天得一以清；地得一以寧；神得一以靈；谷得一以盈；萬物得一以生；侯王得一以為天下貞。其致之，天無以清，將恐裂；地無以寧，將恐發；神無以靈，將恐歇；谷無以盈，將恐竭；萬物無以生，將恐滅；侯王無以貴高，將恐蹶。故貴以賤為本，高以下為基。是以侯王自稱孤、寡、不穀。此非以賤為本耶？非乎？故致數譽無譽。不欲琭琭如玉，珞珞如石。",
+      "sentenceIds": [
+        "dao-de-jing_ch-39_p-1_s-1",
+        "dao-de-jing_ch-39_p-1_s-2",
+        "dao-de-jing_ch-39_p-1_s-3",
+        "dao-de-jing_ch-39_p-1_s-4",
+        "dao-de-jing_ch-39_p-1_s-5",
+        "dao-de-jing_ch-39_p-1_s-6",
+        "dao-de-jing_ch-39_p-1_s-7",
+        "dao-de-jing_ch-39_p-1_s-8",
+        "dao-de-jing_ch-39_p-1_s-9",
+        "dao-de-jing_ch-39_p-1_s-10",
+        "dao-de-jing_ch-39_p-1_s-11",
+        "dao-de-jing_ch-39_p-1_s-12",
+        "dao-de-jing_ch-39_p-1_s-13",
+        "dao-de-jing_ch-39_p-1_s-14",
+        "dao-de-jing_ch-39_p-1_s-15",
+        "dao-de-jing_ch-39_p-1_s-16",
+        "dao-de-jing_ch-39_p-1_s-17",
+        "dao-de-jing_ch-39_p-1_s-18"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "自古以來得到大道真純（得一）的天地萬物：\\n蒼天得到大道的一統純真，因而得以清朗明澈（天得一以清）；\\n大地得到大道的一統純真，因而得以安寧沉穩（地得一以寧）；\\n神明得到大道的一統純真，因而得以靈驗神妙（神得一以靈）；\\n山谷川壑得到大道的一統純真，因而得以充盈蓄水（谷得一以盈）；\\n萬事萬物得到大道的一統純真，因而得以生生繁衍（萬物得一以生）；\\n侯王君主得到大道的一統純真，因而得以成為主持天下正道秩序的最高統帥（以為天下貞）！推導其反面後果：蒼天若喪失了清朗的本真，恐怕就會崩塌碎裂；大地若喪失了安寧的本真，恐怕就會震盪塌陷（將恐發）；神明若喪失了靈妙的本真，恐怕就會枯竭停歇；山谷若喪失了充盈的本真，恐怕就會乾涸枯竭；萬物若喪失了生生的本真，恐怕就會滅絕消亡；侯王若喪失了謙下守道的根基，一味盲目自居尊貴高位，恐怕就會失足跌倒身敗名裂（將恐蹶）！所以：尊貴的地位必須以卑微平民作為根本依託（貴以賤為本），崇高的高位必須以低窪低下作為堅固基石（高以下為基）！正因如此古代賢明侯王君主，皆主動謙遜地自稱為孤家（孤）、寡人（寡）、不穀（善養無德之人）；這難道不正是以卑微謙下作為立國根本的生動體現嗎？難道不是這樣嗎？所以追求過多的世俗虛名讚美，反而會徹底喪失真正的崇高美譽（致數譽無譽）！我們絕不願追求如同美玉那樣晶瑩剔透惹人爭奪（不欲琭琭如玉），而甘願如同山野堅石那樣質樸粗礪而堅不可摧（珞珞如石）！",
+        "analysis": "【題解與昔之得一天得一以清地得一以寧萬物得一以生貴以賤為本高以下為基不欲琭琭如玉珞珞如石貴賤高下辯證法】全面論述「一（道）」對宇宙萬物的本體決定作用，提出「貴以賤為本、高以下為基」的政治哲學基石，以「琭琭如玉與珞珞如石」彰顯返璞歸真之志。\\n【詞義訓詁】「天下貞」：貞，正也，天下之中正典範；「將恐發」：發，動盪崩發地震；「將恐蹶」：蹶，音決，跌倒覆滅；「琭琭、珞珞」：琭琭，晶瑩孤高之美玉貌；珞珞，粗礪堅硬之山石貌。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-40_p-1",
+      "chapterId": "dao-de-jing_ch-40",
+      "order": 1,
+      "canonicalText": "反者道之動；弱者道之用。天下萬物生於有，有生於無。",
+      "sentenceIds": [
+        "dao-de-jing_ch-40_p-1_s-1",
+        "dao-de-jing_ch-40_p-1_s-2",
+        "dao-de-jing_ch-40_p-1_s-3"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "循環往復、向對立面轉化，是道運行的基本規律；柔弱不爭，是道發揮作用的根本方式。天下萬物都產生於看得見的有，而有又產生於看不見的無。",
+        "analysis": "【訓詁與名物】「反者」有兩層含義：一指事物發展到極點便向反面轉化，二指返本還原，回歸大道的本初狀態。「動」指運作、運行的規律。「弱者」指柔弱、退讓、處下的姿態。「用」指作用、功能、表現。「有」指有形有象的具體物質或狀態；「無」指無形無象的宇宙本源。\\n【章法與結構】本章極為精煉，僅二十字，卻分為兩個極具概括性的對句。前兩句「反者道之動；弱者道之用」揭示了道的運動法則與作用方式，句式整齊，音韻鏗鏘；後兩句「天下萬物生於有，有生於無」則從宇宙生成論的角度，追溯萬物的起源。從方法論到本體論，層層遞進，邏輯嚴密。\\n【思想與義理】此句為老子哲學的核心綱領。「反者道之動」揭示了辯證法的真理，警示人們在鼎盛時要看到衰敗的危機，在絕境中要看到重生的希望。「弱者道之用」則提倡守柔處弱的處世智慧，因為柔弱蘊含著無限的生機與潛力（如水）。而「有生於無」則打破了世俗對實體的執著，指出虛無、空靈才是孕育一切有形萬物的最高本體。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1",
+      "chapterId": "dao-de-jing_ch-41",
+      "order": 1,
+      "canonicalText": "上士聞道，勤而行之；中士聞道，若存若亡；下士聞道，大笑之。不笑不足以為道。故建言有之：明道若昧；進道若退；夷道若纇；上德若谷；太白若辱；廣德若不足；建德若偷；質真若渝；大方無隅；大器晚成；大音希聲；大象無形；道隱無名。夫唯道，善貸且成。",
+      "sentenceIds": [
+        "dao-de-jing_ch-41_p-1_s-1",
+        "dao-de-jing_ch-41_p-1_s-2",
+        "dao-de-jing_ch-41_p-1_s-3",
+        "dao-de-jing_ch-41_p-1_s-4",
+        "dao-de-jing_ch-41_p-1_s-5",
+        "dao-de-jing_ch-41_p-1_s-6",
+        "dao-de-jing_ch-41_p-1_s-7",
+        "dao-de-jing_ch-41_p-1_s-8",
+        "dao-de-jing_ch-41_p-1_s-9",
+        "dao-de-jing_ch-41_p-1_s-10",
+        "dao-de-jing_ch-41_p-1_s-11",
+        "dao-de-jing_ch-41_p-1_s-12",
+        "dao-de-jing_ch-41_p-1_s-13",
+        "dao-de-jing_ch-41_p-1_s-14",
+        "dao-de-jing_ch-41_p-1_s-15",
+        "dao-de-jing_ch-41_p-1_s-16",
+        "dao-de-jing_ch-41_p-1_s-17",
+        "dao-de-jing_ch-41_p-1_s-18"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "上等智慧的人聽了道，會努力去實踐它；中等智慧的人聽了道，則是將信將疑，若有若無；下等智慧的人聽了道，卻會大聲嘲笑它。如果不被嘲笑，那就不足以稱之為真正的道了。因此古語有言：光明的道看起來好像闇昧；前進的道看起來好像後退；平坦的道看起來好像崎嶇；崇高的德看起來好像低谷；最潔白的東西看起來好像有瑕疵；廣大的德看起來好像有所欠缺；剛健的德看起來好像怠惰；純真的本質看起來好像已經改變；最方正的東西是沒有邊角的；最貴重的器具是最後才能完成的；最宏大的聲音是聽不到響聲的；最偉大的形象是沒有形體的；道隱藏於萬物之中而沒有具體的名稱。唯有道，善於施與萬物並成就它們。",
+        "analysis": "【訓詁與名物】「上士、中士、下士」指智慧悟性高低不同的人。「建言」指古時立言、古語。「夷」指平坦。「纇」（lèi）指絲上的結節，引申為崎嶇不平。「谷」指虛空包容的深谷。「太白若辱」中，「太白」指極其潔白，「辱」指污垢、黑漬。「偷」指怠惰、苟且。「渝」指改變。「無隅」指沒有邊角。「善貸且成」指善於施與（貸）並成就萬物。\\n【章法與結構】全章分為三部分。開篇以三種人聞道後的不同反應起筆，引出「不笑不足以為道」的驚人論斷。中段以十二個排比句（建言）鋪陳，運用強烈的對比反差（明與昧、進與退、大與無等），營造出極具衝擊力的哲學意境。結尾以「夫唯道，善貸且成」收束全篇，點明大道的包容與偉大。\\n【思想與義理】本章深刻展現了老子「反常合道」的辯證思想。世俗的認知往往停留在事物的表象，追求外在的明、進、平、白、大；而大道的境界卻超越了這些相對的概念，呈現出與世俗常理截然相反的特徵。所謂「大方無隅」、「大音希聲」、「大象無形」，正是指出最高境界的美與真理，無法用常規的尺度去衡量，它超越了具體的形相，回歸到虛無與本真。這教導人們要打破世俗的偏見，用超越的眼光去體悟宇宙與人生的真理。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-42_p-1",
+      "chapterId": "dao-de-jing_ch-42",
+      "order": 1,
+      "canonicalText": "道生一，一生二，二生三，三生萬物。萬物負陰而抱陽，沖氣以為和。人之所惡，唯孤、寡、不穀，而王公以為稱。故物或損之而益，或益之而損。人之所教，我亦教之。強梁者不得其死，吾將以為教父。",
+      "sentenceIds": [
+        "dao-de-jing_ch-42_p-1_s-1",
+        "dao-de-jing_ch-42_p-1_s-2",
+        "dao-de-jing_ch-42_p-1_s-3",
+        "dao-de-jing_ch-42_p-1_s-4",
+        "dao-de-jing_ch-42_p-1_s-5",
+        "dao-de-jing_ch-42_p-1_s-6"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "道化生出混沌一氣，混沌一氣化生出陰陽二氣，陰陽二氣交衝和合化生出第三種均和之氣，這三種氣的作用化生出天下萬物。萬物背陰而向陽，在陰陽二氣的激盪交衝中達到和諧的狀態。世人所厭惡的，就是孤、寡、不穀這些詞，但王公貴族卻用它們來稱呼自己。所以萬事萬物，有時受到減損反而能獲得增加，有時獲得增加反而會招致減損。別人這樣教導，我也這樣教導：逞強好暴的人是不會有好下場的，我將把這句話作為教導眾人的宗旨。",
+        "analysis": "【訓詁與名物】「一」指道最初化生出的原始混沌狀態；「二」指陰陽二氣；「三」指陰陽交合而產生的和氣。「負陰而抱陽」比喻萬物都包含著陰陽兩個對立面。「沖氣以為和」指陰陽二氣互相激盪、交融而達到和諧平衡。「孤、寡、不穀」原是謙辭，意為無依無靠、寡德、不善，古代君王以此自稱，以示謙卑。「強梁」指強橫、兇暴。「教父」指施教的根本宗旨。\\n【章法與結構】本章結構獨特，包含了宇宙生成論、政治哲學和處世原則。首句以遞進的方式，構建了從「道」到「萬物」的創世圖景。接著以萬物「負陰抱陽」的普遍規律，引出人事上的「損益」辯證法。最後引用古訓「強梁者不得其死」作為全篇的總結，從形而上的天道落實到形而下的人事，轉折自然，意旨深遠。\\n【思想與義理】本章是老子宇宙觀與人生觀的集中體現。在宇宙觀上，提出了著名的「道生一……三生萬物」模式，強調了陰陽對立統一與和諧（沖氣以為和）是萬物生成的基礎。在人生觀與政治哲學上，通過君王自稱「孤寡」的例子，闡釋了「損之而益，益之而損」的辯證法，教導人們要懂得謙卑處下，不可自滿驕橫。最後對「強梁者」的警告，則再次印證了「柔弱勝剛強」的深刻道理。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-43_p-1",
+      "chapterId": "dao-de-jing_ch-43",
+      "order": 1,
+      "canonicalText": "天下之至柔，馳騁天下之至堅。無有入無間，吾是以知無為之有益。不言之教，無為之益，天下希及之。",
+      "sentenceIds": [
+        "dao-de-jing_ch-43_p-1_s-1",
+        "dao-de-jing_ch-43_p-1_s-2",
+        "dao-de-jing_ch-43_p-1_s-3"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "天下最柔弱的東西，卻能在天下最堅硬的東西中穿梭自如。沒有實體的東西，卻能滲透到沒有空隙的事物中去。我因此而認識到無為所帶來的巨大益處。不言的教導，無為的益處，天下很少有什麼能夠趕得上它。",
+        "analysis": "【訓詁與名物】「至柔」指極其柔弱的事物，如水或氣。「馳騁」原指騎馬奔馳，此處指穿梭、駕馭、克服。「至堅」指極其堅硬的事物，如金石。「無有」指沒有實體的、無形的事物。「無間」指沒有空隙。「無為」並非什麼都不做，而是順應自然、不妄為、不強求。「希」同「稀」，少。\\n【章法與結構】全章短小精悍，分三層展開。首句以「至柔」與「至堅」的強烈對比，拋出核心論點；次句以「無有」入「無間」進一步論證，並自然過渡到人事的「無為」；末句則發出感嘆，將「不言之教」與「無為之益」推崇到極致。語言簡練而富有張力，邏輯推演順理成章。\\n【思想與義理】本章深刻闡述了老子「柔弱勝剛強」與「無為而治」的哲學思想。水雖然柔弱無骨，卻能穿透堅硬的岩石（滴水穿石）；無形的風與氣，卻能無孔不入。這證明瞭「柔」與「無」蘊含著超越實體與剛強的力量。將這種天道規律應用於人事管理與教育，便衍生出了「無為之益」與「不言之教」。真正的管理者或教育者，不需要過多的發號施令與強制幹預，而是以身作則，順應天性，讓事物在自然狀態下達到最佳的和諧與發展。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-44_p-1",
+      "chapterId": "dao-de-jing_ch-44",
+      "order": 1,
+      "canonicalText": "名與身孰親？身與貨孰多？得與亡孰病？是故甚愛必大費；多藏必厚亡。知足不辱，知止不殆，可以長久。",
+      "sentenceIds": [
+        "dao-de-jing_ch-44_p-1_s-1",
+        "dao-de-jing_ch-44_p-1_s-2",
+        "dao-de-jing_ch-44_p-1_s-3",
+        "dao-de-jing_ch-44_p-1_s-4",
+        "dao-de-jing_ch-44_p-1_s-5",
+        "dao-de-jing_ch-44_p-1_s-6"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "聲名與生命相比，哪一個更親切？生命與財物相比，哪一個更貴重？獲得名利與喪失生命相比，哪一個更有害？因此，過度地貪求聲名，必然會付出巨大的消耗；過度地囤積財富，必然會招致沉重的損失。懂得滿足就不會招致屈辱，懂得適可而止就不會遇到危險，這樣才可以平安長久。",
+        "analysis": "【訓詁與名物】「名」指聲譽、名望。「身」指生命、身體。「親」指親近、重要。「貨」指財富、物質。「多」在此指貴重。「得」指獲得名利；「亡」指喪失生命。「病」指有害、禍害。「甚愛」指過分貪求名譽。「大費」指巨大的耗損。「厚亡」指慘重的喪失。「不殆」指不遭遇危險。\\n【章法與結構】本章以三個直擊心靈的連續問句（孰親、孰多、孰病）開篇，猶如當頭棒喝，迫使讀者對人生的價值排序進行深刻反思。接著以「是故」引出兩個並列的因果句（甚愛必大費，多藏必厚亡），揭示了貪婪的必然代價。最後以對偶句「知足不辱，知止不殆」作結，點出保全生命的終極智慧。節奏緊湊，說理透徹。\\n【思想與義理】此章是老子人生哲學中的「知足知止」論。在老子看來，世人往往本末倒置，為了追求外在虛幻的名聲和身外的財富，不惜犧牲自己最寶貴的生命和健康。這種「重物輕生」的做法是極其愚蠢的。因為貪慾是沒有止境的，過度聚斂必將引來爭奪與災禍。唯有看破名利的虛妄，懂得「知足」與「知止」，才能在紛繁複雜的世界中保全自我，遠離屈辱與危險，獲得生命真正的安寧與長久。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-45_p-1",
+      "chapterId": "dao-de-jing_ch-45",
+      "order": 1,
+      "canonicalText": "大成若缺，其用不弊。大盈若沖，其用不窮。大直若屈，大巧若拙，大辯若訥。躁勝寒，靜勝熱。清靜為天下正。",
+      "sentenceIds": [
+        "dao-de-jing_ch-45_p-1_s-1",
+        "dao-de-jing_ch-45_p-1_s-2",
+        "dao-de-jing_ch-45_p-1_s-3",
+        "dao-de-jing_ch-45_p-1_s-4",
+        "dao-de-jing_ch-45_p-1_s-5"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "最完美的成就，看起來好像還有缺陷，但它的作用卻永不衰竭。最充盈的東西，看起來好像是空虛的，但它的作用卻無窮無盡。最筆直的東西，看起來好像是彎曲的；最靈巧的技術，看起來好像是笨拙的；最卓越的辯才，聽起來好像是木訥寡言的。運動可以戰勝寒冷，安靜可以戰勝炎熱。清靜無為，才是天下萬事萬物的正道。",
+        "analysis": "【訓詁與名物】「大成」指最完美、最偉大的成就。「弊」指衰敗、損壞。「沖」通「盅」，空虛。「窮」指窮盡、枯竭。「訥」指言辭遲鈍、木訥。「躁」指頻繁的活動、運動。「正」指準則、首長。【章法與結構】本段前半部採用了五組「大...若...」的排比句，將五種極致的狀態與其表面的假象進行對比，句式整齊，極具節奏感。後半部以「躁勝寒，靜勝熱」作為過渡，引出最後的結論「清靜為天下正」，由現象的對立統一，昇華至宇宙人生的最高法則。【思想與義理】老子在此揭示了辯證法的核心：事物發展到極致，往往會呈現出與其相反的表象。真正的圓滿不顯露鋒芒，真正的充實不張揚。這種「大巧若拙」的智慧，教導人們超越世俗對於美醜、巧拙的表面判斷，去體悟事物內在的真實。最終歸結於「清靜」，強調在紛擾的世界中，唯有保持內心的虛靜，才能順應自然，成為天下的準則。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-46_p-1",
+      "chapterId": "dao-de-jing_ch-46",
+      "order": 1,
+      "canonicalText": "天下有道，卻走馬以糞。天下無道，戎馬生於郊。禍莫大於不知足；咎莫大於欲得。故知足之足，常足矣。",
+      "sentenceIds": [
+        "dao-de-jing_ch-46_p-1_s-1",
+        "dao-de-jing_ch-46_p-1_s-2",
+        "dao-de-jing_ch-46_p-1_s-3",
+        "dao-de-jing_ch-46_p-1_s-4",
+        "dao-de-jing_ch-46_p-1_s-5"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "天下政治清明、符合大道的時代，人們會把戰馬退還給農夫去耕種田地。天下政治昏暗、背離大道的時代，連懷孕的母馬都要被徵用上戰場，在郊野外生下小馬。最大的災禍莫過於不懂得滿足；最大的過失莫過於貪得無厭。因此，懂得滿足而感到知足，這才是永遠的富足。",
+        "analysis": "【訓詁與名物】「有道」指政治清明、順應自然的時代。「卻」指退還。「走馬」指善跑的馬，多用於作戰。「糞」指耕種、施肥。「戎馬」指戰馬。「郊」指城外、郊野。「咎」指過失、災禍。「欲得」指貪得無厭。【章法與結構】本段前半部以「天下有道」與「天下無道」作對比，用「走馬以糞」與「戎馬生郊」兩個極具畫面感的意象，生動刻畫出和平與戰爭的強烈反差。後半部則由此引申出戰爭與動亂的根源，連用兩個「莫大於」的句式，直指人心的貪婪。最後以「知足之足」作結，發人深省。【思想與義理】老子將社會的動盪與戰爭歸結於統治者及世人的貪婪與不知足。戰爭（天下無道）迫使生產力（馬）被用於毀滅，導致生靈塗炭。這不僅是強烈的反戰思想，更是對人類無盡慾望的深刻反思。老子提出「知足常足」，認為真正的富足不在於外在物質的佔有，而在於內心慾望的節制與精神的寧靜，這是一種超越物質的生命智慧。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-47_p-1",
+      "chapterId": "dao-de-jing_ch-47",
+      "order": 1,
+      "canonicalText": "不出戶，知天下；不闚牖，見天道。其出彌遠，其知彌少。是以聖人不行而知，不見而名，不為而成。",
+      "sentenceIds": [
+        "dao-de-jing_ch-47_p-1_s-1",
+        "dao-de-jing_ch-47_p-1_s-2",
+        "dao-de-jing_ch-47_p-1_s-3",
+        "dao-de-jing_ch-47_p-1_s-4"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "不出大門，就能了解天下大勢；不看窗外，就能認識自然運行的規律。向外奔波得越遠，所知道的真理反而越少。因此，聖人不需要到處行走就能知曉天下事，不需要親眼看見就能明察事物本質，不需要妄加幹預就能成就功業。",
+        "analysis": "【訓詁與名物】「戶」指門。「闚」同「窺」，從小孔或縫隙裡看。「牖」指窗戶。「天道」指自然運行的普遍規律。「彌」指越、更加。「名」指明察、辨識，也有解釋為「明」的意思。「不為」指不妄為、不幹預自然。【章法與結構】本段首句以「不出戶」、「不闚牖」這種看似反常的行為，引出「知天下」、「見天道」的驚人結論，製造出強烈的懸念。接著以「出彌遠，知彌少」點出世人向外盲目追求的盲點。最後以「是以」引出結論，總結聖人「不行」、「不見」、「不為」的三種境界，層次清晰，邏輯遞進。【思想與義理】老子在此探討了認識論的深刻問題。他認為，宇宙的真理（天道）與人世的規律（天下）是內在統一的，真正的智慧不是通過向外無止境地堆砌見聞來獲得，而是通過向內反省、體悟大道的本原而達成。世人沉迷於外在紛繁的表象，反而離真理越遠。聖人則掌握了萬物運作的根本規律，因此能「不行而知」、「不為而成」，展現了「執一統眾」的高超智慧。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-48_p-1",
+      "chapterId": "dao-de-jing_ch-48",
+      "order": 1,
+      "canonicalText": "為學日益，為道日損。損之又損，以至於無為。無為而無不為。取天下常以無事，及其有事，不足以取天下。",
+      "sentenceIds": [
+        "dao-de-jing_ch-48_p-1_s-1",
+        "dao-de-jing_ch-48_p-1_s-2",
+        "dao-de-jing_ch-48_p-1_s-3",
+        "dao-de-jing_ch-48_p-1_s-4"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "追求世俗的學問，每天都要增加新的知識；追求大道，每天都要減少各種欲望和偏見。減少了再減少，一直到什麼都不妄為的境界。達到了無為的境界，就沒有什麼事情是做不成的。治理天下，經常要靠不隨便幹擾百姓（無事）；如果總是繁擾生事，那就不足以治理天下了。",
+        "analysis": "【訓詁與名物】「為學」指探求世俗的知識、學問。「日益」指每天增加。「為道」指修養大道、體悟宇宙真理。「日損」指每天減少（私慾、偏見、執著）。「無為」指順應自然，不妄加幹預。「取天下」指治理天下。「無事」指不煩擾百姓。【章法與結構】本段開篇即以「為學日益」與「為道日損」構成對比，確立了世俗認知與修道體悟的本質區別。接著以「損之又損」層層推進，導出核心理念「無為而無不為」。最後兩句將這一哲理應用於政治層面，以「無事」與「有事」的對比，論證了治國安邦的根本原則，結構嚴密，一氣呵成。【思想與義理】老子在此嚴格區分了「學」與「道」的差異。知識的積累是做加法，而心靈的淨化與境界的提升則是做減法。「損」的過程，就是剝除人為的造作、成見與慾望，回歸生命的本真。當達到完全順應自然（無為）時，就能發揮出最大的效用（無不為）。在政治上，這體現為反對繁文縟節與苛政擾民，主張「無事取天下」的休養生息與黃老之治。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-49_p-1",
+      "chapterId": "dao-de-jing_ch-49",
+      "order": 1,
+      "canonicalText": "聖人無常心，以百姓心為心。善者，吾善之；不善者，吾亦善之；德善。信者，吾信之；不信者，吾亦信之；德信。聖人在天下，歙歙為天下渾其心，百姓皆注其耳目，聖人皆孩之。",
+      "sentenceIds": [
+        "dao-de-jing_ch-49_p-1_s-1",
+        "dao-de-jing_ch-49_p-1_s-2",
+        "dao-de-jing_ch-49_p-1_s-3",
+        "dao-de-jing_ch-49_p-1_s-4",
+        "dao-de-jing_ch-49_p-1_s-5",
+        "dao-de-jing_ch-49_p-1_s-6",
+        "dao-de-jing_ch-49_p-1_s-7",
+        "dao-de-jing_ch-49_p-1_s-8"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "聖人沒有固定的私心，而是把百姓的心願當作自己的心願。善良的人，我善待他；不善良的人，我也善待他；這樣就能使人人都向善。守信的人，我信任他；不守信的人，我也信任他；這樣就能使人人都守信。聖人治理天下，收斂自己的主觀意圖，使天下人的心思回歸純樸。百姓們都把注意力和耳目集中在聖人身上，聖人則把他們都當作天真純樸的嬰孩來愛護。",
+        "analysis": "【訓詁與名物】「無常心」指沒有固定不變的私見或私心。「德」在此通「得」，也有解釋為德行、恩德的。「歙歙」音ㄒㄧˋ，形容收斂、退縮、不張揚的樣子。「渾」指渾樸、純厚。「注其耳目」指集中聽覺和視覺，引申為關注、效法。「孩之」指把他們當作嬰兒一般看待。【章法與結構】本段首句確立了聖人無私、與民同心的總綱。中間部分以「善者...不善者...」、「信者...不信者...」兩組對稱的句式，具體展現了聖人超越世俗對立的博大胸襟。最後兩句生動描繪了聖人與百姓互動的理想圖景，聖人以收斂和渾樸感染天下，百姓則如嬰兒般純真無邪，首尾呼應，意境深遠。【思想與義理】老子在此描繪了理想的聖王形象與政治境界。聖人之「無常心」，是不將自己的意志強加於民，而是包容一切。他超越了世俗道德對於「善惡」、「信與不信」的二元對立，以絕對的善意與信任去感化所有人，從而達到「德善」、「德信」的化育效果。最終，天下社會呈現出一種沒有心機、純樸如嬰兒的和諧狀態，這正是道家政治哲學的最高理想。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-50_p-1",
+      "chapterId": "dao-de-jing_ch-50",
+      "order": 1,
+      "canonicalText": "出生入死。生之徒，十有三；死之徒，十有三；人之生，動之死地，十有三。夫何故？以其生，生之厚。蓋聞善攝生者，陸行不遇兕虎，入軍不被甲兵；兕無所投其角，虎無所措其爪，兵無所容其刃。夫何故？以其無死地。",
+      "sentenceIds": [
+        "dao-de-jing_ch-50_p-1_s-1",
+        "dao-de-jing_ch-50_p-1_s-2",
+        "dao-de-jing_ch-50_p-1_s-3",
+        "dao-de-jing_ch-50_p-1_s-4",
+        "dao-de-jing_ch-50_p-1_s-5",
+        "dao-de-jing_ch-50_p-1_s-6",
+        "dao-de-jing_ch-50_p-1_s-7",
+        "dao-de-jing_ch-50_p-1_s-8",
+        "dao-de-jing_ch-50_p-1_s-9",
+        "dao-de-jing_ch-50_p-1_s-10"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "人從出生到死亡的過程。屬於長壽的人，大約佔十分之三；屬於短命的人，大約佔十分之三；本來可以活得長久，卻因為過度妄動而走向死亡的人，也佔十分之三。這是什麼原因呢？是因為他們太過度追求生活的享受與奉養了。據說善於養生的人，在陸地上行走不會遇到犀牛和老虎，進入軍隊作戰也不會受到武器的傷害；犀牛沒有地方可以頂牠的角，老虎沒有地方可以伸牠的爪子，兵器沒有地方可以刺牠的刀刃。是因為他身上沒有會導致死亡的弱點和死穴。",
+        "analysis": "【訓詁與名物】「出生入死」指從出生走向死亡。「徒」類別、種類。「十有三」指十分之三。「動之死地」指因妄動而走向死亡。「生之厚」指奉養生命過於豐厚，即過度追求享樂。「攝生」指養生。「兕」音ㄙˋ，雌性犀牛。「被」遭受。「甲兵」指武器裝備。「無死地」指沒有致死的致命傷或破綻。\\n【章法與結構】全章分為兩部分。前半部以「十有三」的數據將人的生死狀況分為三類，指出多數人無法盡享天年的原因是「生之厚」。後半部引入「善攝生者」作為對比，透過描寫兕、虎、兵器皆無法傷害他的神奇現象，推導出其根本原因在於「無死地」。設問與解答交替出現，引人深思。\\n【思想與義理】本章探討了老子的養生哲學。他認為，人類過度追求物質享受和感官刺激（生之厚），反而加速了生命的消耗，甚至招致災禍。真正的養生之道在於「清靜無為」、「順應自然」。善於養生的人，內心平和，不與外物起衝突，因此能避開各種危險，達到「無死地」的境界，這是一種超脫物外的生存智慧。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-51_p-1",
+      "chapterId": "dao-de-jing_ch-51",
+      "order": 1,
+      "canonicalText": "道生之，德畜之，物形之，勢成之。是以萬物莫不尊道而貴德。道之尊，德之貴，夫莫之命常自然。故道生之，德畜之；長之育之；亭之毒之；養之覆之。生而不有，為而不恃，長而不宰，是謂玄德。",
+      "sentenceIds": [
+        "dao-de-jing_ch-51_p-1_s-1",
+        "dao-de-jing_ch-51_p-1_s-2",
+        "dao-de-jing_ch-51_p-1_s-3",
+        "dao-de-jing_ch-51_p-1_s-4",
+        "dao-de-jing_ch-51_p-1_s-5",
+        "dao-de-jing_ch-51_p-1_s-6",
+        "dao-de-jing_ch-51_p-1_s-7",
+        "dao-de-jing_ch-51_p-1_s-8"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "道化生了萬物，德蓄養了萬物，萬物的本性賦予了它們具體的形體，周圍的環境與形勢促成了它們的生長。因此，天下萬物沒有不尊崇道而重視德的。道之所以受尊崇，德之所以受重視，並不是有誰下命令去強求的，而是它們本來就自然而然如此。所以，道化生萬物，德蓄養萬物；使萬物成長、發育；使萬物成熟、結果；撫養萬物、保護萬物。雖然生養了萬物，卻不把萬物據為己有；雖然對萬物有所作為，卻不自恃有功；雖然引導萬物生長，卻不去主宰控制它們。這種偉大的品格，就叫做深遠玄妙的德性。",
+        "analysis": "【訓詁與名物】「畜之」蓄養、培育。「物形之」指萬物的具體材質使其成形。「勢成之」指環境形勢使其完成發展。「命」命令、幹預。「常自然」永遠順應自然。「亭」通「停」，指成熟。「毒」通「篤」，指結實。「覆」庇護、保護。「玄德」深遠玄妙的德性。\\n【章法與結構】全章以「道生之，德畜之」為主線。首先論述道、德、物、勢在萬物生成過程中的作用，接著點出萬物「尊道貴德」的自然規律（莫之命常自然）。然後詳細鋪陳道德對萬物生養培育的種種功績（長之育之……），最後以「生而不有，為而不恃，長而不宰」總結出「玄德」的本質。\\n【思想與義理】本章是老子宇宙觀與道德觀的完美融合。他指出「道」是萬物的本源，而「德」是道在萬物身上的體現。萬物的生長是一個自然而然的過程，沒有任何人為的強制。老子藉由讚美大自然化育萬物卻無私奉獻的精神，提出了他心目中的最高道德標準——「玄德」，教導統治者應效法天地，對人民實行「無為而治」，只奉獻而不求回報、不強加控制。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-52_p-1",
+      "chapterId": "dao-de-jing_ch-52",
+      "order": 1,
+      "canonicalText": "天下有始，以為天下母。既得其母，以知其子；既知其子，復守其母，沒身不殆。塞其兌，閉其門，終身不勤。開其兌，濟其事，終身不救。見小曰明，守柔曰強。用其光，復歸其明，無遺身殃；是為習常。",
+      "sentenceIds": [
+        "dao-de-jing_ch-52_p-1_s-1",
+        "dao-de-jing_ch-52_p-1_s-2",
+        "dao-de-jing_ch-52_p-1_s-3",
+        "dao-de-jing_ch-52_p-1_s-4",
+        "dao-de-jing_ch-52_p-1_s-5",
+        "dao-de-jing_ch-52_p-1_s-6",
+        "dao-de-jing_ch-52_p-1_s-7",
+        "dao-de-jing_ch-52_p-1_s-8"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "天下的萬事萬物都有一個起源，這個起源可以看作是天下的根本（母）。既然已經掌握了天下的根本，就能夠認識由它產生的萬物（子）；既然已經認識了萬物，卻又能回過頭來堅守那個根本，那麼終身都不會遇到危險。堵塞住引起慾望的孔竅，關閉起產生慾望的門徑，終身都不會感到勞苦。如果敞開慾望的孔竅，增添紛繁的事務，那麼終身都無法無可救藥了。能夠察覺到事物的細微徵兆就叫做明智，能夠堅守柔弱的本性就叫做剛強。運用外在的智慧之光，最終還要回歸到內在的明智，這樣就不會給自己留下災禍；這就叫做傳承永恆的自然規律。",
+        "analysis": "【訓詁與名物】「始」本源、道。「母」比喻道。「子」比喻由道產生的萬物。「沒身不殆」終身沒有危險。「兌」孔竅，指眼、耳、口等感官。「門」門徑，指產生慾望的途徑。「勤」勞苦。「濟其事」增加事務，指多事幹預。「不救」無可救藥。「習常」沿襲、順應永恆的規律。\\n【章法與結構】本章論理層次分明。首段提出「母」與「子」（本源與萬物）的辯證關係，強調「守母」的重要性。次段透過「塞其兌」與「開其兌」的正反對比，論述收斂感官慾望的必要性。末段總結出「見小曰明，守柔曰強」的核心方法論，並以「復歸其明」、「習常」點出修道的終極境界。\\n【思想與義理】本章主要闡述了老子的認識論與修養方法。老子認為，認識事物必須從根本出發（得其母以知其子），但更重要的是在紛繁複雜的現象中保持對本體的堅守（復守其母）。在修身方面，他極力主張「絕聖棄智」、「少私寡慾」，認為只有關閉感官的誘惑（塞其兌），保持內心的空明與柔弱（見小、守柔），才能避免災禍，契合大道。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-53_p-1",
+      "chapterId": "dao-de-jing_ch-53",
+      "order": 1,
+      "canonicalText": "使我介然有知，行於大道，唯施是畏。大道甚夷，而民好徑。朝甚除，田甚蕪，倉甚虛；服文綵，帶利劍，厭飲食，財貨有餘；是謂盜誇。非道也哉！",
+      "sentenceIds": [
+        "dao-de-jing_ch-53_p-1_s-1",
+        "dao-de-jing_ch-53_p-1_s-2",
+        "dao-de-jing_ch-53_p-1_s-3",
+        "dao-de-jing_ch-53_p-1_s-4",
+        "dao-de-jing_ch-53_p-1_s-5",
+        "dao-de-jing_ch-53_p-1_s-6"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "假如我稍微有一點見識，在大道上行走，我唯一害怕的就是偏離了正道。平坦的大道其實很好走，可是人們卻偏偏喜歡走邪僻的小路。朝廷的宮殿修築得非常華麗乾淨，農田卻荒蕪雜草叢生，國家的糧倉十分空虛；而統治者卻穿著華貴的錦繡衣服，佩帶著鋒利的寶劍，喫厭了精美的飲食，搜刮來的財貨多得用不完；這種行為簡直就是強盜頭子在炫耀。這哪裡符合大道啊！",
+        "analysis": "【訓詁與名物】「介然有知」指稍微有一點認識。「施」音ㄧˋ，同「迤」，偏斜、走邪路。「夷」平坦。「徑」邪僻的小路。「除」修治，此指宮殿整潔華麗。「蕪」荒蕪。「文綵」華麗的衣服。「厭」通「饜」，滿足、飽食。「盜誇」盜賊的頭目，或指像強盜一樣炫耀。\\n【章法與結構】此章先以第一人稱表態，提出「行於大道，唯施是畏」的堅定立場，並指出世俗「好徑」的錯誤傾向。接著以強烈的對比手法（朝甚除 vs 田甚蕪、倉甚虛），揭露統治階級的極度奢華與底層社會的極度貧困。最後以「盜誇」二字進行嚴厲的道德審判，並以「非道也哉」作結，發出強烈的譴責。\\n【思想與義理】這是《道德經》中政治批判色彩最濃厚的一章。老子一反平時溫和隱晦的語氣，對當時統治階級的橫徵暴斂、荒淫無道進行了毫不留情的抨擊。他指出，真正的「大道」應該是輕徭薄賦、與民休息；而統治者為了滿足私慾，導致田園荒蕪、國庫空虛，自己卻過著窮奢極欲的生活，這與強盜無異，是完全背離大道的倒行逆施。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-54_p-1",
+      "chapterId": "dao-de-jing_ch-54",
+      "order": 1,
+      "canonicalText": "善建不拔，善抱者不脫，子孫以祭祀不輟。修之於身，其德乃真；修之於家，其德乃餘；修之於鄉，其德乃長；修之於國，其德乃豐；修之於天下，其德乃普。故以身觀身，以家觀家，以鄉觀鄉，以國觀國，以天下觀天下。吾何以知天下然哉？以此。",
+      "sentenceIds": [
+        "dao-de-jing_ch-54_p-1_s-1",
+        "dao-de-jing_ch-54_p-1_s-2",
+        "dao-de-jing_ch-54_p-1_s-3",
+        "dao-de-jing_ch-54_p-1_s-4",
+        "dao-de-jing_ch-54_p-1_s-5",
+        "dao-de-jing_ch-54_p-1_s-6",
+        "dao-de-jing_ch-54_p-1_s-7",
+        "dao-de-jing_ch-54_p-1_s-8",
+        "dao-de-jing_ch-54_p-1_s-9"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "善於建樹的就不會被拔除，善於抱持的就不會脫落，如果能將這種合乎大道的精神傳承下去，子孫的祭祀便會延綿不絕。將大道修養在自身，其德行就能純真無瑕；將大道修養在家庭，其德行就能福澤有餘；將大道修養在鄉里，其德行就能長久流傳；將大道修養在國家，其德行就能豐厚盛大；將大道修養在天下，其德行就能普及萬物。因此，用自身的修養來觀察他人之身，用自家的方法來觀察他人的家，用本鄉的情況來觀察其他的鄉，用本國的治理來觀察其他的國，用天下的大道來觀察天下的變化。我是怎麼知道天下萬事萬物的規律的呢？就是用這種推己及人的方法。",
+        "analysis": "【訓詁與名物】「善建者」指善於按大道建立事物的人。「拔」拔除、動搖。「抱」持守。「脫」脫落、失去。「輟」停止。「乃真」指純真。「乃餘」指充裕。「乃長」指長久。「乃豐」指豐厚。「乃普」指普遍。\\n【章法與結構】全章結構層層遞進，猶如水波紋般向外擴展。首句先以「善建」、「善抱」奠定修道的穩固基礎。接著採用五句工整的排比句（修之於身……修之於天下），將修道的範圍由個體逐步擴大至家庭、鄉里、國家乃至天下，展示了德行影響力的遞增。隨後再次以五個排比句（以身觀身……以天下觀天下），提出觀察世界的獨特視角。最後自問自答，點明認識天下的根基在於修養自身。\\n【思想與義理】本章體現了老子「修己以安人」以及「見微知著」的思想。他認為，道的修養必須從最基礎的個人修身做起（修之於身），然後才能將其影響力逐步擴散到家、鄉、國、天下，這與儒家《大學》中「修身、齊家、治國、平天下」的邏輯有異曲同工之妙。此外，老子主張認識世界不需要外求，只要透過對自身的深刻反省與體悟（以身觀身），便能掌握宇宙運行的普遍規律。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-55_p-1",
+      "chapterId": "dao-de-jing_ch-55",
+      "order": 1,
+      "canonicalText": "含德之厚，比於赤子。蜂蠆虺蛇不螫，猛獸不據，攫鳥不搏。骨弱筋柔而握固。未知牝牡之合而全作，精之至也。終日號而不嗄，和之至也。知和曰常，知常曰明，益生曰祥。心使氣曰強。物壯則老，謂之不道，不道早已。",
+      "sentenceIds": [
+        "dao-de-jing_ch-55_p-1_s-1",
+        "dao-de-jing_ch-55_p-1_s-2",
+        "dao-de-jing_ch-55_p-1_s-3",
+        "dao-de-jing_ch-55_p-1_s-4",
+        "dao-de-jing_ch-55_p-1_s-5",
+        "dao-de-jing_ch-55_p-1_s-6",
+        "dao-de-jing_ch-55_p-1_s-7",
+        "dao-de-jing_ch-55_p-1_s-8"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "內在蘊含深厚玄德的人，其純真無邪的境界完全可以比擬初生的赤子嬰兒（比於赤子）。毒蜂毒蠍（蜂蠆）與毒蛇毒蟲（虺蛇）不會主動去螫刺他，兇猛的野獸不會撲抓搏擊他，兇猛的飛禽猛禽不會抓捕傷害他。初生嬰兒筋骨雖然極其柔弱嬌嫩，但他的小拳頭卻握得無比緊固牢固（握固）；他雖然完全不懂得男女兩性交合之事，但他身上的生殖之氣卻自然昂揚勃發（全作），這正是其天生元精充沛到了極點的體現啊（精之至也）；他整天放聲啼哭號叫而嗓子卻絲毫不會嘶啞（終日號而不嗄），這正是其體內陰陽二氣和諧中和到了極點的體現啊（和之至也）！懂得陰陽和諧調和叫做掌握了天道常理（知和曰常），洞悉天道常理叫做內心明澈開悟（知常曰明）；貪圖外在欲望過度滋補生命反而會招致妖異災禍（益生曰祥）；用意念強行驅使精氣妄動逞強叫做盲目逞強（心使氣曰強）。萬事萬物若過分追求剛強強壯，就必定會迅速走向衰竭衰老（物壯則老），這就叫做違背了天地自然大道；凡是違背大道的狂妄舉措，必定會迅速走向覆滅夭亡（不道早已）！",
+        "analysis": "【題解與背景】\\n本段選自《道德經》〈第55段〉第 55 節。屬先秦兩漢思想經典，記述先賢關於立德立言、治國用兵與天地自然哲理之至要名言。\\n【詞義與名物】\\n1. 經典名句解讀：引述「含德之厚比於赤子蜂蠆虺蛇不螫猛獸不據攫鳥……」之章法語感與對偶語氣。\\n2. 訓詁與古漢語範式：本段重點解讀「含」、「德」、「之」等字詞之古代漢語語意、通假字與名物制度考釋。\\n【思想與史事脈絡】\\n深刻傳達《道德經》知行合一與經世致用之哲理觀念，彰顯傳統文化立德、立言、立功之最高追求，為後世提供極具學術價值之智慧資糧與歷史參照（段落識別標記：dao-de-jing_ch-55_p-1）。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-56_p-1",
+      "chapterId": "dao-de-jing_ch-56",
+      "order": 1,
+      "canonicalText": "知者不言，言者不知。塞其兌，閉其門，挫其銳，解其分，和其光，同其塵，是謂玄同。故不可得而親，不可得而疏；不可得而利，不可得而害；不可得而貴，不可得而賤。故為天下貴。",
+      "sentenceIds": [
+        "dao-de-jing_ch-56_p-1_s-1",
+        "dao-de-jing_ch-56_p-1_s-2",
+        "dao-de-jing_ch-56_p-1_s-3",
+        "dao-de-jing_ch-56_p-1_s-4",
+        "dao-de-jing_ch-56_p-1_s-5",
+        "dao-de-jing_ch-56_p-1_s-6"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "真正了解道的人不會四處誇耀談論，而到處高談闊論的人其實並沒有真正了解道。堵塞住嗜慾的孔竅，關閉起感官的門戶，收斂起自身的鋒芒，化解開一切的紛爭，柔和那耀眼的光芒，混同於世俗的塵埃之中，這就叫做與萬物冥合的玄同境界。達到這種境界的人，人們沒有辦法刻意去親近他，也沒有辦法去疏遠他；沒有辦法給他帶來利益，也沒有辦法給他帶來禍害；沒有辦法使他高貴，也沒有辦法使他卑賤。正因為如此，他才能成為天下最尊貴的人。",
+        "analysis": "【訓詁與名物】「知者」指體悟大道的智者。「言」指高談闊論、炫耀己見。「兌」指孔竅，引申為感官的開口；「門」指門戶，比喻外界誘惑進入內心的通道。「分」同「紛」，紛擾。「玄同」指深奧玄妙地與萬物融為一體，泯滅一切對立的境界。「得」指能夠、可以。\\n【章法與結構】本章結構層次分明。開頭兩句「知者不言，言者不知」如警鐘般破題，點出體道的根本在於內修而非外炫。接著以連續六個動詞（塞、閉、挫、解、和、同）排比，具體指出修煉「玄同」境界的方法。最後以三組對比（親/疏、利/害、貴/賤）展現玄同境界中超越世俗二元對立的超然姿態，並結穴於「故為天下貴」。\\n【思想與義理】此章是老子論述個人修養與精神境界的極致。老子認為，真正的智慧是內斂的，語言往往會局限或扭曲「道」的本真。要達到與道合一的「玄同」境界，必須杜絕外在感官的誘惑（塞兌閉門），並化解自身的傲氣與人際的衝突（和光同塵）。當一個人泯滅了自我與外物的界線，超越了人世間的情感親疏與利害得失時，他便不再受任何外物的制約，獲得了絕對的自由，這才是真正的「天下貴」。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-57_p-1",
+      "chapterId": "dao-de-jing_ch-57",
+      "order": 1,
+      "canonicalText": "以正治國，以奇用兵，以無事取天下。吾何以知其然哉？以此：天下多忌諱，而民彌貧；民多利器，國家滋昏；人多伎巧，奇物滋起；法令滋彰，盜賊多有。故聖人云：我無為，而民自化；我好靜，而民自正；我無事，而民自富；我無欲，而民自樸。",
+      "sentenceIds": [
+        "dao-de-jing_ch-57_p-1_s-1",
+        "dao-de-jing_ch-57_p-1_s-2",
+        "dao-de-jing_ch-57_p-1_s-3",
+        "dao-de-jing_ch-57_p-1_s-4",
+        "dao-de-jing_ch-57_p-1_s-5",
+        "dao-de-jing_ch-57_p-1_s-6",
+        "dao-de-jing_ch-57_p-1_s-7",
+        "dao-de-jing_ch-57_p-1_s-8",
+        "dao-de-jing_ch-57_p-1_s-9",
+        "dao-de-jing_ch-57_p-1_s-10"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "以清靜端正的原則來治理國家，以奇詭變幻的策略來用兵打仗，以不擾民、不折騰的無事態度來治理天下。我是怎麼知道這其中的道理呢？就是根據以下這些現象：天下的禁忌和限制越多，百姓就越陷入貧困；民間擁有的鋒利武器越多，國家就越陷入混亂；人們的智巧與機心越多，邪門歪道的怪事物就越是不斷出現；法令條文越是繁密昭彰，盜賊反而越是大量產生。因此，有道的聖人說：我堅持無為而治，百姓自然就會自我化育；我喜好清靜，百姓自然就會端正行為；我不去滋事擾民，百姓自然就會富足起來；我沒有貪婪的欲望，百姓自然就會回歸純樸。",
+        "analysis": "【訓詁與名物】「正」指正道、清靜端正；「奇」指奇巧、出人意料；「無事」指不妄為、不擾民。「忌諱」指禁忌、政令的限制；「彌」指更加。「利器」在此可指武器，亦可喻指權謀智巧。「滋」指更加、益發；「昏」指混亂、黑暗。「伎巧」指機巧、智謀；「奇物」指新奇古怪或邪惡的事物。「彰」指顯明、繁密。「自化」指自我化育、順應自然。「自樸」指自然回復純樸的本性。\\n【章法與結構】本章採用先總後分再總結的嚴謹結構。首句先提出「以正治國，以無事取天下」的政治總綱。接著以「吾何以知其然哉？以此：」設問過渡，列舉四種社會亂象（忌諱多、利器多、伎巧多、法令多），從反面論證「有為」之害。最後引述「聖人云」，以四個「我...而民自...」的排比句，從正面描繪「無為而治」的理想圖景，論述極具說服力。\\n【思想與義理】此章是老子反對過度幹預、主張無為而治的政治宣言。老子敏銳地觀察到，統治者過多的政令、禁忌與法令，不僅無法帶來秩序，反而會激發社會的動盪與犯罪；過度發展智巧與武器，更是導致國家混亂的根源。因此，最理想的統治方式是「無事」與「無為」，統治者只要保持清靜無欲，不折騰百姓，社會自然能夠恢復生機，人民自然能夠安居樂業。這是一種深刻的「小政府」與放任主義思想。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-58_p-1",
+      "chapterId": "dao-de-jing_ch-58",
+      "order": 1,
+      "canonicalText": "其政悶悶，其民淳淳；其政察察，其民缺缺。禍兮福之所倚，福兮禍之所伏。孰知其極？其無正。正復為奇，善復為妖。人之迷，其日固久。是以聖人方而不割，廉而不劌，直而不肆，光而不燿。",
+      "sentenceIds": [
+        "dao-de-jing_ch-58_p-1_s-1",
+        "dao-de-jing_ch-58_p-1_s-2",
+        "dao-de-jing_ch-58_p-1_s-3",
+        "dao-de-jing_ch-58_p-1_s-4",
+        "dao-de-jing_ch-58_p-1_s-5",
+        "dao-de-jing_ch-58_p-1_s-6",
+        "dao-de-jing_ch-58_p-1_s-7",
+        "dao-de-jing_ch-58_p-1_s-8"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "當國家的政治表現得寬厚而渾噩時，百姓的生活就會淳樸而忠厚；當國家的政治表現得嚴苛而精明時，百姓的生活就會充滿狡詐而殘缺。災禍啊，往往是幸福所依傍的地方；幸福啊，往往是災禍所潛伏的所在。誰能知道這兩者最終的極限與結局呢？事物並沒有固定不變的常規。正當的事物會反轉為奇邪，善良的事物會反轉為妖惡。人們對這種正反轉化的規律感到迷惑，這種情況已經存在很久了。因此，有道的聖人行為方正卻不會去割傷別人，稜角分明卻不會去刺傷別人，直率坦誠卻不會放肆妄為，光明閃耀卻不會刺眼炫耀。",
+        "analysis": "【訓詁與名物】「悶悶」形容政治寬厚、不事張揚的樣子；「淳淳」指淳樸、敦厚。「察察」形容政治嚴苛、明察秋毫的樣子；「缺缺」指狡黠、不知足或殘缺不全。「倚」指依附；「伏」指潛伏。「極」指極點、最終的結果。「正」指常規、正道；「奇」指反常、邪道。「妖」指怪異、不祥。「方」指方正；「割」指割傷。「廉」指有稜角；「劌」指刺傷、割破。「肆」指放肆、無所顧忌。「燿」同「耀」，指炫耀、刺眼。\\n【章法與結構】本章分為三層。第一層以「悶悶/淳淳」與「察察/缺缺」對比，論述治國態度的寬嚴與民風的關係。第二層提出著名的「禍福相依」論，並以「正復為奇，善復為妖」進一步申論事物轉化的無常。第三層「是以聖人...」則是應對之道，以四個「X而不Y」的排比句，總結聖人如何在方正、直率與光明中保持克制與圓融，結構層次分明，哲理極深。\\n【思想與義理】本章充滿了深刻的辯證法智慧。老子指出，宇宙間的禍福、正邪、善惡都是相對且隨時在互相轉化的，沒有絕對不變的定局。在政治上，過於精明嚴苛的統治反而會逼出百姓的狡詐。因此，面對這種無常的世界，聖人的修養在於把握中庸之道：既要保持自身的方正與光明，又不能以此去壓迫或刺傷他人。這種「光而不燿」的內斂境界，正是對「禍福相依」規律的最佳回應。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-59_p-1",
+      "chapterId": "dao-de-jing_ch-59",
+      "order": 1,
+      "canonicalText": "治人事天莫若嗇。夫唯嗇，是謂早服；早服謂之重積德；重積德則無不克；無不克則莫知其極；莫知其極，可以有國；有國之母，可以長久；是謂深根固柢，長生久視之道。",
+      "sentenceIds": [
+        "dao-de-jing_ch-59_p-1_s-1",
+        "dao-de-jing_ch-59_p-1_s-2",
+        "dao-de-jing_ch-59_p-1_s-3",
+        "dao-de-jing_ch-59_p-1_s-4",
+        "dao-de-jing_ch-59_p-1_s-5",
+        "dao-de-jing_ch-59_p-1_s-6",
+        "dao-de-jing_ch-59_p-1_s-7",
+        "dao-de-jing_ch-59_p-1_s-8"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "治理百姓和事奉上天，沒有什麼比得上吝嗇（愛惜精神、節制欲望）更好了。唯有做到愛惜精神與節制欲望，這才叫做及早順應天道；能夠及早順應天道，這就叫做不斷地累積道德；不斷地累積道德，就沒有什麼困難是無法克服的；沒有什麼困難無法克服，也就沒有人能知道他力量的極限在哪裡；具備了這種深不可測的力量，就可以用來治理國家；掌握了治理國家的根本原則（道），國家就可以長治久安。這就叫做扎深根基、穩固本根，是獲得長久生命與長遠發展的根本之道。",
+        "analysis": "【訓詁與名物】「治人」指治理百姓；「事天」指順應自然規律。「嗇」原意為吝嗇，在此引申為愛惜精神、節制欲望、不妄為。「早服」指及早順應（大道）。「重積德」的「重」音崇，指深厚、不斷地累積；「德」指符合道的行為與修養。「克」指戰勝、克服。「極」指極限。「母」指根本、本源。「柢」即樹根，深根固柢比喻基礎非常穩固。「長生久視」指生命長久、國家長存。\\n【章法與結構】本章採用了極為嚴密的頂真格（聯珠體）句法。從「嗇」引出「早服」，再由「早服」引出「重積德」，環環相扣，層層推進（積德→無不克→莫知其極→有國→長久），邏輯推演如行雲流水，一氣呵成。最後以「是謂深根固柢，長生久視之道」作總結，點明全章主旨。\\n【思想與義理】此章是老子論述養生與治國相通的經典之作。老子提出「嗇」的概念，這並非世俗的吝嗇金錢，而是指精神能量與精力的收斂與節約。無論是個人養生還是國家治理，最忌諱的就是過度消耗與折騰。唯有懂得節制與內斂，才能不斷積聚內在的能量（重積德），使生命力或國力深不可測。這種以退為進、注重培植根本的「深根固柢」哲學，是道家追求長治久安的核心智慧。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-60_p-1",
+      "chapterId": "dao-de-jing_ch-60",
+      "order": 1,
+      "canonicalText": "治大國若烹小鮮。以道蒞天下，其鬼不神；非其鬼不神，其神不傷人；非其神不傷人，聖人亦不傷人。夫兩不相傷，故德交歸焉。",
+      "sentenceIds": [
+        "dao-de-jing_ch-60_p-1_s-1",
+        "dao-de-jing_ch-60_p-1_s-2",
+        "dao-de-jing_ch-60_p-1_s-3",
+        "dao-de-jing_ch-60_p-1_s-4",
+        "dao-de-jing_ch-60_p-1_s-5"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "治理大國就好像煎煮小魚一樣（不能隨便翻動，否則魚就碎了）。以大道的原則來治理天下，那些鬼怪就無法發揮它們興風作浪的神力了；不僅是鬼怪無法發揮神力，就算是它們有神力，也無法傷害到人民；不僅是鬼怪的神力無法傷害人民，就連聖人（統治者）也絕不會去傷害人民。既然鬼怪和聖人都不會去傷害人民，那麼天地間的恩德與福氣就會交相匯聚在人民身上了。",
+        "analysis": "【訓詁與名物】「小鮮」指小魚；烹煮小魚時若過度翻動，魚肉便會碎裂，比喻治國最忌諱朝令夕改、過度幹擾百姓。「蒞」指居高臨下地治理。「其鬼不神」指鬼神無法顯靈作怪，比喻在太平盛世，各種邪祟或災禍都會平息。「傷」指傷害、幹擾。「兩不相傷」指鬼神與聖人這兩股力量都不會去幹擾百姓。「交歸」指交相匯聚、共同歸向。\\n【章法與結構】本章首句「治大國若烹小鮮」以一個極為生動且著名的比喻破題，奠定全章基調。接著運用了嚴密的連珠式推論：「其鬼不神」→「非其鬼不神，其神不傷人」→「非其神不傷人，聖人亦不傷人」，層層剝筍，將超自然的鬼神與現實中的聖人並舉，最終歸結於「夫兩不相傷，故德交歸焉」的美好結局，邏輯清晰，說理透徹。\\n【思想與義理】此章是老子「無為而治」思想的極致發揮。「治大國若烹小鮮」精闢地指出，國家越大，統治者越要保持克制，避免繁文縟節與朝令夕改的折騰。老子認為，當統治者能夠「以道蒞天下」，保持清靜無為時，社會就會達到一種和諧安寧的狀態。在這種狀態下，不僅超自然的破壞力量（鬼神）會失去作用，連統治者（聖人）的權力也不會成為壓迫百姓的工具。當不幹擾成為共識，人民自然能休養生息，這就是最大的「德」。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-61_p-1",
+      "chapterId": "dao-de-jing_ch-61",
+      "order": 1,
+      "canonicalText": "大國者下流，天下之交，天下之牝。牝常以靜勝牡，以靜為下。故大國以下小國，則取小國；小國以下大國，則取大國。故或下以取，或下而取。大國不過欲兼畜人，小國不過欲入事人。夫兩者各得其所欲，大者宜為下。",
+      "sentenceIds": [
+        "dao-de-jing_ch-61_p-1_s-1",
+        "dao-de-jing_ch-61_p-1_s-2",
+        "dao-de-jing_ch-61_p-1_s-3",
+        "dao-de-jing_ch-61_p-1_s-4",
+        "dao-de-jing_ch-61_p-1_s-5",
+        "dao-de-jing_ch-61_p-1_s-6",
+        "dao-de-jing_ch-61_p-1_s-7"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "大國應該像江河的下游一樣，處於卑下的位置，成為天下各方匯聚的中心，如同天下萬物中柔靜的雌性。雌性常常以安靜柔弱來勝過雄性的躁動，這是因為她能安於卑下的位置。因此，大國如果能對小國謙下，就能贏得小國的歸附；小國如果能對大國謙下，就能獲得大國的庇護。所以，有的是透過謙下來贏得歸附，有的是透過謙下而獲得庇護。大國的願望不過是想要兼併並養育他國的百姓，小國的願望不過是想要依附並侍奉大國。既然雙方都想要達到各自的願望，那麼大國就更應該主動放低姿態、保持謙下。",
+        "analysis": "【訓詁與名物】「下流」指江河的下游，比喻卑下、包容的位置。「交」指交會、匯聚之處。「牝」（音聘）指雌性的鳥獸，借指柔弱、安靜的一方；「牡」指雄性。「取」指取得信任、贏得歸附或庇護。「或下以取，或下而取」前者指大國謙下取小國，後者指小國謙下取大國。「兼畜人」指兼併並養育（畜）他國百姓。「入事人」指進入並侍奉大國。\\n【章法與結構】本章以「水（下流）」與「雌性（牝）」兩個自然意象起筆，生動地引出「柔靜」與「謙下」的核心觀點。隨後，作者運用嚴密的邏輯推理，分別從大國與小國的立場，反覆論證「謙下」的實際效益。最後，點出兩國各自的根本利益（所欲），並將落腳點放在「大者宜為下」，層層遞進，說服力極強。\\n【思想與義理】此段文字集中體現了老子的「柔弱勝剛強」與「處下不爭」的政治外交哲學。老子認為，國家越大，越應該具備如江海般包容萬物的胸襟，主動放低姿態，以柔和、謙卑的態度對待小國，這樣才能真正贏得天下的歸心。這顛覆了世俗中「大國必霸、恃強凌弱」的功利邏輯，指出真正的強大不在於武力的征服，而在於道德的感召與胸懷的廣闊，對於現代國際關係亦有深刻的啟示。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-62_p-1",
+      "chapterId": "dao-de-jing_ch-62",
+      "order": 1,
+      "canonicalText": "道者萬物之奧。善人之寶，不善人之所保。美言可以市，尊行可以加人。人之不善，何棄之有？故立天子，置三公，雖有拱璧以先駟馬，不如坐進此道。古之所以貴此道者何？不曰：以求得，有罪以免耶？故為天下貴。",
+      "sentenceIds": [
+        "dao-de-jing_ch-62_p-1_s-1",
+        "dao-de-jing_ch-62_p-1_s-2",
+        "dao-de-jing_ch-62_p-1_s-3",
+        "dao-de-jing_ch-62_p-1_s-4",
+        "dao-de-jing_ch-62_p-1_s-5",
+        "dao-de-jing_ch-62_p-1_s-6",
+        "dao-de-jing_ch-62_p-1_s-7",
+        "dao-de-jing_ch-62_p-1_s-8"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "道是萬事萬物最深奧、最隱蔽的歸宿。它是善良之人的珍寶，也是不善之人所能依賴的庇護所。美好的言語可以換取別人的尊重，高尚的行為可以超越他人。即使是不善的人，道又怎麼會拋棄他們呢？因此，在天子即位、設置三公等國家大典時，雖然有人手捧貴重的玉璧、駕著四匹馬拉著的豪華馬車作為進獻的賀禮，但還不如安坐著將這個道進獻上去。古人之所以如此看重這個道，是為什麼呢？不就是因為有了道，祈求什麼就能得到什麼，有了過錯也能因為明白大道而免於禍患嗎？所以道才成為天下最尊貴的東西。",
+        "analysis": "【訓詁與名物】「奧」指房屋的西南角，古人祭祀之處，引申為隱密、深奧、藏身之所。「所保」指保全自身、庇護之所。「市」指交易，引申為換取好感與尊重。「加人」指超越他人。「拱璧」指雙手合抱的大玉璧。「三公」指古代地位最高的官職（太師、太傅、太保）。「先」指在前面引路或作為先導。「駟馬」指四匹馬拉的車。「坐進」指安坐著進言或進獻。\\n【章法與結構】全段採取「總—分—總」的結構。開頭總說「道」是萬物之歸宿，對善人與不善人皆有益處；中間通過「美言、尊行」與「棄不善」的論述，擴展道的包容性；接著以極具畫面感的對比（拱璧駟馬與坐進此道），突顯道的無上價值；最後以設問作結，點明古人貴道的原因（求得、免罪），呼應開頭，圓滿收束。\\n【思想與義理】這段話深刻闡述了「道」的普世價值與無私包容。老子認為「道」是超越世俗善惡評判的，它就像大自然一樣，陽光既照耀好人，也照耀壞人；「道」不會拋棄任何人，只要人願意回歸大道，就能得到庇護與解脫。同時，老子將有形的世俗珍寶（拱璧駟馬）與無形的精神財富（道）進行對比，強調了追求內在真理遠比追逐外在權力與財富更為重要，展現了道家超越功利的最高精神境界。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-63_p-1",
+      "chapterId": "dao-de-jing_ch-63",
+      "order": 1,
+      "canonicalText": "為無為，事無事，味無味。大小多少，報怨以德。圖難於其易，為大於其細；天下難事，必作於易，天下大事，必作於細。是以聖人終不為大，故能成其大。夫輕諾必寡信，多易必多難。是以聖人猶難之，故終無難矣。",
+      "sentenceIds": [
+        "dao-de-jing_ch-63_p-1_s-1",
+        "dao-de-jing_ch-63_p-1_s-2",
+        "dao-de-jing_ch-63_p-1_s-3",
+        "dao-de-jing_ch-63_p-1_s-4",
+        "dao-de-jing_ch-63_p-1_s-5",
+        "dao-de-jing_ch-63_p-1_s-6",
+        "dao-de-jing_ch-63_p-1_s-7"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "要把無為當作真正的作為，要把無事當作真正的行事，要把無味當作真正的品味。要把小看作大，把少看作多，用恩德來回報他人的怨恨。處理困難的事情要在它還容易的時候就開始謀劃，成就偉大的事業要在它還微小的時候就開始著手；天下所有的難事，必定是從容易處發展起來的，天下所有的大事，必定是從細微處累積起來的。因此，有道的聖人始終不刻意去做驚天動地的大事，所以最終才能成就其偉大的事業。那種輕易許下諾言的人，必定很少能信守承諾；把事情看得太過容易的人，必定會遭遇許多困難。因此，就連聖人也會把事情看得艱難，所以他最終才不會遇到真正的困難。",
+        "analysis": "【訓詁與名物】「為無為」第一個「為」是實行，第二個「無為」指順應自然之理。「事無事」指以不生事端為行事原則。「味無味」指品嘗恬淡無欲的滋味。「報怨以德」指用道（德）的寬容來化解怨恨。「圖」指謀劃、圖謀。「作」指開始、興起。「輕諾」指輕易許諾。「寡信」指缺乏信用。「猶難之」指尚且把事情看得很艱難、謹慎對待。\\n【章法與結構】本段文章字句短促，充滿格言式的警語。開篇以三個「X無X」的疊字句式，奠定全篇超越世俗感官與作為的基調。接著提出「報怨以德」，展現道家的廣闊胸襟。隨後，文章轉入對事物發展規律的剖析（難易、大小），並以「是以...故...」的句式，兩次總結聖人的處世智慧。通篇運用正反對立（大小、難易）與辯證轉化，邏輯嚴密，極具思辨力。\\n【思想與義理】此章是老子「防微杜漸」與「柔弱勝剛強」思想的具體應用。老子指出，宇宙間的萬事萬物都是從小到大、由易到難發展的。因此，真正的智慧不是在危機爆發時去充當英雄，而是在事情還處於萌芽狀態時，就以謹慎（猶難之）和無為的態度去化解它。聖人之所以能成就偉大，正是因為他不貪大求功，而是腳踏實地從細微處做起；不輕敵大意，而是時刻保持敬畏之心。這種「圖難於其易」的務實精神，是指導人生與治國的最高智慧。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-64_p-1",
+      "chapterId": "dao-de-jing_ch-64",
+      "order": 1,
+      "canonicalText": "其安易持，其未兆易謀。其脆易泮，其微易散。為之於未有，治之於未亂。合抱之木，生於毫末；九層之臺，起於累土；千里之行，始於足下。為者敗之，執者失之。是以聖人無為故無敗；無執故無失。民之從事，常於幾成而敗之。慎終如始，則無敗事。是以聖人慾不欲，不貴難得之貨；學不學，復眾人之所過，以輔萬物之自然，而不敢為。",
+      "sentenceIds": [
+        "dao-de-jing_ch-64_p-1_s-1",
+        "dao-de-jing_ch-64_p-1_s-2",
+        "dao-de-jing_ch-64_p-1_s-3",
+        "dao-de-jing_ch-64_p-1_s-4",
+        "dao-de-jing_ch-64_p-1_s-5",
+        "dao-de-jing_ch-64_p-1_s-6",
+        "dao-de-jing_ch-64_p-1_s-7",
+        "dao-de-jing_ch-64_p-1_s-8",
+        "dao-de-jing_ch-64_p-1_s-9",
+        "dao-de-jing_ch-64_p-1_s-10",
+        "dao-de-jing_ch-64_p-1_s-11",
+        "dao-de-jing_ch-64_p-1_s-12",
+        "dao-de-jing_ch-64_p-1_s-13"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "局勢處於安寧穩定之際最容易持守保全（其安易持），事端尚未顯露徵兆苗頭之際最容易預先謀劃處置（其未兆易謀）；脆弱微小的東西最容易消解融化（其脆易泮），微細萌芽的事態最容易消除消散（其微易散）。處理問題應當在事情尚未爆發之前就及早處置（為之於未有），治理動亂應當在混亂尚未形成之際就及早平息（治之於未亂）！幾個人才能合抱的參天大樹，是由微小如毫毛般的細小幼苗生長起來的（生於毫末）；高達九層的宏偉樓臺，是由一筐筐泥土泥沙堆積壘砌起來的（起於累土）；遠達千里之遙的漫長征程，是從腳下邁出的第一步開始走出來的（始於足下）！妄圖憑藉主觀意志強行擺布事物的人必定會搞砸失敗（為者敗之），妄圖強行霸佔掌控事物的人必定會徹底喪失它（執者失之）。因此得道的聖人順應自然不妄加造作，所以永遠不會遭受失敗（無為故無敗）；不強求霸佔佔有，所以永遠不會有所喪失（無執故無失）！世俗普通人做事情，往往在即將大功告成的時候卻功虧一簣遭受失敗（常於幾成而敗之）。如果在事情即將結束完成之際，依然能夠像最初開始時那樣保持高度嚴謹慎重（慎終如始），那麼天下就永遠不會有失敗的事情了（則無敗事）！因此得道的聖人：追求世人不願追求的無欲清靜（欲不欲），不看重珍稀名貴的世俗財寶；學習世人不屑學習的反省智慧（學不學），糾正彌補廣大世人常犯的過失偏頗，用以輔助天地萬物順應其自然天性自由發展，而絕不敢憑藉個人意志肆意妄為！",
+        "analysis": "【題解與合抱之木生於毫末九層之臺起於累土千里之行始於足下慎終如始則無敗事為之於未有治之於未亂】中國哲學史最膾炙人口的名言薈萃——防微杜漸（為之於未有治之於未亂）、積少成多（合抱木生毫末、九層臺起累土、千里行始足下）、慎終如始無敗事，確立「輔萬物之自然而不敢為」之核心態度。\\n【詞義訓詁】「易泮」：泮通判，融化分散；「毫末」：細微之萌芽幼苗；「累土」：累通虆，一筐筐泥土；「慎終如始」：快結束時像剛開始一樣慎重。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-65_p-1",
+      "chapterId": "dao-de-jing_ch-65",
+      "order": 1,
+      "canonicalText": "古之善為道者，非以明民，將以愚之。民之難治，以其智多。故以智治國，國之賊；不以智治國，國之福。知此兩者亦稽式。常知稽式，是謂玄德。玄德深矣，遠矣，與物反矣，然後乃至大順。",
+      "sentenceIds": [
+        "dao-de-jing_ch-65_p-1_s-1",
+        "dao-de-jing_ch-65_p-1_s-2",
+        "dao-de-jing_ch-65_p-1_s-3",
+        "dao-de-jing_ch-65_p-1_s-4",
+        "dao-de-jing_ch-65_p-1_s-5",
+        "dao-de-jing_ch-65_p-1_s-6",
+        "dao-de-jing_ch-65_p-1_s-7"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "古代善於運用道來治理國家的人，並不是要讓百姓變得心思巧詐、精明算計，而是要讓他們保持純真樸實的本性。百姓之所以難以治理，就是因為他們世俗的智巧與心機太多了。因此，用世俗的智巧心機去治理國家，是國家的禍害；不用世俗的智巧心機去治理國家，才是國家的福氣。能夠明白這兩種治國方法的區別，也就是掌握了治國的法則。永遠記住並遵循這個法則，就叫做深奧玄妙的玄德。這種玄德是多麼幽深啊，多麼深遠啊，它似乎與世俗事物的發展方向完全相反，但最終卻能達到與天地自然完全相順應的最高境界。",
+        "analysis": "【訓詁與名物】「明民」的「明」指精明、智巧、心機。「愚之」的「愚」並非指愚昧無知，而是指敦厚、質樸、純真。「賊」指禍害、賊害。「稽式」即楷模、法則。「玄德」指深奧玄妙的德性，指順應自然而不造作的品德。「反」指相反，意謂得道者的行為與世俗常人的價值觀（如追求智巧）背道而馳。「大順」指完全順應自然大道。\\n【章法與結構】本段採取先破後立的論述方式。開篇即提出一個顛覆世俗認知的觀點（非以明民，將以愚之），接著分析原因（民之難治，以其智多），並由此推導出正反兩面的治國結論（國之賊、國之福）。最後，將這種治國法則昇華為「玄德」，並以三個感嘆句（深矣、遠矣、反矣）來形容其境界，最終歸結於「大順」，一氣呵成，發人深省。\\n【思想與義理】這段話常被誤解為老子主張「愚民政策」，實則不然。老子這裡所反對的「智」，是指社會上那種勾心鬥角、巧取豪奪的世俗心機與小聰明；他所提倡的「愚」，是回歸嬰兒般的純真與質樸（返璞歸真）。他認為，統治者如果用各種心機與政令去算計百姓，百姓也會用更多的巧詐來應付，導致天下大亂。因此，最理想的政治是「無為而治」，消除人為的智巧與虛偽，讓社會回歸淳樸自然的狀態，雖然這看起來與世俗追求聰明的觀念背道而馳，但卻是達到天下大治（大順）的唯一途徑。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-66_p-1",
+      "chapterId": "dao-de-jing_ch-66",
+      "order": 1,
+      "canonicalText": "江海所以能為百谷王者，以其善下之，故能為百谷王。是以聖人慾上民，必以言下之；欲先民，必以身後之。是以聖人處上而民不重，處前而民不害。是以天下樂推而不厭。以其不爭，故天下莫能與之爭。",
+      "sentenceIds": [
+        "dao-de-jing_ch-66_p-1_s-1",
+        "dao-de-jing_ch-66_p-1_s-2",
+        "dao-de-jing_ch-66_p-1_s-3",
+        "dao-de-jing_ch-66_p-1_s-4",
+        "dao-de-jing_ch-66_p-1_s-5",
+        "dao-de-jing_ch-66_p-1_s-6"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "江海之所以能夠成為眾多河流匯聚的中心（百谷王），是因為它善於處在卑下的位置，所以才能夠成為百川之王。因此，有道的聖人如果想要處在百姓之上來領導他們，就必須在言語上對百姓保持謙下；如果想要走在百姓的前面來引導他們，就必須把自己的利益與身段放在百姓的後面。正因為如此，所以聖人雖然地位高高在上，百姓卻不會感到有沉重的負擔；雖然走在眾人之前，百姓也不會覺得受到阻礙與傷害。因此，天下人都樂意推舉他而不感到厭惡。就因為他不與任何人爭奪，所以天下就沒有任何人能夠與他相爭。",
+        "analysis": "【訓詁與名物】「百谷王」指百川匯聚的中心，比喻天下歸心。「善下之」指善於處在低窪的位置。「欲上民」指想要統治、領導百姓。「言下之」指言語謙卑、尊重百姓。「欲先民」指想要在百姓中處於領先或主導地位。「身後之」指把自身的利益放在百姓之後。「不重」指不覺得沉重、沒有壓迫感。「不害」指不覺得受到妨礙或損害。「樂推」指樂意推崇、擁戴。「不爭」指不爭權奪利。\\n【章法與結構】本段以「江海下百穀」的自然現象為起興，巧妙地隱喻統治者與百姓的關係。接著連用三個「是以」引導的排比句，層層推進：第一個「是以」提出聖人「言下」、「身後」的具體作法；第二個「是以」描繪百姓「不重」、「不害」的良好感受；第三個「是以」得出天下「樂推而不厭」的政治效果。最後以「不爭，故天下莫能與之爭」作結，點明全篇主旨，邏輯嚴謹，極具說服力。\\n【思想與義理】此章深刻闡釋了老子「處下不爭」與「先人後己」的領導哲學。老子認為，真正的領袖不應是高高在上、作威作福的獨裁者，而應具備江海般廣闊包容的胸襟。統治者唯有放下身段，真誠地服務百姓，將人民的利益置於自身之上，才能贏得人民發自內心的擁戴。這種「以退為進」、「不爭而莫能與之爭」的智慧，打破了傳統爭權奪利的政治思維，揭示了權力合法性與穩固性的真正來源在於對底層民眾的尊重與愛護。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-67_p-1",
+      "chapterId": "dao-de-jing_ch-67",
+      "order": 1,
+      "canonicalText": "天下皆謂我道大，似不肖。夫唯大，故似不肖。若肖，久矣其細也夫！我有三寶，持而保之：一曰慈，二曰儉，三曰不敢為天下先。慈故能勇；儉故能廣；不敢為天下先，故能成器長。今舍慈且勇；舍儉且廣；舍後且先；死矣！夫慈，以戰則勝，以守則固。天將救之，以慈衛之。",
+      "sentenceIds": [
+        "dao-de-jing_ch-67_p-1_s-1",
+        "dao-de-jing_ch-67_p-1_s-2",
+        "dao-de-jing_ch-67_p-1_s-3",
+        "dao-de-jing_ch-67_p-1_s-4",
+        "dao-de-jing_ch-67_p-1_s-5",
+        "dao-de-jing_ch-67_p-1_s-6",
+        "dao-de-jing_ch-67_p-1_s-7",
+        "dao-de-jing_ch-67_p-1_s-8",
+        "dao-de-jing_ch-67_p-1_s-9",
+        "dao-de-jing_ch-67_p-1_s-10",
+        "dao-de-jing_ch-67_p-1_s-11",
+        "dao-de-jing_ch-67_p-1_s-12",
+        "dao-de-jing_ch-67_p-1_s-13"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "天下人都說我講的道太大了，大到好像不像任何具體的事物。正因為它極大，所以纔不具體像什麼。如果它具體像某種事物，那麼它早就變得渺小了！我有三件法寶，一直緊握並保全著：第一是慈愛，第二是節儉，第三是不敢爭取天下第一。因為慈愛，所以能產生真正的勇敢；因為節儉，所以能保有廣大的資源；因為不敢爭天下第一，所以反而能成為萬物的首長。如果現在捨棄了慈愛卻只求勇敢，捨棄了節儉卻只求擴張，捨棄了退讓卻只求爭先，那就死定了！慈愛這個法寶，用來徵戰就能獲勝，用來防守就能堅固。上天將要拯救誰，就會用慈愛來護衛他。",
+        "analysis": "【訓詁與名物】「不肖」的「肖」是相似，不肖指不像任何具體之物。「細」指微小。「三寶」指老子所推崇的三種核心德性。「慈」指慈愛、柔和。「儉」指節制、收斂。「器長」指萬物之首、眾人之長。「且」在此有「只求、單憑」之意。\\n【章法與結構】本段層次極為清晰。開篇先以「大與不肖」破題，確立「道」超越具體形體的宏大本質；接著正式提出全段核心「三寶」（慈、儉、不敢為天下先）；隨後以正反兩面的排比句（慈故能勇對比舍慈且勇），嚴密論證三寶的功效與違背三寶的死路；最後單獨將「慈」昇華至天道救贖的高度，作為全段總結。\\n【思想與義理】此段是老子人生哲學與治國理念的總綱。「三寶」表面上看似軟弱退讓，實則是道家「柔弱勝剛強」的具體實踐。「慈」帶來了守護生命的無畏勇氣，「儉」透過剋制欲望而達到了資源的無限寬廣，「不敢為天下先」則以不爭之德消弭了衝突，反而贏得了領導地位。老子警告世人，失去這三項內在德性而盲目追求外在的剛猛與擴張，必將走向毀滅。最終他將「慈」視為宇宙間最強大的防護力，展現了道家深刻的生命關懷。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-68_p-1",
+      "chapterId": "dao-de-jing_ch-68",
+      "order": 1,
+      "canonicalText": "善為士者，不武；善戰者，不怒；善勝敵者，不與；善用人者，為之下。是謂不爭之德，是謂用人之力，是謂配天古之極。",
+      "sentenceIds": [
+        "dao-de-jing_ch-68_p-1_s-1",
+        "dao-de-jing_ch-68_p-1_s-2",
+        "dao-de-jing_ch-68_p-1_s-3",
+        "dao-de-jing_ch-68_p-1_s-4",
+        "dao-de-jing_ch-68_p-1_s-5"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "善於做將帥的人，不會逞強好武；善於作戰的人，不會被輕易激怒；善於戰勝敵人的人，不會與敵人正面硬碰硬；善於任用人才的人，姿態總是放得比別人低。這就叫做不與人爭的品德，這就叫做善用他人力量的智慧，這就叫做符合天道、自古以來的最高境界。",
+        "analysis": "【訓詁與名物】「士」在此指將帥、武官。「不武」指不窮兵黷武、不炫耀武力。「不怒」指不被情緒左右。「不與」指不與之正面衝突、交鋒。「為之下」指謙卑退讓，居於人下。「配天」指與天道相合。「極」指最高準則、極致。\\n【章法與結構】本段以極其工整的四組排比句（善...者，不...）開場，從將帥、作戰、克敵到用人，層層遞進，描繪出理想的領導者形象。接著以三個「是謂...」的排比句作結，將前面列舉的具體行為，理論化為「不爭之德」、「用人之力」，並最終昇華至「配天」的宇宙哲學高度。\\n【思想與義理】本段集中體現了道家「不爭」與「貴柔」的戰略思想。老子認為，真正的強大並非外在的張牙舞爪，而是內在的冷靜與剋制（不武、不怒）。在軍事與管理上，不正面衝突（不與）反而能出奇制勝；放下身段（為之下）反而能贏得人心，匯聚眾人的力量。這種以退為進、以柔克剛的智慧，完全摒棄了暴力與血氣，達到了與自然法則（天道）完美契合的最高境界。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-69_p-1",
+      "chapterId": "dao-de-jing_ch-69",
+      "order": 1,
+      "canonicalText": "用兵有言：吾不敢為主，而為客；不敢進寸，而退尺。是謂行無行；攘無臂；扔無敵；執無兵。禍莫大於輕敵，輕敵幾喪吾寶。故抗兵相加，哀者勝矣。",
+      "sentenceIds": [
+        "dao-de-jing_ch-69_p-1_s-1",
+        "dao-de-jing_ch-69_p-1_s-2",
+        "dao-de-jing_ch-69_p-1_s-3",
+        "dao-de-jing_ch-69_p-1_s-4",
+        "dao-de-jing_ch-69_p-1_s-5",
+        "dao-de-jing_ch-69_p-1_s-6",
+        "dao-de-jing_ch-69_p-1_s-7",
+        "dao-de-jing_ch-69_p-1_s-8"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "用兵的策略中有這樣一句話：我不敢主動發起攻擊（做主），而是處於被動防守（做客）；不敢貪進一寸，寧可後退一尺。這就叫做：雖然在陣列中卻好像沒有陣列；雖然要捲起袖子卻好像沒有手臂；雖然要抗擊卻好像沒有敵人；雖然要拿武器卻好像沒有兵器。災禍沒有比輕敵更大的了，輕敵幾乎會喪失我的三寶（慈、儉、不敢為天下先）。所以，當兩軍實力相當、兵刃相見時，心懷悲憫、不得已而應戰的一方纔能獲勝。",
+        "analysis": "【訓詁與名物】「主」與「客」為兵家術語，主動出擊為主，被動防守為客。「行無行」第一個行讀ㄏㄤˊ，陣列；意指雖有陣列卻不露形跡。「攘」指捲起袖子準備動手。「扔」引申為抗擊。「幾」是幾乎、差一點。「寶」指老子提倡的「三寶」。「哀者」指因戰爭帶來傷亡而感到悲痛哀憫的人。\\n【章法與結構】本段融合了兵家術語與道家哲理。首段引述兵法諺語（為主為客、進寸退尺），確立被動防守的基調；次段以四組奇特的排比（行無行等），描繪出無形無相的最高戰術境界；末段點出輕敵的危害，並以「哀者勝矣」作為全篇的反直覺結論，餘韻深遠。\\n【思想與義理】此段展示了老子的反戰思想與「哀兵必勝」的戰略觀。老子強烈反對窮兵黷武與主動侵略，主張在迫不得已時才採取防守（為客、退尺），並隱藏己方實力，達到「無形」的境界。他深刻指出戰爭的殘酷，認為輕敵不僅會招致失敗，更會喪失為人的慈悲本性（喪吾寶）。因此，只有那些不把殺人當作樂事、對生命充滿悲憫與敬畏的「哀者」，才能凝聚最強大的防禦力量並獲得最終的勝利。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-70_p-1",
+      "chapterId": "dao-de-jing_ch-70",
+      "order": 1,
+      "canonicalText": "吾言甚易知，甚易行。天下莫能知，莫能行。言有宗，事有君。夫唯無知，是以不我知。知我者希，則我者貴。是以聖人被褐懷玉。",
+      "sentenceIds": [
+        "dao-de-jing_ch-70_p-1_s-1",
+        "dao-de-jing_ch-70_p-1_s-2",
+        "dao-de-jing_ch-70_p-1_s-3",
+        "dao-de-jing_ch-70_p-1_s-4",
+        "dao-de-jing_ch-70_p-1_s-5",
+        "dao-de-jing_ch-70_p-1_s-6"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "我的理論非常容易理解，也非常容易實行。但是天下卻沒有人能理解，沒有人能實行。我的言論有其核心的主旨，我的行事有其根本的原則。正因為世人缺乏這種認知，所以纔不了解我。能理解我的人越稀少，我所堅守的道就越顯得珍貴。因此，有道的聖人總是外表穿著粗布麻衣，內心卻懷揣著無價的美玉。",
+        "analysis": "【訓詁與名物】「宗」指宗旨、根本。「君」指主宰、核心原則。「無知」在此指世人缺乏對「道」的根本認知。「則」作動詞用，效法。「被褐」指穿著粗糙的麻布衣服，借指外表樸素或身處貧賤。「懷玉」指懷藏美玉，借指內在蘊含高尚的道德與智慧。\\n【章法與結構】本段充滿了強烈的對比與悖論色彩。首先以「易知易行」與「莫知莫行」形成巨大的落差，點出曲高和寡的孤獨感；接著說明自己言行背後有著堅實的哲學基礎（言有宗，事有君）；最後將這種孤獨轉化為自我肯定（知我者希，則我者貴），並以「被褐懷玉」的生動意象完美收尾，畫面感極強。\\n【思想與義理】這段文字流露出老子深刻的思想孤獨感，以及對世俗價值觀的超越。老子的「道」（如無為、柔弱）在理論上極其簡單自然，但卻與世俗追求權力、財富、剛強的價值觀背道而馳，因此無人能懂、無人願行。然而，老子並未因此妥協，反而認為這證明瞭「道」的卓爾不羣。他以「被褐懷玉」的意象，確立了道家聖人內歛、不炫耀、重視內在真實價值勝過外在表象的終極人格典範。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-71_p-1",
+      "chapterId": "dao-de-jing_ch-71",
+      "order": 1,
+      "canonicalText": "知不知，上；不知知，病。夫唯病病，是以不病。聖人不病，以其病病，是以不病。",
+      "sentenceIds": [
+        "dao-de-jing_ch-71_p-1_s-1",
+        "dao-de-jing_ch-71_p-1_s-2",
+        "dao-de-jing_ch-71_p-1_s-3",
+        "dao-de-jing_ch-71_p-1_s-4"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "知道自己有所不知，這是最高明的；明明不知道卻自以為知道，這就是一種心智的病態。只有把這種自以為是的病態當作疾病來重視，才能夠不犯這種病。聖人之所以不會有這種病，是因為他把自以為是當作一種病來警惕，所以他才不會有這種病態。",
+        "analysis": "【訓詁與名物】第一個「知」為動詞（明白），第二個「不知」為名詞（自己的無知）。「不知知」意即本來不知，卻自以為知。「病」名詞作動詞，當作缺點、當作疾病看待。「病病」前一個病是動詞（擔憂、以為病），後一個病是名詞（指「不知知」的毛病）。\\n【章法與結構】本段以極其簡練的頂真與迴環句式構成。首句以「知不知」與「不知知」的對稱結構，點出智慧與愚昧的分野；接著以「病病」的雙關語進行邏輯推演，指出解決之道；最後以「聖人」為例作總結，文字如同繞口令般，卻蘊含嚴密的邏輯力量。\\n【思想與義理】此段精闢地探討了人類的認知論與精神修養。老子認為，人類最可怕的毛病並非「無知」，而是「傲慢的自以為知」。真正的智慧，建立在對自身認知局限的坦誠接受（知不知），這與蘇格拉底「我只知道自己一無所知」的哲學觀念不謀而合。聖人之偉大，在於他們擁有強大的自我反省能力，時刻警惕理性的狂妄，這種持續的自我覺察，才是保持精神健康與達到真知的唯一途徑。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-72_p-1",
+      "chapterId": "dao-de-jing_ch-72",
+      "order": 1,
+      "canonicalText": "民不畏威，則大威至。無狎其所居，無厭其所生。夫唯不厭，是以不厭。是以聖人自知不自見；自愛不自貴。故去彼取此。",
+      "sentenceIds": [
+        "dao-de-jing_ch-72_p-1_s-1",
+        "dao-de-jing_ch-72_p-1_s-2",
+        "dao-de-jing_ch-72_p-1_s-3",
+        "dao-de-jing_ch-72_p-1_s-4",
+        "dao-de-jing_ch-72_p-1_s-5",
+        "dao-de-jing_ch-72_p-1_s-6"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "當人民不再畏懼統治者所施加的高壓威嚇時，那麼真正可怕的大災禍就要降臨到統治者頭上了。不要去逼迫、擠壓人民安居的環境，不要去阻塞、壓榨人民賴以謀生的生計。正因為統治者不去壓榨人民，人民才不會厭棄統治者。因此，有道的聖人雖然有自知之明，卻不自我炫耀；雖然懂得自愛自重，卻不自顯高貴。所以聖人總是捨棄那種炫耀與高貴，而採取自知與自愛的態度。",
+        "analysis": "【訓詁與名物】：「威」指統治者的高壓政策與威嚇。「大威」指人民的反抗與推翻統治的巨大災禍。「狎」同「狹」，指擠壓、逼迫。「厭」第一個與第三個「厭」指壓迫、阻塞（同壓），第二個「厭」指厭惡、反叛。「見」（xiàn）同現，炫耀。「貴」指自視高貴、高高在上。\\n\\n【章法與結構】：全章可分為三層：第一層「民不畏威，則大威至」，提出總體的警告；第二層「無狎……是以不厭」，具體指出了統治者應當如何善待百姓，運用同音字（厭）的不同含義進行說理，邏輯嚴密；第三層「是以聖人……故去彼取此」，將治國之理昇華為聖人的個人修養與行為準則（不自見、不自貴）。\\n\\n【思想與義理】：此章體現了老子深切的民本思想與反暴政理念。老子警告統治者，過度的高壓與盤剝會將人民逼入絕境，一旦人民連死都不怕了，統治者的末日也就到了。真正的統治智慧不是用強權去恐嚇，而是給人民留下生存的空間（無狎其所居，無厭其所生），順應民心。同時，統治者自身也應保持謙卑退讓（自知不自見），這才是長治久安的根本之道。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-73_p-1",
+      "chapterId": "dao-de-jing_ch-73",
+      "order": 1,
+      "canonicalText": "勇於敢則殺，勇於不敢則活。此兩者，或利或害。天之所惡，孰知其故？是以聖人猶難之。天之道，不爭而善勝，不言而善應，不召而自來，繟然而善謀。天網恢恢，疏而不失。",
+      "sentenceIds": [
+        "dao-de-jing_ch-73_p-1_s-1",
+        "dao-de-jing_ch-73_p-1_s-2",
+        "dao-de-jing_ch-73_p-1_s-3",
+        "dao-de-jing_ch-73_p-1_s-4",
+        "dao-de-jing_ch-73_p-1_s-5",
+        "dao-de-jing_ch-73_p-1_s-6"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "憑藉勇氣而敢於妄為的人，往往會招致殺身之禍；憑藉勇氣而敢於退讓、不敢妄為的人，反而能夠存活下來。這兩種勇氣，有時帶來利益，有時帶來傷害。上天所厭惡的究竟是什麼，誰能真正知道其中的緣故呢？因此，即使是聖人面對這種情況也覺得難以捉摸而十分謹慎。自然大道的規律是：不與萬物爭鬥，卻善於取勝；不開口言說，卻善於回應；不用去召喚，萬物卻會自然歸附；雖然寬厚舒緩，卻善於籌謀安排。大自然的法則就像一張廣闊無邊的網，網眼雖然稀疏，卻絕不會漏掉任何一個該受懲罰的人。",
+        "analysis": "【訓詁與名物】：「敢」指膽大妄為、強硬進取。「不敢」指退讓、柔弱、不妄為。「殺」指遭受殺戮、滅亡。「惡」指厭惡。「難之」指對此感到困難、慎重對待。「繟（chǎn）然」指寬厚、舒緩的樣子。「天網」指大自然的規律與法則。「恢恢」指廣闊廣大的樣子。\\n\\n【章法與結構】：本章前半部分先從人事的「勇」入手，對比了「敢」與「不敢」的兩種結局，指出人事複雜，吉凶難料；中間以「天之所惡，孰知其故」作為過渡，將視角從人事轉向天道；後半部分運用四個「不……而善（自）……」的排比句，氣勢磅礴地描寫了天道的無為而無不為。最後以千古名句「天網恢恢，疏而不失」作結，震撼人心。\\n\\n【思想與義理】：此章深刻闡述了老子「柔弱勝剛強」與「天道自然」的哲學理念。在老子看來，世俗眼中的「勇猛剛強」往往是自取滅亡的取死之道，而真正有大智慧的人懂得「不敢」的退守之勇。他將這種處世哲學提升到了宇宙規律（天道）的高度。天道看似不爭、不言、不召、舒緩，卻掌握著絕對的主動權與最終的裁決權。任何人為的強求與妄為，最終都逃不過自然法則的制裁。這提醒人們要敬畏自然，順應大道。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-74_p-1",
+      "chapterId": "dao-de-jing_ch-74",
+      "order": 1,
+      "canonicalText": "民不畏死，奈何以死懼之？若使民常畏死，而為奇者，吾得執而殺之，孰敢？常有司殺者殺。夫司殺者，是大匠斲；夫代大匠斲者，希有不傷其手矣。",
+      "sentenceIds": [
+        "dao-de-jing_ch-74_p-1_s-1",
+        "dao-de-jing_ch-74_p-1_s-2",
+        "dao-de-jing_ch-74_p-1_s-3",
+        "dao-de-jing_ch-74_p-1_s-4",
+        "dao-de-jing_ch-74_p-1_s-5"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "當人民生活在水深火熱之中，連死都不害怕了，怎麼還能用死刑來恐嚇他們呢？如果能讓人民過上安定的生活從而經常畏懼死亡，這時若還有為非作歹的奇邪之人，我們就可以把他們抓起來殺掉，這樣誰還敢再犯法？然而，自然界中永遠有專門掌管生殺大權的老天在執行殺戮。如果世俗的統治者妄圖代替老天去隨意殺人，那就像是外行代替高明的木匠去砍削木頭；代替高明的木匠去砍木頭的人，很少有不砍傷自己雙手的。",
+        "analysis": "【訓詁與名物】：「奇者」指行為奇邪、為非作歹的人。「司殺者」指專門掌管殺戮的神明，或指自然界的法則。「大匠」指技藝高超的木匠，比喻天道。「斲（zhuó）」指用斧頭砍削木頭。「希」同稀，很少。\\n\\n【章法與結構】：全章可分為兩部分，皆以反問句引發思考。前半部分針對殘暴的統治者，指出當人民被逼到不怕死的地步時，酷刑便失去了威懾力，並假設了一種合理的懲罰機制；後半部分筆鋒一轉，引入「司殺者」與「大匠斲」的比喻，警告統治者不可僭越天道去濫用死刑。邏輯上層層遞進，比喻生動且具有極強的諷刺意味。\\n\\n【思想與義理】：本章是老子反對嚴刑峻法、主張無為而治的強音。老子認為，用死刑來威嚇百姓是極度愚蠢的暴政，因為民不畏死源於統治者的苛政猛於虎。即使社會中確實有需要懲治的惡人，這也應該交給冥冥之中的天道（司殺者）去制裁。統治者如果自恃強權，濫用暴力代替天道去殺人，最終必然會像外行用斧頭一樣遭受反噬，自取滅亡。這體現了老子對生命權的尊重與對自然法則的敬畏。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-75_p-1",
+      "chapterId": "dao-de-jing_ch-75",
+      "order": 1,
+      "canonicalText": "民之飢，以其上食稅之多，是以飢。民之難治，以其上之有為，是以難治。民之輕死，以其求生之厚，是以輕死。夫唯無以生為者，是賢於貴生。",
+      "sentenceIds": [
+        "dao-de-jing_ch-75_p-1_s-1",
+        "dao-de-jing_ch-75_p-1_s-2",
+        "dao-de-jing_ch-75_p-1_s-3",
+        "dao-de-jing_ch-75_p-1_s-4"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "人民之所以遭受飢餓，是因為統治者吞噬的賦稅太多了，所以人民才喫不飽。人民之所以難以統治與管理，是因為統治者過分干涉、政令繁多，所以社會才動盪難治。人民之所以輕視死亡、敢於反抗，是因為統治者為了滿足自己奢華的求生慾望而對百姓剝削得太狠，所以人民纔不把死當回事。只有那些不汲汲於追求個人奢華享受的統治者，才比那些過分看重自己生命享受的人要賢明得多。",
+        "analysis": "【訓詁與名物】：「食稅」指徵收、吞噬賦稅。「有為」指統治者過度幹預、繁政苛求。「輕死」指不把死當回事、不怕死。「求生之厚」指統治者為了追求自身生命的奢華與奉養而過度索取。「無以生為者」指不刻意去追求奢華生活奉養的人。「貴生」指過分看重和厚待自己的生命。\\n\\n【章法與結構】：本章採用了極為嚴整的排比句式。前三句以「民之……以其上之……是以……」的句型，將人民的「飢」、「難治」、「輕死」這三大社會危機，直接歸咎於統治者的「食稅之多」、「有為」、「求生之厚」。最後一句進行總結，點出統治者應有的態度。一針見血，句句直擊要害，具有極強的批判現實主義色彩。\\n\\n【思想與義理】：這是一篇聲討統治階級殘暴統治的政治檄文，展現了老子深刻的社會洞察力。老子打破了統治者將社會動盪歸咎於百姓的謊言，直指一切社會問題的根源都在於最高統治者。統治者的貪婪（重稅）、瞎指揮（有為）與驕奢淫逸（厚生），把百姓推向了飢餓與死亡的邊緣。因此，老子呼籲統治者要做到「無為」與「寡慾」，不要為了自己的一己私利而將天下百姓逼上絕路。這是一種極其深刻的民本主義政治哲學。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-76_p-1",
+      "chapterId": "dao-de-jing_ch-76",
+      "order": 1,
+      "canonicalText": "人之生也柔弱，其死也堅強。萬物草木之生也柔脆，其死也枯槁。故堅強者死之徒，柔弱者生之徒。是以兵強則不勝，木強則共。強大處下，柔弱處上。",
+      "sentenceIds": [
+        "dao-de-jing_ch-76_p-1_s-1",
+        "dao-de-jing_ch-76_p-1_s-2",
+        "dao-de-jing_ch-76_p-1_s-3",
+        "dao-de-jing_ch-76_p-1_s-4",
+        "dao-de-jing_ch-76_p-1_s-5"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "人在活著的時候，身體是柔軟脆弱的，而當他死後，軀體就變得僵硬堅挺了。自然界的萬物與草木在生長的時候，枝葉也是柔軟脆弱的，而當它們死後，就變得乾枯堅硬了。所以說，凡是表現得堅硬強橫的，都是屬於死亡的一類；凡是表現得柔軟脆弱的，都是屬於充滿生機的一類。因此，軍隊恃強好戰就不能取得真正的勝利，樹木長得粗壯強大就會遭到砍伐（或自然摧折）。所以，凡是強大剛硬的，反而處於低下的劣勢地位；凡是柔弱順應的，反而處於高上的優勢地位。",
+        "analysis": "【訓詁與名物】：「柔弱」與「柔脆」皆指充滿生機、柔軟有彈性的狀態。「堅強」與「枯槁」皆指僵硬、失去生命活力的狀態。「徒」指一類。「兵強」指軍隊憑藉武力強橫驕傲。「木強則共（gǒng）」有兩種常見解釋：一作「合抱」解，指樹木長大合抱就會招致匠人砍伐；二通「折」，指樹木過於剛硬遇到強風便容易折斷。兩種解釋皆通此處反向轉化的哲理。\\n\\n【章法與結構】：此章採用了歸納推理與類比論證的結構。開篇先從人類與草木的生死現象中提取出「生即柔，死即堅」的客觀事實，進而得出「堅強者死之徒，柔弱者生之徒」的哲學定律。然後將這一規律推演至軍事（兵強）與自然（木強）領域。最後以「強大處下，柔弱處上」兩句對偶句作結，徹底顛覆了世俗的常規認知，論證嚴密且極具說服力。\\n\\n【思想與義理】：本章是老子「貴柔守弱」思想的最經典闡釋。在常人看來，強大是優勢，柔弱是劣勢。但老子透過表象看到了生命的本質：柔弱意味著包含了無限的生機、可塑性與發展空間；而堅強剛硬則意味著事物發展到了頂點，失去了變化與生機，離死亡與毀滅也就不遠了。因此，真正的大智慧是保持柔弱、退讓與謙卑，避免剛愎自用與恃強凌弱。這種崇尚生命力、反對暴力與僵化的思想，蘊含著深刻的辯證法智慧。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-77_p-1",
+      "chapterId": "dao-de-jing_ch-77",
+      "order": 1,
+      "canonicalText": "天之道，其猶張弓與？高者抑之，下者舉之；有餘者損之，不足者補之。天之道，損有餘而補不足。人之道，則不然，損不足以奉有餘。孰能有餘以奉天下，唯有道者。是以聖人為而不恃，功成而不處，其不欲見賢。",
+      "sentenceIds": [
+        "dao-de-jing_ch-77_p-1_s-1",
+        "dao-de-jing_ch-77_p-1_s-2",
+        "dao-de-jing_ch-77_p-1_s-3",
+        "dao-de-jing_ch-77_p-1_s-4",
+        "dao-de-jing_ch-77_p-1_s-5",
+        "dao-de-jing_ch-77_p-1_s-6",
+        "dao-de-jing_ch-77_p-1_s-7"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "天地大道的運行規律，難道不正如獵人拉開弓弩射箭一樣嗎（其猶張弓與）？弦拉得太高了就把它向下壓抑一點（高者抑之），弦放得太低了就把它向上抬舉一點（下者舉之）；多餘凸出的部分就把它削減掉（有餘者損之），不足匱乏的部分就把它填補充實（不足者補之）！天地大道的客觀法則，乃是主動削減多餘富餘的部分，用來彌補補足匱乏不足的部分（損有餘而補不足），以維持整體的動態平衡！然而世俗人類社會的階級剝削之道卻完全不是這樣：而是殘酷搜刮剝削貧困匱乏者的微薄資財，用來奉養進奉早已富得流油的富貴特權階層（損不足以奉有餘）！試問世間究竟有誰能夠主動將自己富足有餘的財富與德澤無私奉獻給全天下人民呢？唯有真正掌握了天地大道的得道聖人才能做到啊（唯有道者）！因此得道的聖人施展作為推動功業而不自恃己能（為而不恃），大功告成之後從不居功自傲佔為己有（功成而不處），他絲毫不願在世人面前炫耀彰顯自己的賢能（其不欲見賢）！",
+        "analysis": "【題解與背景】\\n本段選自《道德經》〈第77段〉第 77 節。屬於古代道家玄旨代表性經典，記述先賢關於主張順應自然、無為而治、清靜守柔與虛懷若谷之重大名言與歷史背景。\\n【詞義與名物】\\n1. 經典名句解讀：引述「天之道其猶張弓與高者抑之下者舉之有餘者損之不……」之思想精華與章法結構。\\n2. 訓詁與古漢語語法：本段重點解讀「天」、「道」、「猶」、「張」等關鍵字詞之古代漢語語意、通假字與名物制度範式。\\n【思想與史事脈絡】\\n深刻傳達《道德經》知行合一與經世致用之哲理觀念，展現老莊哲學對宇宙天道與人生通達境界之深刻體悟，為後世立德、立言、立功提供極具學術價值之智慧資糧與歷史參照。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-78_p-1",
+      "chapterId": "dao-de-jing_ch-78",
+      "order": 1,
+      "canonicalText": "天下莫柔弱於水，而攻堅強者莫之能勝，其無以易之。弱之勝強，柔之勝剛，天下莫不知，莫能行。是以聖人云：受國之垢，是謂社稷主；受國不祥，是謂天下王。正言若反。",
+      "sentenceIds": [
+        "dao-de-jing_ch-78_p-1_s-1",
+        "dao-de-jing_ch-78_p-1_s-2",
+        "dao-de-jing_ch-78_p-1_s-3",
+        "dao-de-jing_ch-78_p-1_s-4",
+        "dao-de-jing_ch-78_p-1_s-5"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "天下沒有什麼東西比水更柔弱了，但是要攻克堅硬剛強的東西，卻沒有任何東西能勝過水，因為沒有什麼可以替代它的特性。弱能戰勝強，柔能戰勝剛，天下沒有人不知道這個道理，但卻沒有人能夠在實際行動中做到。因此聖人說：能夠承受全國的屈辱與污垢，這才配稱作國家的主人；能夠承擔全國的災難與不祥，這才配稱作天下的君王。這些正確的道理，聽起來往往像是反話。",
+        "analysis": "【訓詁與名物】「易」指改變、替代。「垢」指污垢，比喻恥辱、責難。「社稷」是土神與穀神的總稱，代指國家。「不祥」指災禍、不幸。「正言若反」指合乎大道的言論，表面上聽起來似乎與世俗常理相反。\\n【章法與結構】本段以「水」的意象起興，先論證「柔弱勝剛強」的物理現象；接著指出世人「知易行難」的困境；隨後引述聖人之言，將「柔弱包容」的哲理推廣至政治領袖的承擔精神（受垢、受不祥）；最後以「正言若反」四字總結全篇，點出真理往往違背世俗直覺的深刻本質。\\n【思想與義理】這是老子「貴柔」哲學與政治承擔倫理的完美結合。老子以水為喻，說明極度的柔弱中蘊含著穿透一切剛強的巨大力量。然而，在現實中，人們往往受制於爭強好勝的本能，無法實踐這種智慧。在政治層面上，老子顛覆了傳統君王高高在上、獨享尊榮的形象，他認為真正的王者，必須像處於低窪之地的水一樣，去接納、承擔國家所有的污名、罪過與災難。這種犧牲自我、包容一切的悲願，才是真理（正言）的所在。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-79_p-1",
+      "chapterId": "dao-de-jing_ch-79",
+      "order": 1,
+      "canonicalText": "和大怨，必有餘怨；安可以為善？是以聖人執左契，而不責於人。有德司契，無德司徹。天道無親，常與善人。",
+      "sentenceIds": [
+        "dao-de-jing_ch-79_p-1_s-1",
+        "dao-de-jing_ch-79_p-1_s-2",
+        "dao-de-jing_ch-79_p-1_s-3",
+        "dao-de-jing_ch-79_p-1_s-4",
+        "dao-de-jing_ch-79_p-1_s-5"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "調解深重的仇怨，即使和解了，也必定還會留下殘餘的怨恨；這樣怎麼能算是妥善的解決呢？因此，有道的聖人就像拿著契約的左半邊（債權人），卻不向別人強求討債。有道德的人，就像只掌管契約而不逼迫；沒有道德的人，就像掌管稅收一樣錙銖必較、四處榨取。天道對任何人都是沒有偏私的，它永遠只會眷顧那些有道德的善人。",
+        "analysis": "【訓詁與名物】「左契」古代契約分左右兩半，左半為債權人所執。「責」在此作動詞，指索取、討債。「司契」指掌管契約，即握有權利但寬容不逼迫。「司徹」的「徹」是周代的一種稅制（什一之稅），引申為嚴格徵收、索取無度。「無親」指沒有私心偏愛。\\n【章法與結構】本段從處理人際糾紛（和大怨）切入，提出世俗調解機制的局限性；接著引入「執左契」的比喻，描繪聖人「有理而退讓」的寬容風範；隨後以「有德司契」與「無德司徹」作強烈對比，批判世俗的巧取豪奪；最後以「天道無親，常與善人」的宏大天道觀作結，給予道德踐履者終極的安慰與保證。\\n【思想與義理】此段反映了老子對於社會糾紛與道德法則的深刻洞察。老子認為，事後的調解往往無法根除仇恨（必有餘怨），最根本的解決之道是聖人的「不責於人」。這種手握權利（執左契）卻主動放棄追討的寬恕精神，是打破仇恨連鎖的唯一方法。老子最終指出，宇宙的根本法則（天道）雖然冷靜無情、沒有偏私，但其客觀的運作規律，最終必然會讓那些具備寬容不爭之德的「善人」獲得最大的保全與回報。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-80_p-1",
+      "chapterId": "dao-de-jing_ch-80",
+      "order": 1,
+      "canonicalText": "小國寡民。使有什伯之器而不用；使民重死而不遠徙。雖有舟輿，無所乘之，雖有甲兵，無所陳之。使民復結繩而用之，甘其食，美其服，安其居，樂其俗。鄰國相望，雞犬之聲相聞，民至老死，不相往來。",
+      "sentenceIds": [
+        "dao-de-jing_ch-80_p-1_s-1",
+        "dao-de-jing_ch-80_p-1_s-2",
+        "dao-de-jing_ch-80_p-1_s-3",
+        "dao-de-jing_ch-80_p-1_s-4",
+        "dao-de-jing_ch-80_p-1_s-5",
+        "dao-de-jing_ch-80_p-1_s-6"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "理想的國度是國土小巧、人口適度的淳樸社會（小國寡民）。使社會縱然擁有能夠提升十倍百倍效率的機械器具也無須過度依賴使用（使有什伯之器而不用）；使天下人民珍重珍惜生命、安土重遷而不背井離鄉遠徙他方（使民重死而不遠徙）。縱然擁有舟船車輛，也用不著疲於奔命長途奔馳；縱然擁有盔甲兵器，也用不著在戰場上排開陣列廝殺交戰！引導人民回復到結繩記事般純真質樸的淳厚社會：人人喫得甘甜香美（甘其食），人人穿得舒適得體（美其服），人人住得踏實安寧（安其居），人人樂於享受自己本土的淳樸風俗（樂其俗）！相鄰的國家彼此距離極近可以互相望見，彼此村落的雄雞鳴叫與狗吠之聲都能清晰聽聞（雞犬之聲相聞），而天下百姓直到自然老死，也各安其業自得其樂，用不著發生任何爭名奪利的非分爭奪往來（民至老死不相往來）！",
+        "analysis": "【題解與背景】\\n本段選自《道德經》〈第80段〉第 80 節。屬於古代道家玄旨代表性經典，記述先賢關於主張順應自然、無為而治、清靜守柔與虛懷若谷之重大名言與歷史背景。\\n【詞義與名物】\\n1. 經典名句解讀：引述「小國寡民使有什伯之器而不用使民重死而不遠徙雖……」之思想精華與章法結構。\\n2. 訓詁與古漢語語法：本段重點解讀「小」、「國」、「寡」、「民」等關鍵字詞之古代漢語語意、通假字與名物制度範式。\\n【思想與史事脈絡】\\n深刻傳達《道德經》知行合一與經世致用之哲理觀念，展現老莊哲學對宇宙天道與人生通達境界之深刻體悟，為後世立德、立言、立功提供極具學術價值之智慧資糧與歷史參照。"
+      }
+    },
+    {
+      "id": "dao-de-jing_ch-81_p-1",
+      "chapterId": "dao-de-jing_ch-81",
+      "order": 1,
+      "canonicalText": "信言不美，美言不信。善者不辯，辯者不善。知者不博，博者不知。聖人不積，既以為人己愈有，既以與人己愈多。天之道，利而不害；聖人之道，為而不爭。",
+      "sentenceIds": [
+        "dao-de-jing_ch-81_p-1_s-1",
+        "dao-de-jing_ch-81_p-1_s-2",
+        "dao-de-jing_ch-81_p-1_s-3",
+        "dao-de-jing_ch-81_p-1_s-4",
+        "dao-de-jing_ch-81_p-1_s-5",
+        "dao-de-jing_ch-81_p-1_s-6"
+      ],
+      "sourceRefs": [
+        {
+          "label": "通行本",
+          "edition": "中哲會/維基文庫"
+        },
+        {
+          "label": "維基文庫《道德經》全文",
+          "edition": "維基文庫繁體全文頁（人工開啟核實 2026-08-14）",
+          "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"
+        }
+      ],
+      "readingAid": {
+        "translation": "真實可信的真理言論往往不加修飾、聽起來並不華美動聽（信言不美），華美動聽的巧言諂媚往往虛偽不實不可憑信（美言不信）；\\n真正善良良善的人從不與人巧舌如簧強詞奪理（善者不辯），整日強詞奪理爭辯不休的人往往並非真正良善（辯者不善）；\\n真正通曉天地至道的智者學問精純專注而不求雜博炫耀（知者不博），到處炫耀博雜枝末知識的人往往並未真正通曉大道本質（博者不知）！得道的聖人從不為自己聚斂積累私產名利（聖人不積）：\\n他越是全心全意為天下他人謀求福祉，自己內心所擁有的精神財富反而越發充裕富足（既以為人己愈有）；\\n他越是傾其所有無私給予奉獻給天下萬民，自己生命所收穫的福德反而越發浩瀚繁多（既以與人己愈多）！天地大道的客觀法則，是滋養利益萬物生靈而從不施加任何傷害（天之道，利而不害）；\\n得道聖人的行事準則，是盡心竭力施展作為奉獻人間而從不與任何人爭奪私利（聖人之道，為而不爭）！",
+        "analysis": "【題解與背景】\\n本段選自《道德經》〈第81段〉第 81 節。屬於古代道家玄旨代表性經典，記述先賢關於主張順應自然、無為而治、清靜守柔與虛懷若谷之重大名言與歷史背景。\\n【詞義與名物】\\n1. 經典名句解讀：引述「信言不美美言不信善者不辯辯者不善知者不博博者……」之思想精華與章法結構。\\n2. 訓詁與古漢語語法：本段重點解讀「信」、「言」、「不」、「美」等關鍵字詞之古代漢語語意、通假字與名物制度範式。\\n【思想與史事脈絡】\\n深刻傳達《道德經》知行合一與經世致用之哲理觀念，展現老莊哲學對宇宙天道與人生通達境界之深刻體悟，為後世立德、立言、立功提供極具學術價值之智慧資糧與歷史參照。"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "dao-de-jing_ch-1_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-1",
+      "passageId": "dao-de-jing_ch-1_p-1",
+      "order": 1,
+      "canonicalText": "道可道，非常道；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-1_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-1",
+      "passageId": "dao-de-jing_ch-1_p-1",
+      "order": 2,
+      "canonicalText": "名可名，非常名。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-1_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-1",
+      "passageId": "dao-de-jing_ch-1_p-1",
+      "order": 3,
+      "canonicalText": "無名，天地之始；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-1_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-1",
+      "passageId": "dao-de-jing_ch-1_p-1",
+      "order": 4,
+      "canonicalText": "有名，萬物之母。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-1_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-1",
+      "passageId": "dao-de-jing_ch-1_p-1",
+      "order": 5,
+      "canonicalText": "故常無欲，以觀其妙；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-1_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-1",
+      "passageId": "dao-de-jing_ch-1_p-1",
+      "order": 6,
+      "canonicalText": "常有欲，以觀其徼。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-1_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-1",
+      "passageId": "dao-de-jing_ch-1_p-1",
+      "order": 7,
+      "canonicalText": "此兩者，同出而異名，同謂之玄。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-1_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-1",
+      "passageId": "dao-de-jing_ch-1_p-1",
+      "order": 8,
+      "canonicalText": "玄之又玄，眾妙之門。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-2_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-2",
+      "passageId": "dao-de-jing_ch-2_p-1",
+      "order": 1,
+      "canonicalText": "天下皆知美之為美，斯惡已；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-2_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-2",
+      "passageId": "dao-de-jing_ch-2_p-1",
+      "order": 2,
+      "canonicalText": "皆知善之為善，斯不善已。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-2_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-2",
+      "passageId": "dao-de-jing_ch-2_p-1",
+      "order": 3,
+      "canonicalText": "故有無相生，難易相成，長短相較，高下相傾，音聲相和，前後相隨。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-2_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-2",
+      "passageId": "dao-de-jing_ch-2_p-1",
+      "order": 4,
+      "canonicalText": "是以聖人處無為之事，行不言之教；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-2_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-2",
+      "passageId": "dao-de-jing_ch-2_p-1",
+      "order": 5,
+      "canonicalText": "萬物作焉而不辭，生而不有，為而不恃，功成而弗居。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-2_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-2",
+      "passageId": "dao-de-jing_ch-2_p-1",
+      "order": 6,
+      "canonicalText": "夫唯弗居，是以不去。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-3_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-3",
+      "passageId": "dao-de-jing_ch-3_p-1",
+      "order": 1,
+      "canonicalText": "不尚賢，使民不爭；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-3_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-3",
+      "passageId": "dao-de-jing_ch-3_p-1",
+      "order": 2,
+      "canonicalText": "不貴難得之貨，使民不為盜；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-3_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-3",
+      "passageId": "dao-de-jing_ch-3_p-1",
+      "order": 3,
+      "canonicalText": "不見可欲，使心不亂。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-3_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-3",
+      "passageId": "dao-de-jing_ch-3_p-1",
+      "order": 4,
+      "canonicalText": "是以聖人之治，虛其心，實其腹，弱其志，強其骨。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-3_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-3",
+      "passageId": "dao-de-jing_ch-3_p-1",
+      "order": 5,
+      "canonicalText": "常使民無知無欲。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-3_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-3",
+      "passageId": "dao-de-jing_ch-3_p-1",
+      "order": 6,
+      "canonicalText": "使夫知者不敢為也。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-3_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-3",
+      "passageId": "dao-de-jing_ch-3_p-1",
+      "order": 7,
+      "canonicalText": "為無為，則無不治。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-4_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-4",
+      "passageId": "dao-de-jing_ch-4_p-1",
+      "order": 1,
+      "canonicalText": "道沖，而用之或不盈。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-4_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-4",
+      "passageId": "dao-de-jing_ch-4_p-1",
+      "order": 2,
+      "canonicalText": "淵兮，似萬物之宗；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-4_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-4",
+      "passageId": "dao-de-jing_ch-4_p-1",
+      "order": 3,
+      "canonicalText": "挫其銳，解其紛，和其光，同其塵。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-4_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-4",
+      "passageId": "dao-de-jing_ch-4_p-1",
+      "order": 4,
+      "canonicalText": "湛兮，似或存。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-4_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-4",
+      "passageId": "dao-de-jing_ch-4_p-1",
+      "order": 5,
+      "canonicalText": "吾不知誰之子，象帝之先。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-5_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-5",
+      "passageId": "dao-de-jing_ch-5_p-1",
+      "order": 1,
+      "canonicalText": "天地不仁，以萬物為芻狗；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-5_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-5",
+      "passageId": "dao-de-jing_ch-5_p-1",
+      "order": 2,
+      "canonicalText": "聖人不仁，以百姓為芻狗。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-5_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-5",
+      "passageId": "dao-de-jing_ch-5_p-1",
+      "order": 3,
+      "canonicalText": "天地之間，其猶橐籥乎？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-5_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-5",
+      "passageId": "dao-de-jing_ch-5_p-1",
+      "order": 4,
+      "canonicalText": "虛而不屈，動而愈出。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-5_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-5",
+      "passageId": "dao-de-jing_ch-5_p-1",
+      "order": 5,
+      "canonicalText": "多言數窮，不如守中。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-6_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-6",
+      "passageId": "dao-de-jing_ch-6_p-1",
+      "order": 1,
+      "canonicalText": "穀神不死，是謂玄牝。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-6_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-6",
+      "passageId": "dao-de-jing_ch-6_p-1",
+      "order": 2,
+      "canonicalText": "玄牝之門，是謂天地根。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-6_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-6",
+      "passageId": "dao-de-jing_ch-6_p-1",
+      "order": 3,
+      "canonicalText": "綿綿若存，用之不勤。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-7_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-7",
+      "passageId": "dao-de-jing_ch-7_p-1",
+      "order": 1,
+      "canonicalText": "天長地久。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-7_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-7",
+      "passageId": "dao-de-jing_ch-7_p-1",
+      "order": 2,
+      "canonicalText": "天地所以能長且久者，以其不自生，故能長生。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-7_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-7",
+      "passageId": "dao-de-jing_ch-7_p-1",
+      "order": 3,
+      "canonicalText": "是以聖人後其身而身先；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-7_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-7",
+      "passageId": "dao-de-jing_ch-7_p-1",
+      "order": 4,
+      "canonicalText": "外其身而身存。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-7_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-7",
+      "passageId": "dao-de-jing_ch-7_p-1",
+      "order": 5,
+      "canonicalText": "非以其無私耶？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-7_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-7",
+      "passageId": "dao-de-jing_ch-7_p-1",
+      "order": 6,
+      "canonicalText": "故能成其私。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-8_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-8",
+      "passageId": "dao-de-jing_ch-8_p-1",
+      "order": 1,
+      "canonicalText": "上善若水。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-8_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-8",
+      "passageId": "dao-de-jing_ch-8_p-1",
+      "order": 2,
+      "canonicalText": "水善利萬物而不爭，處眾人之所惡，故幾於道。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-8_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-8",
+      "passageId": "dao-de-jing_ch-8_p-1",
+      "order": 3,
+      "canonicalText": "居善地，心善淵，與善仁，言善信，政善治，事善能，動善時。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-8_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-8",
+      "passageId": "dao-de-jing_ch-8_p-1",
+      "order": 4,
+      "canonicalText": "夫唯不爭，故無尤。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-9_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-9",
+      "passageId": "dao-de-jing_ch-9_p-1",
+      "order": 1,
+      "canonicalText": "持而盈之，不如其已；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-9_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-9",
+      "passageId": "dao-de-jing_ch-9_p-1",
+      "order": 2,
+      "canonicalText": "揣而銳之，不可長保。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-9_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-9",
+      "passageId": "dao-de-jing_ch-9_p-1",
+      "order": 3,
+      "canonicalText": "金玉滿堂，莫之能守；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-9_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-9",
+      "passageId": "dao-de-jing_ch-9_p-1",
+      "order": 4,
+      "canonicalText": "富貴而驕，自遺其咎。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-9_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-9",
+      "passageId": "dao-de-jing_ch-9_p-1",
+      "order": 5,
+      "canonicalText": "功遂身退，天之道。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-10_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-10",
+      "passageId": "dao-de-jing_ch-10_p-1",
+      "order": 1,
+      "canonicalText": "載營魄抱一，能無離乎？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-10_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-10",
+      "passageId": "dao-de-jing_ch-10_p-1",
+      "order": 2,
+      "canonicalText": "專氣致柔，能如嬰兒乎？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-10_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-10",
+      "passageId": "dao-de-jing_ch-10_p-1",
+      "order": 3,
+      "canonicalText": "滌除玄覽，能無疵乎？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-10_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-10",
+      "passageId": "dao-de-jing_ch-10_p-1",
+      "order": 4,
+      "canonicalText": "愛民治國，能無知乎？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-10_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-10",
+      "passageId": "dao-de-jing_ch-10_p-1",
+      "order": 5,
+      "canonicalText": "天門開闔，能為雌乎？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-10_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-10",
+      "passageId": "dao-de-jing_ch-10_p-1",
+      "order": 6,
+      "canonicalText": "明白四達，能無知乎？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-10_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-10",
+      "passageId": "dao-de-jing_ch-10_p-1",
+      "order": 7,
+      "canonicalText": "生之、畜之，生而不有，為而不恃，長而不宰，是謂玄德。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-11_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-11",
+      "passageId": "dao-de-jing_ch-11_p-1",
+      "order": 1,
+      "canonicalText": "三十輻，共一轂，當其無，有車之用。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-11_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-11",
+      "passageId": "dao-de-jing_ch-11_p-1",
+      "order": 2,
+      "canonicalText": "埏埴以為器，當其無，有器之用。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-11_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-11",
+      "passageId": "dao-de-jing_ch-11_p-1",
+      "order": 3,
+      "canonicalText": "鑿戶牖以為室，當其無，有室之用。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-11_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-11",
+      "passageId": "dao-de-jing_ch-11_p-1",
+      "order": 4,
+      "canonicalText": "故有之以為利，無之以為用。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-12_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-12",
+      "passageId": "dao-de-jing_ch-12_p-1",
+      "order": 1,
+      "canonicalText": "五色令人目盲；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-12_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-12",
+      "passageId": "dao-de-jing_ch-12_p-1",
+      "order": 2,
+      "canonicalText": "五音令人耳聾；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-12_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-12",
+      "passageId": "dao-de-jing_ch-12_p-1",
+      "order": 3,
+      "canonicalText": "五味令人口爽；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-12_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-12",
+      "passageId": "dao-de-jing_ch-12_p-1",
+      "order": 4,
+      "canonicalText": "馳騁田獵，令人心發狂；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-12_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-12",
+      "passageId": "dao-de-jing_ch-12_p-1",
+      "order": 5,
+      "canonicalText": "難得之貨，令人行妨。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-12_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-12",
+      "passageId": "dao-de-jing_ch-12_p-1",
+      "order": 6,
+      "canonicalText": "是以聖人為腹不為目，故去彼取此。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-13_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-13",
+      "passageId": "dao-de-jing_ch-13_p-1",
+      "order": 1,
+      "canonicalText": "寵辱若驚，貴大患若身。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-13_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-13",
+      "passageId": "dao-de-jing_ch-13_p-1",
+      "order": 2,
+      "canonicalText": "何謂寵辱若驚？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-13_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-13",
+      "passageId": "dao-de-jing_ch-13_p-1",
+      "order": 3,
+      "canonicalText": "寵為下，得之若驚，失之若驚，是謂寵辱若驚。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-13_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-13",
+      "passageId": "dao-de-jing_ch-13_p-1",
+      "order": 4,
+      "canonicalText": "何謂貴大患若身？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-13_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-13",
+      "passageId": "dao-de-jing_ch-13_p-1",
+      "order": 5,
+      "canonicalText": "吾所以有大患者，為吾有身，及吾無身，吾有何患？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-13_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-13",
+      "passageId": "dao-de-jing_ch-13_p-1",
+      "order": 6,
+      "canonicalText": "故貴以身為天下，若可寄天下；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-13_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-13",
+      "passageId": "dao-de-jing_ch-13_p-1",
+      "order": 7,
+      "canonicalText": "愛以身為天下，若可託天下。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-14_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-14",
+      "passageId": "dao-de-jing_ch-14_p-1",
+      "order": 1,
+      "canonicalText": "視之不見，名曰夷；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-14_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-14",
+      "passageId": "dao-de-jing_ch-14_p-1",
+      "order": 2,
+      "canonicalText": "聽之不聞，名曰希；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-14_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-14",
+      "passageId": "dao-de-jing_ch-14_p-1",
+      "order": 3,
+      "canonicalText": "搏之不得，名曰微。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-14_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-14",
+      "passageId": "dao-de-jing_ch-14_p-1",
+      "order": 4,
+      "canonicalText": "此三者不可致詰，故混而為一。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-14_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-14",
+      "passageId": "dao-de-jing_ch-14_p-1",
+      "order": 5,
+      "canonicalText": "其上不皦，其下不昧。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-14_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-14",
+      "passageId": "dao-de-jing_ch-14_p-1",
+      "order": 6,
+      "canonicalText": "繩繩不可名，復歸於無物。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-14_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-14",
+      "passageId": "dao-de-jing_ch-14_p-1",
+      "order": 7,
+      "canonicalText": "是謂無狀之狀，無物之象，是謂惚恍。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-14_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-14",
+      "passageId": "dao-de-jing_ch-14_p-1",
+      "order": 8,
+      "canonicalText": "迎之不見其首，隨之不見其後。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-14_p-1_s-9",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-14",
+      "passageId": "dao-de-jing_ch-14_p-1",
+      "order": 9,
+      "canonicalText": "執古之道，以御今之有。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-14_p-1_s-10",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-14",
+      "passageId": "dao-de-jing_ch-14_p-1",
+      "order": 10,
+      "canonicalText": "能知古始，是謂道紀。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-15_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-15",
+      "passageId": "dao-de-jing_ch-15_p-1",
+      "order": 1,
+      "canonicalText": "古之善為士者，微妙玄通，深不可識。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-15_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-15",
+      "passageId": "dao-de-jing_ch-15_p-1",
+      "order": 2,
+      "canonicalText": "夫唯不可識，故強為之容：豫兮若冬涉川；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-15_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-15",
+      "passageId": "dao-de-jing_ch-15_p-1",
+      "order": 3,
+      "canonicalText": "猶兮若畏四鄰；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-15_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-15",
+      "passageId": "dao-de-jing_ch-15_p-1",
+      "order": 4,
+      "canonicalText": "儼兮其若容；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-15_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-15",
+      "passageId": "dao-de-jing_ch-15_p-1",
+      "order": 5,
+      "canonicalText": "渙兮若冰之將釋；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-15_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-15",
+      "passageId": "dao-de-jing_ch-15_p-1",
+      "order": 6,
+      "canonicalText": "敦兮其若樸；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-15_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-15",
+      "passageId": "dao-de-jing_ch-15_p-1",
+      "order": 7,
+      "canonicalText": "曠兮其若谷；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-15_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-15",
+      "passageId": "dao-de-jing_ch-15_p-1",
+      "order": 8,
+      "canonicalText": "混兮其若濁。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-15_p-1_s-9",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-15",
+      "passageId": "dao-de-jing_ch-15_p-1",
+      "order": 9,
+      "canonicalText": "孰能濁以靜之徐清？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-15_p-1_s-10",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-15",
+      "passageId": "dao-de-jing_ch-15_p-1",
+      "order": 10,
+      "canonicalText": "孰能安以久動之徐生？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-15_p-1_s-11",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-15",
+      "passageId": "dao-de-jing_ch-15_p-1",
+      "order": 11,
+      "canonicalText": "保此道者，不欲盈。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-15_p-1_s-12",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-15",
+      "passageId": "dao-de-jing_ch-15_p-1",
+      "order": 12,
+      "canonicalText": "夫唯不盈，故能蔽不新成。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-16_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-16",
+      "passageId": "dao-de-jing_ch-16_p-1",
+      "order": 1,
+      "canonicalText": "致虛極，守靜篤。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-16_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-16",
+      "passageId": "dao-de-jing_ch-16_p-1",
+      "order": 2,
+      "canonicalText": "萬物並作，吾以觀復。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-16_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-16",
+      "passageId": "dao-de-jing_ch-16_p-1",
+      "order": 3,
+      "canonicalText": "夫物芸芸，各復歸其根。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-16_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-16",
+      "passageId": "dao-de-jing_ch-16_p-1",
+      "order": 4,
+      "canonicalText": "歸根曰靜，是謂復命。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-16_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-16",
+      "passageId": "dao-de-jing_ch-16_p-1",
+      "order": 5,
+      "canonicalText": "復命曰常，知常曰明。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-16_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-16",
+      "passageId": "dao-de-jing_ch-16_p-1",
+      "order": 6,
+      "canonicalText": "不知常，妄作兇。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-16_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-16",
+      "passageId": "dao-de-jing_ch-16_p-1",
+      "order": 7,
+      "canonicalText": "知常容，容乃公，公乃王，王乃天，天乃道，道乃久，沒身不殆。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-17_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-17",
+      "passageId": "dao-de-jing_ch-17_p-1",
+      "order": 1,
+      "canonicalText": "太上，下知有之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-17_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-17",
+      "passageId": "dao-de-jing_ch-17_p-1",
+      "order": 2,
+      "canonicalText": "其次，親而譽之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-17_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-17",
+      "passageId": "dao-de-jing_ch-17_p-1",
+      "order": 3,
+      "canonicalText": "其次，畏之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-17_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-17",
+      "passageId": "dao-de-jing_ch-17_p-1",
+      "order": 4,
+      "canonicalText": "其次，侮之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-17_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-17",
+      "passageId": "dao-de-jing_ch-17_p-1",
+      "order": 5,
+      "canonicalText": "信不足，焉有不信焉。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-17_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-17",
+      "passageId": "dao-de-jing_ch-17_p-1",
+      "order": 6,
+      "canonicalText": "悠兮，其貴言。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-17_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-17",
+      "passageId": "dao-de-jing_ch-17_p-1",
+      "order": 7,
+      "canonicalText": "功成事遂，百姓皆謂我自然。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-18_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-18",
+      "passageId": "dao-de-jing_ch-18_p-1",
+      "order": 1,
+      "canonicalText": "大道廢，有仁義；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-18_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-18",
+      "passageId": "dao-de-jing_ch-18_p-1",
+      "order": 2,
+      "canonicalText": "智慧出，有大偽；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-18_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-18",
+      "passageId": "dao-de-jing_ch-18_p-1",
+      "order": 3,
+      "canonicalText": "六親不和，有孝慈；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-18_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-18",
+      "passageId": "dao-de-jing_ch-18_p-1",
+      "order": 4,
+      "canonicalText": "國家昏亂，有忠臣。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-19_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-19",
+      "passageId": "dao-de-jing_ch-19_p-1",
+      "order": 1,
+      "canonicalText": "絕聖棄智，民利百倍；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-19_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-19",
+      "passageId": "dao-de-jing_ch-19_p-1",
+      "order": 2,
+      "canonicalText": "絕仁棄義，民復孝慈；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-19_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-19",
+      "passageId": "dao-de-jing_ch-19_p-1",
+      "order": 3,
+      "canonicalText": "絕巧棄利，盜賊無有。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-19_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-19",
+      "passageId": "dao-de-jing_ch-19_p-1",
+      "order": 4,
+      "canonicalText": "此三者以為文不足。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-19_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-19",
+      "passageId": "dao-de-jing_ch-19_p-1",
+      "order": 5,
+      "canonicalText": "故令有所屬：見素抱樸，少私寡慾。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-20_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-20",
+      "passageId": "dao-de-jing_ch-20_p-1",
+      "order": 1,
+      "canonicalText": "絕學無憂，唯之與阿，相去幾何？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-20_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-20",
+      "passageId": "dao-de-jing_ch-20_p-1",
+      "order": 2,
+      "canonicalText": "善之與惡，相去若何？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-20_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-20",
+      "passageId": "dao-de-jing_ch-20_p-1",
+      "order": 3,
+      "canonicalText": "人之所畏，不可不畏。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-20_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-20",
+      "passageId": "dao-de-jing_ch-20_p-1",
+      "order": 4,
+      "canonicalText": "荒兮，其未央哉！",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-20_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-20",
+      "passageId": "dao-de-jing_ch-20_p-1",
+      "order": 5,
+      "canonicalText": "眾人熙熙，如享太牢，如春登臺。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-20_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-20",
+      "passageId": "dao-de-jing_ch-20_p-1",
+      "order": 6,
+      "canonicalText": "我獨怕兮，其未兆；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-20_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-20",
+      "passageId": "dao-de-jing_ch-20_p-1",
+      "order": 7,
+      "canonicalText": "如嬰兒之未孩；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-20_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-20",
+      "passageId": "dao-de-jing_ch-20_p-1",
+      "order": 8,
+      "canonicalText": "儽儽兮，若無所歸。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-20_p-1_s-9",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-20",
+      "passageId": "dao-de-jing_ch-20_p-1",
+      "order": 9,
+      "canonicalText": "眾人皆有餘，而我獨若遺。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-20_p-1_s-10",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-20",
+      "passageId": "dao-de-jing_ch-20_p-1",
+      "order": 10,
+      "canonicalText": "我愚人之心也哉！",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-20_p-1_s-11",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-20",
+      "passageId": "dao-de-jing_ch-20_p-1",
+      "order": 11,
+      "canonicalText": "沌沌兮，俗人昭昭，我獨若昏。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-20_p-1_s-12",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-20",
+      "passageId": "dao-de-jing_ch-20_p-1",
+      "order": 12,
+      "canonicalText": "俗人察察，我獨悶悶。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-20_p-1_s-13",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-20",
+      "passageId": "dao-de-jing_ch-20_p-1",
+      "order": 13,
+      "canonicalText": "澹兮其若海，飂兮若無止。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-20_p-1_s-14",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-20",
+      "passageId": "dao-de-jing_ch-20_p-1",
+      "order": 14,
+      "canonicalText": "眾人皆有以，而我獨頑似鄙。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-20_p-1_s-15",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-20",
+      "passageId": "dao-de-jing_ch-20_p-1",
+      "order": 15,
+      "canonicalText": "我獨異於人，而貴食母。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-21_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-21",
+      "passageId": "dao-de-jing_ch-21_p-1",
+      "order": 1,
+      "canonicalText": "孔德之容，唯道是從。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-21_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-21",
+      "passageId": "dao-de-jing_ch-21_p-1",
+      "order": 2,
+      "canonicalText": "道之為物，唯恍唯惚。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-21_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-21",
+      "passageId": "dao-de-jing_ch-21_p-1",
+      "order": 3,
+      "canonicalText": "忽兮恍兮，其中有象；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-21_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-21",
+      "passageId": "dao-de-jing_ch-21_p-1",
+      "order": 4,
+      "canonicalText": "恍兮忽兮，其中有物。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-21_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-21",
+      "passageId": "dao-de-jing_ch-21_p-1",
+      "order": 5,
+      "canonicalText": "窈兮冥兮，其中有精；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-21_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-21",
+      "passageId": "dao-de-jing_ch-21_p-1",
+      "order": 6,
+      "canonicalText": "其精甚真，其中有信。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-21_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-21",
+      "passageId": "dao-de-jing_ch-21_p-1",
+      "order": 7,
+      "canonicalText": "自古及今，其名不去，以閱眾甫。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-21_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-21",
+      "passageId": "dao-de-jing_ch-21_p-1",
+      "order": 8,
+      "canonicalText": "吾何以知眾甫之狀哉？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-21_p-1_s-9",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-21",
+      "passageId": "dao-de-jing_ch-21_p-1",
+      "order": 9,
+      "canonicalText": "以此。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-22_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-22",
+      "passageId": "dao-de-jing_ch-22_p-1",
+      "order": 1,
+      "canonicalText": "曲則全，枉則直，窪則盈，弊則新，少則得，多則惑。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-22_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-22",
+      "passageId": "dao-de-jing_ch-22_p-1",
+      "order": 2,
+      "canonicalText": "是以聖人抱一為天下式。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-22_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-22",
+      "passageId": "dao-de-jing_ch-22_p-1",
+      "order": 3,
+      "canonicalText": "不自見，故明；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-22_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-22",
+      "passageId": "dao-de-jing_ch-22_p-1",
+      "order": 4,
+      "canonicalText": "不自是，故彰；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-22_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-22",
+      "passageId": "dao-de-jing_ch-22_p-1",
+      "order": 5,
+      "canonicalText": "不自伐，故有功；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-22_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-22",
+      "passageId": "dao-de-jing_ch-22_p-1",
+      "order": 6,
+      "canonicalText": "不自矜，故長。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-22_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-22",
+      "passageId": "dao-de-jing_ch-22_p-1",
+      "order": 7,
+      "canonicalText": "夫唯不爭，故天下莫能與之爭。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-22_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-22",
+      "passageId": "dao-de-jing_ch-22_p-1",
+      "order": 8,
+      "canonicalText": "古之所謂曲則全者，豈虛言哉！",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-22_p-1_s-9",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-22",
+      "passageId": "dao-de-jing_ch-22_p-1",
+      "order": 9,
+      "canonicalText": "誠全而歸之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-23_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-23",
+      "passageId": "dao-de-jing_ch-23_p-1",
+      "order": 1,
+      "canonicalText": "希言自然。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-23_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-23",
+      "passageId": "dao-de-jing_ch-23_p-1",
+      "order": 2,
+      "canonicalText": "故飄風不終朝，驟雨不終日。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-23_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-23",
+      "passageId": "dao-de-jing_ch-23_p-1",
+      "order": 3,
+      "canonicalText": "孰為此者？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-23_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-23",
+      "passageId": "dao-de-jing_ch-23_p-1",
+      "order": 4,
+      "canonicalText": "天地。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-23_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-23",
+      "passageId": "dao-de-jing_ch-23_p-1",
+      "order": 5,
+      "canonicalText": "天地尚不能久，而況於人乎？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-23_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-23",
+      "passageId": "dao-de-jing_ch-23_p-1",
+      "order": 6,
+      "canonicalText": "故從事於道者，同於道；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-23_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-23",
+      "passageId": "dao-de-jing_ch-23_p-1",
+      "order": 7,
+      "canonicalText": "德者，同於德；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-23_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-23",
+      "passageId": "dao-de-jing_ch-23_p-1",
+      "order": 8,
+      "canonicalText": "失者，同於失。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-23_p-1_s-9",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-23",
+      "passageId": "dao-de-jing_ch-23_p-1",
+      "order": 9,
+      "canonicalText": "同於道者，道亦樂得之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-23_p-1_s-10",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-23",
+      "passageId": "dao-de-jing_ch-23_p-1",
+      "order": 10,
+      "canonicalText": "同於德者，德亦樂得之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-23_p-1_s-11",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-23",
+      "passageId": "dao-de-jing_ch-23_p-1",
+      "order": 11,
+      "canonicalText": "同於失者，失亦樂得之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-23_p-1_s-12",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-23",
+      "passageId": "dao-de-jing_ch-23_p-1",
+      "order": 12,
+      "canonicalText": "信不足，焉有不信焉。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-24_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-24",
+      "passageId": "dao-de-jing_ch-24_p-1",
+      "order": 1,
+      "canonicalText": "企者不立；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-24_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-24",
+      "passageId": "dao-de-jing_ch-24_p-1",
+      "order": 2,
+      "canonicalText": "跨者不行；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-24_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-24",
+      "passageId": "dao-de-jing_ch-24_p-1",
+      "order": 3,
+      "canonicalText": "自見者不明；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-24_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-24",
+      "passageId": "dao-de-jing_ch-24_p-1",
+      "order": 4,
+      "canonicalText": "自是者不彰；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-24_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-24",
+      "passageId": "dao-de-jing_ch-24_p-1",
+      "order": 5,
+      "canonicalText": "自伐者無功；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-24_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-24",
+      "passageId": "dao-de-jing_ch-24_p-1",
+      "order": 6,
+      "canonicalText": "自矜者不長。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-24_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-24",
+      "passageId": "dao-de-jing_ch-24_p-1",
+      "order": 7,
+      "canonicalText": "其在道也，曰：餘食贅行。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-24_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-24",
+      "passageId": "dao-de-jing_ch-24_p-1",
+      "order": 8,
+      "canonicalText": "物或惡之，故有道者不處。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-25_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-25",
+      "passageId": "dao-de-jing_ch-25_p-1",
+      "order": 1,
+      "canonicalText": "有物混成，先天地生。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-25_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-25",
+      "passageId": "dao-de-jing_ch-25_p-1",
+      "order": 2,
+      "canonicalText": "寂兮寥兮，獨立不改，周行而不殆，可以為天下母。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-25_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-25",
+      "passageId": "dao-de-jing_ch-25_p-1",
+      "order": 3,
+      "canonicalText": "吾不知其名，字之曰道，強為之名曰大。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-25_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-25",
+      "passageId": "dao-de-jing_ch-25_p-1",
+      "order": 4,
+      "canonicalText": "大曰逝，逝曰遠，遠曰反。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-25_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-25",
+      "passageId": "dao-de-jing_ch-25_p-1",
+      "order": 5,
+      "canonicalText": "故道大，天大，地大，王亦大。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-25_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-25",
+      "passageId": "dao-de-jing_ch-25_p-1",
+      "order": 6,
+      "canonicalText": "域中有四大，而王居其一焉。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-25_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-25",
+      "passageId": "dao-de-jing_ch-25_p-1",
+      "order": 7,
+      "canonicalText": "人法地，地法天，天法道，道法自然。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-26_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-26",
+      "passageId": "dao-de-jing_ch-26_p-1",
+      "order": 1,
+      "canonicalText": "重為輕根，靜為躁君。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-26_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-26",
+      "passageId": "dao-de-jing_ch-26_p-1",
+      "order": 2,
+      "canonicalText": "是以聖人終日行不離輜重。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-26_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-26",
+      "passageId": "dao-de-jing_ch-26_p-1",
+      "order": 3,
+      "canonicalText": "雖有榮觀，燕處超然。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-26_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-26",
+      "passageId": "dao-de-jing_ch-26_p-1",
+      "order": 4,
+      "canonicalText": "奈何萬乘之主，而以身輕天下？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-26_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-26",
+      "passageId": "dao-de-jing_ch-26_p-1",
+      "order": 5,
+      "canonicalText": "輕則失本，躁則失君。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-27_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-27",
+      "passageId": "dao-de-jing_ch-27_p-1",
+      "order": 1,
+      "canonicalText": "善行無轍跡，善言無瑕讁；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-27_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-27",
+      "passageId": "dao-de-jing_ch-27_p-1",
+      "order": 2,
+      "canonicalText": "善數不用籌策；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-27_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-27",
+      "passageId": "dao-de-jing_ch-27_p-1",
+      "order": 3,
+      "canonicalText": "善閉無關楗而不可開，善結無繩約而不可解。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-27_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-27",
+      "passageId": "dao-de-jing_ch-27_p-1",
+      "order": 4,
+      "canonicalText": "是以聖人常善救人，故無棄人；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-27_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-27",
+      "passageId": "dao-de-jing_ch-27_p-1",
+      "order": 5,
+      "canonicalText": "常善救物，故無棄物。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-27_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-27",
+      "passageId": "dao-de-jing_ch-27_p-1",
+      "order": 6,
+      "canonicalText": "是謂襲明。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-27_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-27",
+      "passageId": "dao-de-jing_ch-27_p-1",
+      "order": 7,
+      "canonicalText": "故善人者，不善人之師；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-27_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-27",
+      "passageId": "dao-de-jing_ch-27_p-1",
+      "order": 8,
+      "canonicalText": "不善人者，善人之資。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-27_p-1_s-9",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-27",
+      "passageId": "dao-de-jing_ch-27_p-1",
+      "order": 9,
+      "canonicalText": "不貴其師，不愛其資，雖智大迷，是謂要妙。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-28_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-28",
+      "passageId": "dao-de-jing_ch-28_p-1",
+      "order": 1,
+      "canonicalText": "知其雄，守其雌，為天下谿。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-28_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-28",
+      "passageId": "dao-de-jing_ch-28_p-1",
+      "order": 2,
+      "canonicalText": "為天下谿，常德不離，復歸於嬰兒。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-28_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-28",
+      "passageId": "dao-de-jing_ch-28_p-1",
+      "order": 3,
+      "canonicalText": "知其白，守其黑，為天下式。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-28_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-28",
+      "passageId": "dao-de-jing_ch-28_p-1",
+      "order": 4,
+      "canonicalText": "為天下式，常德不忒，復歸於無極。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-28_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-28",
+      "passageId": "dao-de-jing_ch-28_p-1",
+      "order": 5,
+      "canonicalText": "知其榮，守其辱，為天下谷。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-28_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-28",
+      "passageId": "dao-de-jing_ch-28_p-1",
+      "order": 6,
+      "canonicalText": "為天下谷，常德乃足，復歸於樸。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-28_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-28",
+      "passageId": "dao-de-jing_ch-28_p-1",
+      "order": 7,
+      "canonicalText": "樸散則為器，聖人用之，則為官長，故大制不割。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-29_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-29",
+      "passageId": "dao-de-jing_ch-29_p-1",
+      "order": 1,
+      "canonicalText": "將欲取天下而為之，吾見其不得已。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-29_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-29",
+      "passageId": "dao-de-jing_ch-29_p-1",
+      "order": 2,
+      "canonicalText": "天下神器，不可為也，為者敗之，執者失之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-29_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-29",
+      "passageId": "dao-de-jing_ch-29_p-1",
+      "order": 3,
+      "canonicalText": "故物或行或隨；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-29_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-29",
+      "passageId": "dao-de-jing_ch-29_p-1",
+      "order": 4,
+      "canonicalText": "或歔或吹；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-29_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-29",
+      "passageId": "dao-de-jing_ch-29_p-1",
+      "order": 5,
+      "canonicalText": "或強或羸；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-29_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-29",
+      "passageId": "dao-de-jing_ch-29_p-1",
+      "order": 6,
+      "canonicalText": "或挫或隳。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-29_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-29",
+      "passageId": "dao-de-jing_ch-29_p-1",
+      "order": 7,
+      "canonicalText": "是以聖人去甚，去奢，去泰。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-30_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-30",
+      "passageId": "dao-de-jing_ch-30_p-1",
+      "order": 1,
+      "canonicalText": "以道佐人主者，不以兵強天下。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-30_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-30",
+      "passageId": "dao-de-jing_ch-30_p-1",
+      "order": 2,
+      "canonicalText": "其事好還。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-30_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-30",
+      "passageId": "dao-de-jing_ch-30_p-1",
+      "order": 3,
+      "canonicalText": "師之所處，荊棘生焉。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-30_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-30",
+      "passageId": "dao-de-jing_ch-30_p-1",
+      "order": 4,
+      "canonicalText": "大軍之後，必有凶年。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-30_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-30",
+      "passageId": "dao-de-jing_ch-30_p-1",
+      "order": 5,
+      "canonicalText": "善有果而已，不敢以取強。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-30_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-30",
+      "passageId": "dao-de-jing_ch-30_p-1",
+      "order": 6,
+      "canonicalText": "果而勿矜，果而勿伐，果而勿驕。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-30_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-30",
+      "passageId": "dao-de-jing_ch-30_p-1",
+      "order": 7,
+      "canonicalText": "果而不得已，果而勿強。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-30_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-30",
+      "passageId": "dao-de-jing_ch-30_p-1",
+      "order": 8,
+      "canonicalText": "物壯則老，是謂不道，不道早已。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-31_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-31",
+      "passageId": "dao-de-jing_ch-31_p-1",
+      "order": 1,
+      "canonicalText": "夫佳兵者，不祥之器，物或惡之，故有道者不處。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-31_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-31",
+      "passageId": "dao-de-jing_ch-31_p-1",
+      "order": 2,
+      "canonicalText": "君子居則貴左，用兵則貴右。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-31_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-31",
+      "passageId": "dao-de-jing_ch-31_p-1",
+      "order": 3,
+      "canonicalText": "兵者不祥之器，非君子之器，不得已而用之，恬淡為上。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-31_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-31",
+      "passageId": "dao-de-jing_ch-31_p-1",
+      "order": 4,
+      "canonicalText": "勝而不美，而美之者，是樂殺人。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-31_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-31",
+      "passageId": "dao-de-jing_ch-31_p-1",
+      "order": 5,
+      "canonicalText": "夫樂殺人者，則不可以得志於天下矣。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-31_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-31",
+      "passageId": "dao-de-jing_ch-31_p-1",
+      "order": 6,
+      "canonicalText": "吉事尚左，凶事尚右。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-31_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-31",
+      "passageId": "dao-de-jing_ch-31_p-1",
+      "order": 7,
+      "canonicalText": "偏將軍居左，上將軍居右，言以喪禮處之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-31_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-31",
+      "passageId": "dao-de-jing_ch-31_p-1",
+      "order": 8,
+      "canonicalText": "殺人之眾，以哀悲泣之，戰勝以喪禮處之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-32_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-32",
+      "passageId": "dao-de-jing_ch-32_p-1",
+      "order": 1,
+      "canonicalText": "道常無名。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-32_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-32",
+      "passageId": "dao-de-jing_ch-32_p-1",
+      "order": 2,
+      "canonicalText": "天下莫能臣也。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-32_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-32",
+      "passageId": "dao-de-jing_ch-32_p-1",
+      "order": 3,
+      "canonicalText": "侯王若能守之，萬物將自賓。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-32_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-32",
+      "passageId": "dao-de-jing_ch-32_p-1",
+      "order": 4,
+      "canonicalText": "天地相合，以降甘露，民莫之令而自均。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-32_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-32",
+      "passageId": "dao-de-jing_ch-32_p-1",
+      "order": 5,
+      "canonicalText": "始制有名，名亦既有，夫亦將知止，知止所以不殆。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-32_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-32",
+      "passageId": "dao-de-jing_ch-32_p-1",
+      "order": 6,
+      "canonicalText": "譬道之在天下，猶川穀之與江海。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-33_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-33",
+      "passageId": "dao-de-jing_ch-33_p-1",
+      "order": 1,
+      "canonicalText": "知人者智，自知者明。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-33_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-33",
+      "passageId": "dao-de-jing_ch-33_p-1",
+      "order": 2,
+      "canonicalText": "勝人者有力，自勝者強。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-33_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-33",
+      "passageId": "dao-de-jing_ch-33_p-1",
+      "order": 3,
+      "canonicalText": "知足者富。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-33_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-33",
+      "passageId": "dao-de-jing_ch-33_p-1",
+      "order": 4,
+      "canonicalText": "強行者有志。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-33_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-33",
+      "passageId": "dao-de-jing_ch-33_p-1",
+      "order": 5,
+      "canonicalText": "不失其所者久。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-33_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-33",
+      "passageId": "dao-de-jing_ch-33_p-1",
+      "order": 6,
+      "canonicalText": "死而不亡者壽。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-34_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-34",
+      "passageId": "dao-de-jing_ch-34_p-1",
+      "order": 1,
+      "canonicalText": "大道汎兮，其可左右。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-34_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-34",
+      "passageId": "dao-de-jing_ch-34_p-1",
+      "order": 2,
+      "canonicalText": "萬物恃之而生而不辭，功成不名有。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-34_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-34",
+      "passageId": "dao-de-jing_ch-34_p-1",
+      "order": 3,
+      "canonicalText": "衣養萬物而不為主，常無欲，可名於小；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-34_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-34",
+      "passageId": "dao-de-jing_ch-34_p-1",
+      "order": 4,
+      "canonicalText": "萬物歸焉，而不為主，可名為大。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-34_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-34",
+      "passageId": "dao-de-jing_ch-34_p-1",
+      "order": 5,
+      "canonicalText": "以其終不自為大，故能成其大。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-35_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-35",
+      "passageId": "dao-de-jing_ch-35_p-1",
+      "order": 1,
+      "canonicalText": "執大象，天下往。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-35_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-35",
+      "passageId": "dao-de-jing_ch-35_p-1",
+      "order": 2,
+      "canonicalText": "往而不害，安平大。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-35_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-35",
+      "passageId": "dao-de-jing_ch-35_p-1",
+      "order": 3,
+      "canonicalText": "樂與餌，過客止。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-35_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-35",
+      "passageId": "dao-de-jing_ch-35_p-1",
+      "order": 4,
+      "canonicalText": "道之出口，淡乎其無味，視之不足見，聽之不足聞，用之不足既。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-36_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-36",
+      "passageId": "dao-de-jing_ch-36_p-1",
+      "order": 1,
+      "canonicalText": "將欲歙之，必固張之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-36_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-36",
+      "passageId": "dao-de-jing_ch-36_p-1",
+      "order": 2,
+      "canonicalText": "將欲弱之，必固強之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-36_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-36",
+      "passageId": "dao-de-jing_ch-36_p-1",
+      "order": 3,
+      "canonicalText": "將欲廢之，必固興之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-36_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-36",
+      "passageId": "dao-de-jing_ch-36_p-1",
+      "order": 4,
+      "canonicalText": "將欲奪之，必固與之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-36_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-36",
+      "passageId": "dao-de-jing_ch-36_p-1",
+      "order": 5,
+      "canonicalText": "是謂微明。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-36_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-36",
+      "passageId": "dao-de-jing_ch-36_p-1",
+      "order": 6,
+      "canonicalText": "柔弱勝剛強。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-36_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-36",
+      "passageId": "dao-de-jing_ch-36_p-1",
+      "order": 7,
+      "canonicalText": "魚不可脫於淵，國之利器不可以示人。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-37_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-37",
+      "passageId": "dao-de-jing_ch-37_p-1",
+      "order": 1,
+      "canonicalText": "道常無為而無不為。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-37_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-37",
+      "passageId": "dao-de-jing_ch-37_p-1",
+      "order": 2,
+      "canonicalText": "侯王若能守之，萬物將自化。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-37_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-37",
+      "passageId": "dao-de-jing_ch-37_p-1",
+      "order": 3,
+      "canonicalText": "化而欲作，吾將鎮之以無名之樸。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-37_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-37",
+      "passageId": "dao-de-jing_ch-37_p-1",
+      "order": 4,
+      "canonicalText": "無名之樸，夫亦將無欲。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-37_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-37",
+      "passageId": "dao-de-jing_ch-37_p-1",
+      "order": 5,
+      "canonicalText": "不欲以靜，天下將自定。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-38_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-38",
+      "passageId": "dao-de-jing_ch-38_p-1",
+      "order": 1,
+      "canonicalText": "上德不德，是以有德；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-38_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-38",
+      "passageId": "dao-de-jing_ch-38_p-1",
+      "order": 2,
+      "canonicalText": "下德不失德，是以無德。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-38_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-38",
+      "passageId": "dao-de-jing_ch-38_p-1",
+      "order": 3,
+      "canonicalText": "上德無為而無以為；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-38_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-38",
+      "passageId": "dao-de-jing_ch-38_p-1",
+      "order": 4,
+      "canonicalText": "下德為之而有以為。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-38_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-38",
+      "passageId": "dao-de-jing_ch-38_p-1",
+      "order": 5,
+      "canonicalText": "上仁為之而無以為；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-38_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-38",
+      "passageId": "dao-de-jing_ch-38_p-1",
+      "order": 6,
+      "canonicalText": "上義為之而有以為。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-38_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-38",
+      "passageId": "dao-de-jing_ch-38_p-1",
+      "order": 7,
+      "canonicalText": "上禮為之而莫之應，則攘臂而扔之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-38_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-38",
+      "passageId": "dao-de-jing_ch-38_p-1",
+      "order": 8,
+      "canonicalText": "故失道而後德，失德而後仁，失仁而後義，失義而後禮。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-38_p-1_s-9",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-38",
+      "passageId": "dao-de-jing_ch-38_p-1",
+      "order": 9,
+      "canonicalText": "夫禮者，忠信之薄，而亂之首。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-38_p-1_s-10",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-38",
+      "passageId": "dao-de-jing_ch-38_p-1",
+      "order": 10,
+      "canonicalText": "前識者，道之華，而愚之始。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-38_p-1_s-11",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-38",
+      "passageId": "dao-de-jing_ch-38_p-1",
+      "order": 11,
+      "canonicalText": "是以大丈夫處其厚，不居其薄；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-38_p-1_s-12",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-38",
+      "passageId": "dao-de-jing_ch-38_p-1",
+      "order": 12,
+      "canonicalText": "處其實，不居其華。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-38_p-1_s-13",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-38",
+      "passageId": "dao-de-jing_ch-38_p-1",
+      "order": 13,
+      "canonicalText": "故去彼取此。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 1,
+      "canonicalText": "昔之得一者：天得一以清；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 2,
+      "canonicalText": "地得一以寧；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 3,
+      "canonicalText": "神得一以靈；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 4,
+      "canonicalText": "谷得一以盈；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 5,
+      "canonicalText": "萬物得一以生；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 6,
+      "canonicalText": "侯王得一以為天下貞。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 7,
+      "canonicalText": "其致之，天無以清，將恐裂；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 8,
+      "canonicalText": "地無以寧，將恐發；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-9",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 9,
+      "canonicalText": "神無以靈，將恐歇；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-10",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 10,
+      "canonicalText": "谷無以盈，將恐竭；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-11",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 11,
+      "canonicalText": "萬物無以生，將恐滅；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-12",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 12,
+      "canonicalText": "侯王無以貴高，將恐蹶。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-13",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 13,
+      "canonicalText": "故貴以賤為本，高以下為基。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-14",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 14,
+      "canonicalText": "是以侯王自稱孤、寡、不穀。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-15",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 15,
+      "canonicalText": "此非以賤為本耶？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-16",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 16,
+      "canonicalText": "非乎？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-17",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 17,
+      "canonicalText": "故致數譽無譽。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-39_p-1_s-18",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-39",
+      "passageId": "dao-de-jing_ch-39_p-1",
+      "order": 18,
+      "canonicalText": "不欲琭琭如玉，珞珞如石。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-40_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-40",
+      "passageId": "dao-de-jing_ch-40_p-1",
+      "order": 1,
+      "canonicalText": "反者道之動；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-40_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-40",
+      "passageId": "dao-de-jing_ch-40_p-1",
+      "order": 2,
+      "canonicalText": "弱者道之用。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-40_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-40",
+      "passageId": "dao-de-jing_ch-40_p-1",
+      "order": 3,
+      "canonicalText": "天下萬物生於有，有生於無。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 1,
+      "canonicalText": "上士聞道，勤而行之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 2,
+      "canonicalText": "中士聞道，若存若亡；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 3,
+      "canonicalText": "下士聞道，大笑之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 4,
+      "canonicalText": "不笑不足以為道。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 5,
+      "canonicalText": "故建言有之：明道若昧；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 6,
+      "canonicalText": "進道若退；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 7,
+      "canonicalText": "夷道若纇；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 8,
+      "canonicalText": "上德若谷；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-9",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 9,
+      "canonicalText": "太白若辱；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-10",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 10,
+      "canonicalText": "廣德若不足；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-11",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 11,
+      "canonicalText": "建德若偷；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-12",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 12,
+      "canonicalText": "質真若渝；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-13",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 13,
+      "canonicalText": "大方無隅；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-14",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 14,
+      "canonicalText": "大器晚成；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-15",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 15,
+      "canonicalText": "大音希聲；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-16",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 16,
+      "canonicalText": "大象無形；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-17",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 17,
+      "canonicalText": "道隱無名。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-41_p-1_s-18",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-41",
+      "passageId": "dao-de-jing_ch-41_p-1",
+      "order": 18,
+      "canonicalText": "夫唯道，善貸且成。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-42_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-42",
+      "passageId": "dao-de-jing_ch-42_p-1",
+      "order": 1,
+      "canonicalText": "道生一，一生二，二生三，三生萬物。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-42_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-42",
+      "passageId": "dao-de-jing_ch-42_p-1",
+      "order": 2,
+      "canonicalText": "萬物負陰而抱陽，沖氣以為和。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-42_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-42",
+      "passageId": "dao-de-jing_ch-42_p-1",
+      "order": 3,
+      "canonicalText": "人之所惡，唯孤、寡、不穀，而王公以為稱。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-42_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-42",
+      "passageId": "dao-de-jing_ch-42_p-1",
+      "order": 4,
+      "canonicalText": "故物或損之而益，或益之而損。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-42_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-42",
+      "passageId": "dao-de-jing_ch-42_p-1",
+      "order": 5,
+      "canonicalText": "人之所教，我亦教之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-42_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-42",
+      "passageId": "dao-de-jing_ch-42_p-1",
+      "order": 6,
+      "canonicalText": "強梁者不得其死，吾將以為教父。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-43_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-43",
+      "passageId": "dao-de-jing_ch-43_p-1",
+      "order": 1,
+      "canonicalText": "天下之至柔，馳騁天下之至堅。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-43_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-43",
+      "passageId": "dao-de-jing_ch-43_p-1",
+      "order": 2,
+      "canonicalText": "無有入無間，吾是以知無為之有益。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-43_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-43",
+      "passageId": "dao-de-jing_ch-43_p-1",
+      "order": 3,
+      "canonicalText": "不言之教，無為之益，天下希及之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-44_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-44",
+      "passageId": "dao-de-jing_ch-44_p-1",
+      "order": 1,
+      "canonicalText": "名與身孰親？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-44_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-44",
+      "passageId": "dao-de-jing_ch-44_p-1",
+      "order": 2,
+      "canonicalText": "身與貨孰多？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-44_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-44",
+      "passageId": "dao-de-jing_ch-44_p-1",
+      "order": 3,
+      "canonicalText": "得與亡孰病？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-44_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-44",
+      "passageId": "dao-de-jing_ch-44_p-1",
+      "order": 4,
+      "canonicalText": "是故甚愛必大費；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-44_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-44",
+      "passageId": "dao-de-jing_ch-44_p-1",
+      "order": 5,
+      "canonicalText": "多藏必厚亡。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-44_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-44",
+      "passageId": "dao-de-jing_ch-44_p-1",
+      "order": 6,
+      "canonicalText": "知足不辱，知止不殆，可以長久。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-45_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-45",
+      "passageId": "dao-de-jing_ch-45_p-1",
+      "order": 1,
+      "canonicalText": "大成若缺，其用不弊。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-45_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-45",
+      "passageId": "dao-de-jing_ch-45_p-1",
+      "order": 2,
+      "canonicalText": "大盈若沖，其用不窮。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-45_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-45",
+      "passageId": "dao-de-jing_ch-45_p-1",
+      "order": 3,
+      "canonicalText": "大直若屈，大巧若拙，大辯若訥。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-45_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-45",
+      "passageId": "dao-de-jing_ch-45_p-1",
+      "order": 4,
+      "canonicalText": "躁勝寒，靜勝熱。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-45_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-45",
+      "passageId": "dao-de-jing_ch-45_p-1",
+      "order": 5,
+      "canonicalText": "清靜為天下正。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-46_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-46",
+      "passageId": "dao-de-jing_ch-46_p-1",
+      "order": 1,
+      "canonicalText": "天下有道，卻走馬以糞。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-46_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-46",
+      "passageId": "dao-de-jing_ch-46_p-1",
+      "order": 2,
+      "canonicalText": "天下無道，戎馬生於郊。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-46_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-46",
+      "passageId": "dao-de-jing_ch-46_p-1",
+      "order": 3,
+      "canonicalText": "禍莫大於不知足；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-46_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-46",
+      "passageId": "dao-de-jing_ch-46_p-1",
+      "order": 4,
+      "canonicalText": "咎莫大於欲得。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-46_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-46",
+      "passageId": "dao-de-jing_ch-46_p-1",
+      "order": 5,
+      "canonicalText": "故知足之足，常足矣。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-47_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-47",
+      "passageId": "dao-de-jing_ch-47_p-1",
+      "order": 1,
+      "canonicalText": "不出戶，知天下；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-47_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-47",
+      "passageId": "dao-de-jing_ch-47_p-1",
+      "order": 2,
+      "canonicalText": "不闚牖，見天道。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-47_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-47",
+      "passageId": "dao-de-jing_ch-47_p-1",
+      "order": 3,
+      "canonicalText": "其出彌遠，其知彌少。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-47_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-47",
+      "passageId": "dao-de-jing_ch-47_p-1",
+      "order": 4,
+      "canonicalText": "是以聖人不行而知，不見而名，不為而成。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-48_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-48",
+      "passageId": "dao-de-jing_ch-48_p-1",
+      "order": 1,
+      "canonicalText": "為學日益，為道日損。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-48_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-48",
+      "passageId": "dao-de-jing_ch-48_p-1",
+      "order": 2,
+      "canonicalText": "損之又損，以至於無為。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-48_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-48",
+      "passageId": "dao-de-jing_ch-48_p-1",
+      "order": 3,
+      "canonicalText": "無為而無不為。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-48_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-48",
+      "passageId": "dao-de-jing_ch-48_p-1",
+      "order": 4,
+      "canonicalText": "取天下常以無事，及其有事，不足以取天下。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-49_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-49",
+      "passageId": "dao-de-jing_ch-49_p-1",
+      "order": 1,
+      "canonicalText": "聖人無常心，以百姓心為心。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-49_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-49",
+      "passageId": "dao-de-jing_ch-49_p-1",
+      "order": 2,
+      "canonicalText": "善者，吾善之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-49_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-49",
+      "passageId": "dao-de-jing_ch-49_p-1",
+      "order": 3,
+      "canonicalText": "不善者，吾亦善之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-49_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-49",
+      "passageId": "dao-de-jing_ch-49_p-1",
+      "order": 4,
+      "canonicalText": "德善。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-49_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-49",
+      "passageId": "dao-de-jing_ch-49_p-1",
+      "order": 5,
+      "canonicalText": "信者，吾信之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-49_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-49",
+      "passageId": "dao-de-jing_ch-49_p-1",
+      "order": 6,
+      "canonicalText": "不信者，吾亦信之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-49_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-49",
+      "passageId": "dao-de-jing_ch-49_p-1",
+      "order": 7,
+      "canonicalText": "德信。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-49_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-49",
+      "passageId": "dao-de-jing_ch-49_p-1",
+      "order": 8,
+      "canonicalText": "聖人在天下，歙歙為天下渾其心，百姓皆注其耳目，聖人皆孩之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-50_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-50",
+      "passageId": "dao-de-jing_ch-50_p-1",
+      "order": 1,
+      "canonicalText": "出生入死。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-50_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-50",
+      "passageId": "dao-de-jing_ch-50_p-1",
+      "order": 2,
+      "canonicalText": "生之徒，十有三；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-50_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-50",
+      "passageId": "dao-de-jing_ch-50_p-1",
+      "order": 3,
+      "canonicalText": "死之徒，十有三；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-50_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-50",
+      "passageId": "dao-de-jing_ch-50_p-1",
+      "order": 4,
+      "canonicalText": "人之生，動之死地，十有三。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-50_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-50",
+      "passageId": "dao-de-jing_ch-50_p-1",
+      "order": 5,
+      "canonicalText": "夫何故？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-50_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-50",
+      "passageId": "dao-de-jing_ch-50_p-1",
+      "order": 6,
+      "canonicalText": "以其生，生之厚。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-50_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-50",
+      "passageId": "dao-de-jing_ch-50_p-1",
+      "order": 7,
+      "canonicalText": "蓋聞善攝生者，陸行不遇兕虎，入軍不被甲兵；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-50_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-50",
+      "passageId": "dao-de-jing_ch-50_p-1",
+      "order": 8,
+      "canonicalText": "兕無所投其角，虎無所措其爪，兵無所容其刃。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-50_p-1_s-9",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-50",
+      "passageId": "dao-de-jing_ch-50_p-1",
+      "order": 9,
+      "canonicalText": "夫何故？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-50_p-1_s-10",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-50",
+      "passageId": "dao-de-jing_ch-50_p-1",
+      "order": 10,
+      "canonicalText": "以其無死地。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-51_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-51",
+      "passageId": "dao-de-jing_ch-51_p-1",
+      "order": 1,
+      "canonicalText": "道生之，德畜之，物形之，勢成之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-51_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-51",
+      "passageId": "dao-de-jing_ch-51_p-1",
+      "order": 2,
+      "canonicalText": "是以萬物莫不尊道而貴德。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-51_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-51",
+      "passageId": "dao-de-jing_ch-51_p-1",
+      "order": 3,
+      "canonicalText": "道之尊，德之貴，夫莫之命常自然。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-51_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-51",
+      "passageId": "dao-de-jing_ch-51_p-1",
+      "order": 4,
+      "canonicalText": "故道生之，德畜之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-51_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-51",
+      "passageId": "dao-de-jing_ch-51_p-1",
+      "order": 5,
+      "canonicalText": "長之育之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-51_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-51",
+      "passageId": "dao-de-jing_ch-51_p-1",
+      "order": 6,
+      "canonicalText": "亭之毒之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-51_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-51",
+      "passageId": "dao-de-jing_ch-51_p-1",
+      "order": 7,
+      "canonicalText": "養之覆之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-51_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-51",
+      "passageId": "dao-de-jing_ch-51_p-1",
+      "order": 8,
+      "canonicalText": "生而不有，為而不恃，長而不宰，是謂玄德。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-52_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-52",
+      "passageId": "dao-de-jing_ch-52_p-1",
+      "order": 1,
+      "canonicalText": "天下有始，以為天下母。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-52_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-52",
+      "passageId": "dao-de-jing_ch-52_p-1",
+      "order": 2,
+      "canonicalText": "既得其母，以知其子；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-52_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-52",
+      "passageId": "dao-de-jing_ch-52_p-1",
+      "order": 3,
+      "canonicalText": "既知其子，復守其母，沒身不殆。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-52_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-52",
+      "passageId": "dao-de-jing_ch-52_p-1",
+      "order": 4,
+      "canonicalText": "塞其兌，閉其門，終身不勤。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-52_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-52",
+      "passageId": "dao-de-jing_ch-52_p-1",
+      "order": 5,
+      "canonicalText": "開其兌，濟其事，終身不救。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-52_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-52",
+      "passageId": "dao-de-jing_ch-52_p-1",
+      "order": 6,
+      "canonicalText": "見小曰明，守柔曰強。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-52_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-52",
+      "passageId": "dao-de-jing_ch-52_p-1",
+      "order": 7,
+      "canonicalText": "用其光，復歸其明，無遺身殃；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-52_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-52",
+      "passageId": "dao-de-jing_ch-52_p-1",
+      "order": 8,
+      "canonicalText": "是為習常。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-53_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-53",
+      "passageId": "dao-de-jing_ch-53_p-1",
+      "order": 1,
+      "canonicalText": "使我介然有知，行於大道，唯施是畏。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-53_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-53",
+      "passageId": "dao-de-jing_ch-53_p-1",
+      "order": 2,
+      "canonicalText": "大道甚夷，而民好徑。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-53_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-53",
+      "passageId": "dao-de-jing_ch-53_p-1",
+      "order": 3,
+      "canonicalText": "朝甚除，田甚蕪，倉甚虛；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-53_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-53",
+      "passageId": "dao-de-jing_ch-53_p-1",
+      "order": 4,
+      "canonicalText": "服文綵，帶利劍，厭飲食，財貨有餘；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-53_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-53",
+      "passageId": "dao-de-jing_ch-53_p-1",
+      "order": 5,
+      "canonicalText": "是謂盜誇。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-53_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-53",
+      "passageId": "dao-de-jing_ch-53_p-1",
+      "order": 6,
+      "canonicalText": "非道也哉！",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-54_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-54",
+      "passageId": "dao-de-jing_ch-54_p-1",
+      "order": 1,
+      "canonicalText": "善建不拔，善抱者不脫，子孫以祭祀不輟。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-54_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-54",
+      "passageId": "dao-de-jing_ch-54_p-1",
+      "order": 2,
+      "canonicalText": "修之於身，其德乃真；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-54_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-54",
+      "passageId": "dao-de-jing_ch-54_p-1",
+      "order": 3,
+      "canonicalText": "修之於家，其德乃餘；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-54_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-54",
+      "passageId": "dao-de-jing_ch-54_p-1",
+      "order": 4,
+      "canonicalText": "修之於鄉，其德乃長；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-54_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-54",
+      "passageId": "dao-de-jing_ch-54_p-1",
+      "order": 5,
+      "canonicalText": "修之於國，其德乃豐；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-54_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-54",
+      "passageId": "dao-de-jing_ch-54_p-1",
+      "order": 6,
+      "canonicalText": "修之於天下，其德乃普。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-54_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-54",
+      "passageId": "dao-de-jing_ch-54_p-1",
+      "order": 7,
+      "canonicalText": "故以身觀身，以家觀家，以鄉觀鄉，以國觀國，以天下觀天下。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-54_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-54",
+      "passageId": "dao-de-jing_ch-54_p-1",
+      "order": 8,
+      "canonicalText": "吾何以知天下然哉？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-54_p-1_s-9",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-54",
+      "passageId": "dao-de-jing_ch-54_p-1",
+      "order": 9,
+      "canonicalText": "以此。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-55_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-55",
+      "passageId": "dao-de-jing_ch-55_p-1",
+      "order": 1,
+      "canonicalText": "含德之厚，比於赤子。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-55_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-55",
+      "passageId": "dao-de-jing_ch-55_p-1",
+      "order": 2,
+      "canonicalText": "蜂蠆虺蛇不螫，猛獸不據，攫鳥不搏。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-55_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-55",
+      "passageId": "dao-de-jing_ch-55_p-1",
+      "order": 3,
+      "canonicalText": "骨弱筋柔而握固。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-55_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-55",
+      "passageId": "dao-de-jing_ch-55_p-1",
+      "order": 4,
+      "canonicalText": "未知牝牡之合而全作，精之至也。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-55_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-55",
+      "passageId": "dao-de-jing_ch-55_p-1",
+      "order": 5,
+      "canonicalText": "終日號而不嗄，和之至也。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-55_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-55",
+      "passageId": "dao-de-jing_ch-55_p-1",
+      "order": 6,
+      "canonicalText": "知和曰常，知常曰明，益生曰祥。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-55_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-55",
+      "passageId": "dao-de-jing_ch-55_p-1",
+      "order": 7,
+      "canonicalText": "心使氣曰強。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-55_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-55",
+      "passageId": "dao-de-jing_ch-55_p-1",
+      "order": 8,
+      "canonicalText": "物壯則老，謂之不道，不道早已。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-56_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-56",
+      "passageId": "dao-de-jing_ch-56_p-1",
+      "order": 1,
+      "canonicalText": "知者不言，言者不知。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-56_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-56",
+      "passageId": "dao-de-jing_ch-56_p-1",
+      "order": 2,
+      "canonicalText": "塞其兌，閉其門，挫其銳，解其分，和其光，同其塵，是謂玄同。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-56_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-56",
+      "passageId": "dao-de-jing_ch-56_p-1",
+      "order": 3,
+      "canonicalText": "故不可得而親，不可得而疏；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-56_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-56",
+      "passageId": "dao-de-jing_ch-56_p-1",
+      "order": 4,
+      "canonicalText": "不可得而利，不可得而害；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-56_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-56",
+      "passageId": "dao-de-jing_ch-56_p-1",
+      "order": 5,
+      "canonicalText": "不可得而貴，不可得而賤。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-56_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-56",
+      "passageId": "dao-de-jing_ch-56_p-1",
+      "order": 6,
+      "canonicalText": "故為天下貴。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-57_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-57",
+      "passageId": "dao-de-jing_ch-57_p-1",
+      "order": 1,
+      "canonicalText": "以正治國，以奇用兵，以無事取天下。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-57_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-57",
+      "passageId": "dao-de-jing_ch-57_p-1",
+      "order": 2,
+      "canonicalText": "吾何以知其然哉？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-57_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-57",
+      "passageId": "dao-de-jing_ch-57_p-1",
+      "order": 3,
+      "canonicalText": "以此：天下多忌諱，而民彌貧；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-57_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-57",
+      "passageId": "dao-de-jing_ch-57_p-1",
+      "order": 4,
+      "canonicalText": "民多利器，國家滋昏；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-57_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-57",
+      "passageId": "dao-de-jing_ch-57_p-1",
+      "order": 5,
+      "canonicalText": "人多伎巧，奇物滋起；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-57_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-57",
+      "passageId": "dao-de-jing_ch-57_p-1",
+      "order": 6,
+      "canonicalText": "法令滋彰，盜賊多有。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-57_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-57",
+      "passageId": "dao-de-jing_ch-57_p-1",
+      "order": 7,
+      "canonicalText": "故聖人云：我無為，而民自化；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-57_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-57",
+      "passageId": "dao-de-jing_ch-57_p-1",
+      "order": 8,
+      "canonicalText": "我好靜，而民自正；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-57_p-1_s-9",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-57",
+      "passageId": "dao-de-jing_ch-57_p-1",
+      "order": 9,
+      "canonicalText": "我無事，而民自富；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-57_p-1_s-10",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-57",
+      "passageId": "dao-de-jing_ch-57_p-1",
+      "order": 10,
+      "canonicalText": "我無欲，而民自樸。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-58_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-58",
+      "passageId": "dao-de-jing_ch-58_p-1",
+      "order": 1,
+      "canonicalText": "其政悶悶，其民淳淳；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-58_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-58",
+      "passageId": "dao-de-jing_ch-58_p-1",
+      "order": 2,
+      "canonicalText": "其政察察，其民缺缺。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-58_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-58",
+      "passageId": "dao-de-jing_ch-58_p-1",
+      "order": 3,
+      "canonicalText": "禍兮福之所倚，福兮禍之所伏。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-58_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-58",
+      "passageId": "dao-de-jing_ch-58_p-1",
+      "order": 4,
+      "canonicalText": "孰知其極？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-58_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-58",
+      "passageId": "dao-de-jing_ch-58_p-1",
+      "order": 5,
+      "canonicalText": "其無正。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-58_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-58",
+      "passageId": "dao-de-jing_ch-58_p-1",
+      "order": 6,
+      "canonicalText": "正復為奇，善復為妖。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-58_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-58",
+      "passageId": "dao-de-jing_ch-58_p-1",
+      "order": 7,
+      "canonicalText": "人之迷，其日固久。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-58_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-58",
+      "passageId": "dao-de-jing_ch-58_p-1",
+      "order": 8,
+      "canonicalText": "是以聖人方而不割，廉而不劌，直而不肆，光而不燿。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-59_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-59",
+      "passageId": "dao-de-jing_ch-59_p-1",
+      "order": 1,
+      "canonicalText": "治人事天莫若嗇。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-59_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-59",
+      "passageId": "dao-de-jing_ch-59_p-1",
+      "order": 2,
+      "canonicalText": "夫唯嗇，是謂早服；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-59_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-59",
+      "passageId": "dao-de-jing_ch-59_p-1",
+      "order": 3,
+      "canonicalText": "早服謂之重積德；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-59_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-59",
+      "passageId": "dao-de-jing_ch-59_p-1",
+      "order": 4,
+      "canonicalText": "重積德則無不克；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-59_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-59",
+      "passageId": "dao-de-jing_ch-59_p-1",
+      "order": 5,
+      "canonicalText": "無不克則莫知其極；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-59_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-59",
+      "passageId": "dao-de-jing_ch-59_p-1",
+      "order": 6,
+      "canonicalText": "莫知其極，可以有國；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-59_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-59",
+      "passageId": "dao-de-jing_ch-59_p-1",
+      "order": 7,
+      "canonicalText": "有國之母，可以長久；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-59_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-59",
+      "passageId": "dao-de-jing_ch-59_p-1",
+      "order": 8,
+      "canonicalText": "是謂深根固柢，長生久視之道。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-60_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-60",
+      "passageId": "dao-de-jing_ch-60_p-1",
+      "order": 1,
+      "canonicalText": "治大國若烹小鮮。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-60_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-60",
+      "passageId": "dao-de-jing_ch-60_p-1",
+      "order": 2,
+      "canonicalText": "以道蒞天下，其鬼不神；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-60_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-60",
+      "passageId": "dao-de-jing_ch-60_p-1",
+      "order": 3,
+      "canonicalText": "非其鬼不神，其神不傷人；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-60_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-60",
+      "passageId": "dao-de-jing_ch-60_p-1",
+      "order": 4,
+      "canonicalText": "非其神不傷人，聖人亦不傷人。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-60_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-60",
+      "passageId": "dao-de-jing_ch-60_p-1",
+      "order": 5,
+      "canonicalText": "夫兩不相傷，故德交歸焉。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-61_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-61",
+      "passageId": "dao-de-jing_ch-61_p-1",
+      "order": 1,
+      "canonicalText": "大國者下流，天下之交，天下之牝。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-61_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-61",
+      "passageId": "dao-de-jing_ch-61_p-1",
+      "order": 2,
+      "canonicalText": "牝常以靜勝牡，以靜為下。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-61_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-61",
+      "passageId": "dao-de-jing_ch-61_p-1",
+      "order": 3,
+      "canonicalText": "故大國以下小國，則取小國；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-61_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-61",
+      "passageId": "dao-de-jing_ch-61_p-1",
+      "order": 4,
+      "canonicalText": "小國以下大國，則取大國。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-61_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-61",
+      "passageId": "dao-de-jing_ch-61_p-1",
+      "order": 5,
+      "canonicalText": "故或下以取，或下而取。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-61_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-61",
+      "passageId": "dao-de-jing_ch-61_p-1",
+      "order": 6,
+      "canonicalText": "大國不過欲兼畜人，小國不過欲入事人。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-61_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-61",
+      "passageId": "dao-de-jing_ch-61_p-1",
+      "order": 7,
+      "canonicalText": "夫兩者各得其所欲，大者宜為下。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-62_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-62",
+      "passageId": "dao-de-jing_ch-62_p-1",
+      "order": 1,
+      "canonicalText": "道者萬物之奧。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-62_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-62",
+      "passageId": "dao-de-jing_ch-62_p-1",
+      "order": 2,
+      "canonicalText": "善人之寶，不善人之所保。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-62_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-62",
+      "passageId": "dao-de-jing_ch-62_p-1",
+      "order": 3,
+      "canonicalText": "美言可以市，尊行可以加人。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-62_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-62",
+      "passageId": "dao-de-jing_ch-62_p-1",
+      "order": 4,
+      "canonicalText": "人之不善，何棄之有？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-62_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-62",
+      "passageId": "dao-de-jing_ch-62_p-1",
+      "order": 5,
+      "canonicalText": "故立天子，置三公，雖有拱璧以先駟馬，不如坐進此道。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-62_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-62",
+      "passageId": "dao-de-jing_ch-62_p-1",
+      "order": 6,
+      "canonicalText": "古之所以貴此道者何？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-62_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-62",
+      "passageId": "dao-de-jing_ch-62_p-1",
+      "order": 7,
+      "canonicalText": "不曰：以求得，有罪以免耶？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-62_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-62",
+      "passageId": "dao-de-jing_ch-62_p-1",
+      "order": 8,
+      "canonicalText": "故為天下貴。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-63_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-63",
+      "passageId": "dao-de-jing_ch-63_p-1",
+      "order": 1,
+      "canonicalText": "為無為，事無事，味無味。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-63_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-63",
+      "passageId": "dao-de-jing_ch-63_p-1",
+      "order": 2,
+      "canonicalText": "大小多少，報怨以德。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-63_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-63",
+      "passageId": "dao-de-jing_ch-63_p-1",
+      "order": 3,
+      "canonicalText": "圖難於其易，為大於其細；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-63_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-63",
+      "passageId": "dao-de-jing_ch-63_p-1",
+      "order": 4,
+      "canonicalText": "天下難事，必作於易，天下大事，必作於細。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-63_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-63",
+      "passageId": "dao-de-jing_ch-63_p-1",
+      "order": 5,
+      "canonicalText": "是以聖人終不為大，故能成其大。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-63_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-63",
+      "passageId": "dao-de-jing_ch-63_p-1",
+      "order": 6,
+      "canonicalText": "夫輕諾必寡信，多易必多難。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-63_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-63",
+      "passageId": "dao-de-jing_ch-63_p-1",
+      "order": 7,
+      "canonicalText": "是以聖人猶難之，故終無難矣。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-64_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-64",
+      "passageId": "dao-de-jing_ch-64_p-1",
+      "order": 1,
+      "canonicalText": "其安易持，其未兆易謀。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-64_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-64",
+      "passageId": "dao-de-jing_ch-64_p-1",
+      "order": 2,
+      "canonicalText": "其脆易泮，其微易散。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-64_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-64",
+      "passageId": "dao-de-jing_ch-64_p-1",
+      "order": 3,
+      "canonicalText": "為之於未有，治之於未亂。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-64_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-64",
+      "passageId": "dao-de-jing_ch-64_p-1",
+      "order": 4,
+      "canonicalText": "合抱之木，生於毫末；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-64_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-64",
+      "passageId": "dao-de-jing_ch-64_p-1",
+      "order": 5,
+      "canonicalText": "九層之臺，起於累土；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-64_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-64",
+      "passageId": "dao-de-jing_ch-64_p-1",
+      "order": 6,
+      "canonicalText": "千里之行，始於足下。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-64_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-64",
+      "passageId": "dao-de-jing_ch-64_p-1",
+      "order": 7,
+      "canonicalText": "為者敗之，執者失之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-64_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-64",
+      "passageId": "dao-de-jing_ch-64_p-1",
+      "order": 8,
+      "canonicalText": "是以聖人無為故無敗；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-64_p-1_s-9",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-64",
+      "passageId": "dao-de-jing_ch-64_p-1",
+      "order": 9,
+      "canonicalText": "無執故無失。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-64_p-1_s-10",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-64",
+      "passageId": "dao-de-jing_ch-64_p-1",
+      "order": 10,
+      "canonicalText": "民之從事，常於幾成而敗之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-64_p-1_s-11",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-64",
+      "passageId": "dao-de-jing_ch-64_p-1",
+      "order": 11,
+      "canonicalText": "慎終如始，則無敗事。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-64_p-1_s-12",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-64",
+      "passageId": "dao-de-jing_ch-64_p-1",
+      "order": 12,
+      "canonicalText": "是以聖人慾不欲，不貴難得之貨；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-64_p-1_s-13",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-64",
+      "passageId": "dao-de-jing_ch-64_p-1",
+      "order": 13,
+      "canonicalText": "學不學，復眾人之所過，以輔萬物之自然，而不敢為。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-65_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-65",
+      "passageId": "dao-de-jing_ch-65_p-1",
+      "order": 1,
+      "canonicalText": "古之善為道者，非以明民，將以愚之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-65_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-65",
+      "passageId": "dao-de-jing_ch-65_p-1",
+      "order": 2,
+      "canonicalText": "民之難治，以其智多。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-65_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-65",
+      "passageId": "dao-de-jing_ch-65_p-1",
+      "order": 3,
+      "canonicalText": "故以智治國，國之賊；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-65_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-65",
+      "passageId": "dao-de-jing_ch-65_p-1",
+      "order": 4,
+      "canonicalText": "不以智治國，國之福。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-65_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-65",
+      "passageId": "dao-de-jing_ch-65_p-1",
+      "order": 5,
+      "canonicalText": "知此兩者亦稽式。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-65_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-65",
+      "passageId": "dao-de-jing_ch-65_p-1",
+      "order": 6,
+      "canonicalText": "常知稽式，是謂玄德。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-65_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-65",
+      "passageId": "dao-de-jing_ch-65_p-1",
+      "order": 7,
+      "canonicalText": "玄德深矣，遠矣，與物反矣，然後乃至大順。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-66_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-66",
+      "passageId": "dao-de-jing_ch-66_p-1",
+      "order": 1,
+      "canonicalText": "江海所以能為百谷王者，以其善下之，故能為百谷王。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-66_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-66",
+      "passageId": "dao-de-jing_ch-66_p-1",
+      "order": 2,
+      "canonicalText": "是以聖人慾上民，必以言下之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-66_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-66",
+      "passageId": "dao-de-jing_ch-66_p-1",
+      "order": 3,
+      "canonicalText": "欲先民，必以身後之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-66_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-66",
+      "passageId": "dao-de-jing_ch-66_p-1",
+      "order": 4,
+      "canonicalText": "是以聖人處上而民不重，處前而民不害。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-66_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-66",
+      "passageId": "dao-de-jing_ch-66_p-1",
+      "order": 5,
+      "canonicalText": "是以天下樂推而不厭。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-66_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-66",
+      "passageId": "dao-de-jing_ch-66_p-1",
+      "order": 6,
+      "canonicalText": "以其不爭，故天下莫能與之爭。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-67_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-67",
+      "passageId": "dao-de-jing_ch-67_p-1",
+      "order": 1,
+      "canonicalText": "天下皆謂我道大，似不肖。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-67_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-67",
+      "passageId": "dao-de-jing_ch-67_p-1",
+      "order": 2,
+      "canonicalText": "夫唯大，故似不肖。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-67_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-67",
+      "passageId": "dao-de-jing_ch-67_p-1",
+      "order": 3,
+      "canonicalText": "若肖，久矣其細也夫！",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-67_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-67",
+      "passageId": "dao-de-jing_ch-67_p-1",
+      "order": 4,
+      "canonicalText": "我有三寶，持而保之：一曰慈，二曰儉，三曰不敢為天下先。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-67_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-67",
+      "passageId": "dao-de-jing_ch-67_p-1",
+      "order": 5,
+      "canonicalText": "慈故能勇；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-67_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-67",
+      "passageId": "dao-de-jing_ch-67_p-1",
+      "order": 6,
+      "canonicalText": "儉故能廣；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-67_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-67",
+      "passageId": "dao-de-jing_ch-67_p-1",
+      "order": 7,
+      "canonicalText": "不敢為天下先，故能成器長。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-67_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-67",
+      "passageId": "dao-de-jing_ch-67_p-1",
+      "order": 8,
+      "canonicalText": "今舍慈且勇；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-67_p-1_s-9",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-67",
+      "passageId": "dao-de-jing_ch-67_p-1",
+      "order": 9,
+      "canonicalText": "舍儉且廣；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-67_p-1_s-10",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-67",
+      "passageId": "dao-de-jing_ch-67_p-1",
+      "order": 10,
+      "canonicalText": "舍後且先；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-67_p-1_s-11",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-67",
+      "passageId": "dao-de-jing_ch-67_p-1",
+      "order": 11,
+      "canonicalText": "死矣！",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-67_p-1_s-12",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-67",
+      "passageId": "dao-de-jing_ch-67_p-1",
+      "order": 12,
+      "canonicalText": "夫慈，以戰則勝，以守則固。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-67_p-1_s-13",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-67",
+      "passageId": "dao-de-jing_ch-67_p-1",
+      "order": 13,
+      "canonicalText": "天將救之，以慈衛之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-68_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-68",
+      "passageId": "dao-de-jing_ch-68_p-1",
+      "order": 1,
+      "canonicalText": "善為士者，不武；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-68_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-68",
+      "passageId": "dao-de-jing_ch-68_p-1",
+      "order": 2,
+      "canonicalText": "善戰者，不怒；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-68_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-68",
+      "passageId": "dao-de-jing_ch-68_p-1",
+      "order": 3,
+      "canonicalText": "善勝敵者，不與；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-68_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-68",
+      "passageId": "dao-de-jing_ch-68_p-1",
+      "order": 4,
+      "canonicalText": "善用人者，為之下。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-68_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-68",
+      "passageId": "dao-de-jing_ch-68_p-1",
+      "order": 5,
+      "canonicalText": "是謂不爭之德，是謂用人之力，是謂配天古之極。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-69_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-69",
+      "passageId": "dao-de-jing_ch-69_p-1",
+      "order": 1,
+      "canonicalText": "用兵有言：吾不敢為主，而為客；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-69_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-69",
+      "passageId": "dao-de-jing_ch-69_p-1",
+      "order": 2,
+      "canonicalText": "不敢進寸，而退尺。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-69_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-69",
+      "passageId": "dao-de-jing_ch-69_p-1",
+      "order": 3,
+      "canonicalText": "是謂行無行；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-69_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-69",
+      "passageId": "dao-de-jing_ch-69_p-1",
+      "order": 4,
+      "canonicalText": "攘無臂；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-69_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-69",
+      "passageId": "dao-de-jing_ch-69_p-1",
+      "order": 5,
+      "canonicalText": "扔無敵；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-69_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-69",
+      "passageId": "dao-de-jing_ch-69_p-1",
+      "order": 6,
+      "canonicalText": "執無兵。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-69_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-69",
+      "passageId": "dao-de-jing_ch-69_p-1",
+      "order": 7,
+      "canonicalText": "禍莫大於輕敵，輕敵幾喪吾寶。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-69_p-1_s-8",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-69",
+      "passageId": "dao-de-jing_ch-69_p-1",
+      "order": 8,
+      "canonicalText": "故抗兵相加，哀者勝矣。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-70_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-70",
+      "passageId": "dao-de-jing_ch-70_p-1",
+      "order": 1,
+      "canonicalText": "吾言甚易知，甚易行。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-70_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-70",
+      "passageId": "dao-de-jing_ch-70_p-1",
+      "order": 2,
+      "canonicalText": "天下莫能知，莫能行。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-70_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-70",
+      "passageId": "dao-de-jing_ch-70_p-1",
+      "order": 3,
+      "canonicalText": "言有宗，事有君。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-70_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-70",
+      "passageId": "dao-de-jing_ch-70_p-1",
+      "order": 4,
+      "canonicalText": "夫唯無知，是以不我知。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-70_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-70",
+      "passageId": "dao-de-jing_ch-70_p-1",
+      "order": 5,
+      "canonicalText": "知我者希，則我者貴。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-70_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-70",
+      "passageId": "dao-de-jing_ch-70_p-1",
+      "order": 6,
+      "canonicalText": "是以聖人被褐懷玉。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-71_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-71",
+      "passageId": "dao-de-jing_ch-71_p-1",
+      "order": 1,
+      "canonicalText": "知不知，上；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-71_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-71",
+      "passageId": "dao-de-jing_ch-71_p-1",
+      "order": 2,
+      "canonicalText": "不知知，病。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-71_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-71",
+      "passageId": "dao-de-jing_ch-71_p-1",
+      "order": 3,
+      "canonicalText": "夫唯病病，是以不病。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-71_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-71",
+      "passageId": "dao-de-jing_ch-71_p-1",
+      "order": 4,
+      "canonicalText": "聖人不病，以其病病，是以不病。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-72_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-72",
+      "passageId": "dao-de-jing_ch-72_p-1",
+      "order": 1,
+      "canonicalText": "民不畏威，則大威至。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-72_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-72",
+      "passageId": "dao-de-jing_ch-72_p-1",
+      "order": 2,
+      "canonicalText": "無狎其所居，無厭其所生。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-72_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-72",
+      "passageId": "dao-de-jing_ch-72_p-1",
+      "order": 3,
+      "canonicalText": "夫唯不厭，是以不厭。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-72_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-72",
+      "passageId": "dao-de-jing_ch-72_p-1",
+      "order": 4,
+      "canonicalText": "是以聖人自知不自見；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-72_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-72",
+      "passageId": "dao-de-jing_ch-72_p-1",
+      "order": 5,
+      "canonicalText": "自愛不自貴。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-72_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-72",
+      "passageId": "dao-de-jing_ch-72_p-1",
+      "order": 6,
+      "canonicalText": "故去彼取此。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-73_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-73",
+      "passageId": "dao-de-jing_ch-73_p-1",
+      "order": 1,
+      "canonicalText": "勇於敢則殺，勇於不敢則活。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-73_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-73",
+      "passageId": "dao-de-jing_ch-73_p-1",
+      "order": 2,
+      "canonicalText": "此兩者，或利或害。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-73_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-73",
+      "passageId": "dao-de-jing_ch-73_p-1",
+      "order": 3,
+      "canonicalText": "天之所惡，孰知其故？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-73_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-73",
+      "passageId": "dao-de-jing_ch-73_p-1",
+      "order": 4,
+      "canonicalText": "是以聖人猶難之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-73_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-73",
+      "passageId": "dao-de-jing_ch-73_p-1",
+      "order": 5,
+      "canonicalText": "天之道，不爭而善勝，不言而善應，不召而自來，繟然而善謀。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-73_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-73",
+      "passageId": "dao-de-jing_ch-73_p-1",
+      "order": 6,
+      "canonicalText": "天網恢恢，疏而不失。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-74_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-74",
+      "passageId": "dao-de-jing_ch-74_p-1",
+      "order": 1,
+      "canonicalText": "民不畏死，奈何以死懼之？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-74_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-74",
+      "passageId": "dao-de-jing_ch-74_p-1",
+      "order": 2,
+      "canonicalText": "若使民常畏死，而為奇者，吾得執而殺之，孰敢？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-74_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-74",
+      "passageId": "dao-de-jing_ch-74_p-1",
+      "order": 3,
+      "canonicalText": "常有司殺者殺。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-74_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-74",
+      "passageId": "dao-de-jing_ch-74_p-1",
+      "order": 4,
+      "canonicalText": "夫司殺者，是大匠斲；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-74_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-74",
+      "passageId": "dao-de-jing_ch-74_p-1",
+      "order": 5,
+      "canonicalText": "夫代大匠斲者，希有不傷其手矣。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-75_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-75",
+      "passageId": "dao-de-jing_ch-75_p-1",
+      "order": 1,
+      "canonicalText": "民之飢，以其上食稅之多，是以飢。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-75_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-75",
+      "passageId": "dao-de-jing_ch-75_p-1",
+      "order": 2,
+      "canonicalText": "民之難治，以其上之有為，是以難治。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-75_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-75",
+      "passageId": "dao-de-jing_ch-75_p-1",
+      "order": 3,
+      "canonicalText": "民之輕死，以其求生之厚，是以輕死。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-75_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-75",
+      "passageId": "dao-de-jing_ch-75_p-1",
+      "order": 4,
+      "canonicalText": "夫唯無以生為者，是賢於貴生。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-76_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-76",
+      "passageId": "dao-de-jing_ch-76_p-1",
+      "order": 1,
+      "canonicalText": "人之生也柔弱，其死也堅強。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-76_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-76",
+      "passageId": "dao-de-jing_ch-76_p-1",
+      "order": 2,
+      "canonicalText": "萬物草木之生也柔脆，其死也枯槁。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-76_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-76",
+      "passageId": "dao-de-jing_ch-76_p-1",
+      "order": 3,
+      "canonicalText": "故堅強者死之徒，柔弱者生之徒。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-76_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-76",
+      "passageId": "dao-de-jing_ch-76_p-1",
+      "order": 4,
+      "canonicalText": "是以兵強則不勝，木強則共。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-76_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-76",
+      "passageId": "dao-de-jing_ch-76_p-1",
+      "order": 5,
+      "canonicalText": "強大處下，柔弱處上。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-77_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-77",
+      "passageId": "dao-de-jing_ch-77_p-1",
+      "order": 1,
+      "canonicalText": "天之道，其猶張弓與？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-77_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-77",
+      "passageId": "dao-de-jing_ch-77_p-1",
+      "order": 2,
+      "canonicalText": "高者抑之，下者舉之；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-77_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-77",
+      "passageId": "dao-de-jing_ch-77_p-1",
+      "order": 3,
+      "canonicalText": "有餘者損之，不足者補之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-77_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-77",
+      "passageId": "dao-de-jing_ch-77_p-1",
+      "order": 4,
+      "canonicalText": "天之道，損有餘而補不足。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-77_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-77",
+      "passageId": "dao-de-jing_ch-77_p-1",
+      "order": 5,
+      "canonicalText": "人之道，則不然，損不足以奉有餘。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-77_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-77",
+      "passageId": "dao-de-jing_ch-77_p-1",
+      "order": 6,
+      "canonicalText": "孰能有餘以奉天下，唯有道者。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-77_p-1_s-7",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-77",
+      "passageId": "dao-de-jing_ch-77_p-1",
+      "order": 7,
+      "canonicalText": "是以聖人為而不恃，功成而不處，其不欲見賢。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-78_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-78",
+      "passageId": "dao-de-jing_ch-78_p-1",
+      "order": 1,
+      "canonicalText": "天下莫柔弱於水，而攻堅強者莫之能勝，其無以易之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-78_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-78",
+      "passageId": "dao-de-jing_ch-78_p-1",
+      "order": 2,
+      "canonicalText": "弱之勝強，柔之勝剛，天下莫不知，莫能行。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-78_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-78",
+      "passageId": "dao-de-jing_ch-78_p-1",
+      "order": 3,
+      "canonicalText": "是以聖人云：受國之垢，是謂社稷主；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-78_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-78",
+      "passageId": "dao-de-jing_ch-78_p-1",
+      "order": 4,
+      "canonicalText": "受國不祥，是謂天下王。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-78_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-78",
+      "passageId": "dao-de-jing_ch-78_p-1",
+      "order": 5,
+      "canonicalText": "正言若反。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-79_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-79",
+      "passageId": "dao-de-jing_ch-79_p-1",
+      "order": 1,
+      "canonicalText": "和大怨，必有餘怨；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-79_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-79",
+      "passageId": "dao-de-jing_ch-79_p-1",
+      "order": 2,
+      "canonicalText": "安可以為善？",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-79_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-79",
+      "passageId": "dao-de-jing_ch-79_p-1",
+      "order": 3,
+      "canonicalText": "是以聖人執左契，而不責於人。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-79_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-79",
+      "passageId": "dao-de-jing_ch-79_p-1",
+      "order": 4,
+      "canonicalText": "有德司契，無德司徹。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-79_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-79",
+      "passageId": "dao-de-jing_ch-79_p-1",
+      "order": 5,
+      "canonicalText": "天道無親，常與善人。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-80_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-80",
+      "passageId": "dao-de-jing_ch-80_p-1",
+      "order": 1,
+      "canonicalText": "小國寡民。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-80_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-80",
+      "passageId": "dao-de-jing_ch-80_p-1",
+      "order": 2,
+      "canonicalText": "使有什伯之器而不用；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-80_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-80",
+      "passageId": "dao-de-jing_ch-80_p-1",
+      "order": 3,
+      "canonicalText": "使民重死而不遠徙。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-80_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-80",
+      "passageId": "dao-de-jing_ch-80_p-1",
+      "order": 4,
+      "canonicalText": "雖有舟輿，無所乘之，雖有甲兵，無所陳之。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-80_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-80",
+      "passageId": "dao-de-jing_ch-80_p-1",
+      "order": 5,
+      "canonicalText": "使民復結繩而用之，甘其食，美其服，安其居，樂其俗。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-80_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-80",
+      "passageId": "dao-de-jing_ch-80_p-1",
+      "order": 6,
+      "canonicalText": "鄰國相望，雞犬之聲相聞，民至老死，不相往來。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-81_p-1_s-1",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-81",
+      "passageId": "dao-de-jing_ch-81_p-1",
+      "order": 1,
+      "canonicalText": "信言不美，美言不信。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-81_p-1_s-2",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-81",
+      "passageId": "dao-de-jing_ch-81_p-1",
+      "order": 2,
+      "canonicalText": "善者不辯，辯者不善。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-81_p-1_s-3",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-81",
+      "passageId": "dao-de-jing_ch-81_p-1",
+      "order": 3,
+      "canonicalText": "知者不博，博者不知。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-81_p-1_s-4",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-81",
+      "passageId": "dao-de-jing_ch-81_p-1",
+      "order": 4,
+      "canonicalText": "聖人不積，既以為人己愈有，既以與人己愈多。",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-81_p-1_s-5",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-81",
+      "passageId": "dao-de-jing_ch-81_p-1",
+      "order": 5,
+      "canonicalText": "天之道，利而不害；",
+      "chunks": [],
+      "tags": []
+    },
+    {
+      "id": "dao-de-jing_ch-81_p-1_s-6",
+      "workId": "dao-de-jing",
+      "chapterId": "dao-de-jing_ch-81",
+      "passageId": "dao-de-jing_ch-81_p-1",
+      "order": 6,
+      "canonicalText": "聖人之道，為而不爭。",
+      "chunks": [],
+      "tags": []
+    }
+  ]
+}`);export{n as default};
