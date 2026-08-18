@@ -2,6 +2,7 @@
 import { computed, ref, watch } from 'vue'
 import type { Sentence, HintLevel, Chunk } from '@/types/content'
 import { getPinyin, getBopomofo } from '@/utils/pinyin'
+import { speechService } from '@/services/speech'
 import RedSeal from '@/components/RedSeal.vue'
 
 const props = withDefaults(defineProps<{
@@ -18,6 +19,17 @@ const props = withDefaults(defineProps<{
 
 const activeTab = ref<'translation' | 'glossary' | 'analysis' | 'application'>('translation')
 const pronunciationMode = ref<'off' | 'pinyin' | 'bopomofo'>('off')
+
+const isAudioSpeaking = computed(() => {
+  return speechService.state.currentPassageId === props.sentence.id && speechService.state.isPlaying && !speechService.state.isPaused
+})
+
+function playSentenceAudio() {
+  speechService.speakPassage(props.sentence.id, props.sentence.canonicalText, 'canonical', {
+    canonicalText: props.sentence.canonicalText,
+    vernacularText: props.sentence.structuredTranslation?.translation || props.sentence.translationHint,
+  })
+}
 
 // Reset active tab to translation when sentence changes
 watch(() => props.sentence.id, () => {
@@ -203,6 +215,17 @@ const chunkGroups = computed<ChunkGroup[]>(() => {
             應用
           </button>
         </div>
+        <!-- Sentence Speech Button -->
+        <button
+          type="button"
+          class="btn-speech-toggle"
+          :class="{ 'is-speaking': isAudioSpeaking }"
+          @click="playSentenceAudio"
+          :title="isAudioSpeaking ? '暫停誦讀' : '語音誦讀本句'"
+        >
+          <span v-if="isAudioSpeaking">⏸ 誦讀中</span>
+          <span v-else>🔊 誦讀</span>
+        </button>
         <!-- Pronunciation Guide Toggle -->
         <button
           v-if="hasPronunciation"
@@ -511,7 +534,27 @@ const chunkGroups = computed<ChunkGroup[]>(() => {
   }
 }
 
-/* ── Pinyin & Application Styles ── */
+/* ── Speech & Pinyin Styles ── */
+.btn-speech-toggle {
+  background: rgba(201, 169, 110, 0.08);
+  border: 1px solid var(--c-border-accent);
+  padding: 2px var(--sp-2);
+  font-family: var(--font-sans);
+  font-size: 0.625rem;
+  color: var(--c-gold-light);
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  margin-left: auto;
+  transition: all var(--duration-fast) var(--ease-out);
+}
+
+.btn-speech-toggle:hover, .btn-speech-toggle.is-speaking {
+  background: var(--c-gold);
+  color: #12141a;
+  border-color: var(--c-gold);
+  font-weight: var(--fw-semibold);
+}
+
 .btn-pinyin-toggle {
   background: none;
   border: 1px solid var(--c-border-accent);
@@ -521,7 +564,6 @@ const chunkGroups = computed<ChunkGroup[]>(() => {
   color: var(--c-text-muted);
   cursor: pointer;
   border-radius: var(--radius-sm);
-  margin-left: auto;
   transition: all var(--duration-fast) var(--ease-out);
 }
 

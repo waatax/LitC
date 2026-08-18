@@ -108,7 +108,7 @@ class ZenAudio {
     }
   }
 
-  /**
+/**
    * 播放「沉悶低磬」：對應 Again (答錯)，提示重溫
    */
   playGong() {
@@ -141,6 +141,115 @@ class ZenAudio {
       console.warn('Audio synthesis failed:', e)
     }
   }
+
+  /**
+   * 播放「翻頁聲」：章節導航時的紙頁翻動聲，用白噪聲濾波模擬
+   */
+  playPageTurn() {
+    try {
+      this.init()
+      if (!this.ctx) return
+      const now = this.ctx.currentTime
+
+      // Create a short burst of filtered noise to simulate paper
+      const bufferSize = this.ctx.sampleRate * 0.12
+      const noiseBuffer = this.ctx.createBuffer(1, bufferSize, this.ctx.sampleRate)
+      const data = noiseBuffer.getChannelData(0)
+      for (let i = 0; i < bufferSize; i++) {
+        data[i] = (Math.random() * 2 - 1) * (1 - i / bufferSize)
+      }
+
+      const noiseSource = this.ctx.createBufferSource()
+      noiseSource.buffer = noiseBuffer
+
+      const filter = this.ctx.createBiquadFilter()
+      filter.type = 'bandpass'
+      filter.frequency.setValueAtTime(3000, now)
+      filter.Q.setValueAtTime(0.8, now)
+
+      const gainNode = this.ctx.createGain()
+      gainNode.gain.setValueAtTime(0.08, now)
+      gainNode.gain.exponentialRampToValueAtTime(0.001, now + 0.1)
+
+      noiseSource.connect(filter)
+      filter.connect(gainNode)
+      gainNode.connect(this.ctx.destination)
+
+      noiseSource.start(now)
+      noiseSource.stop(now + 0.12)
+    } catch (e) {
+      console.warn('Audio synthesis failed:', e)
+    }
+  }
+
+  /**
+   * 播放「墨研聲」：進入學習模式時的低沉磨墨摩擦聲
+   */
+  playInkGrind() {
+    try {
+      this.init()
+      if (!this.ctx) return
+      const now = this.ctx.currentTime
+
+      // Low rumble oscillator simulating stone on stone
+      const osc = this.ctx.createOscillator()
+      osc.type = 'sawtooth'
+      osc.frequency.setValueAtTime(60, now)
+      osc.frequency.linearRampToValueAtTime(80, now + 0.3)
+      osc.frequency.linearRampToValueAtTime(55, now + 0.6)
+
+      const filter = this.ctx.createBiquadFilter()
+      filter.type = 'lowpass'
+      filter.frequency.setValueAtTime(120, now)
+
+      const gainNode = this.ctx.createGain()
+      gainNode.gain.setValueAtTime(0, now)
+      gainNode.gain.linearRampToValueAtTime(0.06, now + 0.05)
+      gainNode.gain.setValueAtTime(0.06, now + 0.4)
+      gainNode.gain.exponentialRampToValueAtTime(0.001, now + 0.7)
+
+      osc.connect(filter)
+      filter.connect(gainNode)
+      gainNode.connect(this.ctx.destination)
+
+      osc.start(now)
+      osc.stop(now + 0.8)
+    } catch (e) {
+      console.warn('Audio synthesis failed:', e)
+    }
+  }
+
+  /**
+   * 播放「古琴弦振」：修行階級提升時的莊嚴弦振音
+   */
+  playLevelUp() {
+    try {
+      this.init()
+      if (!this.ctx) return
+      const now = this.ctx.currentTime
+
+      // Ascending arpeggio: C4 → E4 → G4 → C5 (pentatonic feel)
+      const frequencies = [262, 330, 392, 523]
+      frequencies.forEach((freq, i) => {
+        const osc = this.ctx!.createOscillator()
+        const gainNode = this.ctx!.createGain()
+        osc.type = 'triangle'
+        osc.frequency.setValueAtTime(freq, now + i * 0.15)
+
+        gainNode.gain.setValueAtTime(0, now + i * 0.15)
+        gainNode.gain.linearRampToValueAtTime(0.15, now + i * 0.15 + 0.02)
+        gainNode.gain.exponentialRampToValueAtTime(0.001, now + i * 0.15 + 0.8)
+
+        osc.connect(gainNode)
+        gainNode.connect(this.ctx!.destination)
+
+        osc.start(now + i * 0.15)
+        osc.stop(now + i * 0.15 + 0.9)
+      })
+    } catch (e) {
+      console.warn('Audio synthesis failed:', e)
+    }
+  }
 }
 
 export const zenAudio = new ZenAudio()
@@ -157,3 +266,4 @@ if (typeof window !== 'undefined') {
   window.addEventListener('touchstart', unlockHandler, { once: true, passive: true })
   window.addEventListener('keydown', unlockHandler, { once: true })
 }
+

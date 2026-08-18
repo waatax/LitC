@@ -16,7 +16,9 @@ const navItems: NavItem[] = [
   { icon: '📅', label: '今日', to: '/' },
   { icon: '✨', label: '驚鴻一撇', to: '/glimpse' },
   { icon: '📚', label: '典籍庫', to: '/library' },
+  { icon: '⚖️', label: '比較', to: '/compare' },
   { icon: '🌊', label: '文海', to: '/wenhai' },
+  { icon: '📊', label: '修行', to: '/profile' },
   { icon: '📝', label: '古文考驗', to: '/quiz' },
 ]
 

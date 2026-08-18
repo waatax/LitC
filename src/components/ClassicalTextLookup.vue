@@ -57,6 +57,17 @@ function close() {
   requestId++
 }
 
+function speakCharacter(char: string) {
+  if (!char) return
+  if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+    window.speechSynthesis.cancel()
+    const utterance = new SpeechSynthesisUtterance(char)
+    utterance.lang = 'zh-TW'
+    utterance.rate = 0.85
+    window.speechSynthesis.speak(utterance)
+  }
+}
+
 function onKeydown(event: KeyboardEvent) {
   if (event.key === 'Escape' && open.value) close()
 }
@@ -86,7 +97,18 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
         <header class="dictionary-header">
           <div>
             <span class="dictionary-kicker">古文點字辭典</span>
-            <h2>{{ selected }}</h2>
+            <div class="dictionary-char-row">
+              <h2>{{ selected }}</h2>
+              <button
+                type="button"
+                class="char-speak-btn"
+                :aria-label="`聆聽「${selected}」發音`"
+                title="發音誦讀"
+                @click="speakCharacter(selected)"
+              >
+                🔊 發音
+              </button>
+            </div>
           </div>
           <button class="dictionary-close" type="button" aria-label="關閉字典" @click="close">×</button>
         </header>
@@ -127,7 +149,28 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
 .dictionary-backdrop { position: fixed; inset: 0; z-index: 1200; display: grid; place-items: center; padding: 1rem; background: rgba(8, 10, 14, 0.72); backdrop-filter: blur(5px); }
 .dictionary-sheet { width: min(38rem, 100%); max-height: min(78vh, 46rem); overflow: auto; padding: 1.4rem; border: 1px solid var(--c-border-accent); border-radius: var(--radius-lg); background: var(--c-bg-elevated); box-shadow: 0 24px 80px rgba(0,0,0,.5); color: var(--c-text-primary); }
 .dictionary-header { display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 1px solid var(--c-border-subtle); padding-bottom: 1rem; }
+.dictionary-char-row { display: flex; align-items: center; gap: 1rem; }
 .dictionary-header h2 { margin: .15rem 0 0; font-family: var(--font-serif); font-size: 3rem; color: var(--c-gold-light); }
+.char-speak-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  background: rgba(201, 169, 110, 0.12);
+  border: 1px solid var(--c-gold);
+  border-radius: var(--radius-full);
+  color: var(--c-gold-light);
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-semibold);
+  cursor: pointer;
+  transition: all var(--duration-fast);
+}
+.char-speak-btn:hover {
+  background: var(--c-gold);
+  color: #12141a;
+  transform: scale(1.05);
+}
 .dictionary-kicker, .dictionary-attribution { font-family: var(--font-sans); font-size: var(--fs-xs); color: var(--c-text-muted); }
 .dictionary-close { border: 0; background: transparent; color: var(--c-text-muted); font-size: 2rem; cursor: pointer; }
 .dictionary-reading { padding: 1rem 0; border-bottom: 1px dashed var(--c-border-subtle); }

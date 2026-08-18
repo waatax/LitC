@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import type { Chapter, Work, Passage, Sentence } from '@/types/content'
 import { loadChapterContent } from '@/data/workLoader'
@@ -7,6 +7,8 @@ import { loadChapterContent } from '@/data/workLoader'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import RedSeal from '@/components/RedSeal.vue'
 import ClassicalTextLookup from '@/components/ClassicalTextLookup.vue'
+import AudioPlayerBar from '@/components/AudioPlayerBar.vue'
+import { speechService } from '@/services/speech'
 
 import { storeToRefs } from 'pinia'
 import { useAppStore } from '@/stores/app'
@@ -23,6 +25,38 @@ const passages = ref<Passage[]>([])
 const allSentences = ref<Sentence[]>([])
 const mounted = ref(false)
 
+const speechState = speechService.state
+
+function playPassage(passage: Passage) {
+  speechService.speakPassage(passage.id, passage.canonicalText, 'canonical', {
+    workTitle: work.value?.title,
+    chapterTitle: chapter.value?.title,
+    canonicalText: passage.canonicalText,
+    vernacularText: passage.readingAid?.translation,
+  })
+}
+
+function playSentence(sentence: Sentence) {
+  speechService.speakPassage(sentence.id, sentence.canonicalText, 'canonical', {
+    workTitle: work.value?.title,
+    chapterTitle: chapter.value?.title,
+    canonicalText: sentence.canonicalText,
+    vernacularText: whiteText(sentence),
+  })
+}
+
+function isAudioActive(id: string) {
+  return speechState.currentPassageId === id && (speechState.isPlaying || speechState.isPaused)
+}
+
+function isAudioSpeaking(id: string) {
+  return speechState.currentPassageId === id && speechState.isPlaying && !speechState.isPaused
+}
+
+onBeforeUnmount(() => {
+  speechService.stop()
+})
+
 interface Step {
   key: string
   label: string
@@ -35,6 +69,7 @@ const steps: Step[] = [
   { key: 'read', label: '讀', icon: '📖', fullLabel: '通讀' },
   { key: 'understand', label: '解', icon: '💡', fullLabel: '理解' },
   { key: 'segment', label: '分', icon: '✂️', fullLabel: '分段' },
+  { key: 'memorize', label: '背', icon: '🎯', fullLabel: '背誦' },
 ]
 
 const currentStepIndex = ref(0)
@@ -101,10 +136,27 @@ function whiteText(sentence: Sentence): string {
   const passage = passages.value.find(p => p.id === sentence.passageId)
   return passage?.readingAid?.translation ?? '此句白話釋義正在整理。'
 }
+
+// School ambient tint color mapping
+const SCHOOL_COLORS: Record<string, string> = {
+  daoism: '#5b8a72',
+  legalism: '#8b5e5e',
+  mohism: '#5e6e8b',
+  confucianism: '#b58d3d',
+  literature: '#4a6fa5',
+  military: '#a64b4b',
+  histories: '#8a6e5b',
+}
+
+const schoolAmbientStyle = computed(() => {
+  if (!work.value) return {}
+  const color = SCHOOL_COLORS[work.value.schoolId] || '#c9a96e'
+  return { '--school-ambient-color': color } as Record<string, string>
+})
 </script>
 
 <template>
-  <div class="learn-view" :class="{ 'is-mounted': mounted }">
+  <div class="learn-view" :class="{ 'is-mounted': mounted }" :style="schoolAmbientStyle">
     <!-- Top Bar -->
     <div class="learn-top-bar">
       <button class="btn btn-ghost btn-sm" @click="goBack">
@@ -192,19 +244,49 @@ function whiteText(sentence: Sentence): string {
             <div class="read-card glass-card">
               <div v-if="isVertical" class="vertical-container">
                 <div class="vertical-text-flow">
-                  <p
+                  <div
                     v-for="passage in passages"
                     :key="passage.id"
-                    class="passage-text"
-                  ><ClassicalTextLookup :text="passage.canonicalText" /></p>
+                    class="vertical-read-block"
+                    :class="{ 'is-speaking': isAudioActive(passage.id) }"
+                  >
+                    <button
+                      type="button"
+                      class="learn-audio-btn vertical-btn"
+                      :class="{ 'is-playing': isAudioSpeaking(passage.id) }"
+                      :title="isAudioSpeaking(passage.id) ? '暫停朗讀' : '朗讀此段'"
+                      @click="playPassage(passage)"
+                    >
+                      <span v-if="isAudioSpeaking(passage.id)">⏸</span>
+                      <span v-else>🔊</span>
+                    </button>
+                    <p class="passage-text">
+                      <ClassicalTextLookup :text="passage.canonicalText" />
+                    </p>
+                  </div>
                 </div>
               </div>
               <div v-else class="classical-text-lg read-text">
-                <p
+                <div
                   v-for="passage in passages"
                   :key="passage.id"
-                  class="read-paragraph"
-                ><ClassicalTextLookup :text="passage.canonicalText" /></p>
+                  class="read-paragraph-row"
+                  :class="{ 'is-speaking': isAudioActive(passage.id) }"
+                >
+                  <button
+                    type="button"
+                    class="learn-audio-btn"
+                    :class="{ 'is-playing': isAudioSpeaking(passage.id) }"
+                    :title="isAudioSpeaking(passage.id) ? '暫停朗讀' : '朗讀此段'"
+                    @click="playPassage(passage)"
+                  >
+                    <span v-if="isAudioSpeaking(passage.id)">⏸</span>
+                    <span v-else>🔊</span>
+                  </button>
+                  <p class="read-paragraph">
+                    <ClassicalTextLookup :text="passage.canonicalText" />
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -222,9 +304,22 @@ function whiteText(sentence: Sentence): string {
                     v-for="(sentence, si) in allSentences"
                     :key="sentence.id"
                     class="vertical-passage-box"
+                    :class="{ 'is-speaking': isAudioActive(sentence.id) }"
                   >
                     <div class="vertical-orig-wrapper">
-                      <span class="understand-order" style="display: block; margin-bottom: 8px;">{{ si + 1 }}.</span>
+                      <div class="understand-vertical-meta">
+                        <span class="understand-order">{{ si + 1 }}.</span>
+                        <button
+                          type="button"
+                          class="learn-audio-btn-sm"
+                          :class="{ 'is-playing': isAudioSpeaking(sentence.id) }"
+                          :title="isAudioSpeaking(sentence.id) ? '暫停發音' : '誦讀此句'"
+                          @click="playSentence(sentence)"
+                        >
+                          <span v-if="isAudioSpeaking(sentence.id)">⏸</span>
+                          <span v-else>🔊</span>
+                        </button>
+                      </div>
                       <p class="classical-text vertical-original-text"><ClassicalTextLookup :text="sentence.canonicalText" /></p>
                     </div>
                     <div class="horizontal-explanation">
@@ -240,10 +335,23 @@ function whiteText(sentence: Sentence): string {
                   v-for="(sentence, si) in allSentences"
                   :key="sentence.id"
                   class="understand-item glass-card"
+                  :class="{ 'is-speaking': isAudioActive(sentence.id) }"
                 >
                   <div class="understand-order">{{ si + 1 }}</div>
                   <div class="understand-body">
-                    <p class="classical-text understand-text"><ClassicalTextLookup :text="sentence.canonicalText" /></p>
+                    <div class="understand-header-row">
+                      <p class="classical-text understand-text"><ClassicalTextLookup :text="sentence.canonicalText" /></p>
+                      <button
+                        type="button"
+                        class="sentence-audio-btn"
+                        :class="{ 'is-active': isAudioActive(sentence.id) }"
+                        :title="isAudioSpeaking(sentence.id) ? '暫停發音' : '誦讀此句'"
+                        @click="playSentence(sentence)"
+                      >
+                        <span v-if="isAudioSpeaking(sentence.id)">⏸ 誦讀中</span>
+                        <span v-else>🔊 誦讀</span>
+                      </button>
+                    </div>
                     <p class="understand-hint">
                       白話釋義：{{ whiteText(sentence) }}
                     </p>
@@ -307,11 +415,44 @@ function whiteText(sentence: Sentence): string {
               </div>
             </div>
           </div>
+
+          <!-- Step 5: Memorize -->
+          <div v-else-if="currentStep.key === 'memorize'" key="memorize" class="step-panel">
+            <div class="step-heading">
+              <span class="step-heading-icon">🎯</span>
+              <h2>背誦</h2>
+            </div>
+            <div class="memorize-card glass-card">
+              <h3 class="memorize-title">🎉 學習完成！準備好開始背誦了嗎？</h3>
+              <div class="memorize-summary">
+                <div class="summary-item">
+                  <span class="summary-label">章節</span>
+                  <span class="summary-value">{{ chapter.title }}</span>
+                </div>
+                <div class="summary-item">
+                  <span class="summary-label">總句數</span>
+                  <span class="summary-value">{{ allSentences.length }} 句</span>
+                </div>
+                <div class="summary-item">
+                  <span class="summary-label">預估時間</span>
+                  <span class="summary-value">~{{ Math.ceil(allSentences.length * 1.5) }} 分鐘</span>
+                </div>
+              </div>
+              <div class="memorize-actions">
+                <button class="btn btn-primary btn-lg memorize-cta" @click="goToMemorize">
+                  🎯 開始背誦
+                </button>
+                <button class="btn btn-ghost" @click="goBack">
+                  回到書庫
+                </button>
+              </div>
+            </div>
+          </div>
         </Transition>
       </div>
 
       <!-- Navigation -->
-      <div class="step-nav">
+      <div class="step-nav" v-if="currentStep.key !== 'memorize'">
         <button
           class="btn btn-ghost"
           :disabled="isFirstStep"
@@ -323,18 +464,18 @@ function whiteText(sentence: Sentence): string {
           {{ currentStepIndex + 1 }} / {{ steps.length }}
         </span>
         <button
-          v-if="!isLastStep"
+          v-if="currentStep.key === 'segment'"
+          class="btn btn-primary memorize-btn"
+          @click="nextStep"
+        >
+          進入背誦 →
+        </button>
+        <button
+          v-else
           class="btn btn-primary"
           @click="nextStep"
         >
           下一步 →
-        </button>
-        <button
-          v-else
-          class="btn btn-primary memorize-btn"
-          @click="goToMemorize"
-        >
-          🧠 進入背誦
         </button>
       </div>
     </template>
@@ -344,11 +485,15 @@ function whiteText(sentence: Sentence): string {
       <h2>找不到此章節</h2>
       <button class="btn btn-ghost" @click="router.push('/library')">返回典籍庫</button>
     </div>
+
+    <!-- Audio Player Bar -->
+    <AudioPlayerBar />
   </div>
 </template>
 
 <style scoped>
 .learn-view {
+  position: relative;
   opacity: 0;
   transition: opacity var(--duration-slow) var(--ease-out);
 }
@@ -356,6 +501,26 @@ function whiteText(sentence: Sentence): string {
 .learn-view.is-mounted {
   opacity: 1;
 }
+
+/* School ambient tint — subtle radial glow at page top */
+.learn-view::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+  background: radial-gradient(
+    ellipse at 50% 0%,
+    var(--school-ambient-color, transparent) 0%,
+    transparent 65%
+  );
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: 0;
+  transition: opacity var(--duration-slow) var(--ease-out);
+}
+
 
 /* ── Top Bar ── */
 .learn-top-bar {
@@ -708,6 +873,64 @@ function whiteText(sentence: Sentence): string {
   color: var(--c-text-muted);
 }
 
+/* ── Memorize ── */
+.memorize-card {
+  padding: var(--sp-10) var(--sp-8);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-8);
+}
+
+.memorize-title {
+  font-family: var(--font-sans);
+  font-size: var(--fs-xl);
+  color: var(--c-text-primary);
+}
+
+.memorize-summary {
+  display: flex;
+  gap: var(--sp-8);
+  background: rgba(0, 0, 0, 0.2);
+  padding: var(--sp-6) var(--sp-10);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--c-border-subtle);
+}
+
+.summary-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
+.summary-label {
+  font-size: var(--fs-sm);
+  color: var(--c-text-muted);
+}
+
+.summary-value {
+  font-family: var(--font-serif);
+  font-size: var(--fs-lg);
+  color: var(--c-gold);
+  font-weight: var(--fw-bold);
+}
+
+.memorize-actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  width: 100%;
+  max-width: 300px;
+}
+
+.memorize-cta {
+  font-size: var(--fs-lg);
+  padding: var(--sp-4);
+  animation: pulse-gold 2s infinite;
+}
+
 .no-data {
   text-align: center;
   padding: var(--sp-12);
@@ -876,5 +1099,137 @@ function whiteText(sentence: Sentence): string {
   color: var(--c-text-primary);
   display: inline-block;
   line-height: 1.3;
+}
+
+/* ── LearnView Audio Enhancements ── */
+.read-paragraph-row {
+  position: relative;
+  margin-bottom: var(--sp-6);
+  padding: var(--sp-2) var(--sp-3);
+  border-radius: var(--radius-md);
+  transition: all var(--duration-fast);
+}
+
+.read-paragraph-row:last-child {
+  margin-bottom: 0;
+}
+
+.read-paragraph-row .read-paragraph {
+  margin-bottom: 0;
+}
+
+.read-paragraph-row.is-speaking,
+.understand-item.is-speaking,
+.vertical-read-block.is-speaking,
+.vertical-passage-box.is-speaking {
+  background: rgba(201, 169, 110, 0.08) !important;
+  border-color: var(--c-gold) !important;
+  box-shadow: 0 0 14px rgba(201, 169, 110, 0.25);
+}
+
+.learn-audio-btn {
+  position: absolute;
+  left: -2.2rem;
+  top: 0.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--c-border-subtle);
+  color: var(--c-text-muted);
+  font-size: var(--fs-xs);
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all var(--duration-fast);
+}
+
+.read-paragraph-row:hover .learn-audio-btn,
+.learn-audio-btn.is-playing,
+.learn-audio-btn:hover {
+  opacity: 1;
+  color: var(--c-gold);
+  background: rgba(201, 169, 110, 0.2);
+  border-color: var(--c-gold);
+  transform: scale(1.1);
+}
+
+.vertical-read-block {
+  position: relative;
+  padding-bottom: var(--sp-4);
+}
+
+.learn-audio-btn.vertical-btn {
+  position: absolute;
+  top: -1.4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 22px;
+  height: 22px;
+  font-size: 0.7rem;
+}
+
+.understand-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-2);
+}
+
+.understand-header-row .understand-text {
+  margin-bottom: 0;
+  flex: 1;
+}
+
+.sentence-audio-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--c-border-accent);
+  background: rgba(0, 0, 0, 0.2);
+  color: var(--c-gold-light);
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: all var(--duration-fast);
+}
+
+.sentence-audio-btn:hover, .sentence-audio-btn.is-active {
+  background: var(--c-gold);
+  color: #12141a;
+  border-color: var(--c-gold);
+}
+
+.understand-vertical-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.learn-audio-btn-sm {
+  width: 20px;
+  height: 20px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--c-border-subtle);
+  background: rgba(0, 0, 0, 0.3);
+  color: var(--c-gold);
+  font-size: 0.65rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.learn-audio-btn-sm:hover, .learn-audio-btn-sm.is-playing {
+  background: var(--c-gold);
+  color: #12141a;
 }
 </style>

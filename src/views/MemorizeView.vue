@@ -11,6 +11,7 @@ import { useGamificationStore } from '@/stores/gamification'
 import SentenceCard from '@/components/SentenceCard.vue'
 import HintLadder from '@/components/HintLadder.vue'
 import ProgressRing from '@/components/ProgressRing.vue'
+import ChunkOrderGame from '@/components/ChunkOrderGame.vue'
 import { useBreathingPacer } from '@/composables/useBreathingPacer'
 import { useTypingDiff } from '@/composables/useTypingDiff'
 import { useSpacedRepetition } from '@/composables/useSpacedRepetition'
@@ -28,6 +29,7 @@ const mounted = ref(false)
 const currentIndex = ref(0)
 const hintLevel = ref<HintLevel>('full')
 const showChunks = ref(false)
+const showOrderGame = ref(false)
 const isComplete = ref(false)
 const isFocusMode = ref(false)
 const isSepia = ref(false)
@@ -37,6 +39,12 @@ import { useAppStore } from '@/stores/app'
 
 const appStore = useAppStore()
 const { isVertical } = storeToRefs(appStore)
+
+function handleChunkOrderComplete(isCorrect: boolean) {
+  if (isCorrect) {
+    gamificationStore.addExp(15)
+  }
+}
 
 // Achievement Unlocked popup
 const unlockedOverlay = ref<any>(null)
@@ -254,10 +262,26 @@ const ratingButtons: RatingButton[] = [
   { rating: 'good', label: '良好', icon: '👍', className: 'rating-good' },
   { rating: 'easy', label: '簡單', icon: '✨', className: 'rating-easy' },
 ]
+// School ambient tint color mapping
+const SCHOOL_COLORS: Record<string, string> = {
+  daoism: '#5b8a72',
+  legalism: '#8b5e5e',
+  mohism: '#5e6e8b',
+  confucianism: '#b58d3d',
+  literature: '#4a6fa5',
+  military: '#a64b4b',
+  histories: '#8a6e5b',
+}
+
+const schoolAmbientStyle = computed(() => {
+  if (!work.value) return {}
+  const color = SCHOOL_COLORS[work.value.schoolId] || '#c9a96e'
+  return { '--school-ambient-color': color } as Record<string, string>
+})
 </script>
 
 <template>
-  <div class="memorize-view" :class="{ 'is-mounted': mounted, 'focus-mode-active': isFocusMode, 'sepia-theme-active': isSepia }">
+  <div class="memorize-view" :class="{ 'is-mounted': mounted, 'focus-mode-active': isFocusMode, 'sepia-theme-active': isSepia }" :style="schoolAmbientStyle">
     <!-- Floating exit focus mode button -->
     <div class="zen-floating-controls" v-if="isFocusMode && !isComplete">
       <button
@@ -339,6 +363,15 @@ const ratingButtons: RatingButton[] = [
           <span>語塊{{ showChunks ? '已顯示' : '已隱藏' }} (C)</span>
         </button>
         <button
+          v-if="currentSentence.chunks && currentSentence.chunks.length > 1"
+          class="btn btn-ghost order-toggle"
+          :class="{ 'is-on': showOrderGame }"
+          @click="showOrderGame = !showOrderGame"
+        >
+          <span>🧩</span>
+          <span>語塊重組{{ showOrderGame ? '（開）' : '' }}</span>
+        </button>
+        <button
           class="btn btn-ghost focus-toggle"
           :class="{ 'is-on': isFocusMode }"
           @click="isFocusMode = !isFocusMode"
@@ -347,6 +380,17 @@ const ratingButtons: RatingButton[] = [
           <span>專注模式{{ isFocusMode ? '已開啟' : '已關閉' }} (F)</span>
         </button>
       </div>
+
+      <!-- Chunk Ordering Game Section -->
+      <Transition name="slide-up">
+        <section v-if="showOrderGame && currentSentence.chunks && currentSentence.chunks.length > 1" class="order-game-section">
+          <ChunkOrderGame
+            :chunks="currentSentence.chunks"
+            :sentence-id="currentSentence.id"
+            @complete="handleChunkOrderComplete"
+          />
+        </section>
+      </Transition>
 
       <!-- Typing Area (at blank level) -->
       <Transition name="slide-up">
@@ -558,6 +602,7 @@ const ratingButtons: RatingButton[] = [
 
 <style scoped>
 .memorize-view {
+  position: relative;
   opacity: 0;
   transition: opacity var(--duration-slow) var(--ease-out);
 }
@@ -565,6 +610,26 @@ const ratingButtons: RatingButton[] = [
 .memorize-view.is-mounted {
   opacity: 1;
 }
+
+/* School ambient tint — subtle radial glow at page top */
+.memorize-view::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+  background: radial-gradient(
+    ellipse at 50% 0%,
+    var(--school-ambient-color, transparent) 0%,
+    transparent 65%
+  );
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: 0;
+  transition: opacity var(--duration-slow) var(--ease-out);
+}
+
 
 /* ── Top Bar ── */
 .mem-top-bar {

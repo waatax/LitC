@@ -76,12 +76,6 @@ const filterTabs: FilterOption[] = [
 ]
 
 const filteredWorks = computed(() => {
-  // The Spring and Autumn commentaries are Confucian canonical works even
-  // though their primary browsing school remains History.
-  if (activeFilter.value === 'confucianism') {
-    const canonicalCommentaries = new Set(['chun-qiu-zuo-zhuan', 'gongyang-zhuan', 'guliang-zhuan'])
-    return allWorks.value.filter(w => w.schoolId === 'confucianism' || canonicalCommentaries.has(w.id))
-  }
   if (activeFilter.value === 'all') {
     return allWorks.value
   }
@@ -95,12 +89,34 @@ interface WorkGroup {
   works: Work[]
 }
 
-const confucianCollections = [
-  { id: 'four-books', title: '四書', description: '《論語》、《孟子》、《大學》、《中庸》', workIds: ['lun-yu', 'meng-zi', 'da-xue', 'zhong-yong'] },
-  { id: 'five-classics', title: '五經', description: '《易經》、《尚書》、《詩經》、《禮記》、《春秋》', workIds: ['yi-jing', 'shu-jing', 'shi-jing', 'li-ji', 'chun-qiu'] },
-  { id: 'spring-autumn-commentaries', title: '春秋三傳', description: '《左傳》、《公羊傳》、《穀梁傳》', workIds: ['chun-qiu-zuo-zhuan', 'gongyang-zhuan', 'guliang-zhuan'] },
-  { id: 'confucian-masters', title: '儒家諸子', description: '先秦儒家重要思想典籍', workIds: ['xunzi'] },
-] as const
+const collections: Record<SchoolId, ReadonlyArray<{ id: string; title: string; description: string; workIds?: string[] }>> = {
+  confucianism: [
+    { id: 'four-books', title: '四書', description: '《論語》、《孟子》、《大學》、《中庸》', workIds: ['lun-yu', 'meng-zi', 'da-xue', 'zhong-yong'] },
+    { id: 'five-classics', title: '五經', description: '《易經》、《尚書》、《詩經》、《禮記》、《春秋》', workIds: ['yi-jing', 'shu-jing', 'shi-jing', 'li-ji', 'chun-qiu'] },
+    { id: 'confucian-masters', title: '儒家諸子', description: '先秦儒家重要思想典籍', workIds: ['xunzi'] }
+  ],
+  daoism: [
+    { id: 'daoism-core', title: '老莊經典', description: '道家核心哲學典籍', workIds: ['dao-de-jing', 'zhuangzi'] },
+    { id: 'daoism-others', title: '其他道家文獻', description: '列子及其他重要道家著作', workIds: ['liezi', 'wenzi', 'wenshi-zhenjing'] }
+  ],
+  legalism: [
+    { id: 'legalism-masters', title: '法家諸子', description: '法、術、勢相關著作', workIds: ['han-fei-zi', 'shang-jun-shu', 'shen-bu-hai', 'shenzi', 'guanzi', 'jian-zhu-ke-shu'] }
+  ],
+  mohism: [
+    { id: 'mohism-core', title: '墨家經典', description: '墨翟及墨家學派傳世文獻', workIds: ['mo-zi'] }
+  ],
+  military: [
+    { id: 'military-classics', title: '武經七書與兵法', description: '中國古代兵法精華', workIds: ['art-of-war', 'wu-zi', 'si-ma-fa', 'three-strategies', 'wei-liao-zi', 'liu-tao'] }
+  ],
+  histories: [
+    { id: 'spring-autumn-commentaries', title: '春秋三傳', description: '《左傳》、《公羊傳》、《穀梁傳》', workIds: ['chun-qiu-zuo-zhuan', 'gongyang-zhuan', 'guliang-zhuan'] },
+    { id: 'annals-biographies', title: '紀傳與編年史', description: '歷代官修史書', workIds: ['shiji', 'han-shu', 'hou-han-shu', 'qian-han-ji', 'dong-guan-han-ji', 'zhushu-jinian'] },
+    { id: 'misc-histories', title: '國史與雜史', description: '《戰國策》、《國語》及其他史傳佚聞', workIds: ['guo-yu', 'zhan-guo-ce', 'wu-yue-chun-qiu', 'yue-jue-shu', 'lost-book-of-zhou', 'yanzi-chun-qiu', 'yan-tie-lun', 'yandanzi', 'xijing-zaji', 'lie-nv-zhuan', 'mutianzi-zhuan', 'gu-san-fen'] }
+  ],
+  literature: [
+    { id: 'literature-classics', title: '文學典籍', description: '古文選集與文學作品', workIds: ['gu-wen-guan-zhi', 'cai-gen-tan'] }
+  ]
+}
 
 const schoolGroupMeta: Record<SchoolId, { title: string; description: string }> = {
   confucianism: { title: '儒家經典', description: '四書、五經與儒家諸子' },
@@ -113,15 +129,7 @@ const schoolGroupMeta: Record<SchoolId, { title: string; description: string }> 
 }
 
 const groupedWorks = computed<WorkGroup[]>(() => {
-  if (activeFilter.value === 'confucianism') {
-    const byId = new Map(filteredWorks.value.map(work => [work.id, work]))
-    return confucianCollections.map(group => ({
-      id: group.id,
-      title: group.title,
-      description: group.description,
-      works: group.workIds.map(id => byId.get(id)).filter((work): work is Work => Boolean(work)),
-    })).filter(group => group.works.length > 0)
-  }
+  const byId = new Map(allWorks.value.map(work => [work.id, work]))
 
   if (activeFilter.value === 'all') {
     return filterTabs.slice(1).map(tab => {
@@ -131,12 +139,25 @@ const groupedWorks = computed<WorkGroup[]>(() => {
         id: schoolId,
         title: meta.title,
         description: meta.description,
-        works: filteredWorks.value.filter(work => work.schoolId === schoolId),
+        works: allWorks.value.filter(work => work.schoolId === schoolId),
       }
     }).filter(group => group.works.length > 0)
   }
 
   const schoolId = activeFilter.value as SchoolId
+  const definedCollections = collections[schoolId]
+
+  if (definedCollections && definedCollections.length > 0) {
+    return definedCollections.map(group => ({
+      id: group.id,
+      title: group.title,
+      description: group.description,
+      works: (group.workIds || [])
+        .map(id => byId.get(id))
+        .filter((work): work is Work => Boolean(work)),
+    })).filter(group => group.works.length > 0)
+  }
+
   return [{
     id: schoolId,
     title: schoolGroupMeta[schoolId].title,
@@ -238,6 +259,9 @@ function triggerSearch() {
             <span class="genre-badge badge">
               {{ GENRE_STRATEGY_META[work.genreStrategy]?.icon || '📖' }}
               {{ GENRE_STRATEGY_META[work.genreStrategy]?.label || '經典' }}
+            </span>
+            <span v-if="['dao-de-jing', 'da-xue', 'zhong-yong', 'art-of-war'].includes(work.id)" class="audio-supported-badge badge">
+              🎙️ 逐段語音
             </span>
           </div>
           <div class="work-stats">
@@ -579,6 +603,15 @@ function triggerSearch() {
   background: var(--c-bg-elevated);
   color: var(--c-text-secondary);
   border: 1px solid var(--c-border);
+}
+
+.audio-supported-badge {
+  background: rgba(201, 169, 110, 0.12);
+  color: var(--c-gold-light);
+  border: 1px solid var(--c-gold);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-semibold);
+  letter-spacing: 0.02em;
 }
 
 .work-stats {

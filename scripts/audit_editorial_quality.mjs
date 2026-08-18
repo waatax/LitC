@@ -206,6 +206,28 @@ for (const filename of fs.readdirSync(CHUNKS_DIR).filter((name) => name.endsWith
       }
     }
 
+    const MECHANICAL_PATTERNS = [
+      { name: 'double_colon', regex: /：：/, msg: '含有重複冒號「：：」' },
+      { name: 'token_fan_chou', regex: /的人或事物範疇/, msg: '含有機械替換字眼「的人或事物範疇」' },
+      { name: 'token_tian_di', regex: /的人或天地萬物/, msg: '含有機械替換字眼「的人或天地萬物」' },
+      { name: 'token_li_zhi', regex: /的人或禮制規範/, msg: '含有機械替換字眼「的人或禮制規範」' },
+      { name: 'prefix_baihua', regex: /【.*?白話通譯】/, msg: '含有模板前綴「【...白話通譯】」' },
+      { name: 'prefix_section', regex: /在《.*?》（第 \d+ 節）中/, msg: '含有冗贅章節前綴「在《...》（第 X 節）中」' },
+      { name: 'suffix_slogan', regex: /這段.*?深刻闡發了.*?實踐真理/, msg: '含有模板口號結語' }
+    ]
+
+    for (const pat of MECHANICAL_PATTERNS) {
+      if (pat.regex.test(translation)) {
+        issue(issues, work, passage, 'translation', 'mechanical_artifact', 'error', pat.msg)
+      }
+      if (pat.regex.test(analysis)) {
+        issue(issues, work, passage, 'analysis', 'mechanical_artifact', 'error', pat.msg)
+      }
+      if (pat.regex.test(canonical)) {
+        issue(issues, work, passage, 'canonicalText', 'mechanical_artifact', 'error', pat.msg)
+      }
+    }
+
     if (!analysis.trim()) issue(issues, work, passage, 'analysis', 'empty_analysis', 'error', '解析為空')
     if (BAD_UNICODE.test(analysis)) issue(issues, work, passage, 'analysis', 'bad_unicode', 'error', '含替代字元或私用區字元')
     if (LITERAL_UNICODE_ESCAPE.test(analysis)) issue(issues, work, passage, 'analysis', 'literal_unicode_escape', 'error', '解析仍含字面 \\uXXXX，表示 bundle 尚未正確解碼')

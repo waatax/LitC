@@ -1,31 +1,19 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
+import { useAppStore } from '@/stores/app'
+import ThemePicker from './ThemePicker.vue'
 
-type ThemeMode = 'dark' | 'light'
 type FontSize = 'small' | 'medium' | 'large'
 
-const savedTheme = localStorage.getItem('display-theme') as ThemeMode | null
+const appStore = useAppStore()
+
 const savedFontSize = localStorage.getItem('display-font-size') as FontSize | null
 
-const theme = ref<ThemeMode>(
-  savedTheme === 'dark' || savedTheme === 'light'
-    ? savedTheme
-    : window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
-)
 const fontSize = ref<FontSize>(
   savedFontSize === 'small' || savedFontSize === 'large' ? savedFontSize : 'medium'
 )
 
-function applyTheme(mode: ThemeMode) {
-  theme.value = mode
-  const html = document.documentElement
-  html.classList.remove('theme-charcoal', 'theme-xuan', 'theme-celadon', 'theme-cinnabar')
-  html.classList.toggle('theme-light', mode === 'light')
-  html.classList.toggle('theme-dark', mode === 'dark')
-  html.classList.toggle('light-theme', mode === 'light')
-  html.style.colorScheme = mode
-  localStorage.setItem('display-theme', mode)
-}
+const isThemePickerOpen = ref(false)
 
 function applyFontSize(size: FontSize) {
   fontSize.value = size
@@ -33,25 +21,51 @@ function applyFontSize(size: FontSize) {
   localStorage.setItem('display-font-size', size)
 }
 
-function toggleTheme() {
-  applyTheme(theme.value === 'dark' ? 'light' : 'dark')
+function handleThemeChange(newTheme: string) {
+  appStore.setTheme(newTheme)
 }
 
-applyTheme(theme.value)
+// Initial apply
+appStore.setTheme(appStore.currentTheme)
 applyFontSize(fontSize.value)
+
+// Theme swatches mapping for the button
+const themeColors: Record<string, { bg: string, accent: string }> = {
+  charcoal: { bg: '#06060b', accent: '#c9a96e' },
+  xuan: { bg: '#faf6ee', accent: '#855b21' },
+  celadon: { bg: '#ebf3ee', accent: '#3a8b64' },
+  cinnabar: { bg: '#3a1616', accent: '#c9a96e' },
+  bamboo: { bg: '#0f1520', accent: '#5ba88a' },
+  pinesoot: { bg: '#1a130e', accent: '#c4943a' }
+}
+
+const currentThemeSwatch = computed(() => themeColors[appStore.currentTheme] || themeColors.charcoal)
 </script>
 
 <template>
   <aside class="display-controls" aria-label="顯示設定">
-    <button
-      class="display-control theme-control"
-      type="button"
-      :aria-label="theme === 'dark' ? '切換為明亮底色' : '切換為暗色底色'"
-      :title="theme === 'dark' ? '切換為明亮底色' : '切換為暗色底色'"
-      @click="toggleTheme"
-    >
-      <span aria-hidden="true">{{ theme === 'dark' ? '☀' : '☾' }}</span>
-    </button>
+    <div style="position: relative;">
+      <button
+        class="display-control theme-control"
+        type="button"
+        aria-label="選擇主題"
+        title="選擇主題"
+        @click.stop="isThemePickerOpen = !isThemePickerOpen"
+      >
+        <span 
+          class="theme-swatch-btn" 
+          :style="{ backgroundColor: currentThemeSwatch.bg, borderColor: currentThemeSwatch.accent }"
+          aria-hidden="true"
+        ></span>
+      </button>
+
+      <ThemePicker 
+        :model-value="appStore.currentTheme" 
+        :is-open="isThemePickerOpen" 
+        @update:model-value="handleThemeChange"
+        @close="isThemePickerOpen = false"
+      />
+    </div>
 
     <div class="font-size-controls" role="group" aria-label="文字大小">
       <button
@@ -120,6 +134,16 @@ applyFontSize(fontSize.value)
 
 .display-control:active { transform: scale(0.94); }
 .theme-control { font-size: 1.25rem; }
+
+.theme-swatch-btn {
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  border: 2px solid;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
 .font-control:nth-child(1) { font-size: 0.75rem; }
 .font-control:nth-child(2) { font-size: 0.95rem; }
 .font-control:nth-child(3) { font-size: 1.15rem; }

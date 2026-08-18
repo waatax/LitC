@@ -22,6 +22,18 @@ const router = createRouter({
       meta: { title: '文海' },
     },
     {
+      path: '/profile',
+      name: 'profile',
+      component: () => import('@/views/ProfileView.vue'),
+      meta: { title: '修行履歷' },
+    },
+    {
+      path: '/compare',
+      name: 'compare',
+      component: () => import('@/views/CompareView.vue'),
+      meta: { title: '比較閱讀' },
+    },
+    {
       path: '/glimpse',
       name: 'glimpse',
       component: () => import('@/views/GlimpseView.vue'),

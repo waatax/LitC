@@ -9,6 +9,7 @@ import { READING_AID_SOURCES } from '@/data/readingAidSources'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import ClassicalTextLookup from '@/components/ClassicalTextLookup.vue'
 import AudioPlayerBar from '@/components/AudioPlayerBar.vue'
+import AnnotationLayer from '@/components/AnnotationLayer.vue'
 import { speechService, type SpeechMode, type SpeechPlaylistItem } from '@/services/speech'
 
 const route = useRoute()
@@ -20,6 +21,19 @@ const passages = ref<Passage[]>([])
 const passageSentences = ref<Map<string, Sentence[]>>(new Map())
 const loadedChapters = ref<Chapter[]>([])
 const showWorkGuide = ref(false)
+
+// Personal Annotation Layer state
+const isAnnotationOpen = ref(false)
+const selectedSentenceId = ref<string | undefined>()
+const selectedPassageId = ref<string | undefined>()
+const selectedText = ref<string | undefined>()
+
+function openChapterAnnotation(sentenceId?: string, passageId?: string, text?: string) {
+  selectedSentenceId.value = sentenceId
+  selectedPassageId.value = passageId
+  selectedText.value = text
+  isAnnotationOpen.value = true
+}
 
 const workDesc = computed(() => {
   if (!work.value) return null
@@ -207,10 +221,27 @@ const nextChapter = computed(() => {
   }
   return null
 })
+
+// School ambient tint color mapping
+const SCHOOL_COLORS: Record<string, string> = {
+  daoism: '#5b8a72',
+  legalism: '#8b5e5e',
+  mohism: '#5e6e8b',
+  confucianism: '#b58d3d',
+  literature: '#4a6fa5',
+  military: '#a64b4b',
+  histories: '#8a6e5b',
+}
+
+const schoolAmbientStyle = computed(() => {
+  if (!work.value) return {}
+  const color = SCHOOL_COLORS[work.value.schoolId] || '#c9a96e'
+  return { '--school-ambient-color': color } as Record<string, string>
+})
 </script>
 
 <template>
-  <div class="chapter-view" :class="{ 'is-mounted': mounted }">
+  <div class="chapter-view" :class="{ 'is-mounted': mounted }" :style="schoolAmbientStyle">
     <!-- Back Button -->
     <button class="back-btn btn btn-ghost" @click="goBack">
       <span>←</span>
@@ -318,6 +349,14 @@ const nextChapter = computed(() => {
           >
             <span v-if="speechState.isPlaying && speechState.playlist.length > 0">⏹ 停止朗讀</span>
             <span v-else>▶️ 逐段連續朗讀</span>
+          </button>
+
+          <button
+            class="mode-btn"
+            @click="openChapterAnnotation()"
+            title="開啟研讀批註筆記"
+          >
+            ✍️ 批註
           </button>
 
           <button
@@ -538,6 +577,17 @@ const nextChapter = computed(() => {
       <button class="btn btn-ghost" @click="goBack">返回典籍庫</button>
     </div>
 
+    <!-- Annotation Modal Layer -->
+    <AnnotationLayer
+      v-if="chapter"
+      :chapter-id="chapter.id"
+      :sentence-id="selectedSentenceId"
+      :passage-id="selectedPassageId"
+      :target-text="selectedText"
+      :is-open="isAnnotationOpen"
+      @close="isAnnotationOpen = false"
+    />
+
     <!-- Audio Player Floating Bar -->
     <AudioPlayerBar />
   </div>
@@ -545,12 +595,32 @@ const nextChapter = computed(() => {
 
 <style scoped>
 .chapter-view {
+  position: relative;
   opacity: 0;
   transition: opacity var(--duration-slow) var(--ease-out);
 }
 
 .chapter-view.is-mounted {
   opacity: 1;
+}
+
+/* School ambient tint — subtle radial glow at page top */
+.chapter-view::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+  background: radial-gradient(
+    ellipse at 50% 0%,
+    var(--school-ambient-color, transparent) 0%,
+    transparent 65%
+  );
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: 0;
+  transition: opacity var(--duration-slow) var(--ease-out);
 }
 
 .translation-label {

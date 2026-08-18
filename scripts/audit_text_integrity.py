@@ -24,7 +24,7 @@ REPORT = ROOT / "scratch" / "text_integrity_audit.json"
 PRIVATE_USE = re.compile(r"[\ue000-\uf8ff]")
 REPLACEMENT = re.compile(r"[\ufffd\u25a0]")
 # Repeated characters strongly characteristic of the corpus' observed mojibake.
-MOJIBAKE = re.compile(r"[\ue000-\uf8ff摮隤€§¨©ª«¬®¯°±²³´µ¶·¸¹º»¼½¾¿ÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ]")
+MOJIBAKE = re.compile(r"[\ue000-\uf8ff摮隤€§¨©ª«¬®¯°±²³´µ¶¸¹º»¼½¾¿ÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ]")
 
 SEMANTIC_PLACEHOLDERS = (
     "上古時代聖賢尊奉禮法、修持德行",

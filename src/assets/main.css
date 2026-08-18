@@ -214,21 +214,7 @@ a:hover {
   color: var(--c-gold-light);
 }
 
-/* ── Scrollbar ───────────────────────────────────── */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background: var(--c-border);
-  border-radius: var(--radius-full);
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--c-text-muted);
-}
+/* Scrollbar styling — see end of file for consolidated rules */
 
 /* ── Utility: Cards ──────────────────────────────── */
 .glass-card {
@@ -438,20 +424,32 @@ a:hover {
   animation: fadeIn var(--duration-normal) var(--ease-out) both;
 }
 
-/* Staggered children animation */
+/* Staggered children animation — use --stagger-i CSS var for unlimited items */
 .stagger-children > * {
   animation: fadeInUp var(--duration-slow) var(--ease-out) both;
+  animation-delay: calc(var(--stagger-i, 0) * 50ms);
 }
-.stagger-children > *:nth-child(1)  { animation-delay: 0ms; }
-.stagger-children > *:nth-child(2)  { animation-delay: 60ms; }
-.stagger-children > *:nth-child(3)  { animation-delay: 120ms; }
-.stagger-children > *:nth-child(4)  { animation-delay: 180ms; }
-.stagger-children > *:nth-child(5)  { animation-delay: 240ms; }
-.stagger-children > *:nth-child(6)  { animation-delay: 300ms; }
-.stagger-children > *:nth-child(7)  { animation-delay: 360ms; }
-.stagger-children > *:nth-child(8)  { animation-delay: 420ms; }
-.stagger-children > *:nth-child(9)  { animation-delay: 480ms; }
-.stagger-children > *:nth-child(10) { animation-delay: 540ms; }
+/* Fallback for items without --stagger-i (auto-assign first 20) */
+.stagger-children > *:nth-child(1)  { --stagger-i: 0; }
+.stagger-children > *:nth-child(2)  { --stagger-i: 1; }
+.stagger-children > *:nth-child(3)  { --stagger-i: 2; }
+.stagger-children > *:nth-child(4)  { --stagger-i: 3; }
+.stagger-children > *:nth-child(5)  { --stagger-i: 4; }
+.stagger-children > *:nth-child(6)  { --stagger-i: 5; }
+.stagger-children > *:nth-child(7)  { --stagger-i: 6; }
+.stagger-children > *:nth-child(8)  { --stagger-i: 7; }
+.stagger-children > *:nth-child(9)  { --stagger-i: 8; }
+.stagger-children > *:nth-child(10) { --stagger-i: 9; }
+.stagger-children > *:nth-child(11) { --stagger-i: 10; }
+.stagger-children > *:nth-child(12) { --stagger-i: 11; }
+.stagger-children > *:nth-child(13) { --stagger-i: 12; }
+.stagger-children > *:nth-child(14) { --stagger-i: 13; }
+.stagger-children > *:nth-child(15) { --stagger-i: 14; }
+.stagger-children > *:nth-child(16) { --stagger-i: 15; }
+.stagger-children > *:nth-child(17) { --stagger-i: 16; }
+.stagger-children > *:nth-child(18) { --stagger-i: 17; }
+.stagger-children > *:nth-child(19) { --stagger-i: 18; }
+.stagger-children > *:nth-child(20) { --stagger-i: 19; }
 
 /* ── Page transitions ────────────────────────────── */
 .page-enter-active {
@@ -676,8 +674,99 @@ html.theme-cinnabar {
   --c-wusilan-line:  rgba(201, 169, 110, 0.18);
   --c-bg-sidebar:    linear-gradient(180deg, #2d1111 0%, #1e0909 100%);
   --c-bg-mobile-tab: rgba(58, 22, 22, 0.95);
-  --c-glass-readable-bg: rgba(58, 22, 22, 0.84);
+  --c-success:       #5a9e76;
+  --c-warning:       #c4a04e;
+  --c-danger:        #b85a5a;
+  --c-info:          #5a7e9e;
+
+  /* 毛玻璃效果（硃砂暖光 — 金色描光渲染 Gold-Cinnabar Tint） */
+  --c-glass-bg:           rgba(201, 169, 110, 0.08);
+  --c-glass-bg-hover:     rgba(201, 169, 110, 0.14);
+  --c-glass-readable-bg:  rgba(58, 22, 22, 0.84);
   --c-glass-readable-hover: rgba(58, 22, 22, 0.90);
+  --c-glass-border:       rgba(201, 169, 110, 0.35);
+  --c-glass-border-hover: rgba(201, 169, 110, 0.65);
+  --c-glass-shadow:       0 8px 32px rgba(201, 169, 110, 0.20);
+  --c-glass-glow:         0 0 24px rgba(201, 169, 110, 0.40);
+  --c-glass-blur:         blur(14px) saturate(110%);
+}
+
+/* 5. Bamboo Moonlight Theme (竹林月色 - Deep Blue Moonlit) */
+html.theme-bamboo {
+  --c-bg-deep:       #0a0f18;
+  --c-bg-primary:    #0f1520;
+  --c-bg-secondary:  #151d2a;
+  --c-bg-card:       rgba(21, 29, 42, 0.6);
+  --c-bg-card-hover: rgba(28, 38, 55, 0.75);
+  --c-bg-elevated:   #1a2535;
+  --c-border:        rgba(91, 168, 138, 0.15);
+  --c-border-subtle: rgba(91, 168, 138, 0.08);
+  --c-border-accent: rgba(91, 168, 138, 0.35);
+  --c-text-primary:  #d4dce8;
+  --c-text-secondary:#8a9ab0;
+  --c-text-muted:    #556070;
+  --c-text-inverse:  #0f1520;
+  --c-gold:          #5ba88a;
+  --c-gold-light:    #7bc4a8;
+  --c-gold-dark:     #3a7060;
+  --c-gold-glow:     rgba(91, 168, 138, 0.15);
+  --c-wusilan-line:  rgba(91, 168, 138, 0.12);
+  --c-bg-sidebar:    linear-gradient(180deg, rgba(15, 21, 32, 0.97) 0%, rgba(10, 15, 24, 0.99) 100%);
+  --c-bg-mobile-tab: rgba(15, 21, 32, 0.95);
+  --c-success:       #4a9e72;
+  --c-warning:       #b8a044;
+  --c-danger:        #8b5050;
+  --c-info:          #4a8ab0;
+
+  /* 毛玻璃效果（竹翠月光 — Bamboo Jade Tint） */
+  --c-glass-bg:           rgba(91, 168, 138, 0.08);
+  --c-glass-bg-hover:     rgba(91, 168, 138, 0.14);
+  --c-glass-readable-bg:  rgba(15, 21, 32, 0.84);
+  --c-glass-readable-hover: rgba(15, 21, 32, 0.90);
+  --c-glass-border:       rgba(91, 168, 138, 0.35);
+  --c-glass-border-hover: rgba(91, 168, 138, 0.65);
+  --c-glass-shadow:       0 8px 32px rgba(91, 168, 138, 0.20);
+  --c-glass-glow:         0 0 24px rgba(91, 168, 138, 0.40);
+  --c-glass-blur:         blur(14px) saturate(108%);
+}
+
+/* 6. Pine Soot Lamplight Theme (松煙夜讀 - Warm Brown Lamplight) */
+html.theme-pinesoot {
+  --c-bg-deep:       #100c08;
+  --c-bg-primary:    #1a130e;
+  --c-bg-secondary:  #241c14;
+  --c-bg-card:       rgba(36, 28, 20, 0.6);
+  --c-bg-card-hover: rgba(48, 38, 28, 0.75);
+  --c-bg-elevated:   #2e2318;
+  --c-border:        rgba(196, 148, 58, 0.15);
+  --c-border-subtle: rgba(196, 148, 58, 0.08);
+  --c-border-accent: rgba(196, 148, 58, 0.35);
+  --c-text-primary:  #e8dcc8;
+  --c-text-secondary:#b0a088;
+  --c-text-muted:    #6e6050;
+  --c-text-inverse:  #1a130e;
+  --c-gold:          #c4943a;
+  --c-gold-light:    #d4aa58;
+  --c-gold-dark:     #8a6620;
+  --c-gold-glow:     rgba(196, 148, 58, 0.18);
+  --c-wusilan-line:  rgba(196, 148, 58, 0.15);
+  --c-bg-sidebar:    linear-gradient(180deg, rgba(26, 19, 14, 0.97) 0%, rgba(16, 12, 8, 0.99) 100%);
+  --c-bg-mobile-tab: rgba(26, 19, 14, 0.95);
+  --c-success:       #4a8b5e;
+  --c-warning:       #c4a04e;
+  --c-danger:        #8b5050;
+  --c-info:          #5a7e8b;
+
+  /* 毛玻璃效果（松煙琥珀 — Amber Lamplight Tint） */
+  --c-glass-bg:           rgba(196, 148, 58, 0.08);
+  --c-glass-bg-hover:     rgba(196, 148, 58, 0.14);
+  --c-glass-readable-bg:  rgba(26, 19, 14, 0.84);
+  --c-glass-readable-hover: rgba(26, 19, 14, 0.90);
+  --c-glass-border:       rgba(196, 148, 58, 0.35);
+  --c-glass-border-hover: rgba(196, 148, 58, 0.65);
+  --c-glass-shadow:       0 8px 32px rgba(196, 148, 58, 0.20);
+  --c-glass-glow:         0 0 24px rgba(196, 148, 58, 0.40);
+  --c-glass-blur:         blur(14px) saturate(110%);
 }
 
 /* ── Focus outline enhancements for WCAG 2.2 AA ── */
@@ -687,6 +776,12 @@ input:focus-visible,
 textarea:focus-visible,
 .chapter-item:focus-visible,
 .work-header:focus-visible {
+  outline: 2px solid var(--c-gold);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px var(--c-gold-glow);
+}
+
+.scholarly-pill-tab:focus-visible {
   outline: 2px solid var(--c-gold);
   outline-offset: 2px;
   box-shadow: 0 0 0 4px var(--c-gold-glow);
@@ -729,7 +824,7 @@ textarea:focus-visible,
     var(--c-wusilan-line) 44px
   );
   background-size: 44px 100%;
-  height: 420px;
+  height: min(460px, 60vh);
   white-space: nowrap;
 }
 
@@ -877,6 +972,11 @@ textarea:focus-visible,
 }
 
 /* Custom Scrollbar for LitC ClassicFlow */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--c-border-accent) var(--c-bg-primary);
+}
+
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -893,5 +993,71 @@ textarea:focus-visible,
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--c-gold);
+}
+
+/* ── Micro-animation: Ink Ripple (墨暈展開) ────────── */
+@keyframes inkRipple {
+  from {
+    transform: scale(0);
+    opacity: 0.35;
+  }
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.ink-ripple {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--c-gold-glow);
+  pointer-events: none;
+  animation: inkRipple 0.6s var(--ease-out) forwards;
+}
+
+/* ── Micro-animation: Scroll Unfurl (卷軸展開) ─────── */
+@keyframes scrollUnfurl {
+  from {
+    clip-path: inset(0 50% 0 50%);
+    opacity: 0;
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+  }
+}
+
+.animate-scroll-unfurl {
+  animation: scrollUnfurl var(--duration-slow) var(--ease-out) both;
+}
+
+/* ── Micro-animation: Gold Dust burst (金粉飄散) ─── */
+@keyframes goldDustFloat {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-60px) scale(0);
+    opacity: 0;
+  }
+}
+
+/* ── Container Query Support ───────────────────────── */
+.cq-container {
+  container-type: inline-size;
+  container-name: card;
+}
+
+/* ── High Contrast Mode Enhancement ────────────────── */
+@media (prefers-contrast: more) {
+  :root {
+    --c-border: rgba(255, 255, 255, 0.3);
+    --c-border-accent: rgba(201, 169, 110, 0.6);
+    --c-text-secondary: #c0b8a8;
+    --c-text-muted: #8a8070;
+  }
 }
 

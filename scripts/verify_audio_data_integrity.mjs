@@ -1,9 +1,21 @@
-import fs from 'fs'
-import path from 'path'
-import { fileURLToPath } from 'url'
+import fs from 'node:fs'
+import path from 'node:path'
+import vm from 'node:vm'
+import { fileURLToPath } from 'node:url'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+
+function loadBundle(file) {
+  const source = fs.readFileSync(file, 'utf8')
+  const start = source.indexOf('JSON.parse(')
+  const end = source.lastIndexOf(') as WorkBundle')
+  if (start < 0 || end < 0 || end <= start) {
+    throw new Error('找不到 JSON.parse(...) WorkBundle payload: ' + file)
+  }
+  const expression = source.slice(start, end + 1)
+  return vm.runInNewContext(expression, Object.create(null), { timeout: 5_000 })
+}
 
 async function verifyTargetWorks() {
   const targetIds = ['dao-de-jing', 'da-xue', 'zhong-yong', 'art-of-war']
@@ -19,18 +31,12 @@ async function verifyTargetWorks() {
       throw new Error(`Chunk file not found for: ${workId}`)
     }
 
-    const content = fs.readFileSync(chunkFile, 'utf-8')
-    const match = content.match(/export default JSON\.parse\((["'])(.*)\1\)/s)
-    if (!match) {
-      throw new Error(`Could not parse JSON bundle for ${workId}`)
-    }
-
-    const bundle = JSON.parse(JSON.parse(`"${match[2]}"`))
+    const bundle = loadBundle(chunkFile)
     const work = bundle.work
     const chapters = bundle.chapters
     const passages = bundle.passages
 
-    console.log(`\nChecking 《${work.title}》 (${work.id}): ${chapters.length} chapters, ${passages.length} passages`)
+    console.log(`Checking 《${work.title}》 (${work.id}): ${chapters.length} chapters, ${passages.length} passages`)
     
     totalChapters += chapters.length
     for (const chapter of chapters) {

@@ -1,9 +1,28 @@
 import Dexie, { type Table } from 'dexie'
 import type { ReviewCardState, ReviewInput } from '../types/content'
+export interface Annotation {
+  id?: number
+  sentenceId?: string
+  passageId?: string
+  chapterId: string
+  content: string
+  type: 'question' | 'insight' | 'comparison' | 'research'
+  createdAt: string
+}
+
+export interface Bookmark {
+  id?: number
+  chapterId: string
+  passageId?: string
+  label?: string
+  createdAt: string
+}
 
 export class ClassicFlowDatabase extends Dexie {
   cards!: Table<ReviewCardState, string>
   reviews!: Table<ReviewInput & { id?: number }, number>
+  annotations!: Table<Annotation, number>
+  bookmarks!: Table<Bookmark, number>
 
   constructor() {
     super('ClassicFlowDatabase')
@@ -11,8 +30,15 @@ export class ClassicFlowDatabase extends Dexie {
       cards: 'sentenceId, mastery, dueAt',
       reviews: '++id, cardId, reviewedAt, rating'
     })
+    this.version(2).stores({
+      cards: 'sentenceId, mastery, dueAt',
+      reviews: '++id, cardId, reviewedAt, rating',
+      annotations: '++id, sentenceId, passageId, chapterId, type, createdAt',
+      bookmarks: '++id, chapterId, passageId, createdAt'
+    })
   }
 }
+
 
 export const db = new ClassicFlowDatabase()
 
