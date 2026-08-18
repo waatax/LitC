@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import type { Chapter, Work, Passage, Sentence, WorkDescription } from '@/types/content'
 import { catalogWorks } from '@/data/catalog'
 import { getWorkDescription } from '@/data/catalogApi'
 import { loadChapterContent } from '@/data/workLoader'
+import { schools } from '@/data/schools'
 
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import RedSeal from '@/components/RedSeal.vue'
@@ -29,15 +30,25 @@ const isRefreshing = ref(false)
 const viewMode = ref<'parallel' | 'stacked'>('parallel')
 const copySuccess = ref(false)
 const activeIntroTab = ref<'summary' | 'significance' | 'allusions'>('summary')
+const selectedSchoolId = ref('all')
+const drawCount = ref(5)
 
 const currentGlimpse = computed(() => glimpses.value[currentIndex.value] ?? null)
+
+// Watchers to auto-refresh when criteria change
+watch([selectedSchoolId, drawCount], () => {
+  sampleGlimpses()
+})
 
 async function sampleGlimpses() {
   isRefreshing.value = true
   const allWorks = catalogWorks
   
-  // Filter works that have chapters
-  const validWorks = allWorks.filter(w => w.chapterIds && w.chapterIds.length > 0)
+  // Filter works that have chapters and match school
+  let validWorks = allWorks.filter(w => w.chapterIds && w.chapterIds.length > 0)
+  if (selectedSchoolId.value !== 'all') {
+    validWorks = validWorks.filter(w => w.schoolId === selectedSchoolId.value)
+  }
   
   // Collect all chapters across valid works
   const allChaptersList: { work: Work; chapterId: string }[] = []
@@ -47,9 +58,9 @@ async function sampleGlimpses() {
     }
   }
 
-  // Shuffle and pick 5 distinct items
+  // Shuffle and pick selected items
   const shuffled = [...allChaptersList].sort(() => Math.random() - 0.5)
-  const selected = shuffled.slice(0, 5)
+  const selected = shuffled.slice(0, drawCount.value)
 
   const items: GlimpseItem[] = []
   for (const item of selected) {
@@ -150,20 +161,34 @@ onUnmounted(() => {
           <RedSeal text="驚鴻一撇" :size="46" :animate="true" />
           <div>
             <h1 class="page-title">驚鴻一撇</h1>
-            <p class="page-subtitle">偶爾遇見，終生不忘 — 於全庫 50+ 典籍中隨機邂逅五處經典章節</p>
+            <p class="page-subtitle">偶爾遇見，終生不忘 — 於全庫 50+ 典籍中隨機邂逅 {{ drawCount }} 處經典章節</p>
           </div>
         </div>
       </div>
 
       <div class="header-controls">
-        <!-- Re-roll 5 Chapters Button -->
+        <div class="filter-group">
+          <select v-model="selectedSchoolId" class="glimpse-select">
+            <option value="all">所有學派</option>
+            <option v-for="school in schools" :key="school.id" :value="school.id">
+              {{ school.icon }} {{ school.name }}
+            </option>
+          </select>
+          <select v-model="drawCount" class="glimpse-select">
+            <option :value="1">抽 1 景</option>
+            <option :value="5">抽 5 景</option>
+            <option :value="10">抽 10 景</option>
+          </select>
+        </div>
+
+        <!-- Re-roll Chapters Button -->
         <button
           class="reroll-primary-btn"
           :class="{ spinning: isRefreshing }"
           @click="sampleGlimpses"
         >
           <span class="reroll-icon">🎲</span>
-          <span class="reroll-text">隨機換一批（抽取另外五章）</span>
+          <span class="reroll-text">隨機換一批</span>
         </button>
 
         <!-- View Mode Toggle -->
@@ -186,9 +211,9 @@ onUnmounted(() => {
       </div>
     </header>
 
-    <!-- 5 Tab Progress Selector -->
-    <nav class="glimpse-tabs">
-      <div class="tabs-label">驚鴻五景：</div>
+    <!-- Tab Progress Selector -->
+    <nav class="glimpse-tabs" v-if="glimpses.length > 1">
+      <div class="tabs-label">驚鴻 {{ glimpses.length }} 景：</div>
       <div class="tabs-list">
         <button
           v-for="(g, idx) in glimpses"
@@ -294,7 +319,7 @@ onUnmounted(() => {
             📋 複製經典金句
           </button>
           <button class="action-btn reroll-secondary" @click="sampleGlimpses">
-            🎲 換一批五章
+            🎲 換一批
           </button>
           <span v-if="copySuccess" class="copy-toast">✓ 已成功複製經文至剪貼簿！</span>
         </div>
@@ -431,6 +456,30 @@ onUnmounted(() => {
   align-items: center;
   gap: var(--sp-3);
   flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  gap: var(--sp-2);
+}
+
+.glimpse-select {
+  padding: 8px 12px;
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-md);
+  color: var(--c-text-primary);
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.glimpse-select:hover,
+.glimpse-select:focus {
+  border-color: var(--c-gold);
+  box-shadow: 0 0 0 2px rgba(201, 169, 110, 0.2);
 }
 
 /* Prominent Re-roll Button */
