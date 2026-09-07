@@ -169,3 +169,20 @@ export const GENRE_STRATEGY_META: Record<GenreStrategy, { label: string; icon: s
   argumentative: { label: '論說結構', icon: '⚖️', description: '邏輯鏈為主，適合論證地圖與關鍵詞挖空' },
   parallel:      { label: '排比遞進', icon: '📊', description: '排比句式，適合模板代換與遞進排序' },
 }
+
+// ── Bundles for dynamic chunk loading ─────────────
+
+export interface ChapterBundle {
+  workId: string
+  chapter: Chapter
+  passages: Passage[]
+  sentences: Sentence[]
+}
+
+export interface WorkBundle {
+  work: Work
+  chapters: Chapter[]
+  passages: Passage[]
+  sentences: Sentence[]
+}
+

@@ -72,8 +72,23 @@ async function loadChapter() {
     sentenceMap.set(passage.id, content.sentences.filter(sentence => sentence.passageId === passage.id))
   }
   passageSentences.value = sentenceMap
-
   checkTargetHighlight()
+
+  // Intelligent prefetching: preload next chapter during idle time
+  if (typeof window !== 'undefined') {
+    const nextChapter = loadedChapters.value.find(c => c.order === (chapter.value?.order ?? 0) + 1)
+    if (nextChapter) {
+      if ('requestIdleCallback' in window) {
+        (window as any).requestIdleCallback(() => {
+          loadChapterContent(nextChapter.id)
+        })
+      } else {
+        setTimeout(() => {
+          loadChapterContent(nextChapter.id)
+        }, 1200)
+      }
+    }
+  }
 }
 
 const highlightQuery = computed(() => (route.query.highlight as string) || '')

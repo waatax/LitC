@@ -1,3 +1,8 @@
+# Local Development & Internal Archives (Never upload to Public or GitHub)
+local/
+Local/
+AGENTS.md
+
 # Dependencies
 node_modules/
 
@@ -6,14 +11,21 @@ dist/
 
 # Scratch & temporary downloads
 scratch/
+docs/
 *.txt
+*.py
 *.tsbuildinfo
 fix_report.py
 corpus_audit_report.md
 errors.md
 
+# Python
+__pycache__/
+*.pyc
+
 # Editor
 .vscode/
+.idea/
 *.swp
 *.swo
 

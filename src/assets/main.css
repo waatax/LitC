@@ -47,15 +47,15 @@
 
   --c-wusilan-line:  rgba(201, 169, 110, 0.12);
 
-  /* ── Frosted Glass (毛玻璃效果): 暗頁面 螢光天空藍 (Neon Sky Blue Tint) ── */
-  --c-glass-bg:           rgba(0, 229, 255, 0.08);
-  --c-glass-bg-hover:     rgba(0, 229, 255, 0.12);
+  /* ── Frosted Glass (毛玻璃效果): 暗頁面 金粉玄墨 (Gold/Charcoal Tint) ── */
+  --c-glass-bg:           rgba(201, 169, 110, 0.08);
+  --c-glass-bg-hover:     rgba(201, 169, 110, 0.12);
   --c-glass-readable-bg:  rgba(12, 12, 20, 0.82);
   --c-glass-readable-hover: rgba(12, 12, 20, 0.88);
-  --c-glass-border:       rgba(56, 189, 248, 0.38);
-  --c-glass-border-hover: rgba(0, 229, 255, 0.70);
-  --c-glass-shadow:       0 8px 32px rgba(0, 229, 255, 0.25);
-  --c-glass-glow:         0 0 24px rgba(0, 229, 255, 0.45);
+  --c-glass-border:       rgba(201, 169, 110, 0.25);
+  --c-glass-border-hover: rgba(201, 169, 110, 0.50);
+  --c-glass-shadow:       0 8px 32px rgba(201, 169, 110, 0.15);
+  --c-glass-glow:         0 0 24px rgba(201, 169, 110, 0.35);
   --c-glass-blur:         blur(14px) saturate(105%);
 
   /* ── Typography ── */
@@ -601,15 +601,15 @@ html.light-theme {
   --c-danger:        #7d3535;
   --c-info:          #2b4861;
 
-  /* 毛玻璃效果（明亮頁面 - 青藍色渲染 Cyan-Blue Tint） */
-  --c-glass-bg:           rgba(14, 165, 233, 0.18);
-  --c-glass-bg-hover:     rgba(14, 165, 233, 0.30);
+  /* 毛玻璃效果（明亮頁面 - 墨韻渲染 Ink Wash Tint） */
+  --c-glass-bg:           rgba(60, 64, 67, 0.08);
+  --c-glass-bg-hover:     rgba(60, 64, 67, 0.12);
   --c-glass-readable-bg:  rgba(250, 246, 238, 0.84);
   --c-glass-readable-hover: rgba(250, 246, 238, 0.90);
-  --c-glass-border:       rgba(2, 132, 199, 0.45);
-  --c-glass-border-hover: rgba(2, 132, 199, 0.70);
-  --c-glass-shadow:       0 8px 32px rgba(14, 165, 233, 0.25);
-  --c-glass-glow:         0 0 24px rgba(14, 165, 233, 0.45);
+  --c-glass-border:       rgba(60, 64, 67, 0.20);
+  --c-glass-border-hover: rgba(60, 64, 67, 0.35);
+  --c-glass-shadow:       0 8px 32px rgba(60, 64, 67, 0.15);
+  --c-glass-glow:         0 0 24px rgba(60, 64, 67, 0.25);
   --c-glass-blur:         blur(14px) saturate(105%);
 }
 
@@ -640,15 +640,15 @@ html.theme-celadon {
   --c-danger:        #6e2d2d;
   --c-info:          #24455c;
 
-  /* 毛玻璃效果（明亮頁面 - 青藍色渲染 Cyan-Blue Tint） */
-  --c-glass-bg:           rgba(14, 165, 233, 0.18);
-  --c-glass-bg-hover:     rgba(14, 165, 233, 0.30);
+  /* 毛玻璃效果（明亮頁面 - 墨韻渲染 Ink Wash Tint） */
+  --c-glass-bg:           rgba(60, 64, 67, 0.08);
+  --c-glass-bg-hover:     rgba(60, 64, 67, 0.12);
   --c-glass-readable-bg:  rgba(235, 243, 238, 0.84);
   --c-glass-readable-hover: rgba(235, 243, 238, 0.90);
-  --c-glass-border:       rgba(2, 132, 199, 0.45);
-  --c-glass-border-hover: rgba(2, 132, 199, 0.70);
-  --c-glass-shadow:       0 8px 32px rgba(14, 165, 233, 0.25);
-  --c-glass-glow:         0 0 24px rgba(14, 165, 233, 0.45);
+  --c-glass-border:       rgba(60, 64, 67, 0.20);
+  --c-glass-border-hover: rgba(60, 64, 67, 0.35);
+  --c-glass-shadow:       0 8px 32px rgba(60, 64, 67, 0.15);
+  --c-glass-glow:         0 0 24px rgba(60, 64, 67, 0.25);
   --c-glass-blur:         blur(14px) saturate(105%);
 }
 
@@ -873,11 +873,11 @@ textarea:focus-visible,
 @keyframes floatGlow {
   0%, 100% {
     transform: translateY(0px);
-    box-shadow: 0 8px 32px rgba(0, 229, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(201, 169, 110, 0.15);
   }
   50% {
     transform: translateY(-4px);
-    box-shadow: 0 16px 40px rgba(0, 229, 255, 0.4);
+    box-shadow: 0 16px 40px rgba(201, 169, 110, 0.25);
   }
 }
 

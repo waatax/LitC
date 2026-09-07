@@ -17,6 +17,33 @@ interface InkParticle {
 let animationId: number | null = null
 const particles = ref<InkParticle[]>([])
 
+// Cache offscreen canvases for performance
+const offscreenCache = new Map<string, HTMLCanvasElement>()
+
+function getOffscreenCanvas(color: string): HTMLCanvasElement {
+  if (offscreenCache.has(color)) {
+    return offscreenCache.get(color)!
+  }
+  const off = document.createElement('canvas')
+  const size = 120 // Base size diameter
+  off.width = size
+  off.height = size
+  const ctx = off.getContext('2d')
+  if (ctx) {
+    const grad = ctx.createRadialGradient(size / 2, size / 2, 0, size / 2, size / 2, size / 2)
+    grad.addColorStop(0, `rgba(${color}, 1)`)
+    grad.addColorStop(0.5, `rgba(${color}, 0.5)`)
+    grad.addColorStop(0.8, `rgba(${color}, 0.1)`)
+    grad.addColorStop(1, `rgba(${color}, 0)`)
+    ctx.fillStyle = grad
+    ctx.beginPath()
+    ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2)
+    ctx.fill()
+  }
+  offscreenCache.set(color, off)
+  return off
+}
+
 function getInkColor() {
   const html = document.documentElement
   if (
@@ -25,11 +52,11 @@ function getInkColor() {
     html.classList.contains('light-theme') ||
     html.classList.contains('theme-light')
   ) {
-    // 青藍色 (Cyan-Blue) for light pages
-    return '14, 165, 233'
+    // 傳統水墨：濃墨與淡墨 (Charcoal/Grey ink for light paper)
+    return '40, 42, 45'
   }
-  // 螢光天空藍 (Neon Sky Blue) for dark pages
-  return '0, 229, 255'
+  // 傳統水墨：金粉或銀灰 (Gold ink on dark paper)
+  return '201, 169, 110'
 }
 
 function handleResize(canvas: HTMLCanvasElement) {
@@ -131,14 +158,9 @@ onMounted(() => {
       }
 
       ctx!.save()
-      const grad = ctx!.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.size)
-      grad.addColorStop(0, `rgba(${p.color}, ${p.alpha})`)
-      grad.addColorStop(0.5, `rgba(${p.color}, ${p.alpha * 0.45})`)
-      grad.addColorStop(1, `rgba(${p.color}, 0)`)
-      ctx!.fillStyle = grad
-      ctx!.beginPath()
-      ctx!.arc(p.x, p.y, p.size, 0, Math.PI * 2)
-      ctx!.fill()
+      ctx!.globalAlpha = p.alpha
+      const off = getOffscreenCanvas(p.color)
+      ctx!.drawImage(off, p.x - p.size, p.y - p.size, p.size * 2, p.size * 2)
       ctx!.restore()
     }
 
@@ -182,8 +204,13 @@ onUnmounted(() => {
     <svg style="position: absolute; width: 0; height: 0; pointer-events: none;" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <filter id="ink-bleed">
-          <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="3" result="noise" />
-          <feDisplacementMap in="SourceGraphic" in2="noise" scale="12" xChannelSelector="R" yChannelSelector="G" />
+          <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" result="noise" />
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" xChannelSelector="R" yChannelSelector="G" />
+          <feGaussianBlur stdDeviation="1.5" result="blur" />
+          <feMerge>
+            <feMergeNode in="blur" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
         </filter>
       </defs>
     </svg>
@@ -202,25 +229,25 @@ onUnmounted(() => {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  filter: url(#ink-bleed); /* Apply the paper ink-bleed filter! */
+  filter: url(#ink-bleed);
 }
 
-/* Light themes: Xuan and Celadon (青藍色 Cyan Blue) */
+/* Light themes: Xuan and Celadon (傳統墨色 Charcoal/Grey) */
 html.theme-xuan .ink-canvas,
 html.theme-celadon .ink-canvas,
 html.theme-light .ink-canvas,
 html.light-theme .ink-canvas {
   mix-blend-mode: multiply;
-  opacity: 0.75;
+  opacity: 0.85;
 }
 
-/* Dark themes: Charcoal and Cinnabar (螢光天空藍 Neon Sky Blue) */
+/* Dark themes: Charcoal and Cinnabar (金粉/銀灰 Gold/Silver) */
 html.theme-charcoal .ink-canvas,
 html.theme-cinnabar .ink-canvas,
 html.theme-dark .ink-canvas,
 html:not(.light-theme):not(.theme-xuan):not(.theme-celadon):not(.theme-light) .ink-canvas {
   mix-blend-mode: screen;
-  opacity: 0.6;
+  opacity: 0.55;
 }
 </style>
 
