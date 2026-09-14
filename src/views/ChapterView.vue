@@ -401,11 +401,12 @@ const schoolAmbientStyle = computed(() => {
                 <button
                   type="button"
                   class="vertical-inline-audio-btn"
-                  :class="{ 'is-playing': isPassageSpeaking(passage.id) }"
-                  :title="isPassageSpeaking(passage.id) ? '暫停朗讀本段' : '朗讀本段原文'"
+                  :class="{ 'is-playing': isPassageSpeaking(passage.id), 'has-audio-file': speechService.hasAudioFile(passage.id) }"
+                  :title="isPassageSpeaking(passage.id) ? '暫停朗讀本段' : (speechService.hasAudioFile(passage.id) ? '朗讀本段原文（🎙️ 名家音檔）' : '朗讀本段原文（🔊 智能正音）')"
                   @click="playPassage(passage, 'canonical')"
                 >
                   <span v-if="isPassageSpeaking(passage.id)">⏸</span>
+                  <span v-else-if="speechService.hasAudioFile(passage.id)">🎙️</span>
                   <span v-else>🔊</span>
                 </button>
                 <p class="passage-text">
@@ -425,12 +426,13 @@ const schoolAmbientStyle = computed(() => {
               <button
                 type="button"
                 class="passage-inline-audio-btn"
-                :class="{ 'is-playing': isPassageSpeaking(passage.id) }"
-                :title="isPassageSpeaking(passage.id) ? '暫停朗讀本段' : '朗讀本段原文'"
+                :class="{ 'is-playing': isPassageSpeaking(passage.id), 'has-audio-file': speechService.hasAudioFile(passage.id) }"
+                :title="isPassageSpeaking(passage.id) ? '暫停朗讀本段' : (speechService.hasAudioFile(passage.id) ? '朗讀本段原文（🎙️ 名家音檔）' : '朗讀本段原文（🔊 智能正音）')"
                 :aria-label="`朗讀本段原文`"
                 @click="playPassage(passage, 'canonical')"
               >
                 <span v-if="isPassageSpeaking(passage.id)">⏸</span>
+                <span v-else-if="speechService.hasAudioFile(passage.id)">🎙️</span>
                 <span v-else>🔊</span>
               </button>
               <p class="passage-text">
@@ -459,11 +461,12 @@ const schoolAmbientStyle = computed(() => {
                     <button
                       type="button"
                       class="vertical-audio-tag-btn"
-                      :class="{ 'is-active': isPassageActive(passage.id, 'canonical') }"
-                      :title="isPassageSpeaking(passage.id) ? '暫停朗讀本段' : '朗讀本段原文'"
+                      :class="{ 'is-active': isPassageActive(passage.id, 'canonical'), 'has-audio-file': speechService.hasAudioFile(passage.id) }"
+                      :title="isPassageSpeaking(passage.id) ? '暫停朗讀本段' : (speechService.hasAudioFile(passage.id) ? '朗讀本段原文（🎙️ 名家音檔）' : '朗讀本段原文（🔊 智能正音）')"
                       @click="playPassage(passage, 'canonical')"
                     >
                       <span v-if="isPassageSpeaking(passage.id)">⏸</span>
+                      <span v-else-if="speechService.hasAudioFile(passage.id)">🎙️</span>
                       <span v-else>🔊</span>
                     </button>
                   </div>
@@ -474,10 +477,12 @@ const schoolAmbientStyle = computed(() => {
                     <button
                       type="button"
                       class="audio-mini-btn"
-                      :class="{ 'is-active': isPassageActive(passage.id, 'canonical') }"
+                      :class="{ 'is-active': isPassageActive(passage.id, 'canonical'), 'has-audio-file': speechService.hasAudioFile(passage.id) }"
+                      :title="speechService.hasAudioFile(passage.id) ? '播放高品質名家音檔' : '智能正音朗讀'"
                       @click="playPassage(passage, 'canonical')"
                     >
-                      🔊 原文
+                      <span v-if="speechService.hasAudioFile(passage.id)">🎙️ 原文</span>
+                      <span v-else>🔊 原文</span>
                     </button>
                     <button
                       v-if="passageAid(passage)?.translation"
@@ -508,11 +513,12 @@ const schoolAmbientStyle = computed(() => {
                   <button
                     type="button"
                     class="passage-audio-btn"
-                    :class="{ 'is-active': isPassageActive(passage.id, 'canonical') }"
-                    :title="isPassageSpeaking(passage.id) && speechState.currentMode === 'canonical' ? '暫停朗讀' : '逐段朗讀原文'"
+                    :class="{ 'is-active': isPassageActive(passage.id, 'canonical'), 'has-audio-file': speechService.hasAudioFile(passage.id) }"
+                    :title="isPassageSpeaking(passage.id) && speechState.currentMode === 'canonical' ? '暫停朗讀' : (speechService.hasAudioFile(passage.id) ? '逐段播放名家錄音檔' : '逐段朗讀原文')"
                     @click="playPassage(passage, 'canonical')"
                   >
                     <span v-if="isPassageSpeaking(passage.id) && speechState.currentMode === 'canonical'">⏸ 誦讀中</span>
+                    <span v-else-if="speechService.hasAudioFile(passage.id)">🎙️ 名家音檔</span>
                     <span v-else>🔊 朗讀原文</span>
                   </button>
                   <button
@@ -1274,11 +1280,25 @@ const schoolAmbientStyle = computed(() => {
   transform: scale(1.1);
 }
 
+.passage-inline-audio-btn.has-audio-file,
+.vertical-inline-audio-btn.has-audio-file {
+  border-color: rgba(201, 169, 110, 0.6);
+  color: var(--c-gold-light);
+  box-shadow: 0 0 6px rgba(201, 169, 110, 0.25);
+}
+
+.passage-audio-btn.has-audio-file,
+.audio-mini-btn.has-audio-file {
+  border-color: var(--c-gold);
+  color: var(--c-gold-light);
+}
+
 /* ── Speaking Passage Highlight ── */
 .is-speaking-passage {
   border-color: var(--c-gold) !important;
-  background: rgba(201, 169, 110, 0.06) !important;
-  box-shadow: 0 0 16px rgba(201, 169, 110, 0.2);
+  background: rgba(201, 169, 110, 0.08) !important;
+  box-shadow: 0 0 20px rgba(201, 169, 110, 0.25);
+  transition: all var(--duration-normal) var(--ease-out);
 }
 
 /* ── Assisted Mode Audio Headers ── */

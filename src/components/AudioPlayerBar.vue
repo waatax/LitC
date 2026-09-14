@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, ref, onMounted, onUnmounted } from 'vue'
 import { speechService, type SpeechMode, type SpeechRate } from '@/services/speech'
 
 const speechState = speechService.state
@@ -21,11 +21,32 @@ const currentItem = computed(() => {
 const totalPassages = computed(() => speechState.playlist.length)
 const currentPassageNumber = computed(() => speechState.playlistIndex + 1)
 
+function formatTime(seconds: number): string {
+  if (!seconds || isNaN(seconds) || seconds < 0) return '00:00'
+  const m = Math.floor(seconds / 60)
+  const s = Math.floor(seconds % 60)
+  return `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`
+}
+
+const formattedCurrentTime = computed(() => formatTime(speechState.currentTime))
+const formattedDuration = computed(() => formatTime(speechState.duration))
+
+const progressPercent = computed(() => {
+  if (!speechState.duration || speechState.duration <= 0) return 0
+  return Math.min(100, Math.max(0, (speechState.currentTime / speechState.duration) * 100))
+})
+
+function onSeek(e: Event) {
+  const target = e.target as HTMLInputElement
+  if (target) {
+    const val = parseFloat(target.value)
+    speechService.seek(val)
+  }
+}
+
 function togglePlay() {
   if (speechState.isPlaying && !speechState.isPaused) {
     speechService.pause()
-  } else if (speechState.isPaused) {
-    speechService.resume()
   } else {
     speechService.resume()
   }
@@ -58,11 +79,66 @@ function onVoiceChange(e: Event) {
     speechService.setVoice(target.value)
   }
 }
+
+function handleKeyDown(e: KeyboardEvent) {
+  if (!hasActivePlayback.value) return
+  // Don't intercept when typing in inputs
+  const tag = (e.target as HTMLElement)?.tagName?.toLowerCase()
+  if (tag === 'input' || tag === 'textarea' || tag === 'select') return
+
+  if (e.code === 'Space') {
+    e.preventDefault()
+    togglePlay()
+  } else if (e.code === 'ArrowRight' && speechState.audioSourceType === 'file') {
+    e.preventDefault()
+    speechService.seek(speechState.currentTime + 5)
+  } else if (e.code === 'ArrowLeft' && speechState.audioSourceType === 'file') {
+    e.preventDefault()
+    speechService.seek(speechState.currentTime - 5)
+  } else if (e.code === 'Escape') {
+    stop()
+  }
+}
+
+onMounted(() => {
+  window.addEventListener('keydown', handleKeyDown)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('keydown', handleKeyDown)
+})
 </script>
 
 <template>
   <Transition name="slide-up">
-    <div v-if="isSupported && hasActivePlayback" class="audio-player-bar glass-panel" role="region" aria-label="語音朗讀播放器">
+    <div
+      v-if="isSupported && hasActivePlayback"
+      class="audio-player-bar glass-panel"
+      role="region"
+      aria-label="語音朗讀播放器"
+    >
+      <!-- Timeline Progress Bar (When playing real audio file) -->
+      <div v-if="speechState.audioSourceType === 'file' && speechState.duration > 0" class="timeline-container">
+        <span class="time-label">{{ formattedCurrentTime }}</span>
+        <div class="scrubber-wrapper">
+          <div class="scrubber-track">
+            <div class="scrubber-buffer" :style="{ width: `${speechState.bufferedPercent}%` }"></div>
+            <div class="scrubber-fill" :style="{ width: `${progressPercent}%` }"></div>
+          </div>
+          <input
+            type="range"
+            class="scrubber-input"
+            :min="0"
+            :max="speechState.duration"
+            :step="0.1"
+            :value="speechState.currentTime"
+            aria-label="音訊進度跳轉"
+            @input="onSeek"
+          />
+        </div>
+        <span class="time-label duration">{{ formattedDuration }}</span>
+      </div>
+
       <div class="player-container">
         <!-- Info section -->
         <div class="player-info">
@@ -75,9 +151,19 @@ function onVoiceChange(e: Event) {
 
           <div class="info-text">
             <div class="info-title">
-              <span class="passage-tag">
-                {{ speechState.currentMode === 'canonical' ? '📜 原文正音' : '💬 白話解義' }}
+              <!-- Audio Source Badge -->
+              <span
+                class="source-badge"
+                :class="speechState.audioSourceType === 'file' ? 'is-file' : 'is-tts'"
+                :title="speechState.audioSourceType === 'file' ? '播放高品質名家預製錄音檔' : '使用古典音韻校正語音引擎朗讀'"
+              >
+                {{ speechState.audioSourceType === 'file' ? '🎙️ 名家音檔' : '🔊 智能正音' }}
               </span>
+
+              <span class="passage-tag">
+                {{ speechState.currentMode === 'canonical' ? '📜 原文' : '💬 白話' }}
+              </span>
+
               <span v-if="currentItem?.workTitle" class="work-title">{{ currentItem.workTitle }}</span>
               <span v-if="currentItem?.chapterTitle" class="chapter-title">{{ currentItem.chapterTitle }}</span>
               <span v-if="totalPassages > 1" class="counter">
@@ -85,7 +171,7 @@ function onVoiceChange(e: Event) {
               </span>
             </div>
             <p class="current-snippet" :title="speechState.currentText">
-              {{ speechState.currentText.slice(0, 42) }}{{ speechState.currentText.length > 42 ? '…' : '' }}
+              {{ speechState.currentText.slice(0, 36) }}{{ speechState.currentText.length > 36 ? '…' : '' }}
             </p>
           </div>
         </div>
@@ -105,8 +191,8 @@ function onVoiceChange(e: Event) {
 
           <button
             class="ctrl-btn btn-primary play-btn"
-            :title="speechState.isPlaying && !speechState.isPaused ? '暫停朗讀' : '繼續朗讀'"
-            :aria-label="speechState.isPlaying && !speechState.isPaused ? '暫停朗讀' : '繼續朗讀'"
+            :title="speechState.isPlaying && !speechState.isPaused ? '暫停 (空白鍵)' : '繼續朗讀 (空白鍵)'"
+            :aria-label="speechState.isPlaying && !speechState.isPaused ? '暫停' : '繼續朗讀'"
             @click="togglePlay"
           >
             <span v-if="speechState.isPlaying && !speechState.isPaused">⏸</span>
@@ -126,7 +212,7 @@ function onVoiceChange(e: Event) {
 
           <button
             class="ctrl-btn btn-ghost stop-btn"
-            title="停止朗讀"
+            title="停止朗讀 (Esc)"
             aria-label="停止朗讀"
             @click="stop"
           >
@@ -140,6 +226,7 @@ function onVoiceChange(e: Event) {
             <button
               class="opt-btn"
               :class="{ 'is-active': speechState.currentMode === 'canonical' }"
+              title="切換為文言原文誦讀"
               @click="setMode('canonical')"
             >
               原文
@@ -147,6 +234,7 @@ function onVoiceChange(e: Event) {
             <button
               class="opt-btn"
               :class="{ 'is-active': speechState.currentMode === 'vernacular' }"
+              title="切換為白話意譯朗讀"
               @click="setMode('vernacular')"
             >
               白話
@@ -157,7 +245,7 @@ function onVoiceChange(e: Event) {
             <button
               class="rate-btn"
               :class="{ 'is-active': speechState.currentRate === 0.8 }"
-              title="0.8倍速 (沉浸)"
+              title="0.8倍速 (雅讀)"
               @click="setRate(0.8)"
             >
               0.8x
@@ -173,7 +261,7 @@ function onVoiceChange(e: Event) {
             <button
               class="rate-btn"
               :class="{ 'is-active': speechState.currentRate === 1.2 }"
-              title="1.2倍速 (速聽)"
+              title="1.2倍速 (敏讀)"
               @click="setRate(1.2)"
             >
               1.2x
@@ -183,7 +271,7 @@ function onVoiceChange(e: Event) {
           <button
             class="settings-toggle-btn"
             :class="{ 'is-open': showSettings }"
-            title="語音設定"
+            title="語音詳細設定"
             @click="showSettings = !showSettings"
           >
             ⚙️
@@ -194,7 +282,18 @@ function onVoiceChange(e: Event) {
       <!-- Extended Settings Drawer -->
       <div v-if="showSettings" class="settings-drawer">
         <div class="setting-row">
-          <label for="voice-select" class="setting-label">朗讀音色：</label>
+          <label class="setting-checkbox">
+            <input
+              type="checkbox"
+              :checked="speechState.preferAudioFiles"
+              @change="speechService.togglePreferAudioFiles()"
+            />
+            <span>優先播放名家優質錄音檔（未收錄時自動智慧合成）</span>
+          </label>
+        </div>
+
+        <div v-if="speechState.audioSourceType === 'tts' || !speechState.preferAudioFiles" class="setting-row">
+          <label for="voice-select" class="setting-label">合成音色：</label>
           <select
             id="voice-select"
             class="voice-select"
@@ -210,6 +309,7 @@ function onVoiceChange(e: Event) {
             </option>
           </select>
         </div>
+
         <div class="setting-row">
           <label class="setting-checkbox">
             <input
@@ -217,7 +317,7 @@ function onVoiceChange(e: Event) {
               :checked="speechState.isAutoScroll"
               @change="speechService.toggleAutoScroll()"
             />
-            <span>朗讀時自動滾動至對應段落</span>
+            <span>朗讀時畫面平滑自動捲動至對應段落</span>
           </label>
         </div>
       </div>
@@ -235,11 +335,83 @@ function onVoiceChange(e: Event) {
   z-index: 1000;
   padding: var(--sp-3) var(--sp-5);
   border-radius: var(--radius-lg);
-  background: rgba(18, 20, 26, 0.92);
-  backdrop-filter: blur(16px);
+  background: rgba(18, 20, 26, 0.94);
+  backdrop-filter: blur(20px);
   border: 1px solid var(--c-gold-glow);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.48), 0 0 20px rgba(201, 169, 110, 0.15);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.55), 0 0 24px rgba(201, 169, 110, 0.18);
   transition: all var(--duration-normal) var(--ease-out);
+}
+
+/* Timeline scrubber */
+.timeline-container {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-2);
+  padding-bottom: 2px;
+}
+
+.time-label {
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  color: var(--c-gold-light);
+  min-width: 36px;
+  font-variant-numeric: tabular-nums;
+}
+
+.time-label.duration {
+  text-align: right;
+  color: var(--c-text-muted);
+}
+
+.scrubber-wrapper {
+  position: relative;
+  flex: 1;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.scrubber-track {
+  position: relative;
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.scrubber-buffer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 2px;
+  transition: width 0.2s ease;
+}
+
+.scrubber-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: linear-gradient(90deg, var(--c-gold-deep), var(--c-gold-light));
+  border-radius: 2px;
+  box-shadow: 0 0 8px rgba(201, 169, 110, 0.5);
+  transition: width 0.1s linear;
+}
+
+.scrubber-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  margin: 0;
 }
 
 .player-container {
@@ -259,7 +431,6 @@ function onVoiceChange(e: Event) {
   min-width: 0;
 }
 
-/* Wave animation */
 .wave-indicator {
   display: flex;
   align-items: flex-end;
@@ -305,6 +476,28 @@ function onVoiceChange(e: Event) {
   gap: var(--sp-2);
   font-size: var(--fs-xs);
   flex-wrap: wrap;
+}
+
+.source-badge {
+  font-size: 0.68rem;
+  font-weight: var(--fw-semibold);
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.source-badge.is-file {
+  color: #fff;
+  background: linear-gradient(135deg, #a87932, #c9a96e);
+  box-shadow: 0 0 8px rgba(201, 169, 110, 0.4);
+}
+
+.source-badge.is-tts {
+  color: var(--c-text-secondary);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--c-border-subtle);
 }
 
 .passage-tag {

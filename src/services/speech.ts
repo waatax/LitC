@@ -1,7 +1,9 @@
 import { ref, reactive } from 'vue'
+import { getAudioFileUrl, getAudioFileMeta } from '@/data/audioManifest'
 
 export type SpeechMode = 'canonical' | 'vernacular'
 export type SpeechRate = 0.8 | 1.0 | 1.2
+export type AudioSourceType = 'file' | 'tts'
 
 export interface SpeechPlaylistItem {
   passageId: string
@@ -23,7 +25,29 @@ export interface SpeechState {
   playlist: SpeechPlaylistItem[]
   playlistIndex: number
   isAutoScroll: boolean
+  // 高品質實體音檔擴充狀態
+  audioSourceType: AudioSourceType
+  audioFileAvailable: boolean
+  currentTime: number
+  duration: number
+  bufferedPercent: number
+  preferAudioFiles: boolean
 }
+
+// 先秦經典音韻校勘辭典（通假字、破音字TTS校正）
+const CLASSICAL_TTS_CORRECTIONS: [RegExp, string][] = [
+  [/不亦說乎/g, '不亦悅乎'],
+  [/秦伯說/g, '秦伯悅'],
+  [/民說之/g, '民悅之'],
+  [/禮樂/g, '禮嶽'],
+  [/處眾人之所惡/g, '處眾人之所務'],
+  [/好惡/g, '好務'],
+  [/以觀其徼/g, '以觀其叫'],
+  [/圖窮而匕首見/g, '圖窮而匕首現'],
+  [/風吹草低見牛羊/g, '風吹草低現牛羊'],
+  [/北冥有魚/g, '北溟有魚'],
+  [/朝聞道/g, '昭聞道'],
+]
 
 class SpeechService {
   public state = reactive<SpeechState>({
@@ -37,6 +61,12 @@ class SpeechService {
     playlist: [],
     playlistIndex: -1,
     isAutoScroll: true,
+    audioSourceType: 'tts',
+    audioFileAvailable: false,
+    currentTime: 0,
+    duration: 0,
+    bufferedPercent: 0,
+    preferAudioFiles: true,
   })
 
   public voices = ref<SpeechSynthesisVoice[]>([])
@@ -44,16 +74,60 @@ class SpeechService {
 
   private synth: SpeechSynthesis | null = null
   private activeUtterance: SpeechSynthesisUtterance | null = null
+  private audioElement: HTMLAudioElement | null = null
   private keepAliveTimer: any = null
+  private transitionTimer: any = null
   private unlockAudioBound = false
 
   constructor() {
-    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      this.synth = window.speechSynthesis
-      this.isSupported.value = true
-      this.initVoices()
-      this.initUnlockListener()
+    if (typeof window !== 'undefined') {
+      if ('speechSynthesis' in window) {
+        this.synth = window.speechSynthesis
+        this.isSupported.value = true
+        this.initVoices()
+        this.initUnlockListener()
+      }
+      this.initAudioElement()
     }
+  }
+
+  private initAudioElement() {
+    if (typeof window === 'undefined') return
+    this.audioElement = new Audio()
+    this.audioElement.preload = 'auto'
+
+    this.audioElement.addEventListener('timeupdate', () => {
+      if (!this.audioElement) return
+      this.state.currentTime = this.audioElement.currentTime
+      if (this.audioElement.duration && !isNaN(this.audioElement.duration)) {
+        this.state.duration = this.audioElement.duration
+      }
+    })
+
+    this.audioElement.addEventListener('progress', () => {
+      if (!this.audioElement || !this.audioElement.buffered.length || !this.audioElement.duration) return
+      try {
+        const bufferedEnd = this.audioElement.buffered.end(this.audioElement.buffered.length - 1)
+        this.state.bufferedPercent = Math.min(100, Math.round((bufferedEnd / this.audioElement.duration) * 100))
+      } catch {
+        // ignore buffer calculation errors
+      }
+    })
+
+    this.audioElement.addEventListener('ended', () => {
+      this.onPassageFinished()
+    })
+
+    this.audioElement.addEventListener('error', (e) => {
+      console.warn('Audio element error, falling back to TTS:', e)
+      // 若音檔載入發生異常（例如離線且無快取），自動平滑降級至 TTS
+      if (this.state.isPlaying) {
+        this.state.audioSourceType = 'tts'
+        this.speakUtterance(this.state.currentText, () => {
+          this.onPassageFinished()
+        })
+      }
+    })
   }
 
   private initVoices() {
@@ -61,7 +135,6 @@ class SpeechService {
 
     const updateVoices = () => {
       const allVoices = this.synth!.getVoices()
-      // Prioritize Chinese voices: zh-TW, zh-HK, zh-CN, cmn, etc.
       const chineseVoices = allVoices.filter(v => 
         v.lang.toLowerCase().includes('zh') || 
         v.lang.toLowerCase().includes('cmn') ||
@@ -70,7 +143,6 @@ class SpeechService {
       
       this.voices.value = chineseVoices.length > 0 ? chineseVoices : allVoices
 
-      // Auto-select preferred default voice (prioritizing zh-TW, then zh-HK, zh-CN, or first available)
       if (!this.state.selectedVoiceURI && this.voices.value.length > 0) {
         const preferred = 
           this.voices.value.find(v => v.lang.toLowerCase().includes('zh-tw')) ||
@@ -98,6 +170,9 @@ class SpeechService {
       if (this.synth && this.synth.paused) {
         this.synth.resume()
       }
+      if (this.audioElement) {
+        this.audioElement.load()
+      }
       window.removeEventListener('click', unlockHandler)
       window.removeEventListener('touchstart', unlockHandler)
     }
@@ -107,22 +182,33 @@ class SpeechService {
   }
 
   /**
-   * 古文正音與朗讀字詞優化：
-   * 移除可能導致 TTS 破音的特殊標記，保持標點停頓節奏
+   * 古文正音與朗讀字詞優化：去除註腳標號，並針對古音通假破讀進行語音校正
    */
   public sanitizeText(text: string): string {
     if (!text) return ''
-    return text
-      .replace(/\[\d+\]/g, '') // 去除註腳標記
-      .replace(/【[^】]+】/g, '') // 去除小標題括號
+    let cleaned = text
+      .replace(/\[\d+\]/g, '')
+      .replace(/【[^】]+】/g, '')
       .replace(/〔[^〕]+〕/g, '')
       .replace(/（[^）]+）/g, '')
       .replace(/\s+/g, ' ')
       .trim()
+
+    for (const [regex, replacement] of CLASSICAL_TTS_CORRECTIONS) {
+      cleaned = cleaned.replace(regex, replacement)
+    }
+    return cleaned
   }
 
   /**
-   * 朗讀特定段落（一段對應一段）
+   * 檢查某段落是否具有高品質實體音檔
+   */
+  public hasAudioFile(passageId: string): boolean {
+    return !!getAudioFileMeta(passageId)
+  }
+
+  /**
+   * 朗讀特定段落（一段對應一段，優先播放高品質實體音檔）
    */
   public speakPassage(
     passageId: string,
@@ -130,12 +216,7 @@ class SpeechService {
     mode: SpeechMode = 'canonical',
     extra?: { chapterTitle?: string; workTitle?: string; vernacularText?: string; canonicalText?: string }
   ) {
-    if (!this.synth || !this.isSupported.value) {
-      console.warn('SpeechSynthesis is not supported in this environment.')
-      return
-    }
-
-    // If currently playing the EXACT same passage & mode, toggle pause/play
+    // 若當前正播放完全相同段落與模式，切換暫停/繼續
     if (this.state.isPlaying && this.state.currentPassageId === passageId && this.state.currentMode === mode) {
       this.pause()
       return
@@ -146,7 +227,7 @@ class SpeechService {
       return
     }
 
-    // Cancel existing playback
+    // 停止先前的播放
     this.stop()
 
     const sanitized = this.sanitizeText(text)
@@ -157,13 +238,14 @@ class SpeechService {
     this.state.currentMode = mode
     this.state.isPlaying = true
     this.state.isPaused = false
+    this.state.currentTime = 0
+    this.state.duration = 0
 
-    // If item exists in playlist, update index
+    // 更新播放清單索引
     const playlistIdx = this.state.playlist.findIndex(item => item.passageId === passageId)
     if (playlistIdx !== -1) {
       this.state.playlistIndex = playlistIdx
     } else if (extra) {
-      // Set standalone item
       this.state.playlist = [{
         passageId,
         chapterId: '',
@@ -175,17 +257,47 @@ class SpeechService {
       this.state.playlistIndex = 0
     }
 
-    this.speakUtterance(sanitized, () => {
-      this.onPassageFinished()
-    })
+    // 判斷是否使用實體音檔（原文模式下優先啟用高品質音檔）
+    const audioUrl = mode === 'canonical' ? getAudioFileUrl(passageId) : undefined
+    const audioMeta = mode === 'canonical' ? getAudioFileMeta(passageId) : undefined
+
+    if (this.state.preferAudioFiles && audioUrl && this.audioElement) {
+      this.state.audioSourceType = 'file'
+      this.state.audioFileAvailable = true
+      if (audioMeta) {
+        this.state.duration = audioMeta.duration
+      }
+      this.playViaAudioElement(audioUrl)
+    } else {
+      this.state.audioSourceType = 'tts'
+      this.state.audioFileAvailable = !!audioUrl
+      this.speakUtterance(sanitized, () => {
+        this.onPassageFinished()
+      })
+    }
 
     if (this.state.isAutoScroll) {
       this.scrollToPassage(passageId)
     }
   }
 
+  private playViaAudioElement(url: string) {
+    if (!this.audioElement) return
+    this.audioElement.pause()
+    this.audioElement.currentTime = 0
+    this.audioElement.src = url
+    this.audioElement.playbackRate = this.state.currentRate
+    this.audioElement.play().catch(err => {
+      console.warn('Audio play failed, fallback to TTS:', err)
+      this.state.audioSourceType = 'tts'
+      this.speakUtterance(this.state.currentText, () => {
+        this.onPassageFinished()
+      })
+    })
+  }
+
   /**
-   * 開啟全章逐段連播（一段接一段）
+   * 開啟全章逐段連播（一段接一段，控制在每段節律內）
    */
   public startChapterPlayback(
     playlist: SpeechPlaylistItem[],
@@ -219,14 +331,12 @@ class SpeechService {
   private speakUtterance(text: string, onEnd: () => void) {
     if (!this.synth) return
 
-    // Cancel prior synthesis queue
     this.synth.cancel()
     this.clearKeepAlive()
 
     const utterance = new SpeechSynthesisUtterance(text)
     this.activeUtterance = utterance
 
-    // Set voice
     if (this.state.selectedVoiceURI && this.voices.value.length > 0) {
       const chosen = this.voices.value.find(v => v.voiceURI === this.state.selectedVoiceURI)
       if (chosen) {
@@ -256,7 +366,6 @@ class SpeechService {
       console.warn('Speech synthesis error:', e)
       this.clearKeepAlive()
       this.activeUtterance = null
-      // Do not hard-crash playlist on interrupted errors
       if (e.error !== 'interrupted' && e.error !== 'canceled') {
         this.onPassageFinished()
       }
@@ -266,17 +375,15 @@ class SpeechService {
   }
 
   private onPassageFinished() {
-    // Check if we are in chapter playlist mode and have next items
     if (this.state.playlist.length > 0 && this.state.playlistIndex < this.state.playlist.length - 1) {
       this.state.playlistIndex++
-      // Give a pleasant, natural 600ms breath pause between classical paragraphs
-      setTimeout(() => {
+      // 換段之際預留 700ms 雅緻呼吸停頓
+      this.transitionTimer = setTimeout(() => {
         if (this.state.isPlaying && !this.state.isPaused) {
           this.playCurrentPlaylistItem()
         }
-      }, 600)
+      }, 700)
     } else {
-      // Completed all
       this.state.isPlaying = false
       this.state.isPaused = false
       this.state.currentPassageId = null
@@ -299,18 +406,22 @@ class SpeechService {
   }
 
   public pause() {
-    if (!this.synth) return
-    if (this.state.isPlaying && !this.state.isPaused) {
+    if (this.state.audioSourceType === 'file' && this.audioElement) {
+      this.audioElement.pause()
+    } else if (this.synth) {
       this.synth.pause()
-      this.state.isPaused = true
-      this.clearKeepAlive()
     }
+    this.state.isPaused = true
+    this.clearKeepAlive()
   }
 
   public resume() {
-    if (!this.synth) return
     if (this.state.isPaused) {
-      this.synth.resume()
+      if (this.state.audioSourceType === 'file' && this.audioElement) {
+        this.audioElement.play()
+      } else if (this.synth) {
+        this.synth.resume()
+      }
       this.state.isPaused = false
       this.state.isPlaying = true
       this.startKeepAlive()
@@ -320,20 +431,44 @@ class SpeechService {
   }
 
   public stop() {
-    if (!this.synth) return
+    if (this.transitionTimer) {
+      clearTimeout(this.transitionTimer)
+      this.transitionTimer = null
+    }
     this.clearKeepAlive()
-    this.synth.cancel()
+
+    if (this.audioElement) {
+      this.audioElement.pause()
+      this.audioElement.currentTime = 0
+    }
+    if (this.synth) {
+      this.synth.cancel()
+    }
+
     this.state.isPlaying = false
     this.state.isPaused = false
     this.state.currentPassageId = null
+    this.state.currentTime = 0
     this.activeUtterance = null
+  }
+
+  public seek(seconds: number) {
+    if (this.state.audioSourceType === 'file' && this.audioElement && this.state.duration > 0) {
+      const targetTime = Math.max(0, Math.min(seconds, this.state.duration))
+      this.audioElement.currentTime = targetTime
+      this.state.currentTime = targetTime
+    }
   }
 
   public setRate(rate: SpeechRate) {
     this.state.currentRate = rate
-    // If currently playing, restart current paragraph with new speed smoothly
+    if (this.audioElement) {
+      this.audioElement.playbackRate = rate
+    }
     if (this.state.isPlaying && !this.state.isPaused) {
-      this.playCurrentPlaylistItem()
+      if (this.state.audioSourceType === 'tts') {
+        this.playCurrentPlaylistItem()
+      }
     }
   }
 
@@ -347,6 +482,13 @@ class SpeechService {
 
   public setVoice(voiceURI: string) {
     this.state.selectedVoiceURI = voiceURI
+    if (this.state.isPlaying && !this.state.isPaused && this.state.audioSourceType === 'tts') {
+      this.playCurrentPlaylistItem()
+    }
+  }
+
+  public togglePreferAudioFiles() {
+    this.state.preferAudioFiles = !this.state.preferAudioFiles
     if (this.state.isPlaying && !this.state.isPaused) {
       this.playCurrentPlaylistItem()
     }
@@ -366,15 +508,10 @@ class SpeechService {
     })
   }
 
-  /**
-   * Chrome & Edge TTS Watchdog Timer:
-   * Chrome has a known browser bug where SpeechSynthesis pauses automatically after ~14 seconds.
-   * Periodically calling resume keeps long paragraph recitation uninterrupted.
-   */
   private startKeepAlive() {
     this.clearKeepAlive()
     this.keepAliveTimer = setInterval(() => {
-      if (this.synth && this.state.isPlaying && !this.state.isPaused) {
+      if (this.synth && this.state.isPlaying && !this.state.isPaused && this.state.audioSourceType === 'tts') {
         this.synth.pause()
         this.synth.resume()
       }
