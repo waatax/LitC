@@ -298,7 +298,7 @@ const schoolAmbientStyle = computed(() => {
               <h2>逐句理解</h2>
             </div>
             <div class="understand-list">
-              <div v-if="isVertical" class="vertical-container" style="height: 480px;">
+              <div v-if="isVertical" class="vertical-container vertical-assisted">
                 <div class="vertical-assisted-list">
                   <div
                     v-for="(sentence, si) in allSentences"
@@ -372,7 +372,7 @@ const schoolAmbientStyle = computed(() => {
             </div>
             <p class="step-desc">觀察每句的語塊結構，為背誦做準備。</p>
             <div class="segment-list">
-              <div v-if="isVertical" class="vertical-container" style="height: 480px;">
+              <div v-if="isVertical" class="vertical-container vertical-assisted">
                 <div class="vertical-assisted-list">
                   <div
                     v-for="sentence in allSentences"

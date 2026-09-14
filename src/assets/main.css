@@ -579,12 +579,12 @@ html.light-theme {
   --c-bg-deep:       #f4efe6;
   --c-bg-primary:    #faf6ee;
   --c-bg-secondary:  #e9e4d9;
-  --c-bg-card:       rgba(224, 242, 254, 0.65);
-  --c-bg-card-hover: rgba(186, 230, 253, 0.85);
+  --c-bg-card:       rgba(255, 255, 255, 0.75);
+  --c-bg-card-hover: rgba(255, 255, 255, 0.92);
   --c-bg-elevated:   #fdfbf7;
-  --c-border:        rgba(125, 211, 252, 0.35);
-  --c-border-subtle: rgba(186, 230, 253, 0.2);
-  --c-border-accent: rgba(56, 189, 248, 0.6);
+  --c-border:        rgba(133, 91, 33, 0.14);
+  --c-border-subtle: rgba(133, 91, 33, 0.08);
+  --c-border-accent: rgba(133, 91, 33, 0.32);
   --c-text-primary:  #2a2723;
   --c-text-secondary:#5c564c;
   --c-text-muted:    #8e8677;
@@ -595,7 +595,7 @@ html.light-theme {
   --c-gold-glow:     rgba(133, 91, 33, 0.08);
   --c-wusilan-line:  rgba(166, 60, 60, 0.14); /* Red wusilan */
   --c-bg-sidebar:    linear-gradient(180deg, #e9e4d9 0%, #dcd7ca 100%);
-  --c-bg-mobile-tab: rgba(224, 242, 254, 0.95);
+  --c-bg-mobile-tab: rgba(250, 246, 238, 0.96);
   --c-success:       #2d5c43;
   --c-warning:       #7d5c1b;
   --c-danger:        #7d3535;
@@ -618,12 +618,12 @@ html.theme-celadon {
   --c-bg-deep:       #e2ece5;
   --c-bg-primary:    #ebf3ee;
   --c-bg-secondary:  #d3ded6;
-  --c-bg-card:       rgba(224, 242, 254, 0.65);
-  --c-bg-card-hover: rgba(186, 230, 253, 0.85);
+  --c-bg-card:       rgba(235, 243, 238, 0.72);
+  --c-bg-card-hover: rgba(226, 236, 230, 0.88);
   --c-bg-elevated:   #f1f7f4;
-  --c-border:        rgba(125, 211, 252, 0.35);
-  --c-border-subtle: rgba(186, 230, 253, 0.2);
-  --c-border-accent: rgba(56, 189, 248, 0.6);
+  --c-border:        rgba(58, 139, 100, 0.16);
+  --c-border-subtle: rgba(58, 139, 100, 0.08);
+  --c-border-accent: rgba(58, 139, 100, 0.35);
   --c-text-primary:  #1f3d2b;
   --c-text-secondary:#3a5e48;
   --c-text-muted:    #688a75;
@@ -634,7 +634,7 @@ html.theme-celadon {
   --c-gold-glow:     rgba(58, 94, 72, 0.08);
   --c-wusilan-line:  rgba(58, 94, 72, 0.12);
   --c-bg-sidebar:    linear-gradient(180deg, #d3ded6 0%, #c4cfc7 100%);
-  --c-bg-mobile-tab: rgba(224, 242, 254, 0.95);
+  --c-bg-mobile-tab: rgba(235, 243, 238, 0.96);
   --c-success:       #1f573c;
   --c-warning:       #6a521a;
   --c-danger:        #6e2d2d;
@@ -801,6 +801,11 @@ textarea:focus-visible,
   background: var(--c-bg-primary);
   border: 1px solid var(--c-border-accent);
   box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.vertical-container.vertical-assisted {
+  height: min(72vh, 620px);
+  min-height: 440px;
 }
 
 .vertical-text-flow {

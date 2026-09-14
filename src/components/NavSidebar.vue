@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { ref, computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import RedSeal from '@/components/RedSeal.vue'
 
@@ -21,6 +21,25 @@ const navItems: NavItem[] = [
   { icon: '📊', label: '修行', to: '/profile' },
   { icon: '📝', label: '古文考驗', to: '/quiz' },
 ]
+
+const mobileNavItems: NavItem[] = [
+  { icon: '📅', label: '今日', to: '/' },
+  { icon: '✨', label: '驚鴻', to: '/glimpse' },
+  { icon: '📚', label: '典籍', to: '/library' },
+  { icon: '📊', label: '修行', to: '/profile' },
+]
+
+const moreNavItems: NavItem[] = [
+  { icon: '⚖️', label: '比較閱讀', to: '/compare' },
+  { icon: '🌊', label: '文海研讀', to: '/wenhai' },
+  { icon: '📝', label: '古文考驗', to: '/quiz' },
+]
+
+const mobileMoreOpen = ref(false)
+
+const isMoreActive = computed(() => {
+  return ['/compare', '/wenhai', '/quiz', '/search'].some(path => route.path.startsWith(path))
+})
 
 interface SchoolDot {
   id: string
@@ -135,22 +154,58 @@ function triggerSearch() {
   </aside>
 
   <!-- Mobile Bottom Tab Bar -->
-  <nav class="mobile-tab-bar">
+  <nav class="mobile-tab-bar" aria-label="行動端導航">
     <button
-      v-for="item in navItems"
+      v-for="item in mobileNavItems"
       :key="item.to"
       class="tab-item"
-      :class="{ 'is-active': isActive(item.to) }"
-      @click="navigate(item.to)"
+      :class="{ 'is-active': isActive(item.to) && !mobileMoreOpen }"
+      @click="mobileMoreOpen = false; navigate(item.to)"
     >
       <span class="tab-icon">{{ item.icon }}</span>
       <span class="tab-label">{{ item.label }}</span>
     </button>
-    <button class="tab-item" @click="triggerSearch">
-      <span class="tab-icon">🔍</span>
-      <span class="tab-label">搜尋</span>
+    <button
+      class="tab-item"
+      :class="{ 'is-active': mobileMoreOpen || (isMoreActive && !mobileNavItems.some(i => isActive(i.to))) }"
+      @click="mobileMoreOpen = !mobileMoreOpen"
+      aria-label="更多選單"
+    >
+      <span class="tab-icon">☰</span>
+      <span class="tab-label">更多</span>
     </button>
   </nav>
+
+  <!-- Mobile More Sheet / Drawer -->
+  <Transition name="fade">
+    <div v-if="mobileMoreOpen" class="mobile-more-backdrop" @click="mobileMoreOpen = false">
+      <div class="mobile-more-sheet" @click.stop>
+        <div class="mobile-more-header">
+          <span class="mobile-more-title font-serif">研讀與研討工具</span>
+          <button class="mobile-more-close" @click="mobileMoreOpen = false" aria-label="關閉選單">✕</button>
+        </div>
+        <div class="mobile-more-grid">
+          <button
+            v-for="item in moreNavItems"
+            :key="item.to"
+            class="more-grid-btn"
+            :class="{ 'is-active': isActive(item.to) }"
+            @click="mobileMoreOpen = false; navigate(item.to)"
+          >
+            <span class="more-btn-icon">{{ item.icon }}</span>
+            <span class="more-btn-label">{{ item.label }}</span>
+          </button>
+          <button
+            class="more-grid-btn"
+            @click="mobileMoreOpen = false; triggerSearch()"
+          >
+            <span class="more-btn-icon">🔍</span>
+            <span class="more-btn-label">全站搜尋</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </Transition>
 </template>
 
 <style scoped>
@@ -497,11 +552,15 @@ function triggerSearch() {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-top: 1px solid var(--c-border-subtle);
-  padding: var(--sp-2) var(--sp-4);
+  padding: var(--sp-1) var(--sp-3);
   padding-bottom: calc(var(--sp-2) + env(safe-area-inset-bottom, 0px));
+  justify-content: space-around;
+  align-items: center;
 }
 
 .tab-item {
+  flex: 1;
+  max-width: 64px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -509,8 +568,8 @@ function triggerSearch() {
   background: none;
   border: none;
   cursor: pointer;
-  padding: var(--sp-1) var(--sp-3);
-  border-radius: var(--radius-sm);
+  padding: var(--sp-1) 0;
+  border-radius: var(--radius-md);
   transition: all var(--duration-fast) var(--ease-out);
   outline: none;
 }
@@ -520,19 +579,109 @@ function triggerSearch() {
 }
 
 .tab-icon {
-  font-size: var(--fs-lg);
+  font-size: 1.2rem;
+  line-height: 1.2;
 }
 
 .tab-label {
   font-family: var(--font-sans);
-  font-size: 0.625rem;
+  font-size: 0.6875rem;
   color: var(--c-text-muted);
   transition: color var(--duration-fast) var(--ease-out);
 }
 
 .tab-item.is-active .tab-label {
   color: var(--c-gold);
-  font-weight: var(--fw-medium);
+  font-weight: var(--fw-semibold);
+}
+
+/* ── Mobile More Sheet ── */
+.mobile-more-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 150;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.mobile-more-sheet {
+  width: 100%;
+  max-width: 480px;
+  background: var(--c-bg-elevated);
+  border-top-left-radius: var(--radius-xl);
+  border-top-right-radius: var(--radius-xl);
+  border: 1px solid var(--c-border-accent);
+  border-bottom: none;
+  padding: var(--sp-5) var(--sp-4);
+  padding-bottom: calc(var(--sp-6) + env(safe-area-inset-bottom, 0px));
+  box-shadow: var(--shadow-lg);
+  animation: sheet-up 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes sheet-up {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.mobile-more-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--sp-4);
+  padding-bottom: var(--sp-2);
+  border-bottom: 1px solid var(--c-border-subtle);
+}
+
+.mobile-more-title {
+  font-size: var(--fs-base);
+  font-weight: var(--fw-bold);
+  color: var(--c-gold);
+}
+
+.mobile-more-close {
+  background: none;
+  border: none;
+  color: var(--c-text-muted);
+  font-size: var(--fs-lg);
+  cursor: pointer;
+  padding: var(--sp-1);
+  border-radius: var(--radius-sm);
+}
+
+.mobile-more-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--sp-3);
+}
+
+.more-grid-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-3);
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border-subtle);
+  border-radius: var(--radius-md);
+  color: var(--c-text-primary);
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  cursor: pointer;
+  transition: all var(--duration-fast);
+}
+
+.more-grid-btn:hover,
+.more-grid-btn.is-active {
+  border-color: var(--c-gold);
+  background: var(--c-gold-glow);
+  color: var(--c-gold);
+}
+
+.more-btn-icon {
+  font-size: 1.25rem;
 }
 
 /* ── Responsive Collapse Sidebar ── */

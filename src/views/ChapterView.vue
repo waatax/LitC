@@ -445,7 +445,7 @@ const schoolAmbientStyle = computed(() => {
 
         <!-- Assisted Mode -->
         <div v-if="readingMode === 'assisted'" class="assisted-mode">
-          <div v-if="isVertical" class="vertical-container" style="height: 520px;">
+          <div v-if="isVertical" class="vertical-container vertical-assisted">
             <div class="vertical-assisted-list">
               <div
                 v-for="passage in passages"
