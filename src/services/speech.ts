@@ -2,8 +2,23 @@ import { ref, reactive } from 'vue'
 import { getAudioFileUrl, getAudioFileMeta } from '@/data/audioManifest'
 
 export type SpeechMode = 'canonical' | 'vernacular'
-export type SpeechRate = 0.8 | 1.0 | 1.2
+export type SpeechRate = 0.5 | 0.75 | 0.8 | 1.0 | 1.25 | 1.5 | 1.75 | 2.0 | number
 export type AudioSourceType = 'file' | 'tts'
+
+export interface SpeedPreset {
+  rate: number
+  label: string
+  desc: string
+}
+
+export const SPEED_PRESETS: SpeedPreset[] = [
+  { rate: 0.5, label: '0.5x', desc: '慢吟審音' },
+  { rate: 0.75, label: '0.75x', desc: '雅正涵泳' },
+  { rate: 1.0, label: '1.0x', desc: '常速研習' },
+  { rate: 1.25, label: '1.25x', desc: '流暢通讀' },
+  { rate: 1.5, label: '1.5x', desc: '敏捷複習' },
+  { rate: 2.0, label: '2.0x', desc: '極速檢索' },
+]
 
 export interface SpeechPlaylistItem {
   passageId: string
@@ -54,6 +69,10 @@ const CLASSICAL_TTS_CORRECTIONS: [RegExp, string][] = [
   [/為政以德/g, '圍政以德'],
 ]
 
+const initialSavedRate = typeof localStorage !== 'undefined'
+  ? parseFloat(localStorage.getItem('litc-speech-rate') || '1.0')
+  : 1.0
+
 class SpeechService {
   public state = reactive<SpeechState>({
     isPlaying: false,
@@ -61,7 +80,7 @@ class SpeechService {
     currentPassageId: null,
     currentText: '',
     currentMode: 'canonical',
-    currentRate: 1.0,
+    currentRate: isNaN(initialSavedRate) ? 1.0 : Math.max(0.5, Math.min(2.5, initialSavedRate)),
     selectedVoiceURI: '',
     playlist: [],
     playlistIndex: -1,
@@ -80,6 +99,8 @@ class SpeechService {
   private synth: SpeechSynthesis | null = null
   private activeUtterance: SpeechSynthesisUtterance | null = null
   private audioElement: HTMLAudioElement | null = null
+  private prefetchAudio: HTMLAudioElement | null = null
+  private prefetchedIndex = -1
   private keepAliveTimer: any = null
   private transitionTimer: any = null
   private unlockAudioBound = false
@@ -99,13 +120,18 @@ class SpeechService {
   private initAudioElement() {
     if (typeof window === 'undefined') return
     this.audioElement = new Audio()
-    this.audioElement.preload = 'auto'
+    // 智慧加載：預設僅獲取中繼資訊以降低初始頻寬與記憶體佔用
+    this.audioElement.preload = 'metadata'
 
     this.audioElement.addEventListener('timeupdate', () => {
       if (!this.audioElement) return
       this.state.currentTime = this.audioElement.currentTime
       if (this.audioElement.duration && !isNaN(this.audioElement.duration)) {
         this.state.duration = this.audioElement.duration
+        // 當播放超過 80% 時，靜默預載下一段，確保連播零延遲
+        if (this.state.currentTime / this.audioElement.duration > 0.8) {
+          this.preloadNextPlaylistItem()
+        }
       }
     })
 
@@ -466,13 +492,42 @@ class SpeechService {
   }
 
   public setRate(rate: SpeechRate) {
-    this.state.currentRate = rate
+    const clamped = Math.max(0.5, Math.min(2.5, Number(rate.toFixed(2))))
+    this.state.currentRate = clamped
+    if (typeof localStorage !== 'undefined') {
+      try {
+        localStorage.setItem('litc-speech-rate', String(clamped))
+      } catch {
+        // ignore storage errors
+      }
+    }
     if (this.audioElement) {
-      this.audioElement.playbackRate = rate
+      this.audioElement.playbackRate = clamped
     }
     if (this.state.isPlaying && !this.state.isPaused) {
       if (this.state.audioSourceType === 'tts') {
         this.playCurrentPlaylistItem()
+      }
+    }
+  }
+
+  /**
+   * 智慧預載：連播進行至尾聲時，平滑預取下一段音訊，以達致零卡頓轉場並大幅降低網路延遲
+   */
+  private preloadNextPlaylistItem() {
+    const nextIdx = this.state.playlistIndex + 1
+    if (nextIdx >= this.state.playlist.length || this.prefetchedIndex === nextIdx) return
+    this.prefetchedIndex = nextIdx
+    const nextItem = this.state.playlist[nextIdx]
+    if (this.state.currentMode === 'canonical') {
+      const url = getAudioFileUrl(nextItem.passageId)
+      if (url && typeof window !== 'undefined') {
+        if (!this.prefetchAudio) {
+          this.prefetchAudio = new Audio()
+          this.prefetchAudio.preload = 'auto'
+        }
+        this.prefetchAudio.src = url
+        this.prefetchAudio.load()
       }
     }
   }

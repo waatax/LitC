@@ -66,10 +66,18 @@ async function loadChapter() {
   loadedChapters.value = content?.chapters ?? []
   if (!content) return
 
-  // Load sentences for each passage
+  // Load sentences for each passage (O(P + S) single-pass grouping)
   const sentenceMap = new Map<string, Sentence[]>()
   for (const passage of passages.value) {
-    sentenceMap.set(passage.id, content.sentences.filter(sentence => sentence.passageId === passage.id))
+    sentenceMap.set(passage.id, [])
+  }
+  for (const sentence of content.sentences) {
+    const list = sentenceMap.get(sentence.passageId)
+    if (list) {
+      list.push(sentence)
+    } else {
+      sentenceMap.set(sentence.passageId, [sentence])
+    }
   }
   passageSentences.value = sentenceMap
   checkTargetHighlight()
@@ -832,6 +840,8 @@ const schoolAmbientStyle = computed(() => {
   border-radius: var(--radius-md);
   border: 1px solid var(--c-border-subtle);
   transition: border-color var(--duration-fast) var(--ease-out);
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 160px;
 }
 
 .sentence-row:hover {
@@ -1241,6 +1251,8 @@ const schoolAmbientStyle = computed(() => {
   padding: var(--sp-2) var(--sp-3);
   border-radius: var(--radius-md);
   transition: all var(--duration-normal) var(--ease-out);
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 90px;
 }
 
 .clean-passage-item:last-child {
@@ -1373,6 +1385,8 @@ const schoolAmbientStyle = computed(() => {
   padding-bottom: var(--sp-4);
   border-radius: var(--radius-sm);
   transition: all var(--duration-fast);
+  content-visibility: auto;
+  contain-intrinsic-size: 60px 200px;
 }
 
 .vertical-inline-audio-btn {

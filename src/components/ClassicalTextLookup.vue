@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onBeforeUnmount, ref } from 'vue'
+import { computed, onBeforeUnmount, ref, watch } from 'vue'
 import { dictionarySourceLinks, lookupDictionary, type DictionaryEntry } from '@/services/dictionary'
 
 const props = withDefaults(defineProps<{
@@ -69,11 +69,23 @@ function speakCharacter(char: string) {
 }
 
 function onKeydown(event: KeyboardEvent) {
-  if (event.key === 'Escape' && open.value) close()
+  if (event.key === 'Escape') close()
 }
 
-if (typeof window !== 'undefined') window.addEventListener('keydown', onKeydown)
-onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
+watch(open, (isOpen) => {
+  if (typeof window === 'undefined') return
+  if (isOpen) {
+    window.addEventListener('keydown', onKeydown)
+  } else {
+    window.removeEventListener('keydown', onKeydown)
+  }
+})
+
+onBeforeUnmount(() => {
+  if (typeof window !== 'undefined') {
+    window.removeEventListener('keydown', onKeydown)
+  }
+})
 </script>
 
 <template>

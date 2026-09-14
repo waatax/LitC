@@ -1,11 +1,14 @@
 <script setup lang="ts">
 import { computed, ref, onMounted, onUnmounted } from 'vue'
-import { speechService, type SpeechMode, type SpeechRate } from '@/services/speech'
+import { speechService, SPEED_PRESETS, type SpeechMode, type SpeechRate } from '@/services/speech'
 
 const speechState = speechService.state
 const voices = speechService.voices
 const isSupported = speechService.isSupported
 const showSettings = ref(false)
+const showSpeedMenu = ref(false)
+const rateToast = ref<string | null>(null)
+let toastTimer: ReturnType<typeof setTimeout> | null = null
 
 const hasActivePlayback = computed(() => {
   return speechState.isPlaying || speechState.isPaused || speechState.currentPassageId !== null
@@ -36,6 +39,15 @@ const progressPercent = computed(() => {
   return Math.min(100, Math.max(0, (speechState.currentTime / speechState.duration) * 100))
 })
 
+const formattedRate = computed(() => {
+  return Number(speechState.currentRate.toFixed(2))
+})
+
+const isCustomRate = computed(() => {
+  const r = speechState.currentRate
+  return Math.abs(r - 0.75) >= 0.02 && Math.abs(r - 1.0) >= 0.02 && Math.abs(r - 1.25) >= 0.02
+})
+
 function onSeek(e: Event) {
   const target = e.target as HTMLInputElement
   if (target) {
@@ -55,6 +67,7 @@ function togglePlay() {
 function stop() {
   speechService.stop()
   showSettings.value = false
+  showSpeedMenu.value = false
 }
 
 function prev() {
@@ -65,8 +78,45 @@ function next() {
   speechService.nextPassage()
 }
 
+function showRateToast(text: string) {
+  rateToast.value = text
+  if (toastTimer) clearTimeout(toastTimer)
+  toastTimer = setTimeout(() => {
+    rateToast.value = null
+  }, 1200)
+}
+
 function setRate(rate: SpeechRate) {
   speechService.setRate(rate)
+  showRateToast(`${Number(rate.toFixed(2))}x`)
+}
+
+function changeRateDelta(delta: number) {
+  const nextRate = Math.max(0.5, Math.min(2.5, Math.round((speechState.currentRate + delta) * 100) / 100))
+  speechService.setRate(nextRate)
+  showRateToast(`${nextRate}x`)
+}
+
+function onRateSliderInput(e: Event) {
+  const target = e.target as HTMLInputElement
+  if (target) {
+    const val = parseFloat(target.value)
+    speechService.setRate(val)
+  }
+}
+
+function toggleSpeedMenu() {
+  showSpeedMenu.value = !showSpeedMenu.value
+  if (showSpeedMenu.value) {
+    showSettings.value = false
+  }
+}
+
+function toggleSettings() {
+  showSettings.value = !showSettings.value
+  if (showSettings.value) {
+    showSpeedMenu.value = false
+  }
 }
 
 function setMode(mode: SpeechMode) {
@@ -95,17 +145,43 @@ function handleKeyDown(e: KeyboardEvent) {
   } else if (e.code === 'ArrowLeft' && speechState.audioSourceType === 'file') {
     e.preventDefault()
     speechService.seek(speechState.currentTime - 5)
+  } else if (e.key === '[' || e.key === 'BracketLeft') {
+    e.preventDefault()
+    changeRateDelta(-0.05)
+  } else if (e.key === ']' || e.key === 'BracketRight') {
+    e.preventDefault()
+    changeRateDelta(0.05)
+  } else if (e.key === '0') {
+    e.preventDefault()
+    speechService.setRate(1.0)
+    showRateToast('1.0x')
   } else if (e.code === 'Escape') {
-    stop()
+    if (showSpeedMenu.value) {
+      showSpeedMenu.value = false
+    } else if (showSettings.value) {
+      showSettings.value = false
+    } else {
+      stop()
+    }
+  }
+}
+
+function handleDocumentClick(e: MouseEvent) {
+  const target = e.target as HTMLElement
+  if (showSpeedMenu.value && !target.closest('.speed-menu-popover') && !target.closest('.rate-more-btn')) {
+    showSpeedMenu.value = false
   }
 }
 
 onMounted(() => {
   window.addEventListener('keydown', handleKeyDown)
+  window.addEventListener('click', handleDocumentClick)
 })
 
 onUnmounted(() => {
   window.removeEventListener('keydown', handleKeyDown)
+  window.removeEventListener('click', handleDocumentClick)
+  if (toastTimer) clearTimeout(toastTimer)
 })
 </script>
 
@@ -244,27 +320,36 @@ onUnmounted(() => {
           <div class="rate-toggles">
             <button
               class="rate-btn"
-              :class="{ 'is-active': speechState.currentRate === 0.8 }"
-              title="0.8倍速 (雅讀)"
-              @click="setRate(0.8)"
+              :class="{ 'is-active': Math.abs(speechState.currentRate - 0.75) < 0.02 }"
+              title="0.75倍速 (雅正涵泳)"
+              @click="setRate(0.75)"
             >
-              0.8x
+              0.75x
             </button>
             <button
               class="rate-btn"
-              :class="{ 'is-active': speechState.currentRate === 1.0 }"
-              title="1.0倍速 (標準)"
+              :class="{ 'is-active': Math.abs(speechState.currentRate - 1.0) < 0.02 }"
+              title="1.0倍速 (常速研習)"
               @click="setRate(1.0)"
             >
               1.0x
             </button>
             <button
               class="rate-btn"
-              :class="{ 'is-active': speechState.currentRate === 1.2 }"
-              title="1.2倍速 (敏讀)"
-              @click="setRate(1.2)"
+              :class="{ 'is-active': Math.abs(speechState.currentRate - 1.25) < 0.02 }"
+              title="1.25倍速 (流暢通讀)"
+              @click="setRate(1.25)"
             >
-              1.2x
+              1.25x
+            </button>
+            <button
+              class="rate-btn rate-more-btn"
+              :class="{ 'is-active': showSpeedMenu || isCustomRate }"
+              :title="`自訂倍速 (${formattedRate}x)；快捷鍵：[ 減速 / ] 加速`"
+              @click.stop="toggleSpeedMenu"
+            >
+              <span v-if="isCustomRate">{{ formattedRate }}x ▾</span>
+              <span v-else>⏱️ ▾</span>
             </button>
           </div>
 
@@ -272,12 +357,76 @@ onUnmounted(() => {
             class="settings-toggle-btn"
             :class="{ 'is-open': showSettings }"
             title="語音詳細設定"
-            @click="showSettings = !showSettings"
+            @click="toggleSettings"
           >
             ⚙️
           </button>
         </div>
       </div>
+
+      <!-- Speed Menu Popover -->
+      <Transition name="fade-slide">
+        <div v-if="showSpeedMenu" class="speed-menu-popover glass-panel" @click.stop>
+          <div class="speed-menu-header">
+            <div class="speed-menu-title-group">
+              <span class="speed-menu-icon">⏱️</span>
+              <span class="speed-menu-title">誦讀倍速控制</span>
+            </div>
+            <button class="speed-reset-btn" @click="setRate(1.0)" title="恢復 1.0x 標準常速 (快捷鍵 0)">
+              恢復 1.0x
+            </button>
+          </div>
+
+          <!-- Presets grid with classical rhythm annotations -->
+          <div class="speed-presets-grid">
+            <button
+              v-for="preset in SPEED_PRESETS"
+              :key="preset.rate"
+              class="speed-preset-item"
+              :class="{ 'is-active': Math.abs(speechState.currentRate - preset.rate) < 0.02 }"
+              @click="setRate(preset.rate)"
+            >
+              <span class="preset-label">{{ preset.label }}</span>
+              <span class="preset-desc">{{ preset.desc }}</span>
+            </button>
+          </div>
+
+          <!-- Continuous fine-tuning slider -->
+          <div class="speed-slider-section">
+            <div class="speed-slider-header">
+              <span class="slider-hint">連續微調 (0.5x ~ 2.5x)</span>
+              <span class="slider-val-badge">{{ formattedRate }}x</span>
+            </div>
+            <div class="speed-slider-row">
+              <button class="slider-step-btn" @click="changeRateDelta(-0.05)" title="微降 0.05x (快捷鍵 [)">−</button>
+              <div class="speed-slider-wrapper">
+                <input
+                  type="range"
+                  class="speed-slider-input"
+                  min="0.5"
+                  max="2.5"
+                  step="0.05"
+                  :value="speechState.currentRate"
+                  aria-label="精細倍速調節滑桿"
+                  @input="onRateSliderInput"
+                />
+              </div>
+              <button class="slider-step-btn" @click="changeRateDelta(0.05)" title="微升 0.05x (快捷鍵 ])">＋</button>
+            </div>
+          </div>
+
+          <div class="speed-keyboard-hint">
+            <span>快捷鍵：<code>[</code> 減速 · <code>]</code> 加速 · <code>0</code> 重設</span>
+          </div>
+        </div>
+      </Transition>
+
+      <!-- Rate Toast Notification -->
+      <Transition name="toast-fade">
+        <div v-if="rateToast" class="rate-toast-badge">
+          ⚡ 誦讀倍速：{{ rateToast }}
+        </div>
+      </Transition>
 
       <!-- Extended Settings Drawer -->
       <div v-if="showSettings" class="settings-drawer">
@@ -608,6 +757,250 @@ onUnmounted(() => {
   font-weight: var(--fw-semibold);
 }
 
+.rate-more-btn {
+  font-weight: var(--fw-semibold);
+  font-family: var(--font-sans);
+}
+
+/* Speed Menu Popover */
+.speed-menu-popover {
+  position: absolute;
+  bottom: calc(100% + 14px);
+  right: var(--sp-4);
+  width: min(92vw, 320px);
+  padding: var(--sp-4);
+  background: rgba(18, 20, 26, 0.96);
+  backdrop-filter: blur(24px);
+  border: 1px solid var(--c-gold-glow);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.65), 0 0 24px rgba(201, 169, 110, 0.22);
+  border-radius: var(--radius-lg);
+  z-index: 1010;
+}
+
+.speed-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: var(--sp-2);
+  border-bottom: 1px dashed rgba(201, 169, 110, 0.2);
+}
+
+.speed-menu-title-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.speed-menu-icon {
+  font-size: var(--fs-sm);
+}
+
+.speed-menu-title {
+  font-family: var(--font-serif);
+  font-size: var(--fs-sm);
+  color: var(--c-gold-light);
+  font-weight: var(--fw-semibold);
+}
+
+.speed-reset-btn {
+  border: 1px solid var(--c-border-subtle);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--c-text-muted);
+  font-size: 0.72rem;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all var(--duration-fast);
+}
+
+.speed-reset-btn:hover {
+  background: rgba(201, 169, 110, 0.2);
+  border-color: var(--c-gold);
+  color: var(--c-gold-light);
+}
+
+/* Presets Grid */
+.speed-presets-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  margin: var(--sp-3) 0;
+}
+
+.speed-preset-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 2px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--c-border-subtle);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--c-text-secondary);
+  cursor: pointer;
+  transition: all var(--duration-fast);
+}
+
+.speed-preset-item:hover {
+  border-color: var(--c-gold);
+  color: var(--c-gold-light);
+  background: rgba(201, 169, 110, 0.15);
+}
+
+.speed-preset-item.is-active {
+  background: var(--c-gold);
+  color: #12141a;
+  border-color: var(--c-gold);
+  font-weight: var(--fw-bold);
+  box-shadow: 0 0 10px rgba(201, 169, 110, 0.4);
+}
+
+.speed-preset-item.is-active .preset-desc {
+  color: #12141a;
+  opacity: 0.9;
+}
+
+.preset-label {
+  font-size: var(--fs-xs);
+  font-family: var(--font-sans);
+  font-weight: var(--fw-semibold);
+}
+
+.preset-desc {
+  font-size: 0.65rem;
+  color: var(--c-text-muted);
+  margin-top: 1px;
+}
+
+/* Slider Section */
+.speed-slider-section {
+  padding-top: var(--sp-2);
+  border-top: 1px dashed rgba(255, 255, 255, 0.08);
+}
+
+.speed-slider-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.slider-hint {
+  font-size: 0.72rem;
+  color: var(--c-text-muted);
+}
+
+.slider-val-badge {
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-bold);
+  color: var(--c-gold);
+  background: rgba(201, 169, 110, 0.12);
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--c-gold-glow);
+}
+
+.speed-slider-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.slider-step-btn {
+  width: 26px;
+  height: 26px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--c-border-subtle);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--c-text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: var(--fs-xs);
+  font-weight: bold;
+  transition: all var(--duration-fast);
+}
+
+.slider-step-btn:hover {
+  background: var(--c-gold);
+  color: #12141a;
+  border-color: var(--c-gold);
+}
+
+.speed-slider-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.speed-slider-input {
+  width: 100%;
+  accent-color: var(--c-gold);
+  cursor: pointer;
+  height: 4px;
+}
+
+.speed-keyboard-hint {
+  margin-top: var(--sp-3);
+  padding-top: var(--sp-2);
+  border-top: 1px dashed rgba(255, 255, 255, 0.06);
+  font-size: 0.68rem;
+  color: var(--c-text-muted);
+  text-align: center;
+}
+
+.speed-keyboard-hint code {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--c-gold-light);
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+/* Rate Toast Badge */
+.rate-toast-badge {
+  position: absolute;
+  bottom: calc(100% + 14px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  background: rgba(18, 20, 26, 0.95);
+  border: 1px solid var(--c-gold);
+  color: var(--c-gold-light);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-bold);
+  font-family: var(--font-sans);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6), 0 0 14px rgba(201, 169, 110, 0.35);
+  pointer-events: none;
+  z-index: 1020;
+}
+
+/* Popover & Toast Transitions */
+.fade-slide-enter-active,
+.fade-slide-leave-active {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.fade-slide-enter-from,
+.fade-slide-leave-to {
+  opacity: 0;
+  transform: translateY(10px) scale(0.96);
+}
+
+.toast-fade-enter-active,
+.toast-fade-leave-active {
+  transition: all 0.2s ease;
+}
+
+.toast-fade-enter-from,
+.toast-fade-leave-to {
+  opacity: 0;
+  transform: translate(-50%, 6px);
+}
+
 .settings-toggle-btn {
   border: none;
   background: transparent;
@@ -687,6 +1080,12 @@ onUnmounted(() => {
   .player-options {
     width: 100%;
     justify-content: space-between;
+  }
+  .speed-menu-popover {
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: calc(100% - 16px);
   }
 }
 </style>
