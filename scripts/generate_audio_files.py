@@ -63,6 +63,17 @@ PHONETIC_CORRECTIONS = [
     (r"風吹草低見牛羊", "風吹草低現牛羊"),
     # 冥 -> 溟 (míng)
     (r"北冥有魚", "北溟有魚"),
+    # 中 -> 仲 (zhòng)
+    (r"發而皆中節", "發而皆仲節"),
+    (r"中庸之為德也", "中庸之為德也"),
+    # 乘 -> 盛 (shèng)
+    (r"道千乘之國", "道千盛之國"),
+    (r"萬乘之國", "萬盛之國"),
+    (r"百乘之家", "百盛之家"),
+    # 為政 -> 圍政 (wéi)
+    (r"為政以德", "圍政以德"),
+    # 朝 -> 昭 (zhāo)
+    (r"朝聞道", "昭聞道"),
 ]
 
 def apply_phonetic_corrections(text: str) -> str:
@@ -125,9 +136,9 @@ async def generate_single_audio(passage_id: str, canonical_text: str, out_path: 
     
     # 嚴格時長把關（每個段落控制在 2 分鐘以內）
     if duration > 120.0:
-        print(f"⚠️ [警告] 段落 {passage_id} 時長為 {duration}s，超過 2 分鐘限制！")
+        print(f"⚠️ [警告] 段落 {passage_id} 時長為 {duration}s，超過 2 分鐘限制！", flush=True)
     else:
-        print(f"✅ [成功] {passage_id} ({len(canonical_text)}字) -> {duration}s, 大小: {file_size/1024:.1f}KB")
+        print(f"✅ [成功] {passage_id} ({len(canonical_text)}字) -> {duration}s, 大小: {file_size/1024:.1f}KB", flush=True)
         
     return {
         "passageId": passage_id,
@@ -161,9 +172,11 @@ async def main():
     target_tasks = [
         {"workId": "dao-de-jing", "desc": "《道德經》八十一章全文語音檔", "allChapters": True},
         {"workId": "da-xue", "desc": "《大學》經一章傳十章全文語音檔", "allChapters": True},
-        {"workId": "lun-yu", "desc": "《論語》學而第一篇全文語音檔", "chapters": ["lun-yu_ch-1"]},
-        {"workId": "art-of-war", "desc": "《孫子兵法》始計第一篇全文語音檔", "chapters": ["art-of-war_ch-1"]},
-        {"workId": "gu-wen-guan-zhi", "desc": "《古文觀止》名篇語音檔", "chapters": ["gu-wen-guan-zhi_ch-1"]},
+        {"workId": "zhong-yong", "desc": "《中庸》三十三章全文語音檔", "allChapters": True},
+        {"workId": "art-of-war", "desc": "《孫子兵法》十三篇全本語音檔", "allChapters": True},
+        {"workId": "jian-zhu-ke-shu", "desc": "《諫逐客書》全文駢散語音檔", "allChapters": True},
+        {"workId": "lun-yu", "desc": "《論語》核心名篇全文語音檔", "chapters": ["lun-yu_ch-1", "lun-yu_ch-2", "lun-yu_ch-4"]},
+        {"workId": "gu-wen-guan-zhi", "desc": "《古文觀止》卷一名篇語音檔", "chapters": ["gu-wen-guan-zhi_ch-1", "gu-wen-guan-zhi_ch-2", "gu-wen-guan-zhi_ch-3"]},
     ]
 
     manifest = {}
@@ -176,7 +189,7 @@ async def main():
         if not work_dir.exists():
             continue
         
-        print(f"\n--- 正在生成: {task['desc']} ---")
+        print(f"\n--- 正在生成: {task['desc']} ---", flush=True)
         chunk_files = sorted(work_dir.glob("*.ts"))
         
         for cf in chunk_files:
