@@ -262,6 +262,29 @@ const chunkGroups = computed<ChunkGroup[]>(() => {
       <span class="hint-text hint-missing">（無句意提示）</span>
     </div>
 
+    <!-- Compact Action Bar when Aid is hidden (skeleton, first-char, blank) -->
+    <div v-if="!showAid" class="sentence-compact-bar">
+      <button
+        type="button"
+        class="btn-speech-toggle"
+        :class="{ 'is-speaking': isAudioSpeaking }"
+        @click="playSentenceAudio"
+        :title="isAudioSpeaking ? '暫停誦讀' : '語音誦讀本句'"
+      >
+        <span v-if="isAudioSpeaking">⏸ 誦讀中</span>
+        <span v-else>🔊 誦讀本句</span>
+      </button>
+      <button
+        v-if="hasPronunciation && !isAllMasked"
+        class="btn-pinyin-toggle"
+        :class="{ 'is-active': pronunciationMode !== 'off' }"
+        @click="cyclePronunciation"
+        title="切換注音、拼音標註"
+      >
+        標音: {{ pronunciationMode === 'off' ? '關' : pronunciationMode === 'pinyin' ? '拼音' : '注音' }}
+      </button>
+    </div>
+
     <!-- Sentence text -->
     <div class="sentence-text classical-text" :class="{ 'all-masked-state': isAllMasked, 'has-pinyin-rt': pronunciationMode !== 'off' && activePronunciationText && !isAllMasked }">
       <template v-if="pronunciationMode !== 'off' && activePronunciationText && !isAllMasked">
@@ -692,5 +715,12 @@ const chunkGroups = computed<ChunkGroup[]>(() => {
   bottom: 12px;
   left: 12px;
   right: auto;
+}
+
+.sentence-compact-bar {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-3);
 }
 </style>

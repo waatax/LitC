@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue'
+import { computed, onMounted, onUnmounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useGamificationStore, RANKS } from '@/stores/gamification'
 import { getDueCardIds, getAllCardStates } from '@/data/db'
 import { catalogWorks, catalogChapters } from '@/data/catalog'
+import { speechService } from '@/services/speech'
 
 const router = useRouter()
 const gamification = useGamificationStore()
@@ -243,6 +244,23 @@ function resetQuiz() {
 function goToText() {
   router.push(currentMission.targetRoute)
 }
+
+const isQuoteSpeaking = computed(() => {
+  return speechService.state.currentPassageId === currentMission.id && speechService.state.isPlaying && !speechService.state.isPaused
+})
+
+function playMissionQuote() {
+  speechService.speakPassage(currentMission.id, currentMission.quote, 'canonical', {
+    workTitle: currentMission.title,
+    chapterTitle: currentMission.title,
+    canonicalText: currentMission.quote,
+    vernacularText: currentMission.translation,
+  })
+}
+
+onUnmounted(() => {
+  speechService.stop()
+})
 </script>
 
 <template>
@@ -282,6 +300,18 @@ function goToText() {
         <article class="reading-panel">
           <div class="panel-label"><span>先讀這一句</span><button @click="goToText">讀完整篇 →</button></div>
           <blockquote>{{ currentMission.quote }}</blockquote>
+          <div class="today-quote-audio-bar">
+            <button
+              type="button"
+              class="today-audio-btn"
+              :class="{ 'is-playing': isQuoteSpeaking }"
+              :title="isQuoteSpeaking ? '暫停朗讀' : '聆聽經文原句雅正朗讀'"
+              @click="playMissionQuote"
+            >
+              <span v-if="isQuoteSpeaking">⏸ 暫停誦讀</span>
+              <span v-else>🔊 聆聽經典誦讀</span>
+            </button>
+          </div>
           <div class="translation">
             <span class="lightbulb">解</span>
             <p><strong>白話通譯：</strong>{{ currentMission.translation }}</p>
@@ -441,5 +471,34 @@ function goToText() {
   .stats-grid { grid-template-columns: 1fr; }
   .due-works { flex-direction: column; }
   .due-work-card { width: 100%; justify-content: space-between; }
+}
+
+.today-quote-audio-bar {
+  margin: 10px 0 16px;
+}
+
+.today-audio-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  background: rgba(201, 169, 110, 0.12);
+  border: 1px solid var(--c-gold);
+  color: var(--c-gold-light);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.today-audio-btn:hover {
+  background: var(--c-gold);
+  color: #1a1612;
+}
+
+.today-audio-btn.is-playing {
+  background: var(--c-gold);
+  color: #1a1612;
+  font-weight: bold;
 }
 </style>

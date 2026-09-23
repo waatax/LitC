@@ -51,8 +51,32 @@ export const useAppStore = defineStore('app', () => {
     html.classList.toggle('light-theme', isLight)
     html.classList.toggle('theme-dark', !isLight)
     html.style.colorScheme = isLight ? 'light' : 'dark'
-    
     localStorage.setItem('litc-theme', themeId)
+  }
+
+  // Glassmorphism effect state (true: frosted glass with backdrop blur, false: clean reading / fast performance)
+  const glassEffect = ref(typeof localStorage !== 'undefined' ? localStorage.getItem('litc-glass-effect') !== 'false' : true)
+
+  const applyGlassEffect = (enabled: boolean) => {
+    glassEffect.value = enabled
+    if (typeof document !== 'undefined') {
+      const html = document.documentElement
+      html.classList.toggle('no-glass', !enabled)
+      html.dataset.glass = enabled ? 'true' : 'false'
+    }
+    if (typeof localStorage !== 'undefined') {
+      localStorage.setItem('litc-glass-effect', String(enabled))
+    }
+  }
+
+  const toggleGlassEffect = (enable?: boolean) => {
+    const nextVal = typeof enable === 'boolean' ? enable : !glassEffect.value
+    applyGlassEffect(nextVal)
+  }
+
+  // Initial apply of glass effect
+  if (typeof document !== 'undefined') {
+    applyGlassEffect(glassEffect.value)
   }
 
   return {
@@ -63,6 +87,9 @@ export const useAppStore = defineStore('app', () => {
     isVertical,
     toggleVertical,
     currentTheme,
-    setTheme
+    setTheme,
+    glassEffect,
+    toggleGlassEffect,
+    applyGlassEffect
   }
 })

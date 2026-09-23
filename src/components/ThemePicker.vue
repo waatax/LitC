@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted, watch } from 'vue'
+import { useAppStore } from '@/stores/app'
+
+const appStore = useAppStore()
 
 const props = defineProps<{
   modelValue: string
@@ -134,6 +137,23 @@ onUnmounted(() => {
           ✓
         </div>
       </button>
+
+      <div class="theme-picker-divider" role="separator"></div>
+
+      <button
+        type="button"
+        class="glass-toggle-row"
+        :class="{ 'is-clean-mode': !appStore.glassEffect }"
+        :title="appStore.glassEffect ? '切換為簡約易讀・極速載入版（關閉毛玻璃）' : '切換為典雅毛玻璃效果'"
+        @click="appStore.toggleGlassEffect()"
+      >
+        <span class="glass-row-icon">{{ appStore.glassEffect ? '✨' : '⚡' }}</span>
+        <div class="glass-row-text">
+          <span class="glass-row-title font-serif">{{ appStore.glassEffect ? '毛玻璃質感' : '簡約極速模式' }}</span>
+          <span class="glass-row-desc">{{ appStore.glassEffect ? '點擊關閉毛玻璃 (極速載入)' : '點擊開啟毛玻璃質感' }}</span>
+        </div>
+        <span class="glass-row-badge">{{ appStore.glassEffect ? '開' : '極速' }}</span>
+      </button>
     </div>
   </Transition>
 </template>
@@ -207,6 +227,67 @@ onUnmounted(() => {
 .theme-check {
   font-weight: bold;
   font-size: var(--fs-lg);
+}
+
+.theme-picker-divider {
+  height: 1px;
+  background: var(--c-border);
+  margin: var(--sp-1) 0;
+}
+
+.glass-toggle-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-2) var(--sp-3);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--c-border);
+  background: color-mix(in srgb, var(--c-bg-primary) 40%, transparent);
+  color: var(--c-text-primary);
+  cursor: pointer;
+  text-align: left;
+  transition: all var(--duration-fast) var(--ease-out);
+}
+
+.glass-toggle-row:hover {
+  background: var(--c-gold-glow);
+  border-color: var(--c-gold);
+}
+
+.glass-toggle-row.is-clean-mode {
+  border-color: var(--c-gold);
+  background: var(--c-gold-glow);
+}
+
+.glass-row-icon {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.glass-row-text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.glass-row-title {
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-semibold);
+  color: var(--c-text-primary);
+}
+
+.glass-row-desc {
+  font-size: 0.7rem;
+  color: var(--c-text-secondary);
+}
+
+.glass-row-badge {
+  font-size: 0.65rem;
+  padding: 2px 6px;
+  border-radius: var(--radius-full);
+  background: var(--c-border-accent);
+  color: var(--c-gold);
+  font-weight: var(--fw-semibold);
 }
 
 /* Slide down transition */

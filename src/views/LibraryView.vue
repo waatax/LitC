@@ -21,6 +21,17 @@ const allSchools = ref<School[]>(getSchools())
 const allWorks = ref<Work[]>(catalogWorks)
 const workChapters = ref<Map<string, Chapter[]>>(new Map())
 
+// 配備實體名家錄音檔之經典（其餘典籍皆 100% 配備古典正音 TTS）
+const PHYSICAL_AUDIO_WORKS = new Set([
+  'dao-de-jing',
+  'da-xue',
+  'zhong-yong',
+  'art-of-war',
+  'jian-zhu-ke-shu',
+  'lun-yu',
+  'gu-wen-guan-zhi',
+])
+
 function checkQueryFilter() {
   const schoolParam = route.query.school as string
   const workParam = route.query.work as string
@@ -211,7 +222,7 @@ function triggerSearch() {
     <header class="page-header" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
       <div>
         <h1 class="page-title">典籍庫</h1>
-        <p class="page-desc">先秦經典文本，按學派分類</p>
+        <p class="page-desc">先秦經典文本，按學派分類 · <span class="audio-all-indicator">🎙️ 51 部文庫 100% 逐段經典朗讀支援</span></p>
       </div>
       <button class="btn btn-ghost" style="border: 1px solid var(--c-border-gold-glow, rgba(201, 169, 110, 0.3)); border-radius: 20px; padding: 6px 16px; font-size: 0.875rem;" @click="triggerSearch">
         🔍 搜尋全站文庫 (Ctrl+K)
@@ -260,8 +271,11 @@ function triggerSearch() {
               {{ GENRE_STRATEGY_META[work.genreStrategy]?.icon || '📖' }}
               {{ GENRE_STRATEGY_META[work.genreStrategy]?.label || '經典' }}
             </span>
-            <span v-if="['dao-de-jing', 'da-xue', 'zhong-yong', 'art-of-war'].includes(work.id)" class="audio-supported-badge badge">
-              🎙️ 逐段語音
+            <span v-if="PHYSICAL_AUDIO_WORKS.has(work.id)" class="audio-supported-badge badge" title="配備名家實體錄音朗讀，兼具智能正音">
+              🎙️ 典藏原音
+            </span>
+            <span v-else class="audio-tts-badge badge" title="支援 100% 逐段智能古典音韻朗讀">
+              🔊 雅正誦讀
             </span>
           </div>
           <div class="work-stats">
@@ -606,12 +620,26 @@ function triggerSearch() {
 }
 
 .audio-supported-badge {
-  background: rgba(201, 169, 110, 0.12);
+  background: rgba(201, 169, 110, 0.15);
   color: var(--c-gold-light);
   border: 1px solid var(--c-gold);
   font-size: var(--fs-xs);
   font-weight: var(--fw-semibold);
   letter-spacing: 0.02em;
+}
+
+.audio-tts-badge {
+  background: rgba(91, 138, 114, 0.12);
+  color: #7ab89b;
+  border: 1px solid rgba(91, 138, 114, 0.4);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-medium);
+  letter-spacing: 0.02em;
+}
+
+.audio-all-indicator {
+  color: var(--c-gold-light);
+  font-weight: var(--fw-medium);
 }
 
 .work-stats {

@@ -67,6 +67,22 @@ const currentThemeSwatch = computed(() => themeColors[appStore.currentTheme] || 
       />
     </div>
 
+    <!-- 視覺風格切換：毛玻璃質感 / 簡約易讀極速版 -->
+    <button
+      class="display-control glass-toggle-btn"
+      :class="{ 'is-clean-mode': !appStore.glassEffect }"
+      type="button"
+      :aria-pressed="!appStore.glassEffect"
+      :aria-label="appStore.glassEffect ? '當前為毛玻璃質感，點擊切換為「簡約易讀・極速載入版」' : '當前為簡約易讀版，點擊切換回「毛玻璃質感版」'"
+      :title="appStore.glassEffect ? '切換為簡約易讀・極速載入版（關閉毛玻璃）' : '切換為典雅毛玻璃效果'"
+      @click="appStore.toggleGlassEffect()"
+    >
+      <span class="glass-btn-content">
+        <span class="mode-icon">{{ appStore.glassEffect ? '✨' : '⚡' }}</span>
+        <span class="mode-label">{{ appStore.glassEffect ? '毛玻璃' : '簡約' }}</span>
+      </span>
+    </button>
+
     <div class="font-size-controls" role="group" aria-label="文字大小">
       <button
         v-for="option in (['small', 'medium', 'large'] as FontSize[])"
@@ -148,6 +164,50 @@ const currentThemeSwatch = computed(() => themeColors[appStore.currentTheme] || 
 .font-control:nth-child(2) { font-size: 0.95rem; }
 .font-control:nth-child(3) { font-size: 1.15rem; }
 
+.glass-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 0.625rem;
+  border-radius: var(--radius-full);
+  color: var(--c-text-secondary);
+  border: 1px solid var(--c-border);
+  background: color-mix(in srgb, var(--c-bg-primary) 50%, transparent);
+  cursor: pointer;
+  user-select: none;
+  transition: all var(--duration-fast) var(--ease-out);
+}
+
+.glass-toggle-btn:hover {
+  color: var(--c-gold);
+  border-color: var(--c-gold);
+  background: var(--c-gold-glow);
+}
+
+.glass-toggle-btn.is-clean-mode {
+  color: var(--c-gold);
+  border-color: var(--c-gold);
+  background: var(--c-gold-glow);
+  box-shadow: 0 0 8px var(--c-gold-glow);
+}
+
+.glass-btn-content {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.mode-icon {
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+.mode-label {
+  font-size: 0.75rem;
+  font-family: var(--font-sans);
+  font-weight: var(--fw-medium);
+}
+
 @media (max-width: 768px) {
   .display-controls {
     top: max(0.625rem, env(safe-area-inset-top));
@@ -157,6 +217,16 @@ const currentThemeSwatch = computed(() => themeColors[appStore.currentTheme] || 
   }
 
   .display-control {
+    min-width: 2rem;
+    min-height: 2rem;
+  }
+
+  .mode-label {
+    display: none;
+  }
+
+  .glass-toggle-btn {
+    padding: 0.25rem;
     min-width: 2rem;
     min-height: 2rem;
   }

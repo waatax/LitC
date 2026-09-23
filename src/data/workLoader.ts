@@ -1,8 +1,39 @@
 import type { Work, Chapter, Passage, Sentence, ChapterBundle, WorkBundle } from '@/types/content'
 import { catalogWorks, catalogChapters } from './catalog'
 import { chapterImports, workChapterMap } from './workImportManifest'
+import { STRUCTURED_ANNOTATIONS } from './structuredAnnotations'
 
 export type { WorkBundle, ChapterBundle }
+
+function normalizeText(text: string): string {
+  return (text || '').replace(/[\s\p{P}\p{S}]/gu, '')
+}
+
+const annotationEntries = Object.entries(STRUCTURED_ANNOTATIONS).map(([rawKey, val]) => ({
+  normKey: normalizeText(rawKey),
+  val
+}))
+
+function findStructuredAnnotation(sentenceText: string) {
+  const norm = normalizeText(sentenceText)
+  if (!norm || norm.length < 4) return undefined
+
+  // 1. Exact match on normalized text
+  const exact = annotationEntries.find(e => e.normKey === norm)
+  if (exact) return exact.val
+
+  // 2. Sentence is a substantial subclause of an annotation
+  if (norm.length >= 6) {
+    const parent = annotationEntries.find(e => e.normKey.includes(norm))
+    if (parent) return parent.val
+  }
+
+  // 3. Annotation is a substantial subclause of a sentence
+  const child = annotationEntries.find(e => e.normKey.length >= 6 && norm.includes(e.normKey))
+  if (child) return child.val
+
+  return undefined
+}
 
 export interface ChapterContent {
   work: Work
@@ -31,7 +62,20 @@ export async function loadChapterBundle(chapterId: string): Promise<ChapterBundl
   if (!importer) return null
 
   const promise = importer()
-    .then(module => module.default)
+    .then(module => {
+      const bundle = module.default
+      if (bundle && bundle.sentences) {
+        for (const s of bundle.sentences) {
+          if (!s.structuredTranslation) {
+            const match = findStructuredAnnotation(s.canonicalText)
+            if (match) {
+              s.structuredTranslation = match
+            }
+          }
+        }
+      }
+      return bundle
+    })
     .catch(err => {
       console.error(`Failed to load chapter chunk ${chapterId}:`, err)
       chapterCache.delete(chapterId)

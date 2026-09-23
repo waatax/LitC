@@ -976,6 +976,114 @@ textarea:focus-visible,
   }
 }
 
+/* ═══════════════════════════════════════════════════════
+   簡約易讀・極速載入模式 (關閉毛玻璃效果)
+   Clean Reading & High-Performance Mode (No-Glass)
+   ═══════════════════════════════════════════════════════ */
+html.no-glass,
+html[data-glass="false"] {
+  --c-glass-blur: none !important;
+  --c-glass-shadow: var(--shadow-sm) !important;
+  --c-glass-glow: none !important;
+  --c-glass-bg: var(--c-bg-elevated) !important;
+  --c-glass-bg-hover: var(--c-bg-secondary) !important;
+  --c-glass-readable-bg: var(--c-bg-elevated) !important;
+  --c-glass-readable-hover: var(--c-bg-secondary) !important;
+}
+
+/* 全域徹底移除所有毛玻璃模糊濾鏡與半透明渲染消耗 */
+html.no-glass .glass-card,
+html.no-glass .glass-card-elevated,
+html.no-glass .display-controls,
+html.no-glass .theme-picker,
+html.no-glass .nav-sidebar,
+html.no-glass .sidebar,
+html.no-glass .mobile-tab-bar,
+html.no-glass .mobile-more-sheet,
+html.no-glass .mobile-more-backdrop,
+html.no-glass .audio-player-bar,
+html.no-glass .player-glass,
+html.no-glass .search-modal-backdrop,
+html.no-glass .search-modal,
+html.no-glass .dictionary-backdrop,
+html.no-glass .annotation-layer,
+html.no-glass .memorize-container,
+html.no-glass [class*="glass"],
+html[data-glass="false"] .glass-card,
+html[data-glass="false"] .glass-card-elevated,
+html[data-glass="false"] .display-controls,
+html[data-glass="false"] .theme-picker,
+html[data-glass="false"] .nav-sidebar,
+html[data-glass="false"] .sidebar,
+html[data-glass="false"] .mobile-tab-bar,
+html[data-glass="false"] .mobile-more-sheet,
+html[data-glass="false"] .mobile-more-backdrop,
+html[data-glass="false"] .audio-player-bar,
+html[data-glass="false"] .player-glass,
+html[data-glass="false"] .search-modal-backdrop,
+html[data-glass="false"] .search-modal,
+html[data-glass="false"] .dictionary-backdrop,
+html[data-glass="false"] .annotation-layer,
+html[data-glass="false"] .memorize-container,
+html[data-glass="false"] [class*="glass"] {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* 簡約實體卡片：高對比清晰文字，去除漫射光與透明折射 */
+html.no-glass .glass-card,
+html.no-glass .glass-card-elevated,
+html[data-glass="false"] .glass-card,
+html[data-glass="false"] .glass-card-elevated {
+  background: var(--c-bg-elevated) !important;
+  border: 1px solid var(--c-border) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+html.no-glass .glass-card:hover,
+html.no-glass .glass-card-elevated:hover,
+html[data-glass="false"] .glass-card:hover,
+html[data-glass="false"] .glass-card-elevated:hover {
+  background: var(--c-bg-secondary) !important;
+  border-color: var(--c-border-accent) !important;
+  box-shadow: var(--shadow-md) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* 控制面板與導航實色化 */
+html.no-glass .display-controls,
+html[data-glass="false"] .display-controls {
+  background: var(--c-bg-elevated) !important;
+  border-color: var(--c-border-accent) !important;
+  box-shadow: var(--shadow-md) !important;
+}
+
+html.no-glass .theme-picker,
+html[data-glass="false"] .theme-picker {
+  background: var(--c-bg-elevated) !important;
+  box-shadow: var(--shadow-lg) !important;
+}
+
+html.no-glass .audio-player-bar,
+html[data-glass="false"] .audio-player-bar {
+  background: var(--c-bg-primary) !important;
+  border-top: 1px solid var(--c-border-accent) !important;
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.4) !important;
+}
+
+html.no-glass.theme-xuan .audio-player-bar,
+html.no-glass.theme-celadon .audio-player-bar,
+html[data-glass="false"].theme-xuan .audio-player-bar,
+html[data-glass="false"].theme-celadon .audio-player-bar {
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* 簡約極速易讀：關閉背景畫布多餘繪製，省電並達到零卡頓載入 */
+html.no-glass .ink-canvas,
+html[data-glass="false"] .ink-canvas {
+  display: none !important;
+}
+
 /* Custom Scrollbar for LitC ClassicFlow */
 * {
   scrollbar-width: thin;

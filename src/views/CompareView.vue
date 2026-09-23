@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, onUnmounted } from 'vue'
 import { useRouter } from 'vue-router'
 import type { SchoolId } from '@/types/content'
 import SchoolBadge from '@/components/SchoolBadge.vue'
+import { speechService } from '@/services/speech'
 
 const router = useRouter()
 
@@ -178,6 +179,23 @@ const currentTheme = computed(() => {
 function goToChapter(chapterId: string) {
   router.push(`/chapter/${chapterId}`)
 }
+
+function isSpeaking(id: string) {
+  return speechService.state.currentPassageId === id && speechService.state.isPlaying && !speechService.state.isPaused
+}
+
+function playQuote(item: CompareItem) {
+  speechService.speakPassage(item.chapterId, item.quote, 'canonical', {
+    workTitle: item.workTitle,
+    chapterTitle: item.chapterTitle,
+    canonicalText: item.quote,
+    vernacularText: item.translation,
+  })
+}
+
+onUnmounted(() => {
+  speechService.stop()
+})
 </script>
 
 <template>
@@ -240,6 +258,18 @@ function goToChapter(chapterId: string) {
 
         <blockquote class="quote-box">
           <p class="classical-text">{{ item.quote }}</p>
+          <div class="compare-audio-row">
+            <button
+              type="button"
+              class="compare-audio-btn"
+              :class="{ 'is-playing': isSpeaking(item.chapterId) }"
+              :title="isSpeaking(item.chapterId) ? '暫停朗讀' : '聆聽經典原文朗讀'"
+              @click="playQuote(item)"
+            >
+              <span v-if="isSpeaking(item.chapterId)">⏸ 暫停</span>
+              <span v-else>🔊 誦讀經文</span>
+            </button>
+          </div>
         </blockquote>
 
         <div class="translation-box">
@@ -444,5 +474,36 @@ function goToChapter(chapterId: string) {
   .compare-grid {
     grid-template-columns: 1fr;
   }
+}
+
+.compare-audio-row {
+  margin-top: var(--sp-2);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.compare-audio-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 12px;
+  border-radius: 14px;
+  font-size: var(--fs-xs);
+  background: rgba(201, 169, 110, 0.12);
+  border: 1px solid var(--c-gold);
+  color: var(--c-gold-light);
+  cursor: pointer;
+  transition: all var(--duration-fast, 0.15s) ease;
+}
+
+.compare-audio-btn:hover {
+  background: var(--c-gold);
+  color: #1a1612;
+}
+
+.compare-audio-btn.is-playing {
+  background: var(--c-gold);
+  color: #1a1612;
+  font-weight: bold;
 }
 </style>

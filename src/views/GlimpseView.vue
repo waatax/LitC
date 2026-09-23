@@ -9,9 +9,34 @@ import { schools } from '@/data/schools'
 
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import RedSeal from '@/components/RedSeal.vue'
+import AudioPlayerBar from '@/components/AudioPlayerBar.vue'
+import { speechService, type SpeechMode } from '@/services/speech'
 
 const router = useRouter()
 const mounted = ref(false)
+const speechState = speechService.state
+
+function playGlimpsePassage(passage: Passage, mode: SpeechMode = 'canonical') {
+  if (!currentGlimpse.value) return
+  const textToRead = mode === 'canonical'
+    ? passage.canonicalText
+    : (currentGlimpse.value.passageAids.get(passage.id)?.translation || passage.canonicalText)
+
+  speechService.speakPassage(passage.id, textToRead, mode, {
+    workTitle: currentGlimpse.value.work.title,
+    chapterTitle: currentGlimpse.value.chapter.title,
+    canonicalText: passage.canonicalText,
+    vernacularText: currentGlimpse.value.passageAids.get(passage.id)?.translation,
+  })
+}
+
+function isGlimpseSpeaking(passageId: string) {
+  return speechState.currentPassageId === passageId && speechState.isPlaying && !speechState.isPaused
+}
+
+onUnmounted(() => {
+  speechService.stop()
+})
 
 export interface GlimpseItem {
   work: Work
@@ -343,7 +368,31 @@ onUnmounted(() => {
           <div v-for="(p, pIdx) in currentGlimpse.passages" :key="p.id" class="passage-parallel-row">
             <!-- Left Column: Classical Text -->
             <div class="classical-col">
-              <div class="passage-num">第 {{ pIdx + 1 }} 段</div>
+              <div class="passage-num-bar">
+                <span class="passage-num">第 {{ pIdx + 1 }} 段</span>
+                <div class="glimpse-audio-actions">
+                  <button
+                    type="button"
+                    class="glimpse-audio-btn"
+                    :class="{ 'is-playing': isGlimpseSpeaking(p.id) }"
+                    :title="isGlimpseSpeaking(p.id) ? '暫停朗讀' : (speechService.hasAudioFile(p.id) ? '朗讀本段（🎙️ 名家原音）' : '朗讀本段（🔊 智能正音）')"
+                    @click="playGlimpsePassage(p, 'canonical')"
+                  >
+                    <span v-if="isGlimpseSpeaking(p.id)">⏸ 暫停</span>
+                    <span v-else-if="speechService.hasAudioFile(p.id)">🎙️ 原音</span>
+                    <span v-else>🔊 誦讀</span>
+                  </button>
+                  <button
+                    v-if="currentGlimpse.passageAids.get(p.id)?.translation"
+                    type="button"
+                    class="glimpse-audio-btn secondary"
+                    title="朗讀白話譯文"
+                    @click="playGlimpsePassage(p, 'vernacular')"
+                  >
+                    🎧 白話
+                  </button>
+                </div>
+              </div>
               <p class="classical-text">{{ p.canonicalText }}</p>
             </div>
 
@@ -374,6 +423,28 @@ onUnmounted(() => {
           <div v-for="(p, pIdx) in currentGlimpse.passages" :key="p.id" class="passage-stacked-card">
             <div class="passage-stacked-header">
               <span class="passage-badge">第 {{ pIdx + 1 }} 段</span>
+              <div class="glimpse-audio-actions">
+                <button
+                  type="button"
+                  class="glimpse-audio-btn"
+                  :class="{ 'is-playing': isGlimpseSpeaking(p.id) }"
+                  :title="isGlimpseSpeaking(p.id) ? '暫停朗讀' : (speechService.hasAudioFile(p.id) ? '朗讀本段（🎙️ 名家原音）' : '朗讀本段（🔊 智能正音）')"
+                  @click="playGlimpsePassage(p, 'canonical')"
+                >
+                  <span v-if="isGlimpseSpeaking(p.id)">⏸ 暫停</span>
+                  <span v-else-if="speechService.hasAudioFile(p.id)">🎙️ 原音朗讀</span>
+                  <span v-else>🔊 原文誦讀</span>
+                </button>
+                <button
+                  v-if="currentGlimpse.passageAids.get(p.id)?.translation"
+                  type="button"
+                  class="glimpse-audio-btn secondary"
+                  title="朗讀白話釋義"
+                  @click="playGlimpsePassage(p, 'vernacular')"
+                >
+                  🎧 白話朗讀
+                </button>
+              </div>
             </div>
 
             <div class="classical-text-box">
@@ -399,6 +470,7 @@ onUnmounted(() => {
         </div>
       </section>
     </main>
+    <AudioPlayerBar />
   </div>
 </template>
 
@@ -998,5 +1070,55 @@ onUnmounted(() => {
   font-size: var(--fs-sm);
   line-height: 1.75;
   color: var(--c-text-primary);
+}
+
+/* ── Glimpse Audio Recitation Controls ── */
+.passage-num-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--sp-2);
+}
+
+.glimpse-audio-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.glimpse-audio-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 14px;
+  font-size: var(--fs-xs);
+  background: rgba(201, 169, 110, 0.12);
+  border: 1px solid var(--c-gold);
+  color: var(--c-gold-light);
+  cursor: pointer;
+  transition: all var(--duration-fast, 0.15s) ease;
+}
+
+.glimpse-audio-btn:hover {
+  background: var(--c-gold);
+  color: #1a1612;
+}
+
+.glimpse-audio-btn.is-playing {
+  background: var(--c-gold);
+  color: #1a1612;
+  font-weight: bold;
+}
+
+.glimpse-audio-btn.secondary {
+  background: rgba(91, 138, 114, 0.12);
+  border-color: rgba(91, 138, 114, 0.4);
+  color: #7ab89b;
+}
+
+.glimpse-audio-btn.secondary:hover {
+  background: #5b8a72;
+  color: #fff;
 }
 </style>

@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue'
+import { useAppStore } from '@/stores/app'
 
+const appStore = useAppStore()
 const canvasRef = ref<HTMLCanvasElement | null>(null)
 
 interface InkParticle {
@@ -65,6 +67,7 @@ function handleResize(canvas: HTMLCanvasElement) {
 }
 
 function spawnParticle(x: number, y: number, isClick = false) {
+  if (!appStore.glassEffect) return
   const baseColor = getInkColor()
   const pCount = isClick ? Math.floor(Math.random() * 6 + 6) : (Math.random() * 2 + 1)
   for (let i = 0; i < pCount; i++) {
@@ -142,6 +145,15 @@ onMounted(() => {
   if (!ctx) return
 
   function animate() {
+    if (!appStore.glassEffect) {
+      if (particles.value.length > 0) {
+        particles.value = []
+        ctx!.clearRect(0, 0, canvas!.width, canvas!.height)
+      }
+      animationId = requestAnimationFrame(animate)
+      return
+    }
+
     ctx!.clearRect(0, 0, canvas!.width, canvas!.height)
 
     // Update and draw particles

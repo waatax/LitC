@@ -6,10 +6,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run audit:traditional && vue-tsc -b && vite build",
+    "build": "npm run audit:traditional && npm run audit:audio && vue-tsc -b && vite build",
     "deploy": "npm run build && gh-pages -d dist",
     "preview": "vite preview",
     "audit:traditional": "node scripts/audit_traditional_chinese.js",
+    "audit:audio": "node scripts/audit_audio_recitation.cjs",
     "normalize:traditional": "node scripts/normalize_traditional_chinese.js"
   },
   "dependencies": {
