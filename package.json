@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run audit:traditional && npm run audit:audio && vue-tsc -b && vite build",
-    "deploy": "npm run build && gh-pages -d dist",
+    "deploy": "node scripts/deploy.mjs",
     "preview": "vite preview",
     "audit:traditional": "node scripts/audit_traditional_chinese.js",
     "audit:audio": "node scripts/audit_audio_recitation.cjs",
