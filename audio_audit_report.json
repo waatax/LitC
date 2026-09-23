@@ -1,0 +1,372 @@
+{
+  "auditTimestamp": "2026-09-23T00:15:55.853Z",
+  "totalWorks": 51,
+  "totalChapters": 1131,
+  "totalPassages": 10896,
+  "passagesWithPhysicalAudio": 286,
+  "passagesWithTtsAudio": 10610,
+  "totalRecitationCovered": 10896,
+  "coveragePercent": 100,
+  "workStats": {
+    "art-of-war": {
+      "workId": "art-of-war",
+      "totalPassages": 70,
+      "physicalAudioCount": 70,
+      "ttsAudioCount": 0,
+      "totalChars": 7381
+    },
+    "cai-gen-tan": {
+      "workId": "cai-gen-tan",
+      "totalPassages": 366,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 366,
+      "totalChars": 16219
+    },
+    "chun-qiu": {
+      "workId": "chun-qiu",
+      "totalPassages": 242,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 242,
+      "totalChars": 13448
+    },
+    "chun-qiu-zuo-zhuan": {
+      "workId": "chun-qiu-zuo-zhuan",
+      "totalPassages": 357,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 357,
+      "totalChars": 14234
+    },
+    "da-xue": {
+      "workId": "da-xue",
+      "totalPassages": 12,
+      "physicalAudioCount": 12,
+      "ttsAudioCount": 0,
+      "totalChars": 2263
+    },
+    "dao-de-jing": {
+      "workId": "dao-de-jing",
+      "totalPassages": 81,
+      "physicalAudioCount": 81,
+      "ttsAudioCount": 0,
+      "totalChars": 6458
+    },
+    "dong-guan-han-ji": {
+      "workId": "dong-guan-han-ji",
+      "totalPassages": 30,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 30,
+      "totalChars": 1644
+    },
+    "gongyang-zhuan": {
+      "workId": "gongyang-zhuan",
+      "totalPassages": 7,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 7,
+      "totalChars": 805
+    },
+    "gu-san-fen": {
+      "workId": "gu-san-fen",
+      "totalPassages": 31,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 31,
+      "totalChars": 2425
+    },
+    "gu-wen-guan-zhi": {
+      "workId": "gu-wen-guan-zhi",
+      "totalPassages": 424,
+      "physicalAudioCount": 18,
+      "ttsAudioCount": 406,
+      "totalChars": 125309
+    },
+    "guanzi": {
+      "workId": "guanzi",
+      "totalPassages": 52,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 52,
+      "totalChars": 3110
+    },
+    "guliang-zhuan": {
+      "workId": "guliang-zhuan",
+      "totalPassages": 6,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 6,
+      "totalChars": 770
+    },
+    "guo-yu": {
+      "workId": "guo-yu",
+      "totalPassages": 59,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 59,
+      "totalChars": 4857
+    },
+    "han-fei-zi": {
+      "workId": "han-fei-zi",
+      "totalPassages": 687,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 687,
+      "totalChars": 116942
+    },
+    "han-shu": {
+      "workId": "han-shu",
+      "totalPassages": 126,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 126,
+      "totalChars": 14771
+    },
+    "hou-han-shu": {
+      "workId": "hou-han-shu",
+      "totalPassages": 147,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 147,
+      "totalChars": 6305
+    },
+    "jian-zhu-ke-shu": {
+      "workId": "jian-zhu-ke-shu",
+      "totalPassages": 6,
+      "physicalAudioCount": 6,
+      "ttsAudioCount": 0,
+      "totalChars": 1002
+    },
+    "li-ji": {
+      "workId": "li-ji",
+      "totalPassages": 1885,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 1885,
+      "totalChars": 122709
+    },
+    "lie-nv-zhuan": {
+      "workId": "lie-nv-zhuan",
+      "totalPassages": 4,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 4,
+      "totalChars": 527
+    },
+    "liezi": {
+      "workId": "liezi",
+      "totalPassages": 133,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 133,
+      "totalChars": 22701
+    },
+    "liu-tao": {
+      "workId": "liu-tao",
+      "totalPassages": 10,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 10,
+      "totalChars": 1671
+    },
+    "lost-book-of-zhou": {
+      "workId": "lost-book-of-zhou",
+      "totalPassages": 2,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 2,
+      "totalChars": 1761
+    },
+    "lun-yu": {
+      "workId": "lun-yu",
+      "totalPassages": 502,
+      "physicalAudioCount": 66,
+      "ttsAudioCount": 436,
+      "totalChars": 21823
+    },
+    "meng-zi": {
+      "workId": "meng-zi",
+      "totalPassages": 261,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 261,
+      "totalChars": 45354
+    },
+    "mo-zi": {
+      "workId": "mo-zi",
+      "totalPassages": 1068,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 1068,
+      "totalChars": 98106
+    },
+    "mutianzi-zhuan": {
+      "workId": "mutianzi-zhuan",
+      "totalPassages": 17,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 17,
+      "totalChars": 1108
+    },
+    "qian-han-ji": {
+      "workId": "qian-han-ji",
+      "totalPassages": 6,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 6,
+      "totalChars": 1805
+    },
+    "shang-jun-shu": {
+      "workId": "shang-jun-shu",
+      "totalPassages": 182,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 182,
+      "totalChars": 15641
+    },
+    "shen-bu-hai": {
+      "workId": "shen-bu-hai",
+      "totalPassages": 28,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 28,
+      "totalChars": 1041
+    },
+    "shenzi": {
+      "workId": "shenzi",
+      "totalPassages": 67,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 67,
+      "totalChars": 5021
+    },
+    "shi-jing": {
+      "workId": "shi-jing",
+      "totalPassages": 305,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 305,
+      "totalChars": 38960
+    },
+    "shiji": {
+      "workId": "shiji",
+      "totalPassages": 64,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 64,
+      "totalChars": 7045
+    },
+    "shu-jing": {
+      "workId": "shu-jing",
+      "totalPassages": 424,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 424,
+      "totalChars": 32190
+    },
+    "si-ma-fa": {
+      "workId": "si-ma-fa",
+      "totalPassages": 68,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 68,
+      "totalChars": 3426
+    },
+    "three-strategies": {
+      "workId": "three-strategies",
+      "totalPassages": 65,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 65,
+      "totalChars": 4749
+    },
+    "wei-liao-zi": {
+      "workId": "wei-liao-zi",
+      "totalPassages": 48,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 48,
+      "totalChars": 2952
+    },
+    "wenshi-zhenjing": {
+      "workId": "wenshi-zhenjing",
+      "totalPassages": 174,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 174,
+      "totalChars": 14272
+    },
+    "wenzi": {
+      "workId": "wenzi",
+      "totalPassages": 191,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 191,
+      "totalChars": 22983
+    },
+    "wu-yue-chun-qiu": {
+      "workId": "wu-yue-chun-qiu",
+      "totalPassages": 23,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 23,
+      "totalChars": 1541
+    },
+    "wu-zi": {
+      "workId": "wu-zi",
+      "totalPassages": 42,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 42,
+      "totalChars": 4158
+    },
+    "xijing-zaji": {
+      "workId": "xijing-zaji",
+      "totalPassages": 61,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 61,
+      "totalChars": 3673
+    },
+    "xunzi": {
+      "workId": "xunzi",
+      "totalPassages": 596,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 596,
+      "totalChars": 90824
+    },
+    "yan-tie-lun": {
+      "workId": "yan-tie-lun",
+      "totalPassages": 30,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 30,
+      "totalChars": 2345
+    },
+    "yandanzi": {
+      "workId": "yandanzi",
+      "totalPassages": 11,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 11,
+      "totalChars": 2799
+    },
+    "yanzi-chun-qiu": {
+      "workId": "yanzi-chun-qiu",
+      "totalPassages": 5,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 5,
+      "totalChars": 332
+    },
+    "yi-jing": {
+      "workId": "yi-jing",
+      "totalPassages": 64,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 64,
+      "totalChars": 2693
+    },
+    "yue-jue-shu": {
+      "workId": "yue-jue-shu",
+      "totalPassages": 16,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 16,
+      "totalChars": 1771
+    },
+    "zhan-guo-ce": {
+      "workId": "zhan-guo-ce",
+      "totalPassages": 29,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 29,
+      "totalChars": 2715
+    },
+    "zhong-yong": {
+      "workId": "zhong-yong",
+      "totalPassages": 33,
+      "physicalAudioCount": 33,
+      "ttsAudioCount": 0,
+      "totalChars": 4490
+    },
+    "zhuangzi": {
+      "workId": "zhuangzi",
+      "totalPassages": 1768,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 1768,
+      "totalChars": 79996
+    },
+    "zhushu-jinian": {
+      "workId": "zhushu-jinian",
+      "totalPassages": 11,
+      "physicalAudioCount": 0,
+      "ttsAudioCount": 11,
+      "totalChars": 157
+    }
+  },
+  "status": "PASSED",
+  "invalidPassages": [],
+  "missingMp3Files": []
+}

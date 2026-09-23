@@ -1,0 +1,2290 @@
+{
+  "dao-de-jing_ch-1_p-1": {
+    "passageId": "dao-de-jing_ch-1_p-1",
+    "duration": 13.46,
+    "sizeBytes": 134640,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-1_p-1.mp3"
+  },
+  "dao-de-jing_ch-10_p-1": {
+    "passageId": "dao-de-jing_ch-10_p-1",
+    "duration": 15.34,
+    "sizeBytes": 153360,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-10_p-1.mp3"
+  },
+  "dao-de-jing_ch-11_p-1": {
+    "passageId": "dao-de-jing_ch-11_p-1",
+    "duration": 10.43,
+    "sizeBytes": 104256,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-11_p-1.mp3"
+  },
+  "dao-de-jing_ch-12_p-1": {
+    "passageId": "dao-de-jing_ch-12_p-1",
+    "duration": 8.48,
+    "sizeBytes": 84816,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-12_p-1.mp3"
+  },
+  "dao-de-jing_ch-13_p-1": {
+    "passageId": "dao-de-jing_ch-13_p-1",
+    "duration": 15.58,
+    "sizeBytes": 155808,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-13_p-1.mp3"
+  },
+  "dao-de-jing_ch-14_p-1": {
+    "passageId": "dao-de-jing_ch-14_p-1",
+    "duration": 19.28,
+    "sizeBytes": 192816,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-14_p-1.mp3"
+  },
+  "dao-de-jing_ch-15_p-1": {
+    "passageId": "dao-de-jing_ch-15_p-1",
+    "duration": 17.74,
+    "sizeBytes": 177408,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-15_p-1.mp3"
+  },
+  "dao-de-jing_ch-16_p-1": {
+    "passageId": "dao-de-jing_ch-16_p-1",
+    "duration": 15.65,
+    "sizeBytes": 156528,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-16_p-1.mp3"
+  },
+  "dao-de-jing_ch-17_p-1": {
+    "passageId": "dao-de-jing_ch-17_p-1",
+    "duration": 10.64,
+    "sizeBytes": 106416,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-17_p-1.mp3"
+  },
+  "dao-de-jing_ch-18_p-1": {
+    "passageId": "dao-de-jing_ch-18_p-1",
+    "duration": 5.47,
+    "sizeBytes": 54720,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-18_p-1.mp3"
+  },
+  "dao-de-jing_ch-19_p-1": {
+    "passageId": "dao-de-jing_ch-19_p-1",
+    "duration": 9.23,
+    "sizeBytes": 92304,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-19_p-1.mp3"
+  },
+  "dao-de-jing_ch-2_p-1": {
+    "passageId": "dao-de-jing_ch-2_p-1",
+    "duration": 15.8,
+    "sizeBytes": 157968,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-2_p-1.mp3"
+  },
+  "dao-de-jing_ch-20_p-1": {
+    "passageId": "dao-de-jing_ch-20_p-1",
+    "duration": 28.6,
+    "sizeBytes": 285984,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-20_p-1.mp3"
+  },
+  "dao-de-jing_ch-21_p-1": {
+    "passageId": "dao-de-jing_ch-21_p-1",
+    "duration": 15.47,
+    "sizeBytes": 154656,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-21_p-1.mp3"
+  },
+  "dao-de-jing_ch-22_p-1": {
+    "passageId": "dao-de-jing_ch-22_p-1",
+    "duration": 16.6,
+    "sizeBytes": 166032,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-22_p-1.mp3"
+  },
+  "dao-de-jing_ch-23_p-1": {
+    "passageId": "dao-de-jing_ch-23_p-1",
+    "duration": 18.24,
+    "sizeBytes": 182448,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-23_p-1.mp3"
+  },
+  "dao-de-jing_ch-24_p-1": {
+    "passageId": "dao-de-jing_ch-24_p-1",
+    "duration": 9.26,
+    "sizeBytes": 92592,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-24_p-1.mp3"
+  },
+  "dao-de-jing_ch-25_p-1": {
+    "passageId": "dao-de-jing_ch-25_p-1",
+    "duration": 18.0,
+    "sizeBytes": 180000,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-25_p-1.mp3"
+  },
+  "dao-de-jing_ch-26_p-1": {
+    "passageId": "dao-de-jing_ch-26_p-1",
+    "duration": 10.05,
+    "sizeBytes": 100512,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-26_p-1.mp3"
+  },
+  "dao-de-jing_ch-27_p-1": {
+    "passageId": "dao-de-jing_ch-27_p-1",
+    "duration": 16.59,
+    "sizeBytes": 165888,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-27_p-1.mp3"
+  },
+  "dao-de-jing_ch-28_p-1": {
+    "passageId": "dao-de-jing_ch-28_p-1",
+    "duration": 18.62,
+    "sizeBytes": 186192,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-28_p-1.mp3"
+  },
+  "dao-de-jing_ch-29_p-1": {
+    "passageId": "dao-de-jing_ch-29_p-1",
+    "duration": 11.46,
+    "sizeBytes": 114624,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-29_p-1.mp3"
+  },
+  "dao-de-jing_ch-3_p-1": {
+    "passageId": "dao-de-jing_ch-3_p-1",
+    "duration": 13.58,
+    "sizeBytes": 135792,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-3_p-1.mp3"
+  },
+  "dao-de-jing_ch-30_p-1": {
+    "passageId": "dao-de-jing_ch-30_p-1",
+    "duration": 16.53,
+    "sizeBytes": 165312,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-30_p-1.mp3"
+  },
+  "dao-de-jing_ch-31_p-1": {
+    "passageId": "dao-de-jing_ch-31_p-1",
+    "duration": 22.25,
+    "sizeBytes": 222480,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-31_p-1.mp3"
+  },
+  "dao-de-jing_ch-32_p-1": {
+    "passageId": "dao-de-jing_ch-32_p-1",
+    "duration": 13.71,
+    "sizeBytes": 137088,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-32_p-1.mp3"
+  },
+  "dao-de-jing_ch-33_p-1": {
+    "passageId": "dao-de-jing_ch-33_p-1",
+    "duration": 9.76,
+    "sizeBytes": 97632,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-33_p-1.mp3"
+  },
+  "dao-de-jing_ch-34_p-1": {
+    "passageId": "dao-de-jing_ch-34_p-1",
+    "duration": 11.36,
+    "sizeBytes": 113616,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-34_p-1.mp3"
+  },
+  "dao-de-jing_ch-35_p-1": {
+    "passageId": "dao-de-jing_ch-35_p-1",
+    "duration": 9.42,
+    "sizeBytes": 94176,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-35_p-1.mp3"
+  },
+  "dao-de-jing_ch-36_p-1": {
+    "passageId": "dao-de-jing_ch-36_p-1",
+    "duration": 10.77,
+    "sizeBytes": 107712,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-36_p-1.mp3"
+  },
+  "dao-de-jing_ch-37_p-1": {
+    "passageId": "dao-de-jing_ch-37_p-1",
+    "duration": 10.47,
+    "sizeBytes": 104688,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-37_p-1.mp3"
+  },
+  "dao-de-jing_ch-38_p-1": {
+    "passageId": "dao-de-jing_ch-38_p-1",
+    "duration": 24.7,
+    "sizeBytes": 246960,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-38_p-1.mp3"
+  },
+  "dao-de-jing_ch-39_p-1": {
+    "passageId": "dao-de-jing_ch-39_p-1",
+    "duration": 25.14,
+    "sizeBytes": 251424,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-39_p-1.mp3"
+  },
+  "dao-de-jing_ch-4_p-1": {
+    "passageId": "dao-de-jing_ch-4_p-1",
+    "duration": 9.92,
+    "sizeBytes": 99216,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-4_p-1.mp3"
+  },
+  "dao-de-jing_ch-40_p-1": {
+    "passageId": "dao-de-jing_ch-40_p-1",
+    "duration": 4.36,
+    "sizeBytes": 43632,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-40_p-1.mp3"
+  },
+  "dao-de-jing_ch-41_p-1": {
+    "passageId": "dao-de-jing_ch-41_p-1",
+    "duration": 17.9,
+    "sizeBytes": 178992,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-41_p-1.mp3"
+  },
+  "dao-de-jing_ch-42_p-1": {
+    "passageId": "dao-de-jing_ch-42_p-1",
+    "duration": 15.13,
+    "sizeBytes": 151344,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-42_p-1.mp3"
+  },
+  "dao-de-jing_ch-43_p-1": {
+    "passageId": "dao-de-jing_ch-43_p-1",
+    "duration": 7.27,
+    "sizeBytes": 72720,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-43_p-1.mp3"
+  },
+  "dao-de-jing_ch-44_p-1": {
+    "passageId": "dao-de-jing_ch-44_p-1",
+    "duration": 8.88,
+    "sizeBytes": 88848,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-44_p-1.mp3"
+  },
+  "dao-de-jing_ch-45_p-1": {
+    "passageId": "dao-de-jing_ch-45_p-1",
+    "duration": 9.68,
+    "sizeBytes": 96768,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-45_p-1.mp3"
+  },
+  "dao-de-jing_ch-46_p-1": {
+    "passageId": "dao-de-jing_ch-46_p-1",
+    "duration": 8.4,
+    "sizeBytes": 83952,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-46_p-1.mp3"
+  },
+  "dao-de-jing_ch-47_p-1": {
+    "passageId": "dao-de-jing_ch-47_p-1",
+    "duration": 7.8,
+    "sizeBytes": 78048,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-47_p-1.mp3"
+  },
+  "dao-de-jing_ch-48_p-1": {
+    "passageId": "dao-de-jing_ch-48_p-1",
+    "duration": 8.61,
+    "sizeBytes": 86112,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-48_p-1.mp3"
+  },
+  "dao-de-jing_ch-49_p-1": {
+    "passageId": "dao-de-jing_ch-49_p-1",
+    "duration": 13.09,
+    "sizeBytes": 130896,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-49_p-1.mp3"
+  },
+  "dao-de-jing_ch-5_p-1": {
+    "passageId": "dao-de-jing_ch-5_p-1",
+    "duration": 9.12,
+    "sizeBytes": 91152,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-5_p-1.mp3"
+  },
+  "dao-de-jing_ch-50_p-1": {
+    "passageId": "dao-de-jing_ch-50_p-1",
+    "duration": 16.85,
+    "sizeBytes": 168480,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-50_p-1.mp3"
+  },
+  "dao-de-jing_ch-51_p-1": {
+    "passageId": "dao-de-jing_ch-51_p-1",
+    "duration": 14.36,
+    "sizeBytes": 143568,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-51_p-1.mp3"
+  },
+  "dao-de-jing_ch-52_p-1": {
+    "passageId": "dao-de-jing_ch-52_p-1",
+    "duration": 16.07,
+    "sizeBytes": 160704,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-52_p-1.mp3"
+  },
+  "dao-de-jing_ch-53_p-1": {
+    "passageId": "dao-de-jing_ch-53_p-1",
+    "duration": 11.15,
+    "sizeBytes": 111456,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-53_p-1.mp3"
+  },
+  "dao-de-jing_ch-54_p-1": {
+    "passageId": "dao-de-jing_ch-54_p-1",
+    "duration": 16.89,
+    "sizeBytes": 168912,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-54_p-1.mp3"
+  },
+  "dao-de-jing_ch-55_p-1": {
+    "passageId": "dao-de-jing_ch-55_p-1",
+    "duration": 17.44,
+    "sizeBytes": 174384,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-55_p-1.mp3"
+  },
+  "dao-de-jing_ch-56_p-1": {
+    "passageId": "dao-de-jing_ch-56_p-1",
+    "duration": 12.93,
+    "sizeBytes": 129312,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-56_p-1.mp3"
+  },
+  "dao-de-jing_ch-57_p-1": {
+    "passageId": "dao-de-jing_ch-57_p-1",
+    "duration": 16.68,
+    "sizeBytes": 166752,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-57_p-1.mp3"
+  },
+  "dao-de-jing_ch-58_p-1": {
+    "passageId": "dao-de-jing_ch-58_p-1",
+    "duration": 15.45,
+    "sizeBytes": 154512,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-58_p-1.mp3"
+  },
+  "dao-de-jing_ch-59_p-1": {
+    "passageId": "dao-de-jing_ch-59_p-1",
+    "duration": 10.73,
+    "sizeBytes": 107280,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-59_p-1.mp3"
+  },
+  "dao-de-jing_ch-6_p-1": {
+    "passageId": "dao-de-jing_ch-6_p-1",
+    "duration": 5.99,
+    "sizeBytes": 59904,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-6_p-1.mp3"
+  },
+  "dao-de-jing_ch-60_p-1": {
+    "passageId": "dao-de-jing_ch-60_p-1",
+    "duration": 8.99,
+    "sizeBytes": 89856,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-60_p-1.mp3"
+  },
+  "dao-de-jing_ch-61_p-1": {
+    "passageId": "dao-de-jing_ch-61_p-1",
+    "duration": 15.81,
+    "sizeBytes": 158112,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-61_p-1.mp3"
+  },
+  "dao-de-jing_ch-62_p-1": {
+    "passageId": "dao-de-jing_ch-62_p-1",
+    "duration": 16.56,
+    "sizeBytes": 165600,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-62_p-1.mp3"
+  },
+  "dao-de-jing_ch-63_p-1": {
+    "passageId": "dao-de-jing_ch-63_p-1",
+    "duration": 15.83,
+    "sizeBytes": 158256,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-63_p-1.mp3"
+  },
+  "dao-de-jing_ch-64_p-1": {
+    "passageId": "dao-de-jing_ch-64_p-1",
+    "duration": 24.21,
+    "sizeBytes": 242064,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-64_p-1.mp3"
+  },
+  "dao-de-jing_ch-65_p-1": {
+    "passageId": "dao-de-jing_ch-65_p-1",
+    "duration": 14.7,
+    "sizeBytes": 147024,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-65_p-1.mp3"
+  },
+  "dao-de-jing_ch-66_p-1": {
+    "passageId": "dao-de-jing_ch-66_p-1",
+    "duration": 13.51,
+    "sizeBytes": 135072,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-66_p-1.mp3"
+  },
+  "dao-de-jing_ch-67_p-1": {
+    "passageId": "dao-de-jing_ch-67_p-1",
+    "duration": 21.0,
+    "sizeBytes": 209952,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-67_p-1.mp3"
+  },
+  "dao-de-jing_ch-68_p-1": {
+    "passageId": "dao-de-jing_ch-68_p-1",
+    "duration": 8.38,
+    "sizeBytes": 83808,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-68_p-1.mp3"
+  },
+  "dao-de-jing_ch-69_p-1": {
+    "passageId": "dao-de-jing_ch-69_p-1",
+    "duration": 11.32,
+    "sizeBytes": 113184,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-69_p-1.mp3"
+  },
+  "dao-de-jing_ch-7_p-1": {
+    "passageId": "dao-de-jing_ch-7_p-1",
+    "duration": 9.85,
+    "sizeBytes": 98496,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-7_p-1.mp3"
+  },
+  "dao-de-jing_ch-70_p-1": {
+    "passageId": "dao-de-jing_ch-70_p-1",
+    "duration": 11.09,
+    "sizeBytes": 110880,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-70_p-1.mp3"
+  },
+  "dao-de-jing_ch-71_p-1": {
+    "passageId": "dao-de-jing_ch-71_p-1",
+    "duration": 7.01,
+    "sizeBytes": 70128,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-71_p-1.mp3"
+  },
+  "dao-de-jing_ch-72_p-1": {
+    "passageId": "dao-de-jing_ch-72_p-1",
+    "duration": 9.75,
+    "sizeBytes": 97488,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-72_p-1.mp3"
+  },
+  "dao-de-jing_ch-73_p-1": {
+    "passageId": "dao-de-jing_ch-73_p-1",
+    "duration": 13.33,
+    "sizeBytes": 133344,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-73_p-1.mp3"
+  },
+  "dao-de-jing_ch-74_p-1": {
+    "passageId": "dao-de-jing_ch-74_p-1",
+    "duration": 10.61,
+    "sizeBytes": 106128,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-74_p-1.mp3"
+  },
+  "dao-de-jing_ch-75_p-1": {
+    "passageId": "dao-de-jing_ch-75_p-1",
+    "duration": 10.47,
+    "sizeBytes": 104688,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-75_p-1.mp3"
+  },
+  "dao-de-jing_ch-76_p-1": {
+    "passageId": "dao-de-jing_ch-76_p-1",
+    "duration": 11.88,
+    "sizeBytes": 118800,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-76_p-1.mp3"
+  },
+  "dao-de-jing_ch-77_p-1": {
+    "passageId": "dao-de-jing_ch-77_p-1",
+    "duration": 15.39,
+    "sizeBytes": 153936,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-77_p-1.mp3"
+  },
+  "dao-de-jing_ch-78_p-1": {
+    "passageId": "dao-de-jing_ch-78_p-1",
+    "duration": 12.08,
+    "sizeBytes": 120816,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-78_p-1.mp3"
+  },
+  "dao-de-jing_ch-79_p-1": {
+    "passageId": "dao-de-jing_ch-79_p-1",
+    "duration": 8.76,
+    "sizeBytes": 87552,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-79_p-1.mp3"
+  },
+  "dao-de-jing_ch-8_p-1": {
+    "passageId": "dao-de-jing_ch-8_p-1",
+    "duration": 11.07,
+    "sizeBytes": 110736,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-8_p-1.mp3"
+  },
+  "dao-de-jing_ch-80_p-1": {
+    "passageId": "dao-de-jing_ch-80_p-1",
+    "duration": 14.82,
+    "sizeBytes": 148176,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-80_p-1.mp3"
+  },
+  "dao-de-jing_ch-81_p-1": {
+    "passageId": "dao-de-jing_ch-81_p-1",
+    "duration": 11.52,
+    "sizeBytes": 115200,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-81_p-1.mp3"
+  },
+  "dao-de-jing_ch-9_p-1": {
+    "passageId": "dao-de-jing_ch-9_p-1",
+    "duration": 8.21,
+    "sizeBytes": 82080,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/dao-de-jing/dao-de-jing_ch-9_p-1.mp3"
+  },
+  "da-xue_ch-1_p-1": {
+    "passageId": "da-xue_ch-1_p-1",
+    "duration": 9.07,
+    "sizeBytes": 90720,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/da-xue/da-xue_ch-1_p-1.mp3"
+  },
+  "da-xue_ch-1_p-2": {
+    "passageId": "da-xue_ch-1_p-2",
+    "duration": 34.5,
+    "sizeBytes": 345024,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/da-xue/da-xue_ch-1_p-2.mp3"
+  },
+  "da-xue_ch-10_p-11": {
+    "passageId": "da-xue_ch-10_p-11",
+    "duration": 48.82,
+    "sizeBytes": 488160,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/da-xue/da-xue_ch-10_p-11.mp3"
+  },
+  "da-xue_ch-11_p-12": {
+    "passageId": "da-xue_ch-11_p-12",
+    "duration": 117.42,
+    "sizeBytes": 1174176,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/da-xue/da-xue_ch-11_p-12.mp3"
+  },
+  "da-xue_ch-2_p-3": {
+    "passageId": "da-xue_ch-2_p-3",
+    "duration": 4.59,
+    "sizeBytes": 45936,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/da-xue/da-xue_ch-2_p-3.mp3"
+  },
+  "da-xue_ch-3_p-4": {
+    "passageId": "da-xue_ch-3_p-4",
+    "duration": 7.04,
+    "sizeBytes": 70416,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/da-xue/da-xue_ch-3_p-4.mp3"
+  },
+  "da-xue_ch-4_p-5": {
+    "passageId": "da-xue_ch-4_p-5",
+    "duration": 38.48,
+    "sizeBytes": 384768,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/da-xue/da-xue_ch-4_p-5.mp3"
+  },
+  "da-xue_ch-5_p-6": {
+    "passageId": "da-xue_ch-5_p-6",
+    "duration": 6.28,
+    "sizeBytes": 62784,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/da-xue/da-xue_ch-5_p-6.mp3"
+  },
+  "da-xue_ch-6_p-7": {
+    "passageId": "da-xue_ch-6_p-7",
+    "duration": 2.12,
+    "sizeBytes": 21168,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/da-xue/da-xue_ch-6_p-7.mp3"
+  },
+  "da-xue_ch-7_p-8": {
+    "passageId": "da-xue_ch-7_p-8",
+    "duration": 21.56,
+    "sizeBytes": 215568,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/da-xue/da-xue_ch-7_p-8.mp3"
+  },
+  "da-xue_ch-8_p-9": {
+    "passageId": "da-xue_ch-8_p-9",
+    "duration": 13.02,
+    "sizeBytes": 130176,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/da-xue/da-xue_ch-8_p-9.mp3"
+  },
+  "da-xue_ch-9_p-10": {
+    "passageId": "da-xue_ch-9_p-10",
+    "duration": 14.11,
+    "sizeBytes": 141120,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/da-xue/da-xue_ch-9_p-10.mp3"
+  },
+  "zhong-yong_ch-1_p-1": {
+    "passageId": "zhong-yong_ch-1_p-1",
+    "duration": 20.66,
+    "sizeBytes": 206640,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-1_p-1.mp3"
+  },
+  "zhong-yong_ch-10_p-10": {
+    "passageId": "zhong-yong_ch-10_p-10",
+    "duration": 21.01,
+    "sizeBytes": 210096,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-10_p-10.mp3"
+  },
+  "zhong-yong_ch-11_p-11": {
+    "passageId": "zhong-yong_ch-11_p-11",
+    "duration": 9.37,
+    "sizeBytes": 93744,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-11_p-11.mp3"
+  },
+  "zhong-yong_ch-12_p-12": {
+    "passageId": "zhong-yong_ch-12_p-12",
+    "duration": 20.15,
+    "sizeBytes": 201456,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-12_p-12.mp3"
+  },
+  "zhong-yong_ch-13_p-13": {
+    "passageId": "zhong-yong_ch-13_p-13",
+    "duration": 29.23,
+    "sizeBytes": 292320,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-13_p-13.mp3"
+  },
+  "zhong-yong_ch-14_p-14": {
+    "passageId": "zhong-yong_ch-14_p-14",
+    "duration": 21.14,
+    "sizeBytes": 211392,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-14_p-14.mp3"
+  },
+  "zhong-yong_ch-15_p-15": {
+    "passageId": "zhong-yong_ch-15_p-15",
+    "duration": 10.14,
+    "sizeBytes": 101376,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-15_p-15.mp3"
+  },
+  "zhong-yong_ch-16_p-16": {
+    "passageId": "zhong-yong_ch-16_p-16",
+    "duration": 15.9,
+    "sizeBytes": 158976,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-16_p-16.mp3"
+  },
+  "zhong-yong_ch-17_p-17": {
+    "passageId": "zhong-yong_ch-17_p-17",
+    "duration": 21.73,
+    "sizeBytes": 217296,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-17_p-17.mp3"
+  },
+  "zhong-yong_ch-18_p-18": {
+    "passageId": "zhong-yong_ch-18_p-18",
+    "duration": 32.16,
+    "sizeBytes": 321552,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-18_p-18.mp3"
+  },
+  "zhong-yong_ch-19_p-19": {
+    "passageId": "zhong-yong_ch-19_p-19",
+    "duration": 29.51,
+    "sizeBytes": 295056,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-19_p-19.mp3"
+  },
+  "zhong-yong_ch-2_p-2": {
+    "passageId": "zhong-yong_ch-2_p-2",
+    "duration": 6.52,
+    "sizeBytes": 65232,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-2_p-2.mp3"
+  },
+  "zhong-yong_ch-20_p-20": {
+    "passageId": "zhong-yong_ch-20_p-20",
+    "duration": 136.14,
+    "sizeBytes": 1361376,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-20_p-20.mp3"
+  },
+  "zhong-yong_ch-21_p-21": {
+    "passageId": "zhong-yong_ch-21_p-21",
+    "duration": 4.97,
+    "sizeBytes": 49680,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-21_p-21.mp3"
+  },
+  "zhong-yong_ch-22_p-22": {
+    "passageId": "zhong-yong_ch-22_p-22",
+    "duration": 9.01,
+    "sizeBytes": 90144,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-22_p-22.mp3"
+  },
+  "zhong-yong_ch-23_p-23": {
+    "passageId": "zhong-yong_ch-23_p-23",
+    "duration": 6.6,
+    "sizeBytes": 65952,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-23_p-23.mp3"
+  },
+  "zhong-yong_ch-24_p-24": {
+    "passageId": "zhong-yong_ch-24_p-24",
+    "duration": 11.15,
+    "sizeBytes": 111456,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-24_p-24.mp3"
+  },
+  "zhong-yong_ch-25_p-25": {
+    "passageId": "zhong-yong_ch-25_p-25",
+    "duration": 13.8,
+    "sizeBytes": 137952,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-25_p-25.mp3"
+  },
+  "zhong-yong_ch-26_p-26": {
+    "passageId": "zhong-yong_ch-26_p-26",
+    "duration": 48.79,
+    "sizeBytes": 487872,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-26_p-26.mp3"
+  },
+  "zhong-yong_ch-27_p-27": {
+    "passageId": "zhong-yong_ch-27_p-27",
+    "duration": 25.16,
+    "sizeBytes": 251568,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-27_p-27.mp3"
+  },
+  "zhong-yong_ch-28_p-28": {
+    "passageId": "zhong-yong_ch-28_p-28",
+    "duration": 22.26,
+    "sizeBytes": 222624,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-28_p-28.mp3"
+  },
+  "zhong-yong_ch-29_p-29": {
+    "passageId": "zhong-yong_ch-29_p-29",
+    "duration": 29.25,
+    "sizeBytes": 292464,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-29_p-29.mp3"
+  },
+  "zhong-yong_ch-3_p-3": {
+    "passageId": "zhong-yong_ch-3_p-3",
+    "duration": 3.5,
+    "sizeBytes": 34992,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-3_p-3.mp3"
+  },
+  "zhong-yong_ch-30_p-30": {
+    "passageId": "zhong-yong_ch-30_p-30",
+    "duration": 13.38,
+    "sizeBytes": 133776,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-30_p-30.mp3"
+  },
+  "zhong-yong_ch-31_p-31": {
+    "passageId": "zhong-yong_ch-31_p-31",
+    "duration": 23.6,
+    "sizeBytes": 236016,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-31_p-31.mp3"
+  },
+  "zhong-yong_ch-32_p-32": {
+    "passageId": "zhong-yong_ch-32_p-32",
+    "duration": 11.88,
+    "sizeBytes": 118800,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-32_p-32.mp3"
+  },
+  "zhong-yong_ch-33_p-33": {
+    "passageId": "zhong-yong_ch-33_p-33",
+    "duration": 40.75,
+    "sizeBytes": 407520,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-33_p-33.mp3"
+  },
+  "zhong-yong_ch-4_p-4": {
+    "passageId": "zhong-yong_ch-4_p-4",
+    "duration": 8.93,
+    "sizeBytes": 89280,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-4_p-4.mp3"
+  },
+  "zhong-yong_ch-5_p-5": {
+    "passageId": "zhong-yong_ch-5_p-5",
+    "duration": 2.12,
+    "sizeBytes": 21168,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-5_p-5.mp3"
+  },
+  "zhong-yong_ch-6_p-6": {
+    "passageId": "zhong-yong_ch-6_p-6",
+    "duration": 6.78,
+    "sizeBytes": 67824,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-6_p-6.mp3"
+  },
+  "zhong-yong_ch-7_p-7": {
+    "passageId": "zhong-yong_ch-7_p-7",
+    "duration": 6.65,
+    "sizeBytes": 66528,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-7_p-7.mp3"
+  },
+  "zhong-yong_ch-8_p-8": {
+    "passageId": "zhong-yong_ch-8_p-8",
+    "duration": 4.44,
+    "sizeBytes": 44352,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-8_p-8.mp3"
+  },
+  "zhong-yong_ch-9_p-9": {
+    "passageId": "zhong-yong_ch-9_p-9",
+    "duration": 4.61,
+    "sizeBytes": 46080,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/zhong-yong/zhong-yong_ch-9_p-9.mp3"
+  },
+  "art-of-war_ch-1_p-1": {
+    "passageId": "art-of-war_ch-1_p-1",
+    "duration": 4.32,
+    "sizeBytes": 43200,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-1_p-1.mp3"
+  },
+  "art-of-war_ch-1_p-2": {
+    "passageId": "art-of-war_ch-1_p-2",
+    "duration": 5.56,
+    "sizeBytes": 55584,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-1_p-2.mp3"
+  },
+  "art-of-war_ch-1_p-3": {
+    "passageId": "art-of-war_ch-1_p-3",
+    "duration": 19.09,
+    "sizeBytes": 190944,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-1_p-3.mp3"
+  },
+  "art-of-war_ch-1_p-4": {
+    "passageId": "art-of-war_ch-1_p-4",
+    "duration": 12.93,
+    "sizeBytes": 129312,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-1_p-4.mp3"
+  },
+  "art-of-war_ch-1_p-5": {
+    "passageId": "art-of-war_ch-1_p-5",
+    "duration": 3.89,
+    "sizeBytes": 38880,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-1_p-5.mp3"
+  },
+  "art-of-war_ch-1_p-6": {
+    "passageId": "art-of-war_ch-1_p-6",
+    "duration": 14.26,
+    "sizeBytes": 142560,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-1_p-6.mp3"
+  },
+  "art-of-war_ch-1_p-7": {
+    "passageId": "art-of-war_ch-1_p-7",
+    "duration": 7.95,
+    "sizeBytes": 79488,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-1_p-7.mp3"
+  },
+  "art-of-war_ch-10_p-1": {
+    "passageId": "art-of-war_ch-10_p-1",
+    "duration": 37.58,
+    "sizeBytes": 375840,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-10_p-1.mp3"
+  },
+  "art-of-war_ch-10_p-2": {
+    "passageId": "art-of-war_ch-10_p-2",
+    "duration": 26.76,
+    "sizeBytes": 267552,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-10_p-2.mp3"
+  },
+  "art-of-war_ch-10_p-3": {
+    "passageId": "art-of-war_ch-10_p-3",
+    "duration": 17.15,
+    "sizeBytes": 171504,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-10_p-3.mp3"
+  },
+  "art-of-war_ch-10_p-4": {
+    "passageId": "art-of-war_ch-10_p-4",
+    "duration": 7.91,
+    "sizeBytes": 79056,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-10_p-4.mp3"
+  },
+  "art-of-war_ch-10_p-5": {
+    "passageId": "art-of-war_ch-10_p-5",
+    "duration": 15.97,
+    "sizeBytes": 159696,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-10_p-5.mp3"
+  },
+  "art-of-war_ch-11_p-1": {
+    "passageId": "art-of-war_ch-11_p-1",
+    "duration": 39.0,
+    "sizeBytes": 389952,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-11_p-1.mp3"
+  },
+  "art-of-war_ch-11_p-2": {
+    "passageId": "art-of-war_ch-11_p-2",
+    "duration": 16.33,
+    "sizeBytes": 163296,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-11_p-2.mp3"
+  },
+  "art-of-war_ch-11_p-3": {
+    "passageId": "art-of-war_ch-11_p-3",
+    "duration": 25.98,
+    "sizeBytes": 259776,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-11_p-3.mp3"
+  },
+  "art-of-war_ch-11_p-4": {
+    "passageId": "art-of-war_ch-11_p-4",
+    "duration": 20.61,
+    "sizeBytes": 206064,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-11_p-4.mp3"
+  },
+  "art-of-war_ch-11_p-5": {
+    "passageId": "art-of-war_ch-11_p-5",
+    "duration": 21.28,
+    "sizeBytes": 212832,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-11_p-5.mp3"
+  },
+  "art-of-war_ch-11_p-6": {
+    "passageId": "art-of-war_ch-11_p-6",
+    "duration": 22.28,
+    "sizeBytes": 222768,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-11_p-6.mp3"
+  },
+  "art-of-war_ch-11_p-7": {
+    "passageId": "art-of-war_ch-11_p-7",
+    "duration": 30.9,
+    "sizeBytes": 309024,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-11_p-7.mp3"
+  },
+  "art-of-war_ch-11_p-8": {
+    "passageId": "art-of-war_ch-11_p-8",
+    "duration": 12.12,
+    "sizeBytes": 121248,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-11_p-8.mp3"
+  },
+  "art-of-war_ch-12_p-1": {
+    "passageId": "art-of-war_ch-12_p-1",
+    "duration": 14.99,
+    "sizeBytes": 149904,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-12_p-1.mp3"
+  },
+  "art-of-war_ch-12_p-2": {
+    "passageId": "art-of-war_ch-12_p-2",
+    "duration": 20.2,
+    "sizeBytes": 202032,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-12_p-2.mp3"
+  },
+  "art-of-war_ch-12_p-3": {
+    "passageId": "art-of-war_ch-12_p-3",
+    "duration": 18.04,
+    "sizeBytes": 180432,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-12_p-3.mp3"
+  },
+  "art-of-war_ch-13_p-1": {
+    "passageId": "art-of-war_ch-13_p-1",
+    "duration": 21.23,
+    "sizeBytes": 212256,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-13_p-1.mp3"
+  },
+  "art-of-war_ch-13_p-2": {
+    "passageId": "art-of-war_ch-13_p-2",
+    "duration": 18.85,
+    "sizeBytes": 188496,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-13_p-2.mp3"
+  },
+  "art-of-war_ch-13_p-3": {
+    "passageId": "art-of-war_ch-13_p-3",
+    "duration": 11.17,
+    "sizeBytes": 111744,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-13_p-3.mp3"
+  },
+  "art-of-war_ch-13_p-4": {
+    "passageId": "art-of-war_ch-13_p-4",
+    "duration": 21.02,
+    "sizeBytes": 210240,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-13_p-4.mp3"
+  },
+  "art-of-war_ch-13_p-5": {
+    "passageId": "art-of-war_ch-13_p-5",
+    "duration": 8.51,
+    "sizeBytes": 85104,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-13_p-5.mp3"
+  },
+  "art-of-war_ch-2_p-1": {
+    "passageId": "art-of-war_ch-2_p-1",
+    "duration": 8.83,
+    "sizeBytes": 88272,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-2_p-1.mp3"
+  },
+  "art-of-war_ch-2_p-2": {
+    "passageId": "art-of-war_ch-2_p-2",
+    "duration": 13.16,
+    "sizeBytes": 131616,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-2_p-2.mp3"
+  },
+  "art-of-war_ch-2_p-3": {
+    "passageId": "art-of-war_ch-2_p-3",
+    "duration": 19.32,
+    "sizeBytes": 193248,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-2_p-3.mp3"
+  },
+  "art-of-war_ch-2_p-4": {
+    "passageId": "art-of-war_ch-2_p-4",
+    "duration": 12.51,
+    "sizeBytes": 125136,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-2_p-4.mp3"
+  },
+  "art-of-war_ch-2_p-5": {
+    "passageId": "art-of-war_ch-2_p-5",
+    "duration": 4.19,
+    "sizeBytes": 41904,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-2_p-5.mp3"
+  },
+  "art-of-war_ch-3_p-1": {
+    "passageId": "art-of-war_ch-3_p-1",
+    "duration": 12.27,
+    "sizeBytes": 122688,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-3_p-1.mp3"
+  },
+  "art-of-war_ch-3_p-2": {
+    "passageId": "art-of-war_ch-3_p-2",
+    "duration": 12.33,
+    "sizeBytes": 123264,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-3_p-2.mp3"
+  },
+  "art-of-war_ch-3_p-3": {
+    "passageId": "art-of-war_ch-3_p-3",
+    "duration": 15.98,
+    "sizeBytes": 159840,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-3_p-3.mp3"
+  },
+  "art-of-war_ch-3_p-4": {
+    "passageId": "art-of-war_ch-3_p-4",
+    "duration": 18.66,
+    "sizeBytes": 186624,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-3_p-4.mp3"
+  },
+  "art-of-war_ch-3_p-5": {
+    "passageId": "art-of-war_ch-3_p-5",
+    "duration": 7.6,
+    "sizeBytes": 76032,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-3_p-5.mp3"
+  },
+  "art-of-war_ch-3_p-6": {
+    "passageId": "art-of-war_ch-3_p-6",
+    "duration": 5.56,
+    "sizeBytes": 55584,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-3_p-6.mp3"
+  },
+  "art-of-war_ch-4_p-1": {
+    "passageId": "art-of-war_ch-4_p-1",
+    "duration": 10.18,
+    "sizeBytes": 101808,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-4_p-1.mp3"
+  },
+  "art-of-war_ch-4_p-2": {
+    "passageId": "art-of-war_ch-4_p-2",
+    "duration": 9.4,
+    "sizeBytes": 94032,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-4_p-2.mp3"
+  },
+  "art-of-war_ch-4_p-3": {
+    "passageId": "art-of-war_ch-4_p-3",
+    "duration": 23.88,
+    "sizeBytes": 238752,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-4_p-3.mp3"
+  },
+  "art-of-war_ch-4_p-4": {
+    "passageId": "art-of-war_ch-4_p-4",
+    "duration": 14.92,
+    "sizeBytes": 149184,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-4_p-4.mp3"
+  },
+  "art-of-war_ch-5_p-1": {
+    "passageId": "art-of-war_ch-5_p-1",
+    "duration": 10.44,
+    "sizeBytes": 104400,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-5_p-1.mp3"
+  },
+  "art-of-war_ch-5_p-2": {
+    "passageId": "art-of-war_ch-5_p-2",
+    "duration": 21.2,
+    "sizeBytes": 211968,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-5_p-2.mp3"
+  },
+  "art-of-war_ch-5_p-3": {
+    "passageId": "art-of-war_ch-5_p-3",
+    "duration": 8.97,
+    "sizeBytes": 89712,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-5_p-3.mp3"
+  },
+  "art-of-war_ch-5_p-4": {
+    "passageId": "art-of-war_ch-5_p-4",
+    "duration": 17.28,
+    "sizeBytes": 172800,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-5_p-4.mp3"
+  },
+  "art-of-war_ch-5_p-5": {
+    "passageId": "art-of-war_ch-5_p-5",
+    "duration": 11.48,
+    "sizeBytes": 114768,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-5_p-5.mp3"
+  },
+  "art-of-war_ch-6_p-1": {
+    "passageId": "art-of-war_ch-6_p-1",
+    "duration": 12.01,
+    "sizeBytes": 120096,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-6_p-1.mp3"
+  },
+  "art-of-war_ch-6_p-2": {
+    "passageId": "art-of-war_ch-6_p-2",
+    "duration": 26.21,
+    "sizeBytes": 262080,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-6_p-2.mp3"
+  },
+  "art-of-war_ch-6_p-3": {
+    "passageId": "art-of-war_ch-6_p-3",
+    "duration": 7.96,
+    "sizeBytes": 79632,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-6_p-3.mp3"
+  },
+  "art-of-war_ch-6_p-4": {
+    "passageId": "art-of-war_ch-6_p-4",
+    "duration": 12.74,
+    "sizeBytes": 127440,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-6_p-4.mp3"
+  },
+  "art-of-war_ch-6_p-5": {
+    "passageId": "art-of-war_ch-6_p-5",
+    "duration": 15.22,
+    "sizeBytes": 152208,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-6_p-5.mp3"
+  },
+  "art-of-war_ch-6_p-6": {
+    "passageId": "art-of-war_ch-6_p-6",
+    "duration": 15.44,
+    "sizeBytes": 154368,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-6_p-6.mp3"
+  },
+  "art-of-war_ch-6_p-7": {
+    "passageId": "art-of-war_ch-6_p-7",
+    "duration": 13.12,
+    "sizeBytes": 131184,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-6_p-7.mp3"
+  },
+  "art-of-war_ch-7_p-1": {
+    "passageId": "art-of-war_ch-7_p-1",
+    "duration": 13.35,
+    "sizeBytes": 133488,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-7_p-1.mp3"
+  },
+  "art-of-war_ch-7_p-2": {
+    "passageId": "art-of-war_ch-7_p-2",
+    "duration": 22.68,
+    "sizeBytes": 226800,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-7_p-2.mp3"
+  },
+  "art-of-war_ch-7_p-3": {
+    "passageId": "art-of-war_ch-7_p-3",
+    "duration": 11.26,
+    "sizeBytes": 112608,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-7_p-3.mp3"
+  },
+  "art-of-war_ch-7_p-4": {
+    "passageId": "art-of-war_ch-7_p-4",
+    "duration": 11.91,
+    "sizeBytes": 119088,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-7_p-4.mp3"
+  },
+  "art-of-war_ch-7_p-5": {
+    "passageId": "art-of-war_ch-7_p-5",
+    "duration": 13.38,
+    "sizeBytes": 133776,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-7_p-5.mp3"
+  },
+  "art-of-war_ch-7_p-6": {
+    "passageId": "art-of-war_ch-7_p-6",
+    "duration": 9.69,
+    "sizeBytes": 96912,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-7_p-6.mp3"
+  },
+  "art-of-war_ch-8_p-1": {
+    "passageId": "art-of-war_ch-8_p-1",
+    "duration": 18.85,
+    "sizeBytes": 188496,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-8_p-1.mp3"
+  },
+  "art-of-war_ch-8_p-2": {
+    "passageId": "art-of-war_ch-8_p-2",
+    "duration": 7.65,
+    "sizeBytes": 76464,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-8_p-2.mp3"
+  },
+  "art-of-war_ch-8_p-3": {
+    "passageId": "art-of-war_ch-8_p-3",
+    "duration": 4.58,
+    "sizeBytes": 45792,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-8_p-3.mp3"
+  },
+  "art-of-war_ch-8_p-4": {
+    "passageId": "art-of-war_ch-8_p-4",
+    "duration": 9.39,
+    "sizeBytes": 93888,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-8_p-4.mp3"
+  },
+  "art-of-war_ch-9_p-1": {
+    "passageId": "art-of-war_ch-9_p-1",
+    "duration": 23.95,
+    "sizeBytes": 239472,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-9_p-1.mp3"
+  },
+  "art-of-war_ch-9_p-2": {
+    "passageId": "art-of-war_ch-9_p-2",
+    "duration": 22.87,
+    "sizeBytes": 228672,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-9_p-2.mp3"
+  },
+  "art-of-war_ch-9_p-3": {
+    "passageId": "art-of-war_ch-9_p-3",
+    "duration": 61.78,
+    "sizeBytes": 617760,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-9_p-3.mp3"
+  },
+  "art-of-war_ch-9_p-4": {
+    "passageId": "art-of-war_ch-9_p-4",
+    "duration": 5.47,
+    "sizeBytes": 54720,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-9_p-4.mp3"
+  },
+  "art-of-war_ch-9_p-5": {
+    "passageId": "art-of-war_ch-9_p-5",
+    "duration": 12.9,
+    "sizeBytes": 129024,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/art-of-war/art-of-war_ch-9_p-5.mp3"
+  },
+  "jian-zhu-ke-shu_ch-1_p-1": {
+    "passageId": "jian-zhu-ke-shu_ch-1_p-1",
+    "duration": 10.01,
+    "sizeBytes": 100080,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/jian-zhu-ke-shu/jian-zhu-ke-shu_ch-1_p-1.mp3"
+  },
+  "jian-zhu-ke-shu_ch-1_p-2": {
+    "passageId": "jian-zhu-ke-shu_ch-1_p-2",
+    "duration": 42.21,
+    "sizeBytes": 422064,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/jian-zhu-ke-shu/jian-zhu-ke-shu_ch-1_p-2.mp3"
+  },
+  "jian-zhu-ke-shu_ch-1_p-3": {
+    "passageId": "jian-zhu-ke-shu_ch-1_p-3",
+    "duration": 48.34,
+    "sizeBytes": 483408,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/jian-zhu-ke-shu/jian-zhu-ke-shu_ch-1_p-3.mp3"
+  },
+  "jian-zhu-ke-shu_ch-1_p-4": {
+    "passageId": "jian-zhu-ke-shu_ch-1_p-4",
+    "duration": 19.8,
+    "sizeBytes": 198000,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/jian-zhu-ke-shu/jian-zhu-ke-shu_ch-1_p-4.mp3"
+  },
+  "jian-zhu-ke-shu_ch-1_p-5": {
+    "passageId": "jian-zhu-ke-shu_ch-1_p-5",
+    "duration": 8.4,
+    "sizeBytes": 83952,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/jian-zhu-ke-shu/jian-zhu-ke-shu_ch-1_p-5.mp3"
+  },
+  "jian-zhu-ke-shu_ch-1_p-6": {
+    "passageId": "jian-zhu-ke-shu_ch-1_p-6",
+    "duration": 14.66,
+    "sizeBytes": 146592,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/jian-zhu-ke-shu/jian-zhu-ke-shu_ch-1_p-6.mp3"
+  },
+  "lun-yu_ch-1_p-1": {
+    "passageId": "lun-yu_ch-1_p-1",
+    "duration": 6.67,
+    "sizeBytes": 66672,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-1_p-1.mp3"
+  },
+  "lun-yu_ch-1_p-2": {
+    "passageId": "lun-yu_ch-1_p-2",
+    "duration": 9.52,
+    "sizeBytes": 95184,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-1_p-2.mp3"
+  },
+  "lun-yu_ch-1_p-3": {
+    "passageId": "lun-yu_ch-1_p-3",
+    "duration": 2.64,
+    "sizeBytes": 26352,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-1_p-3.mp3"
+  },
+  "lun-yu_ch-1_p-4": {
+    "passageId": "lun-yu_ch-1_p-4",
+    "duration": 5.89,
+    "sizeBytes": 58896,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-1_p-4.mp3"
+  },
+  "lun-yu_ch-1_p-5": {
+    "passageId": "lun-yu_ch-1_p-5",
+    "duration": 4.18,
+    "sizeBytes": 41760,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-1_p-5.mp3"
+  },
+  "lun-yu_ch-1_p-6": {
+    "passageId": "lun-yu_ch-1_p-6",
+    "duration": 6.36,
+    "sizeBytes": 63648,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-1_p-6.mp3"
+  },
+  "lun-yu_ch-1_p-7": {
+    "passageId": "lun-yu_ch-1_p-7",
+    "duration": 7.16,
+    "sizeBytes": 71568,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-1_p-7.mp3"
+  },
+  "lun-yu_ch-1_p-8": {
+    "passageId": "lun-yu_ch-1_p-8",
+    "duration": 6.71,
+    "sizeBytes": 67104,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-1_p-8.mp3"
+  },
+  "lun-yu_ch-1_p-9": {
+    "passageId": "lun-yu_ch-1_p-9",
+    "duration": 2.85,
+    "sizeBytes": 28512,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-1_p-9.mp3"
+  },
+  "lun-yu_ch-1_p-10": {
+    "passageId": "lun-yu_ch-1_p-10",
+    "duration": 10.84,
+    "sizeBytes": 108432,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-1_p-10.mp3"
+  },
+  "lun-yu_ch-1_p-11": {
+    "passageId": "lun-yu_ch-1_p-11",
+    "duration": 5.11,
+    "sizeBytes": 51120,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-1_p-11.mp3"
+  },
+  "lun-yu_ch-1_p-12": {
+    "passageId": "lun-yu_ch-1_p-12",
+    "duration": 8.06,
+    "sizeBytes": 80640,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-1_p-12.mp3"
+  },
+  "lun-yu_ch-1_p-13": {
+    "passageId": "lun-yu_ch-1_p-13",
+    "duration": 5.31,
+    "sizeBytes": 53136,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-1_p-13.mp3"
+  },
+  "lun-yu_ch-1_p-14": {
+    "passageId": "lun-yu_ch-1_p-14",
+    "duration": 5.37,
+    "sizeBytes": 53712,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-1_p-14.mp3"
+  },
+  "lun-yu_ch-1_p-15": {
+    "passageId": "lun-yu_ch-1_p-15",
+    "duration": 14.27,
+    "sizeBytes": 142704,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-1_p-15.mp3"
+  },
+  "lun-yu_ch-1_p-16": {
+    "passageId": "lun-yu_ch-1_p-16",
+    "duration": 2.91,
+    "sizeBytes": 29088,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-1_p-16.mp3"
+  },
+  "lun-yu_ch-2_p-1": {
+    "passageId": "lun-yu_ch-2_p-1",
+    "duration": 3.69,
+    "sizeBytes": 36864,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-1.mp3"
+  },
+  "lun-yu_ch-2_p-2": {
+    "passageId": "lun-yu_ch-2_p-2",
+    "duration": 3.4,
+    "sizeBytes": 33984,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-2.mp3"
+  },
+  "lun-yu_ch-2_p-3": {
+    "passageId": "lun-yu_ch-2_p-3",
+    "duration": 5.9,
+    "sizeBytes": 59040,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-3.mp3"
+  },
+  "lun-yu_ch-2_p-4": {
+    "passageId": "lun-yu_ch-2_p-4",
+    "duration": 10.04,
+    "sizeBytes": 100368,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-4.mp3"
+  },
+  "lun-yu_ch-2_p-5": {
+    "passageId": "lun-yu_ch-2_p-5",
+    "duration": 11.92,
+    "sizeBytes": 119232,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-5.mp3"
+  },
+  "lun-yu_ch-2_p-6": {
+    "passageId": "lun-yu_ch-2_p-6",
+    "duration": 3.56,
+    "sizeBytes": 35568,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-6.mp3"
+  },
+  "lun-yu_ch-2_p-7": {
+    "passageId": "lun-yu_ch-2_p-7",
+    "duration": 6.78,
+    "sizeBytes": 67824,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-7.mp3"
+  },
+  "lun-yu_ch-2_p-8": {
+    "passageId": "lun-yu_ch-2_p-8",
+    "duration": 6.36,
+    "sizeBytes": 63648,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-8.mp3"
+  },
+  "lun-yu_ch-2_p-9": {
+    "passageId": "lun-yu_ch-2_p-9",
+    "duration": 6.0,
+    "sizeBytes": 60048,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-9.mp3"
+  },
+  "lun-yu_ch-2_p-10": {
+    "passageId": "lun-yu_ch-2_p-10",
+    "duration": 7.04,
+    "sizeBytes": 70416,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-10.mp3"
+  },
+  "lun-yu_ch-2_p-11": {
+    "passageId": "lun-yu_ch-2_p-11",
+    "duration": 2.69,
+    "sizeBytes": 26928,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-11.mp3"
+  },
+  "lun-yu_ch-2_p-12": {
+    "passageId": "lun-yu_ch-2_p-12",
+    "duration": 1.96,
+    "sizeBytes": 19584,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-12.mp3"
+  },
+  "lun-yu_ch-2_p-13": {
+    "passageId": "lun-yu_ch-2_p-13",
+    "duration": 3.74,
+    "sizeBytes": 37440,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-13.mp3"
+  },
+  "lun-yu_ch-2_p-14": {
+    "passageId": "lun-yu_ch-2_p-14",
+    "duration": 2.89,
+    "sizeBytes": 28944,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-14.mp3"
+  },
+  "lun-yu_ch-2_p-15": {
+    "passageId": "lun-yu_ch-2_p-15",
+    "duration": 2.98,
+    "sizeBytes": 29808,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-15.mp3"
+  },
+  "lun-yu_ch-2_p-16": {
+    "passageId": "lun-yu_ch-2_p-16",
+    "duration": 2.58,
+    "sizeBytes": 25776,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-16.mp3"
+  },
+  "lun-yu_ch-2_p-17": {
+    "passageId": "lun-yu_ch-2_p-17",
+    "duration": 5.43,
+    "sizeBytes": 54288,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-17.mp3"
+  },
+  "lun-yu_ch-2_p-18": {
+    "passageId": "lun-yu_ch-2_p-18",
+    "duration": 8.88,
+    "sizeBytes": 88848,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-18.mp3"
+  },
+  "lun-yu_ch-2_p-19": {
+    "passageId": "lun-yu_ch-2_p-19",
+    "duration": 5.63,
+    "sizeBytes": 56304,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-19.mp3"
+  },
+  "lun-yu_ch-2_p-20": {
+    "passageId": "lun-yu_ch-2_p-20",
+    "duration": 6.35,
+    "sizeBytes": 63504,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-20.mp3"
+  },
+  "lun-yu_ch-2_p-21": {
+    "passageId": "lun-yu_ch-2_p-21",
+    "duration": 7.46,
+    "sizeBytes": 74592,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-21.mp3"
+  },
+  "lun-yu_ch-2_p-22": {
+    "passageId": "lun-yu_ch-2_p-22",
+    "duration": 5.44,
+    "sizeBytes": 54432,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-22.mp3"
+  },
+  "lun-yu_ch-2_p-23": {
+    "passageId": "lun-yu_ch-2_p-23",
+    "duration": 8.84,
+    "sizeBytes": 88416,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-23.mp3"
+  },
+  "lun-yu_ch-2_p-24": {
+    "passageId": "lun-yu_ch-2_p-24",
+    "duration": 4.42,
+    "sizeBytes": 44208,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-2_p-24.mp3"
+  },
+  "lun-yu_ch-4_p-1": {
+    "passageId": "lun-yu_ch-4_p-1",
+    "duration": 3.8,
+    "sizeBytes": 38016,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-1.mp3"
+  },
+  "lun-yu_ch-4_p-2": {
+    "passageId": "lun-yu_ch-4_p-2",
+    "duration": 5.11,
+    "sizeBytes": 51120,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-2.mp3"
+  },
+  "lun-yu_ch-4_p-3": {
+    "passageId": "lun-yu_ch-4_p-3",
+    "duration": 2.72,
+    "sizeBytes": 27216,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-3.mp3"
+  },
+  "lun-yu_ch-4_p-4": {
+    "passageId": "lun-yu_ch-4_p-4",
+    "duration": 2.62,
+    "sizeBytes": 26208,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-4.mp3"
+  },
+  "lun-yu_ch-4_p-5": {
+    "passageId": "lun-yu_ch-4_p-5",
+    "duration": 11.19,
+    "sizeBytes": 111888,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-5.mp3"
+  },
+  "lun-yu_ch-4_p-6": {
+    "passageId": "lun-yu_ch-4_p-6",
+    "duration": 12.1,
+    "sizeBytes": 120960,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-6.mp3"
+  },
+  "lun-yu_ch-4_p-7": {
+    "passageId": "lun-yu_ch-4_p-7",
+    "duration": 4.32,
+    "sizeBytes": 43200,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-7.mp3"
+  },
+  "lun-yu_ch-4_p-8": {
+    "passageId": "lun-yu_ch-4_p-8",
+    "duration": 2.51,
+    "sizeBytes": 25056,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-8.mp3"
+  },
+  "lun-yu_ch-4_p-9": {
+    "passageId": "lun-yu_ch-4_p-9",
+    "duration": 3.53,
+    "sizeBytes": 35280,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-9.mp3"
+  },
+  "lun-yu_ch-4_p-10": {
+    "passageId": "lun-yu_ch-4_p-10",
+    "duration": 3.95,
+    "sizeBytes": 39456,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-10.mp3"
+  },
+  "lun-yu_ch-4_p-11": {
+    "passageId": "lun-yu_ch-4_p-11",
+    "duration": 4.05,
+    "sizeBytes": 40464,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-11.mp3"
+  },
+  "lun-yu_ch-4_p-12": {
+    "passageId": "lun-yu_ch-4_p-12",
+    "duration": 2.58,
+    "sizeBytes": 25776,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-12.mp3"
+  },
+  "lun-yu_ch-4_p-13": {
+    "passageId": "lun-yu_ch-4_p-13",
+    "duration": 5.31,
+    "sizeBytes": 53136,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-13.mp3"
+  },
+  "lun-yu_ch-4_p-14": {
+    "passageId": "lun-yu_ch-4_p-14",
+    "duration": 3.99,
+    "sizeBytes": 39888,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-14.mp3"
+  },
+  "lun-yu_ch-4_p-15": {
+    "passageId": "lun-yu_ch-4_p-15",
+    "duration": 9.03,
+    "sizeBytes": 90288,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-15.mp3"
+  },
+  "lun-yu_ch-4_p-16": {
+    "passageId": "lun-yu_ch-4_p-16",
+    "duration": 3.83,
+    "sizeBytes": 38304,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-16.mp3"
+  },
+  "lun-yu_ch-4_p-17": {
+    "passageId": "lun-yu_ch-4_p-17",
+    "duration": 3.04,
+    "sizeBytes": 30384,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-17.mp3"
+  },
+  "lun-yu_ch-4_p-18": {
+    "passageId": "lun-yu_ch-4_p-18",
+    "duration": 4.61,
+    "sizeBytes": 46080,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-18.mp3"
+  },
+  "lun-yu_ch-4_p-19": {
+    "passageId": "lun-yu_ch-4_p-19",
+    "duration": 3.73,
+    "sizeBytes": 37296,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-19.mp3"
+  },
+  "lun-yu_ch-4_p-20": {
+    "passageId": "lun-yu_ch-4_p-20",
+    "duration": 2.92,
+    "sizeBytes": 29232,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-20.mp3"
+  },
+  "lun-yu_ch-4_p-21": {
+    "passageId": "lun-yu_ch-4_p-21",
+    "duration": 4.51,
+    "sizeBytes": 45072,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-21.mp3"
+  },
+  "lun-yu_ch-4_p-22": {
+    "passageId": "lun-yu_ch-4_p-22",
+    "duration": 2.95,
+    "sizeBytes": 29520,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-22.mp3"
+  },
+  "lun-yu_ch-4_p-23": {
+    "passageId": "lun-yu_ch-4_p-23",
+    "duration": 2.17,
+    "sizeBytes": 21744,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-23.mp3"
+  },
+  "lun-yu_ch-4_p-24": {
+    "passageId": "lun-yu_ch-4_p-24",
+    "duration": 2.58,
+    "sizeBytes": 25776,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-24.mp3"
+  },
+  "lun-yu_ch-4_p-25": {
+    "passageId": "lun-yu_ch-4_p-25",
+    "duration": 2.35,
+    "sizeBytes": 23472,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-25.mp3"
+  },
+  "lun-yu_ch-4_p-26": {
+    "passageId": "lun-yu_ch-4_p-26",
+    "duration": 3.72,
+    "sizeBytes": 37152,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/lun-yu/lun-yu_ch-4_p-26.mp3"
+  },
+  "gu-wen-guan-zhi_ch-1_p-1": {
+    "passageId": "gu-wen-guan-zhi_ch-1_p-1",
+    "duration": 10.14,
+    "sizeBytes": 101376,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-1_p-1.mp3"
+  },
+  "gu-wen-guan-zhi_ch-1_p-2": {
+    "passageId": "gu-wen-guan-zhi_ch-1_p-2",
+    "duration": 7.63,
+    "sizeBytes": 76320,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-1_p-2.mp3"
+  },
+  "gu-wen-guan-zhi_ch-1_p-3": {
+    "passageId": "gu-wen-guan-zhi_ch-1_p-3",
+    "duration": 20.25,
+    "sizeBytes": 202464,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-1_p-3.mp3"
+  },
+  "gu-wen-guan-zhi_ch-1_p-4": {
+    "passageId": "gu-wen-guan-zhi_ch-1_p-4",
+    "duration": 11.3,
+    "sizeBytes": 113040,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-1_p-4.mp3"
+  },
+  "gu-wen-guan-zhi_ch-1_p-5": {
+    "passageId": "gu-wen-guan-zhi_ch-1_p-5",
+    "duration": 7.16,
+    "sizeBytes": 71568,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-1_p-5.mp3"
+  },
+  "gu-wen-guan-zhi_ch-1_p-6": {
+    "passageId": "gu-wen-guan-zhi_ch-1_p-6",
+    "duration": 12.34,
+    "sizeBytes": 123408,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-1_p-6.mp3"
+  },
+  "gu-wen-guan-zhi_ch-1_p-7": {
+    "passageId": "gu-wen-guan-zhi_ch-1_p-7",
+    "duration": 9.49,
+    "sizeBytes": 94896,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-1_p-7.mp3"
+  },
+  "gu-wen-guan-zhi_ch-1_p-8": {
+    "passageId": "gu-wen-guan-zhi_ch-1_p-8",
+    "duration": 4.19,
+    "sizeBytes": 41904,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-1_p-8.mp3"
+  },
+  "gu-wen-guan-zhi_ch-1_p-9": {
+    "passageId": "gu-wen-guan-zhi_ch-1_p-9",
+    "duration": 18.72,
+    "sizeBytes": 187200,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-1_p-9.mp3"
+  },
+  "gu-wen-guan-zhi_ch-1_p-10": {
+    "passageId": "gu-wen-guan-zhi_ch-1_p-10",
+    "duration": 5.5,
+    "sizeBytes": 55008,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-1_p-10.mp3"
+  },
+  "gu-wen-guan-zhi_ch-1_p-11": {
+    "passageId": "gu-wen-guan-zhi_ch-1_p-11",
+    "duration": 6.83,
+    "sizeBytes": 68256,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-1_p-11.mp3"
+  },
+  "gu-wen-guan-zhi_ch-2_p-12": {
+    "passageId": "gu-wen-guan-zhi_ch-2_p-12",
+    "duration": 8.31,
+    "sizeBytes": 83088,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-2_p-12.mp3"
+  },
+  "gu-wen-guan-zhi_ch-2_p-13": {
+    "passageId": "gu-wen-guan-zhi_ch-2_p-13",
+    "duration": 6.98,
+    "sizeBytes": 69840,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-2_p-13.mp3"
+  },
+  "gu-wen-guan-zhi_ch-2_p-14": {
+    "passageId": "gu-wen-guan-zhi_ch-2_p-14",
+    "duration": 30.76,
+    "sizeBytes": 307584,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-2_p-14.mp3"
+  },
+  "gu-wen-guan-zhi_ch-3_p-15": {
+    "passageId": "gu-wen-guan-zhi_ch-3_p-15",
+    "duration": 10.96,
+    "sizeBytes": 109584,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-3_p-15.mp3"
+  },
+  "gu-wen-guan-zhi_ch-3_p-16": {
+    "passageId": "gu-wen-guan-zhi_ch-3_p-16",
+    "duration": 4.56,
+    "sizeBytes": 45648,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-3_p-16.mp3"
+  },
+  "gu-wen-guan-zhi_ch-3_p-17": {
+    "passageId": "gu-wen-guan-zhi_ch-3_p-17",
+    "duration": 35.9,
+    "sizeBytes": 358992,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-3_p-17.mp3"
+  },
+  "gu-wen-guan-zhi_ch-3_p-18": {
+    "passageId": "gu-wen-guan-zhi_ch-3_p-18",
+    "duration": 4.28,
+    "sizeBytes": 42768,
+    "voice": "zh-TW-YunJheNeural",
+    "rate": "-8%",
+    "url": "audio/gu-wen-guan-zhi/gu-wen-guan-zhi_ch-3_p-18.mp3"
+  }
+}
