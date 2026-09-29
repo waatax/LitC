@@ -124,7 +124,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'mo-zi': {
     "workId": "mo-zi",
     "title": "墨子",
-    "schoolName": "mohism",
+    "schoolName": "墨家",
     "period": "戰國時期（約公元前5世紀至前3世紀）",
     "author": "墨子（墨翟，春秋末戰國初魯國/宋國人）及其墨家學派",
     "keyAllusions": [
@@ -152,7 +152,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'da-xue': {
     "workId": "da-xue",
     "title": "大學",
-    "schoolName": "confucianism",
+    "schoolName": "儒家",
     "period": "戰國至秦漢（約公元前3世紀）",
     "author": "舊題曾子傳述，宋代朱熹認定為孔子門人曾子作經、門人記傳",
     "keyAllusions": [
@@ -180,7 +180,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'zhong-yong': {
     "workId": "zhong-yong",
     "title": "中庸",
-    "schoolName": "confucianism",
+    "schoolName": "儒家",
     "period": "戰國時期（約公元前5世紀）",
     "author": "子思（孔伋，孔子之孫）",
     "keyAllusions": [
@@ -209,7 +209,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'lun-yu': {
     "workId": "lun-yu",
     "title": "論語",
-    "schoolName": "confucianism",
+    "schoolName": "儒家",
     "period": "春秋戰國時期（約公元前5世紀至前4世紀）",
     "author": "孔子（孔丘）及其弟子與再傳弟子",
     "keyAllusions": [
@@ -238,7 +238,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'meng-zi': {
     "workId": "meng-zi",
     "title": "孟子",
-    "schoolName": "confucianism",
+    "schoolName": "儒家",
     "period": "戰國中期（約公元前4世紀）",
     "author": "孟子（孟軻，鄒國人）及其弟子（萬章、公孫醜等）",
     "keyAllusions": [
@@ -268,7 +268,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "yi-jing",
     "title": "易經",
     "subtitle": "周易",
-    "schoolName": "confucianism",
+    "schoolName": "儒家",
     "period": "上古至西周（卦爻辭）、戰國至秦漢（易傳）",
     "author": "上古伏羲畫卦、周文王作卦辭、周公作爻辭、孔子作《易傳》（十翼）",
     "keyAllusions": [
@@ -298,7 +298,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "shu-jing",
     "title": "尚書",
     "subtitle": "書經",
-    "schoolName": "confucianism",
+    "schoolName": "儒家",
     "period": "上古至戰國（記錄堯舜至春秋時期史事）",
     "author": "上古史官記錄，相傳孔子輯定",
     "keyAllusions": [
@@ -326,7 +326,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'shi-jing': {
     "workId": "shi-jing",
     "title": "詩經",
-    "schoolName": "confucianism",
+    "schoolName": "儒家",
     "period": "西周初期至春秋中期（公元前11世紀至前6世紀）",
     "author": "西周至春秋民間採詩官及周室公卿創作，相傳孔子刪定",
     "keyAllusions": [
@@ -355,7 +355,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'li-ji': {
     "workId": "li-ji",
     "title": "禮記",
-    "schoolName": "confucianism",
+    "schoolName": "儒家",
     "period": "秦漢時期（約公元前2世紀）",
     "author": "孔子門人及其後學撰寫，西漢戴聖輯錄（小戴禮記）",
     "keyAllusions": [
@@ -383,7 +383,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'chun-qiu': {
     "workId": "chun-qiu",
     "title": "春秋",
-    "schoolName": "confucianism",
+    "schoolName": "儒家",
     "period": "春秋時期（公元前722年至前481年）",
     "author": "魯國國史，相傳孔子編修",
     "keyAllusions": [
@@ -411,7 +411,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'gu-wen-guan-zhi': {
     "workId": "gu-wen-guan-zhi",
     "title": "古文觀止",
-    "schoolName": "literature",
+    "schoolName": "文學",
     "period": "清康熙三十四年（1695年）",
     "author": "清代紹興文人吳楚材、吳調侯叔姪",
     "keyAllusions": [
@@ -438,7 +438,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'cai-gen-tan': {
     "workId": "cai-gen-tan",
     "title": "菜根譚",
-    "schoolName": "literature",
+    "schoolName": "文學",
     "period": "明代萬曆年間（約1600年前後）",
     "author": "洪應明（字自誠，號還初道人，明代學者）",
     "keyAllusions": [
@@ -467,7 +467,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "liezi",
     "title": "列子",
     "subtitle": "沖虛至德真經",
-    "schoolName": "daoism",
+    "schoolName": "道家",
     "period": "戰國時期至魏晉（唐代尊為《沖虛真經》）",
     "author": "列禦寇（戰國鄭國人）及其弟子，魏晉張湛作注",
     "keyAllusions": [
@@ -497,7 +497,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "shen-bu-hai",
     "title": "申不害",
     "subtitle": "申子",
-    "schoolName": "legalism",
+    "schoolName": "法家",
     "period": "戰國中期（約公元前4世紀）",
     "author": "申不害（韓國相國，鄭國人）",
     "keyAllusions": [
@@ -525,7 +525,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'shenzi': {
     "workId": "shenzi",
     "title": "慎子",
-    "schoolName": "legalism",
+    "schoolName": "法家",
     "period": "戰國中期（約公元前4世紀）",
     "author": "慎到（趙國人，齊國稷下學士）",
     "keyAllusions": [
@@ -553,7 +553,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'jian-zhu-ke-shu': {
     "workId": "jian-zhu-ke-shu",
     "title": "諫逐客書",
-    "schoolName": "legalism",
+    "schoolName": "法家",
     "period": "秦王政十年（公元前237年）",
     "author": "李斯（楚國上蔡人，秦國客卿、後任丞相）",
     "keyAllusions": [
@@ -581,7 +581,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'guanzi': {
     "workId": "guanzi",
     "title": "管子",
-    "schoolName": "legalism",
+    "schoolName": "法家",
     "period": "戰國時期至秦漢（約公元前4世紀至前1世紀）",
     "author": "舊題管仲（管夷吾，齊國名相）作，實乃齊國稷下學者與齊法家著作彙編",
     "keyAllusions": [
@@ -610,7 +610,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "art-of-war",
     "title": "孫子兵法",
     "subtitle": "孫子",
-    "schoolName": "military",
+    "schoolName": "兵家",
     "period": "春秋末期（約公元前500年前後）",
     "author": "孫武（字長卿，齊國樂安人，吳國將軍）",
     "keyAllusions": [
@@ -640,7 +640,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "wu-zi",
     "title": "吳子",
     "subtitle": "吳子兵法",
-    "schoolName": "military",
+    "schoolName": "兵家",
     "period": "戰國初期（約公元前4世紀）",
     "author": "吳起（衛國左氏人，曾任魏國、楚國將領）",
     "keyAllusions": [
@@ -668,7 +668,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'si-ma-fa': {
     "workId": "si-ma-fa",
     "title": "司馬法",
-    "schoolName": "military",
+    "schoolName": "兵家",
     "period": "春秋戰國時期",
     "author": "齊國司馬穰苴遺說，齊威王時整理",
     "keyAllusions": [
@@ -697,7 +697,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "three-strategies",
     "title": "三略",
     "subtitle": "黃石公三略",
-    "schoolName": "military",
+    "schoolName": "兵家",
     "period": "秦漢時期（約公元前2世紀）",
     "author": "舊題黃石公授張良，實乃秦漢之際兵家所著",
     "keyAllusions": [
@@ -725,7 +725,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'wei-liao-zi': {
     "workId": "wei-liao-zi",
     "title": "尉繚子",
-    "schoolName": "military",
+    "schoolName": "兵家",
     "period": "戰國末期（秦王政時期）",
     "author": "尉繚（魏國人，秦國國尉）",
     "keyAllusions": [
@@ -754,7 +754,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "liu-tao",
     "title": "六韜",
     "subtitle": "太公兵法",
-    "schoolName": "military",
+    "schoolName": "兵家",
     "period": "戰國末期至西漢",
     "author": "舊題周初太公望（呂尚、姜子牙）作，實戰國兵家輯錄",
     "keyAllusions": [
@@ -783,7 +783,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "shiji",
     "title": "史記",
     "subtitle": "太史公書",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "西漢漢武帝時期（約公元前109年至前91年）",
     "author": "司馬遷（字子長，夏陽人，西漢太史令）",
     "keyAllusions": [
@@ -813,7 +813,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "chun-qiu-zuo-zhuan",
     "title": "春秋左傳",
     "subtitle": "左傳 / 左氏春秋",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "戰國初期（約公元前4世紀）",
     "author": "左丘明（魯國太史）",
     "keyAllusions": [
@@ -842,7 +842,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'zhan-guo-ce': {
     "workId": "zhan-guo-ce",
     "title": "戰國策",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "戰國末年至西漢（西漢劉向整理編訂）",
     "author": "戰國縱橫家遊士記錄，西漢劉向輯錄校訂",
     "keyAllusions": [
@@ -870,7 +870,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'yan-tie-lun': {
     "workId": "yan-tie-lun",
     "title": "鹽鐵論",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "西漢昭帝時期（公元前81年鹽鐵會議後，桓寬整理）",
     "author": "桓寬（字次公，西漢汝南人）",
     "keyAllusions": [
@@ -898,7 +898,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'yandanzi': {
     "workId": "yandanzi",
     "title": "燕丹子",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "戰國末期至漢代",
     "author": "佚名（古小說/歷史傳奇作家）",
     "keyAllusions": [
@@ -927,7 +927,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'xijing-zaji': {
     "workId": "xijing-zaji",
     "title": "西京雜記",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "漢魏魏晉時期（舊題西漢劉歆作，晉葛洪輯錄）",
     "author": "葛洪（字稚川，號抱朴子，東晉道學家、文人）",
     "keyAllusions": [
@@ -956,7 +956,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "lost-book-of-zhou",
     "title": "逸周書",
     "subtitle": "汲塚周書",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "西周至戰國（魏襄王墓汲塚出土）",
     "author": "周室史官記錄，清朱右曾集訓校釋",
     "keyAllusions": [
@@ -984,7 +984,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'guo-yu': {
     "workId": "guo-yu",
     "title": "國語",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "春秋末年至戰國初期（約公元前5世紀）",
     "author": "相傳為魯國太史左丘明撰寫",
     "keyAllusions": [
@@ -1013,7 +1013,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "yanzi-chun-qiu",
     "title": "晏子春秋",
     "subtitle": "晏子",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "戰國時期（約公元前4世紀）",
     "author": "齊國後人輯錄晏嬰（晏子）言行",
     "keyAllusions": [
@@ -1041,7 +1041,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'wu-yue-chun-qiu': {
     "workId": "wu-yue-chun-qiu",
     "title": "吳越春秋",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "東漢時期（約公元1世紀）",
     "author": "趙曄（字長君，會稽山陰人）",
     "keyAllusions": [
@@ -1069,7 +1069,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'yue-jue-shu': {
     "workId": "yue-jue-shu",
     "title": "越絕書",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "東漢時期（約公元1世紀）",
     "author": "袁康、吳平輯錄",
     "keyAllusions": [
@@ -1097,7 +1097,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'lie-nv-zhuan': {
     "workId": "lie-nv-zhuan",
     "title": "列女傳",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "西漢時期（約公元前1世紀）",
     "author": "劉向（字子政，西漢宗室學者）",
     "keyAllusions": [
@@ -1126,7 +1126,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "guliang-zhuan",
     "title": "春秋穀梁傳",
     "subtitle": "穀梁傳",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "戰國至西漢（約公元前2世紀）",
     "author": "穀梁赤（魯國人，子夏弟子）傳述",
     "keyAllusions": [
@@ -1155,7 +1155,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "gongyang-zhuan",
     "title": "春秋公羊傳",
     "subtitle": "公羊傳",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "戰國至西漢（約公元前2世紀）",
     "author": "公羊高（齊國人，子夏弟子）傳述，西漢董仲舒發揚",
     "keyAllusions": [
@@ -1184,7 +1184,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "han-shu",
     "title": "漢書",
     "subtitle": "前漢書",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "東漢時期（公元1世紀，歷時20餘年完成）",
     "author": "班固（字孟堅，扶風安陵人）及其父班彪、妹班昭、馬續",
     "keyAllusions": [
@@ -1213,7 +1213,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'hou-han-shu': {
     "workId": "hou-han-shu",
     "title": "後漢書",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "南朝宋時期（公元5世紀）",
     "author": "範曄（字蔚宗，順陽人，南朝宋史學家）",
     "keyAllusions": [
@@ -1243,7 +1243,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "qian-han-ji",
     "title": "前漢紀",
     "subtitle": "漢紀",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "東漢末年（公元200年前後）",
     "author": "荀悅（字仲豫，潁川陰陵人，東漢史學家、哲學家）",
     "keyAllusions": [
@@ -1271,7 +1271,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
   'dong-guan-han-ji': {
     "workId": "dong-guan-han-ji",
     "title": "東觀漢記",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "東漢官修（公元1世紀至2世紀，經劉珍、班昭、蔡邕等數代人接力）",
     "author": "東漢官修史官團隊（劉珍、班昭、蔡邕、楊厚等）",
     "keyAllusions": [
@@ -1300,7 +1300,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "zhushu-jinian",
     "title": "竹書紀年",
     "subtitle": "汲塚紀年",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "戰國魏國（公元前3世紀魏襄王墓出土）",
     "author": "魏國史官編纂，西晉汲塚出土",
     "keyAllusions": [
@@ -1329,7 +1329,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "mutianzi-zhuan",
     "title": "穆天子傳",
     "subtitle": "周王遊行記",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "戰國時期（西晉汲塚出土竹書之一）",
     "author": "戰國文人據西周傳說輯撰，西晉荀勖、郭璞作注",
     "keyAllusions": [
@@ -1358,7 +1358,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "gu-san-fen",
     "title": "古三墳",
     "subtitle": "三墳書",
-    "schoolName": "histories",
+    "schoolName": "史書",
     "period": "舊題伏羲神農黃帝時代，宋代輯本",
     "author": "舊題三皇作，宋代毛漸輯得傳世",
     "keyAllusions": [
@@ -1387,7 +1387,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "wenzi",
     "title": "文子",
     "subtitle": "通玄真經",
-    "schoolName": "daoism",
+    "schoolName": "道家",
     "period": "戰國時期至漢代（唐代尊為《通玄真經》）",
     "author": "文子（辛鈃，號計然，相傳老子親傳弟子）",
     "keyAllusions": [
@@ -1416,7 +1416,7 @@ export const WORK_DESCRIPTIONS: Record<string, WorkDescription> = {
     "workId": "wenshi-zhenjing",
     "title": "文始真經",
     "subtitle": "關尹子",
-    "schoolName": "daoism",
+    "schoolName": "道家",
     "period": "戰國時期至魏晉（唐代尊為《文始真經》）",
     "author": "關尹子（尹喜，春秋函谷關令，老子授《道德經》之人）",
     "keyAllusions": [

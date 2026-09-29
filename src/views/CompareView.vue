@@ -468,11 +468,22 @@ onUnmounted(() => {
   .compare-hero {
     flex-direction: column;
     text-align: center;
-    padding: var(--sp-6);
+    padding: var(--sp-5) var(--sp-4);
+  }
+
+  .hero-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 2.25rem;
   }
 
   .compare-grid {
     grid-template-columns: 1fr;
+    gap: var(--sp-4);
+  }
+
+  .compare-card {
+    padding: var(--sp-4);
   }
 }
 

@@ -73,5 +73,5 @@ dl div { display: grid; grid-template-columns: 54px 1fr; gap: var(--sp-2); margi
 dt { color: var(--c-text-muted); } dd { color: var(--c-text-secondary); margin: 0; }
 .visit { margin-top: auto; color: var(--c-gold); font-size: var(--fs-sm); }
 .research-note { margin: var(--sp-8) 0; padding: var(--sp-4); border-left: 3px solid var(--c-gold-dark); color: var(--c-text-muted); font-size: var(--fs-xs); line-height: 1.7; }
-@media (max-width: 720px) { .wenhai-hero { grid-template-columns: 1fr; padding: var(--sp-5); } .hero-seal { width: 64px; height: 64px; font-size: var(--fs-lg); } .resource-grid { grid-template-columns: 1fr; } .resource-card { min-height: 0; } }
+@media (max-width: 720px) { .wenhai-hero { grid-template-columns: 1fr; padding: var(--sp-6) var(--sp-5) var(--sp-5); } .hero-seal { width: 64px; height: 64px; font-size: var(--fs-lg); } .resource-grid { grid-template-columns: 1fr; } .resource-card { min-height: 0; } }
 </style>

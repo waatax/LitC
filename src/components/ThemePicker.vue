@@ -20,7 +20,8 @@ const themes = [
   { id: 'celadon', name: '雨過天青', desc: '淡雅青瓷色調', bg: '#ebf3ee', accent: '#3a8b64' },
   { id: 'cinnabar', name: '硃砂描金', desc: '古典朱紅金泥', bg: '#3a1616', accent: '#c9a96e' },
   { id: 'bamboo', name: '竹林月色', desc: '清幽夜間竹影', bg: '#0f1520', accent: '#5ba88a' },
-  { id: 'pinesoot', name: '松煙夜讀', desc: '溫暖油燈夜讀', bg: '#1a130e', accent: '#c4943a' }
+  { id: 'pinesoot', name: '松煙夜讀', desc: '溫暖油燈夜讀', bg: '#1a130e', accent: '#c4943a' },
+  { id: 'amber', name: '暖杏古卷', desc: '柔和護眼黃卷', bg: '#f7f1e3', accent: '#9c6518' }
 ]
 
 const pickerRef = ref<HTMLElement | null>(null)
@@ -58,13 +59,13 @@ const selectTheme = (id: string) => {
 const previewTheme = (id: string) => {
   if (!props.isOpen) return
   const html = document.documentElement
-  html.classList.remove('theme-charcoal', 'theme-xuan', 'theme-celadon', 'theme-cinnabar', 'theme-bamboo', 'theme-pinesoot')
+  html.classList.remove('theme-charcoal', 'theme-xuan', 'theme-celadon', 'theme-cinnabar', 'theme-bamboo', 'theme-pinesoot', 'theme-amber')
   html.classList.add(`theme-${id}`)
 }
 
 const clearPreview = () => {
   const html = document.documentElement
-  html.classList.remove('theme-charcoal', 'theme-xuan', 'theme-celadon', 'theme-cinnabar', 'theme-bamboo', 'theme-pinesoot')
+  html.classList.remove('theme-charcoal', 'theme-xuan', 'theme-celadon', 'theme-cinnabar', 'theme-bamboo', 'theme-pinesoot', 'theme-amber')
   if (props.modelValue) {
     html.classList.add(`theme-${props.modelValue}`)
   }

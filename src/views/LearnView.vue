@@ -1232,4 +1232,44 @@ const schoolAmbientStyle = computed(() => {
   background: var(--c-gold);
   color: #12141a;
 }
+
+.step-content {
+  max-width: 860px;
+  margin-inline: auto;
+}
+
+@media (max-width: 768px) {
+  .learn-top-bar {
+    padding-right: 145px;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+  }
+
+  .top-bar-title {
+    margin-left: var(--sp-2);
+    font-size: var(--fs-sm);
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .step-indicator {
+    gap: var(--sp-3);
+  }
+
+  .step-pip .pip-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 1rem;
+  }
+
+  .step-pip .pip-label {
+    font-size: var(--fs-xs);
+  }
+
+  .vertical-container {
+    height: min(65vh, 460px);
+  }
+}
 </style>

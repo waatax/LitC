@@ -1148,13 +1148,40 @@ const schoolAmbientStyle = computed(() => {
 
 /* ── Responsive ── */
 @media (max-width: 768px) {
+  .mem-top-bar {
+    padding-right: 145px;
+    gap: var(--sp-2);
+    margin-bottom: var(--sp-4);
+  }
+
+  .top-bar-title {
+    max-width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .controls-bar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--sp-2);
+  }
+
+  .controls-bar .btn {
+    font-size: var(--fs-xs);
+    padding: var(--sp-1) var(--sp-2);
+  }
+
   .rating-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: var(--sp-2);
   }
 
   .rating-btn {
-    padding: var(--sp-2) var(--sp-3);
-    min-width: 60px;
+    padding: var(--sp-3) var(--sp-2);
+    min-width: unset;
+    width: 100%;
   }
 
   .summary-stats {

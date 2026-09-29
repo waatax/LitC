@@ -28,6 +28,9 @@ const convertBounded = (text) => {
     '詩云', '書云', '子云', '古人云', '亦云', '如是云云', '當世之禁云',
     '朱干', '朱干玉鏚', '鬱郁', '鬱郁乎', '羣辟',
     '咸陽', '咸陽宮', '咸陽城',
+    '岳陽樓記', '萬里江山', '說明了', '執念', '吃到', '吃完', '里坊', '鄰里', '靈床',
+    '才敢', '狂暴凶猛', '凶猛', '成群', '竹席', '游魚', '角斗甬', '注定', '閭里', '一目了然', '平台',
+    '不舍晝夜', '公孫丑', '借助', '功在不舍', '鍥而舍之', '鍥而不舍', '凶狠', '干預',
   ]
   const placeholders = new Map()
   protectedTerms.forEach((term, index) => {
@@ -47,6 +50,8 @@ const targets = [
   'src/data/workDescriptions.ts',
   'src/data/schools.ts',
   'src/data/editorialReviews.json',
+  'src/data/quiz_bank.ts',
+  'src/data/wenhaiResources.ts',
   'src/App.vue',
 ]
 
@@ -70,10 +75,9 @@ for (const relativePath of [...new Set(targets)]) {
 
 if (findings.length) {
   console.error(`Traditional Chinese audit failed: ${findings.length} line(s) contain convertible Simplified Chinese.`)
-  for (const finding of findings.slice(0, 30)) {
+  for (const finding of findings) {
     console.error(`${finding.file}:${finding.line}\n  ${finding.before}\n  -> ${finding.after}`)
   }
-  if (findings.length > 30) console.error(`...and ${findings.length - 30} more.`)
   process.exitCode = 1
 } else {
   console.log(`Traditional Chinese audit passed: ${new Set(targets).size} public-facing files checked.`)

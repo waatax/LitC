@@ -4632,10 +4632,10 @@ export const quizBank: QuizQuestion[] = [
       "告別辭行",
       "言辭辭藻",
       "推辭辭謝",
-      "推托、計較責備"
+      "推託、計較責備"
     ],
     "correctAnswer": 3,
-    "explanation": "【出處】《史記》〈項羽本紀〉\n【原句】「大行不顧細謹，大禮不辭小讓。」\n【詞義】「辭」在此處解作「推托、計較責備」。\n【訓詁考釋】樊噲勸劉邦脫離鴻門宴時所言：做大事不必拘泥於微小瑣碎禮節，行大禮不計較微小責備。",
+    "explanation": "【出處】《史記》〈項羽本紀〉\n【原句】「大行不顧細謹，大禮不辭小讓。」\n【詞義】「辭」在此處解作「推託、計較責備」。\n【訓詁考釋】樊噲勸劉邦脫離鴻門宴時所言：做大事不必拘泥於微小瑣碎禮節，行大禮不計較微小責備。",
     "workId": "shiji",
     "chapterId": "shiji_ch-7",
     "passageId": "shiji_ch-7_p-47"
@@ -10744,10 +10744,10 @@ export const quizBank: QuizQuestion[] = [
       "儒家",
       "陰陽家",
       "法家",
-      "histories"
+      "史書"
     ],
     "correctAnswer": 3,
-    "explanation": "【學派流別】《春秋公羊傳》乃histories學派之重要代表作。\n【文獻價值】儒家十三經與「春秋三傳」之一。漢代今文經學之核心經典，提出「大一統」、「張三世」、「大復仇」等宏大政治哲學，為漢武帝獨尊儒術提供理論基礎。",
+    "explanation": "【學派流別】《春秋公羊傳》乃史書學派之重要代表作。\n【文獻價值】儒家十三經與「春秋三傳」之一。漢代今文經學之核心經典，提出「大一統」、「張三世」、「大復仇」等宏大政治哲學，為漢武帝獨尊儒術提供理論基礎。",
     "workId": "gongyang-zhuan",
     "chapterId": "gongyang-zhuan_ch-1",
     "passageId": ""
@@ -10759,11 +10759,11 @@ export const quizBank: QuizQuestion[] = [
     "options": [
       "名家",
       "法家",
-      "histories",
+      "史書",
       "兵家"
     ],
     "correctAnswer": 2,
-    "explanation": "【學派流別】《前漢紀》乃histories學派之重要代表作。\n【文獻價值】中國第一部編年體斷代史。將班固《漢書》改寫為編年體，體例清通，論點精闢，對後世史學（如司馬光《資治通鑑》）影響巨大。",
+    "explanation": "【學派流別】《前漢紀》乃史書學派之重要代表作。\n【文獻價值】中國第一部編年體斷代史。將班固《漢書》改寫為編年體，體例清通，論點精闢，對後世史學（如司馬光《資治通鑑》）影響巨大。",
     "workId": "qian-han-ji",
     "chapterId": "qian-han-ji_ch-1",
     "passageId": ""
@@ -10776,10 +10776,10 @@ export const quizBank: QuizQuestion[] = [
       "儒家",
       "墨家",
       "陰陽家",
-      "legalism"
+      "法家"
     ],
     "correctAnswer": 3,
-    "explanation": "【學派流別】《諫逐客書》乃legalism學派之重要代表作。\n【文獻價值】中國歷史上第一上書諫言名篇，駢散結合文學之最高典範。成功說服秦王政廢除逐客令，保全天下人才，促成秦統一天下。",
+    "explanation": "【學派流別】《諫逐客書》乃法家學派之重要代表作。\n【文獻價值】中國歷史上第一上書諫言名篇，駢散結合文學之最高典範。成功說服秦王政廢除逐客令，保全天下人才，促成秦統一天下。",
     "workId": "jian-zhu-ke-shu",
     "chapterId": "jian-zhu-ke-shu_ch-1",
     "passageId": ""
@@ -10790,12 +10790,12 @@ export const quizBank: QuizQuestion[] = [
     "question": "請問先秦兩漢典籍《漢書》在學術源流上主要歸屬於哪一學派或範疇？",
     "options": [
       "儒家",
-      "histories",
+      "史書",
       "名家",
       "兵家"
     ],
     "correctAnswer": 1,
-    "explanation": "【學派流別】《漢書》乃histories學派之重要代表作。\n【文獻價值】中國第一部紀傳體斷代史，「前四史」之一。記載西漢 230 年間之歷史，體例嚴謹，語言典雅，為史學與文學之雙重鉅著。",
+    "explanation": "【學派流別】《漢書》乃史書學派之重要代表作。\n【文獻價值】中國第一部紀傳體斷代史，「前四史」之一。記載西漢 230 年間之歷史，體例嚴謹，語言典雅，為史學與文學之雙重鉅著。",
     "workId": "han-shu",
     "chapterId": "han-shu_ch-1",
     "passageId": ""
@@ -10808,10 +10808,10 @@ export const quizBank: QuizQuestion[] = [
       "兵家",
       "儒家",
       "墨家",
-      "literature"
+      "文學"
     ],
     "correctAnswer": 3,
-    "explanation": "【學派流別】《菜根譚》乃literature學派之重要代表作。\n【文獻價值】融匯儒家處世、道家超脫與佛家空靈之處世格言奇書。被譽為東亞處世智慧與心性涵養之經典。",
+    "explanation": "【學派流別】《菜根譚》乃文學學派之重要代表作。\n【文獻價值】融匯儒家處世、道家超脫與佛家空靈之處世格言奇書。被譽為東亞處世智慧與心性涵養之經典。",
     "workId": "cai-gen-tan",
     "chapterId": "cai-gen-tan_ch-1",
     "passageId": ""
@@ -10824,10 +10824,10 @@ export const quizBank: QuizQuestion[] = [
       "陰陽家",
       "法家",
       "墨家",
-      "confucianism"
+      "儒家"
     ],
     "correctAnswer": 3,
-    "explanation": "【學派流別】《尚書》乃confucianism學派之重要代表作。\n【文獻價值】中國最早之歷史文獻總集，儒家五經之一。真實記錄了堯、舜、禹、夏、商、周之政事與誓誥。",
+    "explanation": "【學派流別】《尚書》乃儒家學派之重要代表作。\n【文獻價值】中國最早之歷史文獻總集，儒家五經之一。真實記錄了堯、舜、禹、夏、商、周之政事與誓誥。",
     "workId": "shu-jing",
     "chapterId": "shu-jing_ch-2",
     "passageId": ""
@@ -10855,11 +10855,11 @@ export const quizBank: QuizQuestion[] = [
     "options": [
       "墨家",
       "儒家",
-      "legalism",
+      "法家",
       "史學典籍"
     ],
     "correctAnswer": 2,
-    "explanation": "【學派流別】《管子》乃legalism學派之重要代表作。\n【文獻價值】先秦規模最宏大之百科全書式政治經濟哲學鉅著。兼採法、道、儒、陰陽、輕重（經濟學）各家之長，對中國古代經濟政策（鹽鐵專賣、常平倉）影響至深。",
+    "explanation": "【學派流別】《管子》乃法家學派之重要代表作。\n【文獻價值】先秦規模最宏大之百科全書式政治經濟哲學鉅著。兼採法、道、儒、陰陽、輕重（經濟學）各家之長，對中國古代經濟政策（鹽鐵專賣、常平倉）影響至深。",
     "workId": "guanzi",
     "chapterId": "guanzi_ch-1",
     "passageId": ""
@@ -10870,12 +10870,12 @@ export const quizBank: QuizQuestion[] = [
     "question": "請問先秦兩漢典籍《六韜》在學術源流上主要歸屬於哪一學派或範疇？",
     "options": [
       "法家",
-      "military",
+      "兵家",
       "名家",
       "兵家"
     ],
     "correctAnswer": 1,
-    "explanation": "【學派流別】《六韜》乃military學派之重要代表作。\n【文獻價值】武經七書之一。最全面之古代軍事戰略、戰術、武器裝備與軍用密碼（陰符）百科全書。",
+    "explanation": "【學派流別】《六韜》乃兵家學派之重要代表作。\n【文獻價值】武經七書之一。最全面之古代軍事戰略、戰術、武器裝備與軍用密碼（陰符）百科全書。",
     "workId": "liu-tao",
     "chapterId": "liu-tao_ch-1",
     "passageId": ""
@@ -10888,10 +10888,10 @@ export const quizBank: QuizQuestion[] = [
       "道家",
       "陰陽家",
       "墨家",
-      "histories"
+      "史書"
     ],
     "correctAnswer": 3,
-    "explanation": "【學派流別】《燕丹子》乃histories學派之重要代表作。\n【文獻價值】中國最早之歷史傳奇小說之一，傳奇敘事文學之萌芽。詳細描繪了燕太子丹養士、田光自盡、樊於期獻首與荊軻刺秦之驚心動魄過程。",
+    "explanation": "【學派流別】《燕丹子》乃史書學派之重要代表作。\n【文獻價值】中國最早之歷史傳奇小說之一，傳奇敘事文學之萌芽。詳細描繪了燕太子丹養士、田光自盡、樊於期獻首與荊軻刺秦之驚心動魄過程。",
     "workId": "yandanzi",
     "chapterId": "yandanzi_ch-1",
     "passageId": ""
@@ -10904,10 +10904,10 @@ export const quizBank: QuizQuestion[] = [
       "儒家",
       "兵家",
       "史學典籍",
-      "legalism"
+      "法家"
     ],
     "correctAnswer": 3,
-    "explanation": "【學派流別】《慎子》乃legalism學派之重要代表作。\n【文獻價值】法家「勢」派代表作。慎到從道家「因循」思想出發，首創「權勢」體系，為韓非集法家之大成提供了決定性理論橋樑。",
+    "explanation": "【學派流別】《慎子》乃法家學派之重要代表作。\n【文獻價值】法家「勢」派代表作。慎到從道家「因循」思想出發，首創「權勢」體系，為韓非集法家之大成提供了決定性理論橋樑。",
     "workId": "shenzi",
     "chapterId": "shenzi_ch-1",
     "passageId": ""
@@ -10917,13 +10917,13 @@ export const quizBank: QuizQuestion[] = [
     "type": "background",
     "question": "請問先秦兩漢典籍《晏子春秋》在學術源流上主要歸屬於哪一學派或範疇？",
     "options": [
-      "histories",
+      "史書",
       "史學典籍",
       "陰陽家",
       "儒家"
     ],
     "correctAnswer": 0,
-    "explanation": "【學派流別】《晏子春秋》乃histories學派之重要代表作。\n【文獻價值】記述春秋名相晏嬰言行與政治智慧之人物傳記散文集。故事生動，雄辯絕倫，極具文學與思想價值。",
+    "explanation": "【學派流別】《晏子春秋》乃史書學派之重要代表作。\n【文獻價值】記述春秋名相晏嬰言行與政治智慧之人物傳記散文集。故事生動，雄辯絕倫，極具文學與思想價值。",
     "workId": "yanzi-chun-qiu",
     "chapterId": "yanzi-chun-qiu_ch-1",
     "passageId": ""
@@ -10935,11 +10935,11 @@ export const quizBank: QuizQuestion[] = [
     "options": [
       "名家",
       "史學典籍",
-      "legalism",
+      "法家",
       "道家"
     ],
     "correctAnswer": 2,
-    "explanation": "【學派流別】《申不害》乃legalism學派之重要代表作。\n【文獻價值】法家「術」派思想之創始典籍。申不害相韓十五年，使韓國國富兵強，其「循名責實」之術治思想對韓非及後世官吏考課制度影響深遠。",
+    "explanation": "【學派流別】《申不害》乃法家學派之重要代表作。\n【文獻價值】法家「術」派思想之創始典籍。申不害相韓十五年，使韓國國富兵強，其「循名責實」之術治思想對韓非及後世官吏考課制度影響深遠。",
     "workId": "shen-bu-hai",
     "chapterId": "shen-bu-hai_ch-1",
     "passageId": ""
@@ -10951,11 +10951,11 @@ export const quizBank: QuizQuestion[] = [
     "options": [
       "史學典籍",
       "道家",
-      "histories",
+      "史書",
       "兵家"
     ],
     "correctAnswer": 2,
-    "explanation": "【學派流別】《晏子春秋》乃histories學派之重要代表作。\n【文獻價值】記述春秋名相晏嬰言行與政治智慧之人物傳記散文集。故事生動，雄辯絕倫，極具文學與思想價值。",
+    "explanation": "【學派流別】《晏子春秋》乃史書學派之重要代表作。\n【文獻價值】記述春秋名相晏嬰言行與政治智慧之人物傳記散文集。故事生動，雄辯絕倫，極具文學與思想價值。",
     "workId": "yanzi-chun-qiu",
     "chapterId": "yanzi-chun-qiu_ch-1",
     "passageId": ""
@@ -10965,13 +10965,13 @@ export const quizBank: QuizQuestion[] = [
     "type": "background",
     "question": "請問先秦兩漢典籍《春秋公羊傳》在學術源流上主要歸屬於哪一學派或範疇？",
     "options": [
-      "histories",
+      "史書",
       "法家",
       "史學典籍",
       "道家"
     ],
     "correctAnswer": 0,
-    "explanation": "【學派流別】《春秋公羊傳》乃histories學派之重要代表作。\n【文獻價值】儒家十三經與「春秋三傳」之一。漢代今文經學之核心經典，提出「大一統」、「張三世」、「大復仇」等宏大政治哲學，為漢武帝獨尊儒術提供理論基礎。",
+    "explanation": "【學派流別】《春秋公羊傳》乃史書學派之重要代表作。\n【文獻價值】儒家十三經與「春秋三傳」之一。漢代今文經學之核心經典，提出「大一統」、「張三世」、「大復仇」等宏大政治哲學，為漢武帝獨尊儒術提供理論基礎。",
     "workId": "gongyang-zhuan",
     "chapterId": "gongyang-zhuan_ch-1",
     "passageId": ""
@@ -10981,13 +10981,13 @@ export const quizBank: QuizQuestion[] = [
     "type": "background",
     "question": "請問先秦兩漢典籍《文始真經》在學術源流上主要歸屬於哪一學派或範疇？",
     "options": [
-      "daoism",
+      "道家",
       "墨家",
       "法家",
       "陰陽家"
     ],
     "correctAnswer": 0,
-    "explanation": "【學派流別】《文始真經》乃daoism學派之重要代表作。\n【文獻價值】道家最高玄學心法真經之一。宋代尊尹喜為「文始先生」，其書被尊為《文始真經》，位在《莊子》、《列子》之上，深具道家本體論與修煉哲學價值。",
+    "explanation": "【學派流別】《文始真經》乃道家學派之重要代表作。\n【文獻價值】道家最高玄學心法真經之一。宋代尊尹喜為「文始先生」，其書被尊為《文始真經》，位在《莊子》、《列子》之上，深具道家本體論與修煉哲學價值。",
     "workId": "wenshi-zhenjing",
     "chapterId": "wenshi-zhenjing_ch-1",
     "passageId": ""
@@ -10997,13 +10997,13 @@ export const quizBank: QuizQuestion[] = [
     "type": "background",
     "question": "請問先秦兩漢典籍《戰國策》在學術源流上主要歸屬於哪一學派或範疇？",
     "options": [
-      "histories",
+      "史書",
       "墨家",
       "道家",
       "法家"
     ],
     "correctAnswer": 0,
-    "explanation": "【學派流別】《戰國策》乃histories學派之重要代表作。\n【文獻價值】國別體史書名著，記載戰國縱橫家謀略與言論。文風張揚雄辯，開創了中國古典敘事與策論之獨特風格。",
+    "explanation": "【學派流別】《戰國策》乃史書學派之重要代表作。\n【文獻價值】國別體史書名著，記載戰國縱橫家謀略與言論。文風張揚雄辯，開創了中國古典敘事與策論之獨特風格。",
     "workId": "zhan-guo-ce",
     "chapterId": "zhan-guo-ce_ch-1",
     "passageId": ""
@@ -11016,10 +11016,10 @@ export const quizBank: QuizQuestion[] = [
       "兵家",
       "法家",
       "名家",
-      "histories"
+      "史書"
     ],
     "correctAnswer": 3,
-    "explanation": "【學派流別】《竹書紀年》乃histories學派之重要代表作。\n【文獻價值】中國歷史上重大考古史學發現。唯一未經秦始皇焚書坑儒與漢儒改動之先秦魏國國史編年，史學價值震撼世界。",
+    "explanation": "【學派流別】《竹書紀年》乃史書學派之重要代表作。\n【文獻價值】中國歷史上重大考古史學發現。唯一未經秦始皇焚書坑儒與漢儒改動之先秦魏國國史編年，史學價值震撼世界。",
     "workId": "zhushu-jinian",
     "chapterId": "zhushu-jinian_ch-1",
     "passageId": ""
@@ -11030,12 +11030,12 @@ export const quizBank: QuizQuestion[] = [
     "question": "請問先秦兩漢典籍《大學》在學術源流上主要歸屬於哪一學派或範疇？",
     "options": [
       "道家",
-      "confucianism",
+      "儒家",
       "兵家",
       "墨家"
     ],
     "correctAnswer": 1,
-    "explanation": "【學派流別】《大學》乃confucianism學派之重要代表作。\n【文獻價值】儒家四書之一。被宋代朱熹尊為「初學入德之門」，系統提出了儒家修己治人之綱領體系，對後世東亞儒家文化圈產生了深遠影響。",
+    "explanation": "【學派流別】《大學》乃儒家學派之重要代表作。\n【文獻價值】儒家四書之一。被宋代朱熹尊為「初學入德之門」，系統提出了儒家修己治人之綱領體系，對後世東亞儒家文化圈產生了深遠影響。",
     "workId": "da-xue",
     "chapterId": "da-xue_ch-1",
     "passageId": ""
@@ -11047,11 +11047,11 @@ export const quizBank: QuizQuestion[] = [
     "options": [
       "史學典籍",
       "道家",
-      "histories",
+      "史書",
       "陰陽家"
     ],
     "correctAnswer": 2,
-    "explanation": "【學派流別】《東觀漢記》乃histories學派之重要代表作。\n【文獻價值】東漢當朝官修之實錄式當代史，曾與《史記》、《漢書》並稱為「三史」。為範曄撰寫《後漢書》最核心之原始史料來源。",
+    "explanation": "【學派流別】《東觀漢記》乃史書學派之重要代表作。\n【文獻價值】東漢當朝官修之實錄式當代史，曾與《史記》、《漢書》並稱為「三史」。為範曄撰寫《後漢書》最核心之原始史料來源。",
     "workId": "dong-guan-han-ji",
     "chapterId": "dong-guan-han-ji_ch-1",
     "passageId": ""
@@ -11061,13 +11061,13 @@ export const quizBank: QuizQuestion[] = [
     "type": "background",
     "question": "請問先秦兩漢典籍《春秋穀梁傳》在學術源流上主要歸屬於哪一學派或範疇？",
     "options": [
-      "histories",
+      "史書",
       "墨家",
       "道家",
       "名家"
     ],
     "correctAnswer": 0,
-    "explanation": "【學派流別】《春秋穀梁傳》乃histories學派之重要代表作。\n【文獻價值】儒家十三經與「春秋三傳」之一。以解說《春秋》經文之義理與道德規範見長，強調尊王攘夷與禮義誠信。",
+    "explanation": "【學派流別】《春秋穀梁傳》乃史書學派之重要代表作。\n【文獻價值】儒家十三經與「春秋三傳」之一。以解說《春秋》經文之義理與道德規範見長，強調尊王攘夷與禮義誠信。",
     "workId": "guliang-zhuan",
     "chapterId": "guliang-zhuan_ch-1",
     "passageId": ""
@@ -11078,12 +11078,12 @@ export const quizBank: QuizQuestion[] = [
     "question": "請問先秦兩漢典籍《尉繚子》在學術源流上主要歸屬於哪一學派或範疇？",
     "options": [
       "名家",
-      "military",
+      "兵家",
       "儒家",
       "陰陽家"
     ],
     "correctAnswer": 1,
-    "explanation": "【學派流別】《尉繚子》乃military學派之重要代表作。\n【文獻價值】武經七書之一。重視政治經濟對軍事的決定作用，論述了嚴密的軍紀建立與戰術執行。",
+    "explanation": "【學派流別】《尉繚子》乃兵家學派之重要代表作。\n【文獻價值】武經七書之一。重視政治經濟對軍事的決定作用，論述了嚴密的軍紀建立與戰術執行。",
     "workId": "wei-liao-zi",
     "chapterId": "wei-liao-zi_ch-1",
     "passageId": ""
@@ -11096,10 +11096,10 @@ export const quizBank: QuizQuestion[] = [
       "道家",
       "史學典籍",
       "法家",
-      "military"
+      "兵家"
     ],
     "correctAnswer": 3,
-    "explanation": "【學派流別】《司馬法》乃military學派之重要代表作。\n【文獻價值】武經七書之一。保留了中國古代最為古老的「軍禮」與正義戰爭觀，提出了著名的「國雖大，好戰必亡；天下雖安，忘戰必危」萬古警句。",
+    "explanation": "【學派流別】《司馬法》乃兵家學派之重要代表作。\n【文獻價值】武經七書之一。保留了中國古代最為古老的「軍禮」與正義戰爭觀，提出了著名的「國雖大，好戰必亡；天下雖安，忘戰必危」萬古警句。",
     "workId": "si-ma-fa",
     "chapterId": "si-ma-fa_ch-1",
     "passageId": ""
@@ -11111,11 +11111,11 @@ export const quizBank: QuizQuestion[] = [
     "options": [
       "儒家",
       "史學典籍",
-      "legalism",
+      "法家",
       "道家"
     ],
     "correctAnswer": 2,
-    "explanation": "【學派流別】《諫逐客書》乃legalism學派之重要代表作。\n【文獻價值】中國歷史上第一上書諫言名篇，駢散結合文學之最高典範。成功說服秦王政廢除逐客令，保全天下人才，促成秦統一天下。",
+    "explanation": "【學派流別】《諫逐客書》乃法家學派之重要代表作。\n【文獻價值】中國歷史上第一上書諫言名篇，駢散結合文學之最高典範。成功說服秦王政廢除逐客令，保全天下人才，促成秦統一天下。",
     "workId": "jian-zhu-ke-shu",
     "chapterId": "jian-zhu-ke-shu_ch-1",
     "passageId": ""
@@ -11127,11 +11127,11 @@ export const quizBank: QuizQuestion[] = [
     "options": [
       "陰陽家",
       "兵家",
-      "histories",
+      "史書",
       "道家"
     ],
     "correctAnswer": 2,
-    "explanation": "【學派流別】《後漢書》乃histories學派之重要代表作。\n【文獻價值】「前四史」與「二十四史」之一。紀傳體東漢斷代史，評論精警（「範曄論贊」），人物性格刻畫極具感染力。",
+    "explanation": "【學派流別】《後漢書》乃史書學派之重要代表作。\n【文獻價值】「前四史」與「二十四史」之一。紀傳體東漢斷代史，評論精警（「範曄論贊」），人物性格刻畫極具感染力。",
     "workId": "hou-han-shu",
     "chapterId": "hou-han-shu_ch-1",
     "passageId": ""
@@ -11142,12 +11142,12 @@ export const quizBank: QuizQuestion[] = [
     "question": "請問先秦兩漢典籍《諫逐客書》在學術源流上主要歸屬於哪一學派或範疇？",
     "options": [
       "墨家",
-      "legalism",
+      "法家",
       "道家",
       "陰陽家"
     ],
     "correctAnswer": 1,
-    "explanation": "【學派流別】《諫逐客書》乃legalism學派之重要代表作。\n【文獻價值】中國歷史上第一上書諫言名篇，駢散結合文學之最高典範。成功說服秦王政廢除逐客令，保全天下人才，促成秦統一天下。",
+    "explanation": "【學派流別】《諫逐客書》乃法家學派之重要代表作。\n【文獻價值】中國歷史上第一上書諫言名篇，駢散結合文學之最高典範。成功說服秦王政廢除逐客令，保全天下人才，促成秦統一天下。",
     "workId": "jian-zhu-ke-shu",
     "chapterId": "jian-zhu-ke-shu_ch-1",
     "passageId": ""
@@ -11157,13 +11157,13 @@ export const quizBank: QuizQuestion[] = [
     "type": "background",
     "question": "請問先秦兩漢典籍《墨子》在學術源流上主要歸屬於哪一學派或範疇？",
     "options": [
-      "mohism",
+      "墨家",
       "史學典籍",
       "道家",
       "法家"
     ],
     "correctAnswer": 0,
-    "explanation": "【學派流別】《墨子》乃mohism學派之重要代表作。\n【文獻價值】墨家學派之總綱。包含哲學、政治、倫理、軍事防禦乃至上古物理學與邏輯學（《墨經》），體現了勞動階層與俠義平民之最高理想。",
+    "explanation": "【學派流別】《墨子》乃墨家學派之重要代表作。\n【文獻價值】墨家學派之總綱。包含哲學、政治、倫理、軍事防禦乃至上古物理學與邏輯學（《墨經》），體現了勞動階層與俠義平民之最高理想。",
     "workId": "mo-zi",
     "chapterId": "mo-zi_ch-1",
     "passageId": ""
@@ -11173,13 +11173,13 @@ export const quizBank: QuizQuestion[] = [
     "type": "background",
     "question": "請問先秦兩漢典籍《吳越春秋》在學術源流上主要歸屬於哪一學派或範疇？",
     "options": [
-      "histories",
+      "史書",
       "法家",
       "兵家",
       "墨家"
     ],
     "correctAnswer": 0,
-    "explanation": "【學派流別】《吳越春秋》乃histories學派之重要代表作。\n【文獻價值】東漢歷史演義小說之先驅，歷史與傳奇小說交融之典範。精彩描繪吳越爭霸、伍子胥復仇與勾踐滅吳之傳奇歷史。",
+    "explanation": "【學派流別】《吳越春秋》乃史書學派之重要代表作。\n【文獻價值】東漢歷史演義小說之先驅，歷史與傳奇小說交融之典範。精彩描繪吳越爭霸、伍子胥復仇與勾踐滅吳之傳奇歷史。",
     "workId": "wu-yue-chun-qiu",
     "chapterId": "wu-yue-chun-qiu_ch-1",
     "passageId": ""
@@ -11190,12 +11190,12 @@ export const quizBank: QuizQuestion[] = [
     "question": "請問先秦兩漢典籍《晏子春秋》在學術源流上主要歸屬於哪一學派或範疇？",
     "options": [
       "儒家",
-      "histories",
+      "史書",
       "墨家",
       "兵家"
     ],
     "correctAnswer": 1,
-    "explanation": "【學派流別】《晏子春秋》乃histories學派之重要代表作。\n【文獻價值】記述春秋名相晏嬰言行與政治智慧之人物傳記散文集。故事生動，雄辯絕倫，極具文學與思想價值。",
+    "explanation": "【學派流別】《晏子春秋》乃史書學派之重要代表作。\n【文獻價值】記述春秋名相晏嬰言行與政治智慧之人物傳記散文集。故事生動，雄辯絕倫，極具文學與思想價值。",
     "workId": "yanzi-chun-qiu",
     "chapterId": "yanzi-chun-qiu_ch-1",
     "passageId": ""
@@ -11208,10 +11208,10 @@ export const quizBank: QuizQuestion[] = [
       "法家",
       "墨家",
       "道家",
-      "histories"
+      "史書"
     ],
     "correctAnswer": 3,
-    "explanation": "【學派流別】《竹書紀年》乃histories學派之重要代表作。\n【文獻價值】中國歷史上重大考古史學發現。唯一未經秦始皇焚書坑儒與漢儒改動之先秦魏國國史編年，史學價值震撼世界。",
+    "explanation": "【學派流別】《竹書紀年》乃史書學派之重要代表作。\n【文獻價值】中國歷史上重大考古史學發現。唯一未經秦始皇焚書坑儒與漢儒改動之先秦魏國國史編年，史學價值震撼世界。",
     "workId": "zhushu-jinian",
     "chapterId": "zhushu-jinian_ch-1",
     "passageId": ""

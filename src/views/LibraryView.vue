@@ -305,22 +305,24 @@ function triggerSearch() {
                 </span>
               </div>
             </div>
-            <div
-              v-for="chapter in getWorkChapters(work.id)"
-              :key="chapter.id"
-              class="chapter-item"
-              @click.stop="goToChapter(chapter.id)"
-            >
-              <div class="chapter-info">
-                <span class="chapter-order">{{ chapter.order }}.</span>
-                <span class="chapter-title">{{ chapter.title }}</span>
-              </div>
-              <div class="chapter-meta">
-                <span class="chapter-difficulty" :title="`難度 ${chapter.difficulty}/5`">
-                  {{ difficultyDots(chapter.difficulty) }}
-                </span>
-                <span class="chapter-time">~{{ chapter.estimatedMinutes }}分</span>
-                <span class="chapter-arrow">→</span>
+            <div class="chapters-grid-container">
+              <div
+                v-for="chapter in getWorkChapters(work.id)"
+                :key="chapter.id"
+                class="chapter-item"
+                @click.stop="goToChapter(chapter.id)"
+              >
+                <div class="chapter-info">
+                  <span class="chapter-order">{{ chapter.order }}.</span>
+                  <span class="chapter-title">{{ chapter.title }}</span>
+                </div>
+                <div class="chapter-meta">
+                  <span class="chapter-difficulty" :title="`難度 ${chapter.difficulty}/5`">
+                    {{ difficultyDots(chapter.difficulty) }}
+                  </span>
+                  <span class="chapter-time">~{{ chapter.estimatedMinutes }}分</span>
+                  <span class="chapter-arrow">→</span>
+                </div>
               </div>
             </div>
             <div
@@ -691,19 +693,34 @@ function triggerSearch() {
   padding-bottom: var(--sp-4);
 }
 
+.chapters-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-1);
+  padding: 0 var(--sp-3);
+}
+
+@media (min-width: 680px) {
+  .chapters-grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--sp-2);
+  }
+}
+
 .chapter-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--sp-3) var(--sp-6);
-  margin: 0 var(--sp-3);
+  padding: var(--sp-3) var(--sp-4);
   border-radius: var(--radius-md);
+  border: 1px solid transparent;
   cursor: pointer;
   transition: all var(--duration-fast) var(--ease-out);
 }
 
 .chapter-item:hover {
   background: var(--c-bg-card);
+  border-color: var(--c-border-accent);
 }
 
 .chapter-info {
@@ -791,7 +808,7 @@ function triggerSearch() {
 .expand-enter-to,
 .expand-leave-from {
   opacity: 1;
-  max-height: 600px;
+  max-height: 3200px;
 }
 
 /* ── Empty State ── */

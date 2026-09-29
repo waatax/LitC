@@ -962,10 +962,71 @@ const schoolAmbientStyle = computed(() => {
   margin-bottom: var(--sp-6);
 }
 
+.chapter-reading-wrapper,
+.clean-mode,
+.assisted-mode {
+  max-width: 860px;
+  margin-inline: auto;
+}
+
 /* ── Responsive ── */
 @media (max-width: 768px) {
+  .chapter-view {
+    padding-top: var(--sp-1);
+  }
+
+  .back-btn {
+    max-width: calc(100% - 145px);
+    margin-bottom: var(--sp-3);
+  }
+
+  .chapter-header {
+    padding-right: 0;
+  }
+
+  .reading-controls-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--sp-3);
+  }
+
+  .reading-controls-bar .mode-tabs {
+    width: 100%;
+    display: flex;
+  }
+
+  .reading-controls-bar .mode-tab {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    padding: var(--sp-2) var(--sp-3);
+  }
+
+  .reading-actions-bar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+    justify-content: space-between;
+  }
+
+  .reading-actions-bar > button {
+    flex: 1 1 auto;
+    justify-content: center;
+    min-height: 38px;
+    font-size: var(--fs-xs);
+  }
+
   .clean-mode {
     padding: var(--sp-4);
+  }
+
+  .passage-inline-audio-btn {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: var(--sp-2);
+    display: inline-flex;
   }
 
   .chapter-actions {
@@ -974,6 +1035,10 @@ const schoolAmbientStyle = computed(() => {
 
   .action-btn {
     width: 100%;
+  }
+
+  .vertical-container {
+    height: min(65vh, 480px);
   }
 }
 

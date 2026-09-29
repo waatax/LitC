@@ -36,7 +36,7 @@ export const useAppStore = defineStore('app', () => {
     // Remove old theme classes
     html.classList.remove(
       'theme-charcoal', 'theme-xuan', 'theme-celadon', 
-      'theme-cinnabar', 'theme-bamboo', 'theme-pinesoot',
+      'theme-cinnabar', 'theme-bamboo', 'theme-pinesoot', 'theme-amber',
       'theme-light', 'theme-dark', 'light-theme'
     )
     
@@ -44,7 +44,7 @@ export const useAppStore = defineStore('app', () => {
     html.classList.add(`theme-${themeId}`)
     
     // Determine if light or dark
-    const lightThemes = ['xuan', 'celadon']
+    const lightThemes = ['xuan', 'celadon', 'amber']
     const isLight = lightThemes.includes(themeId)
     
     html.classList.toggle('theme-light', isLight)

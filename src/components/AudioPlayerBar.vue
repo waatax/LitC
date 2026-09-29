@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref, onMounted, onUnmounted } from 'vue'
+import { computed, ref, onMounted, onUnmounted, watch } from 'vue'
 import { speechService, SPEED_PRESETS, type SpeechMode, type SpeechRate } from '@/services/speech'
 
 const speechState = speechService.state
@@ -13,6 +13,12 @@ let toastTimer: ReturnType<typeof setTimeout> | null = null
 const hasActivePlayback = computed(() => {
   return speechState.isPlaying || speechState.isPaused || speechState.currentPassageId !== null
 })
+
+watch(hasActivePlayback, (active) => {
+  if (typeof document !== 'undefined') {
+    document.body.classList.toggle('has-audio-player-open', active)
+  }
+}, { immediate: true })
 
 const currentItem = computed(() => {
   if (speechState.playlistIndex >= 0 && speechState.playlistIndex < speechState.playlist.length) {
@@ -182,6 +188,9 @@ onUnmounted(() => {
   window.removeEventListener('keydown', handleKeyDown)
   window.removeEventListener('click', handleDocumentClick)
   if (toastTimer) clearTimeout(toastTimer)
+  if (typeof document !== 'undefined') {
+    document.body.classList.remove('has-audio-player-open')
+  }
 })
 </script>
 
@@ -1071,15 +1080,29 @@ onUnmounted(() => {
   transform: translate(-50%, 20px);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .audio-player-bar {
-    bottom: var(--sp-2);
-    width: 96vw;
+    bottom: calc(58px + env(safe-area-inset-bottom, 0px) + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100vw - 16px);
+    max-width: 520px;
     padding: var(--sp-2) var(--sp-3);
+    border-radius: var(--radius-md);
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.65), 0 0 18px rgba(201, 169, 110, 0.22);
+  }
+  .player-container {
+    gap: 8px;
+  }
+  .player-info {
+    flex: 1 1 180px;
   }
   .player-options {
     width: 100%;
     justify-content: space-between;
+    margin-top: 4px;
+    padding-top: 4px;
+    border-top: 1px dashed var(--c-border-subtle);
   }
   .speed-menu-popover {
     right: 0;
