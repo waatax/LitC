@@ -7,10 +7,18 @@ import { getWorkDescription } from '@/data/catalogApi'
 import { loadChapterContent } from '@/data/workLoader'
 import { READING_AID_SOURCES } from '@/data/readingAidSources'
 import SchoolBadge from '@/components/SchoolBadge.vue'
+import RedSeal from '@/components/RedSeal.vue'
+import ClassicalIcon from '@/components/ClassicalIcon.vue'
 import ClassicalTextLookup from '@/components/ClassicalTextLookup.vue'
 import AudioPlayerBar from '@/components/AudioPlayerBar.vue'
 import AnnotationLayer from '@/components/AnnotationLayer.vue'
+import KnowledgePointModal from '@/components/KnowledgePointModal.vue'
 import { speechService, type SpeechMode, type SpeechPlaylistItem } from '@/services/speech'
+import {
+  getKnowledgePointsByChapter,
+  getKnowledgePointsByWork,
+  type KnowledgePoint
+} from '@/data/knowledgeGraph'
 
 const route = useRoute()
 const router = useRouter()
@@ -21,6 +29,24 @@ const passages = ref<Passage[]>([])
 const passageSentences = ref<Map<string, Sentence[]>>(new Map())
 const loadedChapters = ref<Chapter[]>([])
 const showWorkGuide = ref(false)
+
+const selectedKnowledgePoint = ref<KnowledgePoint | null>(null)
+const isKnowledgeModalOpen = ref(false)
+
+const chapterKnowledgePoints = computed<KnowledgePoint[]>(() => {
+  if (!chapter.value) return []
+  const direct = getKnowledgePointsByChapter(chapter.value.id)
+  if (direct.length > 0) return direct
+  if (work.value) {
+    return getKnowledgePointsByWork(work.value.id).slice(0, 2)
+  }
+  return []
+})
+
+function openKnowledgePoint(pt: KnowledgePoint) {
+  selectedKnowledgePoint.value = pt
+  isKnowledgeModalOpen.value = true
+}
 
 // Personal Annotation Layer state
 const isAnnotationOpen = ref(false)
@@ -289,6 +315,28 @@ const schoolAmbientStyle = computed(() => {
           <span class="meta-sep">·</span>
           <span class="meta-detail">約 {{ chapter.estimatedMinutes }} 分鐘</span>
         </div>
+
+        <!-- Chapter Core Knowledge Points Strip -->
+        <div v-if="chapterKnowledgePoints.length > 0" class="chapter-knowledge-strip">
+          <span class="strip-label font-serif">
+            <ClassicalIcon name="wenhai" :size="13" color="var(--c-gold)" />
+            <span>核心思想點：</span>
+          </span>
+          <div class="knowledge-pills-list">
+            <button
+              v-for="kp in chapterKnowledgePoints"
+              :key="kp.id"
+              class="knowledge-pill-btn"
+              :title="`點擊查看「${kp.title}」之核心釋義、現代生活啟示與思辨探問`"
+              @click="openKnowledgePoint(kp)"
+            >
+              <RedSeal :text="kp.title.slice(0, 1)" :size="24" />
+              <span class="kp-title font-serif">{{ kp.title }}</span>
+              <span class="kp-tagline">{{ kp.tagline }}</span>
+              <ClassicalIcon name="arrow-right" :size="11" color="var(--c-gold)" />
+            </button>
+          </div>
+        </div>
       </header>
 
       <aside v-if="isLostChapter" class="lost-chapter-notice glass-card" aria-label="亡佚篇章說明">
@@ -435,13 +483,13 @@ const schoolAmbientStyle = computed(() => {
                 type="button"
                 class="passage-inline-audio-btn"
                 :class="{ 'is-playing': isPassageSpeaking(passage.id), 'has-audio-file': speechService.hasAudioFile(passage.id) }"
-                :title="isPassageSpeaking(passage.id) ? '暫停朗讀本段' : (speechService.hasAudioFile(passage.id) ? '朗讀本段原文（🎙️ 名家音檔）' : '朗讀本段原文（🔊 智能正音）')"
+                :title="isPassageSpeaking(passage.id) ? '暫停朗讀本段' : (speechService.hasAudioFile(passage.id) ? '朗讀本段原文（名家音檔）' : '朗讀本段原文（智能正音）')"
                 :aria-label="`朗讀本段原文`"
                 @click="playPassage(passage, 'canonical')"
               >
-                <span v-if="isPassageSpeaking(passage.id)">⏸</span>
-                <span v-else-if="speechService.hasAudioFile(passage.id)">🎙️</span>
-                <span v-else>🔊</span>
+                <ClassicalIcon v-if="isPassageSpeaking(passage.id)" name="pause" :size="14" />
+                <ClassicalIcon v-else-if="speechService.hasAudioFile(passage.id)" name="audio" :size="14" />
+                <ClassicalIcon v-else name="audio" :size="14" />
               </button>
               <p class="passage-text">
                 <ClassicalTextLookup :text="passage.canonicalText" :highlight="highlightQuery" />
@@ -470,12 +518,12 @@ const schoolAmbientStyle = computed(() => {
                       type="button"
                       class="vertical-audio-tag-btn"
                       :class="{ 'is-active': isPassageActive(passage.id, 'canonical'), 'has-audio-file': speechService.hasAudioFile(passage.id) }"
-                      :title="isPassageSpeaking(passage.id) ? '暫停朗讀本段' : (speechService.hasAudioFile(passage.id) ? '朗讀本段原文（🎙️ 名家音檔）' : '朗讀本段原文（🔊 智能正音）')"
+                      :title="isPassageSpeaking(passage.id) ? '暫停朗讀本段' : (speechService.hasAudioFile(passage.id) ? '朗讀本段原文（名家音檔）' : '朗讀本段原文（智能正音）')"
                       @click="playPassage(passage, 'canonical')"
                     >
-                      <span v-if="isPassageSpeaking(passage.id)">⏸</span>
-                      <span v-else-if="speechService.hasAudioFile(passage.id)">🎙️</span>
-                      <span v-else>🔊</span>
+                      <ClassicalIcon v-if="isPassageSpeaking(passage.id)" name="pause" :size="14" />
+                      <ClassicalIcon v-else-if="speechService.hasAudioFile(passage.id)" name="audio" :size="14" />
+                      <ClassicalIcon v-else name="audio" :size="14" />
                     </button>
                   </div>
                   <p class="sentence-original classical-text-lg vertical-original-text"><ClassicalTextLookup :text="passage.canonicalText" :highlight="highlightQuery" /></p>
@@ -489,8 +537,8 @@ const schoolAmbientStyle = computed(() => {
                       :title="speechService.hasAudioFile(passage.id) ? '播放高品質名家音檔' : '智能正音朗讀'"
                       @click="playPassage(passage, 'canonical')"
                     >
-                      <span v-if="speechService.hasAudioFile(passage.id)">🎙️ 原文</span>
-                      <span v-else>🔊 原文</span>
+                      <span v-if="speechService.hasAudioFile(passage.id)"><ClassicalIcon name="audio" :size="13" /> 原文</span>
+                      <span v-else><ClassicalIcon name="audio" :size="13" /> 原文</span>
                     </button>
                     <button
                       v-if="passageAid(passage)?.translation"
@@ -499,7 +547,7 @@ const schoolAmbientStyle = computed(() => {
                       :class="{ 'is-active': isPassageActive(passage.id, 'vernacular') }"
                       @click="playPassage(passage, 'vernacular')"
                     >
-                      🎧 白話
+                      <ClassicalIcon name="headphones" :size="13" /> 白話
                     </button>
                   </div>
                   <p class="sentence-hint"><span class="translation-label">白話</span>{{ passageAid(passage)?.translation }}</p>
@@ -525,9 +573,9 @@ const schoolAmbientStyle = computed(() => {
                     :title="isPassageSpeaking(passage.id) && speechState.currentMode === 'canonical' ? '暫停朗讀' : (speechService.hasAudioFile(passage.id) ? '逐段播放名家錄音檔' : '逐段朗讀原文')"
                     @click="playPassage(passage, 'canonical')"
                   >
-                    <span v-if="isPassageSpeaking(passage.id) && speechState.currentMode === 'canonical'">⏸ 誦讀中</span>
-                    <span v-else-if="speechService.hasAudioFile(passage.id)">🎙️ 名家音檔</span>
-                    <span v-else>🔊 朗讀原文</span>
+                    <span v-if="isPassageSpeaking(passage.id) && speechState.currentMode === 'canonical'"><ClassicalIcon name="pause" :size="13" /> 誦讀中</span>
+                    <span v-else-if="speechService.hasAudioFile(passage.id)"><ClassicalIcon name="audio" :size="13" /> 名家音檔</span>
+                    <span v-else><ClassicalIcon name="audio" :size="13" /> 朗讀原文</span>
                   </button>
                   <button
                     v-if="passageAid(passage)?.translation"
@@ -537,12 +585,12 @@ const schoolAmbientStyle = computed(() => {
                     :title="isPassageSpeaking(passage.id) && speechState.currentMode === 'vernacular' ? '暫停朗讀' : '逐段朗讀白話'"
                     @click="playPassage(passage, 'vernacular')"
                   >
-                    <span v-if="isPassageSpeaking(passage.id) && speechState.currentMode === 'vernacular'">⏸ 播讀中</span>
-                    <span v-else>🎧 朗讀白話</span>
+                    <span v-if="isPassageSpeaking(passage.id) && speechState.currentMode === 'vernacular'"><ClassicalIcon name="pause" :size="13" /> 播讀中</span>
+                    <span v-else><ClassicalIcon name="headphones" :size="13" /> 朗讀白話</span>
                   </button>
                 </div>
                 <span v-if="isPassageActive(passage.id)" class="passage-playing-badge">
-                  🎵 正在逐段播音
+                  <ClassicalIcon name="audio-playing" :size="13" /> 正在逐段播音
                 </span>
               </div>
 
@@ -588,11 +636,11 @@ const schoolAmbientStyle = computed(() => {
       <!-- Actions -->
       <div class="chapter-actions">
         <button class="btn btn-primary action-btn" @click="goToLearn">
-          <span>📖</span>
+          <ClassicalIcon name="book-open" :size="16" />
           <span>開始學習</span>
         </button>
         <button class="btn btn-ghost action-btn" @click="goToMemorize">
-          <span>🧠</span>
+          <ClassicalIcon name="target" :size="16" />
           <span>開始背誦</span>
         </button>
       </div>
@@ -600,7 +648,9 @@ const schoolAmbientStyle = computed(() => {
 
     <!-- Not Found -->
     <div v-else-if="mounted" class="not-found">
-      <span class="not-found-icon">📭</span>
+      <div class="not-found-icon-wrap" style="margin-bottom: 1rem; color: var(--text-muted)">
+        <ClassicalIcon name="empty" :size="48" stroke-width="1.3" />
+      </div>
       <h2>找不到此章節</h2>
       <p>請確認連結是否正確</p>
       <button class="btn btn-ghost" @click="goBack">返回典籍庫</button>
@@ -617,12 +667,81 @@ const schoolAmbientStyle = computed(() => {
       @close="isAnnotationOpen = false"
     />
 
+    <!-- Knowledge Point Modal -->
+    <KnowledgePointModal
+      :point="selectedKnowledgePoint"
+      :is-open="isKnowledgeModalOpen"
+      @close="isKnowledgeModalOpen = false"
+      @select-point="(pt) => selectedKnowledgePoint = pt"
+    />
+
     <!-- Audio Player Floating Bar -->
     <AudioPlayerBar />
   </div>
 </template>
 
 <style scoped>
+.chapter-knowledge-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-2);
+  margin-top: var(--sp-4);
+  padding: var(--sp-2) var(--sp-3);
+  background: rgba(201, 169, 110, 0.06);
+  border: 1px dashed var(--c-border-accent);
+  border-radius: var(--radius-md);
+}
+
+.strip-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--fs-xs);
+  color: var(--c-gold);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.knowledge-pills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+
+.knowledge-pill-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-full);
+  color: var(--c-text-primary);
+  font-size: var(--fs-xs);
+  cursor: pointer;
+  transition: all var(--duration-fast);
+}
+
+.knowledge-pill-btn:hover {
+  border-color: var(--c-border-accent);
+  background: var(--c-gold-glow);
+  transform: translateY(-1px);
+}
+
+.kp-title {
+  font-weight: 600;
+  color: var(--c-gold);
+}
+
+.kp-tagline {
+  color: var(--c-text-muted);
+  max-width: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .chapter-view {
   position: relative;
   opacity: 0;

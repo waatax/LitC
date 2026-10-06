@@ -8,6 +8,7 @@ import { getCardState, saveCardState, logReview } from '@/data/db'
 import { scheduleReview } from '@/utils/scheduler'
 import { zenAudio } from '@/utils/audio'
 import { useGamificationStore } from '@/stores/gamification'
+import ClassicalIcon, { type IconName } from '@/components/ClassicalIcon.vue'
 import SentenceCard from '@/components/SentenceCard.vue'
 import HintLadder from '@/components/HintLadder.vue'
 import ProgressRing from '@/components/ProgressRing.vue'
@@ -252,15 +253,15 @@ function goBack() {
 interface RatingButton {
   rating: ReviewRating
   label: string
-  icon: string
+  iconName: IconName
   className: string
 }
 
 const ratingButtons: RatingButton[] = [
-  { rating: 'again', label: '再來', icon: '🔄', className: 'rating-again' },
-  { rating: 'hard', label: '困難', icon: '😰', className: 'rating-hard' },
-  { rating: 'good', label: '良好', icon: '👍', className: 'rating-good' },
-  { rating: 'easy', label: '簡單', icon: '✨', className: 'rating-easy' },
+  { rating: 'again', label: '再來', iconName: 'refresh', className: 'rating-again' },
+  { rating: 'hard', label: '困難', iconName: 'hourglass', className: 'rating-hard' },
+  { rating: 'good', label: '良好', iconName: 'check', className: 'rating-good' },
+  { rating: 'easy', label: '簡單', iconName: 'sparkle', className: 'rating-easy' },
 ]
 // School ambient tint color mapping
 const SCHOOL_COLORS: Record<string, string> = {
@@ -290,7 +291,8 @@ const schoolAmbientStyle = computed(() => {
         @click="isSepia = !isSepia"
         title="切換護眼紙張色"
       >
-        {{ isSepia ? '紙張色 📖' : '護眼色 👁️' }}
+        <ClassicalIcon :name="isSepia ? 'book-open' : 'eye'" :size="14" />
+        <span>{{ isSepia ? '紙張色' : '護眼色' }}</span>
       </button>
       <button
         class="btn btn-ghost floating-exit-focus"
@@ -316,7 +318,8 @@ const schoolAmbientStyle = computed(() => {
           @click="appStore.toggleVertical()"
           :title="isVertical ? '切換為橫排' : '切換為直排'"
         >
-          {{ isVertical ? '🔤 橫書' : '📜 直書' }}
+          <ClassicalIcon :name="isVertical ? 'book-open' : 'scroll'" :size="14" />
+          <span>{{ isVertical ? '橫書' : '直書' }}</span>
         </button>
         <ProgressRing :value="progressPercent" :size="40" :stroke-width="3" />
       </div>
@@ -359,7 +362,7 @@ const schoolAmbientStyle = computed(() => {
           :class="{ 'is-on': showChunks }"
           @click="showChunks = !showChunks"
         >
-          <span>{{ showChunks ? '🔲' : '⬜' }}</span>
+          <ClassicalIcon :name="showChunks ? 'check' : 'scale'" :size="14" />
           <span>語塊{{ showChunks ? '已顯示' : '已隱藏' }} (C)</span>
         </button>
         <button
@@ -368,7 +371,7 @@ const schoolAmbientStyle = computed(() => {
           :class="{ 'is-on': showOrderGame }"
           @click="showOrderGame = !showOrderGame"
         >
-          <span>🧩</span>
+          <ClassicalIcon name="game" :size="14" />
           <span>語塊重組{{ showOrderGame ? '（開）' : '' }}</span>
         </button>
         <button
@@ -376,7 +379,7 @@ const schoolAmbientStyle = computed(() => {
           :class="{ 'is-on': isFocusMode }"
           @click="isFocusMode = !isFocusMode"
         >
-          <span>{{ isFocusMode ? '👁️‍🗨️' : '👁️' }}</span>
+          <ClassicalIcon name="eye" :size="14" />
           <span>專注模式{{ isFocusMode ? '已開啟' : '已關閉' }} (F)</span>
         </button>
       </div>
@@ -396,7 +399,7 @@ const schoolAmbientStyle = computed(() => {
       <Transition name="slide-up">
         <section v-if="showTypingArea" class="typing-section" :class="{ 'is-vertical-section': isVertical }">
           <div class="typing-header">
-            <span class="typing-icon">📝</span>
+            <span class="typing-icon"><ClassicalIcon name="brush" :size="16" /></span>
             <span class="typing-title">默寫區</span>
           </div>
           <textarea
@@ -469,7 +472,7 @@ const schoolAmbientStyle = computed(() => {
             :class="rb.className"
             @click="rateSentence(rb.rating)"
           >
-            <span class="rating-icon">{{ rb.icon }}</span>
+            <span class="rating-icon"><ClassicalIcon :name="rb.iconName" :size="15" /></span>
             <span class="rating-label">{{ rb.label }}</span>
           </button>
         </div>
@@ -479,7 +482,8 @@ const schoolAmbientStyle = computed(() => {
       <section class="debugger-section" v-if="!isFocusMode">
         <div class="fsrs-debugger glass-card">
           <button class="btn btn-ghost btn-debugger-toggle" @click="showDebugger = !showDebugger">
-            🛠️ FSRS 排程除錯器 {{ showDebugger ? '▲' : '▼' }}
+            <ClassicalIcon name="compass" :size="14" />
+            <span>FSRS 排程除錯器 {{ showDebugger ? '▲' : '▼' }}</span>
           </button>
           <Transition name="slide-up">
             <div v-if="showDebugger" class="debugger-content">
@@ -542,22 +546,22 @@ const schoolAmbientStyle = computed(() => {
 
         <div class="summary-stats">
           <div class="summary-stat rating-easy-bg">
-            <span class="summary-stat-icon">✨</span>
+            <span class="summary-stat-icon"><ClassicalIcon name="sparkle" :size="16" /></span>
             <span class="summary-stat-value">{{ summaryStats.easy }}</span>
             <span class="summary-stat-label">簡單</span>
           </div>
           <div class="summary-stat rating-good-bg">
-            <span class="summary-stat-icon">👍</span>
+            <span class="summary-stat-icon"><ClassicalIcon name="check" :size="16" /></span>
             <span class="summary-stat-value">{{ summaryStats.good }}</span>
             <span class="summary-stat-label">良好</span>
           </div>
           <div class="summary-stat rating-hard-bg">
-            <span class="summary-stat-icon">😰</span>
+            <span class="summary-stat-icon"><ClassicalIcon name="hourglass" :size="16" /></span>
             <span class="summary-stat-value">{{ summaryStats.hard }}</span>
             <span class="summary-stat-label">困難</span>
           </div>
           <div class="summary-stat rating-again-bg">
-            <span class="summary-stat-icon">🔄</span>
+            <span class="summary-stat-icon"><ClassicalIcon name="refresh" :size="16" /></span>
             <span class="summary-stat-value">{{ summaryStats.again }}</span>
             <span class="summary-stat-label">再來</span>
           </div>
@@ -566,12 +570,16 @@ const schoolAmbientStyle = computed(() => {
         <!-- Gamification Reward Summary -->
         <div class="summary-gamification">
           <div class="summary-exp-tag">獲得 +{{ totalSentences * 15 }} EXP (總計 {{ gamificationStore.exp }} EXP)</div>
-          <div class="summary-streak-tag">🔥 連續背誦天數：{{ gamificationStore.streak }} 天</div>
+          <div class="summary-streak-tag">
+            <ClassicalIcon name="flame" :size="15" color="var(--color-rust-500)" />
+            <span>連續背誦天數：{{ gamificationStore.streak }} 天</span>
+          </div>
         </div>
 
         <div class="summary-actions">
           <button class="btn btn-primary" @click="resetSession">
-            🔄 再背一次
+            <ClassicalIcon name="refresh" :size="14" />
+            <span>再背一次</span>
           </button>
           <button class="btn btn-ghost" @click="goBack">
             返回章節

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, watch } from 'vue'
 import { db, type Annotation } from '@/data/db'
+import ClassicalIcon, { type IconName } from '@/components/ClassicalIcon.vue'
 
 const props = defineProps<{
   chapterId: string
@@ -20,12 +21,12 @@ const newContent = ref('')
 const newType = ref<'insight' | 'question' | 'comparison' | 'research'>('insight')
 const isSaving = ref(false)
 
-const TYPE_OPTIONS = [
-  { id: 'insight', label: '💡 心得', color: 'var(--c-gold)' },
-  { id: 'question', label: '❓ 疑問', color: 'var(--c-accent-dao)' },
-  { id: 'comparison', label: '⚖️ 比較', color: 'var(--c-accent-syncretism)' },
-  { id: 'research', label: '📜 考據', color: 'var(--c-accent-histories)' },
-] as const
+const TYPE_OPTIONS: Array<{ id: 'insight' | 'question' | 'comparison' | 'research'; label: string; iconName: IconName; color: string }> = [
+  { id: 'insight', label: '心得', iconName: 'lantern', color: 'var(--c-gold)' },
+  { id: 'question', label: '疑問', iconName: 'compass', color: 'var(--c-accent-dao)' },
+  { id: 'comparison', label: '比較', iconName: 'scale', color: 'var(--c-accent-syncretism)' },
+  { id: 'research', label: '考據', iconName: 'book-open', color: 'var(--c-accent-histories)' },
+]
 
 async function loadNotes() {
   if (!props.chapterId) return
@@ -86,11 +87,14 @@ function formatDate(iso: string) {
   <div v-if="isOpen" class="annotation-overlay" @click.self="emit('close')">
     <div class="annotation-panel glass-card-elevated">
       <div class="panel-header">
-        <div class="panel-title">
-          <span>✍️ 文脈批註</span>
+        <div class="panel-title" style="display: flex; align-items: center; gap: 0.5rem;">
+          <ClassicalIcon name="brush" :size="16" />
+          <span>文脈批註</span>
           <span v-if="targetText" class="target-excerpt">「{{ targetText.slice(0, 16) }}{{ targetText.length > 16 ? '…' : '' }}」</span>
         </div>
-        <button class="close-btn btn btn-ghost" @click="emit('close')" aria-label="關閉">✕</button>
+        <button class="close-btn btn btn-ghost" @click="emit('close')" aria-label="關閉">
+          <ClassicalIcon name="close" :size="14" />
+        </button>
       </div>
 
       <!-- 新增筆記區 -->
@@ -103,8 +107,10 @@ function formatDate(iso: string) {
             class="type-pill"
             :class="{ active: newType === t.id }"
             @click="newType = t.id"
+            style="display: inline-flex; align-items: center; gap: 0.35rem;"
           >
-            {{ t.label }}
+            <ClassicalIcon :name="t.iconName" :size="13" />
+            <span>{{ t.label }}</span>
           </button>
         </div>
 
@@ -141,11 +147,14 @@ function formatDate(iso: string) {
         <div v-else class="notes-list">
           <div v-for="note in notes" :key="note.id" class="note-card">
             <div class="note-card-meta">
-              <span class="note-type-badge">
-                {{ TYPE_OPTIONS.find(t => t.id === note.type)?.label || '💡 心得' }}
+              <span class="note-type-badge" style="display: inline-flex; align-items: center; gap: 0.3rem;">
+                <ClassicalIcon :name="TYPE_OPTIONS.find(t => t.id === note.type)?.iconName || 'lantern'" :size="12" />
+                <span>{{ TYPE_OPTIONS.find(t => t.id === note.type)?.label || '心得' }}</span>
               </span>
               <span class="note-date">{{ formatDate(note.createdAt) }}</span>
-              <button class="delete-btn" @click="deleteNote(note.id)" title="刪除此筆批註">🗑️</button>
+              <button class="delete-btn" @click="deleteNote(note.id)" title="刪除此筆批註">
+                <ClassicalIcon name="close" :size="13" />
+              </button>
             </div>
             <p class="note-body">{{ note.content }}</p>
           </div>

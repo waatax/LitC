@@ -3,6 +3,7 @@ import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import type { QuizQuestion } from '@/data/quiz_bank'
 import ClassicalTextLookup from '@/components/ClassicalTextLookup.vue'
+import ClassicalIcon from '@/components/ClassicalIcon.vue'
 
 const router = useRouter()
 
@@ -125,8 +126,12 @@ function goToSource(question: QuizQuestion) {
       </div>
       <p class="setup-desc">本次測驗將從近千題精選古文題庫中隨機抽出。包含填空、釋義、解析與背景知識，須全部作答完畢方能顯示成績。</p>
       <button class="btn btn-primary start-btn" @click="startQuiz" :disabled="isQuizLoading">
-        <span v-if="isQuizLoading">⏳ 載入題庫中...</span>
-        <span v-else>📝 開始測驗</span>
+        <span v-if="isQuizLoading" style="display: inline-flex; align-items: center; gap: 0.35rem;">
+          <ClassicalIcon name="hourglass" :size="16" /> 載入題庫中...
+        </span>
+        <span v-else style="display: inline-flex; align-items: center; gap: 0.35rem;">
+          <ClassicalIcon name="quiz" :size="16" /> 開始測驗
+        </span>
       </button>
     </div>
 
@@ -191,7 +196,12 @@ function goToSource(question: QuizQuestion) {
             <div class="review-header">
               <span class="review-q-num">第 {{ index + 1 }} 題</span>
               <span class="review-status">
-                {{ userAnswers[index] === q.correctAnswer ? '✅ 答對' : '❌ 答錯' }}
+                <template v-if="userAnswers[index] === q.correctAnswer">
+                  <ClassicalIcon name="check" :size="14" color="var(--color-primary-600)" /> 答對
+                </template>
+                <template v-else>
+                  <ClassicalIcon name="close" :size="14" color="var(--color-rust-500)" /> 答錯
+                </template>
               </span>
             </div>
             
@@ -217,7 +227,8 @@ function goToSource(question: QuizQuestion) {
 
             <div class="review-source">
               <button class="btn btn-ghost source-link-btn" @click="goToSource(q)">
-                📖 前往出處閱讀段落與完整解析
+                <ClassicalIcon name="book-open" :size="14" />
+                <span>前往出處閱讀段落與完整解析</span>
               </button>
             </div>
           </div>

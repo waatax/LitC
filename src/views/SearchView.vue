@@ -5,6 +5,8 @@ import { searchContent } from '@/utils/search'
 import type { SearchResult } from '@/utils/search'
 import type { SchoolId } from '@/types/content'
 import SchoolBadge from '@/components/SchoolBadge.vue'
+import ClassicalIcon from '@/components/ClassicalIcon.vue'
+import { THEMATIC_TOPICS } from '@/data/thematicTopics'
 
 const route = useRoute()
 const router = useRouter()
@@ -126,14 +128,16 @@ watch(() => route.query, () => {
       
       <!-- Big Search Bar -->
       <form class="big-search-box" @submit.prevent="handleSearchSubmit">
-        <span class="search-icon">🔍</span>
+        <span class="search-icon">
+          <ClassicalIcon name="search" :size="18" color="var(--c-gold)" />
+        </span>
         <input
           v-model="query"
           type="text"
           class="search-input"
           placeholder="搜尋典籍、篇章、原文、白話文、詞義與深度解析..."
         />
-        <button type="submit" class="search-btn">搜尋</button>
+        <button type="submit" class="search-btn font-serif">檢索</button>
       </form>
 
       <!-- Schools Bar -->
@@ -163,7 +167,7 @@ watch(() => route.query, () => {
           {{ tab.label }}
         </button>
       </div>
-      <div class="stats-text">
+      <div class="stats-text font-serif">
         共找到 <strong>{{ allResults.length }}</strong> 筆相關結果
       </div>
     </div>
@@ -172,15 +176,37 @@ watch(() => route.query, () => {
     <div class="results-content-area">
       <!-- Empty query state -->
       <div v-if="!query.trim()" class="empty-state">
-        <div class="empty-icon">📖</div>
-        <h3>輸入關鍵字探索經典文脈</h3>
+        <div class="empty-icon">
+          <ClassicalIcon name="library" :size="48" color="var(--c-gold)" />
+        </div>
+        <h3 class="font-serif">輸入關鍵字探索經典文脈</h3>
         <p>支援全部原文、白話文、詞義註解、思想解析與典籍介紹的全庫檢索。</p>
+
+        <div class="search-thematic-hotbar">
+          <span class="hotbar-label font-serif">
+            <ClassicalIcon name="compass" :size="14" color="var(--c-gold)" />
+            心境與主題推薦檢索：
+          </span>
+          <div class="hotbar-pills">
+            <button
+              v-for="topic in THEMATIC_TOPICS"
+              :key="topic.id"
+              class="thematic-hot-pill"
+              @click="query = topic.quickSearchKeyword.split(' ')[0]; handleSearchSubmit()"
+            >
+              <span class="pill-seal">{{ topic.sealText }}</span>
+              <span>{{ topic.title.split('・')[0] }}</span>
+            </button>
+          </div>
+        </div>
       </div>
 
       <!-- No match state -->
       <div v-else-if="allResults.length === 0" class="empty-state">
-        <div class="empty-icon">🔍</div>
-        <h3>未找到與「{{ query }}」相符的結果</h3>
+        <div class="empty-icon">
+          <ClassicalIcon name="search" :size="48" color="var(--c-gold)" />
+        </div>
+        <h3 class="font-serif">未找到與「{{ query }}」相符的結果</h3>
         <p>建議縮短關鍵字長度、改搜尋異體字或選擇「全部學派」。</p>
       </div>
 
@@ -196,11 +222,14 @@ watch(() => route.query, () => {
             <span class="field-badge" :class="`badge-${item.type}`">{{ item.matchField }}</span>
             <div class="card-meta">
               <SchoolBadge :schoolId="item.schoolId" size="sm" />
-              <span class="meta-title">{{ item.workTitle }} <template v-if="item.chapterTitle">› {{ item.chapterTitle }}</template></span>
+              <span class="meta-title font-serif">{{ item.workTitle }} <template v-if="item.chapterTitle">› {{ item.chapterTitle }}</template></span>
             </div>
           </div>
           <div class="card-snippet" v-html="renderHighlighted(item.snippet)"></div>
-          <div class="card-arrow">前往閱讀 →</div>
+          <div class="card-arrow">
+            <span>前往閱讀</span>
+            <ClassicalIcon name="arrow-right" :size="13" />
+          </div>
         </div>
       </div>
 
@@ -447,10 +476,14 @@ watch(() => route.query, () => {
 }
 
 .card-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
   font-size: 0.8125rem;
   color: var(--c-gold, #c9a96e);
   font-weight: 500;
-  text-align: right;
+  width: 100%;
 }
 
 /* Empty States */
@@ -467,20 +500,79 @@ watch(() => route.query, () => {
 }
 
 .empty-icon {
-  font-size: 3rem;
-  margin-bottom: 12px;
-  opacity: 0.7;
+  margin-bottom: 14px;
+  opacity: 0.9;
 }
 
 .empty-state h3 {
   font-size: 1.25rem;
-  color: var(--c-text-primary, #fff);
+  color: var(--c-gold, #fff);
   margin-bottom: 6px;
 }
 
 .empty-state p {
   font-size: 0.875rem;
   color: var(--c-text-muted, #9ca3af);
+}
+
+.search-thematic-hotbar {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.hotbar-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--c-gold);
+}
+
+.hotbar-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  max-width: 520px;
+}
+
+.thematic-hot-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  background: rgba(201, 169, 110, 0.08);
+  border: 1px solid var(--c-border-accent);
+  color: var(--c-text-primary);
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.thematic-hot-pill:hover {
+  background: var(--c-gold-glow);
+  border-color: var(--c-gold);
+  color: var(--c-gold);
+  transform: translateY(-1px);
+}
+
+.pill-seal {
+  width: 18px;
+  height: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background: rgba(201, 169, 110, 0.2);
+  border: 1px solid var(--c-gold);
+  color: var(--c-gold);
+  font-weight: 700;
+  font-family: var(--font-serif);
+  font-size: 0.65rem;
 }
 
 /* Pagination */

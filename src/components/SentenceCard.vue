@@ -4,6 +4,7 @@ import type { Sentence, HintLevel, Chunk } from '@/types/content'
 import { getPinyin, getBopomofo } from '@/utils/pinyin'
 import { speechService } from '@/services/speech'
 import RedSeal from '@/components/RedSeal.vue'
+import ClassicalIcon from './ClassicalIcon.vue'
 
 const props = withDefaults(defineProps<{
   sentence: Sentence
@@ -181,7 +182,9 @@ const chunkGroups = computed<ChunkGroup[]>(() => {
     <!-- Structured Translation and Annotations Tabs -->
     <div v-if="showAid && (sentence.structuredTranslation || sentence.translationHint)" class="aid-container">
       <div class="aid-header">
-        <span class="aid-icon">💡</span>
+        <span class="aid-icon">
+          <ClassicalIcon name="sparkle" :size="15" color="var(--c-gold)" />
+        </span>
         <div class="aid-tabs">
           <button
             class="aid-tab-btn"
@@ -223,8 +226,10 @@ const chunkGroups = computed<ChunkGroup[]>(() => {
           @click="playSentenceAudio"
           :title="isAudioSpeaking ? '暫停誦讀' : '語音誦讀本句'"
         >
-          <span v-if="isAudioSpeaking">⏸ 誦讀中</span>
-          <span v-else>🔊 誦讀</span>
+          <ClassicalIcon v-if="isAudioSpeaking" name="pause" :size="13" />
+          <ClassicalIcon v-else name="audio" :size="13" />
+          <span v-if="isAudioSpeaking">誦讀中</span>
+          <span v-else>誦讀</span>
         </button>
         <!-- Pronunciation Guide Toggle -->
         <button
@@ -258,7 +263,9 @@ const chunkGroups = computed<ChunkGroup[]>(() => {
     </div>
     
     <div v-else-if="props.hintLevel === 'meaning-only'" class="translation-hint">
-      <span class="hint-icon">💡</span>
+      <span class="hint-icon">
+        <ClassicalIcon name="sparkle" :size="14" color="var(--c-gold)" />
+      </span>
       <span class="hint-text hint-missing">（無句意提示）</span>
     </div>
 
@@ -271,8 +278,10 @@ const chunkGroups = computed<ChunkGroup[]>(() => {
         @click="playSentenceAudio"
         :title="isAudioSpeaking ? '暫停誦讀' : '語音誦讀本句'"
       >
-        <span v-if="isAudioSpeaking">⏸ 誦讀中</span>
-        <span v-else>🔊 誦讀本句</span>
+        <ClassicalIcon v-if="isAudioSpeaking" name="pause" :size="13" />
+        <ClassicalIcon v-else name="audio" :size="13" />
+        <span v-if="isAudioSpeaking">誦讀中</span>
+        <span v-else>誦讀本句</span>
       </button>
       <button
         v-if="hasPronunciation && !isAllMasked"

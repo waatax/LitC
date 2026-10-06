@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, onMounted, onUnmounted, watch } from 'vue'
 import { speechService, SPEED_PRESETS, type SpeechMode, type SpeechRate } from '@/services/speech'
+import ClassicalIcon from '@/components/ClassicalIcon.vue'
 
 const speechState = speechService.state
 const voices = speechService.voices
@@ -242,11 +243,13 @@ onUnmounted(() => {
                 :class="speechState.audioSourceType === 'file' ? 'is-file' : 'is-tts'"
                 :title="speechState.audioSourceType === 'file' ? '播放高品質名家預製錄音檔' : '使用古典音韻校正語音引擎朗讀'"
               >
-                {{ speechState.audioSourceType === 'file' ? '🎙️ 名家音檔' : '🔊 智能正音' }}
+                <ClassicalIcon name="audio" :size="12" />
+                <span>{{ speechState.audioSourceType === 'file' ? '名家音檔' : '智能正音' }}</span>
               </span>
 
               <span class="passage-tag">
-                {{ speechState.currentMode === 'canonical' ? '📜 原文' : '💬 白話' }}
+                <ClassicalIcon :name="speechState.currentMode === 'canonical' ? 'book-open' : 'headphones'" :size="12" />
+                <span>{{ speechState.currentMode === 'canonical' ? '原文' : '白話' }}</span>
               </span>
 
               <span v-if="currentItem?.workTitle" class="work-title">{{ currentItem.workTitle }}</span>
@@ -280,8 +283,8 @@ onUnmounted(() => {
             :aria-label="speechState.isPlaying && !speechState.isPaused ? '暫停' : '繼續朗讀'"
             @click="togglePlay"
           >
-            <span v-if="speechState.isPlaying && !speechState.isPaused">⏸</span>
-            <span v-else>▶</span>
+            <ClassicalIcon v-if="speechState.isPlaying && !speechState.isPaused" name="pause" :size="16" />
+            <ClassicalIcon v-else name="play" :size="16" />
           </button>
 
           <button
@@ -358,7 +361,7 @@ onUnmounted(() => {
               @click.stop="toggleSpeedMenu"
             >
               <span v-if="isCustomRate">{{ formattedRate }}x ▾</span>
-              <span v-else>⏱️ ▾</span>
+              <span v-else style="display: inline-flex; align-items: center; gap: 2px;"><ClassicalIcon name="speed" :size="13" /> ▾</span>
             </button>
           </div>
 
@@ -368,7 +371,7 @@ onUnmounted(() => {
             title="語音詳細設定"
             @click="toggleSettings"
           >
-            ⚙️
+            <ClassicalIcon name="compass" :size="15" />
           </button>
         </div>
       </div>
@@ -378,7 +381,7 @@ onUnmounted(() => {
         <div v-if="showSpeedMenu" class="speed-menu-popover glass-panel" @click.stop>
           <div class="speed-menu-header">
             <div class="speed-menu-title-group">
-              <span class="speed-menu-icon">⏱️</span>
+              <span class="speed-menu-icon"><ClassicalIcon name="speed" :size="16" /></span>
               <span class="speed-menu-title">誦讀倍速控制</span>
             </div>
             <button class="speed-reset-btn" @click="setRate(1.0)" title="恢復 1.0x 標準常速 (快捷鍵 0)">

@@ -4,6 +4,8 @@ import { useRouter } from 'vue-router'
 import type { SchoolId } from '@/types/content'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import { speechService } from '@/services/speech'
+import ClassicalIcon from '@/components/ClassicalIcon.vue'
+import { THEMATIC_TOPICS } from '@/data/thematicTopics'
 
 const router = useRouter()
 
@@ -176,8 +178,27 @@ const currentTheme = computed(() => {
   return COMPARISON_THEMES.find(t => t.id === activeThemeId.value) || COMPARISON_THEMES[0]
 })
 
+const relatedTopic = computed(() => {
+  return THEMATIC_TOPICS.find(t => t.compareThemeId === activeThemeId.value)
+})
+
 function goToChapter(chapterId: string) {
   router.push(`/chapter/${chapterId}`)
+}
+
+function goToTopic(topicId: string) {
+  router.push({ path: '/library', query: { topic: topicId } })
+}
+
+function goToWenhaiCategory(themeId: string) {
+  const map: Record<string, string> = {
+    dao: 'philosophy',
+    'ren-li': 'self-cultivation',
+    governance: 'governance',
+    military: 'military',
+  }
+  const categoryId = map[themeId] || 'philosophy'
+  router.push({ path: '/wenhai', query: { category: categoryId } })
 }
 
 function isSpeaking(id: string) {
@@ -202,10 +223,12 @@ onUnmounted(() => {
   <div class="compare-view stagger-children">
     <!-- Header -->
     <header class="compare-hero glass-card">
-      <div class="hero-icon">⚖️</div>
+      <div class="hero-icon">
+        <ClassicalIcon name="compare" :size="36" color="var(--c-gold)" />
+      </div>
       <div class="hero-content">
-        <span class="hero-eyebrow">思想交鋒 · 異同對讀</span>
-        <h1 class="hero-title">跨文本比較閱讀</h1>
+        <span class="hero-eyebrow font-serif">思想交鋒 · 異同對讀</span>
+        <h1 class="hero-title font-serif">跨文本比較閱讀</h1>
         <p class="hero-desc">
           經典非孤立存在，諸子百家同源而異流。精選核心思想專題，將不同典籍之名句同臺對勘，體悟先秦中華思想脈絡之宏大精微。
         </p>
@@ -227,10 +250,35 @@ onUnmounted(() => {
 
     <!-- Active Theme Card -->
     <div class="theme-intro-card glass-card">
-      <h2 class="theme-title">{{ currentTheme.title }}</h2>
-      <p class="theme-subtitle">{{ currentTheme.subtitle }}</p>
+      <div class="theme-card-top-row">
+        <div>
+          <h2 class="theme-title font-serif">{{ currentTheme.title }}</h2>
+          <p class="theme-subtitle">{{ currentTheme.subtitle }}</p>
+        </div>
+        <div class="theme-actions">
+          <button
+            v-if="relatedTopic"
+            class="related-topic-btn"
+            @click="goToTopic(relatedTopic.id)"
+            :title="`前往【${relatedTopic.title}】主題策展`"
+          >
+            <ClassicalIcon name="compass" :size="14" />
+            <span>主題策展：{{ relatedTopic.title.split('・')[0] }}</span>
+            <ClassicalIcon name="arrow-right" :size="12" />
+          </button>
+          <button
+            class="related-topic-btn related-wenhai-btn"
+            @click="goToWenhaiCategory(currentTheme.id)"
+            title="前往文海知識網絡探討相應思想脈絡"
+          >
+            <ClassicalIcon name="wenhai" :size="14" />
+            <span>文海思辨全譜</span>
+            <ClassicalIcon name="arrow-right" :size="12" />
+          </button>
+        </div>
+      </div>
       <div class="theme-synthesis">
-        <span class="synthesis-label">【 異同綜論 】</span>
+        <span class="synthesis-label font-serif">【 異同綜論 】</span>
         <p>{{ currentTheme.synthesis }}</p>
       </div>
     </div>
@@ -248,16 +296,17 @@ onUnmounted(() => {
             <span class="author-tag">{{ item.author }}</span>
           </div>
           <button class="read-btn btn btn-ghost btn-sm" @click="goToChapter(item.chapterId)">
-            閱讀本章 →
+            <span>閱讀本章</span>
+            <ClassicalIcon name="arrow-right" :size="12" />
           </button>
         </div>
 
         <div class="card-source">
-          <h3 class="work-title">《{{ item.workTitle }}》· {{ item.chapterTitle }}</h3>
+          <h3 class="work-title font-serif">《{{ item.workTitle }}》· {{ item.chapterTitle }}</h3>
         </div>
 
         <blockquote class="quote-box">
-          <p class="classical-text">{{ item.quote }}</p>
+          <p class="classical-text font-serif">{{ item.quote }}</p>
           <div class="compare-audio-row">
             <button
               type="button"
@@ -266,8 +315,10 @@ onUnmounted(() => {
               :title="isSpeaking(item.chapterId) ? '暫停朗讀' : '聆聽經典原文朗讀'"
               @click="playQuote(item)"
             >
-              <span v-if="isSpeaking(item.chapterId)">⏸ 暫停</span>
-              <span v-else>🔊 誦讀經文</span>
+              <ClassicalIcon v-if="isSpeaking(item.chapterId)" name="pause" :size="14" />
+              <ClassicalIcon v-else name="audio" :size="14" />
+              <span v-if="isSpeaking(item.chapterId)">暫停朗讀</span>
+              <span v-else>雅音誦讀</span>
             </button>
           </div>
         </blockquote>
@@ -347,6 +398,43 @@ onUnmounted(() => {
   padding: var(--sp-6);
   border-radius: var(--radius-lg);
   border-left: 4px solid var(--c-gold);
+}
+
+.theme-card-top-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  flex-wrap: wrap;
+  margin-bottom: var(--sp-4);
+}
+
+.theme-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.related-topic-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: rgba(201, 169, 110, 0.1);
+  border: 1px solid var(--c-border-accent);
+  border-radius: var(--radius-full);
+  color: var(--c-gold-light);
+  font-size: var(--fs-xs);
+  cursor: pointer;
+  transition: all var(--duration-fast);
+}
+
+.related-topic-btn:hover {
+  background: var(--c-gold-glow);
+  border-color: var(--c-gold);
+  color: var(--c-gold);
+  transform: translateY(-1px);
 }
 
 .theme-title {

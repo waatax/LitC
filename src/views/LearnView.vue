@@ -6,6 +6,7 @@ import { loadChapterContent } from '@/data/workLoader'
 
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import RedSeal from '@/components/RedSeal.vue'
+import ClassicalIcon, { type IconName } from '@/components/ClassicalIcon.vue'
 import ClassicalTextLookup from '@/components/ClassicalTextLookup.vue'
 import AudioPlayerBar from '@/components/AudioPlayerBar.vue'
 import { speechService } from '@/services/speech'
@@ -60,16 +61,16 @@ onBeforeUnmount(() => {
 interface Step {
   key: string
   label: string
-  icon: string
+  iconName: IconName
   fullLabel: string
 }
 
 const steps: Step[] = [
-  { key: 'intro', label: '導', icon: '🌊', fullLabel: '導入' },
-  { key: 'read', label: '讀', icon: '📖', fullLabel: '通讀' },
-  { key: 'understand', label: '解', icon: '💡', fullLabel: '理解' },
-  { key: 'segment', label: '分', icon: '✂️', fullLabel: '分段' },
-  { key: 'memorize', label: '背', icon: '🎯', fullLabel: '背誦' },
+  { key: 'intro', label: '導', iconName: 'wenhai', fullLabel: '導入' },
+  { key: 'read', label: '讀', iconName: 'book-open', fullLabel: '通讀' },
+  { key: 'understand', label: '解', iconName: 'lantern', fullLabel: '理解' },
+  { key: 'segment', label: '分', iconName: 'scale', fullLabel: '分段' },
+  { key: 'memorize', label: '背', iconName: 'target', fullLabel: '背誦' },
 ]
 
 const currentStepIndex = ref(0)
@@ -172,7 +173,8 @@ const schoolAmbientStyle = computed(() => {
         @click="appStore.toggleVertical()"
         :title="isVertical ? '切換為橫排' : '切換為直排'"
       >
-        {{ isVertical ? '🔤 橫書' : '📜 直書' }}
+        <ClassicalIcon :name="isVertical ? 'book-open' : 'scroll'" :size="14" />
+        <span>{{ isVertical ? '橫書' : '直書' }}</span>
       </button>
     </div>
 
@@ -195,7 +197,7 @@ const schoolAmbientStyle = computed(() => {
         }"
         @click="currentStepIndex = i"
       >
-        <span class="pip-icon">{{ step.icon }}</span>
+        <span class="pip-icon"><ClassicalIcon :name="step.iconName" :size="14" /></span>
         <span class="pip-label">{{ step.label }}</span>
       </div>
     </div>
@@ -207,7 +209,7 @@ const schoolAmbientStyle = computed(() => {
           <!-- Step 1: Introduction -->
           <div v-if="currentStep.key === 'intro'" key="intro" class="step-panel">
             <div class="step-heading">
-              <span class="step-heading-icon">🌊</span>
+              <span class="step-heading-icon"><ClassicalIcon name="wenhai" :size="20" /></span>
               <h2>導入</h2>
             </div>
             <div class="intro-card glass-card">
@@ -238,7 +240,7 @@ const schoolAmbientStyle = computed(() => {
           <!-- Step 2: Read -->
           <div v-else-if="currentStep.key === 'read'" key="read" class="step-panel">
             <div class="step-heading">
-              <span class="step-heading-icon">📖</span>
+              <span class="step-heading-icon"><ClassicalIcon name="book-open" :size="20" /></span>
               <h2>通讀全文</h2>
             </div>
             <div class="read-card glass-card">
@@ -257,8 +259,8 @@ const schoolAmbientStyle = computed(() => {
                       :title="isAudioSpeaking(passage.id) ? '暫停朗讀' : '朗讀此段'"
                       @click="playPassage(passage)"
                     >
-                      <span v-if="isAudioSpeaking(passage.id)">⏸</span>
-                      <span v-else>🔊</span>
+                      <ClassicalIcon v-if="isAudioSpeaking(passage.id)" name="pause" :size="13" />
+                      <ClassicalIcon v-else name="audio" :size="13" />
                     </button>
                     <p class="passage-text">
                       <ClassicalTextLookup :text="passage.canonicalText" />
@@ -280,8 +282,8 @@ const schoolAmbientStyle = computed(() => {
                     :title="isAudioSpeaking(passage.id) ? '暫停朗讀' : '朗讀此段'"
                     @click="playPassage(passage)"
                   >
-                    <span v-if="isAudioSpeaking(passage.id)">⏸</span>
-                    <span v-else>🔊</span>
+                    <ClassicalIcon v-if="isAudioSpeaking(passage.id)" name="pause" :size="13" />
+                    <ClassicalIcon v-else name="audio" :size="13" />
                   </button>
                   <p class="read-paragraph">
                     <ClassicalTextLookup :text="passage.canonicalText" />
@@ -294,7 +296,7 @@ const schoolAmbientStyle = computed(() => {
           <!-- Step 3: Understand -->
           <div v-else-if="currentStep.key === 'understand'" key="understand" class="step-panel">
             <div class="step-heading">
-              <span class="step-heading-icon">💡</span>
+              <span class="step-heading-icon"><ClassicalIcon name="lantern" :size="20" /></span>
               <h2>逐句理解</h2>
             </div>
             <div class="understand-list">
@@ -316,8 +318,8 @@ const schoolAmbientStyle = computed(() => {
                           :title="isAudioSpeaking(sentence.id) ? '暫停發音' : '誦讀此句'"
                           @click="playSentence(sentence)"
                         >
-                          <span v-if="isAudioSpeaking(sentence.id)">⏸</span>
-                          <span v-else>🔊</span>
+                          <ClassicalIcon v-if="isAudioSpeaking(sentence.id)" name="pause" :size="12" />
+                          <ClassicalIcon v-else name="audio" :size="12" />
                         </button>
                       </div>
                       <p class="classical-text vertical-original-text"><ClassicalTextLookup :text="sentence.canonicalText" /></p>
@@ -348,8 +350,8 @@ const schoolAmbientStyle = computed(() => {
                         :title="isAudioSpeaking(sentence.id) ? '暫停發音' : '誦讀此句'"
                         @click="playSentence(sentence)"
                       >
-                        <span v-if="isAudioSpeaking(sentence.id)">⏸ 誦讀中</span>
-                        <span v-else>🔊 誦讀</span>
+                        <span v-if="isAudioSpeaking(sentence.id)"><ClassicalIcon name="pause" :size="13" /> 誦讀中</span>
+                        <span v-else><ClassicalIcon name="audio" :size="13" /> 誦讀</span>
                       </button>
                     </div>
                     <p class="understand-hint">
@@ -367,7 +369,7 @@ const schoolAmbientStyle = computed(() => {
           <!-- Step 4: Segment -->
           <div v-else-if="currentStep.key === 'segment'" key="segment" class="step-panel">
             <div class="step-heading">
-              <span class="step-heading-icon">✂️</span>
+              <span class="step-heading-icon"><ClassicalIcon name="scale" :size="20" /></span>
               <h2>分段解構</h2>
             </div>
             <p class="step-desc">觀察每句的語塊結構，為背誦做準備。</p>
@@ -419,11 +421,14 @@ const schoolAmbientStyle = computed(() => {
           <!-- Step 5: Memorize -->
           <div v-else-if="currentStep.key === 'memorize'" key="memorize" class="step-panel">
             <div class="step-heading">
-              <span class="step-heading-icon">🎯</span>
+              <span class="step-heading-icon"><ClassicalIcon name="target" :size="20" /></span>
               <h2>背誦</h2>
             </div>
             <div class="memorize-card glass-card">
-              <h3 class="memorize-title">🎉 學習完成！準備好開始背誦了嗎？</h3>
+              <h3 class="memorize-title" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                <ClassicalIcon name="sparkle" :size="22" color="var(--gold-400)" />
+                <span>學習完成！準備好開始背誦了嗎？</span>
+              </h3>
               <div class="memorize-summary">
                 <div class="summary-item">
                   <span class="summary-label">章節</span>
@@ -440,7 +445,8 @@ const schoolAmbientStyle = computed(() => {
               </div>
               <div class="memorize-actions">
                 <button class="btn btn-primary btn-lg memorize-cta" @click="goToMemorize">
-                  🎯 開始背誦
+                  <ClassicalIcon name="target" :size="16" />
+                  <span>開始背誦</span>
                 </button>
                 <button class="btn btn-ghost" @click="goBack">
                   回到書庫

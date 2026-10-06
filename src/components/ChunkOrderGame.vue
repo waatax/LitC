@@ -2,6 +2,7 @@
 import { ref, watch } from 'vue'
 import type { Chunk } from '@/types/content'
 import { zenAudio } from '@/utils/audio'
+import ClassicalIcon from './ClassicalIcon.vue'
 
 const props = defineProps<{
   chunks: Chunk[]
@@ -108,11 +109,15 @@ function resetOrder() {
   <div class="chunk-order-game glass-card">
     <div class="game-header">
       <div class="game-title">
-        <span class="game-badge">🧩 語塊排序</span>
+        <span class="game-badge">
+          <ClassicalIcon name="game" :size="13" color="var(--c-gold)" />
+          <span>語塊排比</span>
+        </span>
         <span class="game-desc">點擊或拖選語塊，依文義重組古典名句</span>
       </div>
       <button class="btn btn-ghost btn-sm reset-btn" @click="resetOrder" title="重新打亂語塊">
-        <span>🔄 重置</span>
+        <ClassicalIcon name="refresh" :size="13" />
+        <span>重置</span>
       </button>
     </div>
 
@@ -121,7 +126,8 @@ function resetOrder() {
       <div class="area-label">
         <span>【 組裝排版 】</span>
         <span v-if="isSubmitted" class="result-badge" :class="isCorrect ? 'badge-success' : 'badge-danger'">
-          {{ isCorrect ? '✨ 句讀通順，絲毫不差！' : '⚠️ 語序有誤，再思量之' }}
+          <ClassicalIcon v-if="isCorrect" name="check" :size="13" color="#5b8a72" />
+          <span>{{ isCorrect ? '句讀通順，絲毫不差！' : '語序有誤，再思量之' }}</span>
         </span>
       </div>
       

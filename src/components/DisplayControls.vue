@@ -2,6 +2,7 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useAppStore } from '@/stores/app'
 import ThemePicker from './ThemePicker.vue'
+import ClassicalIcon from './ClassicalIcon.vue'
 
 export type FontSize = 'compact' | 'standard' | 'comfortable' | 'large' | 'huge'
 
@@ -134,7 +135,9 @@ const currentThemeSwatch = computed(() => themeColors[appStore.currentTheme] || 
       @click="appStore.toggleGlassEffect()"
     >
       <span class="glass-btn-content">
-        <span class="mode-icon">{{ appStore.glassEffect ? '✨' : '⚡' }}</span>
+        <span class="mode-icon">
+          <ClassicalIcon :name="appStore.glassEffect ? 'glass' : 'speed'" :size="15" />
+        </span>
         <span class="mode-label">{{ appStore.glassEffect ? '毛玻璃' : '簡約' }}</span>
       </span>
     </button>

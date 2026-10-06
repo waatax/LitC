@@ -4,6 +4,8 @@ import { useRouter } from 'vue-router'
 import { searchContent } from '@/utils/search'
 import type { SearchResult, SearchResultType } from '@/utils/search'
 import type { SchoolId } from '@/types/content'
+import ClassicalIcon from '@/components/ClassicalIcon.vue'
+import { THEMATIC_TOPICS } from '@/data/thematicTopics'
 
 const props = defineProps<{
   isOpen: boolean
@@ -66,6 +68,14 @@ function handleInput() {
   debounceTimer = setTimeout(() => {
     performSearch()
   }, 150)
+}
+
+function searchByKeyword(kw: string) {
+  query.value = kw
+  performSearch()
+  nextTick(() => {
+    searchInput.value?.focus()
+  })
 }
 
 function closeModal() {
@@ -167,7 +177,9 @@ function renderHighlighted(text: string) {
         <div class="search-modal-container">
           <!-- Top Input Bar -->
           <div class="search-modal-header">
-            <span class="search-input-icon">🔍</span>
+            <span class="search-input-icon">
+              <ClassicalIcon name="search" :size="18" color="var(--c-gold)" />
+            </span>
             <input
               ref="searchInput"
               v-model="query"
@@ -176,7 +188,9 @@ function renderHighlighted(text: string) {
               placeholder="搜尋典籍、篇章、原文名句、白話譯文、哲思解讀..."
               @input="handleInput"
             />
-            <button v-if="query" class="clear-btn" @click="query = ''; performSearch()">✕</button>
+            <button v-if="query" class="clear-btn" @click="query = ''; performSearch()" aria-label="清除搜尋">
+              <ClassicalIcon name="close" :size="14" />
+            </button>
             <span class="esc-badge">ESC</span>
           </div>
 
@@ -212,9 +226,29 @@ function renderHighlighted(text: string) {
           <div class="search-modal-body">
             <!-- Empty state when no query -->
             <div v-if="!query.trim()" class="search-placeholder">
-              <div class="placeholder-icon">📚</div>
-              <p class="placeholder-title">搜尋整個文庫典籍</p>
+              <div class="placeholder-icon">
+                <ClassicalIcon name="library" :size="40" color="var(--c-gold)" />
+              </div>
+              <p class="placeholder-title font-serif">搜尋全域典籍經緯</p>
               <p class="placeholder-desc">輸入關鍵字（例如：「學而」、「道可道」、「兼愛」、「知己知彼」）</p>
+
+              <div class="modal-thematic-hotbar">
+                <span class="hotbar-label font-serif">
+                  <ClassicalIcon name="compass" :size="13" color="var(--c-gold)" />
+                  主題快速探索：
+                </span>
+                <div class="hotbar-chips">
+                  <button
+                    v-for="topic in THEMATIC_TOPICS"
+                    :key="topic.id"
+                    class="hotbar-chip"
+                    @click="searchByKeyword(topic.quickSearchKeyword.split(' ')[0])"
+                  >
+                    <span class="chip-seal">{{ topic.sealText }}</span>
+                    <span>{{ topic.title.split('・')[0] }}</span>
+                  </button>
+                </div>
+              </div>
             </div>
 
             <!-- No matches -->
@@ -429,21 +463,21 @@ function renderHighlighted(text: string) {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 220px;
+  min-height: 240px;
+  padding: 24px 12px;
   text-align: center;
   color: var(--c-text-muted, #9ca3af);
 }
 
 .placeholder-icon {
-  font-size: 2.5rem;
-  margin-bottom: 8px;
-  opacity: 0.8;
+  margin-bottom: 12px;
+  opacity: 0.9;
 }
 
 .placeholder-title {
   font-size: 1.125rem;
   font-weight: var(--fw-bold, 600);
-  color: var(--c-text-primary, #f3f4f6);
+  color: var(--c-gold, #c9a96e);
   margin-bottom: 4px;
 }
 
@@ -451,6 +485,66 @@ function renderHighlighted(text: string) {
 .no-results-hint {
   font-size: 0.875rem;
   opacity: 0.7;
+}
+
+.modal-thematic-hotbar {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.hotbar-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8125rem;
+  color: var(--c-gold);
+}
+
+.hotbar-chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  max-width: 480px;
+}
+
+.hotbar-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--radius-full);
+  background: rgba(201, 169, 110, 0.08);
+  border: 1px solid var(--c-border-accent);
+  color: var(--c-text-primary);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.hotbar-chip:hover {
+  background: var(--c-gold-glow);
+  border-color: var(--c-gold);
+  color: var(--c-gold);
+  transform: translateY(-1px);
+}
+
+.chip-seal {
+  width: 18px;
+  height: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background: rgba(201, 169, 110, 0.2);
+  border: 1px solid var(--c-gold);
+  color: var(--c-gold);
+  font-weight: 700;
+  font-family: var(--font-serif);
+  font-size: 0.65rem;
 }
 
 .search-results-list {

@@ -9,6 +9,7 @@ import { schools } from '@/data/schools'
 
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import RedSeal from '@/components/RedSeal.vue'
+import ClassicalIcon from '@/components/ClassicalIcon.vue'
 import AudioPlayerBar from '@/components/AudioPlayerBar.vue'
 import { speechService, type SpeechMode } from '@/services/speech'
 
@@ -212,7 +213,7 @@ onUnmounted(() => {
           :class="{ spinning: isRefreshing }"
           @click="sampleGlimpses"
         >
-          <span class="reroll-icon">🎲</span>
+          <ClassicalIcon name="dice" :size="16" />
           <span class="reroll-text">隨機換一批</span>
         </button>
 
@@ -286,14 +287,16 @@ onUnmounted(() => {
               :class="{ active: activeIntroTab === 'summary' }"
               @click="activeIntroTab = 'summary'"
             >
-              📖 典籍解題
+              <ClassicalIcon name="book-open" :size="15" />
+              <span>典籍解題</span>
             </button>
             <button
               class="ktab-btn"
               :class="{ active: activeIntroTab === 'significance' }"
               @click="activeIntroTab = 'significance'"
             >
-              🏛️ 文脈地位與傳承
+              <ClassicalIcon name="temple" :size="15" />
+              <span>文脈地位與傳承</span>
             </button>
             <button
               v-if="currentGlimpse.workDescObj?.keyAllusions && currentGlimpse.workDescObj.keyAllusions.length > 0"
@@ -301,7 +304,8 @@ onUnmounted(() => {
               :class="{ active: activeIntroTab === 'allusions' }"
               @click="activeIntroTab = 'allusions'"
             >
-              💡 經典典故成語
+              <ClassicalIcon name="lantern" :size="15" />
+              <span>經典典故成語</span>
             </button>
           </div>
 
@@ -328,7 +332,8 @@ onUnmounted(() => {
                   :key="aIdx"
                   class="allusion-chip"
                 >
-                  ✨ {{ allusion }}
+                  <ClassicalIcon name="sparkle" :size="12" />
+                  <span>{{ allusion }}</span>
                 </span>
               </div>
             </div>
@@ -338,13 +343,16 @@ onUnmounted(() => {
         <!-- Card Bottom Action Bar -->
         <div class="card-actions-bar">
           <button class="action-btn primary" @click="goToChapter(currentGlimpse.chapter.id)">
-            📖 深入研讀本篇全章
+            <ClassicalIcon name="book-open" :size="15" />
+            <span>深入研讀本篇全章</span>
           </button>
           <button class="action-btn secondary" @click="copyGlimpseQuote">
-            📋 複製經典金句
+            <ClassicalIcon name="copy" :size="15" />
+            <span>複製經典金句</span>
           </button>
           <button class="action-btn reroll-secondary" @click="sampleGlimpses">
-            🎲 換一批
+            <ClassicalIcon name="dice" :size="15" />
+            <span>換一批</span>
           </button>
           <span v-if="copySuccess" class="copy-toast">✓ 已成功複製經文至剪貼簿！</span>
         </div>
@@ -375,12 +383,12 @@ onUnmounted(() => {
                     type="button"
                     class="glimpse-audio-btn"
                     :class="{ 'is-playing': isGlimpseSpeaking(p.id) }"
-                    :title="isGlimpseSpeaking(p.id) ? '暫停朗讀' : (speechService.hasAudioFile(p.id) ? '朗讀本段（🎙️ 名家原音）' : '朗讀本段（🔊 智能正音）')"
+                    :title="isGlimpseSpeaking(p.id) ? '暫停朗讀' : (speechService.hasAudioFile(p.id) ? '朗讀本段（名家原音）' : '朗讀本段（智能正音）')"
                     @click="playGlimpsePassage(p, 'canonical')"
                   >
-                    <span v-if="isGlimpseSpeaking(p.id)">⏸ 暫停</span>
-                    <span v-else-if="speechService.hasAudioFile(p.id)">🎙️ 原音</span>
-                    <span v-else>🔊 誦讀</span>
+                    <span v-if="isGlimpseSpeaking(p.id)"><ClassicalIcon name="pause" :size="13" /> 暫停</span>
+                    <span v-else-if="speechService.hasAudioFile(p.id)"><ClassicalIcon name="audio" :size="13" /> 原音</span>
+                    <span v-else><ClassicalIcon name="audio" :size="13" /> 誦讀</span>
                   </button>
                   <button
                     v-if="currentGlimpse.passageAids.get(p.id)?.translation"
@@ -389,7 +397,7 @@ onUnmounted(() => {
                     title="朗讀白話譯文"
                     @click="playGlimpsePassage(p, 'vernacular')"
                   >
-                    🎧 白話
+                    <ClassicalIcon name="headphones" :size="13" /> 白話
                   </button>
                 </div>
               </div>
@@ -428,12 +436,12 @@ onUnmounted(() => {
                   type="button"
                   class="glimpse-audio-btn"
                   :class="{ 'is-playing': isGlimpseSpeaking(p.id) }"
-                  :title="isGlimpseSpeaking(p.id) ? '暫停朗讀' : (speechService.hasAudioFile(p.id) ? '朗讀本段（🎙️ 名家原音）' : '朗讀本段（🔊 智能正音）')"
+                  :title="isGlimpseSpeaking(p.id) ? '暫停朗讀' : (speechService.hasAudioFile(p.id) ? '朗讀本段（名家原音）' : '朗讀本段（智能正音）')"
                   @click="playGlimpsePassage(p, 'canonical')"
                 >
-                  <span v-if="isGlimpseSpeaking(p.id)">⏸ 暫停</span>
-                  <span v-else-if="speechService.hasAudioFile(p.id)">🎙️ 原音朗讀</span>
-                  <span v-else>🔊 原文誦讀</span>
+                  <span v-if="isGlimpseSpeaking(p.id)"><ClassicalIcon name="pause" :size="13" /> 暫停</span>
+                  <span v-else-if="speechService.hasAudioFile(p.id)"><ClassicalIcon name="audio" :size="13" /> 原音朗讀</span>
+                  <span v-else><ClassicalIcon name="audio" :size="13" /> 原文誦讀</span>
                 </button>
                 <button
                   v-if="currentGlimpse.passageAids.get(p.id)?.translation"
@@ -442,7 +450,7 @@ onUnmounted(() => {
                   title="朗讀白話釋義"
                   @click="playGlimpsePassage(p, 'vernacular')"
                 >
-                  🎧 白話朗讀
+                  <ClassicalIcon name="headphones" :size="13" /> 白話朗讀
                 </button>
               </div>
             </div>
