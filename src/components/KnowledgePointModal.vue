@@ -4,7 +4,7 @@ import { useRouter } from 'vue-router'
 import type { KnowledgePoint } from '@/data/knowledgeGraph'
 import { getRelatedPoints, KNOWLEDGE_CATEGORIES } from '@/data/knowledgeGraph'
 import { useKnowledgeCollectionStore } from '@/stores/knowledgeCollection'
-import { speechService } from '@/services/speech'
+import { speechService, type SpeechMode } from '@/services/speech'
 import ClassicalIcon from '@/components/ClassicalIcon.vue'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import RedSeal from '@/components/RedSeal.vue'
@@ -43,9 +43,6 @@ const isModalVisible = computed(() => {
 })
 
 function closeModal() {
-  if (isQuoteSpeaking.value) {
-    speechService.stop()
-  }
   emit('close')
   emit('update:modelValue', false)
 }
@@ -72,8 +69,18 @@ const isMastered = computed(() => {
 
 const isQuoteSpeaking = computed(() => {
   if (!props.point) return false
+  const curId = speechService.state.currentPassageId
   return (
-    speechService.state.currentPassageId === props.point.quoteSource.chapterId &&
+    (curId === props.point.quoteSource.chapterId || curId === props.point.id + '-guide') &&
+    speechService.state.isPlaying &&
+    !speechService.state.isPaused
+  )
+})
+
+const isGuideSpeaking = computed(() => {
+  if (!props.point) return false
+  return (
+    speechService.state.currentPassageId === props.point.id + '-guide' &&
     speechService.state.isPlaying &&
     !speechService.state.isPaused
   )
@@ -109,21 +116,42 @@ function handleNoteInput() {
   }, 400)
 }
 
-function playQuoteSpeech() {
+function playQuoteSpeech(mode: SpeechMode = 'canonical') {
   if (!props.point) return
-  if (isQuoteSpeaking.value) {
-    speechService.stop()
+  if (isQuoteSpeaking.value && !isGuideSpeaking.value && speechService.state.currentMode === mode) {
+    speechService.pause()
     return
   }
+  const text = mode === 'canonical' ? props.point.famousQuote : props.point.summary
   speechService.speakPassage(
     props.point.quoteSource.chapterId,
-    props.point.famousQuote,
-    'canonical',
+    text,
+    mode,
     {
       workTitle: props.point.quoteSource.workTitle,
-      chapterTitle: props.point.quoteSource.chapterTitle,
+      chapterTitle: props.point.title + ' · ' + props.point.quoteSource.chapterTitle,
       canonicalText: props.point.famousQuote,
       vernacularText: props.point.summary,
+    }
+  )
+}
+
+function playFullGuide() {
+  if (!props.point) return
+  if (isGuideSpeaking.value) {
+    speechService.pause()
+    return
+  }
+  const guideText = `經典名言：${props.point.famousQuote}。此典出自《${props.point.quoteSource.workTitle}》${props.point.quoteSource.chapterTitle}。核心義理：${props.point.summary}。現代啟發與實踐：${props.point.modernApplication}`
+  speechService.speakPassage(
+    props.point.id + '-guide',
+    guideText,
+    'vernacular',
+    {
+      workTitle: props.point.title,
+      chapterTitle: '全篇有聲導聆',
+      canonicalText: props.point.famousQuote,
+      vernacularText: guideText,
     }
   )
 }
@@ -224,12 +252,30 @@ onUnmounted(() => {
               <div class="quote-header-tools">
                 <button
                   class="quote-tool-mini-btn"
-                  :class="{ 'is-active': isQuoteSpeaking }"
-                  :title="isQuoteSpeaking ? '暫停朗讀' : '聆聽古韻正音朗讀'"
-                  @click="playQuoteSpeech"
+                  :class="{ 'is-active': isQuoteSpeaking && !isGuideSpeaking && speechService.state.currentMode === 'canonical' }"
+                  :title="isQuoteSpeaking && !isGuideSpeaking && speechService.state.currentMode === 'canonical' ? '暫停朗讀' : '聆聽古韻正音朗讀'"
+                  @click="playQuoteSpeech('canonical')"
                 >
-                  <ClassicalIcon :name="isQuoteSpeaking ? 'audio-playing' : 'volume'" :size="14" :color="isQuoteSpeaking ? 'var(--c-gold)' : undefined" />
-                  <span>{{ isQuoteSpeaking ? '正音朗讀中' : '聽古韻朗讀' }}</span>
+                  <ClassicalIcon :name="isQuoteSpeaking && !isGuideSpeaking && speechService.state.currentMode === 'canonical' ? 'pause' : 'volume'" :size="14" />
+                  <span>原文誦讀</span>
+                </button>
+                <button
+                  class="quote-tool-mini-btn"
+                  :class="{ 'is-active': isQuoteSpeaking && !isGuideSpeaking && speechService.state.currentMode === 'vernacular' }"
+                  title="聆聽白話核心精解"
+                  @click="playQuoteSpeech('vernacular')"
+                >
+                  <ClassicalIcon :name="isQuoteSpeaking && !isGuideSpeaking && speechService.state.currentMode === 'vernacular' ? 'pause' : 'headphones'" :size="14" />
+                  <span>白話精析</span>
+                </button>
+                <button
+                  class="quote-tool-mini-btn guide-audio-btn"
+                  :class="{ 'is-active': isGuideSpeaking }"
+                  title="聆聽全篇名句、釋義與現代啟發導聆"
+                  @click="playFullGuide"
+                >
+                  <ClassicalIcon :name="isGuideSpeaking ? 'pause' : 'audio-playing'" :size="14" />
+                  <span>🎧 全篇導聆</span>
                 </button>
                 <button
                   class="quote-tool-mini-btn"
@@ -557,6 +603,22 @@ onUnmounted(() => {
 .quote-tool-mini-btn.is-active {
   background: rgba(201, 169, 110, 0.15);
   color: var(--c-gold);
+  border-color: var(--c-gold);
+}
+
+.quote-tool-mini-btn.guide-audio-btn {
+  background: rgba(201, 169, 110, 0.12);
+  color: var(--c-gold-light);
+  border-color: var(--c-gold-glow);
+}
+
+.quote-tool-mini-btn.guide-audio-btn:hover {
+  background: rgba(201, 169, 110, 0.22);
+}
+
+.quote-tool-mini-btn.guide-audio-btn.is-active {
+  background: linear-gradient(135deg, var(--c-gold-deep), var(--c-gold));
+  color: #fff;
   border-color: var(--c-gold);
 }
 

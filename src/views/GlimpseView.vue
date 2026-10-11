@@ -10,7 +10,6 @@ import { schools } from '@/data/schools'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import RedSeal from '@/components/RedSeal.vue'
 import ClassicalIcon from '@/components/ClassicalIcon.vue'
-import AudioPlayerBar from '@/components/AudioPlayerBar.vue'
 import { speechService, type SpeechMode } from '@/services/speech'
 
 const router = useRouter()
@@ -34,10 +33,6 @@ function playGlimpsePassage(passage: Passage, mode: SpeechMode = 'canonical') {
 function isGlimpseSpeaking(passageId: string) {
   return speechState.currentPassageId === passageId && speechState.isPlaying && !speechState.isPaused
 }
-
-onUnmounted(() => {
-  speechService.stop()
-})
 
 export interface GlimpseItem {
   work: Work
@@ -478,7 +473,6 @@ onUnmounted(() => {
         </div>
       </section>
     </main>
-    <AudioPlayerBar />
   </div>
 </template>
 

@@ -276,6 +276,12 @@ function triggerSearch() {
 function goToCompare() {
   router.push('/compare')
 }
+
+function quickListenWork(work: Work) {
+  if (work.chapterIds.length > 0) {
+    router.push({ path: `/chapter/${work.chapterIds[0]}`, query: { autoplay: '1' } })
+  }
+}
 </script>
 
 <template>
@@ -485,6 +491,14 @@ function goToCompare() {
                   <span>進入篇章研讀</span>
                   <ClassicalIcon name="arrow-right" :size="14" />
                 </button>
+                <button
+                  class="rec-btn-listen"
+                  title="即刻聆聽本篇雅正誦讀"
+                  @click="router.push({ path: `/chapter/${rec.highlightChapterId}`, query: { autoplay: '1' } })"
+                >
+                  <ClassicalIcon name="audio-playing" :size="13" />
+                  <span>即刻聽誦</span>
+                </button>
                 <button class="rec-btn-secondary" @click="viewWorkFromTopic(rec.workId)">
                   <span>查看全書篇目</span>
                 </button>
@@ -560,6 +574,15 @@ function goToCompare() {
                   <span class="stat-text">{{ countChapters(work) }} 篇</span>
                   <span class="stat-sep">·</span>
                   <span class="stat-text">{{ work.totalChars }} 字</span>
+                  <button
+                    type="button"
+                    class="quick-listen-chip-btn"
+                    title="即刻聆聽此典籍首篇"
+                    @click.stop="quickListenWork(work)"
+                  >
+                    <ClassicalIcon name="audio-playing" :size="12" />
+                    <span>即刻聽讀</span>
+                  </button>
                 </div>
                 <span class="expand-icon" :class="{ 'is-rotated': expandedWorkId === work.id }">
                   <ClassicalIcon name="chevron-down" :size="18" />
@@ -1270,6 +1293,49 @@ function goToCompare() {
 .rec-btn-secondary:hover {
   color: var(--c-text-primary);
   border-color: var(--c-border-accent);
+}
+
+.rec-btn-listen {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 9px 12px;
+  background: rgba(201, 169, 110, 0.15);
+  color: var(--c-gold-light);
+  border: 1px solid var(--c-gold-glow);
+  border-radius: var(--radius-md);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--duration-fast);
+}
+
+.rec-btn-listen:hover {
+  background: rgba(201, 169, 110, 0.28);
+  color: #fff;
+  border-color: var(--c-gold);
+}
+
+.quick-listen-chip-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  margin-left: var(--sp-2);
+  padding: 2px 8px;
+  background: rgba(201, 169, 110, 0.15);
+  border: 1px solid var(--c-gold-glow);
+  color: var(--c-gold-light);
+  border-radius: var(--radius-full);
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.quick-listen-chip-btn:hover {
+  background: var(--c-gold-deep);
+  color: #fff;
+  border-color: var(--c-gold);
 }
 
 /* ═══════════════ SCHOOLS & CANON STYLES ═══════════════ */

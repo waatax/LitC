@@ -10,7 +10,6 @@ import SchoolBadge from '@/components/SchoolBadge.vue'
 import RedSeal from '@/components/RedSeal.vue'
 import ClassicalIcon from '@/components/ClassicalIcon.vue'
 import ClassicalTextLookup from '@/components/ClassicalTextLookup.vue'
-import AudioPlayerBar from '@/components/AudioPlayerBar.vue'
 import AnnotationLayer from '@/components/AnnotationLayer.vue'
 import KnowledgePointModal from '@/components/KnowledgePointModal.vue'
 import { speechService, type SpeechMode, type SpeechPlaylistItem } from '@/services/speech'
@@ -157,10 +156,20 @@ onMounted(async () => {
   requestAnimationFrame(() => {
     mounted.value = true
   })
+  if (route.query.autoplay === '1') {
+    setTimeout(() => {
+      startChapterRecitation('canonical')
+    }, 400)
+  }
 })
 
 watch(() => [route.params.id, route.query.highlight, route.hash], async () => {
   await loadChapter()
+  if (route.query.autoplay === '1') {
+    setTimeout(() => {
+      startChapterRecitation('canonical')
+    }, 400)
+  }
 })
 
 const genreMeta = computed(() => {
@@ -230,25 +239,18 @@ function startChapterRecitation(mode: SpeechMode = 'canonical') {
   speechService.startChapterPlayback(playlist, mode, 0)
 }
 
-onBeforeUnmount(() => {
-  speechService.stop()
-})
-
 function goBack() {
-  speechService.stop()
   router.push('/library')
 }
 
 function goToLearn() {
   if (chapter.value) {
-    speechService.stop()
     router.push(`/learn/${chapter.value.id}`)
   }
 }
 
 function goToMemorize() {
   if (chapter.value) {
-    speechService.stop()
     router.push(`/memorize/${chapter.value.id}`)
   }
 }
@@ -414,12 +416,22 @@ const schoolAmbientStyle = computed(() => {
         <div class="reading-actions-bar">
           <button
             class="recitation-chapter-btn"
-            :class="{ 'is-playing': speechState.isPlaying && speechState.playlist.length > 0 }"
-            :title="speechState.isPlaying && speechState.playlist.length > 0 ? '停止全章朗讀' : '由第一段起逐段連續朗讀本章'"
+            :class="{ 'is-playing': speechState.isPlaying && speechState.playlist.length > 0 && speechState.currentMode === 'canonical' }"
+            :title="speechState.isPlaying && speechState.playlist.length > 0 && speechState.currentMode === 'canonical' ? '停止全章朗讀' : '由第一段起逐段連續朗讀本章原文'"
             @click="startChapterRecitation('canonical')"
           >
-            <span v-if="speechState.isPlaying && speechState.playlist.length > 0">⏹ 停止朗讀</span>
-            <span v-else>▶️ 逐段連續朗讀</span>
+            <span v-if="speechState.isPlaying && speechState.playlist.length > 0 && speechState.currentMode === 'canonical'">⏹ 停止原文</span>
+            <span v-else>▶️ 原文連讀</span>
+          </button>
+
+          <button
+            class="recitation-chapter-btn bilingual-btn"
+            :class="{ 'is-playing': speechState.isPlaying && speechState.playlist.length > 0 && speechState.currentMode === 'bilingual' }"
+            :title="speechState.isPlaying && speechState.playlist.length > 0 && speechState.currentMode === 'bilingual' ? '停止文白導讀' : '先誦經文原文，隨後以白話釋義精解逐段導讀'"
+            @click="startChapterRecitation('bilingual')"
+          >
+            <span v-if="speechState.isPlaying && speechState.playlist.length > 0 && speechState.currentMode === 'bilingual'">⏹ 停止導讀</span>
+            <span v-else>🎧 文白導讀</span>
           </button>
 
           <button
@@ -675,8 +687,6 @@ const schoolAmbientStyle = computed(() => {
       @select-point="(pt) => selectedKnowledgePoint = pt"
     />
 
-    <!-- Audio Player Floating Bar -->
-    <AudioPlayerBar />
   </div>
 </template>
 
@@ -1493,8 +1503,28 @@ const schoolAmbientStyle = computed(() => {
 .is-speaking-passage {
   border-color: var(--c-gold) !important;
   background: rgba(201, 169, 110, 0.08) !important;
-  box-shadow: 0 0 20px rgba(201, 169, 110, 0.25);
+  box-shadow: 0 0 24px rgba(201, 169, 110, 0.28), inset 0 0 12px rgba(201, 169, 110, 0.06);
+  border-left: 3px solid var(--c-gold) !important;
   transition: all var(--duration-normal) var(--ease-out);
+}
+
+.recitation-chapter-btn.bilingual-btn {
+  background: linear-gradient(135deg, rgba(82, 196, 26, 0.15), rgba(46, 125, 50, 0.25));
+  border-color: rgba(82, 196, 26, 0.4);
+  color: #95de64;
+}
+
+.recitation-chapter-btn.bilingual-btn:hover {
+  background: linear-gradient(135deg, rgba(82, 196, 26, 0.25), rgba(46, 125, 50, 0.4));
+  color: #b7eb8f;
+  border-color: #52c41a;
+}
+
+.recitation-chapter-btn.bilingual-btn.is-playing {
+  background: #52c41a;
+  color: #12141a;
+  font-weight: 600;
+  box-shadow: 0 0 16px rgba(82, 196, 26, 0.5);
 }
 
 /* ── Assisted Mode Audio Headers ── */

@@ -8,7 +8,6 @@ import SchoolBadge from '@/components/SchoolBadge.vue'
 import RedSeal from '@/components/RedSeal.vue'
 import ClassicalIcon, { type IconName } from '@/components/ClassicalIcon.vue'
 import ClassicalTextLookup from '@/components/ClassicalTextLookup.vue'
-import AudioPlayerBar from '@/components/AudioPlayerBar.vue'
 import { speechService } from '@/services/speech'
 
 import { storeToRefs } from 'pinia'
@@ -53,10 +52,6 @@ function isAudioActive(id: string) {
 function isAudioSpeaking(id: string) {
   return speechState.currentPassageId === id && speechState.isPlaying && !speechState.isPaused
 }
-
-onBeforeUnmount(() => {
-  speechService.stop()
-})
 
 interface Step {
   key: string
@@ -491,9 +486,6 @@ const schoolAmbientStyle = computed(() => {
       <h2>找不到此章節</h2>
       <button class="btn btn-ghost" @click="router.push('/library')">返回典籍庫</button>
     </div>
-
-    <!-- Audio Player Bar -->
-    <AudioPlayerBar />
   </div>
 </template>
 

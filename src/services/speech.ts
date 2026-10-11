@@ -1,9 +1,11 @@
 import { ref, reactive } from 'vue'
 import { getAudioFileUrl, getAudioFileMeta } from '@/data/audioManifest'
 
-export type SpeechMode = 'canonical' | 'vernacular'
+export type SpeechMode = 'canonical' | 'vernacular' | 'bilingual'
 export type SpeechRate = 0.5 | 0.75 | 0.8 | 1.0 | 1.25 | 1.5 | 1.75 | 2.0 | number
 export type AudioSourceType = 'file' | 'tts'
+export type PlaybackMode = 'sequential' | 'loop-single' | 'loop-all'
+export type SleepTimerOption = 0 | 15 | 30 | 45 | 'end-of-chapter'
 
 export interface SpeedPreset {
   rate: number
@@ -40,6 +42,12 @@ export interface SpeechState {
   playlist: SpeechPlaylistItem[]
   playlistIndex: number
   isAutoScroll: boolean
+  playbackMode: PlaybackMode
+  sleepTimer: SleepTimerOption
+  sleepTimerRemainingSeconds: number
+  bilingualPhase: 'canonical' | 'vernacular' | null
+  isCollapsed: boolean
+  isPlaylistDrawerOpen: boolean
   // 高品質實體音檔擴充狀態
   audioSourceType: AudioSourceType
   audioFileAvailable: boolean
@@ -69,13 +77,27 @@ const CLASSICAL_TTS_CORRECTIONS: [RegExp, string][] = [
   [/為政以德/g, '圍政以德'],
   [/十有五/g, '十又五'],
   [/誨女知之乎/g, '誨汝知之乎'],
+  [/女為君子儒/g, '汝為君子儒'],
   [/逝者如斯夫/g, '逝者如斯符'],
   [/其正色邪/g, '其正色耶'],
   [/三飡而反/g, '三飡而返'],
   [/知者樂水/g, '智者要水'],
   [/仁者樂山/g, '仁者要山'],
+  [/知者不惑/g, '智者不惑'],
   [/反聽之謂聰/g, '返聽之謂聰'],
   [/便佞/g, '駢佞'],
+  [/人不知而不慍/g, '人不知而不運'],
+  [/孝弟也者/g, '孝悌也者'],
+  [/出則弟/g, '出則悌'],
+  [/苟志於仁矣，無惡也/g, '苟志於仁矣，無務也'],
+  [/暴虎馮河/g, '暴虎憑河'],
+  [/過則勿憚改/g, '過則勿旦改'],
+  [/無友不如己者/g, '毋友不如己者'],
+  [/數仞之牆/g, '樹仞之牆'],
+  [/數罟不入洿池/g, '促罟不入洿池'],
+  [/其徐如林/g, '其徐如林'],
+  [/天下為公/g, '天下圍公'],
+  [/得道者多助/g, '得道者多助'],
 ]
 
 const initialSavedRate = typeof localStorage !== 'undefined'
@@ -94,6 +116,12 @@ class SpeechService {
     playlist: [],
     playlistIndex: -1,
     isAutoScroll: true,
+    playbackMode: 'sequential',
+    sleepTimer: 0,
+    sleepTimerRemainingSeconds: 0,
+    bilingualPhase: null,
+    isCollapsed: false,
+    isPlaylistDrawerOpen: false,
     audioSourceType: 'tts',
     audioFileAvailable: false,
     currentTime: 0,
@@ -112,6 +140,7 @@ class SpeechService {
   private prefetchedIndex = -1
   private keepAliveTimer: any = null
   private transitionTimer: any = null
+  private sleepIntervalTimer: any = null
   private unlockAudioBound = false
 
   constructor() {
@@ -123,13 +152,13 @@ class SpeechService {
         this.initUnlockListener()
       }
       this.initAudioElement()
+      this.initMediaSession()
     }
   }
 
   private initAudioElement() {
     if (typeof window === 'undefined') return
     this.audioElement = new Audio()
-    // 智慧加載：預設僅獲取中繼資訊以降低初始頻寬與記憶體佔用
     this.audioElement.preload = 'metadata'
 
     this.audioElement.addEventListener('timeupdate', () => {
@@ -137,11 +166,11 @@ class SpeechService {
       this.state.currentTime = this.audioElement.currentTime
       if (this.audioElement.duration && !isNaN(this.audioElement.duration)) {
         this.state.duration = this.audioElement.duration
-        // 當播放超過 80% 時，靜默預載下一段，確保連播零延遲
         if (this.state.currentTime / this.audioElement.duration > 0.8) {
           this.preloadNextPlaylistItem()
         }
       }
+      this.updateMediaSessionPosition()
     })
 
     this.audioElement.addEventListener('progress', () => {
@@ -150,21 +179,29 @@ class SpeechService {
         const bufferedEnd = this.audioElement.buffered.end(this.audioElement.buffered.length - 1)
         this.state.bufferedPercent = Math.min(100, Math.round((bufferedEnd / this.audioElement.duration) * 100))
       } catch {
-        // ignore buffer calculation errors
+        // ignore buffer errors
       }
     })
 
     this.audioElement.addEventListener('ended', () => {
-      this.onPassageFinished()
+      // 雙語模式下，如果剛播完原文，接著播白話
+      if (this.state.currentMode === 'bilingual' && this.state.bilingualPhase === 'canonical') {
+        this.playBilingualVernacularPhase()
+      } else {
+        this.onPassageFinished()
+      }
     })
 
     this.audioElement.addEventListener('error', (e) => {
       console.warn('Audio element error, falling back to TTS:', e)
-      // 若音檔載入發生異常（例如離線且無快取），自動平滑降級至 TTS
       if (this.state.isPlaying) {
         this.state.audioSourceType = 'tts'
         this.speakUtterance(this.state.currentText, () => {
-          this.onPassageFinished()
+          if (this.state.currentMode === 'bilingual' && this.state.bilingualPhase === 'canonical') {
+            this.playBilingualVernacularPhase()
+          } else {
+            this.onPassageFinished()
+          }
         })
       }
     })
@@ -175,21 +212,21 @@ class SpeechService {
 
     const updateVoices = () => {
       const allVoices = this.synth!.getVoices()
-      const chineseVoices = allVoices.filter(v => 
-        v.lang.toLowerCase().includes('zh') || 
+      const chineseVoices = allVoices.filter(v =>
+        v.lang.toLowerCase().includes('zh') ||
         v.lang.toLowerCase().includes('cmn') ||
         v.lang.toLowerCase().includes('yue')
       )
-      
+
       this.voices.value = chineseVoices.length > 0 ? chineseVoices : allVoices
 
       if (!this.state.selectedVoiceURI && this.voices.value.length > 0) {
-        const preferred = 
+        const preferred =
           this.voices.value.find(v => v.lang.toLowerCase().includes('zh-tw')) ||
           this.voices.value.find(v => v.lang.toLowerCase().includes('zh-hk')) ||
           this.voices.value.find(v => v.lang.toLowerCase().includes('zh-cn')) ||
           this.voices.value[0]
-        
+
         if (preferred) {
           this.state.selectedVoiceURI = preferred.voiceURI
         }
@@ -221,6 +258,83 @@ class SpeechService {
     window.addEventListener('touchstart', unlockHandler, { once: true, passive: true })
   }
 
+  private initMediaSession() {
+    if (typeof navigator === 'undefined' || !('mediaSession' in navigator)) return
+    try {
+      navigator.mediaSession.setActionHandler('play', () => this.resume())
+      navigator.mediaSession.setActionHandler('pause', () => this.pause())
+      navigator.mediaSession.setActionHandler('previoustrack', () => this.prevPassage())
+      navigator.mediaSession.setActionHandler('nexttrack', () => this.nextPassage())
+      navigator.mediaSession.setActionHandler('seekto', (details) => {
+        if (details.seekTime !== undefined) {
+          this.seek(details.seekTime)
+        }
+      })
+      navigator.mediaSession.setActionHandler('seekbackward', (details) => {
+        const delta = details.seekOffset || 5
+        this.seek(Math.max(0, this.state.currentTime - delta))
+      })
+      navigator.mediaSession.setActionHandler('seekforward', (details) => {
+        const delta = details.seekOffset || 5
+        this.seek(Math.min(this.state.duration, this.state.currentTime + delta))
+      })
+      navigator.mediaSession.setActionHandler('stop', () => this.stop())
+    } catch (e) {
+      console.warn('Failed to register MediaSession handlers', e)
+    }
+  }
+
+  private updateMediaSession() {
+    if (typeof navigator === 'undefined' || !('mediaSession' in navigator) || typeof MediaMetadata === 'undefined') return
+    try {
+      const item = this.getCurrentPlaylistItem()
+      const titlePrefix = item?.chapterTitle ? `${item.chapterTitle} · ` : ''
+      const modeTag = this.state.currentMode === 'canonical' ? '【原文】' : (this.state.currentMode === 'vernacular' ? '【白話】' : '【文白對照】')
+      const snippet = this.state.currentText.slice(0, 36) || '經典研習'
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: `${modeTag} ${titlePrefix}${snippet}`,
+        artist: item?.workTitle || '經典文脈 ClassicFlow',
+        album: '先秦諸子古典有聲經庫',
+        artwork: [
+          { src: `${import.meta.env.BASE_URL || '/'}favicon.svg`, sizes: '192x192', type: 'image/svg+xml' },
+        ],
+      })
+      this.updateMediaSessionPlaybackState()
+    } catch {
+      // ignore
+    }
+  }
+
+  private updateMediaSessionPlaybackState() {
+    if (typeof navigator === 'undefined' || !('mediaSession' in navigator)) return
+    try {
+      if (this.state.isPlaying && !this.state.isPaused) {
+        navigator.mediaSession.playbackState = 'playing'
+      } else if (this.state.isPaused) {
+        navigator.mediaSession.playbackState = 'paused'
+      } else {
+        navigator.mediaSession.playbackState = 'none'
+      }
+    } catch {
+      // ignore
+    }
+  }
+
+  private updateMediaSessionPosition() {
+    if (typeof navigator === 'undefined' || !('mediaSession' in navigator) || !navigator.mediaSession.setPositionState) return
+    if (this.state.duration > 0 && !isNaN(this.state.duration)) {
+      try {
+        navigator.mediaSession.setPositionState({
+          duration: this.state.duration,
+          playbackRate: this.state.currentRate,
+          position: Math.min(this.state.currentTime, this.state.duration),
+        })
+      } catch {
+        // ignore
+      }
+    }
+  }
+
   /**
    * 古文正音與朗讀字詞優化：去除註腳標號，並針對古音通假破讀進行語音校正
    */
@@ -240,11 +354,15 @@ class SpeechService {
     return cleaned
   }
 
-  /**
-   * 檢查某段落是否具有高品質實體音檔
-   */
   public hasAudioFile(passageId: string): boolean {
     return !!getAudioFileMeta(passageId)
+  }
+
+  public getCurrentPlaylistItem(): SpeechPlaylistItem | null {
+    if (this.state.playlistIndex >= 0 && this.state.playlistIndex < this.state.playlist.length) {
+      return this.state.playlist[this.state.playlistIndex]
+    }
+    return null
   }
 
   /**
@@ -256,7 +374,6 @@ class SpeechService {
     mode: SpeechMode = 'canonical',
     extra?: { chapterTitle?: string; workTitle?: string; vernacularText?: string; canonicalText?: string }
   ) {
-    // 若當前正播放完全相同段落與模式，切換暫停/繼續
     if (this.state.isPlaying && this.state.currentPassageId === passageId && this.state.currentMode === mode) {
       this.pause()
       return
@@ -267,7 +384,6 @@ class SpeechService {
       return
     }
 
-    // 停止先前的播放
     this.stop()
 
     const sanitized = this.sanitizeText(text)
@@ -280,28 +396,31 @@ class SpeechService {
     this.state.isPaused = false
     this.state.currentTime = 0
     this.state.duration = 0
+    this.state.bilingualPhase = mode === 'bilingual' ? 'canonical' : null
 
-    // 更新播放清單索引
+    // 更新或建置播放清單項目
     const playlistIdx = this.state.playlist.findIndex(item => item.passageId === passageId)
     if (playlistIdx !== -1) {
       this.state.playlistIndex = playlistIdx
-    } else if (extra) {
+    } else {
       this.state.playlist = [{
         passageId,
         chapterId: '',
-        canonicalText: extra.canonicalText || text,
-        vernacularText: extra.vernacularText || (mode === 'vernacular' ? text : undefined),
-        chapterTitle: extra.chapterTitle,
-        workTitle: extra.workTitle,
+        canonicalText: extra?.canonicalText || text,
+        vernacularText: extra?.vernacularText || (mode === 'vernacular' ? text : undefined),
+        chapterTitle: extra?.chapterTitle,
+        workTitle: extra?.workTitle,
       }]
       this.state.playlistIndex = 0
     }
 
-    // 判斷是否使用實體音檔（原文模式下優先啟用高品質音檔）
-    const audioUrl = mode === 'canonical' ? getAudioFileUrl(passageId) : undefined
-    const audioMeta = mode === 'canonical' ? getAudioFileMeta(passageId) : undefined
+    // 播放邏輯
+    const currentItem = this.getCurrentPlaylistItem()
+    const playCanonical = mode === 'canonical' || mode === 'bilingual'
+    const audioUrl = playCanonical ? getAudioFileUrl(passageId) : undefined
+    const audioMeta = playCanonical ? getAudioFileMeta(passageId) : undefined
 
-    if (this.state.preferAudioFiles && audioUrl && this.audioElement) {
+    if (this.state.preferAudioFiles && audioUrl && this.audioElement && playCanonical) {
       this.state.audioSourceType = 'file'
       this.state.audioFileAvailable = true
       if (audioMeta) {
@@ -312,13 +431,50 @@ class SpeechService {
       this.state.audioSourceType = 'tts'
       this.state.audioFileAvailable = !!audioUrl
       this.speakUtterance(sanitized, () => {
-        this.onPassageFinished()
+        if (mode === 'bilingual' && this.state.bilingualPhase === 'canonical') {
+          this.playBilingualVernacularPhase()
+        } else {
+          this.onPassageFinished()
+        }
       })
     }
+
+    this.updateMediaSession()
 
     if (this.state.isAutoScroll) {
       this.scrollToPassage(passageId)
     }
+  }
+
+  /**
+   * 文白對照雙語導讀階段 2：朗讀白話釋義
+   */
+  private playBilingualVernacularPhase() {
+    const item = this.getCurrentPlaylistItem()
+    if (!item || !item.vernacularText) {
+      this.state.bilingualPhase = null
+      this.onPassageFinished()
+      return
+    }
+
+    this.state.bilingualPhase = 'vernacular'
+    const sanitizedVernacular = this.sanitizeText(item.vernacularText)
+    this.state.currentText = `【白話釋義】${sanitizedVernacular}`
+    this.state.audioSourceType = 'tts'
+    this.state.currentTime = 0
+    this.state.duration = 0
+
+    this.updateMediaSession()
+
+    // 留白 600ms，讓使用者沉澱原文韻味後再聽白話
+    this.transitionTimer = setTimeout(() => {
+      if (this.state.isPlaying && !this.state.isPaused) {
+        this.speakUtterance(`白話釋義：${sanitizedVernacular}`, () => {
+          this.state.bilingualPhase = null
+          this.onPassageFinished()
+        })
+      }
+    }, 600)
   }
 
   private playViaAudioElement(url: string) {
@@ -331,13 +487,17 @@ class SpeechService {
       console.warn('Audio play failed, fallback to TTS:', err)
       this.state.audioSourceType = 'tts'
       this.speakUtterance(this.state.currentText, () => {
-        this.onPassageFinished()
+        if (this.state.currentMode === 'bilingual' && this.state.bilingualPhase === 'canonical') {
+          this.playBilingualVernacularPhase()
+        } else {
+          this.onPassageFinished()
+        }
       })
     })
   }
 
   /**
-   * 開啟全章逐段連播（一段接一段，控制在每段節律內）
+   * 開啟全章逐段連播
    */
   public startChapterPlayback(
     playlist: SpeechPlaylistItem[],
@@ -354,6 +514,17 @@ class SpeechService {
     this.playCurrentPlaylistItem()
   }
 
+  /**
+   * 啟動知識網絡主題廣播（連續欣賞各知識點之名言與智慧）
+   */
+  public startKnowledgeRadio(
+    items: SpeechPlaylistItem[],
+    mode: SpeechMode = 'canonical'
+  ) {
+    if (!items || items.length === 0) return
+    this.startChapterPlayback(items, mode, 0)
+  }
+
   private playCurrentPlaylistItem() {
     if (this.state.playlistIndex < 0 || this.state.playlistIndex >= this.state.playlist.length) {
       this.stop()
@@ -365,7 +536,12 @@ class SpeechService {
       ? (item.vernacularText || item.canonicalText)
       : item.canonicalText
 
-    this.speakPassage(item.passageId, textToRead, this.state.currentMode)
+    this.speakPassage(item.passageId, textToRead, this.state.currentMode, {
+      chapterTitle: item.chapterTitle,
+      workTitle: item.workTitle,
+      canonicalText: item.canonicalText,
+      vernacularText: item.vernacularText,
+    })
   }
 
   private speakUtterance(text: string, onEnd: () => void) {
@@ -394,6 +570,7 @@ class SpeechService {
       this.state.isPlaying = true
       this.state.isPaused = false
       this.startKeepAlive()
+      this.updateMediaSessionPlaybackState()
     }
 
     utterance.onend = () => {
@@ -415,19 +592,45 @@ class SpeechService {
   }
 
   private onPassageFinished() {
-    if (this.state.playlist.length > 0 && this.state.playlistIndex < this.state.playlist.length - 1) {
-      this.state.playlistIndex++
-      // 換段之際預留 700ms 雅緻呼吸停頓
+    // 1. 單段涵泳（單曲循環）
+    if (this.state.playbackMode === 'loop-single') {
       this.transitionTimer = setTimeout(() => {
         if (this.state.isPlaying && !this.state.isPaused) {
           this.playCurrentPlaylistItem()
         }
       }, 700)
+      return
+    }
+
+    // 2. 播完當前篇章定時結束檢查
+    if (this.state.sleepTimer === 'end-of-chapter' && this.state.playlistIndex >= this.state.playlist.length - 1) {
+      this.stop()
+      this.setSleepTimer(0)
+      return
+    }
+
+    // 3. 順序播放至下一段
+    if (this.state.playlist.length > 0 && this.state.playlistIndex < this.state.playlist.length - 1) {
+      this.state.playlistIndex++
+      this.transitionTimer = setTimeout(() => {
+        if (this.state.isPlaying && !this.state.isPaused) {
+          this.playCurrentPlaylistItem()
+        }
+      }, 700)
+    } else if (this.state.playbackMode === 'loop-all' && this.state.playlist.length > 0) {
+      // 4. 全篇循環模式，回到第一段
+      this.state.playlistIndex = 0
+      this.transitionTimer = setTimeout(() => {
+        if (this.state.isPlaying && !this.state.isPaused) {
+          this.playCurrentPlaylistItem()
+        }
+      }, 900)
     } else {
       this.state.isPlaying = false
       this.state.isPaused = false
       this.state.currentPassageId = null
       this.clearKeepAlive()
+      this.updateMediaSessionPlaybackState()
     }
   }
 
@@ -435,12 +638,22 @@ class SpeechService {
     if (this.state.playlistIndex < this.state.playlist.length - 1) {
       this.state.playlistIndex++
       this.playCurrentPlaylistItem()
+    } else if (this.state.playbackMode === 'loop-all' && this.state.playlist.length > 0) {
+      this.state.playlistIndex = 0
+      this.playCurrentPlaylistItem()
     }
   }
 
   public prevPassage() {
     if (this.state.playlistIndex > 0) {
       this.state.playlistIndex--
+      this.playCurrentPlaylistItem()
+    }
+  }
+
+  public jumpToPlaylistItem(index: number) {
+    if (index >= 0 && index < this.state.playlist.length) {
+      this.state.playlistIndex = index
       this.playCurrentPlaylistItem()
     }
   }
@@ -453,6 +666,7 @@ class SpeechService {
     }
     this.state.isPaused = true
     this.clearKeepAlive()
+    this.updateMediaSessionPlaybackState()
   }
 
   public resume() {
@@ -465,6 +679,7 @@ class SpeechService {
       this.state.isPaused = false
       this.state.isPlaying = true
       this.startKeepAlive()
+      this.updateMediaSessionPlaybackState()
     } else if (!this.state.isPlaying && this.state.playlist.length > 0) {
       this.playCurrentPlaylistItem()
     }
@@ -489,7 +704,9 @@ class SpeechService {
     this.state.isPaused = false
     this.state.currentPassageId = null
     this.state.currentTime = 0
+    this.state.bilingualPhase = null
     this.activeUtterance = null
+    this.updateMediaSessionPlaybackState()
   }
 
   public seek(seconds: number) {
@@ -497,6 +714,7 @@ class SpeechService {
       const targetTime = Math.max(0, Math.min(seconds, this.state.duration))
       this.audioElement.currentTime = targetTime
       this.state.currentTime = targetTime
+      this.updateMediaSessionPosition()
     }
   }
 
@@ -507,7 +725,7 @@ class SpeechService {
       try {
         localStorage.setItem('litc-speech-rate', String(clamped))
       } catch {
-        // ignore storage errors
+        // ignore
       }
     }
     if (this.audioElement) {
@@ -520,33 +738,57 @@ class SpeechService {
     }
   }
 
-  /**
-   * 智慧預載：連播進行至尾聲時，平滑預取下一段音訊，以達致零卡頓轉場並大幅降低網路延遲
-   */
-  private preloadNextPlaylistItem() {
-    const nextIdx = this.state.playlistIndex + 1
-    if (nextIdx >= this.state.playlist.length || this.prefetchedIndex === nextIdx) return
-    this.prefetchedIndex = nextIdx
-    const nextItem = this.state.playlist[nextIdx]
-    if (this.state.currentMode === 'canonical') {
-      const url = getAudioFileUrl(nextItem.passageId)
-      if (url && typeof window !== 'undefined') {
-        if (!this.prefetchAudio) {
-          this.prefetchAudio = new Audio()
-          this.prefetchAudio.preload = 'auto'
-        }
-        this.prefetchAudio.src = url
-        this.prefetchAudio.load()
-      }
-    }
-  }
-
   public setMode(mode: SpeechMode) {
     if (this.state.currentMode === mode) return
     this.state.currentMode = mode
     if (this.state.isPlaying) {
       this.playCurrentPlaylistItem()
     }
+  }
+
+  public setPlaybackMode(mode: PlaybackMode) {
+    this.state.playbackMode = mode
+  }
+
+  public cyclePlaybackMode() {
+    if (this.state.playbackMode === 'sequential') {
+      this.state.playbackMode = 'loop-single'
+    } else if (this.state.playbackMode === 'loop-single') {
+      this.state.playbackMode = 'loop-all'
+    } else {
+      this.state.playbackMode = 'sequential'
+    }
+  }
+
+  public setSleepTimer(option: SleepTimerOption) {
+    this.state.sleepTimer = option
+    if (this.sleepIntervalTimer) {
+      clearInterval(this.sleepIntervalTimer)
+      this.sleepIntervalTimer = null
+    }
+
+    if (typeof option === 'number' && option > 0) {
+      this.state.sleepTimerRemainingSeconds = option * 60
+      this.sleepIntervalTimer = setInterval(() => {
+        if (this.state.sleepTimerRemainingSeconds > 0) {
+          this.state.sleepTimerRemainingSeconds--
+          if (this.state.sleepTimerRemainingSeconds <= 0) {
+            this.stop()
+            this.setSleepTimer(0)
+          }
+        }
+      }, 1000)
+    } else {
+      this.state.sleepTimerRemainingSeconds = 0
+    }
+  }
+
+  public toggleCollapse() {
+    this.state.isCollapsed = !this.state.isCollapsed
+  }
+
+  public togglePlaylistDrawer() {
+    this.state.isPlaylistDrawerOpen = !this.state.isPlaylistDrawerOpen
   }
 
   public setVoice(voiceURI: string) {
@@ -565,6 +807,24 @@ class SpeechService {
 
   public toggleAutoScroll() {
     this.state.isAutoScroll = !this.state.isAutoScroll
+  }
+
+  private preloadNextPlaylistItem() {
+    const nextIdx = this.state.playlistIndex + 1
+    if (nextIdx >= this.state.playlist.length || this.prefetchedIndex === nextIdx) return
+    this.prefetchedIndex = nextIdx
+    const nextItem = this.state.playlist[nextIdx]
+    if (this.state.currentMode === 'canonical' || this.state.currentMode === 'bilingual') {
+      const url = getAudioFileUrl(nextItem.passageId)
+      if (url && typeof window !== 'undefined') {
+        if (!this.prefetchAudio) {
+          this.prefetchAudio = new Audio()
+          this.prefetchAudio.preload = 'auto'
+        }
+        this.prefetchAudio.src = url
+        this.prefetchAudio.load()
+      }
+    }
   }
 
   private scrollToPassage(passageId: string) {

@@ -3,6 +3,7 @@ import { defineAsyncComponent, ref, onMounted, onUnmounted } from 'vue'
 import NavSidebar from '@/components/NavSidebar.vue'
 import InkCanvas from '@/components/InkCanvas.vue'
 import DisplayControls from '@/components/DisplayControls.vue'
+import AudioPlayerBar from '@/components/AudioPlayerBar.vue'
 const SearchModal = defineAsyncComponent(() => import('@/components/SearchModal.vue'))
 
 const isSearchOpen = ref(false)
@@ -44,6 +45,7 @@ onUnmounted(() => {
         </router-view>
       </div>
     </main>
+    <AudioPlayerBar />
   </div>
 </template>
 

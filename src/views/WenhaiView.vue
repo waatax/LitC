@@ -18,6 +18,7 @@ import ClassicalIcon from '@/components/ClassicalIcon.vue'
 import RedSeal from '@/components/RedSeal.vue'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import KnowledgePointModal from '@/components/KnowledgePointModal.vue'
+import { speechService } from '@/services/speech'
 
 const route = useRoute()
 const collectionStore = useKnowledgeCollectionStore()
@@ -124,6 +125,71 @@ function rerollWander() {
 
 function setTrackAsActive(trackId: string) {
   collectionStore.setActiveTrack(trackId)
+}
+
+function playPointQuote(point: KnowledgePoint, e?: Event) {
+  if (e) e.stopPropagation()
+  if (isPointSpeaking(point.id)) {
+    speechService.pause()
+    return
+  }
+  speechService.speakPassage(
+    point.quoteSource.chapterId,
+    point.famousQuote,
+    'canonical',
+    {
+      workTitle: point.quoteSource.workTitle,
+      chapterTitle: point.title + ' · ' + point.quoteSource.chapterTitle,
+      canonicalText: point.famousQuote,
+      vernacularText: point.summary,
+    }
+  )
+}
+
+function isPointSpeaking(pointId: string): boolean {
+  const pt = KNOWLEDGE_POINTS.find(p => p.id === pointId)
+  if (!pt) return false
+  return (
+    speechService.state.currentPassageId === pt.quoteSource.chapterId &&
+    speechService.state.isPlaying &&
+    !speechService.state.isPaused
+  )
+}
+
+function playCategoryRadio() {
+  if (isCategoryRadioPlaying.value) {
+    speechService.stop()
+    return
+  }
+  const pointsToPlay = filteredPoints.value.length > 0 ? filteredPoints.value : KNOWLEDGE_POINTS
+  const items = pointsToPlay.map(p => ({
+    passageId: p.quoteSource.chapterId,
+    chapterId: p.quoteSource.chapterId,
+    canonicalText: p.famousQuote,
+    vernacularText: p.summary,
+    chapterTitle: p.title,
+    workTitle: p.quoteSource.workTitle,
+  }))
+  speechService.startKnowledgeRadio(items, 'bilingual')
+}
+
+const isCategoryRadioPlaying = computed(() => {
+  return speechService.state.isPlaying && !speechService.state.isPaused && speechService.state.playlist.length > 0
+})
+
+function playTrackRadio(trackPointIds: string[], e?: Event) {
+  if (e) e.stopPropagation()
+  const trackPts = trackPointIds.map(id => getKnowledgePointById(id)).filter(Boolean) as KnowledgePoint[]
+  if (trackPts.length === 0) return
+  const items = trackPts.map(p => ({
+    passageId: p.quoteSource.chapterId,
+    chapterId: p.quoteSource.chapterId,
+    canonicalText: p.famousQuote,
+    vernacularText: p.summary,
+    chapterTitle: p.title,
+    workTitle: p.quoteSource.workTitle,
+  }))
+  speechService.startKnowledgeRadio(items, 'bilingual')
 }
 
 onMounted(() => {
@@ -336,6 +402,16 @@ onMounted(() => {
             <ClassicalIcon name="brush" :size="14" :color="onlyWithNotes ? 'var(--c-gold)' : 'currentColor'" />
             <span>有札記 ({{ collectionStore.totalNotesCount }})</span>
           </button>
+
+          <button
+            class="collect-filter-btn category-radio-btn"
+            :class="{ active: isCategoryRadioPlaying }"
+            :title="isCategoryRadioPlaying ? '停止廣播' : '依當前分類連續收聽知識點名句與解讀'"
+            @click="playCategoryRadio"
+          >
+            <ClassicalIcon :name="isCategoryRadioPlaying ? 'pause' : 'audio-playing'" :size="14" :color="isCategoryRadioPlaying ? 'var(--c-gold)' : 'currentColor'" />
+            <span>{{ isCategoryRadioPlaying ? '廣播連播中' : '🎧 主題廣播 (' + filteredPoints.length + '篇)' }}</span>
+          </button>
         </div>
       </div>
 
@@ -394,6 +470,16 @@ onMounted(() => {
               <span class="difficulty-indicator font-serif" :title="`難度階別 ${pt.difficulty}/3`">
                 {{ pt.difficulty === 1 ? '入門' : pt.difficulty === 2 ? '進階' : '深奧' }}
               </span>
+              <button
+                type="button"
+                class="point-card-audio-btn"
+                :class="{ 'is-speaking': isPointSpeaking(pt.id) }"
+                :title="isPointSpeaking(pt.id) ? '暫停朗讀' : '聆聽古韻名言朗讀'"
+                @click="playPointQuote(pt, $event)"
+              >
+                <ClassicalIcon :name="isPointSpeaking(pt.id) ? 'pause' : 'volume'" :size="12" />
+                <span>{{ isPointSpeaking(pt.id) ? '播讀中' : '聽誦讀' }}</span>
+              </button>
             </div>
             <span class="open-detail-link">
               <span>探微詳解</span>
@@ -477,6 +563,14 @@ onMounted(() => {
                   </strong>
                   <span class="pres-work font-serif">《{{ getKnowledgePointById(rx.pointId)?.quoteSource.workTitle }}》</span>
                   <button
+                    class="btn btn-ghost btn-sm pres-btn pres-audio-btn"
+                    title="聆聽名言誦讀"
+                    @click.stop="getKnowledgePointById(rx.pointId) && playPointQuote(getKnowledgePointById(rx.pointId)!, $event)"
+                  >
+                    <ClassicalIcon :name="isPointSpeaking(rx.pointId) ? 'pause' : 'volume'" :size="12" />
+                    <span>{{ isPointSpeaking(rx.pointId) ? '播讀中' : '聽誦讀' }}</span>
+                  </button>
+                  <button
                     class="btn btn-ghost btn-sm pres-btn"
                     @click="getKnowledgePointById(rx.pointId) && openPointModal(getKnowledgePointById(rx.pointId)!)"
                   >
@@ -524,14 +618,24 @@ onMounted(() => {
               </div>
             </div>
 
-            <button
-              class="btn btn-sm track-select-btn"
-              :class="collectionStore.activeTrackId === track.id ? 'btn-primary' : 'btn-outline'"
-              @click="setTrackAsActive(track.id)"
-            >
-              <ClassicalIcon :name="collectionStore.activeTrackId === track.id ? 'check' : 'target'" :size="13" />
-              <span>{{ collectionStore.activeTrackId === track.id ? '當前修習中' : '選擇此學程' }}</span>
-            </button>
+            <div class="track-actions-group">
+              <button
+                class="btn btn-sm btn-ghost track-audio-btn"
+                title="連續收聽此學程之所有概念名言"
+                @click="playTrackRadio(track.pointIds, $event)"
+              >
+                <ClassicalIcon name="audio-playing" :size="13" />
+                <span>有聲導讀</span>
+              </button>
+              <button
+                class="btn btn-sm track-select-btn"
+                :class="collectionStore.activeTrackId === track.id ? 'btn-primary' : 'btn-outline'"
+                @click="setTrackAsActive(track.id)"
+              >
+                <ClassicalIcon :name="collectionStore.activeTrackId === track.id ? 'check' : 'target'" :size="13" />
+                <span>{{ collectionStore.activeTrackId === track.id ? '當前修習中' : '選擇此學程' }}</span>
+              </button>
+            </div>
           </div>
 
           <p class="track-summary">{{ track.summary }}</p>
@@ -586,10 +690,16 @@ onMounted(() => {
             <h2 class="font-serif section-heading">文海偶拾 ‧ 每日靈感錦囊</h2>
             <p class="section-subheading">隨機抽取一則先秦警策，在不期而遇的古典箴言中尋找今天的定見。</p>
           </div>
-          <button class="btn btn-outline reroll-btn" @click="rerollWander">
-            <ClassicalIcon name="refresh" :size="15" />
-            <span>抽取下一則靈感</span>
-          </button>
+          <div class="wander-actions-group">
+            <button class="btn btn-primary wander-audio-btn" @click="playPointQuote(wanderingPoint)">
+              <ClassicalIcon :name="isPointSpeaking(wanderingPoint.id) ? 'pause' : 'volume'" :size="15" />
+              <span>{{ isPointSpeaking(wanderingPoint.id) ? '暫停朗讀' : '聆聽古韻箴言' }}</span>
+            </button>
+            <button class="btn btn-outline reroll-btn" @click="rerollWander">
+              <ClassicalIcon name="refresh" :size="15" />
+              <span>抽取下一則靈感</span>
+            </button>
+          </div>
         </div>
 
         <article class="wander-card glass-panel" :class="{ 'is-animating': isWandering }">
@@ -1749,6 +1859,85 @@ onMounted(() => {
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+/* ── 音訊廣播與試聽按鈕樣式 ── */
+.category-radio-btn {
+  background: linear-gradient(135deg, rgba(201, 169, 110, 0.18), rgba(166, 124, 0, 0.12)) !important;
+  border-color: var(--c-gold-glow) !important;
+  color: var(--c-gold-light) !important;
+}
+
+.category-radio-btn.active {
+  background: linear-gradient(135deg, var(--c-gold-deep), var(--c-gold)) !important;
+  color: #fff !important;
+  box-shadow: 0 0 16px rgba(201, 169, 110, 0.5) !important;
+}
+
+.point-card-audio-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--c-gold-light);
+  border-radius: var(--radius-full);
+  font-size: 11px;
+  padding: 2px 7px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.point-card-audio-btn:hover {
+  background: rgba(201, 169, 110, 0.2);
+  border-color: var(--c-gold);
+  color: #fff;
+}
+
+.point-card-audio-btn.is-speaking {
+  background: var(--c-gold-deep);
+  color: #fff;
+  border-color: var(--c-gold);
+}
+
+.pres-audio-btn {
+  color: var(--c-gold-light) !important;
+  border: 1px solid rgba(201, 169, 110, 0.2) !important;
+}
+
+.pres-audio-btn:hover {
+  border-color: var(--c-gold) !important;
+  color: #fff !important;
+}
+
+.track-actions-group {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
+.track-audio-btn {
+  color: var(--c-gold-light);
+  border: 1px solid rgba(201, 169, 110, 0.25);
+  padding: 4px 10px;
+}
+
+.track-audio-btn:hover {
+  background: rgba(201, 169, 110, 0.15);
+  color: #fff;
+  border-color: var(--c-gold);
+}
+
+.wander-actions-group {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
+.wander-audio-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
 
 @media (max-width: 768px) {

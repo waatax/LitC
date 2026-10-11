@@ -4,7 +4,7 @@ import { useRouter } from 'vue-router'
 import { useGamificationStore, RANKS } from '@/stores/gamification'
 import { getDueCardIds } from '@/data/db'
 import { catalogWorks, catalogChapters } from '@/data/catalog'
-import { speechService } from '@/services/speech'
+import { speechService, type SpeechMode } from '@/services/speech'
 import ClassicalIcon from '@/components/ClassicalIcon.vue'
 import { THEMATIC_TOPICS } from '@/data/thematicTopics'
 import { KNOWLEDGE_POINTS, getLearningTrackById, type KnowledgePoint } from '@/data/knowledgeGraph'
@@ -281,18 +281,18 @@ const isQuoteSpeaking = computed(() => {
   return speechService.state.currentPassageId === currentMission.id && speechService.state.isPlaying && !speechService.state.isPaused
 })
 
-function playMissionQuote() {
-  speechService.speakPassage(currentMission.id, currentMission.quote, 'canonical', {
+function playMissionQuote(mode: SpeechMode = 'canonical') {
+  if (isQuoteSpeaking.value && speechService.state.currentMode === mode) {
+    speechService.pause()
+    return
+  }
+  speechService.speakPassage(currentMission.id, currentMission.quote, mode, {
     workTitle: currentMission.title,
     chapterTitle: currentMission.title,
     canonicalText: currentMission.quote,
     vernacularText: currentMission.translation,
   })
 }
-
-onUnmounted(() => {
-  speechService.stop()
-})
 </script>
 
 <template>
@@ -350,14 +350,24 @@ onUnmounted(() => {
             <button
               type="button"
               class="today-audio-btn"
-              :class="{ 'is-playing': isQuoteSpeaking }"
-              :title="isQuoteSpeaking ? '暫停朗讀' : '聆聽經文原句雅正朗讀'"
-              @click="playMissionQuote"
+              :class="{ 'is-playing': isQuoteSpeaking && speechService.state.currentMode === 'canonical' }"
+              :title="isQuoteSpeaking && speechService.state.currentMode === 'canonical' ? '暫停朗讀' : '聆聽經文原句雅正朗讀'"
+              @click="playMissionQuote('canonical')"
             >
-              <ClassicalIcon v-if="isQuoteSpeaking" name="pause" :size="15" />
+              <ClassicalIcon v-if="isQuoteSpeaking && speechService.state.currentMode === 'canonical'" name="pause" :size="15" />
               <ClassicalIcon v-else name="audio" :size="15" />
-              <span v-if="isQuoteSpeaking">暫停誦讀</span>
-              <span v-else>聆聽經典雅正誦讀</span>
+              <span>{{ isQuoteSpeaking && speechService.state.currentMode === 'canonical' ? '暫停原典' : '原典雅正誦讀' }}</span>
+            </button>
+            <button
+              type="button"
+              class="today-audio-btn bilingual-audio-btn"
+              :class="{ 'is-playing': isQuoteSpeaking && speechService.state.currentMode === 'bilingual' }"
+              title="文白雙語對照：先聽原典再聽白話精析"
+              @click="playMissionQuote('bilingual')"
+            >
+              <ClassicalIcon v-if="isQuoteSpeaking && speechService.state.currentMode === 'bilingual'" name="pause" :size="15" />
+              <ClassicalIcon v-else name="audio-playing" :size="15" />
+              <span>{{ isQuoteSpeaking && speechService.state.currentMode === 'bilingual' ? '暫停導讀' : '🎧 文白對照導讀' }}</span>
             </button>
           </div>
           <div class="translation">
