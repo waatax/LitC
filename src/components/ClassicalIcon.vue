@@ -52,6 +52,8 @@ export type IconName =
   | 'eye'
   | 'temple'
   | 'scroll'
+  | 'people'
+  | 'volume'
 
 const props = withDefaults(
   defineProps<{
@@ -412,6 +414,20 @@ const sizePx = computed(() => {
         <line x1="10" y1="8" x2="16" y2="8" />
         <line x1="10" y1="12" x2="16" y2="12" />
         <line x1="10" y1="16" x2="14" y2="16" />
+      </template>
+
+      <!-- 51. 萬物和諧 (同仁合和) -->
+      <template v-else-if="name === 'people'">
+        <circle cx="9" cy="7" r="3" />
+        <path d="M3 19c0-3.3 2.7-6 6-6s6 2.7 6 6" />
+        <circle cx="17" cy="8" r="2.5" />
+        <path d="M15 13.5c1.2-.6 2.5-.7 4 0 1.5.8 2 2.3 2 4.5" />
+      </template>
+
+      <!-- 52. 雅韻正音 (音韻朗聲) -->
+      <template v-else-if="name === 'volume'">
+        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+        <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07" />
       </template>
     </svg>
   </span>

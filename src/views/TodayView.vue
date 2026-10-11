@@ -492,13 +492,23 @@ onUnmounted(() => {
               <ClassicalIcon name="lantern" :size="13" color="var(--c-gold)" />
               <span>今日晨昏智慧錦囊</span>
             </span>
-            <span class="kp-school-figure">{{ todayKnowledgePoint.primaryFigure }} · 《{{ todayKnowledgePoint.quoteSource.workTitle }}》</span>
+            <div class="kp-header-badges">
+              <span v-if="collectionStore.isMastered(todayKnowledgePoint.id)" class="kp-mastered-tag font-serif">
+                <ClassicalIcon name="check" :size="11" />
+                <span>已領會</span>
+              </span>
+              <span class="kp-school-figure">{{ todayKnowledgePoint.primaryFigure }} · 《{{ todayKnowledgePoint.quoteSource.workTitle }}》</span>
+            </div>
           </div>
           <h3 class="kp-card-title font-serif">{{ todayKnowledgePoint.title }}</h3>
           <p class="kp-card-tagline">{{ todayKnowledgePoint.tagline }}</p>
           <blockquote class="kp-card-quote font-serif">
             「{{ todayKnowledgePoint.famousQuote }}」
           </blockquote>
+          <div v-if="collectionStore.hasNote(todayKnowledgePoint.id)" class="kp-user-note-box font-serif">
+            <ClassicalIcon name="brush" :size="12" color="var(--c-gold)" />
+            <span>我的修持札記：{{ collectionStore.getNote(todayKnowledgePoint.id).slice(0, 32) }}…</span>
+          </div>
           <div class="kp-card-footer">
             <span class="kp-app-snippet">💡 {{ todayKnowledgePoint.modernApplication.slice(0, 36) }}…</span>
             <span class="kp-enter-link">
@@ -1238,9 +1248,36 @@ summary {
   font-weight: 700;
   letter-spacing: 0.04em;
 }
+.kp-header-badges {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.kp-mastered-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.72rem;
+  padding: 2px 7px;
+  border-radius: var(--radius-full);
+  background: rgba(91, 138, 114, 0.15);
+  color: #5b8a72;
+}
 .kp-school-figure {
   font-size: 0.8rem;
   color: var(--c-text-muted);
+}
+.kp-user-note-box {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  margin-bottom: 12px;
+  background: rgba(201, 169, 110, 0.08);
+  border: 1px dashed var(--c-border-accent, #c9a96e);
+  border-radius: var(--radius-md, 8px);
+  font-size: 0.8rem;
+  color: var(--c-text-secondary);
 }
 .track-count-badge {
   font-size: 0.78rem;

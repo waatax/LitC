@@ -3,11 +3,11 @@
  * ClassicFlow (LitC) — 全量古典經文逐段朗讀自動化稽核管線
  * 
  * 核心目的：
- * 持續確認資料庫中「每一段古文」皆有對應的音檔朗讀：
+ * 持續分別確認實體 MP3 與瀏覽器即時 TTS 的朗讀覆蓋：
  * 1. 檢驗 51 部典籍所有 chapter 與 passage 資料完整性（id, canonicalText）。
  * 2. 檢驗破音字與通假字校勘辭典，確保發音字元健全。
  * 3. 實體錄音檔檢驗：核對 AUDIO_MANIFEST 與 public/audio/ 實體 MP3 檔案，確認檔案存在且非空。
- * 4. 智能正音檢驗：核對其餘段落皆具備合法文言字串以供瀏覽器 SpeechSynthesis 完美合成。
+ * 4. TTS 後備檢驗：核對其餘段落皆具備合法文言字串，可交由瀏覽器 SpeechSynthesis 合成。
  * 5. 輸出 public/audio_audit_report.json 審計報告供系統與前端即時查驗。
  */
 
@@ -197,14 +197,16 @@ async function runAudit() {
 
   const totalRecitationCovered = passagesWithPhysicalAudio + passagesWithTtsAudio
   const coveragePercent = totalPassages > 0 ? ((totalRecitationCovered / totalPassages) * 100).toFixed(2) : '0'
+  const physicalAudioCoveragePercent = totalPassages > 0 ? ((passagesWithPhysicalAudio / totalPassages) * 100).toFixed(2) : '0'
 
   console.log(`\n📚 稽核完成統計：`)
   console.log(`- 典籍總數:      ${totalWorks.size} 部`)
   console.log(`- 篇章總數:      ${totalChapters} 篇`)
   console.log(`- 經文段落總數:  ${totalPassages.toLocaleString()} 段`)
   console.log(`- 典藏名家真音:  ${passagesWithPhysicalAudio.toLocaleString()} 段 (實體 MP3)`)
-  console.log(`- 智能雅正正音:  ${passagesWithTtsAudio.toLocaleString()} 段 (古典音韻 TTS)`)
-  console.log(`- 朗讀總覆蓋率:  ${coveragePercent}% (所有段落皆 100% 具備朗讀音檔)`)
+  console.log(`- 瀏覽器 TTS 後備: ${passagesWithTtsAudio.toLocaleString()} 段 (非實體音檔)`)
+  console.log(`- 實體 MP3 覆蓋率: ${physicalAudioCoveragePercent}%`)
+  console.log(`- 可朗讀入口覆蓋率: ${coveragePercent}% (MP3 + TTS 後備)`)
 
   // 排序前五部重點典籍與覆蓋細節
   console.log(`\n📊 重點經典音檔配備抽樣表：`)
@@ -227,6 +229,7 @@ async function runAudit() {
     passagesWithTtsAudio,
     totalRecitationCovered,
     coveragePercent: parseFloat(coveragePercent),
+    physicalAudioCoveragePercent: parseFloat(physicalAudioCoveragePercent),
     workStats,
     status: invalidPassages.length === 0 && missingMp3Files.length === 0 ? 'PASSED' : 'WARNING',
     invalidPassages,
@@ -246,7 +249,7 @@ async function runAudit() {
     missingMp3Files.slice(0, 5).forEach(m => console.warn(`  - [${m.pid}] ${m.error}`))
   }
 
-  console.log('\n✅ 每一段古文皆已確認具備健全可播放之音檔朗讀 (100% 覆蓋驗證通過)！\n')
+  console.log(`\n✅ 可朗讀入口覆蓋驗證通過；${passagesWithPhysicalAudio.toLocaleString()} 段為實體 MP3，其餘為瀏覽器 TTS 後備。\n`)
 }
 
 runAudit().catch(err => {

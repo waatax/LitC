@@ -5,10 +5,12 @@ import {
   KNOWLEDGE_CATEGORIES,
   KNOWLEDGE_POINTS,
   LEARNING_TRACKS,
+  DILEMMA_TOPICS,
   getRandomKnowledgePoint,
+  getKnowledgePointById,
   type KnowledgeCategory,
   type KnowledgePoint,
-  type LearningTrack,
+  type DilemmaTopic,
 } from '@/data/knowledgeGraph'
 import { WENHAI_RESOURCES, type WenhaiResourceKind } from '@/data/wenhaiResources'
 import { useKnowledgeCollectionStore } from '@/stores/knowledgeCollection'
@@ -20,19 +22,27 @@ import KnowledgePointModal from '@/components/KnowledgePointModal.vue'
 const route = useRoute()
 const collectionStore = useKnowledgeCollectionStore()
 
-type MainTab = 'points' | 'tracks' | 'wander' | 'resources'
+type MainTab = 'points' | 'tracks' | 'dilemma' | 'wander' | 'resources'
 const currentTab = ref<MainTab>('points')
 
 // 知識點篩選
 type CategoryFilter = 'all' | KnowledgeCategory
 const selectedCategory = ref<CategoryFilter>('all')
 const selectedSchool = ref<string>('all')
+const selectedDifficulty = ref<string>('all')
 const onlyCollected = ref(false)
+const onlyWithNotes = ref(false)
 const searchQuery = ref('')
 
 // 當前點選的知識點詳情彈窗
 const selectedPoint = ref<KnowledgePoint | null>(null)
 const isModalOpen = ref(false)
+
+// 人生情境解惑當前選取
+const selectedDilemmaId = ref<string>('dilemma-burnout')
+const currentDilemma = computed<DilemmaTopic>(() => {
+  return DILEMMA_TOPICS.find(d => d.id === selectedDilemmaId.value) || DILEMMA_TOPICS[0]
+})
 
 // 每日漫遊知識點
 const wanderingPoint = ref<KnowledgePoint>(KNOWLEDGE_POINTS[0])
@@ -53,8 +63,16 @@ const filteredPoints = computed(() => {
     if (selectedSchool.value !== 'all' && p.schoolId !== selectedSchool.value) {
       return false
     }
+    // 難度過濾
+    if (selectedDifficulty.value !== 'all' && String(p.difficulty) !== selectedDifficulty.value) {
+      return false
+    }
     // 收藏過濾
     if (onlyCollected.value && !collectionStore.isCollected(p.id)) {
+      return false
+    }
+    // 札記過濾
+    if (onlyWithNotes.value && !collectionStore.hasNote(p.id)) {
       return false
     }
     // 關鍵字搜尋
@@ -111,12 +129,20 @@ function setTrackAsActive(trackId: string) {
 onMounted(() => {
   // 支援 query 帶入
   if (route.query.tab === 'tracks') currentTab.value = 'tracks'
+  else if (route.query.tab === 'dilemma') currentTab.value = 'dilemma'
   else if (route.query.tab === 'wander') currentTab.value = 'wander'
   else if (route.query.tab === 'resources') currentTab.value = 'resources'
 
   if (route.query.point) {
     const target = KNOWLEDGE_POINTS.find(p => p.id === route.query.point)
     if (target) openPointModal(target)
+  }
+
+  if (route.query.category) {
+    const cat = route.query.category as KnowledgeCategory
+    if (KNOWLEDGE_CATEGORIES.some(c => c.id === cat)) {
+      selectedCategory.value = cat
+    }
   }
 })
 </script>
@@ -132,16 +158,18 @@ onMounted(() => {
         <div class="eyebrow-row">
           <p class="eyebrow font-serif">經典之外，學問無涯 ‧ 諸子百家知識網絡</p>
           <div class="hero-stats-badge">
-            <span>{{ KNOWLEDGE_POINTS.length }} 則核心知識點</span>
+            <span>{{ KNOWLEDGE_POINTS.length }} 則先秦核心義理</span>
             <span class="dot-sep">·</span>
-            <span>4 大研習學程</span>
+            <span>{{ LEARNING_TRACKS.length }} 大階梯學程</span>
             <span class="dot-sep">·</span>
-            <span>已掌握 {{ collectionStore.totalMasteredCount }} 點</span>
+            <span>已領會 {{ collectionStore.totalMasteredCount }} 點</span>
+            <span class="dot-sep">·</span>
+            <span class="mastery-rank-pill font-serif">{{ collectionStore.currentMasteryLevel.title }}</span>
           </div>
         </div>
         <h1 class="hero-title font-serif">文海觀瀾</h1>
         <p class="hero-copy">
-          從一句警策古文出發，循概念、源流、思辨與現代生活心法，串聯先秦諸子核心思想網絡。隨意漫步、循徑修習，讓二千年前的智慧成為當下的清明定力。
+          從一句警策古文出發，循概念、源流、思辨與現代生活心法，串聯先秦諸子核心思想網絡。隨意漫步、情境處方、循徑修習，讓二千年前的智慧成為當下的清明定力。
         </p>
 
         <!-- 搜尋列 -->
@@ -160,7 +188,38 @@ onMounted(() => {
       </div>
     </header>
 
-    <!-- 四大視圖分頁導覽列 -->
+    <!-- 修行儀表盤快速統計條 -->
+    <section class="mastery-summary-bar glass-panel">
+      <div class="mastery-left">
+        <div class="mastery-level-seal">
+          <span class="mastery-seal-text font-serif">{{ collectionStore.currentMasteryLevel.sealText }}</span>
+        </div>
+        <div class="mastery-text-info">
+          <div class="mastery-title-line">
+            <strong class="font-serif">{{ collectionStore.currentMasteryLevel.title }}</strong>
+            <span class="mastery-sub">先秦義理領會 {{ collectionStore.overallMasteryPercent }}%</span>
+          </div>
+          <p class="mastery-desc">{{ collectionStore.currentMasteryLevel.description }}</p>
+        </div>
+      </div>
+
+      <div class="mastery-stats-chips">
+        <div class="mini-stat-chip">
+          <ClassicalIcon name="check" :size="14" color="var(--c-gold)" />
+          <span>已領會 <strong>{{ collectionStore.totalMasteredCount }}</strong> / {{ collectionStore.totalPointsCount }}</span>
+        </div>
+        <div class="mini-stat-chip">
+          <ClassicalIcon name="star" :size="14" color="var(--gold-400)" />
+          <span>文萃收藏 <strong>{{ collectionStore.totalCollectedCount }}</strong></span>
+        </div>
+        <div class="mini-stat-chip">
+          <ClassicalIcon name="brush" :size="14" color="#d5a25d" />
+          <span>研讀札記 <strong>{{ collectionStore.totalNotesCount }}</strong></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 五大視圖分頁導覽列 -->
     <nav class="main-tab-nav" aria-label="文海主要視圖">
       <button
         class="main-tab-btn"
@@ -170,6 +229,16 @@ onMounted(() => {
         <ClassicalIcon name="wenhai" :size="16" />
         <span>知識全景譜</span>
         <span class="tab-badge">{{ KNOWLEDGE_POINTS.length }}</span>
+      </button>
+
+      <button
+        class="main-tab-btn"
+        :class="{ active: currentTab === 'dilemma' }"
+        @click="currentTab = 'dilemma'"
+      >
+        <ClassicalIcon name="heart" :size="16" />
+        <span>心靈解惑處方</span>
+        <span class="tab-badge">{{ DILEMMA_TOPICS.length }}</span>
       </button>
 
       <button
@@ -226,16 +295,25 @@ onMounted(() => {
           </button>
         </div>
 
-        <!-- 學派與收藏快捷開關 -->
+        <!-- 學派、難度與狀態快捷開關 -->
         <div class="secondary-filters">
           <div class="select-wrapper">
-            <select v-model="selectedSchool" class="school-select">
+            <select v-model="selectedSchool" class="school-select" aria-label="學派篩選">
               <option value="all">所有學派</option>
               <option value="daoism">道家</option>
               <option value="confucianism">儒家</option>
               <option value="military">兵家</option>
               <option value="legalism">法家</option>
               <option value="mohism">墨家</option>
+            </select>
+          </div>
+
+          <div class="select-wrapper">
+            <select v-model="selectedDifficulty" class="school-select" aria-label="難度篩選">
+              <option value="all">全部難度</option>
+              <option value="1">入門階梯 (★)</option>
+              <option value="2">進階探析 (★★)</option>
+              <option value="3">深思心法 (★★★)</option>
             </select>
           </div>
 
@@ -246,7 +324,17 @@ onMounted(() => {
             title="僅看我的文萃收藏"
           >
             <ClassicalIcon name="star" :size="14" :color="onlyCollected ? 'var(--gold-400)' : 'currentColor'" />
-            <span>我的收藏 ({{ collectionStore.totalCollectedCount }})</span>
+            <span>文萃 ({{ collectionStore.totalCollectedCount }})</span>
+          </button>
+
+          <button
+            class="collect-filter-btn"
+            :class="{ active: onlyWithNotes }"
+            @click="onlyWithNotes = !onlyWithNotes"
+            title="僅看已撰寫研讀札記之知識點"
+          >
+            <ClassicalIcon name="brush" :size="14" :color="onlyWithNotes ? 'var(--c-gold)' : 'currentColor'" />
+            <span>有札記 ({{ collectionStore.totalNotesCount }})</span>
           </button>
         </div>
       </div>
@@ -266,12 +354,16 @@ onMounted(() => {
             </span>
 
             <div class="card-status-badges">
+              <span v-if="collectionStore.hasNote(pt.id)" class="status-badge note-badge" title="已寫心得札記">
+                <ClassicalIcon name="brush" :size="11" />
+                <span>札記</span>
+              </span>
               <span
                 v-if="collectionStore.isMastered(pt.id)"
                 class="status-badge mastered"
                 title="已掌握此概念"
               >
-                <ClassicalIcon name="check" :size="12" />
+                <ClassicalIcon name="check" :size="11" />
                 <span>已領會</span>
               </span>
               <button
@@ -297,7 +389,12 @@ onMounted(() => {
           </blockquote>
 
           <div class="card-bottom-row">
-            <span class="quote-source-label">《{{ pt.quoteSource.workTitle }}》</span>
+            <div class="card-foot-left">
+              <span class="quote-source-label">《{{ pt.quoteSource.workTitle }}》</span>
+              <span class="difficulty-indicator font-serif" :title="`難度階別 ${pt.difficulty}/3`">
+                {{ pt.difficulty === 1 ? '入門' : pt.difficulty === 2 ? '進階' : '深奧' }}
+              </span>
+            </div>
             <span class="open-detail-link">
               <span>探微詳解</span>
               <ClassicalIcon name="arrow-right" :size="12" />
@@ -311,18 +408,99 @@ onMounted(() => {
         <ClassicalIcon name="search" :size="36" color="var(--c-gold)" />
         <h3 class="font-serif">未尋得相符的知識點</h3>
         <p>請嘗試其他關鍵字，或重設篩選條件探索更多經典智慧。</p>
-        <button class="btn btn-outline" @click="selectedCategory = 'all'; selectedSchool = 'all'; onlyCollected = false; searchQuery = ''">
+        <button class="btn btn-outline" @click="selectedCategory = 'all'; selectedSchool = 'all'; selectedDifficulty = 'all'; onlyCollected = false; onlyWithNotes = false; searchQuery = ''">
           重設所有篩選
         </button>
       </div>
     </section>
 
-    <!-- ══════════ Tab 2: 修習學程路徑 ══════════ -->
+    <!-- ══════════ Tab 2: 心靈解惑處方 (Dilemma Oracle) ══════════ -->
+    <section v-else-if="currentTab === 'dilemma'" class="tab-section tab-dilemma">
+      <div class="dilemma-intro">
+        <h2 class="font-serif section-heading">心境尋道 ‧ 先秦良方</h2>
+        <p class="section-subheading">
+          現代人生活中的焦慮、迷茫、競爭與人際摩擦，二千年前的先哲早已給出深刻解答。點選你當前的心靈困境，查閱先秦諸子為你開立的思想處方。
+        </p>
+      </div>
+
+      <!-- 5 大情境選擇標籤 -->
+      <div class="dilemma-selector-grid">
+        <button
+          v-for="d in DILEMMA_TOPICS"
+          :key="d.id"
+          class="dilemma-pill-card glass-panel"
+          :class="{ 'is-selected': selectedDilemmaId === d.id }"
+          @click="selectedDilemmaId = d.id"
+        >
+          <div class="pill-seal-row">
+            <span class="dilemma-seal font-serif">{{ d.sealText }}</span>
+            <ClassicalIcon :name="d.icon" :size="16" color="var(--c-gold)" />
+          </div>
+          <h3 class="dilemma-pill-title font-serif">{{ d.title }}</h3>
+          <p class="dilemma-pill-sub">{{ d.subtitle }}</p>
+        </button>
+      </div>
+
+      <!-- 當前情境診斷與良方清單 -->
+      <article class="dilemma-detail-panel glass-card">
+        <header class="dilemma-detail-header">
+          <div class="dilemma-diag-box">
+            <span class="diag-label font-serif">【 現代困頓診斷 】</span>
+            <p class="diag-text">{{ currentDilemma.situation }}</p>
+          </div>
+          <div class="dilemma-remedy-box">
+            <span class="remedy-label font-serif">【 諸子破局要旨 】</span>
+            <p class="remedy-text">{{ currentDilemma.remedyIntro }}</p>
+          </div>
+        </header>
+
+        <div class="prescriptions-section">
+          <h4 class="font-serif pres-heading">
+            <ClassicalIcon name="sparkle" :size="16" color="var(--c-gold)" />
+            <span>四步解惑處方指南</span>
+          </h4>
+
+          <div class="prescriptions-list">
+            <div
+              v-for="(rx, idx) in currentDilemma.prescriptions"
+              :key="rx.pointId"
+              class="prescription-card glass-panel"
+            >
+              <div class="pres-num font-serif">{{ idx + 1 }}</div>
+              <div class="pres-content">
+                <div class="pres-title-row">
+                  <strong
+                    class="pres-point-link font-serif"
+                    @click="getKnowledgePointById(rx.pointId) && openPointModal(getKnowledgePointById(rx.pointId)!)"
+                  >
+                    {{ getKnowledgePointById(rx.pointId)?.title || rx.pointId }}
+                  </strong>
+                  <span class="pres-work font-serif">《{{ getKnowledgePointById(rx.pointId)?.quoteSource.workTitle }}》</span>
+                  <button
+                    class="btn btn-ghost btn-sm pres-btn"
+                    @click="getKnowledgePointById(rx.pointId) && openPointModal(getKnowledgePointById(rx.pointId)!)"
+                  >
+                    <span>領會心法</span>
+                    <ClassicalIcon name="arrow-right" :size="11" />
+                  </button>
+                </div>
+                <blockquote class="pres-quote font-serif">
+                  「{{ getKnowledgePointById(rx.pointId)?.famousQuote }}」
+                </blockquote>
+                <p class="pres-action">💡 <strong>實踐建議：</strong>{{ rx.actionPrompt }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ══════════ Tab 3: 修習學程路徑 ══════════ -->
     <section v-else-if="currentTab === 'tracks'" class="tab-section tab-tracks">
       <div class="tracks-intro">
-        <h2 class="font-serif section-heading">四大階梯修習學程</h2>
+        <h2 class="font-serif section-heading">六大階梯修習學程</h2>
         <p class="section-subheading">
-          不論你是尋求身心安頓的忙碌上班族、追求自律格局的君子學人，或是想洞悉戰略博弈的決策者，皆能依照清晰進階的路徑循序修持。
+          不論你是尋求身心安頓的忙碌上班族、追求自律格局的君子學人、想洞悉戰略博弈的決策者，或是熱愛先秦寓言批判思維者，皆能依照清晰進階的路徑循序修持。
         </p>
       </div>
 
@@ -360,63 +538,57 @@ onMounted(() => {
 
           <!-- 進度條 -->
           <div class="track-progress-box">
-            <div class="progress-meta">
-              <span>修習完成度</span>
-              <span class="progress-val">{{ collectionStore.getTrackProgress(track.id).completed }} / {{ collectionStore.getTrackProgress(track.id).total }} ({{ collectionStore.getTrackProgress(track.id).percent }}%)</span>
+            <div class="progress-info-row">
+              <span class="progress-label font-serif">研習進度</span>
+              <span class="progress-stats">
+                {{ collectionStore.getTrackProgress(track.id).completed }} / {{ collectionStore.getTrackProgress(track.id).total }} 掌握
+                ({{ collectionStore.getTrackProgress(track.id).percent }}%)
+              </span>
             </div>
-            <div class="track-progress-track">
+            <div class="progress-track-bar">
               <div
-                class="track-progress-bar"
+                class="progress-fill-bar"
                 :style="{ width: `${collectionStore.getTrackProgress(track.id).percent}%`, backgroundColor: track.badgeColor }"
               ></div>
             </div>
           </div>
 
-          <!-- 學程節點階梯 -->
-          <div class="track-steps-ladder">
-            <h4 class="ladder-title font-serif">學程研習節點：</h4>
-            <div class="ladder-nodes">
-              <div
-                v-for="(pointId, pIdx) in track.pointIds"
-                :key="pointId"
-                class="ladder-node"
-                @click="openPointModal(KNOWLEDGE_POINTS.find(p => p.id === pointId)!)"
+          <!-- 節點清單 -->
+          <div class="track-steps-list">
+            <span class="steps-heading font-serif">【 循序研修節點 】</span>
+            <div class="steps-chips">
+              <button
+                v-for="ptId in track.pointIds"
+                :key="ptId"
+                class="track-step-pill"
+                :class="{ 'is-mastered': collectionStore.isMastered(ptId) }"
+                @click="getKnowledgePointById(ptId) && openPointModal(getKnowledgePointById(ptId)!)"
               >
-                <div class="node-order" :class="{ 'is-done': collectionStore.isMastered(pointId) }">
-                  <ClassicalIcon v-if="collectionStore.isMastered(pointId)" name="check" :size="12" />
-                  <span v-else>{{ pIdx + 1 }}</span>
-                </div>
-                <div class="node-info">
-                  <span class="node-title font-serif">{{ KNOWLEDGE_POINTS.find(p => p.id === pointId)?.title }}</span>
-                  <span class="node-tagline">{{ KNOWLEDGE_POINTS.find(p => p.id === pointId)?.tagline }}</span>
-                </div>
-                <ClassicalIcon name="arrow-right" :size="12" color="var(--c-gold)" />
-              </div>
+                <ClassicalIcon :name="collectionStore.isMastered(ptId) ? 'check' : 'target'" :size="12" />
+                <span>{{ getKnowledgePointById(ptId)?.title || ptId }}</span>
+              </button>
             </div>
           </div>
 
-          <div class="track-footer">
-            <span class="audience-label">🎯 適合對象：{{ track.targetAudience }}</span>
+          <div class="track-card-footer">
+            <span class="track-audience">🎯 適合對象：{{ track.targetAudience }}</span>
+            <span class="track-benefit">✨ 核心收穫：{{ track.coreBenefit }}</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ══════════ Tab 3: 每日靈感漫遊 ══════════ -->
+    <!-- ══════════ Tab 4: 每日靈感漫遊 ══════════ -->
     <section v-else-if="currentTab === 'wander'" class="tab-section tab-wander">
       <div class="wander-wrapper">
-        <div class="wander-toolbar">
-          <div class="wander-title-group">
-            <h2 class="font-serif wander-title">每日心境漫遊 ‧ 靈感錦囊</h2>
-            <p class="wander-desc">心有疑難，或偶得片刻寧靜，隨機抽訪一位先秦先賢的處世金句，獲得今日生活的清明啟發。</p>
+        <div class="wander-header-bar">
+          <div>
+            <h2 class="font-serif section-heading">文海偶拾 ‧ 每日靈感錦囊</h2>
+            <p class="section-subheading">隨機抽取一則先秦警策，在不期而遇的古典箴言中尋找今天的定見。</p>
           </div>
-          <button
-            class="btn btn-primary reroll-wander-btn"
-            :disabled="isWandering"
-            @click="rerollWander"
-          >
-            <ClassicalIcon name="dice" :size="16" />
-            <span>{{ isWandering ? '求索翻尋中…' : '求索博採 ‧ 換一錦囊' }}</span>
+          <button class="btn btn-outline reroll-btn" @click="rerollWander">
+            <ClassicalIcon name="refresh" :size="15" />
+            <span>抽取下一則靈感</span>
           </button>
         </div>
 
@@ -436,106 +608,100 @@ onMounted(() => {
             「{{ wanderingPoint.famousQuote }}」
           </blockquote>
 
-          <p class="wander-source-cite">
-            —— 《{{ wanderingPoint.quoteSource.workTitle }}》· {{ wanderingPoint.quoteSource.chapterTitle }}
-          </p>
-
           <div class="wander-body-grid">
             <div class="wander-block">
-              <h4 class="font-serif block-title">
-                <ClassicalIcon name="lantern" :size="14" />
-                <span>核心智慧精要</span>
-              </h4>
-              <p class="block-text">{{ wanderingPoint.summary }}</p>
+              <span class="wander-block-title font-serif">💡 白話精解</span>
+              <p>{{ wanderingPoint.summary }}</p>
             </div>
-
-            <div class="wander-block highlight-block">
-              <h4 class="font-serif block-title">
-                <ClassicalIcon name="compass" :size="14" />
-                <span>今日生活解藥</span>
-              </h4>
-              <p class="block-text">{{ wanderingPoint.modernApplication }}</p>
+            <div class="wander-block">
+              <span class="wander-block-title font-serif">🌱 現代啟發</span>
+              <p>{{ wanderingPoint.modernApplication }}</p>
             </div>
           </div>
 
-          <div class="wander-reflection">
-            <span class="reflect-tip font-serif">【今日自省策問】</span>
-            <p class="reflect-question">{{ wanderingPoint.reflectionQuestion }}</p>
+          <div class="wander-reflection-box">
+            <span class="wander-ref-title font-serif">【 晨昏探問 】</span>
+            <p>{{ wanderingPoint.reflectionQuestion }}</p>
           </div>
 
           <div class="wander-actions">
-            <button
-              class="btn btn-outline"
-              :class="{ 'is-saved': collectionStore.isCollected(wanderingPoint.id) }"
-              @click="collectionStore.toggleCollect(wanderingPoint.id)"
-            >
-              <ClassicalIcon name="star" :size="14" :color="collectionStore.isCollected(wanderingPoint.id) ? 'var(--gold-400)' : 'currentColor'" />
-              <span>{{ collectionStore.isCollected(wanderingPoint.id) ? '已珍藏入文萃' : '珍藏此智慧' }}</span>
-            </button>
             <button class="btn btn-primary" @click="openPointModal(wanderingPoint)">
-              <ClassicalIcon name="book-open" :size="14" />
-              <span>深入研讀此概念全貌</span>
+              <span>檢視完整思想源流與心法</span>
+              <ClassicalIcon name="arrow-right" :size="14" />
+            </button>
+            <button class="btn btn-ghost" @click="collectionStore.toggleMaster(wanderingPoint.id)">
+              <ClassicalIcon :name="collectionStore.isMastered(wanderingPoint.id) ? 'check' : 'target'" :size="14" />
+              <span>{{ collectionStore.isMastered(wanderingPoint.id) ? '已領會此心法' : '標記為已掌握' }}</span>
             </button>
           </div>
         </article>
       </div>
     </section>
 
-    <!-- ══════════ Tab 4: 外延研讀資源 ══════════ -->
+    <!-- ══════════ Tab 5: 外延研讀資源 ══════════ -->
     <section v-else-if="currentTab === 'resources'" class="tab-section tab-resources">
-      <div class="resources-intro">
-        <h2 class="font-serif section-heading">精選十大學術善本與原典檢索平台</h2>
-        <p class="section-subheading">從一句古文出發，循版本、訓詁與歷代評說，走進更廣闊的中文古典文獻世界。</p>
-      </div>
+      <div class="resource-header-bar">
+        <div>
+          <h2 class="font-serif section-heading">古籍研究與文獻資源</h2>
+          <p class="section-subheading">精選先秦思想權威數位資料庫與研究平台，供進階考據、異文對校與深入專題研讀。</p>
+        </div>
 
-      <nav class="resource-filters" aria-label="文海資源分類">
-        <button
-          v-for="filter in resourceFilters"
-          :key="filter"
-          :class="{ active: resourceFilter === filter }"
-          @click="resourceFilter = filter"
-        >
-          {{ filter }}
-        </button>
-      </nav>
+        <div class="resource-filter-pills">
+          <button
+            v-for="k in resourceFilters"
+            :key="k"
+            class="filter-pill"
+            :class="{ active: resourceFilter === k }"
+            @click="resourceFilter = k"
+          >
+            {{ k }}
+          </button>
+        </div>
+      </div>
 
       <div class="resource-grid">
         <a
-          v-for="(resource, index) in filteredResources"
-          :key="resource.url"
-          class="resource-card glass-card"
-          :href="resource.url"
+          v-for="item in filteredResources"
+          :key="item.url"
+          :href="item.url"
           target="_blank"
           rel="noopener noreferrer"
+          class="resource-card glass-panel"
         >
-          <div class="card-heading">
-            <span class="resource-number font-serif">{{ String(index + 1).padStart(2, '0') }}</span>
-            <span class="kind font-serif">{{ resource.kind }}</span>
+          <div class="card-header">
+            <span class="kind-tag">{{ item.kind }}</span>
+            <span class="target-badge">{{ item.organization }}</span>
           </div>
-          <h3 class="font-serif resource-name">{{ resource.name }}</h3>
-          <p class="organization">{{ resource.organization }}</p>
-          <p class="description">{{ resource.description }}</p>
+          <h3 class="font-serif title">{{ item.name }}</h3>
+          <p class="description">{{ item.description }}</p>
+
           <dl>
-            <div><dt>最適合</dt><dd>{{ resource.bestFor }}</dd></div>
-            <div><dt>語言</dt><dd>{{ resource.language }}</dd></div>
+            <div>
+              <dt>適合</dt>
+              <dd>{{ item.bestFor }}</dd>
+            </div>
+            <div>
+              <dt>語言</dt>
+              <dd>{{ item.language }}</dd>
+            </div>
           </dl>
-          <span class="visit">
-            <span>前往學術網站</span>
-            <ClassicalIcon name="arrow-right" :size="14" />
-          </span>
+
+          <div class="visit">
+            <span>前往研讀</span>
+            <ClassicalIcon name="arrow-right" :size="13" />
+          </div>
         </a>
       </div>
 
-      <p class="research-note font-serif">
-        研究提醒：站外譯文與註釋宜互相比對；正式引用時，請回查底本、版本說明及原網站授權資訊。
-      </p>
+      <div class="research-note font-serif">
+        <p>※ 典籍文脈 ClassicFlow 堅持學術嚴謹性，上述外連資源皆為兩岸三地及國際學界公認之權威學術文獻庫，推薦讀者配合本站原典段落逐字研習。</p>
+      </div>
     </section>
 
-    <!-- 知識點詳細抽屜彈窗 -->
+    <!-- 全局知識點深度彈窗組件 -->
     <KnowledgePointModal
+      v-model="isModalOpen"
       :point="selectedPoint"
-      :is-open="isModalOpen"
-      @close="closePointModal"
       @select-point="handleSelectRelated"
     />
   </div>
@@ -546,20 +712,24 @@ onMounted(() => {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 var(--sp-4) var(--sp-12);
-  animation: fadeIn 0.25s ease-out;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-6);
+  animation: fadeIn 0.3s ease-out;
 }
 
-/* ── 頂部 Hero ────────────────────────────────────── */
+/* 頂部 Hero */
 .wenhai-hero {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: var(--sp-6);
   align-items: center;
   padding: var(--sp-8);
-  margin-bottom: var(--sp-6);
-  border: 1px solid var(--c-border-accent, #c9a96e);
-  border-radius: var(--radius-xl, 16px);
-  background: radial-gradient(circle at 10% 20%, rgba(201, 169, 110, 0.16), transparent 45%), var(--c-bg-card);
+  border-radius: var(--radius-xl);
+  background: radial-gradient(circle at 10% 20%, rgba(201, 169, 110, 0.12), transparent 50%), var(--c-surface-card);
+  border: 1px solid var(--c-border-subtle);
+  position: relative;
+  overflow: hidden;
 }
 
 .hero-seal-wrap {
@@ -568,62 +738,75 @@ onMounted(() => {
   justify-content: center;
 }
 
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
 .eyebrow-row {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: var(--sp-2);
-  margin-bottom: var(--sp-2);
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .eyebrow {
-  color: var(--c-gold, #c9a96e);
   font-size: var(--fs-xs);
-  letter-spacing: 0.18em;
+  color: var(--c-gold);
+  letter-spacing: 0.15em;
   margin: 0;
 }
 
 .hero-stats-badge {
-  font-size: var(--fs-xs);
-  color: var(--c-text-muted);
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: rgba(0, 0, 0, 0.25);
+  font-size: 0.75rem;
+  color: var(--c-text-muted);
+  background: rgba(255, 255, 255, 0.04);
   padding: 3px 10px;
   border-radius: var(--radius-full);
-  border: 1px solid var(--c-border);
+  border: 1px solid var(--c-border-subtle);
 }
 
 .dot-sep {
   opacity: 0.4;
 }
 
+.mastery-rank-pill {
+  color: var(--c-gold);
+  font-weight: 600;
+}
+
 .hero-title {
-  font-size: var(--fs-4xl, 2.4rem);
+  margin: 0;
+  font-size: clamp(1.8rem, 3.2vw, 2.5rem);
+  letter-spacing: 0.06em;
   color: var(--c-text-primary);
-  margin: 0 0 var(--sp-2);
-  line-height: 1.2;
 }
 
 .hero-copy {
-  max-width: 760px;
-  color: var(--c-text-secondary);
-  line-height: 1.8;
-  margin: 0 0 var(--sp-5);
+  margin: 0;
   font-size: var(--fs-sm);
+  color: var(--c-text-secondary);
+  line-height: var(--lh-relaxed);
+  max-width: 820px;
 }
 
+/* 搜尋列 */
 .hero-search-box {
   display: flex;
   align-items: center;
-  gap: var(--sp-3);
-  padding: var(--sp-3) var(--sp-4);
-  background: rgba(0, 0, 0, 0.35);
-  border: 1px solid var(--c-border-accent);
+  gap: 10px;
+  background: var(--c-bg-card, #12100e);
+  border: 1px solid var(--c-border-accent, #c9a96e);
   border-radius: var(--radius-full);
-  max-width: 680px;
+  padding: 8px 16px;
+  margin-top: var(--sp-2);
+  max-width: 640px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
 .hero-search-input {
@@ -635,142 +818,222 @@ onMounted(() => {
   font-size: var(--fs-sm);
 }
 
-.hero-search-input::placeholder {
-  color: var(--c-text-muted);
-}
-
 .search-clear-btn {
   background: transparent;
   border: none;
   color: var(--c-text-muted);
   cursor: pointer;
+  padding: 0;
   display: flex;
   align-items: center;
-  padding: 2px;
 }
 
-/* ── 主導覽分頁 ─────────────────────────────────── */
+/* 修行進度儀表盤 */
+.mastery-summary-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  padding: 16px 22px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--c-border-accent, #c9a96e);
+  background: linear-gradient(135deg, rgba(201, 169, 110, 0.08), rgba(0, 0, 0, 0.25));
+  flex-wrap: wrap;
+}
+
+.mastery-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.mastery-level-seal {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  background: #a64b4b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(166, 75, 75, 0.35);
+}
+
+.mastery-seal-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.mastery-title-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mastery-title-line strong {
+  font-size: 1.15rem;
+  color: var(--c-text-primary);
+}
+
+.mastery-sub {
+  font-size: 0.8rem;
+  color: var(--c-gold);
+  font-weight: 600;
+}
+
+.mastery-desc {
+  margin: 2px 0 0;
+  font-size: 0.82rem;
+  color: var(--c-text-muted);
+}
+
+.mastery-stats-chips {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.mini-stat-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  color: var(--c-text-secondary);
+  background: rgba(255, 255, 255, 0.04);
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--c-border-subtle);
+}
+
+.mini-stat-chip strong {
+  color: var(--c-text-primary);
+}
+
+/* 分頁導覽列 */
 .main-tab-nav {
   display: flex;
-  gap: var(--sp-2);
-  margin-bottom: var(--sp-6);
-  border-bottom: 1px solid var(--c-border);
-  padding-bottom: var(--sp-2);
+  gap: 8px;
   overflow-x: auto;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--c-border-subtle);
 }
 
 .main-tab-btn {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: var(--sp-3) var(--sp-5);
-  border: none;
-  border-bottom: 2px solid transparent;
+  padding: 10px 18px;
+  border-radius: var(--radius-full);
+  border: 1px solid transparent;
   background: transparent;
   color: var(--c-text-muted);
   font-size: var(--fs-sm);
-  font-weight: 500;
   cursor: pointer;
-  transition: all var(--duration-fast);
   white-space: nowrap;
+  transition: all 0.2s ease;
 }
 
 .main-tab-btn:hover {
   color: var(--c-text-primary);
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .main-tab-btn.active {
+  background: var(--c-gold-glow, rgba(201, 169, 110, 0.15));
+  border-color: var(--c-border-accent);
   color: var(--c-gold);
-  border-bottom-color: var(--c-gold);
-  background: rgba(201, 169, 110, 0.06);
+  font-weight: 600;
 }
 
 .tab-badge {
-  font-size: 0.7rem;
-  padding: 1px 6px;
-  border-radius: var(--radius-full);
-  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.72rem;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: rgba(201, 169, 110, 0.2);
+  color: var(--c-gold-dark, #c9a96e);
 }
 
-.main-tab-btn.active .tab-badge {
-  background: var(--c-gold-glow);
-  color: var(--c-gold);
-}
-
-/* ── 篩選工具列 ─────────────────────────────────── */
+/* 工具列與篩選膠囊 */
 .filters-toolbar {
   display: flex;
   flex-direction: column;
   gap: var(--sp-3);
-  margin-bottom: var(--sp-6);
+  margin-bottom: var(--sp-5);
 }
 
 .category-pills {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--sp-2);
+  gap: 8px;
 }
 
 .filter-pill {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: var(--sp-2) var(--sp-4);
-  border: 1px solid var(--c-border);
+  padding: 6px 14px;
   border-radius: var(--radius-full);
-  background: transparent;
-  color: var(--c-text-muted);
+  border: 1px solid var(--c-border-subtle);
+  background: var(--c-surface-card);
+  color: var(--c-text-secondary);
   font-size: var(--fs-xs);
   cursor: pointer;
-  transition: all var(--duration-fast);
+  transition: all 0.18s ease;
 }
 
-.filter-pill:hover,
-.filter-pill.active {
-  color: var(--c-gold);
+.filter-pill:hover {
   border-color: var(--c-border-accent);
-  background: var(--c-gold-glow);
+  color: var(--c-text-primary);
+}
+
+.filter-pill.active {
+  background: rgba(201, 169, 110, 0.15);
+  border-color: var(--c-border-accent);
+  color: var(--c-gold);
+  font-weight: 600;
 }
 
 .secondary-filters {
   display: flex;
   align-items: center;
-  gap: var(--sp-3);
+  gap: 10px;
   flex-wrap: wrap;
 }
 
 .school-select {
-  padding: 6px 12px;
-  background: var(--c-bg-card);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-md);
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--c-border-subtle);
+  background: var(--c-surface-card);
   color: var(--c-text-secondary);
   font-size: var(--fs-xs);
   outline: none;
+  cursor: pointer;
 }
 
 .collect-filter-btn {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 6px 14px;
-  background: transparent;
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-md);
-  color: var(--c-text-muted);
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--c-border-subtle);
+  background: var(--c-surface-card);
+  color: var(--c-text-secondary);
   font-size: var(--fs-xs);
   cursor: pointer;
-  transition: all var(--duration-fast);
+  transition: all 0.18s ease;
 }
 
-.collect-filter-btn:hover,
 .collect-filter-btn.active {
   border-color: var(--gold-400);
+  background: rgba(212, 162, 93, 0.12);
   color: var(--gold-400);
-  background: rgba(201, 169, 110, 0.08);
 }
 
-/* ── 知識點網格卡片 ─────────────────────────────── */
+/* 知識點卡片網格 */
 .points-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -778,110 +1041,131 @@ onMounted(() => {
 }
 
 .point-card {
+  padding: var(--sp-5);
+  border-radius: var(--radius-lg);
   display: flex;
   flex-direction: column;
-  padding: var(--sp-5);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-lg);
-  background: var(--c-bg-card);
   cursor: pointer;
-  transition: transform var(--duration-fast), border-color var(--duration-fast), box-shadow var(--duration-fast);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  position: relative;
 }
 
 .point-card:hover {
-  transform: translateY(-3px);
+  transform: translateY(-2px);
   border-color: var(--c-border-accent);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
 }
 
 .card-top-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: var(--sp-3);
+  margin-bottom: 8px;
 }
 
 .card-category-tag {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  font-size: var(--fs-xs);
+  font-size: 0.75rem;
   color: var(--c-gold);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .card-status-badges {
   display: flex;
   align-items: center;
-  gap: var(--sp-2);
+  gap: 6px;
 }
 
-.status-badge.mastered {
+.status-badge {
   display: inline-flex;
   align-items: center;
   gap: 3px;
-  font-size: 0.7rem;
-  padding: 1px 7px;
+  font-size: 0.72rem;
+  padding: 2px 7px;
   border-radius: var(--radius-full);
+}
+
+.status-badge.mastered {
   background: rgba(91, 138, 114, 0.15);
-  color: var(--c-accent-dao, #5b8a72);
-  border: 1px solid rgba(91, 138, 114, 0.3);
+  color: #5b8a72;
+}
+
+.status-badge.note-badge {
+  background: rgba(201, 169, 110, 0.15);
+  color: var(--c-gold);
 }
 
 .star-icon-btn {
   background: transparent;
   border: none;
   cursor: pointer;
+  padding: 0;
   display: flex;
-  padding: 2px;
+  align-items: center;
 }
 
 .card-title-group {
-  margin-bottom: var(--sp-2);
+  margin-bottom: 6px;
 }
 
 .point-title {
-  margin: 0 0 2px;
-  font-size: var(--fs-xl);
+  margin: 0;
+  font-size: 1.22rem;
   color: var(--c-text-primary);
-  line-height: 1.3;
+  letter-spacing: 0.03em;
 }
 
 .point-figure {
-  font-size: var(--fs-xs);
+  font-size: 0.75rem;
   color: var(--c-text-muted);
 }
 
 .point-tagline {
-  font-size: var(--fs-sm);
-  color: var(--c-gold);
-  margin: var(--sp-2) 0;
+  margin: 6px 0 12px;
+  font-size: 0.84rem;
+  color: var(--c-text-secondary);
   line-height: 1.5;
 }
 
 .point-quote {
-  margin: var(--sp-3) 0;
-  padding: var(--sp-3) var(--sp-4);
-  background: rgba(0, 0, 0, 0.2);
+  margin: 0 0 16px;
+  padding: 8px 12px;
+  background: rgba(201, 169, 110, 0.05);
   border-left: 2px solid var(--c-gold);
-  border-radius: 4px;
-  font-size: var(--fs-sm);
+  border-radius: 0 6px 6px 0;
+  font-size: 0.88rem;
+  line-height: 1.6;
   color: var(--c-text-primary);
-  line-height: 1.7;
 }
 
 .card-bottom-row {
   margin-top: auto;
-  padding-top: var(--sp-3);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
-  font-size: var(--fs-xs);
+  padding-top: 10px;
+  border-top: 1px dashed var(--c-border-subtle);
+  font-size: 0.78rem;
+}
+
+.card-foot-left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .quote-source-label {
   color: var(--c-text-muted);
+}
+
+.difficulty-indicator {
+  font-size: 0.72rem;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--c-gold);
 }
 
 .open-detail-link {
@@ -889,460 +1173,568 @@ onMounted(() => {
   align-items: center;
   gap: 4px;
   color: var(--c-gold);
+  font-weight: 500;
 }
 
-/* ── 學程路徑樣式 ───────────────────────────────── */
-.section-heading {
-  font-size: var(--fs-2xl);
+/* ══════════ 心靈解惑處方 (Dilemma) ══════════ */
+.dilemma-intro {
+  margin-bottom: var(--sp-4);
+}
+
+.dilemma-selector-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin-bottom: var(--sp-6);
+}
+
+.dilemma-pill-card {
+  padding: 14px 16px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--c-border-subtle);
+  background: var(--c-surface-card);
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.dilemma-pill-card:hover {
+  border-color: var(--c-border-accent);
+  transform: translateY(-2px);
+}
+
+.dilemma-pill-card.is-selected {
+  border-color: var(--c-gold);
+  background: rgba(201, 169, 110, 0.12);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pill-seal-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.dilemma-seal {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--c-gold);
+}
+
+.dilemma-pill-title {
+  margin: 0 0 4px;
+  font-size: 1.05rem;
   color: var(--c-text-primary);
-  margin: 0 0 var(--sp-2);
 }
 
-.section-subheading {
-  font-size: var(--fs-sm);
+.dilemma-pill-sub {
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--c-text-muted);
+  line-height: 1.4;
+}
+
+.dilemma-detail-panel {
+  padding: var(--sp-6);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--c-border-accent);
+}
+
+.dilemma-detail-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-5);
+  padding-bottom: var(--sp-5);
+  border-bottom: 1px dashed var(--c-border-subtle);
+  margin-bottom: var(--sp-6);
+}
+
+.diag-label,
+.remedy-label {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--c-gold);
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.diag-text,
+.remedy-text {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.65;
   color: var(--c-text-secondary);
-  margin: 0 0 var(--sp-6);
-  max-width: 720px;
-  line-height: 1.7;
 }
 
-.tracks-grid {
+.pres-heading {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.15rem;
+  color: var(--c-text-primary);
+  margin: 0 0 16px;
+}
+
+.prescriptions-list {
   display: flex;
   flex-direction: column;
-  gap: var(--sp-6);
+  gap: 14px;
+}
+
+.prescription-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 20px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--c-border-subtle);
+}
+
+.pres-num {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(201, 169, 110, 0.15);
+  color: var(--c-gold);
+  font-size: 1.05rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.pres-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pres-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pres-point-link {
+  font-size: 1.1rem;
+  color: var(--c-gold);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.pres-work {
+  font-size: 0.78rem;
+  color: var(--c-text-muted);
+}
+
+.pres-btn {
+  margin-left: auto;
+  font-size: 0.75rem;
+  padding: 2px 10px;
+  color: var(--c-gold);
+}
+
+.pres-quote {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  color: var(--c-text-primary);
+  line-height: 1.6;
+}
+
+.pres-action {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--c-text-secondary);
+  line-height: 1.5;
+}
+
+/* ══════════ 修習學程 (Tracks) ══════════ */
+.tracks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: var(--sp-5);
 }
 
 .track-card {
   padding: var(--sp-6);
-  border: 1px solid var(--c-border);
   border-radius: var(--radius-xl);
-  background: var(--c-bg-card);
-  transition: border-color var(--duration-fast);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  border: 1px solid var(--c-border-subtle);
+  transition: all 0.2s ease;
 }
 
 .track-card.is-active-track {
-  border-color: var(--c-border-accent);
-  box-shadow: 0 0 24px rgba(201, 169, 110, 0.12);
+  border-color: var(--c-gold);
+  box-shadow: 0 8px 30px rgba(201, 169, 110, 0.12);
 }
 
 .track-card-header {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: var(--sp-4);
-  margin-bottom: var(--sp-4);
+  gap: var(--sp-3);
 }
 
 .track-badge-group {
   display: flex;
-  align-items: center;
-  gap: var(--sp-4);
+  align-items: flex-start;
+  gap: 12px;
 }
 
 .track-est-time {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  font-size: var(--fs-xs);
+  font-size: 0.72rem;
   color: var(--c-text-muted);
-  margin-bottom: var(--sp-1);
 }
 
 .track-title {
-  margin: 0 0 2px;
-  font-size: var(--fs-xl);
+  margin: 2px 0 4px;
+  font-size: 1.25rem;
   color: var(--c-text-primary);
 }
 
 .track-subtitle {
   margin: 0;
-  font-size: var(--fs-xs);
+  font-size: 0.82rem;
   color: var(--c-gold);
 }
 
 .track-summary {
-  font-size: var(--fs-sm);
+  margin: 0;
+  font-size: 0.86rem;
+  line-height: 1.65;
   color: var(--c-text-secondary);
-  line-height: 1.7;
-  margin: 0 0 var(--sp-4);
 }
 
 .track-progress-box {
-  margin-bottom: var(--sp-5);
+  background: rgba(0, 0, 0, 0.2);
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--c-border-subtle);
 }
 
-.progress-meta {
+.progress-info-row {
   display: flex;
   justify-content: space-between;
-  font-size: var(--fs-xs);
+  align-items: center;
+  font-size: 0.75rem;
+  margin-bottom: 6px;
+}
+
+.progress-label {
+  color: var(--c-gold);
+  font-weight: 600;
+}
+
+.progress-stats {
+  color: var(--c-text-muted);
+}
+
+.progress-track-bar {
+  width: 100%;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-fill-bar {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.4s ease;
+}
+
+.steps-heading {
+  display: block;
+  font-size: 0.75rem;
   color: var(--c-text-muted);
   margin-bottom: 6px;
 }
 
-.track-progress-track {
-  height: 6px;
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: var(--radius-full);
-  overflow: hidden;
-}
-
-.track-progress-bar {
-  height: 100%;
-  border-radius: var(--radius-full);
-  transition: width 0.3s ease;
-}
-
-.ladder-title {
-  font-size: var(--fs-xs);
-  color: var(--c-gold);
-  margin: 0 0 var(--sp-3);
-  letter-spacing: 0.06em;
-}
-
-.ladder-nodes {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: var(--sp-3);
-  margin-bottom: var(--sp-4);
-}
-
-.ladder-node {
+.steps-chips {
   display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.track-step-pill {
+  display: inline-flex;
   align-items: center;
-  gap: var(--sp-3);
-  padding: var(--sp-3) var(--sp-4);
-  background: rgba(0, 0, 0, 0.2);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-md);
+  gap: 4px;
+  font-size: 0.78rem;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--c-border-subtle);
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--c-text-secondary);
   cursor: pointer;
-  transition: all var(--duration-fast);
+  transition: all 0.18s ease;
 }
 
-.ladder-node:hover {
-  border-color: var(--c-border-accent);
-  background: var(--c-bg-card-hover);
-  transform: translateY(-2px);
+.track-step-pill:hover {
+  border-color: var(--c-gold);
+  color: var(--c-gold);
 }
 
-.node-order {
-  width: 24px;
-  height: 24px;
-  border-radius: var(--radius-full);
-  background: rgba(255, 255, 255, 0.08);
+.track-step-pill.is-mastered {
+  border-color: #5b8a72;
+  background: rgba(91, 138, 114, 0.12);
+  color: #5b8a72;
+}
+
+.track-card-footer {
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px dashed var(--c-border-subtle);
+  font-size: 0.76rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: var(--fs-xs);
-  font-weight: 600;
-  flex-shrink: 0;
-}
-
-.node-order.is-done {
-  background: rgba(91, 138, 114, 0.2);
-  color: var(--c-accent-dao, #5b8a72);
-  border: 1px solid var(--c-accent-dao);
-}
-
-.node-info {
-  flex: 1;
-  min-width: 0;
-}
-
-.node-title {
-  display: block;
-  font-size: var(--fs-sm);
-  color: var(--c-text-primary);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.node-tagline {
-  display: block;
-  font-size: 0.72rem;
+  flex-direction: column;
+  gap: 4px;
   color: var(--c-text-muted);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
-.track-footer {
-  font-size: var(--fs-xs);
-  color: var(--c-text-muted);
-  padding-top: var(--sp-3);
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-/* ── 每日漫遊樣式 ───────────────────────────────── */
+/* ══════════ 靈感漫遊 (Wander) ══════════ */
 .wander-wrapper {
   max-width: 820px;
   margin: 0 auto;
 }
 
-.wander-toolbar {
+.wander-header-bar {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
+  margin-bottom: var(--sp-4);
   gap: var(--sp-4);
-  margin-bottom: var(--sp-6);
-  flex-wrap: wrap;
-}
-
-.wander-title {
-  font-size: var(--fs-2xl);
-  color: var(--c-text-primary);
-  margin: 0 0 var(--sp-1);
-}
-
-.wander-desc {
-  font-size: var(--fs-sm);
-  color: var(--c-text-secondary);
-  margin: 0;
-  line-height: 1.6;
 }
 
 .wander-card {
   padding: var(--sp-8);
-  border: 1px solid var(--c-border-accent);
   border-radius: var(--radius-xl);
-  background: radial-gradient(circle at 10% 20%, rgba(201, 169, 110, 0.12), transparent 45%), var(--c-bg-card);
-  transition: opacity 0.2s ease, transform 0.2s ease;
+  border: 1px solid var(--c-border-accent);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-5);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.22s ease, transform 0.22s ease;
 }
 
 .wander-card.is-animating {
-  opacity: 0.6;
-  transform: scale(0.99);
+  opacity: 0.3;
+  transform: scale(0.98);
 }
 
 .wander-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: var(--sp-6);
 }
 
 .wander-seal-title {
   display: flex;
   align-items: center;
-  gap: var(--sp-4);
+  gap: 12px;
 }
 
 .wander-cat-label {
-  font-size: var(--fs-xs);
+  font-size: 0.8rem;
   color: var(--c-gold);
 }
 
 .wander-point-title {
-  font-size: var(--fs-2xl);
+  margin: 0;
+  font-size: 1.45rem;
   color: var(--c-text-primary);
-  margin: 2px 0 0;
 }
 
 .wander-main-quote {
-  font-size: 1.45rem;
-  line-height: 1.8;
+  font-size: 1.25rem;
+  line-height: 1.7;
   color: var(--c-text-primary);
-  margin: 0 0 var(--sp-2);
-  letter-spacing: 0.04em;
-}
-
-.wander-source-cite {
-  font-size: var(--fs-xs);
-  color: var(--c-text-muted);
-  text-align: right;
-  margin: 0 0 var(--sp-6);
+  margin: 0;
+  padding: var(--sp-4) var(--sp-5);
+  background: rgba(201, 169, 110, 0.08);
+  border-left: 3px solid var(--c-gold);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
 }
 
 .wander-body-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--sp-4);
-  margin-bottom: var(--sp-6);
 }
 
 .wander-block {
   padding: var(--sp-4);
-  background: rgba(0, 0, 0, 0.25);
   border-radius: var(--radius-md);
-  border: 1px solid var(--c-border);
+  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--c-border-subtle);
 }
 
-.wander-block.highlight-block {
-  background: rgba(91, 138, 114, 0.08);
-  border-left: 3px solid var(--c-accent-dao, #5b8a72);
-}
-
-.block-title {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: var(--fs-sm);
-  color: var(--c-gold);
-  margin: 0 0 var(--sp-2);
-}
-
-.block-text {
-  margin: 0;
-  font-size: var(--fs-xs);
-  color: var(--c-text-secondary);
-  line-height: 1.8;
-}
-
-.wander-reflection {
-  padding: var(--sp-4);
-  background: rgba(181, 141, 61, 0.08);
-  border: 1px dashed var(--c-gold);
-  border-radius: var(--radius-md);
-  margin-bottom: var(--sp-6);
-}
-
-.reflect-tip {
+.wander-block-title {
   display: block;
-  font-size: var(--fs-xs);
+  font-size: 0.82rem;
   color: var(--c-gold);
-  margin-bottom: var(--sp-1);
+  margin-bottom: 6px;
 }
 
-.reflect-question {
+.wander-block p {
   margin: 0;
-  font-size: var(--fs-sm);
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--c-text-secondary);
+}
+
+.wander-reflection-box {
+  padding: var(--sp-4);
+  border-radius: var(--radius-md);
+  background: rgba(201, 169, 110, 0.06);
+  border: 1px dashed var(--c-border-accent);
+}
+
+.wander-ref-title {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--c-gold);
+  margin-bottom: 4px;
+}
+
+.wander-reflection-box p {
+  margin: 0;
+  font-size: 0.92rem;
   color: var(--c-text-primary);
-  font-style: italic;
   line-height: 1.6;
 }
 
 .wander-actions {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   gap: var(--sp-3);
+  padding-top: var(--sp-2);
 }
 
-/* ── 外延資源樣式 ───────────────────────────────── */
-.resource-filters {
+/* ══════════ 外延研讀資源 (Resources) ══════════ */
+.resource-header-bar {
   display: flex;
-  gap: var(--sp-2);
-  overflow-x: auto;
-  padding-bottom: var(--sp-4);
-  margin-bottom: var(--sp-4);
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  margin-bottom: var(--sp-5);
+  flex-wrap: wrap;
 }
 
-.resource-filters button {
-  white-space: nowrap;
-  padding: var(--sp-2) var(--sp-4);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-full);
-  background: transparent;
-  color: var(--c-text-muted);
-  cursor: pointer;
-  transition: all var(--duration-fast);
-}
-
-.resource-filters button:hover,
-.resource-filters button.active {
-  color: var(--c-gold);
-  border-color: var(--c-border-accent);
-  background: var(--c-gold-glow);
+.resource-filter-pills {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 
 .resource-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: var(--sp-4);
 }
 
 .resource-card {
+  padding: var(--sp-5);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--c-border-subtle);
+  text-decoration: none;
   display: flex;
   flex-direction: column;
-  min-height: 310px;
-  padding: var(--sp-6);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-lg);
-  background: var(--c-bg-card);
-  color: inherit;
-  text-decoration: none;
-  transition: transform var(--duration-fast), border-color var(--duration-fast);
+  transition: all 0.2s ease;
 }
 
 .resource-card:hover {
-  transform: translateY(-3px);
-  border-color: var(--c-border-accent);
+  border-color: var(--c-gold);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
 }
 
-.card-heading {
+.card-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-bottom: var(--sp-4);
+  justify-content: space-between;
+  margin-bottom: 6px;
 }
 
-.resource-number {
-  color: var(--c-text-muted);
-}
-
-.kind {
-  padding: 3px 9px;
+.kind-tag {
+  font-size: 0.72rem;
+  padding: 2px 8px;
   border-radius: var(--radius-full);
-  background: var(--c-gold-glow);
+  background: rgba(201, 169, 110, 0.15);
   color: var(--c-gold);
-  font-size: var(--fs-xs);
+  font-weight: 600;
 }
 
-.resource-name {
-  color: var(--c-text-primary);
-  font-size: var(--fs-xl);
-  margin: 0;
-}
-
-.organization {
-  margin: var(--sp-1) 0 var(--sp-4);
-  color: var(--c-gold);
-  font-size: var(--fs-xs);
-}
-
-.description {
-  color: var(--c-text-secondary);
-  line-height: 1.7;
-  font-size: var(--fs-sm);
-}
-
-dl {
-  margin: var(--sp-4) 0;
-  font-size: var(--fs-xs);
-}
-
-dl div {
-  display: grid;
-  grid-template-columns: 54px 1fr;
-  gap: var(--sp-2);
-  margin-top: var(--sp-2);
-}
-
-dt {
+.target-badge {
+  font-size: 0.72rem;
   color: var(--c-text-muted);
 }
 
-dd {
-  color: var(--c-text-secondary);
-  margin: 0;
+.resource-card .title {
+  margin: 4px 0 8px;
+  font-size: 1.15rem;
+  color: var(--c-text-primary);
 }
 
-.visit {
+.resource-card .description {
+  margin: 0 0 12px;
+  font-size: 0.85rem;
+  color: var(--c-text-secondary);
+  line-height: 1.6;
+}
+
+.resource-card dl {
+  margin: 0 0 16px;
+  font-size: 0.78rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.resource-card dl div {
+  display: flex;
+  gap: 8px;
+}
+
+.resource-card dt {
+  color: var(--c-text-muted);
+  flex-shrink: 0;
+}
+
+.resource-card dd {
+  margin: 0;
+  color: var(--c-text-secondary);
+}
+
+.resource-card .visit {
   margin-top: auto;
-  color: var(--c-gold);
-  font-size: var(--fs-sm);
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 4px;
+  font-size: 0.82rem;
+  color: var(--c-gold);
+  font-weight: 500;
 }
 
 .research-note {
-  margin: var(--sp-8) 0;
+  margin-top: var(--sp-6);
   padding: var(--sp-4);
-  border-left: 3px solid var(--c-gold-dark);
+  border-left: 3px solid var(--c-gold);
+  font-size: 0.82rem;
   color: var(--c-text-muted);
-  font-size: var(--fs-xs);
-  line-height: 1.7;
+  line-height: 1.6;
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .empty-state {
@@ -1364,14 +1756,11 @@ dd {
     grid-template-columns: 1fr;
     padding: var(--sp-6);
   }
-  .resource-grid {
+  .dilemma-detail-header {
     grid-template-columns: 1fr;
   }
   .wander-body-grid {
     grid-template-columns: 1fr;
-  }
-  .track-card-header {
-    flex-direction: column;
   }
   .wander-actions {
     flex-direction: column;
@@ -1379,6 +1768,10 @@ dd {
   .wander-actions button {
     width: 100%;
     justify-content: center;
+  }
+  .mastery-summary-bar {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 </style>

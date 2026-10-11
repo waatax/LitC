@@ -1627,8 +1627,8 @@ export const AUDIO_MANIFEST: Record<string, AudioManifestItem> = {
   },
   "lun-yu_ch-1_p-1": {
     "passageId": "lun-yu_ch-1_p-1",
-    "duration": 6.67,
-    "sizeBytes": 66672,
+    "duration": 10.704,
+    "sizeBytes": 64224,
     "voice": "zh-TW-YunJheNeural",
     "rate": "-8%",
     "url": "audio/lun-yu/lun-yu_ch-1_p-1.mp3"

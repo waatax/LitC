@@ -1,5 +1,5 @@
 {
-  "auditTimestamp": "2026-10-06T00:33:24.138Z",
+  "auditTimestamp": "2026-10-11T16:29:12.544Z",
   "totalWorks": 51,
   "totalChapters": 1131,
   "totalPassages": 10896,
@@ -7,6 +7,7 @@
   "passagesWithTtsAudio": 10610,
   "totalRecitationCovered": 10896,
   "coveragePercent": 100,
+  "physicalAudioCoveragePercent": 2.62,
   "workStats": {
     "art-of-war": {
       "workId": "art-of-war",

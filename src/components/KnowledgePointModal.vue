@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { ref, computed, watch, onUnmounted } from 'vue'
 import { useRouter } from 'vue-router'
 import type { KnowledgePoint } from '@/data/knowledgeGraph'
-import { getKnowledgePointById, getRelatedPoints, KNOWLEDGE_CATEGORIES } from '@/data/knowledgeGraph'
+import { getRelatedPoints, KNOWLEDGE_CATEGORIES } from '@/data/knowledgeGraph'
 import { useKnowledgeCollectionStore } from '@/stores/knowledgeCollection'
+import { speechService } from '@/services/speech'
 import ClassicalIcon from '@/components/ClassicalIcon.vue'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import RedSeal from '@/components/RedSeal.vue'
@@ -29,6 +30,11 @@ const emit = defineEmits<{
 const router = useRouter()
 const store = useKnowledgeCollectionStore()
 
+const userNote = ref('')
+const isNoteSaving = ref(false)
+const saveNoteStatus = ref('')
+const isCopied = ref(false)
+
 const isModalVisible = computed(() => {
   if (props.isOpen !== undefined) {
     return props.isOpen
@@ -37,6 +43,9 @@ const isModalVisible = computed(() => {
 })
 
 function closeModal() {
+  if (isQuoteSpeaking.value) {
+    speechService.stop()
+  }
   emit('close')
   emit('update:modelValue', false)
 }
@@ -61,6 +70,78 @@ const isMastered = computed(() => {
   return store.isMastered(props.point.id)
 })
 
+const isQuoteSpeaking = computed(() => {
+  if (!props.point) return false
+  return (
+    speechService.state.currentPassageId === props.point.quoteSource.chapterId &&
+    speechService.state.isPlaying &&
+    !speechService.state.isPaused
+  )
+})
+
+watch(
+  () => props.point?.id,
+  (newId) => {
+    if (newId) {
+      userNote.value = store.getNote(newId)
+      saveNoteStatus.value = ''
+    } else {
+      userNote.value = ''
+    }
+  },
+  { immediate: true }
+)
+
+let saveNoteTimer: ReturnType<typeof setTimeout> | null = null
+function handleNoteInput() {
+  if (!props.point) return
+  if (saveNoteTimer) clearTimeout(saveNoteTimer)
+  isNoteSaving.value = true
+  saveNoteTimer = setTimeout(() => {
+    if (props.point) {
+      store.saveNote(props.point.id, userNote.value)
+      isNoteSaving.value = false
+      saveNoteStatus.value = '札記已保存'
+      setTimeout(() => {
+        saveNoteStatus.value = ''
+      }, 2000)
+    }
+  }, 400)
+}
+
+function playQuoteSpeech() {
+  if (!props.point) return
+  if (isQuoteSpeaking.value) {
+    speechService.stop()
+    return
+  }
+  speechService.speakPassage(
+    props.point.quoteSource.chapterId,
+    props.point.famousQuote,
+    'canonical',
+    {
+      workTitle: props.point.quoteSource.workTitle,
+      chapterTitle: props.point.quoteSource.chapterTitle,
+      canonicalText: props.point.famousQuote,
+      vernacularText: props.point.summary,
+    }
+  )
+}
+
+async function copyQuoteCard() {
+  if (!props.point) return
+  const text = `「${props.point.famousQuote}」\n—— 《${props.point.quoteSource.workTitle}》· ${props.point.quoteSource.chapterTitle}\n\n【白話精解】${props.point.summary}\n【現代實踐】${props.point.modernApplication}\n\n—— 經典文脈 ClassicFlow 研習札記`
+  try {
+    await navigator.clipboard.writeText(text)
+    isCopied.value = true
+    setTimeout(() => {
+      isCopied.value = false
+    }, 2000)
+  } catch {
+    // clipboard fallback
+  }
+}
+
 function handleToggleCollect() {
   if (!props.point) return
   store.toggleCollect(props.point.id)
@@ -80,6 +161,10 @@ function goToSourceChapter() {
 function selectRelated(related: KnowledgePoint) {
   emit('selectPoint', related)
 }
+
+onUnmounted(() => {
+  if (saveNoteTimer) clearTimeout(saveNoteTimer)
+})
 </script>
 
 <template>
@@ -136,7 +221,26 @@ function selectRelated(related: KnowledgePoint) {
           <section class="quote-banner">
             <div class="quote-header">
               <span class="quote-label font-serif">【傳世原文】</span>
-              <SchoolBadge :school-id="point.schoolId" size="sm" />
+              <div class="quote-header-tools">
+                <button
+                  class="quote-tool-mini-btn"
+                  :class="{ 'is-active': isQuoteSpeaking }"
+                  :title="isQuoteSpeaking ? '暫停朗讀' : '聆聽古韻正音朗讀'"
+                  @click="playQuoteSpeech"
+                >
+                  <ClassicalIcon :name="isQuoteSpeaking ? 'audio-playing' : 'volume'" :size="14" :color="isQuoteSpeaking ? 'var(--c-gold)' : undefined" />
+                  <span>{{ isQuoteSpeaking ? '正音朗讀中' : '聽古韻朗讀' }}</span>
+                </button>
+                <button
+                  class="quote-tool-mini-btn"
+                  :title="isCopied ? '已複製' : '抄錄金句'"
+                  @click="copyQuoteCard"
+                >
+                  <ClassicalIcon :name="isCopied ? 'check' : 'copy'" :size="13" :color="isCopied ? '#5b8a72' : undefined" />
+                  <span>{{ isCopied ? '已抄錄' : '抄錄' }}</span>
+                </button>
+                <SchoolBadge :school-id="point.schoolId" size="sm" />
+              </div>
             </div>
             <p class="quote-text font-serif">「{{ point.famousQuote }}」</p>
             <div class="quote-meta-row">
@@ -198,6 +302,33 @@ function selectRelated(related: KnowledgePoint) {
             <div class="reflection-box">
               <span class="reflection-label font-serif">【晨昏省思 ‧ 探問本心】</span>
               <p class="reflection-question">{{ point.reflectionQuestion }}</p>
+            </div>
+          </section>
+
+          <!-- 個人研讀札記 ‧ 修持心得 -->
+          <section class="section-block note-block">
+            <div class="note-header">
+              <h3 class="section-title font-serif">
+                <ClassicalIcon name="brush" :size="15" />
+                <span>研讀札記 ‧ 修持心得</span>
+              </h3>
+              <span v-if="saveNoteStatus" class="save-status-badge font-serif">
+                <ClassicalIcon name="check" :size="11" />
+                <span>{{ saveNoteStatus }}</span>
+              </span>
+            </div>
+            <div class="note-input-container">
+              <textarea
+                v-model="userNote"
+                class="note-textarea font-serif"
+                placeholder="在此記下你的體悟、生活反思或行動計劃（自動儲存於本地）…"
+                rows="3"
+                @input="handleNoteInput"
+              ></textarea>
+              <div class="note-footer-hint">
+                <span>💡 札記將保存在修行履歷中，隨時回訪溫故知新</span>
+                <span class="note-char-count font-serif">{{ userNote.length }} 字</span>
+              </div>
             </div>
           </section>
 
@@ -280,61 +411,64 @@ function selectRelated(related: KnowledgePoint) {
 }
 
 .modal-header {
-  padding: var(--sp-5) var(--sp-6) var(--sp-3);
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  gap: var(--sp-4);
+  padding: var(--sp-5) var(--sp-6) var(--sp-4);
   border-bottom: 1px solid var(--c-border, rgba(201, 169, 110, 0.15));
 }
 
 .header-left {
   display: flex;
   align-items: center;
-  gap: var(--sp-4);
+  gap: var(--sp-3);
+}
+
+.title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 .category-meta-strip {
   display: flex;
   align-items: center;
-  gap: var(--sp-2);
-  margin-bottom: var(--sp-1);
+  gap: 8px;
+  font-size: var(--fs-xs, 0.75rem);
 }
 
 .category-tag {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  font-size: var(--fs-xs, 0.75rem);
   font-weight: 600;
   letter-spacing: 0.05em;
 }
 
 .pinyin-label {
-  font-size: var(--fs-xs, 0.75rem);
-  color: var(--c-text-muted, #8a857b);
-  font-family: var(--font-serif);
+  color: var(--c-text-muted);
+  font-style: italic;
 }
 
 .period-badge {
   font-size: 0.7rem;
   padding: 1px 6px;
   border-radius: 4px;
-  background: var(--c-border, rgba(255, 255, 255, 0.08));
-  color: var(--c-text-secondary, #b8b2a7);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--c-text-muted);
 }
 
 .point-main-title {
-  font-size: var(--fs-2xl, 1.65rem);
-  color: var(--c-text-primary, #f5ecd8);
   margin: 0;
-  line-height: 1.25;
+  font-size: 1.45rem;
+  color: var(--c-text-primary, #f5ecd8);
+  letter-spacing: 0.04em;
 }
 
 .header-actions {
   display: flex;
   align-items: center;
-  gap: var(--sp-2);
+  gap: 8px;
 }
 
 .action-icon-btn {
@@ -394,6 +528,38 @@ function selectRelated(related: KnowledgePoint) {
   margin-bottom: var(--sp-2);
 }
 
+.quote-header-tools {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.quote-tool-mini-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.75rem;
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--c-border-subtle, rgba(201, 169, 110, 0.2));
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--c-text-muted);
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.quote-tool-mini-btn:hover {
+  background: rgba(201, 169, 110, 0.1);
+  color: var(--c-gold);
+  border-color: var(--c-border-accent);
+}
+
+.quote-tool-mini-btn.is-active {
+  background: rgba(201, 169, 110, 0.15);
+  color: var(--c-gold);
+  border-color: var(--c-gold);
+}
+
 .quote-label {
   font-size: var(--fs-xs, 0.75rem);
   color: var(--c-gold);
@@ -448,7 +614,7 @@ function selectRelated(related: KnowledgePoint) {
   margin: 0;
   font-size: var(--fs-sm, 0.9rem);
   color: var(--c-text-secondary, #b8b2a7);
-  line-height: 1.8;
+  line-height: var(--lh-relaxed, 1.75);
 }
 
 .insights-list {
@@ -457,102 +623,187 @@ function selectRelated(related: KnowledgePoint) {
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: var(--sp-2);
+  gap: 8px;
 }
 
 .insight-item {
   display: flex;
   align-items: flex-start;
-  gap: var(--sp-2);
-  font-size: var(--fs-sm);
-  color: var(--c-text-primary);
+  gap: 8px;
+  font-size: var(--fs-sm, 0.9rem);
+  color: var(--c-text-secondary);
   line-height: 1.6;
 }
 
 .insight-bullet {
   flex-shrink: 0;
-  margin-top: 3px;
+  margin-top: 2px;
 }
 
 .modern-card {
-  padding: var(--sp-3) var(--sp-4);
+  padding: var(--sp-4);
   background: rgba(91, 138, 114, 0.08);
   border-left: 3px solid var(--c-accent-dao, #5b8a72);
-  border-radius: 4px;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
 }
 
 .reflection-box {
   padding: var(--sp-4);
-  background: rgba(181, 141, 61, 0.08);
-  border: 1px dashed var(--c-gold);
-  border-radius: var(--radius-md, 8px);
+  background: rgba(201, 169, 110, 0.08);
+  border: 1px dashed var(--c-border-accent);
+  border-radius: var(--radius-md);
 }
 
 .reflection-label {
   display: block;
-  font-size: var(--fs-xs);
+  font-size: var(--fs-xs, 0.75rem);
   color: var(--c-gold);
-  margin-bottom: var(--sp-1);
+  margin-bottom: 6px;
+  letter-spacing: 0.08em;
 }
 
 .reflection-question {
   margin: 0;
-  font-size: var(--fs-sm);
+  font-size: var(--fs-sm, 0.92rem);
   color: var(--c-text-primary);
-  font-style: italic;
   line-height: 1.6;
+  font-weight: 500;
+}
+
+/* 筆記區塊 */
+.note-block {
+  padding-top: var(--sp-2);
+}
+
+.note-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.save-status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.75rem;
+  color: #5b8a72;
+  background: rgba(91, 138, 114, 0.12);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+}
+
+.note-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.note-textarea {
+  width: 100%;
+  padding: 10px 14px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--c-border-subtle, rgba(201, 169, 110, 0.2));
+  border-radius: var(--radius-md);
+  color: var(--c-text-primary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  resize: vertical;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease;
+}
+
+.note-textarea:focus {
+  outline: none;
+  border-color: var(--c-gold);
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.note-footer-hint {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: var(--c-text-muted);
+}
+
+.contrast-block {
+  padding: var(--sp-4);
+  background: rgba(166, 75, 75, 0.08);
+  border-left: 3px solid var(--c-accent-military, #a64b4b);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
 }
 
 .related-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--sp-2);
+  gap: 8px;
 }
 
 .related-tag-btn {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 4px 12px;
-  background: var(--c-bg-card);
-  border: 1px solid var(--c-border);
+  padding: 5px 12px;
+  background: rgba(201, 169, 110, 0.08);
+  border: 1px solid var(--c-border-accent);
   border-radius: var(--radius-full);
   color: var(--c-text-secondary);
-  font-size: var(--fs-xs);
+  font-size: var(--fs-xs, 0.8rem);
   cursor: pointer;
   transition: all 0.18s ease;
 }
 
 .related-tag-btn:hover {
-  border-color: var(--c-border-accent);
-  color: var(--c-gold);
+  background: var(--c-gold-glow);
+  color: var(--c-gold-light);
   transform: translateX(2px);
 }
 
 .tag-arrow {
   color: var(--c-gold);
-  font-size: 0.8em;
 }
 
 .modal-footer {
-  padding: var(--sp-4) var(--sp-6);
-  border-top: 1px solid var(--c-border, rgba(201, 169, 110, 0.15));
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: var(--sp-3);
+  padding: var(--sp-4) var(--sp-6);
+  border-top: 1px solid var(--c-border, rgba(201, 169, 110, 0.15));
   background: rgba(0, 0, 0, 0.2);
 }
 
+.master-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--fs-sm);
+  padding: 8px 16px;
+}
+
 .master-btn.is-mastered {
-  border-color: var(--c-accent-dao, #5b8a72);
-  color: var(--c-accent-dao, #5b8a72);
+  border-color: var(--c-gold);
+  color: var(--c-gold);
+  background: rgba(201, 169, 110, 0.12);
 }
 
 .read-cta-btn {
   display: inline-flex;
   align-items: center;
-  gap: var(--sp-2);
+  gap: 8px;
+  font-size: var(--fs-sm);
+  padding: 8px 20px;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeIn {
@@ -560,16 +811,25 @@ function selectRelated(related: KnowledgePoint) {
   to { opacity: 1; }
 }
 
-@keyframes slideUp {
-  from { opacity: 0; transform: translateY(16px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
 @media (max-width: 640px) {
-  .knowledge-modal-card { max-height: 94vh; }
-  .modal-header { padding: var(--sp-4); }
-  .modal-scroll-body { padding: var(--sp-4); }
-  .modal-footer { flex-direction: column; }
-  .modal-footer button { width: 100%; justify-content: center; }
+  .knowledge-modal-card {
+    max-height: 94vh;
+    border-radius: var(--radius-lg);
+  }
+  .modal-header,
+  .modal-scroll-body,
+  .modal-footer {
+    padding-left: var(--sp-4);
+    padding-right: var(--sp-4);
+  }
+  .modal-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .master-btn,
+  .read-cta-btn {
+    justify-content: center;
+    width: 100%;
+  }
 }
 </style>

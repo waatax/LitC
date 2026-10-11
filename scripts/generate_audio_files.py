@@ -14,6 +14,9 @@ import sys
 import json
 import re
 import asyncio
+import argparse
+import shutil
+import subprocess
 from pathlib import Path
 
 # Set stdout/stderr to utf-8 for Windows console
@@ -107,10 +110,32 @@ def apply_phonetic_corrections(text: str) -> str:
 
 def get_mp3_duration_seconds(file_path: Path) -> float:
     """
-    計算 MP3 檔案的播放長度（秒）
-    透過讀取 MP3 幀頭或檔案位元率概算
+    計算 MP3 檔案的實際播放長度（秒）。
+
+    優先使用 ffprobe 讀取容器中繼資料，避免 VBR／編碼器延遲使
+    「檔案大小 ÷ 推定位元率」產生明顯誤差；僅在 ffprobe 不可用時
+    才採用保守估算。
     """
     try:
+        ffprobe = shutil.which("ffprobe")
+        if ffprobe:
+            result = subprocess.run(
+                [
+                    ffprobe,
+                    "-v", "error",
+                    "-show_entries", "format=duration",
+                    "-of", "default=noprint_wrappers=1:nokey=1",
+                    str(file_path),
+                ],
+                check=True,
+                capture_output=True,
+                text=True,
+                timeout=30,
+            )
+            duration = float(result.stdout.strip())
+            if duration > 0:
+                return round(duration, 3)
+
         size_bytes = file_path.stat().st_size
         with open(file_path, 'rb') as f:
             data = f.read(4096)
@@ -130,12 +155,15 @@ def get_mp3_duration_seconds(file_path: Path) -> float:
             idx += 1
         
         return round(size_bytes / 6000.0, 2)
-    except Exception as e:
+    except Exception:
         return 0.0
 
 async def generate_single_audio(passage_id: str, canonical_text: str, out_path: Path) -> dict:
     """生成單個段落的高品質語音檔，並驗證時長限制在 120 秒內"""
     out_path.parent.mkdir(parents=True, exist_ok=True)
+    temp_path = out_path.with_suffix(".part.mp3")
+    if temp_path.exists():
+        temp_path.unlink()
     
     spoken_text = apply_phonetic_corrections(canonical_text)
     
@@ -146,7 +174,10 @@ async def generate_single_audio(passage_id: str, canonical_text: str, out_path: 
         pitch=SPEECH_PITCH
     )
     
-    await communicate.save(str(out_path))
+    await communicate.save(str(temp_path))
+    if not temp_path.exists() or temp_path.stat().st_size <= 1000:
+        raise RuntimeError("語音服務未產生有效 MP3")
+    os.replace(temp_path, out_path)
     
     duration = get_mp3_duration_seconds(out_path)
     file_size = out_path.stat().st_size
@@ -180,77 +211,19 @@ def load_passages_from_chunk(chunk_file: Path) -> list:
         print(f"Error parsing {chunk_file.name}: {e}")
         return []
 
-async def main():
-    print("=" * 60)
-    print("經典文脈 (LitC) — 專家級高品質典籍語音檔生成管線")
-    print(f"語音模型: {VOICE_NAME} | 節奏調諧: {SPEECH_RATE} | 目標時長: ≤ 120 秒/段")
-    print("=" * 60)
-
-    target_tasks = [
-        {"workId": "dao-de-jing", "desc": "《道德經》八十一章全文語音檔", "allChapters": True},
-        {"workId": "da-xue", "desc": "《大學》經一章傳十章全文語音檔", "allChapters": True},
-        {"workId": "zhong-yong", "desc": "《中庸》三十三章全文語音檔", "allChapters": True},
-        {"workId": "art-of-war", "desc": "《孫子兵法》十三篇全本語音檔", "allChapters": True},
-        {"workId": "jian-zhu-ke-shu", "desc": "《諫逐客書》全文駢散語音檔", "allChapters": True},
-        {"workId": "lun-yu", "desc": "《論語》核心名篇全文語音檔", "chapters": ["lun-yu_ch-1", "lun-yu_ch-2", "lun-yu_ch-4"]},
-        {"workId": "gu-wen-guan-zhi", "desc": "《古文觀止》卷一名篇語音檔", "chapters": ["gu-wen-guan-zhi_ch-1", "gu-wen-guan-zhi_ch-2", "gu-wen-guan-zhi_ch-3"]},
-    ]
-
-    manifest = {}
-    total_generated = 0
-    total_size = 0
-
-    for task in target_tasks:
-        work_id = task["workId"]
-        work_dir = CHUNKS_DIR / work_id
-        if not work_dir.exists():
-            continue
-        
-        print(f"\n--- 正在生成: {task['desc']} ---", flush=True)
-        chunk_files = sorted(work_dir.glob("*.ts"))
-        
-        for cf in chunk_files:
-            ch_name = cf.stem
-            if not task.get("allChapters", False) and ch_name not in task.get("chapters", []):
-                continue
-                
-            passages = load_passages_from_chunk(cf)
-            for p in passages:
-                pid = p.get("id")
-                text = p.get("canonicalText", "").strip()
-                if not pid or not text:
-                    continue
-                
-                out_path = PUBLIC_AUDIO_DIR / work_id / f"{pid}.mp3"
-                
-                if out_path.exists() and out_path.stat().st_size > 1000:
-                    duration = get_mp3_duration_seconds(out_path)
-                    manifest[pid] = {
-                        "passageId": pid,
-                        "duration": duration,
-                        "sizeBytes": out_path.stat().st_size,
-                        "voice": VOICE_NAME,
-                        "rate": SPEECH_RATE,
-                        "url": f"audio/{work_id}/{pid}.mp3"
-                    }
-                    total_generated += 1
-                    total_size += out_path.stat().st_size
-                    continue
-                
-                try:
-                    res = await generate_single_audio(pid, text, out_path)
-                    manifest[pid] = res
-                    total_generated += 1
-                    total_size += res["sizeBytes"]
-                    await asyncio.sleep(0.15)
-                except Exception as err:
-                    print(f"❌ 生成失敗 [{pid}]: {err}")
-
+def write_manifests(manifest: dict) -> None:
+    """以原子替換方式同步寫入公開 JSON 與前端 TypeScript manifest。"""
+    ordered_manifest = dict(sorted(manifest.items()))
     manifest_json_path = PUBLIC_AUDIO_DIR / "manifest.json"
-    PUBLIC_AUDIO_DIR.mkdir(parents=True, exist_ok=True)
-    manifest_json_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+    manifest_json_temp = manifest_json_path.with_suffix(".json.tmp")
+    manifest_json_temp.write_text(
+        json.dumps(ordered_manifest, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    os.replace(manifest_json_temp, manifest_json_path)
 
     manifest_ts_path = SRC_DATA_DIR / "audioManifest.ts"
+    manifest_ts_temp = manifest_ts_path.with_suffix(".ts.tmp")
     ts_code = f"""// 自動生成之古典音檔中繼資料 (Auto-generated by scripts/generate_audio_files.py)
 export interface AudioManifestItem {{
   passageId: string
@@ -261,7 +234,7 @@ export interface AudioManifestItem {{
   url: string
 }}
 
-export const AUDIO_MANIFEST: Record<string, AudioManifestItem> = {json.dumps(manifest, ensure_ascii=False, indent=2)}
+export const AUDIO_MANIFEST: Record<string, AudioManifestItem> = {json.dumps(ordered_manifest, ensure_ascii=False, indent=2)}
 
 /**
  * 檢查特定段落是否存在高品質實體語音檔
@@ -281,15 +254,136 @@ export function getAudioFileUrl(passageId: string): string | undefined {{
   return `${{cleanBase}}${{meta.url}}`
 }}
 """
-    manifest_ts_path.write_text(ts_code, encoding="utf-8")
+    manifest_ts_temp.write_text(ts_code, encoding="utf-8")
+    os.replace(manifest_ts_temp, manifest_ts_path)
+
+
+def collect_all_passages() -> list[dict]:
+    """收集全庫段落並拒絕互相衝突的重複 ID。"""
+    passages_by_id: dict[str, dict] = {}
+    for chunk_file in sorted(CHUNKS_DIR.rglob("*.ts")):
+        work_id = chunk_file.parent.relative_to(CHUNKS_DIR).as_posix()
+        for passage in load_passages_from_chunk(chunk_file):
+            passage_id = passage.get("id")
+            canonical_text = passage.get("canonicalText", "").strip()
+            if not passage_id or not canonical_text:
+                continue
+            item = {
+                "passageId": passage_id,
+                "canonicalText": canonical_text,
+                "workId": work_id,
+            }
+            previous = passages_by_id.get(passage_id)
+            if previous and previous != item:
+                raise RuntimeError(f"段落 ID 衝突：{passage_id}")
+            passages_by_id[passage_id] = item
+    return list(passages_by_id.values())
+
+
+async def main():
+    parser = argparse.ArgumentParser(description="產生 LitC 全庫實體 MP3")
+    parser.add_argument("--workers", type=int, default=6, help="同時生成數（預設 6）")
+    parser.add_argument("--retries", type=int, default=4, help="單段最大嘗試次數（預設 4）")
+    parser.add_argument("--checkpoint-every", type=int, default=25, help="每幾段同步 manifest")
+    args = parser.parse_args()
+    if args.workers < 1 or args.workers > 16:
+        parser.error("--workers 必須介於 1 與 16")
+
+    print("=" * 60)
+    print("經典文脈 (LitC) — 全庫高品質典籍語音檔生成管線")
+    print(f"語音模型: {VOICE_NAME} | 節奏調諧: {SPEECH_RATE} | 目標時長: ≤ 120 秒/段")
+    print("=" * 60)
+    all_passages = collect_all_passages()
+    manifest: dict[str, dict] = {}
+    queue: asyncio.Queue = asyncio.Queue()
+    failures: dict[str, str] = {}
+    progress_lock = asyncio.Lock()
+    generated_this_run = 0
+
+    for item in all_passages:
+        passage_id = item["passageId"]
+        work_id = item["workId"]
+        out_path = PUBLIC_AUDIO_DIR / work_id / f"{passage_id}.mp3"
+        if out_path.exists() and out_path.stat().st_size > 1000:
+            manifest[passage_id] = {
+                "passageId": passage_id,
+                "duration": get_mp3_duration_seconds(out_path),
+                "sizeBytes": out_path.stat().st_size,
+                "voice": VOICE_NAME,
+                "rate": SPEECH_RATE,
+                "url": f"audio/{work_id}/{passage_id}.mp3",
+            }
+        else:
+            await queue.put(item)
+
+    initial_existing = len(manifest)
+    print(
+        f"全庫 {len(all_passages):,} 段；既有有效 MP3 {initial_existing:,} 段；"
+        f"待生成 {queue.qsize():,} 段；併發數 {args.workers}",
+        flush=True,
+    )
+    write_manifests(manifest)
+
+    async def worker(worker_number: int) -> None:
+        nonlocal generated_this_run
+        while True:
+            try:
+                item = queue.get_nowait()
+            except asyncio.QueueEmpty:
+                return
+            passage_id = item["passageId"]
+            out_path = PUBLIC_AUDIO_DIR / item["workId"] / f"{passage_id}.mp3"
+            last_error = None
+            for attempt in range(1, args.retries + 1):
+                try:
+                    result = await generate_single_audio(
+                        passage_id,
+                        item["canonicalText"],
+                        out_path,
+                    )
+                    async with progress_lock:
+                        manifest[passage_id] = result
+                        failures.pop(passage_id, None)
+                        generated_this_run += 1
+                        completed = initial_existing + generated_this_run
+                        if generated_this_run % args.checkpoint_every == 0:
+                            write_manifests(manifest)
+                            print(
+                                f"💾 checkpoint: {completed:,}/{len(all_passages):,} "
+                                f"({completed / len(all_passages) * 100:.2f}%)",
+                                flush=True,
+                            )
+                    break
+                except Exception as error:
+                    last_error = error
+                    part_path = out_path.with_suffix(".part.mp3")
+                    if part_path.exists():
+                        part_path.unlink()
+                    if attempt < args.retries:
+                        await asyncio.sleep(min(12, 1.5 * attempt))
+            else:
+                failures[passage_id] = str(last_error)
+                print(f"❌ 最終失敗 [{passage_id}]: {last_error}", flush=True)
+            queue.task_done()
+
+    workers = [asyncio.create_task(worker(index + 1)) for index in range(args.workers)]
+    await asyncio.gather(*workers)
+    write_manifests(manifest)
+
+    total_size = sum(item["sizeBytes"] for item in manifest.values())
 
     print("\n" + "=" * 60)
-    print("🎉 語音檔生成與中繼資料產出完成！")
-    print(f"總計音檔數量: {total_generated} 段")
-    print(f"總體積大小: {total_size / (1024 * 1024):.2f} MB (完美符合 GitHub Pages 限制)")
-    print(f"Manifest JSON: {manifest_json_path}")
-    print(f"Manifest TS:   {manifest_ts_path}")
+    print("語音檔生成與中繼資料同步完成")
+    print(f"總計有效 MP3: {len(manifest):,}/{len(all_passages):,} 段")
+    print(f"本次新增: {generated_this_run:,} 段")
+    print(f"失敗: {len(failures):,} 段")
+    print(f"總體積大小: {total_size / (1024 * 1024):.2f} MB")
     print("=" * 60)
+    if failures:
+        failure_path = PROJECT_ROOT / "audio_generation_failures.json"
+        failure_path.write_text(json.dumps(failures, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"失敗清單: {failure_path}")
+        raise SystemExit(1)
 
 if __name__ == "__main__":
     asyncio.run(main())

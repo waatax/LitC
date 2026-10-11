@@ -1,9 +1,22 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import { useGamificationStore } from '@/stores/gamification'
+import { useKnowledgeCollectionStore } from '@/stores/knowledgeCollection'
+import { getLearningTrackById } from '@/data/knowledgeGraph'
 import ClassicalIcon, { type IconName } from '@/components/ClassicalIcon.vue'
 import RedSeal from '@/components/RedSeal.vue'
 
 const store = useGamificationStore()
+const knowledgeStore = useKnowledgeCollectionStore()
+
+const activeTrack = computed(() => {
+  return getLearningTrackById(knowledgeStore.activeTrackId) || null
+})
+
+const activeTrackProgress = computed(() => {
+  if (!activeTrack.value) return { total: 0, completed: 0, percent: 0 }
+  return knowledgeStore.getTrackProgress(activeTrack.value.id)
+})
 
 interface SchoolCultivation {
   id: string
@@ -30,6 +43,7 @@ const schools: SchoolCultivation[] = [
       <p class="profile-desc">日進有功，溫故知新；體悟經典，涵養正氣。</p>
     </header>
 
+    <!-- 主卡片：背誦修為境界 -->
     <section class="glass-card player-card fade-in">
       <div class="rank-info">
         <div class="rank-seal-wrap">
@@ -79,6 +93,57 @@ const schools: SchoolCultivation[] = [
       </div>
       <div v-else class="exp-bar-container max-rank">
         <p class="font-serif">已臻太學士至高境界，學富五車！</p>
+      </div>
+    </section>
+
+    <div class="divider brush-divider my-8"></div>
+
+    <!-- 先秦義理與思想造詣 -->
+    <section class="knowledge-mastery-section glass-card fade-in delay-1">
+      <div class="km-header-row">
+        <div>
+          <span class="km-eyebrow font-serif">文海觀瀾 ‧ 義理深思</span>
+          <h3 class="km-title font-serif">先秦諸子思想造詣</h3>
+        </div>
+        <div class="km-badge font-serif">
+          <span>文海境界：{{ knowledgeStore.currentMasteryLevel.title }}</span>
+        </div>
+      </div>
+
+      <div class="km-stats-row">
+        <div class="km-stat-box">
+          <small>已深刻領會義理</small>
+          <strong>{{ knowledgeStore.totalMasteredCount }} / {{ knowledgeStore.totalPointsCount }}</strong>
+          <span class="km-pct">領會率 {{ knowledgeStore.overallMasteryPercent }}%</span>
+        </div>
+        <div class="km-stat-box">
+          <small>文萃精華收藏</small>
+          <strong>{{ knowledgeStore.totalCollectedCount }} 則</strong>
+          <span class="km-pct">隨時溫故</span>
+        </div>
+        <div class="km-stat-box">
+          <small>實踐研讀札記</small>
+          <strong>{{ knowledgeStore.totalNotesCount }} 篇</strong>
+          <span class="km-pct">個人體悟心得</span>
+        </div>
+      </div>
+
+      <!-- 當前修習學程進度條 -->
+      <div v-if="activeTrack" class="km-track-banner glass-panel">
+        <div class="km-track-left">
+          <RedSeal :text="activeTrack.sealText" :size="32" />
+          <div>
+            <strong class="font-serif km-track-name">{{ activeTrack.title }}</strong>
+            <p class="km-track-sub">{{ activeTrack.subtitle }}</p>
+          </div>
+        </div>
+        <div class="km-track-right">
+          <span class="km-track-pct font-serif">已掌握 {{ activeTrackProgress.percent }}%</span>
+          <router-link to="/wenhai?tab=tracks" class="btn btn-outline btn-sm km-nav-btn">
+            <span>前往文海研修</span>
+            <ClassicalIcon name="arrow-right" :size="12" />
+          </router-link>
+        </div>
       </div>
     </section>
 
@@ -142,34 +207,29 @@ const schools: SchoolCultivation[] = [
 
 <style scoped>
 .profile-container {
-  padding: var(--sp-6) var(--sp-4);
-  max-width: var(--content-max-width);
+  max-width: 900px;
   margin: 0 auto;
+  padding: 0 var(--sp-4) var(--sp-12);
 }
+
 .profile-header {
   margin-bottom: var(--sp-6);
-  text-align: center;
 }
-.profile-header h1 {
-  font-size: var(--fs-3xl);
-  color: var(--c-gold);
-  margin: 0 0 6px 0;
-  letter-spacing: 0.08em;
+.classical-text {
+  letter-spacing: 0.05em;
 }
 .profile-desc {
+  color: var(--c-text-secondary);
   font-size: var(--fs-sm);
-  color: var(--c-text-muted);
-  margin: 0;
+  margin-top: var(--sp-1);
 }
 
 .player-card {
   padding: var(--sp-6);
+  border-radius: var(--radius-xl);
   display: flex;
   flex-direction: column;
   gap: var(--sp-6);
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.04) 0%, rgba(201, 169, 110, 0.05) 100%);
-  border: 1px solid var(--c-border-accent);
-  border-radius: var(--radius-xl);
 }
 
 .rank-info {
@@ -180,66 +240,67 @@ const schools: SchoolCultivation[] = [
 .rank-seal-wrap {
   flex-shrink: 0;
 }
+.rank-text {
+  display: flex;
+  flex-direction: column;
+}
 .rank-name-row {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  align-items: baseline;
+  gap: var(--sp-3);
 }
-.rank-text h2 {
+.rank-name-row h2 {
   font-size: var(--fs-2xl);
-  margin: 0;
   color: var(--c-gold);
-}
-.rank-sub {
-  font-size: 0.75rem;
-  color: var(--c-text-muted);
+  margin: 0;
 }
 .level-badge {
-  display: inline-block;
-  padding: 2px 10px;
-  background: var(--c-gold-glow);
-  color: var(--c-gold);
-  border: 1px solid var(--c-border-accent);
-  border-radius: var(--radius-sm);
   font-size: var(--fs-xs);
-  font-weight: var(--fw-bold);
+  color: var(--c-text-muted);
+  border: 1px solid var(--c-border-subtle);
+  padding: 1px var(--sp-2);
+  border-radius: var(--radius-full);
+}
+.rank-sub {
+  font-size: var(--fs-xs);
+  color: var(--c-text-muted);
+  margin-top: 2px;
 }
 
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--sp-4);
+  background: rgba(0, 0, 0, 0.2);
+  padding: var(--sp-4);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--c-border-subtle);
 }
 .stat-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  background: var(--c-bg-card);
-  padding: var(--sp-4);
-  border-radius: var(--radius-md);
-  border: 1px solid var(--c-border-subtle);
+  gap: var(--sp-1);
 }
 .stat-label {
   font-size: var(--fs-xs);
   color: var(--c-text-muted);
-  margin-bottom: var(--sp-2);
 }
 .stat-value {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
   font-size: var(--fs-xl);
   font-weight: var(--fw-bold);
   color: var(--c-text-primary);
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 .stat-value.fire {
-  color: #c86f4d;
+  color: #d97706;
 }
 .stat-value small {
   font-size: var(--fs-xs);
+  font-weight: normal;
   color: var(--c-text-muted);
-  font-weight: 400;
 }
 
 .exp-bar-container {
@@ -270,6 +331,123 @@ const schools: SchoolCultivation[] = [
   align-items: center;
   color: var(--c-gold);
   font-weight: var(--fw-bold);
+}
+
+/* 先秦思想造詣區塊 */
+.knowledge-mastery-section {
+  padding: var(--sp-6);
+  border-radius: var(--radius-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-5);
+  border-left: 4px solid var(--c-gold);
+}
+
+.km-header-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.km-eyebrow {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--c-gold);
+  margin-bottom: 4px;
+}
+
+.km-title {
+  margin: 0;
+  font-size: var(--fs-xl);
+  color: var(--c-text-primary);
+}
+
+.km-badge {
+  font-size: 0.82rem;
+  color: var(--c-gold);
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  background: rgba(201, 169, 110, 0.12);
+  border: 1px solid var(--c-border-accent);
+}
+
+.km-stats-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.km-stat-box {
+  padding: 14px 16px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--c-border-subtle);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.km-stat-box small {
+  font-size: 0.75rem;
+  color: var(--c-text-muted);
+}
+
+.km-stat-box strong {
+  font-size: 1.25rem;
+  color: var(--c-text-primary);
+}
+
+.km-pct {
+  font-size: 0.75rem;
+  color: var(--c-gold);
+}
+
+.km-track-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 18px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--c-border-subtle);
+  flex-wrap: wrap;
+}
+
+.km-track-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.km-track-name {
+  font-size: 1.05rem;
+  color: var(--c-text-primary);
+}
+
+.km-track-sub {
+  margin: 2px 0 0;
+  font-size: 0.8rem;
+  color: var(--c-text-muted);
+}
+
+.km-track-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.km-track-pct {
+  font-size: 0.82rem;
+  color: var(--c-gold);
+  font-weight: 600;
+}
+
+.km-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .my-8 {
@@ -323,81 +501,65 @@ const schools: SchoolCultivation[] = [
 .school-fill {
   height: 100%;
   background: var(--school-color, var(--c-gold));
-  transition: width 1s var(--ease-out);
+  border-radius: 2px;
+  transition: width 0.6s ease;
 }
 
 .achievements-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: var(--sp-3);
 }
 .achievement-badge {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 12px 16px;
-  border-radius: var(--radius-md);
-  background: var(--c-bg-card);
-  border: 1px solid var(--c-border);
-  opacity: 0.55;
-  filter: grayscale(80%);
-  transition: all var(--duration-normal) var(--ease-out);
-  cursor: help;
+  gap: var(--sp-3);
+  padding: var(--sp-3) var(--sp-4);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--c-border-subtle);
+  background: rgba(255, 255, 255, 0.02);
+  transition: all 0.2s ease;
+  opacity: 0.5;
 }
 .achievement-badge.is-unlocked {
   opacity: 1;
-  filter: none;
   border-color: var(--c-border-accent);
-  background: var(--c-gold-glow);
+  background: rgba(201, 169, 110, 0.08);
 }
 .ach-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 32px;
   height: 32px;
-  display: grid;
-  place-items: center;
-  border-radius: 8px;
-  background: rgba(201, 169, 110, 0.12);
+  border-radius: 50%;
+  background: rgba(201, 169, 110, 0.15);
   flex-shrink: 0;
 }
 .ach-icon-wrap.locked {
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(0, 0, 0, 0.2);
 }
 .ach-info {
   display: flex;
   flex-direction: column;
-  gap: 2px;
 }
 .ach-title {
-  font-weight: var(--fw-bold);
-  color: var(--c-text-primary);
   font-size: var(--fs-sm);
+  color: var(--c-text-primary);
+  font-weight: var(--fw-semibold);
 }
 .ach-desc {
   font-size: var(--fs-xs);
   color: var(--c-text-muted);
 }
 
-.fade-in {
-  animation: fadeIn 0.5s var(--ease-out) forwards;
-  opacity: 0;
-  transform: translateY(10px);
-}
-.delay-1 {
-  animation-delay: 0.1s;
-}
-.delay-2 {
-  animation-delay: 0.2s;
-}
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@media (max-width: 650px) {
+@media (max-width: 640px) {
   .stats-grid {
     grid-template-columns: 1fr;
+  }
+  .km-track-banner {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 </style>
