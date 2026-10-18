@@ -987,6 +987,9 @@ const schoolAmbientStyle = computed(() => {
   color: var(--c-text-muted);
   padding-left: var(--sp-3);
   border-left: 2px solid var(--c-border-accent);
+  white-space: pre-line;
+  line-height: 1.7;
+  margin-bottom: var(--sp-3);
 }
 
 .sentence-calibrated-aid {
@@ -1259,6 +1262,7 @@ const schoolAmbientStyle = computed(() => {
   margin-bottom: var(--sp-3) !important;
   line-height: 1.5;
   color: var(--c-text-secondary);
+  white-space: pre-line;
 }
 
 .horizontal-explanation .sentence-hint:last-child {

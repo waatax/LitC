@@ -987,6 +987,7 @@ onUnmounted(() => {
   font-size: var(--fs-sm);
   line-height: 1.7;
   color: var(--c-text-primary);
+  white-space: pre-line;
 }
 
 /* Stacked Mode */
@@ -1072,6 +1073,7 @@ onUnmounted(() => {
   font-size: var(--fs-sm);
   line-height: 1.75;
   color: var(--c-text-primary);
+  white-space: pre-line;
 }
 
 /* ── Glimpse Audio Recitation Controls ── */
