@@ -64,12 +64,26 @@ export async function loadChapterBundle(chapterId: string): Promise<ChapterBundl
   const promise = importer()
     .then(module => {
       const bundle = module.default
-      if (bundle && bundle.sentences) {
-        for (const s of bundle.sentences) {
-          if (!s.structuredTranslation) {
-            const match = findStructuredAnnotation(s.canonicalText)
-            if (match) {
-              s.structuredTranslation = match
+      if (bundle) {
+        if (bundle.passages) {
+          for (const p of bundle.passages) {
+            if (p.readingAid) {
+              if (typeof p.readingAid.analysis === 'string') {
+                p.readingAid.analysis = p.readingAid.analysis.replace(/\\n/g, '\n')
+              }
+              if (typeof p.readingAid.translation === 'string') {
+                p.readingAid.translation = p.readingAid.translation.replace(/\\n/g, '\n')
+              }
+            }
+          }
+        }
+        if (bundle.sentences) {
+          for (const s of bundle.sentences) {
+            if (!s.structuredTranslation) {
+              const match = findStructuredAnnotation(s.canonicalText)
+              if (match) {
+                s.structuredTranslation = match
+              }
             }
           }
         }

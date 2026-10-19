@@ -95,7 +95,11 @@ async function sampleGlimpses() {
 
     for (const p of ps) {
       sentenceMap.set(p.id, content.sentences.filter(sentence => sentence.passageId === p.id))
-      aidMap.set(p.id, p.readingAid || { translation: '', analysis: '' })
+      const aid = p.readingAid || { translation: '', analysis: '' }
+      aidMap.set(p.id, {
+        translation: aid.translation ? aid.translation.replace(/\\n/g, '\n') : '',
+        analysis: aid.analysis ? aid.analysis.replace(/\\n/g, '\n') : ''
+      })
     }
 
     const descObj = getWorkDescription(item.work.id)

@@ -192,7 +192,11 @@ const allSentences = computed(() => {
 })
 
 function passageAid(passage: Passage) {
-  return passage.readingAid || { translation: '', analysis: '' }
+  const aid = passage.readingAid || { translation: '', analysis: '' }
+  return {
+    translation: aid.translation ? aid.translation.replace(/\\n/g, '\n') : '',
+    analysis: aid.analysis ? aid.analysis.replace(/\\n/g, '\n') : ''
+  }
 }
 
 const speechState = speechService.state
