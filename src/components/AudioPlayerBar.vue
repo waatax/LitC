@@ -759,10 +759,12 @@ onUnmounted(() => {
   gap: var(--sp-3);
   padding: var(--sp-2) var(--sp-4);
   border-radius: var(--radius-full);
-  background: rgba(18, 20, 26, 0.95);
-  backdrop-filter: blur(20px);
-  border: 1px solid var(--c-gold-glow);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6), 0 0 20px rgba(201, 169, 110, 0.2);
+  background: var(--c-glass-readable-bg);
+  backdrop-filter: var(--c-glass-blur);
+  -webkit-backdrop-filter: var(--c-glass-blur);
+  border: 1px solid var(--c-glass-border);
+  box-shadow: var(--c-glass-shadow);
+  color: var(--c-text-primary);
   cursor: pointer;
   width: fit-content;
   margin: 0 auto;
@@ -843,10 +845,12 @@ onUnmounted(() => {
   width: 100%;
   padding: var(--sp-3) var(--sp-5);
   border-radius: var(--radius-lg);
-  background: rgba(18, 20, 26, 0.94);
-  backdrop-filter: blur(20px);
-  border: 1px solid var(--c-gold-glow);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.55), 0 0 24px rgba(201, 169, 110, 0.18);
+  background: var(--c-glass-readable-bg);
+  backdrop-filter: var(--c-glass-blur);
+  -webkit-backdrop-filter: var(--c-glass-blur);
+  border: 1px solid var(--c-glass-border);
+  box-shadow: var(--c-glass-shadow);
+  color: var(--c-text-primary);
   transition: all var(--duration-normal) var(--ease-out);
 }
 
@@ -1554,14 +1558,14 @@ onUnmounted(() => {
   top: -38px;
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(18, 20, 26, 0.95);
+  background: var(--c-glass-readable-bg);
   border: 1px solid var(--c-gold);
-  color: var(--c-gold-light);
+  color: var(--c-gold-dark);
   padding: 4px 14px;
   border-radius: var(--radius-full);
   font-size: 12px;
   font-weight: 500;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--c-glass-shadow);
   pointer-events: none;
   white-space: nowrap;
 }

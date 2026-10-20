@@ -83,6 +83,11 @@ export async function loadChapterBundle(chapterId: string): Promise<ChapterBundl
               const match = findStructuredAnnotation(s.canonicalText)
               if (match) {
                 s.structuredTranslation = match
+              } else if (!s.translationHint || s.translationHint === '此句釋義提示。') {
+                const parentPassage = bundle.passages?.find((p: Passage) => p.id === s.passageId)
+                if (parentPassage?.readingAid?.translation) {
+                  s.translationHint = parentPassage.readingAid.translation
+                }
               }
             }
           }

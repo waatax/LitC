@@ -63,8 +63,11 @@ export interface Chapter {
 // ── Layer 4: Passage ─────────────────────────────
 
 export interface PassageReadingAid {
+  passageId?: string
   translation: string
   analysis: string
+  historicalContext?: string
+  sourceRefs?: SourceReference[]
 }
 
 export interface Passage {

@@ -17,7 +17,7 @@ const emit = defineEmits<{
 const themes = [
   { id: 'charcoal', name: '徽墨乾坤', desc: '深邃水墨金石', bg: '#06060b', accent: '#c9a96e' },
   { id: 'xuan', name: '寒江雪宣', desc: '溫潤紙質古籍', bg: '#faf6ee', accent: '#855b21' },
-  { id: 'celadon', name: '雨過天青', desc: '淡雅青瓷色調', bg: '#ebf3ee', accent: '#3a8b64' },
+  { id: 'celadon', name: '雨過天青', desc: '清透汝窯淺青', bg: '#eef5f1', accent: '#2a7c55' },
   { id: 'cinnabar', name: '硃砂描金', desc: '古典朱紅金泥', bg: '#3a1616', accent: '#c9a96e' },
   { id: 'bamboo', name: '竹林月色', desc: '清幽夜間竹影', bg: '#0f1520', accent: '#5ba88a' },
   { id: 'pinesoot', name: '松煙夜讀', desc: '溫暖油燈夜讀', bg: '#1a130e', accent: '#c4943a' },

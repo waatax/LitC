@@ -5,7 +5,7 @@ import type { Chapter, Work, Passage, Sentence } from '@/types/content'
 import { GENRE_STRATEGY_META } from '@/types/content'
 import { getWorkDescription } from '@/data/catalogApi'
 import { loadChapterContent } from '@/data/workLoader'
-import { READING_AID_SOURCES } from '@/data/readingAidSources'
+import { getReadingAidSource } from '@/data/readingAidSources'
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import RedSeal from '@/components/RedSeal.vue'
 import ClassicalIcon from '@/components/ClassicalIcon.vue'
@@ -31,6 +31,8 @@ const showWorkGuide = ref(false)
 
 const selectedKnowledgePoint = ref<KnowledgePoint | null>(null)
 const isKnowledgeModalOpen = ref(false)
+
+const currentAidSource = computed(() => getReadingAidSource(work.value?.id))
 
 const chapterKnowledgePoints = computed<KnowledgePoint[]>(() => {
   if (!chapter.value) return []
@@ -192,10 +194,11 @@ const allSentences = computed(() => {
 })
 
 function passageAid(passage: Passage) {
-  const aid = passage.readingAid || { translation: '', analysis: '' }
+  const aid = passage.readingAid || { translation: '', analysis: '', historicalContext: '' }
   return {
     translation: aid.translation ? aid.translation.replace(/\\n/g, '\n') : '',
-    analysis: aid.analysis ? aid.analysis.replace(/\\n/g, '\n') : ''
+    analysis: aid.analysis ? aid.analysis.replace(/\\n/g, '\n') : '',
+    historicalContext: aid.historicalContext || ''
   }
 }
 
@@ -566,8 +569,8 @@ const schoolAmbientStyle = computed(() => {
                       <ClassicalIcon name="headphones" :size="13" /> 白話
                     </button>
                   </div>
-                  <p class="sentence-hint"><span class="translation-label">白話</span>{{ passageAid(passage)?.translation }}</p>
-                  <p class="sentence-hint"><span class="translation-label">解析</span>{{ passageAid(passage)?.analysis }}</p>
+                  <p v-if="passageAid(passage)?.translation" class="sentence-hint vernacular-hint"><span class="translation-label vernacular-badge">白話</span>{{ passageAid(passage)?.translation }}</p>
+                  <p v-if="passageAid(passage)?.analysis" class="sentence-hint analysis-hint"><span class="translation-label analysis-badge">解析</span>{{ passageAid(passage)?.analysis }}</p>
                 </div>
               </div>
             </div>
@@ -612,17 +615,32 @@ const schoolAmbientStyle = computed(() => {
 
               <p class="sentence-original classical-text"><ClassicalTextLookup :text="passage.canonicalText" :highlight="highlightQuery" /></p>
               
-              <p class="sentence-hint"><span class="translation-label">白話文</span>{{ passageAid(passage)?.translation }}</p>
-              <p class="sentence-hint"><span class="translation-label">解析</span>{{ passageAid(passage)?.analysis }}</p>
+              <div v-if="passageAid(passage)?.translation" class="sentence-hint vernacular-hint">
+                <span class="translation-label vernacular-badge"><ClassicalIcon name="sparkle" :size="12" /> 白話今譯</span>
+                <span class="hint-body">{{ passageAid(passage)?.translation }}</span>
+              </div>
+              <div v-if="passageAid(passage)?.analysis" class="sentence-hint analysis-hint">
+                <span class="translation-label analysis-badge"><ClassicalIcon name="book-open" :size="12" /> 深度解析</span>
+                <span class="hint-body analysis-body">{{ passageAid(passage)?.analysis }}</span>
+              </div>
             </div>
           </div>
           <div v-if="allSentences.length === 0" class="no-data">
             <p>尚無句級資料</p>
           </div>
-          <p class="reading-aid-source">
-            輔讀校讀參考：
-            <span v-for="(source, key) in READING_AID_SOURCES" :key="key">{{ source.edition }}（{{ source.note }}）</span>
-          </p>
+          <div class="reading-aid-source-box glass-card">
+            <div class="source-header">
+              <span class="source-seal"><RedSeal text="考訂" :size="20" :animate="false" /></span>
+              <span class="source-title font-serif">經傳權威參照版本與考證底本</span>
+            </div>
+            <div class="source-body">
+              <p class="source-edition"><strong>典藏底本：</strong>{{ currentAidSource.edition }}</p>
+              <p class="source-note"><strong>校勘考辨：</strong>{{ currentAidSource.note }}</p>
+              <p v-if="passages[0]?.readingAid?.historicalContext" class="source-context">
+                <strong>版本源流：</strong>{{ passages[0]?.readingAid?.historicalContext }}
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -1329,7 +1347,7 @@ const schoolAmbientStyle = computed(() => {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: var(--sp-3);
-  background: rgba(0, 0, 0, 0.15);
+  background: color-mix(in srgb, var(--c-bg-card) 75%, var(--c-gold-glow));
   padding: var(--sp-3) var(--sp-4);
   border-radius: var(--radius-md);
 }
@@ -1557,7 +1575,7 @@ const schoolAmbientStyle = computed(() => {
   padding: 2px 10px;
   border-radius: var(--radius-full);
   border: 1px solid var(--c-border-accent);
-  background: rgba(0, 0, 0, 0.2);
+  background: var(--c-gold-glow);
   color: var(--c-gold-light);
   font-family: var(--font-sans);
   font-size: var(--fs-xs);
@@ -1623,7 +1641,7 @@ const schoolAmbientStyle = computed(() => {
   height: 22px;
   border-radius: var(--radius-full);
   border: 1px solid var(--c-border-subtle);
-  background: rgba(0, 0, 0, 0.4);
+  background: var(--c-bg-card);
   color: var(--c-gold);
   font-size: 0.7rem;
   cursor: pointer;
@@ -1643,7 +1661,7 @@ const schoolAmbientStyle = computed(() => {
 
 .vertical-audio-tag-btn {
   border: 1px solid var(--c-border-accent);
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--c-bg-card);
   color: var(--c-gold);
   border-radius: var(--radius-full);
   padding: 2px 8px;
@@ -1668,7 +1686,7 @@ const schoolAmbientStyle = computed(() => {
   padding: 2px 8px;
   border-radius: var(--radius-sm);
   border: 1px solid var(--c-border-accent);
-  background: rgba(0, 0, 0, 0.2);
+  background: var(--c-bg-card);
   color: var(--c-text-secondary);
   font-size: var(--fs-xs);
   cursor: pointer;
@@ -1677,5 +1695,55 @@ const schoolAmbientStyle = computed(() => {
 .audio-mini-btn:hover, .audio-mini-btn.is-active {
   background: var(--c-gold);
   color: #12141a;
+}
+
+/* ── Authoritative Reading Aid Source Box ── */
+.reading-aid-source-box {
+  margin-top: var(--sp-8);
+  padding: var(--sp-5) var(--sp-6);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--c-border-accent);
+  background: var(--c-bg-card);
+}
+
+.source-header {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-3);
+  padding-bottom: var(--sp-2);
+  border-bottom: 1px dashed var(--c-border-subtle);
+}
+
+.source-title {
+  font-size: var(--fs-md);
+  font-weight: var(--fw-bold);
+  color: var(--c-gold);
+  letter-spacing: 0.06em;
+}
+
+.source-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  line-height: var(--lh-relaxed);
+  color: var(--c-text-secondary);
+}
+
+.source-edition strong,
+.source-note strong,
+.source-context strong {
+  color: var(--c-gold-dark);
+}
+
+.hint-body {
+  display: block;
+  margin-top: 4px;
+}
+
+.analysis-body {
+  white-space: pre-line;
 }
 </style>

@@ -364,7 +364,7 @@ const chunkGroups = computed<ChunkGroup[]>(() => {
   display: flex;
   flex-direction: column;
   margin-bottom: var(--sp-6);
-  background: rgba(201, 169, 110, 0.05);
+  background: color-mix(in srgb, var(--c-bg-card) 88%, var(--c-gold-glow));
   border-radius: var(--radius-md);
   border: 1px solid var(--c-border-accent);
   overflow: hidden;
@@ -375,7 +375,7 @@ const chunkGroups = computed<ChunkGroup[]>(() => {
   align-items: center;
   gap: var(--sp-3);
   padding: var(--sp-2) var(--sp-4);
-  background: rgba(201, 169, 110, 0.08);
+  background: color-mix(in srgb, var(--c-bg-elevated) 82%, var(--c-gold-glow));
   border-bottom: 1px solid var(--c-border-accent);
 }
 
@@ -403,12 +403,12 @@ const chunkGroups = computed<ChunkGroup[]>(() => {
 
 .aid-tab-btn:hover {
   color: var(--c-text-secondary);
-  background: rgba(201, 169, 110, 0.08);
+  background: var(--c-gold-glow);
 }
 
 .aid-tab-btn.is-active {
   color: var(--c-gold);
-  background: rgba(201, 169, 110, 0.15);
+  background: color-mix(in srgb, var(--c-gold) 16%, transparent);
   font-weight: var(--fw-semibold);
 }
 
@@ -420,7 +420,7 @@ const chunkGroups = computed<ChunkGroup[]>(() => {
 .aid-text {
   font-family: var(--font-sans);
   font-size: var(--fs-sm);
-  color: var(--c-text-secondary);
+  color: var(--c-text-primary);
   line-height: var(--lh-relaxed);
   margin: 0;
   white-space: pre-line;
@@ -443,7 +443,7 @@ const chunkGroups = computed<ChunkGroup[]>(() => {
   gap: var(--sp-3);
   padding: var(--sp-4);
   margin-bottom: var(--sp-4);
-  background: rgba(201, 169, 110, 0.06);
+  background: color-mix(in srgb, var(--c-bg-card) 88%, var(--c-gold-glow));
   border-radius: var(--radius-md);
   border: 1px solid var(--c-border-accent);
 }
@@ -521,17 +521,17 @@ const chunkGroups = computed<ChunkGroup[]>(() => {
 }
 
 .chunk-bordered {
-  border: 1px solid rgba(201, 169, 110, 0.15);
+  border: 1px solid var(--c-border-accent);
   border-radius: var(--radius-sm);
   padding: 2px 4px;
   margin: 2px;
-  background: rgba(201, 169, 110, 0.03);
+  background: var(--c-gold-glow);
   transition: all var(--duration-fast) var(--ease-out);
 }
 
 .chunk-bordered:hover {
-  border-color: rgba(201, 169, 110, 0.35);
-  background: rgba(201, 169, 110, 0.06);
+  border-color: var(--c-gold);
+  background: color-mix(in srgb, var(--c-gold) 14%, transparent);
 }
 
 .all-masked-state {

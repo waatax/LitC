@@ -661,41 +661,41 @@ html.light-theme {
 
 /* 3. Celadon Jade Theme (雨過天青 - Soft Pale Green) */
 html.theme-celadon {
-  --c-bg-deep:       #e2ece5;
-  --c-bg-primary:    #ebf3ee;
-  --c-bg-secondary:  #d3ded6;
-  --c-bg-card:       rgba(235, 243, 238, 0.72);
-  --c-bg-card-hover: rgba(226, 236, 230, 0.88);
-  --c-bg-elevated:   #f1f7f4;
-  --c-border:        rgba(58, 139, 100, 0.16);
-  --c-border-subtle: rgba(58, 139, 100, 0.08);
-  --c-border-accent: rgba(58, 139, 100, 0.35);
-  --c-text-primary:  #1f3d2b;
-  --c-text-secondary:#3a5e48;
-  --c-text-muted:    #688a75;
-  --c-text-inverse:  #ebf3ee;
-  --c-gold:          #3a8b64;
-  --c-gold-light:    #5b9e7c;
-  --c-gold-dark:     #245c40;
-  --c-gold-glow:     rgba(58, 94, 72, 0.08);
-  --c-wusilan-line:  rgba(58, 94, 72, 0.12);
-  --c-bg-sidebar:    linear-gradient(180deg, #d3ded6 0%, #c4cfc7 100%);
-  --c-bg-mobile-tab: rgba(235, 243, 238, 0.96);
-  --c-success:       #1f573c;
-  --c-warning:       #6a521a;
-  --c-danger:        #6e2d2d;
-  --c-info:          #24455c;
+  --c-bg-deep:       #d8e5dd;
+  --c-bg-primary:    #eef5f1;
+  --c-bg-secondary:  #dbe7e0;
+  --c-bg-card:       rgba(240, 248, 244, 0.82);
+  --c-bg-card-hover: rgba(245, 251, 248, 0.94);
+  --c-bg-elevated:   #f4f9f6;
+  --c-border:        rgba(56, 128, 98, 0.16);
+  --c-border-subtle: rgba(56, 128, 98, 0.08);
+  --c-border-accent: rgba(45, 120, 88, 0.32);
+  --c-text-primary:  #123020;
+  --c-text-secondary:#274d37;
+  --c-text-muted:    #537562;
+  --c-text-inverse:  #f0f7f3;
+  --c-gold:          #2a7c55;
+  --c-gold-light:    #449a70;
+  --c-gold-dark:     #1b5639;
+  --c-gold-glow:     rgba(42, 124, 85, 0.12);
+  --c-wusilan-line:  rgba(42, 124, 85, 0.14);
+  --c-bg-sidebar:    linear-gradient(180deg, #dbe7e0 0%, #ccdcd2 100%);
+  --c-bg-mobile-tab: rgba(238, 245, 241, 0.96);
+  --c-success:       #1b5a3a;
+  --c-warning:       #7a5814;
+  --c-danger:        #783030;
+  --c-info:          #1e4a60;
 
-  /* 毛玻璃效果（明亮頁面 - 墨韻渲染 Ink Wash Tint） */
-  --c-glass-bg:           rgba(60, 64, 67, 0.08);
-  --c-glass-bg-hover:     rgba(60, 64, 67, 0.12);
-  --c-glass-readable-bg:  rgba(235, 243, 238, 0.84);
-  --c-glass-readable-hover: rgba(235, 243, 238, 0.90);
-  --c-glass-border:       rgba(60, 64, 67, 0.20);
-  --c-glass-border-hover: rgba(60, 64, 67, 0.35);
-  --c-glass-shadow:       0 8px 32px rgba(60, 64, 67, 0.15);
-  --c-glass-glow:         0 0 24px rgba(60, 64, 67, 0.25);
-  --c-glass-blur:         blur(14px) saturate(105%);
+  /* 毛玻璃效果（雨過天青・淺青玉釉 清透微渲染 Pale Celadon Glaze Tint - 徹底去除黑底，減少渲染消耗並護眼） */
+  --c-glass-bg:           rgba(188, 220, 206, 0.16);
+  --c-glass-bg-hover:     rgba(188, 220, 206, 0.26);
+  --c-glass-readable-bg:  rgba(242, 249, 245, 0.88);
+  --c-glass-readable-hover: rgba(248, 252, 250, 0.94);
+  --c-glass-border:       rgba(62, 140, 105, 0.22);
+  --c-glass-border-hover: rgba(42, 124, 85, 0.45);
+  --c-glass-shadow:       0 4px 20px rgba(28, 68, 48, 0.07);
+  --c-glass-glow:         0 0 16px rgba(68, 154, 112, 0.18);
+  --c-glass-blur:         blur(8px) saturate(102%);
 }
 
 /* 4. Cinnabar Red Theme (硃砂描金 - Deep Red/Gold) */
@@ -1257,3 +1257,133 @@ html[data-glass="false"] .ink-canvas {
   }
 }
 
+
+/* ═══════════════════════════════════════════════════════
+   雨過天青與明亮主題：音訊條、彈窗與毛玻璃渲染深度優化
+   Theme Adaptive Frosted Glass & Light Audio Bar
+   ═══════════════════════════════════════════════════════ */
+
+/* 雨過天青主題音訊播放器全面淡青實體毛玻璃化（去除突兀黑條） */
+html.theme-celadon .audio-player-bar,
+html.theme-celadon .mini-player-pill {
+  background: rgba(238, 247, 242, 0.95) !important;
+  border: 1px solid rgba(62, 140, 105, 0.35) !important;
+  box-shadow: 0 10px 30px rgba(28, 68, 48, 0.10), 0 0 16px rgba(68, 154, 112, 0.14) !important;
+  color: var(--c-text-primary) !important;
+}
+
+html.theme-celadon .mini-player-pill:hover {
+  border-color: var(--c-gold) !important;
+  background: rgba(244, 251, 247, 0.98) !important;
+}
+
+html.theme-celadon .audio-player-bar .mini-btn,
+html.theme-celadon .audio-player-bar .ctrl-btn,
+html.theme-celadon .audio-player-bar .time-label {
+  color: var(--c-text-primary) !important;
+}
+
+html.theme-celadon .audio-player-bar .time-label {
+  color: var(--c-text-secondary) !important;
+}
+
+html.theme-celadon .rate-toast-badge {
+  background: #ebf5ee !important;
+  border: 1px solid var(--c-gold) !important;
+  color: var(--c-gold-dark) !important;
+  box-shadow: 0 4px 14px rgba(28, 68, 48, 0.15) !important;
+}
+
+/* 宣紙暖白主題音訊條適配 */
+html.theme-xuan .audio-player-bar,
+html.theme-xuan .mini-player-pill {
+  background: rgba(250, 246, 238, 0.95) !important;
+  border: 1px solid rgba(133, 91, 33, 0.30) !important;
+  box-shadow: 0 10px 30px rgba(70, 50, 20, 0.10) !important;
+  color: var(--c-text-primary) !important;
+}
+
+html.theme-xuan .audio-player-bar .mini-btn,
+html.theme-xuan .audio-player-bar .ctrl-btn,
+html.theme-xuan .audio-player-bar .time-label {
+  color: var(--c-text-primary) !important;
+}
+
+/* 暖杏古卷主題音訊條適配 */
+html.theme-amber .audio-player-bar,
+html.theme-amber .mini-player-pill {
+  background: rgba(247, 241, 227, 0.95) !important;
+  border: 1px solid rgba(156, 101, 24, 0.30) !important;
+  box-shadow: 0 10px 30px rgba(90, 70, 40, 0.10) !important;
+  color: var(--c-text-primary) !important;
+}
+
+html.theme-amber .audio-player-bar .mini-btn,
+html.theme-amber .audio-player-bar .ctrl-btn,
+html.theme-amber .audio-player-bar .time-label {
+  color: var(--c-text-primary) !important;
+}
+
+/* 雨過天青彈窗遮罩：淡雅青墨透潤，取代純黑遮罩 */
+html.theme-celadon .search-modal-backdrop,
+html.theme-celadon .dictionary-backdrop,
+html.theme-celadon .annotation-layer,
+html.theme-celadon .mobile-more-backdrop {
+  background: rgba(20, 45, 34, 0.38) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+}
+
+/* 古文與白話文對照・深層學術研讀標籤與卡片 */
+.sentence-hint.vernacular-hint {
+  font-family: var(--font-sans);
+  font-size: var(--fs-base);
+  color: var(--c-text-primary);
+  line-height: var(--lh-relaxed);
+  padding: var(--sp-3) var(--sp-4);
+  background: color-mix(in srgb, var(--c-bg-card) 90%, var(--c-gold-glow));
+  border-left: 3px solid var(--c-gold);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  margin-bottom: var(--sp-3);
+}
+
+.sentence-hint.analysis-hint {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--c-text-secondary);
+  line-height: var(--lh-relaxed);
+  padding: var(--sp-3) var(--sp-4);
+  background: color-mix(in srgb, var(--c-bg-elevated) 70%, transparent);
+  border-left: 3px solid var(--c-gold-light);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  margin-bottom: var(--sp-4);
+  white-space: pre-line;
+}
+
+.translation-label.vernacular-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-right: var(--sp-2);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-bold);
+  color: var(--c-gold-dark);
+  background: color-mix(in srgb, var(--c-gold) 16%, transparent);
+  border: 1px solid var(--c-border-accent);
+}
+
+.translation-label.analysis-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-right: var(--sp-2);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-bold);
+  color: var(--c-gold);
+  background: var(--c-gold-glow);
+  border: 1px solid var(--c-border-accent);
+}
