@@ -18,29 +18,33 @@ const navItems: NavItem[] = [
   { icon: 'today', label: '今日修持', to: '/' },
   { icon: 'glimpse', label: '驚鴻一瞥', to: '/glimpse' },
   { icon: 'library', label: '典籍文庫', to: '/library' },
+  { icon: 'feather', label: '唐詩宋詞', to: '/poetry' },
+  { icon: 'quiz', label: '古文闖關', to: '/quiz' },
   { icon: 'compare', label: '跨派互照', to: '/compare' },
   { icon: 'wenhai', label: '文海觀瀾', to: '/wenhai' },
   { icon: 'profile', label: '修行造詣', to: '/profile' },
-  { icon: 'quiz', label: '學問策考', to: '/quiz' },
 ]
 
 const mobileNavItems: NavItem[] = [
   { icon: 'today', label: '今日', to: '/' },
-  { icon: 'glimpse', label: '驚鴻', to: '/glimpse' },
   { icon: 'library', label: '文庫', to: '/library' },
-  { icon: 'profile', label: '修行', to: '/profile' },
+  { icon: 'feather', label: '詩詞', to: '/poetry' },
+  { icon: 'quiz', label: '闖關', to: '/quiz' },
 ]
 
 const moreNavItems: NavItem[] = [
+  { icon: 'feather', label: '唐詩宋詞', to: '/poetry' },
+  { icon: 'quiz', label: '古文闖關', to: '/quiz' },
+  { icon: 'glimpse', label: '驚鴻一瞥', to: '/glimpse' },
   { icon: 'compare', label: '跨派互照', to: '/compare' },
   { icon: 'wenhai', label: '文海觀瀾', to: '/wenhai' },
-  { icon: 'quiz', label: '學問策考', to: '/quiz' },
+  { icon: 'profile', label: '修行造詣', to: '/profile' },
 ]
 
 const mobileMoreOpen = ref(false)
 
 const isMoreActive = computed(() => {
-  return ['/compare', '/wenhai', '/quiz', '/search'].some((path) => route.path.startsWith(path))
+  return ['/poetry', '/compare', '/wenhai', '/quiz', '/search'].some((path) => route.path.startsWith(path))
 })
 
 interface SchoolDot {

@@ -64,10 +64,16 @@ const router = createRouter({
       meta: { title: '檢索' },
     },
     {
+      path: '/poetry',
+      name: 'poetry',
+      component: () => import('@/views/PoetryView.vue'),
+      meta: { title: '唐詩宋詞' },
+    },
+    {
       path: '/quiz',
       name: 'quiz',
       component: () => import('@/views/QuizView.vue'),
-      meta: { title: '古文考驗' },
+      meta: { title: '古文闖關' },
     },
   ],
   scrollBehavior(_to, _from, savedPosition) {

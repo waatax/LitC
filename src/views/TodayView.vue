@@ -492,6 +492,101 @@ function playMissionQuote(mode: SpeechMode = 'canonical') {
       </div>
     </section>
 
+    <!-- 四維融通 ‧ 真實古文學習法與全新典藏專區 -->
+    <section class="four-pillars-section">
+      <div class="section-title">
+        <div>
+          <p class="eyebrow font-serif">知行合一 ‧ 真正學透古文</p>
+          <h2 class="font-serif">四維融通：理解、享受、背誦記憶、連結</h2>
+        </div>
+        <span class="pillars-badge font-serif">文以載道 ‧ 經世致用</span>
+      </div>
+
+      <!-- 四維學習柱 -->
+      <div class="pillars-row">
+        <div class="pillar-mini-card">
+          <div class="pm-icon-wrap" style="background: rgba(44, 79, 94, 0.12); color: #2c4f5e;">
+            <ClassicalIcon name="book-open" :size="20" />
+          </div>
+          <div class="pm-info">
+            <h4 class="font-serif">1. 理解</h4>
+            <p>通讀全篇字詞句法、原文出處與權威註疏，字字有據、脈絡瞭然。</p>
+          </div>
+        </div>
+
+        <div class="pillar-mini-card">
+          <div class="pm-icon-wrap" style="background: rgba(181, 141, 61, 0.12); color: #b58d3d;">
+            <ClassicalIcon name="sparkle" :size="20" />
+          </div>
+          <div class="pm-info">
+            <h4 class="font-serif">2. 享受</h4>
+            <p>水墨丹青古典美學、平仄聲律抑揚頓挫與語音吟誦，涵泳風雅意境。</p>
+          </div>
+        </div>
+
+        <div class="pillar-mini-card">
+          <div class="pm-icon-wrap" style="background: rgba(91, 138, 114, 0.12); color: #5b8a72;">
+            <ClassicalIcon name="scholar" :size="20" />
+          </div>
+          <div class="pm-info">
+            <h4 class="font-serif">3. 背誦記憶</h4>
+            <p>階梯式挖空骨架、首字提示、意羣拆解重組與艾賓浩斯科學間隔複習。</p>
+          </div>
+        </div>
+
+        <div class="pillar-mini-card">
+          <div class="pm-icon-wrap" style="background: rgba(178, 76, 54, 0.12); color: #b24c36;">
+            <ClassicalIcon name="flame" :size="20" />
+          </div>
+          <div class="pm-info">
+            <h4 class="font-serif">4. 連結</h4>
+            <p>跨越千年對話，將先賢處世哲學投射於現代職場、心靈安頓與人生抉擇。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 兩大核心專區入口卡片 -->
+      <div class="special-portals-grid">
+        <!-- 卡片 1: 唐詩宋詞 -->
+        <article class="special-portal-card poetry-portal" @click="router.push('/poetry')">
+          <div class="portal-ornament" aria-hidden="true">詩</div>
+          <div class="portal-content">
+            <span class="portal-tag font-serif">
+              <ClassicalIcon name="feather" :size="13" />
+              <span>名篇典藏 ‧ 聲律吟詠</span>
+            </span>
+            <h3 class="portal-title font-serif">唐詩宋詞 ‧ 盛唐風骨與兩宋煙雨</h3>
+            <p class="portal-desc">
+              收錄李白《將進酒》《蜀道難》、杜甫《登高》、蘇軾《念奴嬌》《水調歌頭》、李清照《聲聲慢》等傳世珍品。支援名家吟誦、直排字律與背誦階梯。
+            </p>
+            <div class="portal-action font-serif">
+              <span>漫步詩詞長廊</span>
+              <ClassicalIcon name="arrow-right" :size="14" />
+            </div>
+          </div>
+        </article>
+
+        <!-- 卡片 2: 古文闖關 300 題 -->
+        <article class="special-portal-card quest-portal" @click="router.push('/quiz')">
+          <div class="portal-ornament" aria-hidden="true">闕</div>
+          <div class="portal-content">
+            <span class="portal-tag font-serif">
+              <ClassicalIcon name="crown" :size="13" />
+              <span>九重天闕 ‧ 300 題全解析題庫</span>
+            </span>
+            <h3 class="portal-title font-serif">古文闖關 ‧ 登臨九重試鋒芒</h3>
+            <p class="portal-desc">
+              從「啟蒙發軔」至「字詞玄機」，共九大主題階梯。每題皆具備精確原文出處、上下文全景、白話通譯、答案解析與現代生活連結錦囊。
+            </p>
+            <div class="portal-action font-serif">
+              <span>進入天闕闖關</span>
+              <ClassicalIcon name="arrow-right" :size="14" />
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
     <!-- Daily Knowledge Point Spotlight & Track Progress -->
     <section class="today-knowledge-section">
       <div class="today-knowledge-grid">
@@ -1378,6 +1473,160 @@ summary {
   display: inline-flex;
   align-items: center;
   gap: 6px;
+}
+
+/* ── Four Pillars & Special Portals ── */
+.four-pillars-section {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.pillars-badge {
+  font-size: 0.85rem;
+  padding: 4px 12px;
+  background: rgba(174, 119, 77, 0.1);
+  border: 1px solid rgba(174, 119, 77, 0.25);
+  border-radius: 999px;
+  color: var(--c-gold);
+}
+
+.pillars-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.pillar-mini-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  background: var(--c-surface, rgba(255, 255, 255, 0.7));
+  border: 1px solid rgba(174, 119, 77, 0.15);
+  border-radius: var(--radius-md, 12px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.pillar-mini-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.pm-icon-wrap {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pm-info h4 {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+  color: var(--c-heading, #2c1d11);
+}
+
+.pm-info p {
+  margin: 0;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--c-text-muted, #7c6853);
+}
+
+.special-portals-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 8px;
+}
+
+.special-portal-card {
+  position: relative;
+  overflow: hidden;
+  padding: 28px;
+  border-radius: var(--radius-lg, 16px);
+  cursor: pointer;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.special-portal-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+}
+
+.poetry-portal {
+  background: linear-gradient(135deg, rgba(74, 111, 165, 0.08) 0%, rgba(201, 169, 110, 0.12) 100%), var(--c-surface, #fff);
+  border: 1px solid rgba(74, 111, 165, 0.25);
+}
+
+.quest-portal {
+  background: linear-gradient(135deg, rgba(181, 141, 61, 0.08) 0%, rgba(200, 90, 60, 0.1) 100%), var(--c-surface, #fff);
+  border: 1px solid rgba(181, 141, 61, 0.25);
+}
+
+.portal-ornament {
+  position: absolute;
+  top: -15px;
+  right: 15px;
+  font-size: 6.5rem;
+  font-family: var(--font-serif);
+  opacity: 0.07;
+  pointer-events: none;
+  user-select: none;
+  line-height: 1;
+}
+
+.portal-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  color: var(--c-gold);
+  margin-bottom: 8px;
+}
+
+.portal-title {
+  margin: 0 0 10px;
+  font-size: 1.28rem;
+  color: var(--c-heading, #2c1d11);
+}
+
+.portal-desc {
+  margin: 0 0 20px;
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: var(--c-text-muted, #6a5744);
+  flex: 1;
+}
+
+.portal-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--c-primary, #9e3d22);
+}
+
+@media (max-width: 900px) {
+  .pillars-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .special-portals-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 550px) {
+  .pillars-row {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 850px) {
