@@ -19,6 +19,8 @@ export interface School {
   description: string
   icon: string        // emoji or icon identifier
   workIds: string[]
+  thinkingModel?: string
+  cognitivePearls?: string[]
 }
 
 export interface WorkDescription {
@@ -233,7 +235,7 @@ export interface PoemItem {
   subtitle?: string
   cipai?: string       // 宋詞詞牌名，如《念奴嬌》、《水調歌頭》
   author: string
-  dynasty: '唐代' | '宋代'
+  dynasty: '唐代' | '五代' | '宋代'
   authorBio: string
   genre: string        // 體裁：五言絕句、七言律詩、歌行體、長調、中調、小令等
   theme: string        // 主題：豪放豁達、婉約深情、山水田園、邊塞金戈、詠史懷古、行旅思鄉等
@@ -296,6 +298,12 @@ export interface QuestStage {
   requiredStars?: number
   icon: string
   themeColor: string
+  studyGuide?: {
+    coreWisdom: string
+    highYieldPoints: string[]
+    commonTraps: string[]
+    masteryTips: string
+  }
 }
 
 // ── Bundles for dynamic chunk loading ─────────────

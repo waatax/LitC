@@ -92,6 +92,7 @@ export const WENHAI_RESOURCES: WenhaiResource[] = [
     description: '以古詩文閱讀為主，常見名篇附原文、翻譯、註釋與賞析，版面適合一般讀者延伸學習。',
     bestFor: '入門閱讀、白話翻譯與名篇賞析',
     language: '簡體中文',
+
   },
   {
     name: '古詩文網',
@@ -101,5 +102,24 @@ export const WENHAI_RESOURCES: WenhaiResource[] = [
     description: '收錄大量詩、詞、曲與古文名篇，提供作者資料、註釋、譯文、賞析及主題分類。',
     bestFor: '名篇導讀、作者脈絡與教學參考',
     language: '簡體中文',
+
   },
-]
+  {
+    name: '國立故宮博物院善本古籍資料庫',
+    url: 'https://npm.gov.tw/',
+    kind: '善本影像',
+    organization: '國立故宮博物院',
+    description: '典藏宋元明清宮廷善本、四庫全書底本與殿本精刻，展現中華文獻之原貌與極致裝幀美學。',
+    bestFor: '鑑賞宮廷宋元版刻本、避諱考證與古籍題簽',
+    language: '繁體中文',
+  },
+  {
+    name: '先秦兩漢出土文獻與簡帛研讀平台',
+    url: 'https://www.bamboosilk.org/',
+    kind: '專題研究',
+    organization: '簡帛研究中心',
+    description: '匯整郭店楚簡、上博簡、清華簡與睡虎地秦簡之釋文與圖版，提供先秦原典最新出土文獻互證。',
+    bestFor: '探索先秦古本真貌、古文字形體考釋與思想史前沿',
+    language: '繁體中文／簡體中文',
+  },
+]

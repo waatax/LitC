@@ -64,7 +64,13 @@ export const useGamificationStore = defineStore('gamification', () => {
     { id: 'school-legalism-3', title: '法家通達', description: '法家融會貫通', icon: '⚖️' },
     { id: 'school-military-1', title: '兵法初窺', description: '兵家背誦 ≥5 句', icon: '⚔️' },
     { id: 'school-military-2', title: '兵法習練', description: '兵家背誦 ≥30 句', icon: '⚔️' },
-    { id: 'school-military-3', title: '兵法大師', description: '兵家融會貫通', icon: '⚔️' }
+    { id: 'school-military-3', title: '兵法大師', description: '兵家融會貫通', icon: '⚔️' },
+    { id: 'quest-combo-5', title: '五步成詩', description: '闖關測驗連對 5 題', icon: '⚡' },
+    { id: 'quest-combo-10', title: '獨步天下', description: '闖關測驗連對 10 題', icon: '👑' },
+    { id: 'quest-stage-1', title: '突破啟蒙', description: '首度完成第一關啟蒙考驗', icon: '🌱' },
+    { id: 'quest-stage-all', title: '六藝通儒', description: '通關九重天闕全部關卡', icon: '🐉' },
+    { id: 'quest-voice-master', title: '側耳傾聽', description: '啟用語音念讀題目與選項輔助研習', icon: '🔊' },
+    { id: 'quest-lifeline-master', title: '錦囊妙計', description: '善用去蕪存菁與提點錦囊化險為夷', icon: '🪄' }
   ])
 
   // load saved achievements if any

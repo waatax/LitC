@@ -837,6 +837,72 @@ class SpeechService {
     })
   }
 
+  /**
+   * 獨立朗讀純文字（支援題幹、選項、答案解析朗讀）
+   */
+  public speakText(
+    text: string,
+    options?: {
+      rate?: number
+      onStart?: () => void
+      onEnd?: () => void
+      onError?: (err: any) => void
+      isClassical?: boolean
+    }
+  ) {
+    if (!this.synth) return
+    this.stop()
+
+    const sanitized = options?.isClassical === false ? text.trim() : this.sanitizeText(text)
+    if (!sanitized) return
+
+    this.state.isPlaying = true
+    this.state.isPaused = false
+    this.state.currentText = sanitized
+    this.state.audioSourceType = 'tts'
+
+    const utterance = new SpeechSynthesisUtterance(sanitized)
+    this.activeUtterance = utterance
+
+    if (this.state.selectedVoiceURI && this.voices.value.length > 0) {
+      const chosen = this.voices.value.find(v => v.voiceURI === this.state.selectedVoiceURI)
+      if (chosen) {
+        utterance.voice = chosen
+        utterance.lang = chosen.lang
+      }
+    } else {
+      utterance.lang = 'zh-TW'
+    }
+
+    utterance.rate = options?.rate || this.state.currentRate
+    utterance.pitch = 1.0
+
+    utterance.onstart = () => {
+      this.state.isPlaying = true
+      this.state.isPaused = false
+      this.startKeepAlive()
+      options?.onStart?.()
+    }
+
+    utterance.onend = () => {
+      this.clearKeepAlive()
+      this.state.isPlaying = false
+      this.activeUtterance = null
+      options?.onEnd?.()
+    }
+
+    utterance.onerror = (e) => {
+      this.clearKeepAlive()
+      this.state.isPlaying = false
+      this.activeUtterance = null
+      if (e.error !== 'interrupted' && e.error !== 'canceled') {
+        options?.onError?.(e)
+      }
+    }
+
+    this.synth.speak(utterance)
+  }
+
   private startKeepAlive() {
     this.clearKeepAlive()
     this.keepAliveTimer = setInterval(() => {
