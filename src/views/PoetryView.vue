@@ -2,22 +2,32 @@
 import { ref, computed, onUnmounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { POETRY_COLLECTION, getPoetryStats } from '@/data/poetry'
-import type { PoemItem, PoemType, LearningPillar } from '@/types/content'
+import type { PoemItem, PoemType, LearningPillar, PoemGradeLevel } from '@/types/content'
 import { LEARNING_PILLARS } from '@/types/content'
 import ClassicalIcon from '@/components/ClassicalIcon.vue'
+import PoetryInfograph from '@/components/PoetryInfograph.vue'
+import PoetryPlayground from '@/components/PoetryPlayground.vue'
 import { speechService } from '@/services/speech'
 
 const router = useRouter()
 
 // Filtering states
 const selectedType = ref<'all' | PoemType>('all')
+const selectedGrade = ref<'all' | PoemGradeLevel>('all')
 const selectedTheme = ref<string>('all')
 const searchQuery = ref('')
+
+// Interactive widgets toggle
+const showInfograph = ref(true)
+const showPlayground = ref(false)
 
 // Reader modal state
 const activePoem = ref<PoemItem | null>(null)
 const activePillar = ref<LearningPillar>('understand')
 const isVerticalLayout = ref(false)
+const phoneticMode = ref<'none' | 'zhuyin' | 'pinyin'>('zhuyin')
+const fontSizeScale = ref<number>(1)
+
 const isPlayingAudio = computed(() => {
   return speechService.state.isPlaying && !speechService.state.isPaused && speechService.state.currentPassageId === activePoem.value?.id
 })
@@ -43,6 +53,10 @@ const filteredPoems = computed(() => {
     if (selectedType.value !== 'all' && p.type !== selectedType.value) {
       return false
     }
+    // Grade filter
+    if (selectedGrade.value !== 'all' && p.gradeLevel !== selectedGrade.value) {
+      return false
+    }
     // Theme filter
     if (selectedTheme.value !== 'all') {
       if (!p.theme.includes(selectedTheme.value)) return false
@@ -54,8 +68,9 @@ const filteredPoems = computed(() => {
       const inAuthor = p.author.toLowerCase().includes(q)
       const inLines = p.lines.some((l) => l.toLowerCase().includes(q))
       const inCipai = p.cipai ? p.cipai.toLowerCase().includes(q) : false
+      const inQupai = p.qupai ? p.qupai.toLowerCase().includes(q) : false
       const inKey = p.keyVerses.some((k) => k.toLowerCase().includes(q))
-      if (!inTitle && !inAuthor && !inLines && !inCipai && !inKey) {
+      if (!inTitle && !inAuthor && !inLines && !inCipai && !inQupai && !inKey) {
         return false
       }
     }
@@ -127,6 +142,15 @@ onUnmounted(() => {
   stopAudio()
 })
 
+// Font size scaling
+function zoomInFont() {
+  if (fontSizeScale.value < 1.4) fontSizeScale.value += 0.1
+}
+
+function zoomOutFont() {
+  if (fontSizeScale.value > 0.85) fontSizeScale.value -= 0.1
+}
+
 // Recitation cloze helper
 function getClozeLine(line: string, lineIndex: number): string {
   if (activeRecitationTier.value === 'full') return line
@@ -134,12 +158,11 @@ function getClozeLine(line: string, lineIndex: number): string {
   if (activeRecitationTier.value === 'first-char') {
     return line.charAt(0) + ' ＿＿＿＿＿＿'
   }
-  // Cloze mode: mask every second word or middle segment
   if (revealedCloze.value[lineIndex]) return line
   const chars = line.split('')
   return chars
     .map((c, i) => {
-      if (['，', '。', '！', '？', '、', '；'].includes(c)) return c
+      if (['，', '。', '！', '？', '、', '；', '：'].includes(c)) return c
       if (i % 2 === 1) return ' ＿ '
       return c
     })
@@ -156,73 +179,172 @@ function toggleLineReveal(lineIndex: number) {
     <!-- View Header -->
     <header class="poetry-header">
       <div class="header-seal-badge">
-        <ClassicalIcon name="feather" :size="24" />
-        <span>唐風宋韻 ‧ 四維研讀</span>
+        <span class="header-icon">🌸</span>
+        <span>小學生快樂學古文 ‧ 全教材精選</span>
       </div>
-      <h1 class="poetry-title">唐詩絕唱 ‧ 宋詞雅韻</h1>
+      <h1 class="poetry-title">唐詩 ‧ 宋詞 ‧ 元曲樂園</h1>
       <p class="poetry-subtitle">
-        融貫「<strong>理解</strong>、<strong>享受</strong>、<strong>背誦</strong>、<strong>連結</strong>」四維心法，品讀穿越千年的文人風骨與心靈對話
+        經典全量收錄，配備注音、拼音、童趣小故事、趣味百科、體裁圖表與飛花令遊戲化評量！
       </p>
 
-      <!-- Stat Badges -->
+      <!-- Stats Bar -->
       <div class="stats-row">
         <div class="stat-pill">
           <span class="stat-num">{{ stats.total }}</span>
-          <span class="stat-label">傳世名篇</span>
+          <span class="stat-label">篇典藏名作</span>
         </div>
-        <div class="stat-pill">
+        <div class="stat-pill tang">
           <span class="stat-num">{{ stats.tangCount }}</span>
-          <span class="stat-label">唐詩絕句律體</span>
+          <span class="stat-label">首唐詩瑰寶</span>
         </div>
-        <div class="stat-pill">
+        <div class="stat-pill song">
           <span class="stat-num">{{ stats.songCount }}</span>
-          <span class="stat-label">宋詞豪放婉約</span>
+          <span class="stat-label">闋宋詞菁華</span>
         </div>
-        <div class="stat-pill">
+        <div class="stat-pill yuan">
+          <span class="stat-num">{{ stats.yuanCount }}</span>
+          <span class="stat-label">首元曲天籟</span>
+        </div>
+        <div class="stat-pill author">
           <span class="stat-num">{{ stats.authorCount }}</span>
-          <span class="stat-label">千古文豪名家</span>
+          <span class="stat-label">位歷代名家</span>
         </div>
+      </div>
+
+      <!-- Quick Action Toggles -->
+      <div class="feature-toggles">
+        <button
+          class="feature-toggle-btn"
+          :class="{ active: showInfograph }"
+          @click="showInfograph = !showInfograph"
+        >
+          <span>📊 知識大講堂（Infograph 圖表）</span>
+          <span class="toggle-arrow">{{ showInfograph ? '▲ 收合' : '▼ 展開' }}</span>
+        </button>
+        <button
+          class="feature-toggle-btn playground-btn"
+          :class="{ active: showPlayground }"
+          @click="showPlayground = !showPlayground"
+        >
+          <span>🎮 趣味遊樂園（飛花令 ‧ 拼圖 ‧ 闖關）</span>
+          <span class="toggle-arrow">{{ showPlayground ? '▲ 收合' : '▼ 展開' }}</span>
+        </button>
       </div>
     </header>
 
-    <!-- Filters Bar -->
+    <!-- Playground Section (Interactive Gamification) -->
+    <transition name="expand">
+      <section v-if="showPlayground" class="widget-section">
+        <PoetryPlayground />
+      </section>
+    </transition>
+
+    <!-- Infograph Section (Visual Knowledge & Charts) -->
+    <transition name="expand">
+      <section v-if="showInfograph" class="widget-section">
+        <PoetryInfograph />
+      </section>
+    </transition>
+
+    <!-- Filters Section -->
     <section class="filters-section">
-      <div class="type-segmented-control">
-        <button
-          class="seg-btn"
-          :class="{ active: selectedType === 'all' }"
-          @click="selectedType = 'all'"
-        >
-          全部名篇 ({{ stats.total }})
-        </button>
-        <button
-          class="seg-btn"
-          :class="{ active: selectedType === 'tang' }"
-          @click="selectedType = 'tang'"
-        >
-          唐詩 ({{ stats.tangCount }})
-        </button>
-        <button
-          class="seg-btn"
-          :class="{ active: selectedType === 'song' }"
-          @click="selectedType = 'song'"
-        >
-          宋詞 ({{ stats.songCount }})
-        </button>
+      <!-- Genre (Type) Segmented Control -->
+      <div class="filter-group">
+        <span class="filter-group-label">文體體裁：</span>
+        <div class="type-segmented-control">
+          <button
+            class="seg-btn"
+            :class="{ active: selectedType === 'all' }"
+            @click="selectedType = 'all'"
+          >
+            全部體裁 ({{ POETRY_COLLECTION.length }})
+          </button>
+          <button
+            class="seg-btn type-tang"
+            :class="{ active: selectedType === 'tang' }"
+            @click="selectedType = 'tang'"
+          >
+            唐詩 ({{ stats.tangCount }})
+          </button>
+          <button
+            class="seg-btn type-song"
+            :class="{ active: selectedType === 'song' }"
+            @click="selectedType = 'song'"
+          >
+            宋詞 ({{ stats.songCount }})
+          </button>
+          <button
+            class="seg-btn type-yuan"
+            :class="{ active: selectedType === 'yuan' }"
+            @click="selectedType = 'yuan'"
+          >
+            元曲 ({{ stats.yuanCount }})
+          </button>
+        </div>
       </div>
 
+      <!-- Grade Level Filter -->
+      <div class="filter-group">
+        <span class="filter-group-label">學年進階：</span>
+        <div class="grade-segmented-control">
+          <button
+            class="grade-btn"
+            :class="{ active: selectedGrade === 'all' }"
+            @click="selectedGrade = 'all'"
+          >
+            全學段
+          </button>
+          <button
+            class="grade-btn grade-low"
+            :class="{ active: selectedGrade === 'primary-low' }"
+            @click="selectedGrade = 'primary-low'"
+          >
+            🌱 小學啟蒙（一二年級）
+          </button>
+          <button
+            class="grade-btn grade-mid"
+            :class="{ active: selectedGrade === 'primary-mid' }"
+            @click="selectedGrade = 'primary-mid'"
+          >
+            🌿 小學精進（三四年級）
+          </button>
+          <button
+            class="grade-btn grade-high"
+            :class="{ active: selectedGrade === 'primary-high' }"
+            @click="selectedGrade = 'primary-high'"
+          >
+            🏆 小學經典（五六年級）
+          </button>
+          <button
+            class="grade-btn grade-adv"
+            :class="{ active: selectedGrade === 'advanced' }"
+            @click="selectedGrade = 'advanced'"
+          >
+            🌟 初中拔尖
+          </button>
+        </div>
+      </div>
+
+      <!-- Search & Theme Bar -->
       <div class="search-and-theme">
         <div class="search-box">
           <ClassicalIcon name="search" :size="16" class="search-icon" />
           <input
             v-model="searchQuery"
             type="text"
-            placeholder="搜尋題目、作者、詞牌或千古名句..."
+            placeholder="搜尋篇名、作者、名句（如「牀前明月光」、「大江東去」）..."
             class="search-input"
           />
-          <button v-if="searchQuery" class="clear-search-btn" @click="searchQuery = ''">✕</button>
+          <button
+            v-if="searchQuery"
+            class="clear-search-btn"
+            @click="searchQuery = ''"
+          >
+            ✕
+          </button>
         </div>
 
+        <!-- Theme Chips -->
         <div class="theme-chips">
           <button
             class="theme-chip"
@@ -244,314 +366,306 @@ function toggleLineReveal(lineIndex: number) {
       </div>
     </section>
 
-    <!-- Poetry Grid -->
-    <section class="poetry-grid">
-      <div
+    <!-- Poetry Cards Grid -->
+    <main class="poetry-grid">
+      <article
         v-for="poem in filteredPoems"
         :key="poem.id"
         class="poem-card"
-        :class="[`type-${poem.type}`]"
+        :class="[`type-${poem.type}`, poem.gradeLevel ? `card-${poem.gradeLevel}` : '']"
         @click="openPoem(poem)"
       >
         <div class="card-top">
-          <span class="dynasty-badge">{{ poem.dynasty }}</span>
-          <span class="genre-badge">{{ poem.genre }}</span>
-          <span class="theme-tag">{{ poem.theme.split(' ‧ ')[0] }}</span>
+          <div class="badges-group">
+            <span class="dynasty-badge">{{ poem.dynasty }}</span>
+            <span v-if="poem.gradeLabel" class="grade-badge">{{ poem.gradeLabel.split('・')[0] }}</span>
+            <span class="genre-badge">{{ poem.genre }}</span>
+          </div>
+          <span class="emoji-icon">{{ poem.illustrationEmoji || (poem.type === 'yuan' ? '🐎' : (poem.type === 'song' ? '🪷' : '📜')) }}</span>
         </div>
 
-        <h3 class="card-poem-title">
-          {{ poem.title }}
-          <span v-if="poem.cipai" class="card-cipai">〔{{ poem.cipai }}〕</span>
-        </h3>
-
-        <div class="card-author">
-          <span class="author-name">{{ poem.author }}</span>
-          <span class="author-bio-snippet">{{ poem.authorBio.split('，')[0] }}</span>
+        <div class="card-heading">
+          <h2 class="card-title">{{ poem.title }}</h2>
+          <span class="card-author">{{ poem.author }}</span>
         </div>
 
-        <!-- Famous Key Verse Spotlight -->
-        <div class="card-key-verse">
-          <ClassicalIcon name="sparkle" :size="14" class="key-icon" />
-          <span>{{ poem.keyVerses[0] || poem.lines[0] }}</span>
+        <!-- 千古名句預覽 -->
+        <div class="card-key-quote">
+          <span class="quote-sign">“</span>
+          <span class="quote-text">{{ poem.keyVerses[0] || poem.lines[0] }}</span>
         </div>
 
-        <!-- First lines preview -->
+        <!-- 原文摘要 -->
         <div class="card-lines-preview">
           <p v-for="(line, idx) in poem.lines.slice(0, 3)" :key="idx" class="preview-line">
             {{ line }}
           </p>
-          <span v-if="poem.lines.length > 3" class="more-lines-indicator">......</span>
+          <span v-if="poem.lines.length > 3" class="preview-more">……</span>
         </div>
 
         <div class="card-footer">
-          <span class="card-action-text">
-            <span>點擊開啟四維研讀</span>
-            <ClassicalIcon name="arrow-right" :size="14" />
-          </span>
+          <span class="theme-tag">{{ poem.theme.split(' ‧ ')[0] }}</span>
+          <span class="read-prompt">快樂啟讀 📖</span>
         </div>
-      </div>
-    </section>
+      </article>
+    </main>
 
     <!-- Empty State -->
     <div v-if="filteredPoems.length === 0" class="empty-state">
-      <ClassicalIcon name="empty" :size="48" />
-      <p>未找到符合條件的詩詞名篇</p>
-      <button class="btn btn-secondary" @click="selectedType = 'all'; selectedTheme = 'all'; searchQuery = ''">
-        重設篩選
+      <span class="empty-icon">🍃</span>
+      <p class="empty-text">沒有找到符合條件的古詩詞，換個關鍵字或篩選試試看吧！</p>
+      <button
+        class="reset-filter-btn"
+        @click="selectedType = 'all'; selectedGrade = 'all'; selectedTheme = 'all'; searchQuery = ''"
+      >
+        重置所有篩選
       </button>
     </div>
 
-    <!-- Active Poem Reader Modal -->
+    <!-- Reader Modal -->
     <div v-if="activePoem" class="modal-backdrop" @click.self="closePoem">
-      <div class="poem-reader-modal">
+      <div class="poem-reader-modal" :style="{ '--scale': fontSizeScale }">
         <!-- Modal Top Bar -->
-        <div class="reader-header">
-          <div class="reader-meta">
-            <span class="meta-tag">{{ activePoem.dynasty }}</span>
-            <span class="meta-tag">{{ activePoem.genre }}</span>
-            <span class="meta-tag theme">{{ activePoem.theme }}</span>
+        <div class="modal-top-bar">
+          <div class="modal-nav-left">
+            <button class="nav-arrow-btn" @click="prevPoem" title="上一篇">
+              ◀ 上一篇
+            </button>
+            <span class="dynasty-pill">{{ activePoem.dynasty }}</span>
+            <span v-if="activePoem.gradeLabel" class="grade-pill">{{ activePoem.gradeLabel }}</span>
           </div>
 
-          <div class="reader-controls">
+          <!-- Tools Center: Phonetic Switcher & Font Zoom -->
+          <div class="modal-tools">
+            <div class="tool-segmented">
+              <button
+                class="tool-btn"
+                :class="{ active: phoneticMode === 'zhuyin' }"
+                @click="phoneticMode = 'zhuyin'"
+                title="顯示注音符號"
+              >
+                ㄅㄆㄇ
+              </button>
+              <button
+                class="tool-btn"
+                :class="{ active: phoneticMode === 'pinyin' }"
+                @click="phoneticMode = 'pinyin'"
+                title="顯示漢語拼音"
+              >
+                拼音
+              </button>
+              <button
+                class="tool-btn"
+                :class="{ active: phoneticMode === 'none' }"
+                @click="phoneticMode = 'none'"
+                title="純文字模式"
+              >
+                純文
+              </button>
+            </div>
+
+            <!-- Font scale buttons -->
+            <div class="zoom-tools">
+              <button class="zoom-btn" @click="zoomOutFont" title="縮小字體">A-</button>
+              <button class="zoom-btn" @click="zoomInFont" title="放大字體">A+</button>
+            </div>
+
+            <!-- Recite audio toggle -->
             <button
-              class="icon-action-btn"
+              class="audio-toggle-btn"
               :class="{ playing: isPlayingAudio }"
-              :title="isPlayingAudio ? '停止朗誦' : '名家語音朗誦'"
               @click="toggleAudio"
             >
-              <ClassicalIcon :name="isPlayingAudio ? 'pause' : 'audio'" :size="18" />
-              <span>{{ isPlayingAudio ? '誦讀中' : '誦讀' }}</span>
+              <ClassicalIcon :name="isPlayingAudio ? 'pause' : 'audio'" :size="16" />
+              <span>{{ isPlayingAudio ? '暫停朗讀' : '語音朗讀' }}</span>
             </button>
+          </div>
 
-            <button
-              class="icon-action-btn"
-              :title="isVerticalLayout ? '切換為橫排' : '切換為古卷直排'"
-              @click="isVerticalLayout = !isVerticalLayout"
-            >
-              <ClassicalIcon name="scroll" :size="18" />
-              <span>{{ isVerticalLayout ? '橫排' : '直排' }}</span>
+          <div class="modal-nav-right">
+            <button class="nav-arrow-btn" @click="nextPoem" title="下一篇">
+              下一篇 ▶
             </button>
-
-            <button class="close-btn" @click="closePoem">✕</button>
+            <button class="modal-close-btn" @click="closePoem" title="關閉視窗">
+              ✕
+            </button>
           </div>
         </div>
 
-        <!-- Poem Heading -->
-        <div class="poem-title-banner">
-          <h2 class="reader-title">
-            {{ activePoem.title }}
-            <span v-if="activePoem.cipai" class="title-cipai">（詞牌：{{ activePoem.cipai }}）</span>
-          </h2>
-          <div class="reader-author-info">
-            <span class="author-tag">{{ activePoem.author }}</span>
-            <span class="author-bio">{{ activePoem.authorBio }}</span>
-          </div>
-        </div>
-
-        <!-- 4 Pillars Navigation Bar -->
-        <nav class="pillars-nav">
-          <button
-            v-for="(meta, key) in LEARNING_PILLARS"
-            :key="key"
-            class="pillar-tab-btn"
-            :class="{ active: activePillar === key }"
-            @click="activePillar = key"
-          >
-            <ClassicalIcon :name="(meta.icon as any)" :size="16" />
-            <div class="tab-text">
-              <span class="tab-title">{{ meta.title }}</span>
-              <span class="tab-sub">{{ meta.subtitle.split(' ‧ ')[0] }}</span>
+        <!-- Modal Main Body (2 Columns on Desktop) -->
+        <div class="modal-body-split">
+          <!-- Left Column: The Classic Text & Phonetics -->
+          <div class="left-scroll-pane">
+            <div class="poem-main-title-block">
+              <div class="title-with-emoji">
+                <span v-if="activePoem.illustrationEmoji" class="title-emoji">{{ activePoem.illustrationEmoji }}</span>
+                <h2 class="modal-poem-title">{{ activePoem.title }}</h2>
+              </div>
+              <div class="modal-poem-meta">
+                <span class="author-link">{{ activePoem.author }}</span>
+                <span v-if="activePoem.cipai" class="cipai-tag">詞牌：{{ activePoem.cipai }}</span>
+                <span v-if="activePoem.qupai" class="qupai-tag">曲牌：{{ activePoem.qupai }}</span>
+                <span class="genre-text">{{ activePoem.genre }}</span>
+              </div>
             </div>
-          </button>
-        </nav>
 
-        <!-- Pillar 1: 理解通釋 -->
-        <div v-if="activePillar === 'understand'" class="pillar-content understand-content">
-          <div class="section-notice">
-            <ClassicalIcon name="book-open" :size="16" />
-            <span>逐句對照 ‧ 通曉字句義理與文意脈絡</span>
-          </div>
+            <!-- Recitation Cloze Tier Selector -->
+            <div v-if="activePillar === 'memorize'" class="recitation-tier-selector">
+              <span class="tier-label">階梯記憶：</span>
+              <button
+                v-for="tier in [
+                  { id: 'full', label: '完整原文' },
+                  { id: 'cloze', label: '間隔挖空' },
+                  { id: 'first-char', label: '首字提示' },
+                  { id: 'blank', label: '全句默寫' },
+                ]"
+                :key="tier.id"
+                class="tier-btn"
+                :class="{ active: activeRecitationTier === tier.id }"
+                @click="activeRecitationTier = tier.id as any"
+              >
+                {{ tier.label }}
+              </button>
+            </div>
 
-          <div class="line-by-line-container">
+            <!-- The Text Display with Phonetics -->
             <div
-              v-for="(line, idx) in activePoem.lines"
-              :key="idx"
-              class="aligned-line-card"
+              class="classic-text-container"
+              :class="{
+                'vertical-mode': isVerticalLayout,
+                'cloze-mode': activePillar === 'memorize' && activeRecitationTier !== 'full',
+              }"
             >
-              <div class="original-line classical-text-lg">
-                <span class="line-num">{{ idx + 1 }}</span>
-                <span class="line-content">{{ line }}</span>
-              </div>
-              <div class="vernacular-line">
-                <ClassicalIcon name="arrow-right" :size="12" class="arrow-indicator" />
-                <span>{{ activePoem.vernacular[idx] || '白話義釋對應於全篇脈絡中。' }}</span>
-              </div>
-            </div>
-          </div>
+              <div
+                v-for="(line, lineIdx) in activePoem.lines"
+                :key="lineIdx"
+                class="poem-line-block"
+              >
+                <!-- Phonetic Annotation (Zhuyin or Pinyin) -->
+                <div v-if="phoneticMode === 'zhuyin' && activePoem.zhuyin && activePoem.zhuyin[lineIdx]" class="phonetic-row zhuyin-row">
+                  {{ activePoem.zhuyin[lineIdx] }}
+                </div>
+                <div v-else-if="phoneticMode === 'pinyin' && activePoem.pinyin && activePoem.pinyin[lineIdx]" class="phonetic-row pinyin-row">
+                  {{ activePoem.pinyin[lineIdx] }}
+                </div>
 
-          <div v-if="activePoem.background" class="context-box">
-            <h4 class="box-title">
-              <ClassicalIcon name="history" :size="15" />
-              <span>創作歷史與作者心境背景</span>
-            </h4>
-            <p class="box-text">{{ activePoem.background }}</p>
-          </div>
-        </div>
+                <!-- Text Line -->
+                <div
+                  class="line-text"
+                  @click="activePillar === 'memorize' && activeRecitationTier === 'cloze' ? toggleLineReveal(lineIdx) : null"
+                >
+                  {{ activePillar === 'memorize' ? getClozeLine(line, lineIdx) : line }}
+                </div>
 
-        <!-- Pillar 2: 享受沉浸 -->
-        <div v-if="activePillar === 'enjoy'" class="pillar-content enjoy-content">
-          <div class="section-notice">
-            <ClassicalIcon name="sparkle" :size="16" />
-            <span>水墨古韻 ‧ 意境沉浸與文字美學鑑賞</span>
-          </div>
-
-          <div
-            class="calligraphy-stage"
-            :class="{ 'vertical-stage': isVerticalLayout }"
-          >
-            <div class="calligraphy-text classical-text-xl">
-              <div v-for="(line, idx) in activePoem.lines" :key="idx" class="poem-line-verse">
-                {{ line }}
+                <!-- Vernacular subline in Understand mode -->
+                <div v-if="activePillar === 'understand' && activePoem.vernacular[lineIdx]" class="line-vernacular">
+                  {{ activePoem.vernacular[lineIdx] }}
+                </div>
               </div>
             </div>
-          </div>
 
-          <!-- Appreciation Block -->
-          <div class="appreciation-card">
-            <h4 class="card-section-title">
-              <ClassicalIcon name="feather" :size="16" />
-              <span>意境與美學深度賞析</span>
-            </h4>
-            <p class="appreciation-text">{{ activePoem.appreciation }}</p>
+            <!-- Kid Story Box (Special for Elementary Students) -->
+            <div v-if="activePoem.kidStory" class="kid-story-card">
+              <div class="card-head">
+                <span class="card-head-icon">📖</span>
+                <span class="card-head-title">小學生趣味小故事 ‧ 詩人背後的事</span>
+              </div>
+              <p class="kid-story-text">{{ activePoem.kidStory }}</p>
+            </div>
 
-            <div class="key-verses-box">
-              <span class="key-verses-label">千古名句品味：</span>
-              <div class="key-verses-tags">
-                <span v-for="(kv, kIdx) in activePoem.keyVerses" :key="kIdx" class="key-tag">
-                  「{{ kv }}」
-                </span>
+            <!-- Fun Fact / Cold Knowledge -->
+            <div v-if="activePoem.funFact" class="fun-fact-card">
+              <div class="card-head">
+                <span class="card-head-icon">💡</span>
+                <span class="card-head-title">古文冷知識 ‧ 小小探祕家</span>
+              </div>
+              <p class="fun-fact-text">{{ activePoem.funFact }}</p>
+            </div>
+
+            <!-- Vocab Box -->
+            <div v-if="activePoem.vocabList && activePoem.vocabList.length > 0" class="vocab-card">
+              <div class="card-head">
+                <span class="card-head-icon">📚</span>
+                <span class="card-head-title">字詞小寶盒 ‧ 生字詞典</span>
+              </div>
+              <div class="vocab-items">
+                <div v-for="vocab in activePoem.vocabList" :key="vocab.word" class="vocab-item">
+                  <span class="vocab-word">{{ vocab.word }}</span>
+                  <span v-if="vocab.pinyin" class="vocab-pinyin">({{ vocab.pinyin }})</span>
+                  <span class="vocab-mean">：{{ vocab.meaning }}</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <!-- Pillar 3: 背誦記憶 -->
-        <div v-if="activePillar === 'memorize'" class="pillar-content memorize-content">
-          <div class="section-notice">
-            <ClassicalIcon name="scholar" :size="16" />
-            <span>階梯式記憶 ‧ 意羣骨架與韻腳自測</span>
-          </div>
-
-          <!-- Recitation Tier Selector -->
-          <div class="tier-selector">
-            <button
-              class="tier-btn"
-              :class="{ active: activeRecitationTier === 'full' }"
-              @click="activeRecitationTier = 'full'"
-            >
-              全顯誦讀
-            </button>
-            <button
-              class="tier-btn"
-              :class="{ active: activeRecitationTier === 'cloze' }"
-              @click="activeRecitationTier = 'cloze'"
-            >
-              關鍵字挖空
-            </button>
-            <button
-              class="tier-btn"
-              :class="{ active: activeRecitationTier === 'first-char' }"
-              @click="activeRecitationTier = 'first-char'"
-            >
-              首字提點
-            </button>
-            <button
-              class="tier-btn"
-              :class="{ active: activeRecitationTier === 'blank' }"
-              @click="activeRecitationTier = 'blank'"
-            >
-              盲背自測
-            </button>
-          </div>
-
-          <!-- Recitation Canvas -->
-          <div class="recitation-canvas">
-            <div
-              v-for="(line, idx) in activePoem.lines"
-              :key="idx"
-              class="recite-line-item"
-              @click="toggleLineReveal(idx)"
-            >
-              <span class="line-seq">{{ idx + 1 }}</span>
-              <span class="line-display classical-text-lg">
-                {{ getClozeLine(line, idx) }}
-              </span>
-              <span v-if="activeRecitationTier === 'cloze'" class="cloze-hint-text">
-                {{ revealedCloze[idx] ? '（已翻開）' : '（點擊揭曉）' }}
-              </span>
-            </div>
-          </div>
-
-          <!-- Meter and Memory Guidance -->
-          <div class="memory-guidance-grid">
-            <div v-if="activePoem.rhythmNotes" class="guidance-box">
-              <h5 class="guidance-title">
-                <ClassicalIcon name="headphones" :size="14" />
-                <span>平仄韻律與節奏指引</span>
-              </h5>
-              <p class="guidance-text">{{ activePoem.rhythmNotes }}</p>
+          <!-- Right Column: 4 Pillars of Deep Learning -->
+          <div class="right-pillar-pane">
+            <!-- 4 Pillar Tabs Navigation -->
+            <div class="pillar-tabs-bar">
+              <button
+                v-for="pillarKey in ['understand', 'enjoy', 'memorize', 'connect']"
+                :key="pillarKey"
+                class="pillar-tab-btn"
+                :class="{ active: activePillar === pillarKey }"
+                @click="activePillar = pillarKey as any"
+              >
+                <span class="pillar-tab-title">{{ LEARNING_PILLARS[pillarKey as LearningPillar].title }}</span>
+              </button>
             </div>
 
-            <div v-if="activePoem.recitationTips" class="guidance-box">
-              <h5 class="guidance-title">
-                <ClassicalIcon name="sparkle" :size="14" />
-                <span>背誦心法與意象聯想祕訣</span>
-              </h5>
-              <p class="guidance-text">{{ activePoem.recitationTips }}</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Pillar 4: 古今連結 -->
-        <div v-if="activePillar === 'connect'" class="pillar-content connect-content">
-          <div class="section-notice">
-            <ClassicalIcon name="flame" :size="16" />
-            <span>心靈對話 ‧ 千年前的文字，回應今日的生活</span>
-          </div>
-
-          <div class="modern-echo-card">
-            <div class="echo-header">
-              <span class="echo-badge">現代生命共鳴</span>
-              <h3 class="echo-title">跨越千年的心靈映照</h3>
-            </div>
-
-            <div class="echo-body">
-              <p class="echo-text">{{ activePoem.modernEcho }}</p>
-            </div>
-
-            <div class="reflection-prompt">
-              <div class="prompt-title">
-                <ClassicalIcon name="feather" :size="14" />
-                <span>心靈對照思考題</span>
+            <!-- Pillar 1: Understand -->
+            <div v-if="activePillar === 'understand'" class="pillar-panel">
+              <div class="meta-section">
+                <h4 class="section-title">作者生平</h4>
+                <p class="section-text">{{ activePoem.authorBio }}</p>
               </div>
-              <p class="prompt-text">
-                當你今天面臨壓力、得失、孤獨或選擇時，{{ activePoem.author }}在《{{ activePoem.title }}》中的這份心境，能為你帶來怎樣的超脫或啟發？
-              </p>
+
+              <div class="meta-section">
+                <h4 class="section-title">創作背景</h4>
+                <p class="section-text">{{ activePoem.background }}</p>
+              </div>
+
+              <div class="meta-section key-verses-section">
+                <h4 class="section-title">千古名句</h4>
+                <ul class="key-verses-list">
+                  <li v-for="(kv, idx) in activePoem.keyVerses" :key="idx" class="key-verse-item">
+                    {{ kv }}
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Pillar 2: Enjoy -->
+            <div v-if="activePillar === 'enjoy'" class="pillar-panel">
+              <div class="meta-section">
+                <h4 class="section-title">意境美學賞析</h4>
+                <p class="section-text appreciation-text">{{ activePoem.appreciation }}</p>
+              </div>
+
+              <div v-if="activePoem.rhythmNotes" class="meta-section">
+                <h4 class="section-title">聲律與節奏指引</h4>
+                <p class="section-text">{{ activePoem.rhythmNotes }}</p>
+              </div>
+            </div>
+
+            <!-- Pillar 3: Memorize -->
+            <div v-if="activePillar === 'memorize'" class="pillar-panel">
+              <div class="meta-section">
+                <h4 class="section-title">熟讀成誦技巧</h4>
+                <p class="section-text">{{ activePoem.recitationTips || '透過大聲朗讀與階梯挖空，循序漸進建立骨架記憶。' }}</p>
+              </div>
+              <div class="memorize-prompt-box">
+                <p>💡 提示：左側文本已切換至背誦模式，點擊挖空處可即時揭曉答案！</p>
+              </div>
+            </div>
+
+            <!-- Pillar 4: Connect -->
+            <div v-if="activePillar === 'connect'" class="pillar-panel">
+              <div class="meta-section">
+                <h4 class="section-title">現代生活共鳴</h4>
+                <p class="section-text connect-text">{{ activePoem.modernEcho }}</p>
+              </div>
             </div>
           </div>
-        </div>
-
-        <!-- Modal Footer Navigation -->
-        <div class="reader-footer">
-          <button class="nav-prev-btn" @click="prevPoem">
-            <span>← 上一首</span>
-          </button>
-          <span class="poem-index-label">
-            {{ POETRY_COLLECTION.findIndex((p) => p.id === activePoem?.id) + 1 }} / {{ POETRY_COLLECTION.length }}
-          </span>
-          <button class="nav-next-btn" @click="nextPoem">
-            <span>下一首 →</span>
-          </button>
         </div>
       </div>
     </div>
@@ -560,882 +674,959 @@ function toggleLineReveal(lineIndex: number) {
 
 <style scoped>
 .poetry-view {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: var(--sp-6) var(--sp-4);
-  animation: fadeIn var(--duration-normal) var(--ease-out);
+  padding: 1.5rem 1rem 4rem 1rem;
 }
 
+@media (min-width: 768px) {
+  .poetry-view {
+    padding: 2rem 1.5rem 5rem 1.5rem;
+  }
+}
+
+/* Header */
 .poetry-header {
   text-align: center;
-  margin-bottom: var(--sp-8);
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header-seal-badge {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: var(--c-gold-glow, rgba(201, 169, 110, 0.15));
-  border: 1px solid var(--c-border-accent, rgba(201, 169, 110, 0.3));
-  color: var(--c-gold, #c9a96e);
-  padding: 0.35rem 0.85rem;
-  border-radius: var(--radius-full);
-  font-size: var(--text-sm);
-  margin-bottom: var(--sp-3);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #2b6cb0;
+  background: #ebf8ff;
+  border: 1px solid #bee3f8;
+  padding: 0.3rem 0.85rem;
+  border-radius: 9999px;
+  margin-bottom: 0.75rem;
 }
 
 .poetry-title {
-  font-size: clamp(1.8rem, 4vw, 2.5rem);
-  font-weight: 700;
-  color: var(--c-text-primary);
-  margin-bottom: var(--sp-2);
-  letter-spacing: 0.08em;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--color-text, #1a202c);
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -0.02em;
+}
+
+@media (min-width: 768px) {
+  .poetry-title {
+    font-size: 2.6rem;
+  }
 }
 
 .poetry-subtitle {
-  color: var(--c-text-secondary);
-  font-size: var(--text-base);
+  font-size: 0.95rem;
+  color: var(--color-text-muted, #718096);
   max-width: 680px;
-  margin: 0 auto var(--sp-6);
-  line-height: 1.6;
-}
-
-.poetry-subtitle strong {
-  color: var(--c-gold);
+  margin: 0 0 1.5rem 0;
+  line-height: 1.5;
 }
 
 .stats-row {
   display: flex;
-  justify-content: center;
-  gap: var(--sp-3);
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
 }
 
 .stat-pill {
-  background: var(--c-bg-card);
-  border: 1px solid var(--c-border);
-  padding: 0.4rem 1rem;
-  border-radius: var(--radius-md);
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.35rem;
+  background: var(--color-surface, #ffffff);
+  border: 1px solid var(--color-border, #e2e8f0);
+  border-radius: 9999px;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.825rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
 .stat-num {
-  font-size: var(--text-lg);
-  font-weight: 700;
-  color: var(--c-gold);
-  font-family: var(--font-classical);
+  font-weight: 800;
+  color: #2b6cb0;
 }
+
+.stat-pill.tang .stat-num { color: #d69e2e; }
+.stat-pill.song .stat-num { color: #319795; }
+.stat-pill.yuan .stat-num { color: #dd6b20; }
+.stat-pill.author .stat-num { color: #805ad5; }
 
 .stat-label {
-  font-size: var(--text-xs);
-  color: var(--c-text-secondary);
+  color: var(--color-text-muted, #718096);
 }
 
-/* Filters Section */
-.filters-section {
-  background: var(--c-bg-card);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-lg);
-  padding: var(--sp-4);
-  margin-bottom: var(--sp-6);
+.feature-toggles {
   display: flex;
-  flex-direction: column;
-  gap: var(--sp-4);
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.type-segmented-control {
+.feature-toggle-btn {
   display: flex;
-  gap: var(--sp-2);
-  background: var(--c-bg-deep);
-  padding: 4px;
-  border-radius: var(--radius-md);
-  max-width: 420px;
-}
-
-.seg-btn {
-  flex: 1;
-  padding: 0.5rem 1rem;
-  font-size: var(--text-sm);
-  color: var(--c-text-secondary);
-  background: transparent;
-  border: none;
-  border-radius: var(--radius-sm);
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  border-radius: 12px;
+  border: 1.5px solid #bee3f8;
+  background: #ebf8ff;
+  color: #2b6cb0;
+  font-size: 0.875rem;
+  font-weight: 700;
   cursor: pointer;
-  transition: all var(--duration-fast);
+  transition: all 0.2s ease;
 }
 
-.seg-btn.active {
-  background: var(--c-bg-elevated);
-  color: var(--c-gold);
-  font-weight: 600;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+.feature-toggle-btn.playground-btn {
+  border-color: #feebc8;
+  background: #fffaf0;
+  color: #c05621;
 }
 
-.search-and-theme {
+.feature-toggle-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.feature-toggle-btn.active {
+  background: #2b6cb0;
+  color: #ffffff;
+  border-color: #2b6cb0;
+}
+
+.feature-toggle-btn.playground-btn.active {
+  background: #dd6b20;
+  color: #ffffff;
+  border-color: #dd6b20;
+}
+
+.toggle-arrow {
+  font-size: 0.75rem;
+  opacity: 0.85;
+}
+
+.widget-section {
+  margin-bottom: 2rem;
+}
+
+/* Filters */
+.filters-section {
+  background: var(--color-surface, #ffffff);
+  border: 1px solid var(--color-border, #e2e8f0);
+  border-radius: 20px;
+  padding: 1.25rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
-  gap: var(--sp-3);
+  gap: 1rem;
+  box-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.04);
 }
 
-@media (min-width: 768px) {
-  .search-and-theme {
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .filter-group {
     flex-direction: row;
     align-items: center;
   }
 }
 
-.search-box {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: var(--c-bg-deep);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-md);
-  padding: 0.4rem 0.8rem;
-  flex: 1;
-  min-width: 240px;
+.filter-group-label {
+  font-size: 0.825rem;
+  font-weight: 700;
+  color: var(--color-text-muted, #718096);
+  min-width: 72px;
 }
 
-.search-icon {
-  color: var(--c-text-muted);
-}
-
-.search-input {
-  flex: 1;
-  background: transparent;
-  border: none;
-  outline: none;
-  color: var(--c-text-primary);
-  font-size: var(--text-sm);
-}
-
-.clear-search-btn {
-  background: transparent;
-  border: none;
-  color: var(--c-text-muted);
-  cursor: pointer;
-}
-
-.theme-chips {
+.type-segmented-control, .grade-segmented-control {
   display: flex;
   gap: 0.4rem;
   flex-wrap: wrap;
 }
 
-.theme-chip {
-  background: var(--c-bg-deep);
-  border: 1px solid var(--c-border);
-  color: var(--c-text-secondary);
-  font-size: var(--text-xs);
-  padding: 0.35rem 0.75rem;
-  border-radius: var(--radius-full);
+.seg-btn, .grade-btn {
+  padding: 0.4rem 0.85rem;
+  border-radius: 10px;
+  border: 1px solid var(--color-border, #e2e8f0);
+  background: var(--color-bg-subtle, #f7fafc);
+  color: var(--color-text-muted, #4a5568);
+  font-size: 0.825rem;
+  font-weight: 600;
   cursor: pointer;
-  transition: all var(--duration-fast);
+  transition: all 0.2s ease;
 }
 
-.theme-chip:hover,
+.seg-btn:hover, .grade-btn:hover {
+  background: #edf2f7;
+}
+
+.seg-btn.active {
+  background: #2b6cb0;
+  border-color: #2b6cb0;
+  color: #ffffff;
+}
+
+.seg-btn.type-tang.active { background: #d69e2e; border-color: #d69e2e; }
+.seg-btn.type-song.active { background: #319795; border-color: #319795; }
+.seg-btn.type-yuan.active { background: #dd6b20; border-color: #dd6b20; }
+
+.grade-btn.active {
+  background: #4a5568;
+  border-color: #4a5568;
+  color: #ffffff;
+}
+
+.grade-btn.grade-low.active { background: #38a169; border-color: #38a169; }
+.grade-btn.grade-mid.active { background: #319795; border-color: #319795; }
+.grade-btn.grade-high.active { background: #2b6cb0; border-color: #2b6cb0; }
+.grade-btn.grade-adv.active { background: #805ad5; border-color: #805ad5; }
+
+.search-and-theme {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.85rem;
+  color: #a0aec0;
+  pointer-events: none;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.65rem 2.2rem 0.65rem 2.5rem;
+  border-radius: 12px;
+  border: 1px solid var(--color-border, #cbd5e0);
+  background: var(--color-bg-subtle, #f8fafc);
+  font-size: 0.875rem;
+  color: var(--color-text, #1a202c);
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.search-input:focus {
+  border-color: #3182ce;
+  background: #ffffff;
+}
+
+.clear-search-btn {
+  position: absolute;
+  right: 0.75rem;
+  background: none;
+  border: none;
+  color: #a0aec0;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.theme-chips {
+  display: flex;
+  gap: 0.35rem;
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+  scrollbar-width: none;
+}
+
+.theme-chip {
+  white-space: nowrap;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  border: 1px solid var(--color-border, #e2e8f0);
+  background: var(--color-bg-subtle, #f7fafc);
+  color: #4a5568;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.theme-chip:hover {
+  background: #edf2f7;
+}
+
 .theme-chip.active {
-  border-color: var(--c-gold);
-  color: var(--c-gold);
-  background: var(--c-gold-glow);
+  background: #3182ce;
+  border-color: #3182ce;
+  color: #ffffff;
 }
 
-/* Poetry Grid */
+/* Grid */
 .poetry-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: var(--sp-4);
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .poetry-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .poetry-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .poem-card {
-  background: var(--c-bg-card);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-lg);
-  padding: var(--sp-5);
+  background: var(--color-surface, #ffffff);
+  border: 1px solid var(--color-border, #e2e8f0);
+  border-radius: 18px;
+  padding: 1.25rem;
   cursor: pointer;
-  transition: all var(--duration-normal);
   display: flex;
   flex-direction: column;
+  gap: 0.75rem;
+  transition: all 0.25s ease;
   position: relative;
   overflow: hidden;
 }
 
 .poem-card:hover {
-  transform: translateY(-4px);
-  border-color: var(--c-gold);
-  background: var(--c-bg-card-hover);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px -4px rgba(0, 0, 0, 0.08);
+  border-color: #cbd5e0;
 }
 
-.poem-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 4px;
-  height: 100%;
-  background: var(--c-border);
-  transition: background var(--duration-fast);
-}
-
-.poem-card.type-tang::before {
-  background: var(--c-accent-literature, #4a6fa5);
-}
-
-.poem-card.type-song::before {
-  background: var(--c-gold, #c9a96e);
-}
+.poem-card.type-tang { border-top: 4px solid #ecc94b; }
+.poem-card.type-song { border-top: 4px solid #38b2ac; }
+.poem-card.type-yuan { border-top: 4px solid #ed8936; }
 
 .card-top {
   display: flex;
-  gap: 0.4rem;
-  margin-bottom: var(--sp-3);
-  font-size: var(--text-xs);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badges-group {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
 }
 
 .dynasty-badge {
-  background: var(--c-bg-deep);
-  color: var(--c-gold);
-  padding: 0.15rem 0.5rem;
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--c-border-accent);
-}
-
-.genre-badge,
-.theme-tag {
-  background: var(--c-bg-deep);
-  color: var(--c-text-secondary);
-  padding: 0.15rem 0.5rem;
-  border-radius: var(--radius-sm);
-}
-
-.card-poem-title {
-  font-size: var(--text-xl);
+  font-size: 0.7rem;
   font-weight: 700;
-  color: var(--c-text-primary);
-  margin-bottom: var(--sp-1);
-  letter-spacing: 0.05em;
+  padding: 0.15rem 0.45rem;
+  border-radius: 6px;
+  background: #edf2f7;
+  color: #4a5568;
 }
 
-.card-cipai {
-  font-size: var(--text-base);
-  font-weight: 400;
-  color: var(--c-gold);
+.grade-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.45rem;
+  border-radius: 6px;
+  background: #ebf8ff;
+  color: #2b6cb0;
+}
+
+.genre-badge {
+  font-size: 0.7rem;
+  color: #718096;
+}
+
+.emoji-icon {
+  font-size: 1.5rem;
+}
+
+.card-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.card-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--color-text, #1a202c);
+  margin: 0;
+  line-height: 1.35;
 }
 
 .card-author {
-  display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-  margin-bottom: var(--sp-3);
-}
-
-.author-name {
+  font-size: 0.85rem;
   font-weight: 600;
-  color: var(--c-text-primary);
+  color: #718096;
+  white-space: nowrap;
 }
 
-.author-bio-snippet {
-  font-size: var(--text-xs);
-  color: var(--c-text-muted);
-}
-
-.card-key-verse {
+.card-key-quote {
+  background: rgba(43, 108, 176, 0.05);
+  border-left: 3px solid #3182ce;
+  border-radius: 0 8px 8px 0;
+  padding: 0.45rem 0.65rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #2c5282;
   display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  background: var(--c-gold-glow);
-  border: 1px solid var(--c-border-accent);
-  color: var(--c-gold-light);
-  font-size: var(--text-sm);
-  padding: 0.4rem 0.75rem;
-  border-radius: var(--radius-md);
-  margin-bottom: var(--sp-3);
-  font-style: italic;
+  gap: 0.35rem;
 }
 
-.key-icon {
-  flex-shrink: 0;
-  color: var(--c-gold);
+.quote-sign {
+  font-family: serif;
+  font-weight: bold;
 }
 
 .card-lines-preview {
-  margin-bottom: var(--sp-4);
+  font-size: 0.85rem;
+  color: var(--color-text-muted, #718096);
+  line-height: 1.45;
   flex: 1;
 }
 
 .preview-line {
-  color: var(--c-text-secondary);
-  font-size: var(--text-sm);
-  line-height: 1.6;
-  margin: 0;
-  font-family: var(--font-classical);
+  margin: 0 0 0.2rem 0;
 }
 
-.more-lines-indicator {
-  color: var(--c-text-muted);
-  font-size: var(--text-xs);
+.preview-more {
+  color: #a0aec0;
 }
 
 .card-footer {
-  border-top: 1px solid var(--c-border-subtle);
-  padding-top: var(--sp-3);
-  display: flex;
-  justify-content: flex-end;
-}
-
-.card-action-text {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  font-size: var(--text-xs);
-  color: var(--c-gold);
-  font-weight: 600;
-}
-
-/* Modal Reader */
-.modal-backdrop {
-  position: fixed;
-  inset: 0;
-  background: rgba(4, 4, 8, 0.85);
-  backdrop-filter: blur(8px);
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: var(--sp-4);
-  animation: fadeIn var(--duration-fast) var(--ease-out);
-}
-
-.poem-reader-modal {
-  background: var(--c-bg-secondary);
-  border: 1px solid var(--c-border-accent);
-  border-radius: var(--radius-xl);
-  width: 100%;
-  max-width: 900px;
-  max-height: 90vh;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
-}
-
-.reader-header {
-  padding: var(--sp-4) var(--sp-6);
-  border-bottom: 1px solid var(--c-border);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: var(--c-bg-deep);
+  border-top: 1px dashed var(--color-border, #edf2f7);
+  padding-top: 0.65rem;
+  margin-top: auto;
 }
 
-.reader-meta {
-  display: flex;
-  gap: 0.5rem;
+.theme-tag {
+  font-size: 0.725rem;
+  color: #718096;
 }
 
-.meta-tag {
-  background: var(--c-bg-card);
-  border: 1px solid var(--c-border);
-  font-size: var(--text-xs);
-  padding: 0.2rem 0.6rem;
-  border-radius: var(--radius-sm);
-  color: var(--c-text-secondary);
-}
-
-.meta-tag.theme {
-  color: var(--c-gold);
-  border-color: var(--c-border-accent);
-}
-
-.reader-controls {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-}
-
-.icon-action-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  background: var(--c-bg-card);
-  border: 1px solid var(--c-border);
-  color: var(--c-text-primary);
-  padding: 0.35rem 0.75rem;
-  border-radius: var(--radius-md);
-  font-size: var(--text-xs);
-  cursor: pointer;
-  transition: all var(--duration-fast);
-}
-
-.icon-action-btn:hover {
-  border-color: var(--c-gold);
-  color: var(--c-gold);
-}
-
-.icon-action-btn.playing {
-  background: var(--c-gold-glow);
-  border-color: var(--c-gold);
-  color: var(--c-gold);
-}
-
-.close-btn {
-  background: transparent;
-  border: none;
-  color: var(--c-text-muted);
-  font-size: 1.2rem;
-  cursor: pointer;
-  padding: 0.2rem 0.5rem;
-  border-radius: var(--radius-sm);
-}
-
-.close-btn:hover {
-  color: var(--c-text-primary);
-}
-
-.poem-title-banner {
-  padding: var(--sp-4) var(--sp-6);
-  background: var(--c-bg-elevated);
-  border-bottom: 1px solid var(--c-border-subtle);
-  text-align: center;
-}
-
-.reader-title {
-  font-size: var(--text-2xl);
+.read-prompt {
+  font-size: 0.775rem;
   font-weight: 700;
-  color: var(--c-text-primary);
-  margin-bottom: var(--sp-1);
-}
-
-.title-cipai {
-  font-size: var(--text-base);
-  color: var(--c-gold);
-  font-weight: normal;
-}
-
-.reader-author-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.6rem;
-  flex-wrap: wrap;
-}
-
-.author-tag {
-  font-weight: 600;
-  color: var(--c-gold);
-  font-size: var(--text-sm);
-}
-
-.author-bio {
-  font-size: var(--text-xs);
-  color: var(--c-text-secondary);
-}
-
-/* 4 Pillars Nav */
-.pillars-nav {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  background: var(--c-bg-deep);
-  border-bottom: 1px solid var(--c-border);
-}
-
-.pillar-tab-btn {
-  background: transparent;
-  border: none;
-  padding: var(--sp-3) var(--sp-2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  color: var(--c-text-secondary);
-  cursor: pointer;
-  border-bottom: 2px solid transparent;
-  transition: all var(--duration-fast);
-}
-
-.pillar-tab-btn:hover {
-  color: var(--c-text-primary);
-  background: var(--c-bg-card);
-}
-
-.pillar-tab-btn.active {
-  color: var(--c-gold);
-  border-bottom-color: var(--c-gold);
-  background: var(--c-bg-secondary);
-}
-
-.tab-text {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-
-.tab-title {
-  font-size: var(--text-sm);
-  font-weight: 700;
-}
-
-.tab-sub {
-  font-size: 10px;
-  color: var(--c-text-muted);
-}
-
-/* Pillar Content Containers */
-.pillar-content {
-  padding: var(--sp-6);
-  overflow-y: auto;
-  flex: 1;
-}
-
-.section-notice {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: var(--c-bg-card);
-  border: 1px solid var(--c-border);
-  padding: 0.4rem 0.8rem;
-  border-radius: var(--radius-md);
-  font-size: var(--text-xs);
-  color: var(--c-text-secondary);
-  margin-bottom: var(--sp-4);
-}
-
-/* Pillar 1: Understand */
-.line-by-line-container {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-3);
-  margin-bottom: var(--sp-5);
-}
-
-.aligned-line-card {
-  background: var(--c-bg-card);
-  border: 1px solid var(--c-border-subtle);
-  border-radius: var(--radius-md);
-  padding: var(--sp-3) var(--sp-4);
-}
-
-.original-line {
-  display: flex;
-  align-items: baseline;
-  gap: 0.8rem;
-  color: var(--c-text-primary);
-  font-weight: 600;
-  margin-bottom: 0.25rem;
-}
-
-.line-num {
-  font-size: var(--text-xs);
-  color: var(--c-text-muted);
-  width: 1.5rem;
-}
-
-.vernacular-line {
-  display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-  font-size: var(--text-sm);
-  color: var(--c-gold-light);
-  padding-left: 2.3rem;
-  line-height: 1.5;
-}
-
-.context-box {
-  background: var(--c-bg-deep);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-md);
-  padding: var(--sp-4);
-}
-
-.box-title {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  font-size: var(--text-sm);
-  color: var(--c-gold);
-  margin-bottom: var(--sp-2);
-}
-
-.box-text {
-  font-size: var(--text-sm);
-  color: var(--c-text-secondary);
-  line-height: 1.6;
-}
-
-/* Pillar 2: Enjoy */
-.calligraphy-stage {
-  background: var(--c-bg-deep);
-  border: 1px solid var(--c-border-accent);
-  border-radius: var(--radius-lg);
-  padding: var(--sp-8) var(--sp-6);
-  margin-bottom: var(--sp-6);
-  text-align: center;
-}
-
-.poem-line-verse {
-  margin-bottom: 0.6rem;
-  letter-spacing: 0.15em;
-  color: var(--c-text-primary);
-  font-family: var(--font-classical);
-}
-
-.vertical-stage {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  margin: 0 auto var(--sp-6);
-  min-height: 280px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: var(--sp-8);
-}
-
-.vertical-stage .poem-line-verse {
-  margin-bottom: 0;
-  margin-left: 1.5rem;
-}
-
-.appreciation-card {
-  background: var(--c-bg-card);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-lg);
-  padding: var(--sp-5);
-}
-
-.card-section-title {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: var(--c-gold);
-  font-size: var(--text-base);
-  margin-bottom: var(--sp-3);
-}
-
-.appreciation-text {
-  font-size: var(--text-sm);
-  color: var(--c-text-secondary);
-  line-height: 1.7;
-  margin-bottom: var(--sp-4);
-}
-
-.key-verses-box {
-  border-top: 1px solid var(--c-border-subtle);
-  padding-top: var(--sp-3);
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  flex-wrap: wrap;
-}
-
-.key-verses-label {
-  font-size: var(--text-xs);
-  color: var(--c-text-muted);
-}
-
-.key-tag {
-  background: var(--c-gold-glow);
-  color: var(--c-gold);
-  font-size: var(--text-xs);
-  padding: 0.2rem 0.6rem;
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--c-border-accent);
-}
-
-/* Pillar 3: Memorize */
-.tier-selector {
-  display: flex;
-  gap: 0.5rem;
-  margin-bottom: var(--sp-4);
-  background: var(--c-bg-deep);
-  padding: 4px;
-  border-radius: var(--radius-md);
-}
-
-.tier-btn {
-  flex: 1;
-  padding: 0.4rem 0.8rem;
-  font-size: var(--text-xs);
-  background: transparent;
-  border: none;
-  color: var(--c-text-secondary);
-  border-radius: var(--radius-sm);
-  cursor: pointer;
-}
-
-.tier-btn.active {
-  background: var(--c-bg-elevated);
-  color: var(--c-gold);
-  font-weight: 600;
-}
-
-.recitation-canvas {
-  background: var(--c-bg-deep);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-lg);
-  padding: var(--sp-5);
-  margin-bottom: var(--sp-5);
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-3);
-}
-
-.recite-line-item {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  padding: 0.4rem 0.6rem;
-  border-radius: var(--radius-sm);
-  cursor: pointer;
-  transition: background var(--duration-fast);
-}
-
-.recite-line-item:hover {
-  background: var(--c-bg-card);
-}
-
-.line-seq {
-  color: var(--c-text-muted);
-  font-size: var(--text-xs);
-  width: 1.5rem;
-}
-
-.line-display {
-  color: var(--c-text-primary);
-  font-family: var(--font-classical);
-  letter-spacing: 0.1em;
-}
-
-.cloze-hint-text {
-  font-size: var(--text-xs);
-  color: var(--c-gold);
-  margin-left: auto;
-}
-
-.memory-guidance-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: var(--sp-4);
-}
-
-.guidance-box {
-  background: var(--c-bg-card);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-md);
-  padding: var(--sp-4);
-}
-
-.guidance-title {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  font-size: var(--text-sm);
-  color: var(--c-gold);
-  margin-bottom: var(--sp-2);
-}
-
-.guidance-text {
-  font-size: var(--text-xs);
-  color: var(--c-text-secondary);
-  line-height: 1.6;
-}
-
-/* Pillar 4: Connect */
-.modern-echo-card {
-  background: var(--c-bg-card);
-  border: 1px solid var(--c-border-accent);
-  border-radius: var(--radius-lg);
-  padding: var(--sp-6);
-}
-
-.echo-header {
-  margin-bottom: var(--sp-4);
-}
-
-.echo-badge {
-  background: var(--c-gold-glow);
-  color: var(--c-gold);
-  font-size: var(--text-xs);
-  padding: 0.2rem 0.6rem;
-  border-radius: var(--radius-sm);
-  display: inline-block;
-  margin-bottom: var(--sp-1);
-}
-
-.echo-title {
-  font-size: var(--text-lg);
-  color: var(--c-text-primary);
-}
-
-.echo-text {
-  font-size: var(--text-base);
-  color: var(--c-text-primary);
-  line-height: 1.8;
-  margin-bottom: var(--sp-6);
-}
-
-.reflection-prompt {
-  background: var(--c-bg-deep);
-  border: 1px dashed var(--c-border-accent);
-  border-radius: var(--radius-md);
-  padding: var(--sp-4);
-}
-
-.prompt-title {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  font-size: var(--text-sm);
-  color: var(--c-gold);
-  margin-bottom: var(--sp-2);
-  font-weight: 600;
-}
-
-.prompt-text {
-  font-size: var(--text-sm);
-  color: var(--c-text-secondary);
-  line-height: 1.6;
-}
-
-/* Reader Footer Navigation */
-.reader-footer {
-  padding: var(--sp-3) var(--sp-6);
-  background: var(--c-bg-deep);
-  border-top: 1px solid var(--c-border);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-prev-btn,
-.nav-next-btn {
-  background: var(--c-bg-card);
-  border: 1px solid var(--c-border);
-  color: var(--c-text-secondary);
-  padding: 0.4rem 0.8rem;
-  border-radius: var(--radius-md);
-  font-size: var(--text-xs);
-  cursor: pointer;
-  transition: all var(--duration-fast);
-}
-
-.nav-prev-btn:hover,
-.nav-next-btn:hover {
-  border-color: var(--c-gold);
-  color: var(--c-gold);
-}
-
-.poem-index-label {
-  font-size: var(--text-xs);
-  color: var(--c-text-muted);
+  color: #3182ce;
 }
 
 /* Empty State */
 .empty-state {
   text-align: center;
-  padding: var(--sp-12) var(--sp-4);
-  color: var(--c-text-muted);
+  padding: 3rem 1rem;
+}
+
+.empty-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.empty-text {
+  font-size: 0.95rem;
+  color: #718096;
+  margin-bottom: 1rem;
+}
+
+.reset-filter-btn {
+  background: #3182ce;
+  color: #ffffff;
+  border: none;
+  font-weight: 700;
+  padding: 0.5rem 1.25rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Modal */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(6px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.poem-reader-modal {
+  background: var(--color-surface, #ffffff);
+  border-radius: 24px;
+  width: 100%;
+  max-width: 1080px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  font-size: calc(1rem * var(--scale, 1));
+}
+
+.modal-top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid var(--color-border, #e2e8f0);
+  background: var(--color-bg-subtle, #f8fafc);
+  flex-wrap: wrap;
+}
+
+.modal-nav-left, .modal-nav-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-arrow-btn {
+  background: #ffffff;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #4a5568;
+  cursor: pointer;
+}
+
+.nav-arrow-btn:hover { background: #edf2f7; }
+
+.dynasty-pill, .grade-pill {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+}
+
+.dynasty-pill { background: #edf2f7; color: #4a5568; }
+.grade-pill { background: #ebf8ff; color: #2b6cb0; }
+
+.modal-tools {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tool-segmented {
+  display: flex;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tool-btn {
+  background: #ffffff;
+  border: none;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #4a5568;
+  cursor: pointer;
+}
+
+.tool-btn.active {
+  background: #3182ce;
+  color: #ffffff;
+}
+
+.zoom-tools {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.zoom-btn {
+  background: #ffffff;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  width: 28px;
+  height: 28px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.audio-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: #ebf8ff;
+  border: 1px solid #bee3f8;
+  border-radius: 8px;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #2b6cb0;
+  cursor: pointer;
+}
+
+.audio-toggle-btn.playing {
+  background: #c53030;
+  border-color: #c53030;
+  color: #ffffff;
+}
+
+.modal-close-btn {
+  background: #edf2f7;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #4a5568;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-close-btn:hover { background: #e2e8f0; color: #1a202c; }
+
+/* Modal Body Split (2 Columns on Desktop) */
+.modal-body-split {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-y: auto;
+}
+
+@media (min-width: 860px) {
+  .modal-body-split {
+    flex-direction: row;
+    overflow-y: hidden;
+  }
+}
+
+.left-scroll-pane {
+  flex: 1.25;
+  padding: 1.5rem;
+  overflow-y: auto;
+  border-bottom: 1px solid var(--color-border, #e2e8f0);
+}
+
+@media (min-width: 860px) {
+  .left-scroll-pane {
+    border-bottom: none;
+    border-right: 1px solid var(--color-border, #e2e8f0);
+  }
+}
+
+.right-pillar-pane {
+  flex: 1;
+  padding: 1.5rem;
+  overflow-y: auto;
+  background: var(--color-bg-subtle, #f8fafc);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.poem-main-title-block {
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+.title-with-emoji {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.title-emoji {
+  font-size: 1.75rem;
+}
+
+.modal-poem-title {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: var(--color-text, #1a202c);
+  margin: 0;
+}
+
+.modal-poem-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: #718096;
+  margin-top: 0.35rem;
+}
+
+.author-link {
+  font-weight: 700;
+  color: #2b6cb0;
+}
+
+.cipai-tag, .qupai-tag {
+  background: #edf2f7;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.recitation-tier-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.tier-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #4a5568;
+}
+
+.tier-btn {
+  background: #ffffff;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.tier-btn.active {
+  background: #3182ce;
+  color: #ffffff;
+  border-color: #3182ce;
+}
+
+/* Classic Text Container */
+.classic-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.poem-line-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.phonetic-row {
+  font-size: 0.75em;
+  color: #718096;
+  letter-spacing: 0.05em;
+  font-family: monospace;
+}
+
+.zhuyin-row {
+  color: #2b6cb0;
+}
+
+.pinyin-row {
+  color: #d69e2e;
+}
+
+.line-text {
+  font-size: 1.35em;
+  font-weight: 700;
+  color: var(--color-text, #1a202c);
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+  cursor: default;
+}
+
+.cloze-mode .line-text {
+  cursor: pointer;
+}
+
+.line-vernacular {
+  font-size: 0.85em;
+  color: var(--color-text-muted, #718096);
+  max-width: 520px;
+  margin-top: 0.15rem;
+}
+
+/* Kid Story, Fun Fact & Vocab Cards */
+.kid-story-card, .fun-fact-card, .vocab-card {
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.kid-story-card {
+  background: #fffaf0;
+  border: 1px solid #feebc8;
+}
+
+.fun-fact-card {
+  background: #f0fff4;
+  border: 1px solid #c6f6d5;
+}
+
+.vocab-card {
+  background: #ebf8ff;
+  border: 1px solid #bee3f8;
+}
+
+.card-head {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.card-head-title {
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.kid-story-card .card-head-title { color: #c05621; }
+.fun-fact-card .card-head-title { color: #276749; }
+.vocab-card .card-head-title { color: #2b6cb0; }
+
+.kid-story-text, .fun-fact-text {
+  font-size: 0.875rem;
+  line-height: 1.55;
+  margin: 0;
+  color: #2d3748;
+}
+
+.vocab-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.vocab-item {
+  font-size: 0.85rem;
+}
+
+.vocab-word {
+  font-weight: 800;
+  color: #2b6cb0;
+}
+
+.vocab-pinyin {
+  color: #718096;
+  font-size: 0.8rem;
+  margin-left: 0.2rem;
+}
+
+.vocab-mean {
+  color: #4a5568;
+}
+
+/* Right Pane: 4 Pillars */
+.pillar-tabs-bar {
+  display: flex;
+  background: #edf2f7;
+  padding: 0.25rem;
+  border-radius: 12px;
+}
+
+.pillar-tab-btn {
+  flex: 1;
+  padding: 0.5rem 0.25rem;
+  border: none;
+  background: transparent;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #4a5568;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pillar-tab-btn.active {
+  background: #ffffff;
+  color: #2b6cb0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.pillar-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.meta-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.section-title {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: var(--color-text, #1a202c);
+  margin: 0;
+  border-left: 3px solid #3182ce;
+  padding-left: 0.5rem;
+}
+
+.section-text {
+  font-size: 0.875rem;
+  color: #4a5568;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.key-verses-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.key-verse-item {
+  background: #ebf8ff;
+  border-radius: 8px;
+  padding: 0.45rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #2c5282;
+}
+
+.memorize-prompt-box {
+  background: #fffaf0;
+  border: 1px dashed #fbd38d;
+  border-radius: 10px;
+  padding: 0.75rem;
+  font-size: 0.825rem;
+  color: #744210;
+}
+
+/* Animations */
+.expand-enter-active, .expand-leave-active {
+  transition: all 0.3s ease;
+}
+.expand-enter-from, .expand-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
 }
 </style>

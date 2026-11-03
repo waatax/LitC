@@ -18,7 +18,7 @@ const navItems: NavItem[] = [
   { icon: 'today', label: '今日修持', to: '/' },
   { icon: 'glimpse', label: '驚鴻一瞥', to: '/glimpse' },
   { icon: 'library', label: '典籍文庫', to: '/library' },
-  { icon: 'feather', label: '唐詩宋詞', to: '/poetry' },
+  { icon: 'feather', label: '唐詩宋詞元曲', to: '/poetry' },
   { icon: 'quiz', label: '古文闖關', to: '/quiz' },
   { icon: 'compare', label: '跨派互照', to: '/compare' },
   { icon: 'wenhai', label: '文海觀瀾', to: '/wenhai' },
@@ -28,12 +28,12 @@ const navItems: NavItem[] = [
 const mobileNavItems: NavItem[] = [
   { icon: 'today', label: '今日', to: '/' },
   { icon: 'library', label: '文庫', to: '/library' },
-  { icon: 'feather', label: '詩詞', to: '/poetry' },
+  { icon: 'feather', label: '詩詞曲', to: '/poetry' },
   { icon: 'quiz', label: '闖關', to: '/quiz' },
 ]
 
 const moreNavItems: NavItem[] = [
-  { icon: 'feather', label: '唐詩宋詞', to: '/poetry' },
+  { icon: 'feather', label: '唐詩宋詞元曲', to: '/poetry' },
   { icon: 'quiz', label: '古文闖關', to: '/quiz' },
   { icon: 'glimpse', label: '驚鴻一瞥', to: '/glimpse' },
   { icon: 'compare', label: '跨派互照', to: '/compare' },

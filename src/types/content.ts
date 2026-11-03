@@ -224,9 +224,17 @@ export const LEARNING_PILLARS: Record<LearningPillar, LearningPillarMeta> = {
   },
 }
 
-// ── 唐詩宋詞典藏資料模型 (Tang Poetry & Song Ci) ─────────────
+// ── 唐詩宋詞元曲典藏資料模型 (Tang Poetry, Song Ci & Yuan Qu) ─────────────
 
-export type PoemType = 'tang' | 'song'
+export type PoemType = 'tang' | 'song' | 'yuan'
+
+export type PoemGradeLevel = 'primary-low' | 'primary-mid' | 'primary-high' | 'advanced'
+
+export interface PoemVocabItem {
+  word: string
+  pinyin?: string
+  meaning: string
+}
 
 export interface PoemItem {
   id: string
@@ -234,10 +242,11 @@ export interface PoemItem {
   title: string
   subtitle?: string
   cipai?: string       // 宋詞詞牌名，如《念奴嬌》、《水調歌頭》
+  qupai?: string       // 元曲曲牌名，如《天淨沙》、《山坡羊》
   author: string
-  dynasty: '唐代' | '五代' | '宋代'
+  dynasty: '唐代' | '五代' | '宋代' | '元代' | '清代'
   authorBio: string
-  genre: string        // 體裁：五言絕句、七言律詩、歌行體、長調、中調、小令等
+  genre: string        // 體裁：五言絕句、七言律詩、歌行體、長調、中調、小令、散曲等
   theme: string        // 主題：豪放豁達、婉約深情、山水田園、邊塞金戈、詠史懷古、行旅思鄉等
   lines: string[]      // 詩詞原文各行
   vernacular: string[] // 逐句白話文精譯
@@ -247,6 +256,14 @@ export interface PoemItem {
   modernEcho: string   // 現代生命共鳴與人生處境投射
   rhythmNotes?: string // 韻律平仄、韻腳、朗讀節奏指引
   recitationTips?: string // 記憶階梯與背誦聯想要訣
+  gradeLevel?: PoemGradeLevel // 年級分級（小學低中高年級、初中進階）
+  gradeLabel?: string // 年級中文標籤
+  zhuyin?: string[]   // 注音符號逐行對照
+  pinyin?: string[]   // 漢語拼音逐行對照
+  kidStory?: string   // 給小學生的趣味小故事
+  funFact?: string    // 趣味冷知識/考點小百科
+  vocabList?: PoemVocabItem[] // 生字詞小字典
+  illustrationEmoji?: string  // 兒童友好專屬意象圖示
 }
 
 // ── 古文闖關題庫資料模型 (Quest Bank & Stages) ─────────────

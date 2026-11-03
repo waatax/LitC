@@ -67,7 +67,7 @@ const router = createRouter({
       path: '/poetry',
       name: 'poetry',
       component: () => import('@/views/PoetryView.vue'),
-      meta: { title: '唐詩宋詞' },
+      meta: { title: '唐詩宋詞元曲' },
     },
     {
       path: '/quiz',
