@@ -76,6 +76,38 @@ import { useAppStore } from '@/stores/app'
 const appStore = useAppStore()
 const { isVertical } = storeToRefs(appStore)
 
+// Classical Quote Rubbing Card State
+const isQuoteCardOpen = ref(false)
+const selectedQuotePassage = ref<Passage | null>(null)
+const quoteCardToast = ref<string | null>(null)
+const activeSealText = ref('文脈')
+
+function openQuoteCard(passage?: Passage) {
+  selectedQuotePassage.value = passage || passages.value[0] || null
+  if (selectedQuotePassage.value) {
+    isQuoteCardOpen.value = true
+  }
+}
+
+function copyQuoteCardText() {
+  if (!selectedQuotePassage.value) return
+  const text = selectedQuotePassage.value.canonicalText
+  const translation = passageAid(selectedQuotePassage.value)?.translation
+  const citation = `——《${work.value?.title || '經典'}·${chapter.value?.title || ''}》（${workDesc.value?.period || '先秦'}·${workDesc.value?.author || ''}）`
+  const full = `「${text}」\n${translation ? `\n【今譯】${translation}\n` : ''}\n${citation}\n【經典文脈 ClassicFlow】`
+  if (navigator?.clipboard?.writeText) {
+    navigator.clipboard.writeText(full)
+  }
+  showQuoteToast('已複製拓印金句及題跋至剪貼簿')
+}
+
+function showQuoteToast(msg: string) {
+  quoteCardToast.value = msg
+  setTimeout(() => {
+    quoteCardToast.value = null
+  }, 2200)
+}
+
 const mounted = ref(false)
 
 const isLostChapter = computed(() => {
@@ -451,6 +483,14 @@ const schoolAmbientStyle = computed(() => {
 
           <button
             class="mode-btn"
+            @click="openQuoteCard()"
+            title="生成本章傳世拓印金句書卡"
+          >
+            🪪 拓印書卡
+          </button>
+
+          <button
+            class="mode-btn"
             @click="appStore.toggleVertical()"
             :title="isVertical ? '切換為橫排' : '切換為直排'"
           >
@@ -607,6 +647,14 @@ const schoolAmbientStyle = computed(() => {
                     <span v-if="isPassageSpeaking(passage.id) && speechState.currentMode === 'vernacular'"><ClassicalIcon name="pause" :size="13" /> 播讀中</span>
                     <span v-else><ClassicalIcon name="headphones" :size="13" /> 朗讀白話</span>
                   </button>
+                  <button
+                    type="button"
+                    class="passage-audio-btn rubbing-btn"
+                    title="生成本段雅言拓印金句書卡"
+                    @click="openQuoteCard(passage)"
+                  >
+                    <ClassicalIcon name="feather" :size="13" /> 拓印金句
+                  </button>
                 </div>
                 <span v-if="isPassageActive(passage.id)" class="passage-playing-badge">
                   <ClassicalIcon name="audio-playing" :size="13" /> 正在逐段播音
@@ -708,6 +756,83 @@ const schoolAmbientStyle = computed(() => {
       @close="isKnowledgeModalOpen = false"
       @select-point="(pt) => selectedKnowledgePoint = pt"
     />
+
+    <!-- Classical Quote Rubbing Card Modal -->
+    <Teleport to="body">
+      <transition name="search-fade">
+        <div v-if="isQuoteCardOpen && selectedQuotePassage" class="quote-modal-backdrop" @click.self="isQuoteCardOpen = false">
+          <div class="quote-card-container">
+            <button class="quote-close-btn" @click="isQuoteCardOpen = false" aria-label="關閉">
+              <ClassicalIcon name="close" :size="16" />
+            </button>
+
+            <!-- Printable / Shareable Card Preview -->
+            <div class="classical-rubbing-card">
+              <div class="card-inner-frame">
+                <div class="card-watermark-seal">
+                  <RedSeal :text="activeSealText" :size="54" :animate="false" />
+                </div>
+                <div class="card-header-bar">
+                  <span class="card-classical-tag">經典金句 ‧ 傳世拓印</span>
+                  <span class="card-dynasty">{{ workDesc?.period || '先秦' }} · {{ workDesc?.author || '先哲' }}</span>
+                </div>
+
+                <div class="card-quote-body font-serif">
+                  <div class="card-open-mark">「</div>
+                  <p class="card-quote-text">{{ selectedQuotePassage.canonicalText }}</p>
+                  <div class="card-close-mark">」</div>
+                </div>
+
+                <div v-if="passageAid(selectedQuotePassage)?.translation" class="card-translation-block">
+                  <span class="translation-prefix font-serif">今譯：</span>
+                  <span class="translation-body">{{ passageAid(selectedQuotePassage)?.translation }}</span>
+                </div>
+
+                <div class="card-footer-bar">
+                  <div class="card-work-cite font-serif">
+                    《{{ work?.title }}》· {{ chapter?.title }}
+                  </div>
+                  <div class="card-brand font-serif">
+                    <span class="brand-char">經</span> 經典文脈 ClassicFlow
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Seal switcher & Action controls -->
+            <div class="quote-card-controls">
+              <div class="seal-selector">
+                <span class="selector-label">題跋鈐印：</span>
+                <button
+                  v-for="seal in ['文脈', '得道', '守正', '至善', '修身']"
+                  :key="seal"
+                  class="seal-choice-btn"
+                  :class="{ 'is-active': activeSealText === seal }"
+                  @click="activeSealText = seal"
+                >
+                  {{ seal }}
+                </button>
+              </div>
+              <div class="modal-action-btns">
+                <button class="quote-action-btn primary" @click="copyQuoteCardText">
+                  <ClassicalIcon name="feather" :size="14" /> 複製金句題跋
+                </button>
+                <button class="quote-action-btn secondary" @click="isQuoteCardOpen = false">
+                  關閉
+                </button>
+              </div>
+            </div>
+
+            <!-- Toast inside modal -->
+            <transition name="toast-fade">
+              <div v-if="quoteCardToast" class="quote-modal-toast">
+                {{ quoteCardToast }}
+              </div>
+            </transition>
+          </div>
+        </div>
+      </transition>
+    </Teleport>
 
   </div>
 </template>
@@ -1745,5 +1870,280 @@ const schoolAmbientStyle = computed(() => {
 
 .analysis-body {
   white-space: pre-line;
+}
+
+/* Quote Card Modal & Rubbing Button Styles */
+.rubbing-btn {
+  background: rgba(201, 169, 110, 0.08);
+  border-color: rgba(201, 169, 110, 0.25);
+  color: var(--c-gold);
+}
+
+.rubbing-btn:hover {
+  background: var(--c-gold-glow);
+  border-color: var(--c-gold);
+  color: var(--c-gold-light);
+}
+
+.quote-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(12, 14, 20, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.quote-card-container {
+  position: relative;
+  width: 100%;
+  max-width: 580px;
+  background: var(--c-bg-card, #1c1f2b);
+  border: 1px solid var(--c-border-gold-glow, rgba(201, 169, 110, 0.3));
+  border-radius: var(--radius-xl, 16px);
+  padding: 28px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6), 0 0 40px rgba(201, 169, 110, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.quote-close-btn {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--c-text-muted);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+
+.quote-close-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.classical-rubbing-card {
+  background: var(--c-bg-surface, #232736);
+  border-radius: 12px;
+  padding: 8px;
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.card-inner-frame {
+  position: relative;
+  border: 2px solid var(--c-gold, #c9a96e);
+  border-radius: 8px;
+  padding: 26px 24px;
+  background: linear-gradient(135deg, rgba(201, 169, 110, 0.05) 0%, rgba(25, 28, 40, 0.95) 100%);
+  overflow: hidden;
+}
+
+.card-watermark-seal {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+.card-header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed rgba(201, 169, 110, 0.3);
+}
+
+.card-classical-tag {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  color: var(--c-gold);
+  font-weight: 600;
+}
+
+.card-dynasty {
+  font-size: 0.75rem;
+  color: var(--c-text-muted);
+  margin-right: 50px;
+}
+
+.card-quote-body {
+  position: relative;
+  padding: 8px 12px;
+  margin-bottom: 18px;
+}
+
+.card-open-mark,
+.card-close-mark {
+  color: var(--c-gold);
+  font-size: 1.5rem;
+  line-height: 1;
+  opacity: 0.6;
+}
+
+.card-quote-text {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: var(--c-text-primary, #f9fafb);
+  letter-spacing: 0.06em;
+  text-align: justify;
+  margin: 6px 0;
+}
+
+.card-translation-block {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--c-text-secondary, #cbd5e1);
+  background: rgba(0, 0, 0, 0.25);
+  border-left: 3px solid var(--c-gold);
+  padding: 8px 12px;
+  border-radius: 0 6px 6px 0;
+  margin-bottom: 20px;
+}
+
+.translation-prefix {
+  color: var(--c-gold);
+  font-weight: 600;
+}
+
+.card-footer-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 14px;
+  border-top: 1px solid rgba(201, 169, 110, 0.2);
+}
+
+.card-work-cite {
+  font-size: 0.875rem;
+  color: var(--c-gold-light, #f0d5a3);
+  font-weight: 600;
+}
+
+.card-brand {
+  font-size: 0.75rem;
+  color: var(--c-text-muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.brand-char {
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  background: var(--c-crimson, #9e2a2b);
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+}
+
+.quote-card-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.seal-selector {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.selector-label {
+  font-size: 0.8125rem;
+  color: var(--c-text-muted);
+}
+
+.seal-choice-btn {
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--c-text-secondary);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.seal-choice-btn.is-active,
+.seal-choice-btn:hover {
+  background: var(--c-crimson-bg, rgba(158, 42, 43, 0.25));
+  border-color: var(--c-crimson, #9e2a2b);
+  color: #ff9999;
+}
+
+.modal-action-btns {
+  display: flex;
+  gap: 10px;
+}
+
+.quote-action-btn {
+  flex: 1;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.15s ease;
+}
+
+.quote-action-btn.primary {
+  background: var(--c-gold, #c9a96e);
+  color: #1a150b;
+  border: none;
+  font-weight: 600;
+}
+
+.quote-action-btn.primary:hover {
+  background: var(--c-gold-light, #f0d5a3);
+  box-shadow: 0 4px 12px rgba(201, 169, 110, 0.3);
+}
+
+.quote-action-btn.secondary {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--c-text-secondary);
+}
+
+.quote-action-btn.secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.quote-modal-toast {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(15, 17, 23, 0.95);
+  border: 1px solid var(--c-gold);
+  color: var(--c-gold-light);
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+  z-index: 10;
 }
 </style>

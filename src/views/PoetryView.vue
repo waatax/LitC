@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ref, computed, onUnmounted } from 'vue'
-import { useRouter } from 'vue-router'
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
+import { useRouter, useRoute } from 'vue-router'
 import { POETRY_COLLECTION, getPoetryStats } from '@/data/poetry'
 import type { PoemItem, PoemType, LearningPillar, PoemGradeLevel } from '@/types/content'
 import { LEARNING_PILLARS } from '@/types/content'
@@ -10,12 +10,38 @@ import PoetryPlayground from '@/components/PoetryPlayground.vue'
 import { speechService } from '@/services/speech'
 
 const router = useRouter()
+const route = useRoute()
 
 // Filtering states
 const selectedType = ref<'all' | PoemType>('all')
 const selectedGrade = ref<'all' | PoemGradeLevel>('all')
 const selectedTheme = ref<string>('all')
 const searchQuery = ref('')
+const showFavoritesOnly = ref(false)
+
+// Favorites persistence
+const favorites = ref<string[]>(
+  typeof localStorage !== 'undefined'
+    ? JSON.parse(localStorage.getItem('litc_poetry_favorites') || '[]')
+    : []
+)
+
+function toggleFavorite(poemId: string, e?: Event) {
+  if (e) e.stopPropagation()
+  const idx = favorites.value.indexOf(poemId)
+  if (idx > -1) {
+    favorites.value.splice(idx, 1)
+  } else {
+    favorites.value.push(poemId)
+  }
+  if (typeof localStorage !== 'undefined') {
+    localStorage.setItem('litc_poetry_favorites', JSON.stringify(favorites.value))
+  }
+}
+
+function isFavorite(poemId: string): boolean {
+  return favorites.value.includes(poemId)
+}
 
 // Interactive widgets toggle
 const showInfograph = ref(true)
@@ -27,6 +53,50 @@ const activePillar = ref<LearningPillar>('understand')
 const isVerticalLayout = ref(false)
 const phoneticMode = ref<'none' | 'zhuyin' | 'pinyin'>('zhuyin')
 const fontSizeScale = ref<number>(1)
+const showMeterView = ref(false)
+
+// Ping-Ze Analysis Engine (五音聲律格律透視)
+function analyzeLineTones(line: string, pinyinStr?: string, lineIdx?: number, totalLines?: number) {
+  if (!pinyinStr) {
+    return line.split('').map(char => ({ char, tone: 'none' as const, isRhyme: false }))
+  }
+
+  // Remove punctuation from pinyin to match Chinese characters safely
+  const words = pinyinStr
+    .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?，。！？；：、「」『』]/g, ' ')
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean)
+
+  const chars = line.split('')
+  let wordIdx = 0
+  const result: { char: string; tone: 'ping' | 'ze' | 'none'; isRhyme?: boolean }[] = []
+
+  for (let i = 0; i < chars.length; i++) {
+    const char = chars[i]
+    if (/[\u4e00-\u9fa5]/.test(char)) {
+      const py = words[wordIdx] || ''
+      wordIdx++
+      let tone: 'ping' | 'ze' | 'none' = 'none'
+      if (/[āēīōūǖáéíóúǘ12]/.test(py)) {
+        tone = 'ping' // 平聲 (陰平、陽平)
+      } else if (/[ǎěǐǒǔǚàèìòùǜ34]/.test(py)) {
+        tone = 'ze' // 仄聲 (上聲、去聲、入聲)
+      }
+
+      // Check if last character of even line or first line (traditional rhyme position)
+      const isLastChar = i === chars.length - 1 || (i === chars.length - 2 && /[，。！？；：]/.test(chars[chars.length - 1]))
+      const isRhymeLine = lineIdx !== undefined && (lineIdx % 2 === 1 || lineIdx === 0)
+      const isRhyme = isLastChar && isRhymeLine && tone === 'ping'
+
+      result.push({ char, tone, isRhyme })
+    } else {
+      result.push({ char, tone: 'none' })
+    }
+  }
+
+  return result
+}
 
 const isPlayingAudio = computed(() => {
   return speechService.state.isPlaying && !speechService.state.isPaused && speechService.state.currentPassageId === activePoem.value?.id
@@ -49,6 +119,10 @@ const themes = computed(() => {
 // Filtered poems
 const filteredPoems = computed(() => {
   return POETRY_COLLECTION.filter((p) => {
+    // Favorites filter
+    if (showFavoritesOnly.value && !favorites.value.includes(p.id)) {
+      return false
+    }
     // Type filter
     if (selectedType.value !== 'all' && p.type !== selectedType.value) {
       return false
@@ -83,6 +157,7 @@ function openPoem(poem: PoemItem) {
   activePillar.value = 'understand'
   activeRecitationTier.value = 'full'
   revealedCloze.value = {}
+  showMeterView.value = false
   stopAudio()
 }
 
@@ -137,6 +212,28 @@ function stopAudio() {
     speechService.stop()
   }
 }
+
+onMounted(() => {
+  const poemIdParam = route.query.poemId as string
+  if (poemIdParam) {
+    const match = POETRY_COLLECTION.find((p) => p.id === poemIdParam)
+    if (match) {
+      openPoem(match)
+    }
+  }
+})
+
+watch(
+  () => route.query.poemId,
+  (newId) => {
+    if (newId && typeof newId === 'string') {
+      const match = POETRY_COLLECTION.find((p) => p.id === newId)
+      if (match && activePoem.value?.id !== newId) {
+        openPoem(match)
+      }
+    }
+  }
+)
 
 onUnmounted(() => {
   stopAudio()
@@ -280,6 +377,13 @@ function toggleLineReveal(lineIndex: number) {
           >
             元曲 ({{ stats.yuanCount }})
           </button>
+          <button
+            class="seg-btn type-fav"
+            :class="{ active: showFavoritesOnly }"
+            @click="showFavoritesOnly = !showFavoritesOnly"
+          >
+            ⭐ 私塾採風集 ({{ favorites.length }})
+          </button>
         </div>
       </div>
 
@@ -381,7 +485,17 @@ function toggleLineReveal(lineIndex: number) {
             <span v-if="poem.gradeLabel" class="grade-badge">{{ poem.gradeLabel.split('・')[0] }}</span>
             <span class="genre-badge">{{ poem.genre }}</span>
           </div>
-          <span class="emoji-icon">{{ poem.illustrationEmoji || (poem.type === 'yuan' ? '🐎' : (poem.type === 'song' ? '🪷' : '📜')) }}</span>
+          <div class="card-top-right">
+            <button
+              class="card-fav-btn"
+              :class="{ 'is-fav': isFavorite(poem.id) }"
+              :title="isFavorite(poem.id) ? '從採風集移除' : '收錄至私塾採風集'"
+              @click="toggleFavorite(poem.id, $event)"
+            >
+              {{ isFavorite(poem.id) ? '★' : '☆' }}
+            </button>
+            <span class="emoji-icon">{{ poem.illustrationEmoji || (poem.type === 'yuan' ? '🐎' : (poem.type === 'song' ? '🪷' : '📜')) }}</span>
+          </div>
         </div>
 
         <div class="card-heading">
@@ -462,6 +576,14 @@ function toggleLineReveal(lineIndex: number) {
               >
                 純文
               </button>
+              <button
+                class="tool-btn meter-btn"
+                :class="{ active: showMeterView }"
+                @click="showMeterView = !showMeterView"
+                title="五音聲律 ‧ 平仄格律與押韻透視"
+              >
+                🎵 平仄
+              </button>
             </div>
 
             <!-- Font scale buttons -->
@@ -499,6 +621,14 @@ function toggleLineReveal(lineIndex: number) {
               <div class="title-with-emoji">
                 <span v-if="activePoem.illustrationEmoji" class="title-emoji">{{ activePoem.illustrationEmoji }}</span>
                 <h2 class="modal-poem-title">{{ activePoem.title }}</h2>
+                <button
+                  class="reader-fav-star"
+                  :class="{ 'is-fav': isFavorite(activePoem.id) }"
+                  :title="isFavorite(activePoem.id) ? '從採風集移除' : '收錄至私塾採風集'"
+                  @click="toggleFavorite(activePoem.id)"
+                >
+                  {{ isFavorite(activePoem.id) ? '★' : '☆' }}
+                </button>
               </div>
               <div class="modal-poem-meta">
                 <span class="author-link">{{ activePoem.author }}</span>
@@ -506,6 +636,38 @@ function toggleLineReveal(lineIndex: number) {
                 <span v-if="activePoem.qupai" class="qupai-tag">曲牌：{{ activePoem.qupai }}</span>
                 <span class="genre-text">{{ activePoem.genre }}</span>
               </div>
+            </div>
+
+            <!-- Ping-Ze Tonal Meter Visualization Mode -->
+            <div v-if="showMeterView" class="meter-analysis-block">
+              <div class="meter-header">
+                <span class="meter-title font-serif">🎵 聲律格律與押韻透視</span>
+                <div class="meter-legend">
+                  <span class="legend-chip ping">平聲</span>
+                  <span class="legend-chip ze">仄聲</span>
+                  <span class="legend-chip rhyme">韻腳</span>
+                </div>
+              </div>
+              <div class="meter-lines-grid font-serif">
+                <div
+                  v-for="(line, lineIdx) in activePoem.lines"
+                  :key="lineIdx"
+                  class="meter-line-row"
+                >
+                  <div
+                    v-for="(item, charIdx) in analyzeLineTones(line, activePoem.pinyin?.[lineIdx], lineIdx, activePoem.lines.length)"
+                    :key="charIdx"
+                    class="meter-char-cell"
+                    :class="[item.tone, { 'is-rhyme': item.isRhyme }]"
+                  >
+                    <span class="char-val">{{ item.char }}</span>
+                    <span v-if="item.tone !== 'none'" class="tone-tag">
+                      {{ item.isRhyme ? '韻' : (item.tone === 'ping' ? '平' : '仄') }}
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <p class="meter-tip font-serif">格律說明：平聲輕揚悠遠（陰平/陽平），仄聲沉著短促（上/去/入聲）；偶數句末字通常押平聲韻，音律協調。</p>
             </div>
 
             <!-- Recitation Cloze Tier Selector -->
@@ -1628,5 +1790,188 @@ function toggleLineReveal(lineIndex: number) {
 .expand-enter-from, .expand-leave-to {
   opacity: 0;
   transform: translateY(-10px);
+}
+
+/* Favorites and Tonal Meter Styles */
+.seg-btn.type-fav.active {
+  background: #d69e2e;
+  border-color: #d69e2e;
+  color: #fff;
+}
+
+.card-top-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-fav-btn {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  color: #a0aec0;
+  cursor: pointer;
+  padding: 2px 4px;
+  line-height: 1;
+  transition: transform 0.15s ease, color 0.15s ease;
+}
+
+.card-fav-btn:hover,
+.card-fav-btn.is-fav {
+  color: #ecc94b;
+  transform: scale(1.15);
+}
+
+.reader-fav-star {
+  background: none;
+  border: none;
+  font-size: 1.35rem;
+  color: #cbd5e0;
+  cursor: pointer;
+  padding: 0 6px;
+  line-height: 1;
+  transition: all 0.15s ease;
+}
+
+.reader-fav-star:hover,
+.reader-fav-star.is-fav {
+  color: #ecc94b;
+  transform: scale(1.15);
+}
+
+.meter-toggle-btn.active {
+  background: #805ad5;
+  border-color: #805ad5;
+  color: #fff;
+}
+
+.meter-analysis-block {
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.25rem;
+  background: rgba(128, 90, 213, 0.08);
+  border: 1px solid rgba(128, 90, 213, 0.25);
+  border-radius: 12px;
+}
+
+.meter-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.85rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.meter-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #6b46c1;
+}
+
+.meter-legend {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.legend-chip {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.legend-chip.ping {
+  background: rgba(229, 62, 62, 0.15);
+  color: #c53030;
+  border: 1px solid rgba(229, 62, 62, 0.3);
+}
+
+.legend-chip.ze {
+  background: rgba(49, 130, 206, 0.15);
+  color: #2b6cb0;
+  border: 1px solid rgba(49, 130, 206, 0.3);
+}
+
+.legend-chip.rhyme {
+  background: rgba(214, 158, 46, 0.2);
+  color: #b7791f;
+  border: 1px solid rgba(214, 158, 46, 0.4);
+}
+
+.meter-lines-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  margin-bottom: 0.75rem;
+}
+
+.meter-line-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.meter-char-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px 6px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  min-width: 32px;
+}
+
+.meter-char-cell.ping {
+  border-color: rgba(229, 62, 62, 0.3);
+  background: rgba(229, 62, 62, 0.05);
+}
+
+.meter-char-cell.ze {
+  border-color: rgba(49, 130, 206, 0.3);
+  background: rgba(49, 130, 206, 0.05);
+}
+
+.meter-char-cell.is-rhyme {
+  border: 1.5px solid #d69e2e;
+  background: rgba(236, 201, 75, 0.15);
+  box-shadow: 0 0 8px rgba(236, 201, 75, 0.3);
+}
+
+.char-val {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-text, #1a202c);
+  line-height: 1.2;
+}
+
+.tone-tag {
+  font-size: 0.65rem;
+  font-weight: 700;
+  margin-top: 2px;
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+.meter-char-cell.ping .tone-tag {
+  color: #e53e3e;
+}
+
+.meter-char-cell.ze .tone-tag {
+  color: #3182ce;
+}
+
+.meter-char-cell.is-rhyme .tone-tag {
+  background: #d69e2e;
+  color: #fff;
+}
+
+.meter-tip {
+  font-size: 0.75rem;
+  color: #718096;
+  margin: 0;
+  line-height: 1.4;
 }
 </style>

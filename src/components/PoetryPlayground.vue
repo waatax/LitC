@@ -16,13 +16,105 @@ type GameMode = 'feihua' | 'puzzle' | 'quiz'
 const activeMode = ref<GameMode>('feihua')
 
 // ──────────────────────────────────────────────
-// Game 1: 飛花令 (Feihua Ling)
+// Game 1: 飛花令 ‧ 名家雅士對弈 (Feihua Ling Duel)
 // ──────────────────────────────────────────────
 interface FeihuaToken {
   char: string
   label: string
   hint: string
 }
+
+export interface PoetRival {
+  id: string
+  name: string
+  title: string
+  avatar: string
+  intro: string
+  verses: Record<string, { line: string; work: string }>
+}
+
+const POET_RIVALS: PoetRival[] = [
+  {
+    id: 'libai',
+    name: '李白',
+    title: '青蓮居士 ‧ 詩仙',
+    avatar: '🍶',
+    intro: '天生我材必有用，閣下且與我共飲對詩！',
+    verses: {
+      '春': { line: '春風不度玉門關', work: '涼州詞' },
+      '月': { line: '舉杯邀明月，對影成三人。', work: '月下獨酌' },
+      '花': { line: '花間一壺酒，獨酌無相親。', work: '月下獨酌' },
+      '風': { line: '長風破浪會有時，直掛雲帆濟滄海。', work: '行路難' },
+      '山': { line: '相看兩不厭，只有敬亭山。', work: '獨坐敬亭山' },
+      '水': { line: '桃花潭水深千尺，不及汪倫送我情。', work: '贈汪倫' },
+      '夜': { line: '牀前明月光，疑是地上霜。', work: '靜夜思' },
+      '雲': { line: '朝辭白帝彩雲間，千里江陵一日還。', work: '早發白帝城' },
+      '酒': { line: '呼兒將出換美酒，與爾同銷萬古愁。', work: '將進酒' },
+      '雨': { line: '山雨欲來風滿樓', work: '咸陽城東樓' }
+    }
+  },
+  {
+    id: 'sushi',
+    name: '蘇軾',
+    title: '東坡居士 ‧ 文豪',
+    avatar: '🍜',
+    intro: '大江東去，浪淘盡，何妨與子各賦一闋！',
+    verses: {
+      '月': { line: '明月幾時有？把酒問青天。', work: '水調歌頭' },
+      '春': { line: '春色三分，二分塵土，一分流水。', work: '水龍吟' },
+      '花': { line: '枝上柳綿吹又少，天涯何處無芳草。', work: '蝶戀花' },
+      '風': { line: '清風徐來，水波不興。', work: '前赤壁賦' },
+      '山': { line: '不識廬山真面目，只緣身在此山中。', work: '題西林壁' },
+      '水': { line: '水光瀲灩晴方好，山色空濛雨亦奇。', work: '飲湖上初晴後雨' },
+      '夜': { line: '料得年年腸斷處，明月夜，短松岡。', work: '江城子' },
+      '雲': { line: '詩酒趁年華。且將新火試新茶。', work: '望江南' },
+      '酒': { line: '人生如夢，一尊還酹江月。', work: '念奴嬌·赤壁懷古' },
+      '雨': { line: '一蓑煙雨任平生。也無風雨也無晴。', work: '定風波' }
+    }
+  },
+  {
+    id: 'liqingzhao',
+    name: '李清照',
+    title: '易安居士 ‧ 詞宗',
+    avatar: '🪷',
+    intro: '風住塵香花已盡，尋尋覓覓，閣下好詩才！',
+    verses: {
+      '花': { line: '花自飄零水自流。一種相思，兩處閒愁。', work: '一剪梅' },
+      '雨': { line: '昨夜雨疏風驟，濃睡不消殘酒。', work: '如夢令' },
+      '月': { line: '雲中誰寄錦書來？雁字回時，月滿西樓。', work: '一剪梅' },
+      '風': { line: '莫道不銷魂，簾捲西風，人比黃花瘦。', work: '醉花陰' },
+      '春': { line: '物是人非事事休，欲語淚先流。', work: '武陵春' },
+      '山': { line: '水通南國三千里，氣壓江城十四州。', work: '題八詠樓' },
+      '水': { line: '只恐雙溪舴艋舟，載不動許多愁。', work: '武陵春' },
+      '夜': { line: '守著窗兒，獨自怎生得黑！梧桐更兼細雨。', work: '聲聲慢' },
+      '雲': { line: '天接雲濤連曉霧，星河欲轉千帆舞。', work: '漁家傲' },
+      '酒': { line: '常記溪亭日暮，沉醉不知歸路。', work: '如夢令' }
+    }
+  },
+  {
+    id: 'wangwei',
+    name: '王維',
+    title: '摩詰居士 ‧ 詩佛',
+    avatar: '🎋',
+    intro: '行到水窮處，坐看雲起時。請出句！',
+    verses: {
+      '月': { line: '深林人不知，明月來相照。', work: '竹裏館' },
+      '春': { line: '紅豆生南國，春來發幾枝。', work: '相思' },
+      '花': { line: '人閒桂花落，夜靜春山空。', work: '鳥鳴澗' },
+      '風': { line: '草枯鷹眼疾，雪盡馬蹄輕。', work: '觀獵' },
+      '山': { line: '空山不見人，但聞人語響。', work: '鹿柴' },
+      '水': { line: '行到水窮處，坐看雲起時。', work: '終南別業' },
+      '夜': { line: '明月松間照，清泉石上流。', work: '山居秋暝' },
+      '雲': { line: '白雲迴望合，青靄入看無。', work: '終南山' },
+      '酒': { line: '勸君更盡一杯酒，西出陽關無故人。', work: '送元二使安西' },
+      '雨': { line: '空山新雨後，天氣晚來秋。', work: '山居秋暝' }
+    }
+  }
+]
+
+const selectedRivalIdx = ref(0)
+const selectedRival = computed(() => POET_RIVALS[selectedRivalIdx.value])
+const rivalResponse = ref<{ line: string; work: string; poet: string } | null>(null)
 
 const tokens: FeihuaToken[] = [
   { char: '春', label: '春風暖日', hint: '尋找含有「春」字的詩句' },
@@ -31,6 +123,10 @@ const tokens: FeihuaToken[] = [
   { char: '風', label: '清風徐來', hint: '尋找含有「風」字的詩句' },
   { char: '山', label: '青山連綿', hint: '尋找含有「山」字的詩句' },
   { char: '水', label: '碧水悠悠', hint: '尋找含有「水」字的詩句' },
+  { char: '夜', label: '靜夜思懷', hint: '尋找含有「夜」字的詩句' },
+  { char: '雲', label: '彩雲翻湧', hint: '尋找含有「雲」字的詩句' },
+  { char: '酒', label: '把酒言歡', hint: '尋找含有「酒」字的詩句' },
+  { char: '雨', label: '微雨燕雙', hint: '尋找含有「雨」字的詩句' },
 ]
 
 const currentTokenIdx = ref(0)
@@ -94,6 +190,16 @@ function handleSelectFeihuaCard(card: FeihuaCard) {
     playCorrectSound()
     if (feihuaCombo.value % 3 === 0) playComboSound(feihuaCombo.value)
     gamificationStore.exp += 5
+
+    // 雅士對手即時對答
+    const verseObj = selectedRival.value.verses[currentToken.value.char]
+    if (verseObj) {
+      rivalResponse.value = {
+        line: verseObj.line,
+        work: verseObj.work,
+        poet: selectedRival.value.name,
+      }
+    }
   } else {
     card.correct = false
     feihuaCombo.value = 0
@@ -113,7 +219,7 @@ function handleSelectFeihuaCard(card: FeihuaCard) {
         feihuaGameOver.value = true
         playVictorySound()
       }
-    }, 800)
+    }, 1200)
   }
 }
 
@@ -122,12 +228,13 @@ function restartFeihua() {
   feihuaCombo.value = 0
   feihuaRound.value = 1
   feihuaGameOver.value = false
+  rivalResponse.value = null
   currentTokenIdx.value = Math.floor(Math.random() * tokens.length)
   initFeihuaRound()
 }
 
 // ──────────────────────────────────────────────
-// Game 2: 碎句拼圖 (Verse Puzzle)
+// Game 2: 碎句拼圖 ‧ 斷簡重圓 (Verse & Prose Puzzle)
 // ──────────────────────────────────────────────
 interface PuzzleItem {
   id: string
@@ -178,6 +285,38 @@ const puzzleList: PuzzleItem[] = [
     fullSentence: '野火燒不盡，春風吹又生。',
     chunks: ['野火', '燒不盡，', '春風', '吹又生。'],
     zhuyinHint: 'ㄧㄝˇ ㄏㄨㄛˇ ㄕㄠ ㄅㄨˊ ㄐㄧㄣˋ ， ㄔㄨㄣ ㄈㄥ ㄔㄨㄟ ㄧㄡˋ ㄕㄥ 。'
+  },
+  {
+    id: 'puz-6',
+    title: '道德經',
+    author: '老子',
+    fullSentence: '千里之行，始於足下。',
+    chunks: ['千里', '之行，', '始於', '足下。'],
+    zhuyinHint: 'ㄑㄧㄢ ㄌㄧˇ ㄓ ㄒㄧㄥˊ ， ㄕˇ ㄩˊ ㄗㄨˊ ㄒㄧㄚˋ 。'
+  },
+  {
+    id: 'puz-7',
+    title: '前赤壁賦',
+    author: '蘇軾',
+    fullSentence: '寄蜉蝣於天地，渺滄海之一粟。',
+    chunks: ['寄蜉蝣', '於天地，', '渺滄海', '之一粟。'],
+    zhuyinHint: 'ㄐㄧˋ ㄈㄨˊ ㄧㄡˊ ㄩˊ ㄊㄧㄢ ㄉㄧˋ ， ㄇㄧㄠˇ ㄘㄤ ㄏㄞˇ ㄓ ㄧˊ ㄙㄨˋ 。'
+  },
+  {
+    id: 'puz-8',
+    title: '岳陽樓記',
+    author: '范仲淹',
+    fullSentence: '先天下之憂而憂，後天下之樂而樂。',
+    chunks: ['先天下之憂', '而憂，', '後天下之樂', '而樂。'],
+    zhuyinHint: 'ㄒㄧㄢ ㄊㄧㄢ ㄒㄧㄚˋ ㄓ ㄧㄡ ㄦˊ ㄧㄡ ， ㄏㄡˋ ㄊㄧㄢ ㄒㄧㄚˋ ㄓ ㄌㄜˋ ㄦˊ ㄌㄜˋ 。'
+  },
+  {
+    id: 'puz-9',
+    title: '勸學',
+    author: '荀子',
+    fullSentence: '青，取之於藍，而青於藍。',
+    chunks: ['青，', '取之', '於藍，', '而青', '於藍。'],
+    zhuyinHint: 'ㄑㄧㄥ ， ㄑㄩˇ ㄓ ㄩˊ ㄌㄢˊ ， ㄦˊ ㄑㄧㄥ ㄩˊ ㄌㄢˊ 。'
   }
 ]
 
@@ -366,6 +505,36 @@ initPuzzle()
 
     <!-- Mode 1: 飛花令 (Feihua Ling) -->
     <div v-if="activeMode === 'feihua'" class="mode-panel feihua-mode">
+      <!-- Poet Rivals Selector -->
+      <div class="feihua-rivals-bar">
+        <span class="rival-label">對弈名家：</span>
+        <div class="rival-buttons">
+          <button
+            v-for="(rival, rIdx) in POET_RIVALS"
+            :key="rival.id"
+            class="rival-btn"
+            :class="{ 'is-active': selectedRivalIdx === rIdx }"
+            @click="selectedRivalIdx = rIdx; rivalResponse = null"
+          >
+            <span class="rival-avatar">{{ rival.avatar }}</span>
+            <span class="rival-name">{{ rival.name }}</span>
+            <span class="rival-title">{{ rival.title.split(' ‧ ')[1] }}</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Dialogue Bubble from Poet Sage -->
+      <transition name="fade-slide">
+        <div v-if="rivalResponse" class="feihua-dialogue-box">
+          <div class="dialogue-avatar">{{ selectedRival.avatar }}</div>
+          <div class="dialogue-content">
+            <div class="dialogue-speaker">{{ rivalResponse.poet }} 笑吟曰：</div>
+            <div class="dialogue-line font-serif">「{{ rivalResponse.line }}」</div>
+            <div class="dialogue-cite">——《{{ rivalResponse.work }}》· 妙哉！閣下請續接！</div>
+          </div>
+        </div>
+      </transition>
+
       <div class="game-hud">
         <div class="token-display">
           <span class="token-prefix">當前令牌字：</span>
@@ -619,6 +788,104 @@ initPuzzle()
 }
 
 /* Game 1: Feihua */
+.feihua-rivals-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.75rem;
+  background: rgba(201, 169, 110, 0.08);
+  border-radius: 12px;
+}
+
+.rival-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #744210;
+}
+
+.rival-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.rival-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.15s ease;
+}
+
+.rival-btn:hover,
+.rival-btn.is-active {
+  border-color: #c9a96e;
+  background: #fffaf0;
+  color: #744210;
+  box-shadow: 0 2px 8px rgba(201, 169, 110, 0.25);
+}
+
+.rival-avatar {
+  font-size: 1rem;
+}
+
+.rival-name {
+  font-weight: 700;
+}
+
+.rival-title {
+  font-size: 0.7rem;
+  opacity: 0.7;
+}
+
+.feihua-dialogue-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.85rem 1.15rem;
+  background: linear-gradient(135deg, #fffaf0 0%, #fefcbf 100%);
+  border: 1px solid #ecc94b;
+  border-radius: 14px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 15px rgba(214, 158, 46, 0.15);
+  animation: modal-slide-in 0.25s ease;
+}
+
+.dialogue-avatar {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.dialogue-content {
+  flex: 1;
+}
+
+.dialogue-speaker {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #975a16;
+}
+
+.dialogue-line {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #744210;
+  margin: 2px 0;
+  letter-spacing: 0.04em;
+}
+
+.dialogue-cite {
+  font-size: 0.75rem;
+  color: #b7791f;
+}
+
 .game-hud {
   display: flex;
   flex-direction: column;

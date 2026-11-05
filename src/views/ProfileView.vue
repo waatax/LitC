@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useGamificationStore } from '@/stores/gamification'
 import { useKnowledgeCollectionStore } from '@/stores/knowledgeCollection'
 import { getLearningTrackById } from '@/data/knowledgeGraph'
@@ -8,6 +8,33 @@ import RedSeal from '@/components/RedSeal.vue'
 
 const store = useGamificationStore()
 const knowledgeStore = useKnowledgeCollectionStore()
+
+// Imperial Examination Passport Modal
+const isPassportModalOpen = ref(false)
+const passportToast = ref<string | null>(null)
+
+function openPassportModal() {
+  isPassportModalOpen.value = true
+}
+
+function copyPassportCertificate() {
+  const rank = store.currentRank.title
+  const streak = store.streak
+  const exp = store.exp
+  const mastered = store.totalSentencesMastered
+  const cert = `📜【經典文脈 ClassicFlow ‧ 文心雕龍修業通關文牒】\n` +
+    `功名位階：${rank}（第 ${store.currentRank.level} 階）\n` +
+    `連續修持：${streak} 日\n` +
+    `文脈學分：${exp} 點\n` +
+    `熟讀經句：${mastered} 句\n` +
+    `鈐印：經典文脈 ‧ 傳世正宗\n` +
+    `「博學之，審問之，慎思之，明辨之，篤行之。」`
+  if (navigator?.clipboard?.writeText) {
+    navigator.clipboard.writeText(cert)
+  }
+  passportToast.value = '已複製文心雕龍通關文牒！'
+  setTimeout(() => { passportToast.value = null }, 2200)
+}
 
 const activeTrack = computed(() => {
   return getLearningTrackById(knowledgeStore.activeTrackId) || null
@@ -93,6 +120,15 @@ const schools: SchoolCultivation[] = [
       </div>
       <div v-else class="exp-bar-container max-rank">
         <p class="font-serif">已臻太學士至高境界，學富五車！</p>
+      </div>
+
+      <!-- Passport Trigger Button -->
+      <div class="passport-trigger-row">
+        <button class="passport-btn font-serif" @click="openPassportModal">
+          <ClassicalIcon name="feather" :size="16" color="var(--c-gold)" />
+          <span>榮頒 ‧ 文心雕龍修業通關文牒</span>
+          <span class="passport-arrow">→</span>
+        </button>
       </div>
     </section>
 
@@ -202,6 +238,94 @@ const schools: SchoolCultivation[] = [
         </div>
       </div>
     </section>
+
+    <!-- Imperial Scholarly Passport Modal -->
+    <Teleport to="body">
+      <transition name="search-fade">
+        <div v-if="isPassportModalOpen" class="passport-modal-backdrop" @click.self="isPassportModalOpen = false">
+          <div class="passport-modal-card">
+            <button class="passport-close-btn" @click="isPassportModalOpen = false" aria-label="關閉">
+              <ClassicalIcon name="close" :size="16" />
+            </button>
+
+            <!-- Printable Certificate Frame -->
+            <div class="passport-parchment">
+              <div class="parchment-border">
+                <div class="passport-seal-watermark">
+                  <RedSeal text="文脈" :size="64" :animate="false" />
+                </div>
+
+                <div class="passport-header">
+                  <span class="passport-imperial font-serif">奉天承運 ‧ 文脈聿修</span>
+                  <h2 class="passport-title font-serif">文心雕龍修業通關文牒</h2>
+                  <span class="passport-subtitle font-serif">先秦兩漢唐宋經史子集通達之憑照</span>
+                </div>
+
+                <div class="passport-body font-serif">
+                  <p class="passport-grant">
+                    茲有修持士子，研讀華夏傳世經典，博採諸子百家微言大義。經筵試煉，學力卓著，特頒此牒，以昭策勵：
+                  </p>
+
+                  <div class="passport-data-grid">
+                    <div class="data-cell">
+                      <span class="data-key">功名位階</span>
+                      <strong class="data-val rank-val">{{ store.currentRank.title }}</strong>
+                      <span class="data-sub">第 {{ store.currentRank.level }} 階</span>
+                    </div>
+                    <div class="data-cell">
+                      <span class="data-key">連續修持</span>
+                      <strong class="data-val">{{ store.streak }} 日</strong>
+                      <span class="data-sub">恆心如月</span>
+                    </div>
+                    <div class="data-cell">
+                      <span class="data-key">文脈學分</span>
+                      <strong class="data-val">{{ store.exp }} 點</strong>
+                      <span class="data-sub">積水成淵</span>
+                    </div>
+                    <div class="data-cell">
+                      <span class="data-key">熟讀經句</span>
+                      <strong class="data-val">{{ store.totalSentencesMastered }} 句</strong>
+                      <span class="data-sub">字字珠璣</span>
+                    </div>
+                  </div>
+
+                  <div class="passport-motto">
+                    「博學之，審問之，慎思之，明辨之，篤行之。」
+                  </div>
+                </div>
+
+                <div class="passport-footer">
+                  <div class="passport-issuer font-serif">
+                    <span>經典文脈 ClassicFlow 經筵司</span>
+                    <small>正宗古籍 ‧ 聲律傳承</small>
+                  </div>
+                  <div class="passport-seal-final">
+                    <RedSeal text="至善" :size="48" :animate="false" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Modal Action Buttons -->
+            <div class="passport-actions">
+              <button class="btn btn-primary passport-copy-btn font-serif" @click="copyPassportCertificate">
+                <ClassicalIcon name="feather" :size="15" />
+                <span>複製通關殊榮題跋</span>
+              </button>
+              <button class="btn btn-ghost font-serif" @click="isPassportModalOpen = false">
+                關閉
+              </button>
+            </div>
+
+            <transition name="toast-fade">
+              <div v-if="passportToast" class="passport-toast">
+                {{ passportToast }}
+              </div>
+            </transition>
+          </div>
+        </div>
+      </transition>
+    </Teleport>
   </div>
 </template>
 
@@ -561,5 +685,242 @@ const schools: SchoolCultivation[] = [
     flex-direction: column;
     align-items: flex-start;
   }
+}
+
+/* Scholarly Imperial Passport Styles */
+.passport-trigger-row {
+  margin-top: var(--sp-2);
+}
+
+.passport-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 18px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, rgba(201, 169, 110, 0.15) 0%, rgba(201, 169, 110, 0.05) 100%);
+  border: 1px solid var(--c-gold);
+  color: var(--c-gold-light);
+  font-size: var(--fs-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.passport-btn:hover {
+  background: linear-gradient(135deg, rgba(201, 169, 110, 0.25) 0%, rgba(201, 169, 110, 0.1) 100%);
+  box-shadow: 0 4px 16px rgba(201, 169, 110, 0.2);
+  transform: translateY(-1px);
+}
+
+.passport-arrow {
+  color: var(--c-gold);
+  font-size: 1.1rem;
+}
+
+.passport-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(10, 12, 18, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.passport-modal-card {
+  position: relative;
+  width: 100%;
+  max-width: 620px;
+  background: var(--c-bg-card, #1c1f2b);
+  border: 1px solid var(--c-border-gold-glow, rgba(201, 169, 110, 0.3));
+  border-radius: var(--radius-xl, 16px);
+  padding: 28px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.passport-close-btn {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--c-text-muted);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.passport-parchment {
+  background: #faf6ee;
+  color: #2c251e;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.parchment-border {
+  position: relative;
+  border: 2px solid #9c7b45;
+  border-radius: 8px;
+  padding: 24px 20px;
+  background: #f8f3e8;
+  overflow: hidden;
+}
+
+.passport-seal-watermark {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+.passport-header {
+  text-align: center;
+  border-bottom: 2px solid #8c6d3b;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+
+.passport-imperial {
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  color: #8c6d3b;
+  display: block;
+  font-weight: 700;
+}
+
+.passport-title {
+  font-size: 1.5rem;
+  color: #1f1b18;
+  margin: 4px 0;
+  letter-spacing: 0.08em;
+  font-weight: 800;
+}
+
+.passport-subtitle {
+  font-size: 0.75rem;
+  color: #665a4c;
+}
+
+.passport-body {
+  margin-bottom: 16px;
+}
+
+.passport-grant {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: #3d352b;
+  text-align: justify;
+  margin-bottom: 16px;
+}
+
+.passport-data-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  background: rgba(140, 109, 59, 0.08);
+  border: 1px solid rgba(140, 109, 59, 0.25);
+  border-radius: 6px;
+  padding: 12px 8px;
+  margin-bottom: 16px;
+}
+
+.data-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.data-key {
+  font-size: 0.7rem;
+  color: #665a4c;
+}
+
+.data-val {
+  font-size: 1.15rem;
+  color: #855b21;
+  margin: 2px 0;
+}
+
+.data-val.rank-val {
+  color: #a62b2b;
+}
+
+.data-sub {
+  font-size: 0.65rem;
+  color: #8c6d3b;
+}
+
+.passport-motto {
+  text-align: center;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #735930;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+
+.passport-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px dashed rgba(140, 109, 59, 0.35);
+  padding-top: 12px;
+}
+
+.passport-issuer {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  color: #4a3e31;
+  font-weight: 700;
+}
+
+.passport-issuer small {
+  font-size: 0.68rem;
+  color: #7a6a57;
+  font-weight: 400;
+}
+
+.passport-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.passport-copy-btn {
+  flex: 1;
+  background: var(--c-gold);
+  color: #1a150b;
+  font-weight: 700;
+}
+
+.passport-toast {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(18, 20, 28, 0.95);
+  border: 1px solid var(--c-gold);
+  color: var(--c-gold-light);
+  padding: 10px 22px;
+  border-radius: 30px;
+  font-size: 0.875rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+  z-index: 20;
 }
 </style>

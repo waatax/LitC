@@ -12,14 +12,14 @@ const route = useRoute()
 const router = useRouter()
 
 const query = ref((route.query.q as string) || '')
-const activeSchool = ref<SchoolId | 'all'>((route.query.school as SchoolId) || 'all')
-const activeType = ref<'all' | 'sentence' | 'translation' | 'work' | 'chapter'>((route.query.type as any) || 'all')
+const activeSchool = ref<SchoolId | 'literature' | 'poetry' | 'all'>((route.query.school as any) || 'all')
+const activeType = ref<'all' | 'sentence' | 'poetry' | 'work' | 'chapter'>((route.query.type as any) || 'all')
 const currentPage = ref(1)
 const pageSize = 15
 
 const allResults = ref<SearchResult[]>([])
 
-const schools: { id: SchoolId | 'all'; name: string }[] = [
+const schools: { id: SchoolId | 'literature' | 'poetry' | 'all'; name: string }[] = [
   { id: 'all', name: '全部學派' },
   { id: 'daoism', name: '道家' },
   { id: 'confucianism', name: '儒家' },
@@ -28,12 +28,13 @@ const schools: { id: SchoolId | 'all'; name: string }[] = [
   { id: 'military', name: '兵家' },
   { id: 'histories', name: '史書' },
   { id: 'literature', name: '文學' },
+  { id: 'poetry', name: '唐詩宋詞' },
 ]
 
-const typeTabs: { id: 'all' | 'sentence' | 'translation' | 'work' | 'chapter'; label: string }[] = [
+const typeTabs: { id: 'all' | 'sentence' | 'poetry' | 'work' | 'chapter'; label: string }[] = [
   { id: 'all', label: '全部內容' },
-  { id: 'sentence', label: '原文全文' },
-  { id: 'translation', label: '白話文與解析' },
+  { id: 'sentence', label: '經典金句' },
+  { id: 'poetry', label: '唐詩宋詞' },
   { id: 'work', label: '典籍' },
   { id: 'chapter', label: '篇章' },
 ]
@@ -67,7 +68,7 @@ function handleSearchSubmit() {
   executeSearch()
 }
 
-function setSchool(schoolId: SchoolId | 'all') {
+function setSchool(schoolId: SchoolId | 'literature' | 'poetry' | 'all') {
   activeSchool.value = schoolId
   updateRoute()
   executeSearch()
@@ -87,7 +88,9 @@ const paginatedResults = computed(() => {
 })
 
 function goToResult(item: SearchResult) {
-  if (item.type === 'work') {
+  if (item.type === 'poetry' && item.poemId) {
+    router.push({ path: '/poetry', query: { poemId: item.poemId } })
+  } else if (item.type === 'work') {
     router.push({ path: '/library', query: { work: item.workId } })
   } else if (item.chapterId) {
     router.push({
@@ -221,7 +224,8 @@ watch(() => route.query, () => {
           <div class="card-top">
             <span class="field-badge" :class="`badge-${item.type}`">{{ item.matchField }}</span>
             <div class="card-meta">
-              <SchoolBadge :schoolId="item.schoolId" size="sm" />
+              <SchoolBadge v-if="item.schoolId !== 'poetry'" :schoolId="item.schoolId as SchoolId" size="sm" />
+              <span v-else class="classical-pill" style="font-size: 0.75rem;">詩詞曲</span>
               <span class="meta-title font-serif">{{ item.workTitle }} <template v-if="item.chapterTitle">› {{ item.chapterTitle }}</template></span>
             </div>
           </div>

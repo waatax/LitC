@@ -9,6 +9,14 @@ import {
   type SleepTimerOption,
 } from '@/services/speech'
 import ClassicalIcon from '@/components/ClassicalIcon.vue'
+import {
+  AMBIENT_SOUNDSCAPES,
+  getAmbientSoundscape,
+  setAmbientSoundscape,
+  getAmbientVolume,
+  setAmbientVolume,
+  type AmbientSoundscapeType,
+} from '@/utils/soundEffects'
 
 const speechState = speechService.state
 const voices = speechService.voices
@@ -16,6 +24,9 @@ const isSupported = speechService.isSupported
 const showSettings = ref(false)
 const showSpeedMenu = ref(false)
 const showTimerMenu = ref(false)
+const showAmbientMenu = ref(false)
+const activeAmbient = ref<AmbientSoundscapeType>(getAmbientSoundscape())
+const ambientVol = ref<number>(getAmbientVolume())
 const rateToast = ref<string | null>(null)
 let toastTimer: ReturnType<typeof setTimeout> | null = null
 
@@ -151,8 +162,44 @@ function toggleTimerMenu() {
   if (showTimerMenu.value) {
     showSettings.value = false
     showSpeedMenu.value = false
+    showAmbientMenu.value = false
   }
 }
+
+function toggleAmbientMenu() {
+  showAmbientMenu.value = !showAmbientMenu.value
+  if (showAmbientMenu.value) {
+    showSettings.value = false
+    showSpeedMenu.value = false
+    showTimerMenu.value = false
+  }
+}
+
+function selectAmbientSoundscape(type: AmbientSoundscapeType) {
+  activeAmbient.value = type
+  setAmbientSoundscape(type, ambientVol.value)
+  const item = AMBIENT_SOUNDSCAPES.find(s => s.id === type)
+  showToast(`意境聲景：${item?.label || '靜音'}`)
+}
+
+function onAmbientVolumeInput(e: Event) {
+  const target = e.target as HTMLInputElement
+  if (target) {
+    const val = parseFloat(target.value)
+    ambientVol.value = val
+    setAmbientVolume(val)
+  }
+}
+
+const activeAmbientItem = computed(() => {
+  return AMBIENT_SOUNDSCAPES.find(s => s.id === activeAmbient.value) || AMBIENT_SOUNDSCAPES[0]
+})
+
+watch(() => speechState.isPlaying, (playing) => {
+  if (playing && !speechState.isPaused && activeAmbient.value !== 'none') {
+    setAmbientSoundscape(activeAmbient.value, ambientVol.value)
+  }
+})
 
 function setMode(mode: SpeechMode) {
   speechService.setMode(mode)
@@ -228,6 +275,8 @@ function handleKeyDown(e: KeyboardEvent) {
       showSpeedMenu.value = false
     } else if (showTimerMenu.value) {
       showTimerMenu.value = false
+    } else if (showAmbientMenu.value) {
+      showAmbientMenu.value = false
     } else if (showSettings.value) {
       showSettings.value = false
     } else {
@@ -243,6 +292,9 @@ function handleDocumentClick(e: MouseEvent) {
   }
   if (showTimerMenu.value && !target.closest('.timer-menu-popover') && !target.closest('.timer-btn')) {
     showTimerMenu.value = false
+  }
+  if (showAmbientMenu.value && !target.closest('.ambient-menu-popover') && !target.closest('.ambient-btn')) {
+    showAmbientMenu.value = false
   }
 }
 
@@ -444,6 +496,16 @@ onUnmounted(() => {
               ⏱️
             </button>
 
+            <!-- Classical Ambient Soundscape Toggle -->
+            <button
+              class="ctrl-btn btn-ghost ambient-btn"
+              :class="{ 'is-active': activeAmbient !== 'none' }"
+              title="古典意境聲景（古琴、夜雨、清風、流水）"
+              @click.stop="toggleAmbientMenu"
+            >
+              {{ activeAmbientItem?.icon || '🪕' }}
+            </button>
+
             <button
               class="ctrl-btn btn-ghost collapse-bar-btn"
               title="收合至迷你膠囊"
@@ -639,6 +701,54 @@ onUnmounted(() => {
               >
                 播完本篇章
               </button>
+            </div>
+          </div>
+        </Transition>
+
+        <!-- Classical Ambient Soundscape Popover -->
+        <Transition name="fade-slide">
+          <div v-if="showAmbientMenu" class="ambient-menu-popover glass-panel" @click.stop>
+            <div class="ambient-menu-header">
+              <div class="ambient-title-group">
+                <span class="ambient-icon">🪕</span>
+                <span class="ambient-title font-serif">古典意境聲景</span>
+              </div>
+              <span class="ambient-sub font-serif">清心撫琴 ‧ 涵泳經典</span>
+            </div>
+
+            <div class="ambient-options-list">
+              <button
+                v-for="soundscape in AMBIENT_SOUNDSCAPES"
+                :key="soundscape.id"
+                class="ambient-opt-item"
+                :class="{ 'is-active': activeAmbient === soundscape.id }"
+                @click="selectAmbientSoundscape(soundscape.id)"
+              >
+                <span class="soundscape-icon">{{ soundscape.icon }}</span>
+                <div class="soundscape-info">
+                  <span class="soundscape-name">{{ soundscape.label }}</span>
+                  <span class="soundscape-desc">{{ soundscape.desc }}</span>
+                </div>
+                <span v-if="activeAmbient === soundscape.id" class="soundscape-check">✓</span>
+              </button>
+            </div>
+
+            <!-- Ambient Volume Slider -->
+            <div v-if="activeAmbient !== 'none'" class="ambient-volume-box">
+              <div class="vol-label-row">
+                <span>聲景伴奏音量</span>
+                <span class="vol-badge">{{ Math.round(ambientVol * 100) }}%</span>
+              </div>
+              <input
+                type="range"
+                class="ambient-slider"
+                min="0.05"
+                max="0.8"
+                step="0.05"
+                :value="ambientVol"
+                aria-label="意境聲景伴奏音量"
+                @input="onAmbientVolumeInput"
+              />
             </div>
           </div>
         </Transition>
@@ -1411,6 +1521,140 @@ onUnmounted(() => {
   background: var(--c-gold-deep);
   color: #fff;
   font-weight: 600;
+}
+
+/* Classical Ambient Soundscape Popover & Button */
+.ctrl-btn.ambient-btn {
+  font-size: 15px;
+}
+
+.ctrl-btn.ambient-btn.is-active {
+  background: rgba(201, 169, 110, 0.2);
+  border-color: var(--c-gold);
+}
+
+.ambient-menu-popover {
+  position: absolute;
+  bottom: calc(100% + var(--sp-3));
+  right: min(60px, 20vw);
+  width: 260px;
+  background: rgba(22, 24, 32, 0.98);
+  border: 1px solid var(--c-gold-glow);
+  border-radius: var(--radius-lg);
+  padding: var(--sp-3);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.75);
+  z-index: 1010;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ambient-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.ambient-title-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ambient-title {
+  font-size: var(--fs-xs, 0.8rem);
+  color: var(--c-gold-light);
+  font-weight: 600;
+}
+
+.ambient-sub {
+  font-size: 10px;
+  color: var(--c-text-muted);
+}
+
+.ambient-options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ambient-opt-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  color: var(--c-text-secondary);
+  padding: 6px 8px;
+  text-align: left;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.ambient-opt-item:hover {
+  background: rgba(201, 169, 110, 0.12);
+  color: var(--c-gold-light);
+}
+
+.ambient-opt-item.is-active {
+  background: rgba(201, 169, 110, 0.2);
+  border-left: 2px solid var(--c-gold);
+  color: var(--c-gold-light);
+}
+
+.soundscape-icon {
+  font-size: 16px;
+}
+
+.soundscape-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.soundscape-name {
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.soundscape-desc {
+  font-size: 10px;
+  color: var(--c-text-muted);
+}
+
+.soundscape-check {
+  color: var(--c-gold);
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.ambient-volume-box {
+  padding-top: 8px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.vol-label-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: var(--c-text-muted);
+}
+
+.vol-badge {
+  color: var(--c-gold);
+  font-weight: 600;
+}
+
+.ambient-slider {
+  width: 100%;
+  accent-color: var(--c-gold);
+  cursor: pointer;
 }
 
 /* Playlist Drawer Popover */

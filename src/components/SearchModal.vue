@@ -3,6 +3,7 @@ import { ref, computed, watch, onMounted, onUnmounted, nextTick } from 'vue'
 import { useRouter } from 'vue-router'
 import { searchContent } from '@/utils/search'
 import type { SearchResult, SearchResultType } from '@/utils/search'
+import { speechService } from '@/services/speech'
 import type { SchoolId } from '@/types/content'
 import ClassicalIcon from '@/components/ClassicalIcon.vue'
 import { THEMATIC_TOPICS } from '@/data/thematicTopics'
@@ -19,15 +20,17 @@ const router = useRouter()
 const searchInput = ref<HTMLInputElement | null>(null)
 
 const query = ref('')
-const selectedSchool = ref<SchoolId | 'all'>('all')
-const selectedType = ref<'all' | 'sentence' | 'translation' | 'work' | 'chapter'>('all')
+const selectedSchool = ref<SchoolId | 'literature' | 'poetry' | 'all'>('all')
+const selectedType = ref<'all' | 'sentence' | 'poetry' | 'work' | 'chapter'>('all')
 const selectedIndex = ref(0)
+const copyToast = ref<string | null>(null)
+let toastTimer: any = null
 
 const results = ref<SearchResult[]>([])
 const isSearching = ref(false)
 let debounceTimer: any = null
 
-const schools: { id: SchoolId | 'all'; name: string }[] = [
+const schools: { id: SchoolId | 'literature' | 'poetry' | 'all'; name: string }[] = [
   { id: 'all', name: '全部學派' },
   { id: 'daoism', name: '道家' },
   { id: 'confucianism', name: '儒家' },
@@ -36,14 +39,15 @@ const schools: { id: SchoolId | 'all'; name: string }[] = [
   { id: 'military', name: '兵家' },
   { id: 'histories', name: '史書' },
   { id: 'literature', name: '文學' },
+  { id: 'poetry', name: '唐詩宋詞' },
 ]
 
-const typeTabs: { id: 'all' | 'sentence' | 'translation' | 'work' | 'chapter'; label: string }[] = [
+const typeTabs: { id: 'all' | 'sentence' | 'poetry' | 'work' | 'chapter'; label: string }[] = [
   { id: 'all', label: '全部內容' },
-  { id: 'sentence', label: '原文全文' },
-  { id: 'translation', label: '白話文與解析' },
+  { id: 'sentence', label: '經典金句' },
+  { id: 'poetry', label: '唐詩宋詞' },
   { id: 'work', label: '典籍書名' },
-  { id: 'chapter', label: '篇章標題' },
+  { id: 'chapter', label: '篇章目錄' },
 ]
 
 function performSearch() {
@@ -84,7 +88,9 @@ function closeModal() {
 
 function selectResult(item: SearchResult) {
   closeModal()
-  if (item.type === 'work') {
+  if (item.type === 'poetry' && item.poemId) {
+    router.push({ path: '/poetry', query: { poemId: item.poemId } })
+  } else if (item.type === 'work') {
     router.push({ path: '/library', query: { work: item.workId } })
   } else if (item.chapterId) {
     router.push({
@@ -95,6 +101,42 @@ function selectResult(item: SearchResult) {
       },
     })
   }
+}
+
+function listenItem(item: SearchResult, e: Event) {
+  e.stopPropagation()
+  let textToSpeak = item.matchedText
+  if (item.snippet) {
+    textToSpeak = item.snippet.replace(/^[…\s]+|[…\s]+$/g, '')
+  }
+  speechService.speakPassage(
+    item.id,
+    textToSpeak,
+    'canonical',
+    {
+      chapterTitle: item.chapterTitle,
+      workTitle: item.workTitle,
+      canonicalText: textToSpeak,
+    }
+  )
+  triggerToast('已開始典雅朗誦')
+}
+
+function copySnippet(text: string, e: Event) {
+  e.stopPropagation()
+  const cleanText = text.replace(/^[…\s]+|[…\s]+$/g, '')
+  if (navigator?.clipboard?.writeText) {
+    navigator.clipboard.writeText(cleanText)
+  }
+  triggerToast('已複製傳世雅言至剪貼簿')
+}
+
+function triggerToast(msg: string) {
+  copyToast.value = msg
+  if (toastTimer) clearTimeout(toastTimer)
+  toastTimer = setTimeout(() => {
+    copyToast.value = null
+  }, 2200)
 }
 
 function viewAllResults() {
@@ -268,12 +310,40 @@ function renderHighlighted(text: string) {
                 @mouseenter="selectedIndex = index"
               >
                 <div class="result-header">
-                  <span class="result-badge" :class="`badge-${item.type}`">{{ item.matchField }}</span>
-                  <span class="result-meta">{{ item.schoolName }} · {{ item.workTitle }} <template v-if="item.chapterTitle">› {{ item.chapterTitle }}</template></span>
+                  <div class="result-header-left">
+                    <span class="result-badge" :class="`badge-${item.type}`">{{ item.matchField }}</span>
+                    <span class="result-meta">
+                      {{ item.schoolName }} · {{ item.workTitle }}
+                      <template v-if="item.chapterTitle">› {{ item.chapterTitle }}</template>
+                    </span>
+                    <span v-if="item.author" class="result-author-pill">{{ item.author }}</span>
+                    <span v-if="item.dynasty" class="result-dynasty-pill">{{ item.dynasty }}</span>
+                  </div>
+                  <div class="result-actions" @click.stop>
+                    <button class="action-btn listen-btn" title="聆聽有聲朗誦" @click="listenItem(item, $event)">
+                      <ClassicalIcon name="audio" :size="13" color="var(--c-gold)" />
+                      <span>聽讀</span>
+                    </button>
+                    <button class="action-btn copy-btn" title="複製雅句" @click="copySnippet(item.snippet || item.matchedText, $event)">
+                      <ClassicalIcon name="feather" :size="13" />
+                      <span>複製</span>
+                    </button>
+                    <button class="action-btn enter-btn" title="進入研讀" @click="selectResult(item)">
+                      <span>直達 →</span>
+                    </button>
+                  </div>
                 </div>
                 <div class="result-content" v-html="renderHighlighted(item.snippet)"></div>
               </div>
             </div>
+
+            <!-- Toast notification -->
+            <transition name="toast-fade">
+              <div v-if="copyToast" class="modal-toast">
+                <span class="toast-dot"></span>
+                <span>{{ copyToast }}</span>
+              </div>
+            </transition>
           </div>
 
           <!-- Footer Bar -->
@@ -571,15 +641,70 @@ function renderHighlighted(text: string) {
 .result-header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 8px;
   margin-bottom: 6px;
 }
 
-.result-badge {
-  font-size: 0.75rem;
-  padding: 2px 8px;
+.result-header-left {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.result-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
   border-radius: 4px;
-  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--c-text-secondary, #d1d5db);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.action-btn:hover {
+  background: var(--c-gold-glow, rgba(201, 169, 110, 0.2));
+  border-color: var(--c-gold, #c9a96e);
+  color: var(--c-gold-light, #f0d5a3);
+}
+
+.listen-btn:hover {
+  border-color: var(--c-gold);
+  color: var(--c-gold);
+}
+
+.enter-btn {
+  background: rgba(201, 169, 110, 0.15);
+  border-color: rgba(201, 169, 110, 0.35);
+  color: var(--c-gold);
+  font-weight: 600;
+}
+
+.result-author-pill,
+.result-dynasty-pill {
+  font-size: 0.7rem;
+  padding: 1px 6px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--c-text-muted, #9ca3af);
+}
+
+.badge-poetry {
+  background: rgba(142, 68, 173, 0.25);
+  color: #d7bde2;
+  border: 1px solid rgba(142, 68, 173, 0.3);
 }
 
 .badge-sentence {
@@ -669,5 +794,43 @@ function renderHighlighted(text: string) {
 .search-fade-enter-from,
 .search-fade-leave-to {
   opacity: 0;
+}
+
+.modal-toast {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--c-bg-card, #232736);
+  border: 1px solid var(--c-gold, #c9a96e);
+  color: var(--c-gold-light, #f0d5a3);
+  padding: 8px 18px;
+  border-radius: var(--radius-full, 9999px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.toast-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--c-gold, #c9a96e);
+  box-shadow: 0 0 8px var(--c-gold);
+}
+
+.toast-fade-enter-active,
+.toast-fade-leave-active {
+  transition: all 0.25s ease;
+}
+
+.toast-fade-enter-from,
+.toast-fade-leave-to {
+  opacity: 0;
+  transform: translate(-50%, 10px);
 }
 </style>
