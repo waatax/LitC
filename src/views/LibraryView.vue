@@ -9,18 +9,22 @@ import { THEMATIC_TOPICS, type ThematicTopic, type ThematicRecommendation } from
 import SchoolBadge from '@/components/SchoolBadge.vue'
 import ClassicalIcon from '@/components/ClassicalIcon.vue'
 import RedSeal from '@/components/RedSeal.vue'
+import { useAppStore } from '@/stores/app'
 
 const router = useRouter()
 const route = useRoute()
+const appStore = useAppStore()
 const mounted = ref(false)
 
 type ViewMode = 'thematic' | 'schools'
 const viewMode = ref<ViewMode>('thematic')
 const selectedTopicId = ref<string>('inner-peace')
 
-type FilterTab = 'all' | SchoolId
+type FilterTab = 'all' | 'bookmarked' | SchoolId
 const activeFilter = ref<FilterTab>('all')
 const expandedWorkId = ref<string | null>(null)
+const inlineWorkQuery = ref('')
+const onlyRealAudio = ref(false)
 
 // Load data
 const allSchools = ref<School[]>(getSchools())
@@ -105,6 +109,7 @@ interface FilterOption {
 
 const filterTabs: FilterOption[] = [
   { id: 'all', label: '全部學派' },
+  { id: 'bookmarked', label: '★ 藏書閣收藏' },
   { id: 'daoism', label: '道家' },
   { id: 'confucianism', label: '儒家' },
   { id: 'legalism', label: '法家' },
@@ -114,11 +119,37 @@ const filterTabs: FilterOption[] = [
   { id: 'literature', label: '文學' },
 ]
 
-const filteredWorks = computed(() => {
-  if (activeFilter.value === 'all') {
-    return allWorks.value
+function matchesWorkFilter(work: Work): boolean {
+  if (onlyRealAudio.value && !PHYSICAL_AUDIO_WORKS.has(work.id)) {
+    return false
   }
-  return allWorks.value.filter((w) => w.schoolId === activeFilter.value)
+  const q = inlineWorkQuery.value.trim().toLowerCase()
+  if (!q) return true
+  const desc = getWorkDescription(work.id)
+  const haystack = [
+    work.title,
+    work.subtitle,
+    desc?.author,
+    desc?.period,
+    ...(desc?.keyAllusions || []),
+  ].filter(Boolean).join(' ').toLowerCase()
+  return haystack.includes(q)
+}
+
+const filteredWorks = computed(() => {
+  let base = allWorks.value
+  if (activeFilter.value === 'bookmarked') {
+    base = base.filter((w) => appStore.isWorkBookmarked(w.id))
+  } else if (activeFilter.value !== 'all') {
+    base = base.filter((w) => w.schoolId === activeFilter.value)
+  }
+  return base.filter(matchesWorkFilter)
+})
+
+const bookmarkedWorkObjects = computed<Work[]>(() => {
+  return appStore.bookmarkedWorks
+    .map((id) => allWorks.value.find((w) => w.id === id))
+    .filter((w): w is Work => Boolean(w))
 })
 
 interface WorkGroup {
@@ -170,17 +201,31 @@ const schoolGroupMeta: Record<SchoolId, { title: string; description: string }> 
 const groupedWorks = computed<WorkGroup[]>(() => {
   const byId = new Map(allWorks.value.map((work) => [work.id, work]))
 
+  if (activeFilter.value === 'bookmarked') {
+    const works = bookmarkedWorkObjects.value.filter(matchesWorkFilter)
+    return works.length > 0
+      ? [{
+          id: 'bookmarked-shelf',
+          title: '藏書閣收藏 ‧ 案頭常讀典籍',
+          description: '您親手點亮星號收藏之傳世經典，隨時展開研讀或雅音聽誦',
+          works,
+        }]
+      : []
+  }
+
   if (activeFilter.value === 'all') {
-    return filterTabs.slice(1).map((tab) => {
-      const schoolId = tab.id as SchoolId
-      const meta = schoolGroupMeta[schoolId]
-      return {
-        id: schoolId,
-        title: meta.title,
-        description: meta.description,
-        works: allWorks.value.filter((work) => work.schoolId === schoolId),
-      }
-    }).filter((group) => group.works.length > 0)
+    return filterTabs
+      .filter((tab) => tab.id !== 'all' && tab.id !== 'bookmarked')
+      .map((tab) => {
+        const schoolId = tab.id as SchoolId
+        const meta = schoolGroupMeta[schoolId]
+        return {
+          id: schoolId,
+          title: meta.title,
+          description: meta.description,
+          works: allWorks.value.filter((work) => work.schoolId === schoolId && matchesWorkFilter(work)),
+        }
+      }).filter((group) => group.works.length > 0)
   }
 
   const schoolId = activeFilter.value as SchoolId
@@ -193,7 +238,8 @@ const groupedWorks = computed<WorkGroup[]>(() => {
       description: group.description,
       works: (group.workIds || [])
         .map((id) => byId.get(id))
-        .filter((work): work is Work => Boolean(work)),
+        .filter((work): work is Work => Boolean(work))
+        .filter((work) => matchesWorkFilter(work)),
     })).filter((group) => group.works.length > 0)
   }
 
@@ -204,7 +250,7 @@ const groupedWorks = computed<WorkGroup[]>(() => {
       description: schoolGroupMeta[schoolId].description,
       works: filteredWorks.value,
     },
-  ]
+  ].filter((group) => group.works.length > 0)
 })
 
 function setFilter(tab: FilterTab) {
@@ -336,6 +382,50 @@ function quickListenWork(work: Work) {
         <button class="hot-chip" @click="goToChapter('art-of-war_ch-3')">
           #知彼知己
         </button>
+      </div>
+
+      <!-- 書齋案頭：最近研讀與藏書閣收藏捷徑 -->
+      <div class="study-desk-strip glass-card">
+        <div v-if="appStore.recentChapters.length > 0" class="desk-row">
+          <span class="desk-label font-serif">
+            <ClassicalIcon name="hourglass" :size="13" color="var(--c-gold)" />
+            最近研讀：
+          </span>
+          <div class="desk-chips">
+            <button
+              v-for="rec in appStore.recentChapters.slice(0, 4)"
+              :key="rec.chapterId"
+              class="desk-chip desk-chip-recent"
+              @click="goToChapter(rec.chapterId)"
+            >
+              <span class="chip-work">《{{ rec.workTitle }}》</span>
+              <span class="chip-ch">{{ rec.chapterTitle }}</span>
+            </button>
+          </div>
+        </div>
+        <div class="desk-row">
+          <span class="desk-label font-serif">
+            <ClassicalIcon name="sparkle" :size="13" color="var(--c-gold)" />
+            案頭典藏：
+          </span>
+          <div class="desk-chips">
+            <button
+              v-for="bw in bookmarkedWorkObjects.slice(0, 6)"
+              :key="bw.id"
+              class="desk-chip desk-chip-bookmark"
+              @click="viewWorkFromTopic(bw.id)"
+            >
+              <span class="star-mark">★</span>
+              <span>《{{ bw.title }}》</span>
+            </button>
+            <button
+              class="desk-chip desk-chip-more"
+              @click="viewMode = 'schools'; setFilter('bookmarked')"
+            >
+              管理收藏 ({{ bookmarkedWorkObjects.length }}) ›
+            </button>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -511,6 +601,34 @@ function quickListenWork(work: Work) {
 
     <!-- ═══════════════ MODE 2: SCHOOLS & CANON ═══════════════ -->
     <div v-else class="schools-container stagger-children">
+      <!-- Inline Quick Filter & Audio Toggle Bar -->
+      <div class="catalog-quick-toolbar glass-card">
+        <div class="inline-search-wrap">
+          <ClassicalIcon name="search" :size="15" color="var(--c-gold)" />
+          <input
+            v-model="inlineWorkQuery"
+            type="text"
+            class="inline-work-input"
+            placeholder="即時篩選 51 部典籍（輸入書名、作者、朝代或成語典故，如：莊子、司馬遷、庖丁解牛）..."
+          />
+          <button v-if="inlineWorkQuery" class="inline-clear-btn" @click="inlineWorkQuery = ''">
+            ✕
+          </button>
+        </div>
+        <div class="inline-toggles">
+          <button
+            type="button"
+            class="inline-toggle-pill"
+            :class="{ 'is-active': onlyRealAudio }"
+            @click="onlyRealAudio = !onlyRealAudio"
+          >
+            <ClassicalIcon name="audio" :size="13" />
+            <span>僅顯示名家原音典籍</span>
+          </button>
+          <span class="catalog-match-count">顯示 {{ filteredWorks.length }} / {{ allWorks.length }} 部</span>
+        </div>
+      </div>
+
       <!-- Filter Tabs -->
       <div class="filter-bar">
         <button
@@ -548,6 +666,15 @@ function quickListenWork(work: Work) {
                   <p v-if="work.subtitle" class="work-subtitle">{{ work.subtitle }}</p>
                 </div>
                 <div class="work-meta">
+                  <button
+                    type="button"
+                    class="bookmark-star-btn"
+                    :class="{ 'is-bookmarked': appStore.isWorkBookmarked(work.id) }"
+                    :title="appStore.isWorkBookmarked(work.id) ? '已收入藏書閣（點擊取消）' : '收入藏書閣收藏'"
+                    @click.stop="appStore.toggleWorkBookmark(work.id)"
+                  >
+                    {{ appStore.isWorkBookmarked(work.id) ? '★ 典藏' : '☆ 收藏' }}
+                  </button>
                   <SchoolBadge :school-id="work.schoolId" />
                   <span class="genre-badge badge">
                     <ClassicalIcon name="book-open" :size="12" />
@@ -1774,5 +1901,173 @@ function quickListenWork(work: Work) {
   .chapter-difficulty {
     display: none;
   }
+}
+
+/* ── Study Desk & Catalog Toolbar ── */
+.study-desk-strip {
+  margin-top: var(--sp-3);
+  padding: 12px 16px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--c-border-accent);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.desk-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.desk-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.78rem;
+  color: var(--c-gold);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.desk-chips {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.desk-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  font-size: 0.78rem;
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-elevated);
+  color: var(--c-text-secondary);
+  cursor: pointer;
+  transition: all var(--duration-fast) var(--ease-out);
+}
+
+.desk-chip:hover {
+  border-color: var(--c-gold);
+  color: var(--c-gold-light);
+  transform: translateY(-1px);
+}
+
+.desk-chip-recent .chip-work {
+  color: var(--c-gold);
+  font-family: var(--font-serif);
+}
+
+.desk-chip-bookmark .star-mark {
+  color: var(--c-gold);
+}
+
+.desk-chip-more {
+  border-style: dashed;
+  color: var(--c-gold);
+  background: transparent;
+}
+
+.catalog-quick-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 12px 16px;
+  margin-bottom: var(--sp-4);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--c-border-accent);
+}
+
+.inline-search-wrap {
+  flex: 1;
+  min-width: 240px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--c-bg-secondary);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-full);
+  padding: 6px 14px;
+}
+
+.inline-search-wrap:focus-within {
+  border-color: var(--c-gold);
+}
+
+.inline-work-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: var(--c-text-primary);
+  font-size: 0.85rem;
+  outline: none;
+}
+
+.inline-clear-btn {
+  border: none;
+  background: transparent;
+  color: var(--c-text-muted);
+  cursor: pointer;
+  font-size: 0.78rem;
+}
+
+.inline-toggles {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.inline-toggle-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-elevated);
+  color: var(--c-text-secondary);
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: all var(--duration-fast);
+}
+
+.inline-toggle-pill.is-active {
+  border-color: var(--c-gold);
+  background: rgba(201, 169, 110, 0.16);
+  color: var(--c-gold-light);
+}
+
+.catalog-match-count {
+  font-size: 0.78rem;
+  color: var(--c-text-muted);
+}
+
+.bookmark-star-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 9px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-elevated);
+  color: var(--c-text-muted);
+  font-size: 0.72rem;
+  cursor: pointer;
+  transition: all var(--duration-fast);
+}
+
+.bookmark-star-btn:hover,
+.bookmark-star-btn.is-bookmarked {
+  border-color: var(--c-gold);
+  color: var(--c-gold-light);
+  background: rgba(201, 169, 110, 0.14);
 }
 </style>

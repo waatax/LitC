@@ -1,6 +1,39 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
 
+export interface RecentChapterRecord {
+  chapterId: string
+  chapterTitle: string
+  workId: string
+  workTitle: string
+  schoolId: string
+  timestamp: number
+}
+
+const RECENT_CHAPTERS_KEY = 'litc-recent-chapters'
+const BOOKMARK_WORKS_KEY = 'litc-bookmark-works'
+const BOOKMARK_CHAPTERS_KEY = 'litc-bookmark-chapters'
+const COMPLETED_CHAPTERS_KEY = 'litc-completed-chapters'
+
+function loadJson<T>(key: string, fallback: T): T {
+  if (typeof localStorage === 'undefined') return fallback
+  try {
+    const raw = localStorage.getItem(key)
+    return raw ? JSON.parse(raw) : fallback
+  } catch {
+    return fallback
+  }
+}
+
+function saveJson<T>(key: string, val: T) {
+  if (typeof localStorage === 'undefined') return
+  try {
+    localStorage.setItem(key, JSON.stringify(val))
+  } catch {
+    // ignore storage quota errors
+  }
+}
+
 /**
  * App-level UI state (Pinia store).
  * Core learning data lives in the content data modules, not here.
@@ -18,6 +51,55 @@ export const useAppStore = defineStore('app', () => {
 
   // Current learning session
   const currentSessionChapterId = ref<string | null>(null)
+
+  // Reading History & Bookmarks ("書齋案頭 & 藏書閣收藏")
+  const recentChapters = ref<RecentChapterRecord[]>(loadJson<RecentChapterRecord[]>(RECENT_CHAPTERS_KEY, []))
+  const bookmarkedWorks = ref<string[]>(loadJson<string[]>(BOOKMARK_WORKS_KEY, ['dao-de-jing', 'lun-yu', 'gu-wen-guan-zhi']))
+  const bookmarkedChapters = ref<string[]>(loadJson<string[]>(BOOKMARK_CHAPTERS_KEY, []))
+  const completedChapters = ref<string[]>(loadJson<string[]>(COMPLETED_CHAPTERS_KEY, []))
+
+  const recordChapterRead = (record: Omit<RecentChapterRecord, 'timestamp'>) => {
+    const filtered = recentChapters.value.filter(r => r.chapterId !== record.chapterId)
+    filtered.unshift({
+      ...record,
+      timestamp: Date.now()
+    })
+    recentChapters.value = filtered.slice(0, 8)
+    saveJson(RECENT_CHAPTERS_KEY, recentChapters.value)
+  }
+
+  const toggleWorkBookmark = (workId: string) => {
+    const idx = bookmarkedWorks.value.indexOf(workId)
+    if (idx >= 0) {
+      bookmarkedWorks.value.splice(idx, 1)
+    } else {
+      bookmarkedWorks.value.unshift(workId)
+    }
+    saveJson(BOOKMARK_WORKS_KEY, bookmarkedWorks.value)
+  }
+
+  const isWorkBookmarked = (workId: string) => bookmarkedWorks.value.includes(workId)
+
+  const toggleChapterBookmark = (chapterId: string) => {
+    const idx = bookmarkedChapters.value.indexOf(chapterId)
+    if (idx >= 0) {
+      bookmarkedChapters.value.splice(idx, 1)
+    } else {
+      bookmarkedChapters.value.unshift(chapterId)
+    }
+    saveJson(BOOKMARK_CHAPTERS_KEY, bookmarkedChapters.value)
+  }
+
+  const isChapterBookmarked = (chapterId: string) => bookmarkedChapters.value.includes(chapterId)
+
+  const markChapterCompleted = (chapterId: string) => {
+    if (!completedChapters.value.includes(chapterId)) {
+      completedChapters.value.push(chapterId)
+      saveJson(COMPLETED_CHAPTERS_KEY, completedChapters.value)
+    }
+  }
+
+  const isChapterCompleted = (chapterId: string) => completedChapters.value.includes(chapterId)
 
   // Global reader vertical layout preference
   const isVertical = ref(localStorage.getItem('litc-is-vertical') === 'true')
@@ -84,6 +166,17 @@ export const useAppStore = defineStore('app', () => {
     toggleSidebar,
     activeSchoolFilter,
     currentSessionChapterId,
+    recentChapters,
+    bookmarkedWorks,
+    bookmarkedChapters,
+    completedChapters,
+    recordChapterRead,
+    toggleWorkBookmark,
+    isWorkBookmarked,
+    toggleChapterBookmark,
+    isChapterBookmarked,
+    markChapterCompleted,
+    isChapterCompleted,
     isVertical,
     toggleVertical,
     currentTheme,

@@ -4,16 +4,19 @@ import { useRouter } from 'vue-router'
 import { useGamificationStore, RANKS } from '@/stores/gamification'
 import { getDueCardIds } from '@/data/db'
 import { catalogWorks, catalogChapters } from '@/data/catalog'
-import { speechService, type SpeechMode } from '@/services/speech'
+import { speechService, CLASSICAL_RADIO_STATIONS, type ClassicalRadioStation, type SpeechMode } from '@/services/speech'
+import { setAmbientSoundscape } from '@/utils/soundEffects'
 import ClassicalIcon from '@/components/ClassicalIcon.vue'
 import { THEMATIC_TOPICS } from '@/data/thematicTopics'
 import { KNOWLEDGE_POINTS, getLearningTrackById, type KnowledgePoint } from '@/data/knowledgeGraph'
 import { useKnowledgeCollectionStore } from '@/stores/knowledgeCollection'
+import { useAppStore } from '@/stores/app'
 import KnowledgePointModal from '@/components/KnowledgePointModal.vue'
 
 const router = useRouter()
 const gamification = useGamificationStore()
 const collectionStore = useKnowledgeCollectionStore()
+const appStore = useAppStore()
 const mounted = ref(false)
 const selectedAnswer = ref<number | null>(null)
 const checked = ref(false)
@@ -293,6 +296,24 @@ function playMissionQuote(mode: SpeechMode = 'canonical') {
     vernacularText: currentMission.translation,
   })
 }
+
+const activeRadioStationId = ref<string | null>(null)
+
+function isRadioStationPlaying(station: ClassicalRadioStation): boolean {
+  if (!speechService.state.isPlaying || speechService.state.isPaused) return false
+  const currentPid = speechService.state.currentPassageId
+  return station.playlist.some(item => item.passageId === currentPid)
+}
+
+function launchRadioStation(station: ClassicalRadioStation, mode: SpeechMode = 'canonical') {
+  if (isRadioStationPlaying(station) && speechService.state.currentMode === mode) {
+    speechService.pause()
+    return
+  }
+  activeRadioStationId.value = station.id
+  speechService.startChapterPlayback(station.playlist, mode, 0)
+  setAmbientSoundscape(station.ambientDefault)
+}
 </script>
 
 <template>
@@ -314,6 +335,73 @@ function playMissionQuote(mode: SpeechMode = 'canonical') {
     </header>
 
     <!-- Daily Mission Card -->
+    <!-- 書齋案頭：繼續上次研讀與雅音電臺隨身聽 -->
+    <section class="radio-and-resume-section">
+      <div class="radio-section-header">
+        <div>
+          <p class="eyebrow font-serif">用耳朵涵泳千古文脈 ‧ 閉目靜聽亦是修行</p>
+          <h2 class="font-serif">雅音電臺 ‧ 四大隨身聽經頻道</h2>
+        </div>
+        <div v-if="appStore.recentChapters.length > 0" class="resume-pill-bar">
+          <span class="resume-label font-serif">案頭續讀：</span>
+          <button
+            class="resume-chapter-btn"
+            @click="router.push(`/chapter/${appStore.recentChapters[0].chapterId}`)"
+          >
+            <ClassicalIcon name="book-open" :size="14" color="var(--c-gold)" />
+            <span>《{{ appStore.recentChapters[0].workTitle }}》{{ appStore.recentChapters[0].chapterTitle }}</span>
+            <ClassicalIcon name="arrow-right" :size="13" />
+          </button>
+        </div>
+      </div>
+
+      <div class="radio-stations-grid">
+        <article
+          v-for="station in CLASSICAL_RADIO_STATIONS"
+          :key="station.id"
+          class="radio-station-card glass-card"
+          :class="{ 'is-playing': isRadioStationPlaying(station) }"
+        >
+          <div class="station-top">
+            <span class="station-seal font-serif">{{ station.sealChar }}</span>
+            <div class="station-meta">
+              <h3 class="station-title font-serif">{{ station.title }}</h3>
+              <p class="station-sub">{{ station.subtitle }}</p>
+            </div>
+          </div>
+          <div class="station-tracks-preview">
+            <span
+              v-for="item in station.playlist.slice(0, 3)"
+              :key="item.passageId"
+              class="station-track-chip"
+            >
+              《{{ item.workTitle }}》{{ item.chapterTitle?.split('（')[0] }}
+            </span>
+          </div>
+          <div class="station-actions">
+            <button
+              type="button"
+              class="station-play-btn"
+              :class="{ 'is-active': isRadioStationPlaying(station) && speechService.state.currentMode === 'canonical' }"
+              @click="launchRadioStation(station, 'canonical')"
+            >
+              <ClassicalIcon :name="isRadioStationPlaying(station) && speechService.state.currentMode === 'canonical' ? 'pause' : 'audio-playing'" :size="14" />
+              <span>{{ isRadioStationPlaying(station) && speechService.state.currentMode === 'canonical' ? '暫停連播' : '原典連播' }}</span>
+            </button>
+            <button
+              type="button"
+              class="station-bilingual-btn"
+              :class="{ 'is-active': isRadioStationPlaying(station) && speechService.state.currentMode === 'bilingual' }"
+              title="先讀原文再聽白話解析，閉目輕鬆吸收"
+              @click="launchRadioStation(station, 'bilingual')"
+            >
+              <span>🎧 文白導讀</span>
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
     <section class="mission-card">
       <div class="mission-head">
         <div>
@@ -1656,5 +1744,173 @@ summary {
   .quiz-panel {
     padding: 26px;
   }
+}
+
+/* ── Classical Audio Radio & Resume Section ── */
+.radio-and-resume-section {
+  margin-bottom: 32px;
+}
+
+.radio-section-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.radio-section-header h2 {
+  margin: 0;
+  font-size: clamp(1.25rem, 2.2vw, 1.6rem);
+  color: var(--c-text-primary);
+  letter-spacing: 0.04em;
+}
+
+.resume-pill-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.resume-label {
+  font-size: 0.8rem;
+  color: var(--c-gold);
+}
+
+.resume-chapter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--c-border-accent);
+  background: rgba(201, 169, 110, 0.12);
+  color: var(--c-text-primary);
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.resume-chapter-btn:hover {
+  border-color: var(--c-gold);
+  transform: translateY(-1px);
+}
+
+.radio-stations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+}
+
+.radio-station-card {
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-card);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: all 0.25s ease;
+}
+
+.radio-station-card:hover,
+.radio-station-card.is-playing {
+  border-color: var(--c-gold);
+  box-shadow: 0 10px 26px rgba(174, 119, 77, 0.14);
+  transform: translateY(-2px);
+}
+
+.station-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.station-seal {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  border: 1.5px solid var(--c-gold);
+  background: rgba(201, 169, 110, 0.12);
+  color: var(--c-gold);
+  display: grid;
+  place-items: center;
+  font-size: 1.15rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.station-title {
+  margin: 0 0 4px;
+  font-size: 1rem;
+  color: var(--c-text-primary);
+}
+
+.station-sub {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--c-text-muted);
+}
+
+.station-tracks-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.station-track-chip {
+  font-size: 0.7rem;
+  padding: 2px 7px;
+  border-radius: 6px;
+  background: rgba(174, 119, 77, 0.08);
+  color: var(--c-text-secondary);
+}
+
+.station-actions {
+  margin-top: auto;
+  display: flex;
+  gap: 8px;
+}
+
+.station-play-btn,
+.station-bilingual-btn {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 7px 10px;
+  border-radius: 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.station-play-btn {
+  border: 1px solid rgba(185, 103, 77, 0.4);
+  background: rgba(185, 103, 77, 0.14);
+  color: var(--c-text-primary);
+}
+
+.station-play-btn:hover,
+.station-play-btn.is-active {
+  background: #b9674d;
+  color: #fff;
+}
+
+.station-bilingual-btn {
+  border: 1px solid var(--c-border);
+  background: transparent;
+  color: var(--c-text-secondary);
+}
+
+.station-bilingual-btn:hover,
+.station-bilingual-btn.is-active {
+  border-color: var(--c-gold);
+  background: rgba(201, 169, 110, 0.15);
+  color: var(--c-gold-light);
 }
 </style>

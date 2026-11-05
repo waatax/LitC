@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, ref, watch } from 'vue'
-import { dictionarySourceLinks, lookupDictionary, type DictionaryEntry } from '@/services/dictionary'
+import {
+  dictionarySourceLinks,
+  lookupDictionary,
+  getClassicalGrammarNote,
+  type DictionaryEntry,
+  type ClassicalGrammarNote,
+} from '@/services/dictionary'
 
 const props = withDefaults(defineProps<{
   text: string
@@ -9,6 +15,7 @@ const props = withDefaults(defineProps<{
 
 const selected = ref('')
 const entry = ref<DictionaryEntry | null>(null)
+const classicalNote = computed<ClassicalGrammarNote | null>(() => getClassicalGrammarNote(selected.value))
 const loading = ref(false)
 const failed = ref(false)
 const open = ref(false)
@@ -125,6 +132,24 @@ onBeforeUnmount(() => {
           <button class="dictionary-close" type="button" aria-label="關閉字典" @click="close">×</button>
         </header>
 
+        <!-- 古漢語虛實詞與通假破音離線精解 -->
+        <section v-if="classicalNote" class="classical-grammar-box">
+          <div class="cg-header">
+            <span class="cg-badge">{{ classicalNote.category }}</span>
+            <span class="cg-title">古文核心語法與典籍精解</span>
+            <span class="cg-pinyin">{{ classicalNote.pinyin }}</span>
+          </div>
+          <ul class="cg-usage-list">
+            <li v-for="(u, uIdx) in classicalNote.usages" :key="uIdx" class="cg-usage-item">
+              <div class="cg-role-row">
+                <span class="cg-role">{{ u.role }}</span>
+                <strong class="cg-meaning">{{ u.meaning }}</strong>
+              </div>
+              <p class="cg-example">例：{{ u.example }}</p>
+            </li>
+          </ul>
+        </section>
+
         <p v-if="loading" class="dictionary-status" aria-live="polite">正在查詢注音與字義……</p>
         <template v-else-if="entry">
           <article v-for="(reading, readingIndex) in entry.readings" :key="readingIndex" class="dictionary-reading">
@@ -195,6 +220,77 @@ onBeforeUnmount(() => {
 .dictionary-attribution { line-height: 1.7; }
 .dictionary-links { display: flex; gap: .55rem .9rem; flex-wrap: wrap; padding-top: 1rem; }
 .dictionary-links a { color: var(--c-gold); font-family: var(--font-sans); font-size: var(--fs-sm); }
+.classical-grammar-box {
+  margin-top: 1rem;
+  padding: 0.9rem 1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--c-border-accent);
+  background: rgba(201, 169, 110, 0.08);
+}
+.cg-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.65rem;
+}
+.cg-badge {
+  font-size: 0.72rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--c-gold);
+  color: #141210;
+  font-weight: 700;
+}
+.cg-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--c-gold-light);
+}
+.cg-pinyin {
+  font-size: 0.8rem;
+  color: var(--c-text-muted);
+  margin-left: auto;
+}
+.cg-usage-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+.cg-usage-item {
+  padding-top: 0.45rem;
+  border-top: 1px dashed var(--c-border-subtle);
+}
+.cg-usage-item:first-child {
+  padding-top: 0;
+  border-top: none;
+}
+.cg-role-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.cg-role {
+  font-size: 0.74rem;
+  padding: 1px 6px;
+  border-radius: 4px;
+  border: 1px solid var(--c-border-accent);
+  color: var(--c-gold);
+}
+.cg-meaning {
+  font-size: 0.92rem;
+  color: var(--c-text-primary);
+}
+.cg-example {
+  margin: 0.2rem 0 0;
+  font-size: 0.82rem;
+  color: var(--c-text-secondary);
+  font-family: var(--font-serif);
+}
 @media (max-width: 640px) {
   .dictionary-backdrop { align-items: end; padding: 0; }
   .dictionary-sheet { width: 100%; max-height: 82vh; border-radius: var(--radius-lg) var(--radius-lg) 0 0; }

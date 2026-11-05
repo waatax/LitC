@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import { computed, ref, onMounted, onUnmounted, watch } from 'vue'
+import { useRouter } from 'vue-router'
 import {
   speechService,
   SPEED_PRESETS,
+  CLASSICAL_RADIO_STATIONS,
+  type ClassicalRadioStation,
   type SpeechMode,
   type SpeechRate,
   type PlaybackMode,
@@ -18,6 +21,7 @@ import {
   type AmbientSoundscapeType,
 } from '@/utils/soundEffects'
 
+const router = useRouter()
 const speechState = speechService.state
 const voices = speechService.voices
 const isSupported = speechService.isSupported
@@ -29,6 +33,18 @@ const activeAmbient = ref<AmbientSoundscapeType>(getAmbientSoundscape())
 const ambientVol = ref<number>(getAmbientVolume())
 const rateToast = ref<string | null>(null)
 let toastTimer: ReturnType<typeof setTimeout> | null = null
+
+function goToCurrentChapter() {
+  if (currentItem.value?.chapterId) {
+    router.push(`/chapter/${currentItem.value.chapterId}`)
+  }
+}
+
+function playStationFromDrawer(station: ClassicalRadioStation) {
+  speechService.startChapterPlayback(station.playlist, speechState.currentMode, 0)
+  selectAmbientSoundscape(station.ambientDefault)
+  showToast(`已切換至：${station.title.split('・')[0]}`)
+}
 
 const hasActivePlayback = computed(() => {
   return speechState.isPlaying || speechState.isPaused || speechState.currentPassageId !== null
@@ -408,7 +424,16 @@ onUnmounted(() => {
                 </span>
 
                 <span v-if="currentItem?.workTitle" class="work-title">{{ currentItem.workTitle }}</span>
-                <span v-if="currentItem?.chapterTitle" class="chapter-title">{{ currentItem.chapterTitle }}</span>
+                <button
+                  v-if="currentItem?.chapterTitle && currentItem?.chapterId"
+                  type="button"
+                  class="chapter-title chapter-jump-link"
+                  title="點擊前往此篇章閱讀正文"
+                  @click.stop="goToCurrentChapter"
+                >
+                  {{ currentItem.chapterTitle }} ↗
+                </button>
+                <span v-else-if="currentItem?.chapterTitle" class="chapter-title">{{ currentItem.chapterTitle }}</span>
                 <span v-if="totalPassages > 1" class="counter">
                   {{ currentPassageNumber }} / {{ totalPassages }}
                 </span>
@@ -758,10 +783,24 @@ onUnmounted(() => {
           <div v-if="speechState.isPlaylistDrawerOpen && totalPassages > 0" class="playlist-drawer glass-panel" @click.stop>
             <div class="playlist-drawer-header">
               <div class="drawer-title-group">
-                <span class="drawer-title">📑 播放清單</span>
+                <span class="drawer-title">📑 播放清單與雅音電臺</span>
                 <span class="drawer-count">共 {{ totalPassages }} 段</span>
               </div>
               <button class="drawer-close-btn" @click="speechState.isPlaylistDrawerOpen = false">✕</button>
+            </div>
+            <!-- Quick Radio Switcher inside Playlist Drawer -->
+            <div class="drawer-radio-strip">
+              <span class="drawer-radio-label">切換頻道：</span>
+              <button
+                v-for="st in CLASSICAL_RADIO_STATIONS"
+                :key="st.id"
+                type="button"
+                class="drawer-radio-chip"
+                @click="playStationFromDrawer(st)"
+              >
+                <span>{{ st.sealChar }}</span>
+                <span>{{ st.title.split('・')[0] }}</span>
+              </button>
             </div>
             <div class="playlist-items-scroll">
               <div
@@ -1911,5 +1950,52 @@ onUnmounted(() => {
   .rate-toggles button:nth-child(3) {
     display: none;
   }
+}
+
+.chapter-jump-link {
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.chapter-jump-link:hover {
+  color: var(--c-gold-light);
+}
+
+.drawer-radio-strip {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 8px 14px;
+  border-bottom: 1px solid var(--c-border);
+  background: rgba(201, 169, 110, 0.05);
+}
+
+.drawer-radio-label {
+  font-size: 0.72rem;
+  color: var(--c-text-muted);
+}
+
+.drawer-radio-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--c-border-accent);
+  background: var(--c-bg-card);
+  color: var(--c-gold-light);
+  font-size: 0.72rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.drawer-radio-chip:hover {
+  border-color: var(--c-gold);
+  background: rgba(201, 169, 110, 0.16);
 }
 </style>

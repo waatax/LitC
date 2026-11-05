@@ -18,8 +18,8 @@ import {
 const router = useRouter()
 const gamificationStore = useGamificationStore()
 
-// View States: 'map' | 'quiz' | 'result' | 'review-notebook'
-type ViewMode = 'map' | 'quiz' | 'result' | 'review-notebook'
+// View States: 'map' | 'quiz' | 'result' | 'review-notebook' | 'allusion-match' | 'listening-arena'
+type ViewMode = 'map' | 'quiz' | 'result' | 'review-notebook' | 'allusion-match' | 'listening-arena'
 const mode = ref<ViewMode>('map')
 
 // Selected stage & quiz questions
@@ -535,6 +535,261 @@ function goToSource(question: QuestQuestion) {
     router.push(`/library?work=${question.workId}`)
   }
 }
+
+// ═══════════════════════════════════════════════════════════════════
+// 小遊戲一：成語典故尋根・連連看擂臺 (Allusion & Classical Source Match)
+// ═══════════════════════════════════════════════════════════════════
+interface AllusionPairItem {
+  id: string
+  idiom: string
+  workTitle: string
+  author: string
+  quoteAndMeaning: string
+  chapterId: string
+}
+
+const ALLUSION_BANK: AllusionPairItem[] = [
+  { id: 'al-1', idiom: '庖丁解牛', workTitle: '《莊子・養生主》', author: '莊周', quoteAndMeaning: '「依乎天理，批大郤，導大窾」：洞悉事物肌理結構，在複雜處境中游刃有餘。', chapterId: 'zhuangzi_ch-3' },
+  { id: 'al-2', idiom: '上善若水', workTitle: '《道德經・第八章》', author: '老子', quoteAndMeaning: '「水善利萬物而不爭，處眾人之所惡」：至高德行如水般滋養萬物而謙下不爭。', chapterId: 'dao-de-jing_ch-8' },
+  { id: 'al-3', idiom: '不戰而屈人之兵', workTitle: '《孫子兵法・謀攻》', author: '孫武', quoteAndMeaning: '「上兵伐謀，其次伐交」：不靠流血拼殺而以全勝智謀令敵方心服。', chapterId: 'art-of-war_ch-3' },
+  { id: 'al-4', idiom: '青出於藍', workTitle: '《荀子・勸學》', author: '荀況', quoteAndMeaning: '「青，取之於藍，而青於藍；冰，水為之，而寒於水」：比喻透過後天不懈積累而超越前人。', chapterId: 'xunzi_ch-1' },
+  { id: 'al-5', idiom: '守株待兔', workTitle: '《韓非子・五蠹》', author: '韓非', quoteAndMeaning: '「釋其耒而守株，冀復得兔」：諷刺不知變通、妄想憑偶然僥倖獲利與墨守成規。', chapterId: 'han-fei-zi_ch-49' },
+  { id: 'al-6', idiom: '自相矛盾', workTitle: '《韓非子・難一》', author: '韓非', quoteAndMeaning: '「以子之矛，陷子之盾，何如？」：比喻言語或行動前後抵觸、無法自圓其說。', chapterId: 'han-fei-zi_ch-36' },
+  { id: 'al-7', idiom: '兼相愛交相利', workTitle: '《墨子・兼愛》', author: '墨翟', quoteAndMeaning: '「愛人若愛其身，視人之國若視其國」：倡導無差別的博愛與互利共贏。', chapterId: 'mo-zi_ch-14' },
+  { id: 'al-8', idiom: '克己復禮', workTitle: '《論語・顏淵》', author: '孔子', quoteAndMeaning: '「非禮勿視，非禮勿聽，非禮勿言，非禮勿動」：約束私欲以回歸禮義仁道。', chapterId: 'lun-yu_ch-12' },
+  { id: 'al-9', idiom: '捨生取義', workTitle: '《孟子・告子上》', author: '孟軻', quoteAndMeaning: '「生，亦我所欲也；義，亦我所欲也。二者不可得兼，捨生而取義者也。」', chapterId: 'meng-zi_ch-11' },
+  { id: 'al-10', idiom: '一鼓作氣', workTitle: '《左傳・曹劌論戰》', author: '左丘明', quoteAndMeaning: '「夫戰，勇氣也。一鼓作氣，再而衰，三而竭」：趁士氣最旺盛時果斷一舉成事。', chapterId: 'chun-qiu-zuo-zhuan_ch-3' },
+  { id: 'al-11', idiom: '世外桃源', workTitle: '《古文觀止・桃花源記》', author: '陶淵明', quoteAndMeaning: '「芳草鮮美，落英繽紛……不知有漢，無論魏晉」：象徵遠離戰亂塵囂的理想樂土。', chapterId: 'gu-wen-guan-zhi_ch-57' },
+  { id: 'al-12', idiom: '先憂後樂', workTitle: '《古文觀止・岳陽樓記》', author: '范仲淹', quoteAndMeaning: '「不以物喜，不以己悲……先天下之憂而憂，後天下之樂而樂」：仁人君子憂國憂民之胸懷。', chapterId: 'gu-wen-guan-zhi_ch-134' },
+]
+
+const matchRoundItems = ref<AllusionPairItem[]>([])
+const matchRightCards = ref<AllusionPairItem[]>([])
+const selectedLeftId = ref<string | null>(null)
+const selectedRightId = ref<string | null>(null)
+const matchedPairIds = ref<string[]>([])
+const matchWrongFlash = ref(false)
+const matchMoves = ref(0)
+const matchCombo = ref(0)
+
+function initAllusionMatchGame() {
+  const pool = [...ALLUSION_BANK].sort(() => 0.5 - Math.random()).slice(0, 6)
+  matchRoundItems.value = pool
+  matchRightCards.value = [...pool].sort(() => 0.5 - Math.random())
+  selectedLeftId.value = null
+  selectedRightId.value = null
+  matchedPairIds.value = []
+  matchWrongFlash.value = false
+  matchMoves.value = 0
+  matchCombo.value = 0
+}
+
+function selectLeftCard(id: string) {
+  if (matchedPairIds.value.includes(id)) return
+  selectedLeftId.value = id
+  checkAllusionPair()
+}
+
+function selectRightCard(id: string) {
+  if (matchedPairIds.value.includes(id)) return
+  selectedRightId.value = id
+  checkAllusionPair()
+}
+
+function checkAllusionPair() {
+  if (!selectedLeftId.value || !selectedRightId.value) return
+  matchMoves.value++
+  if (selectedLeftId.value === selectedRightId.value) {
+    matchedPairIds.value.push(selectedLeftId.value)
+    matchCombo.value++
+    if (matchCombo.value >= 3) {
+      playComboSound(matchCombo.value)
+    } else {
+      playCorrectSound()
+    }
+    gamificationStore.addExp(15)
+    selectedLeftId.value = null
+    selectedRightId.value = null
+    if (matchedPairIds.value.length === matchRoundItems.value.length) {
+      playVictorySound()
+      gamificationStore.addExp(30)
+    }
+  } else {
+    matchCombo.value = 0
+    matchWrongFlash.value = true
+    playWrongSound()
+    setTimeout(() => {
+      selectedLeftId.value = null
+      selectedRightId.value = null
+      matchWrongFlash.value = false
+    }, 650)
+  }
+}
+
+function openAllusionMatchTab() {
+  mode.value = 'allusion-match'
+  if (matchRoundItems.value.length === 0) {
+    initAllusionMatchGame()
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 小遊戲二：聽音辨經・耳濡目染擂臺 (Classical Audio Listening Arena)
+// ═══════════════════════════════════════════════════════════════════
+interface ListeningArenaItem {
+  id: string
+  passageId: string
+  chapterId: string
+  workTitle: string
+  chapterTitle: string
+  fullCanonical: string
+  maskedDisplay: string
+  targetPhrase: string
+  options: string[]
+  correctIndex: number
+  vernacularHint: string
+}
+
+const LISTENING_ARENA_BANK: ListeningArenaItem[] = [
+  {
+    id: 'la-1',
+    passageId: 'dao-de-jing_ch-1_p-1',
+    chapterId: 'dao-de-jing_ch-1',
+    workTitle: '道德經',
+    chapterTitle: '第一章：道可道',
+    fullCanonical: '道可道，非常道。名可名，非常名。無名天地之始；有名萬物之母。',
+    maskedDisplay: '道可道，非常道。名可名，非常名。【 ＿＿＿＿＿＿ 】；有名萬物之母。',
+    targetPhrase: '無名天地之始',
+    options: ['無名天地之始', '玄之又玄眾妙之門', '萬物負陰而抱陽', '道法自然'],
+    correctIndex: 0,
+    vernacularHint: '無名是天地形成的原始開端；有名則是化育萬物的根源母親。',
+  },
+  {
+    id: 'la-2',
+    passageId: 'lun-yu_ch-1_p-1',
+    chapterId: 'lun-yu_ch-1',
+    workTitle: '論語',
+    chapterTitle: '學而第一',
+    fullCanonical: '子曰：「學而時習之，不亦說乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？」',
+    maskedDisplay: '子曰：「學而時習之，不亦說乎？有朋自遠方來，不亦樂乎？【 ＿＿＿＿＿＿ 】，不亦君子乎？」',
+    targetPhrase: '人不知而不慍',
+    options: ['溫故而知新', '人不知而不慍', '見賢思齊焉', '擇其善者而從之'],
+    correctIndex: 1,
+    vernacularHint: '別人不瞭解自己，心中卻毫無怨恨惱怒，不也是有德的君子嗎？',
+  },
+  {
+    id: 'la-3',
+    passageId: 'art-of-war_ch-3_p-1',
+    chapterId: 'art-of-war_ch-3',
+    workTitle: '孫子兵法',
+    chapterTitle: '謀攻第三',
+    fullCanonical: '是故百戰百勝，非善之善者也；不戰而屈人之兵，善之善者也。',
+    maskedDisplay: '是故百戰百勝，非善之善者也；【 ＿＿＿＿＿＿＿ 】，善之善者也。',
+    targetPhrase: '不戰而屈人之兵',
+    options: ['知彼知己百戰不殆', '避實而擊虛', '不戰而屈人之兵', '其疾如風其徐如林'],
+    correctIndex: 2,
+    vernacularHint: '百戰百勝還不算最高明；不須交戰便能使敵軍屈服，才是高明中的最高境界。',
+  },
+  {
+    id: 'la-4',
+    passageId: 'da-xue_ch-1_p-1',
+    chapterId: 'da-xue_ch-1',
+    workTitle: '大學',
+    chapterTitle: '大學之道',
+    fullCanonical: '大學之道，在明明德，在親民，在止於至善。知止而後有定，定而後能靜。',
+    maskedDisplay: '大學之道，【 ＿＿＿＿＿＿ 】，在親民，在止於至善。知止而後有定，定而後能靜。',
+    targetPhrase: '在明明德',
+    options: ['在明明德', '在格物致知', '在修身齊家', '在率性之謂道'],
+    correctIndex: 0,
+    vernacularHint: '大學的根本宗旨，在於彰顯自身光明純正的德性，親愛教化民眾，達到至善之境。',
+  },
+  {
+    id: 'la-5',
+    passageId: 'gu-wen-guan-zhi_ch-57_p-1',
+    chapterId: 'gu-wen-guan-zhi_ch-57',
+    workTitle: '古文觀止',
+    chapterTitle: '桃花源記',
+    fullCanonical: '忽逢桃花林，夾岸數百步，中無雜樹，芳草鮮美，落英繽紛。',
+    maskedDisplay: '忽逢桃花林，夾岸數百步，中無雜樹，【 ＿＿＿＿＿＿＿＿ 】。',
+    targetPhrase: '芳草鮮美，落英繽紛',
+    options: ['清風徐來，水波不興', '崇山峻嶺，茂林脩竹', '野芳發而幽香', '芳草鮮美，落英繽紛'],
+    correctIndex: 3,
+    vernacularHint: '忽然遇見一片桃花林，兩岸綿延數百步沒有雜樹，芬芳的青草鮮潔美麗，飄落的花瓣繁多紛飛。',
+  },
+  {
+    id: 'la-6',
+    passageId: 'gu-wen-guan-zhi_ch-134_p-1',
+    chapterId: 'gu-wen-guan-zhi_ch-134',
+    workTitle: '古文觀止',
+    chapterTitle: '岳陽樓記',
+    fullCanonical: '不以物喜，不以己悲；居廟堂之高則憂其民，處江湖之遠則憂其君。',
+    maskedDisplay: '【 ＿＿＿＿＿＿＿＿ 】；居廟堂之高則憂其民，處江湖之遠則憂其君。',
+    targetPhrase: '不以物喜，不以己悲',
+    options: ['先天下之憂而憂', '不以物喜，不以己悲', '心曠神怡，寵辱偕忘', '微斯人，吾誰與歸'],
+    correctIndex: 1,
+    vernacularHint: '不因為外在景物的好壞而欣喜，也不因為個人際遇的得失而悲傷。',
+  },
+]
+
+const listeningIdx = ref(0)
+const listeningSelected = ref<number | null>(null)
+const listeningSubmitted = ref(false)
+const listeningScore = ref(0)
+const listeningCompleted = ref(false)
+
+const currentListeningItem = computed(() => LISTENING_ARENA_BANK[listeningIdx.value])
+
+function openListeningArenaTab() {
+  mode.value = 'listening-arena'
+  listeningIdx.value = 0
+  listeningSelected.value = null
+  listeningSubmitted.value = false
+  listeningScore.value = 0
+  listeningCompleted.value = false
+  setTimeout(() => {
+    playListeningArenaAudio(1.0)
+  }, 300)
+}
+
+function playListeningArenaAudio(rate = 1.0) {
+  const item = currentListeningItem.value
+  if (!item) return
+  speechService.setRate(rate)
+  speechService.speakPassage(item.passageId, item.fullCanonical, 'canonical', {
+    workTitle: item.workTitle,
+    chapterTitle: item.chapterTitle,
+    canonicalText: item.fullCanonical,
+    vernacularText: item.vernacularHint,
+  })
+}
+
+function chooseListeningOption(idx: number) {
+  if (listeningSubmitted.value) return
+  listeningSelected.value = idx
+  listeningSubmitted.value = true
+  if (idx === currentListeningItem.value.correctIndex) {
+    listeningScore.value++
+    playCorrectSound()
+    gamificationStore.addExp(20)
+  } else {
+    playWrongSound()
+  }
+}
+
+function nextListeningQuestion() {
+  if (listeningIdx.value < LISTENING_ARENA_BANK.length - 1) {
+    listeningIdx.value++
+    listeningSelected.value = null
+    listeningSubmitted.value = false
+    setTimeout(() => {
+      playListeningArenaAudio(1.0)
+    }, 250)
+  } else {
+    listeningCompleted.value = true
+    playVictorySound()
+    gamificationStore.addExp(30)
+  }
+}
 </script>
 
 <template>
@@ -559,6 +814,22 @@ function goToSource(question: QuestQuestion) {
         >
           <ClassicalIcon name="target" :size="16" />
           <span>九重關卡地圖</span>
+        </button>
+        <button
+          class="mode-tab-btn"
+          :class="{ active: mode === 'allusion-match' }"
+          @click="openAllusionMatchTab"
+        >
+          <ClassicalIcon name="sparkle" :size="16" />
+          <span>成語典故尋根 (連連看)</span>
+        </button>
+        <button
+          class="mode-tab-btn"
+          :class="{ active: mode === 'listening-arena' }"
+          @click="openListeningArenaTab"
+        >
+          <ClassicalIcon name="headphones" :size="16" />
+          <span>聽音辨經擂臺</span>
         </button>
         <button
           class="mode-tab-btn"
@@ -1107,6 +1378,158 @@ function goToSource(question: QuestQuestion) {
           <div class="review-explanation">
             <strong>解析：</strong>{{ q.explanation }}
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mode 4: 成語典故尋根・連連看擂臺 (Allusion & Source Match Mini-Game) -->
+    <div v-else-if="mode === 'allusion-match'" class="allusion-match-container">
+      <div class="am-header glass-card">
+        <div>
+          <span class="am-kicker font-serif">知其然更知其所以然 ‧ 經典溯源雅戲</span>
+          <h2 class="am-title font-serif">成語典故尋根 ‧ 配對挑戰</h2>
+          <p class="am-desc">請先點擊左側「傳世成語」，再點擊右側對應之「原典出處與微言大義」完成連心配對。</p>
+        </div>
+        <div class="am-stats">
+          <span class="am-stat-pill">已配對：<strong>{{ matchedPairIds.length }} / {{ matchRoundItems.length }}</strong></span>
+          <span class="am-stat-pill">步數：<strong>{{ matchMoves }}</strong></span>
+          <span v-if="matchCombo >= 2" class="am-stat-pill combo">🔥 {{ matchCombo }} 連擊</span>
+          <button class="btn btn-primary btn-sm" @click="initAllusionMatchGame">換一局新題</button>
+        </div>
+      </div>
+
+      <div v-if="matchedPairIds.length === matchRoundItems.length && matchRoundItems.length > 0" class="am-victory-banner glass-card">
+        <h3 class="font-serif">🎉 博古通今！六組傳世典故全數尋根成功！</h3>
+        <p>共耗費 {{ matchMoves }} 步完成配對，獲得豐厚國學修為獎勵。點擊下方典故可直達原典篇章研讀：</p>
+        <div class="am-victory-links">
+          <button
+            v-for="item in matchRoundItems"
+            :key="item.id"
+            class="am-chapter-link"
+            @click="router.push(`/chapter/${item.chapterId}`)"
+          >
+            <span>【{{ item.idiom }}】{{ item.workTitle }}</span>
+            <ClassicalIcon name="arrow-right" :size="12" />
+          </button>
+        </div>
+        <button class="btn btn-primary" style="margin-top: 14px;" @click="initAllusionMatchGame">再戰一局</button>
+      </div>
+
+      <div class="am-board" :class="{ 'wrong-shake': matchWrongFlash }">
+        <!-- Left Column: Idioms -->
+        <div class="am-col">
+          <h4 class="am-col-title font-serif">傳世成語／核心母題</h4>
+          <button
+            v-for="left in matchRoundItems"
+            :key="left.id"
+            type="button"
+            class="am-card am-card-left"
+            :class="{
+              'is-selected': selectedLeftId === left.id,
+              'is-matched': matchedPairIds.includes(left.id),
+            }"
+            :disabled="matchedPairIds.includes(left.id)"
+            @click="selectLeftCard(left.id)"
+          >
+            <span class="am-idiom font-serif">{{ left.idiom }}</span>
+            <span v-if="matchedPairIds.includes(left.id)" class="am-check">✓ 已尋根</span>
+          </button>
+        </div>
+
+        <!-- Right Column: Classical Sources & Meanings -->
+        <div class="am-col">
+          <h4 class="am-col-title font-serif">原典出處與微言大義</h4>
+          <button
+            v-for="right in matchRightCards"
+            :key="right.id"
+            type="button"
+            class="am-card am-card-right"
+            :class="{
+              'is-selected': selectedRightId === right.id,
+              'is-matched': matchedPairIds.includes(right.id),
+            }"
+            :disabled="matchedPairIds.includes(right.id)"
+            @click="selectRightCard(right.id)"
+          >
+            <div class="am-source-row">
+              <strong class="am-work font-serif">{{ right.workTitle }}</strong>
+              <span class="am-author">{{ right.author }}</span>
+            </div>
+            <p class="am-quote">{{ right.quoteAndMeaning }}</p>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mode 5: 聽音辨經・耳濡目染擂臺 (Classical Audio Listening Arena) -->
+    <div v-else-if="mode === 'listening-arena'" class="listening-arena-container">
+      <div class="la-card glass-card" v-if="!listeningCompleted && currentListeningItem">
+        <div class="la-top-bar">
+          <div>
+            <span class="am-kicker font-serif">耳濡目染 ‧ 聲律與記憶雙重印證</span>
+            <h2 class="am-title font-serif">聽音辨經 ‧ 第 {{ listeningIdx + 1 }} / {{ LISTENING_ARENA_BANK.length }} 關</h2>
+          </div>
+          <span class="am-stat-pill">得分：<strong>{{ listeningScore }}</strong></span>
+        </div>
+
+        <div class="la-audio-stage">
+          <div class="la-book-badge font-serif">《{{ currentListeningItem.workTitle }}》· {{ currentListeningItem.chapterTitle }}</div>
+          <div class="la-play-controls">
+            <button type="button" class="btn btn-primary la-main-play-btn" @click="playListeningArenaAudio(1.0)">
+              <ClassicalIcon name="audio-playing" :size="18" />
+              <span>聆聽名家原音誦讀 (1.0x)</span>
+            </button>
+            <button type="button" class="btn btn-secondary la-slow-play-btn" @click="playListeningArenaAudio(0.75)">
+              <ClassicalIcon name="headphones" :size="15" />
+              <span>慢吟細聽 (0.75x)</span>
+            </button>
+          </div>
+          <blockquote class="la-masked-quote font-serif">
+            {{ currentListeningItem.maskedDisplay }}
+          </blockquote>
+          <p class="la-hint">💡 <strong>白話意境提示：</strong>{{ currentListeningItem.vernacularHint }}</p>
+        </div>
+
+        <div class="la-options-grid">
+          <button
+            v-for="(opt, oIdx) in currentListeningItem.options"
+            :key="oIdx"
+            type="button"
+            class="la-option-btn font-serif"
+            :class="{
+              'is-correct': listeningSubmitted && oIdx === currentListeningItem.correctIndex,
+              'is-wrong': listeningSubmitted && listeningSelected === oIdx && oIdx !== currentListeningItem.correctIndex,
+            }"
+            :disabled="listeningSubmitted"
+            @click="chooseListeningOption(oIdx)"
+          >
+            <span class="la-opt-prefix">{{ ['甲', '乙', '丙', '丁'][oIdx] }}</span>
+            <span>{{ opt }}</span>
+          </button>
+        </div>
+
+        <div v-if="listeningSubmitted" class="la-feedback-bar">
+          <div class="la-fb-text">
+            <strong>{{ listeningSelected === currentListeningItem.correctIndex ? '🎵 知音識曲！精準辨出原典文句。' : `正解為：「${currentListeningItem.targetPhrase}」` }}</strong>
+            <p>完整原句：「{{ currentListeningItem.fullCanonical }}」</p>
+          </div>
+          <div class="la-fb-actions">
+            <button type="button" class="btn btn-ghost" @click="router.push(`/chapter/${currentListeningItem.chapterId}`)">
+              前往本章研讀
+            </button>
+            <button type="button" class="btn btn-primary" @click="nextListeningQuestion">
+              {{ listeningIdx < LISTENING_ARENA_BANK.length - 1 ? '下一題 →' : '查看聽音成果' }}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div v-else class="am-victory-banner glass-card">
+        <h3 class="font-serif">🎧 耳聰目明！完成「聽音辨經」全部挑戰！</h3>
+        <p>您在 {{ LISTENING_ARENA_BANK.length }} 題經典原音辨識中答對 <strong>{{ listeningScore }}</strong> 題，深得先秦兩漢音韻之美！</p>
+        <div style="display: flex; gap: 12px; justify-content: center; margin-top: 16px;">
+          <button class="btn btn-primary" @click="openListeningArenaTab">再聽一輪</button>
+          <button class="btn btn-secondary" @click="mode = 'map'">返回九重天闕</button>
         </div>
       </div>
     </div>
@@ -2534,5 +2957,325 @@ function goToSource(question: QuestQuestion) {
   width: 100%;
   padding: 0.65rem;
   font-weight: 700;
+}
+
+/* ── Allusion Match & Listening Arena Mini-Games ── */
+.allusion-match-container,
+.listening-arena-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.am-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px 24px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--c-border-accent);
+  background: var(--c-bg-card);
+}
+
+.am-kicker {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--c-gold);
+  letter-spacing: 0.08em;
+}
+
+.am-title {
+  margin: 4px 0 6px;
+  font-size: 1.4rem;
+  color: var(--c-text-primary);
+}
+
+.am-desc {
+  margin: 0;
+  font-size: 0.86rem;
+  color: var(--c-text-secondary);
+}
+
+.am-stats {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.am-stat-pill {
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-elevated);
+  font-size: 0.82rem;
+  color: var(--c-text-secondary);
+}
+
+.am-stat-pill.combo {
+  border-color: var(--c-gold);
+  color: var(--c-gold-light);
+  background: rgba(201, 169, 110, 0.15);
+}
+
+.am-board {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .am-board {
+    grid-template-columns: 1fr;
+  }
+}
+
+.am-col {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.am-col-title {
+  margin: 0 0 4px;
+  font-size: 0.95rem;
+  color: var(--c-gold);
+  letter-spacing: 0.06em;
+}
+
+.am-card {
+  text-align: left;
+  padding: 14px 18px;
+  border-radius: 14px;
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-card);
+  color: var(--c-text-primary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.am-card:hover:not(:disabled) {
+  border-color: var(--c-gold);
+  transform: translateY(-2px);
+}
+
+.am-card.is-selected {
+  border-color: var(--c-gold);
+  background: rgba(201, 169, 110, 0.16);
+  box-shadow: 0 0 0 2px rgba(201, 169, 110, 0.25);
+}
+
+.am-card.is-matched {
+  border-color: rgba(91, 138, 114, 0.45);
+  background: rgba(91, 138, 114, 0.12);
+  opacity: 0.68;
+  cursor: default;
+}
+
+.am-card-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 68px;
+}
+
+.am-idiom {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.am-check {
+  font-size: 0.78rem;
+  color: #6ea286;
+  font-weight: 600;
+}
+
+.am-source-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.am-work {
+  color: var(--c-gold-light);
+  font-size: 0.95rem;
+}
+
+.am-author {
+  font-size: 0.76rem;
+  color: var(--c-text-muted);
+}
+
+.am-quote {
+  margin: 0;
+  font-size: 0.84rem;
+  line-height: 1.55;
+  color: var(--c-text-secondary);
+}
+
+.am-victory-banner {
+  padding: 28px;
+  text-align: center;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--c-gold);
+  background: linear-gradient(145deg, rgba(201, 169, 110, 0.12), rgba(91, 138, 114, 0.08));
+}
+
+.am-victory-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.am-chapter-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--c-border-accent);
+  background: var(--c-bg-card);
+  color: var(--c-gold-light);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.la-card {
+  padding: 28px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--c-border-accent);
+  background: var(--c-bg-card);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.la-top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.la-audio-stage {
+  padding: 22px;
+  border-radius: 16px;
+  border: 1px solid var(--c-border);
+  background: rgba(201, 169, 110, 0.05);
+  text-align: center;
+}
+
+.la-book-badge {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 999px;
+  background: rgba(201, 169, 110, 0.15);
+  color: var(--c-gold-light);
+  font-size: 0.85rem;
+  margin-bottom: 14px;
+}
+
+.la-play-controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+.la-main-play-btn,
+.la-slow-play-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.la-masked-quote {
+  font-size: clamp(1.15rem, 2.2vw, 1.45rem);
+  line-height: 1.85;
+  color: var(--c-text-primary);
+  margin: 0 0 12px;
+}
+
+.la-hint {
+  margin: 0;
+  font-size: 0.86rem;
+  color: var(--c-text-secondary);
+}
+
+.la-options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.la-option-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-elevated);
+  color: var(--c-text-primary);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.la-option-btn:hover:not(:disabled) {
+  border-color: var(--c-gold);
+  background: rgba(201, 169, 110, 0.12);
+}
+
+.la-option-btn.is-correct {
+  border-color: #5b8a72;
+  background: rgba(91, 138, 114, 0.18);
+}
+
+.la-option-btn.is-wrong {
+  border-color: #c85a3c;
+  background: rgba(200, 90, 60, 0.15);
+}
+
+.la-opt-prefix {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: rgba(201, 169, 110, 0.16);
+  color: var(--c-gold);
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+}
+
+.la-feedback-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding: 16px 20px;
+  border-radius: 12px;
+  background: rgba(91, 138, 114, 0.12);
+  border: 1px solid rgba(91, 138, 114, 0.35);
+}
+
+.la-fb-text p {
+  margin: 4px 0 0;
+  font-size: 0.85rem;
+  color: var(--c-text-secondary);
+}
+
+.la-fb-actions {
+  display: flex;
+  gap: 10px;
 }
 </style>

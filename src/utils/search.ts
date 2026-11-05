@@ -2,6 +2,7 @@ import { catalogWorks as works, catalogChapters as chapters } from '@/data/catal
 import { getWorkDescription } from '@/data/catalogApi'
 import { schools } from '@/data/schools'
 import { POETRY_COLLECTION } from '@/data/poetry'
+import { KNOWLEDGE_POINTS, DILEMMA_TOPICS } from '@/data/knowledgeGraph'
 import type { SchoolId } from '@/types/content'
 
 export type SearchResultType = 'sentence' | 'translation' | 'work' | 'chapter' | 'poetry'
@@ -180,6 +181,24 @@ function buildIndex(): IndexedItem[] {
       baseScore: 100,
       initials: aliasInfo?.initials,
     })
+
+    // 1b. 典籍核心成語典故索引 (keyAllusions)
+    if (description?.keyAllusions && work.chapterIds.length > 0) {
+      const firstChapter = chapterById.get(work.chapterIds[0])
+      for (const allusion of description.keyAllusions) {
+        const idiomTitle = allusion.split('：')[0] || allusion
+        add({
+          ...common,
+          id: `allusion-${work.id}-${idiomTitle}`,
+          type: 'sentence',
+          chapterId: firstChapter?.id || work.chapterIds[0],
+          chapterTitle: firstChapter?.title || '導讀與名篇',
+          matchField: '成語典故',
+          matchedText: `【${idiomTitle}】${allusion}（出自《${work.title}》）`,
+          baseScore: 93,
+        })
+      }
+    }
   }
 
   // 2. 篇章章名索引
@@ -245,6 +264,44 @@ function buildIndex(): IndexedItem[] {
       matchField: '詩詞曲名篇',
       matchedText: `${poem.title}・${poem.author}・${cipaiStr}・${qupaiStr}・${poem.theme}・${keyVersesStr}・${allLinesStr}`,
       baseScore: 92,
+    })
+  }
+
+  // 5. 諸子百家知識點網絡與現代應用索引 (KNOWLEDGE_POINTS)
+  for (const kp of KNOWLEDGE_POINTS) {
+    add({
+      id: `kp-${kp.id}`,
+      type: 'sentence',
+      workId: kp.quoteSource.workId,
+      workTitle: kp.quoteSource.workTitle,
+      chapterId: kp.quoteSource.chapterId,
+      chapterTitle: kp.quoteSource.chapterTitle,
+      schoolId: kp.schoolId,
+      schoolName: schoolName(kp.schoolId),
+      author: kp.primaryFigure,
+      dynasty: kp.historicalPeriod,
+      matchField: '哲思知識點',
+      matchedText: `【${kp.title}】${kp.tagline}・名句：「${kp.famousQuote}」・精義：${kp.summary}・現代啟發：${kp.modernApplication}`,
+      baseScore: 96,
+    })
+  }
+
+  // 6. 人生困局處方籤索引 (DILEMMA_TOPICS)
+  for (const dilemma of DILEMMA_TOPICS) {
+    const firstKp = KNOWLEDGE_POINTS.find(p => p.id === dilemma.corePointIds[0])
+    if (!firstKp) continue
+    add({
+      id: `dilemma-${dilemma.id}`,
+      type: 'sentence',
+      workId: firstKp.quoteSource.workId,
+      workTitle: firstKp.quoteSource.workTitle,
+      chapterId: firstKp.quoteSource.chapterId,
+      chapterTitle: firstKp.quoteSource.chapterTitle,
+      schoolId: firstKp.schoolId,
+      schoolName: schoolName(firstKp.schoolId),
+      matchField: '心境處方',
+      matchedText: `【${dilemma.title}】${dilemma.subtitle}・${dilemma.situation}・解方：${dilemma.remedyIntro}`,
+      baseScore: 91,
     })
   }
 

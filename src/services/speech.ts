@@ -31,6 +31,198 @@ export interface SpeechPlaylistItem {
   workTitle?: string
 }
 
+export interface ClassicalRadioStation {
+  id: string
+  title: string
+  subtitle: string
+  sealChar: string
+  ambientDefault: 'guqin' | 'rain' | 'wind' | 'stream'
+  playlist: SpeechPlaylistItem[]
+}
+
+export const CLASSICAL_RADIO_STATIONS: ClassicalRadioStation[] = [
+  {
+    id: 'radio-dao-zen',
+    title: '道法自然・先秦哲思靜心電臺',
+    subtitle: '老莊玄旨與四書修心名段，適合靜坐、品茗與安頓身心',
+    sealChar: '玄',
+    ambientDefault: 'guqin',
+    playlist: [
+      {
+        passageId: 'dao-de-jing_ch-1_p-1',
+        chapterId: 'dao-de-jing_ch-1',
+        workTitle: '道德經',
+        chapterTitle: '第一章：道可道',
+        canonicalText: '道可道，非常道。名可名，非常名。無名天地之始；有名萬物之母。故常無，欲以觀其妙；常有，欲以觀其徼。此兩者，同出而異名，同謂之玄。玄之又玄，眾妙之門。',
+        vernacularText: '可以用言語表達的道，就不是永恆不變的常道；可以明確命名的名，就不是恆常不變的名。無名是天地的原始開端；有名是化育萬物的根源。常處於無欲之境以體察道的奧妙，常處於有欲之境以觀察萬物的端倪。玄妙而又深遠，正是通往一切奧妙的大門。',
+      },
+      {
+        passageId: 'dao-de-jing_ch-8_p-1',
+        chapterId: 'dao-de-jing_ch-8',
+        workTitle: '道德經',
+        chapterTitle: '第八章：上善若水',
+        canonicalText: '上善若水。水善利萬物而不爭，處眾人之所惡，故幾於道。居善地，心善淵，與善仁，言善信，政善治，事善能，動善時。夫唯不爭，故無尤。',
+        vernacularText: '最崇高的善行就像水一樣。水善於滋養萬物而不與萬物相爭，停留在眾人所厭惡的低窪之處，所以最接近於道。正因為不與人爭奪，所以沒有過失與怨尤。',
+      },
+      {
+        passageId: 'da-xue_ch-1_p-1',
+        chapterId: 'da-xue_ch-1',
+        workTitle: '大學',
+        chapterTitle: '大學之道',
+        canonicalText: '大學之道，在明明德，在親民，在止於至善。知止而後有定，定而後能靜，靜而後能安，安而後能慮，慮而後能得。物有本末，事有終始，知所先後，則近道矣。',
+        vernacularText: '大學的根本宗旨，在於彰顯光明純正的德性，在於親愛並教化百姓，在於達到最完善的境界。知道所當止的目標才能志向堅定，心神寧靜安穩，進而思慮周詳並有所收穫。',
+      },
+      {
+        passageId: 'zhong-yong_ch-1_p-1',
+        chapterId: 'zhong-yong_ch-1',
+        workTitle: '中庸',
+        chapterTitle: '天命之謂性',
+        canonicalText: '天命之謂性，率性之謂道，修道之謂教。道也者，不可須臾離也，可離非道也。是故君子戒慎乎其所不睹，恐懼乎其所不聞。莫見乎隱，莫顯乎微，故君子慎其獨也。',
+        vernacularText: '上天賦予人的稟賦叫做本性，順從本性行事叫做道，修明並推行道叫做教化。喜怒哀樂未發之時稱為中，發而合乎節度稱為和。致中和，天地各安其位，萬物欣欣向榮。',
+      },
+      {
+        passageId: 'zhuangzi_ch-1_p-1',
+        chapterId: 'zhuangzi_ch-1',
+        workTitle: '莊子',
+        chapterTitle: '逍遙遊',
+        canonicalText: '北冥有魚，其名為鯤。鯤之大，不知其幾千里也。化而為鳥，其名為鵬。鵬之背，不知其幾千里也；怒而飛，其翼若垂天之雲。',
+        vernacularText: '北方深海有一條大魚名叫鯤，變化為大鳥名叫鵬。當它振翅高飛時，雙翼如同天邊垂掛的雲彩，乘著六月長風直上九萬里高空。',
+      },
+    ],
+  },
+  {
+    id: 'radio-literary-gems',
+    title: '文心千古・傳世古文名篇連播',
+    subtitle: '精選《古文觀止》與《論語》不朽篇章，涵泳歷代文人風骨',
+    sealChar: '文',
+    ambientDefault: 'stream',
+    playlist: [
+      {
+        passageId: 'gu-wen-guan-zhi_ch-57_p-1',
+        chapterId: 'gu-wen-guan-zhi_ch-57',
+        workTitle: '古文觀止',
+        chapterTitle: '桃花源記（陶淵明）',
+        canonicalText: '晉太元中，武陵人捕魚為業。緣溪行，忘路之遠近。忽逢桃花林，夾岸數百步，中無雜樹，芳草鮮美，落英繽紛。漁人甚異之，復前行，欲窮其林。',
+        vernacularText: '東晉太元年間，武陵郡有位漁人順著溪流划船前行，忽然遇見一片桃花林，兩岸綿延數百步沒有雜樹，芳草鮮美，落花繽紛。',
+      },
+      {
+        passageId: 'gu-wen-guan-zhi_ch-56_p-1',
+        chapterId: 'gu-wen-guan-zhi_ch-56',
+        workTitle: '古文觀止',
+        chapterTitle: '蘭亭集序（王羲之）',
+        canonicalText: '永和九年，歲在癸丑，暮春之初，會于會稽山陰之蘭亭，修禊事也。羣賢畢至，少長咸集。此地有崇山峻嶺，茂林脩竹；又有清流激湍，映帶左右，引以為流觴曲水。',
+        vernacularText: '永和九年暮春時節，眾賢聚會於會稽山陰的蘭亭。此地有崇山峻嶺、茂林修竹與清流激湍，眾人引水為流觴曲水，暢敘幽情。',
+      },
+      {
+        passageId: 'gu-wen-guan-zhi_ch-134_p-1',
+        chapterId: 'gu-wen-guan-zhi_ch-134',
+        workTitle: '古文觀止',
+        chapterTitle: '岳陽樓記（范仲淹）',
+        canonicalText: '嗟夫！予嘗求古仁人之心，或異二者之為，何哉？不以物喜，不以己悲；居廟堂之高則憂其民，處江湖之遠則憂其君。是進亦憂，退亦憂。然則何時而樂耶？其必曰：「先天下之憂而憂，後天下之樂而樂」乎！',
+        vernacularText: '古時仁人之心，不因外物好壞或個人得失而喜悲；身處朝廷高位則憂心百姓，退居江湖遠方則憂慮君國，先天下之憂而憂，後天下之樂而樂。',
+      },
+      {
+        passageId: 'gu-wen-guan-zhi_ch-143_p-1',
+        chapterId: 'gu-wen-guan-zhi_ch-143',
+        workTitle: '古文觀止',
+        chapterTitle: '前赤壁賦（蘇軾）',
+        canonicalText: '惟江上之清風，與山間之明月，耳得之而為聲，目遇之而成色，取之無禁，用之不竭，是造物者之無盡藏也，而吾與子之所共適。',
+        vernacularText: '只有江上的清風與山間的明月，耳朵聽見便成為悅耳之聲，眼睛望見便成為動人之色，這是大自然無窮無盡的寶藏，也是我與你能夠共同享有的清福。',
+      },
+      {
+        passageId: 'lun-yu_ch-1_p-1',
+        chapterId: 'lun-yu_ch-1',
+        workTitle: '論語',
+        chapterTitle: '學而第一',
+        canonicalText: '子曰：「學而時習之，不亦說乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？」',
+        vernacularText: '孔子說：「學習知識並按時溫習實踐，不也很令人欣喜嗎？有志同道合的朋友從遠方來，不也很快樂嗎？人家不瞭解自己卻不怨恨，不也是君子嗎？」',
+      },
+    ],
+  },
+  {
+    id: 'radio-strategy-wisdom',
+    title: '帷幄千里・孫子兵法與大局謀略',
+    subtitle: '聆聽兵聖孫武與秦丞相李斯宏論，淬鍊全勝格局與決策定力',
+    sealChar: '策',
+    ambientDefault: 'wind',
+    playlist: [
+      {
+        passageId: 'art-of-war_ch-1_p-1',
+        chapterId: 'art-of-war_ch-1',
+        workTitle: '孫子兵法',
+        chapterTitle: '始計第一',
+        canonicalText: '孫子曰：兵者，國之大事，死生之地，存亡之道，不可不察也。故經之以五事，校之以計，而索其情：一曰道，二曰天，三曰地，四曰將，五曰法。',
+        vernacularText: '孫子說：軍事是國家的重大事務，關係到人民的生死與國家的存亡，不可不審慎考察。因此必須以道、天、地、將、法五項基本要素加以經略衡量。',
+      },
+      {
+        passageId: 'art-of-war_ch-3_p-1',
+        chapterId: 'art-of-war_ch-3',
+        workTitle: '孫子兵法',
+        chapterTitle: '謀攻第三',
+        canonicalText: '是故百戰百勝，非善之善者也；不戰而屈人之兵，善之善者也。故上兵伐謀，其次伐交，其次伐兵，其下攻城。',
+        vernacularText: '因此百戰百勝還算不上最高明的用兵；不須交戰便能使敵人屈服，才是高明中的最高境界。上等用兵在於挫敗敵方謀略，其次是瓦解敵方外交同盟。',
+      },
+      {
+        passageId: 'art-of-war_ch-6_p-1',
+        chapterId: 'art-of-war_ch-6',
+        workTitle: '孫子兵法',
+        chapterTitle: '虛實第六',
+        canonicalText: '夫兵形象水，水之行避高而趨下，兵之形避實而擊虛。水因地而制流，兵因敵而制勝。故兵無常勢，水無常形，能因敵變化而取勝者，謂之神。',
+        vernacularText: '用兵的規律就像水一樣，水流動時避開高處而流向低處，用兵作戰則避開敵人堅實之處而攻擊其空虛薄弱處。能根據敵情變化而取勝的，就叫做用兵如神。',
+      },
+      {
+        passageId: 'jian-zhu-ke-shu_ch-1_p-1',
+        chapterId: 'jian-zhu-ke-shu_ch-1',
+        workTitle: '諫逐客書',
+        chapterTitle: '泰山不讓土壤（李斯）',
+        canonicalText: '是以泰山不讓土壤，故能成其大；河海不擇細流，故能就其深；王者不卻眾庶，故能明其德。',
+        vernacularText: '因此泰山不排斥任何土壤，所以能成就它的高大；河海不捨棄任何細小水流，所以能成就它的深廣；君王不拒絕天下百姓與賢才，所以能彰顯他的盛德。',
+      },
+    ],
+  },
+  {
+    id: 'radio-poetry-chant',
+    title: '詩酒趁年華・唐詩宋詞元曲雅集',
+    subtitle: '吟詠盛唐風骨與兩宋詞境，感受平仄音韻與天地豪情',
+    sealChar: '韻',
+    ambientDefault: 'rain',
+    playlist: [
+      {
+        passageId: 'poem-jiang-jin-jiu',
+        chapterId: 'gu-wen-guan-zhi_ch-143',
+        workTitle: '唐詩名篇',
+        chapterTitle: '將進酒（李白）',
+        canonicalText: '君不見黃河之水天上來，奔流到海不復回。君不見高堂明鏡悲白髮，朝如青絲暮成雪。人生得意須盡歡，莫使金樽空對月。天生我材必有用，千金散盡還復來。',
+        vernacularText: '你難道沒看見黃河之水從天上奔騰而來，波濤滾滾直入大海永不回頭？人生順意時應當盡情歡樂，上天造就我的才幹必定有所用處，縱使千金散盡也必能再次獲得。',
+      },
+      {
+        passageId: 'poem-shui-diao-ge-tou',
+        chapterId: 'gu-wen-guan-zhi_ch-143',
+        workTitle: '宋詞名篇',
+        chapterTitle: '水調歌頭・明月幾時有（蘇軾）',
+        canonicalText: '人有悲歡離合，月有陰晴圓缺，此事古難全。但願人長久，千里共嬋娟。',
+        vernacularText: '人生本就有悲歡離合，月亮也有陰晴圓缺，這樣的事自古以來就難以十全十美。只願彼此平安長久，即便相隔千里也能共享這片美好月光。',
+      },
+      {
+        passageId: 'poem-ding-feng-bo',
+        chapterId: 'gu-wen-guan-zhi_ch-143',
+        workTitle: '宋詞名篇',
+        chapterTitle: '定風波・莫聽穿林打葉聲（蘇軾）',
+        canonicalText: '莫聽穿林打葉聲，何妨吟嘯且徐行。竹杖芒鞋輕勝馬，誰怕？一蓑煙雨任平生。回首向來蕭瑟處，歸去，也無風雨也無晴。',
+        vernacularText: '不用理會穿過樹林敲打樹葉的風雨聲，不妨一邊吟詠長嘯一邊從容漫步。回頭望向剛才風雨蕭瑟的地方，歸去吧，心中既無所謂風雨，也無所謂天晴。',
+      },
+      {
+        passageId: 'poem-tian-jing-sha',
+        chapterId: 'gu-wen-guan-zhi_ch-143',
+        workTitle: '元曲名篇',
+        chapterTitle: '天淨沙・秋思（馬致遠）',
+        canonicalText: '枯藤老樹昏鴉，小橋流水人家，古道西風瘦馬。夕陽西下，斷腸人在天涯。',
+        vernacularText: '枯藤纏繞著老樹，黃昏的烏鴉棲息枝頭；小橋下流水潺潺，溪畔有幾戶人家；古老荒涼的道路上，秋風颯颯吹拂著旅人與瘦馬。夕陽西沉，思鄉斷腸的遊子仍在天涯漂泊。',
+      },
+    ],
+  },
+]
+
 export interface SpeechState {
   isPlaying: boolean
   isPaused: boolean

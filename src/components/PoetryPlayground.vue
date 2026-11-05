@@ -12,7 +12,7 @@ import { speechService } from '@/services/speech'
 
 const gamificationStore = useGamificationStore()
 
-type GameMode = 'feihua' | 'puzzle' | 'quiz'
+type GameMode = 'feihua' | 'puzzle' | 'couplet' | 'quiz'
 const activeMode = ref<GameMode>('feihua')
 
 // ──────────────────────────────────────────────
@@ -317,6 +317,54 @@ const puzzleList: PuzzleItem[] = [
     fullSentence: '青，取之於藍，而青於藍。',
     chunks: ['青，', '取之', '於藍，', '而青', '於藍。'],
     zhuyinHint: 'ㄑㄧㄥ ， ㄑㄩˇ ㄓ ㄩˊ ㄌㄢˊ ， ㄦˊ ㄑㄧㄥ ㄩˊ ㄌㄢˊ 。'
+  },
+  {
+    id: 'puz-10',
+    title: '將進酒',
+    author: '李白',
+    fullSentence: '天生我材必有用，千金散盡還復來。',
+    chunks: ['天生我材', '必有用，', '千金散盡', '還復來。'],
+    zhuyinHint: 'ㄊㄧㄢ ㄕㄥ ㄨㄛˇ ㄘㄞˊ ㄅㄧˋ ㄧㄡˇ ㄩㄥˋ ， ㄑㄧㄢ ㄐㄧㄣ ㄙㄢˋ ㄐㄧㄣˋ ㄏㄨㄢˊ ㄈㄨˋ ㄌㄞˊ 。'
+  },
+  {
+    id: 'puz-11',
+    title: '水調歌頭',
+    author: '蘇軾',
+    fullSentence: '但願人長久，千里共嬋娟。',
+    chunks: ['但願', '人長久，', '千里', '共嬋娟。'],
+    zhuyinHint: 'ㄉㄢˋ ㄩㄢˋ ㄖㄣˊ ㄔㄤˊ ㄐㄧㄡˇ ， ㄑㄧㄢ ㄌㄧˇ ㄍㄨㄥˋ ㄔㄢˊ ㄐㄩㄢ 。'
+  },
+  {
+    id: 'puz-12',
+    title: '山居秋暝',
+    author: '王維',
+    fullSentence: '明月松間照，清泉石上流。',
+    chunks: ['明月', '松間照，', '清泉', '石上流。'],
+    zhuyinHint: 'ㄇㄧㄥˊ ㄩㄝˋ ㄙㄨㄥ ㄐㄧㄢ ㄓㄠˋ ， ㄑㄧㄥ ㄑㄩㄢˊ ㄕˊ ㄕㄤˋ ㄌㄧㄡˊ 。'
+  },
+  {
+    id: 'puz-13',
+    title: '定風波',
+    author: '蘇軾',
+    fullSentence: '竹杖芒鞋輕勝馬，一蓑煙雨任平生。',
+    chunks: ['竹杖芒鞋', '輕勝馬，', '一蓑煙雨', '任平生。'],
+    zhuyinHint: 'ㄓㄨˊ ㄓㄤˋ ㄇㄤˊ ㄒㄧㄝˊ ㄑㄧㄥ ㄕㄥˋ ㄇㄚˇ ， ㄧˋ ㄙㄨㄛ ㄧㄢ ㄩˇ ㄖㄣˋ ㄆㄧㄥˊ ㄕㄥ 。'
+  },
+  {
+    id: 'puz-14',
+    title: '論語・為政',
+    author: '孔子',
+    fullSentence: '學而不思則罔，思而不學則殆。',
+    chunks: ['學而不思', '則罔，', '思而不學', '則殆。'],
+    zhuyinHint: 'ㄒㄩㄝˊ ㄦˊ ㄅㄨˋ ㄙ ㄗㄜˊ ㄨㄤˇ ， ㄙ ㄦˊ ㄅㄨˋ ㄒㄩㄝˊ ㄗㄜˊ ㄉㄞˋ 。'
+  },
+  {
+    id: 'puz-15',
+    title: '愛蓮說',
+    author: '周敦頤',
+    fullSentence: '出淤泥而不染，濯清漣而不妖。',
+    chunks: ['出淤泥', '而不染，', '濯清漣', '而不妖。'],
+    zhuyinHint: 'ㄔㄨ ㄩ ㄋㄧˊ ㄦˊ ㄅㄨˋ ㄖㄢˇ ， ㄓㄨㄛˊ ㄑㄧㄥ ㄌㄧㄢˊ ㄦˊ ㄅㄨˋ ㄧㄠ 。'
   }
 ]
 
@@ -417,8 +465,158 @@ const scholarQuestions: ScholarQuizQuestion[] = [
     answer: 1,
     hint: '「爭渡，爭渡，驚起一灘鷗鷺」！',
     authorAndTitle: '李清照《如夢令》'
+  },
+  {
+    question: '杜甫《春夜喜雨》中寫「隨風潛入夜，潤物細無聲」，形容春雨有什麼特質？',
+    options: ['狂風暴雨雷電交加', '溫柔細膩、默默滋潤萬物', '只下在高山頂上', '帶著寒冷的冰雪'],
+    answer: 1,
+    hint: '「潛入夜」、「細無聲」代表春雨靜悄悄地滋養大地花草！',
+    authorAndTitle: '杜甫《春夜喜雨》'
+  },
+  {
+    question: '王維《九月九日憶山東兄弟》：「遙知兄弟登高處，遍插茱萸少一人」描寫哪個傳統節日？',
+    options: ['元宵節', '端午節', '中秋節', '重陽節'],
+    answer: 3,
+    hint: '農曆九月九日登高、插茱萸、飲菊花酒，正是重陽佳節！',
+    authorAndTitle: '王維《九月九日憶山東兄弟》'
+  },
+  {
+    question: '蘇軾《題西林壁》：「不識廬山真面目，只緣身在此山中」告訴我們什麼哲理？',
+    options: ['廬山終年起霧看不清', '當局者迷，跳出局部才能看清全貌', '爬山一定要帶地圖', '不要在秋天去爬山'],
+    answer: 1,
+    hint: '身處其中往往只見局部，拉開高度與視角方能洞察全局！',
+    authorAndTitle: '蘇軾《題西林壁》'
+  },
+  {
+    question: '王昌齡《出塞》：「但使龍城飛將在，不教胡馬度陰山」中的「飛將」是指漢代哪位名將？',
+    options: ['李廣', '韓信', '張良', '周瑜'],
+    answer: 0,
+    hint: '西漢名將李廣驍勇善射，被匈奴敬畏地稱為「漢之飛將軍」！',
+    authorAndTitle: '王昌齡《出塞》'
+  },
+  {
+    question: '劉禹錫《陋室銘》：「斯是陋室，惟吾德馨」是什麼意思？',
+    options: ['屋裡種滿了香花', '雖然房屋簡陋，但因主人品德高尚而芬芳不俗', '房子太破舊需要翻修', '鄰居都很喜歡來作客'],
+    answer: 1,
+    hint: '「德馨」指品德高尚如蘭草般散發芬芳！',
+    authorAndTitle: '劉禹錫《陋室銘》'
   }
 ]
+
+// ──────────────────────────────────────────────
+// Game 4: 平仄對仗 ‧ 聯句雅集 (Couplet & Antithesis Pairing)
+// ──────────────────────────────────────────────
+interface CoupletChallenge {
+  id: string
+  upperLine: string
+  lowerLine: string
+  authorAndWork: string
+  options: string[]
+  correctIdx: number
+  analysis: string
+}
+
+const COUPLET_BANK: CoupletChallenge[] = [
+  {
+    id: 'cp-1',
+    upperLine: '兩個黃鸝鳴翠柳',
+    lowerLine: '一行白鷺上青天',
+    authorAndWork: '杜甫《絕句》',
+    options: ['一行白鷺上青天', '孤帆遠影碧空盡', '春江水暖鴨先知', '牧童遙指杏花村'],
+    correctIdx: 0,
+    analysis: '「兩個」對「一行」（數量詞），「黃鸝」對「白鷺」（禽鳥），「鳴翠柳」對「上青天」（動賓色彩對仗工整）。'
+  },
+  {
+    id: 'cp-2',
+    upperLine: '無邊落木蕭蕭下',
+    lowerLine: '不盡長江滾滾來',
+    authorAndWork: '杜甫《登高》',
+    options: ['明月松間照清泉', '不盡長江滾滾來', '輕舟已過萬重山', '霜葉紅於二月花'],
+    correctIdx: 1,
+    analysis: '千古律詩名聯！「無邊落木」對「不盡長江」，「蕭蕭下」對「滾滾來」，疊字鏗鏘，氣象雄渾萬千。'
+  },
+  {
+    id: 'cp-3',
+    upperLine: '海內存知己',
+    lowerLine: '天涯若比鄰',
+    authorAndWork: '王勃《送杜少府之任蜀州》',
+    options: ['更上一層樓', '白雲千載空悠悠', '天涯若比鄰', '千里共嬋娟'],
+    correctIdx: 2,
+    analysis: '「海內」對「天涯」（空間），「存知己」對「若比鄰」，一掃離別感傷，盡顯盛唐開闊胸襟。'
+  },
+  {
+    id: 'cp-4',
+    upperLine: '大漠孤煙直',
+    lowerLine: '長河落日圓',
+    authorAndWork: '王維《使至塞上》',
+    options: ['長河落日圓', '春風不度玉門關', '一片孤城萬仞山', '白日依山盡'],
+    correctIdx: 0,
+    analysis: '王國維讚為「千古壯觀」之名句！「大漠」對「長河」，「孤煙直」對「落日圓」，極具幾何構圖之美。'
+  },
+  {
+    id: 'cp-5',
+    upperLine: '落霞與孤鶩齊飛',
+    lowerLine: '秋水共長天一色',
+    authorAndWork: '王勃《滕王閣序》',
+    options: ['漁舟唱晚響窮彭蠡之濱', '秋水共長天一色', '清風徐來水波不興', '不以物喜不以己悲'],
+    correctIdx: 1,
+    analysis: '駢文對仗巔峯！「落霞」對「秋水」，「孤鶩」對「長天」，「齊飛」對「一色」，動靜交融，絢麗無雙。'
+  },
+  {
+    id: 'cp-6',
+    upperLine: '沉舟側畔千帆過',
+    lowerLine: '病樹前頭萬木春',
+    authorAndWork: '劉禹錫《酬樂天揚州初逢席上見贈》',
+    options: ['病樹前頭萬木春', '銅雀春深鎖二喬', '山重水複疑無路', '春蠶到死絲方盡'],
+    correctIdx: 0,
+    analysis: '「沉舟」對「病樹」，「千帆過」對「萬木春」，寓意新事物必將取代舊事物，豁達昂揚。'
+  }
+]
+
+const coupletIdx = ref(0)
+const coupletSelected = ref<number | null>(null)
+const coupletAnswered = ref(false)
+const coupletScore = ref(0)
+const coupletFinished = ref(false)
+
+const currentCouplet = computed(() => COUPLET_BANK[coupletIdx.value])
+
+function selectCoupletOption(idx: number) {
+  if (coupletAnswered.value) return
+  coupletSelected.value = idx
+  coupletAnswered.value = true
+  if (idx === currentCouplet.value.correctIdx) {
+    coupletScore.value += 20
+    playCorrectSound()
+    gamificationStore.addExp(12)
+  } else {
+    playWrongSound()
+  }
+}
+
+function nextCouplet() {
+  if (coupletIdx.value < COUPLET_BANK.length - 1) {
+    coupletIdx.value++
+    coupletSelected.value = null
+    coupletAnswered.value = false
+  } else {
+    coupletFinished.value = true
+    playVictorySound()
+  }
+}
+
+function restartCouplet() {
+  coupletIdx.value = 0
+  coupletSelected.value = null
+  coupletAnswered.value = false
+  coupletScore.value = 0
+  coupletFinished.value = false
+}
+
+function speakCouplet() {
+  const c = currentCouplet.value
+  speechService.speakText(`${c.upperLine}，${c.lowerLine}`)
+}
 
 const currentQuizIdx = ref(0)
 const quizSelectedOption = ref<number | null>(null)
@@ -492,6 +690,13 @@ initPuzzle()
           @click="activeMode = 'puzzle'"
         >
           <span>🧩 碎句成詩拼圖</span>
+        </button>
+        <button
+          class="mode-btn"
+          :class="{ active: activeMode === 'couplet' }"
+          @click="activeMode = 'couplet'"
+        >
+          <span>🎋 平仄聯句雅集</span>
         </button>
         <button
           class="mode-btn"
@@ -640,6 +845,72 @@ initPuzzle()
       </div>
     </div>
 
+    <!-- Mode 4: 平仄對仗・聯句雅集 (Couplet & Antithesis Pairing) -->
+    <div v-if="activeMode === 'couplet'" class="mode-panel couplet-mode">
+      <div v-if="!coupletFinished && currentCouplet" class="quiz-box">
+        <div class="quiz-hud">
+          <span class="quiz-step">名聯對仗 {{ coupletIdx + 1 }} / {{ COUPLET_BANK.length }}</span>
+          <span class="quiz-score">聯句積分: {{ coupletScore }} 分</span>
+        </div>
+
+        <div class="couplet-scroll-banner">
+          <div class="couplet-meta-row">
+            <span class="puzzle-badge">千古名聯</span>
+            <span class="q-source">{{ currentCouplet.authorAndWork }}</span>
+            <button class="voice-btn" @click="speakCouplet">🔊 吟誦名聯</button>
+          </div>
+          <div class="couplet-lines-display font-serif">
+            <div class="couplet-pillar">
+              <span class="pillar-tag">上聯出句</span>
+              <strong class="pillar-text">{{ currentCouplet.upperLine }}</strong>
+            </div>
+            <div class="couplet-pillar lower-pillar">
+              <span class="pillar-tag">下聯對句</span>
+              <strong class="pillar-text">{{ coupletAnswered ? currentCouplet.lowerLine : '【 請選擇最工整之下聯 】' }}</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="options-grid">
+          <button
+            v-for="(opt, idx) in currentCouplet.options"
+            :key="opt"
+            class="option-btn"
+            :class="{
+              selected: coupletSelected === idx,
+              correct: coupletAnswered && idx === currentCouplet.correctIdx,
+              wrong: coupletAnswered && coupletSelected === idx && idx !== currentCouplet.correctIdx
+            }"
+            @click="selectCoupletOption(idx)"
+          >
+            <span class="opt-prefix">{{ ['甲', '乙', '丙', '丁'][idx] }}</span>
+            <span class="opt-text font-serif">{{ opt }}</span>
+          </button>
+        </div>
+
+        <div v-if="coupletAnswered" class="quiz-footer-actions">
+          <div class="hint-callout">
+            <strong>對仗賞析：</strong> {{ currentCouplet.analysis }}
+          </div>
+          <button class="primary-btn next-q-btn" @click="nextCouplet">
+            {{ coupletIdx < COUPLET_BANK.length - 1 ? '下一聯 ➡️' : '查看聯句雅集成果 📜' }}
+          </button>
+        </div>
+      </div>
+
+      <div v-else class="quiz-result-card">
+        <span class="result-seal">🎋</span>
+        <h4 class="result-title">聯句雅集 ‧ 滿座擊節</h4>
+        <div class="result-score-badge">
+          總積分: {{ coupletScore }} 分
+        </div>
+        <p class="result-words">
+          天地萬物皆有對待，詩詞聲律盡在平仄對仗之中！
+        </p>
+        <button class="primary-btn" @click="restartCouplet">再賦一輪名聯 🔄</button>
+      </div>
+    </div>
+
     <!-- Mode 3: 小狀元闖關 (Scholar Quiz) -->
     <div v-if="activeMode === 'quiz'" class="mode-panel quiz-mode">
       <div v-if="!isQuizFinished" class="quiz-box">
@@ -709,12 +980,13 @@ initPuzzle()
 
 <style scoped>
 .playground-container {
-  background: var(--color-surface, #ffffff);
-  border: 1px solid var(--color-border, #e2e8f0);
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border-accent);
   border-radius: 20px;
   padding: 1.5rem;
   margin-bottom: 2rem;
-  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--shadow-md);
+  color: var(--c-text-primary);
 }
 
 .playground-hero {
@@ -723,7 +995,7 @@ initPuzzle()
   gap: 1.25rem;
   margin-bottom: 1.5rem;
   padding-bottom: 1.25rem;
-  border-bottom: 1px dashed var(--color-border, #e2e8f0);
+  border-bottom: 1px dashed var(--c-border);
 }
 
 @media (min-width: 768px) {
@@ -737,10 +1009,10 @@ initPuzzle()
 .pill-badge {
   font-size: 0.75rem;
   font-weight: 700;
-  color: #c05621;
-  background: #fffaf0;
-  border: 1px solid #feebc8;
-  padding: 0.2rem 0.6rem;
+  color: var(--c-gold-light);
+  background: rgba(201, 169, 110, 0.14);
+  border: 1px solid var(--c-border-accent);
+  padding: 0.2rem 0.65rem;
   border-radius: 9999px;
   width: fit-content;
 }
@@ -748,13 +1020,14 @@ initPuzzle()
 .hero-title {
   font-size: 1.35rem;
   font-weight: 800;
-  color: var(--color-text, #1a202c);
+  color: var(--c-text-primary);
   margin: 0.25rem 0 0 0;
+  font-family: var(--font-serif);
 }
 
 .hero-desc {
   font-size: 0.85rem;
-  color: var(--color-text-muted, #718096);
+  color: var(--c-text-secondary);
   margin: 0.25rem 0 0 0;
 }
 
@@ -767,9 +1040,9 @@ initPuzzle()
 .mode-btn {
   padding: 0.55rem 0.9rem;
   border-radius: 12px;
-  border: 1px solid var(--color-border, #e2e8f0);
-  background: var(--color-bg-subtle, #f7fafc);
-  color: var(--color-text-muted, #4a5568);
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-elevated);
+  color: var(--c-text-secondary);
   font-size: 0.875rem;
   font-weight: 700;
   cursor: pointer;
@@ -777,14 +1050,15 @@ initPuzzle()
 }
 
 .mode-btn:hover {
-  background: #edf2f7;
+  border-color: var(--c-gold);
+  color: var(--c-gold-light);
 }
 
 .mode-btn.active {
-  background: #319795;
-  border-color: #319795;
-  color: #ffffff;
-  box-shadow: 0 4px 12px rgba(49, 151, 149, 0.25);
+  background: linear-gradient(135deg, var(--c-gold), #b58d3d);
+  border-color: var(--c-gold);
+  color: #141210;
+  box-shadow: 0 4px 12px rgba(201, 169, 110, 0.25);
 }
 
 /* Game 1: Feihua */
@@ -796,13 +1070,14 @@ initPuzzle()
   margin-bottom: 1rem;
   padding: 0.5rem 0.75rem;
   background: rgba(201, 169, 110, 0.08);
+  border: 1px solid var(--c-border-subtle);
   border-radius: 12px;
 }
 
 .rival-label {
   font-size: 0.8rem;
   font-weight: 700;
-  color: #744210;
+  color: var(--c-gold);
 }
 
 .rival-buttons {
@@ -817,8 +1092,9 @@ initPuzzle()
   gap: 4px;
   padding: 4px 10px;
   border-radius: 20px;
-  border: 1px solid #e2e8f0;
-  background: #ffffff;
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-elevated);
+  color: var(--c-text-secondary);
   cursor: pointer;
   font-size: 0.8rem;
   transition: all 0.15s ease;
@@ -826,10 +1102,10 @@ initPuzzle()
 
 .rival-btn:hover,
 .rival-btn.is-active {
-  border-color: #c9a96e;
-  background: #fffaf0;
-  color: #744210;
-  box-shadow: 0 2px 8px rgba(201, 169, 110, 0.25);
+  border-color: var(--c-gold);
+  background: rgba(201, 169, 110, 0.16);
+  color: var(--c-gold-light);
+  box-shadow: 0 2px 8px rgba(201, 169, 110, 0.2);
 }
 
 .rival-avatar {
@@ -842,7 +1118,7 @@ initPuzzle()
 
 .rival-title {
   font-size: 0.7rem;
-  opacity: 0.7;
+  opacity: 0.75;
 }
 
 .feihua-dialogue-box {
@@ -850,12 +1126,10 @@ initPuzzle()
   align-items: flex-start;
   gap: 0.75rem;
   padding: 0.85rem 1.15rem;
-  background: linear-gradient(135deg, #fffaf0 0%, #fefcbf 100%);
-  border: 1px solid #ecc94b;
+  background: rgba(201, 169, 110, 0.12);
+  border: 1px solid var(--c-gold);
   border-radius: 14px;
   margin-bottom: 1rem;
-  box-shadow: 0 4px 15px rgba(214, 158, 46, 0.15);
-  animation: modal-slide-in 0.25s ease;
 }
 
 .dialogue-avatar {
@@ -870,20 +1144,20 @@ initPuzzle()
 .dialogue-speaker {
   font-size: 0.78rem;
   font-weight: 700;
-  color: #975a16;
+  color: var(--c-gold);
 }
 
 .dialogue-line {
   font-size: 1.1rem;
   font-weight: 800;
-  color: #744210;
+  color: var(--c-text-primary);
   margin: 2px 0;
   letter-spacing: 0.04em;
 }
 
 .dialogue-cite {
   font-size: 0.75rem;
-  color: #b7791f;
+  color: var(--c-text-secondary);
 }
 
 .game-hud {
@@ -910,26 +1184,27 @@ initPuzzle()
 .token-prefix {
   font-size: 0.875rem;
   font-weight: 600;
-  color: #4a5568;
+  color: var(--c-text-secondary);
 }
 
 .token-char {
-  font-size: 2rem;
+  font-size: 1.85rem;
   font-weight: 900;
-  color: #c53030;
-  background: #fff5f5;
-  border: 2px solid #feb2b2;
+  color: var(--c-gold-light);
+  background: rgba(185, 103, 77, 0.2);
+  border: 2px solid var(--c-gold);
   width: 2.75rem;
   height: 2.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 12px;
+  font-family: var(--font-serif);
 }
 
 .token-hint {
   font-size: 0.85rem;
-  color: #718096;
+  color: var(--c-text-muted);
 }
 
 .stats-bar {
@@ -942,22 +1217,20 @@ initPuzzle()
   font-weight: 700;
   padding: 0.35rem 0.75rem;
   border-radius: 9999px;
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-elevated);
+  color: var(--c-text-secondary);
 }
 
 .stat-pill.score {
-  background: #ebf8ff;
-  color: #2b6cb0;
+  border-color: var(--c-border-accent);
+  color: var(--c-gold-light);
 }
 
 .stat-pill.combo {
-  background: #fffaf0;
-  color: #c05621;
-  animation: pulse 1s infinite;
-}
-
-.stat-pill.round {
-  background: #edf2f7;
-  color: #4a5568;
+  background: rgba(185, 103, 77, 0.2);
+  border-color: #b9674d;
+  color: var(--c-gold-light);
 }
 
 .feihua-cards-grid {
@@ -973,8 +1246,8 @@ initPuzzle()
 }
 
 .feihua-card {
-  background: var(--color-bg-subtle, #f8fafc);
-  border: 2px solid var(--color-border, #e2e8f0);
+  background: var(--c-bg-elevated);
+  border: 1.5px solid var(--c-border);
   border-radius: 16px;
   padding: 1rem;
   cursor: pointer;
@@ -983,48 +1256,48 @@ initPuzzle()
 }
 
 .feihua-card:hover:not(.selected) {
-  border-color: #319795;
+  border-color: var(--c-gold);
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
 }
 
 .feihua-card.correct {
-  background: #f0fff4;
-  border-color: #48bb78;
+  background: rgba(91, 138, 114, 0.16);
+  border-color: #5b8a72;
 }
 
 .feihua-card.wrong {
-  background: #fff5f5;
-  border-color: #f56565;
-  opacity: 0.6;
+  background: rgba(184, 94, 85, 0.14);
+  border-color: #b85e55;
+  opacity: 0.65;
 }
 
 .card-status-icon {
   font-size: 0.75rem;
   font-weight: 700;
-  color: #718096;
+  color: var(--c-text-muted);
   margin-bottom: 0.4rem;
 }
 
 .correct .card-status-icon {
-  color: #276749;
+  color: #6ea286;
 }
 
 .wrong .card-status-icon {
-  color: #9b2c2c;
+  color: #e58f7a;
 }
 
 .card-line {
   font-size: 1.05rem;
   font-weight: 700;
-  color: var(--color-text, #1a202c);
+  color: var(--c-text-primary);
   margin: 0 0 0.5rem 0;
-  line-height: 1.4;
+  line-height: 1.45;
+  font-family: var(--font-serif);
 }
 
 .card-author {
   font-size: 0.75rem;
-  color: #718096;
+  color: var(--c-text-muted);
 }
 
 .game-over-box {
@@ -1041,19 +1314,19 @@ initPuzzle()
 .over-title {
   font-size: 1.4rem;
   font-weight: 800;
-  color: var(--color-text, #1a202c);
+  color: var(--c-text-primary);
   margin: 0 0 0.5rem 0;
 }
 
 .over-sub {
   font-size: 0.95rem;
-  color: #4a5568;
+  color: var(--c-text-secondary);
   margin-bottom: 1.25rem;
 }
 
 .primary-btn {
-  background: #319795;
-  color: #ffffff;
+  background: linear-gradient(135deg, var(--c-gold), #b58d3d);
+  color: #141210;
   border: none;
   font-weight: 700;
   font-size: 0.95rem;
@@ -1064,7 +1337,7 @@ initPuzzle()
 }
 
 .primary-btn:hover {
-  background: #285e61;
+  filter: brightness(1.08);
 }
 
 /* Game 2: Puzzle */
@@ -1078,9 +1351,9 @@ initPuzzle()
 .puzzle-badge {
   font-size: 0.725rem;
   font-weight: 700;
-  color: #2b6cb0;
-  background: #ebf8ff;
-  padding: 0.15rem 0.5rem;
+  color: var(--c-gold-light);
+  background: rgba(201, 169, 110, 0.16);
+  padding: 0.15rem 0.55rem;
   border-radius: 6px;
 }
 
@@ -1088,22 +1361,23 @@ initPuzzle()
   font-size: 1.15rem;
   font-weight: 800;
   margin: 0.2rem 0 0 0;
+  color: var(--c-text-primary);
 }
 
 .voice-btn {
-  background: #edf2f7;
-  border: 1px solid #cbd5e0;
+  background: var(--c-bg-elevated);
+  border: 1px solid var(--c-border-accent);
   border-radius: 10px;
   padding: 0.4rem 0.75rem;
   font-size: 0.8rem;
   font-weight: 600;
-  color: #2d3748;
+  color: var(--c-gold-light);
   cursor: pointer;
 }
 
 .zhuyin-box {
-  background: #f7fafc;
-  border-left: 3px solid #4299e1;
+  background: rgba(201, 169, 110, 0.06);
+  border-left: 3px solid var(--c-gold);
   padding: 0.5rem 0.75rem;
   border-radius: 0 8px 8px 0;
   margin-bottom: 1.25rem;
@@ -1111,18 +1385,18 @@ initPuzzle()
 }
 
 .zhuyin-label {
-  color: #718096;
+  color: var(--c-text-muted);
   font-weight: 600;
 }
 
 .zhuyin-text {
-  color: #2b6cb0;
+  color: var(--c-gold-light);
   font-family: monospace;
 }
 
 .answer-zone {
-  background: #f8fafc;
-  border: 2px dashed #cbd5e0;
+  background: var(--c-bg-elevated);
+  border: 2px dashed var(--c-border-accent);
   border-radius: 16px;
   padding: 1.25rem;
   min-height: 90px;
@@ -1131,15 +1405,15 @@ initPuzzle()
 }
 
 .answer-zone.success {
-  background: #f0fff4;
-  border-color: #68d391;
+  background: rgba(91, 138, 114, 0.14);
+  border-color: #5b8a72;
   border-style: solid;
 }
 
 .zone-label {
   font-size: 0.75rem;
   font-weight: 600;
-  color: #718096;
+  color: var(--c-text-muted);
   margin-bottom: 0.6rem;
 }
 
@@ -1150,32 +1424,32 @@ initPuzzle()
 }
 
 .chunk-btn {
-  background: #ffffff;
-  border: 1.5px solid #cbd5e0;
+  background: var(--c-bg-card);
+  border: 1.5px solid var(--c-border-accent);
   border-radius: 10px;
   padding: 0.5rem 1rem;
   font-size: 1.05rem;
   font-weight: 700;
-  color: #2d3748;
+  color: var(--c-text-primary);
+  font-family: var(--font-serif);
   cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transition: all 0.2s ease;
 }
 
 .chunk-btn:hover {
   transform: translateY(-2px);
-  border-color: #319795;
+  border-color: var(--c-gold);
 }
 
 .chunk-btn.placed {
-  background: #ebf8ff;
-  border-color: #63b3ed;
-  color: #2b6cb0;
+  background: rgba(201, 169, 110, 0.18);
+  border-color: var(--c-gold);
+  color: var(--c-gold-light);
 }
 
 .empty-hint {
   font-size: 0.875rem;
-  color: #a0aec0;
+  color: var(--c-text-muted);
   font-style: italic;
   align-self: center;
 }
@@ -1185,8 +1459,8 @@ initPuzzle()
 }
 
 .puzzle-success-banner {
-  background: #f0fff4;
-  border: 1px solid #9ae6b4;
+  background: rgba(91, 138, 114, 0.16);
+  border: 1px solid #5b8a72;
   border-radius: 14px;
   padding: 1rem 1.25rem;
   display: flex;
@@ -1202,17 +1476,18 @@ initPuzzle()
 
 .success-text strong {
   font-size: 1rem;
-  color: #22543d;
+  color: var(--c-text-primary);
 }
 
 .success-text p {
-  font-size: 0.9rem;
-  color: #276749;
+  font-size: 0.95rem;
+  color: var(--c-gold-light);
   margin: 0.2rem 0 0 0;
+  font-family: var(--font-serif);
 }
 
 .next-btn {
-  background: #38a169;
+  background: #5b8a72;
   color: #ffffff;
   border: none;
   font-weight: 700;
@@ -1221,13 +1496,63 @@ initPuzzle()
   cursor: pointer;
 }
 
+/* Couplet Mode */
+.couplet-scroll-banner {
+  padding: 1rem 1.25rem;
+  border-radius: 14px;
+  border: 1px solid var(--c-border-accent);
+  background: rgba(201, 169, 110, 0.06);
+  margin-bottom: 1.25rem;
+}
+
+.couplet-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 0.85rem;
+}
+
+.couplet-lines-display {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+@media (min-width: 640px) {
+  .couplet-lines-display {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.couplet-pillar {
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-elevated);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.pillar-tag {
+  font-size: 0.72rem;
+  color: var(--c-gold);
+}
+
+.pillar-text {
+  font-size: 1.2rem;
+  color: var(--c-text-primary);
+  letter-spacing: 0.08em;
+}
+
 /* Game 3: Scholar Quiz */
 .quiz-hud {
   display: flex;
   justify-content: space-between;
   font-size: 0.825rem;
   font-weight: 700;
-  color: #718096;
+  color: var(--c-text-muted);
   margin-bottom: 1rem;
 }
 
@@ -1238,14 +1563,14 @@ initPuzzle()
 .q-title {
   font-size: 1.15rem;
   font-weight: 800;
-  color: var(--color-text, #1a202c);
+  color: var(--c-text-primary);
   margin: 0 0 0.4rem 0;
   line-height: 1.45;
 }
 
 .q-source {
   font-size: 0.775rem;
-  color: #a0aec0;
+  color: var(--c-gold);
 }
 
 .options-grid {
@@ -1267,45 +1592,45 @@ initPuzzle()
   gap: 0.75rem;
   padding: 0.85rem 1rem;
   border-radius: 14px;
-  border: 1.5px solid var(--color-border, #e2e8f0);
-  background: var(--color-bg-subtle, #f8fafc);
+  border: 1.5px solid var(--c-border);
+  background: var(--c-bg-elevated);
   cursor: pointer;
   text-align: left;
   transition: all 0.2s ease;
 }
 
 .option-btn:hover:not(.selected) {
-  border-color: #4299e1;
-  background: #ebf8ff;
+  border-color: var(--c-gold);
+  background: rgba(201, 169, 110, 0.12);
 }
 
 .option-btn.correct {
-  background: #f0fff4;
-  border-color: #48bb78;
+  background: rgba(91, 138, 114, 0.18);
+  border-color: #5b8a72;
 }
 
 .option-btn.wrong {
-  background: #fff5f5;
-  border-color: #f56565;
+  background: rgba(184, 94, 85, 0.15);
+  border-color: #b85e55;
 }
 
 .opt-prefix {
   width: 1.75rem;
   height: 1.75rem;
-  background: #edf2f7;
+  background: rgba(201, 169, 110, 0.16);
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
   font-size: 0.8rem;
-  color: #4a5568;
+  color: var(--c-gold);
 }
 
 .opt-text {
   font-size: 0.95rem;
   font-weight: 600;
-  color: var(--color-text, #2d3748);
+  color: var(--c-text-primary);
 }
 
 .quiz-footer-actions {
@@ -1317,7 +1642,7 @@ initPuzzle()
 .hint-btn {
   background: transparent;
   border: none;
-  color: #d69e2e;
+  color: var(--c-gold);
   font-size: 0.825rem;
   font-weight: 600;
   cursor: pointer;
@@ -1325,12 +1650,12 @@ initPuzzle()
 }
 
 .hint-callout {
-  background: #fffaf0;
-  border: 1px solid #feebc8;
+  background: rgba(201, 169, 110, 0.1);
+  border: 1px solid var(--c-border-accent);
   border-radius: 10px;
   padding: 0.6rem 0.85rem;
-  font-size: 0.825rem;
-  color: #744210;
+  font-size: 0.85rem;
+  color: var(--c-text-primary);
 }
 
 .quiz-result-card {
@@ -1347,15 +1672,16 @@ initPuzzle()
 .result-title {
   font-size: 1.5rem;
   font-weight: 900;
-  color: #c53030;
+  color: var(--c-gold-light);
   margin: 0 0 0.5rem 0;
+  font-family: var(--font-serif);
 }
 
 .result-score-badge {
   display: inline-block;
-  background: #fff5f5;
-  border: 1.5px solid #feb2b2;
-  color: #c53030;
+  background: rgba(201, 169, 110, 0.15);
+  border: 1.5px solid var(--c-gold);
+  color: var(--c-gold-light);
   font-size: 1.1rem;
   font-weight: 800;
   padding: 0.4rem 1.25rem;
@@ -1365,7 +1691,7 @@ initPuzzle()
 
 .result-words {
   font-size: 0.95rem;
-  color: #4a5568;
+  color: var(--c-text-secondary);
   max-width: 480px;
   margin: 0 auto 1.5rem auto;
   line-height: 1.5;

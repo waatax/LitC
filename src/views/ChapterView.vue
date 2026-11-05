@@ -72,8 +72,10 @@ type ReadingMode = 'clean' | 'assisted'
 const readingMode = ref<ReadingMode>('assisted')
 import { storeToRefs } from 'pinia'
 import { useAppStore } from '@/stores/app'
+import { useGamificationStore } from '@/stores/gamification'
 
 const appStore = useAppStore()
+const gamificationStore = useGamificationStore()
 const { isVertical } = storeToRefs(appStore)
 
 // Classical Quote Rubbing Card State
@@ -140,6 +142,18 @@ async function loadChapter() {
   }
   passageSentences.value = sentenceMap
   checkTargetHighlight()
+
+  // Record to reading history ("書齋案頭")
+  if (chapter.value && work.value) {
+    appStore.recordChapterRead({
+      chapterId: chapter.value.id,
+      chapterTitle: chapter.value.title,
+      workId: work.value.id,
+      workTitle: work.value.title,
+      schoolId: work.value.schoolId,
+    })
+  }
+  resetMiniQuiz()
 
   // Intelligent prefetching: preload next chapter during idle time
   if (typeof window !== 'undefined') {
@@ -328,6 +342,157 @@ const schoolAmbientStyle = computed(() => {
   const color = SCHOOL_COLORS[work.value.schoolId] || '#c9a96e'
   return { '--school-ambient-color': color } as Record<string, string>
 })
+
+// ── 讀後三省・篇章果效微挑戰 (In-Chapter Comprehension & Listening Mini-Game) ──
+interface ChapterMiniQuestion {
+  id: string
+  typeLabel: string
+  prompt: string
+  quoteOrAudioText: string
+  isAudioQuestion?: boolean
+  options: string[]
+  correctIndex: number
+  explanation: string
+}
+
+const miniQuizCurrentIdx = ref(0)
+const miniQuizSelected = ref<number | null>(null)
+const miniQuizSubmitted = ref(false)
+const miniQuizScore = ref(0)
+const miniQuizFinished = ref(false)
+
+function resetMiniQuiz() {
+  miniQuizCurrentIdx.value = 0
+  miniQuizSelected.value = null
+  miniQuizSubmitted.value = false
+  miniQuizScore.value = 0
+  miniQuizFinished.value = false
+}
+
+const chapterMiniQuestions = computed<ChapterMiniQuestion[]>(() => {
+  if (!chapter.value || !work.value || passages.value.length === 0) return []
+  const qs: ChapterMiniQuestion[] = []
+  const firstP = passages.value[0]
+  const secondP = passages.value[1] || firstP
+  const thirdP = passages.value[2] || secondP
+
+  // Question 1: 聽音辨句・句意填空 (Cloze & Audio Listening)
+  const clauses = firstP.canonicalText
+    .split(/[，。；！？：、「」『』]/)
+    .map(s => s.trim())
+    .filter(s => s.length >= 3 && s.length <= 14)
+
+  const targetClause = clauses[0] || firstP.canonicalText.slice(0, 6)
+  const maskedQuote = firstP.canonicalText.replace(targetClause, '【 ＿＿＿ 】')
+  const distractors1 = [
+    '知止而後有定',
+    '道常無為而無不為',
+    '不以物喜不以己悲',
+    '君子博學而日參省乎己',
+  ].filter(d => d !== targetClause).slice(0, 3)
+
+  const opts1 = [targetClause, ...distractors1]
+  // Deterministic shuffle based on chapter id length
+  const shift1 = chapter.value.id.length % 4
+  const rotated1 = opts1.slice(shift1).concat(opts1.slice(0, shift1))
+  const ans1 = rotated1.indexOf(targetClause)
+
+  qs.push({
+    id: `${chapter.value.id}-mq-1`,
+    typeLabel: '第一省 ‧ 聽音辨句與文脈填空',
+    prompt: '請點擊聆聽或閱讀以下本章經文，選出空格處最精確的原典文句：',
+    quoteOrAudioText: maskedQuote.slice(0, 95) + (maskedQuote.length > 95 ? '…' : ''),
+    isAudioQuestion: true,
+    options: rotated1,
+    correctIndex: ans1 >= 0 ? ans1 : 0,
+    explanation: `原典出處為：「${firstP.canonicalText.slice(0, 64)}」。透過聽音與上下文脈絡，可深刻記憶「${targetClause}」之句法節奏。`,
+  })
+
+  // Question 2: 今譯印證・白話義理對應 (Translation Comprehension)
+  const trans2 = passageAid(secondP)?.translation || '闡明先賢修身治世與順應大道之根本義理。'
+  const cleanTrans = trans2.slice(0, 56) + (trans2.length > 56 ? '…' : '')
+  const wrongTrans = [
+    '主張以嚴刑峻法與連坐制度震懾百官，廢除一切禮樂教化。',
+    '描寫邊塞將士於大漠風沙中戍守孤城、思念故鄉的蒼涼心境。',
+    '記載古代天文星象與四時節氣農事曆法的推算規則。',
+  ]
+  const opts2 = [cleanTrans, ...wrongTrans]
+  const shift2 = (chapter.value.order + 1) % 4
+  const rotated2 = opts2.slice(shift2).concat(opts2.slice(0, shift2))
+  const ans2 = rotated2.indexOf(cleanTrans)
+
+  qs.push({
+    id: `${chapter.value.id}-mq-2`,
+    typeLabel: '第二省 ‧ 文白義理對照印證',
+    prompt: '下列何項白話通譯，最符合本段經文之核心旨趣？',
+    quoteOrAudioText: secondP.canonicalText.slice(0, 88) + (secondP.canonicalText.length > 88 ? '…' : ''),
+    options: rotated2,
+    correctIndex: ans2 >= 0 ? ans2 : 0,
+    explanation: `本段今譯為：「${trans2.slice(0, 90)}」。理解文言字詞與今譯的對應，能讓古文義理豁然貫通。`,
+  })
+
+  // Question 3: 思想溯源・學派與微言大義 (School & Philosophical Essence)
+  const desc = workDesc.value
+  const correctInsight = passageAid(thirdP)?.analysis
+    ? passageAid(thirdP).analysis.slice(0, 58) + (passageAid(thirdP).analysis.length > 58 ? '…' : '')
+    : (desc?.significance?.slice(0, 58) || `展現《${work.value.title}》一脈相承的經典智慧與人文精神。`)
+
+  const wrongInsights = [
+    '強調萬物皆由偶然巧合而生，否定任何道德修養與規律的可行性。',
+    '純粹記載市井小說奇聞軼事，不具任何哲學思辨與歷史教化意涵。',
+    '倡導唯利是圖的短視競爭，主張以詐術取代誠信與仁義。',
+  ]
+  const opts3 = [correctInsight, ...wrongInsights]
+  const shift3 = (chapter.value.order + 2) % 4
+  const rotated3 = opts3.slice(shift3).concat(opts3.slice(0, shift3))
+  const ans3 = rotated3.indexOf(correctInsight)
+
+  qs.push({
+    id: `${chapter.value.id}-mq-3`,
+    typeLabel: '第三省 ‧ 微言大義與思想堂奧',
+    prompt: `研讀《${work.value.title}・${chapter.value.title}》後，下列何者最契合其深層思想解析？`,
+    quoteOrAudioText: thirdP.canonicalText.slice(0, 80) + (thirdP.canonicalText.length > 80 ? '…' : ''),
+    options: rotated3,
+    correctIndex: ans3 >= 0 ? ans3 : 0,
+    explanation: `深度解析：${correctInsight}`,
+  })
+
+  return qs
+})
+
+const currentMiniQ = computed(() => chapterMiniQuestions.value[miniQuizCurrentIdx.value] || null)
+
+function playMiniQuizAudio() {
+  if (!passages.value[0]) return
+  playPassage(passages.value[0], 'canonical')
+}
+
+function selectMiniOption(idx: number) {
+  if (miniQuizSubmitted.value) return
+  miniQuizSelected.value = idx
+}
+
+function submitMiniAnswer() {
+  if (miniQuizSelected.value === null || !currentMiniQ.value) return
+  miniQuizSubmitted.value = true
+  if (miniQuizSelected.value === currentMiniQ.value.correctIndex) {
+    miniQuizScore.value += 1
+  }
+}
+
+function nextMiniQuestion() {
+  if (miniQuizCurrentIdx.value < chapterMiniQuestions.value.length - 1) {
+    miniQuizCurrentIdx.value += 1
+    miniQuizSelected.value = null
+    miniQuizSubmitted.value = false
+  } else {
+    miniQuizFinished.value = true
+    if (chapter.value) {
+      appStore.markChapterCompleted(chapter.value.id)
+    }
+    gamificationStore.addExp(20 + miniQuizScore.value * 10)
+  }
+}
 </script>
 
 <template>
@@ -355,6 +520,17 @@ const schoolAmbientStyle = computed(() => {
           </span>
           <span class="meta-sep">·</span>
           <span class="meta-detail">約 {{ chapter.estimatedMinutes }} 分鐘</span>
+          <button
+            type="button"
+            class="ch-bookmark-btn"
+            :class="{ 'is-bookmarked': appStore.isChapterBookmarked(chapter.id) }"
+            @click="appStore.toggleChapterBookmark(chapter.id)"
+          >
+            {{ appStore.isChapterBookmarked(chapter.id) ? '★ 已收藏篇章' : '☆ 收藏本篇' }}
+          </button>
+          <span v-if="appStore.isChapterCompleted(chapter.id)" class="ch-completed-seal">
+            ✓ 已印證圓滿
+          </span>
         </div>
 
         <!-- Chapter Core Knowledge Points Strip -->
@@ -691,6 +867,102 @@ const schoolAmbientStyle = computed(() => {
           </div>
         </div>
       </div>
+
+      <!-- 讀後三省 ‧ 篇章果效微挑戰 (In-Chapter Comprehension & Listening Verification Mini-Game) -->
+      <section v-if="chapterMiniQuestions.length > 0 && !isLostChapter" class="chapter-mini-challenge glass-card">
+        <div class="cmc-header">
+          <div class="cmc-title-group">
+            <RedSeal text="三省" :size="32" :animate="false" />
+            <div>
+              <span class="cmc-eyebrow font-serif">讀後三省 ‧ 即時印證學習果效</span>
+              <h3 class="cmc-title font-serif">《{{ work.title }}・{{ chapter.title }}》微挑戰</h3>
+            </div>
+          </div>
+          <div class="cmc-progress-pills">
+            <span
+              v-for="(mq, idx) in chapterMiniQuestions"
+              :key="mq.id"
+              class="cmc-step-dot"
+              :class="{
+                'is-active': !miniQuizFinished && idx === miniQuizCurrentIdx,
+                'is-done': miniQuizFinished || idx < miniQuizCurrentIdx,
+              }"
+            >
+              省{{ ['一', '二', '三'][idx] }}
+            </span>
+          </div>
+        </div>
+
+        <div v-if="!miniQuizFinished && currentMiniQ" class="cmc-body">
+          <div class="cmc-q-meta">
+            <span class="cmc-type-badge">{{ currentMiniQ.typeLabel }}</span>
+            <button
+              v-if="currentMiniQ.isAudioQuestion"
+              type="button"
+              class="cmc-listen-btn"
+              @click="playMiniQuizAudio"
+            >
+              <ClassicalIcon name="audio-playing" :size="13" />
+              <span>聆聽本段原音提示</span>
+            </button>
+          </div>
+
+          <p class="cmc-prompt font-serif">{{ currentMiniQ.prompt }}</p>
+          <blockquote class="cmc-quote font-serif">{{ currentMiniQ.quoteOrAudioText }}</blockquote>
+
+          <div class="cmc-options">
+            <button
+              v-for="(opt, oIdx) in currentMiniQ.options"
+              :key="oIdx"
+              type="button"
+              class="cmc-opt-btn"
+              :class="{
+                'is-selected': miniQuizSelected === oIdx,
+                'is-correct': miniQuizSubmitted && oIdx === currentMiniQ.correctIndex,
+                'is-wrong': miniQuizSubmitted && miniQuizSelected === oIdx && oIdx !== currentMiniQ.correctIndex,
+              }"
+              :disabled="miniQuizSubmitted"
+              @click="selectMiniOption(oIdx)"
+            >
+              <span class="opt-letter">{{ ['甲', '乙', '丙', '丁'][oIdx] }}</span>
+              <span class="opt-text">{{ opt }}</span>
+            </button>
+          </div>
+
+          <div class="cmc-footer">
+            <button
+              v-if="!miniQuizSubmitted"
+              type="button"
+              class="btn btn-primary cmc-submit-btn"
+              :disabled="miniQuizSelected === null"
+              @click="submitMiniAnswer"
+            >
+              印證答案
+            </button>
+            <div v-else class="cmc-feedback-box" :class="{ 'is-correct': miniQuizSelected === currentMiniQ.correctIndex }">
+              <div class="cmc-feedback-text">
+                <strong>{{ miniQuizSelected === currentMiniQ.correctIndex ? '✨ 洞若觀火！深得經文三昧。' : '💡 溫故知新，請參照以下精析：' }}</strong>
+                <p>{{ currentMiniQ.explanation }}</p>
+              </div>
+              <button type="button" class="btn btn-primary cmc-next-btn" @click="nextMiniQuestion">
+                {{ miniQuizCurrentIdx < chapterMiniQuestions.length - 1 ? '下一省 →' : '完成篇章印證 ‧ 領取修為' }}
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div v-else class="cmc-complete">
+          <div class="cmc-complete-seal">
+            <RedSeal text="圓滿" :size="52" :animate="true" />
+          </div>
+          <h4 class="font-serif">恭喜完成《{{ chapter.title }}》讀後三省印證！</h4>
+          <p>本次印證答對 <strong>{{ miniQuizScore }} / {{ chapterMiniQuestions.length }}</strong> 題，獲得 <strong>+{{ 20 + miniQuizScore * 10 }}</strong> 點文學修為，並已蓋下篇章圓滿朱印。</p>
+          <div class="cmc-complete-actions">
+            <button type="button" class="btn btn-ghost" @click="resetMiniQuiz">重新挑戰三省</button>
+            <button type="button" class="btn btn-primary" @click="goToMemorize">進入階梯背誦鞏固記憶 →</button>
+          </div>
+        </div>
+      </section>
 
       <!-- Chapter Navigation -->
       <div v-if="prevChapter || nextChapter" class="chapter-navigation">
@@ -2145,5 +2417,255 @@ const schoolAmbientStyle = computed(() => {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
   pointer-events: none;
   z-index: 10;
+}
+
+/* ── Chapter Bookmark & Post-Reading Mini Challenge ── */
+.ch-bookmark-btn {
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-card);
+  color: var(--c-text-secondary);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.ch-bookmark-btn:hover,
+.ch-bookmark-btn.is-bookmarked {
+  border-color: var(--c-gold);
+  color: var(--c-gold-light);
+  background: rgba(201, 169, 110, 0.15);
+}
+
+.ch-completed-seal {
+  padding: 2px 9px;
+  border-radius: var(--radius-full);
+  background: rgba(91, 138, 114, 0.16);
+  border: 1px solid rgba(91, 138, 114, 0.4);
+  color: #6ea286;
+  font-size: 0.74rem;
+  font-weight: 600;
+}
+
+.chapter-mini-challenge {
+  margin-top: var(--sp-8);
+  padding: var(--sp-6);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--c-border-accent);
+  background: linear-gradient(145deg, rgba(201, 169, 110, 0.06), rgba(91, 138, 114, 0.03));
+}
+
+.cmc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-bottom: 14px;
+  border-bottom: 1px dashed var(--c-border-subtle);
+  margin-bottom: 18px;
+}
+
+.cmc-title-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cmc-eyebrow {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--c-gold);
+  letter-spacing: 0.08em;
+}
+
+.cmc-title {
+  margin: 2px 0 0;
+  font-size: 1.2rem;
+  color: var(--c-text-primary);
+}
+
+.cmc-progress-pills {
+  display: flex;
+  gap: 8px;
+}
+
+.cmc-step-dot {
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--c-border);
+  font-size: 0.75rem;
+  color: var(--c-text-muted);
+}
+
+.cmc-step-dot.is-active {
+  border-color: var(--c-gold);
+  background: rgba(201, 169, 110, 0.16);
+  color: var(--c-gold-light);
+  font-weight: 700;
+}
+
+.cmc-step-dot.is-done {
+  border-color: #5b8a72;
+  background: rgba(91, 138, 114, 0.15);
+  color: #6ea286;
+}
+
+.cmc-q-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.cmc-type-badge {
+  font-size: 0.76rem;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  background: rgba(201, 169, 110, 0.14);
+  color: var(--c-gold-light);
+  font-weight: 600;
+}
+
+.cmc-listen-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--c-gold);
+  background: rgba(201, 169, 110, 0.12);
+  color: var(--c-gold-light);
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.cmc-prompt {
+  font-size: 1.02rem;
+  color: var(--c-text-primary);
+  margin: 0 0 10px;
+}
+
+.cmc-quote {
+  margin: 0 0 16px;
+  padding: 12px 16px;
+  border-left: 3px solid var(--c-gold);
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 0 8px 8px 0;
+  color: var(--c-text-primary);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.cmc-options {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.cmc-opt-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+  padding: 11px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-card);
+  color: var(--c-text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cmc-opt-btn:hover:not(:disabled),
+.cmc-opt-btn.is-selected {
+  border-color: var(--c-gold);
+  background: rgba(201, 169, 110, 0.1);
+  color: var(--c-text-primary);
+}
+
+.cmc-opt-btn.is-correct {
+  border-color: #5b8a72;
+  background: rgba(91, 138, 114, 0.16);
+  color: var(--c-text-primary);
+}
+
+.cmc-opt-btn.is-wrong {
+  border-color: #b85e55;
+  background: rgba(184, 94, 85, 0.14);
+}
+
+.opt-letter {
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  background: rgba(201, 169, 110, 0.15);
+  color: var(--c-gold);
+  display: grid;
+  place-items: center;
+  font-family: var(--font-serif);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.cmc-feedback-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: rgba(184, 94, 85, 0.1);
+  border: 1px solid rgba(184, 94, 85, 0.3);
+}
+
+.cmc-feedback-box.is-correct {
+  background: rgba(91, 138, 114, 0.12);
+  border-color: rgba(91, 138, 114, 0.35);
+}
+
+.cmc-feedback-text {
+  flex: 1;
+  min-width: 240px;
+}
+
+.cmc-feedback-text p {
+  margin: 4px 0 0;
+  font-size: 0.85rem;
+  color: var(--c-text-secondary);
+}
+
+.cmc-complete {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.cmc-complete-seal {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.cmc-complete h4 {
+  font-size: 1.25rem;
+  margin: 0 0 8px;
+  color: var(--c-gold-light);
+}
+
+.cmc-complete p {
+  font-size: 0.9rem;
+  color: var(--c-text-secondary);
+  margin: 0 0 18px;
+}
+
+.cmc-complete-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 </style>
